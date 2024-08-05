@@ -1,6 +1,7 @@
 from bitarray import bitarray
+import typing
 
-def decompress_bzh(in_file):
+def decompress_bzh(in_file:typing.BinaryIO) -> typing.ByteString:
 
     class FlagStream:
         def __init__(self, flag_source):
@@ -93,5 +94,132 @@ def decompress_bzh(in_file):
 
     if in_file.tell() != file_size:
         raise Exception(f"Ended at byte {in_file.tell()}, which does not match the expected file size {file_size})")
+
+    return output
+
+
+def compress_bzh(input:typing.ByteString) -> typing.ByteString:
+    class FlagStreamWriter:
+        def __init__(self, output):
+            self._flag_offset = len(output)
+            self._flags_size = 1
+            self._flag_shift = 0
+            output += b"\x00"
+
+        def write_flag(self, output, flag):
+
+            if self._flag_shift >= self._flags_size * 8:
+                self._flag_shift = 0
+                self._flags_size = 2
+                self._flag_offset = len(output)
+                output += b"\x00\x00"
+
+            temp = int.from_bytes(output[self._flag_offset:self._flag_offset + self._flags_size], byteorder='little')
+            if flag != 0:
+                temp |= 1 << self._flag_shift
+            output[self._flag_offset:self._flag_offset + self._flags_size] = temp.to_bytes(self._flags_size, byteorder='little')
+
+            self._flag_shift += 1
+
+        def write_int(self, output, value, size):
+            if value >= 2 ** size:
+                raise Exception(f"Cannot encode value {value} using {size} bits.")
+
+            for bit_index in range(size - 1, -1, -1):
+                bit = 0 if value & (1 << bit_index) == 0 else 1
+                self.write_flag(output, bit)
+
+    input_processed = bytearray()
+    output = bytearray()
+
+    flag_writer = FlagStreamWriter(output)
+
+    while len(input) > 0:
+
+        best_length = 0
+        best_start_offset = None
+        for duplicate_scan_start_offset in range(1, min(len(input_processed), 8192)):
+            candidate = input_processed[-duplicate_scan_start_offset:]
+            match_count = 0
+            for i, o in zip(candidate, input):
+                if match_count > 255 + 14:
+                    break
+                elif i == o:
+                    match_count += 1
+                else:
+                    break
+            if match_count > best_length:
+                best_length = match_count
+                best_start_offset = duplicate_scan_start_offset
+
+        repeat_count = 0
+        for i in input:
+            if i == input[0]:
+                repeat_count += 1
+            else:
+                break
+
+        if repeat_count >= 14 and repeat_count >= best_length:
+            flag_writer.write_flag(output, 1)
+            flag_writer.write_flag(output, 1)
+            flag_writer.write_int(output, 0, 5)
+            output.append(1)
+            if repeat_count >= 16 + 14:
+                flag_writer.write_flag(output, 1)
+                value_to_write = repeat_count - 14
+                flag_writer.write_int(output, value_to_write >> 8, 4)
+                output.append(value_to_write % 256)
+            else:
+                flag_writer.write_flag(output, 0)
+                flag_writer.write_int(output, repeat_count - 14, 4)
+            output.append(input[0])
+
+            input_processed += input[:repeat_count]
+            input = input[repeat_count:]
+
+        elif best_length >= 2:
+            if best_start_offset >= 256:
+                flag_writer.write_flag(output, 1)
+                flag_writer.write_flag(output, 1)
+                flag_writer.write_int(output, best_start_offset >> 8, 5)
+                output.append(best_start_offset % 256)
+            else:
+                flag_writer.write_flag(output, 1)
+                flag_writer.write_flag(output, 0)
+                output.append(best_start_offset)
+
+            if best_length >= 6:
+                flag_writer.write_flag(output, 0)
+                flag_writer.write_flag(output, 0)
+                flag_writer.write_flag(output, 0)
+                flag_writer.write_flag(output, 0)
+                if best_length >= 14:
+                    flag_writer.write_flag(output, 0)
+                    output.append(best_length - 14)
+                else:
+                    flag_writer.write_flag(output, 1)
+                    flag_writer.write_int(output, best_length - 6, 3)
+            else:
+                for _ in range(best_length - 2):
+                    flag_writer.write_flag(output, 0)
+                flag_writer.write_flag(output, 1)
+
+            input_processed += input[:best_length]
+            input = input[best_length:]
+        else:
+            flag_writer.write_flag(output, 0)
+            output.append(input[0])
+            input_processed.append(input[0])
+            input = input[1:]
+
+    flag_writer.write_flag(output, 1)
+    flag_writer.write_flag(output, 1)
+
+    for _ in range(5):
+        flag_writer.write_flag(output, 0)
+    output += b"\x00"
+
+    length = len(output) + 3
+    output = length.to_bytes(3, byteorder='little') + output
 
     return output
