@@ -345,3 +345,23 @@ class DS62_StandardEventCodeHook(X86CodeHook):
         else:
             print(registers)
             raise Exception(f"No known event address for event call at {instruction.address:04x}")
+
+
+class DS62_NpcTable1370CodeHook(X86CodeHook):
+    def should_handle(self, instruction):
+        if (X86_GRP_CALL in instruction.groups or X86_GRP_JUMP in instruction.groups) and instruction.operands[0].type == CS_OP_IMM:
+            return (instruction.operands[0].value.imm & 0xffff) in [ 0x1370 ]
+
+    def generate_links(self, instruction, block_pool, current_block, registers):
+        if X86_REG_DX in registers:
+            table_destination = registers[X86_REG_DX]['value']
+
+            table_destination -=  block_pool.get_domain_base_addr("event")
+            table_size = int.from_bytes(block_pool.get_domain_data("code")[table_destination:table_destination+2], byteorder='little') - 1
+            for table_index in range(table_size):
+                table_entry = int.from_bytes(block_pool.get_domain_data("code")[table_destination + 2 + table_index*2:table_destination + 2 + (table_index + 1)*2], byteorder='little')
+                if block_pool.domain_contains("code", table_entry):
+                    link = Link(table_destination + 2 + table_index*2 + current_block.base_addr, table_entry)
+                    link.connect_blocks(current_block, block_pool.get_block("code", table_entry))
+        else:
+            raise Exception("Don't know what the table address was!!")
