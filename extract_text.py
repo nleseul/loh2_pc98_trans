@@ -1,10 +1,10 @@
-import csv
 from dataclasses import dataclass
 import fnmatch
 import os
 import typing
 
 from code_analysis_util import BlockPool, Link, X86CodeBlock
+from csv_util import *
 from ds6_event_util import DS6EventBlock, DS62_StandardEventCodeHook, DS62_NpcTable1370CodeHook
 
 
@@ -110,10 +110,12 @@ if __name__ == '__main__':
             events = extract_scenario_events(scenario_data)
 
             if len(events) > 0:
-                with open(output_path, 'w+', encoding='utf8', newline='') as csv_out:
-                    csv_writer = csv.writer(csv_out, quoting=csv.QUOTE_ALL, lineterminator=os.linesep)
-                    for event in events:
-                        csv_writer.writerow([f"{event.start_addr:04x}", event.format_string()])
+                csv_data = load_csv(output_path)
+
+                for event in events:
+                    add_csv_original(csv_data, event.start_addr, event.format_string())
+
+                save_csv(output_path, csv_data)
         except Exception as e:
             print(f" FAILED - {e}")
 
@@ -130,10 +132,12 @@ if __name__ == '__main__':
             events = extract_combat_events(combat_data)
 
             if len(events) > 0:
-                with open(output_path, 'w+', encoding='utf8', newline='') as csv_out:
-                    csv_writer = csv.writer(csv_out, quoting=csv.QUOTE_ALL, lineterminator=os.linesep)
-                    for event in events:
-                        csv_writer.writerow([f"{event.start_addr:04x}", event.format_string()])
+                csv_data = load_csv(output_path)
+
+                for event in events:
+                    add_csv_original(csv_data, event.start_addr, event.format_string())
+
+                save_csv(output_path, csv_data)
         except Exception as e:
             print(f" FAILED - {e}")
 
