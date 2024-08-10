@@ -17,6 +17,8 @@ if __name__ == '__main__':
     decompressed_output_path_base = "local/decompressed"
 
     patterns = [
+        "ENDING.BZH",
+        "OPENING.BZH",
         "PROG.BZH",
         "MON/M_*.BZH",
         "SCENA/*.BZH"

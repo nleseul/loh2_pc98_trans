@@ -84,6 +84,35 @@ def extract_combat_events(combat_data:typing.ByteString) -> typing.List[DS6Event
     return sorted(list(block_pool.get_blocks("event")), key=lambda e: e.start_addr)
 
 
+def extract_opening_text(opening_data:typing.ByteString, start_addr:int) -> typing.Tuple[int, str]:
+    text = ""
+    addr = start_addr
+
+    while True:
+        if opening_data[addr] == 0xff:
+            addr += 1
+            break
+        elif opening_data[addr] == 0:
+            text += "\n"
+            addr += 1
+        elif opening_data[addr] >= 0xe0: # Kanji block above 0xe0 is two bytes each.
+            text += opening_data[addr:addr+2].decode('cp932')
+            addr += 2
+        elif opening_data[addr] >= 0xa0: # Half-width katakana are between 0xa0 and 0xdf. One byte each.
+            text += opening_data[addr:addr+1].decode('cp932')
+            addr += 1
+        elif opening_data[addr] >= 0x80:
+            text += opening_data[addr:addr+2].decode('cp932')
+            addr += 2
+        elif opening_data[addr] >= 0x20:
+            text += opening_data[addr:addr+1].decode('cp932')
+            addr += 1
+        else:
+            raise Exception(f"Unknown byte {opening_data[addr]:02x} at location {addr:04x} in opening.")
+
+    return addr, text
+
+
 if __name__ == '__main__':
     scenario_list = []
     combat_list = []
@@ -140,5 +169,16 @@ if __name__ == '__main__':
                 save_csv(output_path, csv_data)
         except Exception as e:
             print(f" FAILED - {e}")
+
+    with open("local/decompressed/OPENING.BZH.bin", 'rb') as in_file:
+        opening_data = in_file.read()
+    opening_csv_data = load_csv("csv/Opening.csv")
+
+    opening_addr = 0x3dc2
+    for opening_page_index in range(5):
+        opening_addr, text = extract_opening_text(opening_data, opening_addr)
+        add_csv_original(opening_csv_data, opening_page_index, text)
+
+    save_csv("csv/Opening.csv", opening_csv_data)
 
 
