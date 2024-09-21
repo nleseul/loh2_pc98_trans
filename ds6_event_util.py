@@ -343,8 +343,10 @@ class DS62_StandardEventCodeHook(X86CodeHook):
                 current_block.add_global_reference(registers[X86_REG_SI]['source_addr'], event_addr, is_event=True)
 
         else:
+            print(f"No known event address for event call at {instruction.address:04x}")
+            print("Current registers:")
             print(registers)
-            raise Exception(f"No known event address for event call at {instruction.address:04x}")
+
 
 
 # Seems to be used for normal NPCs walking around
