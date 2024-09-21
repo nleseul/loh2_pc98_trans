@@ -347,6 +347,7 @@ class DS62_StandardEventCodeHook(X86CodeHook):
             raise Exception(f"No known event address for event call at {instruction.address:04x}")
 
 
+# Seems to be used for normal NPCs walking around
 class DS62_NpcTable1370CodeHook(X86CodeHook):
     def should_handle(self, instruction):
         if (X86_GRP_CALL in instruction.groups or X86_GRP_JUMP in instruction.groups) and instruction.operands[0].type == CS_OP_IMM:
@@ -363,5 +364,78 @@ class DS62_NpcTable1370CodeHook(X86CodeHook):
                 if block_pool.domain_contains("code", table_entry):
                     link = Link(table_destination + 2 + table_index*2 + current_block.base_addr, table_entry)
                     link.connect_blocks(current_block, block_pool.get_block("code", table_entry))
+        else:
+            raise Exception("Don't know what the table address was!!")
+
+
+# Seems to be used for shops and other stationary NPCs/objects
+class DS62_NpcTable13e7CodeHook(X86CodeHook):
+    def should_handle(self, instruction):
+        if (X86_GRP_CALL in instruction.groups or X86_GRP_JUMP in instruction.groups) and instruction.operands[0].type == CS_OP_IMM:
+            return (instruction.operands[0].value.imm & 0xffff) in [ 0x13e7 ]
+
+    def generate_links(self, instruction, block_pool, current_block, registers):
+        if X86_REG_SI in registers:
+            table_destination = registers[X86_REG_SI]['value']
+
+            table_destination -=  block_pool.get_domain_base_addr("event")
+
+            data = block_pool.get_domain_data("code")
+            table_offset = 0
+            while data[table_destination + table_offset] != 0xff:
+                handler_pointer_addr = table_destination + table_offset + 3
+                handler_addr = int.from_bytes(data[handler_pointer_addr:handler_pointer_addr + 2], byteorder='little')
+                if block_pool.domain_contains("code", handler_addr):
+                    link = Link(handler_pointer_addr, handler_addr)
+                    link.connect_blocks(current_block, block_pool.get_block("code", handler_addr))
+                table_offset += 0x5
+        else:
+            raise Exception("Don't know what the table address was!!")
+
+
+class DS62_SellToShopCodeHook(X86CodeHook):
+    def should_handle(self, instruction):
+        if (X86_GRP_CALL in instruction.groups or X86_GRP_JUMP in instruction.groups) and instruction.operands[0].type == CS_OP_IMM:
+            return (instruction.operands[0].value.imm & 0xffff) in [ 0x18dd ]
+
+    def generate_links(self, instruction, block_pool, current_block, registers):
+        if X86_REG_BX in registers:
+            table_destination = registers[X86_REG_BX]['value']
+
+            table_destination -=  block_pool.get_domain_base_addr("event")
+
+            data = block_pool.get_domain_data("code")
+
+            # Four pointers to events - "What do you want to sell?" / "Is this price okay?" / "Too bad" / "Thanks"
+            for entry_index in range(4):
+                event_pointer_addr = table_destination + entry_index*2
+                event_addr = int.from_bytes(data[event_pointer_addr:event_pointer_addr + 2], byteorder='little')
+                if block_pool.domain_contains("event", event_addr):
+                    link = Link(event_pointer_addr, event_addr)
+                    link.connect_blocks(current_block, block_pool.get_block("event", event_addr))
+        else:
+            raise Exception("Don't know what the table address was!!")
+
+
+class DS62_BuyFromShopCodeHook(X86CodeHook):
+    def should_handle(self, instruction):
+        if (X86_GRP_CALL in instruction.groups or X86_GRP_JUMP in instruction.groups) and instruction.operands[0].type == CS_OP_IMM:
+            return (instruction.operands[0].value.imm & 0xffff) in [ 0x1863 ]
+
+    def generate_links(self, instruction, block_pool, current_block, registers):
+        if X86_REG_BX in registers:
+            table_destination = registers[X86_REG_BX]['value']
+
+            table_destination -=  block_pool.get_domain_base_addr("event")
+
+            data = block_pool.get_domain_data("code")
+
+            # Three pointers to events - "You can't hold any more" / "What do you want to buy?" / "Thank you"
+            for entry_index in range(3):
+                event_pointer_addr = table_destination + entry_index*2
+                event_addr = int.from_bytes(data[event_pointer_addr:event_pointer_addr + 2], byteorder='little')
+                if block_pool.domain_contains("event", event_addr):
+                    link = Link(event_pointer_addr, event_addr)
+                    link.connect_blocks(current_block, block_pool.get_block("event", event_addr))
         else:
             raise Exception("Don't know what the table address was!!")

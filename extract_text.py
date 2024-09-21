@@ -5,7 +5,7 @@ import typing
 
 from code_analysis_util import BlockPool, Link, X86CodeBlock
 from csv_util import *
-from ds6_event_util import DS6EventBlock, DS62_StandardEventCodeHook, DS62_NpcTable1370CodeHook
+from ds6_event_util import *
 
 
 @dataclass
@@ -45,7 +45,10 @@ def extract_scenario_events(scenario_data:typing.ByteString) -> typing.List[DS6E
 
     global_code_hooks = [
         DS62_StandardEventCodeHook(),
-        DS62_NpcTable1370CodeHook()
+        DS62_NpcTable1370CodeHook(),
+        DS62_NpcTable13e7CodeHook(),
+        DS62_BuyFromShopCodeHook(),
+        DS62_SellToShopCodeHook()
     ]
 
     block_pool = BlockPool()
