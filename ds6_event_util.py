@@ -382,13 +382,24 @@ class DS62_NpcTable13e7CodeHook(X86CodeHook):
 
             data = block_pool.get_domain_data("code")
             table_offset = 0
-            while data[table_destination + table_offset] != 0xff:
-                handler_pointer_addr = table_destination + table_offset + 3
+
+            while True:
+                first_byte = data[table_destination + table_offset]
+
+                if first_byte == 0xff:
+                    break
+
+                handler_pointer_addr = table_destination + table_offset + (5 if first_byte & 0x40 != 0 else 3)
+
                 handler_addr = int.from_bytes(data[handler_pointer_addr:handler_pointer_addr + 2], byteorder='little')
+
+                #print(f"First byte of object table record is {data[table_destination + table_offset]:02x} ({data[table_destination + table_offset]:08b})")
+                #print(f"Pointer is {handler_addr:04x}")
+
                 if block_pool.domain_contains("code", handler_addr):
                     link = Link(handler_pointer_addr, handler_addr)
                     link.connect_blocks(current_block, block_pool.get_block("code", handler_addr))
-                table_offset += 0x5
+                table_offset += (7 if first_byte & 0x40 != 0 else 5)
         else:
             raise Exception("Don't know what the table address was!!")
 

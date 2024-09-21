@@ -274,10 +274,10 @@ class X86CodeBlock(Block):
     _hooks:typing.List[X86CodeHook] = []
 
     def __init__(self, data:typing.ByteString, base_addr:int, start_addr:int, params:dict):
-        super().__init__(data, base_addr, start_addr, params)
-
         if 'hooks' in params and params['hooks'] is not None:
             self._hooks = params['hooks']
+
+        super().__init__(data, base_addr, start_addr, params)
 
 
     def dump(self):
@@ -336,7 +336,11 @@ class X86CodeBlock(Block):
 
         done = False
         while not done:
-            instruction = next(disasm_iter)
+            try:
+                instruction = next(disasm_iter)
+            except StopIteration:
+                print(f"Disassembly ended without terminator in code block starting at {self._start_addr:04x}")
+                break
 
             hook_found = False
             for hook in self._hooks:
@@ -381,7 +385,11 @@ class X86CodeBlock(Block):
 
             done = False
             while not done:
-                instruction = next(disasm_iter)
+                try:
+                    instruction = next(disasm_iter)
+                except StopIteration:
+                    print(f"Disassembly ended without terminator in code block starting at {self._start_addr:04x}")
+                    break
 
                 hook_found = False
                 for hook in self._hooks:
