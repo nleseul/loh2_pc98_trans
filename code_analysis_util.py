@@ -269,6 +269,28 @@ class X86CodeHook:
         pass
 
 
+class EmptyHook(X86CodeHook):
+    def __init__(self, addr, is_call, next_ip=None):
+        self._addr = addr
+        self._is_call = is_call
+        self._next_ip = next_ip
+
+    def get_next_ip(self, instruction):
+        if self._next_ip is None:
+            return super().get_next_ip(instruction)
+        else:
+            return self._next_ip
+
+    def should_handle(self, instruction):
+        if self._is_call:
+            return (X86_GRP_CALL in instruction.groups or X86_GRP_JUMP in instruction.groups) and instruction.operands[0].type == CS_OP_IMM and instruction.operands[0].imm == self._addr
+        else:
+            return instruction.address == self._addr
+
+    def generate_links(self, instruction, block_pool, current_block, registers):
+        pass
+
+
 class X86CodeBlock(Block):
 
     _hooks:typing.List[X86CodeHook] = []

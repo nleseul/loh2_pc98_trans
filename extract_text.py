@@ -3,7 +3,7 @@ import fnmatch
 import os
 import typing
 
-from code_analysis_util import BlockPool, Link, X86CodeBlock
+from code_analysis_util import BlockPool, EmptyHook, Link, X86CodeBlock
 from csv_util import *
 from ds6_event_util import *
 
@@ -31,7 +31,7 @@ def explore(block_pool:BlockPool, entry_points:typing.List[EntryPointInfo]) -> N
             break
 
 
-def extract_scenario_events(scenario_data:typing.ByteString) -> typing.List[DS6EventBlock]:
+def extract_scenario_events(scenario_data:typing.ByteString, custom_hooks:list[X86CodeHook]) -> typing.List[DS6EventBlock]:
     code_entry_points = [ EntryPointInfo("code", int.from_bytes(scenario_data[0:2], byteorder='little')) ]
 
     addr_offset = 2
@@ -43,7 +43,7 @@ def extract_scenario_events(scenario_data:typing.ByteString) -> typing.List[DS6E
             code_entry_points.append(EntryPointInfo("code", addr) )
         addr_offset += 2
 
-    global_code_hooks = [
+    code_hooks = [
         DS62_StandardEventCodeHook(),
         DS62_NpcTable1370CodeHook(),
         DS62_NpcTable13e7CodeHook(),
@@ -51,8 +51,11 @@ def extract_scenario_events(scenario_data:typing.ByteString) -> typing.List[DS6E
         DS62_SellToShopCodeHook()
     ]
 
+    if custom_hooks is not None:
+        code_hooks += custom_hooks
+
     block_pool = BlockPool()
-    block_pool.register_domain("code", scenario_data, 0xd53e, X86CodeBlock, {'hooks': global_code_hooks})
+    block_pool.register_domain("code", scenario_data, 0xd53e, X86CodeBlock, {'hooks': code_hooks})
     block_pool.register_domain("event", scenario_data, 0x593e, DS6EventBlock)
 
     explore(block_pool, code_entry_points)
@@ -130,7 +133,8 @@ if __name__ == '__main__':
     combat_list = sorted(combat_list)
 
     for file_path in scenario_list:
-        output_path = os.path.join("csv/Scenarios", os.path.splitext(os.path.basename(file_path))[0] + ".csv")
+        base_name = os.path.splitext(os.path.basename(file_path))[0]
+        output_path = os.path.join("csv/Scenarios", f"{base_name}.csv")
         print(output_path)
 
         os.makedirs(os.path.dirname(output_path), exist_ok=True)
@@ -138,8 +142,12 @@ if __name__ == '__main__':
         with open(file_path, 'rb') as in_file:
             scenario_data = in_file.read()
 
+        scenario_hooks = None
+        if base_name == "C_203.BZH":
+            scenario_hooks = [EmptyHook(0xd5cb, False, 0xd5d6)] # Skip some subroutine calls that would stomp si
+
         try:
-            events = extract_scenario_events(scenario_data)
+            events = extract_scenario_events(scenario_data, scenario_hooks)
 
             if len(events) > 0:
                 csv_data = load_csv(output_path)
