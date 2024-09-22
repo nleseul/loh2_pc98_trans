@@ -4,6 +4,21 @@ import typing
 from code_analysis_util import Block, Link, X86CodeHook
 
 
+def read_sjis_char(data:typing.ByteString, addr:int) -> tuple[str, int]:
+    try:
+        if data[addr] >= 0xe0: # Kanji block above 0xe0 is two bytes each.
+            return data[addr:addr+2].decode('cp932'), addr + 2
+        elif data[addr] >= 0xa0: # Half-width katakana are between 0xa0 and 0xdf. One byte each.
+            return data[addr:addr+1].decode('cp932'), addr + 1
+        elif data[addr] >= 0x80:
+            return data[addr:addr+2].decode('cp932'), addr + 2
+        elif data[addr] >= 0x20:
+            return data[addr:addr+1].decode('cp932'), addr + 1
+    except UnicodeDecodeError as e:
+        print(f"Unable to interpret SJIS sequence {data[addr:addr+2].hex()}")
+        raise e
+
+
 def disassemble_event(scenario_data, base_addr, start_addr, continuation_extent_end_addr=None):
 
     EVENT_CODE_INFO = {
@@ -95,18 +110,8 @@ def disassemble_event(scenario_data, base_addr, start_addr, continuation_extent_
                 instructions.append( { 'addr': addr+base_addr, 'text': "" } )
 
             try:
-                if scenario_data[addr] >= 0xe0: # Kanji block above 0xe0 is two bytes each.
-                    instructions[-1]['text'] += scenario_data[addr:addr+2].decode('cp932')
-                    addr += 2
-                elif scenario_data[addr] >= 0xa0: # Half-width katakana are between 0xa0 and 0xdf. One byte each.
-                    instructions[-1]['text'] += scenario_data[addr:addr+1].decode('cp932')
-                    addr += 1
-                elif scenario_data[addr] >= 0x80:
-                    instructions[-1]['text'] += scenario_data[addr:addr+2].decode('cp932')
-                    addr += 2
-                elif scenario_data[addr] >= 0x20:
-                    instructions[-1]['text'] += scenario_data[addr:addr+1].decode('cp932')
-                    addr += 1
+                ch, addr = read_sjis_char(scenario_data, addr)
+                instructions[-1]['text'] += ch
             except UnicodeDecodeError as e:
                 print(f"Unable to interpret SJIS sequence {scenario_data[addr:addr+2].hex()} at {addr+base_addr:04x} while disassembling event at {start_addr:04x}")
                 raise e

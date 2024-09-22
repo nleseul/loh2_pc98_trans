@@ -101,22 +101,76 @@ def extract_opening_text(opening_data:typing.ByteString, start_addr:int) -> tupl
         elif opening_data[addr] == 0:
             text += "\n"
             addr += 1
-        elif opening_data[addr] >= 0xe0: # Kanji block above 0xe0 is two bytes each.
-            text += opening_data[addr:addr+2].decode('cp932')
-            addr += 2
-        elif opening_data[addr] >= 0xa0: # Half-width katakana are between 0xa0 and 0xdf. One byte each.
-            text += opening_data[addr:addr+1].decode('cp932')
-            addr += 1
-        elif opening_data[addr] >= 0x80:
-            text += opening_data[addr:addr+2].decode('cp932')
-            addr += 2
-        elif opening_data[addr] >= 0x20:
-            text += opening_data[addr:addr+1].decode('cp932')
-            addr += 1
         else:
-            raise Exception(f"Unknown byte {opening_data[addr]:02x} at location {addr:04x} in opening.")
+            ch, addr = read_sjis_char(opening_data, addr)
+            text += ch
 
     return addr, text
+
+
+def extract_ending_text(ending_data:typing.ByteString) -> tuple[int, str]:
+    ending_text = {}
+
+    addresses = [
+        0x226c,
+        0x22c1,
+        0x23c1, # Special background scrolling code; may be different
+        0x24d3,
+        0x2611,
+        0x2722,
+        0x2792,
+        0x2825,
+        0x2b76  # Staff roll; probably different codes
+    ]
+
+    for start_addr in addresses:
+        addr = start_addr
+        text = ""
+
+        while True:
+            if ending_data[addr] == 0x9:
+                break
+            elif ending_data[addr] == 0x0:
+                text += "\n"
+                addr += 1
+            elif ending_data[addr] == 0x1:
+                text += "\n" if text[-1] == "\n" else "<PAGE>\n"
+                addr += 1
+            elif ending_data[addr] == 0x2:
+                text += "<PAGE_FULL>\n"
+                addr += 1
+            elif ending_data[addr] == 0x3:
+                text += "<NAME>"
+                text += ending_data[addr+1:addr+9].decode('cp932')
+                text += "</NAME>\n"
+                addr += 9
+            elif ending_data[addr] == 0x4:
+                text += "<PAGE_PAUSE>\n"
+                addr += 1
+            elif ending_data[addr] == 0x5:
+                text += "<PAUSE>"
+                addr += 1
+            elif ending_data[addr] == 0x6:  # Changes graphic during the Freya animation
+                text += "<CHANGE_FREYA_GRAPHIC>"
+                addr+= 1
+            elif ending_data[addr] == 0x8:  # Something specific to the staff roll
+                text += "<STAFF_ROLL_MARKER>"
+                addr+= 1
+            else:
+                ch, addr = read_sjis_char(ending_data, addr)
+                text += ch
+
+        ending_text[start_addr] = text
+
+    # Line lengths are hardcoded at 0x1003 and 0x1019
+    final_text_addr = 0x28d3
+    line_lengths = [0xd, 0xb]
+    second_line_start = final_text_addr + line_lengths[0]*2
+    ending_text[final_text_addr] = ending_data[final_text_addr:final_text_addr+line_lengths[0]*2].decode('cp932') +\
+          "\n" +\
+          ending_data[second_line_start:second_line_start+line_lengths[1]*2].decode('cp932')
+
+    return ending_text
 
 
 def extract_spells(prog_data:typing.ByteString) -> dict[int, str]:
@@ -237,6 +291,17 @@ if __name__ == '__main__':
         add_csv_original(opening_csv_data, opening_page_index, text)
 
     save_csv("csv/Opening.csv", opening_csv_data)
+
+
+    with open("local/decompressed/ENDING.BZH.bin", 'rb') as in_file:
+        ending_data = in_file.read()
+    ending_csv_data = load_csv("csv/Ending.csv")
+
+    ending_text = extract_ending_text(ending_data)
+    for addr, text in ending_text.items():
+        add_csv_original(ending_csv_data, addr, text)
+
+    save_csv("csv/Ending.csv", ending_csv_data)
 
 
     with open("local/decompressed/PROG.BZH.bin", 'rb') as in_file:
