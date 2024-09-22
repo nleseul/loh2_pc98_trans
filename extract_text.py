@@ -31,7 +31,7 @@ def explore(block_pool:BlockPool, entry_points:typing.List[EntryPointInfo]) -> N
             break
 
 
-def extract_scenario_events(scenario_data:typing.ByteString, custom_hooks:list[X86CodeHook]) -> typing.List[DS6EventBlock]:
+def extract_scenario_events(scenario_data:typing.ByteString, custom_hooks:list[X86CodeHook]) -> list[DS6EventBlock]:
     code_entry_points = [ EntryPointInfo("code", int.from_bytes(scenario_data[0:2], byteorder='little')) ]
 
     addr_offset = 2
@@ -63,7 +63,7 @@ def extract_scenario_events(scenario_data:typing.ByteString, custom_hooks:list[X
     return sorted(list(block_pool.get_blocks("event")), key=lambda e: e.start_addr)
 
 
-def extract_combat_events(combat_data:typing.ByteString) -> typing.List[DS6EventBlock]:
+def extract_combat_events(combat_data:typing.ByteString) -> list[DS6EventBlock]:
     entry_points = []
     for name_index in range(1 if "M_501" in file_path else 4):
         entry_points.append(EntryPointInfo("event", 0x7140 + name_index * 0x40 + 0x30))
@@ -90,7 +90,7 @@ def extract_combat_events(combat_data:typing.ByteString) -> typing.List[DS6Event
     return sorted(list(block_pool.get_blocks("event")), key=lambda e: e.start_addr)
 
 
-def extract_opening_text(opening_data:typing.ByteString, start_addr:int) -> typing.Tuple[int, str]:
+def extract_opening_text(opening_data:typing.ByteString, start_addr:int) -> tuple[int, str]:
     text = ""
     addr = start_addr
 
@@ -117,6 +117,52 @@ def extract_opening_text(opening_data:typing.ByteString, start_addr:int) -> typi
             raise Exception(f"Unknown byte {opening_data[addr]:02x} at location {addr:04x} in opening.")
 
     return addr, text
+
+
+def extract_spells(prog_data:typing.ByteString) -> dict[int, str]:
+    spells = {}
+    base_addr = 0x1ebc + 0x7c00
+
+    for spell_index in range(32):
+        addr = base_addr + spell_index*12
+        spell_name = prog_data[addr:addr+8].decode('cp932')
+        spells[addr] = spell_name
+
+    return spells
+
+
+def extract_items(prog_data:typing.ByteString) -> dict[int, str]:
+    items = {}
+    addr = 0xf3b + 0x7c00
+
+    while prog_data[addr] != 0:
+        item_name = prog_data[addr:addr+14].decode('cp932')
+        items[addr] = item_name
+
+        addr += 14 if addr >= 0x152b + 0x7c00 else 20
+
+    return items
+
+
+def extract_locations(prog_data:typing.ByteString) -> list[str]:
+    locations = []
+    addr = 0xcec + 0x7c00
+
+    while True:
+        first_byte = prog_data[addr]
+        if first_byte == 0x00:
+            break
+
+        length = 12
+        if first_byte < 0x20:
+            length -= first_byte * 2
+            addr += 1
+
+        location_name = prog_data[addr:addr+length].decode('cp932')
+        addr += length
+        locations.append(location_name)
+
+    return locations
 
 
 if __name__ == '__main__':
@@ -192,4 +238,25 @@ if __name__ == '__main__':
 
     save_csv("csv/Opening.csv", opening_csv_data)
 
+
+    with open("local/decompressed/PROG.BZH.bin", 'rb') as in_file:
+        prog_data = in_file.read()
+
+    spell_csv_data = load_csv("csv/Spells.csv")
+    spell_names = extract_spells(prog_data)
+    for spell_index, spell_name in spell_names.items():
+        add_csv_original(spell_csv_data, spell_index, spell_name)
+    save_csv("csv/Spells.csv", spell_csv_data)
+
+    item_csv_data = load_csv("csv/Items.csv")
+    item_names = extract_items(prog_data)
+    for item_addr, item_name in item_names.items():
+        add_csv_original(item_csv_data, item_addr, item_name)
+    save_csv("csv/Items.csv", item_csv_data)
+
+    location_csv_data = load_csv("csv/Locations.csv")
+    locations = extract_locations(prog_data)
+    for location_index, location in enumerate(locations):
+        add_csv_original(location_csv_data, location_index, location)
+    save_csv("csv/Locations.csv", location_csv_data)
 
