@@ -246,19 +246,34 @@ class DS6EventBlock(Block):
                         out += "<N>\n"
                     else:
                         out += "\n"
+                elif code == 0x02: # Current actor name (combat)
+                    out += "<ACTOR>"
                 elif code == 0x03: # Wait for keypress (implicit newline)
                     out += "<WAIT>\n"
+                elif code == 0x04: # Clear current color
+                    out += "<C_NONE>"
                 elif code == 0x05: # Page break
                     if self._data[instruction['addr'] - self.base_addr - 1] == 0x01:
                         out += "<PAGE>\n"
                     else:
                         out += "\n\n"
                 elif code == 0x06: # Return inline
-                    out += "<RET_IL>"
+                    out += "<RET>"
                 elif code == 0x07: # Return with newline
-                    out += "<RETN>"
+                    out += "<RET_N>"
+                elif code == 0x08: # Clear text window
+                    out += "<CLEAR>"
                 elif code == 0x09: # Party member name
                     out += f"<CH{instruction['data'][0]}>"
+                elif code == 0x0a: # Return with new page
+                    out += "<RET_PAGE>"
+                elif code == 0x0b: # Party name
+                    out += "<PARTY>"
+                elif code == 0x0c: # Play sound
+                    arg = int.from_bytes(instruction['data'], byteorder='little')
+                    out += f"<SND{arg:04x}>"
+                elif code == 0x0e: # Active item name
+                    out += "<ITEM>"
                 elif code == 0x0f: # Jump
                     arg = int.from_bytes(instruction['data'], byteorder='little')
                     out += f"<JUMP{arg:04x}>"
@@ -274,7 +289,7 @@ class DS6EventBlock(Block):
                     out += f"<IF{arg:04x}>"
                 elif code == 0x13: # Clear flag
                     arg = int.from_bytes(instruction['data'], byteorder='little')
-                    out += f"<CLEAR{arg:04x}>"
+                    out += f"<UNSET{arg:04x}>"
                 elif code == 0x14: # Set flag
                     arg = int.from_bytes(instruction['data'], byteorder='little')
                     out += f"<SET{arg:04x}>"
@@ -292,6 +307,12 @@ class DS6EventBlock(Block):
                             out += ","
                         out += f"{arg:04x}"
                     out += ">"
+                elif code == 0x1a:
+                    out += "<C_RED>"
+                elif code == 0x1c:
+                    out += "<C_GREEN>"
+                elif code == 0x1e:
+                    out += "<C_YELLOW>"
                 else:
                     out += f"<X{code:02x}{instruction['data'].hex()}>"
 

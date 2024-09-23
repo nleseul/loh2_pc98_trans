@@ -1,37 +1,37 @@
-"5e1c","<X08>          第３章　竜の卵<N>
+"5e1c","<CLEAR>          第３章　竜の卵<N>
 
 　　　　　　　　完
 ",""
-"5e8b","<X08><CH0>
+"5e8b","<CLEAR><CH0>
 バーバラさま 竜の卵を止めたので
 モンスターのことは 心配ありません。
 
-<Xf5aa6101><X1e>バーバラ<X04>
+<Xf5aa6101><C_YELLOW>バーバラ<C_NONE>
 なに !? それはよかった。
 さすが ファーレーンの王子さまじゃ。
 
-<Xfba8615061><X1e>ソニア王妃<X04>
+<Xfba8615061><C_YELLOW>ソニア王妃<C_NONE>
 ありがとうございます アトラス王子。
 
 <Xf5aa6100><CH0>
 バーバラさま この大事な物を
 お返しします。
 
-<ASMd8eb><X0e>を渡しました。<X0c0301><WAIT>
-<ASMd8f5><X08><ASMd90c><CH2>
-あっ !!<ASMd979><ASMd9d2><ASMd9f2><X08><X1e>ガード<X04>
+<ASMd8eb><ITEM>を渡しました。<SND0103><WAIT>
+<ASMd8f5><CLEAR><ASMd90c><CH2>
+あっ !!<ASMd979><ASMd9d2><ASMd9f2><CLEAR><C_YELLOW>ガード<C_NONE>
 隊長 レジスタンスたちは すべて
 捕らえました。
 
-<X1e>隊長<X04>
+<C_YELLOW>隊長<C_NONE>
 よし 発射準備 !!
 
-<X1e>ガード<X04>
+<C_YELLOW>ガード<C_NONE>
 準備完了です。
 
-<X1e>隊長<X04>
+<C_YELLOW>隊長<C_NONE>
 発射 !!<WAIT>
-<ASMda04><Xfba8618261><Xf5aa6101><X08><CH0>
+<ASMda04><Xfba8618261><Xf5aa6101><CLEAR><CH0>
 どうしたんだ フローラ？
 
 <Xfba8617861><CH2>
