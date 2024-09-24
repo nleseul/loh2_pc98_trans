@@ -1,0 +1,126 @@
+"entries":
+  "5bc6":
+    "original": |-
+      <C_YELLOW>船長<C_NONE>
+      この船は モレストン共和国の
+      リシェール行きだ。
+      乗るなら 早く 乗ってくれ。
+    "translated": ""
+  "5c17":
+    "original": |-
+      <C_YELLOW>船長<C_NONE>
+      お客さん 切符 持ってるかい？
+      <PAGE>
+      <Xf8287417><JUMP5cc4>船に 乗りますか？
+      <Xf69229><JUMP5c82><Xf9000206><ASM6b26><Xf828af17><JUMP5cc4><Xf028><SET0400><ITEM>を 渡しました。<SND0103><END>
+      <LOC5c82><CLEAR>なんだ 乗る気がないなら こっちに
+      来ないでくれ じゃまになるんだ。<END>
+      <LOC5cc4>切符は そこで売ってるぞ。
+    "translated": ""
+  "5cde":
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      ちょっと あなたたち 足もとに
+      気をつけてくださいよ。
+
+      ここが 有名な発明家 ハリーの家だ。ハリーは おれの友人なんだけど
+      城の研究室に こもりっきりなんだ。
+
+      だから おれが ここの管理人になってあげているんだ。
+    "translated": ""
+  "5dac":
+    "original": |-
+      <C_YELLOW>女<C_NONE>
+      ここの定期船は とっても時間に
+      きびしいから 乗り遅れる人が
+      けっこういるのよ。
+    "translated": ""
+  "5dfe":
+    "original": |-
+      <C_YELLOW>女<C_NONE>
+      発明家のハリーさんは 昔から
+      いろいろな物を 作っているのよ。
+
+      今は お城に研究室を作ってもらって
+      そこで 研究しているから ここには
+      めったに 帰ってこないのよ。
+    "translated": ""
+  "5e9e":
+    "original": |-
+      <C_YELLOW>老人<C_NONE>
+      わしゃ 見たんじゃ。
+      ラヌーラの司祭 バーバラさまが
+      モンスターの出現を 止めたのじゃ。
+    "translated": ""
+  "5ef9":
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      はい いらしゃい。
+      ここは キップウリバあるよ。
+      ひとつ 100 Gold ね。
+
+      <Xf2c55f><JUMP5f97><Xf65317><JUMP5faf>切符を 買いますか？<Xf69229><JUMP5f7c><Xf3c55f><Xf128><CLEAR>ども ありがと。<END>
+      <LOC5f7c><CLEAR>ほんとに いらないあるか？<END>
+      <LOC5f97>おカネ たりないあるよ。<END>
+      <LOC5faf>もう もてないあるよ。
+    "translated": ""
+  "5fc9":
+    "original": |-
+      <C_YELLOW>武器屋<C_NONE>
+      いらっしゃい。<RET_N>
+    "translated": ""
+  "5fe1":
+    "original": |-
+      またどうぞ。
+    "translated": ""
+  "5fee":
+    "original": |-
+      <C_YELLOW>道具屋<C_NONE>
+      いらっしゃいませ。
+      どのような ご用でしょうか？<RET_N>
+    "translated": ""
+  "6026":
+    "original": |-
+      また来てくださいね。
+    "translated": ""
+  "603b":
+    "original": |-
+      おや？これ以上持てないようですね。
+
+      <RET>
+    "translated": ""
+  "605f":
+    "original": |-
+      どれを買ってくれますか？
+      <RET_N>
+    "translated": ""
+  "6079":
+    "original": |-
+      <ITEM>だね。
+      どうも ありがとう。
+
+      <RET>
+    "translated": ""
+  "609e":
+    "original": |-
+      どれを 売ってくれますか？
+      <RET_N>
+    "translated": ""
+  "60b9":
+    "original": |2-
+       Gold になるけど
+      それでも よろしいですか？
+      <RET_N>
+    "translated": ""
+  "60e5":
+    "original": |-
+      それは残念です。
+
+      <RET_N>
+    "translated": ""
+  "60f7":
+    "original": |-
+      どうも ありがとうございます。
+      <RET_N>
+    "translated": ""
+"note": ""

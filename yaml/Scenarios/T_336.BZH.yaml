@@ -1,0 +1,86 @@
+"entries":
+  "5b11":
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      このところ 悪いことが 続いたけど
+      今度は 何が起こるんだろうか？
+    "translated": ""
+  "5b55":
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      おれは エメのオアシスに
+      住んでたんだ。
+
+      モンスターが いなくなったけど
+      また いつ出てくるか わからないからしばらく ここに いることにしたんだ。
+    "translated": ""
+  "5be6":
+    "original": |-
+      <C_YELLOW>女<C_NONE>
+      ねえ 知ってる？<WAIT>
+      司祭 バーバラさまが モンスターの
+      出現を止めたんですって。
+    "translated": ""
+  "5c35":
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      <IF0403><JUMP5d79><IF0401><JUMP5d7c>やあ ラヌーラに 行くのか？
+      それじゃ ここに名前を かいてくれ。
+
+      <IF007b><JUMP5d5e>そういえば ジェラルドさんの所の
+      お嬢さんが いなくなったそうだが
+      お前たち 知らないか？
+
+      ほら こういう顔なんだけどなあ。
+
+      あれっ きみは よく似ているが
+      まさか きのせいだよな。
+
+      <CH2>
+      バレないうちに 早く戻りましょうよ。<END>
+      <LOC5d5e><SET0401>はいはい ごくろうさん。<END>
+      <LOC5d79><UNSET0403><LOC5d7c>いい旅をしてくれよ。
+    "translated": ""
+  "5d91":
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      <IF0403><JUMP5e78><IF0402><JUMP5e3b><IF0401><JUMP5e04>ほら この川って 流れが速いだろ
+      だから けっこう 危ないんだけど
+      国境の洞窟よりは ましだな。<END>
+      <LOC5e04>んっ ちょっと待ってくれ
+      すぐに 橋を 出してあげるから。<END>
+      <LOC5e3b>川の流れが 急だから
+      落ちないように 気をつけて
+      渡ってくれよ。<END>
+      <LOC5e78>ソルディスに ようこそ。
+      と言っても おれは ラヌーラの
+      兵士だけどね。
+    "translated": ""
+  "5ebc":
+    "original": |-
+      <C_YELLOW>呪文屋<C_NONE>
+      いらっしゃい。<RET_N>
+    "translated": ""
+  "5ed4":
+    "original": |-
+      またどうぞ。
+    "translated": ""
+  "5ee1":
+    "original": |-
+      おや？これ以上持てないようですね。
+
+      <RET>
+    "translated": ""
+  "5f05":
+    "original": |-
+      どれを買ってくれますか？
+      <RET_N>
+    "translated": ""
+  "5f1f":
+    "original": |-
+      <ITEM>だね。
+      どうも ありがとう。
+
+      <RET>
+    "translated": ""
+"note": ""

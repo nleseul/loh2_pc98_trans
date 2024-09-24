@@ -1,0 +1,97 @@
+"entries":
+  "5ab2":
+    "original": |-
+      <C_YELLOW>武器屋<C_NONE>
+      これは、アトラス王子さま。
+      モンスターのせいで あっというまに
+      武器が 売り切れてしまいました。
+
+      こんなに 売れたのは 初めてなので
+      うれしいような 気もするのですが
+      どうも すなおに よろこべないんです。
+    "translated": ""
+  "5b7e":
+    "original": |-
+      <CALL6052>王子さまが いなくなられてから
+      食事の したくを していても 何か
+      物足りないんです。
+    "translated": ""
+  "5bd2":
+    "original": |-
+      <CALL6052>まあ、王子さま。
+      <IF0015><JUMP5c4a>どう なさったのですか？
+      <PAGE>
+      外には モンスターがいるというのに
+      わざわざ こんな所まで 来るなんて。<END>
+      <LOC5c4a>お元気そうで なによりです。
+    "translated": ""
+  "5c66":
+    "original": |-
+      <CALL6059><IF_NOT00f0><JUMP5cbe>王子さま エルアスタは どんなことがあっても 守ってみせます。
+      安心してください。<END>
+      <LOC5cbe>どうして 突然 モンスターが いなく
+      なってしまったのでしょうか？
+    "translated": ""
+  "5cfd":
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      あ、王子さま いらっしゃい。
+      <IF0015><JUMP5d61>モンスターが 出てきたら スライムがいなくなったみたいですね。<END>
+      <LOC5d61>王子さまが いなくなったので
+      ここも さみしくなってしまいました。
+    "translated": ""
+  "5da1":
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      <IF_NOT00f0><JUMP5dfa>おや 王子さま。
+      ぶっそうに なったものですね
+      どうして モンスターなんかが ･ ･ ･<END>
+      <LOC5dfa>モンスターが いなくなったからって
+      まだ 安心できませんよ。
+
+      いつまた やつらが 出てくるか
+      かわりませんからね。
+    "translated": ""
+  "5e66":
+    "original": |-
+      <C_YELLOW>女<C_NONE>
+      ま、王子さま。
+      お久しぶりで ございます。
+    "translated": ""
+  "5e94":
+    "original": |-
+      <C_YELLOW>子供<C_NONE>
+      <IF_NOT00f0><JUMP5ef7>外には 怖いモンスターがいるから
+      町から 出ちゃいけないんだって。
+      あーあ つまんないな。<END>
+      <LOC5ef7>また モンスターが 出てくるかも
+      しれないから まだ 町から出ちゃ
+      いけないんだって。
+    "translated": ""
+  "5f48":
+    "original": |-
+      <C_YELLOW>パーカー<C_NONE>
+      王子さま、おら もう 抜け穴は
+      作らねーですだ。
+    "translated": ""
+  "5f81":
+    "original": |-
+      <C_YELLOW>道具屋<C_NONE>
+      <IF_NOT00f0><JUMP5ffe>どうして モンスターなんかが
+      出てきたのでしょう？
+
+      また やつらに おびえながら
+      くらさなければ ならないとは ･ ･ ･<END>
+      <LOC5ffe>いや これは王子さま。
+      なぜ あれほどいたモンスターが
+      突然 いなくなったのでしょうか？
+    "translated": ""
+  "6052":
+    "original": |-
+      <C_YELLOW>侍女<C_NONE><RET_N>
+    "translated": ""
+  "6059":
+    "original": |-
+      <C_YELLOW>兵士<C_NONE><RET_N>
+    "translated": ""
+"note": ""

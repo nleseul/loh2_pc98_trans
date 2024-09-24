@@ -1,0 +1,15 @@
+"entries":
+  "59ee":
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      これは 王子さま。
+      <IF0400><JUMP5a51><IF0015><JUMP5a64><IF_NOT00f0><CALL5a88>危険ですから 竜の卵には
+      近づかないように してください。<END>
+      <LOC5a51>お帰りなさいませ。<END>
+      <LOC5a64>お気をつけて いってらっしゃいませ。
+    "translated": ""
+  "5a88":
+    "original": |-
+      まだ <RET>
+    "translated": ""
+"note": ""

@@ -1,0 +1,102 @@
+"entries":
+  "5aa7":
+    "original": |-
+      <C_YELLOW>老人<C_NONE>
+      鉱山のほうも なんとか復旧できたし
+      モンスターも いなくなって
+      ひと安心じゃよ。
+    "translated": ""
+  "5afb":
+    "original": |-
+      <C_YELLOW>ピート<C_NONE>
+      ふー ･ ･ ･ つかれた ･ ･ ･
+
+      今のうちに 坑道を補強しているんだ。いつ また地震が くるか わからない
+      からな。
+    "translated": ""
+  "5b6c":
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      みんな 忙しいんだから 作業の
+      じゃまをするなよ。
+    "translated": ""
+  "5bd7":
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      忙しい 忙しい ･ ･ ･
+    "translated": ""
+  "5bf0":
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      ああ 疲れた ･ ･ ･
+    "translated": ""
+  "5c07":
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      鉱夫の中に やたらに 話好きの
+      じいさんがいて いちど話し出すと
+      なかなか やめてくれないんだ。
+
+      昔から ここに いたらしくて
+      ここの名物じいさんだそうだよ。
+    "translated": ""
+  "5ca1":
+    "original": |-
+      <C_YELLOW>武器屋<C_NONE>
+      はい いらっしゃい。<RET_N>
+    "translated": ""
+  "5cbe":
+    "original": |-
+      またどうぞ。
+    "translated": ""
+  "5ccb":
+    "original": |-
+      <C_YELLOW>道具屋<C_NONE>
+      いらっしゃいませ。
+      どのような ご用でしょうか？<RET_N>
+    "translated": ""
+  "5d03":
+    "original": |-
+      また来てくださいね。
+    "translated": ""
+  "5d18":
+    "original": |-
+      おや？これ以上持てないようですね。
+
+      <RET>
+    "translated": ""
+  "5d3c":
+    "original": |-
+      どれを買ってくれますか？
+      <RET_N>
+    "translated": ""
+  "5d56":
+    "original": |-
+      <ITEM>だね。
+      どうも ありがとう。
+
+      <RET>
+    "translated": ""
+  "5d7b":
+    "original": |-
+      どれを 売ってくれますか？
+      <RET_N>
+    "translated": ""
+  "5d96":
+    "original": |2-
+       Gold になるけど
+      それでも よろしいですか？
+      <RET_N>
+    "translated": ""
+  "5dc2":
+    "original": |-
+      それは残念です。
+
+      <RET_N>
+    "translated": ""
+  "5dd4":
+    "original": |-
+      どうも ありがとうございます。
+      <RET_N>
+    "translated": ""
+"note": ""

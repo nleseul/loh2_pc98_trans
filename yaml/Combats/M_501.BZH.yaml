@@ -1,0 +1,18 @@
+"entries":
+  "7170":
+    "original": |-
+      ゴドウィン２世<RET>
+    "translated": ""
+  "7197":
+    "original": |-
+      皇帝 <JUMP7170><LOC719f>
+
+      <RET>
+    "translated": ""
+  "7201":
+    "original": |-
+      <C_YELLOW><CALL7197><C_NONE>
+      フッハッハッハッハ
+      この私の本当の力を思い知るがいい。<RET_N>
+    "translated": ""
+"note": ""

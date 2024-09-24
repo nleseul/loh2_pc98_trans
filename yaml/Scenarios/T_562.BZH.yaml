@@ -1,0 +1,82 @@
+"entries":
+  "5dbe":
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      ずっと前の地震で ネサの辺土の先に
+      でっかい穴が 開いちまったんだ。
+
+      それを のぞいてみると 奥のほうが
+      明るく光っていて まぶしくて ずっと見てられないくらいなんだ。
+
+      きっと あの光りは この世界から
+      外に出られないように 囲んでいる
+      炎の光りだな。
+
+      ネサの辺土は この世のはてだって
+      聞いてたんだけど ほんとに その通りだったとはね。
+    "translated": ""
+  "5f02":
+    "original": |-
+      <C_YELLOW>老人<C_NONE>
+      とうとう レジスタンスたちが 行動を起こしたそうじゃ。<WAIT>
+      成功してくれればいいのじゃが ･ ･ ･
+    "translated": ""
+  "5f61":
+    "original": "<C_YELLOW>女<C_NONE>\nレジスタンスたちが ベルンにいた\n人たちを 助け出したんですって。\n\nしかも 今は\
+      \ 皇帝を倒すために\n城に攻め入っているそうよ。 \n早く いい知らせが きてほしいわ。"
+    "translated": ""
+  "6000":
+    "original": |-
+      <C_YELLOW>女<C_NONE>
+      これできっとまた 昔のように 自由な生活が できるようになるのね。
+    "translated": ""
+  "6045":
+    "original": |-
+      <C_YELLOW>ヤミ屋<C_NONE>
+      いらっしゃい。何の用だい？<RET_N>
+    "translated": ""
+  "6069":
+    "original": |-
+      また たのむぜ。
+    "translated": ""
+  "6079":
+    "original": |-
+      これ以上持てないようだぜ。
+
+      <RET>
+    "translated": ""
+  "6095":
+    "original": |-
+      何を買うんだい？
+      <RET_N>
+    "translated": ""
+  "60a7":
+    "original": |-
+      <ITEM>だな。
+      ありがとよ。
+
+      <RET>
+    "translated": ""
+  "60c5":
+    "original": |-
+      何を 売りたいんだ？
+      <RET_N>
+    "translated": ""
+  "60da":
+    "original": |2-
+       Gold で買ってやるけど
+      それでも いいかい？
+      <RET_N>
+    "translated": ""
+  "6106":
+    "original": |-
+      何だよ 売ってくれないのか。
+
+      <RET_N>
+    "translated": ""
+  "6123":
+    "original": |-
+      よし 買ってやるぜ。
+      <RET_N>
+    "translated": ""
+"note": ""

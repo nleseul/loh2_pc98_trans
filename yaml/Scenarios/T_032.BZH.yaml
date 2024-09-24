@@ -1,0 +1,106 @@
+"entries":
+  "5a90":
+    "original": |-
+      <C_YELLOW>老人<C_NONE>
+      <IF0015><JUMP5b33>鉱山の復旧が 手間取ってしまって
+      いまだに 復旧しとらんのじゃ。
+
+      モンスターが 出てきたので 武器を
+      作るための材料が たくさん必要に
+      なったというのに ･ ･ ･<END>
+      <LOC5b33>やっと 鉱山が復旧したのじゃよ。
+      今は 武器を作るための材料を
+      たくさん 掘り出しているところじゃ。
+    "translated": ""
+  "5b93":
+    "original": "<C_YELLOW>ピート<C_NONE>\n<IF0015><JUMP5bf9>どうして こう次々と 悪いことが\n続くんだろう\
+      \ 落盤の次は\nモンスターが 出てくるとは ･ ･ ･<END>\n<LOC5bf9>ふう ･ ･ ･ ･ ･ \n\n鉱山が復旧したのは いいけど\
+      \ 次から次へと 武器屋がやってくるから\n休んでいるひまもないよ。"
+    "translated": ""
+  "5c62":
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      <IF0015><JUMP5ca8>落盤が起こって みんな 忙しいんだ。作業のじゃまをするなよ。<END>
+      <LOC5ca8>おいおい みんな 忙しいんだ。
+      作業のじゃまをするなよ。
+    "translated": ""
+  "5d14":
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      忙しい 忙しい ･ ･ ･
+    "translated": ""
+  "5d2d":
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      掘っても 掘っても きりがないよ。
+      ああ 疲れた ･ ･ ･
+    "translated": ""
+  "5d65":
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      <IF0015><JUMP5dc2>ふぅ まいったな。
+      鉱山の復旧を 手伝ってるあいだに
+      クルスが なくなっちゃったんだ。<END>
+      <LOC5dc2>どれだけ掘れば 気がすむんだろう
+      もう いいかげんにしてほしいよ。
+    "translated": ""
+  "5e02":
+    "original": |-
+      <C_YELLOW>武器屋<C_NONE>
+      はい いらっしゃい。<RET_N>
+    "translated": ""
+  "5e1f":
+    "original": |-
+      またどうぞ。
+    "translated": ""
+  "5e2c":
+    "original": |-
+      <C_YELLOW>道具屋<C_NONE>
+      いらっしゃいませ。
+      どのような ご用でしょうか？<RET_N>
+    "translated": ""
+  "5e64":
+    "original": |-
+      また来てくださいね。
+    "translated": ""
+  "5e79":
+    "original": |-
+      おや？これ以上持てないようですね。
+
+      <RET>
+    "translated": ""
+  "5e9d":
+    "original": |-
+      どれを買ってくれますか？
+      <RET_N>
+    "translated": ""
+  "5eb7":
+    "original": |-
+      <ITEM>だね。
+      どうも ありがとう。
+
+      <RET>
+    "translated": ""
+  "5edc":
+    "original": |-
+      どれを 売ってくれますか？
+      <RET_N>
+    "translated": ""
+  "5ef7":
+    "original": |2-
+       Gold になるけど
+      それでも よろしいですか？
+      <RET_N>
+    "translated": ""
+  "5f23":
+    "original": |-
+      それは残念です。
+
+      <RET_N>
+    "translated": ""
+  "5f35":
+    "original": |-
+      どうも ありがとうございます。
+      <RET_N>
+    "translated": ""
+"note": ""

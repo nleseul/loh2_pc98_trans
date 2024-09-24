@@ -1,0 +1,9 @@
+"entries":
+  "5a04":
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      これは 王子さま。
+      <IF0400><JUMP5a47>お気をつけて いってらっしゃいませ。<END>
+      <LOC5a47>お帰りなさいませ。
+    "translated": ""
+"note": ""

@@ -1,0 +1,44 @@
+"entries":
+  "5dd6":
+    "original": |-
+      <C_YELLOW>ナレサ隊長<C_NONE>
+      くっ 今 忙しいんだ じゃまをするな。
+    "translated": ""
+  "5e07":
+    "original": |-
+      <C_YELLOW>レイシア<C_NONE>
+      <IF0400><JUMP5e6f>フレイアの部屋は 私たちに任せて
+      早く テクニカの部屋を占拠して。<IF046f><JUMP5e5e><END>
+      <LOC5e5e><CALL6016><SET0400><C_YELLOW>レイシア<C_NONE>
+      <LOC5e6f>テクニカの部屋を占拠したなら
+      次にあなたたちがすることが
+      わからないの？
+    "translated": ""
+  "5eb6":
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      ここは もう少しで 突破できるから
+      だいじょうぶだ。
+    "translated": ""
+  "5eed":
+    "original": |-
+      <C_YELLOW>フレイアのマスター<C_NONE>
+      フレイアさえ 操作できれば 城内の
+      ガードたちを すべて消し去ることが
+      できるのだが ･ ･ ･
+    "translated": ""
+  "5f58":
+    "original": "<C_YELLOW>ヒストラのマスター<C_NONE>\n<IF0401><JUMP5fea>テクニカの部屋を 何とかしないと\n\
+      新しい武器が 作れないぞ。\n早く 行きたまえ。<IF046f><JUMP5fc5><END>\n<LOC5fc5><CALL6016><SET0401><C_YELLOW>ヒストラのマスター<C_NONE>\n\
+      それなら \n<LOC5fea>あとは皇帝を 追うのみだ。\n早く 行きたまえ。"
+    "translated": ""
+  "6016":
+    "original": |2-
+
+
+      <CH1>
+      ヘッ もう占拠しちまったから 助けてやろうと思って 来てやったんだよ。
+
+      <RET>
+    "translated": ""
+"note": ""

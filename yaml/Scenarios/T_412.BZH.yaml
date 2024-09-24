@@ -1,0 +1,111 @@
+"entries":
+  "5a7a":
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      <IF_NOT00f5><JUMP5b21>ソルディスに 行ったときに
+      きいたんだけど セリオスさまたちが
+      モンスター退治に出かけたんだってよ
+
+      しかも ドラゴンの背に 乗ってったんだって、かっこいいじゃん。<END>
+      <LOC5b21>ソルディスに 行ったときに
+      きいたんだけど 司祭 バーバラが
+      モンスターを 止めたらしいぜ。
+    "translated": ""
+  "5b78":
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      スリの修行とかで よく ファンガスの連中が この町まで来るんだよ。
+      気をつけたほうがいいぞ。
+    "translated": ""
+  "5bd6":
+    "original": |-
+      <C_YELLOW>女<C_NONE>
+      モレストンには ファンガスっていう
+      盗賊の町があったけど モンスターに
+      おそわれてしまったそうよ。
+
+      <IF_NOT00f5><JUMP5c6c>盗賊たちは いったい どこに
+      行ったのかしら？<END>
+      <LOC5c6c>でも モンスターが いなくなったのにまだだれも 盗賊たちを 見た人は
+      いないんですって。
+    "translated": ""
+  "5cc0":
+    "original": |-
+      <C_YELLOW>女<C_NONE>
+      ファンガスの 盗賊たちの かしらってかなりの年寄りらしいけど 今でも
+      すごく 元気だっていう話よ。
+
+      若いころは 世界をまたにかける
+      大盗賊ゲイルと 呼ばれていたそうよ。
+    "translated": ""
+  "5d65":
+    "original": |-
+      <C_YELLOW>アニー<C_NONE>
+      <IF00d1><JUMP5e60><SET00d1><SET0404>あら シンディ どうしたの ？
+
+      <CH3>
+      シンディ いっしょ。
+
+      <C_YELLOW>アニー<C_NONE>
+      えっ この人<IF0128><JUMP5dcd><IF0014><JUMP5dd1><LOC5dcd>たち<LOC5dd1>と 旅を始めたの？
+      そうなの ･ ･ ･ せっかく 仲が
+      よくなったところなのに 残念だわ。
+
+      それじゃあ 気をつけて 旅をしてね。
+
+      <CH3>
+      シンディ だいじょうぶ。<END>
+      <LOC5e60><IF0404><JUMP5e7f><SET0404>シンディ 元気そうね？
+      <LOC5e7f>たまには おじいちゃんの所にも
+      行ってあげてね。
+    "translated": ""
+  "5eae":
+    "original": |-
+      <C_YELLOW>ヤミ屋<C_NONE>
+      ヘッヘッヘ なにか用かい？<RET_N>
+    "translated": ""
+  "5ed1":
+    "original": |-
+      またどうぞ。
+    "translated": ""
+  "5ede":
+    "original": |-
+      これ以上持てないようだな。
+
+      <RET>
+    "translated": ""
+  "5efa":
+    "original": |-
+      どれを買いたいんだ？
+      <RET_N>
+    "translated": ""
+  "5f10":
+    "original": |-
+      <ITEM>だな。
+      ありがとよ。
+
+      <RET>
+    "translated": ""
+  "5f2e":
+    "original": |-
+      どれを 売りたいんだ？
+      <RET_N>
+    "translated": ""
+  "5f45":
+    "original": |2-
+       Gold になるけど
+      それで いいかい？
+      <RET_N>
+    "translated": ""
+  "5f69":
+    "original": |-
+      そうか 残念だな。
+
+      <RET_N>
+    "translated": ""
+  "5f7c":
+    "original": |-
+      ありがとよ。
+      <RET_N>
+    "translated": ""
+"note": ""

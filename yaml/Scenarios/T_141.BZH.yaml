@@ -1,0 +1,148 @@
+"entries":
+  "5b1c":
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      これは 王子さま。ジェストンさまは
+      城の２階に いらっしゃいます。
+      どうぞ お入りください。
+    "translated": ""
+  "5b7b":
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      世の中が 暗黒に包まれた時
+      竜の卵から 真紅の竜がかえり
+      邪悪なものを焼きつくす。
+
+      こんな言い伝え 知ってますか？
+      父が よく言っていたんですけど
+      全然 話が違いましたね。
+      まさか モンスターが 出てくるとは。
+    "translated": ""
+  "5c46":
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      きいてくれよ 見ちゃったんだ
+      ジェストンさまの 後継ぎ候補 !!
+
+      ここだけの 話だけどな あれじゃ
+      だれが なっても 先が不安だよ。
+      その上 外には モンスターがいるし
+      ウォンリークは どうなるんだろう？
+    "translated": ""
+  "5d07":
+    "original": |-
+      <C_YELLOW>女<C_NONE>
+      うちの子に 遊び友だちが できたの。マスクーンから 逃げてきたという
+      ２人の男の子なのよ。
+
+      でも 母親は ラルファに
+      逃げたらしくて 今は 別々なのよ。
+      早く いっしょに なれればいいけど。
+    "translated": ""
+  "5dbe":
+    "original": |-
+      <C_YELLOW>老人<C_NONE>
+      この前の地震は 竜の卵が かえる
+      しるしに ちがいないと 思って
+      いたのじゃ。
+
+      でも まさか モンスターが 生まれて
+      くるとは 思わなかったわい。
+    "translated": ""
+  "5e4c":
+    "original": |-
+      <C_YELLOW>フォルス<C_NONE>
+      フォッフォッフォ
+      子供は 元気なのが一番じゃ。
+
+      わしの家で 遊んでいた 子どもたちを連れて ここまで逃げてきたのじゃ。
+      母親は ラルファに いるそうじゃからそのうち ここに来ることじゃろう。
+    "translated": ""
+  "5f0c":
+    "original": |-
+      <C_YELLOW>エリック<C_NONE>
+      わしは 昔 この町に住んでいたことがあったのじゃよ。
+      なつかしいのう ･ ･ ･
+    "translated": ""
+  "5f5f":
+    "original": |-
+      <C_YELLOW>子供<C_NONE>
+      ママがね 町から外に出るなって
+      言うんだよ。こわいモンスターが
+      いるから だめなんだって。
+
+      でも 遊び友だちが できたから
+      町の中にいても おもしろいけどね。
+    "translated": ""
+  "5ffc":
+    "original": |-
+      <C_YELLOW>子供<C_NONE>
+      ぼくのお母さんは ラルファに
+      いるんだって でも さみしくないんだここで 友だちが できたんだもん。
+    "translated": ""
+  "6062":
+    "original": |-
+      <C_YELLOW>子供<C_NONE>
+      ぼくたち いつも ２人でかくれんぼをしてたんだけど ３人でやったら
+      もっと おもしろかったよ。
+    "translated": ""
+  "60c3":
+    "original": |-
+      <C_YELLOW>武器屋<C_NONE>
+      はい いらっしゃい。<RET_N>
+    "translated": ""
+  "60e0":
+    "original": |-
+      またどうぞ。
+    "translated": ""
+  "60ed":
+    "original": |-
+      <C_YELLOW>道具屋<C_NONE>
+      いらっしゃいませ。
+      どのような ご用でしょうか？<RET_N>
+    "translated": ""
+  "6125":
+    "original": |-
+      また来てくださいね。
+    "translated": ""
+  "613a":
+    "original": |-
+      おや？これ以上持てないようですね。
+
+      <RET>
+    "translated": ""
+  "615e":
+    "original": |-
+      どれを買ってくれますか？
+      <RET_N>
+    "translated": ""
+  "6178":
+    "original": |-
+      <ITEM>だね。
+      どうも ありがとう。
+
+      <RET>
+    "translated": ""
+  "619d":
+    "original": |-
+      どれを 売ってくれますか？
+      <RET_N>
+    "translated": ""
+  "61b8":
+    "original": |2-
+       Gold になるけど
+      それでも よろしいですか？
+      <RET_N>
+    "translated": ""
+  "61e4":
+    "original": |-
+      それは残念です。
+
+      <RET_N>
+    "translated": ""
+  "61f6":
+    "original": |-
+      どうも ありがとうございます。
+      <RET_N>
+    "translated": ""
+"note": ""

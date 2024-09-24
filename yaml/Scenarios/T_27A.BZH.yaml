@@ -1,0 +1,82 @@
+"entries":
+  "5adb":
+    "original": |-
+      <C_YELLOW>ジーナ<C_NONE>
+      お前たち スエルには 行ったかい？
+
+      今度 ジーナ観光ツアーってのを
+      始めたから 行ってみておくれよ。
+    "translated": ""
+  "5b43":
+    "original": |-
+      <C_YELLOW>船員<C_NONE>
+      ジーナさんは 観光ツアーと宿屋とで
+      金をもうけるって言ってたぜ。
+    "translated": ""
+  "5b89":
+    "original": |-
+      <C_YELLOW>船員<C_NONE>
+      ジーナさんは 最新の船を使って
+      観光を始めたんだ。
+
+      もし いきたければ スエルから
+      出発しているから 行ってみな。
+    "translated": ""
+  "5bfc":
+    "original": |-
+      <C_YELLOW>船員<C_NONE>
+      あーあ ヒマだなー
+      昔は 良かったよなー
+
+      酒飲んだり バクチしたり 定期船を
+      おそった ･ ･ ･ あぶねえ あぶねえ。
+    "translated": ""
+  "5c6d":
+    "original": |-
+      <C_YELLOW>船員<C_NONE>
+      ジーナさんは なかなか 頭がいいな
+      あの人見てると 社長の お袋さんを
+      思い出すよな。
+    "translated": ""
+  "5cc5":
+    "original": |-
+      <C_YELLOW>船員<C_NONE>
+      やっと 新しい船が できたんだ。
+      今のより 速くて 人をたくさん
+      乗せられるんだぜ。
+    "translated": ""
+  "5d1b":
+    "original": |-
+      <C_YELLOW>船員<C_NONE>
+      <IF009d><JUMP5da5>おっと 気をつけてくれよ。
+      ここには バクヤクが たくさん
+      あるんだからよ。
+
+      えっ 何に 使うかって？
+      そんなの きくまでもねえだろ。<END>
+      <LOC5da5>なに バクヤク？
+      <Xf65317><JUMP5df8>ほらよ ここで 使うんじゃねえぞ。
+
+      <Xf12c><UNSET009d><ITEM><C_GREEN>をもらいました。<SND0103><C_NONE><END>
+      <LOC5df8>そんなに よくばるなよ。
+      持物が いっぱいだぜ。
+    "translated": ""
+  "5e26":
+    "original": |-
+      <C_YELLOW>船員<C_NONE>
+      ここには 変わった宝石が たくさん
+      あるんだぜ。社長の趣味なんだ。
+    "translated": ""
+  "5e6d":
+    "original": |-
+      <C_YELLOW>ボアード<C_NONE>
+      <IF009d><JUMP5eb5><Xf624d6><JUMP5ee3>またバクヤクが ほしかったら
+      酒と交換してやるよ。<END>
+      <LOC5eb5>右の武器をおいてある所から
+      持っていってくれ。<END>
+      <LOC5ee3>おっ また バクヤクがほしいのか？<Xf69229><JUMP5f28><SET009d><ASMd61c><CLEAR><ITEM><C_GREEN>を渡しました。<SND0103><C_NONE>
+
+      <JUMP5eb5><LOC5f28><CLEAR>そうか その酒 けっこう気に入ったぜ。またバクヤクが ほしかったら
+      交換してやるからな。
+    "translated": ""
+"note": ""

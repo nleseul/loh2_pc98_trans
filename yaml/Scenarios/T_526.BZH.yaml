@@ -1,0 +1,155 @@
+"entries":
+  "5b11":
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      私も こんな所で モンスターの番を
+      しているよりも 城に行って みんなといっしょに 戦いたかったんです。
+
+      でも 町を守ることも 重要ですから
+      命令は 守りますよ。
+    "translated": ""
+  "5bae":
+    "original": |-
+      <C_YELLOW>女<C_NONE>
+      うちは 道具屋を やっているんだけどちかごろ 店の向こう側に 変な人が
+      すみついて困ってるのよ。
+
+      変なつぼを 持っているんだけど
+      いったい 何をやっているのかしら。
+    "translated": ""
+  "5c4f":
+    "original": |-
+      <C_YELLOW>女<C_NONE>
+      あらま あなたたちレジスタンスね？
+
+      みんな あなたたちの 活躍を
+      期待しているから がんばってね。
+    "translated": ""
+  "5cb1":
+    "original": |-
+      <C_YELLOW>老人<C_NONE>
+      もうすぐ 自由がやってくるんじゃ。
+      ずっと あきらめていたのに ･ ･ ･
+    "translated": ""
+  "5cfa":
+    "original": |-
+      <C_YELLOW>老人<C_NONE>
+      皇帝を倒したら 新しい 指導者が
+      何か 重大な発表を するそうじゃ。
+      いったい 何のことなのじゃろうか？
+    "translated": ""
+  "5d63":
+    "original": |-
+      <C_YELLOW>子ども<C_NONE>
+      ぼく かくれんぼ してるんだけど
+      なかなか 見つけてくんないんだ。
+
+      ほんとに 探してるのかな。
+    "translated": ""
+  "5dc5":
+    "original": |-
+      <C_YELLOW>子ども<C_NONE>
+      ぼく かくれんぼ してたんだけど
+      なかなか 見つかんないから
+      帰ってきちゃった。
+    "translated": ""
+  "5e1a":
+    "original": |-
+      <C_YELLOW>ヤミ屋<C_NONE>
+      へっへっへ
+      いい物が あるぜ。<RET_N>
+    "translated": ""
+  "5e40":
+    "original": |-
+      また たのむぜ。
+    "translated": ""
+  "5e50":
+    "original": |-
+      もう 持てねえよ。
+
+      <RET>
+    "translated": ""
+  "5e63":
+    "original": |-
+      どれを 買うんだ？
+      <RET_N>
+    "translated": ""
+  "5e76":
+    "original": |-
+      <ITEM>だな。
+      こいつは よく使えるぜ。
+
+      <RET>
+    "translated": ""
+  "5e9f":
+    "original": |-
+      どれを 売ってくれるんだ？
+      <RET_N>
+    "translated": ""
+  "5eba":
+    "original": |2-
+       Gold だぜ。いいか？
+      <RET_N>
+    "translated": ""
+  "5ed0":
+    "original": |-
+      何だ 売ってくれねえのか。
+
+      <RET_N>
+    "translated": ""
+  "5eeb":
+    "original": |-
+      ありがとよ。
+      <RET_N>
+    "translated": ""
+  "5ef9":
+    "original": |-
+      <C_YELLOW>道具屋<C_NONE>
+      いらっしゃいませ。
+      どのような ご用でしょうか？<RET_N>
+    "translated": ""
+  "5f31":
+    "original": |-
+      また来てくださいね。
+    "translated": ""
+  "5f46":
+    "original": |-
+      おや？これ以上持てないようですね。
+
+      <RET>
+    "translated": ""
+  "5f6a":
+    "original": |-
+      どれを買ってくれますか？
+      <RET_N>
+    "translated": ""
+  "5f84":
+    "original": |-
+      <ITEM>だね。
+      どうも ありがとう。
+
+      <RET>
+    "translated": ""
+  "5fa9":
+    "original": |-
+      どれを 売ってくれますか？
+      <RET_N>
+    "translated": ""
+  "5fc4":
+    "original": |2-
+       Gold になるけど
+      それでも よろしいですか？
+      <RET_N>
+    "translated": ""
+  "5ff0":
+    "original": |-
+      それは残念です。
+
+      <RET_N>
+    "translated": ""
+  "6002":
+    "original": |-
+      どうも ありがとうございます。
+      <RET_N>
+    "translated": ""
+"note": ""

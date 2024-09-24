@@ -4,7 +4,7 @@ import os
 import typing
 
 from code_analysis_util import BlockPool, EmptyHook, Link, X86CodeBlock
-from csv_util import *
+from trans_util import *
 from ds6_event_util import *
 
 
@@ -31,7 +31,7 @@ def explore(block_pool:BlockPool, entry_points:typing.List[EntryPointInfo]) -> N
             break
 
 
-def extract_scenario_events(scenario_data:typing.ByteString, custom_hooks:list[X86CodeHook]) -> list[DS6EventBlock]:
+def extract_scenario_events(scenario_data:typing.ByteString, custom_hooks:list[X86CodeHook]) -> TranslationCollection:
     code_entry_points = [ EntryPointInfo("code", int.from_bytes(scenario_data[0:2], byteorder='little')) ]
 
     addr_offset = 2
@@ -60,12 +60,17 @@ def extract_scenario_events(scenario_data:typing.ByteString, custom_hooks:list[X
 
     explore(block_pool, code_entry_points)
 
-    return sorted(list(block_pool.get_blocks("event")), key=lambda e: e.start_addr)
+    trans = TranslationCollection()
+    for block in block_pool.get_blocks("event"):
+        entry = trans[block.start_addr]
+        entry.original = block.format_string()
+
+    return trans
 
 
-def extract_combat_events(combat_data:typing.ByteString) -> list[DS6EventBlock]:
+def extract_combat_events(combat_data:typing.ByteString, monster_count:int = 4) -> TranslationCollection:
     entry_points = []
-    for name_index in range(1 if "M_501" in file_path else 4):
+    for name_index in range(monster_count):
         entry_points.append(EntryPointInfo("event", 0x7140 + name_index * 0x40 + 0x30))
 
     intro_text_addr = int.from_bytes(combat_data[0x108:0x10a], byteorder='little')
@@ -87,29 +92,41 @@ def extract_combat_events(combat_data:typing.ByteString) -> list[DS6EventBlock]:
 
     explore(block_pool, entry_points)
 
-    return sorted(list(block_pool.get_blocks("event")), key=lambda e: e.start_addr)
+    trans = TranslationCollection()
+    for block in block_pool.get_blocks("event"):
+        entry = trans[block.start_addr]
+        entry.original = block.format_string()
+
+    return trans
 
 
-def extract_opening_text(opening_data:typing.ByteString, start_addr:int) -> tuple[int, str]:
-    text = ""
-    addr = start_addr
+def extract_opening_text(opening_data:typing.ByteString) -> TranslationCollection:
+    trans = TranslationCollection()
 
-    while True:
-        if opening_data[addr] == 0xff:
-            addr += 1
-            break
-        elif opening_data[addr] == 0:
-            text += "\n"
-            addr += 1
-        else:
-            ch, addr = read_sjis_char(opening_data, addr)
-            text += ch
+    addr = 0x3dc2
 
-    return addr, text
+    for text_index in range(5):
+        text = ""
+        while True:
+            if opening_data[addr] == 0xff:
+                text += "<PAGE>\n"
+                addr += 1
+                break
+            elif opening_data[addr] == 0:
+                text += "\n"
+                addr += 1
+            else:
+                ch, addr = read_sjis_char(opening_data, addr)
+                text += ch
 
 
-def extract_ending_text(ending_data:typing.ByteString) -> tuple[int, str]:
-    ending_text = {}
+        trans[text_index].original = text
+
+    return trans
+
+
+def extract_ending_text(ending_data:typing.ByteString) -> TranslationCollection:
+    trans = TranslationCollection()
 
     addresses = [
         0x226c,
@@ -160,48 +177,49 @@ def extract_ending_text(ending_data:typing.ByteString) -> tuple[int, str]:
                 ch, addr = read_sjis_char(ending_data, addr)
                 text += ch
 
-        ending_text[start_addr] = text
+        trans[start_addr].original = text
 
     # Line lengths are hardcoded at 0x1003 and 0x1019
     final_text_addr = 0x28d3
     line_lengths = [0xd, 0xb]
     second_line_start = final_text_addr + line_lengths[0]*2
-    ending_text[final_text_addr] = ending_data[final_text_addr:final_text_addr+line_lengths[0]*2].decode('cp932') +\
+    trans[final_text_addr].original = ending_data[final_text_addr:final_text_addr+line_lengths[0]*2].decode('cp932') +\
           "\n" +\
           ending_data[second_line_start:second_line_start+line_lengths[1]*2].decode('cp932')
 
-    return ending_text
+    return trans
 
 
-def extract_spells(prog_data:typing.ByteString) -> dict[int, str]:
-    spells = {}
+def extract_spells(prog_data:typing.ByteString) -> TranslationCollection:
+    trans = TranslationCollection()
     base_addr = 0x1ebc + 0x7c00
 
     for spell_index in range(32):
         addr = base_addr + spell_index*12
         spell_name = prog_data[addr:addr+8].decode('cp932')
-        spells[addr] = spell_name
+        trans[addr].original = spell_name
 
-    return spells
+    return trans
 
 
-def extract_items(prog_data:typing.ByteString) -> dict[int, str]:
-    items = {}
+def extract_items(prog_data:typing.ByteString) -> TranslationCollection:
+    trans = TranslationCollection()
     addr = 0xf3b + 0x7c00
 
     while prog_data[addr] != 0:
         item_name = prog_data[addr:addr+14].decode('cp932')
-        items[addr] = item_name
+        trans[addr].original = item_name
 
         addr += 14 if addr >= 0x152b + 0x7c00 else 20
 
-    return items
+    return trans
 
 
 def extract_locations(prog_data:typing.ByteString) -> list[str]:
-    locations = []
+    trans = TranslationCollection()
     addr = 0xcec + 0x7c00
 
+    count = 0
     while True:
         first_byte = prog_data[addr]
         if first_byte == 0x00:
@@ -214,12 +232,20 @@ def extract_locations(prog_data:typing.ByteString) -> list[str]:
 
         location_name = prog_data[addr:addr+length].decode('cp932')
         addr += length
-        locations.append(location_name)
 
-    return locations
+        trans[count].original = location_name
+        count += 1
+
+    return trans
 
 
-if __name__ == '__main__':
+def update_translations(trans:TranslationCollection, save_path:str) -> None:
+    if not trans.empty:
+        trans.import_translations(TranslationCollection.load(save_path))
+        trans.save(save_path)
+
+
+def main() -> None:
     scenario_list = []
     combat_list = []
     for path, dirs, files in os.walk("local/decompressed"):
@@ -234,7 +260,7 @@ if __name__ == '__main__':
 
     for file_path in scenario_list:
         base_name = os.path.splitext(os.path.basename(file_path))[0]
-        output_path = os.path.join("csv/Scenarios", f"{base_name}.csv")
+        output_path = os.path.join("yaml/Scenarios", f"{base_name}.yaml")
         print(output_path)
 
         os.makedirs(os.path.dirname(output_path), exist_ok=True)
@@ -247,20 +273,12 @@ if __name__ == '__main__':
             scenario_hooks = [EmptyHook(0xd5cb, False, 0xd5d6)] # Skip some subroutine calls that would stomp si
 
         try:
-            events = extract_scenario_events(scenario_data, scenario_hooks)
-
-            if len(events) > 0:
-                csv_data = load_csv(output_path)
-
-                for event in events:
-                    add_csv_original(csv_data, event.start_addr, event.format_string())
-
-                save_csv(output_path, csv_data)
+            update_translations(extract_scenario_events(scenario_data, scenario_hooks), output_path)
         except Exception as e:
             print(f" FAILED - {e}")
 
     for file_path in combat_list:
-        output_path = os.path.join("csv/Combats", os.path.splitext(os.path.basename(file_path))[0] + ".csv")
+        output_path = os.path.join("yaml/Combats", os.path.splitext(os.path.basename(file_path))[0] + ".yaml")
         print(output_path)
 
         os.makedirs(os.path.dirname(output_path), exist_ok=True)
@@ -269,59 +287,24 @@ if __name__ == '__main__':
             combat_data = in_file.read()
 
         try:
-            events = extract_combat_events(combat_data)
-
-            if len(events) > 0:
-                csv_data = load_csv(output_path)
-
-                for event in events:
-                    add_csv_original(csv_data, event.start_addr, event.format_string())
-
-                save_csv(output_path, csv_data)
+            update_translations(extract_combat_events(combat_data, 1 if "M_501" in file_path else 4), output_path)
         except Exception as e:
             print(f" FAILED - {e}")
 
     with open("local/decompressed/OPENING.BZH.bin", 'rb') as in_file:
         opening_data = in_file.read()
-    opening_csv_data = load_csv("csv/Opening.csv")
-
-    opening_addr = 0x3dc2
-    for opening_page_index in range(5):
-        opening_addr, text = extract_opening_text(opening_data, opening_addr)
-        add_csv_original(opening_csv_data, opening_page_index, text)
-
-    save_csv("csv/Opening.csv", opening_csv_data)
-
+    update_translations(extract_opening_text(opening_data), "yaml/Opening.yaml")
 
     with open("local/decompressed/ENDING.BZH.bin", 'rb') as in_file:
         ending_data = in_file.read()
-    ending_csv_data = load_csv("csv/Ending.csv")
-
-    ending_text = extract_ending_text(ending_data)
-    for addr, text in ending_text.items():
-        add_csv_original(ending_csv_data, addr, text)
-
-    save_csv("csv/Ending.csv", ending_csv_data)
-
+    update_translations(extract_ending_text(ending_data), "yaml/Ending.yaml")
 
     with open("local/decompressed/PROG.BZH.bin", 'rb') as in_file:
         prog_data = in_file.read()
 
-    spell_csv_data = load_csv("csv/Spells.csv")
-    spell_names = extract_spells(prog_data)
-    for spell_index, spell_name in spell_names.items():
-        add_csv_original(spell_csv_data, spell_index, spell_name)
-    save_csv("csv/Spells.csv", spell_csv_data)
+    update_translations(extract_spells(prog_data), "yaml/Spells.yaml")
+    update_translations(extract_items(prog_data), "yaml/Items.yaml")
+    update_translations(extract_locations(prog_data), "yaml/Locations.yaml")
 
-    item_csv_data = load_csv("csv/Items.csv")
-    item_names = extract_items(prog_data)
-    for item_addr, item_name in item_names.items():
-        add_csv_original(item_csv_data, item_addr, item_name)
-    save_csv("csv/Items.csv", item_csv_data)
-
-    location_csv_data = load_csv("csv/Locations.csv")
-    locations = extract_locations(prog_data)
-    for location_index, location in enumerate(locations):
-        add_csv_original(location_csv_data, location_index, location)
-    save_csv("csv/Locations.csv", location_csv_data)
-
+if __name__ == '__main__':
+    main()

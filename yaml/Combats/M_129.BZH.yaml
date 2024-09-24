@@ -1,0 +1,46 @@
+"entries":
+  "7170":
+    "original": |-
+      プルダーム<RET>
+    "translated": ""
+  "71b0":
+    "original": |-
+      プルダームＢ<RET>
+    "translated": ""
+  "71f0":
+    "original": |-
+      プルダームＣ<RET>
+    "translated": ""
+  "7230":
+    "original": |-
+      プルダームＤ<RET>
+    "translated": ""
+  "7427":
+    "original": |-
+      プルダームが現れた。<RET_N>
+    "translated": ""
+  "743c":
+    "original": |-
+      <ACTOR>は脳しんとうを起こした。<RET_PAGE>
+    "translated": ""
+  "7456":
+    "original": |-
+      <ACTOR>は脳しんとうで動けない。<RET_PAGE>
+    "translated": ""
+  "7470":
+    "original": |-
+      <CALL7527>くそっ おれが動けない間に <RET>
+    "translated": ""
+  "74c6":
+    "original": |-
+      <CALL7527>バカめ おれが 動けないというのに
+      ダメージを与えられないとは ･ ･ ･<WAIT>
+      さっさと かたづけてやる !!
+
+      <RET>
+    "translated": ""
+  "7527":
+    "original": |-
+      <CLEAR><C_YELLOW>プルダーム<C_NONE><RET_N>
+    "translated": ""
+"note": ""

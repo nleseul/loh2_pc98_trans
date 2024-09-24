@@ -1,0 +1,139 @@
+"entries":
+  "5b1d":
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      王子さまが 竜の卵を もとに戻したとききましたが 本当ですか？
+    "translated": ""
+  "5b5e":
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      いやー よかった よかった。
+      これでまた 前のように 安心して
+      寝ることができますよ。
+    "translated": ""
+  "5bb4":
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      兵士たちが クルスの村の 復旧作業をしているそうですが もう 本当に
+      モンスターは 出てこないのですか？
+    "translated": ""
+  "5c1c":
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      王子さま、武器屋のスコットは
+      武器屋を やめて 魚屋を始めることにしたそうですよ。
+    "translated": ""
+  "5c71":
+    "original": |-
+      <C_YELLOW>女<C_NONE>
+      平和になったのは 王子さまの
+      おかげだと 兵士さんが 言って
+      いましたけど 本当ですか？
+    "translated": ""
+  "5cc9":
+    "original": |-
+      <C_YELLOW>女<C_NONE>
+      あら これは 王子さま。
+      竜の卵を 戻したのは 王子さまだと
+      ききましたわよ。
+
+      そうだとしたら セリオスさまは
+      何をされているのですか？
+      ドラゴンに乗って 出かけたきり
+      お姿を 見かけませんけど ･ ･ ･
+    "translated": ""
+  "5d8a":
+    "original": |-
+      <C_YELLOW>老人<C_NONE>
+      これは 王子さま。
+      やはり 平和が いちばんですな。
+    "translated": ""
+  "5dc2":
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      王子さま、町の者たちも 安心して
+      生活を しているようです。
+
+      でも われわれは 万一の じたいを
+      考えると まだ安心できないのです。
+    "translated": ""
+  "5e45":
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      これは 王子さま。
+      こうしていると 平和の ありがたさがよくわかりますよ。
+    "translated": ""
+  "5e93":
+    "original": |-
+      <C_YELLOW>スコット<C_NONE>
+      あっ これは 王子さま。
+      もう武器屋は やめて 魚屋を
+      始めることにしたんです。
+    "translated": ""
+  "5ee9":
+    "original": |-
+      <C_YELLOW>アロン<C_NONE>
+      おお これは アトラスさま。
+      兵士たちが クルスの復旧に行って
+      くれているそうです。
+
+      あの思い出の場所に 戻れる日を
+      楽しみにしておるのです。
+    "translated": ""
+  "5f79":
+    "original": |-
+      <C_YELLOW>バーテン<C_NONE>
+      これは王子さま、いらっしゃいませ。お酒は 出せませんが ゆっくり
+      なさっていってください。
+    "translated": ""
+  "5fdc":
+    "original": |-
+      <C_YELLOW>道具屋<C_NONE>
+      おや 王子さま、いらっしゃい。
+      どのような ご用でしょうか？<RET_N>
+    "translated": ""
+  "601f":
+    "original": |-
+      また来てくださいね。
+    "translated": ""
+  "6034":
+    "original": |-
+      おや？これ以上持てないようですね。
+
+      <RET>
+    "translated": ""
+  "6058":
+    "original": |-
+      どれを買ってくれますか？
+      <RET_N>
+    "translated": ""
+  "6072":
+    "original": |-
+      <ITEM>だね。
+      どうも ありがとう。
+
+      <RET>
+    "translated": ""
+  "6097":
+    "original": |-
+      どれを 売ってくれますか？
+      <RET_N>
+    "translated": ""
+  "60b2":
+    "original": |2-
+       Gold になるけど
+      それでも よろしいですか？
+      <RET_N>
+    "translated": ""
+  "60de":
+    "original": |-
+      それは残念です。
+
+      <RET_N>
+    "translated": ""
+  "60f0":
+    "original": |-
+      どうも ありがとうございます。
+      <RET_N>
+    "translated": ""
+"note": ""

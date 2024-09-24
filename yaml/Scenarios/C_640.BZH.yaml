@@ -1,0 +1,62 @@
+"entries":
+  "5f3e":
+    "original": |-
+      <C_YELLOW>ケリイ<C_NONE>
+      この先にいる 敵が やたらに強くて
+      私たちでは どうにもならないんです。<WAIT>
+      何とかしてください。
+    "translated": ""
+  "5fa1":
+    "original": |-
+      <C_YELLOW>ボザ<C_NONE>
+      この先のやつを 倒してくれ。
+      おれは 腕をケガしてしまったから
+      しばらくは 戦えない。
+
+      あとは お前らに 任せるぜ。
+    "translated": ""
+  "6015":
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      ボザが ケガをして ここから先に
+      進めなくなってしまったんだ。
+    "translated": ""
+  "6056":
+    "original": |-
+      <C_YELLOW>リーダー<C_NONE>
+      ボザが あのとおりじゃから 君らに
+      がんばってもらうしかないようじゃ。何とかして ここを 突破してくれぬか。
+    "translated": ""
+  "60c9":
+    "original": |-
+      <C_YELLOW>テクニカのマスター<C_NONE>
+      もう少しで テクニカの部屋なのだ。
+      何とかして あいつを 倒してくれ。
+    "translated": ""
+  "6121":
+    "original": |-
+      <C_YELLOW>ヨシュアのマスター<C_NONE>
+      バイオラのマスターにも困ったものだ。あの敵には 弱点がないとは ･ ･ ･
+    "translated": ""
+  "617a":
+    "original": |-
+      <C_YELLOW>バイオラのマスター<C_NONE>
+      私は どうして あんな化け物を
+      作ってしまったのだろうか ･ ･ ･
+    "translated": ""
+  "61cb":
+    "original": |-
+      <C_YELLOW>ケリイ<C_NONE>
+      さあ 早く !!
+      いっしょに 行きましょう。
+
+      <CH0>
+      よし 後ろは ぼくたちに まかせて
+      先に行ってくれ !!
+    "translated": ""
+  "6230":
+    "original": |-
+      <PARTY>は 宝箱を開けました。
+      宝箱の中には<RET>
+    "translated": ""
+"note": ""

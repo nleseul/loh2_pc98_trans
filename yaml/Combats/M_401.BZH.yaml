@@ -1,0 +1,52 @@
+"entries":
+  "7170":
+    "original": |-
+      カザズーム<RET>
+    "translated": ""
+  "71b0":
+    "original": ""
+    "translated": ""
+  "71f0":
+    "original": ""
+    "translated": ""
+  "7230":
+    "original": ""
+    "translated": ""
+  "754a":
+    "original": |-
+      <CALL75c7><CALL75ea>この氷の壁は 破れん。
+
+      <RET>
+    "translated": ""
+  "7567":
+    "original": |-
+      しかし 氷の壁は壊れない。<RET_PAGE>
+    "translated": ""
+  "758a":
+    "original": |-
+      <SET0041><CALL75c7>その程度の炎で この壁は破れんぞ。<IF0418><JUMP75b8>
+
+      <LOC75b8><RET>
+    "translated": ""
+  "75b9":
+    "original": |-
+      <CALL75df>が現れた。<RET_N>
+    "translated": ""
+  "75c7":
+    "original": |-
+      <CLEAR><C_YELLOW><CALL75df><C_NONE>
+      グッハッハッハ。<RET_N>
+    "translated": ""
+  "75df":
+    "original": |-
+      カザズーム<RET>
+    "translated": ""
+  "75ea":
+    "original": |-
+      お前らなどに <RET>
+    "translated": ""
+  "75f8":
+    "original": |-
+      <CALL75c7><CALL75ea>このおれは 倒せん。<RET>
+    "translated": ""
+"note": ""

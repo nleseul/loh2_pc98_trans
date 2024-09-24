@@ -1,0 +1,156 @@
+"entries":
+  "5b2e":
+    "original": |-
+      <C_YELLOW>フォルス<C_NONE>
+      フォッフォッフォ
+      子供は 元気なのが一番じゃ。
+
+      わしは この マスクーンの町長の
+      フォルスじゃ。
+
+      はて ･ ･ ･ お前さん どこかで
+      見たことが あるような気がするが
+      どこじゃったかのう ･ ･ ･
+    "translated": ""
+  "5bea":
+    "original": |-
+      <C_YELLOW>エリック<C_NONE>
+      この右手の傷は 若い頃に ナイフを
+      使っていて 切ってしまったのじゃよ。
+    "translated": ""
+  "5c3a":
+    "original": |-
+      <C_YELLOW>子供<C_NONE>
+      わーい わーい。
+      この家は かくれるとこが いっぱいでおもしろいんだ。
+    "translated": ""
+  "5c84":
+    "original": |-
+      <C_YELLOW>子供<C_NONE>
+      あー、びっくりしたな。
+      ぼく かくれんぼしてるんだ。
+    "translated": ""
+  "5cbe":
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      ジェストンさまの後継者が もうすぐ
+      発表になるらしい。
+      いったい だれに なるんだろう。
+    "translated": ""
+  "5d17":
+    "original": |-
+      <C_YELLOW>女<C_NONE>
+      うちの子供たちったら いったい
+      どこに 行ったのかしら？
+
+      まさか またフォルスさんの家で
+      かくれんぼなんかしてるんじゃ ･ ･ ･
+
+      フォルスさんは 子供が好きで
+      うちの子供たちが 家の中を
+      走り回っても 怒らないのよ。
+
+      どうせ また「フォッフォッフォ
+      子供は 元気なのが一番じゃ。」
+      なーんて言って よろこんでるのよ。
+    "translated": ""
+  "5e43":
+    "original": |-
+      <C_YELLOW>老人<C_NONE>
+      ここから北の リーゼルの東に
+      試練の洞窟という所があるのじゃ。
+
+      昔はそこに 武器などが　保管されて
+      いたのじゃが、いつのまにやら 全部
+      なくなってしまったのじゃよ。
+    "translated": ""
+  "5ee8":
+    "original": |-
+      <C_YELLOW>武器屋<C_NONE>
+      へい らっしゃい。
+      うちにゃ いい武器しかねえよ。<RET_N>
+    "translated": ""
+  "5f21":
+    "original": |-
+      また 来てくれよ。
+    "translated": ""
+  "5f33":
+    "original": |-
+      もう 持てねえみてえだぜ。
+
+      <RET>
+    "translated": ""
+  "5f4e":
+    "original": |-
+      何 買ってくれるんだい？
+      <RET_N>
+    "translated": ""
+  "5f67":
+    "original": |-
+      <ITEM>かい。
+      へい どうぞ。まいどー。
+
+      <RET>
+    "translated": ""
+  "5f88":
+    "original": |-
+      <C_YELLOW>奥にいる道具屋<C_NONE>
+      お客さん 悪いねぇ。
+      まだ 何を売るか 決めてないんだ。
+
+      あらわしの鈴が 全然売れなく
+      なったもんでね ･ ･ ･
+      かわりに 何かいい物が ないかって
+      ずっと考えているんだよ。
+    "translated": ""
+  "6039":
+    "original": |-
+      <C_YELLOW>道具屋<C_NONE>
+      いらっしゃいませ。
+      なんの ご用でしょうか？<RET_N>
+    "translated": ""
+  "606d":
+    "original": |-
+      また おいでください。
+    "translated": ""
+  "608b":
+    "original": |-
+      おや？これ以上持てないようですね。
+
+      <RET>
+    "translated": ""
+  "60af":
+    "original": |-
+      どれを買ってくれますか？
+      <RET_N>
+    "translated": ""
+  "60c9":
+    "original": |-
+      <ITEM>だね。
+      どうも ありがとう。
+
+      <RET>
+    "translated": ""
+  "60ee":
+    "original": |-
+      どれを 売ってくれますか？
+      <RET_N>
+    "translated": ""
+  "6109":
+    "original": |2-
+       Gold になるけど
+      それでも よろしいですか？
+      <RET_N>
+    "translated": ""
+  "6135":
+    "original": |-
+      それは残念です。
+
+      <RET_N>
+    "translated": ""
+  "6147":
+    "original": |-
+      どうも ありがとうございます。
+      <RET_N>
+    "translated": ""
+"note": ""

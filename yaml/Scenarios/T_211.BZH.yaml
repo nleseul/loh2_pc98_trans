@@ -1,0 +1,167 @@
+"entries":
+  "5b80":
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      先日は 失礼いたしました。
+
+      ファーレーンの王子さまであったとは存じませんでした。
+      どうか お許しください。
+    "translated": ""
+  "5bee":
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      アトラス王子さまですね？
+      どうぞ お城に お入りください。
+      今日は 竜の祭の 前夜祭なんですよ。
+    "translated": ""
+  "5c50":
+    "original": |-
+      <C_YELLOW>子供<C_NONE>
+      さっきねー おこづかい もらったんだ。これから おいしいものを いっぱい
+      食べるんだよ。
+    "translated": ""
+  "5cab":
+    "original": |-
+      <C_YELLOW>老人<C_NONE>
+      ふぉっふぉっふぉ。
+      前にいるのは わしの娘夫婦なんじゃ。
+
+      昔 娘にひどいことを したんじゃが
+      それが縁で こんなに やさしい人と
+      いっしょに なったんじゃよ。
+    "translated": ""
+  "5d47":
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      ねえさんたちは 毎年 竜の祭を
+      見るために はるばる リシェールから来てくれるんだ。
+    "translated": ""
+  "5d9c":
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      私は モレストンの リシェールの港で道具屋と呪文屋を やってるんです。
+
+      リシェールに 来たときには ぜひ
+      寄ってみてください。
+    "translated": ""
+  "5e19":
+    "original": |-
+      <C_YELLOW>女<C_NONE>
+      毎年 竜の祭を 見に来てるんだけど
+      今年は とくに にぎやかになりそうでたのしみだわ。
+    "translated": ""
+  "5e70":
+    "original": |-
+      <C_YELLOW>女<C_NONE>
+      うちの おじいちゃんは お祭が
+      なによりも 大好きなんですよ。
+    "translated": ""
+  "5eb0":
+    "original": |-
+      <C_YELLOW>ギャリー<C_NONE>
+      今年も 竜の祭を 迎えられて 長生き
+      したかいが あったわい。
+      わしゃ祭が 何よりも 好きなんじゃ。
+
+      いやー 本当に 楽しみじゃのう。
+    "translated": ""
+  "5f37":
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      よぉ 今日はよぉ 前夜祭なんだぜぇ。年によぉ １回しか ねえんだぞぉ。
+      めでたいことだよなぁ。
+    "translated": ""
+  "5f96":
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      こいつさあ １週間前から ずっと
+      飲みっぱなしなんだよ。
+      あんまり 相手にしないほうがいいぞ。
+    "translated": ""
+  "5ff5":
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      明日は いよいよ 竜の祭だ。
+      ほんとに めでたいよな。
+      はっはっはっは ･ ･ ･
+    "translated": ""
+  "6042":
+    "original": |-
+      <C_YELLOW>武器屋<C_NONE>
+      いらっしゃい。<RET_N>
+    "translated": ""
+  "605a":
+    "original": |-
+      またどうぞ。
+    "translated": ""
+  "6067":
+    "original": |-
+      <C_YELLOW>道具屋<C_NONE>
+      いらっしゃいませ。
+      どのような ご用でしょうか？<RET_N>
+    "translated": ""
+  "609f":
+    "original": |-
+      また来てくださいね。
+    "translated": ""
+  "60b4":
+    "original": |-
+      <C_YELLOW>バーテン<C_NONE>
+      １杯 いかがですか？<Xf69229><JUMP60e6><CLEAR><IF0410><JUMP612c><IF0411><JUMP61c7><END>
+      <LOC60e6><CLEAR>そうですか ･ ･ ･
+      今なら 竜の祭の サービスで
+      タダなんですけどね ･ ･ ･<END>
+      <LOC612c>おや あなたは 未成年ですね？
+      ラヌーラでは 未成年に 酒を
+      飲ませた人も 罪になるんです。
+
+      いくら 前夜祭でも だめなものは
+      だめなんですよ。
+      あきらめてください。<END>
+      <LOC61c7>はい どうぞ。
+      料金は 竜の祭の サービスですから
+      タダになってます。<Xf666d6><JUMP6218>
+
+      <SET0418><ASMd67f><UNSET0418><LOC6218>
+    "translated": ""
+  "6219":
+    "original": |-
+      おや？これ以上持てないようですね。
+
+      <RET>
+    "translated": ""
+  "623d":
+    "original": |-
+      どれを買ってくれますか？
+      <RET_N>
+    "translated": ""
+  "6257":
+    "original": |-
+      <ITEM>だね。
+      どうも ありがとう。
+
+      <RET>
+    "translated": ""
+  "627c":
+    "original": |-
+      どれを 売ってくれますか？
+      <RET_N>
+    "translated": ""
+  "6297":
+    "original": |2-
+       Gold になるけど
+      それでも よろしいですか？
+      <RET_N>
+    "translated": ""
+  "62c3":
+    "original": |-
+      それは残念です。
+
+      <RET_N>
+    "translated": ""
+  "62d5":
+    "original": |-
+      どうも ありがとうございます。
+      <RET_N>
+    "translated": ""
+"note": ""

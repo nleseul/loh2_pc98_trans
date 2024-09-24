@@ -1,0 +1,147 @@
+"entries":
+  "5b88":
+    "original": |-
+      <C_YELLOW>老人<C_NONE>
+      この船は ルドラの港まで いっとる。乗るなら 早く乗りなされ。
+    "translated": ""
+  "5bcb":
+    "original": |-
+      <C_YELLOW>老人<C_NONE>
+      お客さん 切符を出してくだされ。
+      <PAGE>
+      <Xf8287417><JUMP5c74>船に 乗りますか？
+      <Xf69229><JUMP5c51><Xf9000206><ASM6b26><Xf828af17><JUMP5c74><Xf028><SET0400><ITEM>を 渡しました。<SND0103><PAGE>
+      よい旅を してくだされ。<END>
+      <LOC5c51><CLEAR>もうすぐ 出発じゃ。早くしなされ。<END>
+      <LOC5c74>切符が ないようじゃな。
+    "translated": ""
+  "5c8c":
+    "original": |-
+      <C_YELLOW>子ども<C_NONE>
+      ぼくの父さんと母さんは ふたりとも
+      お店屋さんを してるんだよ。
+
+      でも すぐそばで やってるから
+      さみしくないんだ。
+    "translated": ""
+  "5d03":
+    "original": |-
+      <C_YELLOW>老人<C_NONE>
+      わしらは セリスの町が おそわれて
+      しまったので 娘の家がある この町に逃げてきたのです。
+    "translated": ""
+  "5d60":
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      ここは ねえさん夫婦の 家なんだ。
+      表で 道具屋と呪文屋をやってるから
+      何か 買っていってくれよ。
+    "translated": ""
+  "5dc2":
+    "original": |-
+      <C_YELLOW>女<C_NONE>
+      司祭 バーバラさまって すごいのね。でも セリオスさまたちは いったい
+      どうなさったのかしら？
+    "translated": ""
+  "5e21":
+    "original": |-
+      <C_YELLOW>女<C_NONE>
+      あのモンスターは フレイアさまの
+      お使いだったという話だけど
+      いったい 何をしにきたのかしら。
+    "translated": ""
+  "5e81":
+    "original": |-
+      <C_YELLOW>老人<C_NONE>
+      わしゃ 若いころから まじめに
+      こつこつと 働いてきたのに ちっとも金がたまらんかったわい。
+    "translated": ""
+  "5ee0":
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      いらっしゃい 切符が いるのかい？
+      １つ 100 Gold だけど
+      <Xf2c95f><JUMP5f93><Xf65317><JUMP5faf>どうする 切符を 買うかい？<Xf69229><JUMP5f58><Xf3c95f><Xf128><CLEAR>まいどー。<END>
+      <LOC5f58><CLEAR>からかうのは やめてくれ おれだっていろいろと 忙しいんだ。<END>
+      <LOC5f93>お金が 足りないみたいだよ。<END>
+      <LOC5faf>もう 持てないみたいだよ。
+    "translated": ""
+  "5fcd":
+    "original": |-
+      <C_YELLOW>呪文屋<C_NONE>
+      いらっしゃいませ。
+      ここは 呪文屋です。<RET_N>
+    "translated": ""
+  "5ffd":
+    "original": |-
+      また来てください。
+    "translated": ""
+  "6010":
+    "original": |-
+      <C_YELLOW>道具屋<C_NONE>
+      いらっしゃいませ。
+      どのような ご用でしょうか？<RET_N>
+    "translated": ""
+  "6048":
+    "original": |-
+      また来てくださいね。
+    "translated": ""
+  "605d":
+    "original": |-
+      おや？これ以上持てないようですね。
+
+      <RET>
+    "translated": ""
+  "6081":
+    "original": |-
+      どれを買ってくれますか？
+      <RET_N>
+    "translated": ""
+  "609b":
+    "original": |-
+      <ITEM>だね。
+      どうも ありがとう。
+
+      <RET>
+    "translated": ""
+  "60b8":
+    "original": |-
+      あら いやだ。もう持てませんわよ。
+
+      <RET>
+    "translated": ""
+  "60db":
+    "original": |-
+      何を 買ってくれます？
+      <RET_N>
+    "translated": ""
+  "60f2":
+    "original": |-
+      <ITEM>ですね。
+      ありがとう ございます。
+
+      <RET>
+    "translated": ""
+  "611d":
+    "original": |-
+      どれを 売ってくれますか？
+      <RET_N>
+    "translated": ""
+  "6138":
+    "original": |2-
+       Gold になるけど
+      それでも よろしいですか？
+      <RET_N>
+    "translated": ""
+  "6164":
+    "original": |-
+      それは残念です。
+
+      <RET_N>
+    "translated": ""
+  "6176":
+    "original": |-
+      どうも ありがとうございます。
+      <RET_N>
+    "translated": ""
+"note": ""

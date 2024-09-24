@@ -5,14 +5,14 @@ import os
 import time
 import tqdm
 
-from csv_util import *
+from trans_util import *
 
 if __name__ == '__main__':
-    csv_paths = []
-    for path, dirs, files in os.walk("csv"):
+    yaml_paths = []
+    for path, dirs, files in os.walk("yaml"):
         for file in files:
-            csv_paths.append(os.path.join(path, file))
-    csv_paths = sorted(csv_paths)
+            yaml_paths.append(os.path.join(path, file))
+    yaml_paths = sorted(yaml_paths)
 
     configfile = configparser.ConfigParser(interpolation=configparser.ExtendedInterpolation())
     configfile.read("loh2_patch.conf")
@@ -24,9 +24,9 @@ if __name__ == '__main__':
 
     worksheet_list = []
 
-    progress = tqdm.tqdm(csv_paths)
+    progress = tqdm.tqdm(yaml_paths)
     for path in progress:
-        csv_data = load_csv(path)
+        trans = TranslationCollection.load(path)
 
         worksheet_name = path[4:-4]
         if worksheet_name.endswith(".BZH"):
@@ -46,12 +46,12 @@ if __name__ == '__main__':
 
         worksheet_data = worksheet.get_all_values()
 
-        for addr, data in csv_data.items():
-            key = f"{addr:04x}"
+        for key in trans.keys:
+            key_str = f"{key:04x}"
             row_index = None
 
             for i, row in enumerate(worksheet_data):
-                if len(row) > 0 and row[0] == key:
+                if len(row) > 0 and row[0] == key_str:
                     row_index = i
                     break
 
@@ -73,8 +73,8 @@ if __name__ == '__main__':
             while len(worksheet_data[row_index]) < 3:
                 worksheet_data[row_index].append('')
 
-            worksheet_data[row_index][1] = data.original
-            worksheet_data[row_index][2] = data.translated
+            worksheet_data[row_index][1] = trans[key].original
+            worksheet_data[row_index][2] = trans[key].translated
 
         worksheet.update(worksheet_data)
 

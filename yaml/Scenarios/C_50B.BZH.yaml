@@ -1,0 +1,32 @@
+"entries":
+  "5ce3":
+    "original": |-
+      <CH1>
+      さあ シンディ 出番だぜ。
+
+      <CH3>
+      シンディ こわす。
+    "translated": ""
+  "5d14":
+    "original": |-
+      <C_YELLOW>ガード<C_NONE>
+      んっ !? 何の音だ？
+
+      <C_YELLOW>ガード<C_NONE>
+      さあ ･ ･ ･
+      中で あばれてるんだろ きっと。
+
+      おーい うるさいぞ 静かにしてろ !!
+    "translated": ""
+  "5d85":
+    "original": |-
+      <C_YELLOW>ガード<C_NONE>
+      だっ 脱走だ !!
+      早く 捕まえろ !!
+    "translated": ""
+  "5dae":
+    "original": |-
+      <PARTY>は 宝箱を開けました。
+      宝箱の中には<RET>
+    "translated": ""
+"note": ""

@@ -1,0 +1,78 @@
+"entries":
+  "5aa6":
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      皇帝は まだ倒していないのか？
+      がんばってくれよ みんなも
+      期待しているんだからな。
+    "translated": ""
+  "5afc":
+    "original": |-
+      <C_YELLOW>子ども<C_NONE>
+      ぼくも もっと 大きかったら
+      いっしょに 皇帝を やっつけに
+      行けたんだけどな。
+    "translated": ""
+  "5b50":
+    "original": |-
+      <C_YELLOW>女<C_NONE>
+      もう みんな 皇帝を倒して 新しい
+      国ができるのを 待ちこがれているわ。
+    "translated": ""
+  "5b99":
+    "original": |-
+      <C_YELLOW>女<C_NONE>
+      私も 皇帝を倒すのに 協力したいと
+      思ってるんだけど 何かできることが
+      あるかしら。
+    "translated": ""
+  "5bee":
+    "original": |-
+      <C_YELLOW>ヤミ屋<C_NONE>
+      らっしゃい !! どんな ご用で？<RET_N>
+    "translated": ""
+  "5c15":
+    "original": |-
+      まいどー。
+    "translated": ""
+  "5c20":
+    "original": |-
+      お客さん 冗談はいけねえや。
+      それ以上は 持てねえんだぜ。
+
+      <RET>
+    "translated": ""
+  "5c59":
+    "original": |-
+      なにを買うんでい？
+      <RET_N>
+    "translated": ""
+  "5c6d":
+    "original": |-
+      <ITEM>かい。
+      へい まいど どうも。
+
+      <RET>
+    "translated": ""
+  "5c93":
+    "original": |-
+      どれを 売るんでい？
+      <RET_N>
+    "translated": ""
+  "5ca8":
+    "original": |2-
+       Gold だよ。いいかい？
+      <RET_N>
+    "translated": ""
+  "5cc0":
+    "original": |-
+      ひやかしは よくねえよ。
+
+      <RET_N>
+    "translated": ""
+  "5cd9":
+    "original": |-
+      わりいね。
+      <RET_N>
+    "translated": ""
+"note": ""

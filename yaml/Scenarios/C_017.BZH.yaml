@@ -1,0 +1,68 @@
+"entries":
+  "5c4e":
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      まさか 宝箱の中の武器を 使うなんて思ってもいませんでしたよ。
+    "translated": ""
+  "5c92":
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      セリオス国王から この部屋の財宝を
+      王子さまに 持ち出させるなと
+      言われているんです。
+
+      何でも たいかんの儀式の中で
+      お渡しする物だという話ですよ。
+    "translated": ""
+  "5d27":
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      これは 王子さま 武器庫に どんな
+      ご用ですかな？<RET>
+    "translated": ""
+  "5d5d":
+    "original": |-
+      <CLEAR>何を お預かりしましょう？<RET_N>
+    "translated": ""
+  "5d78":
+    "original": |-
+      <CLEAR>何を お渡ししましょう？<RET_N>
+    "translated": ""
+  "5d91":
+    "original": |-
+      <CLEAR>また 何か ご用がありましたら
+      いつでも おいでください。
+    "translated": ""
+  "5dc9":
+    "original": |-
+      <CLEAR>王子さま 申しわけありませんが
+      これ以上は 預かれません。
+
+      <RET>
+    "translated": ""
+  "5e03":
+    "original": |-
+      <CLEAR>王子さま もう これ以上 持ち物は
+      持てないようですが ･ ･ ･
+
+      <RET>
+    "translated": ""
+  "5e3e":
+    "original": |-
+      <CLEAR>王子さまから お預かりしている物は
+      何もございません。
+
+      <RET>
+    "translated": ""
+  "5e75":
+    "original": |-
+      <CLEAR>王子さま これ以上 お預かりしている物は ございません。
+
+      <RET>
+    "translated": ""
+  "5ead":
+    "original": |-
+      <PARTY>は 宝箱を開けました。
+      宝箱の中には<RET>
+    "translated": ""
+"note": ""

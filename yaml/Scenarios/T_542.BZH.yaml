@@ -1,0 +1,117 @@
+"entries":
+  "5c24":
+    "original": |-
+      <IF0137><JUMP5c30><IF0136><JUMP5c99><LOC5c30><C_YELLOW>男<C_NONE>
+      もう 皇帝に逆らうのは やめようぜ。こんな生活でも 収容所なんかよりは
+      ずっと くらしやすいじゃないか。<END>
+      <LOC5c99><IF_NOT0407><JUMP5ca7><C_YELLOW>男<C_NONE>
+      <JUMP5cdb><LOC5ca7><SET0407><CH0>
+      レイシアたちを 見なかったか？
+
+      <C_YELLOW>男<C_NONE>
+      さあ ･ ･ ･
+      <LOC5cdb>おれは ずっと ここに いたんだが
+      だれも 外には出ていってないぞ。
+    "translated": ""
+  "5d1b":
+    "original": |-
+      <C_YELLOW>子ども<C_NONE>
+      あー つまんないよー。
+      もうなおってるのになー。
+    "translated": ""
+  "5d53":
+    "original": |-
+      <C_YELLOW>子ども<C_NONE>
+      ぼく 大きくなったら レジスタンスになって 皇帝を やっつけてやるんだ。
+    "translated": ""
+  "5da1":
+    "original": |-
+      <C_YELLOW>女<C_NONE>
+      一斉に レジスタンス狩りが
+      行われて おじいちゃんたちが
+      連行されてしまったんです。
+    "translated": ""
+  "5df7":
+    "original": |-
+      <C_YELLOW>女<C_NONE>
+      <IF0137><JUMP5f40><IF0404><JUMP5f0c><SET0404>な、何かご用ですか？
+      ウイルへの抜け道のことなら
+      教えられないわよ。
+
+      レイシアさんに あなたたちには
+      教えるなと 言われているのよ。
+      <PAGE>
+      <CH0>
+      どうして レイシアが そんなことを？
+
+      <C_YELLOW>女<C_NONE>
+      さあ ･ ･ ･ 理由までは 知らないけどとにかく 教えるなと言われているの。悪く思わないで。<END>
+      <LOC5f0c>とにかく 抜け道は教えられないのよ。悪く思わないで。<END>
+      <LOC5f40>私は 何も見ていませんから ウイルに行くなら かってに行ってください。
+    "translated": ""
+  "5f84":
+    "original": |-
+      <C_YELLOW>女<C_NONE>
+      捕まった人たちが ユイシスの方に
+      連れていかれるのを 見たのよ。
+
+      きっと ベルンの収容所に 連れて
+      いったんだわ。
+    "translated": ""
+  "5ff5":
+    "original": |-
+      <C_YELLOW>レイシア<C_NONE>
+      あら アトラスさん。
+      ちょうど よかったわ ちょっと話が
+      あるから いっしょについてきて。
+    "translated": ""
+  "6055":
+    "original": |-
+      <C_YELLOW>ヤミ屋<C_NONE>
+      らっしゃい !! どんな ご用で？<RET_N>
+    "translated": ""
+  "607c":
+    "original": |-
+      まいどー。
+    "translated": ""
+  "6087":
+    "original": |-
+      お客さん 冗談はいけねえや。
+      それ以上は 持てねえんだぜ。
+
+      <RET>
+    "translated": ""
+  "60c0":
+    "original": |-
+      なにを買うんでい？
+      <RET_N>
+    "translated": ""
+  "60d4":
+    "original": |-
+      <ITEM>かい。
+      へい まいど どうも。
+
+      <RET>
+    "translated": ""
+  "60fa":
+    "original": |-
+      どれを 売るんでい？
+      <RET_N>
+    "translated": ""
+  "610f":
+    "original": |2-
+       Gold だよ。いいかい？
+      <RET_N>
+    "translated": ""
+  "6127":
+    "original": |-
+      ひやかしは よくねえよ。
+
+      <RET_N>
+    "translated": ""
+  "6140":
+    "original": |-
+      わりいね。
+      <RET_N>
+    "translated": ""
+"note": ""

@@ -1,0 +1,160 @@
+"entries":
+  "5b1f":
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      イシュタでは レジスタンスに 関係のない者まで 捕まったそうです。
+
+      それをきいたら 皇帝に 逆らう気は
+      なくなってしまいましたよ。
+    "translated": ""
+  "5ba0":
+    "original": |-
+      <C_YELLOW>女<C_NONE>
+      うちは 道具屋を やっているんだけどちかごろ 店の向こう側に 変な人が
+      すみついて困ってるのよ。
+
+      変なつぼを 持っているんだけど
+      いったい 何をやっているのかしら。
+    "translated": ""
+  "5c41":
+    "original": |-
+      <C_YELLOW>女<C_NONE>
+      <SET011c>新しい町長と 使用人たちが
+      城の方に 連れていかれたのよ。
+
+      イシュタで レジスタンス狩りが
+      あったという話だし きっと
+      あの人たちも レジスタンスに
+      かかわっていたのね。
+    "translated": ""
+  "5cea":
+    "original": |-
+      <C_YELLOW>老人<C_NONE>
+      イシュタには もう だれも
+      おらんそうじゃよ。
+
+      レジスタンスどころか 女、子どもも
+      反逆罪で 連行されたそうじゃ。
+      かわいそうに ･ ･ ･
+    "translated": ""
+  "5d70":
+    "original": |-
+      <C_YELLOW>老人<C_NONE>
+      新しい町長は どんな悪いことを
+      したのじゃろうか？
+    "translated": ""
+  "5da8":
+    "original": |-
+      <C_YELLOW>子ども<C_NONE>
+      ぼく かくれんぼ してるんだけど
+      なかなか 見つけてくんないんだ。
+
+      ほんとに 探してるのかな。
+    "translated": ""
+  "5e0a":
+    "original": |-
+      <C_YELLOW>子ども<C_NONE>
+      ぼく かくれんぼ してたんだけど
+      なかなか 見つかんないから
+      帰ってきちゃった。
+    "translated": ""
+  "5e5f":
+    "original": |-
+      <C_YELLOW>ヤミ屋<C_NONE>
+      へっへっへ
+      いい物が あるぜ。<RET_N>
+    "translated": ""
+  "5e85":
+    "original": |-
+      また たのむぜ。
+    "translated": ""
+  "5e95":
+    "original": |-
+      もう 持てねえよ。
+
+      <RET>
+    "translated": ""
+  "5ea8":
+    "original": |-
+      どれを 買うんだ？
+      <RET_N>
+    "translated": ""
+  "5ebb":
+    "original": |-
+      <ITEM>だな。
+      こいつは よく使えるぜ。
+
+      <RET>
+    "translated": ""
+  "5ee4":
+    "original": |-
+      どれを 売ってくれるんだ？
+      <RET_N>
+    "translated": ""
+  "5eff":
+    "original": |2-
+       Gold だぜ。いいか？
+      <RET_N>
+    "translated": ""
+  "5f15":
+    "original": |-
+      何だ 売ってくれねえのか。
+
+      <RET_N>
+    "translated": ""
+  "5f30":
+    "original": |-
+      ありがとよ。
+      <RET_N>
+    "translated": ""
+  "5f3e":
+    "original": |-
+      <C_YELLOW>道具屋<C_NONE>
+      いらっしゃいませ。
+      どのような ご用でしょうか？<RET_N>
+    "translated": ""
+  "5f76":
+    "original": |-
+      また来てくださいね。
+    "translated": ""
+  "5f8b":
+    "original": |-
+      おや？これ以上持てないようですね。
+
+      <RET>
+    "translated": ""
+  "5faf":
+    "original": |-
+      どれを買ってくれますか？
+      <RET_N>
+    "translated": ""
+  "5fc9":
+    "original": |-
+      <ITEM>だね。
+      どうも ありがとう。
+
+      <RET>
+    "translated": ""
+  "5fee":
+    "original": |-
+      どれを 売ってくれますか？
+      <RET_N>
+    "translated": ""
+  "6009":
+    "original": |2-
+       Gold になるけど
+      それでも よろしいですか？
+      <RET_N>
+    "translated": ""
+  "6035":
+    "original": |-
+      それは残念です。
+
+      <RET_N>
+    "translated": ""
+  "6047":
+    "original": |-
+      どうも ありがとうございます。
+      <RET_N>
+    "translated": ""
+"note": ""

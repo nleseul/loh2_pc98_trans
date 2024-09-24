@@ -1,0 +1,101 @@
+"entries":
+  "5a5f":
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      君たち ソルディスに 行くのかね？
+      前もって 手続きしてあるだろうね？
+      してないなら あきらめてくれ。
+
+      せっかくなんだから 竜の祭でも
+      見ていったらどうだい。
+      年に１度しかない 国をあげての
+      行事なんだから。
+    "translated": ""
+  "5b2b":
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      人が通るときだけ ここから 橋を
+      出してあげるんだよ。
+      ずっと橋が 出てるわけではないんだ。
+    "translated": ""
+  "5b8a":
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      おれは この町を作ったときの 工事の責任者だったんだよ。
+
+      この町も だんだん 大きくなってきておれも うれしいよ。
+    "translated": ""
+  "5bfc":
+    "original": |-
+      <C_YELLOW>女<C_NONE>
+      この町は ラヌーラとソルディスが
+      共同で 作った町なのよ。
+    "translated": ""
+  "5c39":
+    "original": |-
+      <C_YELLOW>子供<C_NONE>
+      あの川は 流れが すごく速いんだよ。ぼくが お母さんと 橋を渡ったときに落ちそうになって こわかったよ。
+    "translated": ""
+  "5ca4":
+    "original": |-
+      <C_YELLOW>老人<C_NONE>
+      昔 ラヌーラとソルディスの国境は
+      国境の洞窟という洞窟でつながれて
+      おったのじゃ。
+
+      そこは 暗い洞窟じゃから 追いはぎにおそわれる者が 絶えず困っておった。
+
+      そこで 洞窟を封鎖して そのかわりにこの急な川に 橋を渡すことに
+      なったのじゃよ。
+    "translated": ""
+  "5d90":
+    "original": |-
+      <C_YELLOW>道具屋<C_NONE>
+      いらっしゃいませ。
+      どのような ご用でしょうか？<RET_N>
+    "translated": ""
+  "5dc8":
+    "original": |-
+      また来てくださいね。
+    "translated": ""
+  "5ddd":
+    "original": |-
+      おや？これ以上持てないようですね。
+
+      <RET>
+    "translated": ""
+  "5e01":
+    "original": |-
+      どれを買ってくれますか？
+      <RET_N>
+    "translated": ""
+  "5e1b":
+    "original": |-
+      <ITEM>だね。
+      どうも ありがとう。
+
+      <RET>
+    "translated": ""
+  "5e40":
+    "original": |-
+      どれを 売ってくれますか？
+      <RET_N>
+    "translated": ""
+  "5e5b":
+    "original": |2-
+       Gold になるけど
+      それでも よろしいですか？
+      <RET_N>
+    "translated": ""
+  "5e87":
+    "original": |-
+      それは残念です。
+
+      <RET_N>
+    "translated": ""
+  "5e99":
+    "original": |-
+      どうも ありがとうございます。
+      <RET_N>
+    "translated": ""
+"note": ""
