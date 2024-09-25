@@ -6,21 +6,39 @@
 
       原因は 国民たちが 言っておるようにフレイアさまに 関係があるのか？<WAIT>
       いや そんなはずはないな。
-    "translated": ""
+    "original_byte_length": !!int |-
+      156
+    "reference_addrs":
+    - !!int |-
+      54663
+    "translated": !!null |-
+      null
   "5b9e":
     "original": |-
       <C_YELLOW>クレア王妃<C_NONE>
       アトラス王子 また セリオス王が
       出かけたそうですが そんなに大変な
       ことが起こっているのですか？
-    "translated": ""
+    "original_byte_length": !!int |-
+      107
+    "reference_addrs":
+    - !!int |-
+      54678
+    "translated": !!null |-
+      null
   "5c09":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       若い兵士たちが エメを 復旧しに
       行っているので 城内の警備が
       手薄になっているんです。
-    "translated": ""
+    "original_byte_length": !!int |-
+      91
+    "reference_addrs":
+    - !!int |-
+      54687
+    "translated": !!null |-
+      null
   "5c64":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -31,14 +49,26 @@
       国王さまたちが お話しているのが
       たまたま 耳に入ってきただけなので
       本当かどうかはわかりませんが ･ ･ ･
-    "translated": ""
+    "original_byte_length": !!int |-
+      209
+    "reference_addrs":
+    - !!int |-
+      54696
+    "translated": !!null |-
+      null
   "5d35":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       あーあ 今日も いい天気ですね。
       こんなときに 仕事をしなければ
       ならないとはね ･ ･ ･
-    "translated": ""
+    "original_byte_length": !!int |-
+      89
+    "reference_addrs":
+    - !!int |-
+      54705
+    "translated": !!null |-
+      null
   "5d8e":
     "original": |-
       <C_YELLOW>ハリー<C_NONE>
@@ -61,5 +91,11 @@
       なかなか 強力だと思わないか？<END>
       <LOC5eea>もし ぼくの作った武器がほしいなら
       ジャンさんが 売ってるから カウルのドラゴン牧場に 行ってごらん。
-    "translated": ""
+    "original_byte_length": !!int |-
+      446
+    "reference_addrs":
+    - !!int |-
+      54714
+    "translated": !!null |-
+      null
 "note": ""

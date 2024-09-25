@@ -2,21 +2,51 @@
   "7170":
     "original": |-
       メタルスチーム<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      15
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "71b0":
     "original": |-
       Ｍ５１０Ｂ<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      11
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "71f0":
     "original": |-
       Ｍ５１０Ｃ<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      11
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "7230":
     "original": |-
       Ｍ５１０Ｄ<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      11
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "74cc":
     "original": |-
       メタルスチームが現れた。<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      25
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
 "note": ""

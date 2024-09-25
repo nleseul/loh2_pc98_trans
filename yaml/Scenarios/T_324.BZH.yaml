@@ -6,7 +6,13 @@
       入っていったそうなんです。
 
       そして しばらくすると モンスターが出てこなくなったそうなんですよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      168
+    "reference_addrs":
+    - !!int |-
+      54633
+    "translated": !!null |-
+      null
   "5bae":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -19,7 +25,13 @@
       今は モンスターも いないのですが
       また出てくるかも しれないので
       まだ だれも 戻ってきていません。
-    "translated": ""
+    "original_byte_length": !!int |-
+      235
+    "reference_addrs":
+    - !!int |-
+      54642
+    "translated": !!null |-
+      null
   "5c99":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -29,21 +41,39 @@
 
       セリオスさまたちの おかげじゃ
       ないんだろうか？
-    "translated": ""
+    "original_byte_length": !!int |-
+      148
+    "reference_addrs":
+    - !!int |-
+      54651
+    "translated": !!null |-
+      null
   "5d2d":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       いくら 司祭だといっても 本当に
       モンスターを いなくしたのかな？
       ただの偶然じゃないかなぁ ･ ･ ･
-    "translated": ""
+    "original_byte_length": !!int |-
+      101
+    "reference_addrs":
+    - !!int |-
+      54660
+    "translated": !!null |-
+      null
   "5d92":
     "original": |-
       <C_YELLOW>男<C_NONE>
       おれは 道具屋なんだが 店のほうは
       女房にまかせてあるから おれは
       品物を 仕入れに行くだけでいいんだ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      104
+    "reference_addrs":
+    - !!int |-
+      54669
+    "translated": !!null |-
+      null
   "5dfa":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -57,14 +87,26 @@
 
       そういえば 昔は よくあの塔から
       大凧で 空を飛んでいたからなあ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      281
+    "reference_addrs":
+    - !!int |-
+      54678
+    "translated": !!null |-
+      null
   "5f13":
     "original": |-
       <C_YELLOW>女<C_NONE>
       アートス国王さまは ハリーさんの
       発明に 協力するために お城の中に
       研究室を 作ったのよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      92
+    "reference_addrs":
+    - !!int |-
+      54687
+    "translated": !!null |-
+      null
   "5f6f":
     "original": |-
       <C_YELLOW>女<C_NONE>
@@ -75,82 +117,176 @@
       私が まだ 若かったころなんだけど
       それはもう お似合いのカップルで
       かなり 話題になっていたわよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      189
+    "reference_addrs":
+    - !!int |-
+      54696
+    "translated": !!null |-
+      null
   "602c":
     "original": |-
       <C_YELLOW>呪文屋<C_NONE>
       いらっしゃい。<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      24
+    "reference_addrs":
+    - !!int |-
+      54708
+    "translated": !!null |-
+      null
   "6044":
     "original": |-
       またどうぞ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      13
+    "reference_addrs":
+    - !!int |-
+      54720
+    "translated": !!null |-
+      null
   "6051":
     "original": |-
       <C_YELLOW>道具屋<C_NONE>
       あら いらっしゃい。
       どんな ご用ですか？<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      49
+    "reference_addrs":
+    - !!int |-
+      54732
+    "translated": !!null |-
+      null
   "6082":
     "original": |-
       また おいでください。
-    "translated": ""
+    "original_byte_length": !!int |-
+      22
+    "reference_addrs":
+    - !!int |-
+      54759
+    - !!int |-
+      54759
+    - !!int |-
+      54759
+    "translated": !!null |-
+      null
   "6098":
     "original": |-
       おや？これ以上持てないようですね。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      36
+    "reference_addrs":
+    - !!int |-
+      2170
+    "translated": !!null |-
+      null
   "60bc":
     "original": |-
       どれを買ってくれますか？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      26
+    "reference_addrs":
+    - !!int |-
+      2172
+    "translated": !!null |-
+      null
   "60d6":
     "original": |-
       <ITEM>だね。
       どうも ありがとう。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      29
+    "reference_addrs":
+    - !!int |-
+      2174
+    "translated": !!null |-
+      null
   "60f3":
     "original": |-
       あらまあ もう持てないわよ。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      29
+    "reference_addrs":
+    - !!int |-
+      2178
+    "translated": !!null |-
+      null
   "6110":
     "original": |-
       どれを買ってくれるの？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      24
+    "reference_addrs":
+    - !!int |-
+      2180
+    "translated": !!null |-
+      null
   "6128":
     "original": |-
       <ITEM>ね。
       どうも ありがとう。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      27
+    "reference_addrs":
+    - !!int |-
+      2182
+    "translated": !!null |-
+      null
   "614b":
     "original": |-
       なにを 売ってくれるの？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      25
+    "reference_addrs":
+    - !!int |-
+      2053
+    "translated": !!null |-
+      null
   "6164":
     "original": |2-
        Gold になるわよ
       それでも いいかしら？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      40
+    "reference_addrs":
+    - !!int |-
+      2055
+    "translated": !!null |-
+      null
   "618c":
     "original": |-
       あら それは残念だわ。
 
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      23
+    "reference_addrs":
+    - !!int |-
+      2057
+    "translated": !!null |-
+      null
   "61a3":
     "original": |-
       どうも ありがとう。
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      21
+    "reference_addrs":
+    - !!int |-
+      2059
+    "translated": !!null |-
+      null
 "note": ""

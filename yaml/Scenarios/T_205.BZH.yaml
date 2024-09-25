@@ -4,7 +4,13 @@
       <C_YELLOW>男<C_NONE>
       いらっしゃい ここは休憩所だが
       今は お城の人たちに 貸してるんだ。じゃまを しないようにしてくれよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      103
+    "reference_addrs":
+    - !!int |-
+      54642
+    "translated": !!null |-
+      null
   "5adb":
     "original": |-
       <C_YELLOW>ソニア<C_NONE>
@@ -58,7 +64,13 @@
 
       <LOC5ea5>王子さま かってなことを 言いますがセリオスさまたちに 代わって
       この混乱を しずめてくれませんか？
-    "translated": ""
+    "original_byte_length": !!int |-
+      1066
+    "reference_addrs":
+    - !!int |-
+      54651
+    "translated": !!null |-
+      null
   "5f05":
     "original": |-
       <C_YELLOW>ポウエル<C_NONE>
@@ -70,7 +82,13 @@
 
       <LOC5fb6>王子さま あとは あなたたちだけかもしれません。
       どうか この世を お救いください。
-    "translated": ""
+    "original_byte_length": !!int |-
+      257
+    "reference_addrs":
+    - !!int |-
+      54660
+    "translated": !!null |-
+      null
   "6006":
     "original": |-
       <C_YELLOW>チャールズ王子<C_NONE>
@@ -80,20 +98,38 @@
       ぼくが もう少し大きかったら
       父上たちと いっしょに タイジに
       行けるんだけどな。<LOC609f>
-    "translated": ""
+    "original_byte_length": !!int |-
+      154
+    "reference_addrs":
+    - !!int |-
+      54669
+    "translated": !!null |-
+      null
   "60a0":
     "original": |-
       <C_YELLOW>侍女<C_NONE>
       ひなんしたのは いいけど もしも
       これだけの 広い所が なかったら
       たいへんだったわ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      88
+    "reference_addrs":
+    - !!int |-
+      54678
+    "translated": !!null |-
+      null
   "60f8":
     "original": |-
       <C_YELLOW>侍女<C_NONE>
       ここは 広いことは広いけど お城から比べたら 狭いし お台所も あまり
       きれいじゃないし ･ ･ ･
-    "translated": ""
+    "original_byte_length": !!int |-
+      96
+    "reference_addrs":
+    - !!int |-
+      54687
+    "translated": !!null |-
+      null
   "6158":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -108,18 +144,36 @@
       いたというのに 竜の卵が 元に戻ってしまうとは。
 
       いったい だれが 戻したのだろうか？
-    "translated": ""
+    "original_byte_length": !!int |-
+      332
+    "reference_addrs":
+    - !!int |-
+      54696
+    "translated": !!null |-
+      null
   "62a4":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       これは アトラス王子さま。
       このような場所が あったので ここを借りて 仕事をしているのです。
-    "translated": ""
+    "original_byte_length": !!int |-
+      97
+    "reference_addrs":
+    - !!int |-
+      54705
+    "translated": !!null |-
+      null
   "6305":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       これは アトラス王子さま。
       ソニアさまは この中に
       いらっしゃいます。
-    "translated": ""
+    "original_byte_length": !!int |-
+      74
+    "reference_addrs":
+    - !!int |-
+      54714
+    "translated": !!null |-
+      null
 "note": ""

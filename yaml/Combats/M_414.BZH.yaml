@@ -2,29 +2,75 @@
   "7170":
     "original": |-
       エビューンＡ<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      13
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "71b0":
     "original": |-
       エビューンＢ<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      13
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "71f0":
     "original": |-
       エビューンＣ<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      13
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "7230":
     "original": |-
       エビューンＤ<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      13
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "7390":
     "original": |-
       エビューンが現れた。<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      21
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "73b7":
     "original": |-
       <ACTOR>の酸胞が飛び散った !!<RET_PAGE>
-    "translated": ""
+    "original_byte_length": !!int |-
+      23
+    "reference_addrs":
+    - !!int |-
+      61173
+    - !!int |-
+      61173
+    "translated": !!null |-
+      null
   "73ce":
     "original": |-
       <ACTOR>の酸胞を壊した。<RET_PAGE>
-    "translated": ""
+    "original_byte_length": !!int |-
+      18
+    "reference_addrs":
+    - !!int |-
+      61272
+    - !!int |-
+      61272
+    "translated": !!null |-
+      null
 "note": ""

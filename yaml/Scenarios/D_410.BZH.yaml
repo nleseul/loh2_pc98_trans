@@ -7,7 +7,13 @@
 
       少したつと また きりが
       出てくるから 気をつけてくれよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      130
+    "reference_addrs":
+    - !!int |-
+      54667
+    "translated": !!null |-
+      null
   "5cd4":
     "original": |-
       <C_YELLOW>ガード<C_NONE>
@@ -21,5 +27,11 @@
 
       <C_YELLOW>ガード<C_NONE>
       よし いくぞ !!
-    "translated": ""
+    "original_byte_length": !!int |-
+      164
+    "reference_addrs":
+    - !!int |-
+      54749
+    "translated": !!null |-
+      null
 "note": ""

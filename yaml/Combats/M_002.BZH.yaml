@@ -2,21 +2,51 @@
   "7170":
     "original": |-
       赤スライムＡ<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      13
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "71b0":
     "original": |-
       赤スライムＡ′<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      15
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "71f0":
     "original": |-
       赤スライムＢ<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      13
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "7230":
     "original": |-
       赤スライムＢ″<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      15
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "75bf":
     "original": |-
       赤スライムが現れた。<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      21
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
 "note": ""

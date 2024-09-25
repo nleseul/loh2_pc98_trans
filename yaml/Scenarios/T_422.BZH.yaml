@@ -4,14 +4,26 @@
       <C_YELLOW>村長<C_NONE>
       シンディ、何か思い出したことでも
       ないのか？ 元気を出すのじゃぞ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      72
+    "reference_addrs":
+    - !!int |-
+      54643
+    "translated": !!null |-
+      null
   "5ac3":
     "original": |-
       <C_YELLOW>老人<C_NONE>
       うちの孫は 知りませんかの？
       元気が あるのは いいんじゃが
       わしには めんどう みきれんわい。
-    "translated": ""
+    "original_byte_length": !!int |-
+      97
+    "reference_addrs":
+    - !!int |-
+      54652
+    "translated": !!null |-
+      null
   "5b24":
     "original": |-
       <C_YELLOW>老人<C_NONE>
@@ -20,7 +32,13 @@
 
       若い者たちは みんな 町へ出ていってしまって 年寄りばかりに
       なってしまったのじゃよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      139
+    "reference_addrs":
+    - !!int |-
+      54661
+    "translated": !!null |-
+      null
   "5baf":
     "original": |-
       <C_YELLOW>老婆<C_NONE>
@@ -30,7 +48,13 @@
 
       あのばあさんは 昔からの言い伝えを
       よく知ってるから 勉強になるぞ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      155
+    "reference_addrs":
+    - !!int |-
+      54670
+    "translated": !!null |-
+      null
   "5c4a":
     "original": |-
       <C_YELLOW>老婆<C_NONE>
@@ -38,14 +62,26 @@
       つぶされてしまったそうじゃ。
 
       盗賊たちは どこへ 逃げたんじゃろうどの町に 行っても 歓迎されるはずはないし ･ ･ ･
-    "translated": ""
+    "original_byte_length": !!int |-
+      150
+    "reference_addrs":
+    - !!int |-
+      54679
+    "translated": !!null |-
+      null
   "5ce0":
     "original": |-
       <C_YELLOW>子ども<C_NONE>
       おじいちゃんと 鬼ごっこを
       してるんだけど ちっとも
       おもしろくないんだ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      80
+    "reference_addrs":
+    - !!int |-
+      54688
+    "translated": !!null |-
+      null
   "5d30":
     "original": |-
       <C_YELLOW>女<C_NONE>
@@ -56,5 +92,11 @@
       かなり前から いるんだけど 弟が
       なかなか 帰りたがらないから
       あきるまで ずっと いることにしたの。
-    "translated": ""
+    "original_byte_length": !!int |-
+      213
+    "reference_addrs":
+    - !!int |-
+      54697
+    "translated": !!null |-
+      null
 "note": ""

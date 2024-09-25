@@ -2,21 +2,51 @@
   "7170":
     "original": |-
       ヌカッチＡ<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      11
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "71b0":
     "original": |-
       ヌカッチＢ<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      11
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "71f0":
     "original": |-
       甲速虫<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      7
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "7230":
     "original": |-
       Ｍ２２７Ｄ<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      11
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "73a9":
     "original": |-
       ヌカッチと甲速虫が現れた。<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      27
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
 "note": ""

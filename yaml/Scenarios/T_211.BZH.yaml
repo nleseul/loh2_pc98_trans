@@ -6,20 +6,38 @@
 
       ファーレーンの王子さまであったとは存じませんでした。
       どうか お許しください。
-    "translated": ""
+    "original_byte_length": !!int |-
+      110
+    "reference_addrs":
+    - !!int |-
+      54633
+    "translated": !!null |-
+      null
   "5bee":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       アトラス王子さまですね？
       どうぞ お城に お入りください。
       今日は 竜の祭の 前夜祭なんですよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      98
+    "reference_addrs":
+    - !!int |-
+      54642
+    "translated": !!null |-
+      null
   "5c50":
     "original": |-
       <C_YELLOW>子供<C_NONE>
       さっきねー おこづかい もらったんだ。これから おいしいものを いっぱい
       食べるんだよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      91
+    "reference_addrs":
+    - !!int |-
+      54651
+    "translated": !!null |-
+      null
   "5cab":
     "original": |-
       <C_YELLOW>老人<C_NONE>
@@ -29,13 +47,25 @@
       昔 娘にひどいことを したんじゃが
       それが縁で こんなに やさしい人と
       いっしょに なったんじゃよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      156
+    "reference_addrs":
+    - !!int |-
+      54660
+    "translated": !!null |-
+      null
   "5d47":
     "original": |-
       <C_YELLOW>男<C_NONE>
       ねえさんたちは 毎年 竜の祭を
       見るために はるばる リシェールから来てくれるんだ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      85
+    "reference_addrs":
+    - !!int |-
+      54669
+    "translated": !!null |-
+      null
   "5d9c":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -43,19 +73,37 @@
 
       リシェールに 来たときには ぜひ
       寄ってみてください。
-    "translated": ""
+    "original_byte_length": !!int |-
+      125
+    "reference_addrs":
+    - !!int |-
+      54678
+    "translated": !!null |-
+      null
   "5e19":
     "original": |-
       <C_YELLOW>女<C_NONE>
       毎年 竜の祭を 見に来てるんだけど
       今年は とくに にぎやかになりそうでたのしみだわ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      87
+    "reference_addrs":
+    - !!int |-
+      54687
+    "translated": !!null |-
+      null
   "5e70":
     "original": |-
       <C_YELLOW>女<C_NONE>
       うちの おじいちゃんは お祭が
       なによりも 大好きなんですよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      64
+    "reference_addrs":
+    - !!int |-
+      54696
+    "translated": !!null |-
+      null
   "5eb0":
     "original": |-
       <C_YELLOW>ギャリー<C_NONE>
@@ -64,46 +112,98 @@
       わしゃ祭が 何よりも 好きなんじゃ。
 
       いやー 本当に 楽しみじゃのう。
-    "translated": ""
+    "original_byte_length": !!int |-
+      135
+    "reference_addrs":
+    - !!int |-
+      54705
+    "translated": !!null |-
+      null
   "5f37":
     "original": |-
       <C_YELLOW>男<C_NONE>
       よぉ 今日はよぉ 前夜祭なんだぜぇ。年によぉ １回しか ねえんだぞぉ。
       めでたいことだよなぁ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      95
+    "reference_addrs":
+    - !!int |-
+      54753
+    "translated": !!null |-
+      null
   "5f96":
     "original": |-
       <C_YELLOW>男<C_NONE>
       こいつさあ １週間前から ずっと
       飲みっぱなしなんだよ。
       あんまり 相手にしないほうがいいぞ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      95
+    "reference_addrs":
+    - !!int |-
+      54762
+    "translated": !!null |-
+      null
   "5ff5":
     "original": |-
       <C_YELLOW>男<C_NONE>
       明日は いよいよ 竜の祭だ。
       ほんとに めでたいよな。
       はっはっはっは ･ ･ ･
-    "translated": ""
+    "original_byte_length": !!int |-
+      77
+    "reference_addrs":
+    - !!int |-
+      54771
+    "translated": !!null |-
+      null
   "6042":
     "original": |-
       <C_YELLOW>武器屋<C_NONE>
       いらっしゃい。<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      24
+    "reference_addrs":
+    - !!int |-
+      54783
+    "translated": !!null |-
+      null
   "605a":
     "original": |-
       またどうぞ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      13
+    "reference_addrs":
+    - !!int |-
+      54795
+    "translated": !!null |-
+      null
   "6067":
     "original": |-
       <C_YELLOW>道具屋<C_NONE>
       いらっしゃいませ。
       どのような ご用でしょうか？<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      56
+    "reference_addrs":
+    - !!int |-
+      54807
+    "translated": !!null |-
+      null
   "609f":
     "original": |-
       また来てくださいね。
-    "translated": ""
+    "original_byte_length": !!int |-
+      21
+    "reference_addrs":
+    - !!int |-
+      54834
+    - !!int |-
+      54834
+    - !!int |-
+      54834
+    "translated": !!null |-
+      null
   "60b4":
     "original": |-
       <C_YELLOW>バーテン<C_NONE>
@@ -123,45 +223,99 @@
       タダになってます。<Xf666d6><JUMP6218>
 
       <SET0418><ASMd67f><UNSET0418><LOC6218>
-    "translated": ""
+    "original_byte_length": !!int |-
+      357
+    "reference_addrs":
+    - !!int |-
+      54840
+    "translated": !!null |-
+      null
   "6219":
     "original": |-
       おや？これ以上持てないようですね。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      36
+    "reference_addrs":
+    - !!int |-
+      2486
+    - !!int |-
+      2486
+    "translated": !!null |-
+      null
   "623d":
     "original": |-
       どれを買ってくれますか？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      26
+    "reference_addrs":
+    - !!int |-
+      2488
+    - !!int |-
+      2488
+    "translated": !!null |-
+      null
   "6257":
     "original": |-
       <ITEM>だね。
       どうも ありがとう。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      29
+    "reference_addrs":
+    - !!int |-
+      2490
+    - !!int |-
+      2490
+    "translated": !!null |-
+      null
   "627c":
     "original": |-
       どれを 売ってくれますか？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      27
+    "reference_addrs":
+    - !!int |-
+      2358
+    "translated": !!null |-
+      null
   "6297":
     "original": |2-
        Gold になるけど
       それでも よろしいですか？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      44
+    "reference_addrs":
+    - !!int |-
+      2360
+    "translated": !!null |-
+      null
   "62c3":
     "original": |-
       それは残念です。
 
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      18
+    "reference_addrs":
+    - !!int |-
+      2362
+    "translated": !!null |-
+      null
   "62d5":
     "original": |-
       どうも ありがとうございます。
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      31
+    "reference_addrs":
+    - !!int |-
+      2364
+    "translated": !!null |-
+      null
 "note": ""

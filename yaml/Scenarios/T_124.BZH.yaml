@@ -9,58 +9,112 @@
       でも、今は ゲームの 相手をしても
       何も 教えてあげないのじゃよ。
       わっはっは ･ ･ ･
-    "translated": ""
+    "original_byte_length": !!int |-
+      178
+    "reference_addrs":
+    - !!int |-
+      54627
+    "translated": !!null |-
+      null
   "5d3b":
     "original": |-
       <C_YELLOW>セオラ<C_NONE>
       おやおや 珍しい。
       こんな 老人ばかりの村に
       お客さんが お見えになるなんて。
-    "translated": ""
+    "original_byte_length": !!int |-
+      83
+    "reference_addrs":
+    - !!int |-
+      54636
+    "translated": !!null |-
+      null
   "5d8e":
     "original": |-
       <C_YELLOW>セリム<C_NONE>
       ここに打つと あれがこうなるから
       あそこに打って、そうしたら
       ぶつ ぶつ ･ ･ ･
-    "translated": ""
+    "original_byte_length": !!int |-
+      84
+    "reference_addrs":
+    - !!int |-
+      54651
+    "translated": !!null |-
+      null
   "5de2":
     "original": |-
       <C_YELLOW>オレム<C_NONE>
       イラ イラ イラ
       いつまで 考えとるんじゃ まったく
       イラ イラ イラ イラ
-    "translated": ""
+    "original_byte_length": !!int |-
+      77
+    "reference_addrs":
+    - !!int |-
+      54666
+    "translated": !!null |-
+      null
   "5e2f":
     "original": |-
       <C_YELLOW>アベル<C_NONE>
       ハッハッハ これで どうじゃ？
-    "translated": ""
+    "original_byte_length": !!int |-
+      38
+    "reference_addrs":
+    - !!int |-
+      54681
+    "translated": !!null |-
+      null
   "5e55":
     "original": |-
       <C_YELLOW>タバル<C_NONE>
       ムムムッ また負けそうじゃ ･ ･ ･
       また 地震でも 起こらぬかのお ･ ･ ･
-    "translated": ""
+    "original_byte_length": !!int |-
+      76
+    "reference_addrs":
+    - !!int |-
+      54690
+    "translated": !!null |-
+      null
   "5ea1":
     "original": |-
       <C_YELLOW>リゾン<C_NONE>
       この新しいゲームが できたら きっと話題になることじゃろう。
       今から 名前を 考えておくかな。
-    "translated": ""
+    "original_byte_length": !!int |-
+      99
+    "reference_addrs":
+    - !!int |-
+      54699
+    "translated": !!null |-
+      null
   "5f04":
     "original": |-
       <C_YELLOW>ガンク<C_NONE>
       やっぱり ゲームというものは
       おもしろいものじゃわい。
-    "translated": ""
+    "original_byte_length": !!int |-
+      62
+    "reference_addrs":
+    - !!int |-
+      54708
+    "translated": !!null |-
+      null
   "5f42":
     "original": |-
       <C_YELLOW>ハンナ<C_NONE>
       おじいさんたら たまたま ゲームで
       勝ったものだから よろこんでいて
       たいへんなんですよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      95
+    "reference_addrs":
+    - !!int |-
+      54717
+    "translated": !!null |-
+      null
   "5fa1":
     "original": |-
       <C_YELLOW>ロデリック<C_NONE>
@@ -78,7 +132,13 @@
 
       <C_YELLOW>ロデリック<C_NONE>
       いや なんでもない。
-    "translated": ""
+    "original_byte_length": !!int |-
+      188
+    "reference_addrs":
+    - !!int |-
+      54726
+    "translated": !!null |-
+      null
   "605d":
     "original": |-
       <C_YELLOW>オレア<C_NONE>
@@ -91,14 +151,26 @@
       この辺で ゲームをやりはじめたら
       だんだんと 人があつまってきて
       村にまで発展したのじゃよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      279
+    "reference_addrs":
+    - !!int |-
+      54735
+    "translated": !!null |-
+      null
   "6174":
     "original": |-
       <C_YELLOW>アルノー<C_NONE>
       ロンドの武器屋は 呪文がよく売れて
       もうかっとるから 売り上げの半分を
       わしにくれるそうじゃ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      102
+    "reference_addrs":
+    - !!int |-
+      54744
+    "translated": !!null |-
+      null
   "61da":
     "original": |-
       <C_YELLOW>ディーム<C_NONE>
@@ -168,26 +240,56 @@
 
       <CH1>
       わかったよ やりゃいいんだろ。<LOC6660>
-    "translated": ""
+    "original_byte_length": !!int |-
+      1159
+    "reference_addrs":
+    - !!int |-
+      54760
+    "translated": !!null |-
+      null
   "6661":
     "original": |-
       <C_YELLOW>ディーム<C_NONE>
       どの呪文の書が いるのじゃ？<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      39
+    "reference_addrs":
+    - !!int |-
+      54774
+    "translated": !!null |-
+      null
   "6688":
     "original": |-
       いらぬのか。
       それでは 必要なときに 来るがいい。
-    "translated": ""
+    "original_byte_length": !!int |-
+      48
+    "reference_addrs":
+    - !!int |-
+      54802
+    "translated": !!null |-
+      null
   "66b8":
     "original": |-
       <ITEM>でよいのじゃな。
-    "translated": ""
+    "original_byte_length": !!int |-
+      18
+    "reference_addrs":
+    - !!int |-
+      54813
+    "translated": !!null |-
+      null
   "66ca":
     "original": |-
       もう それ以上 持てぬぞ。
       持ち物を 減らしてから 来なされ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      58
+    "reference_addrs":
+    - !!int |-
+      54769
+    "translated": !!null |-
+      null
   "6704":
     "original": |-
       <C_YELLOW>マルク<C_NONE>
@@ -195,26 +297,60 @@
       教える 案内係のようなものじゃ。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      71
+    "reference_addrs":
+    - !!int |-
+      54819
+    "translated": !!null |-
+      null
   "674b":
     "original": |-
       どの呪文のことを 知りたいのじゃ？<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      34
+    "reference_addrs":
+    - !!int |-
+      54825
+    - !!int |-
+      54825
+    "translated": !!null |-
+      null
   "676d":
     "original": |-
       <CLEAR><ITEM>か ･ ･ ･
       それだったら <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      25
+    "reference_addrs":
+    - !!int |-
+      54844
+    - !!int |-
+      54844
+    "translated": !!null |-
+      null
   "6786":
     "original": |-
       に 行けば
       売っておる。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      24
+    "reference_addrs":
+    - !!int |-
+      54888
+    "translated": !!null |-
+      null
   "679e":
     "original": |-
       <CLEAR>呪文の ある所を 知りたかったら
       また来るがいい。
-    "translated": ""
+    "original_byte_length": !!int |-
+      49
+    "reference_addrs":
+    - !!int |-
+      54896
+    "translated": !!null |-
+      null
 "note": ""

@@ -92,7 +92,13 @@
       <C_YELLOW>フローラ<C_NONE>
       どういたしまして、あなたたちが
       よろこんでくれて 私も うれしいわ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      1728
+    "reference_addrs":
+    - !!int |-
+      54712
+    "translated": !!null |-
+      null
   "63f0":
     "original": |-
       <C_YELLOW>チャーリー<C_NONE>
@@ -125,18 +131,38 @@
       <LOC663c>お待たせいたしました。
       私が いっしょに 行って 兵士に
       話してさしあげましょう。
-    "translated": ""
+    "original_byte_length": !!int |-
+      666
+    "reference_addrs":
+    - !!int |-
+      54726
+    - !!int |-
+      54726
+    "translated": !!null |-
+      null
   "66c5":
     "original": |-
       <C_YELLOW>ジェラルド<C_NONE>
       <SET0074>ぐぅぅ がぁぁ ･ ･ ･<WAIT>
       がぁぁ ぐぅぅ ･ ･ ･
-    "translated": ""
+    "original_byte_length": !!int |-
+      56
+    "reference_addrs":
+    - !!int |-
+      54780
+    "translated": !!null |-
+      null
   "66fd":
     "original": |-
       <C_YELLOW>男<C_NONE>
       おら いま 芝刈ってるだよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      32
+    "reference_addrs":
+    - !!int |-
+      54789
+    "translated": !!null |-
+      null
   "671d":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -145,7 +171,13 @@
 
       見つからないうちに はやく 仕事に
       戻ったほうがいいよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      163
+    "reference_addrs":
+    - !!int |-
+      54798
+    "translated": !!null |-
+      null
   "67c0":
     "original": |-
       <C_YELLOW>女中<C_NONE>
@@ -159,7 +191,13 @@
 
       もう 忙しくて 忙しくて 休んでる
       ひまなんか ないくらいよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      239
+    "reference_addrs":
+    - !!int |-
+      54807
+    "translated": !!null |-
+      null
   "68af":
     "original": |-
       <C_YELLOW>女中<C_NONE>
@@ -169,7 +207,13 @@
       <CH1>
       カレーが 好きだとはなぁ ･ ･ ･<WAIT>
       おれは 辛いのは 大っきらいだ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      124
+    "reference_addrs":
+    - !!int |-
+      54816
+    "translated": !!null |-
+      null
   "692b":
     "original": |-
       <C_YELLOW>女中<C_NONE>
@@ -182,5 +226,11 @@
 
       だから お友達も 作れないみたい。
       お嬢さまも かわいそうよね。
-    "translated": ""
+    "original_byte_length": !!int |-
+      237
+    "reference_addrs":
+    - !!int |-
+      54825
+    "translated": !!null |-
+      null
 "note": ""

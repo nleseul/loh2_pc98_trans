@@ -2,21 +2,51 @@
   "7170":
     "original": |-
       ｻｲﾚﾝﾄ･ﾛｰﾄﾞＡ<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      13
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "71b0":
     "original": |-
       ｻｲﾚﾝﾄ･ﾛｰﾄﾞＢ<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      13
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "71f0":
     "original": |-
       Ｍ５１１Ｃ<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      11
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "7230":
     "original": |-
       Ｍ５１１Ｄ<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      11
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "735c":
     "original": |-
       サイレント・ロードが現れた。<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      29
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
 "note": ""

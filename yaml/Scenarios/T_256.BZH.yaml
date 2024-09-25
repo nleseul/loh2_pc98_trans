@@ -4,13 +4,27 @@
       <C_YELLOW>フラート<C_NONE>
       まったく このにわとりどもは わしをつっついてばかりで 何のうらみが
       あるというんじゃ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      96
+    "reference_addrs":
+    - !!int |-
+      54647
+    - !!int |-
+      54647
+    "translated": !!null |-
+      null
   "5b14":
     "original": |-
       <C_YELLOW>ジェルマン<C_NONE>
       君たち チキンだったら 入口の
       販売所に 入ってくれたまえ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      70
+    "reference_addrs":
+    - !!int |-
+      54656
+    "translated": !!null |-
+      null
   "5b5a":
     "original": |-
       <C_YELLOW>パウエル<C_NONE>
@@ -20,7 +34,13 @@
       あのときも モンスターが 現れて
       セリスの城が 占領されるし 当時の
       国王 フラートさまは 誘拐されるしでたいへんじゃった。
-    "translated": ""
+    "original_byte_length": !!int |-
+      217
+    "reference_addrs":
+    - !!int |-
+      54665
+    "translated": !!null |-
+      null
   "5c33":
     "original": |-
       <C_YELLOW>村長<C_NONE>
@@ -33,14 +53,26 @@
 
       そして ３番目の弟の エリオンさまが国王になって この国を 立て直して
       くださったのじゃよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      289
+    "reference_addrs":
+    - !!int |-
+      54674
+    "translated": !!null |-
+      null
   "5d54":
     "original": |-
       <C_YELLOW>女<C_NONE>
       ねえねえ 知ってる？
 
       情報屋 トミーさんの話だと 地底人が地上を征服しにやってくるんですって。こわい話だわ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      110
+    "reference_addrs":
+    - !!int |-
+      54683
+    "translated": !!null |-
+      null
   "5dc2":
     "original": |-
       <C_YELLOW>老人<C_NONE>
@@ -54,5 +86,11 @@
 
       ここ数カ月間 毎日やってきておるが
       よく あれだけ続くものじゃ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      215
+    "reference_addrs":
+    - !!int |-
+      54689
+    "translated": !!null |-
+      null
 "note": ""

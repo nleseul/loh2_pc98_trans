@@ -4,5 +4,11 @@
       <C_YELLOW>サミー<C_NONE>
       なあ なあ これなんだ？
       変わってるなあ ･ ･ ･
-    "translated": ""
+    "original_byte_length": !!int |-
+      53
+    "reference_addrs":
+    - !!int |-
+      54821
+    "translated": !!null |-
+      null
 "note": ""

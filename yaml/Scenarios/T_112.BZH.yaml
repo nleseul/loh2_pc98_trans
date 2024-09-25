@@ -7,7 +7,13 @@
 
       まあ こんな異常なときなんだから
       しかたのないことだけどな。
-    "translated": ""
+    "original_byte_length": !!int |-
+      154
+    "reference_addrs":
+    - !!int |-
+      54739
+    "translated": !!null |-
+      null
   "5c30":
     "original": |-
       <CALL6658>ラヌーラは たいへんらしいぞ。
@@ -20,7 +26,13 @@
 
       でも この状態だから 手続きは
       中止になるという話もあるんだ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      214
+    "reference_addrs":
+    - !!int |-
+      54748
+    "translated": !!null |-
+      null
   "5e80":
     "original": |-
       <CALL6658>ボアード海運の ボアードは
@@ -29,7 +41,13 @@
       そういえば あれが できてからは
       海賊が いなくなったしなぁ。
       でも まさか そんなはずないよな。
-    "translated": ""
+    "original_byte_length": !!int |-
+      147
+    "reference_addrs":
+    - !!int |-
+      54803
+    "translated": !!null |-
+      null
   "5f13":
     "original": |-
       <CALL6658>うちの子供が 竜の祭に 行きたがっていたんだけど おれの つごうが悪くて行けなかったんだ。
@@ -37,7 +55,13 @@
       でも 行けなくて よかったよ。
       もし 行ってたら 子ども連れで
       逃げなけりゃならなかったからな。
-    "translated": ""
+    "original_byte_length": !!int |-
+      181
+    "reference_addrs":
+    - !!int |-
+      54812
+    "translated": !!null |-
+      null
   "5fc8":
     "original": |-
       <C_YELLOW>女<C_NONE>
@@ -47,7 +71,13 @@
       竜の卵が いきなり赤くなって
       モンスターが 出てきたんですって。
       竜の卵って いったい何なのかしら。
-    "translated": ""
+    "original_byte_length": !!int |-
+      151
+    "reference_addrs":
+    - !!int |-
+      54821
+    "translated": !!null |-
+      null
   "605f":
     "original": |-
       <C_YELLOW>女<C_NONE>
@@ -62,13 +92,25 @@
       フォルスさんと いっしょに
       リーゼルに 逃げていたらしいのよ。
       早く ぶじな姿を 見たいわ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      351
+    "reference_addrs":
+    - !!int |-
+      54830
+    "translated": !!null |-
+      null
   "61be":
     "original": |-
       <C_YELLOW>男<C_NONE>
       ヨルドは セリスから ひなんしてきた人たちで いっぱいですよ。
       向こうにも モンスターがいるんです。
-    "translated": ""
+    "original_byte_length": !!int |-
+      101
+    "reference_addrs":
+    - !!int |-
+      54839
+    "translated": !!null |-
+      null
   "6223":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -79,7 +121,13 @@
       <LOC628d><CLEAR>早く お乗りください。
       出発しますよ。<END>
       <LOC62b3>切符が ないみたいですよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      170
+    "reference_addrs":
+    - !!int |-
+      54650
+    "translated": !!null |-
+      null
   "62cd":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -98,7 +146,13 @@
       あまり 売れてなかったけど
       モンスターが 出てきてからは
       けっこう 売れているみたいだぜ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      347
+    "reference_addrs":
+    - !!int |-
+      54848
+    "translated": !!null |-
+      null
   "6428":
     "original": |-
       <CALL665f>おや いらっしゃい。
@@ -112,7 +166,17 @@
       <LOC6521>これ以上 持てないみたいですね。
       <JUMP650b><LOC6544>お金が足りない みたいですね。
       <JUMP650b>ﾈ
-    "translated": ""
+    "original_byte_length": !!int |-
+      319
+    "reference_addrs":
+    - !!int |-
+      54854
+    - !!int |-
+      25955
+    - !!int |-
+      25955
+    "translated": !!null |-
+      null
   "6569":
     "original": |-
       <C_YELLOW>女<C_NONE>
@@ -124,13 +188,39 @@
       <LOC6601><CLEAR>あら そうですか ･ ･ ･<END>
       <LOC6618>お客さん お金が 足りないわよ。<END>
       <LOC6637>これ以上 持てないわよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      230
+    "reference_addrs":
+    - !!int |-
+      54860
+    "translated": !!null |-
+      null
   "6658":
     "original": |-
       <C_YELLOW>兵士<C_NONE><RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      7
+    "reference_addrs":
+    - !!int |-
+      23447
+    - !!int |-
+      23601
+    - !!int |-
+      24193
+    - !!int |-
+      24340
+    "translated": !!null |-
+      null
   "665f":
     "original": |-
       <C_YELLOW>呪文屋<C_NONE><RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      9
+    "reference_addrs":
+    - !!int |-
+      25641
+    - !!int |-
+      25641
+    "translated": !!null |-
+      null
 "note": ""

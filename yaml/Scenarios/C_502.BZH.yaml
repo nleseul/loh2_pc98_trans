@@ -15,5 +15,11 @@
 
       <C_YELLOW>ガード<C_NONE>
       そうだな 気のせいだな。
-    "translated": ""
+    "original_byte_length": !!int |-
+      241
+    "reference_addrs":
+    - !!int |-
+      54843
+    "translated": !!null |-
+      null
 "note": ""

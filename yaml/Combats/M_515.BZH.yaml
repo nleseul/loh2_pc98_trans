@@ -2,21 +2,51 @@
   "7170":
     "original": |-
       ユアーンＡ<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      11
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "71b0":
     "original": |-
       ユアーンＢ<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      11
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "71f0":
     "original": |-
       ユアーンＣ<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      11
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "7230":
     "original": |-
       ユアーンＤ<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      11
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "73d9":
     "original": |-
       ユアーンが現れた。<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      19
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
 "note": ""

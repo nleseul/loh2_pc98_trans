@@ -2,19 +2,49 @@
   "7170":
     "original": |-
       ザコンＡ<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      9
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "71b0":
     "original": |-
       ザコンＢ<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      9
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "71f0":
     "original": ""
-    "translated": ""
+    "original_byte_length": !!int |-
+      1
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "7230":
     "original": ""
-    "translated": ""
+    "original_byte_length": !!int |-
+      1
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "7319":
     "original": |-
       ザコンが現れた。<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      17
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
 "note": ""

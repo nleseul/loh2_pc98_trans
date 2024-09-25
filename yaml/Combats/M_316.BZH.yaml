@@ -2,21 +2,51 @@
   "7170":
     "original": |-
       ギュードＡ<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      11
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "71b0":
     "original": |-
       ギュードＢ<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      11
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "71f0":
     "original": |-
       ギュードＣ<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      11
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "7230":
     "original": |-
       ギュードＤ<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      11
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "72f0":
     "original": |-
       ギュードが現れた。<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      19
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
 "note": ""

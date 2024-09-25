@@ -2,29 +2,71 @@
   "7170":
     "original": |-
       ワッバ<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      7
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "71b0":
     "original": |-
       ヒューゲス<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      11
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "71f0":
     "original": |-
       Ｍ４１８Ｃ<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      11
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "7230":
     "original": |-
       Ｍ４１８Ｄ<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      11
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "7411":
     "original": |-
       ワッバとヒューゲスが現れた。<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      29
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "743f":
     "original": |-
       <ACTOR>が助けに来た。<RET_PAGE>
-    "translated": ""
+    "original_byte_length": !!int |-
+      16
+    "reference_addrs":
+    - !!int |-
+      61250
+    "translated": !!null |-
+      null
   "744f":
     "original": |-
       しかし だれも来なかった。<RET_PAGE>
-    "translated": ""
+    "original_byte_length": !!int |-
+      26
+    "reference_addrs":
+    - !!int |-
+      61259
+    "translated": !!null |-
+      null
 "note": ""

@@ -10,5 +10,11 @@
 
       少したつと また きりが
       出てくるから 気をつけてくれよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      181
+    "reference_addrs":
+    - !!int |-
+      54684
+    "translated": !!null |-
+      null
 "note": ""

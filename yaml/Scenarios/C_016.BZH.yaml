@@ -23,7 +23,17 @@
       <LOC5c0a>アトラス、そして 仲間のみなさん。
       一刻も早く 地底で 苦しんでいる
       人たちを 救ってあげてください。
-    "translated": ""
+    "original_byte_length": !!int |-
+      420
+    "reference_addrs":
+    - !!int |-
+      54753
+    - !!int |-
+      23675
+    - !!int |-
+      23675
+    "translated": !!null |-
+      null
   "5c6b":
     "original": |-
       <C_YELLOW>ディーナ王妃<C_NONE>
@@ -36,13 +46,27 @@
       想像できます。
 
       くれぐれも むりをしないように。
-    "translated": ""
+    "original_byte_length": !!int |-
+      201
+    "reference_addrs":
+    - !!int |-
+      54643
+    - !!int |-
+      54658
+    "translated": !!null |-
+      null
   "5d34":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       王子さまのおかげで 竜の卵も もとに戻りましたし モンスターも いなく
       なりました。
-    "translated": ""
+    "original_byte_length": !!int |-
+      87
+    "reference_addrs":
+    - !!int |-
+      54667
+    "translated": !!null |-
+      null
   "5d8b":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -51,7 +75,13 @@
       以前 さわぎになった 破壊神
       アグニージャとかいうやつと 何か
       関係があるのですか？
-    "translated": ""
+    "original_byte_length": !!int |-
+      140
+    "reference_addrs":
+    - !!int |-
+      54676
+    "translated": !!null |-
+      null
   "5e17":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -61,25 +91,49 @@
       竜の卵に 入れるのは ラヌーラの
       司祭 バーバラさまだけだと きいて
       おりますが ･ ･ ･
-    "translated": ""
+    "original_byte_length": !!int |-
+      144
+    "reference_addrs":
+    - !!int |-
+      54685
+    "translated": !!null |-
+      null
   "5ea7":
     "original": |
       <C_YELLOW>兵士<C_NONE>
       セリオスさまたちが また どこかに
       お出かけになりました。
-    "translated": ""
+    "original_byte_length": !!int |-
+      64
+    "reference_addrs":
+    - !!int |-
+      54694
+    "translated": !!null |-
+      null
   "5ee7":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       ソルディスでは 司祭 バーバラさまが竜の卵を 正常にしたという うわさが広がっているそうです。
-    "translated": ""
+    "original_byte_length": !!int |-
+      98
+    "reference_addrs":
+    - !!int |-
+      54703
+    "translated": !!null |-
+      null
   "5f49":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       王子さま セリオスさまたちは なぜ
       あんなに ケガをされているのに
       出かけられたのですか？
-    "translated": ""
+    "original_byte_length": !!int |-
+      93
+    "reference_addrs":
+    - !!int |-
+      54712
+    "translated": !!null |-
+      null
   "5fa6":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -88,12 +142,24 @@
 
       女神 フレイアさまが お怒りに
       なったという うわさが 広まっているようですが ･ ･ ･
-    "translated": ""
+    "original_byte_length": !!int |-
+      143
+    "reference_addrs":
+    - !!int |-
+      54721
+    "translated": !!null |-
+      null
   "6035":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       王子さま あまり 無理をしないようにしてください。
-    "translated": ""
+    "original_byte_length": !!int |-
+      56
+    "reference_addrs":
+    - !!int |-
+      54730
+    "translated": !!null |-
+      null
   "606d":
     "original": |-
       <C_YELLOW>教育係 ラウエル<C_NONE>
@@ -115,5 +181,11 @@
 
       まだ ケガが完全に治っていないのに
       心配でなりません。
-    "translated": ""
+    "original_byte_length": !!int |-
+      363
+    "reference_addrs":
+    - !!int |-
+      54739
+    "translated": !!null |-
+      null
 "note": ""

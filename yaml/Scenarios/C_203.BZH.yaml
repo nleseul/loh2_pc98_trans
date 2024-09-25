@@ -17,27 +17,51 @@
       ええ エリオンさま
       <C_YELLOW>兵士<C_NONE>
       た、たいへんだー !!<SET0068><ASMd72a>
-    "translated": ""
+    "original_byte_length": !!int |-
+      294
+    "reference_addrs":
+    - !!int |-
+      54658
+    "translated": !!null |-
+      null
   "5d5d":
     "original": |-
       <C_YELLOW>ポウエル<C_NONE>
       これは アトラス王子。
       そろそろ おいでになる ころだと
       話していたところです。
-    "translated": ""
+    "original_byte_length": !!int |-
+      87
+    "reference_addrs":
+    - !!int |-
+      54667
+    "translated": !!null |-
+      null
   "5db4":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       お待ちしておりました アトラスさま
       国王さまも この中で お待ちに
       なっております。
-    "translated": ""
+    "original_byte_length": !!int |-
+      87
+    "reference_addrs":
+    - !!int |-
+      54676
+    "translated": !!null |-
+      null
   "5e0b":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       アトラスさまで ございますな？
       ようこそ おいでくださいました。
-    "translated": ""
+    "original_byte_length": !!int |-
+      69
+    "reference_addrs":
+    - !!int |-
+      54685
+    "translated": !!null |-
+      null
   "5e50":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -46,7 +70,13 @@
       これは これは セリスの城に
       ようこそ おいでくださいました。
       国王さまは 奥にいらっしゃいます。
-    "translated": ""
+    "original_byte_length": !!int |-
+      128
+    "reference_addrs":
+    - !!int |-
+      54694
+    "translated": !!null |-
+      null
   "5ed0":
     "original": |-
       <SET0405><ASMd740><C_YELLOW>兵士<C_NONE>
@@ -66,7 +96,13 @@
       な、なに どういうことなんだ？
       <C_YELLOW>司祭 バーバラ<C_NONE>
       エリオンさまー !!<Xf405c23c>
-    "translated": ""
+    "original_byte_length": !!int |-
+      301
+    "reference_addrs":
+    - !!int |-
+      54705
+    "translated": !!null |-
+      null
   "5ffd":
     "original": |-
       <SET0406><ASMd74f><C_YELLOW>司祭 バーバラ<C_NONE>
@@ -102,7 +138,13 @@
       してください。
 
       さあ とにかく急ぎましょう。
-    "translated": ""
+    "original_byte_length": !!int |-
+      615
+    "reference_addrs":
+    - !!int |-
+      54715
+    "translated": !!null |-
+      null
   "6264":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -139,5 +181,11 @@
       私は ポウエルさまたちにも
       伝えてまいります。
       お急ぎください。
-    "translated": ""
+    "original_byte_length": !!int |-
+      564
+    "reference_addrs":
+    - !!int |-
+      54729
+    "translated": !!null |-
+      null
 "note": ""

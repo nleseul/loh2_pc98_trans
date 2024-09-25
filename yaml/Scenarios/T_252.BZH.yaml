@@ -5,14 +5,28 @@
       まったく ここの にわとりどもは
       わしを つっついてばかりで ･ ･ ･
       何のうらみが あるというんじゃ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      106
+    "reference_addrs":
+    - !!int |-
+      54659
+    - !!int |-
+      54659
+    "translated": !!null |-
+      null
   "5b08":
     "original": |-
       <C_YELLOW>ジェルマン<C_NONE>
       君たち チキンが 欲しいんだったら
       村の入口にある チキン販売所に
       行ってくれたまえ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      95
+    "reference_addrs":
+    - !!int |-
+      54668
+    "translated": !!null |-
+      null
   "5b67":
     "original": |-
       <C_YELLOW>パウエル<C_NONE>
@@ -27,7 +41,13 @@
       なかったのじゃが 今回は いったい
       どうしたのじゃろうか？
       ううっ また 胃が ･ ･ ･
-    "translated": ""
+    "original_byte_length": !!int |-
+      329
+    "reference_addrs":
+    - !!int |-
+      54677
+    "translated": !!null |-
+      null
   "5cb0":
     "original": |-
       <C_YELLOW>村長<C_NONE>
@@ -44,7 +64,13 @@
       しかし せっかく 住みよい国に
       なったというのに また モンスターが出てくるとは エリオンさまも
       苦労がたえないのう。<LOC5e46>
-    "translated": ""
+    "original_byte_length": !!int |-
+      407
+    "reference_addrs":
+    - !!int |-
+      54686
+    "translated": !!null |-
+      null
   "5e47":
     "original": |-
       <C_YELLOW>女<C_NONE>
@@ -62,7 +88,13 @@
 
       あの人って 昔から いろいろな情報を知っていたけど いったい どこから
       仕入れてくるのかしら。
-    "translated": ""
+    "original_byte_length": !!int |-
+      337
+    "reference_addrs":
+    - !!int |-
+      54695
+    "translated": !!null |-
+      null
   "5f98":
     "original": |-
       <C_YELLOW>老人<C_NONE>
@@ -78,5 +110,11 @@
       買うことは できんじゃろうな。<END>
       <LOC6074>ここ数カ月間 毎日やってきておるが
       よく あれだけ続くものじゃ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      282
+    "reference_addrs":
+    - !!int |-
+      54701
+    "translated": !!null |-
+      null
 "note": ""

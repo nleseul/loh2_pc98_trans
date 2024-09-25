@@ -5,74 +5,156 @@
       皇帝は まだ倒していないのか？
       がんばってくれよ みんなも
       期待しているんだからな。
-    "translated": ""
+    "original_byte_length": !!int |-
+      86
+    "reference_addrs":
+    - !!int |-
+      54650
+    "translated": !!null |-
+      null
   "5afc":
     "original": |-
       <C_YELLOW>子ども<C_NONE>
       ぼくも もっと 大きかったら
       いっしょに 皇帝を やっつけに
       行けたんだけどな。
-    "translated": ""
+    "original_byte_length": !!int |-
+      84
+    "reference_addrs":
+    - !!int |-
+      54659
+    "translated": !!null |-
+      null
   "5b50":
     "original": |-
       <C_YELLOW>女<C_NONE>
       もう みんな 皇帝を倒して 新しい
       国ができるのを 待ちこがれているわ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      73
+    "reference_addrs":
+    - !!int |-
+      54668
+    "translated": !!null |-
+      null
   "5b99":
     "original": |-
       <C_YELLOW>女<C_NONE>
       私も 皇帝を倒すのに 協力したいと
       思ってるんだけど 何かできることが
       あるかしら。
-    "translated": ""
+    "original_byte_length": !!int |-
+      85
+    "reference_addrs":
+    - !!int |-
+      54677
+    "translated": !!null |-
+      null
   "5bee":
     "original": |-
       <C_YELLOW>ヤミ屋<C_NONE>
       らっしゃい !! どんな ご用で？<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      39
+    "reference_addrs":
+    - !!int |-
+      54698
+    "translated": !!null |-
+      null
   "5c15":
     "original": |-
       まいどー。
-    "translated": ""
+    "original_byte_length": !!int |-
+      11
+    "reference_addrs":
+    - !!int |-
+      54725
+    - !!int |-
+      54725
+    - !!int |-
+      54725
+    "translated": !!null |-
+      null
   "5c20":
     "original": |-
       お客さん 冗談はいけねえや。
       それ以上は 持てねえんだぜ。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      57
+    "reference_addrs":
+    - !!int |-
+      936
+    "translated": !!null |-
+      null
   "5c59":
     "original": |-
       なにを買うんでい？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      20
+    "reference_addrs":
+    - !!int |-
+      938
+    "translated": !!null |-
+      null
   "5c6d":
     "original": |-
       <ITEM>かい。
       へい まいど どうも。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      30
+    "reference_addrs":
+    - !!int |-
+      940
+    "translated": !!null |-
+      null
   "5c93":
     "original": |-
       どれを 売るんでい？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      21
+    "reference_addrs":
+    - !!int |-
+      845
+    "translated": !!null |-
+      null
   "5ca8":
     "original": |2-
        Gold だよ。いいかい？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      24
+    "reference_addrs":
+    - !!int |-
+      847
+    "translated": !!null |-
+      null
   "5cc0":
     "original": |-
       ひやかしは よくねえよ。
 
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      25
+    "reference_addrs":
+    - !!int |-
+      849
+    "translated": !!null |-
+      null
   "5cd9":
     "original": |-
       わりいね。
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      12
+    "reference_addrs":
+    - !!int |-
+      851
+    "translated": !!null |-
+      null
 "note": ""

@@ -1,5 +1,5 @@
 import csv
-from dataclasses import dataclass, asdict
+from dataclasses import dataclass, asdict, field
 import os
 import typing
 import yaml
@@ -8,7 +8,14 @@ import yaml
 @dataclass
 class TranslationEntry:
     original:str = ""
-    translated:str = ""
+    translated:str|None = None
+
+    original_byte_length:int|None = None
+    reference_addrs:list[int] = field(default_factory=list)
+
+    @property
+    def text(self) -> str:
+        return self.translated if self.translated is not None else self.original
 
 
 class TranslationCollection:

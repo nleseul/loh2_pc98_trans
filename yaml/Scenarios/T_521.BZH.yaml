@@ -7,7 +7,13 @@
 
       あれさえなければ はたらき者で
       いいやつなんだけどな。
-    "translated": ""
+    "original_byte_length": !!int |-
+      120
+    "reference_addrs":
+    - !!int |-
+      54801
+    "translated": !!null |-
+      null
   "5eec":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -20,7 +26,13 @@
       <LOC5f94>どうした 城には行ったのか？
       だんなさまは お城に行かれたが
       用事は すんでいるんだろうな？
-    "translated": ""
+    "original_byte_length": !!int |-
+      256
+    "reference_addrs":
+    - !!int |-
+      54818
+    "translated": !!null |-
+      null
   "5fec":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -30,14 +42,26 @@
 
       おーい エリーサ !!
       新しい 人たちが来たぞ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      132
+    "reference_addrs":
+    - !!int |-
+      54843
+    "translated": !!null |-
+      null
   "6070":
     "original": |-
       <C_YELLOW>男<C_NONE>
       おう なんでい !!
       おれは この変なやつの 手入れを
       してんだ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      64
+    "reference_addrs":
+    - !!int |-
+      54852
+    "translated": !!null |-
+      null
   "60b0":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -45,7 +69,13 @@
 
       この おれがいるかぎり だれにも
       ふれさせないぜ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      106
+    "reference_addrs":
+    - !!int |-
+      54861
+    "translated": !!null |-
+      null
   "611a":
     "original": |-
       <C_YELLOW>エリーサ<C_NONE>
@@ -70,7 +100,13 @@
       <LOC62e5>あら もう ご用はすんだの？
       それだったら また 庭の掃除でも
       やってもらおうかしら。
-    "translated": ""
+    "original_byte_length": !!int |-
+      540
+    "reference_addrs":
+    - !!int |-
+      54892
+    "translated": !!null |-
+      null
   "6336":
     "original": |-
       <C_YELLOW>エリーサ<C_NONE>
@@ -97,12 +133,24 @@
       <C_YELLOW>エリーサ<C_NONE>
       さあ あんたたちも こっちに
       来るのよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      348
+    "reference_addrs":
+    - !!int |-
+      54927
+    "translated": !!null |-
+      null
   "6492":
     "original": |-
       <C_YELLOW>エリーサ<C_NONE>
       はやく 横に来なさい !!
-    "translated": ""
+    "original_byte_length": !!int |-
+      34
+    "reference_addrs":
+    - !!int |-
+      54947
+    "translated": !!null |-
+      null
   "64b4":
     "original": |-
       <C_YELLOW>エリーサ<C_NONE>
@@ -141,7 +189,13 @@
       はいはい いつまでもムダ話なんか
       していないの。
       さあ ついてきなさい。
-    "translated": ""
+    "original_byte_length": !!int |-
+      575
+    "reference_addrs":
+    - !!int |-
+      54994
+    "translated": !!null |-
+      null
   "66f3":
     "original": |-
       <C_YELLOW>エリーサ<C_NONE>
@@ -149,14 +203,26 @@
       終わらないわよ。
 
       終わったら 私の所に 来なさいね。
-    "translated": ""
+    "original_byte_length": !!int |-
+      94
+    "reference_addrs":
+    - !!int |-
+      55008
+    "translated": !!null |-
+      null
   "6751":
     "original": |-
       <C_YELLOW>エリーサ<C_NONE>
       なによ うるさいわね !!
       人手がたりなくて 忙しいんだから
       じゃましないで !!
-    "translated": ""
+    "original_byte_length": !!int |-
+      84
+    "reference_addrs":
+    - !!int |-
+      54883
+    "translated": !!null |-
+      null
   "67a5":
     "original": |-
       <C_YELLOW>町長<C_NONE>
@@ -198,7 +264,17 @@
       <LOC6a78><Xf65317><JUMP6a81><JUMP69d2><LOC6a81>わしを いつまで 待たせるつもりだ？行く気が ないなら 他のやつを呼べ。<END>
       <LOC6ac6>ナレサ隊長は 正門にいる。
       早く渡してこい。
-    "translated": ""
+    "original_byte_length": !!int |-
+      844
+    "reference_addrs":
+    - !!int |-
+      54772
+    - !!int |-
+      27263
+    - !!int |-
+      27263
+    "translated": !!null |-
+      null
   "6af1":
     "original": |-
       <C_YELLOW>エリーサ<C_NONE>
@@ -212,7 +288,13 @@
 
       ナレサ隊長が いっしょじゃから
       そそうのないようにしてくれよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      177
+    "reference_addrs":
+    - !!int |-
+      54792
+    "translated": !!null |-
+      null
   "6ba2":
     "original": |-
       <C_YELLOW>ナレサ隊長<C_NONE>
@@ -226,5 +308,11 @@
       本館と別館の一部を除けば どこでも
       だいじょうぶだ。
       じゃあ いい返事を期待してるぞ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      199
+    "reference_addrs":
+    - !!int |-
+      55022
+    "translated": !!null |-
+      null
 "note": ""

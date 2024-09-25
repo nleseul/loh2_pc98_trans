@@ -118,7 +118,15 @@
       <CALL6cea><LOC65d3>ランドー殿、かってなことを
       言うようだが いざというときには
       めんどうを みてやってください。
-    "translated": ""
+    "original_byte_length": !!int |-
+      2589
+    "reference_addrs":
+    - !!int |-
+      54699
+    - !!int |-
+      54699
+    "translated": !!null |-
+      null
   "6632":
     "original": |-
       おれが 勝手に <CALL6ce1>の 後に
@@ -126,7 +134,15 @@
       <CALL6ce1>を 怒らないでください。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      81
+    "reference_addrs":
+    - !!int |-
+      25780
+    - !!int |-
+      26470
+    "translated": !!null |-
+      null
   "6683":
     "original": |-
       <CALL6cf9><IF000e><JUMP6818><IF0048><JUMP66d9><CALL6d08>、危険な場所に
@@ -151,7 +167,13 @@
       よろしく お願いします。<END>
       <LOC6818>ランドーさんに あまり めいわくを
       かけないように するのですよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      468
+    "reference_addrs":
+    - !!int |-
+      54761
+    "translated": !!null |-
+      null
   "6857":
     "original": |-
       <CALL6d11><IF0028><JUMP6922><IF0009><JUMP68fa><SET0009>おや <CALL6d08>。
@@ -166,42 +188,84 @@
       しないようにね。<END>
       <LOC6922><CALL6d08>、ワプに登録した町は
       増えましたか？
-    "translated": ""
+    "original_byte_length": !!int |-
+      242
+    "reference_addrs":
+    - !!int |-
+      54776
+    "translated": !!null |-
+      null
   "694d":
     "original": |-
       <CALL6cda>これは <CALL6ce1>、世界を見てまわる
       旅に 出られるそうですね。
       お体には お気をつけください。
-    "translated": ""
+    "original_byte_length": !!int |-
+      88
+    "reference_addrs":
+    - !!int |-
+      54785
+    "translated": !!null |-
+      null
   "69a5":
     "original": |-
       <CALL6cda><IF0009><JUMP69fb><CALL6d08>王子、フェリシアさまにも
       旅立ちの前に あいさつをされては
       いかがでしょう。<END>
       <LOC69fb><CALL6ce1>が お戻りに なられるときが楽しみでございます。
-    "translated": ""
+    "original_byte_length": !!int |-
+      136
+    "reference_addrs":
+    - !!int |-
+      54794
+    "translated": !!null |-
+      null
   "6a2d":
     "original": |-
       <CALL6cda>これは<CALL6ce1>、どうかお気をつけて旅をなさってください。
-    "translated": ""
+    "original_byte_length": !!int |-
+      55
+    "reference_addrs":
+    - !!int |-
+      54803
+    "translated": !!null |-
+      null
   "6a64":
     "original": |-
       <CALL6cda><CALL6ce1>、スライムいじめを
       なさったことは ございますか？
       体力作りには 意外と 効くんですよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      90
+    "reference_addrs":
+    - !!int |-
+      54812
+    "translated": !!null |-
+      null
   "6abe":
     "original": |-
       <CALL6cda><CALL6ce1>、せっかく 自由な旅を
       なさるのですから 十分に 楽しんで
       らしてください。
-    "translated": ""
+    "original_byte_length": !!int |-
+      78
+    "reference_addrs":
+    - !!int |-
+      54821
+    "translated": !!null |-
+      null
   "6b0c":
     "original": |-
       <CALL6cda>ラウエル殿が さびしそうですね。
       <CALL6ce1>、しっかりと 勉強を
       してきてくださいね。
-    "translated": ""
+    "original_byte_length": !!int |-
+      79
+    "reference_addrs":
+    - !!int |-
+      54830
+    "translated": !!null |-
+      null
   "6b5b":
     "original": |-
       <CALL6cda><CALL6ce1>、まずは わが国のようすを
@@ -209,11 +273,23 @@
 
       ルディアの町以外なら <CALL6ce1>の
       正体も ばれないでしょう。
-    "translated": ""
+    "original_byte_length": !!int |-
+      102
+    "reference_addrs":
+    - !!int |-
+      54839
+    "translated": !!null |-
+      null
   "6bc1":
     "original": |-
       <CALL6cda><CALL6ce1>、自由だからといって無理をされないように なさってください。
-    "translated": ""
+    "original_byte_length": !!int |-
+      66
+    "reference_addrs":
+    - !!int |-
+      54848
+    "translated": !!null |-
+      null
   "6c03":
     "original": |-
       <CALL6d24><IF0008><JUMP6c64><UNSET0404>セリオス陛下、
@@ -226,33 +302,163 @@
       面白いものや 珍しいものが あります。
 
       たくさんのことを 見聞きして 教養を高めてきてください。
-    "translated": ""
+    "original_byte_length": !!int |-
+      215
+    "reference_addrs":
+    - !!int |-
+      54857
+    - !!int |-
+      54857
+    "translated": !!null |-
+      null
   "6cda":
     "original": |-
       <C_YELLOW>兵士<C_NONE><RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      7
+    "reference_addrs":
+    - !!int |-
+      26958
+    - !!int |-
+      27046
+    - !!int |-
+      27182
+    - !!int |-
+      27237
+    - !!int |-
+      27327
+    - !!int |-
+      27405
+    - !!int |-
+      27484
+    - !!int |-
+      27586
+    "translated": !!null |-
+      null
   "6ce1":
     "original": |-
       王子さま<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      9
+    "reference_addrs":
+    - !!int |-
+      27679
+    - !!int |-
+      26177
+    - !!int |-
+      26216
+    - !!int |-
+      26968
+    - !!int |-
+      27132
+    - !!int |-
+      27191
+    - !!int |-
+      27240
+    - !!int |-
+      27330
+    - !!int |-
+      27440
+    - !!int |-
+      27487
+    - !!int |-
+      27554
+    - !!int |-
+      27589
+    "translated": !!null |-
+      null
   "6cea":
     "original": |-
       <C_YELLOW>セリオス国王<C_NONE><RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      15
+    "reference_addrs":
+    - !!int |-
+      27706
+    - !!int |-
+      23570
+    - !!int |-
+      24939
+    - !!int |-
+      25308
+    - !!int |-
+      25783
+    - !!int |-
+      26065
+    "translated": !!null |-
+      null
   "6cf9":
     "original": |-
       <C_YELLOW>ディーナ王妃<C_NONE><RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      15
+    "reference_addrs":
+    - !!int |-
+      25440
+    - !!int |-
+      26244
+    - !!int |-
+      26473
+    "translated": !!null |-
+      null
   "6d08":
     "original": |-
       アトラス<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      9
+    "reference_addrs":
+    - !!int |-
+      27729
+    - !!int |-
+      23600
+    - !!int |-
+      24991
+    - !!int |-
+      25443
+    - !!int |-
+      25573
+    - !!int |-
+      25925
+    - !!int |-
+      26023
+    - !!int |-
+      26259
+    - !!int |-
+      26338
+    - !!int |-
+      26613
+    - !!int |-
+      26735
+    - !!int |-
+      26875
+    - !!int |-
+      26915
+    - !!int |-
+      27055
+    "translated": !!null |-
+      null
   "6d11":
     "original": |-
       <C_YELLOW>フェリシア皇太后<C_NONE><RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      19
+    "reference_addrs":
+    - !!int |-
+      26712
+    - !!int |-
+      26837
+    "translated": !!null |-
+      null
   "6d24":
     "original": |-
       <C_YELLOW>教育係 ラウエル<C_NONE><RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      18
+    "reference_addrs":
+    - !!int |-
+      27652
+    - !!int |-
+      25026
+    "translated": !!null |-
+      null
 "note": ""

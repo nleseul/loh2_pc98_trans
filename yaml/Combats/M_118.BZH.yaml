@@ -2,21 +2,51 @@
   "7170":
     "original": |-
       レミングプラスA<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      16
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "71b0":
     "original": |-
       スプラッシャー<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      15
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "71f0":
     "original": |-
       レミングプラスB<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      16
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "7230":
     "original": |-
       レミングプラスC<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      16
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "73c5":
     "original": |-
       レミングプラスが現れた。<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      25
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
 "note": ""

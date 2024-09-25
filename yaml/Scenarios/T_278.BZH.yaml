@@ -4,7 +4,13 @@
       <C_YELLOW>ジーナ<C_NONE>
       な、何だい このスライム男が
       気持ち悪いから 近寄るんじゃないよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      73
+    "reference_addrs":
+    - !!int |-
+      54630
+    "translated": !!null |-
+      null
   "5b24":
     "original": |-
       <C_YELLOW>船員<C_NONE>
@@ -13,7 +19,13 @@
 
       ここじゃ 関係なかったから
       よくわからねえんだ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      104
+    "reference_addrs":
+    - !!int |-
+      54639
+    "translated": !!null |-
+      null
   "5b8c":
     "original": |-
       <C_YELLOW>船員<C_NONE>
@@ -22,7 +34,13 @@
 
       あれは もう ずっと前に はやらなく
       なって つぶれてしまったというのに。
-    "translated": ""
+    "original_byte_length": !!int |-
+      143
+    "reference_addrs":
+    - !!int |-
+      54648
+    "translated": !!null |-
+      null
   "5c1b":
     "original": |-
       <C_YELLOW>船員<C_NONE>
@@ -31,14 +49,26 @@
 
       酒飲んだり バクチしたり 定期船を
       おそった ･ ･ ･ あぶねえ あぶねえ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      113
+    "reference_addrs":
+    - !!int |-
+      54657
+    "translated": !!null |-
+      null
   "5c8c":
     "original": |-
       <C_YELLOW>船員<C_NONE>
       ジーナさんって こわいんだよな。
       あの人見てると 社長の お袋さんを
       思い出すよな。
-    "translated": ""
+    "original_byte_length": !!int |-
+      87
+    "reference_addrs":
+    - !!int |-
+      54666
+    "translated": !!null |-
+      null
   "5ce3":
     "original": |-
       <C_YELLOW>船員<C_NONE>
@@ -48,7 +78,13 @@
 
       ほら見ろ 新しい船を 考えてるんだ。今より 速くて 人をたくさん
       乗せられるやつだ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      171
+    "reference_addrs":
+    - !!int |-
+      54675
+    "translated": !!null |-
+      null
   "5d8e":
     "original": |-
       <C_YELLOW>船員<C_NONE>
@@ -64,13 +100,25 @@
       <Xf12c><UNSET009d><ITEM><C_GREEN>をもらいました。<SND0103><C_NONE><END>
       <LOC5e6b>そんなに よくばるなよ。
       持物が いっぱいだぜ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      267
+    "reference_addrs":
+    - !!int |-
+      54684
+    "translated": !!null |-
+      null
   "5e99":
     "original": |-
       <C_YELLOW>船員<C_NONE>
       ここには 変わった宝石が たくさん
       あるんだぜ。社長の趣味なんだ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      71
+    "reference_addrs":
+    - !!int |-
+      54693
+    "translated": !!null |-
+      null
   "5ee0":
     "original": |-
       <C_YELLOW>ボアード<C_NONE>
@@ -82,5 +130,15 @@
 
       <JUMP5f28><LOC5f9b><CLEAR>そうか その酒 けっこう気に入ったぜ。またバクヤクが ほしかったら
       交換してやるからな。
-    "translated": ""
+    "original_byte_length": !!int |-
+      273
+    "reference_addrs":
+    - !!int |-
+      54702
+    - !!int |-
+      24473
+    - !!int |-
+      24473
+    "translated": !!null |-
+      null
 "note": ""

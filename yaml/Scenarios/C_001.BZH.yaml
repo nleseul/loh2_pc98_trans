@@ -21,20 +21,40 @@
       <LOC5d3f>レスの書を お持ちでないのですかな？さぞ不便でしょう これをどうぞ。
 
       <Xf197><ITEM><C_GREEN>をもらいました。<SND0103><C_NONE>
-    "translated": ""
+    "original_byte_length": !!int |-
+      514
+    "reference_addrs":
+    - !!int |-
+      54694
+    "translated": !!null |-
+      null
   "5d9b":
     "original": |-
       <C_YELLOW>侍女<C_NONE>
       王子さま、旅に出てしまうと
       おいしい食事も できなくなって
       しまいますね。
-    "translated": ""
+    "original_byte_length": !!int |-
+      79
+    "reference_addrs":
+    - !!int |-
+      54703
+    - !!int |-
+      54703
+    "translated": !!null |-
+      null
   "5dea":
     "original": |-
       <C_YELLOW>侍女<C_NONE>
       ああ 忙しい ･ ･ まあ 王子さま。
       どうなさったのですか？
-    "translated": ""
+    "original_byte_length": !!int |-
+      62
+    "reference_addrs":
+    - !!int |-
+      54712
+    "translated": !!null |-
+      null
   "5e28":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -44,7 +64,13 @@
       行かれたのですか？<END>
       <LOC5ea3>おやっ 王子さま、国王さまと
       いっしょでは ないのですか？
-    "translated": ""
+    "original_byte_length": !!int |-
+      179
+    "reference_addrs":
+    - !!int |-
+      54721
+    "translated": !!null |-
+      null
   "5edb":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -55,13 +81,25 @@
       こんな感じで いいですよね？<END>
       <LOC5f69>あっ ごめんなさい 王子さま。
       口ぐせに なってしまいまして ･ ･ ･
-    "translated": ""
+    "original_byte_length": !!int |-
+      205
+    "reference_addrs":
+    - !!int |-
+      54730
+    "translated": !!null |-
+      null
   "5fa8":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       おや 王子さま。
       財宝室に 何か ご用でしょうか？
-    "translated": ""
+    "original_byte_length": !!int |-
+      54
+    "reference_addrs":
+    - !!int |-
+      54739
+    "translated": !!null |-
+      null
   "5fde":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -77,5 +115,11 @@
       光の剣と 言う そうなんですがね
       セリオスさまが お出かけになられる
       ときに 取りにみえましたよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      326
+    "reference_addrs":
+    - !!int |-
+      54748
+    "translated": !!null |-
+      null
 "note": ""

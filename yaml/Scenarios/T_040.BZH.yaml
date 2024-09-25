@@ -4,7 +4,13 @@
       <C_YELLOW>子供<C_NONE>
       <IF0404><JUMP5c4f>ぼく いつも ここで 船を見てるんだ。早く来ないかなぁ。<END>
       <LOC5c4f>ぼく 大きくなったら あの船に乗ってとなりの国まで 行くんだ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      127
+    "reference_addrs":
+    - !!int |-
+      54747
+    "translated": !!null |-
+      null
   "5c8b":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -17,7 +23,13 @@
       いつまでも 昔の船なんか 使って
       ないで、早く 新しい船に すれば
       いいんだよな。
-    "translated": ""
+    "original_byte_length": !!int |-
+      203
+    "reference_addrs":
+    - !!int |-
+      54756
+    "translated": !!null |-
+      null
   "5d56":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -30,14 +42,26 @@
 
       これで どんな 災害が 起こっても
       安心していられるよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      206
+    "reference_addrs":
+    - !!int |-
+      54765
+    "translated": !!null |-
+      null
   "5e24":
     "original": |-
       <C_YELLOW>女<C_NONE>
       災害のお守りって 本当にききめが
       あるのかしら。あの 商人って
       どうも インチキくさくって ･ ･ ･
-    "translated": ""
+    "original_byte_length": !!int |-
+      97
+    "reference_addrs":
+    - !!int |-
+      54774
+    "translated": !!null |-
+      null
   "5e85":
     "original": |-
       <C_YELLOW>老人<C_NONE>
@@ -47,7 +71,13 @@
 
       災害のお守りなんて インチキに
       決まっておるわい。ばかばかしい。
-    "translated": ""
+    "original_byte_length": !!int |-
+      146
+    "reference_addrs":
+    - !!int |-
+      54783
+    "translated": !!null |-
+      null
   "5f17":
     "original": |-
       <C_YELLOW>ロー<C_NONE>
@@ -76,7 +106,13 @@
       それなら いいけど ･ ･ ･
       あんな 役に 立ちゃしねえ物なんか
       買うんじゃねえぞ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      560
+    "reference_addrs":
+    - !!int |-
+      54807
+    "translated": !!null |-
+      null
   "614b":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -92,7 +128,13 @@
 
       また 故障しちゃったんですよ。
       古い船だから 大変なんです。
-    "translated": ""
+    "original_byte_length": !!int |-
+      396
+    "reference_addrs":
+    - !!int |-
+      54816
+    "translated": !!null |-
+      null
   "62d7":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -111,7 +153,13 @@
       いいと思いますよ。<END>
       <LOC6444>持ってないなら 乗せられませんよ。
       向こうで 買ってきてください。
-    "translated": ""
+    "original_byte_length": !!int |-
+      429
+    "reference_addrs":
+    - !!int |-
+      54688
+    "translated": !!null |-
+      null
   "6484":
     "original": |-
       <C_YELLOW>ヤミ屋<C_NONE>
@@ -135,7 +183,13 @@
       けっこう もうかったから また
       売り出すために 用意してるんだ。
       それまで 待っててくれ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      472
+    "reference_addrs":
+    - !!int |-
+      54798
+    "translated": !!null |-
+      null
   "6660":
     "original": |-
       <C_YELLOW>女<C_NONE>
@@ -149,13 +203,25 @@
       <LOC6791>お客さん お金が 足りないわよ。<END>
       <LOC67b0>お客さん これ以上 持てない
       みたいですけど ･ ･ ･
-    "translated": ""
+    "original_byte_length": !!int |-
+      384
+    "reference_addrs":
+    - !!int |-
+      54822
+    "translated": !!null |-
+      null
   "67e4":
     "original": |-
       <C_YELLOW>宿屋<C_NONE>
       この宿は 国王さまが お泊まりに
       なったことも あるんですよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      66
+    "reference_addrs":
+    - !!int |-
+      54828
+    "translated": !!null |-
+      null
   "6826":
     "original": |-
       <C_YELLOW>武器屋<C_NONE>
@@ -163,7 +229,13 @@
       材料が入ってこないんですよ。
 
       鉱山が復旧したら 来てみてください。必ず 強い武器を 売りに出しますから。
-    "translated": ""
+    "original_byte_length": !!int |-
+      144
+    "reference_addrs":
+    - !!int |-
+      54834
+    "translated": !!null |-
+      null
   "68b6":
     "original": |-
       <C_YELLOW>道具屋<C_NONE>
@@ -172,5 +244,11 @@
 
       ロンドから 商品が届いていないので
       品切れなんですよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      115
+    "reference_addrs":
+    - !!int |-
+      54840
+    "translated": !!null |-
+      null
 "note": ""

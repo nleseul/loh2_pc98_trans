@@ -7,7 +7,13 @@
 
       モンスターが いなくなったのは
       セリオスさまの おかげですよね。
-    "translated": ""
+    "original_byte_length": !!int |-
+      158
+    "reference_addrs":
+    - !!int |-
+      54633
+    "translated": !!null |-
+      null
   "5add":
     "original": |-
       <CALL5d2b>ルドラにいる じいさんの話だと
@@ -16,7 +22,13 @@
 
       そして しばらくすると 竜の卵の色が青い色に戻って モンスターも
       出てこなくなったそうなんです。
-    "translated": ""
+    "original_byte_length": !!int |-
+      191
+    "reference_addrs":
+    - !!int |-
+      54642
+    "translated": !!null |-
+      null
   "5b9c":
     "original": |-
       <CALL5d2b>私は セリオスさまたちのおかげで
@@ -29,7 +41,13 @@
 
       セリオスさまたちに 何か
       あったのでしょうか？
-    "translated": ""
+    "original_byte_length": !!int |-
+      207
+    "reference_addrs":
+    - !!int |-
+      54651
+    "translated": !!null |-
+      null
   "5c6b":
     "original": |-
       <CALL5d32>まあ アトラス王子さま。
@@ -37,19 +55,49 @@
       王子さまが いらっしゃったのなら
       今日は ビーフシチューでも
       お作りいたしましょうか？
-    "translated": ""
+    "original_byte_length": !!int |-
+      110
+    "reference_addrs":
+    - !!int |-
+      54660
+    "translated": !!null |-
+      null
   "5cd9":
     "original": |-
       <CALL5d32>屋上にいる 発明家のハリーさんは
       クリが きらいなんですよ。
       変わっているでしょ？
-    "translated": ""
+    "original_byte_length": !!int |-
+      82
+    "reference_addrs":
+    - !!int |-
+      54669
+    "translated": !!null |-
+      null
   "5d2b":
     "original": |-
       <C_YELLOW>兵士<C_NONE><RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      7
+    "reference_addrs":
+    - !!int |-
+      23104
+    - !!int |-
+      23262
+    - !!int |-
+      23453
+    "translated": !!null |-
+      null
   "5d32":
     "original": |-
       <C_YELLOW>侍女<C_NONE><RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      7
+    "reference_addrs":
+    - !!int |-
+      23660
+    - !!int |-
+      23770
+    "translated": !!null |-
+      null
 "note": ""

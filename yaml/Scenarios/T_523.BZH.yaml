@@ -6,7 +6,13 @@
 
       あれさえなければ はたらき者で
       いいやつなんだけどな。
-    "translated": ""
+    "original_byte_length": !!int |-
+      107
+    "reference_addrs":
+    - !!int |-
+      54638
+    "translated": !!null |-
+      null
   "5baf":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -18,14 +24,28 @@
       細かいことは 気にしないでくれ。
       君たちは もう自由の身だ。
       わっはっはっは。
-    "translated": ""
+    "original_byte_length": !!int |-
+      195
+    "reference_addrs":
+    - !!int |-
+      54647
+    - !!int |-
+      54647
+    "translated": !!null |-
+      null
   "5c72":
     "original": |-
       <C_YELLOW>男<C_NONE>
       おう なんでい !!
       これは ウエキって言うんだぜ。
       文句あっか ？
-    "translated": ""
+    "original_byte_length": !!int |-
+      66
+    "reference_addrs":
+    - !!int |-
+      54656
+    "translated": !!null |-
+      null
   "5cb4":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -33,7 +53,13 @@
 
       この おれがいるかぎり だれにも
       ふれさせないぜ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      106
+    "reference_addrs":
+    - !!int |-
+      54665
+    "translated": !!null |-
+      null
   "5d1e":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -41,13 +67,25 @@
 
       そうか ぼくが 道に迷っていたときに無視して行ってしまった あのときの
       はくじょうな人たちか。
-    "translated": ""
+    "original_byte_length": !!int |-
+      130
+    "reference_addrs":
+    - !!int |-
+      54674
+    "translated": !!null |-
+      null
   "5da0":
     "original": |-
       <C_YELLOW>男<C_NONE>
       あれ 君たちは ･ ･ ･
       顔は知ってるけど 思い出せないな。
-    "translated": ""
+    "original_byte_length": !!int |-
+      59
+    "reference_addrs":
+    - !!int |-
+      54683
+    "translated": !!null |-
+      null
   "5ddb":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -55,7 +93,13 @@
       あれから 何回も迷いながら やっとでこの町に たどり着いたんだ。
 
       もう たいへんだったよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      116
+    "reference_addrs":
+    - !!int |-
+      54692
+    "translated": !!null |-
+      null
   "5e4f":
     "original": |-
       <C_YELLOW>女<C_NONE>
@@ -64,7 +108,13 @@
 
       あなたたちも ここで 仕事を
       することになったの？
-    "translated": ""
+    "original_byte_length": !!int |-
+      97
+    "reference_addrs":
+    - !!int |-
+      54701
+    "translated": !!null |-
+      null
   "5eb0":
     "original": |-
       <C_YELLOW>エリーサ<C_NONE>
@@ -74,7 +124,13 @@
 
       新しく ここで はたらくことに
       なっていた人と まちがえたのよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      160
+    "reference_addrs":
+    - !!int |-
+      54710
+    "translated": !!null |-
+      null
   "5f50":
     "original": |-
       <CH0>
@@ -141,5 +197,11 @@
 
       ヨルドの聖域に 行って 話を
       きいてみよう。
-    "translated": ""
+    "original_byte_length": !!int |-
+      1288
+    "reference_addrs":
+    - !!int |-
+      54724
+    "translated": !!null |-
+      null
 "note": ""

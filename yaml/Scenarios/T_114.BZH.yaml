@@ -8,7 +8,13 @@
       <LOC5c6b>何とか ウォンリークの危機は
       のがれたようだが やつらは なぜ
       こんなに急に いなくなったんだろう。
-    "translated": ""
+    "original_byte_length": !!int |-
+      275
+    "reference_addrs":
+    - !!int |-
+      54751
+    "translated": !!null |-
+      null
   "5cca":
     "original": |-
       <CALL68f2>ラヌーラは たいへんらしいぞ。
@@ -21,7 +27,13 @@
 
       でも この状態だから 手続きは
       中止になるという話もあるんだ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      214
+    "reference_addrs":
+    - !!int |-
+      54760
+    "translated": !!null |-
+      null
   "5f1a":
     "original": |-
       <CALL68f2>ボアード海運の ボアードは
@@ -30,7 +42,13 @@
       そういえば あれが できてからは
       海賊が いなくなったしなぁ。
       でも まさか そんなはずないよな。
-    "translated": ""
+    "original_byte_length": !!int |-
+      147
+    "reference_addrs":
+    - !!int |-
+      54815
+    "translated": !!null |-
+      null
   "5fad":
     "original": |-
       <CALL68f2><IF0015><JUMP6011>世界中の竜の卵から モンスターが
@@ -42,7 +60,13 @@
       <LOC6070>突然 モンスターが いなくなったが
       また 出てくるかもしれないから
       気をつけて 旅をしてくれよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      286
+    "reference_addrs":
+    - !!int |-
+      54824
+    "translated": !!null |-
+      null
   "60cb":
     "original": |-
       <C_YELLOW>女<C_NONE>
@@ -59,7 +83,13 @@
       心配だわ。<END>
       <LOC61c2>どうして こう 次から次へと
       いろいろなことが 起こるのかしら。
-    "translated": ""
+    "original_byte_length": !!int |-
+      308
+    "reference_addrs":
+    - !!int |-
+      54833
+    "translated": !!null |-
+      null
   "61ff":
     "original": |-
       <C_YELLOW>女<C_NONE>
@@ -74,12 +104,24 @@
       フォルスさんと いっしょに
       リーゼルに 逃げていたらしいのよ。
       早く ぶじな姿を 見たいわ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      351
+    "reference_addrs":
+    - !!int |-
+      54842
+    "translated": !!null |-
+      null
   "635e":
     "original": |-
       <C_YELLOW>男<C_NONE>
       ヨルドは セリスから ひなんしてきた人たちで いっぱいですよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      65
+    "reference_addrs":
+    - !!int |-
+      54851
+    "translated": !!null |-
+      null
   "639f":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -90,7 +132,13 @@
       <LOC6409><CLEAR>早く お乗りください。
       出発しますよ。<END>
       <LOC642f>切符が ないみたいですよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      170
+    "reference_addrs":
+    - !!int |-
+      54662
+    "translated": !!null |-
+      null
   "6449":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -109,7 +157,13 @@
       あまり 売れてなかったけど
       モンスターが 出てきてからは
       けっこう 売れているみたいだぜ。<LOC65a9>
-    "translated": ""
+    "original_byte_length": !!int |-
+      353
+    "reference_addrs":
+    - !!int |-
+      54860
+    "translated": !!null |-
+      null
   "65aa":
     "original": |-
       <CALL68f9>おや いらっしゃい。
@@ -123,7 +177,17 @@
       <LOC66a3>これ以上 持てないみたいですね。
       <JUMP668d><LOC66c6>お金が足りない みたいですね。
       <JUMP668d>ﾈ
-    "translated": ""
+    "original_byte_length": !!int |-
+      319
+    "reference_addrs":
+    - !!int |-
+      54873
+    - !!int |-
+      26341
+    - !!int |-
+      26341
+    "translated": !!null |-
+      null
   "66eb":
     "original": |-
       <CALL68f9>おや いらっしゃい。
@@ -135,11 +199,23 @@
       まけられませんからね。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      167
+    "reference_addrs":
+    - !!int |-
+      54885
+    "translated": !!null |-
+      null
   "6792":
     "original": |-
       また おいでください。
-    "translated": ""
+    "original_byte_length": !!int |-
+      22
+    "reference_addrs":
+    - !!int |-
+      54897
+    "translated": !!null |-
+      null
   "67a8":
     "original": |-
       <C_YELLOW>女<C_NONE>
@@ -151,31 +227,77 @@
       <LOC6840><CLEAR>あら そうですか ･ ･ ･<END>
       <LOC6857>お客さん お金が 足りないわよ。<END>
       <LOC6876>これ以上 持てないわよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      230
+    "reference_addrs":
+    - !!int |-
+      54903
+    "translated": !!null |-
+      null
   "6892":
     "original": |-
       おや？これ以上持てないようですね。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      36
+    "reference_addrs":
+    - !!int |-
+      4070
+    "translated": !!null |-
+      null
   "68b6":
     "original": |-
       どれを買ってくれますか？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      26
+    "reference_addrs":
+    - !!int |-
+      4072
+    "translated": !!null |-
+      null
   "68d0":
     "original": |-
       <ITEM>だね。
       どうも ありがとう。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      29
+    "reference_addrs":
+    - !!int |-
+      4074
+    "translated": !!null |-
+      null
   "68f2":
     "original": |-
       <C_YELLOW>兵士<C_NONE><RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      7
+    "reference_addrs":
+    - !!int |-
+      23480
+    - !!int |-
+      23755
+    - !!int |-
+      24347
+    - !!int |-
+      24494
+    "translated": !!null |-
+      null
   "68f9":
     "original": |-
       <C_YELLOW>呪文屋<C_NONE><RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      9
+    "reference_addrs":
+    - !!int |-
+      26027
+    - !!int |-
+      26027
+    - !!int |-
+      26348
+    "translated": !!null |-
+      null
 "note": ""

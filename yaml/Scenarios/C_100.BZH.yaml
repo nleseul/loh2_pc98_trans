@@ -8,7 +8,13 @@
       <LOC5b51>いやー これは これは 王子さま。
       私が 後を継いだときには よろしく
       お願いします。
-    "translated": ""
+    "original_byte_length": !!int |-
+      181
+    "reference_addrs":
+    - !!int |-
+      54669
+    "translated": !!null |-
+      null
   "5ba1":
     "original": |-
       <C_YELLOW>ローランス<C_NONE>
@@ -18,7 +24,13 @@
       <LOC5c07>私は とても 忙しいのですが
       王子さまの お相手を するくらいの
       時間なら いくらでも ありますよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      195
+    "reference_addrs":
+    - !!int |-
+      54678
+    "translated": !!null |-
+      null
   "5c64":
     "original": |-
       <C_YELLOW>マルセー<C_NONE>
@@ -34,7 +46,13 @@
       私が 後を継ぐことに なっている
       はずなんですがね。
       ほっほっほっほ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      289
+    "reference_addrs":
+    - !!int |-
+      54687
+    "translated": !!null |-
+      null
   "5d85":
     "original": |-
       <C_YELLOW>ロエル<C_NONE>
@@ -42,7 +60,13 @@
 
       やはり わしには ひとりのほうが
       向いているようじゃ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      132
+    "reference_addrs":
+    - !!int |-
+      54696
+    "translated": !!null |-
+      null
   "5e09":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -51,7 +75,13 @@
       ないでしょうかね。<END>
       <LOC5e63>モンスターが 出てくることの
       前ぶれだったんですね。
-    "translated": ""
+    "original_byte_length": !!int |-
+      141
+    "reference_addrs":
+    - !!int |-
+      54705
+    "translated": !!null |-
+      null
   "5e96":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -60,7 +90,13 @@
       前ぶれなんだってね。<IF_NOT0068><JUMP5f39>
 
       確かに まちがってない みたいだけどモンスターが 出てくるなんてねえ。<LOC5f39>
-    "translated": ""
+    "original_byte_length": !!int |-
+      164
+    "reference_addrs":
+    - !!int |-
+      54714
+    "translated": !!null |-
+      null
   "5f3a":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -75,7 +111,13 @@
       生活しているのだ。<END>
       <LOC6033>たしか あそこにも 竜の卵が あった
       はずだが どうなったのだろうか？
-    "translated": ""
+    "original_byte_length": !!int |-
+      315
+    "reference_addrs":
+    - !!int |-
+      54723
+    "translated": !!null |-
+      null
   "6075":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -87,7 +129,13 @@
       つぶれた家から 大けがを したまま
       なんとか 抜け出して、ここまで
       たどりつかれたのです。
-    "translated": ""
+    "original_byte_length": !!int |-
+      242
+    "reference_addrs":
+    - !!int |-
+      54732
+    "translated": !!null |-
+      null
   "6167":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -99,13 +147,25 @@
       この騒ぎの どさくさに まぎれて
       悪いことを するやつが 増えて
       くるんじゃないかと 心配ですよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      237
+    "reference_addrs":
+    - !!int |-
+      54741
+    "translated": !!null |-
+      null
   "6254":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       この３つの部屋に いる方たちが
       ジェストンさまの 後継ぎ候補です。
-    "translated": ""
+    "original_byte_length": !!int |-
+      71
+    "reference_addrs":
+    - !!int |-
+      54750
+    "translated": !!null |-
+      null
   "629b":
     "original": |-
       <C_YELLOW>侍女<C_NONE>
@@ -115,7 +175,13 @@
       <LOC62ff>あの赤スライムの 気持ち悪さと
       モンスターの おそろしさ ･ ･ ･
       やっぱり どっちも いやね。
-    "translated": ""
+    "original_byte_length": !!int |-
+      187
+    "reference_addrs":
+    - !!int |-
+      54759
+    "translated": !!null |-
+      null
   "6356":
     "original": |-
       <C_YELLOW>侍女<C_NONE>
@@ -126,5 +192,11 @@
       なーんて のんきなこと 言ってて
       もしモンスターが おそってきたら
       どうしましょ。<LOC6402>
-    "translated": ""
+    "original_byte_length": !!int |-
+      173
+    "reference_addrs":
+    - !!int |-
+      54768
+    "translated": !!null |-
+      null
 "note": ""

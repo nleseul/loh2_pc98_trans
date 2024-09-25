@@ -4,7 +4,13 @@
       <C_YELLOW>ゲイル３世<C_NONE>
       何だよ うるせえな。
       もうちょっとだから静かにしろよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      66
+    "reference_addrs":
+    - !!int |-
+      54812
+    "translated": !!null |-
+      null
   "5e8f":
     "original": |-
       <C_YELLOW>ゲイル３世<C_NONE>
@@ -25,10 +31,26 @@
       減らしてこいよ。<END>
       <LOC5fde>お前ら まだ開いていない宝箱を
       知っていたら 教えてくれねえか？
-    "translated": ""
+    "original_byte_length": !!int |-
+      397
+    "reference_addrs":
+    - !!int |-
+      54875
+    - !!int |-
+      54875
+    - !!int |-
+      54875
+    "translated": !!null |-
+      null
   "601c":
     "original": |-
       <PARTY>は 宝箱を開けました。
       宝箱の中には<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      36
+    "reference_addrs":
+    - !!int |-
+      54755
+    "translated": !!null |-
+      null
 "note": ""

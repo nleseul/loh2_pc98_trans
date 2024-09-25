@@ -39,10 +39,22 @@
       いくら あんな体に されたといってもどこかに 昔の心が 残っているはずだ。
 
       頼む あいつも 助けてやってくれ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      711
+    "reference_addrs":
+    - !!int |-
+      54763
+    "translated": !!null |-
+      null
   "60f1":
     "original": |-
       <PARTY>は 宝箱を開けました。
       宝箱の中には<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      36
+    "reference_addrs":
+    - !!int |-
+      54713
+    "translated": !!null |-
+      null
 "note": ""

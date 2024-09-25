@@ -15,14 +15,26 @@
       <LOC5d30>シンディ、お前が いなくなると
       またさみしくなるが 体に 気を
       つけるのじゃぞ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      336
+    "reference_addrs":
+    - !!int |-
+      54739
+    "translated": !!null |-
+      null
   "5d7c":
     "original": |-
       <C_YELLOW>老人<C_NONE>
       うちの孫は 知りませんかの？
       元気が あるのは いいんじゃが
       わしには めんどう みきれんわい。
-    "translated": ""
+    "original_byte_length": !!int |-
+      97
+    "reference_addrs":
+    - !!int |-
+      54748
+    "translated": !!null |-
+      null
   "5ddd":
     "original": |-
       <C_YELLOW>老人<C_NONE>
@@ -31,7 +43,13 @@
 
       若い者たちは みんな 町へ出ていってしまって 年寄りばかりに
       なってしまったのじゃよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      139
+    "reference_addrs":
+    - !!int |-
+      54757
+    "translated": !!null |-
+      null
   "5e68":
     "original": |-
       <C_YELLOW>老婆<C_NONE>
@@ -41,7 +59,13 @@
 
       あのばあさんは 昔からの言い伝えを
       よく知ってるから 勉強になるぞ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      155
+    "reference_addrs":
+    - !!int |-
+      54766
+    "translated": !!null |-
+      null
   "5f03":
     "original": |-
       <C_YELLOW>老婆<C_NONE>
@@ -49,20 +73,38 @@
       つぶされてしまったそうじゃ。
 
       盗賊たちは どこへ 逃げたんじゃろうどの町に 行っても 歓迎されるはずはないし ･ ･ ･
-    "translated": ""
+    "original_byte_length": !!int |-
+      150
+    "reference_addrs":
+    - !!int |-
+      54775
+    "translated": !!null |-
+      null
   "5f99":
     "original": |-
       <C_YELLOW>子ども<C_NONE>
       おじいちゃんと 鬼ごっこを
       してるんだけど ちっとも
       おもしろくないんだ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      80
+    "reference_addrs":
+    - !!int |-
+      54784
+    "translated": !!null |-
+      null
   "5fe9":
     "original": |-
       <C_YELLOW>女<C_NONE>
       私は 弟を連れて コルクスから来たの。たまには おじいちゃんたちの所に
       遊びに 行かないと かわいそうでしょ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      110
+    "reference_addrs":
+    - !!int |-
+      54793
+    "translated": !!null |-
+      null
   "6057":
     "original": |-
       <UNSET0404><C_YELLOW>男<C_NONE>
@@ -78,7 +120,13 @@
       あいててて こいつ やる気か？<WAIT>
       よーし おれたちに 勝てるとでも
       思ってるのか？
-    "translated": ""
+    "original_byte_length": !!int |-
+      193
+    "reference_addrs":
+    - !!int |-
+      54721
+    "translated": !!null |-
+      null
   "6118":
     "original": |-
       <UNSET0405><C_YELLOW>村長<C_NONE>
@@ -213,5 +261,11 @@
       つけるのじゃぞ。
 
       <ASMd734><Xf7><SET00d8><C_GREEN>シンディが 仲間になりました。<SND0103><C_NONE>
-    "translated": ""
+    "original_byte_length": !!int |-
+      1893
+    "reference_addrs":
+    - !!int |-
+      54730
+    "translated": !!null |-
+      null
 "note": ""

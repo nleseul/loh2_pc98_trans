@@ -12,25 +12,49 @@
       さあ ･ ･ ･
       <LOC5cdb>おれは ずっと ここに いたんだが
       だれも 外には出ていってないぞ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      247
+    "reference_addrs":
+    - !!int |-
+      54763
+    "translated": !!null |-
+      null
   "5d1b":
     "original": |-
       <C_YELLOW>子ども<C_NONE>
       あー つまんないよー。
       もうなおってるのになー。
-    "translated": ""
+    "original_byte_length": !!int |-
+      56
+    "reference_addrs":
+    - !!int |-
+      54787
+    "translated": !!null |-
+      null
   "5d53":
     "original": |-
       <C_YELLOW>子ども<C_NONE>
       ぼく 大きくなったら レジスタンスになって 皇帝を やっつけてやるんだ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      78
+    "reference_addrs":
+    - !!int |-
+      54796
+    "translated": !!null |-
+      null
   "5da1":
     "original": |-
       <C_YELLOW>女<C_NONE>
       一斉に レジスタンス狩りが
       行われて おじいちゃんたちが
       連行されてしまったんです。
-    "translated": ""
+    "original_byte_length": !!int |-
+      86
+    "reference_addrs":
+    - !!int |-
+      54805
+    "translated": !!null |-
+      null
   "5df7":
     "original": |-
       <C_YELLOW>女<C_NONE>
@@ -48,7 +72,13 @@
       さあ ･ ･ ･ 理由までは 知らないけどとにかく 教えるなと言われているの。悪く思わないで。<END>
       <LOC5f0c>とにかく 抜け道は教えられないのよ。悪く思わないで。<END>
       <LOC5f40>私は 何も見ていませんから ウイルに行くなら かってに行ってください。
-    "translated": ""
+    "original_byte_length": !!int |-
+      397
+    "reference_addrs":
+    - !!int |-
+      54814
+    "translated": !!null |-
+      null
   "5f84":
     "original": |-
       <C_YELLOW>女<C_NONE>
@@ -57,61 +87,131 @@
 
       きっと ベルンの収容所に 連れて
       いったんだわ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      113
+    "reference_addrs":
+    - !!int |-
+      54823
+    "translated": !!null |-
+      null
   "5ff5":
     "original": |-
       <C_YELLOW>レイシア<C_NONE>
       あら アトラスさん。
       ちょうど よかったわ ちょっと話が
       あるから いっしょについてきて。
-    "translated": ""
+    "original_byte_length": !!int |-
+      96
+    "reference_addrs":
+    - !!int |-
+      54837
+    "translated": !!null |-
+      null
   "6055":
     "original": |-
       <C_YELLOW>ヤミ屋<C_NONE>
       らっしゃい !! どんな ご用で？<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      39
+    "reference_addrs":
+    - !!int |-
+      54858
+    "translated": !!null |-
+      null
   "607c":
     "original": |-
       まいどー。
-    "translated": ""
+    "original_byte_length": !!int |-
+      11
+    "reference_addrs":
+    - !!int |-
+      54885
+    - !!int |-
+      54885
+    - !!int |-
+      54885
+    "translated": !!null |-
+      null
   "6087":
     "original": |-
       お客さん 冗談はいけねえや。
       それ以上は 持てねえんだぜ。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      57
+    "reference_addrs":
+    - !!int |-
+      2130
+    "translated": !!null |-
+      null
   "60c0":
     "original": |-
       なにを買うんでい？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      20
+    "reference_addrs":
+    - !!int |-
+      2132
+    "translated": !!null |-
+      null
   "60d4":
     "original": |-
       <ITEM>かい。
       へい まいど どうも。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      30
+    "reference_addrs":
+    - !!int |-
+      2134
+    "translated": !!null |-
+      null
   "60fa":
     "original": |-
       どれを 売るんでい？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      21
+    "reference_addrs":
+    - !!int |-
+      1972
+    "translated": !!null |-
+      null
   "610f":
     "original": |2-
        Gold だよ。いいかい？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      24
+    "reference_addrs":
+    - !!int |-
+      1974
+    "translated": !!null |-
+      null
   "6127":
     "original": |-
       ひやかしは よくねえよ。
 
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      25
+    "reference_addrs":
+    - !!int |-
+      1976
+    "translated": !!null |-
+      null
   "6140":
     "original": |-
       わりいね。
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      12
+    "reference_addrs":
+    - !!int |-
+      1978
+    "translated": !!null |-
+      null
 "note": ""

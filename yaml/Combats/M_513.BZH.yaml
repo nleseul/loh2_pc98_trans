@@ -2,21 +2,51 @@
   "7170":
     "original": |-
       ストライプツＡ<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      15
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "71b0":
     "original": |-
       ストライプツＢ<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      15
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "71f0":
     "original": |-
       ストライプツＣ<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      15
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "7230":
     "original": |-
       ストライプツＤ<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      15
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "73b2":
     "original": |-
       ストライプツが現れた。<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      23
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
 "note": ""

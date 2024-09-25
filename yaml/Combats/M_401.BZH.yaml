@@ -2,51 +2,135 @@
   "7170":
     "original": |-
       カザズーム<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      11
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "71b0":
     "original": ""
-    "translated": ""
+    "original_byte_length": !!int |-
+      1
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "71f0":
     "original": ""
-    "translated": ""
+    "original_byte_length": !!int |-
+      1
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "7230":
     "original": ""
-    "translated": ""
+    "original_byte_length": !!int |-
+      1
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "754a":
     "original": |-
       <CALL75c7><CALL75ea>この氷の壁は 破れん。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      29
+    "reference_addrs":
+    - !!int |-
+      61661
+    "translated": !!null |-
+      null
   "7567":
     "original": |-
       しかし 氷の壁は壊れない。<RET_PAGE>
-    "translated": ""
+    "original_byte_length": !!int |-
+      26
+    "reference_addrs":
+    - !!int |-
+      61494
+    "translated": !!null |-
+      null
   "758a":
     "original": |-
       <SET0041><CALL75c7>その程度の炎で この壁は破れんぞ。<IF0418><JUMP75b8>
 
       <LOC75b8><RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      47
+    "reference_addrs":
+    - !!int |-
+      61369
+    - !!int |-
+      61369
+    "translated": !!null |-
+      null
   "75b9":
     "original": |-
       <CALL75df>が現れた。<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      14
+    "reference_addrs":
+    - !!null |-
+      null
+    - !!int |-
+      61615
+    "translated": !!null |-
+      null
   "75c7":
     "original": |-
       <CLEAR><C_YELLOW><CALL75df><C_NONE>
       グッハッハッハ。<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      24
+    "reference_addrs":
+    - !!int |-
+      30027
+    - !!int |-
+      30094
+    - !!int |-
+      30201
+    "translated": !!null |-
+      null
   "75df":
     "original": |-
       カザズーム<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      11
+    "reference_addrs":
+    - !!int |-
+      30138
+    - !!int |-
+      30154
+    "translated": !!null |-
+      null
   "75ea":
     "original": |-
       お前らなどに <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      14
+    "reference_addrs":
+    - !!int |-
+      30030
+    - !!int |-
+      30204
+    "translated": !!null |-
+      null
   "75f8":
     "original": |-
       <CALL75c7><CALL75ea>このおれは 倒せん。<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      26
+    "reference_addrs":
+    - !!int |-
+      61454
+    "translated": !!null |-
+      null
 "note": ""

@@ -6,7 +6,13 @@
       どうしてお前たちが ここにいるのだ。
 
       ちょっとこい !!
-    "translated": ""
+    "original_byte_length": !!int |-
+      68
+    "reference_addrs":
+    - !!int |-
+      54922
+    "translated": !!null |-
+      null
   "605d":
     "original": |-
       <C_YELLOW>子ども<C_NONE>
@@ -40,7 +46,13 @@
 
       見つからなければ 全然こわくなんか
       ないんだから。
-    "translated": ""
+    "original_byte_length": !!int |-
+      513
+    "reference_addrs":
+    - !!int |-
+      54969
+    "translated": !!null |-
+      null
   "625e":
     "original": |-
       <CH1>
@@ -50,7 +62,13 @@
       <C_YELLOW>子ども<C_NONE>
       ちょっと 待っててね。
       これを押すと 柵があがるんだ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      116
+    "reference_addrs":
+    - !!int |-
+      54983
+    "translated": !!null |-
+      null
   "62d2":
     "original": |-
       <C_YELLOW>子ども<C_NONE>
@@ -69,5 +87,11 @@
       <C_YELLOW>子ども<C_NONE>
       うん だいじょうぶさ。
       ここのことは 秘密だからね。
-    "translated": ""
+    "original_byte_length": !!int |-
+      293
+    "reference_addrs":
+    - !!int |-
+      55032
+    "translated": !!null |-
+      null
 "note": ""

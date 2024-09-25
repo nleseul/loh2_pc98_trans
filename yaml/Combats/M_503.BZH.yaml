@@ -2,26 +2,62 @@
   "7170":
     "original": |-
       ハイ･ドールＡ<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      14
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "71b0":
     "original": |-
       ハイ･ドールＢ<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      14
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "71f0":
     "original": |-
       ハイ･ドールＣ<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      14
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "7230":
     "original": |-
       ハイ･ドールＤ<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      14
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "7335":
     "original": |-
       ハイ･ドールが現れた。<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      22
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "735b":
     "original": |-
       <ACTOR>は死力をふりしぼって
       体当りした !!<RET_PAGE>
-    "translated": ""
+    "original_byte_length": !!int |-
+      36
+    "reference_addrs":
+    - !!int |-
+      61176
+    "translated": !!null |-
+      null
 "note": ""

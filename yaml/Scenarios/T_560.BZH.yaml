@@ -11,7 +11,13 @@
       <C_YELLOW>ケリイ<C_NONE>
       はい わかりました。
       気をつけて 行ってきてください。
-    "translated": ""
+    "original_byte_length": !!int |-
+      207
+    "reference_addrs":
+    - !!int |-
+      55124
+    "translated": !!null |-
+      null
   "5fec":
     "original": |-
       <C_YELLOW>ケリイ<C_NONE>
@@ -32,7 +38,13 @@
       仲間を 助けに 行きました。
 
       みんなが 戻ったら 皇帝を倒す計画を立てると 言っていました。
-    "translated": ""
+    "original_byte_length": !!int |-
+      396
+    "reference_addrs":
+    - !!int |-
+      55140
+    "translated": !!null |-
+      null
   "6178":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -48,7 +60,13 @@
 
       ネサの辺土は この世のはてだって
       聞いてたんだけど ほんとに その通りだったとはね。
-    "translated": ""
+    "original_byte_length": !!int |-
+      324
+    "reference_addrs":
+    - !!int |-
+      55149
+    "translated": !!null |-
+      null
   "62bc":
     "original": |-
       <C_YELLOW>老人<C_NONE>
@@ -59,66 +77,142 @@
       国民だけでなく ガードたちにまで
       反感を 持たれるようになったとは。
       もう あの皇帝もおしまいじゃな。
-    "translated": ""
+    "original_byte_length": !!int |-
+      191
+    "reference_addrs":
+    - !!int |-
+      55158
+    "translated": !!null |-
+      null
   "637b":
     "original": |-
       <C_YELLOW>女<C_NONE>
       脱走した囚人って まだ ベルンの方にいるらしいわよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      56
+    "reference_addrs":
+    - !!int |-
+      55167
+    "translated": !!null |-
+      null
   "63b3":
     "original": |-
       <C_YELLOW>女<C_NONE>
       町の北の門は 囚人が脱走したから
       捕まるまでは しめたままに
       しておかないと いけないんですって。
-    "translated": ""
+    "original_byte_length": !!int |-
+      99
+    "reference_addrs":
+    - !!int |-
+      55176
+    "translated": !!null |-
+      null
   "6416":
     "original": |-
       <C_YELLOW>ヤミ屋<C_NONE>
       いらっしゃい。何の用だい？<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      36
+    "reference_addrs":
+    - !!int |-
+      55197
+    "translated": !!null |-
+      null
   "643a":
     "original": |-
       また たのむぜ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      16
+    "reference_addrs":
+    - !!int |-
+      55224
+    - !!int |-
+      55224
+    - !!int |-
+      55224
+    "translated": !!null |-
+      null
   "644a":
     "original": |-
       これ以上持てないようだぜ。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      28
+    "reference_addrs":
+    - !!int |-
+      3020
+    "translated": !!null |-
+      null
   "6466":
     "original": |-
       何を買うんだい？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      18
+    "reference_addrs":
+    - !!int |-
+      3022
+    "translated": !!null |-
+      null
   "6478":
     "original": |-
       <ITEM>だな。
       ありがとよ。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      22
+    "reference_addrs":
+    - !!int |-
+      3024
+    "translated": !!null |-
+      null
   "6496":
     "original": |-
       何を 売りたいんだ？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      21
+    "reference_addrs":
+    - !!int |-
+      2896
+    "translated": !!null |-
+      null
   "64ab":
     "original": |2-
        Gold で買ってやるけど
       それでも いいかい？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      44
+    "reference_addrs":
+    - !!int |-
+      2898
+    "translated": !!null |-
+      null
   "64d7":
     "original": |-
       何だよ 売ってくれないのか。
 
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      29
+    "reference_addrs":
+    - !!int |-
+      2900
+    "translated": !!null |-
+      null
   "64f4":
     "original": |-
       よし 買ってやるぜ。
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      21
+    "reference_addrs":
+    - !!int |-
+      2902
+    "translated": !!null |-
+      null
 "note": ""

@@ -5,5 +5,11 @@
       何だ きさまらは？
       どうやって もぐり込んだ？
       さては レジスタンスだな。
-    "translated": ""
+    "original_byte_length": !!int |-
+      79
+    "reference_addrs":
+    - !!int |-
+      54927
+    "translated": !!null |-
+      null
 "note": ""

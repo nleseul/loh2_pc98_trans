@@ -7,7 +7,13 @@
 
       めったに来ねえのに こんなに でかい別荘を 持ってるなんて 金持ちの
       することは わからねえだよ。<LOC5b6e>
-    "translated": ""
+    "original_byte_length": !!int |-
+      161
+    "reference_addrs":
+    - !!int |-
+      54650
+    "translated": !!null |-
+      null
   "5b6f":
     "original": |-
       <C_YELLOW>女<C_NONE>
@@ -17,7 +23,13 @@
       <LOC5bd1>別荘の そうじは 女中さんたちが
       やるから しばらくは やらなくて
       いいんですって。
-    "translated": ""
+    "original_byte_length": !!int |-
+      177
+    "reference_addrs":
+    - !!int |-
+      54659
+    "translated": !!null |-
+      null
   "5c20":
     "original": |-
       <C_YELLOW>ジェラルド<C_NONE>
@@ -57,7 +69,13 @@
       <LOC5ea3>もし わしの かわいいフローラを
       連れてきたら 好きなだけ ほうびを
       くれてやるぞ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      722
+    "reference_addrs":
+    - !!int |-
+      54674
+    "translated": !!null |-
+      null
   "5ef2":
     "original": |-
       <C_YELLOW>ジェラルド夫人<C_NONE>
@@ -67,7 +85,13 @@
       きっと ナッシュの館を 出たことが
       ショックだったのね。
       あぁ かわいそうなフローラ ･ ･ ･
-    "translated": ""
+    "original_byte_length": !!int |-
+      152
+    "reference_addrs":
+    - !!int |-
+      54683
+    "translated": !!null |-
+      null
   "5f8a":
     "original": |-
       <C_YELLOW>チャーリー<C_NONE>
@@ -84,7 +108,13 @@
       もし 起きていたとしても 今は
       取り込み中ですから お引き取り
       くださいな。
-    "translated": ""
+    "original_byte_length": !!int |-
+      331
+    "reference_addrs":
+    - !!int |-
+      54692
+    "translated": !!null |-
+      null
   "60d5":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -93,13 +123,25 @@
       よろこんでいるんだ。<END>
       <LOC612f>お嬢さまが 突然 いなくなったんだ。だんなさまは 誘拐されたとか
       言っているけど 本当かな？
-    "translated": ""
+    "original_byte_length": !!int |-
+      178
+    "reference_addrs":
+    - !!int |-
+      54724
+    "translated": !!null |-
+      null
   "6187":
     "original": |-
       <C_YELLOW>男<C_NONE>
       ここに来たら おらの仕事が
       なくなっちまっただよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      54
+    "reference_addrs":
+    - !!int |-
+      54733
+    "translated": !!null |-
+      null
   "61bd":
     "original": |-
       <C_YELLOW>女中<C_NONE>
@@ -115,7 +157,13 @@
 
       お嬢さまが いなくなったのは
       きっと そのせいよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      285
+    "reference_addrs":
+    - !!int |-
+      54742
+    "translated": !!null |-
+      null
   "62da":
     "original": |-
       <C_YELLOW>女中<C_NONE>
@@ -132,7 +180,13 @@
       いうことを 知らないから
       変な人に だまされて いなければ
       いいんだけど ･ ･ ･
-    "translated": ""
+    "original_byte_length": !!int |-
+      294
+    "reference_addrs":
+    - !!int |-
+      54751
+    "translated": !!null |-
+      null
   "6400":
     "original": |-
       <C_YELLOW>ジェニー<C_NONE>
@@ -145,10 +199,22 @@
 
       いったい お嬢さまは
       どうなさったのかしら。
-    "translated": ""
+    "original_byte_length": !!int |-
+      220
+    "reference_addrs":
+    - !!int |-
+      54760
+    "translated": !!null |-
+      null
   "64dc":
     "original": |-
       <C_YELLOW>フローラ<C_NONE>
       やーい 話せるものなら話してみろ
-    "translated": ""
+    "original_byte_length": !!int |-
+      43
+    "reference_addrs":
+    - !!int |-
+      54769
+    "translated": !!null |-
+      null
 "note": ""

@@ -8,7 +8,19 @@
       <ITEM><C_GREEN>をもらいました。<SND0103><C_NONE><END>
       <LOC5f59>入りたいなら 通行証を渡すから
       持物を へらしてこい。
-    "translated": ""
+    "original_byte_length": !!int |-
+      143
+    "reference_addrs":
+    - !!int |-
+      55058
+    - !!int |-
+      55090
+    - !!int |-
+      55122
+    - !!int |-
+      55154
+    "translated": !!null |-
+      null
   "5f8d":
     "original": |-
       <C_YELLOW>ガード<C_NONE>
@@ -20,7 +32,19 @@
       <LOC6007><CLEAR>変な行動をすると すぐに
       とりおさえてやるからな。<END>
       <LOC6039>通行証が なければ 出すことはできん。
-    "translated": ""
+    "original_byte_length": !!int |-
+      209
+    "reference_addrs":
+    - !!int |-
+      54753
+    - !!int |-
+      54788
+    - !!int |-
+      54823
+    - !!int |-
+      54858
+    "translated": !!null |-
+      null
   "607c":
     "original": |-
       <C_YELLOW>ガード<C_NONE>
@@ -38,26 +62,52 @@
       それだったら 隊長からきいている。
       <LOC61b2>隊長は 正門のあたりにいるはずだ。
       入っていいぞ。<LOC61e2>
-    "translated": ""
+    "original_byte_length": !!int |-
+      359
+    "reference_addrs":
+    - !!int |-
+      54888
+    - !!int |-
+      25072
+    "translated": !!null |-
+      null
   "61e3":
     "original": |-
       <C_YELLOW>ガード<C_NONE>
       <IF0124><JUMP60ca>お前らが 入れるのは ここまでだ。
       この先は 一部の者を除いて だれも
       入ることは できないぞ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      105
+    "reference_addrs":
+    - !!int |-
+      54933
+    "translated": !!null |-
+      null
   "624c":
     "original": |-
       <C_YELLOW>ガード<C_NONE>
       じゃまだ どけ !!
-    "translated": ""
+    "original_byte_length": !!int |-
+      26
+    "reference_addrs":
+    - !!int |-
+      54954
+    "translated": !!null |-
+      null
   "6266":
     "original": |-
       <C_YELLOW>ガード<C_NONE>
       わかっているだろうが 他の地方に
       行くことは禁止されている。
       入った所からしか 出られないからな。
-    "translated": ""
+    "original_byte_length": !!int |-
+      104
+    "reference_addrs":
+    - !!int |-
+      54960
+    "translated": !!null |-
+      null
   "62ce":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -66,7 +116,13 @@
 
       となりにいるやつが いい物を
       持ってるんだ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      98
+    "reference_addrs":
+    - !!int |-
+      54969
+    "translated": !!null |-
+      null
   "6330":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -79,7 +135,13 @@
       でも 地方間の移動が 禁止に
       なってからは こんなふうに 静かに
       なっちまったんだ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      207
+    "reference_addrs":
+    - !!int |-
+      54978
+    "translated": !!null |-
+      null
   "63ff":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -89,62 +151,132 @@
       それで たぶん うるさいと言って
       ここから 追い出すんだ。
       あーやだやだ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      164
+    "reference_addrs":
+    - !!int |-
+      54987
+    "translated": !!null |-
+      null
   "64a3":
     "original": |-
       <C_YELLOW>女<C_NONE>
       私 ここで 待ち合わせしてるんだけどなかなか こないのよ。
 
       あんまり ここに長くいると ガードがうるさいし 困っちゃったわ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      123
+    "reference_addrs":
+    - !!int |-
+      54996
+    "translated": !!null |-
+      null
   "651e":
     "original": |-
       <C_YELLOW>ヤミ屋<C_NONE>
       あんたたち どんな用なんだ？<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      37
+    "reference_addrs":
+    - !!int |-
+      55017
+    "translated": !!null |-
+      null
   "6543":
     "original": |-
       おれは よく ここに来てるから
       何か用があったら また来てくれ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      61
+    "reference_addrs":
+    - !!int |-
+      55044
+    - !!int |-
+      55044
+    - !!int |-
+      55044
+    "translated": !!null |-
+      null
   "6580":
     "original": |-
       これ以上 持てないみたいだな。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      31
+    "reference_addrs":
+    - !!int |-
+      3372
+    "translated": !!null |-
+      null
   "659f":
     "original": |-
       何が 買いたいんだ？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      21
+    "reference_addrs":
+    - !!int |-
+      3374
+    "translated": !!null |-
+      null
   "65b4":
     "original": |-
       <ITEM>だな。
       ガードに 見つかるなよ。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      33
+    "reference_addrs":
+    - !!int |-
+      3376
+    "translated": !!null |-
+      null
   "65dd":
     "original": |-
       何を 売ってくれるんだ？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      25
+    "reference_addrs":
+    - !!int |-
+      3223
+    "translated": !!null |-
+      null
   "65f6":
     "original": |2-
        Gold なら買ってやるけど
       それで いいか？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      42
+    "reference_addrs":
+    - !!int |-
+      3225
+    "translated": !!null |-
+      null
   "6620":
     "original": |-
       それじゃ しかたねえな。
 
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      25
+    "reference_addrs":
+    - !!int |-
+      3227
+    "translated": !!null |-
+      null
   "6639":
     "original": |-
       ありがとよ。
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      14
+    "reference_addrs":
+    - !!int |-
+      3229
+    "translated": !!null |-
+      null
 "note": ""

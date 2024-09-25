@@ -2,21 +2,51 @@
   "7170":
     "original": |-
       グロッグガードA<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      16
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "71b0":
     "original": |-
       グロッグガードB<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      16
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "71f0":
     "original": |-
       グロッグガードC<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      16
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "7230":
     "original": |-
       グロッグガードD<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      16
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "7359":
     "original": |-
       グロッグガードが現れた。<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      25
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
 "note": ""

@@ -5,5 +5,11 @@
       これは 王子さま。
       <IF0400><JUMP5a47>お気をつけて いってらっしゃいませ。<END>
       <LOC5a47>お帰りなさいませ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      86
+    "reference_addrs":
+    - !!int |-
+      54632
+    "translated": !!null |-
+      null
 "note": ""

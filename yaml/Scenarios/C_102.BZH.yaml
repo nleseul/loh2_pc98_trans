@@ -6,7 +6,13 @@
 
       やはり わしには ひとりのほうが
       向いているようじゃ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      132
+    "reference_addrs":
+    - !!int |-
+      54661
+    "translated": !!null |-
+      null
   "5b48":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -18,7 +24,13 @@
 
       モンスターが 減るどころか
       増えてきてしまったというのに。<LOC5c1e>
-    "translated": ""
+    "original_byte_length": !!int |-
+      215
+    "reference_addrs":
+    - !!int |-
+      54670
+    "translated": !!null |-
+      null
   "5c1f":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -27,7 +39,13 @@
       前ぶれなんだってね。<IF0015><JUMP5cc2>
 
       確かに まちがってない みたいだけどモンスターが 出てくるなんてねえ。<LOC5cc2>
-    "translated": ""
+    "original_byte_length": !!int |-
+      164
+    "reference_addrs":
+    - !!int |-
+      54679
+    "translated": !!null |-
+      null
   "5cc3":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -41,7 +59,13 @@
 
       やはり むこうでも モンスターが
       たくさん 出てきているそうです。
-    "translated": ""
+    "original_byte_length": !!int |-
+      261
+    "reference_addrs":
+    - !!int |-
+      54688
+    "translated": !!null |-
+      null
   "5dc8":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -54,7 +78,13 @@
       なんとか 抜け出して、ここまで
       たどりつかれたのです。<END>
       <LOC5ec0>ロエル殿は 昔から ジェストンさまの相談役をされていた かたなのです。
-    "translated": ""
+    "original_byte_length": !!int |-
+      316
+    "reference_addrs":
+    - !!int |-
+      54697
+    "translated": !!null |-
+      null
   "5f04":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -66,7 +96,13 @@
       <LOC5f8e>ジャグリの罪人たちを 地下ろうに
       ひなんさせたので うるさくて
       しかたがありませんよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      221
+    "reference_addrs":
+    - !!int |-
+      54706
+    "translated": !!null |-
+      null
   "5fe1":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -74,7 +110,13 @@
       あの方たちは お帰りになりました。
 
       ジェストンさまに 何か いいお考えがあるらしいですよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      128
+    "reference_addrs":
+    - !!int |-
+      54715
+    "translated": !!null |-
+      null
   "6061":
     "original": |-
       <C_YELLOW>侍女<C_NONE>
@@ -85,7 +127,13 @@
       たすかったのよ。
 
       あの人たちって たくさん 食べるから私たち たいへんだったの。
-    "translated": ""
+    "original_byte_length": !!int |-
+      245
+    "reference_addrs":
+    - !!int |-
+      54724
+    "translated": !!null |-
+      null
   "6156":
     "original": |-
       <C_YELLOW>侍女<C_NONE>
@@ -102,5 +150,11 @@
       あの人たちって 変なところが
       あるんですもの 気持ち悪くて
       しかたがなかったのよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      316
+    "reference_addrs":
+    - !!int |-
+      54733
+    "translated": !!null |-
+      null
 "note": ""

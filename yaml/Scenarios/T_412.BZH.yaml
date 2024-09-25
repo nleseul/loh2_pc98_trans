@@ -10,13 +10,25 @@
       <LOC5b21>ソルディスに 行ったときに
       きいたんだけど 司祭 バーバラが
       モンスターを 止めたらしいぜ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      254
+    "reference_addrs":
+    - !!int |-
+      54639
+    "translated": !!null |-
+      null
   "5b78":
     "original": |-
       <C_YELLOW>男<C_NONE>
       スリの修行とかで よく ファンガスの連中が この町まで来るんだよ。
       気をつけたほうがいいぞ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      94
+    "reference_addrs":
+    - !!int |-
+      54648
+    "translated": !!null |-
+      null
   "5bd6":
     "original": |-
       <C_YELLOW>女<C_NONE>
@@ -28,7 +40,13 @@
       行ったのかしら？<END>
       <LOC5c6c>でも モンスターが いなくなったのにまだだれも 盗賊たちを 見た人は
       いないんですって。
-    "translated": ""
+    "original_byte_length": !!int |-
+      234
+    "reference_addrs":
+    - !!int |-
+      54687
+    "translated": !!null |-
+      null
   "5cc0":
     "original": |-
       <C_YELLOW>女<C_NONE>
@@ -37,7 +55,13 @@
 
       若いころは 世界をまたにかける
       大盗賊ゲイルと 呼ばれていたそうよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      165
+    "reference_addrs":
+    - !!int |-
+      54696
+    "translated": !!null |-
+      null
   "5d65":
     "original": |-
       <C_YELLOW>アニー<C_NONE>
@@ -58,54 +82,118 @@
       <LOC5e60><IF0404><JUMP5e7f><SET0404>シンディ 元気そうね？
       <LOC5e7f>たまには おじいちゃんの所にも
       行ってあげてね。
-    "translated": ""
+    "original_byte_length": !!int |-
+      329
+    "reference_addrs":
+    - !!int |-
+      54705
+    "translated": !!null |-
+      null
   "5eae":
     "original": |-
       <C_YELLOW>ヤミ屋<C_NONE>
       ヘッヘッヘ なにか用かい？<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      35
+    "reference_addrs":
+    - !!int |-
+      54717
+    "translated": !!null |-
+      null
   "5ed1":
     "original": |-
       またどうぞ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      13
+    "reference_addrs":
+    - !!int |-
+      54744
+    - !!int |-
+      54744
+    - !!int |-
+      54744
+    "translated": !!null |-
+      null
   "5ede":
     "original": |-
       これ以上持てないようだな。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      28
+    "reference_addrs":
+    - !!int |-
+      1646
+    "translated": !!null |-
+      null
   "5efa":
     "original": |-
       どれを買いたいんだ？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      22
+    "reference_addrs":
+    - !!int |-
+      1648
+    "translated": !!null |-
+      null
   "5f10":
     "original": |-
       <ITEM>だな。
       ありがとよ。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      22
+    "reference_addrs":
+    - !!int |-
+      1650
+    "translated": !!null |-
+      null
   "5f2e":
     "original": |-
       どれを 売りたいんだ？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      23
+    "reference_addrs":
+    - !!int |-
+      1512
+    "translated": !!null |-
+      null
   "5f45":
     "original": |2-
        Gold になるけど
       それで いいかい？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      36
+    "reference_addrs":
+    - !!int |-
+      1514
+    "translated": !!null |-
+      null
   "5f69":
     "original": |-
       そうか 残念だな。
 
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      19
+    "reference_addrs":
+    - !!int |-
+      1516
+    "translated": !!null |-
+      null
   "5f7c":
     "original": |-
       ありがとよ。
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      14
+    "reference_addrs":
+    - !!int |-
+      1518
+    "translated": !!null |-
+      null
 "note": ""

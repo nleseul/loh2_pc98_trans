@@ -2,25 +2,63 @@
   "7170":
     "original": |-
       インクラブＡ<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      13
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "71b0":
     "original": |-
       インクラブＢ<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      13
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "71f0":
     "original": |-
       インクラブＣ<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      13
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "7230":
     "original": |-
       インクラブＤ<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      13
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "7324":
     "original": |-
       インクラブが現れた。<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      21
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "7351":
     "original": |-
       <ACTOR>は からにとじこもった。防御力が２倍になった。<RET_PAGE>
-    "translated": ""
+    "original_byte_length": !!int |-
+      47
+    "reference_addrs":
+    - !!int |-
+      61208
+    - !!int |-
+      61208
+    "translated": !!null |-
+      null
 "note": ""

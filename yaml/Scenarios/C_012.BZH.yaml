@@ -28,7 +28,13 @@
 
       <LOC5d1c>あなたたちが ぶじに 戻って
       くることを 祈っています。
-    "translated": ""
+    "original_byte_length": !!int |-
+      598
+    "reference_addrs":
+    - !!int |-
+      54633
+    "translated": !!null |-
+      null
   "5d51":
     "original": |-
       <C_YELLOW>フェリシア<C_NONE>
@@ -37,13 +43,25 @@
       あなたの その行動的なところは
       よいのですが くれぐれも 無謀な
       ことを しないようにするのですよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      157
+    "reference_addrs":
+    - !!int |-
+      54648
+    "translated": !!null |-
+      null
   "5dee":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       王子さまのおかげで 竜の卵も もとに戻りましたし モンスターも いなく
       なりました。
-    "translated": ""
+    "original_byte_length": !!int |-
+      87
+    "reference_addrs":
+    - !!int |-
+      54657
+    "translated": !!null |-
+      null
   "5e45":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -52,7 +70,13 @@
       以前 さわぎになった 破壊神
       アグニージャとかいうやつと 何か
       関係があるのですか？
-    "translated": ""
+    "original_byte_length": !!int |-
+      140
+    "reference_addrs":
+    - !!int |-
+      54666
+    "translated": !!null |-
+      null
   "5ed1":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -62,24 +86,48 @@
       竜の卵に 入れるのは ラヌーラの
       司祭 バーバラさまだけだと きいて
       おりますが ･ ･ ･
-    "translated": ""
+    "original_byte_length": !!int |-
+      144
+    "reference_addrs":
+    - !!int |-
+      54675
+    "translated": !!null |-
+      null
   "5f61":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       セリオスさまたちが あのように
       大けがを なさるとは ･ ･ ･
       王子さまも お気をつけください。
-    "translated": ""
+    "original_byte_length": !!int |-
+      95
+    "reference_addrs":
+    - !!int |-
+      54684
+    "translated": !!null |-
+      null
   "5fc0":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       ソルディスでは 司祭 バーバラさまが竜の卵を 正常にしたという うわさが広がっているそうです。
-    "translated": ""
+    "original_byte_length": !!int |-
+      98
+    "reference_addrs":
+    - !!int |-
+      54693
+    "translated": !!null |-
+      null
   "6022":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       王子さま セリオスさまたちは どこであのようなけがを されたのですか？
-    "translated": ""
+    "original_byte_length": !!int |-
+      75
+    "reference_addrs":
+    - !!int |-
+      54702
+    "translated": !!null |-
+      null
   "606d":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -88,12 +136,24 @@
 
       女神 フレイアさまが お怒りに
       なったという うわさが 広まっているようですが ･ ･ ･
-    "translated": ""
+    "original_byte_length": !!int |-
+      143
+    "reference_addrs":
+    - !!int |-
+      54711
+    "translated": !!null |-
+      null
   "60fc":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       王子さま あまり 無理をしないようにしてください。
-    "translated": ""
+    "original_byte_length": !!int |-
+      56
+    "reference_addrs":
+    - !!int |-
+      54720
+    "translated": !!null |-
+      null
   "6134":
     "original": |-
       <C_YELLOW>教育係 ラウエル<C_NONE>
@@ -108,21 +168,45 @@
 
       <LOC61dd>王子さま どうか 無理をなさらずに
       元気な姿で お戻りください。
-    "translated": ""
+    "original_byte_length": !!int |-
+      230
+    "reference_addrs":
+    - !!int |-
+      54729
+    "translated": !!null |-
+      null
   "621a":
     "original": |-
       <C_YELLOW>セリオス<C_NONE>
       きさまら ･ ･ ･ 地上を ･ ･ ･
-    "translated": ""
+    "original_byte_length": !!int |-
+      39
+    "reference_addrs":
+    - !!int |-
+      54744
+    "translated": !!null |-
+      null
   "6241":
     "original": |-
       <C_YELLOW>エリオン<C_NONE>
       きさまらに ･ ･ ･ 支配など ･ ･ ･
       させん ･ ･ ･
-    "translated": ""
+    "original_byte_length": !!int |-
+      56
+    "reference_addrs":
+    - !!int |-
+      54759
+    "translated": !!null |-
+      null
   "6279":
     "original": |-
       <C_YELLOW>ゲイル３世<C_NONE>
       てめえら ･ ･ ･ おぼえてろ ･ ･ ･
-    "translated": ""
+    "original_byte_length": !!int |-
+      45
+    "reference_addrs":
+    - !!int |-
+      54774
+    "translated": !!null |-
+      null
 "note": ""

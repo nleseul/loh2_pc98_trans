@@ -2,21 +2,51 @@
   "7170":
     "original": |-
       ゴドウィン２世<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      15
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "71b0":
     "original": |-
       Ｍ５００Ｂ<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      11
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "71f0":
     "original": ""
-    "translated": ""
+    "original_byte_length": !!int |-
+      1
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "7230":
     "original": ""
-    "translated": ""
+    "original_byte_length": !!int |-
+      1
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "74ac":
     "original": |-
       皇帝 ゴドウィン２世との戦闘だ。<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      32
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "74cc":
     "original": |2-
 
@@ -26,13 +56,41 @@
       そろそろ 本気を出してやろう。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      67
+    "reference_addrs":
+    - !!int |-
+      61488
+    - !!int |-
+      61488
+    - !!int |-
+      61488
+    - !!int |-
+      61488
+    "translated": !!null |-
+      null
   "750f":
     "original": |-
       <ACTOR>は大きくはばたいた。<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      22
+    "reference_addrs":
+    - !!int |-
+      61275
+    - !!int |-
+      61275
+    - !!int |-
+      61275
+    "translated": !!null |-
+      null
   "7525":
     "original": |-
       <ACTOR>は炎のブレスをはいた。<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      24
+    "reference_addrs":
+    - !!int |-
+      61290
+    "translated": !!null |-
+      null
 "note": ""

@@ -82,5 +82,11 @@
 
       <C_YELLOW>ナレサ隊長<C_NONE>
       それじゃ ベルンで会おう。
-    "translated": ""
+    "original_byte_length": !!int |-
+      1390
+    "reference_addrs":
+    - !!int |-
+      54761
+    "translated": !!null |-
+      null
 "note": ""

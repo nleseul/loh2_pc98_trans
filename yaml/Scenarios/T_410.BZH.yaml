@@ -26,7 +26,13 @@
 
       さあ こんなことを してないで 早く
       父上たちを さがしに行こう。
-    "translated": ""
+    "original_byte_length": !!int |-
+      364
+    "reference_addrs":
+    - !!int |-
+      54756
+    "translated": !!null |-
+      null
   "5d2a":
     "original": |-
       <IF0405><JUMP5e0e><UNSET0404><SET00d0><CH0>
@@ -49,7 +55,13 @@
       <C_YELLOW>ドレイク<C_NONE>
       いててっ いてーよ ･ ･ ･ ほ、ほら
       か、返すから はなしてくれ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      330
+    "reference_addrs":
+    - !!int |-
+      54652
+    "translated": !!null |-
+      null
   "5e74":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -61,13 +73,25 @@
       モンスター退治に出かけたんだってよ
 
       しかも ドラゴンの背に 乗ってったんだって、かっこいいじゃん。
-    "translated": ""
+    "original_byte_length": !!int |-
+      251
+    "reference_addrs":
+    - !!int |-
+      54661
+    "translated": !!null |-
+      null
   "5f6f":
     "original": |-
       <C_YELLOW>男<C_NONE>
       スリの修行とかで よく ファンガスの連中が この町まで来るんだよ。
       気をつけたほうがいいぞ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      94
+    "reference_addrs":
+    - !!int |-
+      54670
+    "translated": !!null |-
+      null
   "5fcd":
     "original": |-
       <C_YELLOW>女<C_NONE>
@@ -77,7 +101,13 @@
 
       盗賊たちは いったい どこに
       行ったのかしら？
-    "translated": ""
+    "original_byte_length": !!int |-
+      144
+    "reference_addrs":
+    - !!int |-
+      54709
+    "translated": !!null |-
+      null
   "605d":
     "original": |-
       <C_YELLOW>女<C_NONE>
@@ -86,7 +116,13 @@
 
       若いころは 世界をまたにかける
       大盗賊ゲイルと 呼ばれていたそうよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      165
+    "reference_addrs":
+    - !!int |-
+      54718
+    "translated": !!null |-
+      null
   "6102":
     "original": |-
       <C_YELLOW>アニー<C_NONE>
@@ -120,7 +156,13 @@
       <LOC6350><IF0406><JUMP636f><SET0406>シンディ 元気そうね？
       <LOC636f>たまには おじいちゃんの所にも
       行ってあげてね。
-    "translated": ""
+    "original_byte_length": !!int |-
+      668
+    "reference_addrs":
+    - !!int |-
+      54727
+    "translated": !!null |-
+      null
   "639e":
     "original": |-
       <C_YELLOW>ドレイク<C_NONE>
@@ -130,54 +172,118 @@
       <LOC63e0>うっ いてえなあ ･ ･ ･
       おれは けがしてるんだから
       ぶつかってくるんじゃねえよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      143
+    "reference_addrs":
+    - !!int |-
+      54736
+    "translated": !!null |-
+      null
   "642d":
     "original": |-
       <C_YELLOW>ヤミ屋<C_NONE>
       ヘッヘッヘ なにか用かい？<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      35
+    "reference_addrs":
+    - !!int |-
+      54768
+    "translated": !!null |-
+      null
   "6450":
     "original": |-
       またどうぞ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      13
+    "reference_addrs":
+    - !!int |-
+      54795
+    - !!int |-
+      54795
+    - !!int |-
+      54795
+    "translated": !!null |-
+      null
   "645d":
     "original": |-
       これ以上持てないようだな。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      28
+    "reference_addrs":
+    - !!int |-
+      3020
+    "translated": !!null |-
+      null
   "6479":
     "original": |-
       どれを買いたいんだ？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      22
+    "reference_addrs":
+    - !!int |-
+      3022
+    "translated": !!null |-
+      null
   "648f":
     "original": |-
       <ITEM>だな。
       ありがとよ。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      22
+    "reference_addrs":
+    - !!int |-
+      3024
+    "translated": !!null |-
+      null
   "64ad":
     "original": |-
       どれを 売りたいんだ？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      23
+    "reference_addrs":
+    - !!int |-
+      2919
+    "translated": !!null |-
+      null
   "64c4":
     "original": |2-
        Gold になるけど
       それで いいかい？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      36
+    "reference_addrs":
+    - !!int |-
+      2921
+    "translated": !!null |-
+      null
   "64e8":
     "original": |-
       そうか 残念だな。
 
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      19
+    "reference_addrs":
+    - !!int |-
+      2923
+    "translated": !!null |-
+      null
   "64fb":
     "original": |-
       ありがとよ。
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      14
+    "reference_addrs":
+    - !!int |-
+      2925
+    "translated": !!null |-
+      null
 "note": ""

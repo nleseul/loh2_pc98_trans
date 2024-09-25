@@ -3,14 +3,32 @@
     "original": |-
       <CH0>
       さあ みんな 行こう。
-    "translated": ""
+    "original_byte_length": !!int |-
+      24
+    "reference_addrs":
+    - !!int |-
+      55152
+    "translated": !!null |-
+      null
   "60f3":
     "original": |-
       <C_YELLOW>ボザ<C_NONE>
       やっと来てくれたか。
       悪いが 代わってくれないか？<WAIT>
       ちょっと 休ませてくれ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      80
+    "reference_addrs":
+    - !!int |-
+      54917
+    - !!int |-
+      54917
+    - !!int |-
+      54917
+    - !!int |-
+      54917
+    "translated": !!null |-
+      null
   "6143":
     "original": |-
       <C_YELLOW>ボザ<C_NONE>
@@ -61,25 +79,51 @@
 
       とにかく 別館の下の階に行って
       止めてみてくれ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      813
+    "reference_addrs":
+    - !!int |-
+      55232
+    - !!int |-
+      55232
+    "translated": !!null |-
+      null
   "6470":
     "original": |-
       <C_YELLOW>ケリイ<C_NONE>
       さっきから がんばってるんだけど
       なかなか 突破できないんです。
-    "translated": ""
+    "original_byte_length": !!int |-
+      71
+    "reference_addrs":
+    - !!int |-
+      55052
+    "translated": !!null |-
+      null
   "64b7":
     "original": |-
       <C_YELLOW>男<C_NONE>
       こんな所で 足止めを くらってたら
       皇帝なんか 倒せないぜ。
       何とかしなければ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      81
+    "reference_addrs":
+    - !!int |-
+      55061
+    "translated": !!null |-
+      null
   "6508":
     "original": |-
       <CALL666c>早く 別館の下の階に行って
       変換炉を止めてみてくれ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      54
+    "reference_addrs":
+    - !!int |-
+      55086
+    "translated": !!null |-
+      null
   "653e":
     "original": |-
       <CALL666c><JUMP6571><LOC6544><C_YELLOW>バイオラのマスター<C_NONE>
@@ -87,7 +131,17 @@
       <LOC6571>おお 君たちか。
       早く 何とかしてくれないか？
       テクニカの部屋は すぐ近くなのだ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      129
+    "reference_addrs":
+    - !!int |-
+      55095
+    - !!int |-
+      55104
+    - !!int |-
+      55113
+    "translated": !!null |-
+      null
   "65bf":
     "original": |-
       <C_YELLOW>リーダー<C_NONE>
@@ -95,14 +149,48 @@
       早く ここを突破せんと 皇帝の不意をつくことが出きぬ。
 
       君たちの力で 何とかしてくれぬか？
-    "translated": ""
+    "original_byte_length": !!int |-
+      116
+    "reference_addrs":
+    - !!int |-
+      55122
+    "translated": !!null |-
+      null
   "6633":
     "original": |-
       <PARTY>は 宝箱を開けました。
       宝箱の中には<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      36
+    "reference_addrs":
+    - !!int |-
+      54768
+    "translated": !!null |-
+      null
   "666c":
     "original": |-
       <C_YELLOW>テクニカのマスター<C_NONE><RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      21
+    "reference_addrs":
+    - !!int |-
+      24927
+    - !!int |-
+      24988
+    - !!int |-
+      25219
+    - !!int |-
+      25480
+    - !!int |-
+      25597
+    - !!int |-
+      25919
+    - !!int |-
+      25919
+    - !!int |-
+      25919
+    - !!int |-
+      25865
+    "translated": !!null |-
+      null
 "note": ""

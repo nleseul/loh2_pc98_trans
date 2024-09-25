@@ -2,19 +2,37 @@
   "5bb7":
     "original": |-
       こけ～っ !?
-    "translated": ""
+    "original_byte_length": !!int |-
+      12
+    "reference_addrs":
+    - !!int |-
+      54646
+    "translated": !!null |-
+      null
   "5bc3":
     "original": |-
       <C_YELLOW>男<C_NONE>
       大地震で 竜の卵が 出てきたんだよ。きっと 今まで 地下に 埋まって
       いたんだな。
-    "translated": ""
+    "original_byte_length": !!int |-
+      82
+    "reference_addrs":
+    - !!int |-
+      54655
+    "translated": !!null |-
+      null
   "5c15":
     "original": "<C_YELLOW>男<C_NONE>\n<IF0404><JUMP5c79><SET0404>おや 見かけない子だな。\nどこから来たんだ？\n\
       \n<CH0>\nえっ えーと ルディアから。\n\n<C_YELLOW>男<C_NONE>\nそうか、<LOC5c79>ルディアといえば 武器屋の\n\
       スコットがいるだろ。\n\nあいつな この前の 地震のときに\n壁に かけてあった武器が 全部 \n自分めがけて 落ちてきたんだけど\nかすりきず ひとつしなかったんだと。\n\
       \nおれが 前に行ったときには まだ\nそのショックで 寝込んでたんだけど\n今は もう店を やってるんだろ？"
-    "translated": ""
+    "original_byte_length": !!int |-
+      372
+    "reference_addrs":
+    - !!int |-
+      54664
+    "translated": !!null |-
+      null
   "5d89":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -28,12 +46,24 @@
       あの地震は すごかったからな ･ ･ ･
 
       よし 村の者を連れて 手伝いに行こう。ぼうず、わざわざ すまなかったな。
-    "translated": ""
+    "original_byte_length": !!int |-
+      298
+    "reference_addrs":
+    - !!int |-
+      54673
+    "translated": !!null |-
+      null
   "5eb3":
     "original": |-
       <C_YELLOW>男<C_NONE>
       スライムが 畑を荒して 困ってるだ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      40
+    "reference_addrs":
+    - !!int |-
+      54682
+    "translated": !!null |-
+      null
   "5edb":
     "original": |-
       <C_YELLOW>女<C_NONE>
@@ -53,7 +83,13 @@
       言ってごらんなさい。<END>
       <LOC6064>ピートさんも大変ね。
       早く 鉱山が 復旧すればいいけど。
-    "translated": ""
+    "original_byte_length": !!int |-
+      447
+    "reference_addrs":
+    - !!int |-
+      54691
+    "translated": !!null |-
+      null
   "609a":
     "original": |-
       <C_YELLOW>ロー<C_NONE>
@@ -87,12 +123,26 @@
       でも あまり 言いふらすんじゃねえぞ。<END>
       <LOC6256>おい チビ。
       おれのことを あまり 言いふらすなよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      493
+    "reference_addrs":
+    - !!int |-
+      54700
+    "translated": !!null |-
+      null
   "6287":
     "original": "<IF0011><JUMP63e0><ASMd708><SET0011><CH0>\nやあ アロン、元気そうだね。\n\n<C_YELLOW>アロン<C_NONE>\n\
       はっ !! これは アトラス王子。\nお久しぶりでございます。\nその お姿は ･ ･ ･\n\n以前、セリオス国王さまが\nお使いになっていた物ですな。\n\
       なんと勇ましきお姿 ･ ･ ･ \n\nまるで 若き日の セリオスさまの\nようでございます。\n王子さまも これほどにまで\nご成長なされて ･ ･\
       \ ･\n\nじいは ･ ･ ･\nじいは うれしゅうございます。<END>\n<LOC63e0><C_YELLOW>アロン<C_NONE>\n<IF000c><JUMP6424>王子さまも\
       \ もうすぐ１６才に\nなられるのですなぁ ･ ･ ･<END>\n<LOC6424>王子、りっぱな国王と なるためにも\n世界中の いろいろな物を じっくりと見てきてください。"
-    "translated": ""
+    "original_byte_length": !!int |-
+      500
+    "reference_addrs":
+    - !!int |-
+      54730
+    - !!int |-
+      54730
+    "translated": !!null |-
+      null
 "note": ""

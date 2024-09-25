@@ -5,7 +5,11 @@
       争いは、いつも、小さなすれ違いから起こる。
       <PAUSE><PAGE>
       アトラス、<PAUSE>心しておくのだぞ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      85
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "22c1":
     "original": |
       ありがとう、アトラス。
@@ -21,7 +25,11 @@
       <PAUSE><PAGE_PAUSE>
       私は、すべての機能を停止して、眠りにつきます。
       <PAGE_PAUSE>
-    "translated": ""
+    "original_byte_length": !!int |-
+      256
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "23c1":
     "original": |-
       <PAUSE>でも、お別れではないのです。
@@ -38,7 +46,11 @@
       <CHANGE_FREYA_GRAPHIC><PAUSE>いつでも、あなたと共にあります。
       <PAUSE><PAGE>
       あなたが、私を求めるかぎり。
-    "translated": ""
+    "original_byte_length": !!int |-
+      274
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "24d3":
     "original": |
       <NAME>フローラ</NAME>
@@ -55,7 +67,11 @@
 
       それだけのことだったんだよ。
       <PAUSE><PAGE_FULL>
-    "translated": ""
+    "original_byte_length": !!int |-
+      318
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "2611":
     "original": |
       <NAME>ランドー</NAME>
@@ -72,7 +88,11 @@
       いいんだよ、<PAUSE>フローラ。
       <PAUSE>今までどおり、<PAUSE>ぼくはただのアトラスさ。
       <PAUSE><PAUSE><PAGE_FULL>
-    "translated": ""
+    "original_byte_length": !!int |-
+      273
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "2722":
     "original": |
       <NAME>アトラス</NAME>
@@ -84,7 +104,11 @@
       <NAME>フローラ</NAME>
       お手伝い、いたしますわ。
       <PAUSE><PAGE_FULL>
-    "translated": ""
+    "original_byte_length": !!int |-
+      112
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "2792":
     "original": |
       <PAUSE>女神フレイアよ。
@@ -95,7 +119,11 @@
       <PAUSE>今よりもっと幸福になれるように。
       <PAUSE><PAGE>
       どうか、見ていてください。
-    "translated": ""
+    "original_byte_length": !!int |-
+      147
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "2825":
     "original": |
       <NAME>レイシア</NAME>
@@ -108,12 +136,20 @@
       これからは、地上の人間と地底の人間が交流する、
       新しい世界が始まるんだ。
       <PAGE_FULL>
-    "translated": ""
+    "original_byte_length": !!int |-
+      174
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "28d3":
     "original": |-
       小さな太陽はやがて父を越え
       大きな太陽として輝く。
-    "translated": ""
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "2b76":
     "original": "        ＳＴＡＦＦ        \n\n\n\n\n\n\n\n\n         シナリオ         \n\n\
       \n\n       秋 葉  紀 好       \n\n\n\n\n\n\n\n\n\n\n        プログラム        \n\n\n\n\
@@ -133,5 +169,9 @@
       \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<STAFF_ROLL_MARKER>Ｄｒａｇｏｎ Ｓｌａｙｅｒ\
       \ \n\n The Legend Of Heroes Ⅱ  \n\n\n   Copyright (C)  1992    \n    Nihon Falcom\
       \ inc.     \n\n\n\n\n\n\n\n\n\n"
-    "translated": ""
+    "original_byte_length": !!int |-
+      1269
+    "reference_addrs": []
+    "translated": !!null |-
+      null
 "note": ""

@@ -3,21 +3,45 @@
     "original": |-
       <PARTY>は 宝箱を開けました。
       宝箱の中には<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      36
+    "reference_addrs":
+    - !!int |-
+      54694
+    "translated": !!null |-
+      null
   "5e7d":
     "original": |-
       <PARTY>は 不思議な宝箱を
       開けました。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      33
+    "reference_addrs":
+    - !!int |-
+      54751
+    "translated": !!null |-
+      null
   "5e9e":
     "original": |-
       宝箱の中には<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      13
+    "reference_addrs":
+    - !!int |-
+      54773
+    "translated": !!null |-
+      null
   "5eab":
     "original": |-
       しかし 宝箱の中には 何も入って
       いませんでした。
-    "translated": ""
+    "original_byte_length": !!int |-
+      48
+    "reference_addrs":
+    - !!int |-
+      54765
+    "translated": !!null |-
+      null
 "note": ""

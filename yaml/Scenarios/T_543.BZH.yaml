@@ -56,7 +56,13 @@
       <C_YELLOW>レイシア<C_NONE>
       わかったわ それじゃ 明日 出発よ。
       それまで ゆっくり休んでおいて。
-    "translated": ""
+    "original_byte_length": !!int |-
+      953
+    "reference_addrs":
+    - !!int |-
+      54940
+    "translated": !!null |-
+      null
   "5f6c":
     "original": |-
       <C_YELLOW>レイシア<C_NONE>
@@ -74,13 +80,25 @@
 
       目がさめないうちに 早く 抜け道に
       行きましょう。
-    "translated": ""
+    "original_byte_length": !!int |-
+      227
+    "reference_addrs":
+    - !!int |-
+      54807
+    "translated": !!null |-
+      null
   "604f":
     "original": |-
       <C_YELLOW>ボザ<C_NONE>
       もう 皇帝には 反抗しないそうだ。
       なんてやつらだ まったく ･ ･ ･
-    "translated": ""
+    "original_byte_length": !!int |-
+      70
+    "reference_addrs":
+    - !!int |-
+      54949
+    "translated": !!null |-
+      null
   "6095":
     "original": |-
       <C_YELLOW>カザズーム<C_NONE>
@@ -89,7 +107,13 @@
 
       皇帝陛下に そむくと どうなるか
       身をもって知るがいい。
-    "translated": ""
+    "original_byte_length": !!int |-
+      120
+    "reference_addrs":
+    - !!int |-
+      54907
+    "translated": !!null |-
+      null
   "610d":
     "original": |-
       <CH1>
@@ -128,5 +152,11 @@
       それに この杖のかけらは ブラムナを使っていたやつの杖だから こいつを
       あのじいさんに見せたら 何か
       知ってるんじゃないかと思ってな。
-    "translated": ""
+    "original_byte_length": !!int |-
+      626
+    "reference_addrs":
+    - !!int |-
+      54960
+    "translated": !!null |-
+      null
 "note": ""

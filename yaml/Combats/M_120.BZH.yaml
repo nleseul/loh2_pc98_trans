@@ -2,25 +2,61 @@
   "7170":
     "original": |-
       トータスマンＡ<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      15
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "71b0":
     "original": |-
       リザードマン<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      13
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "71f0":
     "original": |-
       トータスマンＢ<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      15
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "7230":
     "original": |-
       トータスマンＣ<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      15
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "7402":
     "original": |-
       トータスマンとリザードマンが現れた。<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      37
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "7427":
     "original": |-
       <ACTOR>の防具がこわれた。<RET_PAGE>
-    "translated": ""
+    "original_byte_length": !!int |-
+      20
+    "reference_addrs":
+    - !!int |-
+      61387
+    "translated": !!null |-
+      null
 "note": ""

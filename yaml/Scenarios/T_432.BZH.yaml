@@ -16,7 +16,13 @@
 
       私どもは 何のお役にも立てずに
       恥ずかしいかぎりです。
-    "translated": ""
+    "original_byte_length": !!int |-
+      320
+    "reference_addrs":
+    - !!int |-
+      54726
+    "translated": !!null |-
+      null
   "5bf2":
     "original": |-
       <C_YELLOW>補佐官<C_NONE>
@@ -27,13 +33,25 @@
       ちなみに 私は ２０年間 ずっと
       ハンス大統領の 補佐官を
       務めております。
-    "translated": ""
+    "original_byte_length": !!int |-
+      152
+    "reference_addrs":
+    - !!int |-
+      54639
+    "translated": !!null |-
+      null
   "5c8a":
     "original": |-
       <C_YELLOW>役人<C_NONE>
       兵士たちが 出動するには いろいろと手続きが 必要なんだよ。
       ああ 忙しい 忙しい。
-    "translated": ""
+    "original_byte_length": !!int |-
+      86
+    "reference_addrs":
+    - !!int |-
+      54648
+    "translated": !!null |-
+      null
   "5ce0":
     "original": |-
       <C_YELLOW>役人<C_NONE>
@@ -41,7 +59,13 @@
       してなけりゃ ならないんだもんな。
 
       こうやって ボーっとしてて かれこれ２０年になるかなぁ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      157
+    "reference_addrs":
+    - !!int |-
+      54657
+    "translated": !!null |-
+      null
   "5d7d":
     "original": |-
       <C_YELLOW>役人<C_NONE>
@@ -51,14 +75,26 @@
 
       だから 今まで ２０年近く ずっと
       大統領を 務めているの。
-    "translated": ""
+    "original_byte_length": !!int |-
+      142
+    "reference_addrs":
+    - !!int |-
+      54666
+    "translated": !!null |-
+      null
   "5e0b":
     "original": |-
       <C_YELLOW>女<C_NONE>
       昔 英雄たちの手で 滅ぼされた
       悪神が 復活したという うわさを
       きいたけど 本当なのかしら。
-    "translated": ""
+    "original_byte_length": !!int |-
+      93
+    "reference_addrs":
+    - !!int |-
+      54675
+    "translated": !!null |-
+      null
   "5e68":
     "original": |-
       <C_YELLOW>ジーラ<C_NONE>
@@ -74,7 +110,13 @@
       偉大な母にあたる お方なのじゃよ。
 
       どうじゃな 感動したか？
-    "translated": ""
+    "original_byte_length": !!int |-
+      319
+    "reference_addrs":
+    - !!int |-
+      54684
+    "translated": !!null |-
+      null
   "5fa7":
     "original": |-
       <C_YELLOW>娘<C_NONE>
@@ -83,7 +125,13 @@
 
       おかげで 私も いろいろな話を
       覚えちゃったわ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      101
+    "reference_addrs":
+    - !!int |-
+      54693
+    "translated": !!null |-
+      null
   "600c":
     "original": |-
       <C_YELLOW>女<C_NONE>
@@ -113,7 +161,13 @@
       <CH1>
       あー わかった わかった。
       その話は もう何百回もきいたぜ。<LOC621a>
-    "translated": ""
+    "original_byte_length": !!int |-
+      527
+    "reference_addrs":
+    - !!int |-
+      54702
+    "translated": !!null |-
+      null
   "621b":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -121,39 +175,81 @@
 
       大統領は 何とかして 復元しようと
       思っているらしいんだ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      131
+    "reference_addrs":
+    - !!int |-
+      54711
+    "translated": !!null |-
+      null
   "629e":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       ファンガスにいた 盗賊たちは
       狼の口に逃げていたんだ。
       おれが 捜し出したんだぜ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      86
+    "reference_addrs":
+    - !!int |-
+      54720
+    "translated": !!null |-
+      null
   "62f4":
     "original": |-
       <C_YELLOW>呪文屋<C_NONE>
       いらっしゃいませ。<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      28
+    "reference_addrs":
+    - !!int |-
+      54738
+    "translated": !!null |-
+      null
   "6310":
     "original": |-
       また お願いします。
-    "translated": ""
+    "original_byte_length": !!int |-
+      20
+    "reference_addrs":
+    - !!int |-
+      54750
+    "translated": !!null |-
+      null
   "6324":
     "original": |-
       お客さん もう持てませんわよ。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      31
+    "reference_addrs":
+    - !!int |-
+      2656
+    "translated": !!null |-
+      null
   "6343":
     "original": |-
       何を お求めですか？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      21
+    "reference_addrs":
+    - !!int |-
+      2658
+    "translated": !!null |-
+      null
   "6358":
     "original": |-
       <ITEM>ですね。
       ありがとう ございます。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      35
+    "reference_addrs":
+    - !!int |-
+      2660
+    "translated": !!null |-
+      null
 "note": ""

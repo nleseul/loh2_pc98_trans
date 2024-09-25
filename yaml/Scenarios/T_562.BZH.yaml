@@ -14,69 +14,151 @@
 
       ネサの辺土は この世のはてだって
       聞いてたんだけど ほんとに その通りだったとはね。
-    "translated": ""
+    "original_byte_length": !!int |-
+      324
+    "reference_addrs":
+    - !!int |-
+      55072
+    "translated": !!null |-
+      null
   "5f02":
     "original": |-
       <C_YELLOW>老人<C_NONE>
       とうとう レジスタンスたちが 行動を起こしたそうじゃ。<WAIT>
       成功してくれればいいのじゃが ･ ･ ･
-    "translated": ""
+    "original_byte_length": !!int |-
+      95
+    "reference_addrs":
+    - !!int |-
+      55081
+    "translated": !!null |-
+      null
   "5f61":
     "original": "<C_YELLOW>女<C_NONE>\nレジスタンスたちが ベルンにいた\n人たちを 助け出したんですって。\n\nしかも 今は\
       \ 皇帝を倒すために\n城に攻め入っているそうよ。 \n早く いい知らせが きてほしいわ。"
-    "translated": ""
+    "original_byte_length": !!int |-
+      159
+    "reference_addrs":
+    - !!int |-
+      55090
+    "translated": !!null |-
+      null
   "6000":
     "original": |-
       <C_YELLOW>女<C_NONE>
       これできっとまた 昔のように 自由な生活が できるようになるのね。
-    "translated": ""
+    "original_byte_length": !!int |-
+      69
+    "reference_addrs":
+    - !!int |-
+      55099
+    "translated": !!null |-
+      null
   "6045":
     "original": |-
       <C_YELLOW>ヤミ屋<C_NONE>
       いらっしゃい。何の用だい？<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      36
+    "reference_addrs":
+    - !!int |-
+      55120
+    "translated": !!null |-
+      null
   "6069":
     "original": |-
       また たのむぜ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      16
+    "reference_addrs":
+    - !!int |-
+      55147
+    - !!int |-
+      55147
+    - !!int |-
+      55147
+    "translated": !!null |-
+      null
   "6079":
     "original": |-
       これ以上持てないようだぜ。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      28
+    "reference_addrs":
+    - !!int |-
+      2042
+    "translated": !!null |-
+      null
   "6095":
     "original": |-
       何を買うんだい？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      18
+    "reference_addrs":
+    - !!int |-
+      2044
+    "translated": !!null |-
+      null
   "60a7":
     "original": |-
       <ITEM>だな。
       ありがとよ。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      22
+    "reference_addrs":
+    - !!int |-
+      2046
+    "translated": !!null |-
+      null
   "60c5":
     "original": |-
       何を 売りたいんだ？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      21
+    "reference_addrs":
+    - !!int |-
+      1919
+    "translated": !!null |-
+      null
   "60da":
     "original": |2-
        Gold で買ってやるけど
       それでも いいかい？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      44
+    "reference_addrs":
+    - !!int |-
+      1921
+    "translated": !!null |-
+      null
   "6106":
     "original": |-
       何だよ 売ってくれないのか。
 
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      29
+    "reference_addrs":
+    - !!int |-
+      1923
+    "translated": !!null |-
+      null
   "6123":
     "original": |-
       よし 買ってやるぜ。
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      21
+    "reference_addrs":
+    - !!int |-
+      1925
+    "translated": !!null |-
+      null
 "note": ""

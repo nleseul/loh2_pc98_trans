@@ -13,38 +13,76 @@
       <LOC5c57>レスの書を お持ちでないのですかな？さぞ不便でしょう これをどうぞ。
 
       <Xf197><ITEM><C_GREEN>をもらいました。<SND0103><C_NONE>
-    "translated": ""
+    "original_byte_length": !!int |-
+      309
+    "reference_addrs":
+    - !!int |-
+      54663
+    "translated": !!null |-
+      null
   "5cb3":
     "original": |-
       <C_YELLOW>侍女<C_NONE>
       王子さま ちょっと おやせになって
       いませんか？
-    "translated": ""
+    "original_byte_length": !!int |-
+      53
+    "reference_addrs":
+    - !!int |-
+      54672
+    - !!int |-
+      54672
+    "translated": !!null |-
+      null
   "5ce8":
     "original": |-
       <C_YELLOW>侍女<C_NONE>
       ああ 忙しい ･ ･ まあ 王子さま。
       どうなさったのですか？
-    "translated": ""
+    "original_byte_length": !!int |-
+      62
+    "reference_addrs":
+    - !!int |-
+      54681
+    "translated": !!null |-
+      null
   "5d26":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       <IF0400><JUMP5d68>これは 王子さま、お気をつけて
       行ってらっしゃいませ。<END>
       <LOC5d68>これは 王子さま、お帰りなさいませ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      102
+    "reference_addrs":
+    - !!int |-
+      54690
+    "translated": !!null |-
+      null
   "5d8c":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       これは王子さま お元気そうで
       何よりでございます。
-    "translated": ""
+    "original_byte_length": !!int |-
+      56
+    "reference_addrs":
+    - !!int |-
+      54699
+    "translated": !!null |-
+      null
   "5dc4":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       おや 王子さま。
       財宝室に 何か ご用でしょうか？
-    "translated": ""
+    "original_byte_length": !!int |-
+      54
+    "reference_addrs":
+    - !!int |-
+      54708
+    "translated": !!null |-
+      null
   "5dfa":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -54,5 +92,11 @@
       まさか また モンスターでも
       出てくるんじゃないかと
       心配しているんです。
-    "translated": ""
+    "original_byte_length": !!int |-
+      132
+    "reference_addrs":
+    - !!int |-
+      54717
+    "translated": !!null |-
+      null
 "note": ""

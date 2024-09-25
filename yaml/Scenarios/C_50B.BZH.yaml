@@ -6,7 +6,13 @@
 
       <CH3>
       シンディ こわす。
-    "translated": ""
+    "original_byte_length": !!int |-
+      49
+    "reference_addrs":
+    - !!int |-
+      54706
+    "translated": !!null |-
+      null
   "5d14":
     "original": |-
       <C_YELLOW>ガード<C_NONE>
@@ -17,16 +23,44 @@
       中で あばれてるんだろ きっと。
 
       おーい うるさいぞ 静かにしてろ !!
-    "translated": ""
+    "original_byte_length": !!int |-
+      113
+    "reference_addrs":
+    - !!int |-
+      54753
+    - !!int |-
+      54753
+    - !!int |-
+      54753
+    "translated": !!null |-
+      null
   "5d85":
     "original": |-
       <C_YELLOW>ガード<C_NONE>
       だっ 脱走だ !!
       早く 捕まえろ !!
-    "translated": ""
+    "original_byte_length": !!int |-
+      41
+    "reference_addrs":
+    - !!int |-
+      54815
+    - !!int |-
+      54815
+    - !!int |-
+      54815
+    - !!int |-
+      54815
+    "translated": !!null |-
+      null
   "5dae":
     "original": |-
       <PARTY>は 宝箱を開けました。
       宝箱の中には<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      36
+    "reference_addrs":
+    - !!int |-
+      54920
+    "translated": !!null |-
+      null
 "note": ""

@@ -2,5 +2,19 @@
   "5d35":
     "original": |-
       <PARTY>は <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      5
+    "reference_addrs":
+    - !!int |-
+      54740
+    - !!int |-
+      54740
+    - !!int |-
+      54740
+    - !!int |-
+      54740
+    - !!int |-
+      54740
+    "translated": !!null |-
+      null
 "note": ""

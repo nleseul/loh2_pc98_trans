@@ -42,10 +42,22 @@
       <C_YELLOW>エリオン<C_NONE>
       やはり そう言いましたか ･ ･ ･
       危険ですから 気をつけてください。
-    "translated": ""
+    "original_byte_length": !!int |-
+      709
+    "reference_addrs":
+    - !!int |-
+      54659
+    "translated": !!null |-
+      null
   "5e06":
     "original": |-
       <C_YELLOW>ソニア<C_NONE>
       エリオンさま !!
-    "translated": ""
+    "original_byte_length": !!int |-
+      25
+    "reference_addrs":
+    - !!int |-
+      54693
+    "translated": !!null |-
+      null
 "note": ""

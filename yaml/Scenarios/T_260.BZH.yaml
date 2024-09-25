@@ -10,32 +10,62 @@
       見ていったらどうだい。
       年に１度しかない 国をあげての
       行事なんだから。
-    "translated": ""
+    "original_byte_length": !!int |-
+      204
+    "reference_addrs":
+    - !!int |-
+      54627
+    "translated": !!null |-
+      null
   "5b2b":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       人が通るときだけ ここから 橋を
       出してあげるんだよ。
       ずっと橋が 出てるわけではないんだ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      95
+    "reference_addrs":
+    - !!int |-
+      54636
+    "translated": !!null |-
+      null
   "5b8a":
     "original": |-
       <C_YELLOW>男<C_NONE>
       おれは この町を作ったときの 工事の責任者だったんだよ。
 
       この町も だんだん 大きくなってきておれも うれしいよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      114
+    "reference_addrs":
+    - !!int |-
+      54645
+    "translated": !!null |-
+      null
   "5bfc":
     "original": |-
       <C_YELLOW>女<C_NONE>
       この町は ラヌーラとソルディスが
       共同で 作った町なのよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      61
+    "reference_addrs":
+    - !!int |-
+      54654
+    "translated": !!null |-
+      null
   "5c39":
     "original": |-
       <C_YELLOW>子供<C_NONE>
       あの川は 流れが すごく速いんだよ。ぼくが お母さんと 橋を渡ったときに落ちそうになって こわかったよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      107
+    "reference_addrs":
+    - !!int |-
+      54663
+    "translated": !!null |-
+      null
   "5ca4":
     "original": |-
       <C_YELLOW>老人<C_NONE>
@@ -47,55 +77,119 @@
 
       そこで 洞窟を封鎖して そのかわりにこの急な川に 橋を渡すことに
       なったのじゃよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      236
+    "reference_addrs":
+    - !!int |-
+      54672
+    "translated": !!null |-
+      null
   "5d90":
     "original": |-
       <C_YELLOW>道具屋<C_NONE>
       いらっしゃいませ。
       どのような ご用でしょうか？<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      56
+    "reference_addrs":
+    - !!int |-
+      54684
+    "translated": !!null |-
+      null
   "5dc8":
     "original": |-
       また来てくださいね。
-    "translated": ""
+    "original_byte_length": !!int |-
+      21
+    "reference_addrs":
+    - !!int |-
+      54711
+    - !!int |-
+      54711
+    - !!int |-
+      54711
+    "translated": !!null |-
+      null
   "5ddd":
     "original": |-
       おや？これ以上持てないようですね。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      36
+    "reference_addrs":
+    - !!int |-
+      1402
+    "translated": !!null |-
+      null
   "5e01":
     "original": |-
       どれを買ってくれますか？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      26
+    "reference_addrs":
+    - !!int |-
+      1404
+    "translated": !!null |-
+      null
   "5e1b":
     "original": |-
       <ITEM>だね。
       どうも ありがとう。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      29
+    "reference_addrs":
+    - !!int |-
+      1406
+    "translated": !!null |-
+      null
   "5e40":
     "original": |-
       どれを 売ってくれますか？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      27
+    "reference_addrs":
+    - !!int |-
+      1274
+    "translated": !!null |-
+      null
   "5e5b":
     "original": |2-
        Gold になるけど
       それでも よろしいですか？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      44
+    "reference_addrs":
+    - !!int |-
+      1276
+    "translated": !!null |-
+      null
   "5e87":
     "original": |-
       それは残念です。
 
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      18
+    "reference_addrs":
+    - !!int |-
+      1278
+    "translated": !!null |-
+      null
   "5e99":
     "original": |-
       どうも ありがとうございます。
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      31
+    "reference_addrs":
+    - !!int |-
+      1280
+    "translated": !!null |-
+      null
 "note": ""

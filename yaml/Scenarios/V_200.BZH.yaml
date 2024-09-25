@@ -4,7 +4,13 @@
       <CLEAR>      第２章　英雄たちの行方<N>
 
       　　　　　　　　完
-    "translated": ""
+    "original_byte_length": !!int |-
+      51
+    "reference_addrs":
+    - !!int |-
+      54620
+    "translated": !!null |-
+      null
   "5ed4":
     "original": |-
       <CLEAR><C_YELLOW>ガード<C_NONE>
@@ -86,5 +92,11 @@
       ナレサ隊長に ギルモアの星を渡して
       その見返りに 城に入れるように
       してもらったというわけじゃ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      1590
+    "reference_addrs":
+    - !!int |-
+      54792
+    "translated": !!null |-
+      null
 "note": ""

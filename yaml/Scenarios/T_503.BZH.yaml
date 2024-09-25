@@ -40,7 +40,13 @@
       <LOC5e02>何とかして イズー側から 城内に
       潜入する方法を 考えねばならん。
       がんばってくれたまえ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      870
+    "reference_addrs":
+    - !!int |-
+      54661
+    "translated": !!null |-
+      null
   "5e58":
     "original": |-
       <IF0114><JUMP5ed0><C_YELLOW>レイシア<C_NONE>
@@ -87,7 +93,13 @@
       とにかく 今は 時期がくるのを
       待つことじゃ。
       焦ったら 負けじゃぞ。<SET0109><Xf52d0200>
-    "translated": ""
+    "original_byte_length": !!int |-
+      767
+    "reference_addrs":
+    - !!int |-
+      54677
+    "translated": !!null |-
+      null
   "6157":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -100,7 +112,13 @@
       しまったのだ。<END>
       <LOC622d>あれを何とかしないと イズーへは
       行けないだろう。
-    "translated": ""
+    "original_byte_length": !!int |-
+      263
+    "reference_addrs":
+    - !!int |-
+      54686
+    "translated": !!null |-
+      null
   "625e":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -109,7 +127,13 @@
       だらしのねえ やつらだぜ。<END>
       <LOC62c2>あんまり クヨクヨすんなよ。
       また そのうち チャンスが来るさ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      161
+    "reference_addrs":
+    - !!int |-
+      54695
+    "translated": !!null |-
+      null
   "62ff":
     "original": |-
       <C_YELLOW>ボザ<C_NONE>
@@ -122,7 +146,13 @@
       右奥にある 墓地のことだ。
 
       今まで ぎせいになった 多くの仲間が眠っているところだ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      223
+    "reference_addrs":
+    - !!int |-
+      54704
+    "translated": !!null |-
+      null
   "63de":
     "original": |-
       <C_YELLOW>ボザ<C_NONE>
@@ -130,7 +160,13 @@
 
       <C_YELLOW>リーダー<C_NONE>
       ボザ、そっとしておいてやりなさい。また 戦士の墓にでも 行くのじゃろ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      106
+    "reference_addrs":
+    - !!int |-
+      54732
+    "translated": !!null |-
+      null
   "6448":
     "original": |-
       <C_YELLOW>レイシア<C_NONE>
@@ -168,5 +204,11 @@
 
       ちょうどよかったわね。
       がんばってね。
-    "translated": ""
+    "original_byte_length": !!int |-
+      803
+    "reference_addrs":
+    - !!int |-
+      54741
+    "translated": !!null |-
+      null
 "note": ""

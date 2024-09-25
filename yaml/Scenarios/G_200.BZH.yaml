@@ -50,5 +50,11 @@
       <LOC60e4><C_YELLOW>老人<C_NONE>
       ずっと 東に行くのじゃ。
       戦士の笛は いちばん奥の 宝箱の中にしまってある。
-    "translated": ""
+    "original_byte_length": !!int |-
+      853
+    "reference_addrs":
+    - !!int |-
+      55000
+    "translated": !!null |-
+      null
 "note": ""

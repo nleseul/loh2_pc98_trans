@@ -7,14 +7,26 @@
 
       何か 悪いことが 起こらなければ
       いいのだが ･ ･ ･
-    "translated": ""
+    "original_byte_length": !!int |-
+      130
+    "reference_addrs":
+    - !!int |-
+      54709
+    "translated": !!null |-
+      null
   "5bf7":
     "original": |-
       <CALL6c51><IF0032><JUMP5c3b>もうすぐ 竜の祭だから ラヌーラへ
       行くやつが 増えてきたな。<END>
       <LOC5c3b>はやく 船にのったほうが いいぞ。
       中は かなりの人が いるはずだ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      132
+    "reference_addrs":
+    - !!int |-
+      54718
+    "translated": !!null |-
+      null
   "5ea2":
     "original": |-
       <CALL6c51>ボアード海運の ボアードは
@@ -23,7 +35,13 @@
       そういえば あれが できてからは
       海賊が いなくなったしなぁ。
       でも まさか そんなはずないよな。
-    "translated": ""
+    "original_byte_length": !!int |-
+      147
+    "reference_addrs":
+    - !!int |-
+      54762
+    "translated": !!null |-
+      null
   "5f35":
     "original": |-
       <CALL6c51>お前たち 竜の祭を 見に行くのか？
@@ -32,7 +50,13 @@
       うちの子供が 竜の祭に 行きたがっているんだけど おれのつごうが悪くて
       行けなくなっちゃったんだよ。
       せいぜい 楽しんできてくれ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      178
+    "reference_addrs":
+    - !!int |-
+      54771
+    "translated": !!null |-
+      null
   "5fe7":
     "original": |-
       <C_YELLOW>女<C_NONE>
@@ -47,14 +71,26 @@
 
       だから 今では そんな悪いうわさは
       きかなくなったわ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      271
+    "reference_addrs":
+    - !!int |-
+      54780
+    "translated": !!null |-
+      null
   "60f6":
     "original": |-
       <C_YELLOW>男<C_NONE>
       船の中は 竜の祭の見物客で
       いっぱいですよ。今年もまた
       にぎやかに なりそうですね。
-    "translated": ""
+    "original_byte_length": !!int |-
+      86
+    "reference_addrs":
+    - !!int |-
+      54789
+    "translated": !!null |-
+      null
   "614c":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -81,7 +117,15 @@
       それじゃ 何とかして 金を作らなきゃならねえな。<END>
       <LOC630d><CH1>
       何とかして 切符 買う金を作らなきゃならねえな。<LOC633e>
-    "translated": ""
+    "original_byte_length": !!int |-
+      499
+    "reference_addrs":
+    - !!int |-
+      54650
+    - !!int |-
+      27693
+    "translated": !!null |-
+      null
   "633f":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -90,7 +134,13 @@
 
       何か 珍しい物でも 持ってるなら
       見せてみな きっと買いたがるぜ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      123
+    "reference_addrs":
+    - !!int |-
+      54798
+    "translated": !!null |-
+      null
   "63ba":
     "original": |-
       <CALL6c58>おや いらっしゃい。
@@ -182,7 +232,25 @@
       <CH0>
       そうだね。<CALL6aa9>また何か おもしろい物が あったら
       高く買わせてくれ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      1775
+    "reference_addrs":
+    - !!int |-
+      54804
+    - !!int |-
+      25731
+    - !!int |-
+      25879
+    - !!int |-
+      25731
+    - !!int |-
+      25879
+    - !!int |-
+      25731
+    - !!int |-
+      25879
+    "translated": !!null |-
+      null
   "6aa9":
     "original": |2-
 
@@ -197,7 +265,23 @@
       <SET0030><ASMd666><C_GREEN>150 Gold を もらいました。<SND0103><C_NONE>
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      171
+    "reference_addrs":
+    - !!int |-
+      26313
+    - !!int |-
+      27251
+    - !!int |-
+      26313
+    - !!int |-
+      27251
+    - !!int |-
+      26313
+    - !!int |-
+      27251
+    "translated": !!null |-
+      null
   "6b5c":
     "original": |-
       <C_YELLOW>女<C_NONE>
@@ -209,13 +293,91 @@
       <LOC6bf4><CLEAR>あら そうですか ･ ･ ･<END>
       <LOC6c0b>お客さん お金が 足りないわよ。<IF0048><JUMP61f8><END>
       <LOC6c30>これ以上 持てないわよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      236
+    "reference_addrs":
+    - !!int |-
+      54810
+    "translated": !!null |-
+      null
   "6c51":
     "original": |-
       <C_YELLOW>兵士<C_NONE><RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      7
+    "reference_addrs":
+    - !!int |-
+      23414
+    - !!int |-
+      23544
+    - !!int |-
+      24227
+    - !!int |-
+      24374
+    "translated": !!null |-
+      null
   "6c58":
     "original": |-
       <C_YELLOW>呪文屋<C_NONE><RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      9
+    "reference_addrs":
+    - !!int |-
+      25531
+    - !!int |-
+      25992
+    - !!int |-
+      26206
+    - !!int |-
+      26316
+    - !!int |-
+      26651
+    - !!int |-
+      26775
+    - !!int |-
+      26910
+    - !!int |-
+      27043
+    - !!int |-
+      27141
+    - !!int |-
+      25531
+    - !!int |-
+      25992
+    - !!int |-
+      26206
+    - !!int |-
+      26316
+    - !!int |-
+      26651
+    - !!int |-
+      26775
+    - !!int |-
+      26910
+    - !!int |-
+      27043
+    - !!int |-
+      27141
+    - !!int |-
+      25531
+    - !!int |-
+      25992
+    - !!int |-
+      26206
+    - !!int |-
+      26316
+    - !!int |-
+      26651
+    - !!int |-
+      26775
+    - !!int |-
+      26910
+    - !!int |-
+      27043
+    - !!int |-
+      27141
+    - !!int |-
+      27376
+    "translated": !!null |-
+      null
 "note": ""

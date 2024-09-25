@@ -2,25 +2,67 @@
   "7170":
     "original": |-
       妖魔火砲Ａ<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      11
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "71b0":
     "original": |-
       妖魔火砲Ｂ<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      11
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "71f0":
     "original": |-
       妖魔火砲Ｃ<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      11
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "7230":
     "original": |-
       妖魔火砲Ｄ<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      11
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "74c8":
     "original": |-
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      1
+    "reference_addrs":
+    - !!null |-
+      null
+    - !!int |-
+      61132
+    "translated": !!null |-
+      null
   "74c9":
     "original": |-
       妖魔火砲が現れた。<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      19
+    "reference_addrs":
+    - !!int |-
+      61221
+    - !!int |-
+      61221
+    - !!int |-
+      61221
+    "translated": !!null |-
+      null
 "note": ""

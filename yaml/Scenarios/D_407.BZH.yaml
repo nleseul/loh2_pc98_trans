@@ -5,7 +5,13 @@
       な、何だよ お前ら？
       またあの箱を 止めてほしいのか？<WAIT>
       先に行ってるから 早く来いよ。<SET00ea><ASMd683>
-    "translated": ""
+    "original_byte_length": !!int |-
+      99
+    "reference_addrs":
+    - !!int |-
+      54738
+    "translated": !!null |-
+      null
   "5c25":
     "original": |-
       <CALL60c8>なんだ おめーら？
@@ -14,7 +20,13 @@
       でもな こんなとこに 来たって
       金スラれるぐらいなもんだぜ。
       ひでえ目 あわねえうちに 帰りな。
-    "translated": ""
+    "original_byte_length": !!int |-
+      143
+    "reference_addrs":
+    - !!int |-
+      54747
+    "translated": !!null |-
+      null
   "5cb4":
     "original": |-
       <CALL60c8>大盗賊 ゲイルさまは どこに行って
@@ -23,7 +35,13 @@
       あの 大地震の後で いつものように
       「散歩に行く」と言って
       出かけていったのが 最後だったな。
-    "translated": ""
+    "original_byte_length": !!int |-
+      145
+    "reference_addrs":
+    - !!int |-
+      54756
+    "translated": !!null |-
+      null
   "5d45":
     "original": |-
       <CALL60c8>ゲイル３世さまは 英雄の
@@ -32,23 +50,47 @@
       だから 大盗賊 ゲイルさまの 跡は
       継がないとか言って いつも けんか
       ばかりしているんです。
-    "translated": ""
+    "original_byte_length": !!int |-
+      134
+    "reference_addrs":
+    - !!int |-
+      54765
+    "translated": !!null |-
+      null
   "5dcb":
     "original": |-
       <CALL60c8>ドレイクの子分が ずっと 帰ってきてないけど どうしたんだろう。
-    "translated": ""
+    "original_byte_length": !!int |-
+      65
+    "reference_addrs":
+    - !!int |-
+      54774
+    "translated": !!null |-
+      null
   "5e0c":
     "original": |-
       <CALL60c8>いくらがんばっても この扉は 絶対にあかねえように なってるんだ。
 
       作った人が言ってるからまちがいねえ。ムダなことは やめときな。
-    "translated": ""
+    "original_byte_length": !!int |-
+      129
+    "reference_addrs":
+    - !!int |-
+      54783
+    "translated": !!null |-
+      null
   "5e8d":
     "original": |-
       <CALL60c8>ドレイクのやつ 毎日 どこかに
       出かけてるんだ。<WAIT>
       いったい 何やってるんだろう。
-    "translated": ""
+    "original_byte_length": !!int |-
+      79
+    "reference_addrs":
+    - !!int |-
+      54792
+    "translated": !!null |-
+      null
   "5edc":
     "original": |-
       <CALL60c8>ゲイル２世さまは ラルフという
@@ -57,7 +99,13 @@
 
       あの人も 最近 見かけないけど
       どこに 行ってしまったのか。
-    "translated": ""
+    "original_byte_length": !!int |-
+      143
+    "reference_addrs":
+    - !!int |-
+      54801
+    "translated": !!null |-
+      null
   "5f6b":
     "original": |-
       <CALL60c8>この宝は 大盗賊 ゲイルさまの
@@ -66,7 +114,13 @@
 
       ここだけの話だけど この中には
       銀の笛ってのが 入ってるらしいぜ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      145
+    "reference_addrs":
+    - !!int |-
+      54810
+    "translated": !!null |-
+      null
   "5ffc":
     "original": |-
       <PARTY>は 石碑を読みました。
@@ -74,7 +128,13 @@
 
       『この部屋の宝に触れるべからず
                          大盗賊 ゲイル』
-    "translated": ""
+    "original_byte_length": !!int |-
+      90
+    "reference_addrs":
+    - !!int |-
+      54717
+    "translated": !!null |-
+      null
   "6056":
     "original": |-
       <PARTY>は 石碑を読みました。
@@ -82,13 +142,45 @@
 
       『この回廊を走るべからず
                      　　大盗賊 ゲイル』
-    "translated": ""
+    "original_byte_length": !!int |-
+      84
+    "reference_addrs":
+    - !!int |-
+      54723
+    "translated": !!null |-
+      null
   "60aa":
     "original": |-
       <C_GREEN>扉は 開きそうもありません。<C_NONE>
-    "translated": ""
+    "original_byte_length": !!int |-
+      30
+    "reference_addrs":
+    - !!int |-
+      54729
+    "translated": !!null |-
+      null
   "60c8":
     "original": |-
       <C_YELLOW>盗賊<C_NONE><RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      7
+    "reference_addrs":
+    - !!int |-
+      23590
+    - !!int |-
+      23733
+    - !!int |-
+      23878
+    - !!int |-
+      24012
+    - !!int |-
+      24077
+    - !!int |-
+      24206
+    - !!int |-
+      24285
+    - !!int |-
+      24428
+    "translated": !!null |-
+      null
 "note": ""

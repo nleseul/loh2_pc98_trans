@@ -3,7 +3,13 @@
     "original": |-
       <C_YELLOW>ナレサ隊長<C_NONE>
       くっ 今 忙しいんだ じゃまをするな。
-    "translated": ""
+    "original_byte_length": !!int |-
+      49
+    "reference_addrs":
+    - !!int |-
+      54800
+    "translated": !!null |-
+      null
   "5e07":
     "original": |-
       <C_YELLOW>レイシア<C_NONE>
@@ -13,25 +19,49 @@
       <LOC5e6f>テクニカの部屋を占拠したなら
       次にあなたたちがすることが
       わからないの？
-    "translated": ""
+    "original_byte_length": !!int |-
+      175
+    "reference_addrs":
+    - !!int |-
+      54809
+    "translated": !!null |-
+      null
   "5eb6":
     "original": |-
       <C_YELLOW>男<C_NONE>
       ここは もう少しで 突破できるから
       だいじょうぶだ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      55
+    "reference_addrs":
+    - !!int |-
+      54818
+    "translated": !!null |-
+      null
   "5eed":
     "original": |-
       <C_YELLOW>フレイアのマスター<C_NONE>
       フレイアさえ 操作できれば 城内の
       ガードたちを すべて消し去ることが
       できるのだが ･ ･ ･
-    "translated": ""
+    "original_byte_length": !!int |-
+      107
+    "reference_addrs":
+    - !!int |-
+      54827
+    "translated": !!null |-
+      null
   "5f58":
     "original": "<C_YELLOW>ヒストラのマスター<C_NONE>\n<IF0401><JUMP5fea>テクニカの部屋を 何とかしないと\n\
       新しい武器が 作れないぞ。\n早く 行きたまえ。<IF046f><JUMP5fc5><END>\n<LOC5fc5><CALL6016><SET0401><C_YELLOW>ヒストラのマスター<C_NONE>\n\
       それなら \n<LOC5fea>あとは皇帝を 追うのみだ。\n早く 行きたまえ。"
-    "translated": ""
+    "original_byte_length": !!int |-
+      190
+    "reference_addrs":
+    - !!int |-
+      54836
+    "translated": !!null |-
+      null
   "6016":
     "original": |2-
 
@@ -40,5 +70,13 @@
       ヘッ もう占拠しちまったから 助けてやろうと思って 来てやったんだよ。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      73
+    "reference_addrs":
+    - !!int |-
+      24159
+    - !!int |-
+      24518
+    "translated": !!null |-
+      null
 "note": ""

@@ -11,13 +11,25 @@
 
       それより これじゃ 中に入れそうも
       ねえな。<LOC5d96>
-    "translated": ""
+    "original_byte_length": !!int |-
+      150
+    "reference_addrs":
+    - !!int |-
+      54813
+    "translated": !!null |-
+      null
   "5d97":
     "original": |-
       <C_YELLOW>サミー<C_NONE>
       やっぱ おっさんは すげーよな。
       まだまだ 現役だよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      60
+    "reference_addrs":
+    - !!int |-
+      54845
+    "translated": !!null |-
+      null
   "5dd3":
     "original": |-
       <C_YELLOW>サミー<C_NONE>
@@ -36,13 +48,25 @@
 
       よく見とれ 穴を掘るとしたら
       こういう所を 掘れば いいんじゃ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      266
+    "reference_addrs":
+    - !!int |-
+      54859
+    "translated": !!null |-
+      null
   "5edd":
     "original": |-
       <C_YELLOW>モーガン<C_NONE>
       さあ 早く 入りなされ。
       これが わしの最後の仕事じゃ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      64
+    "reference_addrs":
+    - !!int |-
+      54822
+    "translated": !!null |-
+      null
   "5f1d":
     "original": |-
       <C_YELLOW>モーガン<C_NONE>
@@ -55,5 +79,11 @@
       <C_YELLOW>モーガン<C_NONE>
       さあ お若いの 行って 仲間を助けて
       あげなされ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      141
+    "reference_addrs":
+    - !!int |-
+      54836
+    "translated": !!null |-
+      null
 "note": ""

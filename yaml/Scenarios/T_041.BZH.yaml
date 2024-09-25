@@ -4,7 +4,13 @@
       <C_YELLOW>子供<C_NONE>
       ねえ モンスターって 怖いんでしょ？いつまで いるんだろう 町から
       出られなくて つまんないよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      98
+    "reference_addrs":
+    - !!int |-
+      54843
+    "translated": !!null |-
+      null
   "5c36":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -14,7 +20,13 @@
       向こうでも やっぱり モンスターが
       出てきていて 大騒ぎをしていたよ。
       いったい どうなるんだろうな。
-    "translated": ""
+    "original_byte_length": !!int |-
+      165
+    "reference_addrs":
+    - !!int |-
+      54852
+    "translated": !!null |-
+      null
   "5cdb":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -33,21 +45,39 @@
       せっかく ７つも買ったのに 全然
       役に立たないんだぜ。
       あの商人に だまされちゃったよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      359
+    "reference_addrs":
+    - !!int |-
+      54861
+    "translated": !!null |-
+      null
   "5e42":
     "original": |-
       <C_YELLOW>女<C_NONE>
       災害のお守りって インチキだった
       らしいわよ。
       買わなくて よかったわ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      74
+    "reference_addrs":
+    - !!int |-
+      54870
+    "translated": !!null |-
+      null
   "5e8c":
     "original": |-
       <C_YELLOW>老人<C_NONE>
       フン やっぱり 災害のお守りなんて
       インチキだったようじゃ。
       わしの 言ったとおりじゃわい。
-    "translated": ""
+    "original_byte_length": !!int |-
+      95
+    "reference_addrs":
+    - !!int |-
+      54879
+    "translated": !!null |-
+      null
   "5eeb":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -56,7 +86,13 @@
       海の上だったら モンスターも
       いない ･ ･ ･ はずですから
       安心してください。
-    "translated": ""
+    "original_byte_length": !!int |-
+      148
+    "reference_addrs":
+    - !!int |-
+      54888
+    "translated": !!null |-
+      null
   "5f7f":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -66,7 +102,13 @@
       <Xf69229><JUMP602a><Xf9000200><ASM6b26><Xf828af17><JUMP5feb><Xf028><SET0400><ITEM>を 渡しました。<SND0103><END>
       <LOC5feb>持ってないなら 乗せられませんよ。
       向こうで 買ってきてください。<LOC602a>
-    "translated": ""
+    "original_byte_length": !!int |-
+      172
+    "reference_addrs":
+    - !!int |-
+      54784
+    "translated": !!null |-
+      null
   "602b":
     "original": |-
       <C_YELLOW>女<C_NONE>
@@ -80,7 +122,13 @@
       <LOC6159>お客さん お金が 足りないわよ。<END>
       <LOC6178>お客さん これ以上 持てない
       みたいですけど ･ ･ ･
-    "translated": ""
+    "original_byte_length": !!int |-
+      381
+    "reference_addrs":
+    - !!int |-
+      54894
+    "translated": !!null |-
+      null
   "61ac":
     "original": |-
       <C_YELLOW>宿屋<C_NONE>
@@ -94,7 +142,13 @@
       なったことも あるのに ･ ･ ･<END>
       <LOC62ae>おや お金が 足りないようですね。
       またいらしてください。
-    "translated": ""
+    "original_byte_length": !!int |-
+      314
+    "reference_addrs":
+    - !!int |-
+      54900
+    "translated": !!null |-
+      null
   "62ea":
     "original": |-
       <C_YELLOW>武器屋<C_NONE>
@@ -102,55 +156,119 @@
       材料が入ってこないんですよ。
 
       鉱山が復旧したら 来てみてください。必ず 強い武器を 売りに出しますから。
-    "translated": ""
+    "original_byte_length": !!int |-
+      144
+    "reference_addrs":
+    - !!int |-
+      54906
+    "translated": !!null |-
+      null
   "637a":
     "original": |-
       <C_YELLOW>道具屋<C_NONE>
       いらっしゃいませ。
       どのような ご用でしょうか？<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      56
+    "reference_addrs":
+    - !!int |-
+      54918
+    "translated": !!null |-
+      null
   "63b2":
     "original": |-
       また来てくださいね。
-    "translated": ""
+    "original_byte_length": !!int |-
+      21
+    "reference_addrs":
+    - !!int |-
+      54945
+    - !!int |-
+      54945
+    - !!int |-
+      54945
+    "translated": !!null |-
+      null
   "63c7":
     "original": |-
       おや？これ以上持てないようですね。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      36
+    "reference_addrs":
+    - !!int |-
+      2916
+    "translated": !!null |-
+      null
   "63eb":
     "original": |-
       どれを買ってくれますか？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      26
+    "reference_addrs":
+    - !!int |-
+      2918
+    "translated": !!null |-
+      null
   "6405":
     "original": |-
       <ITEM>だね。
       どうも ありがとう。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      29
+    "reference_addrs":
+    - !!int |-
+      2920
+    "translated": !!null |-
+      null
   "642a":
     "original": |-
       どれを 売ってくれますか？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      27
+    "reference_addrs":
+    - !!int |-
+      2788
+    "translated": !!null |-
+      null
   "6445":
     "original": |2-
        Gold になるけど
       それでも よろしいですか？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      44
+    "reference_addrs":
+    - !!int |-
+      2790
+    "translated": !!null |-
+      null
   "6471":
     "original": |-
       それは残念です。
 
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      18
+    "reference_addrs":
+    - !!int |-
+      2792
+    "translated": !!null |-
+      null
   "6483":
     "original": |-
       どうも ありがとうございます。
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      31
+    "reference_addrs":
+    - !!int |-
+      2794
+    "translated": !!null |-
+      null
 "note": ""

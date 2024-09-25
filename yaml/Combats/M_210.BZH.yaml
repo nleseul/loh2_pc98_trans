@@ -2,29 +2,73 @@
   "7170":
     "original": |-
       ブラムナドッグA<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      16
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "71b0":
     "original": |-
       ブラムナドッグB<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      16
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "71f0":
     "original": |-
       ブラムナドッグC<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      16
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "7230":
     "original": |-
       ブラムナドッグD<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      16
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "73c3":
     "original": |-
       ブラムナドッグが現れた。<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      25
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "7432":
     "original": |-
       <ACTOR>は毒を中和した。<RET_PAGE>
-    "translated": ""
+    "original_byte_length": !!int |-
+      18
+    "reference_addrs":
+    - !!int |-
+      61346
+    "translated": !!null |-
+      null
   "7444":
     "original": |-
       <ACTOR>は毒を中和しきれなかった。<RET_PAGE>
-    "translated": ""
+    "original_byte_length": !!int |-
+      28
+    "reference_addrs":
+    - !!int |-
+      61355
+    - !!int |-
+      61355
+    "translated": !!null |-
+      null
 "note": ""

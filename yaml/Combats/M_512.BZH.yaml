@@ -2,33 +2,85 @@
   "7170":
     "original": |-
       ザンオー<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      9
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "71b0":
     "original": |-
       紅牙戦士<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      9
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "71f0":
     "original": |-
       Ｍ５１２Ｃ<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      11
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "7230":
     "original": |-
       Ｍ５１２Ｄ<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      11
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "7447":
     "original": |-
       紅牙戦士とザンオーが現れた。<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      29
+    "reference_addrs":
+    - !!null |-
+      null
+    - !!int |-
+      61421
+    "translated": !!null |-
+      null
   "7464":
     "original": |-
       <ACTOR>は攻撃をかわした。<RET_PAGE>
-    "translated": ""
+    "original_byte_length": !!int |-
+      20
+    "reference_addrs":
+    - !!int |-
+      61348
+    "translated": !!null |-
+      null
   "7478":
     "original": |-
       <ACTOR>は喜んで調子にのっている。<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      28
+    "reference_addrs":
+    - !!int |-
+      61226
+    - !!int |-
+      61226
+    "translated": !!null |-
+      null
   "7494":
     "original": |-
       <ACTOR>はきげんが悪くなった。<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      24
+    "reference_addrs":
+    - !!int |-
+      61186
+    "translated": !!null |-
+      null
 "note": ""

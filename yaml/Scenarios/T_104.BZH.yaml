@@ -5,7 +5,13 @@
       やあ お客さん。
       もう 船が 故障する心配はないよ。
       新しい船にしたんだ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      77
+    "reference_addrs":
+    - !!int |-
+      54794
+    "translated": !!null |-
+      null
   "5c37":
     "original": |-
       <C_YELLOW>船長<C_NONE>
@@ -18,7 +24,13 @@
       向こうで 買ってきてくれ。<END>
       <LOC5ced>心配するなよ 大丈夫だって
       言ってるだろ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      223
+    "reference_addrs":
+    - !!int |-
+      54696
+    "translated": !!null |-
+      null
   "5d16":
     "original": |-
       <C_YELLOW>修理工のボブ<C_NONE>
@@ -27,27 +39,51 @@
 
       これで しばらくは 修理の必要が
       ないから 仕事が楽になったよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      119
+    "reference_addrs":
+    - !!int |-
+      54803
+    "translated": !!null |-
+      null
   "5d8d":
     "original": |-
       <C_YELLOW>男<C_NONE>
       あー 酒がうまいぜ。
       心配ごとが ないから 酒がうまくて
       たまらねえよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      73
+    "reference_addrs":
+    - !!int |-
+      54812
+    "translated": !!null |-
+      null
   "5dd6":
     "original": |-
       <C_YELLOW>老人<C_NONE>
       モンスターが いなくなって また
       静かな生活が できそうじゃわい。
-    "translated": ""
+    "original_byte_length": !!int |-
+      70
+    "reference_addrs":
+    - !!int |-
+      54821
+    "translated": !!null |-
+      null
   "5e1c":
     "original": |-
       <C_YELLOW>男<C_NONE>
       この町の呪文屋は モンスターが
       いなくなったというのに いまだに
       客が たくさん来るって 喜んでたぜ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      102
+    "reference_addrs":
+    - !!int |-
+      54836
+    "translated": !!null |-
+      null
   "5e82":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -61,7 +97,13 @@
       <END>
       <LOC5f4f>お金が 足りないじゃないか。<END>
       <LOC5f6b>もう 持てないみたいだよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      259
+    "reference_addrs":
+    - !!int |-
+      54827
+    "translated": !!null |-
+      null
   "5f89":
     "original": |-
       <C_YELLOW>バーテン<C_NONE>
@@ -86,65 +128,147 @@
 
       <SET0418><ASMd6c8><UNSET0418><LOC6152><END>
       <LOC6153><RET><LOC6154>金が足りないよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      476
+    "reference_addrs":
+    - !!int |-
+      54842
+    "translated": !!null |-
+      null
   "6169":
     "original": |-
       <C_YELLOW>呪文屋<C_NONE>
       はい いらっしゃい。
       便利な呪文は いかがですか。<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      57
+    "reference_addrs":
+    - !!int |-
+      54854
+    "translated": !!null |-
+      null
   "61a2":
     "original": |-
       またどうぞ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      13
+    "reference_addrs":
+    - !!int |-
+      54866
+    "translated": !!null |-
+      null
   "61af":
     "original": |-
       <C_YELLOW>道具屋<C_NONE>
       いらっしゃいませ。
       どのような ご用でしょうか？<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      56
+    "reference_addrs":
+    - !!int |-
+      54878
+    "translated": !!null |-
+      null
   "61e7":
     "original": |-
       また来てくださいね。
-    "translated": ""
+    "original_byte_length": !!int |-
+      21
+    "reference_addrs":
+    - !!int |-
+      54905
+    - !!int |-
+      54905
+    - !!int |-
+      54905
+    "translated": !!null |-
+      null
   "61fc":
     "original": |-
       おや？これ以上持てないようですね。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      36
+    "reference_addrs":
+    - !!int |-
+      2458
+    - !!int |-
+      2458
+    "translated": !!null |-
+      null
   "6220":
     "original": |-
       どれを買ってくれますか？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      26
+    "reference_addrs":
+    - !!int |-
+      2460
+    - !!int |-
+      2460
+    "translated": !!null |-
+      null
   "623a":
     "original": |-
       <ITEM>だね。
       どうも ありがとう。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      29
+    "reference_addrs":
+    - !!int |-
+      2462
+    - !!int |-
+      2462
+    "translated": !!null |-
+      null
   "625f":
     "original": |-
       どれを 売ってくれますか？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      27
+    "reference_addrs":
+    - !!int |-
+      2329
+    "translated": !!null |-
+      null
   "627a":
     "original": |2-
        Gold になるけど
       それでも よろしいですか？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      44
+    "reference_addrs":
+    - !!int |-
+      2331
+    "translated": !!null |-
+      null
   "62a6":
     "original": |-
       それは残念です。
 
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      18
+    "reference_addrs":
+    - !!int |-
+      2333
+    "translated": !!null |-
+      null
   "62b8":
     "original": |-
       どうも ありがとうございます。
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      31
+    "reference_addrs":
+    - !!int |-
+      2335
+    "translated": !!null |-
+      null
 "note": ""

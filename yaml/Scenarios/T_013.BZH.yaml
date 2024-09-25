@@ -5,14 +5,26 @@
       王子さま、竜の卵は 不吉な物
       なんでしょうか？
       せっかく よろこんで いたのに ･ ･ ･
-    "translated": ""
+    "original_byte_length": !!int |-
+      85
+    "reference_addrs":
+    - !!int |-
+      54645
+    "translated": !!null |-
+      null
   "5b82":
     "original": |-
       <C_YELLOW>男<C_NONE>
       こんなことに なるんだったら
       竜の卵なんか 出てこなければ
       よかったんですよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      80
+    "reference_addrs":
+    - !!int |-
+      54654
+    "translated": !!null |-
+      null
   "5bd2":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -25,7 +37,13 @@
       <LOC5c7d>モンスターが 増えたと思ったら
       こんどは 急に いなくなったとは。
       これは いったい 何なのでしょうか？
-    "translated": ""
+    "original_byte_length": !!int |-
+      269
+    "reference_addrs":
+    - !!int |-
+      54663
+    "translated": !!null |-
+      null
   "5cdf":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -36,7 +54,13 @@
       どうする つもりなんでしょうね。<END>
       <LOC5d77>武器屋は やめて 魚屋を 始めるとか
       言っているんですよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      207
+    "reference_addrs":
+    - !!int |-
+      54672
+    "translated": !!null |-
+      null
   "5dae":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -48,7 +72,13 @@
       きいたのですが 本当でしょうか。<END>
       <LOC5e6d>ファーレーンの モンスターは いなくなったけど ウォンリークのほうは
       どうなってるんでしょう。
-    "translated": ""
+    "original_byte_length": !!int |-
+      282
+    "reference_addrs":
+    - !!int |-
+      54681
+    "translated": !!null |-
+      null
   "5ec8":
     "original": |-
       <C_YELLOW>女<C_NONE>
@@ -58,19 +88,37 @@
       この町も クルスのように つぶされてしまうのかしら。<END>
       <LOC5f90>あのまま モンスターが 増え続けたらどうなるかと 心配していたんです。
       よかったわ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      281
+    "reference_addrs":
+    - !!int |-
+      54690
+    "translated": !!null |-
+      null
   "5fe1":
     "original": |-
       <C_YELLOW>女<C_NONE>
       竜の卵が 出てきたのは いいことの
       前ぶれだと 思っていたのに どうしてこんなことに なったのかしら ･ ･ ･
-    "translated": ""
+    "original_byte_length": !!int |-
+      106
+    "reference_addrs":
+    - !!int |-
+      54699
+    "translated": !!null |-
+      null
   "604b":
     "original": |-
       <C_YELLOW>老人<C_NONE>
       アロン殿は クルスの村が つぶされてしまったので すっかり 気落ちして
       おるのです。
-    "translated": ""
+    "original_byte_length": !!int |-
+      87
+    "reference_addrs":
+    - !!int |-
+      54708
+    "translated": !!null |-
+      null
   "60a2":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -86,7 +134,13 @@
 
       いつまた やつらが 出てきても
       いいようにと 準備しておりますから。
-    "translated": ""
+    "original_byte_length": !!int |-
+      306
+    "reference_addrs":
+    - !!int |-
+      54717
+    "translated": !!null |-
+      null
   "61d4":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -98,7 +152,13 @@
       <LOC628d>王子さま ご安心ください。
       もし またモンスターが 出てきても
       われわれが やっつけてやりますから。
-    "translated": ""
+    "original_byte_length": !!int |-
+      280
+    "reference_addrs":
+    - !!int |-
+      54726
+    "translated": !!null |-
+      null
   "62ec":
     "original": |-
       <C_YELLOW>スコット<C_NONE>
@@ -111,7 +171,13 @@
       <LOC6388>
 
       だから もう武器屋はやめて 魚屋でも始めようかと 思っているんです。
-    "translated": ""
+    "original_byte_length": !!int |-
+      223
+    "reference_addrs":
+    - !!int |-
+      54741
+    "translated": !!null |-
+      null
   "63cb":
     "original": |-
       <C_YELLOW>アロン<C_NONE>
@@ -121,7 +187,13 @@
 
       せっかく あそこで のんびりと
       くらしていたのに ･ ･ ･
-    "translated": ""
+    "original_byte_length": !!int |-
+      145
+    "reference_addrs":
+    - !!int |-
+      54750
+    "translated": !!null |-
+      null
   "645c":
     "original": |-
       <C_YELLOW>女<C_NONE>
@@ -133,61 +205,131 @@
       <LOC6504>この町も クルスのように
       <IF_NOT00f0><JUMP653e>ならなければ いいんだけど。<END>
       <LOC653e>ならなくて よかったわ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      250
+    "reference_addrs":
+    - !!int |-
+      54759
+    "translated": !!null |-
+      null
   "6556":
     "original": |-
       <C_YELLOW>バーテン<C_NONE>
       これは王子さま、いらっしゃいませ。お酒は 出せませんが ゆっくり
       なさっていってください。
-    "translated": ""
+    "original_byte_length": !!int |-
+      99
+    "reference_addrs":
+    - !!int |-
+      54765
+    "translated": !!null |-
+      null
   "65b9":
     "original": |-
       <C_YELLOW>道具屋<C_NONE>
       おや 王子さま、いらっしゃい。
       どのような ご用でしょうか？<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      67
+    "reference_addrs":
+    - !!int |-
+      54777
+    "translated": !!null |-
+      null
   "65fc":
     "original": |-
       また来てくださいね。
-    "translated": ""
+    "original_byte_length": !!int |-
+      21
+    "reference_addrs":
+    - !!int |-
+      54804
+    - !!int |-
+      54804
+    - !!int |-
+      54804
+    "translated": !!null |-
+      null
   "6611":
     "original": |-
       おや？これ以上持てないようですね。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      36
+    "reference_addrs":
+    - !!int |-
+      3536
+    "translated": !!null |-
+      null
   "6635":
     "original": |-
       どれを買ってくれますか？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      26
+    "reference_addrs":
+    - !!int |-
+      3538
+    "translated": !!null |-
+      null
   "664f":
     "original": |-
       <ITEM>だね。
       どうも ありがとう。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      29
+    "reference_addrs":
+    - !!int |-
+      3540
+    "translated": !!null |-
+      null
   "6674":
     "original": |-
       どれを 売ってくれますか？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      27
+    "reference_addrs":
+    - !!int |-
+      3374
+    "translated": !!null |-
+      null
   "668f":
     "original": |2-
        Gold になるけど
       それでも よろしいですか？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      44
+    "reference_addrs":
+    - !!int |-
+      3376
+    "translated": !!null |-
+      null
   "66bb":
     "original": |-
       それは残念です。
 
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      18
+    "reference_addrs":
+    - !!int |-
+      3378
+    "translated": !!null |-
+      null
   "66cd":
     "original": |-
       どうも ありがとうございます。
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      31
+    "reference_addrs":
+    - !!int |-
+      3380
+    "translated": !!null |-
+      null
 "note": ""

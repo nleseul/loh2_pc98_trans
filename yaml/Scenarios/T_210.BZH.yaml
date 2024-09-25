@@ -36,7 +36,15 @@
       <C_RED>『２度と わしのかわいいフローラに
         近付くな !!』
       <C_NONE>と おっしゃっておりました。
-    "translated": ""
+    "original_byte_length": !!int |-
+      654
+    "reference_addrs":
+    - !!int |-
+      54706
+    - !!int |-
+      54678
+    "translated": !!null |-
+      null
   "5fba":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -52,7 +60,13 @@
 
       それで 出国の手続きだとか言って
       知らないふりを していたのだ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      304
+    "reference_addrs":
+    - !!int |-
+      54768
+    "translated": !!null |-
+      null
   "60ea":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -67,7 +81,15 @@
       でも 出国の手続きは 本当に
       やっていないんだよ。<END>
       <LOC6220><IF_NOT0060><ASMd7d2>
-    "translated": ""
+    "original_byte_length": !!int |-
+      317
+    "reference_addrs":
+    - !!int |-
+      54777
+    - !!int |-
+      24600
+    "translated": !!null |-
+      null
   "622f":
     "original": |-
       <C_YELLOW>子供<C_NONE>
@@ -76,7 +98,13 @@
       食べられるんだよ。
 
       たのしみだなー。
-    "translated": ""
+    "original_byte_length": !!int |-
+      109
+    "reference_addrs":
+    - !!int |-
+      54786
+    "translated": !!null |-
+      null
   "629c":
     "original": |-
       <C_YELLOW>老人<C_NONE>
@@ -86,13 +114,25 @@
       昔 娘にひどいことを したんじゃが
       それが縁で こんなに やさしい人と
       いっしょに なったんじゃよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      156
+    "reference_addrs":
+    - !!int |-
+      54795
+    "translated": !!null |-
+      null
   "6338":
     "original": |-
       <C_YELLOW>男<C_NONE>
       ねえさんたちは 毎年 竜の祭を
       見るために はるばる リシェールから来てくれるんだ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      85
+    "reference_addrs":
+    - !!int |-
+      54804
+    "translated": !!null |-
+      null
   "638d":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -100,7 +140,13 @@
 
       リシェールに 来たときには ぜひ
       寄ってみてください。
-    "translated": ""
+    "original_byte_length": !!int |-
+      125
+    "reference_addrs":
+    - !!int |-
+      54813
+    "translated": !!null |-
+      null
   "640a":
     "original": |-
       <C_YELLOW>女<C_NONE>
@@ -110,7 +156,13 @@
       今では 子供も 大きくなってきたし
       このまま ずっと 幸せでいたいわ。
       気になるのは 弟の結婚ぐらいかしら。
-    "translated": ""
+    "original_byte_length": !!int |-
+      160
+    "reference_addrs":
+    - !!int |-
+      54822
+    "translated": !!null |-
+      null
   "64aa":
     "original": |-
       <C_YELLOW>女<C_NONE>
@@ -119,7 +171,13 @@
 
       地震のために お祭が 中止に
       なってたら 今ごろは きっと寝込んでいたんじゃないかしら。
-    "translated": ""
+    "original_byte_length": !!int |-
+      148
+    "reference_addrs":
+    - !!int |-
+      54831
+    "translated": !!null |-
+      null
   "653e":
     "original": |-
       <C_YELLOW>ギャリー<C_NONE>
@@ -127,21 +185,39 @@
       とりこし苦労だったようじゃわい。
 
       いやー 楽しみじゃのう。
-    "translated": ""
+    "original_byte_length": !!int |-
+      132
+    "reference_addrs":
+    - !!int |-
+      54840
+    "translated": !!null |-
+      null
   "65c2":
     "original": |-
       <C_YELLOW>男<C_NONE>
       なにぃ 誕生日だとぉ。それじゃ
       今年で 何才に なったってんだよぉ
       えぇっ 言ってみろよぉ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      92
+    "reference_addrs":
+    - !!int |-
+      54888
+    "translated": !!null |-
+      null
   "661e":
     "original": |-
       <C_YELLOW>男<C_NONE>
       あんたたち 祭を 見にきたのかい？
       竜の祭は 年に１回しかないからね
       誕生日みたいなもんだな。
-    "translated": ""
+    "original_byte_length": !!int |-
+      95
+    "reference_addrs":
+    - !!int |-
+      54897
+    "translated": !!null |-
+      null
   "667d":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -150,26 +226,60 @@
       あのじいさんは 祭が 好きで 毎年
       この時期になると 20 才ぐらいは
       若返ったように なるんだよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      151
+    "reference_addrs":
+    - !!int |-
+      54906
+    "translated": !!null |-
+      null
   "6714":
     "original": |-
       <C_YELLOW>武器屋<C_NONE>
       いらっしゃい。<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      24
+    "reference_addrs":
+    - !!int |-
+      54918
+    "translated": !!null |-
+      null
   "672c":
     "original": |-
       またどうぞ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      13
+    "reference_addrs":
+    - !!int |-
+      54930
+    "translated": !!null |-
+      null
   "6739":
     "original": |-
       <C_YELLOW>道具屋<C_NONE>
       いらっしゃいませ。
       どのような ご用でしょうか？<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      56
+    "reference_addrs":
+    - !!int |-
+      54942
+    "translated": !!null |-
+      null
   "6771":
     "original": |-
       また来てくださいね。
-    "translated": ""
+    "original_byte_length": !!int |-
+      21
+    "reference_addrs":
+    - !!int |-
+      54969
+    - !!int |-
+      54969
+    - !!int |-
+      54969
+    "translated": !!null |-
+      null
   "6786":
     "original": |-
       <C_YELLOW>バーテン<C_NONE>
@@ -186,45 +296,99 @@
       タダになってます。<Xf6f1d7><JUMP68ba>
 
       <SET0418><ASMd7eb><UNSET0418><LOC68ba>
-    "translated": ""
+    "original_byte_length": !!int |-
+      309
+    "reference_addrs":
+    - !!int |-
+      54975
+    "translated": !!null |-
+      null
   "68bb":
     "original": |-
       おや？これ以上持てないようですね。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      36
+    "reference_addrs":
+    - !!int |-
+      4184
+    - !!int |-
+      4184
+    "translated": !!null |-
+      null
   "68df":
     "original": |-
       どれを買ってくれますか？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      26
+    "reference_addrs":
+    - !!int |-
+      4186
+    - !!int |-
+      4186
+    "translated": !!null |-
+      null
   "68f9":
     "original": |-
       <ITEM>だね。
       どうも ありがとう。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      29
+    "reference_addrs":
+    - !!int |-
+      4188
+    - !!int |-
+      4188
+    "translated": !!null |-
+      null
   "691e":
     "original": |-
       どれを 売ってくれますか？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      27
+    "reference_addrs":
+    - !!int |-
+      4056
+    "translated": !!null |-
+      null
   "6939":
     "original": |2-
        Gold になるけど
       それでも よろしいですか？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      44
+    "reference_addrs":
+    - !!int |-
+      4058
+    "translated": !!null |-
+      null
   "6965":
     "original": |-
       それは残念です。
 
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      18
+    "reference_addrs":
+    - !!int |-
+      4060
+    "translated": !!null |-
+      null
   "6977":
     "original": |-
       どうも ありがとうございます。
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      31
+    "reference_addrs":
+    - !!int |-
+      4062
+    "translated": !!null |-
+      null
 "note": ""

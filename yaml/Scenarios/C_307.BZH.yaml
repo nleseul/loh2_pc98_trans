@@ -6,7 +6,13 @@
 
       原因は 国民たちが 言っておるようにフレイアさまに 関係があるのか？<WAIT>
       いや そんなはずはないな。
-    "translated": ""
+    "original_byte_length": !!int |-
+      156
+    "reference_addrs":
+    - !!int |-
+      54663
+    "translated": !!null |-
+      null
   "5bb0":
     "original": |-
       <C_YELLOW>クレア王妃<C_NONE>
@@ -14,13 +20,25 @@
 
       これからの あなたの かつやくを
       期待していますよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      118
+    "reference_addrs":
+    - !!int |-
+      54678
+    "translated": !!null |-
+      null
   "5c26":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       王子さま セリオスさまたちは
       どこに 行かれたのですか？
-    "translated": ""
+    "original_byte_length": !!int |-
+      61
+    "reference_addrs":
+    - !!int |-
+      54687
+    "translated": !!null |-
+      null
   "5c63":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -31,13 +49,25 @@
       もとに 戻ったのですから もう
       そんなことは どうでもいいかも
       しれませんね。
-    "translated": ""
+    "original_byte_length": !!int |-
+      164
+    "reference_addrs":
+    - !!int |-
+      54696
+    "translated": !!null |-
+      null
   "5d07":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       これは アトラス王子さま。
       お元気そうで なによりです。
-    "translated": ""
+    "original_byte_length": !!int |-
+      61
+    "reference_addrs":
+    - !!int |-
+      54705
+    "translated": !!null |-
+      null
   "5d44":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -46,14 +76,26 @@
 
       それが ずっと前の 大地震のときに
       地面から出てきたんです。
-    "translated": ""
+    "original_byte_length": !!int |-
+      120
+    "reference_addrs":
+    - !!int |-
+      54714
+    "translated": !!null |-
+      null
   "5dbc":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       あーあ 今日も いい天気ですね。
       こんなときに 仕事をしなければ
       ならないとはね ･ ･ ･
-    "translated": ""
+    "original_byte_length": !!int |-
+      89
+    "reference_addrs":
+    - !!int |-
+      54723
+    "translated": !!null |-
+      null
   "5e15":
     "original": |-
       <C_YELLOW>ハリー<C_NONE>
@@ -72,5 +114,11 @@
       もし 強力な武器が必要になったら
       忘れずに ここに 来てごらん。
       きっと 期待に こたえられると思うよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      368
+    "reference_addrs":
+    - !!int |-
+      54732
+    "translated": !!null |-
+      null
 "note": ""

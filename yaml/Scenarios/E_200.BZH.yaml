@@ -23,13 +23,25 @@
 
       <CH0>
       ランドー やめろ !!
-    "translated": ""
+    "original_byte_length": !!int |-
+      309
+    "reference_addrs":
+    - !!int |-
+      55432
+    "translated": !!null |-
+      null
   "65c9":
     "original": |-
       <CH2>
       もう やめましょうよ。
       バーバラさまが 言っていたじゃない。
-    "translated": ""
+    "original_byte_length": !!int |-
+      61
+    "reference_addrs":
+    - !!int |-
+      55438
+    "translated": !!null |-
+      null
   "6606":
     "original": |-
       <CH1>
@@ -56,7 +68,13 @@
 
       <CH0>
       ちょっと待て !!
-    "translated": ""
+    "original_byte_length": !!int |-
+      259
+    "reference_addrs":
+    - !!int |-
+      55563
+    "translated": !!null |-
+      null
   "6709":
     "original": |-
       <SET00fc><CH1>
@@ -74,7 +92,13 @@
       そう 簡単に いくはずないさ。
       さあ もう 危険なことはやめよう
       バーバラが 言っていたじゃないか。
-    "translated": ""
+    "original_byte_length": !!int |-
+      218
+    "reference_addrs":
+    - !!int |-
+      55519
+    "translated": !!null |-
+      null
   "67e3":
     "original": |-
       <C_YELLOW>ギャノア<C_NONE>
@@ -83,5 +107,13 @@
       なまいきな やつらよ。
 
       改造を受けた おれさまの 恐ろしさを思い知るがいい。
-    "translated": ""
+    "original_byte_length": !!int |-
+      134
+    "reference_addrs":
+    - !!int |-
+      54698
+    - !!int |-
+      54698
+    "translated": !!null |-
+      null
 "note": ""

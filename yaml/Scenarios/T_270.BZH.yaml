@@ -45,7 +45,13 @@
       グズは 大っきらいなんだよ。
 
       行くよ !!
-    "translated": ""
+    "original_byte_length": !!int |-
+      724
+    "reference_addrs":
+    - !!int |-
+      54663
+    "translated": !!null |-
+      null
   "5f4b":
     "original": |-
       <CH0>
@@ -66,12 +72,24 @@
       知らねえ 仲じゃねえんだ。
       <PAGE>
       詳しいことは 後だ、行くぞ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      261
+    "reference_addrs":
+    - !!int |-
+      54767
+    "translated": !!null |-
+      null
   "6050":
     "original": |
       <C_YELLOW>ジーナ<C_NONE>
       お待ち !!
-    "translated": ""
+    "original_byte_length": !!int |-
+      20
+    "reference_addrs":
+    - !!int |-
+      54781
+    "translated": !!null |-
+      null
   "6064":
     "original": |-
       <CLEAR><C_YELLOW>ジーナ<C_NONE>
@@ -85,7 +103,13 @@
       <C_YELLOW>ジーナ<C_NONE>
       ああ いくらでも きいてやるよ。
       そいつを 戻してきたらね。
-    "translated": ""
+    "original_byte_length": !!int |-
+      207
+    "reference_addrs":
+    - !!int |-
+      54819
+    "translated": !!null |-
+      null
   "6133":
     "original": |-
       <CH1>
@@ -97,7 +121,15 @@
 
       <C_YELLOW>ボアード<C_NONE>
       よし 今のうちだ 早く来い !!
-    "translated": ""
+    "original_byte_length": !!int |-
+      121
+    "reference_addrs":
+    - !!int |-
+      54938
+    - !!int |-
+      54938
+    "translated": !!null |-
+      null
   "61ac":
     "original": |-
       <CLEAR><CH1>
@@ -128,5 +160,11 @@
       オ、オヤジだと !?
 
       くらえ～ !!
-    "translated": ""
+    "original_byte_length": !!int |-
+      418
+    "reference_addrs":
+    - !!int |-
+      54861
+    "translated": !!null |-
+      null
 "note": ""

@@ -2,7 +2,13 @@
   "5d3f":
     "original": |-
       キャーーーーッ
-    "translated": ""
+    "original_byte_length": !!int |-
+      15
+    "reference_addrs":
+    - !!int |-
+      54782
+    "translated": !!null |-
+      null
   "5d4e":
     "original": |-
       <CH2>
@@ -21,7 +27,15 @@
 
       <CH1>
       よしっ おれたちに まかせな。
-    "translated": ""
+    "original_byte_length": !!int |-
+      196
+    "reference_addrs":
+    - !!int |-
+      54819
+    - !!int |-
+      54819
+    "translated": !!null |-
+      null
   "5e12":
     "original": |-
       <CH0>
@@ -209,12 +223,24 @@
       <CH0>
       まあ いいじゃないか 何か方法が
       あるはずだよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      3044
+    "reference_addrs":
+    - !!int |-
+      54849
+    "translated": !!null |-
+      null
   "69f6":
     "original": |-
       <C_YELLOW>プルダーム<C_NONE>
       きさまら よくも おれの 住かに
       勝手に入ってきたな ･ ･ ･<WAIT>
       ただじゃ すまさないぞ !!
-    "translated": ""
+    "original_byte_length": !!int |-
+      93
+    "reference_addrs":
+    - !!int |-
+      54863
+    "translated": !!null |-
+      null
 "note": ""

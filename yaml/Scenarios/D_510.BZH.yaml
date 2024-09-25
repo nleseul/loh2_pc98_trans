@@ -2,10 +2,22 @@
   "5ba6":
     "original": |-
       岩は 全然動きません。
-    "translated": ""
+    "original_byte_length": !!int |-
+      22
+    "reference_addrs":
+    - !!int |-
+      54693
+    "translated": !!null |-
+      null
   "5bbc":
     "original": |-
       <PARTY>は バクヤクを
       大岩にセットしました。<SND0105>
-    "translated": ""
+    "original_byte_length": !!int |-
+      41
+    "reference_addrs":
+    - !!int |-
+      54715
+    "translated": !!null |-
+      null
 "note": ""

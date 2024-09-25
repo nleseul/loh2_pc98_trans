@@ -2,5 +2,15 @@
   "5af6":
     "original": |-
       <PARTY>は<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      4
+    "reference_addrs":
+    - !!int |-
+      54649
+    - !!int |-
+      54681
+    - !!int |-
+      54713
+    "translated": !!null |-
+      null
 "note": ""

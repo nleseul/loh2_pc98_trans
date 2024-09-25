@@ -3,5 +3,11 @@
     "original": |-
       <PARTY>は 宝箱を開けました。
       宝箱の中には<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      36
+    "reference_addrs":
+    - !!int |-
+      54789
+    "translated": !!null |-
+      null
 "note": ""

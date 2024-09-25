@@ -4,7 +4,13 @@
       <C_YELLOW>男<C_NONE>
       このところ 悪いことが 続いたけど
       今度は 何が起こるんだろうか？
-    "translated": ""
+    "original_byte_length": !!int |-
+      68
+    "reference_addrs":
+    - !!int |-
+      54700
+    "translated": !!null |-
+      null
   "5b55":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -13,14 +19,26 @@
 
       モンスターが いなくなったけど
       また いつ出てくるか わからないからしばらく ここに いることにしたんだ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      145
+    "reference_addrs":
+    - !!int |-
+      54709
+    "translated": !!null |-
+      null
   "5be6":
     "original": |-
       <C_YELLOW>女<C_NONE>
       ねえ 知ってる？<WAIT>
       司祭 バーバラさまが モンスターの
       出現を止めたんですって。
-    "translated": ""
+    "original_byte_length": !!int |-
+      79
+    "reference_addrs":
+    - !!int |-
+      54718
+    "translated": !!null |-
+      null
   "5c35":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -40,7 +58,13 @@
       バレないうちに 早く戻りましょうよ。<END>
       <LOC5d5e><SET0401>はいはい ごくろうさん。<END>
       <LOC5d79><UNSET0403><LOC5d7c>いい旅をしてくれよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      348
+    "reference_addrs":
+    - !!int |-
+      54727
+    "translated": !!null |-
+      null
   "5d91":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -55,32 +79,68 @@
       <LOC5e78>ソルディスに ようこそ。
       と言っても おれは ラヌーラの
       兵士だけどね。
-    "translated": ""
+    "original_byte_length": !!int |-
+      299
+    "reference_addrs":
+    - !!int |-
+      54736
+    "translated": !!null |-
+      null
   "5ebc":
     "original": |-
       <C_YELLOW>呪文屋<C_NONE>
       いらっしゃい。<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      24
+    "reference_addrs":
+    - !!int |-
+      54775
+    "translated": !!null |-
+      null
   "5ed4":
     "original": |-
       またどうぞ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      13
+    "reference_addrs":
+    - !!int |-
+      54787
+    "translated": !!null |-
+      null
   "5ee1":
     "original": |-
       おや？これ以上持てないようですね。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      36
+    "reference_addrs":
+    - !!int |-
+      1662
+    "translated": !!null |-
+      null
   "5f05":
     "original": |-
       どれを買ってくれますか？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      26
+    "reference_addrs":
+    - !!int |-
+      1664
+    "translated": !!null |-
+      null
   "5f1f":
     "original": |-
       <ITEM>だね。
       どうも ありがとう。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      29
+    "reference_addrs":
+    - !!int |-
+      1666
+    "translated": !!null |-
+      null
 "note": ""

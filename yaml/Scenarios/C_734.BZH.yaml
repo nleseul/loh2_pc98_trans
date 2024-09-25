@@ -2,15 +2,35 @@
   "61ec":
     "original": |-
       <ACTOR>は炎のブレスをはいた。<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      24
+    "reference_addrs":
+    - !!int |-
+      55756
+    "translated": !!null |-
+      null
   "6204":
     "original": |-
       <ACTOR>は大きくはばたいた。<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      22
+    "reference_addrs":
+    - !!int |-
+      55744
+    "translated": !!null |-
+      null
   "621a":
     "original": |-
       <CLEAR>皇帝 ゴドウィン２世を倒した。<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      31
+    "reference_addrs":
+    - !!int |-
+      55875
+    - !!int |-
+      55875
+    "translated": !!null |-
+      null
   "62a8":
     "original": |-
       <C_YELLOW>皇帝 ゴドウィン２世<C_NONE>
@@ -23,7 +43,13 @@
       だが お前らの強運も これまでだ。
 
       <LOC636e>どこからでも かかってくるがよい。
-    "translated": ""
+    "original_byte_length": !!int |-
+      232
+    "reference_addrs":
+    - !!int |-
+      54678
+    "translated": !!null |-
+      null
   "6390":
     "original": |-
       <CH1>
@@ -54,9 +80,21 @@
       いっしょに 戦ってくれるんだな？<WAIT>
       <ASMdb25><CLEAR><CH0>
       よーし みんな いくぞ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      369
+    "reference_addrs":
+    - !!int |-
+      54863
+    "translated": !!null |-
+      null
   "6502":
     "original": |-
       しかし<ITEM>ではダメージを与えられない !!<RET_PAGE>
-    "translated": ""
+    "original_byte_length": !!int |-
+      37
+    "reference_addrs":
+    - !!int |-
+      55661
+    "translated": !!null |-
+      null
 "note": ""

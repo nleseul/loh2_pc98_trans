@@ -2,25 +2,71 @@
   "7170":
     "original": |-
       ブラックナイトA<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      16
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "71b0":
     "original": |-
       ブラックナイトB<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      16
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "71f0":
     "original": |-
       ブラックナイトC<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      16
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "7230":
     "original": |-
       ブラックナイトD<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      16
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "744e":
     "original": |-
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      1
+    "reference_addrs":
+    - !!null |-
+      null
+    - !!int |-
+      61393
+    - !!int |-
+      61393
+    - !!int |-
+      61393
+    "translated": !!null |-
+      null
   "744f":
     "original": |-
       ブラックナイツが現れた。<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      25
+    "reference_addrs":
+    - !!int |-
+      61457
+    - !!int |-
+      61457
+    - !!int |-
+      61457
+    "translated": !!null |-
+      null
 "note": ""

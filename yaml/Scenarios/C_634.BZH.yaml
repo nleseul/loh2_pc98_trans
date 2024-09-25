@@ -44,5 +44,17 @@
       <CH0>
       ありがとう レイシア。
       必ず 戻ってくるよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      561
+    "reference_addrs":
+    - !!int |-
+      54836
+    - !!int |-
+      54836
+    - !!int |-
+      54836
+    - !!int |-
+      54836
+    "translated": !!null |-
+      null
 "note": ""

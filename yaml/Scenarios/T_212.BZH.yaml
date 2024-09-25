@@ -25,5 +25,11 @@
       <CH0>
       わかりました。
       エリオンさまも お気をつけください。
-    "translated": ""
+    "original_byte_length": !!int |-
+      448
+    "reference_addrs":
+    - !!int |-
+      54638
+    "translated": !!null |-
+      null
 "note": ""

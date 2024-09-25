@@ -33,10 +33,34 @@
 
       とにかく また 敵が出てくるようだ
       気をつけよう。
-    "translated": ""
+    "original_byte_length": !!int |-
+      508
+    "reference_addrs":
+    - !!int |-
+      54869
+    - !!int |-
+      54869
+    - !!int |-
+      54869
+    - !!int |-
+      54869
+    - !!int |-
+      54869
+    - !!int |-
+      54869
+    - !!int |-
+      54869
+    "translated": !!null |-
+      null
   "61df":
     "original": |-
       <PARTY>は 宝箱を開けました。
       宝箱の中には<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      36
+    "reference_addrs":
+    - !!int |-
+      54910
+    "translated": !!null |-
+      null
 "note": ""

@@ -5,7 +5,13 @@
       この先にいる 敵が やたらに強くて
       私たちでは どうにもならないんです。<WAIT>
       何とかしてください。
-    "translated": ""
+    "original_byte_length": !!int |-
+      99
+    "reference_addrs":
+    - !!int |-
+      54827
+    "translated": !!null |-
+      null
   "5fa1":
     "original": |-
       <C_YELLOW>ボザ<C_NONE>
@@ -14,36 +20,72 @@
       しばらくは 戦えない。
 
       あとは お前らに 任せるぜ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      116
+    "reference_addrs":
+    - !!int |-
+      54836
+    "translated": !!null |-
+      null
   "6015":
     "original": |-
       <C_YELLOW>男<C_NONE>
       ボザが ケガをして ここから先に
       進めなくなってしまったんだ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      65
+    "reference_addrs":
+    - !!int |-
+      54845
+    "translated": !!null |-
+      null
   "6056":
     "original": |-
       <C_YELLOW>リーダー<C_NONE>
       ボザが あのとおりじゃから 君らに
       がんばってもらうしかないようじゃ。何とかして ここを 突破してくれぬか。
-    "translated": ""
+    "original_byte_length": !!int |-
+      115
+    "reference_addrs":
+    - !!int |-
+      54854
+    "translated": !!null |-
+      null
   "60c9":
     "original": |-
       <C_YELLOW>テクニカのマスター<C_NONE>
       もう少しで テクニカの部屋なのだ。
       何とかして あいつを 倒してくれ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      88
+    "reference_addrs":
+    - !!int |-
+      54863
+    "translated": !!null |-
+      null
   "6121":
     "original": |-
       <C_YELLOW>ヨシュアのマスター<C_NONE>
       バイオラのマスターにも困ったものだ。あの敵には 弱点がないとは ･ ･ ･
-    "translated": ""
+    "original_byte_length": !!int |-
+      89
+    "reference_addrs":
+    - !!int |-
+      54872
+    "translated": !!null |-
+      null
   "617a":
     "original": |-
       <C_YELLOW>バイオラのマスター<C_NONE>
       私は どうして あんな化け物を
       作ってしまったのだろうか ･ ･ ･
-    "translated": ""
+    "original_byte_length": !!int |-
+      81
+    "reference_addrs":
+    - !!int |-
+      54881
+    "translated": !!null |-
+      null
   "61cb":
     "original": |-
       <C_YELLOW>ケリイ<C_NONE>
@@ -53,10 +95,22 @@
       <CH0>
       よし 後ろは ぼくたちに まかせて
       先に行ってくれ !!
-    "translated": ""
+    "original_byte_length": !!int |-
+      101
+    "reference_addrs":
+    - !!int |-
+      54906
+    "translated": !!null |-
+      null
   "6230":
     "original": |-
       <PARTY>は 宝箱を開けました。
       宝箱の中には<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      36
+    "reference_addrs":
+    - !!int |-
+      54771
+    "translated": !!null |-
+      null
 "note": ""

@@ -54,7 +54,13 @@
 
       皇帝陛下が そんなことを
       するはずがない。
-    "translated": ""
+    "original_byte_length": !!int |-
+      873
+    "reference_addrs":
+    - !!int |-
+      54758
+    "translated": !!null |-
+      null
   "614b":
     "original": |-
       <CH2>
@@ -102,9 +108,25 @@
 
       <CH1>
       よーし それじゃ 行くか。
-    "translated": ""
+    "original_byte_length": !!int |-
+      438
+    "reference_addrs":
+    - !!int |-
+      54786
+    "translated": !!null |-
+      null
   "6301":
     "original": |-
       ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      34
+    "reference_addrs":
+    - !!int |-
+      24950
+    - !!int |-
+      24970
+    - !!int |-
+      25000
+    "translated": !!null |-
+      null
 "note": ""

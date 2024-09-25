@@ -5,7 +5,13 @@
       これは 王子さま。ジェストンさまは
       城の２階に いらっしゃいます。
       どうぞ お入りください。
-    "translated": ""
+    "original_byte_length": !!int |-
+      95
+    "reference_addrs":
+    - !!int |-
+      54633
+    "translated": !!null |-
+      null
   "5b57":
     "original": |
       <C_YELLOW>男<C_NONE>
@@ -15,7 +21,13 @@
 
       こんな言い伝え 知ってますか？
       父が よく言っていたんです。
-    "translated": ""
+    "original_byte_length": !!int |-
+      143
+    "reference_addrs":
+    - !!int |-
+      54642
+    "translated": !!null |-
+      null
   "5be6":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -25,14 +37,26 @@
 
       そしたら何と ファーレーン王国と
       合併しようとしてるって うわさだぜ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      155
+    "reference_addrs":
+    - !!int |-
+      54651
+    "translated": !!null |-
+      null
   "5c81":
     "original": |-
       <C_YELLOW>女<C_NONE>
       うちの子たちったら モンスターが
       いなくなったから おおよろこびで
       遊びまわっているのよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      92
+    "reference_addrs":
+    - !!int |-
+      54660
+    "translated": !!null |-
+      null
   "5cdd":
     "original": |-
       <C_YELLOW>老人<C_NONE>
@@ -40,91 +64,197 @@
       やっと女神 フレイアさまの お怒りがおさまったようじゃ。
 
       ちかごろの 若いもんときたら 神様を信じぬから いかんのじゃ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      142
+    "reference_addrs":
+    - !!int |-
+      54669
+    "translated": !!null |-
+      null
   "5d6b":
     "original": |-
       <C_YELLOW>子供<C_NONE>
       やっと こわいモンスターが
       いなくなったから 町の外まで
       出ていけるように なったんだ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      91
+    "reference_addrs":
+    - !!int |-
+      54678
+    "translated": !!null |-
+      null
   "5dc6":
     "original": |-
       <C_YELLOW>子供<C_NONE>
       町の外だったら 広いから 鬼ごっこ
       やってても おもしろいんだ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      68
+    "reference_addrs":
+    - !!int |-
+      54687
+    "translated": !!null |-
+      null
   "5e0a":
     "original": |-
       <C_YELLOW>子供<C_NONE>
       町の外で かくれんぼをしたら
       なかなか 見つけられなくて
       いやんなっちゃった。
-    "translated": ""
+    "original_byte_length": !!int |-
+      82
+    "reference_addrs":
+    - !!int |-
+      54696
+    "translated": !!null |-
+      null
   "5e5c":
     "original": |-
       <C_YELLOW>女<C_NONE>
       マスクーンの町長 フォルスさんは
       兵士さんたちと マスクーンに行って
       こわれた町を なおしているのよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      103
+    "reference_addrs":
+    - !!int |-
+      54705
+    "translated": !!null |-
+      null
   "5ec3":
     "original": |-
       <C_YELLOW>武器屋<C_NONE>
       はい いらっしゃい。<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      29
+    "reference_addrs":
+    - !!int |-
+      54717
+    "translated": !!null |-
+      null
   "5ee0":
     "original": |-
       またどうぞ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      13
+    "reference_addrs":
+    - !!int |-
+      54729
+    "translated": !!null |-
+      null
   "5eed":
     "original": |-
       <C_YELLOW>道具屋<C_NONE>
       いらっしゃいませ。
       どのような ご用でしょうか？<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      56
+    "reference_addrs":
+    - !!int |-
+      54741
+    "translated": !!null |-
+      null
   "5f25":
     "original": |-
       また来てくださいね。
-    "translated": ""
+    "original_byte_length": !!int |-
+      21
+    "reference_addrs":
+    - !!int |-
+      54768
+    - !!int |-
+      54768
+    - !!int |-
+      54768
+    "translated": !!null |-
+      null
   "5f3a":
     "original": |-
       おや？これ以上持てないようですね。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      36
+    "reference_addrs":
+    - !!int |-
+      1752
+    - !!int |-
+      1752
+    "translated": !!null |-
+      null
   "5f5e":
     "original": |-
       どれを買ってくれますか？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      26
+    "reference_addrs":
+    - !!int |-
+      1754
+    - !!int |-
+      1754
+    "translated": !!null |-
+      null
   "5f78":
     "original": |-
       <ITEM>だね。
       どうも ありがとう。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      29
+    "reference_addrs":
+    - !!int |-
+      1756
+    - !!int |-
+      1756
+    "translated": !!null |-
+      null
   "5f9d":
     "original": |-
       どれを 売ってくれますか？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      27
+    "reference_addrs":
+    - !!int |-
+      1623
+    "translated": !!null |-
+      null
   "5fb8":
     "original": |2-
        Gold になるけど
       それでも よろしいですか？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      44
+    "reference_addrs":
+    - !!int |-
+      1625
+    "translated": !!null |-
+      null
   "5fe4":
     "original": |-
       それは残念です。
 
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      18
+    "reference_addrs":
+    - !!int |-
+      1627
+    "translated": !!null |-
+      null
   "5ff6":
     "original": |-
       どうも ありがとうございます。
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      31
+    "reference_addrs":
+    - !!int |-
+      1629
+    "translated": !!null |-
+      null
 "note": ""

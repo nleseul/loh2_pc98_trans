@@ -2,5 +2,11 @@
   "59af":
     "original": |-
       <C_GREEN>扉には カギがかかっています。<C_NONE>
-    "translated": ""
+    "original_byte_length": !!int |-
+      32
+    "reference_addrs":
+    - !!int |-
+      54618
+    "translated": !!null |-
+      null
 "note": ""

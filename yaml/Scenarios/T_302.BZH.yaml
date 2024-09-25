@@ -5,7 +5,13 @@
       この船は モレストン共和国の
       リシェール行きだ。
       乗るなら 早く 乗ってくれ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      81
+    "reference_addrs":
+    - !!int |-
+      54876
+    "translated": !!null |-
+      null
   "5c03":
     "original": |-
       <C_YELLOW>船長<C_NONE>
@@ -16,7 +22,13 @@
       <LOC5c6e><CLEAR>なんだ 乗る気がないなら こっちに
       来ないでくれ じゃまになるんだ。<END>
       <LOC5cb0>切符は そこで売ってるぞ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      199
+    "reference_addrs":
+    - !!int |-
+      54777
+    "translated": !!null |-
+      null
   "5cca":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -27,14 +39,26 @@
       城の研究室に こもりっきりなんだ。
 
       だから おれが ここの管理人になってあげているんだ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      206
+    "reference_addrs":
+    - !!int |-
+      54885
+    "translated": !!null |-
+      null
   "5d98":
     "original": |-
       <C_YELLOW>女<C_NONE>
       ここの定期船は とっても時間に
       きびしいから 乗り遅れる人が
       けっこういるのよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      82
+    "reference_addrs":
+    - !!int |-
+      54894
+    "translated": !!null |-
+      null
   "5dea":
     "original": |-
       <C_YELLOW>女<C_NONE>
@@ -44,7 +68,13 @@
       今は お城に研究室を作ってもらって
       そこで 研究しているから ここには
       めったに 帰ってこないのよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      160
+    "reference_addrs":
+    - !!int |-
+      54903
+    "translated": !!null |-
+      null
   "5e8a":
     "original": |-
       <C_YELLOW>老人<C_NONE>
@@ -56,7 +86,13 @@
       <LOC5f18>わしゃ 見たんじゃ。
       ラヌーラの司祭 バーバラさまが
       モンスターの出現を 止めたのじゃ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      226
+    "reference_addrs":
+    - !!int |-
+      54912
+    "translated": !!null |-
+      null
   "5f6c":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -68,64 +104,146 @@
       <LOC5fef><CLEAR>ほんとに いらないあるか？<END>
       <LOC600a>おカネ たりないあるよ。<END>
       <LOC6022>もう もてないあるよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      204
+    "reference_addrs":
+    - !!int |-
+      54918
+    "translated": !!null |-
+      null
   "603c":
     "original": |-
       <C_YELLOW>武器屋<C_NONE>
       いらっしゃい。<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      24
+    "reference_addrs":
+    - !!int |-
+      54930
+    "translated": !!null |-
+      null
   "6054":
     "original": |-
       またどうぞ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      13
+    "reference_addrs":
+    - !!int |-
+      54942
+    "translated": !!null |-
+      null
   "6061":
     "original": |-
       <C_YELLOW>道具屋<C_NONE>
       いらっしゃいませ。
       どのような ご用でしょうか？<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      56
+    "reference_addrs":
+    - !!int |-
+      54954
+    "translated": !!null |-
+      null
   "6099":
     "original": |-
       また来てくださいね。
-    "translated": ""
+    "original_byte_length": !!int |-
+      21
+    "reference_addrs":
+    - !!int |-
+      54981
+    - !!int |-
+      54981
+    - !!int |-
+      54981
+    "translated": !!null |-
+      null
   "60ae":
     "original": |-
       おや？これ以上持てないようですね。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      36
+    "reference_addrs":
+    - !!int |-
+      2158
+    - !!int |-
+      2158
+    "translated": !!null |-
+      null
   "60d2":
     "original": |-
       どれを買ってくれますか？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      26
+    "reference_addrs":
+    - !!int |-
+      2160
+    - !!int |-
+      2160
+    "translated": !!null |-
+      null
   "60ec":
     "original": |-
       <ITEM>だね。
       どうも ありがとう。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      29
+    "reference_addrs":
+    - !!int |-
+      2162
+    - !!int |-
+      2162
+    "translated": !!null |-
+      null
   "6111":
     "original": |-
       どれを 売ってくれますか？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      27
+    "reference_addrs":
+    - !!int |-
+      1995
+    "translated": !!null |-
+      null
   "612c":
     "original": |2-
        Gold になるけど
       それでも よろしいですか？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      44
+    "reference_addrs":
+    - !!int |-
+      1997
+    "translated": !!null |-
+      null
   "6158":
     "original": |-
       それは残念です。
 
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      18
+    "reference_addrs":
+    - !!int |-
+      1999
+    "translated": !!null |-
+      null
   "616a":
     "original": |-
       どうも ありがとうございます。
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      31
+    "reference_addrs":
+    - !!int |-
+      2001
+    "translated": !!null |-
+      null
 "note": ""

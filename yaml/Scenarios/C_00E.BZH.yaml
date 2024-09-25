@@ -20,14 +20,26 @@
 
       国王さまも そう望んでおられる
       ことでしょう。
-    "translated": ""
+    "original_byte_length": !!int |-
+      428
+    "reference_addrs":
+    - !!int |-
+      54645
+    "translated": !!null |-
+      null
   "5ddd":
     "original": |-
       <C_YELLOW>フェリシア<C_NONE>
       いいですか アトラス。
       勇気と無謀というのは 違いますよ。
       良く考えて 行動しなさい。
-    "translated": ""
+    "original_byte_length": !!int |-
+      95
+    "reference_addrs":
+    - !!int |-
+      54660
+    "translated": !!null |-
+      null
   "5e3c":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -35,7 +47,13 @@
       ここは 竜の卵からは はなれています。お城のことは 安心してください。<END>
       <LOC5eab>どうして モンスターどもが
       いなくなったのでしょうか？
-    "translated": ""
+    "original_byte_length": !!int |-
+      164
+    "reference_addrs":
+    - !!int |-
+      54669
+    "translated": !!null |-
+      null
   "5ee0":
     "original": |
       <C_YELLOW>兵士<C_NONE>
@@ -45,7 +63,13 @@
       <LOC5f43>モンスターが 増える 前ぶれとして
       いったん モンスターどもが いなく
       なったのではないでしょうか。
-    "translated": ""
+    "original_byte_length": !!int |-
+      195
+    "reference_addrs":
+    - !!int |-
+      54678
+    "translated": !!null |-
+      null
   "5fa3":
     "original": |-
       <IF_NOT00f0><JUMP6015><C_YELLOW>兵士<C_NONE>
@@ -55,29 +79,61 @@
       セリオスさまたちが あのように
       大けがを なさるとは ･ ･ ･
       王子さまも お気をつけください。
-    "translated": ""
+    "original_byte_length": !!int |-
+      209
+    "reference_addrs":
+    - !!int |-
+      54687
+    - !!int |-
+      54696
+    "translated": !!null |-
+      null
   "6074":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       ソルディスでは 司祭 バーバラさまが竜の卵を 正常にしたという うわさが広がっているそうです。
-    "translated": ""
+    "original_byte_length": !!int |-
+      98
+    "reference_addrs":
+    - !!int |-
+      54705
+    "translated": !!null |-
+      null
   "60d6":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       王子さま セリオスさまたちは どこであのようなけがを されたのですか？
-    "translated": ""
+    "original_byte_length": !!int |-
+      75
+    "reference_addrs":
+    - !!int |-
+      54714
+    "translated": !!null |-
+      null
   "6121":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       竜の卵が 正常になった所もあれば
       モンスターが 増えた所もある。
       何が何だか さっぱりわかりません。
-    "translated": ""
+    "original_byte_length": !!int |-
+      103
+    "reference_addrs":
+    - !!int |-
+      54723
+    "translated": !!null |-
+      null
   "6188":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       王子さま あまり 無理をしないようにしてください。
-    "translated": ""
+    "original_byte_length": !!int |-
+      56
+    "reference_addrs":
+    - !!int |-
+      54732
+    "translated": !!null |-
+      null
   "61c0":
     "original": |-
       <C_YELLOW>教育係 ラウエル<C_NONE>
@@ -92,14 +148,30 @@
 
       <LOC6269>王子さま どうか 無理をなさらずに
       元気な姿で お戻りください。
-    "translated": ""
+    "original_byte_length": !!int |-
+      230
+    "reference_addrs":
+    - !!int |-
+      54741
+    "translated": !!null |-
+      null
   "62a6":
     "original": |-
       <C_YELLOW>セリオス<C_NONE>
       <JUMP62cf><LOC62b4><C_YELLOW>エリオン<C_NONE>
       <JUMP62cf><LOC62c2><C_YELLOW>ゲイル３世<C_NONE>
       <LOC62cf> ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･
-    "translated": ""
+    "original_byte_length": !!int |-
+      76
+    "reference_addrs":
+    - !!int |-
+      54756
+    - !!int |-
+      54771
+    - !!int |-
+      54786
+    "translated": !!null |-
+      null
   "62f2":
     "original": |-
       <SET0014><SET0015><C_YELLOW>兵士<C_NONE>
@@ -240,5 +312,11 @@
       じゃあ ラヌーラにでも 行くか。
 
       <C_GREEN>ランドーは ワプの翼を使った。<C_NONE><RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      2234
+    "reference_addrs":
+    - !!int |-
+      54800
+    "translated": !!null |-
+      null
 "note": ""

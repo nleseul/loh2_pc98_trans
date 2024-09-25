@@ -4,14 +4,26 @@
       <C_YELLOW>村長<C_NONE>
       シンディ、何か思い出したことでも
       ないのか？ 元気を出すのじゃぞ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      72
+    "reference_addrs":
+    - !!int |-
+      54631
+    "translated": !!null |-
+      null
   "5aa9":
     "original": |-
       <C_YELLOW>老人<C_NONE>
       うちの孫は 知りませんかの？
       元気が あるのは いいんじゃが
       わしには めんどう みきれんわい。
-    "translated": ""
+    "original_byte_length": !!int |-
+      97
+    "reference_addrs":
+    - !!int |-
+      54640
+    "translated": !!null |-
+      null
   "5b0a":
     "original": |-
       <C_YELLOW>老人<C_NONE>
@@ -20,7 +32,13 @@
 
       若い者たちは みんな 町へ出ていってしまって 年寄りばかりに
       なってしまったのじゃよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      139
+    "reference_addrs":
+    - !!int |-
+      54649
+    "translated": !!null |-
+      null
   "5b95":
     "original": |-
       <C_YELLOW>老婆<C_NONE>
@@ -30,21 +48,39 @@
 
       あのばあさんは 昔からの言い伝えを
       よく知ってるから 勉強になるぞ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      155
+    "reference_addrs":
+    - !!int |-
+      54658
+    "translated": !!null |-
+      null
   "5c30":
     "original": |-
       <C_YELLOW>老婆<C_NONE>
       盗賊の町 ファンガスは バケモノに
       つぶされてしまったそうじゃが
       盗賊たちは どこへ 逃げたんじゃろう。
-    "translated": ""
+    "original_byte_length": !!int |-
+      106
+    "reference_addrs":
+    - !!int |-
+      54667
+    "translated": !!null |-
+      null
   "5c9a":
     "original": |-
       <C_YELLOW>子ども<C_NONE>
       おじいちゃんと 鬼ごっこを
       してるんだけど ちっとも
       おもしろくないんだ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      80
+    "reference_addrs":
+    - !!int |-
+      54676
+    "translated": !!null |-
+      null
   "5cea":
     "original": |-
       <C_YELLOW>女<C_NONE>
@@ -53,5 +89,11 @@
       かなり前から いるんだけど 弟が
       なかなか 帰りたがらないから
       あきるまで ずっと いることにしたの。
-    "translated": ""
+    "original_byte_length": !!int |-
+      138
+    "reference_addrs":
+    - !!int |-
+      54685
+    "translated": !!null |-
+      null
 "note": ""

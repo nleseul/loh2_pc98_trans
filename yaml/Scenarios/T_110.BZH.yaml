@@ -7,7 +7,13 @@
 
       何か 悪いことが 起こらなければ
       いいのだが ･ ･ ･
-    "translated": ""
+    "original_byte_length": !!int |-
+      130
+    "reference_addrs":
+    - !!int |-
+      54633
+    "translated": !!null |-
+      null
   "5b76":
     "original": |-
       ラヌーラに 初めて 出入りする者は
@@ -18,7 +24,13 @@
       リーゼルの城で 受け付けている。
       届け出れば すぐに 連絡がくるので
       今からでも 行ってくるんだな。
-    "translated": ""
+    "original_byte_length": !!int |-
+      218
+    "reference_addrs":
+    - !!int |-
+      54648
+    "translated": !!null |-
+      null
   "5c50":
     "original": |-
       <CALL619b>ボアード海運の ボアードは
@@ -27,7 +39,13 @@
       そういえば あれが できてからは
       海賊が いなくなったしなぁ。
       でも まさか そんなはずないよな。
-    "translated": ""
+    "original_byte_length": !!int |-
+      147
+    "reference_addrs":
+    - !!int |-
+      54682
+    "translated": !!null |-
+      null
   "5ce3":
     "original": |-
       <C_YELLOW>女<C_NONE>
@@ -42,7 +60,13 @@
 
       だから 今では そんな悪いうわさは
       きかなくなったわ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      271
+    "reference_addrs":
+    - !!int |-
+      54691
+    "translated": !!null |-
+      null
   "5df2":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -51,7 +75,13 @@
 
       何か 珍しい物でも 持ってるなら
       見せてみな きっと買いたがるぜ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      120
+    "reference_addrs":
+    - !!int |-
+      54700
+    "translated": !!null |-
+      null
   "5e6a":
     "original": |-
       <CALL61a2>おや いらっしゃい。
@@ -89,13 +119,59 @@
       <Xf29261><JUMP6173>切符を 買いますか？<Xf69229><JUMP615c><Xf39261><Xf128><CLEAR>はい どうぞ、ありがとうございます。<END>
       <LOC615c><CLEAR>あら そうですか ･ ･ ･<END>
       <LOC6173>お客さん お金が 足りないわよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      808
+    "reference_addrs":
+    - !!int |-
+      54706
+    - !!int |-
+      54712
+    - !!int |-
+      24776
+    - !!int |-
+      24776
+    - !!int |-
+      24776
+    "translated": !!null |-
+      null
   "619b":
     "original": |-
       <C_YELLOW>兵士<C_NONE><RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      7
+    "reference_addrs":
+    - !!int |-
+      54642
+    - !!int |-
+      23223
+    - !!int |-
+      23633
+    "translated": !!null |-
+      null
   "61a2":
     "original": |-
       <C_YELLOW>呪文屋<C_NONE><RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      9
+    "reference_addrs":
+    - !!int |-
+      24171
+    - !!int |-
+      24550
+    - !!int |-
+      24642
+    - !!int |-
+      24171
+    - !!int |-
+      24550
+    - !!int |-
+      24642
+    - !!int |-
+      24171
+    - !!int |-
+      24550
+    - !!int |-
+      24642
+    "translated": !!null |-
+      null
 "note": ""

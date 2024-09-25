@@ -2,38 +2,98 @@
   "7170":
     "original": |-
       グロルＡ<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      9
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "71b0":
     "original": |-
       グロルＢ<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      9
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "71f0":
     "original": |-
       グロルＣ<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      9
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "7230":
     "original": |-
       グロルＤ<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      9
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "74bd":
     "original": |-
       グロルが現れた。<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      17
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "74e0":
     "original": |-
       <ACTOR>の運のよさが 11 <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      18
+    "reference_addrs":
+    - !!int |-
+      61536
+    - !!int |-
+      61536
+    "translated": !!null |-
+      null
   "74fd":
     "original": |-
       さがった。<RET_PAGE>
-    "translated": ""
+    "original_byte_length": !!int |-
+      11
+    "reference_addrs":
+    - !!int |-
+      61542
+    - !!int |-
+      61542
+    "translated": !!null |-
+      null
   "7508":
     "original": |-
       グロルはゆで上がってしまった。<RET_PAGE>
-    "translated": ""
+    "original_byte_length": !!int |-
+      31
+    "reference_addrs":
+    - !!int |-
+      61505
+    - !!int |-
+      61505
+    "translated": !!null |-
+      null
   "7527":
     "original": |-
       グロルのまわりの水からイグナが
       伝わってきた !!<RET_PAGE>
-    "translated": ""
+    "original_byte_length": !!int |-
+      47
+    "reference_addrs":
+    - !!int |-
+      61422
+    "translated": !!null |-
+      null
 "note": ""

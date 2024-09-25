@@ -9,13 +9,27 @@
       お守りすること。
 
       ここから先は だれにも 行かせん。
-    "translated": ""
+    "original_byte_length": !!int |-
+      148
+    "reference_addrs":
+    - !!int |-
+      54879
+    "translated": !!null |-
+      null
   "6161":
     "original": |-
       <C_YELLOW>ガービィ<C_NONE>
       な 何だ !? この曲は ･ ･ ･<WAIT>
       か 体が ･ ･ ･
-    "translated": ""
+    "original_byte_length": !!int |-
+      51
+    "reference_addrs":
+    - !!int |-
+      54935
+    - !!int |-
+      54935
+    "translated": !!null |-
+      null
   "6194":
     "original": |-
       <C_YELLOW>レイシア<C_NONE>
@@ -88,7 +102,13 @@
 
       <CH0>
       よし それじゃ ５人で行こう !!
-    "translated": ""
+    "original_byte_length": !!int |-
+      1116
+    "reference_addrs":
+    - !!int |-
+      54976
+    "translated": !!null |-
+      null
   "65f0":
     "original": |-
       <C_YELLOW>レイシア<C_NONE>
@@ -97,7 +117,13 @@
       わかったわ。
       また あのワプの翼とかってやつを
       使ったのね。
-    "translated": ""
+    "original_byte_length": !!int |-
+      100
+    "reference_addrs":
+    - !!int |-
+      55039
+    "translated": !!null |-
+      null
   "6654":
     "original": |-
       <CH1>
@@ -108,18 +134,36 @@
       <CH2>
       うそですよ アトラスさま。
       さあ 早く 行きましょう。
-    "translated": ""
+    "original_byte_length": !!int |-
+      122
+    "reference_addrs":
+    - !!int |-
+      55053
+    "translated": !!null |-
+      null
   "66ce":
     "original": |-
       <C_YELLOW>ガービィ<C_NONE>
       おれのことは 心配するな。
       長年の夢を 実現するのだ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      63
+    "reference_addrs":
+    - !!int |-
+      55097
+    "translated": !!null |-
+      null
   "670d":
     "original": |-
       <CH1>
       おい アトラス。
       どこに 行くつもりなんだ？<WAIT>
       まさか 逃げるつもりじゃねえよな？
-    "translated": ""
+    "original_byte_length": !!int |-
+      79
+    "reference_addrs":
+    - !!int |-
+      55128
+    "translated": !!null |-
+      null
 "note": ""

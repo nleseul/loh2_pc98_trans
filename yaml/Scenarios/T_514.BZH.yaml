@@ -15,17 +15,35 @@
       酒はあげられんな。<END>
       <LOC5c9d>そんなに 欲張るでない。
       持ち物が いっぱいじゃぞ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      325
+    "reference_addrs":
+    - !!int |-
+      54810
+    "translated": !!null |-
+      null
   "5cd3":
     "original": |-
       <C_YELLOW>ハーベイ<C_NONE>
       こらこら それは大事な物が入っとる。さわるでない。
-    "translated": ""
+    "original_byte_length": !!int |-
+      61
+    "reference_addrs":
+    - !!int |-
+      54747
+    "translated": !!null |-
+      null
   "5d10":
     "original": |-
       <C_YELLOW>老人<C_NONE>
       いよいよ レジスタンスたちが 皇帝を倒すために 立ち上がったそうじゃ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      75
+    "reference_addrs":
+    - !!int |-
+      54819
+    "translated": !!null |-
+      null
   "5d5b":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -35,13 +53,25 @@
 
       村の者たちも 期待しています。
       がんばってください。
-    "translated": ""
+    "original_byte_length": !!int |-
+      146
+    "reference_addrs":
+    - !!int |-
+      54828
+    "translated": !!null |-
+      null
   "5ded":
     "original": |-
       <C_YELLOW>女<C_NONE>
       なに あなたたちは？
       お洗濯のじゃま しないでくれる。
-    "translated": ""
+    "original_byte_length": !!int |-
+      57
+    "reference_addrs":
+    - !!int |-
+      54837
+    "translated": !!null |-
+      null
   "5e26":
     "original": |-
       <C_YELLOW>女<C_NONE>
@@ -52,7 +82,13 @@
       でも 今は みんな皇帝を 恐れずに
       あなたたちを 応援しているのよ。
       がんばってね。
-    "translated": ""
+    "original_byte_length": !!int |-
+      158
+    "reference_addrs":
+    - !!int |-
+      54846
+    "translated": !!null |-
+      null
   "5ec4":
     "original": |-
       <C_YELLOW>子ども<C_NONE>
@@ -63,59 +99,129 @@
       でも やっぱり やーめた。<END>
       <LOC5f31>あっ お兄ちゃん。
       秘密基地のことは 秘密だよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      155
+    "reference_addrs":
+    - !!int |-
+      54855
+    "translated": !!null |-
+      null
   "5f5f":
     "original": |-
       <C_YELLOW>ヤミ屋<C_NONE>
       何の用だ？<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      20
+    "reference_addrs":
+    - !!int |-
+      54876
+    "translated": !!null |-
+      null
   "5f73":
     "original": |-
       まいど どうも。
-    "translated": ""
+    "original_byte_length": !!int |-
+      16
+    "reference_addrs":
+    - !!int |-
+      54903
+    - !!int |-
+      54903
+    - !!int |-
+      54903
+    "translated": !!null |-
+      null
   "5f83":
     "original": |-
       これ以上 持てないみたいだな。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      31
+    "reference_addrs":
+    - !!int |-
+      1848
+    "translated": !!null |-
+      null
   "5fa2":
     "original": |-
       何を買いたいんだ？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      20
+    "reference_addrs":
+    - !!int |-
+      1850
+    "translated": !!null |-
+      null
   "5fb6":
     "original": |-
       <ITEM>だな。
       まいど どうも。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      25
+    "reference_addrs":
+    - !!int |-
+      1852
+    "translated": !!null |-
+      null
   "5fd7":
     "original": |-
       どれを 売りたいんだ？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      23
+    "reference_addrs":
+    - !!int |-
+      1681
+    "translated": !!null |-
+      null
   "5fee":
     "original": |2-
        Gold で買ってやるよ。
       いいだろ？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      35
+    "reference_addrs":
+    - !!int |-
+      1683
+    "translated": !!null |-
+      null
   "6011":
     "original": |-
       何だよ 売ってくれねえのか。
 
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      29
+    "reference_addrs":
+    - !!int |-
+      1685
+    "translated": !!null |-
+      null
   "602e":
     "original": |-
       ありがとよ。
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      14
+    "reference_addrs":
+    - !!int |-
+      1687
+    "translated": !!null |-
+      null
   "603c":
     "original": |-
       <PARTY>は 宝箱を開けました。
       宝箱の中には<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      36
+    "reference_addrs":
+    - !!int |-
+      54764
+    "translated": !!null |-
+      null
 "note": ""

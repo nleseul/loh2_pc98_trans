@@ -3,38 +3,74 @@
     "original": |-
       <C_YELLOW>ボザ<C_NONE>
       武器ができるまで ここは おれたちが守ってるから お前らは 先にいくんだ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      78
+    "reference_addrs":
+    - !!int |-
+      54645
+    "translated": !!null |-
+      null
   "5b21":
     "original": |-
       <C_YELLOW>男<C_NONE>
       <IF0200><JUMP5ced>ここが <CALL5d1d>の部屋だそうです。
       もう完全に 占拠しました。
-    "translated": ""
+    "original_byte_length": !!int |-
+      66
+    "reference_addrs":
+    - !!int |-
+      54654
+    "translated": !!null |-
+      null
   "5b63":
     "original": |-
       <C_YELLOW><CALL5d1d>の<CALL5d26><C_NONE>
       こいつを使えば 強力な武器が
       作れるはずだ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      54
+    "reference_addrs":
+    - !!int |-
+      54663
+    "translated": !!null |-
+      null
   "5b99":
     "original": |-
       <C_YELLOW>ヨシュアの<CALL5d26><C_NONE>
       武器のほうは われわれに まかせて
       君たちは 先に行きなさい。
-    "translated": ""
+    "original_byte_length": !!int |-
+      75
+    "reference_addrs":
+    - !!int |-
+      54672
+    "translated": !!null |-
+      null
   "5be4":
     "original": |-
       <C_YELLOW>バイオラの<CALL5d26><C_NONE>
       私が作り出した ガードたちは 特殊な攻撃をするから 君たちも 覚悟して
       戦うのだぞ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      96
+    "reference_addrs":
+    - !!int |-
+      54681
+    "translated": !!null |-
+      null
   "5c44":
     "original": |-
       <C_YELLOW><CALL5d2f><C_NONE>
       武器が できしだい わしらも 後を
       追うから それまでに 君たちは
       皇帝を 見つけ出しておくのじゃ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      99
+    "reference_addrs":
+    - !!int |-
+      54690
+    "translated": !!null |-
+      null
   "5ca7":
     "original": |-
       <C_YELLOW>ケリイ<C_NONE>
@@ -42,17 +78,53 @@
       見つけ出してください。<END>
       <LOC5ced><CALL5d2f>たちは 皇帝を倒すために
       行ってしまいました。
-    "translated": ""
+    "original_byte_length": !!int |-
+      118
+    "reference_addrs":
+    - !!int |-
+      54699
+    - !!int |-
+      23338
+    "translated": !!null |-
+      null
   "5d1d":
     "original": |-
       テクニカ<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      9
+    "reference_addrs":
+    - !!int |-
+      23397
+    - !!int |-
+      23348
+    "translated": !!null |-
+      null
   "5d26":
     "original": |-
       マスター<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      9
+    "reference_addrs":
+    - !!int |-
+      23402
+    - !!int |-
+      23461
+    - !!int |-
+      23536
+    "translated": !!null |-
+      null
   "5d2f":
     "original": |-
       リーダー<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      9
+    "reference_addrs":
+    - !!int |-
+      23622
+    - !!int |-
+      23790
+    - !!int |-
+      23790
+    "translated": !!null |-
+      null
 "note": ""

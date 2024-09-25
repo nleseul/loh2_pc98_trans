@@ -2,33 +2,83 @@
   "7170":
     "original": |-
       バイオレッド<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      13
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "71b0":
     "original": |-
       装甲スライム<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      13
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "71f0":
     "original": |-
       バイオレッドＣ<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      15
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "7230":
     "original": |-
       バイオレッドＤ<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      15
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "7442":
     "original": |-
       バイオレッドが現れた。<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      23
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "7459":
     "original": |-
       <ACTOR>は自分の頭をゆすって<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      22
+    "reference_addrs":
+    - !!int |-
+      61350
+    - !!int |-
+      61350
+    "translated": !!null |-
+      null
   "7495":
     "original": |-
       <ACTOR>は仲間を呼んだ。<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      18
+    "reference_addrs":
+    - !!int |-
+      61145
+    "translated": !!null |-
+      null
   "74a7":
     "original": |-
       装甲スライムが落ちてきた!!<RET_PAGE>
-    "translated": ""
+    "original_byte_length": !!int |-
+      27
+    "reference_addrs":
+    - !!int |-
+      61199
+    "translated": !!null |-
+      null
 "note": ""

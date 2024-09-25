@@ -4,7 +4,13 @@
       <CLEAR>
                 英雄達の伝説Ⅱ<N>
 
-    "translated": ""
+    "original_byte_length": !!int |-
+      29
+    "reference_addrs":
+    - !!int |-
+      54620
+    "translated": !!null |-
+      null
   "5e39":
     "original": |-
       <CLEAR><C_YELLOW>フラッド<C_NONE>
@@ -57,5 +63,11 @@
       すぐに戻る 留守を頼むぞ。<WAIT>
       <ASMd910><CLEAR><C_YELLOW>セリオス国王<C_NONE>
       行くぞ !!
-    "translated": ""
+    "original_byte_length": !!int |-
+      776
+    "reference_addrs":
+    - !!int |-
+      54713
+    "translated": !!null |-
+      null
 "note": ""

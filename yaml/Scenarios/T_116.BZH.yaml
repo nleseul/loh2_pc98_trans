@@ -6,11 +6,23 @@
       復活したとのだと 思ったのだ。
 
       しかし それは 違っていたようだな。
-    "translated": ""
+    "original_byte_length": !!int |-
+      132
+    "reference_addrs":
+    - !!int |-
+      54739
+    "translated": !!null |-
+      null
   "5beb":
     "original": |-
       <CALL61ee>ラヌーラでは セリスの城を 建て直すために たいへんなんだそうだ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      67
+    "reference_addrs":
+    - !!int |-
+      54748
+    "translated": !!null |-
+      null
   "5d55":
     "original": |-
       <CALL61ee>ボアード海運の ボアードは
@@ -19,21 +31,39 @@
       そういえば あれが できてからは
       海賊が いなくなったしなぁ。
       でも まさか そんなはずないよな。
-    "translated": ""
+    "original_byte_length": !!int |-
+      147
+    "reference_addrs":
+    - !!int |-
+      54803
+    "translated": !!null |-
+      null
   "5de8":
     "original": |-
       <C_YELLOW>女<C_NONE>
       一時は どうなることかと思ったけど
       平和になって よかったわぁ。
       これも バーバラさまのおかげね。
-    "translated": ""
+    "original_byte_length": !!int |-
+      99
+    "reference_addrs":
+    - !!int |-
+      54812
+    "translated": !!null |-
+      null
   "5e4b":
     "original": |-
       <C_YELLOW>男<C_NONE>
       モンスターが いなくなったとたんに
       ヨルドの聖域に お祈りにいく人が
       増えたようですよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      90
+    "reference_addrs":
+    - !!int |-
+      54821
+    "translated": !!null |-
+      null
   "5ea5":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -44,7 +74,13 @@
       <LOC5f0f><CLEAR>早く お乗りください。
       出発しますよ。<END>
       <LOC5f35>切符が ないみたいですよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      170
+    "reference_addrs":
+    - !!int |-
+      54650
+    "translated": !!null |-
+      null
   "5f4f":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -53,7 +89,13 @@
       こなくなったんだ。
 
       あの呪文屋 そのうち こっとう品でも売り始めるんじゃないかな。
-    "translated": ""
+    "original_byte_length": !!int |-
+      146
+    "reference_addrs":
+    - !!int |-
+      54830
+    "translated": !!null |-
+      null
   "5fe1":
     "original": |-
       <C_YELLOW>呪文屋<C_NONE>
@@ -66,29 +108,59 @@
       まけられませんからね。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      173
+    "reference_addrs":
+    - !!int |-
+      54842
+    "translated": !!null |-
+      null
   "608e":
     "original": |-
       また おいでください。
-    "translated": ""
+    "original_byte_length": !!int |-
+      22
+    "reference_addrs":
+    - !!int |-
+      54854
+    "translated": !!null |-
+      null
   "60a4":
     "original": |-
       おや？これ以上持てないようですね。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      36
+    "reference_addrs":
+    - !!int |-
+      2232
+    "translated": !!null |-
+      null
   "60c8":
     "original": |-
       どれを買ってくれますか？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      26
+    "reference_addrs":
+    - !!int |-
+      2234
+    "translated": !!null |-
+      null
   "60e2":
     "original": |-
       <ITEM>だね。
       どうも ありがとう。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      29
+    "reference_addrs":
+    - !!int |-
+      2236
+    "translated": !!null |-
+      null
   "60ff":
     "original": |-
       <C_YELLOW>女<C_NONE>
@@ -100,9 +172,25 @@
       <LOC6197><CLEAR>あら そうですか ･ ･ ･<END>
       <LOC61ae>お客さん お金が 足りないわよ。<END>
       <LOC61cd>これ以上 持てないわよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      230
+    "reference_addrs":
+    - !!int |-
+      54860
+    "translated": !!null |-
+      null
   "61ee":
     "original": |-
       <C_YELLOW>兵士<C_NONE><RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      7
+    "reference_addrs":
+    - !!int |-
+      23400
+    - !!int |-
+      23532
+    - !!int |-
+      23894
+    "translated": !!null |-
+      null
 "note": ""

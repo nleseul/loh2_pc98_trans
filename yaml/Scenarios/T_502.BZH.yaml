@@ -12,7 +12,13 @@
 
       ボザのおじちゃんたちが 入口で
       見張っているんだ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      213
+    "reference_addrs":
+    - !!int |-
+      54784
+    "translated": !!null |-
+      null
   "5caa":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -23,7 +29,13 @@
       しやがってよお。<END>
       <LOC5d1b>あの いまいましい モンスターどもはどこから 出てきてやがるんだ。
       あぶなくて 外にも出られやしねえぜ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      213
+    "reference_addrs":
+    - !!int |-
+      54793
+    "translated": !!null |-
+      null
   "5d7f":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -41,7 +53,13 @@
       モンスターまで 出てきて ･ ･ ･
 
       そのうち 町もつぶされ 混乱が起こり滅亡していくのです。
-    "translated": ""
+    "original_byte_length": !!int |-
+      362
+    "reference_addrs":
+    - !!int |-
+      54802
+    "translated": !!null |-
+      null
   "5ee9":
     "original": |-
       <C_YELLOW>女<C_NONE>
@@ -49,7 +67,13 @@
       いいんだから うちの人の 言うことは気にしないでね。<END>
       <LOC5f46>ごめんなさいね うちの人は ちょっとおくびょうで 悲観的な人なのよ。
       あまり 気にしないでくださいね。
-    "translated": ""
+    "original_byte_length": !!int |-
+      191
+    "reference_addrs":
+    - !!int |-
+      54811
+    "translated": !!null |-
+      null
   "5fa8":
     "original": |-
       <C_YELLOW>女<C_NONE>
@@ -64,7 +88,13 @@
       だけど 今じゃ お酒を飲むのが
       禁止されているから おじいさんは
       楽しみが なくなっちゃったのよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      271
+    "reference_addrs":
+    - !!int |-
+      54820
+    "translated": !!null |-
+      null
   "60b7":
     "original": |-
       <C_YELLOW>老人<C_NONE>
@@ -74,7 +104,13 @@
       どうして わしらが 苦労ばかりして
       城にいる者たちは いい暮らしが
       できるのじゃろうか。<LOC6145>
-    "translated": ""
+    "original_byte_length": !!int |-
+      143
+    "reference_addrs":
+    - !!int |-
+      54829
+    "translated": !!null |-
+      null
   "6146":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -89,7 +125,13 @@
       でも あのモンスターたちがいるから
       イズーに 行くには たいへんだよ。
       せめて 武器でもあればなあ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      358
+    "reference_addrs":
+    - !!int |-
+      54838
+    "translated": !!null |-
+      null
   "62ac":
     "original": |-
       <C_YELLOW>ボザ<C_NONE>
@@ -99,7 +141,13 @@
       悪いが お父さんの 救出作戦の方まで人をさいて いられなくなったんだ。
       おれたち レジスタンスが 各村を
       守ることにしたんだ。<LOC6371>
-    "translated": ""
+    "original_byte_length": !!int |-
+      198
+    "reference_addrs":
+    - !!int |-
+      54847
+    "translated": !!null |-
+      null
   "6372":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -109,5 +157,11 @@
       <LOC63da>モンスターが 出てきたおかげで
       しばらくは レジスタンスの活動を
       休止することに なってしまったな。
-    "translated": ""
+    "original_byte_length": !!int |-
+      200
+    "reference_addrs":
+    - !!int |-
+      54856
+    "translated": !!null |-
+      null
 "note": ""

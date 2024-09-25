@@ -16,7 +16,13 @@
 
       おれの子孫のために 大事に
       ドラゴンを 育ててるのさ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      327
+    "reference_addrs":
+    - !!int |-
+      54652
+    "translated": !!null |-
+      null
   "5c50":
     "original": |-
       <C_YELLOW>ボイル<C_NONE>
@@ -35,19 +41,37 @@
       ようじゃから きっと また
       ファーレーンにでも 遊びに
       行っとるのじゃろう。
-    "translated": ""
+    "original_byte_length": !!int |-
+      434
+    "reference_addrs":
+    - !!int |-
+      54661
+    "translated": !!null |-
+      null
   "5e02":
     "original": |-
       <C_YELLOW>ボイル<C_NONE>
       あんたがた 他人の持ち物を
       勝手に のぞくでない。
-    "translated": ""
+    "original_byte_length": !!int |-
+      57
+    "reference_addrs":
+    - !!int |-
+      54643
+    "translated": !!null |-
+      null
   "5e3b":
     "original": |-
       <C_YELLOW>ノーマ<C_NONE>
       私たちは 牧場を 息子のジャンに
       まかせて ここで隠居してるんです。
-    "translated": ""
+    "original_byte_length": !!int |-
+      74
+    "reference_addrs":
+    - !!int |-
+      54670
+    "translated": !!null |-
+      null
   "5e85":
     "original": |-
       <C_YELLOW>商人<C_NONE>
@@ -56,59 +80,135 @@
       買っていってください。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      91
+    "reference_addrs":
+    - !!int |-
+      54682
+    "translated": !!null |-
+      null
   "5ee0":
     "original": |-
       また来てくださいね。
-    "translated": ""
+    "original_byte_length": !!int |-
+      21
+    "reference_addrs":
+    - !!int |-
+      54694
+    "translated": !!null |-
+      null
   "5ef5":
     "original": |-
       <C_YELLOW>道具屋<C_NONE>
       いらっしゃいませ。
       どのような ご用でしょうか？<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      56
+    "reference_addrs":
+    - !!int |-
+      54706
+    "translated": !!null |-
+      null
   "5f2d":
     "original": |-
       また来てくださいね。
-    "translated": ""
+    "original_byte_length": !!int |-
+      21
+    "reference_addrs":
+    - !!int |-
+      54733
+    - !!int |-
+      54733
+    - !!int |-
+      54733
+    "translated": !!null |-
+      null
   "5f42":
     "original": |-
       おや？これ以上持てないようですね。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      36
+    "reference_addrs":
+    - !!int |-
+      1760
+    - !!int |-
+      1760
+    "translated": !!null |-
+      null
   "5f66":
     "original": |-
       どれを買ってくれますか？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      26
+    "reference_addrs":
+    - !!int |-
+      1762
+    - !!int |-
+      1762
+    "translated": !!null |-
+      null
   "5f80":
     "original": |-
       <ITEM>だね。
       どうも ありがとう。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      29
+    "reference_addrs":
+    - !!int |-
+      1764
+    - !!int |-
+      1764
+    "translated": !!null |-
+      null
   "5fa5":
     "original": |-
       どれを 売ってくれますか？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      27
+    "reference_addrs":
+    - !!int |-
+      1631
+    "translated": !!null |-
+      null
   "5fc0":
     "original": |2-
        Gold になるけど
       それでも よろしいですか？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      44
+    "reference_addrs":
+    - !!int |-
+      1633
+    "translated": !!null |-
+      null
   "5fec":
     "original": |-
       それは残念です。
 
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      18
+    "reference_addrs":
+    - !!int |-
+      1635
+    "translated": !!null |-
+      null
   "5ffe":
     "original": |-
       どうも ありがとうございます。
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      31
+    "reference_addrs":
+    - !!int |-
+      1637
+    "translated": !!null |-
+      null
 "note": ""

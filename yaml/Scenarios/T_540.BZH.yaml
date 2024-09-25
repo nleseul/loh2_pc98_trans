@@ -10,7 +10,13 @@
       <LOC5b9a>そういえば そろそろ サピアの湖の
       流れが変わるころでしたね。
       すっかり忘れていましたよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      199
+    "reference_addrs":
+    - !!int |-
+      54652
+    "translated": !!null |-
+      null
   "5bf1":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -26,19 +32,37 @@
 
       おれだって この辺じゃ 名のとおったレジスタンスなんだ。
       安心してくれよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      296
+    "reference_addrs":
+    - !!int |-
+      54661
+    "translated": !!null |-
+      null
   "5d19":
     "original": |-
       <C_YELLOW>子ども<C_NONE>
       あー つまんないよー。
       もうなおってるのになー。
-    "translated": ""
+    "original_byte_length": !!int |-
+      56
+    "reference_addrs":
+    - !!int |-
+      54685
+    "translated": !!null |-
+      null
   "5d51":
     "original": |-
       <C_YELLOW>女<C_NONE>
       この子 カゼを ひいてしまったのよ。まだなおってないくせに 外に遊びに
       いきたがるから困ってるのよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      102
+    "reference_addrs":
+    - !!int |-
+      54694
+    "translated": !!null |-
+      null
   "5db7":
     "original": |-
       <C_YELLOW>老人<C_NONE>
@@ -104,7 +128,13 @@
       帰ってきておらん。
 
       それ以来 わしらは 正面から入るのをあきらめておるのじゃよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      1241
+    "reference_addrs":
+    - !!int |-
+      54703
+    "translated": !!null |-
+      null
   "6290":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -118,7 +148,13 @@
 
       たまにユイシスに行って 珍しい人に
       会うぐらいしか 楽しみはないな。
-    "translated": ""
+    "original_byte_length": !!int |-
+      246
+    "reference_addrs":
+    - !!int |-
+      54712
+    "translated": !!null |-
+      null
   "6386":
     "original": |-
       <C_YELLOW>女<C_NONE>
@@ -127,54 +163,118 @@
 
       かなり 警備がきびしいんでしょうね
       きっと。
-    "translated": ""
+    "original_byte_length": !!int |-
+      134
+    "reference_addrs":
+    - !!int |-
+      54721
+    "translated": !!null |-
+      null
   "640c":
     "original": |-
       <C_YELLOW>ヤミ屋<C_NONE>
       らっしゃい !! どんな ご用で？<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      39
+    "reference_addrs":
+    - !!int |-
+      54742
+    "translated": !!null |-
+      null
   "6433":
     "original": |-
       まいどー。
-    "translated": ""
+    "original_byte_length": !!int |-
+      11
+    "reference_addrs":
+    - !!int |-
+      54769
+    - !!int |-
+      54769
+    - !!int |-
+      54769
+    "translated": !!null |-
+      null
   "643e":
     "original": |-
       お客さん 冗談はいけねえや。
       それ以上は 持てねえんだぜ。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      57
+    "reference_addrs":
+    - !!int |-
+      3014
+    "translated": !!null |-
+      null
   "6477":
     "original": |-
       なにを買うんでい？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      20
+    "reference_addrs":
+    - !!int |-
+      3016
+    "translated": !!null |-
+      null
   "648b":
     "original": |-
       <ITEM>かい。
       へい まいど どうも。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      30
+    "reference_addrs":
+    - !!int |-
+      3018
+    "translated": !!null |-
+      null
   "64b1":
     "original": |-
       どれを 売るんでい？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      21
+    "reference_addrs":
+    - !!int |-
+      2923
+    "translated": !!null |-
+      null
   "64c6":
     "original": |2-
        Gold だよ。いいかい？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      24
+    "reference_addrs":
+    - !!int |-
+      2925
+    "translated": !!null |-
+      null
   "64de":
     "original": |-
       ひやかしは よくねえよ。
 
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      25
+    "reference_addrs":
+    - !!int |-
+      2927
+    "translated": !!null |-
+      null
   "64f7":
     "original": |-
       わりいね。
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      12
+    "reference_addrs":
+    - !!int |-
+      2929
+    "translated": !!null |-
+      null
 "note": ""

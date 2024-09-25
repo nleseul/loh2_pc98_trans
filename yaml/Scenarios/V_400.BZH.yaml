@@ -4,7 +4,13 @@
       <CLEAR>       第４章　暗黒の支配者<N>
 
       　　　　　　　　完
-    "translated": ""
+    "original_byte_length": !!int |-
+      50
+    "reference_addrs":
+    - !!int |-
+      54620
+    "translated": !!null |-
+      null
   "5e04":
     "original": |-
       <CLEAR><C_YELLOW>ヒストラのマスター<C_NONE>
@@ -258,5 +264,11 @@
 
       <C_YELLOW>レジスタンスたち<C_NONE>
       おぉー !!
-    "translated": ""
+    "original_byte_length": !!int |-
+      4748
+    "reference_addrs":
+    - !!int |-
+      54862
+    "translated": !!null |-
+      null
 "note": ""

@@ -4,7 +4,13 @@
       <CLEAR>          第３章　竜の卵<N>
 
       　　　　　　　　完
-    "translated": ""
+    "original_byte_length": !!int |-
+      47
+    "reference_addrs":
+    - !!int |-
+      54620
+    "translated": !!null |-
+      null
   "5e8b":
     "original": |-
       <CLEAR><CH0>
@@ -54,5 +60,11 @@
       <Xfba8618c61><CH1>
       何があったか 行きゃわかるだろ。
       とりあえず イシュタに行こうぜ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      698
+    "reference_addrs":
+    - !!int |-
+      54873
+    "translated": !!null |-
+      null
 "note": ""

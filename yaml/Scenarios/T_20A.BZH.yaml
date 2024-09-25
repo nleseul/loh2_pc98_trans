@@ -5,17 +5,35 @@
       フレイアさまって すごいんだな。
       これからは フレイアさまのことを
       信じることにしたんだよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      94
+    "reference_addrs":
+    - !!int |-
+      54635
+    "translated": !!null |-
+      null
   "5bda":
     "original": |-
       <C_YELLOW>女<C_NONE>
       これからは 週に１度は ここに来て
       お祈りをすることにしたの。
-    "translated": ""
+    "original_byte_length": !!int |-
+      65
+    "reference_addrs":
+    - !!int |-
+      54644
+    "translated": !!null |-
+      null
   "5c1b":
     "original": |-
       <C_YELLOW>老人<C_NONE>
       わしゃ 前から 月に２回は 必ず
       ここに来ていたんじゃ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      60
+    "reference_addrs":
+    - !!int |-
+      54653
+    "translated": !!null |-
+      null
 "note": ""

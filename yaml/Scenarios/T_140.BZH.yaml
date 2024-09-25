@@ -142,7 +142,19 @@
 
       さっさと 売っぱらっちまったら
       いいのによ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      2158
+    "reference_addrs":
+    - !!int |-
+      54711
+    - !!int |-
+      54711
+    - !!int |-
+      54720
+    - !!int |-
+      54729
+    "translated": !!null |-
+      null
   "646e":
     "original": |-
       <CALL6cf7><IF0050><JUMP6587><IF004a><JUMP6558><SET004a>この先は お城になっている。
@@ -170,7 +182,13 @@
       なかったんですよ。
 
       でも それを 私が言ってしまったので頭にきているんです。
-    "translated": ""
+    "original_byte_length": !!int |-
+      620
+    "reference_addrs":
+    - !!int |-
+      54738
+    "translated": !!null |-
+      null
   "66da":
     "original": |-
       <CALL6cf7><IF0050><JUMP67da><IF004a><JUMP67ab><SET004a>おい、その剣は何だ？ そんな物を
@@ -196,7 +214,13 @@
       いたしません。
 
       あいつとは 違うんですから ･ ･ ･
-    "translated": ""
+    "original_byte_length": !!int |-
+      534
+    "reference_addrs":
+    - !!int |-
+      54747
+    "translated": !!null |-
+      null
   "68f0":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -206,7 +230,13 @@
 
       こんな言い伝え 知ってますか？
       うちの父がよく言っていたんですよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      149
+    "reference_addrs":
+    - !!int |-
+      54756
+    "translated": !!null |-
+      null
   "6985":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -216,7 +246,13 @@
       ここだけの 話だけどな。
       あの３人じゃ、だれが なっても
       先が不安だよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      126
+    "reference_addrs":
+    - !!int |-
+      54765
+    "translated": !!null |-
+      null
   "6a03":
     "original": |-
       <C_YELLOW>女<C_NONE>
@@ -226,13 +262,25 @@
       この前なんか 私が 気づかずに
       ふんづけちゃったのよ。
       気持ち悪いったら ありゃしない。
-    "translated": ""
+    "original_byte_length": !!int |-
+      150
+    "reference_addrs":
+    - !!int |-
+      54774
+    "translated": !!null |-
+      null
   "6a99":
     "original": |-
       <C_YELLOW>老人<C_NONE>
       この前の地震は きっと竜の卵が
       かえる しるしに ちがいないわい。
-    "translated": ""
+    "original_byte_length": !!int |-
+      70
+    "reference_addrs":
+    - !!int |-
+      54783
+    "translated": !!null |-
+      null
   "6adf":
     "original": |-
       <C_YELLOW>子供<C_NONE>
@@ -242,7 +290,13 @@
 
       ぼく それが 大好きなんだ。
       でもねー ママは 怒るんだよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      128
+    "reference_addrs":
+    - !!int |-
+      54792
+    "translated": !!null |-
+      null
   "6b5f":
     "original": |-
       <C_YELLOW>武器屋<C_NONE>
@@ -251,71 +305,209 @@
 
       ラヌーラは 規制がきびしいから
       武器を運ぶのは たいへんなんだよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      140
+    "reference_addrs":
+    - !!int |-
+      54798
+    "translated": !!null |-
+      null
   "6beb":
     "original": |-
       <C_YELLOW>道具屋<C_NONE>
       いらっしゃいませ。
       どのような ご用でしょうか？<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      56
+    "reference_addrs":
+    - !!int |-
+      54810
+    "translated": !!null |-
+      null
   "6c23":
     "original": |-
       また来てくださいね。
-    "translated": ""
+    "original_byte_length": !!int |-
+      21
+    "reference_addrs":
+    - !!int |-
+      54837
+    - !!int |-
+      54837
+    - !!int |-
+      54837
+    "translated": !!null |-
+      null
   "6c38":
     "original": |-
       おや？これ以上持てないようですね。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      36
+    "reference_addrs":
+    - !!int |-
+      5098
+    "translated": !!null |-
+      null
   "6c5c":
     "original": |-
       どれを買ってくれますか？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      26
+    "reference_addrs":
+    - !!int |-
+      5100
+    "translated": !!null |-
+      null
   "6c76":
     "original": |-
       <ITEM>だね。
       <CALL6d0d>。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      15
+    "reference_addrs":
+    - !!int |-
+      5102
+    "translated": !!null |-
+      null
   "6c8d":
     "original": |-
       どれを 売ってくれますか？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      27
+    "reference_addrs":
+    - !!int |-
+      4935
+    "translated": !!null |-
+      null
   "6ca8":
     "original": |2-
        Gold になるけど
       それでも よろしいですか？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      44
+    "reference_addrs":
+    - !!int |-
+      4937
+    "translated": !!null |-
+      null
   "6cd4":
     "original": |-
       それは残念です。
 
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      18
+    "reference_addrs":
+    - !!int |-
+      4939
+    "translated": !!null |-
+      null
   "6ce6":
     "original": |-
       <CALL6d0d>ございます。
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      17
+    "reference_addrs":
+    - !!int |-
+      4941
+    "translated": !!null |-
+      null
   "6cf7":
     "original": |-
       <C_YELLOW>兵士<C_NONE><RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      7
+    "reference_addrs":
+    - !!int |-
+      25711
+    - !!int |-
+      25867
+    - !!int |-
+      26331
+    - !!int |-
+      26509
+    "translated": !!null |-
+      null
   "6cfe":
     "original": |-
       ジェストンさま<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      15
+    "reference_addrs":
+    - !!int |-
+      25838
+    - !!int |-
+      25920
+    - !!int |-
+      25945
+    - !!int |-
+      26474
+    - !!int |-
+      26540
+    - !!int |-
+      27047
+    "translated": !!null |-
+      null
   "6d0d":
     "original": |-
       どうも ありがとう<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      18
+    "reference_addrs":
+    - !!int |-
+      27775
+    - !!int |-
+      27879
+    "translated": !!null |-
+      null
   "6d1f":
     "original": |-
       アトラス<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      9
+    "reference_addrs":
+    - !!int |-
+      24093
+    - !!int |-
+      24109
+    - !!int |-
+      25458
+    - !!int |-
+      25541
+    - !!int |-
+      25605
+    - !!int |-
+      24093
+    - !!int |-
+      24109
+    - !!int |-
+      25458
+    - !!int |-
+      25541
+    - !!int |-
+      25605
+    - !!int |-
+      24093
+    - !!int |-
+      24109
+    - !!int |-
+      25458
+    - !!int |-
+      25541
+    - !!int |-
+      25605
+    - !!int |-
+      25813
+    - !!int |-
+      26449
+    "translated": !!null |-
+      null
 "note": ""

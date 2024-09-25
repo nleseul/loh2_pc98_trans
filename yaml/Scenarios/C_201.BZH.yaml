@@ -44,7 +44,13 @@
       ごゆっくり 見学なさって ください。<END>
       <LOC5e27>祭の前日は 前夜祭があります。
       それまでには お戻りください。
-    "translated": ""
+    "original_byte_length": !!int |-
+      925
+    "reference_addrs":
+    - !!int |-
+      54655
+    "translated": !!null |-
+      null
   "5e63":
     "original": |-
       <C_YELLOW>ポウエル<C_NONE>
@@ -52,25 +58,49 @@
 
       兄が 胃をやられてしまったので
       私が代わりに お仕えしているのです。
-    "translated": ""
+    "original_byte_length": !!int |-
+      137
+    "reference_addrs":
+    - !!int |-
+      54664
+    "translated": !!null |-
+      null
   "5eec":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       この左の方の部屋は 国王さまの
       私室なので 行くんじゃないぞ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      67
+    "reference_addrs":
+    - !!int |-
+      54673
+    "translated": !!null |-
+      null
   "5f2f":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       国王さまは この中だ。
       ちょうど 祭の 打ち合わせ中だから
       あまり 時間をかけないようにな。
-    "translated": ""
+    "original_byte_length": !!int |-
+      94
+    "reference_addrs":
+    - !!int |-
+      54682
+    "translated": !!null |-
+      null
   "5f8d":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       こんなに 忙しいのに 国民の話を
       ちゃんと きいてくれるんだから
       いい国王さまだと 思わないか？
-    "translated": ""
+    "original_byte_length": !!int |-
+      98
+    "reference_addrs":
+    - !!int |-
+      54691
+    "translated": !!null |-
+      null
 "note": ""

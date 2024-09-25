@@ -5,7 +5,13 @@
       あれっ !? ･ ･ ･ アトラス王子？
       ようこそ バズヌーンの城へ おいで
       くださいました。
-    "translated": ""
+    "original_byte_length": !!int |-
+      88
+    "reference_addrs":
+    - !!int |-
+      54633
+    "translated": !!null |-
+      null
   "5a9a":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -17,7 +23,13 @@
 
       あっ そういえば 先日セリオスさまがおいでになっていたようでしたが
       ごいっしょでは なかったのですね？
-    "translated": ""
+    "original_byte_length": !!int |-
+      210
+    "reference_addrs":
+    - !!int |-
+      54642
+    "translated": !!null |-
+      null
   "5b6c":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -25,7 +37,13 @@
 
       おふたりとも 重装備を していたのできっと モンスター退治にでも
       行かれたのでしょう。
-    "translated": ""
+    "original_byte_length": !!int |-
+      156
+    "reference_addrs":
+    - !!int |-
+      54651
+    "translated": !!null |-
+      null
   "5c08":
     "original": |-
       <C_YELLOW>侍女<C_NONE>
@@ -34,12 +52,24 @@
       王子さまが いらっしゃったのなら
       今日は ビーフシチューでも
       お作りいたしましょうか？
-    "translated": ""
+    "original_byte_length": !!int |-
+      114
+    "reference_addrs":
+    - !!int |-
+      54660
+    "translated": !!null |-
+      null
   "5c7a":
     "original": |-
       <C_YELLOW>侍女<C_NONE>
       屋上にいる 発明家のハリーさんは
       クリが きらいなんですよ。
       変わっているでしょ？
-    "translated": ""
+    "original_byte_length": !!int |-
+      86
+    "reference_addrs":
+    - !!int |-
+      54669
+    "translated": !!null |-
+      null
 "note": ""

@@ -2,17 +2,45 @@
   "7170":
     "original": |-
       ゴドウィン２世<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      15
+    "reference_addrs":
+    - !!null |-
+      null
+    - !!int |-
+      29085
+    - !!int |-
+      29085
+    "translated": !!null |-
+      null
   "7197":
     "original": |-
       皇帝 <JUMP7170><LOC719f>
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      10
+    "reference_addrs":
+    - !!int |-
+      61690
+    - !!int |-
+      61690
+    - !!int |-
+      29187
+    "translated": !!null |-
+      null
   "7201":
     "original": |-
       <C_YELLOW><CALL7197><C_NONE>
       フッハッハッハッハ
       この私の本当の力を思い知るがいい。<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      60
+    "reference_addrs":
+    - !!int |-
+      61669
+    - !!int |-
+      61669
+    "translated": !!null |-
+      null
 "note": ""

@@ -43,7 +43,13 @@
       <C_YELLOW>フローラ<C_NONE>
       まあ それはよかったわ。
       お役に立てて 私も うれしいわ。<LOC5d3e>
-    "translated": ""
+    "original_byte_length": !!int |-
+      705
+    "reference_addrs":
+    - !!int |-
+      54627
+    "translated": !!null |-
+      null
   "5d3f":
     "original": |-
       <SET0075><C_YELLOW>フローラ<C_NONE>
@@ -52,7 +58,13 @@
       私は 娘の フローラです。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      83
+    "reference_addrs":
+    - !!int |-
+      23176
+    "translated": !!null |-
+      null
   "5d92":
     "original": |-
       <C_YELLOW>フローラ<C_NONE>
@@ -61,13 +73,27 @@
       <PAGE>
       お父さまは 一度眠ってしまったら
       おなかが すくまでは 起きないんです。<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      135
+    "reference_addrs":
+    - !!int |-
+      23191
+    - !!int |-
+      23288
+    "translated": !!null |-
+      null
   "5e19":
     "original": |-
       <C_YELLOW>ジェニー<C_NONE>
       私は お嬢さまの 家庭教師です。
       お嬢さまは とても頭が 良い方なので教えることなど ないくらいですわ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      110
+    "reference_addrs":
+    - !!int |-
+      54652
+    "translated": !!null |-
+      null
   "5e87":
     "original": |-
       <C_YELLOW>女中<C_NONE>
@@ -75,5 +101,11 @@
       フレイア様に お祈りしているのです。
 
       本当に お優しいかたですこと。
-    "translated": ""
+    "original_byte_length": !!int |-
+      141
+    "reference_addrs":
+    - !!int |-
+      54661
+    "translated": !!null |-
+      null
 "note": ""

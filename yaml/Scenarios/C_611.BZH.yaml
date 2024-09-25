@@ -3,16 +3,34 @@
     "original": |-
       <C_YELLOW>男<C_NONE>
       さあ 早く 先に進んでください。
-    "translated": ""
+    "original_byte_length": !!int |-
+      36
+    "reference_addrs":
+    - !!int |-
+      54905
+    "translated": !!null |-
+      null
   "5d17":
     "original": |-
       <C_YELLOW>男<C_NONE>
       この先は 危険です。
       気をつけてください。
-    "translated": ""
+    "original_byte_length": !!int |-
+      46
+    "reference_addrs":
+    - !!int |-
+      54914
+    "translated": !!null |-
+      null
   "5d45":
     "original": |-
       <PARTY>は 宝箱を開けました。
       宝箱の中には<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      36
+    "reference_addrs":
+    - !!int |-
+      54861
+    "translated": !!null |-
+      null
 "note": ""

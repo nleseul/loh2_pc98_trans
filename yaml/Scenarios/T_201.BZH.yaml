@@ -4,7 +4,13 @@
       <C_YELLOW>男<C_NONE>
       巡礼も 終わったことだし
       あとは 竜の祭を 見て 帰るだけだ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      63
+    "reference_addrs":
+    - !!int |-
+      54662
+    "translated": !!null |-
+      null
   "5af9":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -20,7 +26,13 @@
       <WAIT>
       フレイアさまの バチが あたっても
       知らないからな。
-    "translated": ""
+    "original_byte_length": !!int |-
+      264
+    "reference_addrs":
+    - !!int |-
+      54671
+    "translated": !!null |-
+      null
   "5c01":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -28,7 +40,13 @@
       すきなだけ 休んでいってくれ。<END>
       <LOC5c46>が
       今は お城の人たちに 貸してるんだ。じゃまを しないようにしてくれよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      140
+    "reference_addrs":
+    - !!int |-
+      54677
+    "translated": !!null |-
+      null
   "5c8d":
     "original": |-
       <IF_NOT0058><JUMP5c9f><C_YELLOW>ソニア<C_NONE>
@@ -63,7 +81,13 @@
 
       また 何かあったら こちらに
       おいでください。
-    "translated": ""
+    "original_byte_length": !!int |-
+      607
+    "reference_addrs":
+    - !!int |-
+      54686
+    "translated": !!null |-
+      null
   "5eec":
     "original": |-
       <C_YELLOW>ポウエル<C_NONE>
@@ -73,7 +97,13 @@
       その上 国民たちも かなり
       混乱しているようです。
       早く 何とかしなければ ･ ･ ･
-    "translated": ""
+    "original_byte_length": !!int |-
+      144
+    "reference_addrs":
+    - !!int |-
+      54695
+    "translated": !!null |-
+      null
   "5f7c":
     "original": |-
       <C_YELLOW>チャールズ王子<C_NONE>
@@ -83,20 +113,38 @@
       ぼくが もう少し大きかったら
       父上たちと いっしょに タイサクが
       たてられるんだけどな。
-    "translated": ""
+    "original_byte_length": !!int |-
+      154
+    "reference_addrs":
+    - !!int |-
+      54704
+    "translated": !!null |-
+      null
   "6016":
     "original": |-
       <C_YELLOW>侍女<C_NONE>
       ひなんしたのは いいけど もしも
       これだけの 広い所が なかったら
       たいへんだったわ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      88
+    "reference_addrs":
+    - !!int |-
+      54713
+    "translated": !!null |-
+      null
   "606e":
     "original": |-
       <C_YELLOW>侍女<C_NONE>
       ここは 広いことは広いけど お城から比べたら 狭いし お台所も あまり
       きれいじゃないし ･ ･ ･
-    "translated": ""
+    "original_byte_length": !!int |-
+      96
+    "reference_addrs":
+    - !!int |-
+      54722
+    "translated": !!null |-
+      null
   "60ce":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -104,20 +152,38 @@
       行ってしまったんだろう？
 
       女神 フレイアさまと 話ができるのはバーバラだけなのに ･ ･ ･
-    "translated": ""
+    "original_byte_length": !!int |-
+      123
+    "reference_addrs":
+    - !!int |-
+      54731
+    "translated": !!null |-
+      null
   "6149":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       これは アトラス王子さま。
       このような場所が あったので ここを借りて 仕事をしているのです。
-    "translated": ""
+    "original_byte_length": !!int |-
+      97
+    "reference_addrs":
+    - !!int |-
+      54740
+    "translated": !!null |-
+      null
   "61aa":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       これは アトラス王子さま。
       エリオンさまは この中に
       いらっしゃいます。
-    "translated": ""
+    "original_byte_length": !!int |-
+      76
+    "reference_addrs":
+    - !!int |-
+      54749
+    "translated": !!null |-
+      null
   "61f6":
     "original": |-
       <IF005b><JUMP6410><Xf52c0000><ASM1ae6><Xf7><SET005b><C_YELLOW>エリオン<C_NONE>
@@ -148,5 +214,11 @@
       <LOC6410><C_YELLOW>エリオン<C_NONE>
       私は 出かけずに セリオス王を
       お待ちしたほうが よさそうですね。
-    "translated": ""
+    "original_byte_length": !!int |-
+      612
+    "reference_addrs":
+    - !!int |-
+      54758
+    "translated": !!null |-
+      null
 "note": ""

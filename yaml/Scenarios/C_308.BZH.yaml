@@ -6,15 +6,35 @@
       王子さまが いらっしゃったのなら
       今日は ビーフシチューでも
       お作りいたしましょうか？
-    "translated": ""
+    "original_byte_length": !!int |-
+      110
+    "reference_addrs":
+    - !!int |-
+      54633
+    "translated": !!null |-
+      null
   "5a73":
     "original": |-
       <CALL5ac5>屋上にいる 発明家のハリーさんは
       クリが きらいなんですよ。
       変わっているでしょ？
-    "translated": ""
+    "original_byte_length": !!int |-
+      82
+    "reference_addrs":
+    - !!int |-
+      54642
+    "translated": !!null |-
+      null
   "5ac5":
     "original": |-
       <C_YELLOW>侍女<C_NONE><RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      7
+    "reference_addrs":
+    - !!int |-
+      23046
+    - !!int |-
+      23156
+    "translated": !!null |-
+      null
 "note": ""

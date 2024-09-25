@@ -97,7 +97,13 @@
       はい お願いします。<END>
       <LOC613f>アトラス、あまり 危険なことをして
       ディーナに 心配をさせぬようにな。
-    "translated": ""
+    "original_byte_length": !!int |-
+      1647
+    "reference_addrs":
+    - !!int |-
+      54663
+    "translated": !!null |-
+      null
   "6183":
     "original": |-
       <C_YELLOW>クレア王妃<C_NONE>
@@ -107,7 +113,13 @@
       あなたは 私たちの 孫でも
       あるんですから もっと こちらにも
       遊びにきてくださいね。
-    "translated": ""
+    "original_byte_length": !!int |-
+      182
+    "reference_addrs":
+    - !!int |-
+      54678
+    "translated": !!null |-
+      null
   "6239":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -120,13 +132,25 @@
       私たち 新入りは あの広い砂漠の中をずっと 探しまわっていたんですけど
       結局 セリオスさまたちが 見つけて
       くださったのです。
-    "translated": ""
+    "original_byte_length": !!int |-
+      266
+    "reference_addrs":
+    - !!int |-
+      54687
+    "translated": !!null |-
+      null
   "6343":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       うーむ また 昔のように 破壊神が
       復活してしまったのだろうか？
-    "translated": ""
+    "original_byte_length": !!int |-
+      68
+    "reference_addrs":
+    - !!int |-
+      54696
+    "translated": !!null |-
+      null
   "6387":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -136,7 +160,13 @@
       私は 兵士になって 間もないので
       まだ 王子さまには お会いして
       いなかったのです。
-    "translated": ""
+    "original_byte_length": !!int |-
+      152
+    "reference_addrs":
+    - !!int |-
+      54705
+    "translated": !!null |-
+      null
   "641f":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -147,14 +177,26 @@
       地面から出てきたんです。
 
       それで 国中で 大よろこびしてたのにこんなことになってしまうとは ･ ･ ･
-    "translated": ""
+    "original_byte_length": !!int |-
+      189
+    "reference_addrs":
+    - !!int |-
+      54714
+    "translated": !!null |-
+      null
   "64dc":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       あーあ 今日も いい天気ですね。
       こんなときに 仕事をしなければ
       ならないとはね ･ ･ ･
-    "translated": ""
+    "original_byte_length": !!int |-
+      89
+    "reference_addrs":
+    - !!int |-
+      54723
+    "translated": !!null |-
+      null
   "6535":
     "original": |-
       <C_YELLOW>ハリー<C_NONE>
@@ -171,5 +213,11 @@
       もし 強力な武器が必要になったら
       忘れずに ここに 来てごらん。
       きっと 期待に こたえられると思うよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      288
+    "reference_addrs":
+    - !!int |-
+      54732
+    "translated": !!null |-
+      null
 "note": ""

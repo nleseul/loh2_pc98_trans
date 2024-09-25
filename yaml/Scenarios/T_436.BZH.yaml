@@ -8,7 +8,13 @@
       もうすぐ 大発表があるそうですが
       セリオスさまたちが 行方不明に
       なったことと 関係があるそうです。
-    "translated": ""
+    "original_byte_length": !!int |-
+      159
+    "reference_addrs":
+    - !!int |-
+      54714
+    "translated": !!null |-
+      null
   "5b67":
     "original": |-
       <C_YELLOW>補佐官<C_NONE>
@@ -16,13 +22,25 @@
 
       しかし 大統領の おっしゃるように
       もっと きびしくしなければ ならないと痛感しております。
-    "translated": ""
+    "original_byte_length": !!int |-
+      163
+    "reference_addrs":
+    - !!int |-
+      54627
+    "translated": !!null |-
+      null
   "5c0a":
     "original": |-
       <C_YELLOW>役人<C_NONE>
       兵士たちの 訓練を強化するには
       いろいろと 手続きが 必要なんだよ。ああ 忙しい 忙しい。
-    "translated": ""
+    "original_byte_length": !!int |-
+      92
+    "reference_addrs":
+    - !!int |-
+      54636
+    "translated": !!null |-
+      null
   "5c66":
     "original": |-
       <C_YELLOW>役人<C_NONE>
@@ -30,21 +48,39 @@
       してなけりゃ ならないんだもんな。
 
       こうやって ボーっとしてて かれこれ２０年になるかなぁ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      157
+    "reference_addrs":
+    - !!int |-
+      54645
+    "translated": !!null |-
+      null
   "5d03":
     "original": |-
       <C_YELLOW>役人<C_NONE>
       ハンス大統領は 国民の声を 親身に
       なって きいてくれる とてもいい
       大統領なのよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      86
+    "reference_addrs":
+    - !!int |-
+      54654
+    "translated": !!null |-
+      null
   "5d59":
     "original": |-
       <C_YELLOW>女<C_NONE>
       昔 英雄たちの手で 滅ぼされた
       悪神が 復活したという うわさを
       きいたけど 本当なのかしら。
-    "translated": ""
+    "original_byte_length": !!int |-
+      93
+    "reference_addrs":
+    - !!int |-
+      54663
+    "translated": !!null |-
+      null
   "5db6":
     "original": |-
       <C_YELLOW>ジーラ<C_NONE>
@@ -60,7 +96,13 @@
       偉大な母にあたる お方なのじゃよ。
 
       どうじゃな 感動したか？
-    "translated": ""
+    "original_byte_length": !!int |-
+      319
+    "reference_addrs":
+    - !!int |-
+      54672
+    "translated": !!null |-
+      null
   "5ef5":
     "original": |-
       <C_YELLOW>娘<C_NONE>
@@ -69,51 +111,105 @@
 
       おかげで 私も いろいろな話を
       覚えちゃったわ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      101
+    "reference_addrs":
+    - !!int |-
+      54681
+    "translated": !!null |-
+      null
   "5f5a":
     "original": |-
       <C_YELLOW>女<C_NONE>
       よかったわぁ また平和になって。
-    "translated": ""
+    "original_byte_length": !!int |-
+      37
+    "reference_addrs":
+    - !!int |-
+      54690
+    "translated": !!null |-
+      null
   "5f7f":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       狼の口に 逃げていた 盗賊たちが
       ファンガスの町を 再建しようと
       しているそうです。
-    "translated": ""
+    "original_byte_length": !!int |-
+      87
+    "reference_addrs":
+    - !!int |-
+      54699
+    "translated": !!null |-
+      null
   "5fd6":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       これから 訓練をきびしくするって
       話だけど 今でも かなりきびしく
       やってるんだぜ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      87
+    "reference_addrs":
+    - !!int |-
+      54708
+    "translated": !!null |-
+      null
   "602d":
     "original": |-
       <C_YELLOW>呪文屋<C_NONE>
       いらっしゃいませ。<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      28
+    "reference_addrs":
+    - !!int |-
+      54726
+    "translated": !!null |-
+      null
   "6049":
     "original": |-
       また お願いします。
-    "translated": ""
+    "original_byte_length": !!int |-
+      20
+    "reference_addrs":
+    - !!int |-
+      54738
+    "translated": !!null |-
+      null
   "605d":
     "original": |-
       お客さん もう持てませんわよ。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      31
+    "reference_addrs":
+    - !!int |-
+      1910
+    "translated": !!null |-
+      null
   "607c":
     "original": |-
       何を お求めですか？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      21
+    "reference_addrs":
+    - !!int |-
+      1912
+    "translated": !!null |-
+      null
   "6091":
     "original": |-
       <ITEM>ですね。
       ありがとう ございます。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      35
+    "reference_addrs":
+    - !!int |-
+      1914
+    "translated": !!null |-
+      null
 "note": ""

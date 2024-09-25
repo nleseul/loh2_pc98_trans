@@ -11,7 +11,13 @@
 
       <C_YELLOW>ダリス<C_NONE>
       まだ そんな口が きけるのか !!
-    "translated": ""
+    "original_byte_length": !!int |-
+      172
+    "reference_addrs":
+    - !!int |-
+      54689
+    "translated": !!null |-
+      null
   "5cb4":
     "original": |-
       <C_YELLOW>ダリス<C_NONE>
@@ -28,18 +34,42 @@
 
       お前らに ききたいことがある。
       さあ くるんだ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      199
+    "reference_addrs":
+    - !!int |-
+      54784
+    - !!int |-
+      54784
+    "translated": !!null |-
+      null
   "5d7b":
     "original": |-
       <CH0>
       父上 !!
-    "translated": ""
+    "original_byte_length": !!int |-
+      11
+    "reference_addrs":
+    - !!int |-
+      54743
+    - !!int |-
+      54743
+    - !!int |-
+      54848
+    "translated": !!null |-
+      null
   "5d86":
     "original": |-
       <C_YELLOW>町長<C_NONE>
       ３世 !!
       やっぱり お前だったのか。
-    "translated": ""
+    "original_byte_length": !!int |-
+      41
+    "reference_addrs":
+    - !!int |-
+      54887
+    "translated": !!null |-
+      null
   "5daf":
     "original": |-
       <CH0>
@@ -53,5 +83,11 @@
 
       まあ こんな話は あとでいい。
       早く ここから脱出しよう。
-    "translated": ""
+    "original_byte_length": !!int |-
+      181
+    "reference_addrs":
+    - !!int |-
+      54905
+    "translated": !!null |-
+      null
 "note": ""

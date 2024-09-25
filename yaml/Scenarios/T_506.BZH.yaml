@@ -32,5 +32,11 @@
       うん それしか ないだろうな。
       ここには だれも いないようだし
       他の町に 手がかりをさがしに行こう。
-    "translated": ""
+    "original_byte_length": !!int |-
+      417
+    "reference_addrs":
+    - !!int |-
+      54687
+    "translated": !!null |-
+      null
 "note": ""

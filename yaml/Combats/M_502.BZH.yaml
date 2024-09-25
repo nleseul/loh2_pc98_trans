@@ -2,32 +2,74 @@
   "7170":
     "original": |-
       レイシア<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      9
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "71b0":
     "original": |-
       ガービィ<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      9
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "71f0":
     "original": |-
       Ｍ５０２Ｃ<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      11
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "7230":
     "original": |-
       Ｍ５０２Ｄ<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      11
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "751c":
     "original": |-
       ガービィが現れた。<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      19
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "762b":
     "original": |-
       <CALL7660>あと少しなんだから 弱音をはかずに
       がんばってよ。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      53
+    "reference_addrs":
+    - !!int |-
+      61534
+    "translated": !!null |-
+      null
   "7660":
     "original": |-
       <CLEAR><C_YELLOW>レイシア<C_NONE><RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      12
+    "reference_addrs":
+    - !!int |-
+      30252
+    "translated": !!null |-
+      null
 "note": ""

@@ -4,7 +4,13 @@
       <C_YELLOW>ロエル<C_NONE>
       おお あなたが アトラス王子ですな？セリオスさまの 若いころに
       よく似ておられる。
-    "translated": ""
+    "original_byte_length": !!int |-
+      88
+    "reference_addrs":
+    - !!int |-
+      54639
+    "translated": !!null |-
+      null
   "5b10":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -13,7 +19,13 @@
       なったからだそうです。
 
       ちょっと 信じられませんけど ･ ･ ･
-    "translated": ""
+    "original_byte_length": !!int |-
+      125
+    "reference_addrs":
+    - !!int |-
+      54648
+    "translated": !!null |-
+      null
   "5b8d":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -23,19 +35,37 @@
       かえらなかったから そのうち
       あれよりも ずっと大きな地震が
       起こって 卵が かえるんだってね。
-    "translated": ""
+    "original_byte_length": !!int |-
+      161
+    "reference_addrs":
+    - !!int |-
+      54657
+    "translated": !!null |-
+      null
   "5c2e":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       わが国の船は ひなんさせていた
       罪人たちを 戻すため ジャグリに
       行っているところです。
-    "translated": ""
+    "original_byte_length": !!int |-
+      91
+    "reference_addrs":
+    - !!int |-
+      54666
+    "translated": !!null |-
+      null
   "5c89":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       ロエル殿は 昔から ジェストンさまの相談役をされていた かたなのです。
-    "translated": ""
+    "original_byte_length": !!int |-
+      75
+    "reference_addrs":
+    - !!int |-
+      54675
+    "translated": !!null |-
+      null
   "5cd4":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -44,23 +74,47 @@
       ジャグリから ひなんさせていた
       罪人たちが いなくなったので また
       だれも いなくなってしまいましたよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      139
+    "reference_addrs":
+    - !!int |-
+      54684
+    "translated": !!null |-
+      null
   "5d5f":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       ジェストンさまの後継ぎ候補ですか？<WAIT>
       あの方たちは お帰りになりました。
-    "translated": ""
+    "original_byte_length": !!int |-
+      76
+    "reference_addrs":
+    - !!int |-
+      54693
+    "translated": !!null |-
+      null
   "5dab":
     "original": |-
       <C_YELLOW>侍女<C_NONE>
       赤スライムも モンスターも どっちもいなくなったから せいせいしたわ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      75
+    "reference_addrs":
+    - !!int |-
+      54702
+    "translated": !!null |-
+      null
   "5df6":
     "original": |-
       <C_YELLOW>侍女<C_NONE>
       今 おやつの アップルパイを
       作ってるの 早くできないかしら。
       味見ができるのに ･ ･ ･
-    "translated": ""
+    "original_byte_length": !!int |-
+      89
+    "reference_addrs":
+    - !!int |-
+      54711
+    "translated": !!null |-
+      null
 "note": ""

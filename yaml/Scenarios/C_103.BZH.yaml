@@ -13,7 +13,13 @@
       世界は もはや 王子の双肩に
       かかっておると言ってもよい。
       心してかかるのじゃぞ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      281
+    "reference_addrs":
+    - !!int |-
+      54663
+    "translated": !!null |-
+      null
   "5bf4":
     "original": |-
       <C_YELLOW>オーエン<C_NONE>
@@ -29,7 +35,13 @@
 
       やはり これからは 王子さまの時代となることでしょう。
       私どもも 期待しております。
-    "translated": ""
+    "original_byte_length": !!int |-
+      303
+    "reference_addrs":
+    - !!int |-
+      54672
+    "translated": !!null |-
+      null
   "5d23":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -43,7 +55,13 @@
       そして 後継ぎ候補たちを
       追い出したのですから 合併は
       時間の問題でしょう。
-    "translated": ""
+    "original_byte_length": !!int |-
+      252
+    "reference_addrs":
+    - !!int |-
+      54681
+    "translated": !!null |-
+      null
   "5e1f":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -52,12 +70,24 @@
 
       それは 当然だと思いますが 代わりの後継ぎを 探そうとはしないのです。
       いったい どうするのでしょうか？
-    "translated": ""
+    "original_byte_length": !!int |-
+      167
+    "reference_addrs":
+    - !!int |-
+      54690
+    "translated": !!null |-
+      null
   "5ec6":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       ああ わが国にも あなたさまのような立派な後継ぎがいたら ･ ･ ･
-    "translated": ""
+    "original_byte_length": !!int |-
+      68
+    "reference_addrs":
+    - !!int |-
+      54699
+    "translated": !!null |-
+      null
   "5f0a":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -69,7 +99,13 @@
       飛べたら 気持ち いいでしょうね。<END>
       <LOC5fa1>おおっ これは アトラス王子さま。
       お元気そうで なによりでございます。
-    "translated": ""
+    "original_byte_length": !!int |-
+      220
+    "reference_addrs":
+    - !!int |-
+      54708
+    "translated": !!null |-
+      null
   "5fe6":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -79,7 +115,13 @@
 
       何をするのかと思えば ずっと
       こんなことしてるんですよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      137
+    "reference_addrs":
+    - !!int |-
+      54717
+    "translated": !!null |-
+      null
   "606f":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -87,5 +129,11 @@
       そうです。
 
       なんて 健全な囚人たちでしょう。
-    "translated": ""
+    "original_byte_length": !!int |-
+      119
+    "reference_addrs":
+    - !!int |-
+      54726
+    "translated": !!null |-
+      null
 "note": ""

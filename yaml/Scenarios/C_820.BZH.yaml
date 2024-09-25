@@ -19,7 +19,15 @@
 
       <CH0>
       事故？
-    "translated": ""
+    "original_byte_length": !!int |-
+      276
+    "reference_addrs":
+    - !!int |-
+      54798
+    - !!int |-
+      54798
+    "translated": !!null |-
+      null
   "5e20":
     "original": "<CALL64f3><CALL64c8> !!\n\n<CALL64c2>せ ･ 先生 ･ ･ ･\nお許しください ･ ･ やっと\
       \ ･ ･ ･\n意味が ･ ･ わかり ･ ･ ました ･ ･\n\n<CALL64f3>おお ･ ･ ･ お前の悲しみを わかってやれなかった 私にも\
@@ -36,7 +44,13 @@
       \ ･\n止 ･ め ･ ･ ･ て ･ ･ ･ ･ ･ \n\n<CALL64f3>安心するがいい <CALL64c8>。\n必ず やってみせよう。\n\
       \n<CALL64c2>お ･ ･ お願い ･ しま ･ ･ ･ す ･ ･\n\n<CH2>\n<CALL64c8>さん !!\n\n<CH0>\n\
       <CALL64c8> !!\n\n<CALL64c2><CALL64d1>\n\n<CH0>\n皇帝め ･ ･ 絶対に 許さないぞ !!"
-    "translated": ""
+    "original_byte_length": !!int |-
+      1352
+    "reference_addrs":
+    - !!int |-
+      54826
+    "translated": !!null |-
+      null
   "6368":
     "original": |-
       <CALL64f3>私は 必ず フレイアを 元の状態に
@@ -44,7 +58,13 @@
 
       君たちは <CALL64c8>のためにも
       皇帝を追って 倒してくれ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      99
+    "reference_addrs":
+    - !!int |-
+      54835
+    "translated": !!null |-
+      null
   "63cb":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -53,36 +73,128 @@
       <CH0>
       よし ぼくたちが 追う !!
       ここは 任せたぞ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      85
+    "reference_addrs":
+    - !!int |-
+      54890
+    "translated": !!null |-
+      null
   "6420":
     "original": |-
       <C_YELLOW>男<C_NONE>
       この部屋は われわれに 任せて
       皇帝のあとを 追ってください。
-    "translated": ""
+    "original_byte_length": !!int |-
+      64
+    "reference_addrs":
+    - !!int |-
+      54899
+    - !!int |-
+      25700
+    "translated": !!null |-
+      null
   "6460":
     "original": |-
       <IF_NOT01f2><JUMP6420><C_YELLOW>男<C_NONE>
       <CALL64c8>さんはヒストラのマスターとナレサ隊長が 別の所へ 連れていって休ませています。
-    "translated": ""
+    "original_byte_length": !!int |-
+      91
+    "reference_addrs":
+    - !!int |-
+      54908
+    "translated": !!null |-
+      null
   "64bb":
     "original": |-
       <CALL64c2><CALL64d1>
-    "translated": ""
+    "original_byte_length": !!int |-
+      7
+    "reference_addrs":
+    - !!int |-
+      54768
+    "translated": !!null |-
+      null
   "64c2":
     "original": |-
       <C_YELLOW><CALL64c8><C_NONE><RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      6
+    "reference_addrs":
+    - !!int |-
+      24107
+    - !!int |-
+      24261
+    - !!int |-
+      24874
+    - !!int |-
+      25059
+    - !!int |-
+      25346
+    - !!int |-
+      25407
+    - !!int |-
+      25788
+    - !!int |-
+      23821
+    - !!int |-
+      23957
+    "translated": !!null |-
+      null
   "64c8":
     "original": |-
       フラッド<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      9
+    "reference_addrs":
+    - !!int |-
+      24100
+    - !!int |-
+      24564
+    - !!int |-
+      24827
+    - !!int |-
+      25318
+    - !!int |-
+      25386
+    - !!int |-
+      25400
+    - !!int |-
+      25796
+    - !!int |-
+      25508
+    - !!int |-
+      25708
+    "translated": !!null |-
+      null
   "64d1":
     "original": |-
       ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      34
+    "reference_addrs":
+    - !!int |-
+      25410
+    - !!int |-
+      25791
+    "translated": !!null |-
+      null
   "64f3":
     "original": |-
       <C_YELLOW>フレイアのマスター<C_NONE><RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      21
+    "reference_addrs":
+    - !!int |-
+      24097
+    - !!int |-
+      24191
+    - !!int |-
+      24353
+    - !!int |-
+      25300
+    - !!int |-
+      25449
+    "translated": !!null |-
+      null
 "note": ""

@@ -4,66 +4,140 @@
       <C_YELLOW>武器屋<C_NONE>
       王子さま やっぱり 平和はいいですね竜の卵も 元に戻ったみたいだし
       やっと 安心して生活ができますよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      107
+    "reference_addrs":
+    - !!int |-
+      54756
+    "translated": !!null |-
+      null
   "5b33":
     "original": |-
       <CALL5e1a>あら 王子さま。
       前と比べて ふんいきが 変わった
       ような気がしますわよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      73
+    "reference_addrs":
+    - !!int |-
+      54681
+    "translated": !!null |-
+      null
   "5b7c":
     "original": |-
       <CALL5e1a>まあ、王子さま。
       お元気そうで なによりです。
-    "translated": ""
+    "original_byte_length": !!int |-
+      48
+    "reference_addrs":
+    - !!int |-
+      54690
+    "translated": !!null |-
+      null
   "5bac":
     "original": |-
       <CALL5e21>王子さま もう モンスターは
       出てこないのでしょうか？
-    "translated": ""
+    "original_byte_length": !!int |-
+      55
+    "reference_addrs":
+    - !!int |-
+      54699
+    "translated": !!null |-
+      null
   "5be3":
     "original": |-
       <C_YELLOW>男<C_NONE>
       あ、王子さま いらっしゃい。
       王子さまが いなくなったので
       ここも さみしくなってしまいました。
-    "translated": ""
+    "original_byte_length": !!int |-
+      97
+    "reference_addrs":
+    - !!int |-
+      54735
+    "translated": !!null |-
+      null
   "5c44":
     "original": |-
       <C_YELLOW>男<C_NONE>
       もう２度と モンスターなんか
       出てきてほしくないですね。
       やっぱり 平和が いいですよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      89
+    "reference_addrs":
+    - !!int |-
+      54744
+    "translated": !!null |-
+      null
   "5c9d":
     "original": |-
       <C_YELLOW>女<C_NONE>
       ま、王子さま ずいぶん おめしものが汚れているようですけど 洞窟の
       探検でもされたのですか？
-    "translated": ""
+    "original_byte_length": !!int |-
+      94
+    "reference_addrs":
+    - !!int |-
+      54708
+    "translated": !!null |-
+      null
   "5cfb":
     "original": |-
       <C_YELLOW>子供<C_NONE>
       またモンスターが 出てくるかも
       しれないから まだ 町の外には
       出ちゃいけないんだって。
-    "translated": ""
+    "original_byte_length": !!int |-
+      91
+    "reference_addrs":
+    - !!int |-
+      54717
+    "translated": !!null |-
+      null
   "5d56":
     "original": |-
       <C_YELLOW>パーカー<C_NONE>
       王子さま モンスターが いなく
       なったのは どうしてなんだべ？
-    "translated": ""
+    "original_byte_length": !!int |-
+      70
+    "reference_addrs":
+    - !!int |-
+      54726
+    "translated": !!null |-
+      null
   "5d9c":
     "original": "<C_YELLOW>道具屋<C_NONE>\nいや これは王子さま。\nモンスターが いないと こんなにも\n安心していられるとは\
       \ ･ ･ ･ \n\n平和というのは いいもんですなぁ。"
-    "translated": ""
+    "original_byte_length": !!int |-
+      126
+    "reference_addrs":
+    - !!int |-
+      54750
+    "translated": !!null |-
+      null
   "5e1a":
     "original": |-
       <C_YELLOW>侍女<C_NONE><RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      7
+    "reference_addrs":
+    - !!int |-
+      23348
+    - !!int |-
+      23421
+    "translated": !!null |-
+      null
   "5e21":
     "original": |-
       <C_YELLOW>兵士<C_NONE><RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      7
+    "reference_addrs":
+    - !!int |-
+      23469
+    "translated": !!null |-
+      null
 "note": ""

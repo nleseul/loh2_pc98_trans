@@ -2,26 +2,66 @@
   "7170":
     "original": |-
       ホログナＡ<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      11
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "71b0":
     "original": |-
       ホログナＢ<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      11
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "71f0":
     "original": |-
       ホログナＣ<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      11
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "7230":
     "original": |-
       ホログナＤ<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      11
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "74cb":
     "original": |-
       ホログナが現れた。<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      19
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "74eb":
     "original": |-
       <ACTOR>は仲間に無念をはらして
       もらうために呪文を渡した。<RET_PAGE>
-    "translated": ""
+    "original_byte_length": !!int |-
+      51
+    "reference_addrs":
+    - !!int |-
+      61364
+    - !!int |-
+      61364
+    - !!int |-
+      61364
+    "translated": !!null |-
+      null
 "note": ""

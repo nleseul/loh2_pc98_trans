@@ -64,6 +64,8 @@ def extract_scenario_events(scenario_data:typing.ByteString, custom_hooks:list[X
     for block in block_pool.get_blocks("event"):
         entry = trans[block.start_addr]
         entry.original = block.format_string()
+        entry.original_byte_length = block.length
+        entry.reference_addrs = [l.source_addr for l in block.get_incoming_links()]
 
     return trans
 
@@ -96,6 +98,8 @@ def extract_combat_events(combat_data:typing.ByteString, monster_count:int = 4) 
     for block in block_pool.get_blocks("event"):
         entry = trans[block.start_addr]
         entry.original = block.format_string()
+        entry.original_byte_length = block.length
+        entry.reference_addrs = [l.source_addr for l in block.get_incoming_links()]
 
     return trans
 
@@ -146,6 +150,7 @@ def extract_ending_text(ending_data:typing.ByteString) -> TranslationCollection:
 
         while True:
             if ending_data[addr] == 0x9:
+                addr += 1
                 break
             elif ending_data[addr] == 0x0:
                 text += "\n"
@@ -177,7 +182,10 @@ def extract_ending_text(ending_data:typing.ByteString) -> TranslationCollection:
                 ch, addr = read_sjis_char(ending_data, addr)
                 text += ch
 
-        trans[start_addr].original = text
+        entry = trans[start_addr]
+        entry.original = text
+        entry.original_byte_length = addr - start_addr
+        # TODO: Copy reference addresses from source
 
     # Line lengths are hardcoded at 0x1003 and 0x1019
     final_text_addr = 0x28d3
@@ -197,7 +205,7 @@ def extract_spells(prog_data:typing.ByteString) -> TranslationCollection:
     for spell_index in range(32):
         addr = base_addr + spell_index*12
         spell_name = prog_data[addr:addr+8].decode('cp932')
-        trans[addr].original = spell_name
+        trans[addr].original = spell_name.strip()
 
     return trans
 
@@ -208,7 +216,7 @@ def extract_items(prog_data:typing.ByteString) -> TranslationCollection:
 
     while prog_data[addr] != 0:
         item_name = prog_data[addr:addr+14].decode('cp932')
-        trans[addr].original = item_name
+        trans[addr].original = item_name.strip()
 
         addr += 14 if addr >= 0x152b + 0x7c00 else 20
 
@@ -217,13 +225,14 @@ def extract_items(prog_data:typing.ByteString) -> TranslationCollection:
 
 def extract_locations(prog_data:typing.ByteString) -> list[str]:
     trans = TranslationCollection()
-    addr = 0xcec + 0x7c00
+    table_addr = 0xc60 + 0x7c00
 
-    count = 0
-    while True:
+    for location_index in range(64):
+        table_entry_addr = table_addr + location_index*2
+        addr = int.from_bytes(prog_data[table_entry_addr:table_entry_addr+2], byteorder='little') + 0x7c00
+        entry = trans[addr]
+
         first_byte = prog_data[addr]
-        if first_byte == 0x00:
-            break
 
         length = 12
         if first_byte < 0x20:
@@ -231,10 +240,10 @@ def extract_locations(prog_data:typing.ByteString) -> list[str]:
             addr += 1
 
         location_name = prog_data[addr:addr+length].decode('cp932')
-        addr += length
 
-        trans[count].original = location_name
-        count += 1
+        entry.original = location_name
+        entry.original_byte_length = 12 if first_byte >= 0x20 else 12 - first_byte*2 + 1
+        entry.reference_addrs.append(table_entry_addr)
 
     return trans
 

@@ -2,25 +2,65 @@
   "7170":
     "original": |-
       護衛Ａ<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      7
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "71b0":
     "original": |-
       ﾌﾞﾗﾑﾅ ｸｲｰﾝ<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      11
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "71f0":
     "original": |-
       護衛Ｂ<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      7
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "7230":
     "original": |-
       Ｍ４１６Ｄ<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      11
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "7443":
     "original": |-
       ブラムナクイーンと護衛が現れた。<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      33
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "7480":
     "original": |-
       ブラムナクイーンをかばって<ACTOR>がとびだしてきた。<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      46
+    "reference_addrs":
+    - !!int |-
+      61296
+    - !!int |-
+      61296
+    - !!int |-
+      61296
+    "translated": !!null |-
+      null
 "note": ""

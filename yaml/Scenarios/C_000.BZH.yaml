@@ -31,7 +31,15 @@
       <C_YELLOW>教育係 ラウエル<C_NONE>
       さようです。
       セリオス国王が 王子を お呼びです。
-    "translated": ""
+    "original_byte_length": !!int |-
+      534
+    "reference_addrs":
+    - !!int |-
+      54717
+    - !!int |-
+      54717
+    "translated": !!null |-
+      null
   "5d12":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -40,5 +48,11 @@
       <LOC5d57>お帰りなさいませ。<END>
       <LOC5d6a>危険ですから 竜の卵には
       近づかないように してください。
-    "translated": ""
+    "original_byte_length": !!int |-
+      144
+    "reference_addrs":
+    - !!int |-
+      54671
+    "translated": !!null |-
+      null
 "note": ""

@@ -5,21 +5,39 @@
       王子さま、竜の卵は 不吉な物
       なんでしょうか？
       せっかく よろこんで いたのに ･ ･ ･
-    "translated": ""
+    "original_byte_length": !!int |-
+      85
+    "reference_addrs":
+    - !!int |-
+      54633
+    "translated": !!null |-
+      null
   "5b98":
     "original": |-
       <C_YELLOW>男<C_NONE>
       こんなことに なるんだったら
       竜の卵なんか 出てこなければ
       よかったんですよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      80
+    "reference_addrs":
+    - !!int |-
+      54642
+    "translated": !!null |-
+      null
   "5be8":
     "original": |-
       <C_YELLOW>男<C_NONE>
       あっ 王子さま、モンスターが
       クルスの村を おそって つぶして
       しまったんですよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      83
+    "reference_addrs":
+    - !!int |-
+      54651
+    "translated": !!null |-
+      null
   "5c3b":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -28,32 +46,62 @@
 
       もし モンスターが おそってきたら
       どうする つもりなんでしょうね。
-    "translated": ""
+    "original_byte_length": !!int |-
+      146
+    "reference_addrs":
+    - !!int |-
+      54660
+    "translated": !!null |-
+      null
   "5ccd":
     "original": |-
       <C_YELLOW>男<C_NONE>
       いくら モンスターが 出てきても
       セリオスさまがいれば きっと
       やっつけて くれるでしょう。
-    "translated": ""
+    "original_byte_length": !!int |-
+      92
+    "reference_addrs":
+    - !!int |-
+      54669
+    "translated": !!null |-
+      null
   "5d29":
     "original": |-
       <C_YELLOW>女<C_NONE>
       クルスが つぶされたそうですよ。
       ここにも 何人か 逃げてきてますけどよく けがを しなかったものですわ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      106
+    "reference_addrs":
+    - !!int |-
+      54678
+    "translated": !!null |-
+      null
   "5d93":
     "original": |-
       <C_YELLOW>女<C_NONE>
       竜の卵が 出てきたのは いいことの
       前ぶれだと 思っていたのに どうしてこんなことに なったのかしら ･ ･ ･
-    "translated": ""
+    "original_byte_length": !!int |-
+      106
+    "reference_addrs":
+    - !!int |-
+      54687
+    "translated": !!null |-
+      null
   "5dfd":
     "original": |-
       <C_YELLOW>老人<C_NONE>
       アロン殿は クルスの村が つぶされてしまったので すっかり 気落ちして
       おるのです。
-    "translated": ""
+    "original_byte_length": !!int |-
+      87
+    "reference_addrs":
+    - !!int |-
+      54696
+    "translated": !!null |-
+      null
   "5e54":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -62,13 +110,25 @@
 
       セリオスさまが 何とかしてくれると
       思っているからでしょうね？
-    "translated": ""
+    "original_byte_length": !!int |-
+      153
+    "reference_addrs":
+    - !!int |-
+      54705
+    "translated": !!null |-
+      null
   "5eed":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       王子さま ご安心ください。
       もしモンスターが 来たら われわれがやっつけてやりますよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      90
+    "reference_addrs":
+    - !!int |-
+      54714
+    "translated": !!null |-
+      null
   "5f47":
     "original": |-
       <C_YELLOW>スコット<C_NONE>
@@ -78,7 +138,13 @@
 
       今でも 武器を見ると 体のふるえが
       止まらなくなるんです。
-    "translated": ""
+    "original_byte_length": !!int |-
+      150
+    "reference_addrs":
+    - !!int |-
+      54729
+    "translated": !!null |-
+      null
   "5fdd":
     "original": |-
       <C_YELLOW>アロン<C_NONE>
@@ -88,7 +154,13 @@
 
       せっかく あそこで のんびりと
       くらしていたのに ･ ･ ･
-    "translated": ""
+    "original_byte_length": !!int |-
+      145
+    "reference_addrs":
+    - !!int |-
+      54738
+    "translated": !!null |-
+      null
   "606e":
     "original": |-
       <C_YELLOW>クルスにいた女<C_NONE>
@@ -97,61 +169,131 @@
       他の人たちは 鉱山を手伝いに
       行っていたから あの恐ろしい体験を
       したのは ２人だけね。
-    "translated": ""
+    "original_byte_length": !!int |-
+      170
+    "reference_addrs":
+    - !!int |-
+      54747
+    "translated": !!null |-
+      null
   "6118":
     "original": |-
       <C_YELLOW>バーテン<C_NONE>
       これは王子さま、いらっしゃいませ。お酒は 出せませんが ゆっくり
       なさっていってください。
-    "translated": ""
+    "original_byte_length": !!int |-
+      99
+    "reference_addrs":
+    - !!int |-
+      54753
+    "translated": !!null |-
+      null
   "617b":
     "original": |-
       <C_YELLOW>道具屋<C_NONE>
       おや 王子さま、いらっしゃい。
       どのような ご用でしょうか？<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      67
+    "reference_addrs":
+    - !!int |-
+      54765
+    "translated": !!null |-
+      null
   "61be":
     "original": |-
       また来てくださいね。
-    "translated": ""
+    "original_byte_length": !!int |-
+      21
+    "reference_addrs":
+    - !!int |-
+      54792
+    - !!int |-
+      54792
+    - !!int |-
+      54792
+    "translated": !!null |-
+      null
   "61d3":
     "original": |-
       おや？これ以上持てないようですね。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      36
+    "reference_addrs":
+    - !!int |-
+      2416
+    "translated": !!null |-
+      null
   "61f7":
     "original": |-
       どれを買ってくれますか？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      26
+    "reference_addrs":
+    - !!int |-
+      2418
+    "translated": !!null |-
+      null
   "6211":
     "original": |-
       <ITEM>だね。
       どうも ありがとう。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      29
+    "reference_addrs":
+    - !!int |-
+      2420
+    "translated": !!null |-
+      null
   "6236":
     "original": |-
       どれを 売ってくれますか？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      27
+    "reference_addrs":
+    - !!int |-
+      2288
+    "translated": !!null |-
+      null
   "6251":
     "original": |2-
        Gold になるけど
       それでも よろしいですか？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      44
+    "reference_addrs":
+    - !!int |-
+      2290
+    "translated": !!null |-
+      null
   "627d":
     "original": |-
       それは残念です。
 
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      18
+    "reference_addrs":
+    - !!int |-
+      2292
+    "translated": !!null |-
+      null
   "628f":
     "original": |-
       どうも ありがとうございます。
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      31
+    "reference_addrs":
+    - !!int |-
+      2294
+    "translated": !!null |-
+      null
 "note": ""

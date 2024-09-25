@@ -5,7 +5,13 @@
       な、何だよ お前ら？
       またあの箱を 止めてほしいのか？<WAIT>
       先に行ってるから 早く来いよ。<SET00ea><ASMd657>
-    "translated": ""
+    "original_byte_length": !!int |-
+      99
+    "reference_addrs":
+    - !!int |-
+      54739
+    "translated": !!null |-
+      null
   "5bc7":
     "original": |-
       <CALL5e26>この前 大盗賊 ゲイルさまが
@@ -14,13 +20,25 @@
       でも すぐにまた いつものように
       「散歩に行く」と言って 出ていって
       しまいました。
-    "translated": ""
+    "original_byte_length": !!int |-
+      129
+    "reference_addrs":
+    - !!int |-
+      54748
+    "translated": !!null |-
+      null
   "5c48":
     "original": |-
       <CALL5e26>いくらがんばっても この扉は 絶対にあかねえように なってるんだ。
 
       作った人が言ってるからまちがいねえ。ムダなことは やめときな。
-    "translated": ""
+    "original_byte_length": !!int |-
+      129
+    "reference_addrs":
+    - !!int |-
+      54757
+    "translated": !!null |-
+      null
   "5cc9":
     "original": |-
       <CALL5e26>この宝は 大盗賊 ゲイルさまの
@@ -29,7 +47,13 @@
 
       ここだけの話だけど この中には
       銀の笛ってのが 入ってるらしいぜ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      145
+    "reference_addrs":
+    - !!int |-
+      54766
+    "translated": !!null |-
+      null
   "5d5a":
     "original": |-
       <PARTY>は 石碑を読みました。
@@ -37,7 +61,13 @@
 
       『この部屋の宝に触れるべからず
                          大盗賊 ゲイル』
-    "translated": ""
+    "original_byte_length": !!int |-
+      90
+    "reference_addrs":
+    - !!int |-
+      54718
+    "translated": !!null |-
+      null
   "5db4":
     "original": |-
       <PARTY>は 石碑を読みました。
@@ -45,13 +75,35 @@
 
       『この回廊を走るべからず
                      　　大盗賊 ゲイル』
-    "translated": ""
+    "original_byte_length": !!int |-
+      84
+    "reference_addrs":
+    - !!int |-
+      54724
+    "translated": !!null |-
+      null
   "5e08":
     "original": |-
       <C_GREEN>扉は 開きそうもありません。<C_NONE>
-    "translated": ""
+    "original_byte_length": !!int |-
+      30
+    "reference_addrs":
+    - !!int |-
+      54730
+    "translated": !!null |-
+      null
   "5e26":
     "original": |-
       <C_YELLOW>盗賊<C_NONE><RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      7
+    "reference_addrs":
+    - !!int |-
+      23496
+    - !!int |-
+      23625
+    - !!int |-
+      23754
+    "translated": !!null |-
+      null
 "note": ""

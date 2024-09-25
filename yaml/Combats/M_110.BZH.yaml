@@ -2,25 +2,61 @@
   "7170":
     "original": |-
       アシカサゴＡ<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      13
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "71b0":
     "original": |-
       アシカサゴＢ<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      13
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "71f0":
     "original": |-
       羽竜<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      5
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "7230":
     "original": |-
       アシカサゴＤ<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      13
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "738d":
     "original": |-
       アシカサゴと羽竜が現れた。<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      27
+    "reference_addrs":
+    - !!null |-
+      null
+    "translated": !!null |-
+      null
   "73a8":
     "original": |-
       <ACTOR>は 守りのかまえをとった。<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      27
+    "reference_addrs":
+    - !!int |-
+      61212
+    "translated": !!null |-
+      null
 "note": ""

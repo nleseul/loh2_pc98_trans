@@ -5,7 +5,13 @@
       これは 王子さま。ジェストンさまは
       城の２階に いらっしゃいます。
       どうぞ お入りください。
-    "translated": ""
+    "original_byte_length": !!int |-
+      95
+    "reference_addrs":
+    - !!int |-
+      54657
+    "translated": !!null |-
+      null
   "5b6b":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -17,7 +23,13 @@
       父が よく言っていたんですけど
       全然 話が違いましたね。
       まさか モンスターが 出てくるとは。
-    "translated": ""
+    "original_byte_length": !!int |-
+      203
+    "reference_addrs":
+    - !!int |-
+      54666
+    "translated": !!null |-
+      null
   "5c36":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -26,7 +38,13 @@
 
       あいつらを 追い出しちゃって
       後継ぎは どうするんだろう？
-    "translated": ""
+    "original_byte_length": !!int |-
+      123
+    "reference_addrs":
+    - !!int |-
+      54675
+    "translated": !!null |-
+      null
   "5cb1":
     "original": |-
       <C_YELLOW>女<C_NONE>
@@ -38,7 +56,13 @@
       早く いっしょに なれればいいけど。<END>
       <LOC5d6e>ほら そこにいるのが その子たちの
       お母さんなのよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      239
+    "reference_addrs":
+    - !!int |-
+      54684
+    "translated": !!null |-
+      null
   "5da0":
     "original": |-
       <C_YELLOW>老人<C_NONE>
@@ -50,7 +74,13 @@
       くるとは 思わなかったわい。<END>
       <LOC5e3a>セリオスさまが モンスター退治に
       行かれてから ずいぶん たっておるがどうなさったのじゃろう。
-    "translated": ""
+    "original_byte_length": !!int |-
+      245
+    "reference_addrs":
+    - !!int |-
+      54693
+    "translated": !!null |-
+      null
   "5e95":
     "original": |-
       <C_YELLOW>フォルス<C_NONE>
@@ -62,13 +92,25 @@
       <LOC5f61>モンスターが いなくなったので
       マスクーンに行って 町を 作り
       直そうと 思っておるんじゃ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      291
+    "reference_addrs":
+    - !!int |-
+      54702
+    "translated": !!null |-
+      null
   "5fb8":
     "original": |-
       <C_YELLOW>エリック<C_NONE>
       わしは 昔 この町に住んでいたことがあったのじゃよ。
       なつかしいのう ･ ･ ･
-    "translated": ""
+    "original_byte_length": !!int |-
+      83
+    "reference_addrs":
+    - !!int |-
+      54711
+    "translated": !!null |-
+      null
   "600b":
     "original": |-
       <C_YELLOW>子供<C_NONE>
@@ -80,7 +122,13 @@
 
       <LOC6070>でも 遊び友だちが できたから
       町の中にいても おもしろいけどね。
-    "translated": ""
+    "original_byte_length": !!int |-
+      164
+    "reference_addrs":
+    - !!int |-
+      54720
+    "translated": !!null |-
+      null
   "60af":
     "original": |-
       <C_YELLOW>子供<C_NONE>
@@ -91,76 +139,170 @@
 
       この前まで お母さんと はなればなれだったんだけど やっと いっしょに
       なれたんだよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      234
+    "reference_addrs":
+    - !!int |-
+      54729
+    "translated": !!null |-
+      null
   "6199":
     "original": |-
       <C_YELLOW>子供<C_NONE>
       ぼくたち いつも ２人でかくれんぼをしてたんだけど ３人でやったら
       もっと おもしろかったよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      97
+    "reference_addrs":
+    - !!int |-
+      54738
+    "translated": !!null |-
+      null
   "61fa":
     "original": |-
       <C_YELLOW>女<C_NONE>
       私 モンスターが現れてから 子どもとはなればなれに なっていたの。
       でも やっと いっしょになれたのよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      104
+    "reference_addrs":
+    - !!int |-
+      54747
+    "translated": !!null |-
+      null
   "6262":
     "original": |-
       <C_YELLOW>武器屋<C_NONE>
       はい いらっしゃい。<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      29
+    "reference_addrs":
+    - !!int |-
+      54759
+    "translated": !!null |-
+      null
   "627f":
     "original": |-
       またどうぞ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      13
+    "reference_addrs":
+    - !!int |-
+      54771
+    "translated": !!null |-
+      null
   "628c":
     "original": |-
       <C_YELLOW>道具屋<C_NONE>
       いらっしゃいませ。
       どのような ご用でしょうか？<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      56
+    "reference_addrs":
+    - !!int |-
+      54783
+    "translated": !!null |-
+      null
   "62c4":
     "original": |-
       また来てくださいね。
-    "translated": ""
+    "original_byte_length": !!int |-
+      21
+    "reference_addrs":
+    - !!int |-
+      54810
+    - !!int |-
+      54810
+    - !!int |-
+      54810
+    "translated": !!null |-
+      null
   "62d9":
     "original": |-
       おや？これ以上持てないようですね。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      36
+    "reference_addrs":
+    - !!int |-
+      2746
+    - !!int |-
+      2746
+    "translated": !!null |-
+      null
   "62fd":
     "original": |-
       どれを買ってくれますか？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      26
+    "reference_addrs":
+    - !!int |-
+      2748
+    - !!int |-
+      2748
+    "translated": !!null |-
+      null
   "6317":
     "original": |-
       <ITEM>だね。
       どうも ありがとう。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      29
+    "reference_addrs":
+    - !!int |-
+      2750
+    - !!int |-
+      2750
+    "translated": !!null |-
+      null
   "633c":
     "original": |-
       どれを 売ってくれますか？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      27
+    "reference_addrs":
+    - !!int |-
+      2550
+    "translated": !!null |-
+      null
   "6357":
     "original": |2-
        Gold になるけど
       それでも よろしいですか？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      44
+    "reference_addrs":
+    - !!int |-
+      2552
+    "translated": !!null |-
+      null
   "6383":
     "original": |-
       それは残念です。
 
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      18
+    "reference_addrs":
+    - !!int |-
+      2554
+    "translated": !!null |-
+      null
   "6395":
     "original": |-
       どうも ありがとうございます。
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      31
+    "reference_addrs":
+    - !!int |-
+      2556
+    "translated": !!null |-
+      null
 "note": ""

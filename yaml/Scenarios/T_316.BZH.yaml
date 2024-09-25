@@ -4,7 +4,13 @@
       <C_YELLOW>ジャン<C_NONE>
       バズヌーンの城にいる ハリーが
       作った 武器はいかがですか？
-    "translated": ""
+    "original_byte_length": !!int |-
+      67
+    "reference_addrs":
+    - !!int |-
+      54655
+    "translated": !!null |-
+      null
   "5b7b":
     "original": |-
       <CLEAR>値段が高いのは 武器を売った金を
@@ -12,7 +18,13 @@
 
       ドラゴンを育てるのは 金が
       かかるんだよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      110
+    "reference_addrs":
+    - !!int |-
+      54667
+    "translated": !!null |-
+      null
   "5be9":
     "original": |-
       <C_YELLOW>ボイル<C_NONE>
@@ -31,19 +43,37 @@
       ようじゃから きっと また
       ファーレーンにでも 遊びに
       行っとるのじゃろう。<LOC5da0>
-    "translated": ""
+    "original_byte_length": !!int |-
+      440
+    "reference_addrs":
+    - !!int |-
+      54676
+    "translated": !!null |-
+      null
   "5da1":
     "original": |-
       <C_YELLOW>ボイル<C_NONE>
       あんたがた 他人の持ち物を
       勝手に のぞくでない。
-    "translated": ""
+    "original_byte_length": !!int |-
+      57
+    "reference_addrs":
+    - !!int |-
+      54643
+    "translated": !!null |-
+      null
   "5dda":
     "original": |-
       <C_YELLOW>ノーマ<C_NONE>
       私たちは 牧場を 息子のジャンに
       まかせて ここで隠居してるんです。
-    "translated": ""
+    "original_byte_length": !!int |-
+      74
+    "reference_addrs":
+    - !!int |-
+      54685
+    "translated": !!null |-
+      null
   "5e24":
     "original": |-
       <C_YELLOW>商人<C_NONE>
@@ -52,59 +82,141 @@
       買っていってください。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      91
+    "reference_addrs":
+    - !!int |-
+      54697
+    "translated": !!null |-
+      null
   "5e7f":
     "original": |-
       また来てくださいね。
-    "translated": ""
+    "original_byte_length": !!int |-
+      21
+    "reference_addrs":
+    - !!int |-
+      54709
+    "translated": !!null |-
+      null
   "5e94":
     "original": |-
       <C_YELLOW>道具屋<C_NONE>
       いらっしゃいませ。
       どのような ご用でしょうか？<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      56
+    "reference_addrs":
+    - !!int |-
+      54721
+    "translated": !!null |-
+      null
   "5ecc":
     "original": |-
       また来てくださいね。
-    "translated": ""
+    "original_byte_length": !!int |-
+      21
+    "reference_addrs":
+    - !!int |-
+      54748
+    - !!int |-
+      54748
+    - !!int |-
+      54748
+    "translated": !!null |-
+      null
   "5ee1":
     "original": |-
       おや？これ以上持てないようですね。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      36
+    "reference_addrs":
+    - !!int |-
+      1662
+    - !!int |-
+      1662
+    - !!int |-
+      1662
+    "translated": !!null |-
+      null
   "5f05":
     "original": |-
       どれを買ってくれますか？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      26
+    "reference_addrs":
+    - !!int |-
+      1664
+    - !!int |-
+      1664
+    - !!int |-
+      1664
+    "translated": !!null |-
+      null
   "5f1f":
     "original": |-
       <ITEM>だね。
       どうも ありがとう。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      29
+    "reference_addrs":
+    - !!int |-
+      1666
+    - !!int |-
+      1666
+    - !!int |-
+      1666
+    "translated": !!null |-
+      null
   "5f44":
     "original": |-
       どれを 売ってくれますか？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      27
+    "reference_addrs":
+    - !!int |-
+      1534
+    "translated": !!null |-
+      null
   "5f5f":
     "original": |2-
        Gold になるけど
       それでも よろしいですか？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      44
+    "reference_addrs":
+    - !!int |-
+      1536
+    "translated": !!null |-
+      null
   "5f8b":
     "original": |-
       それは残念です。
 
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      18
+    "reference_addrs":
+    - !!int |-
+      1538
+    "translated": !!null |-
+      null
   "5f9d":
     "original": |-
       どうも ありがとうございます。
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      31
+    "reference_addrs":
+    - !!int |-
+      1540
+    "translated": !!null |-
+      null
 "note": ""

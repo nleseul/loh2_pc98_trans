@@ -7,13 +7,25 @@
       これは とっておきの 極秘情報だが
       モンスターを 退治したのは
       ファーレーンの 王子さまらしいぜ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      142
+    "reference_addrs":
+    - !!int |-
+      54750
+    "translated": !!null |-
+      null
   "5b44":
     "original": |-
       <C_YELLOW>老人<C_NONE>
       また 村の奥で 宿屋を始めたようじゃ。やめたり 始めたりと いそがしい
       宿屋じゃな。
-    "translated": ""
+    "original_byte_length": !!int |-
+      87
+    "reference_addrs":
+    - !!int |-
+      54759
+    "translated": !!null |-
+      null
   "5b9b":
     "original": |-
       <C_YELLOW>漁師<C_NONE>
@@ -28,62 +40,132 @@
       どっから 拾ってくるんだろうな。<WAIT>
       もしかすると どこかの金持ちが
       えさの代りに やってたりして ･ ･ ･
-    "translated": ""
+    "original_byte_length": !!int |-
+      280
+    "reference_addrs":
+    - !!int |-
+      54768
+    "translated": !!null |-
+      null
   "5cb3":
     "original": |-
       <C_YELLOW>ジゴ<C_NONE>
       <IF0408><JUMP5cdd>やあ 王子さま 元気そうだな。<END>
       <LOC5cdd><SET0400>やあ 王子さま 疲れているなら
       休んでいってくれ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      93
+    "reference_addrs":
+    - !!int |-
+      54725
+    "translated": !!null |-
+      null
   "5d10":
     "original": |-
       <C_YELLOW>道具屋<C_NONE>
       いらっしゃいませ。
       どのような ご用でしょうか？<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      56
+    "reference_addrs":
+    - !!int |-
+      54780
+    "translated": !!null |-
+      null
   "5d48":
     "original": |-
       また来てくださいね。
-    "translated": ""
+    "original_byte_length": !!int |-
+      21
+    "reference_addrs":
+    - !!int |-
+      54807
+    - !!int |-
+      54807
+    - !!int |-
+      54807
+    "translated": !!null |-
+      null
   "5d5d":
     "original": |-
       おや？これ以上持てないようですね。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      36
+    "reference_addrs":
+    - !!int |-
+      1274
+    "translated": !!null |-
+      null
   "5d81":
     "original": |-
       どれを買ってくれますか？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      26
+    "reference_addrs":
+    - !!int |-
+      1276
+    "translated": !!null |-
+      null
   "5d9b":
     "original": |-
       <ITEM>だね。
       どうも ありがとう。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      29
+    "reference_addrs":
+    - !!int |-
+      1278
+    "translated": !!null |-
+      null
   "5dc0":
     "original": |-
       どれを 売ってくれますか？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      27
+    "reference_addrs":
+    - !!int |-
+      1146
+    "translated": !!null |-
+      null
   "5ddb":
     "original": |2-
        Gold になるけど
       それでも よろしいですか？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      44
+    "reference_addrs":
+    - !!int |-
+      1148
+    "translated": !!null |-
+      null
   "5e07":
     "original": |-
       それは残念です。
 
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      18
+    "reference_addrs":
+    - !!int |-
+      1150
+    "translated": !!null |-
+      null
   "5e19":
     "original": |-
       どうも ありがとうございます。
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      31
+    "reference_addrs":
+    - !!int |-
+      1152
+    "translated": !!null |-
+      null
 "note": ""

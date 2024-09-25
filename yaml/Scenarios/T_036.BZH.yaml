@@ -5,7 +5,13 @@
       鉱山のほうも なんとか復旧できたし
       モンスターも いなくなって
       ひと安心じゃよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      84
+    "reference_addrs":
+    - !!int |-
+      54630
+    "translated": !!null |-
+      null
   "5afb":
     "original": |-
       <C_YELLOW>ピート<C_NONE>
@@ -13,23 +19,47 @@
 
       今のうちに 坑道を補強しているんだ。いつ また地震が くるか わからない
       からな。
-    "translated": ""
+    "original_byte_length": !!int |-
+      113
+    "reference_addrs":
+    - !!int |-
+      54639
+    "translated": !!null |-
+      null
   "5b6c":
     "original": |-
       <C_YELLOW>男<C_NONE>
       みんな 忙しいんだから 作業の
       じゃまをするなよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      53
+    "reference_addrs":
+    - !!int |-
+      54648
+    "translated": !!null |-
+      null
   "5bd7":
     "original": |-
       <C_YELLOW>男<C_NONE>
       忙しい 忙しい ･ ･ ･
-    "translated": ""
+    "original_byte_length": !!int |-
+      25
+    "reference_addrs":
+    - !!int |-
+      54693
+    "translated": !!null |-
+      null
   "5bf0":
     "original": |-
       <C_YELLOW>男<C_NONE>
       ああ 疲れた ･ ･ ･
-    "translated": ""
+    "original_byte_length": !!int |-
+      23
+    "reference_addrs":
+    - !!int |-
+      54698
+    "translated": !!null |-
+      null
   "5c07":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -39,64 +69,146 @@
 
       昔から ここに いたらしくて
       ここの名物じいさんだそうだよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      154
+    "reference_addrs":
+    - !!int |-
+      54707
+    "translated": !!null |-
+      null
   "5ca1":
     "original": |-
       <C_YELLOW>武器屋<C_NONE>
       はい いらっしゃい。<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      29
+    "reference_addrs":
+    - !!int |-
+      54719
+    "translated": !!null |-
+      null
   "5cbe":
     "original": |-
       またどうぞ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      13
+    "reference_addrs":
+    - !!int |-
+      54731
+    "translated": !!null |-
+      null
   "5ccb":
     "original": |-
       <C_YELLOW>道具屋<C_NONE>
       いらっしゃいませ。
       どのような ご用でしょうか？<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      56
+    "reference_addrs":
+    - !!int |-
+      54743
+    "translated": !!null |-
+      null
   "5d03":
     "original": |-
       また来てくださいね。
-    "translated": ""
+    "original_byte_length": !!int |-
+      21
+    "reference_addrs":
+    - !!int |-
+      54770
+    - !!int |-
+      54770
+    - !!int |-
+      54770
+    "translated": !!null |-
+      null
   "5d18":
     "original": |-
       おや？これ以上持てないようですね。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      36
+    "reference_addrs":
+    - !!int |-
+      1206
+    - !!int |-
+      1206
+    "translated": !!null |-
+      null
   "5d3c":
     "original": |-
       どれを買ってくれますか？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      26
+    "reference_addrs":
+    - !!int |-
+      1208
+    - !!int |-
+      1208
+    "translated": !!null |-
+      null
   "5d56":
     "original": |-
       <ITEM>だね。
       どうも ありがとう。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      29
+    "reference_addrs":
+    - !!int |-
+      1210
+    - !!int |-
+      1210
+    "translated": !!null |-
+      null
   "5d7b":
     "original": |-
       どれを 売ってくれますか？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      27
+    "reference_addrs":
+    - !!int |-
+      1077
+    "translated": !!null |-
+      null
   "5d96":
     "original": |2-
        Gold になるけど
       それでも よろしいですか？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      44
+    "reference_addrs":
+    - !!int |-
+      1079
+    "translated": !!null |-
+      null
   "5dc2":
     "original": |-
       それは残念です。
 
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      18
+    "reference_addrs":
+    - !!int |-
+      1081
+    "translated": !!null |-
+      null
   "5dd4":
     "original": |-
       どうも ありがとうございます。
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      31
+    "reference_addrs":
+    - !!int |-
+      1083
+    "translated": !!null |-
+      null
 "note": ""

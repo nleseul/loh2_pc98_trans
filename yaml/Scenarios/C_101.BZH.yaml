@@ -112,7 +112,13 @@
       そうか それは よいことだ。
       <LOC62aa>くれぐれも モンスターには
       気をつけて むりを せぬようにな。
-    "translated": ""
+    "original_byte_length": !!int |-
+      2198
+    "reference_addrs":
+    - !!int |-
+      54649
+    "translated": !!null |-
+      null
   "62e5":
     "original": |-
       <C_YELLOW>オーエン<C_NONE>
@@ -126,20 +132,38 @@
       <IF0051><JUMP63c9><IF0068><JUMP63c8>お気をつけて 旅をなさってください。<LOC63c8><END>
       <LOC63c9>モンスターには 十分 お気をつけに
       なってください。
-    "translated": ""
+    "original_byte_length": !!int |-
+      278
+    "reference_addrs":
+    - !!int |-
+      54658
+    "translated": !!null |-
+      null
   "63fb":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       ジェストンさまは 独身だから
       後継ぎがいらっしゃらないんです。
-    "translated": ""
+    "original_byte_length": !!int |-
+      68
+    "reference_addrs":
+    - !!int |-
+      54667
+    "translated": !!null |-
+      null
   "643f":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       １階にいる 候補の中から 後継ぎを
       決めるのですが、いつになっても
       決まらないんですよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      92
+    "reference_addrs":
+    - !!int |-
+      54676
+    "translated": !!null |-
+      null
   "649b":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -147,7 +171,13 @@
       アトラス王子さまですね？
       ジェストンさまは この先です。<END>
       <LOC64f6>ああ わが国にも あなたさまのような立派な後継ぎがいたら ･ ･ ･
-    "translated": ""
+    "original_byte_length": !!int |-
+      152
+    "reference_addrs":
+    - !!int |-
+      54685
+    "translated": !!null |-
+      null
   "6533":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -163,5 +193,11 @@
 
       いやー あんな物に乗って 空を
       飛べたら 気持ち いいでしょうね。
-    "translated": ""
+    "original_byte_length": !!int |-
+      304
+    "reference_addrs":
+    - !!int |-
+      54694
+    "translated": !!null |-
+      null
 "note": ""

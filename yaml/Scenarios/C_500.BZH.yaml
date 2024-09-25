@@ -18,7 +18,13 @@
       そうだよなあ シンディ。
       さあ アトラス、おやじさんを
       助けにいこうぜ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      206
+    "reference_addrs":
+    - !!int |-
+      54768
+    "translated": !!null |-
+      null
   "5db8":
     "original": |-
       <C_YELLOW>ガード<C_NONE>
@@ -27,13 +33,25 @@
 
       ああ ナレサ隊長か。
       隊長だったら この先だ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      109
+    "reference_addrs":
+    - !!int |-
+      54777
+    "translated": !!null |-
+      null
   "5e25":
     "original": |-
       <C_YELLOW>ガード<C_NONE>
       ちょっとでも 変な行動をしたら
       プロスの収容所 行きだからな。
-    "translated": ""
+    "original_byte_length": !!int |-
+      69
+    "reference_addrs":
+    - !!int |-
+      54786
+    "translated": !!null |-
+      null
   "5e6a":
     "original": |-
       <C_YELLOW>ガード<C_NONE>
@@ -43,18 +61,36 @@
       お前たち 生産階級の者が ここまで
       来られただけでも ありがたいと
       思うんだな。
-    "translated": ""
+    "original_byte_length": !!int |-
+      137
+    "reference_addrs":
+    - !!int |-
+      54795
+    "translated": !!null |-
+      null
   "5ef3":
     "original": |-
       <C_YELLOW>ガード<C_NONE>
       こんな所に 来れて 珍しいのは
       わかるが あまり きょろきょろ
       しているんじゃない。
-    "translated": ""
+    "original_byte_length": !!int |-
+      88
+    "reference_addrs":
+    - !!int |-
+      54804
+    "translated": !!null |-
+      null
   "5f4b":
     "original": |-
       <C_GREEN>ガードは気絶しているようです。<C_NONE>
-    "translated": ""
+    "original_byte_length": !!int |-
+      33
+    "reference_addrs":
+    - !!int |-
+      54813
+    "translated": !!null |-
+      null
   "5f6c":
     "original": |-
       <C_YELLOW>ナレサ隊長<C_NONE>
@@ -76,5 +112,11 @@
 
       <C_YELLOW>ガード<C_NONE>
       はい。
-    "translated": ""
+    "original_byte_length": !!int |-
+      226
+    "reference_addrs":
+    - !!int |-
+      54822
+    "translated": !!null |-
+      null
 "note": ""

@@ -4,23 +4,47 @@
       <C_YELLOW>男<C_NONE>
       <SET0125>ああ また迷っちゃったよ。
       イズーは どうやって 行けばいいのか知らないかい？
-    "translated": ""
+    "original_byte_length": !!int |-
+      83
+    "reference_addrs":
+    - !!int |-
+      54968
+    "translated": !!null |-
+      null
   "5e98":
     "original": |-
       <C_YELLOW>男<C_NONE>
       <SET0125>せっかく イズーで 仕事が
       見つかったのに 町まで 行けないから困ってるんだ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      82
+    "reference_addrs":
+    - !!int |-
+      54977
+    "translated": !!null |-
+      null
   "5eea":
     "original": |-
       <C_YELLOW>男<C_NONE>
       <SET0125>こんな迷路みたいな道じゃ 行きたい
       所まで 行くのに ひと苦労だよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      73
+    "reference_addrs":
+    - !!int |-
+      54986
+    "translated": !!null |-
+      null
   "5f33":
     "original": |-
       <C_YELLOW>女<C_NONE>
       <SET0125>なんて だらしのない人たちなの？
       もう 私 帰っちゃおうかしら。
-    "translated": ""
+    "original_byte_length": !!int |-
+      69
+    "reference_addrs":
+    - !!int |-
+      54995
+    "translated": !!null |-
+      null
 "note": ""

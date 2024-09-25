@@ -4,14 +4,26 @@
       <C_YELLOW>男<C_NONE>
       おれたち夫婦は ジェラルドさまの
       別荘の管理をしてるだよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      62
+    "reference_addrs":
+    - !!int |-
+      54633
+    "translated": !!null |-
+      null
   "5b47":
     "original": |-
       <C_YELLOW>女<C_NONE>
       別荘の そうじは 女中さんたちが
       やるから しばらくは やらなくて
       いいんですって。
-    "translated": ""
+    "original_byte_length": !!int |-
+      84
+    "reference_addrs":
+    - !!int |-
+      54642
+    "translated": !!null |-
+      null
   "5b9b":
     "original": |-
       <C_YELLOW>ジェラルド<C_NONE>
@@ -125,7 +137,13 @@
       <LOC62d3>ついに わしの長年の夢がかない
       我が家も 名門の仲間入りが
       できるのですな ･ ･ ･
-    "translated": ""
+    "original_byte_length": !!int |-
+      1925
+    "reference_addrs":
+    - !!int |-
+      54657
+    "translated": !!null |-
+      null
   "6320":
     "original": |-
       <C_YELLOW>ジェラルド夫人<C_NONE>
@@ -137,7 +155,13 @@
       <LOC6395>フローラ、アトラス王子さまに
       きらわれないようにね。
       せっかくのチャンスですからね。
-    "translated": ""
+    "original_byte_length": !!int |-
+      200
+    "reference_addrs":
+    - !!int |-
+      54666
+    "translated": !!null |-
+      null
   "63e8":
     "original": |-
       <C_YELLOW>チャーリー<C_NONE>
@@ -154,32 +178,62 @@
 
       庶民の中に うまく溶け込んで
       いらしたものですから。
-    "translated": ""
+    "original_byte_length": !!int |-
+      351
+    "reference_addrs":
+    - !!int |-
+      54675
+    "translated": !!null |-
+      null
   "6547":
     "original": |-
       <C_YELLOW>男<C_NONE>
       お嬢さま お元気そうで 安心しました。やっぱり 誘拐じゃなかったんですね。
-    "translated": ""
+    "original_byte_length": !!int |-
+      77
+    "reference_addrs":
+    - !!int |-
+      54742
+    "translated": !!null |-
+      null
   "6594":
     "original": |-
       <C_YELLOW>男<C_NONE>
       おら もうすぐ 釣りに行かなきゃ
       なんねえだよ。
       じゃましねえでくれ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      72
+    "reference_addrs":
+    - !!int |-
+      54751
+    "translated": !!null |-
+      null
   "65dc":
     "original": |-
       <C_YELLOW>女中<C_NONE>
       あら お嬢さまじゃありませんか。
       みんな 心配していたのですよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      69
+    "reference_addrs":
+    - !!int |-
+      54760
+    "translated": !!null |-
+      null
   "6621":
     "original": |
       <C_YELLOW>女中<C_NONE>
       お嬢さま お帰りなさい。
       変な人に だまされませんでしたか？
       それだけが 心配でした。
-    "translated": ""
+    "original_byte_length": !!int |-
+      90
+    "reference_addrs":
+    - !!int |-
+      54769
+    "translated": !!null |-
+      null
   "667b":
     "original": |-
       <C_YELLOW>ジェニー<C_NONE>
@@ -195,5 +249,11 @@
       ことでしょう。
 
       お気をつけて 行ってらしてください。
-    "translated": ""
+    "original_byte_length": !!int |-
+      253
+    "reference_addrs":
+    - !!int |-
+      54778
+    "translated": !!null |-
+      null
 "note": ""

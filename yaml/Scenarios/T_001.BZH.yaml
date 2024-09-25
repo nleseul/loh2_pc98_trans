@@ -15,13 +15,25 @@
       こんなに 売れたのは 初めてなので
       うれしいような 気がするのですが
       どうも すなおに よろこべないんです。
-    "translated": ""
+    "original_byte_length": !!int |-
+      352
+    "reference_addrs":
+    - !!int |-
+      54782
+    "translated": !!null |-
+      null
   "5c65":
     "original": |-
       <CALL6129>王子さまが お城にいかれてから
       食事の したくを していても 何か
       物足りないんです。
-    "translated": ""
+    "original_byte_length": !!int |-
+      84
+    "reference_addrs":
+    - !!int |-
+      54698
+    "translated": !!null |-
+      null
   "5cb9":
     "original": |-
       <CALL6129>まあ、王子さま。
@@ -31,18 +43,36 @@
 
       外には モンスターがいるというのに
       わざわざ こんな所まで 来るなんて。
-    "translated": ""
+    "original_byte_length": !!int |-
+      146
+    "reference_addrs":
+    - !!int |-
+      54707
+    "translated": !!null |-
+      null
   "5d4b":
     "original": |-
       <CALL6130>町の者たちには 王子さまは しばらくお城の方で お勉強を していることになっておりますので ご安心ください。
-    "translated": ""
+    "original_byte_length": !!int |-
+      107
+    "reference_addrs":
+    - !!int |-
+      54716
+    "translated": !!null |-
+      null
   "5db6":
     "original": |-
       <CALL6130><IF0068><JUMP5dfe>王子さま、危険なことなどせずに
       よい旅を なさってきてください。<END>
       <LOC5dfe>王子さま エルアスタは どんなことがあっても 守ってみせます。
       安心してください。
-    "translated": ""
+    "original_byte_length": !!int |-
+      151
+    "reference_addrs":
+    - !!int |-
+      54725
+    "translated": !!null |-
+      null
   "5e4d":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -50,7 +80,13 @@
       <IF0068><JUMP5ea6>しばらく ルディアの お城で
       勉強をするそうですね？<END>
       <LOC5ea6>モンスターが 出てきたら スライムがいなくなったみたいですね。
-    "translated": ""
+    "original_byte_length": !!int |-
+      150
+    "reference_addrs":
+    - !!int |-
+      54761
+    "translated": !!null |-
+      null
   "5ee3":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -58,13 +94,25 @@
       <IF0068><JUMP5f1e>お城から 遊びにみえたのですか？<END>
       <LOC5f1e>ぶっそうに なったものですね
       どうして モンスターなんかが ･ ･ ･
-    "translated": ""
+    "original_byte_length": !!int |-
+      121
+    "reference_addrs":
+    - !!int |-
+      54770
+    "translated": !!null |-
+      null
   "5f5c":
     "original": |-
       <C_YELLOW>女<C_NONE>
       ま、王子さま。
       お久しぶりで ございます。
-    "translated": ""
+    "original_byte_length": !!int |-
+      46
+    "reference_addrs":
+    - !!int |-
+      54734
+    "translated": !!null |-
+      null
   "5f8a":
     "original": |-
       <C_YELLOW>子供<C_NONE>
@@ -74,13 +122,25 @@
       <LOC5fd8>外には 怖いモンスターがいるから
       町から 出ちゃいけないんだって。
       あーあ つまんないな。
-    "translated": ""
+    "original_byte_length": !!int |-
+      164
+    "reference_addrs":
+    - !!int |-
+      54743
+    "translated": !!null |-
+      null
   "602e":
     "original": |-
       <C_YELLOW>パーカー<C_NONE>
       王子さま、おら もう 抜け穴は
       作らねーですだ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      57
+    "reference_addrs":
+    - !!int |-
+      54752
+    "translated": !!null |-
+      null
   "6067":
     "original": |-
       <C_YELLOW>道具屋<C_NONE>
@@ -92,13 +152,35 @@
 
       また やつらに おびえながら
       くらさなければ ならないとは ･ ･ ･
-    "translated": ""
+    "original_byte_length": !!int |-
+      194
+    "reference_addrs":
+    - !!int |-
+      54776
+    "translated": !!null |-
+      null
   "6129":
     "original": |-
       <C_YELLOW>侍女<C_NONE><RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      7
+    "reference_addrs":
+    - !!int |-
+      23654
+    - !!int |-
+      23738
+    "translated": !!null |-
+      null
   "6130":
     "original": |-
       <C_YELLOW>兵士<C_NONE><RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      7
+    "reference_addrs":
+    - !!int |-
+      23884
+    - !!int |-
+      23991
+    "translated": !!null |-
+      null
 "note": ""

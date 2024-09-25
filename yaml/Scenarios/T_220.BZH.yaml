@@ -16,7 +16,13 @@
 
       あんたたちも けがを しないように
       気をつけることだな。
-    "translated": ""
+    "original_byte_length": !!int |-
+      289
+    "reference_addrs":
+    - !!int |-
+      54633
+    "translated": !!null |-
+      null
   "5bd4":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -31,7 +37,13 @@
       その後 クビになってからは 国民が
       自分の命を 狙っていると 思うようになって ずっと おびえたまま 死んで
       いったっていう話だぜ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      323
+    "reference_addrs":
+    - !!int |-
+      54642
+    "translated": !!null |-
+      null
   "5d17":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -47,7 +59,13 @@
       それ以来 あの屋敷には 近付かない
       ことにしてるんだ。
       あんたたちも 行かない方がいいぞ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      277
+    "reference_addrs":
+    - !!int |-
+      54651
+    "translated": !!null |-
+      null
   "5e2c":
     "original": |-
       <C_YELLOW>老人<C_NONE>
@@ -56,7 +74,13 @@
 
       ところが 何かの商売で 大もうけしたらしくて あっというまに この町の
       有力者になってしまったのです。
-    "translated": ""
+    "original_byte_length": !!int |-
+      193
+    "reference_addrs":
+    - !!int |-
+      54660
+    "translated": !!null |-
+      null
   "5eed":
     "original": |-
       <C_YELLOW>女<C_NONE>
@@ -70,14 +94,26 @@
       でも ひとり娘の フローラさんは
       あの親から 生まれたとは 思えない
       ほど よくできた お嬢さまなのよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      286
+    "reference_addrs":
+    - !!int |-
+      54669
+    "translated": !!null |-
+      null
   "600b":
     "original": |-
       <C_YELLOW>ジェラルド夫人<C_NONE>
       えーと 昨日が ネックレスで
       その前が ゆびわで その前は ･ ･ ･
       今日は 何に しましょうかしら。
-    "translated": ""
+    "original_byte_length": !!int |-
+      108
+    "reference_addrs":
+    - !!int |-
+      54678
+    "translated": !!null |-
+      null
   "6077":
     "original": |-
       <C_YELLOW>道具屋<C_NONE>
@@ -90,5 +126,11 @@
 
       でも 高い金で 買ってくれるから
       いやだとは 言えなくてね ･ ･ ･
-    "translated": ""
+    "original_byte_length": !!int |-
+      243
+    "reference_addrs":
+    - !!int |-
+      54684
+    "translated": !!null |-
+      null
 "note": ""

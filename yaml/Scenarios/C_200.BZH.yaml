@@ -4,21 +4,39 @@
       <C_YELLOW>兵士<C_NONE>
       何の用できたか 知らないけど みんな祭の準備で 忙しいから じゃまに
       ならないようにしてくれよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      99
+    "reference_addrs":
+    - !!int |-
+      54635
+    "translated": !!null |-
+      null
   "5b7b":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       竜の祭とは 今年のしゅうかくを
       女神 フレイアさまに かんしゃして
       来年の 豊作を 祈る祭のことなんだ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      105
+    "reference_addrs":
+    - !!int |-
+      54644
+    "translated": !!null |-
+      null
   "5be4":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       竜の祭の日には たくさんの料理が
       食べられるんだ 中でも にわとりの
       丸やきは最高だな。
-    "translated": ""
+    "original_byte_length": !!int |-
+      91
+    "reference_addrs":
+    - !!int |-
+      54653
+    "translated": !!null |-
+      null
   "5c3f":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -29,7 +47,13 @@
       だから ワプを使って 直接 この国に
       来ても 記録を調べれば すぐに
       わかるようになっているんだ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      193
+    "reference_addrs":
+    - !!int |-
+      54662
+    "translated": !!null |-
+      null
   "5d00":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -39,7 +63,13 @@
 
       だから 手続きは 祭が終わるまで
       やれないんだよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      142
+    "reference_addrs":
+    - !!int |-
+      54671
+    "translated": !!null |-
+      null
   "5d8e":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -48,14 +78,26 @@
       罪人をジャグリまで 護送したり
       貨物を輸送したりと いろいろな
       用途に使っているのです。
-    "translated": ""
+    "original_byte_length": !!int |-
+      128
+    "reference_addrs":
+    - !!int |-
+      54680
+    "translated": !!null |-
+      null
   "5e0e":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       祭のじゃまをするような やつが
       来ないように 見張りをしてるんだ。
       祭は 国をあげての 行事だからね。
-    "translated": ""
+    "original_byte_length": !!int |-
+      104
+    "reference_addrs":
+    - !!int |-
+      54689
+    "translated": !!null |-
+      null
   "5e76":
     "original": |-
       <C_YELLOW>司祭 バーバラ<C_NONE>
@@ -64,20 +106,38 @@
 
       あの卵は つるっとしていて
       入る所など ないのじゃが わしだけは中に入ることが できるのじゃよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      170
+    "reference_addrs":
+    - !!int |-
+      54698
+    "translated": !!null |-
+      null
   "5f20":
     "original": |-
       <C_YELLOW>侍女<C_NONE>
       竜の祭の日には たくさんの料理を
       出すから そのための 材料の手配を
       しているのよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      87
+    "reference_addrs":
+    - !!int |-
+      54707
+    "translated": !!null |-
+      null
   "5f77":
     "original": |-
       <C_YELLOW>侍女<C_NONE>
       もう祭の準備で大変よ。
       あんまり 忙しいから 王妃さまにまで手伝っていただいてるの。
-    "translated": ""
+    "original_byte_length": !!int |-
+      89
+    "reference_addrs":
+    - !!int |-
+      54716
+    "translated": !!null |-
+      null
   "5fd0":
     "original": |-
       <C_YELLOW>ソニア王妃<C_NONE>
@@ -86,12 +146,24 @@
       みんな 祭の準備で 忙しいんだから
       私に できることだったら 何でも
       手伝っていますわ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      149
+    "reference_addrs":
+    - !!int |-
+      54725
+    "translated": !!null |-
+      null
   "6065":
     "original": |-
       <C_YELLOW>チャールズ王子<C_NONE>
       みんな 祭りの準備をしてて 遊んで
       くれないんだ。<WAIT>
       つまんないなぁ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      82
+    "reference_addrs":
+    - !!int |-
+      54734
+    "translated": !!null |-
+      null
 "note": ""

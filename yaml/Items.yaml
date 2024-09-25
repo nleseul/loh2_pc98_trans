@@ -1,414 +1,826 @@
 "entries":
   "8b3b":
-    "original": |2-
-            何もない
-    "translated": ""
+    "original": |-
+      何もない
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": |-
+      Nothing
   "8b4f":
-    "original": |2-
-              ナイフ
-    "translated": ""
+    "original": |-
+      ナイフ
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": |-
+      Knife
   "8b63":
-    "original": |2-
-        小型のつるぎ
-    "translated": ""
+    "original": |-
+      小型のつるぎ
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": |-
+      Short Sword
   "8b77":
-    "original": |2-
-        青銅のつるぎ
-    "translated": ""
+    "original": |-
+      青銅のつるぎ
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": |-
+      Copper Sword
   "8b8b":
-    "original": |2-
-          鉄のつるぎ
-    "translated": ""
+    "original": |-
+      鉄のつるぎ
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": |-
+      Iron Sword
   "8b9f":
-    "original": |2-
-        鉄球こんぼう
-    "translated": ""
+    "original": |-
+      鉄球こんぼう
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "8bb3":
-    "original": |2-
-          強者のやり
-    "translated": ""
+    "original": |-
+      強者のやり
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "8bc7":
-    "original": |2-
-        必殺のつるぎ
-    "translated": ""
+    "original": |-
+      必殺のつるぎ
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "8bdb":
-    "original": |2-
-          大地のおの
-    "translated": ""
+    "original": |-
+      大地のおの
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "8bef":
-    "original": |2-
-        戦士のつるぎ
-    "translated": ""
+    "original": |-
+      戦士のつるぎ
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "8c03":
-    "original": |2-
-        勇者のつるぎ
-    "translated": ""
+    "original": |-
+      勇者のつるぎ
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "8c17":
-    "original": |2-
-          騎士のやり
-    "translated": ""
+    "original": |-
+      騎士のやり
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "8c2b":
-    "original": |2-
-        撃破のつるぎ
-    "translated": ""
+    "original": |-
+      撃破のつるぎ
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "8c3f":
-    "original": |2-
-        理力のつるぎ
-    "translated": ""
+    "original": |-
+      理力のつるぎ
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "8c53":
-    "original": |2-
-        正義のつるぎ
-    "translated": ""
+    "original": |-
+      正義のつるぎ
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "8c67":
-    "original": |2-
-        ドラゴンの剣
-    "translated": ""
+    "original": |-
+      ドラゴンの剣
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "8c7b":
-    "original": |2-
-          太陽の聖剣
-    "translated": ""
+    "original": |-
+      太陽の聖剣
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "8c8f":
-    "original": |2-
-              布の服
-    "translated": ""
+    "original": |-
+      布の服
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": |-
+      Clothes
   "8ca3":
-    "original": |2-
-          革のヨロイ
-    "translated": ""
+    "original": |-
+      革のヨロイ
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "8cb7":
-    "original": |2-
-          鉄のヨロイ
-    "translated": ""
+    "original": |-
+      鉄のヨロイ
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "8ccb":
     "original": |-
       はがねのヨロイ
-    "translated": ""
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "8cdf":
     "original": |-
       不死身のヨロイ
-    "translated": ""
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "8cf3":
-    "original": |2-
-        バトルスーツ
-    "translated": ""
+    "original": |-
+      バトルスーツ
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "8d07":
-    "original": |2-
-        理力のヨロイ
-    "translated": ""
+    "original": |-
+      理力のヨロイ
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "8d1b":
-    "original": |2-
-        自由のヨロイ
-    "translated": ""
+    "original": |-
+      自由のヨロイ
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "8d2f":
-    "original": |2-
-        ドラゴンの鎧
-    "translated": ""
+    "original": |-
+      ドラゴンの鎧
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "8d43":
-    "original": |2-
-            革のたて
-    "translated": ""
+    "original": |-
+      革のたて
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "8d57":
-    "original": |2-
-            鉄のたて
-    "translated": ""
+    "original": |-
+      鉄のたて
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "8d6b":
-    "original": |2-
-        はがねのたて
-    "translated": ""
+    "original": |-
+      はがねのたて
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "8d7f":
-    "original": |2-
-          無敵のたて
-    "translated": ""
+    "original": |-
+      無敵のたて
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "8d93":
     "original": |-
       いにしえのたて
-    "translated": ""
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "8da7":
-    "original": |2-
-          理力のたて
-    "translated": ""
+    "original": |-
+      理力のたて
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "8dbb":
-    "original": |2-
-          希望のたて
-    "translated": ""
+    "original": |-
+      希望のたて
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "8dcf":
     "original": |-
       ドラゴンのたて
-    "translated": ""
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "8de3":
-    "original": |2-
-            炎のやり
-    "translated": ""
+    "original": |-
+      炎のやり
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "8df7":
-    "original": |2-
-        回復のヨロイ
-    "translated": ""
+    "original": |-
+      回復のヨロイ
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "8e0b":
-    "original": |2-
-              光の杖
-    "translated": ""
+    "original": |-
+      光の杖
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "8e1f":
-    "original": |2-
-        いかづちの杖
-    "translated": ""
+    "original": |-
+      いかづちの杖
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "8e33":
-    "original": |2-
-        シナリオ専用
-    "translated": ""
+    "original": |-
+      シナリオ専用
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "8e47":
-    "original": |2-
-        災害のお守り
-    "translated": ""
+    "original": |-
+      災害のお守り
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "8e5b":
-    "original": |2-
-                切符
-    "translated": ""
+    "original": |-
+      切符
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "8e6f":
-    "original": |2-
-            戦士の笛
-    "translated": ""
+    "original": |-
+      戦士の笛
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "8e83":
-    "original": |2-
-        キノコの王様
-    "translated": ""
+    "original": |-
+      キノコの王様
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "8e97":
-    "original": |2-
-              密造酒
-    "translated": ""
+    "original": |-
+      密造酒
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "8eab":
-    "original": |2-
-            バクヤク
-    "translated": ""
+    "original": |-
+      バクヤク
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "8ebf":
-    "original": |2-
-            ワプの翼
-    "translated": ""
+    "original": |-
+      ワプの翼
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "8ed3":
-    "original": |2-
-        ヨシュアの鏡
-    "translated": ""
+    "original": |-
+      ヨシュアの鏡
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "8ee7":
-    "original": |2-
-        ビスのキノコ
-    "translated": ""
+    "original": |-
+      ビスのキノコ
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "8efb":
-    "original": |2-
-            レスの葉
-    "translated": ""
+    "original": |-
+      レスの葉
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "8f0f":
-    "original": |2-
-            毒消し草
-    "translated": ""
+    "original": |-
+      毒消し草
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "8f23":
-    "original": |2-
-            たいまつ
-    "translated": ""
+    "original": |-
+      たいまつ
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "8f37":
-    "original": |2-
-        ヨシュアの目
-    "translated": ""
+    "original": |-
+      ヨシュアの目
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "8f4b":
-    "original": |2-
-        気付けぐすり
-    "translated": ""
+    "original": |-
+      気付けぐすり
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "8f5f":
-    "original": |2-
-        聖なるつるぎ
-    "translated": ""
+    "original": |-
+      聖なるつるぎ
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "8f73":
-    "original": |2-
-        聖なるヨロイ
-    "translated": ""
+    "original": |-
+      聖なるヨロイ
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "8f87":
-    "original": |2-
-          聖なるたて
-    "translated": ""
+    "original": |-
+      聖なるたて
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "8f9b":
-    "original": |2-
-              ランプ
-    "translated": ""
+    "original": |-
+      ランプ
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "8faf":
-    "original": |2-
-          回復キノコ
-    "translated": ""
+    "original": |-
+      回復キノコ
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "8fc3":
-    "original": |2-
-          ビスナの実
-    "translated": ""
+    "original": |-
+      ビスナの実
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "8fd7":
     "original": |-
       オプナのゆびわ
-    "translated": ""
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "8feb":
     "original": |-
       テュトのゆびわ
-    "translated": ""
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "8fff":
     "original": |-
       クイクのゆびわ
-    "translated": ""
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "9013":
-    "original": |2-
-        幸運のゆびわ
-    "translated": ""
+    "original": |-
+      幸運のゆびわ
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "9027":
     "original": |-
       スペルのゆびわ
-    "translated": ""
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "903b":
     "original": |-
       レストナキノコ
-    "translated": ""
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "904f":
-    "original": |2-
-            聖なる杖
-    "translated": ""
+    "original": |-
+      聖なる杖
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "9063":
-    "original": |2-
-          エリクサー
-    "translated": ""
+    "original": |-
+      エリクサー
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "9077":
-    "original": |2-
-              氷の杖
-    "translated": ""
+    "original": |-
+      氷の杖
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "908b":
     "original": |-
       マホウのゆびわ
-    "translated": ""
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "909f":
-    "original": |2-
-        賢者のゆびわ
-    "translated": ""
+    "original": |-
+      賢者のゆびわ
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "90b3":
-    "original": |2-
-            眠りタケ
-    "translated": ""
+    "original": |-
+      眠りタケ
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "90c7":
     "original": |-
       ？？？？？７１
-    "translated": ""
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "90db":
     "original": |-
       ？？？？？７２
-    "translated": ""
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "90ef":
     "original": |-
       ？？？？？７３
-    "translated": ""
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "9103":
     "original": |-
       ？？？？？７４
-    "translated": ""
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "9117":
     "original": |-
       ？？？？？７５
-    "translated": ""
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "912b":
-    "original": |2-
-        カノンの親書
-    "translated": ""
+    "original": |-
+      カノンの親書
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "9139":
     "original": |-
       ランケアの親書
-    "translated": ""
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "9147":
-    "original": |2-
-        ハルパの親書
-    "translated": ""
+    "original": |-
+      ハルパの親書
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "9155":
     "original": |-
       マリスカの親書
-    "translated": ""
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "9163":
-    "original": |2-
-        ギルモアの涙
-    "translated": ""
+    "original": |-
+      ギルモアの涙
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "9171":
-    "original": |2-
-        ギルモアの星
-    "translated": ""
+    "original": |-
+      ギルモアの星
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "917f":
-    "original": |2-
-        アフル通行証
-    "translated": ""
+    "original": |-
+      アフル通行証
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "918d":
-    "original": |2-
-        イズー通行証
-    "translated": ""
+    "original": |-
+      イズー通行証
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "919b":
     "original": |-
       キュベラ通行証
-    "translated": ""
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "91a9":
-    "original": |2-
-        ウイル通行証
-    "translated": ""
+    "original": |-
+      ウイル通行証
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "91b7":
-    "original": |2-
-              竜の涙
-    "translated": ""
+    "original": |-
+      竜の涙
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "91c5":
-    "original": |2-
-        銀のプレート
-    "translated": ""
+    "original": |-
+      銀のプレート
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "91d3":
-    "original": |2-
-          杖のかけら
-    "translated": ""
+    "original": |-
+      杖のかけら
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "91e1":
-    "original": |2-
-        幅広のつるぎ
-    "translated": ""
+    "original": |-
+      幅広のつるぎ
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "91ef":
     "original": |-
       くさりかたびら
-    "translated": ""
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "91fd":
-    "original": |2-
-        金のプレート
-    "translated": ""
+    "original": |-
+      金のプレート
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "920b":
-    "original": |2-
-        ギルモアの虹
-    "translated": ""
+    "original": |-
+      ギルモアの虹
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "9219":
-    "original": |2-
-        銅のプレート
-    "translated": ""
+    "original": |-
+      銅のプレート
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "9227":
     "original": |-
       不思議なマント
-    "translated": ""
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "9235":
-    "original": |2-
-          不思議な箱
-    "translated": ""
+    "original": |-
+      不思議な箱
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "9243":
-    "original": |2-
-              ビキニ
-    "translated": ""
+    "original": |-
+      ビキニ
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "9251":
-    "original": |2-
-            大笑い袋
-    "translated": ""
+    "original": |-
+      大笑い袋
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "925f":
-    "original": |2-
-          透視メガネ
-    "translated": ""
+    "original": |-
+      透視メガネ
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "926d":
-    "original": |2-
-            鉄アレイ
-    "translated": ""
+    "original": |-
+      鉄アレイ
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "927b":
     "original": |-
       ？？ＳＩＮ２５
-    "translated": ""
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "9289":
     "original": |-
       フレイアの微笑
-    "translated": ""
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
   "9297":
-    "original": |2-
-        変換炉のカギ
-    "translated": ""
+    "original": |-
+      変換炉のカギ
+    "original_byte_length": !!null |-
+      null
+    "reference_addrs": []
+    "translated": !!null |-
+      null
 "note": ""

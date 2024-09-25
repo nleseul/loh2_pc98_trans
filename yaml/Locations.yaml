@@ -1,248 +1,635 @@
 "entries":
-  "0000":
+  "88e0":
+    "original": "            "
+    "original_byte_length": !!int |-
+      12
+    "reference_addrs":
+    - !!int |-
+      34912
+    "translated": !!null |-
+      null
+  "88ec":
     "original": |-
       エルアスタ
-    "translated": ""
-  "0001":
+    "original_byte_length": !!int |-
+      11
+    "reference_addrs":
+    - !!int |-
+      34914
+    "translated": |-
+      Eluasta
+  "88f7":
     "original": |-
       ルディア
-    "translated": ""
-  "0002":
+    "original_byte_length": !!int |-
+      9
+    "reference_addrs":
+    - !!int |-
+      34916
+    "translated":  |-
+      Rudia
+  "8900":
     "original": |-
       クルス
-    "translated": ""
-  "0003":
+    "original_byte_length": !!int |-
+      7
+    "reference_addrs":
+    - !!int |-
+      34918
+    "translated": |-
+      Crus
+  "8907":
     "original": |-
       ベルガ
-    "translated": ""
-  "0004":
+    "original_byte_length": !!int |-
+      7
+    "reference_addrs":
+    - !!int |-
+      34920
+    "translated": |-
+      Belga
+  "890e":
     "original": |-
       ネリア
-    "translated": ""
-  "0005":
+    "original_byte_length": !!int |-
+      7
+    "reference_addrs":
+    - !!int |-
+      34922
+    "translated": |-
+      Neria
+  "8915":
     "original": |-
       ロンド
-    "translated": ""
-  "0006":
+    "original_byte_length": !!int |-
+      7
+    "reference_addrs":
+    - !!int |-
+      34924
+    "translated": !!null |-
+      null
+  "891c":
     "original": |-
       ラルファ
-    "translated": ""
-  "0007":
+    "original_byte_length": !!int |-
+      9
+    "reference_addrs":
+    - !!int |-
+      34926
+    "translated": !!null |-
+      null
+  "8925":
     "original": |-
       シリカ
-    "translated": ""
-  "0008":
+    "original_byte_length": !!int |-
+      7
+    "reference_addrs":
+    - !!int |-
+      34928
+    "translated": !!null |-
+      null
+  "892c":
     "original": |-
       マスクーン
-    "translated": ""
-  "0009":
+    "original_byte_length": !!int |-
+      11
+    "reference_addrs":
+    - !!int |-
+      34930
+    "translated": !!null |-
+      null
+  "8937":
     "original": |-
       リーゼル
-    "translated": ""
-  "000a":
+    "original_byte_length": !!int |-
+      9
+    "reference_addrs":
+    - !!int |-
+      34932
+    "translated": !!null |-
+      null
+  "8940":
     "original": |-
       ヨルド
-    "translated": ""
-  "000b":
+    "original_byte_length": !!int |-
+      7
+    "reference_addrs":
+    - !!int |-
+      34934
+    "translated": !!null |-
+      null
+  "8947":
     "original": |-
       セリス
-    "translated": ""
-  "000c":
+    "original_byte_length": !!int |-
+      7
+    "reference_addrs":
+    - !!int |-
+      34936
+    "translated": !!null |-
+      null
+  "894e":
     "original": |-
       ナッシュ
-    "translated": ""
-  "000d":
+    "original_byte_length": !!int |-
+      9
+    "reference_addrs":
+    - !!int |-
+      34938
+    "translated": !!null |-
+      null
+  "8957":
     "original": |-
       セレ
-    "translated": ""
-  "000e":
+    "original_byte_length": !!int |-
+      5
+    "reference_addrs":
+    - !!int |-
+      34940
+    "translated": !!null |-
+      null
+  "895c":
     "original": |-
       スエル
-    "translated": ""
-  "000f":
+    "original_byte_length": !!int |-
+      7
+    "reference_addrs":
+    - !!int |-
+      34942
+    "translated": !!null |-
+      null
+  "8963":
     "original": |-
       アムダ
-    "translated": ""
-  "0010":
+    "original_byte_length": !!int |-
+      7
+    "reference_addrs":
+    - !!int |-
+      34944
+    "translated": !!null |-
+      null
+  "896a":
     "original": |-
       セダル
-    "translated": ""
-  "0011":
+    "original_byte_length": !!int |-
+      7
+    "reference_addrs":
+    - !!int |-
+      34946
+    "translated": !!null |-
+      null
+  "8971":
     "original": |-
       ボアード海運
-    "translated": ""
-  "0012":
+    "original_byte_length": !!int |-
+      12
+    "reference_addrs":
+    - !!int |-
+      34948
+    "translated": !!null |-
+      null
+  "897d":
     "original": |-
       ルドラ
-    "translated": ""
-  "0013":
+    "original_byte_length": !!int |-
+      7
+    "reference_addrs":
+    - !!int |-
+      34950
+    "translated": !!null |-
+      null
+  "8984":
     "original": |-
       カウル
-    "translated": ""
-  "0014":
+    "original_byte_length": !!int |-
+      7
+    "reference_addrs":
+    - !!int |-
+      34952
+    "translated": !!null |-
+      null
+  "898b":
     "original": |-
       バズヌーン
-    "translated": ""
-  "0015":
+    "original_byte_length": !!int |-
+      11
+    "reference_addrs":
+    - !!int |-
+      34954
+    "translated": !!null |-
+      null
+  "8996":
     "original": |-
       リシェール
-    "translated": ""
-  "0016":
+    "original_byte_length": !!int |-
+      11
+    "reference_addrs":
+    - !!int |-
+      34956
+    "translated": !!null |-
+      null
+  "89a1":
     "original": |-
       ナスール
-    "translated": ""
-  "0017":
+    "original_byte_length": !!int |-
+      9
+    "reference_addrs":
+    - !!int |-
+      34958
+    "translated": !!null |-
+      null
+  "89aa":
     "original": |-
       ファエト
-    "translated": ""
-  "0018":
+    "original_byte_length": !!int |-
+      9
+    "reference_addrs":
+    - !!int |-
+      34960
+    "translated": !!null |-
+      null
+  "89b3":
     "original": |-
       コルクス
-    "translated": ""
-  "0019":
+    "original_byte_length": !!int |-
+      9
+    "reference_addrs":
+    - !!int |-
+      34962
+    "translated": !!null |-
+      null
+  "89bc":
     "original": |-
       エメ
-    "translated": ""
-  "001a":
+    "original_byte_length": !!int |-
+      5
+    "reference_addrs":
+    - !!int |-
+      34964
+    "translated": !!null |-
+      null
+  "89c1":
     "original": |-
       ファンガス
-    "translated": ""
-  "001b":
+    "original_byte_length": !!int |-
+      11
+    "reference_addrs":
+    - !!int |-
+      34966
+    "translated": !!null |-
+      null
+  "89cc":
     "original": |-
       イシュタ
-    "translated": ""
-  "001c":
+    "original_byte_length": !!int |-
+      9
+    "reference_addrs":
+    - !!int |-
+      34968
+    "translated": !!null |-
+      null
+  "89d5":
     "original": |-
       アフル
-    "translated": ""
-  "001d":
+    "original_byte_length": !!int |-
+      7
+    "reference_addrs":
+    - !!int |-
+      34970
+    "translated": !!null |-
+      null
+  "89dc":
     "original": |-
       イズー
-    "translated": ""
-  "001e":
+    "original_byte_length": !!int |-
+      7
+    "reference_addrs":
+    - !!int |-
+      34972
+    "translated": !!null |-
+      null
+  "89e3":
     "original": |-
       キュベラ
-    "translated": ""
-  "001f":
+    "original_byte_length": !!int |-
+      9
+    "reference_addrs":
+    - !!int |-
+      34974
+    "translated": !!null |-
+      null
+  "89ec":
     "original": |-
       プロス
-    "translated": ""
-  "0020":
+    "original_byte_length": !!int |-
+      7
+    "reference_addrs":
+    - !!int |-
+      34976
+    "translated": !!null |-
+      null
+  "89f3":
     "original": |-
       ウイル
-    "translated": ""
-  "0021":
+    "original_byte_length": !!int |-
+      7
+    "reference_addrs":
+    - !!int |-
+      34978
+    "translated": !!null |-
+      null
+  "89fa":
     "original": |-
       ベルン
-    "translated": ""
-  "0022":
+    "original_byte_length": !!int |-
+      7
+    "reference_addrs":
+    - !!int |-
+      34980
+    "translated": !!null |-
+      null
+  "8a01":
     "original": |-
       ユイシス
-    "translated": ""
-  "0023":
+    "original_byte_length": !!int |-
+      9
+    "reference_addrs":
+    - !!int |-
+      34982
+    "translated": !!null |-
+      null
+  "8a0a":
     "original": |-
       岬の洞窟
-    "translated": ""
-  "0024":
+    "original_byte_length": !!int |-
+      9
+    "reference_addrs":
+    - !!int |-
+      34984
+    "translated": !!null |-
+      null
+  "8a13":
     "original": |-
       試練の洞窟
-    "translated": ""
-  "0025":
+    "original_byte_length": !!int |-
+      11
+    "reference_addrs":
+    - !!int |-
+      34986
+    "translated": !!null |-
+      null
+  "8a1e":
     "original": |-
       王家の墓
-    "translated": ""
-  "0026":
+    "original_byte_length": !!int |-
+      9
+    "reference_addrs":
+    - !!int |-
+      34988
+    "translated": !!null |-
+      null
+  "8a27":
     "original": |-
       狼の口
-    "translated": ""
-  "0027":
+    "original_byte_length": !!int |-
+      7
+    "reference_addrs":
+    - !!int |-
+      34990
+    "translated": !!null |-
+      null
+  "8a2e":
     "original": |-
       奈落の口
-    "translated": ""
-  "0028":
+    "original_byte_length": !!int |-
+      9
+    "reference_addrs":
+    - !!int |-
+      34992
+    "translated": !!null |-
+      null
+  "8a37":
     "original": |-
       アネスの塔
-    "translated": ""
-  "0029":
+    "original_byte_length": !!int |-
+      11
+    "reference_addrs":
+    - !!int |-
+      34994
+    "translated": !!null |-
+      null
+  "8a42":
     "original": |-
       サピアの湖
-    "translated": ""
-  "002a":
+    "original_byte_length": !!int |-
+      11
+    "reference_addrs":
+    - !!int |-
+      34996
+    "translated": !!null |-
+      null
+  "8a4d":
     "original": |-
       モーガンの家
-    "translated": ""
-  "002b":
+    "original_byte_length": !!int |-
+      12
+    "reference_addrs":
+    - !!int |-
+      34998
+    "translated": !!null |-
+      null
+  "8a59":
     "original": |-
       ネサの辺土
-    "translated": ""
-  "002c":
+    "original_byte_length": !!int |-
+      11
+    "reference_addrs":
+    - !!int |-
+      35000
+    "translated": !!null |-
+      null
+  "8a64":
     "original": |-
       グロストス城
-    "translated": ""
-  "002d":
+    "original_byte_length": !!int |-
+      12
+    "reference_addrs":
+    - !!int |-
+      35002
+    "translated": !!null |-
+      null
+  "8a70":
     "original": |-
       中庭
-    "translated": ""
-  "002e":
+    "original_byte_length": !!int |-
+      5
+    "reference_addrs":
+    - !!int |-
+      35004
+    "translated": !!null |-
+      null
+  "8a75":
     "original": |-
       テクニカ
-    "translated": ""
-  "002f":
+    "original_byte_length": !!int |-
+      9
+    "reference_addrs":
+    - !!int |-
+      35006
+    "translated": !!null |-
+      null
+  "8a7e":
     "original": |-
       溶岩炉
-    "translated": ""
-  "0030":
+    "original_byte_length": !!int |-
+      7
+    "reference_addrs":
+    - !!int |-
+      35008
+    "translated": !!null |-
+      null
+  "8a85":
     "original": |-
       玉座の間
-    "translated": ""
-  "0031":
+    "original_byte_length": !!int |-
+      9
+    "reference_addrs":
+    - !!int |-
+      35010
+    "translated": !!null |-
+      null
+  "8a8e":
     "original": |-
       ｲｼｭﾀ～ｲｽﾞｰ
-    "translated": ""
-  "0032":
+    "original_byte_length": !!int |-
+      11
+    "reference_addrs":
+    - !!int |-
+      35012
+    "translated": !!null |-
+      null
+  "8a99":
     "original": "ｲｼｭﾀ～ｱﾌﾙ "
-    "translated": ""
-  "0033":
+    "original_byte_length": !!int |-
+      11
+    "reference_addrs":
+    - !!int |-
+      35014
+    "translated": !!null |-
+      null
+  "8aa4":
     "original": "ｱﾌﾙ～城 "
-    "translated": ""
-  "0034":
+    "original_byte_length": !!int |-
+      9
+    "reference_addrs":
+    - !!int |-
+      35016
+    "translated": !!null |-
+      null
+  "8aad":
     "original": |-
       ｲｽﾞｰ～城
-    "translated": ""
-  "0035":
+    "original_byte_length": !!int |-
+      9
+    "reference_addrs":
+    - !!int |-
+      35018
+    "translated": !!null |-
+      null
+  "8ab6":
     "original": "ｷｭﾍﾞﾗ～城 "
-    "translated": ""
-  "0036":
+    "original_byte_length": !!int |-
+      11
+    "reference_addrs":
+    - !!int |-
+      35020
+    "translated": !!null |-
+      null
+  "8ac1":
     "original": "ｷｭﾍﾞﾗ～ﾌﾟﾛｽ "
-    "translated": ""
-  "0037":
+    "original_byte_length": !!int |-
+      12
+    "reference_addrs":
+    - !!int |-
+      35022
+    "translated": !!null |-
+      null
+  "8acd":
     "original": "ｳｲﾙ～城 "
-    "translated": ""
-  "0038":
+    "original_byte_length": !!int |-
+      9
+    "reference_addrs":
+    - !!int |-
+      35024
+    "translated": !!null |-
+      null
+  "8ad6":
     "original": "ｳｲﾙ～ﾍﾞﾙﾝ "
-    "translated": ""
-  "0039":
+    "original_byte_length": !!int |-
+      11
+    "reference_addrs":
+    - !!int |-
+      35026
+    "translated": !!null |-
+      null
+  "8ae1":
     "original": |-
       ｷｭﾍﾞﾗ～ｳｲﾙ
-    "translated": ""
-  "003a":
+    "original_byte_length": !!int |-
+      11
+    "reference_addrs":
+    - !!int |-
+      35028
+    "translated": !!null |-
+      null
+  "8aec":
     "original": |-
       ファーレーン
-    "translated": ""
-  "003b":
+    "original_byte_length": !!int |-
+      12
+    "reference_addrs":
+    - !!int |-
+      35030
+    "translated": !!null |-
+      null
+  "8af8":
     "original": |-
       ウォンリーク
-    "translated": ""
-  "003c":
+    "original_byte_length": !!int |-
+      12
+    "reference_addrs":
+    - !!int |-
+      35032
+    "translated": !!null |-
+      null
+  "8b04":
     "original": |-
       ラヌーラ
-    "translated": ""
-  "003d":
+    "original_byte_length": !!int |-
+      9
+    "reference_addrs":
+    - !!int |-
+      35034
+    "translated": !!null |-
+      null
+  "8b0d":
     "original": |-
       ソルディス
-    "translated": ""
-  "003e":
+    "original_byte_length": !!int |-
+      11
+    "reference_addrs":
+    - !!int |-
+      35036
+    "translated": !!null |-
+      null
+  "8b18":
     "original": |-
       モレストン
-    "translated": ""
+    "original_byte_length": !!int |-
+      11
+    "reference_addrs":
+    - !!int |-
+      35038
+    "translated": !!null |-
+      null
 "note": ""

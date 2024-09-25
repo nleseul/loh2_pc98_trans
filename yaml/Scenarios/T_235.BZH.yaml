@@ -4,14 +4,26 @@
       <C_YELLOW>男<C_NONE>
       おれたち夫婦は ジェラルドさまの
       別荘の管理をしてるだよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      62
+    "reference_addrs":
+    - !!int |-
+      54645
+    "translated": !!null |-
+      null
   "5ae4":
     "original": |-
       <C_YELLOW>女<C_NONE>
       別荘の そうじは 女中さんたちが
       やるから しばらくは やらなくて
       いいんですって。
-    "translated": ""
+    "original_byte_length": !!int |-
+      84
+    "reference_addrs":
+    - !!int |-
+      54654
+    "translated": !!null |-
+      null
   "5b38":
     "original": |-
       <C_YELLOW>ジェラルド<C_NONE>
@@ -44,7 +56,13 @@
 
       なにか 王子さまの お気にめさない
       ところでも あったのですか？
-    "translated": ""
+    "original_byte_length": !!int |-
+      617
+    "reference_addrs":
+    - !!int |-
+      54669
+    "translated": !!null |-
+      null
   "5da1":
     "original": |-
       <C_YELLOW>ジェラルド夫人<C_NONE>
@@ -59,7 +77,13 @@
 
       どうか もう一度 フローラを
       かわいがってくださいませ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      281
+    "reference_addrs":
+    - !!int |-
+      54678
+    "translated": !!null |-
+      null
   "5eba":
     "original": |-
       <C_YELLOW>チャーリー<C_NONE>
@@ -75,7 +99,13 @@
       でも お嬢さまほど 王子さまに
       お似合いの方など いないでしょう。
       お考え直したほうが よいのでは？
-    "translated": ""
+    "original_byte_length": !!int |-
+      313
+    "reference_addrs":
+    - !!int |-
+      54687
+    "translated": !!null |-
+      null
   "5ff3":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -83,14 +113,26 @@
       言っているけど 本当かな？<END>
       <LOC6056>お嬢さまは まだ帰ってこないけど
       だいじょうぶなんだろうか？
-    "translated": ""
+    "original_byte_length": !!int |-
+      158
+    "reference_addrs":
+    - !!int |-
+      54741
+    "translated": !!null |-
+      null
   "6091":
     "original": |-
       <C_YELLOW>男<C_NONE>
       おら もうすぐ 釣りに行かなきゃ
       なんねえだよ。
       じゃましねえでくれ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      72
+    "reference_addrs":
+    - !!int |-
+      54750
+    "translated": !!null |-
+      null
   "60d9":
     "original": |-
       <C_YELLOW>女中<C_NONE>
@@ -100,7 +142,13 @@
 
       お嬢さまが いなくなったのは
       きっと そのせいよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      134
+    "reference_addrs":
+    - !!int |-
+      54759
+    "translated": !!null |-
+      null
   "615f":
     "original": |-
       <C_YELLOW>女中<C_NONE>
@@ -111,7 +159,13 @@
       いうことを 知らないから
       変な人に だまされて いなければ
       いいんだけど ･ ･ ･<LOC6201>
-    "translated": ""
+    "original_byte_length": !!int |-
+      163
+    "reference_addrs":
+    - !!int |-
+      54768
+    "translated": !!null |-
+      null
   "6202":
     "original": |-
       <C_YELLOW>ジェニー<C_NONE>
@@ -124,5 +178,11 @@
       <LOC6297>あら たしか お嬢さまと いっしょに
       旅を されていた方でしたね。
       お嬢さまは どうなさったのですか？
-    "translated": ""
+    "original_byte_length": !!int |-
+      245
+    "reference_addrs":
+    - !!int |-
+      54777
+    "translated": !!null |-
+      null
 "note": ""

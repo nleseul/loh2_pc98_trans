@@ -4,14 +4,26 @@
       <C_YELLOW>男<C_NONE>
       いらっしゃい ここは休憩所だが
       今は お城の人たちに 貸してるんだ。じゃまを しないようにしてくれよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      103
+    "reference_addrs":
+    - !!int |-
+      54630
+    "translated": !!null |-
+      null
   "5ad5":
     "original": |-
       <C_YELLOW>ソニア<C_NONE>
       チャールズも アトラス王子のように
       りっぱな王子に なってくれれば
       いいのですけど ･ ･ ･
-    "translated": ""
+    "original_byte_length": !!int |-
+      94
+    "reference_addrs":
+    - !!int |-
+      54639
+    "translated": !!null |-
+      null
   "5b33":
     "original": |-
       <C_YELLOW>ポウエル<C_NONE>
@@ -23,7 +35,13 @@
       エリオンさまが お帰りになられても
       お城で お迎えできなくなりそうで
       困っております。
-    "translated": ""
+    "original_byte_length": !!int |-
+      210
+    "reference_addrs":
+    - !!int |-
+      54648
+    "translated": !!null |-
+      null
   "5c05":
     "original": |-
       <C_YELLOW>チャールズ王子<C_NONE>
@@ -32,21 +50,39 @@
 
       ずっと ここにいても 何もなくて
       おもしろくないんだ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      128
+    "reference_addrs":
+    - !!int |-
+      54657
+    "translated": !!null |-
+      null
   "5c85":
     "original": |-
       <C_YELLOW>侍女<C_NONE>
       早く お城が できないかしら。
       いつまでも こんなに狭い所になんか
       いたくないわ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      85
+    "reference_addrs":
+    - !!int |-
+      54666
+    "translated": !!null |-
+      null
   "5cda":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       これは アトラス王子さま。
       ソニアさまは この中に
       いらっしゃいます。
-    "translated": ""
+    "original_byte_length": !!int |-
+      74
+    "reference_addrs":
+    - !!int |-
+      54675
+    "translated": !!null |-
+      null
   "5d24":
     "original": |-
       <C_YELLOW>司祭 バーバラ<C_NONE>
@@ -72,5 +108,11 @@
       わざわざ 遠いところから お祈りに
       やって来る人たちだって あなたの
       元気のない顔は 見たくないはずです。
-    "translated": ""
+    "original_byte_length": !!int |-
+      470
+    "reference_addrs":
+    - !!int |-
+      54684
+    "translated": !!null |-
+      null
 "note": ""

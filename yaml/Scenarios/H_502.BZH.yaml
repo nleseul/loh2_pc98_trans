@@ -6,12 +6,24 @@
 
       わしが 穴を掘ると ろくなことが
       起こらん。
-    "translated": ""
+    "original_byte_length": !!int |-
+      78
+    "reference_addrs":
+    - !!int |-
+      54638
+    "translated": !!null |-
+      null
   "5a35":
     "original": |-
       <C_YELLOW>サミー<C_NONE>
       おっさんが 抜け穴を掘ったせいで
       レジスタンス狩りが 起こったんだと
       思っているんだ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      92
+    "reference_addrs":
+    - !!int |-
+      54647
+    "translated": !!null |-
+      null
 "note": ""

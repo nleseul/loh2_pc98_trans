@@ -28,7 +28,13 @@
       おもしろい 冗談だ。
 
       んっ !! そうか その手があったな !!<LOC5c7d>
-    "translated": ""
+    "original_byte_length": !!int |-
+      467
+    "reference_addrs":
+    - !!int |-
+      54627
+    "translated": !!null |-
+      null
   "5c7e":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -39,7 +45,13 @@
 
       この川に 落ちちゃってさ。
       もし あいつが 助けてくれなかったらどうなってたか ･ ･ ･
-    "translated": ""
+    "original_byte_length": !!int |-
+      206
+    "reference_addrs":
+    - !!int |-
+      54636
+    "translated": !!null |-
+      null
   "5d4c":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -52,7 +64,13 @@
       もうひとりの兵士が 助けに
       いってるんだけど この川は 流れが
       速いから だいじょうぶだろうか。
-    "translated": ""
+    "original_byte_length": !!int |-
+      261
+    "reference_addrs":
+    - !!int |-
+      54645
+    "translated": !!null |-
+      null
   "5e51":
     "original": |-
       <C_YELLOW>女<C_NONE>
@@ -61,67 +79,143 @@
 
       だって フレイアさまが いるとしたら竜の卵から モンスターが
       出てくるはずは ないでしょ？
-    "translated": ""
+    "original_byte_length": !!int |-
+      135
+    "reference_addrs":
+    - !!int |-
+      54654
+    "translated": !!null |-
+      null
   "5ed8":
     "original": |-
       <C_YELLOW>子供<C_NONE>
       あの川は 流れが すごく速いんだよ。ぼくが お母さんと 渡ったときに
       落ちそうになって こわかったよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      104
+    "reference_addrs":
+    - !!int |-
+      54663
+    "translated": !!null |-
+      null
   "5f40":
     "original": |-
       <C_YELLOW>老人<C_NONE>
       ああ おそろしいことじゃ。
       これは あの悪神の しわざに違いない。またやつが 復活しおったのじゃ･ ･ ･
-    "translated": ""
+    "original_byte_length": !!int |-
+      104
+    "reference_addrs":
+    - !!int |-
+      54672
+    "translated": !!null |-
+      null
   "5fa8":
     "original": |-
       <C_YELLOW>道具屋<C_NONE>
       いらっしゃいませ。
       どのような ご用でしょうか？<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      56
+    "reference_addrs":
+    - !!int |-
+      54684
+    "translated": !!null |-
+      null
   "5fe0":
     "original": |-
       また来てくださいね。
-    "translated": ""
+    "original_byte_length": !!int |-
+      21
+    "reference_addrs":
+    - !!int |-
+      54711
+    - !!int |-
+      54711
+    - !!int |-
+      54711
+    "translated": !!null |-
+      null
   "5ff5":
     "original": |-
       おや？これ以上持てないようですね。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      36
+    "reference_addrs":
+    - !!int |-
+      1938
+    "translated": !!null |-
+      null
   "6019":
     "original": |-
       どれを買ってくれますか？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      26
+    "reference_addrs":
+    - !!int |-
+      1940
+    "translated": !!null |-
+      null
   "6033":
     "original": |-
       <ITEM>だね。
       どうも ありがとう。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      29
+    "reference_addrs":
+    - !!int |-
+      1942
+    "translated": !!null |-
+      null
   "6058":
     "original": |-
       どれを 売ってくれますか？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      27
+    "reference_addrs":
+    - !!int |-
+      1810
+    "translated": !!null |-
+      null
   "6073":
     "original": |2-
        Gold になるけど
       それでも よろしいですか？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      44
+    "reference_addrs":
+    - !!int |-
+      1812
+    "translated": !!null |-
+      null
   "609f":
     "original": |-
       それは残念です。
 
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      18
+    "reference_addrs":
+    - !!int |-
+      1814
+    "translated": !!null |-
+      null
   "60b1":
     "original": |-
       どうも ありがとうございます。
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      31
+    "reference_addrs":
+    - !!int |-
+      1816
+    "translated": !!null |-
+      null
 "note": ""

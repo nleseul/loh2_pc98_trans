@@ -4,7 +4,13 @@
       <C_YELLOW>男<C_NONE>
       いらっしゃい ここは休憩所だが
       今は お城の人たちに 貸してるんだ。じゃまを しないようにしてくれよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      103
+    "reference_addrs":
+    - !!int |-
+      54642
+    "translated": !!null |-
+      null
   "5b9e":
     "original": |-
       <IF0059><JUMP5e6f><SET0059><Xf52c0000><ASM1ae6><Xf7><CALL6cf5>あら アトラス王子。
@@ -92,7 +98,15 @@
 
       セリオスさまたちに 追いついたら
       このことを 伝えてください。
-    "translated": ""
+    "original_byte_length": !!int |-
+      1756
+    "reference_addrs":
+    - !!int |-
+      54682
+    - !!int |-
+      54682
+    "translated": !!null |-
+      null
   "627a":
     "original": |-
       <C_YELLOW>ポウエル<C_NONE>
@@ -102,7 +116,13 @@
       その上 国民たちも かなり
       混乱しているようです。
       早く 何とかしなければ ･ ･ ･
-    "translated": ""
+    "original_byte_length": !!int |-
+      144
+    "reference_addrs":
+    - !!int |-
+      54691
+    "translated": !!null |-
+      null
   "630a":
     "original": |-
       <C_YELLOW>チャールズ王子<C_NONE>
@@ -112,20 +132,38 @@
       ぼくが もう少し大きかったら
       父上たちと いっしょに タイサクが
       たてられるんだけどな。
-    "translated": ""
+    "original_byte_length": !!int |-
+      154
+    "reference_addrs":
+    - !!int |-
+      54700
+    "translated": !!null |-
+      null
   "63a4":
     "original": |-
       <C_YELLOW>侍女<C_NONE>
       ひなんしたのは いいけど もしも
       これだけの 広い所が なかったら
       たいへんだったわ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      88
+    "reference_addrs":
+    - !!int |-
+      54709
+    "translated": !!null |-
+      null
   "63fc":
     "original": |-
       <C_YELLOW>侍女<C_NONE>
       ここは 広いことは広いけど お城から比べたら 狭いし お台所も あまり
       きれいじゃないし ･ ･ ･
-    "translated": ""
+    "original_byte_length": !!int |-
+      96
+    "reference_addrs":
+    - !!int |-
+      54718
+    "translated": !!null |-
+      null
   "645c":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -133,20 +171,38 @@
       行ってしまったんだろう？
 
       女神 フレイアさまと 話ができるのはバーバラだけなのに ･ ･ ･
-    "translated": ""
+    "original_byte_length": !!int |-
+      123
+    "reference_addrs":
+    - !!int |-
+      54727
+    "translated": !!null |-
+      null
   "64d7":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       これは アトラス王子さま。
       このような場所が あったので ここを借りて 仕事をしているのです。
-    "translated": ""
+    "original_byte_length": !!int |-
+      97
+    "reference_addrs":
+    - !!int |-
+      54736
+    "translated": !!null |-
+      null
   "6538":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       これは アトラス王子さま。
       ソニアさまは この中に
       いらっしゃいます。
-    "translated": ""
+    "original_byte_length": !!int |-
+      74
+    "reference_addrs":
+    - !!int |-
+      54745
+    "translated": !!null |-
+      null
   "6582":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -160,7 +216,13 @@
 
       ジェラルドさまが 心配されて 国境の兵士たちに フローラさまが 通ったら連絡するようにと 頼んだそうですが
       これで 安心することでしょう。
-    "translated": ""
+    "original_byte_length": !!int |-
+      311
+    "reference_addrs":
+    - !!int |-
+      54754
+    "translated": !!null |-
+      null
   "66b9":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -245,9 +307,45 @@
       わかりました。
 
       さあ ランドー いそごう。<LOC6cf4>
-    "translated": ""
+    "original_byte_length": !!int |-
+      1596
+    "reference_addrs":
+    - !!int |-
+      54798
+    "translated": !!null |-
+      null
   "6cf5":
     "original": |-
       <C_YELLOW>ソニア王妃<C_NONE><RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      13
+    "reference_addrs":
+    - !!int |-
+      26332
+    - !!int |-
+      26552
+    - !!int |-
+      26827
+    - !!int |-
+      27215
+    - !!int |-
+      27474
+    - !!int |-
+      27712
+    - !!int |-
+      23472
+    - !!int |-
+      23782
+    - !!int |-
+      23879
+    - !!int |-
+      24176
+    - !!int |-
+      24410
+    - !!int |-
+      24673
+    - !!int |-
+      24846
+    "translated": !!null |-
+      null
 "note": ""

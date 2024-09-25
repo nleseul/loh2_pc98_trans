@@ -6,7 +6,13 @@
 
       <C_YELLOW>レイシア<C_NONE>
       もうすぐ 来るはずよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      51
+    "reference_addrs":
+    - !!int |-
+      54900
+    "translated": !!null |-
+      null
   "5eae":
     "original": |-
       <C_YELLOW>ボザ<C_NONE>
@@ -20,10 +26,22 @@
       目標を占拠するように。
 
       <Xf9280202><Xf7><Xf9180202><Xf9200202>では ナレサ殿。
-    "translated": ""
+    "original_byte_length": !!int |-
+      186
+    "reference_addrs":
+    - !!int |-
+      54968
+    "translated": !!null |-
+      null
   "5f68":
     "original": |-
       <C_YELLOW>リーダー<C_NONE>
       さあ われわれも 行きましょう。
-    "translated": ""
+    "original_byte_length": !!int |-
+      42
+    "reference_addrs":
+    - !!int |-
+      54721
+    "translated": !!null |-
+      null
 "note": ""

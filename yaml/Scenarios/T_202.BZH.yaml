@@ -9,7 +9,13 @@
       それで ソルディスに 竜の卵を
       お作りくださった フレイアさまに
       感謝しに 来たのじゃよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      182
+    "reference_addrs":
+    - !!int |-
+      54682
+    "translated": !!null |-
+      null
   "5c39":
     "original": |-
       <C_YELLOW>老婆<C_NONE>
@@ -18,5 +24,11 @@
 
       しかしまあ 神様の お力というのは
       ほんとに すごいもんじゃのう。
-    "translated": ""
+    "original_byte_length": !!int |-
+      152
+    "reference_addrs":
+    - !!int |-
+      54691
+    "translated": !!null |-
+      null
 "note": ""

@@ -4,7 +4,13 @@
       <CLEAR>       第１章　開かれた奈落<N>
 
       　　　　　　　　完
-    "translated": ""
+    "original_byte_length": !!int |-
+      50
+    "reference_addrs":
+    - !!int |-
+      54620
+    "translated": !!null |-
+      null
   "5e46":
     "original": |-
       <CLEAR><Xfb2861d860><CH2>
@@ -48,5 +54,11 @@
       <Xfb28610c61><CH1>
       よし そうだな。
       だったら さっさと 出発しようぜ !!
-    "translated": ""
+    "original_byte_length": !!int |-
+      657
+    "reference_addrs":
+    - !!int |-
+      54832
+    "translated": !!null |-
+      null
 "note": ""

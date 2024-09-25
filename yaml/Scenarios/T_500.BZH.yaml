@@ -13,7 +13,13 @@
       そういうやつらが たくさんいる所に
       連れていってやろう。<WAIT>
       こいっ !!
-    "translated": ""
+    "original_byte_length": !!int |-
+      215
+    "reference_addrs":
+    - !!int |-
+      54826
+    "translated": !!null |-
+      null
   "5e3f":
     "original": |-
       <C_YELLOW>子ども<C_NONE>
@@ -36,7 +42,13 @@
 
       <C_YELLOW>子ども<C_NONE>
       収容所なんか いやだい。
-    "translated": ""
+    "original_byte_length": !!int |-
+      268
+    "reference_addrs":
+    - !!int |-
+      54806
+    "translated": !!null |-
+      null
   "5f4b":
     "original": |-
       <C_YELLOW>子ども<C_NONE>
@@ -77,19 +89,37 @@
       うん、ありがとう。<END>
       <LOC6181>お兄ちゃん ボザの おじちゃんなら
       何か 知ってるかもよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      621
+    "reference_addrs":
+    - !!int |-
+      54970
+    "translated": !!null |-
+      null
   "61b8":
     "original": |-
       <C_YELLOW>ボザ<C_NONE>
       何の用だ？
       用がないなら 帰ってくれ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      44
+    "reference_addrs":
+    - !!int |-
+      54979
+    "translated": !!null |-
+      null
   "61e4":
     "original": |-
       <C_YELLOW>ボザ<C_NONE>
       さあ こっちだ。
       下に降りてきてくれ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      44
+    "reference_addrs":
+    - !!int |-
+      55031
+    "translated": !!null |-
+      null
   "6210":
     "original": |-
       <C_YELLOW>老人<C_NONE>
@@ -110,7 +140,13 @@
 
       <C_YELLOW>ボザ<C_NONE>
       なるほど そういうわけか レイシア。<X0d>
-    "translated": ""
+    "original_byte_length": !!int |-
+      305
+    "reference_addrs":
+    - !!int |-
+      54902
+    "translated": !!null |-
+      null
   "6341":
     "original": |-
       <C_YELLOW>レイシア<C_NONE>
@@ -122,5 +158,11 @@
 
       <CH0>
       すっかり だまされたな。
-    "translated": ""
+    "original_byte_length": !!int |-
+      115
+    "reference_addrs":
+    - !!int |-
+      54954
+    "translated": !!null |-
+      null
 "note": ""

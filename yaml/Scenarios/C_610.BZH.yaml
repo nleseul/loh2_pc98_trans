@@ -4,5 +4,11 @@
       <C_YELLOW>男<C_NONE>
       ここは もう 確保しました。
       先を急いでください。
-    "translated": ""
+    "original_byte_length": !!int |-
+      53
+    "reference_addrs":
+    - !!int |-
+      54694
+    "translated": !!null |-
+      null
 "note": ""

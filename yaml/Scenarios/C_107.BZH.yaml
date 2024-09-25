@@ -14,13 +14,25 @@
 
       <C_YELLOW>ジェストン<C_NONE>
       そうか ･ ･ ･ 頼んだぞ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      222
+    "reference_addrs":
+    - !!int |-
+      54649
+    "translated": !!null |-
+      null
   "5b05":
     "original": |-
       <C_YELLOW>オーエン<C_NONE>
       これからは 王子さまの時代です。
       私も かげながら 応援しております。
-    "translated": ""
+    "original_byte_length": !!int |-
+      78
+    "reference_addrs":
+    - !!int |-
+      54658
+    "translated": !!null |-
+      null
   "5b53":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -34,7 +46,13 @@
       そして 後継ぎ候補たちを
       追い出したのですから 合併は
       時間の問題でしょう。
-    "translated": ""
+    "original_byte_length": !!int |-
+      252
+    "reference_addrs":
+    - !!int |-
+      54667
+    "translated": !!null |-
+      null
   "5c4f":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -43,16 +61,34 @@
 
       それは 当然だと思いますが 代わりの後継ぎを 探そうとはしないのです。
       いったい どうするのでしょうか？
-    "translated": ""
+    "original_byte_length": !!int |-
+      167
+    "reference_addrs":
+    - !!int |-
+      54676
+    "translated": !!null |-
+      null
   "5cf6":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       ああ わが国にも あなたさまのような立派な後継ぎがいたら ･ ･ ･
-    "translated": ""
+    "original_byte_length": !!int |-
+      68
+    "reference_addrs":
+    - !!int |-
+      54685
+    "translated": !!null |-
+      null
   "5d3a":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       おおっ これは アトラス王子さま。
       お元気そうで なによりでございます。
-    "translated": ""
+    "original_byte_length": !!int |-
+      76
+    "reference_addrs":
+    - !!int |-
+      54694
+    "translated": !!null |-
+      null
 "note": ""

@@ -3,7 +3,13 @@
     "original": |-
       <C_YELLOW>大盗賊 ゲイル<C_NONE>
       何じゃ もう少しじゃから 待っておれ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      53
+    "reference_addrs":
+    - !!int |-
+      54823
+    "translated": !!null |-
+      null
   "6232":
     "original": |-
       <C_YELLOW>大盗賊 ゲイル<C_NONE>
@@ -36,5 +42,19 @@
 
       <Xf65317><JUMP6473><JUMP63a6><LOC6473>それじゃ 持ち物を 減らしてきたら
       渡してやるぞ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      625
+    "reference_addrs":
+    - !!int |-
+      54886
+    - !!int |-
+      54886
+    - !!int |-
+      54886
+    - !!int |-
+      25713
+    - !!int |-
+      25713
+    "translated": !!null |-
+      null
 "note": ""

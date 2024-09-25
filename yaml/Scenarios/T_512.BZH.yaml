@@ -25,12 +25,24 @@
       また キノコの王様を 持ってきたら
       酒と交換してやるぞ。<END>
       <LOC5d9f>その宝箱の中から 持っていきなされ。酒のことは 内緒じゃぞ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      522
+    "reference_addrs":
+    - !!int |-
+      54809
+    "translated": !!null |-
+      null
   "5dda":
     "original": |-
       <C_YELLOW>ハーベイ<C_NONE>
       こらこら それは大事な物が入っとる。さわるでない。
-    "translated": ""
+    "original_byte_length": !!int |-
+      61
+    "reference_addrs":
+    - !!int |-
+      54746
+    "translated": !!null |-
+      null
   "5e17":
     "original": |-
       <C_YELLOW>老人<C_NONE>
@@ -39,7 +51,13 @@
 
       わしゃ お前らなんぞとは 口も
       ききたくないのじゃ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      106
+    "reference_addrs":
+    - !!int |-
+      54818
+    "translated": !!null |-
+      null
   "5e81":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -48,7 +66,13 @@
 
       あそこに レジスタンスのアジトが
       あったからだそうだ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      120
+    "reference_addrs":
+    - !!int |-
+      54827
+    "translated": !!null |-
+      null
   "5ef9":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -57,7 +81,13 @@
 
       おれは もう レジスタンスには
       協力しないことにしたんだ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      114
+    "reference_addrs":
+    - !!int |-
+      54836
+    "translated": !!null |-
+      null
   "5f6b":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -66,13 +96,25 @@
 
       皇帝に 逆らうのは やっぱり
       むりだったんだ ･ ･ ･
-    "translated": ""
+    "original_byte_length": !!int |-
+      91
+    "reference_addrs":
+    - !!int |-
+      54845
+    "translated": !!null |-
+      null
   "5fc6":
     "original": |-
       <C_YELLOW>女<C_NONE>
       なに あなたたちは？
       洗濯のじゃま しないでくれる。
-    "translated": ""
+    "original_byte_length": !!int |-
+      55
+    "reference_addrs":
+    - !!int |-
+      54854
+    "translated": !!null |-
+      null
   "5ffd":
     "original": |-
       <C_YELLOW>女<C_NONE>
@@ -84,7 +126,13 @@
 
       私は 捕まりたくないの。
       悪く思わないで。
-    "translated": ""
+    "original_byte_length": !!int |-
+      156
+    "reference_addrs":
+    - !!int |-
+      54863
+    "translated": !!null |-
+      null
   "6099":
     "original": |-
       <C_YELLOW>子ども<C_NONE>
@@ -95,59 +143,129 @@
       でも やっぱり やーめた。<END>
       <LOC6106>あっ お兄ちゃん。
       秘密基地のことは 秘密だよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      155
+    "reference_addrs":
+    - !!int |-
+      54872
+    "translated": !!null |-
+      null
   "6134":
     "original": |-
       <C_YELLOW>ヤミ屋<C_NONE>
       何の用だ？<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      20
+    "reference_addrs":
+    - !!int |-
+      54893
+    "translated": !!null |-
+      null
   "6148":
     "original": |-
       まいど どうも。
-    "translated": ""
+    "original_byte_length": !!int |-
+      16
+    "reference_addrs":
+    - !!int |-
+      54920
+    - !!int |-
+      54920
+    - !!int |-
+      54920
+    "translated": !!null |-
+      null
   "6158":
     "original": |-
       これ以上 持てないみたいだな。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      31
+    "reference_addrs":
+    - !!int |-
+      2316
+    "translated": !!null |-
+      null
   "6177":
     "original": |-
       何を買いたいんだ？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      20
+    "reference_addrs":
+    - !!int |-
+      2318
+    "translated": !!null |-
+      null
   "618b":
     "original": |-
       <ITEM>だな。
       まいど どうも。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      25
+    "reference_addrs":
+    - !!int |-
+      2320
+    "translated": !!null |-
+      null
   "61ac":
     "original": |-
       どれを 売りたいんだ？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      23
+    "reference_addrs":
+    - !!int |-
+      2150
+    "translated": !!null |-
+      null
   "61c3":
     "original": |2-
        Gold で買ってやるよ。
       いいだろ？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      35
+    "reference_addrs":
+    - !!int |-
+      2152
+    "translated": !!null |-
+      null
   "61e6":
     "original": |-
       何だよ 売ってくれねえのか。
 
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      29
+    "reference_addrs":
+    - !!int |-
+      2154
+    "translated": !!null |-
+      null
   "6203":
     "original": |-
       ありがとよ。
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      14
+    "reference_addrs":
+    - !!int |-
+      2156
+    "translated": !!null |-
+      null
   "6211":
     "original": |-
       <PARTY>は 宝箱を開けました。
       宝箱の中には<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      36
+    "reference_addrs":
+    - !!int |-
+      54763
+    "translated": !!null |-
+      null
 "note": ""

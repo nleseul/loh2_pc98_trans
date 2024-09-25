@@ -12,7 +12,13 @@
       弟子と２人で 住んでいるそうだ。
 
       本当に がんこな じいさんだよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      328
+    "reference_addrs":
+    - !!int |-
+      54650
+    "translated": !!null |-
+      null
   "5b89":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -24,5 +30,11 @@
 
       えっ 違うのか？
       それじゃ イズーから来たんだな。
-    "translated": ""
+    "original_byte_length": !!int |-
+      154
+    "reference_addrs":
+    - !!int |-
+      54659
+    "translated": !!null |-
+      null
 "note": ""

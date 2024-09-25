@@ -13,7 +13,13 @@
       しまってあるのです。<END>
       <LOC5d62>まさか 宝箱の中の武器を 使うなんて思ってもいませんでしたよ。
       こんなことが 起こるなんて ･ ･ ･
-    "translated": ""
+    "original_byte_length": !!int |-
+      301
+    "reference_addrs":
+    - !!int |-
+      54653
+    "translated": !!null |-
+      null
   "5dbf":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -31,71 +37,153 @@
       <LOC5f0d>これは王子さま とうとう ここにある武器を 使うときが来てしまいました。
 
       私は ここの見回りを していたときにあんなに たくさんの武器を 集めてもどうせ使わないと 思っていたのです。でも さすがは セリオスさまですね。
-    "translated": ""
+    "original_byte_length": !!int |-
+      542
+    "reference_addrs":
+    - !!int |-
+      54662
+    "translated": !!null |-
+      null
   "5fdd":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       セリオス陛下から この部屋の財宝を
       王子さまに 持ち出させるなと
       言われているんです。<IF_NOT0068><CALL603d>
-    "translated": ""
+    "original_byte_length": !!int |-
+      96
+    "reference_addrs":
+    - !!int |-
+      54671
+    "translated": !!null |-
+      null
   "603d":
     "original": |2-
 
 
       個人的には 王子さまの 旅のために
       何か 協力したいと 思うのですが ･ ･<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      69
+    "reference_addrs":
+    - !!int |-
+      24634
+    "translated": !!null |-
+      null
   "6082":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       これは 王子さま 武器庫に どんな
       ご用ですかな？<RET>
       <CONT>
-    "translated": ""
+    "original_byte_length": !!int |-
+      55
+    "reference_addrs":
+    - !!int |-
+      54782
+    "translated": !!null |-
+      null
   "60b9":
     "original": |-
       <CLEAR>何を お預かりしましょう？<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      27
+    "reference_addrs":
+    - !!int |-
+      54856
+    "translated": !!null |-
+      null
   "60d4":
     "original": |-
       <CLEAR>何を お渡ししましょう？<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      25
+    "reference_addrs":
+    - !!int |-
+      54904
+    "translated": !!null |-
+      null
   "60ed":
     "original": |-
       <CLEAR>また 何か ご用がありましたら
       いつでも おいでください。
-    "translated": ""
+    "original_byte_length": !!int |-
+      56
+    "reference_addrs":
+    - !!int |-
+      54945
+    - !!int |-
+      54945
+    - !!int |-
+      54945
+    - !!int |-
+      54945
+    - !!int |-
+      54945
+    "translated": !!null |-
+      null
   "6125":
     "original": |-
       <CLEAR>王子さま 申しわけありませんが
       これ以上は 預かれません。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      58
+    "reference_addrs":
+    - !!int |-
+      54848
+    - !!int |-
+      54848
+    "translated": !!null |-
+      null
   "615f":
     "original": |-
       <CLEAR>王子さま もう これ以上 持ち物は
       持てないようですが ･ ･ ･
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      59
+    "reference_addrs":
+    - !!int |-
+      54896
+    "translated": !!null |-
+      null
   "619a":
     "original": |-
       <CLEAR>王子さまから お預かりしている物は
       何もございません。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      55
+    "reference_addrs":
+    - !!int |-
+      54883
+    "translated": !!null |-
+      null
   "61d1":
     "original": |-
       <CLEAR>王子さま これ以上 お預かりしている物は ございません。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      56
+    "reference_addrs":
+    - !!int |-
+      54939
+    "translated": !!null |-
+      null
   "6209":
     "original": |-
       <PARTY>は 宝箱を開けました。
       宝箱の中には<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      36
+    "reference_addrs":
+    - !!int |-
+      54736
+    "translated": !!null |-
+      null
 "note": ""

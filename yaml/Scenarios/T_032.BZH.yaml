@@ -11,30 +11,60 @@
       <LOC5b33>やっと 鉱山が復旧したのじゃよ。
       今は 武器を作るための材料を
       たくさん 掘り出しているところじゃ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      259
+    "reference_addrs":
+    - !!int |-
+      54642
+    "translated": !!null |-
+      null
   "5b93":
     "original": "<C_YELLOW>ピート<C_NONE>\n<IF0015><JUMP5bf9>どうして こう次々と 悪いことが\n続くんだろう\
       \ 落盤の次は\nモンスターが 出てくるとは ･ ･ ･<END>\n<LOC5bf9>ふう ･ ･ ･ ･ ･ \n\n鉱山が復旧したのは いいけど\
       \ 次から次へと 武器屋がやってくるから\n休んでいるひまもないよ。"
-    "translated": ""
+    "original_byte_length": !!int |-
+      207
+    "reference_addrs":
+    - !!int |-
+      54651
+    "translated": !!null |-
+      null
   "5c62":
     "original": |-
       <C_YELLOW>男<C_NONE>
       <IF0015><JUMP5ca8>落盤が起こって みんな 忙しいんだ。作業のじゃまをするなよ。<END>
       <LOC5ca8>おいおい みんな 忙しいんだ。
       作業のじゃまをするなよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      124
+    "reference_addrs":
+    - !!int |-
+      54660
+    "translated": !!null |-
+      null
   "5d14":
     "original": |-
       <C_YELLOW>男<C_NONE>
       忙しい 忙しい ･ ･ ･
-    "translated": ""
+    "original_byte_length": !!int |-
+      25
+    "reference_addrs":
+    - !!int |-
+      54705
+    "translated": !!null |-
+      null
   "5d2d":
     "original": |-
       <C_YELLOW>男<C_NONE>
       掘っても 掘っても きりがないよ。
       ああ 疲れた ･ ･ ･
-    "translated": ""
+    "original_byte_length": !!int |-
+      56
+    "reference_addrs":
+    - !!int |-
+      54710
+    "translated": !!null |-
+      null
   "5d65":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -43,64 +73,146 @@
       クルスが なくなっちゃったんだ。<END>
       <LOC5dc2>どれだけ掘れば 気がすむんだろう
       もう いいかげんにしてほしいよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      157
+    "reference_addrs":
+    - !!int |-
+      54719
+    "translated": !!null |-
+      null
   "5e02":
     "original": |-
       <C_YELLOW>武器屋<C_NONE>
       はい いらっしゃい。<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      29
+    "reference_addrs":
+    - !!int |-
+      54731
+    "translated": !!null |-
+      null
   "5e1f":
     "original": |-
       またどうぞ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      13
+    "reference_addrs":
+    - !!int |-
+      54743
+    "translated": !!null |-
+      null
   "5e2c":
     "original": |-
       <C_YELLOW>道具屋<C_NONE>
       いらっしゃいませ。
       どのような ご用でしょうか？<RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      56
+    "reference_addrs":
+    - !!int |-
+      54755
+    "translated": !!null |-
+      null
   "5e64":
     "original": |-
       また来てくださいね。
-    "translated": ""
+    "original_byte_length": !!int |-
+      21
+    "reference_addrs":
+    - !!int |-
+      54782
+    - !!int |-
+      54782
+    - !!int |-
+      54782
+    "translated": !!null |-
+      null
   "5e79":
     "original": |-
       おや？これ以上持てないようですね。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      36
+    "reference_addrs":
+    - !!int |-
+      1592
+    - !!int |-
+      1592
+    "translated": !!null |-
+      null
   "5e9d":
     "original": |-
       どれを買ってくれますか？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      26
+    "reference_addrs":
+    - !!int |-
+      1594
+    - !!int |-
+      1594
+    "translated": !!null |-
+      null
   "5eb7":
     "original": |-
       <ITEM>だね。
       どうも ありがとう。
 
       <RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      29
+    "reference_addrs":
+    - !!int |-
+      1596
+    - !!int |-
+      1596
+    "translated": !!null |-
+      null
   "5edc":
     "original": |-
       どれを 売ってくれますか？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      27
+    "reference_addrs":
+    - !!int |-
+      1430
+    "translated": !!null |-
+      null
   "5ef7":
     "original": |2-
        Gold になるけど
       それでも よろしいですか？
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      44
+    "reference_addrs":
+    - !!int |-
+      1432
+    "translated": !!null |-
+      null
   "5f23":
     "original": |-
       それは残念です。
 
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      18
+    "reference_addrs":
+    - !!int |-
+      1434
+    "translated": !!null |-
+      null
   "5f35":
     "original": |-
       どうも ありがとうございます。
       <RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      31
+    "reference_addrs":
+    - !!int |-
+      1436
+    "translated": !!null |-
+      null
 "note": ""

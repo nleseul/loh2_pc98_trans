@@ -15,7 +15,13 @@
       <LOC5c90>外は <CALL6cf3>だらけなんだ
       けがしねえうちに ファーレーンに
       戻った方がいいぜ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      262
+    "reference_addrs":
+    - !!int |-
+      54750
+    "translated": !!null |-
+      null
   "5cd8":
     "original": |-
       <CALL6ce8><IF00eb><JUMP662e>な、何だよ お前ら。
@@ -159,7 +165,21 @@
       でもな こんなとこに 来たって
       金スラれるぐらいなもんだぜ。
       ひでえ目 あわねえうちに 帰りな。
-    "translated": ""
+    "original_byte_length": !!int |-
+      2614
+    "reference_addrs":
+    - !!int |-
+      54759
+    - !!int |-
+      54768
+    - !!int |-
+      26237
+    - !!int |-
+      26237
+    - !!int |-
+      26237
+    "translated": !!null |-
+      null
   "670e":
     "original": |-
       <CALL6ce1><CALL6cd3>さまは どこに行って
@@ -171,7 +191,13 @@
 
       まさか <CALL6cf3>に やられる
       ような人じゃないし ･ ･ ･
-    "translated": ""
+    "original_byte_length": !!int |-
+      182
+    "reference_addrs":
+    - !!int |-
+      54777
+    "translated": !!null |-
+      null
   "67c4":
     "original": |-
       <CALL6ce1>ゲイル３世さまは 悪神を倒した
@@ -187,7 +213,13 @@
       その前に ドレイクのやつと 話して
       いましたから あいつにでも きけば
       何か知ってるんじゃないですか。<LOC691f>
-    "translated": ""
+    "original_byte_length": !!int |-
+      348
+    "reference_addrs":
+    - !!int |-
+      54786
+    "translated": !!null |-
+      null
   "6920":
     "original": |-
       <CALL6ce1>ドレイクの子分が しばらく
@@ -197,13 +229,25 @@
       そういえば 最近 ドレイクの
       ようすも おかしいな。
       あいつらどうしたんだろう。
-    "translated": ""
+    "original_byte_length": !!int |-
+      156
+    "reference_addrs":
+    - !!int |-
+      54795
+    "translated": !!null |-
+      null
   "69bc":
     "original": |-
       <CALL6ce1>いくらがんばっても この扉は 絶対にあかねえように なってるんだ。
 
       作った人が言ってるからまちがいねえ。ムダなことは やめときな。
-    "translated": ""
+    "original_byte_length": !!int |-
+      129
+    "reference_addrs":
+    - !!int |-
+      54804
+    "translated": !!null |-
+      null
   "6a3d":
     "original": |-
       <CALL6ce1>ドレイクのやろう あいつの子分が
@@ -212,7 +256,13 @@
       いつも おびえてるように見えるし
       毎日 どこかに 行ってやがるんだ。
       いったい どうしちまったんだろう。
-    "translated": ""
+    "original_byte_length": !!int |-
+      187
+    "reference_addrs":
+    - !!int |-
+      54813
+    "translated": !!null |-
+      null
   "6af8":
     "original": |-
       <CALL6ce1>ゲイル２世さまは ラルフという
@@ -221,7 +271,13 @@
 
       あの人も 最近 見かけないけど
       どこに 行ってしまったのか。
-    "translated": ""
+    "original_byte_length": !!int |-
+      143
+    "reference_addrs":
+    - !!int |-
+      54822
+    "translated": !!null |-
+      null
   "6b87":
     "original": |-
       <CALL6ce1>この宝は <CALL6cd3>さまの
@@ -230,7 +286,13 @@
 
       ここだけの話だけど この中には
       銀の笛ってのが 入ってるらしいぜ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      135
+    "reference_addrs":
+    - !!int |-
+      54831
+    "translated": !!null |-
+      null
   "6c0e":
     "original": |-
       <PARTY>は 石碑を読みました。
@@ -238,7 +300,13 @@
 
       『この部屋の宝に触れるべからず
                          <CALL6cd3>』
-    "translated": ""
+    "original_byte_length": !!int |-
+      80
+    "reference_addrs":
+    - !!int |-
+      54729
+    "translated": !!null |-
+      null
   "6c5e":
     "original": |-
       <PARTY>は 石碑を読みました。
@@ -246,29 +314,201 @@
 
       『この回廊を走るべからず
                      　　<CALL6cd3>』
-    "translated": ""
+    "original_byte_length": !!int |-
+      74
+    "reference_addrs":
+    - !!int |-
+      54735
+    "translated": !!null |-
+      null
   "6ca8":
     "original": |-
       <C_GREEN>扉は 開きそうもありません。<C_NONE>
-    "translated": ""
+    "original_byte_length": !!int |-
+      30
+    "reference_addrs":
+    - !!int |-
+      54741
+    "translated": !!null |-
+      null
   "6cc6":
     "original": |-
       <C_YELLOW>ゲイル３世<C_NONE><RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      13
+    "reference_addrs":
+    - !!int |-
+      23507
+    - !!int |-
+      23589
+    "translated": !!null |-
+      null
   "6cd3":
     "original": |-
       大盗賊 ゲイル<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      14
+    "reference_addrs":
+    - !!int |-
+      27737
+    - !!int |-
+      27811
+    - !!int |-
+      25526
+    - !!int |-
+      25526
+    - !!int |-
+      25526
+    - !!int |-
+      26386
+    - !!int |-
+      26639
+    - !!int |-
+      27540
+    "translated": !!null |-
+      null
   "6ce1":
     "original": |-
       <C_YELLOW>盗賊<C_NONE><RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      7
+    "reference_addrs":
+    - !!int |-
+      26240
+    - !!int |-
+      26240
+    - !!int |-
+      26240
+    - !!int |-
+      26383
+    - !!int |-
+      26565
+    - !!int |-
+      26913
+    - !!int |-
+      27069
+    - !!int |-
+      27198
+    - !!int |-
+      27385
+    - !!int |-
+      27528
+    "translated": !!null |-
+      null
   "6ce8":
     "original": |-
       <C_YELLOW>ドレイク<C_NONE><RET_N>
-    "translated": ""
+    "original_byte_length": !!int |-
+      11
+    "reference_addrs":
+    - !!int |-
+      23769
+    - !!int |-
+      23865
+    - !!int |-
+      24074
+    - !!int |-
+      24159
+    - !!int |-
+      24268
+    - !!int |-
+      24513
+    - !!int |-
+      24672
+    - !!int |-
+      24849
+    - !!int |-
+      25851
+    - !!int |-
+      25981
+    - !!int |-
+      26030
+    - !!int |-
+      23769
+    - !!int |-
+      23865
+    - !!int |-
+      24074
+    - !!int |-
+      24159
+    - !!int |-
+      24268
+    - !!int |-
+      24513
+    - !!int |-
+      24672
+    - !!int |-
+      24849
+    - !!int |-
+      25851
+    - !!int |-
+      25981
+    - !!int |-
+      26030
+    - !!int |-
+      23769
+    - !!int |-
+      23865
+    - !!int |-
+      24074
+    - !!int |-
+      24159
+    - !!int |-
+      24268
+    - !!int |-
+      24513
+    - !!int |-
+      24672
+    - !!int |-
+      24849
+    - !!int |-
+      25851
+    - !!int |-
+      25981
+    - !!int |-
+      26030
+    "translated": !!null |-
+      null
   "6cf3":
     "original": |-
       モンスター<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      11
+    "reference_addrs":
+    - !!int |-
+      23702
+    - !!int |-
+      24790
+    - !!int |-
+      25001
+    - !!int |-
+      25276
+    - !!int |-
+      25340
+    - !!int |-
+      25751
+    - !!int |-
+      24790
+    - !!int |-
+      25001
+    - !!int |-
+      25276
+    - !!int |-
+      25340
+    - !!int |-
+      25751
+    - !!int |-
+      24790
+    - !!int |-
+      25001
+    - !!int |-
+      25276
+    - !!int |-
+      25340
+    - !!int |-
+      25751
+    - !!int |-
+      26525
+    "translated": !!null |-
+      null
 "note": ""

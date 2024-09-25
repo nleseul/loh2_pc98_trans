@@ -10,7 +10,13 @@
 
       もう少し 水の流れが 変わったら
       行けるんだが ･ ･ ･
-    "translated": ""
+    "original_byte_length": !!int |-
+      175
+    "reference_addrs":
+    - !!int |-
+      54670
+    "translated": !!null |-
+      null
   "5c1f":
     "original": |-
       <C_YELLOW>ポム<C_NONE>
@@ -26,5 +32,11 @@
       だめだったら 今回は あきらめよう。<END>
       <LOC5cf4>水の流れさえ 変わってくれれば
       向こう岸まで 行けるんだけどな。
-    "translated": ""
+    "original_byte_length": !!int |-
+      275
+    "reference_addrs":
+    - !!int |-
+      54685
+    "translated": !!null |-
+      null
 "note": ""

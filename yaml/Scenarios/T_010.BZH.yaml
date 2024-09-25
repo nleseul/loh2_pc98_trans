@@ -7,13 +7,25 @@
 
       私なんか すぐに 机の下に
       かくれましたよ。
-    "translated": ""
+    "original_byte_length": !!int |-
+      96
+    "reference_addrs":
+    - !!int |-
+      54633
+    "translated": !!null |-
+      null
   "5b8f":
     "original": |-
       <C_YELLOW>男<C_NONE>
       おや これは王子さま、いつ お城に
       来られたのですか？
-    "translated": ""
+    "original_byte_length": !!int |-
+      57
+    "reference_addrs":
+    - !!int |-
+      54642
+    "translated": !!null |-
+      null
   "5bc8":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -23,7 +35,13 @@
       クルスには 竜の卵が 出てくるし
       あの地震は いったい 何だったんで
       しょうかね？
-    "translated": ""
+    "original_byte_length": !!int |-
+      138
+    "reference_addrs":
+    - !!int |-
+      54651
+    "translated": !!null |-
+      null
   "5c52":
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -31,12 +49,24 @@
       地震が 起こってから ずっと寝たままなんですよ。
 
       別に けがをしたようには みえないしどうしたんでしょうね。
-    "translated": ""
+    "original_byte_length": !!int |-
+      138
+    "reference_addrs":
+    - !!int |-
+      54660
+    "translated": !!null |-
+      null
   "5cdc":
     "original": |-
       <C_YELLOW>男<C_NONE>
       王子さま。この前の 地震で クルスの近くに 竜の卵が 出てきたんですよ。そのうち 竜の祭でも 始めませんか？
-    "translated": ""
+    "original_byte_length": !!int |-
+      108
+    "reference_addrs":
+    - !!int |-
+      54669
+    "translated": !!null |-
+      null
   "5d48":
     "original": |-
       <C_YELLOW>女<C_NONE>
@@ -45,7 +75,13 @@
       王子さまは もうすぐ１６才に
       なられるのですね。
       おめでとうございます。
-    "translated": ""
+    "original_byte_length": !!int |-
+      103
+    "reference_addrs":
+    - !!int |-
+      54678
+    "translated": !!null |-
+      null
   "5daf":
     "original": |-
       <C_YELLOW>女<C_NONE>
@@ -54,7 +90,13 @@
       珍しいことですわね。<END>
       <LOC5dfc>あら 王子さま、お元気そうで
       なによりでございます。
-    "translated": ""
+    "original_byte_length": !!int |-
+      128
+    "reference_addrs":
+    - !!int |-
+      54687
+    "translated": !!null |-
+      null
   "5e2f":
     "original": |-
       <C_YELLOW>老人<C_NONE>
@@ -71,18 +113,36 @@
       <LOC5f4b>アロン殿は 王子さまが クルスまで
       会いに 行かれたことを とても
       よろこんで おりました。
-    "translated": ""
+    "original_byte_length": !!int |-
+      370
+    "reference_addrs":
+    - !!int |-
+      54696
+    "translated": !!null |-
+      null
   "5fa1":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       王子さま、町の者たちに 王子さまの
       <IF0048><CALL5ff9>旅のことは 言わないように
       してください。
-    "translated": ""
+    "original_byte_length": !!int |-
+      88
+    "reference_addrs":
+    - !!int |-
+      54705
+    "translated": !!null |-
+      null
   "5ff9":
     "original": |-
       一人<RET>
-    "translated": ""
+    "original_byte_length": !!int |-
+      5
+    "reference_addrs":
+    - !!int |-
+      24526
+    "translated": !!null |-
+      null
   "5ffe":
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -93,14 +153,26 @@
       なさってください。<END>
       <LOC6077>おやっ 王子さま、もう全部の国に
       行かれたのですか？
-    "translated": ""
+    "original_byte_length": !!int |-
+      172
+    "reference_addrs":
+    - !!int |-
+      54714
+    "translated": !!null |-
+      null
   "60aa":
     "original": |-
       <C_YELLOW>スコット<C_NONE>
       うわーっ !!<WAIT>
       た、助けてくれー !!<WAIT>
       もう武器屋なんていやだ !!
-    "translated": ""
+    "original_byte_length": !!int |-
+      69
+    "reference_addrs":
+    - !!int |-
+      54729
+    "translated": !!null |-
+      null
   "60ef":
     "original": |-
       <C_YELLOW>アロン<C_NONE>
@@ -150,16 +222,34 @@
       ありがとうございました。<LOC6447><END>
       <LOC6448>私は そろそろ クルスに 戻ります。
       たまには 私の所にも 遊びにいらしてください。
-    "translated": ""
+    "original_byte_length": !!int |-
+      936
+    "reference_addrs":
+    - !!int |-
+      54738
+    "translated": !!null |-
+      null
   "6497":
     "original": |-
       <C_YELLOW>バーテン<C_NONE>
       これは王子さま、いらっしゃいませ。お酒は 出せませんが ゆっくり
       なさっていってください。
-    "translated": ""
+    "original_byte_length": !!int |-
+      99
+    "reference_addrs":
+    - !!int |-
+      54744
+    "translated": !!null |-
+      null
   "64fa":
     "original": |-
       <C_YELLOW>道具屋<C_NONE>
       おや 王子さま、お散歩ですか？
-    "translated": ""
+    "original_byte_length": !!int |-
+      39
+    "reference_addrs":
+    - !!int |-
+      54750
+    "translated": !!null |-
+      null
 "note": ""
