@@ -11,8 +11,11 @@
     "reference_addrs":
     - !!int |-
       54697
-    "translated": !!null |-
-      null
+    "translated": |-
+      <CH0>
+      Good morning, Rauel!
+
+      <CALL6b03>Oh! Your Highness is quite late togreet me today!
   "5eb2":
     "original": |-
       <CALL6b03><IF0407><JUMP601d><IF0406><JUMP60da><IF0405><JUMP60bf><IF0000><JUMP6070><SET0000>王子、よくきいてください。
@@ -378,8 +381,8 @@
       24243
     - !!int |-
       24192
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Rauel, royal tutor<C_NONE><RET_N>
   "6b15":
     "original": |-
       アトラス<RET>
