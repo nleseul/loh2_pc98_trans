@@ -1,7 +1,8 @@
 from capstone.x86 import *
+from dataclasses import dataclass
 import typing
 
-from code_analysis_util import Block, Link, X86CodeHook
+from code_analysis_util import Block, BlockPool, Link, X86CodeHook
 
 
 def read_sjis_char(data:typing.ByteString, addr:int) -> tuple[str, int]:
@@ -19,55 +20,85 @@ def read_sjis_char(data:typing.ByteString, addr:int) -> tuple[str, int]:
         raise e
 
 
+@dataclass(kw_only=True)
+class EventCodeInfo:
+    length:int
+    mnemonic:str|None = None
+    newline:bool = False
+    terminator:bool = False
+
+
+EVENT_CODE_INFO = {
+    0x00: EventCodeInfo(mnemonic="END",      length=1,  newline=True, terminator=True),
+    0x01: EventCodeInfo(mnemonic="N",        length=1,  newline=True),
+    0x02: EventCodeInfo(mnemonic="ACTOR",    length=1),
+    0x03: EventCodeInfo(mnemonic="WAIT",     length=1,  newline=True),
+    0x04: EventCodeInfo(mnemonic="C_NONE",   length=1),
+    0x05: EventCodeInfo(mnemonic="PAGE",     length=1,  newline=True),
+    0x06: EventCodeInfo(mnemonic="RET",      length=1,  terminator=True),
+    0x07: EventCodeInfo(mnemonic="RET_N",    length=1,  terminator=True),
+    0x08: EventCodeInfo(mnemonic="CLEAR",    length=1),
+    0x09: EventCodeInfo(mnemonic="CH",       length=2),
+    0x0a: EventCodeInfo(mnemonic="RET_PAGE", length=1,  terminator=True),
+    0x0b: EventCodeInfo(mnemonic="PARTY",    length=1),
+    0x0c: EventCodeInfo(mnemonic="SND",      length=3),
+    0x0d: EventCodeInfo(                     length=1,  terminator=True),
+    0x0e: EventCodeInfo(mnemonic="ITEM",     length=1),
+    0x0f: EventCodeInfo(mnemonic="JUMP",     length=3),
+    0x10: EventCodeInfo(mnemonic="CALL",     length=3),
+    0x11: EventCodeInfo(mnemonic="IF_NOT",   length=3),
+    0x12: EventCodeInfo(mnemonic="IF",       length=3),
+    0x13: EventCodeInfo(mnemonic="UNSET",    length=3),
+    0x14: EventCodeInfo(mnemonic="SET",      length=3),
+    0x15: EventCodeInfo(mnemonic="ASM",      length=3),
+    0x16: EventCodeInfo(mnemonic="LEADER",   length=11),
+    0x1a: EventCodeInfo(mnemonic="C_RED",    length=1),
+    0x1c: EventCodeInfo(mnemonic="C_GREEN",  length=1),
+    0x1e: EventCodeInfo(mnemonic="C_YELLOW", length=1),
+    0x1f: EventCodeInfo(                     length=1),
+
+    # New codes for DS6-2
+    0xf0: EventCodeInfo(length=2),
+    0xf1: EventCodeInfo(length=2),
+    0xf2: EventCodeInfo(length=3),
+    0xf3: EventCodeInfo(length=3),
+    0xf4: EventCodeInfo(length=4),
+    0xf5: EventCodeInfo(length=4),
+    0xf6: EventCodeInfo(length=3),
+    0xf7: EventCodeInfo(length=1),
+    0xf8: EventCodeInfo(length=4),
+    0xf9: EventCodeInfo(length=4),
+    0xfb: EventCodeInfo(length=5),
+}
+
+
+@dataclass(kw_only=True)
+class DS6InstructionBase:
+    addr:int
+    continuation:bool = False
+
+@dataclass(kw_only=True)
+class DS6TextInstruction(DS6InstructionBase):
+    text:str
+
+@dataclass(kw_only=True)
+class DS6CodeInstruction(DS6InstructionBase):
+    code:int
+    data:typing.ByteString
+
+    @property
+    def length(self):
+        return len(self.data) + 1
+
+    @property
+    def arg_as_int(self):
+        return int.from_bytes(self.data, byteorder='little')
+
+
 def disassemble_event(scenario_data, base_addr, start_addr, continuation_extent_end_addr=None):
 
-    EVENT_CODE_INFO = {
-        0x00: { 'length': 1, 'terminator': True }, # Terminator
-        0x01: { 'length': 1 }, # Newline
-        0x02: { 'length': 1 },
-        0x03: { 'length': 1 }, # Wait for keypress
-        0x04: { 'length': 1 },
-        0x05: { 'length': 1 }, # Page break
-        0x06: { 'length': 1, 'terminator': True }, # Unknown terminator
-        0x07: { 'length': 1, 'terminator': True }, # Return
-        0x08: { 'length': 1 },
-        0x09: { 'length': 2 }, # Party member's name
-        0x0a: { 'length': 1, 'terminator': True }, # Not sure on this... seems weird
-        0x0b: { 'length': 1 },
-        0x0c: { 'length': 3 },
-        0x0d: { 'length': 1, 'terminator': True },
-        0x0e: { 'length': 1 },
-        0x0f: { 'length': 3 }, # Jump
-        0x10: { 'length': 3 }, # Subroutine call
-        0x11: { 'length': 3 }, # Something about conditions...
-        0x12: { 'length': 3 }, # ...
-        0x13: { 'length': 3 }, # ...
-        0x14: { 'length': 3 }, # ...
-        0x15: { 'length': 3 }, # Assembly call
-        0x16: { 'length': 11 }, # Multiple calls? Based on leader?
-
-        0x1a: { 'length': 1 },
-        0x1c: { 'length': 1 },
-        0x1e: { 'length': 1 },
-        0x1f: { 'length': 1 },
-
-        # New codes for DS6-2
-        0xf0: { 'length': 2 },
-        0xf1: { 'length': 2 },
-        0xf2: { 'length': 3 },
-        0xf3: { 'length': 3 },
-        0xf4: { 'length': 4 },
-        0xf5: { 'length': 4 },
-        0xf6: { 'length': 3 },
-        0xf7: { 'length': 1 },
-        0xf8: { 'length': 4 },
-        0xf9: { 'length': 4 },
-        0xfb: { 'length': 5 },
-
-    }
-
     addr = start_addr - base_addr
-    instructions = []
+    instructions:list[DS6InstructionBase] = []
 
     jumps = set()
 
@@ -76,8 +107,8 @@ def disassemble_event(scenario_data, base_addr, start_addr, continuation_extent_
             jumps.remove(addr+base_addr)
 
             # Split up text if a jump lands in the middle of a block of text.
-            if len(instructions) > 0 and 'text' in instructions[-1]:
-                instructions.append( { 'addr': addr+base_addr, 'text': "" } )
+            if len(instructions) > 0 and isinstance(instructions[-1], DS6TextInstruction):
+                instructions.append(DS6TextInstruction(addr=addr+base_addr, text=""))
 
         if scenario_data[addr] < 0x20 or scenario_data[addr] >= 0xf0:
             code = scenario_data[addr]
@@ -87,31 +118,31 @@ def disassemble_event(scenario_data, base_addr, start_addr, continuation_extent_
 
             code_info = EVENT_CODE_INFO[code]
 
-            instructions.append( { 'addr': addr+base_addr, 'code': code, 'data': scenario_data[addr+1:addr+1+code_info['length'] - 1], 'length': code_info['length'] } )
+            instructions.append(DS6CodeInstruction(addr=addr+base_addr, code=code, data=scenario_data[addr+1:addr+1+code_info.length - 1]))
 
-            addr += code_info['length']
+            addr += code_info.length
 
             if code == 0x0f:
-                jumps.add(int.from_bytes(instructions[-1]['data'], byteorder='little'))
+                jumps.add(instructions[-1].arg_as_int)
             elif code == 0x15: # ASM call
-                if int.from_bytes(instructions[-1]['data'], byteorder='little') == 0xe887:
+                if instructions[-1].arg_as_int == 0xe887:
                     break
-            elif 'terminator' in code_info:
+            elif code_info.terminator:
                 if addr+base_addr in jumps and continuation_extent_end_addr is not None and addr+base_addr <= continuation_extent_end_addr:
                     raise Exception(f"Event at {start_addr:04x} has both a jump to the end and a continuation. So confusing...")
                 elif addr+base_addr in jumps:
                     jumps.remove(addr+base_addr)
                 elif continuation_extent_end_addr is not None and addr+base_addr <= continuation_extent_end_addr:
-                    instructions[-1]['continue'] = True
+                    instructions[-1].continuation = True
                 else:
                     break
         else:
-            if len(instructions) == 0 or 'text' not in instructions[-1]:
-                instructions.append( { 'addr': addr+base_addr, 'text': "" } )
+            if len(instructions) == 0 or not isinstance(instructions[-1], DS6TextInstruction):
+                instructions.append(DS6TextInstruction(addr=addr+base_addr, text=""))
 
             try:
                 ch, addr = read_sjis_char(scenario_data, addr)
-                instructions[-1]['text'] += ch
+                instructions[-1].text += ch
             except UnicodeDecodeError as e:
                 print(f"Unable to interpret SJIS sequence {scenario_data[addr:addr+2].hex()} at {addr+base_addr:04x} while disassembling event at {start_addr:04x}")
                 raise e
@@ -132,12 +163,14 @@ class DS6EventBlock(Block):
             else:
                 print("    ", end='')
 
-            print(f"{instruction['addr']:04x}  ", end='')
+            print(f"{instruction.addr:04x}  ", end='')
 
-            if 'text' in instruction:
-                print(instruction['text'], end='')
+            if isinstance(instruction, DS6TextInstruction):
+                print(instruction.text, end='')
+            elif EVENT_CODE_INFO[instruction.code].mnemonic is not None:
+                print(f"{EVENT_CODE_INFO[instruction.code].mnemonic:8} {instruction.data.hex()} ", end='')
             else:
-                print(f"{instruction['code']:02x} {instruction['data'].hex()} ", end='')
+                print(f"{instruction.code:02x}       {instruction.data.hex()} ", end='')
 
             if True in [not isinstance(out_link, Link) and 'source_addr' in out_link and instruction['addr'] == out_link['source_addr'] for out_link in self._outgoing_links]:
                 print("--> ", end='')
@@ -152,9 +185,9 @@ class DS6EventBlock(Block):
         for instruction in disassemble_event(self._data, self.base_addr, self.start_addr, self._continuation_extent_end_addr):
             pass
 
-        self._length = instruction['addr'] + instruction['length'] - self._start_addr
+        self._length = instruction.addr + instruction.length - self._start_addr
 
-    def link(self, block_pool):
+    def link(self, block_pool:BlockPool):
         for link, link_path in zip(self._incoming_links, self._incoming_link_path_index):
             link_path_info = self._link_paths[link_path]
             if 'is_linked' in link_path_info:
@@ -166,40 +199,40 @@ class DS6EventBlock(Block):
             jump_map = {}
 
             for instruction in disassemble_event(self._data, self.base_addr, self.start_addr, 0):
-                if instruction['addr'] in jump_map:
-                    self.add_internal_reference(jump_map[instruction['addr']] + 1, instruction['addr'], source_instruction_addr=jump_map[instruction['addr']])
-                    del jump_map[instruction['addr']]
+                if instruction.addr in jump_map:
+                    self.add_internal_reference(jump_map[instruction.addr] + 1, instruction.addr, source_instruction_addr=jump_map[instruction.addr])
+                    del jump_map[instruction.addr]
 
-                if 'code' in instruction:
-                    code = instruction['code']
+                if isinstance(instruction, DS6CodeInstruction):
+                    code = instruction.code
                     if code == 0x0f: # Jump
-                        arg = int.from_bytes(instruction['data'], byteorder='little')
-                        jump_map[arg] = instruction['addr']
+                        arg = instruction.arg_as_int
+                        jump_map[arg] = instruction.addr
                     elif code == 0x10: # Subroutine
-                        arg = int.from_bytes(instruction['data'], byteorder='little')
-                        link = Link(instruction['addr'] + 1, arg, source_instruction_addr=instruction['addr'])
+                        arg = instruction.arg_as_int
+                        link = Link(instruction.addr + 1, arg, source_instruction_addr=instruction.addr)
                         if (arg < self._base_addr or arg >= self._base_addr + len(self._data)):
                             link.connect_blocks(self, None)
-                            self.add_global_reference(instruction['addr'] + 1, arg)
+                            self.add_global_reference(instruction.addr + 1, arg)
                         else:
                             link.connect_blocks(self, block_pool.get_block("event", arg))
 
                     elif code == 0x15: # ASM call
-                        arg = int.from_bytes(instruction['data'], byteorder='little')
-                        link = Link(instruction['addr'] + 1, arg, source_instruction_addr=instruction['addr'])
+                        arg = instruction.arg_as_int
+                        link = Link(instruction.addr + 1, arg, source_instruction_addr=instruction.addr)
                         if (arg < self._base_addr or arg >= self._base_addr + len(self._data)):
                             link.connect_blocks(self, None)
-                            self.add_global_reference(instruction['addr'] + 1, arg)
+                            self.add_global_reference(instruction.addr + 1, arg)
                         else:
                             link.connect_blocks(self, block_pool.get_block("code", arg))
 
                     elif code == 0x16: # Subroutine call based on leader
                         for ref_index in range(5):
-                            arg = int.from_bytes(instruction['data'][ref_index*2:ref_index*2+2], 'little')
-                            link = Link(instruction['addr'] + ref_index*2 + 1, arg, source_instruction_addr=instruction['addr'])
+                            arg = int.from_bytes(instruction.data[ref_index*2:ref_index*2+2], 'little')
+                            link = Link(instruction.addr + ref_index*2 + 1, arg, source_instruction_addr=instruction.addr)
                             if (arg < self._base_addr or arg >= self._base_addr + len(self._data)):
                                 link.connect_blocks(self, None)
-                                self.add_global_reference(instruction['addr'] + ref_index*2 + 1, arg)
+                                self.add_global_reference(instruction.addr + ref_index*2 + 1, arg)
                             else:
                                 link.connect_blocks(self, block_pool.get_block("event", arg))
 
@@ -225,98 +258,62 @@ class DS6EventBlock(Block):
 
 
         for instruction in disassemble_event(self._data, self.base_addr, self.start_addr, self._continuation_extent_end_addr):
-            if instruction['addr'] in jumps:
-                jumps.remove(instruction['addr'])
+            if instruction.addr in jumps:
+                jumps.remove(instruction.addr)
                 if len(out) > 0:
-                    out += f"<LOC{instruction['addr']:04x}>"
-            elif instruction['addr'] in external_locators:
+                    out += f"<LOC{instruction.addr:04x}>"
+            elif instruction.addr in external_locators:
                 if len(out) > 0:
-                    out += f"<LOC{instruction['addr']:04x}>"
+                    out += f"<LOC{instruction.addr:04x}>"
 
-            if 'text' in instruction:
-                out += instruction['text']
+            if isinstance(instruction, DS6TextInstruction):
+                out += instruction.text
             else:
-                code = instruction['code']
+                code = instruction.code
+                if code not in EVENT_CODE_INFO:
+                    raise Exception(f"Unknown code {code:02x} at {instruction.addr:04x}!")
 
-                if code == 0x00:
-                    if instruction['addr'] + 1 < self.end_addr:
-                        out += "<END>\n"
-                elif code == 0x01: # Newline
-                    if self._data[instruction['addr'] - self.base_addr + 1] == 0x01:
-                        out += "<N>\n"
-                    else:
-                        out += "\n"
-                elif code == 0x02: # Current actor name (combat)
-                    out += "<ACTOR>"
-                elif code == 0x03: # Wait for keypress (implicit newline)
-                    out += "<WAIT>\n"
-                elif code == 0x04: # Clear current color
-                    out += "<C_NONE>"
-                elif code == 0x05: # Page break
-                    if self._data[instruction['addr'] - self.base_addr - 1] == 0x01:
-                        out += "<PAGE>\n"
-                    else:
-                        out += "\n\n"
-                elif code == 0x06: # Return inline
-                    out += "<RET>"
-                elif code == 0x07: # Return with newline
-                    out += "<RET_N>"
-                elif code == 0x08: # Clear text window
-                    out += "<CLEAR>"
-                elif code == 0x09: # Party member name
-                    out += f"<CH{instruction['data'][0]}>"
-                elif code == 0x0a: # Return with new page
-                    out += "<RET_PAGE>"
-                elif code == 0x0b: # Party name
-                    out += "<PARTY>"
-                elif code == 0x0c: # Play sound
-                    arg = int.from_bytes(instruction['data'], byteorder='little')
-                    out += f"<SND{arg:04x}>"
-                elif code == 0x0e: # Active item name
-                    out += "<ITEM>"
-                elif code == 0x0f: # Jump
-                    arg = int.from_bytes(instruction['data'], byteorder='little')
-                    out += f"<JUMP{arg:04x}>"
-                    jumps.add(arg)
-                elif code == 0x10: # Subroutine
-                    arg = int.from_bytes(instruction['data'], byteorder='little')
-                    out += f"<CALL{arg:04x}>"
-                elif code == 0x11: # Conditional, inverted?
-                    arg = int.from_bytes(instruction['data'], byteorder='little')
-                    out += f"<IF_NOT{arg:04x}>"
-                elif code == 0x12: # Conditional
-                    arg = int.from_bytes(instruction['data'], byteorder='little')
-                    out += f"<IF{arg:04x}>"
-                elif code == 0x13: # Clear flag
-                    arg = int.from_bytes(instruction['data'], byteorder='little')
-                    out += f"<UNSET{arg:04x}>"
-                elif code == 0x14: # Set flag
-                    arg = int.from_bytes(instruction['data'], byteorder='little')
-                    out += f"<SET{arg:04x}>"
-                elif code == 0x15: # ASM call
-                    arg = int.from_bytes(instruction['data'], byteorder='little')
+                code_info = EVENT_CODE_INFO[code]
 
-                    no_return = instruction['addr'] + 3 > self.end_addr
-
-                    out += "<ASM{0}{1:04x}>".format("_NORET" if no_return else "", arg)
-                elif code == 0x16: # Call based on party member (includes name)
-                    out += "<LEADER"
-                    for ref_index in range(5):
-                        arg = int.from_bytes(instruction['data'][ref_index*2:ref_index*2+2], 'little')
-                        if ref_index > 0:
-                            out += ","
-                        out += f"{arg:04x}"
-                    out += ">"
-                elif code == 0x1a:
-                    out += "<C_RED>"
-                elif code == 0x1c:
-                    out += "<C_GREEN>"
-                elif code == 0x1e:
-                    out += "<C_YELLOW>"
+                if code == 0x00 and instruction.addr == self.end_addr:
+                    # No <END> tag at the end of the string.
+                    pass
+                elif code == 0x01 and self._data[instruction.addr - self.base_addr + 1] != 0x01:
+                    out += "\n"
+                elif code == 0x05 and self._data[instruction.addr - self.base_addr - 1] != 0x01:
+                    out += "\n\n"
+                elif code_info.mnemonic is None:
+                    out += f"<X{code:02x}{instruction.data.hex()}>"
                 else:
-                    out += f"<X{code:02x}{instruction['data'].hex()}>"
+                    mnemonic = code_info.mnemonic
+                    data_length = code_info.length - 1
+                    if data_length == 0:
+                        out += f"<{mnemonic}>"
+                    elif data_length == 1:
+                        # Should only be used for character name
+                        out += f"<{mnemonic}{instruction.arg_as_int}>"
+                    elif data_length == 2:
+                        # Used for a bunch of things that need pointers
+                        out += f"<{mnemonic}{instruction.arg_as_int:04x}>"
+                    elif data_length == 10:
+                        # Used for the "LEADER" code
+                        out += f"<{mnemonic}"
+                        for ref_index in range(5):
+                            arg = int.from_bytes(instruction.data[ref_index*2:ref_index*2+2], 'little')
+                            if ref_index > 0:
+                                out += ","
+                            out += f"{arg:04x}"
+                        out += ">"
+                    else:
+                        raise Exception(f"Unexpected data length {code_info.length} for code {code:02x} ({mnemonic})")
 
-                if 'continue' in instruction:
+                    if code_info.newline:
+                        out += "\n"
+
+                if code == 0x0f:
+                    jumps.add(instruction.arg_as_int)
+
+                if instruction.continuation:
                     out += "\n<CONT>"
 
         return out
@@ -355,14 +352,14 @@ class DS62_StandardEventCodeHook(X86CodeHook):
                     event_link.connect_blocks(current_block, block_pool.get_block("event", event_addr))
 
                     registers[X86_REG_SI]['continue_from_addr'] = event_addr
-                    registers[X86_REG_SI]['value'] = disassembly[-1]['addr'] + disassembly[-1]['length']
+                    registers[X86_REG_SI]['value'] = disassembly[-1].addr + disassembly[-1].length
 
                     del registers[X86_REG_SI]['source_addr']
                 else:
                     current_block = block_pool.get_block("event", registers[X86_REG_SI]['continue_from_addr'])
                     current_block.set_continuation_extent(event_addr)
 
-                    registers[X86_REG_SI]['value'] = disassembly[-1]['addr'] + disassembly[-1]['length']
+                    registers[X86_REG_SI]['value'] = disassembly[-1].addr + disassembly[-1].length
             else:
                 global_event_link = Link(registers[X86_REG_SI]['source_addr'], event_addr)
                 global_event_link.connect_blocks(current_block, None)
