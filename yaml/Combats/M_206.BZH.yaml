@@ -1,52 +1,52 @@
 "entries":
   "7170":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       ホーボ<RET>
     "original_byte_length": !!int |-
       7
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "71b0":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       毒カヅラＡ<RET>
     "original_byte_length": !!int |-
       11
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "71f0":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       毒カヅラＢ<RET>
     "original_byte_length": !!int |-
       11
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "7230":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       Ｍ２０６Ｄ<RET>
     "original_byte_length": !!int |-
       11
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "7368":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       ホーボと毒カヅラが現れた。<RET_N>
     "original_byte_length": !!int |-
       27
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
 "note": ""

@@ -1,5 +1,7 @@
 "entries":
   "5b20":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       せ、戦士の笛 !!
@@ -15,6 +17,8 @@
     "translated": !!null |-
       null
   "5b8c":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>女<C_NONE>
       <IF0015><JUMP5beb>うちは 道具屋をやっているのよ。
@@ -33,6 +37,8 @@
     "translated": !!null |-
       null
   "5c87":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>女<C_NONE>
       新しい町長は たまに 見たこともない食べ物を くれるのよ。
@@ -47,6 +53,8 @@
     "translated": !!null |-
       null
   "5d1a":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>老人<C_NONE>
       わしゃ ついこの間まで この町の
@@ -62,6 +70,8 @@
     "translated": !!null |-
       null
   "5db2":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>老人<C_NONE>
       どうせ 町長になってもらうなら
@@ -75,6 +85,8 @@
     "translated": !!null |-
       null
   "5e14":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>子ども<C_NONE>
       ぼく かくれんぼ してるんだけど
@@ -89,6 +101,8 @@
     "translated": !!null |-
       null
   "5e76":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>子ども<C_NONE>
       ぼく かくれんぼ してたんだけど
@@ -102,6 +116,8 @@
     "translated": !!null |-
       null
   "5ecb":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ヤミ屋<C_NONE>
       へっへっへ どんな用だ？<RET_N>
@@ -113,6 +129,8 @@
     "translated": !!null |-
       null
   "5eec":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       また たのむぜ。
     "original_byte_length": !!int |-
@@ -120,13 +138,11 @@
     "reference_addrs":
     - !!int |-
       54785
-    - !!int |-
-      54785
-    - !!int |-
-      54785
     "translated": !!null |-
       null
   "5efc":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       もう 持てねえよ。
 
@@ -139,6 +155,8 @@
     "translated": !!null |-
       null
   "5f0f":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       どれを 買うんだ？
       <RET_N>
@@ -150,6 +168,8 @@
     "translated": !!null |-
       null
   "5f22":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <ITEM>だな。
       こいつは よく使えるぜ。
@@ -163,6 +183,8 @@
     "translated": !!null |-
       null
   "5f4b":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       どれを 売ってくれるんだ？
       <RET_N>
@@ -174,6 +196,8 @@
     "translated": !!null |-
       null
   "5f66":
+    "is_relocatable": !!bool |-
+      true
     "original": |2-
        Gold だぜ。いいか？
       <RET_N>
@@ -185,6 +209,8 @@
     "translated": !!null |-
       null
   "5f7c":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       何だ 売ってくれねえのか。
 
@@ -197,6 +223,8 @@
     "translated": !!null |-
       null
   "5f97":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       ありがとよ。
       <RET_N>
@@ -208,6 +236,8 @@
     "translated": !!null |-
       null
   "5fa5":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>道具屋<C_NONE>
       いらっしゃいませ。
@@ -217,11 +247,11 @@
     "reference_addrs":
     - !!int |-
       54804
-    - !!int |-
-      54804
     "translated": !!null |-
       null
   "5fdd":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       また来てくださいね。
     "original_byte_length": !!int |-
@@ -229,13 +259,11 @@
     "reference_addrs":
     - !!int |-
       54831
-    - !!int |-
-      54831
-    - !!int |-
-      54831
     "translated": !!null |-
       null
   "5ff2":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       おや？これ以上持てないようですね。
 
@@ -245,11 +273,11 @@
     "reference_addrs":
     - !!int |-
       1978
-    - !!int |-
-      1978
     "translated": !!null |-
       null
   "6016":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       どれを買ってくれますか？
       <RET_N>
@@ -258,11 +286,11 @@
     "reference_addrs":
     - !!int |-
       1980
-    - !!int |-
-      1980
     "translated": !!null |-
       null
   "6030":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <ITEM>だね。
       どうも ありがとう。
@@ -273,11 +301,11 @@
     "reference_addrs":
     - !!int |-
       1982
-    - !!int |-
-      1982
     "translated": !!null |-
       null
   "6055":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       どれを 売ってくれますか？
       <RET_N>
@@ -289,6 +317,8 @@
     "translated": !!null |-
       null
   "6070":
+    "is_relocatable": !!bool |-
+      true
     "original": |2-
        Gold になるけど
       それでも よろしいですか？
@@ -301,6 +331,8 @@
     "translated": !!null |-
       null
   "609c":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       それは残念です。
 
@@ -313,6 +345,8 @@
     "translated": !!null |-
       null
   "60ae":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       どうも ありがとうございます。
       <RET_N>

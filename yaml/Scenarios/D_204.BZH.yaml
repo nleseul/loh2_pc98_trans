@@ -1,5 +1,7 @@
 "entries":
   "5c28":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_GREEN>扉には カギがかかっています。<C_NONE>
     "original_byte_length": !!int |-

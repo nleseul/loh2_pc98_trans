@@ -1,5 +1,7 @@
 "entries":
   "9abc":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       フラム
     "original_byte_length": !!null |-
@@ -8,6 +10,8 @@
     "translated": |-
       Flam
   "9ac8":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       イグナ
     "original_byte_length": !!null |-
@@ -16,6 +20,8 @@
     "translated": |-
       Igna
   "9ad4":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       ヒュール
     "original_byte_length": !!null |-
@@ -24,6 +30,8 @@
     "translated": |-
       Hura
   "9ae0":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       サクタス
     "original_byte_length": !!null |-
@@ -32,6 +40,8 @@
     "translated": |-
       Suctas
   "9aec":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       パペピア
     "original_byte_length": !!null |-
@@ -40,6 +50,8 @@
     "translated": |-
       Papepia
   "9af8":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       プアゾ
     "original_byte_length": !!null |-
@@ -48,6 +60,8 @@
     "translated": |-
       Poizo
   "9b04":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       ホー
     "original_byte_length": !!null |-
@@ -56,6 +70,8 @@
     "translated": |-
       Hoa
   "9b10":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       シレント
     "original_byte_length": !!null |-
@@ -64,6 +80,8 @@
     "translated": |-
       Serento
   "9b1c":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       オビス
     "original_byte_length": !!null |-
@@ -72,6 +90,8 @@
     "translated": |-
       Obis
   "9b28":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       ダナム
     "original_byte_length": !!null |-
@@ -80,6 +100,8 @@
     "translated": |-
       Danam
   "9b34":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       ヘベタル
     "original_byte_length": !!null |-
@@ -88,6 +110,8 @@
     "translated": |-
       Hebetar
   "9b40":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       ストール
     "original_byte_length": !!null |-
@@ -96,6 +120,8 @@
     "translated": !!null |-
       null
   "9b4c":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       ブラムナ
     "original_byte_length": !!null |-
@@ -104,6 +130,8 @@
     "translated": !!null |-
       null
   "9b58":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       ヒュドナ
     "original_byte_length": !!null |-
@@ -112,6 +140,8 @@
     "translated": !!null |-
       null
   "9b64":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       ＭＧ１４
     "original_byte_length": !!null |-
@@ -120,6 +150,8 @@
     "translated": !!null |-
       null
   "9b70":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       ＭＧ１５
     "original_byte_length": !!null |-
@@ -128,6 +160,8 @@
     "translated": !!null |-
       null
   "9b7c":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       インパス
     "original_byte_length": !!null |-
@@ -136,6 +170,8 @@
     "translated": |-
       Impas
   "9b88":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       テュート
     "original_byte_length": !!null |-
@@ -144,6 +180,8 @@
     "translated": |-
       Teuto
   "9b94":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       セラ
     "original_byte_length": !!null |-
@@ -152,6 +190,8 @@
     "translated": |-
       Sela
   "9ba0":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       サイレス
     "original_byte_length": !!null |-
@@ -160,6 +200,8 @@
     "translated": |-
       Sylis
   "9bac":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       リパーク
     "original_byte_length": !!null |-
@@ -168,6 +210,8 @@
     "translated": |-
       Reparc
   "9bb8":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       エント
     "original_byte_length": !!null |-
@@ -176,6 +220,8 @@
     "translated": !!null |-
       null
   "9bc4":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       ＭＧ２２
     "original_byte_length": !!null |-
@@ -184,6 +230,8 @@
     "translated": !!null |-
       null
   "9bd0":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       レス
     "original_byte_length": !!null |-
@@ -192,6 +240,8 @@
     "translated": |-
       Res
   "9bdc":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       レジナ
     "original_byte_length": !!null |-
@@ -200,6 +250,8 @@
     "translated": |-
       Regina
   "9be8":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       リーフ
     "original_byte_length": !!null |-
@@ -208,6 +260,8 @@
     "translated": |-
       Lefe
   "9bf4":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       レストナ
     "original_byte_length": !!null |-
@@ -216,6 +270,8 @@
     "translated": !!null |-
       null
   "9c00":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       笛
     "original_byte_length": !!null |-
@@ -224,6 +280,8 @@
     "translated": |-
       Flute
   "9c0c":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       ワプ
     "original_byte_length": !!null |-
@@ -232,6 +290,8 @@
     "translated": !!null |-
       null
   "9c18":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       ルクス
     "original_byte_length": !!null |-
@@ -240,6 +300,8 @@
     "translated": |-
       Lux
   "9c24":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       ヨシュア
     "original_byte_length": !!null |-
@@ -248,6 +310,8 @@
     "translated": |-
       Joshua
   "9c30":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       ビス
     "original_byte_length": !!null |-

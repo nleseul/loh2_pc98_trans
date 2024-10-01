@@ -1,5 +1,7 @@
 "entries":
   "5e1c":
+    "is_relocatable": !!bool |-
+      true
     "original": |
       <CLEAR>          第３章　竜の卵<N>
 
@@ -12,6 +14,8 @@
     "translated": !!null |-
       null
   "5e8b":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <CLEAR><CH0>
       バーバラさま 竜の卵を止めたので

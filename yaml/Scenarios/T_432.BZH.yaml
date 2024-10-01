@@ -1,5 +1,7 @@
 "entries":
   "5ab2":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ハンス<C_NONE>
       <IF0015><JUMP5b75>これは これは アトラス王子。
@@ -24,6 +26,8 @@
     "translated": !!null |-
       null
   "5bf2":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>補佐官<C_NONE>
       イセルハーサの中で 共和制を
@@ -41,6 +45,8 @@
     "translated": !!null |-
       null
   "5c8a":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>役人<C_NONE>
       兵士たちが 出動するには いろいろと手続きが 必要なんだよ。
@@ -53,6 +59,8 @@
     "translated": !!null |-
       null
   "5ce0":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>役人<C_NONE>
       ふぅ ･ ･ ･ お役所仕事も 疲れるよ。こうやって 一日中 ボーっと
@@ -67,6 +75,8 @@
     "translated": !!null |-
       null
   "5d7d":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>役人<C_NONE>
       ハンス大統領は 国民の声を 親身に
@@ -83,6 +93,8 @@
     "translated": !!null |-
       null
   "5e0b":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>女<C_NONE>
       昔 英雄たちの手で 滅ぼされた
@@ -96,6 +108,8 @@
     "translated": !!null |-
       null
   "5e68":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ジーラ<C_NONE>
       むむむっ お前さんがた 旅人じゃな？いい話をきかせてやろう。
@@ -118,6 +132,8 @@
     "translated": !!null |-
       null
   "5fa7":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>娘<C_NONE>
       うちの おばあちゃんて 昔の話を
@@ -133,6 +149,8 @@
     "translated": !!null |-
       null
   "600c":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>女<C_NONE>
       <IF_NOT00f5><JUMP609e>ねえねえ きいてよ。
@@ -169,6 +187,8 @@
     "translated": !!null |-
       null
   "621b":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       ずっと前の 大地震で 水晶の塔という歴史ある塔が 倒れてしまったんだ。
@@ -183,6 +203,8 @@
     "translated": !!null |-
       null
   "629e":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       ファンガスにいた 盗賊たちは
@@ -196,6 +218,8 @@
     "translated": !!null |-
       null
   "62f4":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>呪文屋<C_NONE>
       いらっしゃいませ。<RET_N>
@@ -207,6 +231,8 @@
     "translated": !!null |-
       null
   "6310":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       また お願いします。
     "original_byte_length": !!int |-
@@ -217,6 +243,8 @@
     "translated": !!null |-
       null
   "6324":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       お客さん もう持てませんわよ。
 
@@ -229,6 +257,8 @@
     "translated": !!null |-
       null
   "6343":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       何を お求めですか？
       <RET_N>
@@ -240,6 +270,8 @@
     "translated": !!null |-
       null
   "6358":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <ITEM>ですね。
       ありがとう ございます。

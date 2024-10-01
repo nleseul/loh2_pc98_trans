@@ -1,5 +1,7 @@
 "entries":
   "5b39":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <CH2>
       あぁ ･ ･ ･ おそかった ･ ･ ･

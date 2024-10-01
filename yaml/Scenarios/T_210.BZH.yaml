@@ -1,5 +1,7 @@
 "entries":
   "5d2c":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <IF0403><JUMP5d89><C_YELLOW>チャーリー<C_NONE>
       <IF0407><JUMP5f2f><IF0406><JUMP5e65><UNSET0404><SET0405>また おじゃましますよ。
@@ -46,6 +48,8 @@
     "translated": !!null |-
       null
   "5fba":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       <IF0061><JUMP6033><IF0405><JUMP601a>城に なにか用か？
@@ -68,6 +72,8 @@
     "translated": !!null |-
       null
   "60ea":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       <IF0061><JUMP618d><IF0405><JUMP6157>竜の祭が 終わるまでは 出国の
@@ -85,12 +91,14 @@
       317
     "reference_addrs":
     - !!int |-
-      54777
-    - !!int |-
       24600
+    - !!int |-
+      54777
     "translated": !!null |-
       null
   "622f":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>子供<C_NONE>
       お祭の日は おこづかいが いっぱい
@@ -106,6 +114,8 @@
     "translated": !!null |-
       null
   "629c":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>老人<C_NONE>
       ふぉっふぉっふぉ。
@@ -122,6 +132,8 @@
     "translated": !!null |-
       null
   "6338":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       ねえさんたちは 毎年 竜の祭を
@@ -134,6 +146,8 @@
     "translated": !!null |-
       null
   "638d":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       私は モレストンの リシェールの港で道具屋と呪文屋を やってるんです。
@@ -148,6 +162,8 @@
     "translated": !!null |-
       null
   "640a":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>女<C_NONE>
       私は ある事件を きっかけに とても
@@ -164,6 +180,8 @@
     "translated": !!null |-
       null
   "64aa":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>女<C_NONE>
       うちの おじいちゃんは お祭が
@@ -179,6 +197,8 @@
     "translated": !!null |-
       null
   "653e":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ギャリー<C_NONE>
       あの大地震で 竜の祭が 中止になると思っておったのじゃが どうやら
@@ -193,6 +213,8 @@
     "translated": !!null |-
       null
   "65c2":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       なにぃ 誕生日だとぉ。それじゃ
@@ -206,6 +228,8 @@
     "translated": !!null |-
       null
   "661e":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       あんたたち 祭を 見にきたのかい？
@@ -219,6 +243,8 @@
     "translated": !!null |-
       null
   "667d":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       そろそろ ギャリーじいさんの 元気が出てきたみたいだな。
@@ -234,6 +260,8 @@
     "translated": !!null |-
       null
   "6714":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>武器屋<C_NONE>
       いらっしゃい。<RET_N>
@@ -245,6 +273,8 @@
     "translated": !!null |-
       null
   "672c":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       またどうぞ。
     "original_byte_length": !!int |-
@@ -255,6 +285,8 @@
     "translated": !!null |-
       null
   "6739":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>道具屋<C_NONE>
       いらっしゃいませ。
@@ -267,6 +299,8 @@
     "translated": !!null |-
       null
   "6771":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       また来てくださいね。
     "original_byte_length": !!int |-
@@ -274,13 +308,11 @@
     "reference_addrs":
     - !!int |-
       54969
-    - !!int |-
-      54969
-    - !!int |-
-      54969
     "translated": !!null |-
       null
   "6786":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>バーテン<C_NONE>
       １杯 いかがですか？<Xf69229><JUMP67b8><CLEAR><IF0410><JUMP67fe><IF0411><JUMP6869><END>
@@ -304,6 +336,8 @@
     "translated": !!null |-
       null
   "68bb":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       おや？これ以上持てないようですね。
 
@@ -313,11 +347,11 @@
     "reference_addrs":
     - !!int |-
       4184
-    - !!int |-
-      4184
     "translated": !!null |-
       null
   "68df":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       どれを買ってくれますか？
       <RET_N>
@@ -326,11 +360,11 @@
     "reference_addrs":
     - !!int |-
       4186
-    - !!int |-
-      4186
     "translated": !!null |-
       null
   "68f9":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <ITEM>だね。
       どうも ありがとう。
@@ -341,11 +375,11 @@
     "reference_addrs":
     - !!int |-
       4188
-    - !!int |-
-      4188
     "translated": !!null |-
       null
   "691e":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       どれを 売ってくれますか？
       <RET_N>
@@ -357,6 +391,8 @@
     "translated": !!null |-
       null
   "6939":
+    "is_relocatable": !!bool |-
+      true
     "original": |2-
        Gold になるけど
       それでも よろしいですか？
@@ -369,6 +405,8 @@
     "translated": !!null |-
       null
   "6965":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       それは残念です。
 
@@ -381,6 +419,8 @@
     "translated": !!null |-
       null
   "6977":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       どうも ありがとうございます。
       <RET_N>

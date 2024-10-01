@@ -1,70 +1,64 @@
 "entries":
   "7170":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       ブラックナイトA<RET>
     "original_byte_length": !!int |-
       16
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "71b0":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       ブラックナイトB<RET>
     "original_byte_length": !!int |-
       16
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "71f0":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       ブラックナイトC<RET>
     "original_byte_length": !!int |-
       16
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "7230":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       ブラックナイトD<RET>
     "original_byte_length": !!int |-
       16
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "744e":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       <RET>
     "original_byte_length": !!int |-
       1
     "reference_addrs":
-    - !!null |-
-      null
-    - !!int |-
-      61393
-    - !!int |-
-      61393
     - !!int |-
       61393
     "translated": !!null |-
       null
   "744f":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       ブラックナイツが現れた。<RET_N>
     "original_byte_length": !!int |-
       25
     "reference_addrs":
-    - !!int |-
-      61457
-    - !!int |-
-      61457
     - !!int |-
       61457
     "translated": !!null |-

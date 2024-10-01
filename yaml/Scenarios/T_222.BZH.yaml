@@ -1,5 +1,7 @@
 "entries":
   "5a7e":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <IF0072><JUMP5c90><IF_NOT0075><CALL5d3f><IF_NOT0074><JUMP5a96><IF0073><JUMP5a9a><LOC5a96><CALL5d92><END>
       <LOC5a9a><CH0>
@@ -51,6 +53,8 @@
     "translated": !!null |-
       null
   "5d3f":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <SET0075><C_YELLOW>フローラ<C_NONE>
       はじめまして。
@@ -66,6 +70,8 @@
     "translated": !!null |-
       null
   "5d92":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>フローラ<C_NONE>
       お父さまは お食事の後の お昼寝を
@@ -77,12 +83,14 @@
       135
     "reference_addrs":
     - !!int |-
-      23191
-    - !!int |-
       23288
+    - !!int |-
+      23191
     "translated": !!null |-
       null
   "5e19":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ジェニー<C_NONE>
       私は お嬢さまの 家庭教師です。
@@ -95,6 +103,8 @@
     "translated": !!null |-
       null
   "5e87":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>女中<C_NONE>
       お嬢さまは 世界中の人たちが 幸せにくらしていけるようにと、毎朝 必ず

@@ -1,55 +1,57 @@
 "entries":
   "7170":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       プルダーム<RET>
     "original_byte_length": !!int |-
       11
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "71b0":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       プルダームＢ<RET>
     "original_byte_length": !!int |-
       13
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "71f0":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       プルダームＣ<RET>
     "original_byte_length": !!int |-
       13
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "7230":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       プルダームＤ<RET>
     "original_byte_length": !!int |-
       13
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "7427":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       プルダームが現れた。<RET_N>
     "original_byte_length": !!int |-
       21
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "743c":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <ACTOR>は脳しんとうを起こした。<RET_PAGE>
     "original_byte_length": !!int |-
@@ -57,13 +59,11 @@
     "reference_addrs":
     - !!int |-
       61359
-    - !!int |-
-      61359
-    - !!int |-
-      61359
     "translated": !!null |-
       null
   "7456":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <ACTOR>は脳しんとうで動けない。<RET_PAGE>
     "original_byte_length": !!int |-
@@ -74,6 +74,8 @@
     "translated": !!null |-
       null
   "7470":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <CALL7527>くそっ おれが動けない間に <RET>
     "original_byte_length": !!int |-
@@ -84,6 +86,8 @@
     "translated": !!null |-
       null
   "74c6":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <CALL7527>バカめ おれが 動けないというのに
       ダメージを与えられないとは ･ ･ ･<WAIT>
@@ -98,15 +102,17 @@
     "translated": !!null |-
       null
   "7527":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <CLEAR><C_YELLOW>プルダーム<C_NONE><RET_N>
     "original_byte_length": !!int |-
       14
     "reference_addrs":
     - !!int |-
-      29895
-    - !!int |-
       29809
+    - !!int |-
+      29895
     "translated": !!null |-
       null
 "note": ""

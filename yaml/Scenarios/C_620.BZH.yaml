@@ -1,5 +1,7 @@
 "entries":
   "60db":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <CH0>
       さあ みんな 行こう。
@@ -11,6 +13,8 @@
     "translated": !!null |-
       null
   "60f3":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ボザ<C_NONE>
       やっと来てくれたか。
@@ -21,15 +25,11 @@
     "reference_addrs":
     - !!int |-
       54917
-    - !!int |-
-      54917
-    - !!int |-
-      54917
-    - !!int |-
-      54917
     "translated": !!null |-
       null
   "6143":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ボザ<C_NONE>
       なっ 何だ これは !?
@@ -84,11 +84,11 @@
     "reference_addrs":
     - !!int |-
       55232
-    - !!int |-
-      55232
     "translated": !!null |-
       null
   "6470":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ケリイ<C_NONE>
       さっきから がんばってるんだけど
@@ -101,6 +101,8 @@
     "translated": !!null |-
       null
   "64b7":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       こんな所で 足止めを くらってたら
@@ -114,6 +116,8 @@
     "translated": !!null |-
       null
   "6508":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <CALL666c>早く 別館の下の階に行って
       変換炉を止めてみてくれ。
@@ -125,6 +129,8 @@
     "translated": !!null |-
       null
   "653e":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <CALL666c><JUMP6571><LOC6544><C_YELLOW>バイオラのマスター<C_NONE>
       <JUMP6571><LOC655c><C_YELLOW>ヨシュアのマスター<C_NONE>
@@ -135,14 +141,16 @@
       129
     "reference_addrs":
     - !!int |-
-      55095
-    - !!int |-
       55104
     - !!int |-
       55113
+    - !!int |-
+      55095
     "translated": !!null |-
       null
   "65bf":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>リーダー<C_NONE>
       おお アトラス君。
@@ -157,6 +165,8 @@
     "translated": !!null |-
       null
   "6633":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <PARTY>は 宝箱を開けました。
       宝箱の中には<RET>
@@ -168,29 +178,27 @@
     "translated": !!null |-
       null
   "666c":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>テクニカのマスター<C_NONE><RET_N>
     "original_byte_length": !!int |-
       21
     "reference_addrs":
     - !!int |-
-      24927
-    - !!int |-
-      24988
-    - !!int |-
       25219
+    - !!int |-
+      25919
     - !!int |-
       25480
     - !!int |-
+      25865
+    - !!int |-
+      24988
+    - !!int |-
       25597
     - !!int |-
-      25919
-    - !!int |-
-      25919
-    - !!int |-
-      25919
-    - !!int |-
-      25865
+      24927
     "translated": !!null |-
       null
 "note": ""

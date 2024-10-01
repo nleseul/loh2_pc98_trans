@@ -1,5 +1,7 @@
 "entries":
   "5a9e":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>フラート<C_NONE>
       まったく ここの にわとりどもは
@@ -10,11 +12,11 @@
     "reference_addrs":
     - !!int |-
       54659
-    - !!int |-
-      54659
     "translated": !!null |-
       null
   "5b08":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ジェルマン<C_NONE>
       君たち チキンが 欲しいんだったら
@@ -28,6 +30,8 @@
     "translated": !!null |-
       null
   "5b67":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>パウエル<C_NONE>
       わしは 昔 お城に仕えていたのじゃ
@@ -49,6 +53,8 @@
     "translated": !!null |-
       null
   "5cb0":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>村長<C_NONE>
       向こうで 養鶏をしている兄弟は
@@ -72,6 +78,8 @@
     "translated": !!null |-
       null
   "5e47":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>女<C_NONE>
       <IF0015><JUMP5eef>この前 養鶏所の にわとりが
@@ -96,6 +104,8 @@
     "translated": !!null |-
       null
   "5f98":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>老人<C_NONE>
       いらっしゃい。

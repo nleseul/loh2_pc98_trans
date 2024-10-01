@@ -1,5 +1,7 @@
 "entries":
   "61ec":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <ACTOR>は炎のブレスをはいた。<RET_N>
     "original_byte_length": !!int |-
@@ -10,6 +12,8 @@
     "translated": !!null |-
       null
   "6204":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <ACTOR>は大きくはばたいた。<RET_N>
     "original_byte_length": !!int |-
@@ -20,6 +24,8 @@
     "translated": !!null |-
       null
   "621a":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <CLEAR>皇帝 ゴドウィン２世を倒した。<RET_N>
     "original_byte_length": !!int |-
@@ -27,11 +33,11 @@
     "reference_addrs":
     - !!int |-
       55875
-    - !!int |-
-      55875
     "translated": !!null |-
       null
   "62a8":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>皇帝 ゴドウィン２世<C_NONE>
       <IF0400><JUMP636e><SET0400>フッハッハッハ
@@ -51,6 +57,8 @@
     "translated": !!null |-
       null
   "6390":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <CH1>
       何だ このドラゴンは？
@@ -88,6 +96,8 @@
     "translated": !!null |-
       null
   "6502":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       しかし<ITEM>ではダメージを与えられない !!<RET_PAGE>
     "original_byte_length": !!int |-

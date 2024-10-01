@@ -1,5 +1,7 @@
 "entries":
   "5ac4":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ロエル<C_NONE>
       しかし いつになっても 城という所は人が たくさんおって 落ちつかぬのう。
@@ -14,6 +16,8 @@
     "translated": !!null |-
       null
   "5b48":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       <IF0015><JUMP5ba6>赤スライムの 異常はんしょくは
@@ -32,6 +36,8 @@
     "translated": !!null |-
       null
   "5c1f":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       うちのばあさんが 言ってましたよ。
@@ -47,6 +53,8 @@
     "translated": !!null |-
       null
   "5cc3":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       <IF0015><JUMP5d4e>今 わが国の船は 罪人を 送るために
@@ -67,6 +75,8 @@
     "translated": !!null |-
       null
   "5dc8":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       <IF0015><JUMP5ec0>ロエル殿は 昔から ジェストンさまの相談役をされていて 城の北西にある
@@ -86,6 +96,8 @@
     "translated": !!null |-
       null
   "5f04":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       この先は 地下ろうへの 入口です。
@@ -104,6 +116,8 @@
     "translated": !!null |-
       null
   "5fe1":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       ジェストンさまの 後継ぎ候補ですか
@@ -118,6 +132,8 @@
     "translated": !!null |-
       null
   "6061":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>侍女<C_NONE>
       <IF0015><JUMP60c5>あの赤スライムの 気持ち悪さと
@@ -135,6 +151,8 @@
     "translated": !!null |-
       null
   "6156":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>侍女<C_NONE>
       <IF0015><JUMP6203>今 おやつの アップルパイを

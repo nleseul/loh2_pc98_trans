@@ -1,5 +1,7 @@
 "entries":
   "5ac8":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>武器屋<C_NONE>
       王子さま やっぱり 平和はいいですね竜の卵も 元に戻ったみたいだし
@@ -12,6 +14,8 @@
     "translated": !!null |-
       null
   "5b33":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <CALL5e1a>あら 王子さま。
       前と比べて ふんいきが 変わった
@@ -24,6 +28,8 @@
     "translated": !!null |-
       null
   "5b7c":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <CALL5e1a>まあ、王子さま。
       お元気そうで なによりです。
@@ -35,6 +41,8 @@
     "translated": !!null |-
       null
   "5bac":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <CALL5e21>王子さま もう モンスターは
       出てこないのでしょうか？
@@ -46,6 +54,8 @@
     "translated": !!null |-
       null
   "5be3":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       あ、王子さま いらっしゃい。
@@ -59,6 +69,8 @@
     "translated": !!null |-
       null
   "5c44":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       もう２度と モンスターなんか
@@ -72,6 +84,8 @@
     "translated": !!null |-
       null
   "5c9d":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>女<C_NONE>
       ま、王子さま ずいぶん おめしものが汚れているようですけど 洞窟の
@@ -84,6 +98,8 @@
     "translated": !!null |-
       null
   "5cfb":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>子供<C_NONE>
       またモンスターが 出てくるかも
@@ -97,6 +113,8 @@
     "translated": !!null |-
       null
   "5d56":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>パーカー<C_NONE>
       王子さま モンスターが いなく
@@ -109,6 +127,8 @@
     "translated": !!null |-
       null
   "5d9c":
+    "is_relocatable": !!bool |-
+      true
     "original": "<C_YELLOW>道具屋<C_NONE>\nいや これは王子さま。\nモンスターが いないと こんなにも\n安心していられるとは\
       \ ･ ･ ･ \n\n平和というのは いいもんですなぁ。"
     "original_byte_length": !!int |-
@@ -119,6 +139,8 @@
     "translated": !!null |-
       null
   "5e1a":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>侍女<C_NONE><RET_N>
     "original_byte_length": !!int |-
@@ -131,6 +153,8 @@
     "translated": !!null |-
       null
   "5e21":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE><RET_N>
     "original_byte_length": !!int |-

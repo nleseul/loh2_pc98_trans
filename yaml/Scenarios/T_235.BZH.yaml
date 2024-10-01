@@ -1,5 +1,7 @@
 "entries":
   "5aa6":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       おれたち夫婦は ジェラルドさまの
@@ -12,6 +14,8 @@
     "translated": !!null |-
       null
   "5ae4":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>女<C_NONE>
       別荘の そうじは 女中さんたちが
@@ -25,6 +29,8 @@
     "translated": !!null |-
       null
   "5b38":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ジェラルド<C_NONE>
       <IF007b><JUMP5d1f><IF0079><JUMP5cd0><SET0079>きっ きさまらだな !!
@@ -64,6 +70,8 @@
     "translated": !!null |-
       null
   "5da1":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ジェラルド夫人<C_NONE>
       <IF007b><JUMP5e37>あぁ フローラ。
@@ -85,6 +93,8 @@
     "translated": !!null |-
       null
   "5eba":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>チャーリー<C_NONE>
       <IF007b><JUMP5f53>むっ また あなたたちですか。
@@ -107,6 +117,8 @@
     "translated": !!null |-
       null
   "5ff3":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       <IF007b><JUMP6056>お嬢さまが 突然 いなくなったんだ。だんなさまは 誘拐されたとか
@@ -121,6 +133,8 @@
     "translated": !!null |-
       null
   "6091":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       おら もうすぐ 釣りに行かなきゃ
@@ -134,6 +148,8 @@
     "translated": !!null |-
       null
   "60d9":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>女中<C_NONE>
       お嬢さまが いなくなる前の日に
@@ -150,6 +166,8 @@
     "translated": !!null |-
       null
   "615f":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>女中<C_NONE>
       フローラお嬢さまは 今ごろ
@@ -167,6 +185,8 @@
     "translated": !!null |-
       null
   "6202":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ジェニー<C_NONE>
       <IF007b><JUMP6297>お嬢さまが いなくなる前に

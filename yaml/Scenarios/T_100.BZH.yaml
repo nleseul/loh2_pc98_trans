@@ -1,5 +1,7 @@
 "entries":
   "5db2":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>船長<C_NONE>
       <IF_NOT0404><JUMP5e64><UNSET0404>まったく このポンコツめ !!
@@ -19,6 +21,8 @@
     "translated": !!null |-
       null
   "5e98":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ダバール<C_NONE>
       おい坊主、見かけねえ顔だな。
@@ -41,11 +45,11 @@
     "reference_addrs":
     - !!int |-
       54834
-    - !!int |-
-      54834
     "translated": !!null |-
       null
   "602d":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <CH1>
       おい おめえら !!
@@ -79,6 +83,8 @@
     "translated": !!null |-
       null
   "6198":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>修理工のボブ<C_NONE>
       この前 修理したばかりなのに また
@@ -94,6 +100,8 @@
     "translated": !!null |-
       null
   "6225":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       近ごろ たちの悪い 赤スライムが
@@ -106,6 +114,8 @@
     "translated": !!null |-
       null
   "626d":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>老人<C_NONE>
       昔 この町の西に 流血の洞窟という
@@ -137,6 +147,8 @@
     "translated": !!null |-
       null
   "6489":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       この町の 武器屋は ずーっと昔からの古い武器しか 売ってないから 客が
@@ -149,6 +161,8 @@
     "translated": !!null |-
       null
   "64ef":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       いらっしゃい。船は修理中だけど
@@ -173,6 +187,8 @@
     "translated": !!null |-
       null
   "665b":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>バーテン<C_NONE>
       <IF0411><JUMP669f>未成年に 酒は出せないな。
@@ -204,6 +220,8 @@
     "translated": !!null |-
       null
   "6835":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>武器屋<C_NONE>
       いらっしゃい。
@@ -216,6 +234,8 @@
     "translated": !!null |-
       null
   "6865":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       またどうぞ。
     "original_byte_length": !!int |-
@@ -226,6 +246,8 @@
     "translated": !!null |-
       null
   "6872":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>道具屋<C_NONE>
       いらっしゃいませ。
@@ -235,11 +257,11 @@
     "reference_addrs":
     - !!int |-
       54958
-    - !!int |-
-      54958
     "translated": !!null |-
       null
   "68aa":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>道具屋<C_NONE>
       チンピラたちに 商品を盗まれて
@@ -249,16 +271,14 @@
       90
     "reference_addrs":
     - !!int |-
+      54985
+    - !!int |-
       54948
-    - !!int |-
-      54985
-    - !!int |-
-      54985
-    - !!int |-
-      54985
     "translated": !!null |-
       null
   "6904":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       おや？これ以上持てないようですね。
 
@@ -268,13 +288,11 @@
     "reference_addrs":
     - !!int |-
       4258
-    - !!int |-
-      4258
-    - !!int |-
-      4258
     "translated": !!null |-
       null
   "6928":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       どれを買ってくれますか？
       <RET_N>
@@ -283,13 +301,11 @@
     "reference_addrs":
     - !!int |-
       4260
-    - !!int |-
-      4260
-    - !!int |-
-      4260
     "translated": !!null |-
       null
   "6942":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <ITEM>だね。
       どうも ありがとう。
@@ -300,13 +316,11 @@
     "reference_addrs":
     - !!int |-
       4262
-    - !!int |-
-      4262
-    - !!int |-
-      4262
     "translated": !!null |-
       null
   "6967":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       どれを 売ってくれますか？
       <RET_N>
@@ -318,6 +332,8 @@
     "translated": !!null |-
       null
   "6982":
+    "is_relocatable": !!bool |-
+      true
     "original": |2-
        Gold になるけど
       それでも よろしいですか？
@@ -330,6 +346,8 @@
     "translated": !!null |-
       null
   "69ae":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       それは残念です。
 
@@ -342,6 +360,8 @@
     "translated": !!null |-
       null
   "69c0":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       どうも ありがとうございます。
       <RET_N>

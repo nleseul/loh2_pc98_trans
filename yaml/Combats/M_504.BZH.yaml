@@ -1,55 +1,57 @@
 "entries":
   "7170":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       ダダルカ<RET>
     "original_byte_length": !!int |-
       9
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "71b0":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       アクトス<RET>
     "original_byte_length": !!int |-
       9
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "71f0":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       Ｍ５０４Ｃ<RET>
     "original_byte_length": !!int |-
       11
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "7230":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       Ｍ５０４Ｄ<RET>
     "original_byte_length": !!int |-
       11
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "741f":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       ダダルカとアクトスが現れた。<RET_N>
     "original_byte_length": !!int |-
       29
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "743c":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <ACTOR>の体から酸が飛び散った !!<RET_PAGE>
     "original_byte_length": !!int |-

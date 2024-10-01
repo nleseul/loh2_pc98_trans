@@ -1,5 +1,7 @@
 "entries":
   "5ddf":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <IF0103><JUMP60e4><SET0103><CH1>
       てめー 覚悟しやがれ !!

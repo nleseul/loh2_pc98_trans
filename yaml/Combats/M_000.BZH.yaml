@@ -1,52 +1,52 @@
 "entries":
   "7170":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       スライムＡ<RET>
     "original_byte_length": !!int |-
       11
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "71b0":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       スライムＢ<RET>
     "original_byte_length": !!int |-
       11
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "71f0":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       スライムＣ<RET>
     "original_byte_length": !!int |-
       11
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "7230":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       スライムＤ<RET>
     "original_byte_length": !!int |-
       11
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "72be":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       スライムが現れた。<RET_N>
     "original_byte_length": !!int |-
       19
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
 "note": ""

@@ -1,5 +1,7 @@
 "entries":
   "5b2a":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       <IF0130><JUMP5b9a><SET0130>おおっ !! せ、戦士の笛 !!
@@ -18,6 +20,8 @@
     "translated": !!null |-
       null
   "5bf1":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       <IF0131><JUMP5cb4><SET0131>よう お前ら よく平気だったな。
@@ -40,6 +44,8 @@
     "translated": !!null |-
       null
   "5d19":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>子ども<C_NONE>
       あー つまんないよー。
@@ -52,6 +58,8 @@
     "translated": !!null |-
       null
   "5d51":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>女<C_NONE>
       この子 カゼを ひいてしまったのよ。まだなおってないくせに 外に遊びに
@@ -64,6 +72,8 @@
     "translated": !!null |-
       null
   "5db7":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>老人<C_NONE>
       <IF0132><JUMP5dca><SET0132><JUMP5deb><LOC5dca><IF0144><JUMP60a4><IF013d><JUMP6153><IF013c><JUMP60de><IF0134><JUMP6072><IF0460><JUMP60a4><JUMP6072><LOC5deb>おお これは 珍しい方が おみえに
@@ -136,6 +146,8 @@
     "translated": !!null |-
       null
   "6290":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       昔は この村も プロスの収容所に
@@ -156,6 +168,8 @@
     "translated": !!null |-
       null
   "6386":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>女<C_NONE>
       プロスには昔から収容所があったけどあそこから 脱走できた人は だれも
@@ -171,6 +185,8 @@
     "translated": !!null |-
       null
   "640c":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ヤミ屋<C_NONE>
       らっしゃい !! どんな ご用で？<RET_N>
@@ -182,6 +198,8 @@
     "translated": !!null |-
       null
   "6433":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       まいどー。
     "original_byte_length": !!int |-
@@ -189,13 +207,11 @@
     "reference_addrs":
     - !!int |-
       54769
-    - !!int |-
-      54769
-    - !!int |-
-      54769
     "translated": !!null |-
       null
   "643e":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       お客さん 冗談はいけねえや。
       それ以上は 持てねえんだぜ。
@@ -209,6 +225,8 @@
     "translated": !!null |-
       null
   "6477":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       なにを買うんでい？
       <RET_N>
@@ -220,6 +238,8 @@
     "translated": !!null |-
       null
   "648b":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <ITEM>かい。
       へい まいど どうも。
@@ -233,6 +253,8 @@
     "translated": !!null |-
       null
   "64b1":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       どれを 売るんでい？
       <RET_N>
@@ -244,6 +266,8 @@
     "translated": !!null |-
       null
   "64c6":
+    "is_relocatable": !!bool |-
+      true
     "original": |2-
        Gold だよ。いいかい？
       <RET_N>
@@ -255,6 +279,8 @@
     "translated": !!null |-
       null
   "64de":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       ひやかしは よくねえよ。
 
@@ -267,6 +293,8 @@
     "translated": !!null |-
       null
   "64f7":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       わりいね。
       <RET_N>

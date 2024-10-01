@@ -1,5 +1,7 @@
 "entries":
   "5adb":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ジーナ<C_NONE>
       お前たち スエルには 行ったかい？
@@ -14,6 +16,8 @@
     "translated": !!null |-
       null
   "5b43":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>船員<C_NONE>
       ジーナさんは 観光ツアーと宿屋とで
@@ -26,6 +30,8 @@
     "translated": !!null |-
       null
   "5b89":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>船員<C_NONE>
       ジーナさんは 最新の船を使って
@@ -41,6 +47,8 @@
     "translated": !!null |-
       null
   "5bfc":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>船員<C_NONE>
       あーあ ヒマだなー
@@ -56,6 +64,8 @@
     "translated": !!null |-
       null
   "5c6d":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>船員<C_NONE>
       ジーナさんは なかなか 頭がいいな
@@ -69,6 +79,8 @@
     "translated": !!null |-
       null
   "5cc5":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>船員<C_NONE>
       やっと 新しい船が できたんだ。
@@ -82,6 +94,8 @@
     "translated": !!null |-
       null
   "5d1b":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>船員<C_NONE>
       <IF009d><JUMP5da5>おっと 気をつけてくれよ。
@@ -104,6 +118,8 @@
     "translated": !!null |-
       null
   "5e26":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>船員<C_NONE>
       ここには 変わった宝石が たくさん
@@ -116,6 +132,8 @@
     "translated": !!null |-
       null
   "5e6d":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ボアード<C_NONE>
       <IF009d><JUMP5eb5><Xf624d6><JUMP5ee3>またバクヤクが ほしかったら
@@ -130,11 +148,9 @@
       273
     "reference_addrs":
     - !!int |-
+      24358
+    - !!int |-
       54702
-    - !!int |-
-      24358
-    - !!int |-
-      24358
     "translated": !!null |-
       null
 "note": ""

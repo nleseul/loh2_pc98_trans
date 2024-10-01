@@ -1,5 +1,7 @@
 "entries":
   "5c0c":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>子供<C_NONE>
       <IF0404><JUMP5c4f>ぼく いつも ここで 船を見てるんだ。早く来ないかなぁ。<END>
@@ -12,6 +14,8 @@
     "translated": !!null |-
       null
   "5c8b":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       まったく ここの定期船ときたら
@@ -31,6 +35,8 @@
     "translated": !!null |-
       null
   "5d56":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       やあ あんたも 災害のお守りを
@@ -50,6 +56,8 @@
     "translated": !!null |-
       null
   "5e24":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>女<C_NONE>
       災害のお守りって 本当にききめが
@@ -63,6 +71,8 @@
     "translated": !!null |-
       null
   "5e85":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>老人<C_NONE>
       まったく 近頃の若いもんと きたら
@@ -79,6 +89,8 @@
     "translated": !!null |-
       null
   "5f17":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ロー<C_NONE>
       <IF0020><JUMP609b><SET0020><IF0019><JUMP5f34><SET0021><Xf5700200><LOC5f34>おや どうしたんだ こんな所まで
@@ -114,6 +126,8 @@
     "translated": !!null |-
       null
   "614b":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       <IF0023><JUMP621f><IF0022><JUMP6265><IF0404><JUMP621f><IF0021><JUMP61de>お客さん、ここで船を待っていても
@@ -136,6 +150,8 @@
     "translated": !!null |-
       null
   "62d7":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       お客さん 切符を出してください。
@@ -161,6 +177,8 @@
     "translated": !!null |-
       null
   "6484":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ヤミ屋<C_NONE>
       <IF0025><JUMP65e3>へっへっへ 災害のお守りは
@@ -191,6 +209,8 @@
     "translated": !!null |-
       null
   "6660":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>女<C_NONE>
       いらっしゃいませ。
@@ -211,6 +231,8 @@
     "translated": !!null |-
       null
   "67e4":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>宿屋<C_NONE>
       この宿は 国王さまが お泊まりに
@@ -223,6 +245,8 @@
     "translated": !!null |-
       null
   "6826":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>武器屋<C_NONE>
       ベルガの鉱山で 落盤が起こったので
@@ -237,6 +261,8 @@
     "translated": !!null |-
       null
   "68b6":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>道具屋<C_NONE>
       いらっしゃいませ。

@@ -1,5 +1,7 @@
 "entries":
   "5afb":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ディーナ王妃<C_NONE>
       <IF0016><JUMP5d1c><SET0016>アトラス ご苦労さまでした。
@@ -36,6 +38,8 @@
     "translated": !!null |-
       null
   "5d51":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>フェリシア<C_NONE>
       まだ 何かしなければ ならないことがあるのですか？
@@ -51,6 +55,8 @@
     "translated": !!null |-
       null
   "5dee":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       王子さまのおかげで 竜の卵も もとに戻りましたし モンスターも いなく
@@ -63,6 +69,8 @@
     "translated": !!null |-
       null
   "5e45":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       王子さま あのモンスターは いったい何だったのですか？
@@ -78,6 +86,8 @@
     "translated": !!null |-
       null
   "5ed1":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       王子さま どのようにして 竜の卵を
@@ -94,6 +104,8 @@
     "translated": !!null |-
       null
   "5f61":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       セリオスさまたちが あのように
@@ -107,6 +119,8 @@
     "translated": !!null |-
       null
   "5fc0":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       ソルディスでは 司祭 バーバラさまが竜の卵を 正常にしたという うわさが広がっているそうです。
@@ -118,6 +132,8 @@
     "translated": !!null |-
       null
   "6022":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       王子さま セリオスさまたちは どこであのようなけがを されたのですか？
@@ -129,6 +145,8 @@
     "translated": !!null |-
       null
   "606d":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       王子さま あのさわぎの原因は
@@ -144,6 +162,8 @@
     "translated": !!null |-
       null
   "60fc":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       王子さま あまり 無理をしないようにしてください。
@@ -155,6 +175,8 @@
     "translated": !!null |-
       null
   "6134":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>教育係 ラウエル<C_NONE>
       <Xf624d6><JUMP61dd>おお そうでしたな。
@@ -176,6 +198,8 @@
     "translated": !!null |-
       null
   "621a":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>セリオス<C_NONE>
       きさまら ･ ･ ･ 地上を ･ ･ ･
@@ -187,6 +211,8 @@
     "translated": !!null |-
       null
   "6241":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>エリオン<C_NONE>
       きさまらに ･ ･ ･ 支配など ･ ･ ･
@@ -199,6 +225,8 @@
     "translated": !!null |-
       null
   "6279":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ゲイル３世<C_NONE>
       てめえら ･ ･ ･ おぼえてろ ･ ･ ･

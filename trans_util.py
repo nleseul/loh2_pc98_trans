@@ -11,6 +11,8 @@ class TranslationEntry:
     translated:str|None = None
 
     original_byte_length:int|None = None
+
+    is_relocatable:bool = True
     reference_addrs:list[int] = field(default_factory=list)
 
     @property

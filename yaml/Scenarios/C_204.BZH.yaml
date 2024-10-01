@@ -1,5 +1,7 @@
 "entries":
   "5b41":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>エリオン<C_NONE>
       ソニア、よく 気がついてくれた。
@@ -50,6 +52,8 @@
     "translated": !!null |-
       null
   "5e06":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ソニア<C_NONE>
       エリオンさま !!

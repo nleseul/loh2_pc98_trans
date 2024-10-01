@@ -1,5 +1,7 @@
 "entries":
   "5a74":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       いらっしゃい ここは休憩所だが
@@ -12,6 +14,8 @@
     "translated": !!null |-
       null
   "5adb":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ソニア<C_NONE>
       <IF005d><JUMP5ea5><IF0015><JUMP5c38><IF005c><JUMP5bfa><SET005c>王子さま、セリオスさまのことは？
@@ -72,6 +76,8 @@
     "translated": !!null |-
       null
   "5f05":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ポウエル<C_NONE>
       <IF_NOT00f9><JUMP5fb6><IF0015><JUMP5f76>それにしても バーバラ殿は どこに
@@ -90,6 +96,8 @@
     "translated": !!null |-
       null
   "6006":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>チャールズ王子<C_NONE>
       みんな 今は忙しいって言って
@@ -106,6 +114,8 @@
     "translated": !!null |-
       null
   "60a0":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>侍女<C_NONE>
       ひなんしたのは いいけど もしも
@@ -119,6 +129,8 @@
     "translated": !!null |-
       null
   "60f8":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>侍女<C_NONE>
       ここは 広いことは広いけど お城から比べたら 狭いし お台所も あまり
@@ -131,6 +143,8 @@
     "translated": !!null |-
       null
   "6158":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       <IF_NOT00f9><JUMP6230><IF0015><JUMP61df>司祭 バーバラは いったい どこに
@@ -152,6 +166,8 @@
     "translated": !!null |-
       null
   "62a4":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       これは アトラス王子さま。
@@ -164,6 +180,8 @@
     "translated": !!null |-
       null
   "6305":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       これは アトラス王子さま。

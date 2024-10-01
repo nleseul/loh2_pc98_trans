@@ -1,52 +1,52 @@
 "entries":
   "7170":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       ジーヘッドＡ<RET>
     "original_byte_length": !!int |-
       13
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "71b0":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       ジーヘッドＢ<RET>
     "original_byte_length": !!int |-
       13
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "71f0":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       ジーヘッドＣ<RET>
     "original_byte_length": !!int |-
       13
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "7230":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       ジーヘッドＤ<RET>
     "original_byte_length": !!int |-
       13
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "73bf":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       ジーヘッドが現れた。<RET_N>
     "original_byte_length": !!int |-
       21
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
 "note": ""

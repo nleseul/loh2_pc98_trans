@@ -1,5 +1,7 @@
 "entries":
   "5b06":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       私たちは 町の中に モンスターが
@@ -13,6 +15,8 @@
     "translated": !!null |-
       null
   "5b55":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       この国の 砂漠の真中あたりに エメ
@@ -29,6 +33,8 @@
     "translated": !!null |-
       null
   "5c0a":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       いやー あんたたち 知ってたか？
@@ -46,6 +52,8 @@
     "translated": !!null |-
       null
   "5cc9":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       いやー 本当に びっくりしたぜ。
@@ -59,6 +67,8 @@
     "translated": !!null |-
       null
   "5d2b":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       おれは 道具屋なんだが 店のほうは
@@ -72,6 +82,8 @@
     "translated": !!null |-
       null
   "5d8c":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       この近くに カザミの塔という 古い
@@ -92,6 +104,8 @@
     "translated": !!null |-
       null
   "5ea5":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>女<C_NONE>
       アートス国王さまは ハリーさんの
@@ -105,6 +119,8 @@
     "translated": !!null |-
       null
   "5f01":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>女<C_NONE>
       この国の お姫さま ディーナ姫は
@@ -122,6 +138,8 @@
     "translated": !!null |-
       null
   "5fbe":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>呪文屋<C_NONE>
       いらっしゃい。<RET_N>
@@ -133,6 +151,8 @@
     "translated": !!null |-
       null
   "5fd6":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       またどうぞ。
     "original_byte_length": !!int |-
@@ -143,6 +163,8 @@
     "translated": !!null |-
       null
   "5fe3":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>道具屋<C_NONE>
       あら いらっしゃい。
@@ -155,6 +177,8 @@
     "translated": !!null |-
       null
   "6014":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       また おいでください。
     "original_byte_length": !!int |-
@@ -162,13 +186,11 @@
     "reference_addrs":
     - !!int |-
       54759
-    - !!int |-
-      54759
-    - !!int |-
-      54759
     "translated": !!null |-
       null
   "602a":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       おや？これ以上持てないようですね。
 
@@ -181,6 +203,8 @@
     "translated": !!null |-
       null
   "604e":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       どれを買ってくれますか？
       <RET_N>
@@ -192,6 +216,8 @@
     "translated": !!null |-
       null
   "6068":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <ITEM>だね。
       どうも ありがとう。
@@ -205,6 +231,8 @@
     "translated": !!null |-
       null
   "6085":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       あらまあ もう持てないわよ。
 
@@ -217,6 +245,8 @@
     "translated": !!null |-
       null
   "60a2":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       どれを買ってくれるの？
       <RET_N>
@@ -228,6 +258,8 @@
     "translated": !!null |-
       null
   "60ba":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <ITEM>ね。
       どうも ありがとう。
@@ -241,6 +273,8 @@
     "translated": !!null |-
       null
   "60dd":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       なにを 売ってくれるの？
       <RET_N>
@@ -252,6 +286,8 @@
     "translated": !!null |-
       null
   "60f6":
+    "is_relocatable": !!bool |-
+      true
     "original": |2-
        Gold になるわよ
       それでも いいかしら？
@@ -264,6 +300,8 @@
     "translated": !!null |-
       null
   "611e":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       あら それは残念だわ。
 
@@ -276,6 +314,8 @@
     "translated": !!null |-
       null
   "6135":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       どうも ありがとう。
       <RET_N>

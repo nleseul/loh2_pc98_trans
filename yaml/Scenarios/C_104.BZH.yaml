@@ -1,5 +1,7 @@
 "entries":
   "5ab8":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ロエル<C_NONE>
       おお あなたが アトラス王子ですな？セリオスさまの 若いころに
@@ -12,6 +14,8 @@
     "translated": !!null |-
       null
   "5b10":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       うわさによると あのモンスターは
@@ -27,6 +31,8 @@
     "translated": !!null |-
       null
   "5b8d":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       うちのばあさんが 言ってましたよ。
@@ -43,6 +49,8 @@
     "translated": !!null |-
       null
   "5c2e":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       わが国の船は ひなんさせていた
@@ -56,6 +64,8 @@
     "translated": !!null |-
       null
   "5c89":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       ロエル殿は 昔から ジェストンさまの相談役をされていた かたなのです。
@@ -67,6 +77,8 @@
     "translated": !!null |-
       null
   "5cd4":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       この先は 地下ろうへの 入口です。
@@ -82,6 +94,8 @@
     "translated": !!null |-
       null
   "5d5f":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       ジェストンさまの後継ぎ候補ですか？<WAIT>
@@ -94,6 +108,8 @@
     "translated": !!null |-
       null
   "5dab":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>侍女<C_NONE>
       赤スライムも モンスターも どっちもいなくなったから せいせいしたわ。
@@ -105,6 +121,8 @@
     "translated": !!null |-
       null
   "5df6":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>侍女<C_NONE>
       今 おやつの アップルパイを

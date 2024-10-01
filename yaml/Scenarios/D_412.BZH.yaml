@@ -1,5 +1,7 @@
 "entries":
   "5aa3":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ドレイク<C_NONE>
       <IF_NOT0401><JUMP5ae1><UNSET0401>おっ!? 何で そっちから ･ ･ ･

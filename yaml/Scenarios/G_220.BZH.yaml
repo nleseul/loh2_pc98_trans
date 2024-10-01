@@ -1,5 +1,7 @@
 "entries":
   "5e45":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       <SET0125>ああ また迷っちゃったよ。
@@ -12,6 +14,8 @@
     "translated": !!null |-
       null
   "5e98":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       <SET0125>せっかく イズーで 仕事が
@@ -24,6 +28,8 @@
     "translated": !!null |-
       null
   "5eea":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       <SET0125>こんな迷路みたいな道じゃ 行きたい
@@ -36,6 +42,8 @@
     "translated": !!null |-
       null
   "5f33":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>女<C_NONE>
       <SET0125>なんて だらしのない人たちなの？

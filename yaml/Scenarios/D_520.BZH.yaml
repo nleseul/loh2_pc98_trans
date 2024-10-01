@@ -1,5 +1,7 @@
 "entries":
   "6075":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ガード<C_NONE>
       <IF0401><JUMP6131>何だ お前らは？
@@ -20,6 +22,8 @@
     "translated": !!null |-
       null
   "6154":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <CH3>
       ドア 閉める。
@@ -51,19 +55,13 @@
     "translated": !!null |-
       null
   "624b":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <PARTY>は <RET>
     "original_byte_length": !!int |-
       5
     "reference_addrs":
-    - !!int |-
-      54790
-    - !!int |-
-      54790
-    - !!int |-
-      54790
-    - !!int |-
-      54790
     - !!int |-
       54790
     "translated": !!null |-

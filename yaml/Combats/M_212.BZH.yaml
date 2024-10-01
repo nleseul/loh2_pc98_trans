@@ -1,62 +1,62 @@
 "entries":
   "7170":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       ハンタークローA<RET>
     "original_byte_length": !!int |-
       16
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "71b0":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       ハンタークローB<RET>
     "original_byte_length": !!int |-
       16
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "71f0":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       ハンタークローC<RET>
     "original_byte_length": !!int |-
       16
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "7230":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       ハンタークローD<RET>
     "original_byte_length": !!int |-
       16
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "7333":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       ハンタークローが現れた。<RET_N>
     "original_byte_length": !!int |-
       25
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "7382":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <ACTOR>の体に毒がまわった。<RET_N>
     "original_byte_length": !!int |-
       22
     "reference_addrs":
-    - !!int |-
-      61212
     - !!int |-
       61212
     "translated": !!null |-

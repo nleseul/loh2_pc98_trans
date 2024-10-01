@@ -1,5 +1,7 @@
 "entries":
   "5b02":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>アートス国王<C_NONE>
       アトラス よくぞ モンスターの出現を止めてくれた。
@@ -14,6 +16,8 @@
     "translated": !!null |-
       null
   "5b9e":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>クレア王妃<C_NONE>
       アトラス王子 また セリオス王が
@@ -27,6 +31,8 @@
     "translated": !!null |-
       null
   "5c09":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       若い兵士たちが エメを 復旧しに
@@ -40,6 +46,8 @@
     "translated": !!null |-
       null
   "5c64":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       いや これは アトラス王子さま。
@@ -57,6 +65,8 @@
     "translated": !!null |-
       null
   "5d35":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       あーあ 今日も いい天気ですね。
@@ -70,6 +80,8 @@
     "translated": !!null |-
       null
   "5d8e":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ハリー<C_NONE>
       あっ ちょっと きみたち。

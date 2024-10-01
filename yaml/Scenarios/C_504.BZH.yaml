@@ -1,5 +1,7 @@
 "entries":
   "5c08":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ダリス<C_NONE>
       しぶといやつだな。
@@ -19,6 +21,8 @@
     "translated": !!null |-
       null
   "5cb4":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ダリス<C_NONE>
       なんだ お前らは？
@@ -39,11 +43,11 @@
     "reference_addrs":
     - !!int |-
       54784
-    - !!int |-
-      54784
     "translated": !!null |-
       null
   "5d7b":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <CH0>
       父上 !!
@@ -51,14 +55,14 @@
       11
     "reference_addrs":
     - !!int |-
-      54743
-    - !!int |-
-      54743
-    - !!int |-
       54848
+    - !!int |-
+      54743
     "translated": !!null |-
       null
   "5d86":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>町長<C_NONE>
       ３世 !!
@@ -71,6 +75,8 @@
     "translated": !!null |-
       null
   "5daf":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <CH0>
       町長さん。

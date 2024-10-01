@@ -1,5 +1,7 @@
 "entries":
   "5aa6":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       皇帝は まだ倒していないのか？
@@ -13,6 +15,8 @@
     "translated": !!null |-
       null
   "5afc":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>子ども<C_NONE>
       ぼくも もっと 大きかったら
@@ -26,6 +30,8 @@
     "translated": !!null |-
       null
   "5b50":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>女<C_NONE>
       もう みんな 皇帝を倒して 新しい
@@ -38,6 +44,8 @@
     "translated": !!null |-
       null
   "5b99":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>女<C_NONE>
       私も 皇帝を倒すのに 協力したいと
@@ -51,6 +59,8 @@
     "translated": !!null |-
       null
   "5bee":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ヤミ屋<C_NONE>
       らっしゃい !! どんな ご用で？<RET_N>
@@ -62,6 +72,8 @@
     "translated": !!null |-
       null
   "5c15":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       まいどー。
     "original_byte_length": !!int |-
@@ -69,13 +81,11 @@
     "reference_addrs":
     - !!int |-
       54725
-    - !!int |-
-      54725
-    - !!int |-
-      54725
     "translated": !!null |-
       null
   "5c20":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       お客さん 冗談はいけねえや。
       それ以上は 持てねえんだぜ。
@@ -89,6 +99,8 @@
     "translated": !!null |-
       null
   "5c59":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       なにを買うんでい？
       <RET_N>
@@ -100,6 +112,8 @@
     "translated": !!null |-
       null
   "5c6d":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <ITEM>かい。
       へい まいど どうも。
@@ -113,6 +127,8 @@
     "translated": !!null |-
       null
   "5c93":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       どれを 売るんでい？
       <RET_N>
@@ -124,6 +140,8 @@
     "translated": !!null |-
       null
   "5ca8":
+    "is_relocatable": !!bool |-
+      true
     "original": |2-
        Gold だよ。いいかい？
       <RET_N>
@@ -135,6 +153,8 @@
     "translated": !!null |-
       null
   "5cc0":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       ひやかしは よくねえよ。
 
@@ -147,6 +167,8 @@
     "translated": !!null |-
       null
   "5cd9":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       わりいね。
       <RET_N>

@@ -1,5 +1,7 @@
 "entries":
   "5b99":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>老人<C_NONE>
       <IF0068><JUMP5c6d>これは 王子、呪文というものは
@@ -29,6 +31,8 @@
     "translated": !!null |-
       null
   "5d9b":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>侍女<C_NONE>
       王子さま、旅に出てしまうと
@@ -39,11 +43,11 @@
     "reference_addrs":
     - !!int |-
       54703
-    - !!int |-
-      54703
     "translated": !!null |-
       null
   "5dea":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>侍女<C_NONE>
       ああ 忙しい ･ ･ まあ 王子さま。
@@ -56,6 +60,8 @@
     "translated": !!null |-
       null
   "5e28":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       <IF0400><JUMP5e6a>これは 王子さま、お気をつけて
@@ -72,6 +78,8 @@
     "translated": !!null |-
       null
   "5edb":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       こらっ 城の中で遊ぶんじゃない !!
@@ -89,6 +97,8 @@
     "translated": !!null |-
       null
   "5fa8":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       おや 王子さま。
@@ -101,6 +111,8 @@
     "translated": !!null |-
       null
   "5fde":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       <IF0068><JUMP6098>王子さま、この武器庫には 世界で

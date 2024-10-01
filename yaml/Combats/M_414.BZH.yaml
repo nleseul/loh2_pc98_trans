@@ -1,55 +1,57 @@
 "entries":
   "7170":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       エビューンＡ<RET>
     "original_byte_length": !!int |-
       13
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "71b0":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       エビューンＢ<RET>
     "original_byte_length": !!int |-
       13
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "71f0":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       エビューンＣ<RET>
     "original_byte_length": !!int |-
       13
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "7230":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       エビューンＤ<RET>
     "original_byte_length": !!int |-
       13
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "7390":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       エビューンが現れた。<RET_N>
     "original_byte_length": !!int |-
       21
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "73b7":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <ACTOR>の酸胞が飛び散った !!<RET_PAGE>
     "original_byte_length": !!int |-
@@ -57,18 +59,16 @@
     "reference_addrs":
     - !!int |-
       61173
-    - !!int |-
-      61173
     "translated": !!null |-
       null
   "73ce":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <ACTOR>の酸胞を壊した。<RET_PAGE>
     "original_byte_length": !!int |-
       18
     "reference_addrs":
-    - !!int |-
-      61272
     - !!int |-
       61272
     "translated": !!null |-

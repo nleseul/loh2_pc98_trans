@@ -1,5 +1,7 @@
 "entries":
   "5ac9":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ディーナ<C_NONE>
       <IF000d><JUMP63cb><IF000f><JUMP6346><SET000f>アトラス、よかった ･ ･ ･
@@ -147,11 +149,11 @@
     "reference_addrs":
     - !!int |-
       54658
-    - !!int |-
-      54658
     "translated": !!null |-
       null
   "6420":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>フェリシア<C_NONE>
       いいですか アトラス。
@@ -165,6 +167,8 @@
     "translated": !!null |-
       null
   "647f":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       セリオスさまと いっしょに 世界の
@@ -178,6 +182,8 @@
     "translated": !!null |-
       null
   "64db":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       竜の卵の 近くには モンスターが
@@ -191,6 +197,8 @@
     "translated": !!null |-
       null
   "6539":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       竜の卵から 離れている所では あまりモンスターを見かけません。
@@ -203,6 +211,8 @@
     "translated": !!null |-
       null
   "65a2":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       モンスターが 現れてから スライムを見かけなくなりました。
@@ -216,6 +226,8 @@
     "translated": !!null |-
       null
   "6617":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       王子さま あのドラゴンに 乗れるかもしれませんね。うらやましいな。
@@ -227,6 +239,8 @@
     "translated": !!null |-
       null
   "665f":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       今のところ ルディアの 近くでは
@@ -240,6 +254,8 @@
     "translated": !!null |-
       null
   "66cb":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       セリオスさまが 戻られるまでは
@@ -253,6 +269,8 @@
     "translated": !!null |-
       null
   "672c":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       セリオスさまに 合流するまでは
@@ -266,6 +284,8 @@
     "translated": !!null |-
       null
   "677a":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>教育係 ラウエル<C_NONE>
       <Xf610d6><JUMP6823>おお そうでしたな。

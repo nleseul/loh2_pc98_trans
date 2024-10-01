@@ -1,5 +1,7 @@
 "entries":
   "59e7":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>モーガン<C_NONE>
       もう わしゃ 何もせんぞ。
@@ -14,6 +16,8 @@
     "translated": !!null |-
       null
   "5a35":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>サミー<C_NONE>
       おっさんが 抜け穴を掘ったせいで

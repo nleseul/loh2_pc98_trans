@@ -1,5 +1,7 @@
 "entries":
   "5cf3":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       さあ 早く 先に進んでください。
@@ -11,6 +13,8 @@
     "translated": !!null |-
       null
   "5d17":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       この先は 危険です。
@@ -23,6 +27,8 @@
     "translated": !!null |-
       null
   "5d45":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <PARTY>は 宝箱を開けました。
       宝箱の中には<RET>

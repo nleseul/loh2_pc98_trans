@@ -1,62 +1,62 @@
 "entries":
   "7170":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       ガンスＡ<RET>
     "original_byte_length": !!int |-
       9
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "71b0":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       ガンスＢ<RET>
     "original_byte_length": !!int |-
       9
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "71f0":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       ガンスＣ<RET>
     "original_byte_length": !!int |-
       9
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "7230":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       ガンスＤ<RET>
     "original_byte_length": !!int |-
       9
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "73a8":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       ガンスが現れた。<RET_N>
     "original_byte_length": !!int |-
       17
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "73b9":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <ACTOR>は呪文を飲み込んだ。<RET_PAGE>
     "original_byte_length": !!int |-
       22
     "reference_addrs":
-    - !!int |-
-      61256
     - !!int |-
       61256
     "translated": !!null |-

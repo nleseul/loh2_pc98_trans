@@ -1,5 +1,7 @@
 "entries":
   "5ce1":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>レイシア<C_NONE>
       <SET0114>もう !! あと少しだったのに !!

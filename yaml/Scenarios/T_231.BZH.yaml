@@ -1,5 +1,7 @@
 "entries":
   "5b09":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       おれたち夫婦は ジェラルドさまの
@@ -12,6 +14,8 @@
     "translated": !!null |-
       null
   "5b47":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>女<C_NONE>
       別荘の そうじは 女中さんたちが
@@ -25,6 +29,8 @@
     "translated": !!null |-
       null
   "5b9b":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ジェラルド<C_NONE>
       <IF007b><JUMP6145><IF007a><JUMP5e57><IF_NOT0079><JUMP5bc2>おお <JUMP5c3e><LOC5bc2>きっ きさまら !!
@@ -48,7 +54,7 @@
       <C_YELLOW>ジェラルド<C_NONE>
       なに ほうびは いらんのか？
       それは 感心だ その心がけを
-      忘れるでないぞ。
+      忘れるでないぞ。<LOC5d20>
 
       <CH2>
       お父さま きいてください。
@@ -142,9 +148,13 @@
     "reference_addrs":
     - !!int |-
       54657
+    - !!int |-
+      24211
     "translated": !!null |-
       null
   "6320":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ジェラルド夫人<C_NONE>
       <IF007b><JUMP6395><SET0400>あぁ フローラ。
@@ -163,6 +173,8 @@
     "translated": !!null |-
       null
   "63e8":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>チャーリー<C_NONE>
       <IF007b><JUMP64d8><IF0400><JUMP649a><SET0400>おお お嬢さま よくごぶじで。
@@ -186,6 +198,8 @@
     "translated": !!null |-
       null
   "6547":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       お嬢さま お元気そうで 安心しました。やっぱり 誘拐じゃなかったんですね。
@@ -197,6 +211,8 @@
     "translated": !!null |-
       null
   "6594":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       おら もうすぐ 釣りに行かなきゃ
@@ -210,6 +226,8 @@
     "translated": !!null |-
       null
   "65dc":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>女中<C_NONE>
       あら お嬢さまじゃありませんか。
@@ -222,6 +240,8 @@
     "translated": !!null |-
       null
   "6621":
+    "is_relocatable": !!bool |-
+      true
     "original": |
       <C_YELLOW>女中<C_NONE>
       お嬢さま お帰りなさい。
@@ -235,6 +255,8 @@
     "translated": !!null |-
       null
   "667b":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ジェニー<C_NONE>
       お嬢さま 女神 フレイアさまの

@@ -1,5 +1,7 @@
 "entries":
   "5ab6":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <CALL619b>ずっと昔から たっていた
       グエンの塔が あんな地震ごときで
@@ -15,6 +17,8 @@
     "translated": !!null |-
       null
   "5b76":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       ラヌーラに 初めて 出入りする者は
       あらかじめ 各国で 届けを出して
@@ -32,6 +36,8 @@
     "translated": !!null |-
       null
   "5c50":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <CALL619b>ボアード海運の ボアードは
       元海賊だって うわさだぜ。
@@ -47,6 +53,8 @@
     "translated": !!null |-
       null
   "5ce3":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>女<C_NONE>
       昔のラヌーラは 税金が高くて
@@ -68,6 +76,8 @@
     "translated": !!null |-
       null
   "5df2":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       ここの呪文屋は こっとう品を
@@ -83,6 +93,8 @@
     "translated": !!null |-
       null
   "5e6a":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <CALL61a2>おや いらっしゃい。
       <IF0034><JUMP6097><SET0034>サイレスの呪文は いかがですか？
@@ -123,55 +135,43 @@
       808
     "reference_addrs":
     - !!int |-
-      54706
-    - !!int |-
       54712
     - !!int |-
-      24776
-    - !!int |-
-      24776
+      54706
     - !!int |-
       24776
     "translated": !!null |-
       null
   "619b":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE><RET_N>
     "original_byte_length": !!int |-
       7
     "reference_addrs":
     - !!int |-
+      23633
+    - !!int |-
       54642
     - !!int |-
       23223
-    - !!int |-
-      23633
     "translated": !!null |-
       null
   "61a2":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>呪文屋<C_NONE><RET_N>
     "original_byte_length": !!int |-
       9
     "reference_addrs":
     - !!int |-
-      24171
-    - !!int |-
-      24550
-    - !!int |-
       24642
     - !!int |-
       24171
     - !!int |-
       24550
-    - !!int |-
-      24642
-    - !!int |-
-      24171
-    - !!int |-
-      24550
-    - !!int |-
-      24642
     "translated": !!null |-
       null
 "note": ""

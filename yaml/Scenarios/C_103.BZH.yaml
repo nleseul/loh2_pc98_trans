@@ -1,5 +1,7 @@
 "entries":
   "5adb":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ジェストン<C_NONE>
       <IF0015><JUMP5b2b>くれぐれも モンスターには
@@ -21,6 +23,8 @@
     "translated": !!null |-
       null
   "5bf4":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>オーエン<C_NONE>
       <IF0015><JUMP5c89>ふぅ やはり 思い切って 合併計画を
@@ -43,6 +47,8 @@
     "translated": !!null |-
       null
   "5d23":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       これは 私のカンなのですが
@@ -63,6 +69,8 @@
     "translated": !!null |-
       null
   "5e1f":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       結局 例の候補たちは 頼りないので
@@ -78,6 +86,8 @@
     "translated": !!null |-
       null
   "5ec6":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       ああ わが国にも あなたさまのような立派な後継ぎがいたら ･ ･ ･
@@ -89,6 +99,8 @@
     "translated": !!null |-
       null
   "5f0a":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       <IF0015><JUMP5fa1>あっ これは 王子さま。
@@ -107,6 +119,8 @@
     "translated": !!null |-
       null
   "5fe6":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       こいつら ふしぎなんですよ。
@@ -123,6 +137,8 @@
     "translated": !!null |-
       null
   "606f":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       こいつら 本当に 変わった囚人ですね。前から 綱引きで 縄張を決めていた

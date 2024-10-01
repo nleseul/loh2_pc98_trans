@@ -1,5 +1,7 @@
 "entries":
   "5c24":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <IF0137><JUMP5c30><IF0136><JUMP5c99><LOC5c30><C_YELLOW>男<C_NONE>
       もう 皇帝に逆らうのは やめようぜ。こんな生活でも 収容所なんかよりは
@@ -20,6 +22,8 @@
     "translated": !!null |-
       null
   "5d1b":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>子ども<C_NONE>
       あー つまんないよー。
@@ -32,6 +36,8 @@
     "translated": !!null |-
       null
   "5d53":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>子ども<C_NONE>
       ぼく 大きくなったら レジスタンスになって 皇帝を やっつけてやるんだ。
@@ -43,6 +49,8 @@
     "translated": !!null |-
       null
   "5da1":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>女<C_NONE>
       一斉に レジスタンス狩りが
@@ -56,6 +64,8 @@
     "translated": !!null |-
       null
   "5df7":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>女<C_NONE>
       <IF0137><JUMP5f40><IF0404><JUMP5f0c><SET0404>な、何かご用ですか？
@@ -80,6 +90,8 @@
     "translated": !!null |-
       null
   "5f84":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>女<C_NONE>
       捕まった人たちが ユイシスの方に
@@ -95,6 +107,8 @@
     "translated": !!null |-
       null
   "5ff5":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>レイシア<C_NONE>
       あら アトラスさん。
@@ -108,6 +122,8 @@
     "translated": !!null |-
       null
   "6055":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ヤミ屋<C_NONE>
       らっしゃい !! どんな ご用で？<RET_N>
@@ -119,6 +135,8 @@
     "translated": !!null |-
       null
   "607c":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       まいどー。
     "original_byte_length": !!int |-
@@ -126,13 +144,11 @@
     "reference_addrs":
     - !!int |-
       54885
-    - !!int |-
-      54885
-    - !!int |-
-      54885
     "translated": !!null |-
       null
   "6087":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       お客さん 冗談はいけねえや。
       それ以上は 持てねえんだぜ。
@@ -146,6 +162,8 @@
     "translated": !!null |-
       null
   "60c0":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       なにを買うんでい？
       <RET_N>
@@ -157,6 +175,8 @@
     "translated": !!null |-
       null
   "60d4":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <ITEM>かい。
       へい まいど どうも。
@@ -170,6 +190,8 @@
     "translated": !!null |-
       null
   "60fa":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       どれを 売るんでい？
       <RET_N>
@@ -181,6 +203,8 @@
     "translated": !!null |-
       null
   "610f":
+    "is_relocatable": !!bool |-
+      true
     "original": |2-
        Gold だよ。いいかい？
       <RET_N>
@@ -192,6 +216,8 @@
     "translated": !!null |-
       null
   "6127":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       ひやかしは よくねえよ。
 
@@ -204,6 +230,8 @@
     "translated": !!null |-
       null
   "6140":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       わりいね。
       <RET_N>

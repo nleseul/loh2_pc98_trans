@@ -1,5 +1,7 @@
 "entries":
   "5e4d":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ゲイル３世<C_NONE>
       何だよ うるせえな。
@@ -12,6 +14,8 @@
     "translated": !!null |-
       null
   "5e8f":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ゲイル３世<C_NONE>
       <IF0191><JUMP5fde><IF01be><JUMP5f17><SET01be>おお 何だ アトラス王子じゃねえか。
@@ -36,13 +40,11 @@
     "reference_addrs":
     - !!int |-
       54875
-    - !!int |-
-      54875
-    - !!int |-
-      54875
     "translated": !!null |-
       null
   "601c":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <PARTY>は 宝箱を開けました。
       宝箱の中には<RET>

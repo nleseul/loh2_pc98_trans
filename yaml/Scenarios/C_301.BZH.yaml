@@ -1,5 +1,7 @@
 "entries":
   "5b14":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>アートス国王<C_NONE>
       <IF00b8><JUMP613f><SET00b8><SET00b9>おおっ アトラスではないか !!
@@ -105,6 +107,8 @@
     "translated": !!null |-
       null
   "6183":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>クレア王妃<C_NONE>
       まあ 小さいころから いたずらばかりしていた アトラス王子が こんなに
@@ -121,6 +125,8 @@
     "translated": !!null |-
       null
   "6239":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       モンスターなんて ２０年ぶりですね。そういえば あのときは たいへん
@@ -140,6 +146,8 @@
     "translated": !!null |-
       null
   "6343":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       うーむ また 昔のように 破壊神が
@@ -152,6 +160,8 @@
     "translated": !!null |-
       null
   "6387":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       えっ あなたが ディーナさまの !?
@@ -168,6 +178,8 @@
     "translated": !!null |-
       null
   "641f":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       ソルディスには もともと
@@ -185,6 +197,8 @@
     "translated": !!null |-
       null
   "64dc":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       あーあ 今日も いい天気ですね。
@@ -198,6 +212,8 @@
     "translated": !!null |-
       null
   "6535":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ハリー<C_NONE>
       あっ ちょっと きみたち。

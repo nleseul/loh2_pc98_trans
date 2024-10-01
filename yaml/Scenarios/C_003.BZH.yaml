@@ -1,5 +1,7 @@
 "entries":
   "5c92":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       <IF0068><JUMP5d62>おや どうしたのですか 王子さま。
@@ -21,6 +23,8 @@
     "translated": !!null |-
       null
   "5dbf":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       <IF0068><JUMP5f0d>私は ここの見回りを するときに
@@ -45,6 +49,8 @@
     "translated": !!null |-
       null
   "5fdd":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       セリオス陛下から この部屋の財宝を
@@ -58,6 +64,8 @@
     "translated": !!null |-
       null
   "603d":
+    "is_relocatable": !!bool |-
+      true
     "original": |2-
 
 
@@ -71,6 +79,8 @@
     "translated": !!null |-
       null
   "6082":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       これは 王子さま 武器庫に どんな
@@ -84,6 +94,8 @@
     "translated": !!null |-
       null
   "60b9":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <CLEAR>何を お預かりしましょう？<RET_N>
     "original_byte_length": !!int |-
@@ -94,6 +106,8 @@
     "translated": !!null |-
       null
   "60d4":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <CLEAR>何を お渡ししましょう？<RET_N>
     "original_byte_length": !!int |-
@@ -104,6 +118,8 @@
     "translated": !!null |-
       null
   "60ed":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <CLEAR>また 何か ご用がありましたら
       いつでも おいでください。
@@ -112,17 +128,11 @@
     "reference_addrs":
     - !!int |-
       54945
-    - !!int |-
-      54945
-    - !!int |-
-      54945
-    - !!int |-
-      54945
-    - !!int |-
-      54945
     "translated": !!null |-
       null
   "6125":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <CLEAR>王子さま 申しわけありませんが
       これ以上は 預かれません。
@@ -133,11 +143,11 @@
     "reference_addrs":
     - !!int |-
       54848
-    - !!int |-
-      54848
     "translated": !!null |-
       null
   "615f":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <CLEAR>王子さま もう これ以上 持ち物は
       持てないようですが ･ ･ ･
@@ -151,6 +161,8 @@
     "translated": !!null |-
       null
   "619a":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <CLEAR>王子さまから お預かりしている物は
       何もございません。
@@ -164,6 +176,8 @@
     "translated": !!null |-
       null
   "61d1":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <CLEAR>王子さま これ以上 お預かりしている物は ございません。
 
@@ -176,6 +190,8 @@
     "translated": !!null |-
       null
   "6209":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <PARTY>は 宝箱を開けました。
       宝箱の中には<RET>

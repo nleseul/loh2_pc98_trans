@@ -1,5 +1,7 @@
 "entries":
   "5b1d":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       王子さまが 竜の卵を もとに戻したとききましたが 本当ですか？
@@ -11,6 +13,8 @@
     "translated": !!null |-
       null
   "5b5e":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       いやー よかった よかった。
@@ -24,6 +28,8 @@
     "translated": !!null |-
       null
   "5bb4":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       兵士たちが クルスの村の 復旧作業をしているそうですが もう 本当に
@@ -36,6 +42,8 @@
     "translated": !!null |-
       null
   "5c1c":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       王子さま、武器屋のスコットは
@@ -48,6 +56,8 @@
     "translated": !!null |-
       null
   "5c71":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>女<C_NONE>
       平和になったのは 王子さまの
@@ -61,6 +71,8 @@
     "translated": !!null |-
       null
   "5cc9":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>女<C_NONE>
       あら これは 王子さま。
@@ -79,6 +91,8 @@
     "translated": !!null |-
       null
   "5d8a":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>老人<C_NONE>
       これは 王子さま。
@@ -91,6 +105,8 @@
     "translated": !!null |-
       null
   "5dc2":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       王子さま、町の者たちも 安心して
@@ -106,6 +122,8 @@
     "translated": !!null |-
       null
   "5e45":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       これは 王子さま。
@@ -118,6 +136,8 @@
     "translated": !!null |-
       null
   "5e93":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>スコット<C_NONE>
       あっ これは 王子さま。
@@ -131,6 +151,8 @@
     "translated": !!null |-
       null
   "5ee9":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>アロン<C_NONE>
       おお これは アトラスさま。
@@ -147,6 +169,8 @@
     "translated": !!null |-
       null
   "5f79":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>バーテン<C_NONE>
       これは王子さま、いらっしゃいませ。お酒は 出せませんが ゆっくり
@@ -159,6 +183,8 @@
     "translated": !!null |-
       null
   "5fdc":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>道具屋<C_NONE>
       おや 王子さま、いらっしゃい。
@@ -171,6 +197,8 @@
     "translated": !!null |-
       null
   "601f":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       また来てくださいね。
     "original_byte_length": !!int |-
@@ -178,13 +206,11 @@
     "reference_addrs":
     - !!int |-
       54774
-    - !!int |-
-      54774
-    - !!int |-
-      54774
     "translated": !!null |-
       null
   "6034":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       おや？これ以上持てないようですね。
 
@@ -197,6 +223,8 @@
     "translated": !!null |-
       null
   "6058":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       どれを買ってくれますか？
       <RET_N>
@@ -208,6 +236,8 @@
     "translated": !!null |-
       null
   "6072":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <ITEM>だね。
       どうも ありがとう。
@@ -221,6 +251,8 @@
     "translated": !!null |-
       null
   "6097":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       どれを 売ってくれますか？
       <RET_N>
@@ -232,6 +264,8 @@
     "translated": !!null |-
       null
   "60b2":
+    "is_relocatable": !!bool |-
+      true
     "original": |2-
        Gold になるけど
       それでも よろしいですか？
@@ -244,6 +278,8 @@
     "translated": !!null |-
       null
   "60de":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       それは残念です。
 
@@ -256,6 +292,8 @@
     "translated": !!null |-
       null
   "60f0":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       どうも ありがとうございます。
       <RET_N>

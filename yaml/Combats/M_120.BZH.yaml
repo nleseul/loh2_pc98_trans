@@ -1,55 +1,57 @@
 "entries":
   "7170":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       トータスマンＡ<RET>
     "original_byte_length": !!int |-
       15
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "71b0":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       リザードマン<RET>
     "original_byte_length": !!int |-
       13
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "71f0":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       トータスマンＢ<RET>
     "original_byte_length": !!int |-
       15
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "7230":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       トータスマンＣ<RET>
     "original_byte_length": !!int |-
       15
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "7402":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       トータスマンとリザードマンが現れた。<RET_N>
     "original_byte_length": !!int |-
       37
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "7427":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <ACTOR>の防具がこわれた。<RET_PAGE>
     "original_byte_length": !!int |-

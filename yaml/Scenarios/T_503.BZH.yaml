@@ -1,5 +1,7 @@
 "entries":
   "5af2":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>リーダー<C_NONE>
       <IF0400><JUMP5e02><IF017c><JUMP5c25><IF_NOT010a><JUMP5bec>レイシアの父親は 勇敢な男じゃった。
@@ -48,6 +50,8 @@
     "translated": !!null |-
       null
   "5e58":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <IF0114><JUMP5ed0><C_YELLOW>レイシア<C_NONE>
       なんだ こんなところにいたの？
@@ -101,6 +105,8 @@
     "translated": !!null |-
       null
   "6157":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       イシュタ地方には ３つの村がある。
@@ -120,6 +126,8 @@
     "translated": !!null |-
       null
   "625e":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       <IF010a><JUMP62c2>どうした やっぱり やめたいのか？
@@ -135,6 +143,8 @@
     "translated": !!null |-
       null
   "62ff":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ボザ<C_NONE>
       <IF010a><JUMP636f>皇帝は おれたちが 団結するのを
@@ -154,6 +164,8 @@
     "translated": !!null |-
       null
   "63de":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ボザ<C_NONE>
       おいっ レイシア !!
@@ -168,6 +180,8 @@
     "translated": !!null |-
       null
   "6448":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>レイシア<C_NONE>
       <IF017c><JUMP66f5><IF010b><JUMP6645><SET010b>あら どうしたの？

@@ -1,62 +1,62 @@
 "entries":
   "7170":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       デ・オクトＡ<RET>
     "original_byte_length": !!int |-
       13
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "71b0":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       デ・オクトＢ<RET>
     "original_byte_length": !!int |-
       13
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "71f0":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       ブランナ<RET>
     "original_byte_length": !!int |-
       9
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "7230":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       デ・オクトＣ<RET>
     "original_byte_length": !!int |-
       13
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "7413":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       デ・オクトとブランナが現れた。<RET_N>
     "original_byte_length": !!int |-
       31
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "74de":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <ACTOR>のまわりのキリが晴れて姿が見えるようになった。<RET_N>
     "original_byte_length": !!int |-
       48
     "reference_addrs":
-    - !!int |-
-      61420
     - !!int |-
       61420
     "translated": !!null |-

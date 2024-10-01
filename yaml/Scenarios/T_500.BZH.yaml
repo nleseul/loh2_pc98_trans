@@ -1,5 +1,7 @@
 "entries":
   "5d68":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <CH0>
       <UNSET0404>まて !! どんな理由が あるにしても
@@ -21,6 +23,8 @@
     "translated": !!null |-
       null
   "5e3f":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>子ども<C_NONE>
       たすけてくれよー
@@ -50,6 +54,8 @@
     "translated": !!null |-
       null
   "5f4b":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>子ども<C_NONE>
       <IF0101><JUMP6181><SET0101>お兄ちゃんたち どこから来たの？
@@ -97,6 +103,8 @@
     "translated": !!null |-
       null
   "61b8":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ボザ<C_NONE>
       何の用だ？
@@ -109,6 +117,8 @@
     "translated": !!null |-
       null
   "61e4":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ボザ<C_NONE>
       さあ こっちだ。
@@ -121,6 +131,8 @@
     "translated": !!null |-
       null
   "6210":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>老人<C_NONE>
       まあ待て ボザ。
@@ -148,6 +160,8 @@
     "translated": !!null |-
       null
   "6341":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>レイシア<C_NONE>
       そういうことよ ボザ。

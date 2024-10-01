@@ -1,5 +1,7 @@
 "entries":
   "5a90":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>老人<C_NONE>
       <IF0015><JUMP5b33>鉱山の復旧が 手間取ってしまって
@@ -19,6 +21,8 @@
     "translated": !!null |-
       null
   "5b93":
+    "is_relocatable": !!bool |-
+      true
     "original": "<C_YELLOW>ピート<C_NONE>\n<IF0015><JUMP5bf9>どうして こう次々と 悪いことが\n続くんだろう\
       \ 落盤の次は\nモンスターが 出てくるとは ･ ･ ･<END>\n<LOC5bf9>ふう ･ ･ ･ ･ ･ \n\n鉱山が復旧したのは いいけど\
       \ 次から次へと 武器屋がやってくるから\n休んでいるひまもないよ。"
@@ -30,6 +34,8 @@
     "translated": !!null |-
       null
   "5c62":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       <IF0015><JUMP5ca8>落盤が起こって みんな 忙しいんだ。作業のじゃまをするなよ。<END>
@@ -43,6 +49,8 @@
     "translated": !!null |-
       null
   "5d14":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       忙しい 忙しい ･ ･ ･
@@ -54,6 +62,8 @@
     "translated": !!null |-
       null
   "5d2d":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       掘っても 掘っても きりがないよ。
@@ -66,6 +76,8 @@
     "translated": !!null |-
       null
   "5d65":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       <IF0015><JUMP5dc2>ふぅ まいったな。
@@ -81,6 +93,8 @@
     "translated": !!null |-
       null
   "5e02":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>武器屋<C_NONE>
       はい いらっしゃい。<RET_N>
@@ -92,6 +106,8 @@
     "translated": !!null |-
       null
   "5e1f":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       またどうぞ。
     "original_byte_length": !!int |-
@@ -102,6 +118,8 @@
     "translated": !!null |-
       null
   "5e2c":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>道具屋<C_NONE>
       いらっしゃいませ。
@@ -114,6 +132,8 @@
     "translated": !!null |-
       null
   "5e64":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       また来てくださいね。
     "original_byte_length": !!int |-
@@ -121,13 +141,11 @@
     "reference_addrs":
     - !!int |-
       54782
-    - !!int |-
-      54782
-    - !!int |-
-      54782
     "translated": !!null |-
       null
   "5e79":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       おや？これ以上持てないようですね。
 
@@ -137,11 +155,11 @@
     "reference_addrs":
     - !!int |-
       1592
-    - !!int |-
-      1592
     "translated": !!null |-
       null
   "5e9d":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       どれを買ってくれますか？
       <RET_N>
@@ -150,11 +168,11 @@
     "reference_addrs":
     - !!int |-
       1594
-    - !!int |-
-      1594
     "translated": !!null |-
       null
   "5eb7":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <ITEM>だね。
       どうも ありがとう。
@@ -165,11 +183,11 @@
     "reference_addrs":
     - !!int |-
       1596
-    - !!int |-
-      1596
     "translated": !!null |-
       null
   "5edc":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       どれを 売ってくれますか？
       <RET_N>
@@ -181,6 +199,8 @@
     "translated": !!null |-
       null
   "5ef7":
+    "is_relocatable": !!bool |-
+      true
     "original": |2-
        Gold になるけど
       それでも よろしいですか？
@@ -193,6 +213,8 @@
     "translated": !!null |-
       null
   "5f23":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       それは残念です。
 
@@ -205,6 +227,8 @@
     "translated": !!null |-
       null
   "5f35":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       どうも ありがとうございます。
       <RET_N>

@@ -1,5 +1,7 @@
 "entries":
   "5b96":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <CALL6658>ラヌーラの 竜の祭が 中止になった
       そうだが そんなことは 竜の祭が
@@ -15,6 +17,8 @@
     "translated": !!null |-
       null
   "5c30":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <CALL6658>ラヌーラは たいへんらしいぞ。
       セリスの城が モンスターに
@@ -34,6 +38,8 @@
     "translated": !!null |-
       null
   "5e80":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <CALL6658>ボアード海運の ボアードは
       元海賊だって うわさだぜ。
@@ -49,6 +55,8 @@
     "translated": !!null |-
       null
   "5f13":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <CALL6658>うちの子供が 竜の祭に 行きたがっていたんだけど おれの つごうが悪くて行けなかったんだ。
 
@@ -63,6 +71,8 @@
     "translated": !!null |-
       null
   "5fc8":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>女<C_NONE>
       マスクーンが モンスターに
@@ -79,6 +89,8 @@
     "translated": !!null |-
       null
   "605f":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>女<C_NONE>
       私 ラルファから マスクーンに 戻る
@@ -100,6 +112,8 @@
     "translated": !!null |-
       null
   "61be":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       ヨルドは セリスから ひなんしてきた人たちで いっぱいですよ。
@@ -112,6 +126,8 @@
     "translated": !!null |-
       null
   "6223":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       お客さん 切符をお願いします。
@@ -129,6 +145,8 @@
     "translated": !!null |-
       null
   "62cd":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       グエンの塔には サイレスの呪文の
@@ -154,6 +172,8 @@
     "translated": !!null |-
       null
   "6428":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <CALL665f>おや いらっしゃい。
       サイレスの呪文は いかがですか？
@@ -170,14 +190,14 @@
       319
     "reference_addrs":
     - !!int |-
+      25955
+    - !!int |-
       54854
-    - !!int |-
-      25955
-    - !!int |-
-      25955
     "translated": !!null |-
       null
   "6569":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>女<C_NONE>
       いらっしゃいませ。
@@ -196,29 +216,31 @@
     "translated": !!null |-
       null
   "6658":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE><RET_N>
     "original_byte_length": !!int |-
       7
     "reference_addrs":
     - !!int |-
-      23447
-    - !!int |-
       23601
     - !!int |-
       24193
     - !!int |-
       24340
+    - !!int |-
+      23447
     "translated": !!null |-
       null
   "665f":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>呪文屋<C_NONE><RET_N>
     "original_byte_length": !!int |-
       9
     "reference_addrs":
-    - !!int |-
-      25641
     - !!int |-
       25641
     "translated": !!null |-

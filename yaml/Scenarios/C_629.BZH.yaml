@@ -1,5 +1,7 @@
 "entries":
   "5ad3":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ボザ<C_NONE>
       武器ができるまで ここは おれたちが守ってるから お前らは 先にいくんだ。
@@ -11,6 +13,8 @@
     "translated": !!null |-
       null
   "5b21":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       <IF0200><JUMP5ced>ここが <CALL5d1d>の部屋だそうです。
@@ -23,6 +27,8 @@
     "translated": !!null |-
       null
   "5b63":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW><CALL5d1d>の<CALL5d26><C_NONE>
       こいつを使えば 強力な武器が
@@ -35,6 +41,8 @@
     "translated": !!null |-
       null
   "5b99":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ヨシュアの<CALL5d26><C_NONE>
       武器のほうは われわれに まかせて
@@ -47,6 +55,8 @@
     "translated": !!null |-
       null
   "5be4":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>バイオラの<CALL5d26><C_NONE>
       私が作り出した ガードたちは 特殊な攻撃をするから 君たちも 覚悟して
@@ -59,6 +69,8 @@
     "translated": !!null |-
       null
   "5c44":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW><CALL5d2f><C_NONE>
       武器が できしだい わしらも 後を
@@ -72,6 +84,8 @@
     "translated": !!null |-
       null
   "5ca7":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ケリイ<C_NONE>
       <IF0200><JUMP5ced>ここは 気にしないで 早く 皇帝を
@@ -82,38 +96,44 @@
       118
     "reference_addrs":
     - !!int |-
-      54699
-    - !!int |-
       23338
+    - !!int |-
+      54699
     "translated": !!null |-
       null
   "5d1d":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       テクニカ<RET>
     "original_byte_length": !!int |-
       9
     "reference_addrs":
     - !!int |-
-      23397
-    - !!int |-
       23348
+    - !!int |-
+      23397
     "translated": !!null |-
       null
   "5d26":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       マスター<RET>
     "original_byte_length": !!int |-
       9
     "reference_addrs":
     - !!int |-
+      23536
+    - !!int |-
       23402
     - !!int |-
       23461
-    - !!int |-
-      23536
     "translated": !!null |-
       null
   "5d2f":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       リーダー<RET>
     "original_byte_length": !!int |-
@@ -121,8 +141,6 @@
     "reference_addrs":
     - !!int |-
       23622
-    - !!int |-
-      23790
     - !!int |-
       23790
     "translated": !!null |-

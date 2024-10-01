@@ -1,5 +1,7 @@
 "entries":
   "5a27":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ジェストン<C_NONE>
       アトラス王子 そなたの おかげで
@@ -35,6 +37,8 @@
     "translated": !!null |-
       null
   "5bf1":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>オーエン<C_NONE>
       これからは 王子さまの時代です。
@@ -47,6 +51,8 @@
     "translated": !!null |-
       null
   "5c3f":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       これは 私のカンなのですが
@@ -67,6 +73,8 @@
     "translated": !!null |-
       null
   "5d3b":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       結局 例の候補たちは 頼りないので
@@ -82,6 +90,8 @@
     "translated": !!null |-
       null
   "5de2":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       ああ わが国にも あなたさまのような立派な後継ぎがいたら ･ ･ ･
@@ -93,6 +103,8 @@
     "translated": !!null |-
       null
   "5e26":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       おおっ これは アトラス王子さま。

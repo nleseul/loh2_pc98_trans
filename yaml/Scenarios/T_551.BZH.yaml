@@ -1,5 +1,7 @@
 "entries":
   "62db":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ガード<C_NONE>
       何だ きさまらは？

@@ -1,19 +1,19 @@
 "entries":
   "7170":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       ゴドウィン２世<RET>
     "original_byte_length": !!int |-
       15
     "reference_addrs":
-    - !!null |-
-      null
-    - !!int |-
-      29085
     - !!int |-
       29085
     "translated": !!null |-
       null
   "7197":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       皇帝 <JUMP7170><LOC719f>
 
@@ -24,12 +24,12 @@
     - !!int |-
       61690
     - !!int |-
-      61690
-    - !!int |-
       29187
     "translated": !!null |-
       null
   "7201":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW><CALL7197><C_NONE>
       フッハッハッハッハ
@@ -37,8 +37,6 @@
     "original_byte_length": !!int |-
       60
     "reference_addrs":
-    - !!int |-
-      61669
     - !!int |-
       61669
     "translated": !!null |-

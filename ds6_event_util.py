@@ -238,7 +238,7 @@ class DS6EventBlock(Block):
 
             for jump_target, jump_source in jump_map.items():
                 link = Link(jump_source + 1, jump_target, source_instruction_addr=jump_source)
-                if (jump_target < self._base_addr or arg >= self._base_addr + len(self._data)):
+                if (jump_target < self._base_addr or jump_target >= self._base_addr + len(self._data)):
                     link.connect_blocks(self, None)
                     self.add_global_reference(jump_source + 1, jump_target)
                 else:

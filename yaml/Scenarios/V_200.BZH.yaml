@@ -1,5 +1,7 @@
 "entries":
   "5e50":
+    "is_relocatable": !!bool |-
+      true
     "original": |
       <CLEAR>      第２章　英雄たちの行方<N>
 
@@ -12,6 +14,8 @@
     "translated": !!null |-
       null
   "5ed4":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <CLEAR><C_YELLOW>ガード<C_NONE>
       陛下 例のやつらが 何者かの

@@ -1,5 +1,7 @@
 "entries":
   "6019":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ガード<C_NONE>
       何だ？<WAIT>
@@ -14,6 +16,8 @@
     "translated": !!null |-
       null
   "605d":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>子ども<C_NONE>
       あれっ お兄ちゃんたちどうしたの？
@@ -54,6 +58,8 @@
     "translated": !!null |-
       null
   "625e":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <CH1>
       さすが ガキだな。
@@ -70,6 +76,8 @@
     "translated": !!null |-
       null
   "62d2":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>子ども<C_NONE>
       ねっ ぜんぜん平気でしょ？

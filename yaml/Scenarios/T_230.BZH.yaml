@@ -1,5 +1,7 @@
 "entries":
   "5ace":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       おれたち夫婦は ジェラルドさまの
@@ -15,6 +17,8 @@
     "translated": !!null |-
       null
   "5b6f":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>女<C_NONE>
       <IF0068><JUMP5bd1>ここは ジェラルドさまの別荘よ。
@@ -31,6 +35,8 @@
     "translated": !!null |-
       null
   "5c20":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ジェラルド<C_NONE>
       <IF0079><JUMP5ea3><SET0079>きっ きさまらだな !!
@@ -77,6 +83,8 @@
     "translated": !!null |-
       null
   "5ef2":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ジェラルド夫人<C_NONE>
       あぁ フローラ ･ ･ ･
@@ -93,6 +101,8 @@
     "translated": !!null |-
       null
   "5f8a":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>チャーリー<C_NONE>
       <IF0078><JUMP604f>むむっ ちょっと お待ちなさい。
@@ -116,6 +126,8 @@
     "translated": !!null |-
       null
   "60d5":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       <IF0078><JUMP612f>ここは前の館と比べて 狭いから
@@ -131,6 +143,8 @@
     "translated": !!null |-
       null
   "6187":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       ここに来たら おらの仕事が
@@ -143,6 +157,8 @@
     "translated": !!null |-
       null
   "61bd":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>女中<C_NONE>
       <IF0078><JUMP625b>お料理を作るのに 材料が 少なくて
@@ -165,6 +181,8 @@
     "translated": !!null |-
       null
   "62da":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>女中<C_NONE>
       <IF0078><JUMP636a>フローラお嬢さまは ここに来てから
@@ -188,6 +206,8 @@
     "translated": !!null |-
       null
   "6400":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ジェニー<C_NONE>
       <IF0078><JUMP6458>お嬢さまは ここに来てから
@@ -207,6 +227,8 @@
     "translated": !!null |-
       null
   "64dc":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>フローラ<C_NONE>
       やーい 話せるものなら話してみろ

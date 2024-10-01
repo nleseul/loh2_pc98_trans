@@ -1,64 +1,62 @@
 "entries":
   "7170":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       護衛Ａ<RET>
     "original_byte_length": !!int |-
       7
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "71b0":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       ﾌﾞﾗﾑﾅ ｸｲｰﾝ<RET>
     "original_byte_length": !!int |-
       11
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "71f0":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       護衛Ｂ<RET>
     "original_byte_length": !!int |-
       7
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "7230":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       Ｍ４１６Ｄ<RET>
     "original_byte_length": !!int |-
       11
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "7443":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       ブラムナクイーンと護衛が現れた。<RET_N>
     "original_byte_length": !!int |-
       33
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "7480":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       ブラムナクイーンをかばって<ACTOR>がとびだしてきた。<RET_N>
     "original_byte_length": !!int |-
       46
     "reference_addrs":
-    - !!int |-
-      61296
-    - !!int |-
-      61296
     - !!int |-
       61296
     "translated": !!null |-

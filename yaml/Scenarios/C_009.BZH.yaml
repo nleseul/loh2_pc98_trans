@@ -1,5 +1,7 @@
 "entries":
   "5b6e":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>老人<C_NONE>
       <IF_NOT001b><JUMP5bc6>これは アトラス王子。
@@ -21,6 +23,8 @@
     "translated": !!null |-
       null
   "5ca3":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>侍女<C_NONE>
       王子さま、旅に出てしまうと
@@ -31,11 +35,11 @@
     "reference_addrs":
     - !!int |-
       54690
-    - !!int |-
-      54690
     "translated": !!null |-
       null
   "5cf2":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>侍女<C_NONE>
       ああ 忙しい ･ ･ まあ 王子さま。
@@ -48,6 +52,8 @@
     "translated": !!null |-
       null
   "5d30":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       <IF0400><JUMP5d72>これは 王子さま、お気をつけて
@@ -61,6 +67,8 @@
     "translated": !!null |-
       null
   "5d96":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       これは王子さま お元気そうで
@@ -73,6 +81,8 @@
     "translated": !!null |-
       null
   "5dce":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       おや 王子さま。
@@ -85,6 +95,8 @@
     "translated": !!null |-
       null
   "5e04":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       <IF0015><JUMP5e8f>王子さま 見ちゃいましたよ。

@@ -1,5 +1,7 @@
 "entries":
   "5bfe":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>サミー<C_NONE>
       なあ なあ これなんだ？

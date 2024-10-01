@@ -1,55 +1,57 @@
 "entries":
   "7170":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       バイオレッド<RET>
     "original_byte_length": !!int |-
       13
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "71b0":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       装甲スライム<RET>
     "original_byte_length": !!int |-
       13
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "71f0":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       バイオレッドＣ<RET>
     "original_byte_length": !!int |-
       15
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "7230":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       バイオレッドＤ<RET>
     "original_byte_length": !!int |-
       15
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "7442":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       バイオレッドが現れた。<RET_N>
     "original_byte_length": !!int |-
       23
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "7459":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <ACTOR>は自分の頭をゆすって<RET>
     "original_byte_length": !!int |-
@@ -57,11 +59,11 @@
     "reference_addrs":
     - !!int |-
       61350
-    - !!int |-
-      61350
     "translated": !!null |-
       null
   "7495":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <ACTOR>は仲間を呼んだ。<RET_N>
     "original_byte_length": !!int |-
@@ -72,6 +74,8 @@
     "translated": !!null |-
       null
   "74a7":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       装甲スライムが落ちてきた!!<RET_PAGE>
     "original_byte_length": !!int |-

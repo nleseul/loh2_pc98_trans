@@ -1,5 +1,7 @@
 "entries":
   "5c2d":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>オセ<C_NONE>
       わしが このシリカの村の村長じゃ。
@@ -17,6 +19,8 @@
     "translated": !!null |-
       null
   "5cdf":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>セオラ<C_NONE>
       おやおや 珍しい。
@@ -30,6 +34,8 @@
     "translated": !!null |-
       null
   "5d32":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>セリム<C_NONE>
       ここに打つと あれがこうなるから
@@ -43,6 +49,8 @@
     "translated": !!null |-
       null
   "5d86":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>オレム<C_NONE>
       イラ イラ イラ
@@ -56,6 +64,8 @@
     "translated": !!null |-
       null
   "5dd3":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>アベル<C_NONE>
       ハッハッハ これで どうじゃ？
@@ -67,6 +77,8 @@
     "translated": !!null |-
       null
   "5df9":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>タバル<C_NONE>
       ムムムッ また負けそうじゃ ･ ･ ･
@@ -79,6 +91,8 @@
     "translated": !!null |-
       null
   "5e45":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>リゾン<C_NONE>
       この新しいゲームが できたら きっと話題になることじゃろう。
@@ -91,6 +105,8 @@
     "translated": !!null |-
       null
   "5ea8":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ガンク<C_NONE>
       ふん なにが ゲームじゃ。
@@ -104,6 +120,8 @@
     "translated": !!null |-
       null
   "5ef6":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ハンナ<C_NONE>
       おじいさんたら 本当は ゲームが
@@ -120,6 +138,8 @@
     "translated": !!null |-
       null
   "5fa9":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ロデリック<C_NONE>
       <IF0015><JUMP613e>おお バカ息子よ。
@@ -163,6 +183,8 @@
     "translated": !!null |-
       null
   "61ef":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>オレア<C_NONE>
       昔 わしら賢者は ラスタバンという
@@ -182,6 +204,8 @@
     "translated": !!null |-
       null
   "6306":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>アルノー<C_NONE>
       とうとう 新しい呪文が 完成したわい。ストールとエントと言い 賢さを
@@ -201,6 +225,8 @@
     "translated": !!null |-
       null
   "640d":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ディーム<C_NONE>
       わしは ヒュールの専門家なのじゃが
@@ -221,6 +247,8 @@
     "translated": !!null |-
       null
   "64fb":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>マルク<C_NONE>
       わしゃ 呪文が 売られとる町を
@@ -235,6 +263,8 @@
     "translated": !!null |-
       null
   "6542":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       どの呪文のことを 知りたいのじゃ？<RET_N>
     "original_byte_length": !!int |-
@@ -242,11 +272,11 @@
     "reference_addrs":
     - !!int |-
       54777
-    - !!int |-
-      54777
     "translated": !!null |-
       null
   "6564":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <CLEAR><ITEM>か ･ ･ ･
       それだったら <RET>
@@ -255,11 +285,11 @@
     "reference_addrs":
     - !!int |-
       54796
-    - !!int |-
-      54796
     "translated": !!null |-
       null
   "657d":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       に 行けば
       売っておる。
@@ -273,6 +303,8 @@
     "translated": !!null |-
       null
   "6595":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <CLEAR>呪文の ある所を 知りたかったら
       また来るがいい。

@@ -1,5 +1,7 @@
 "entries":
   "5fe3":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <CH0>
       ふー 助かった ･ ･ ･
@@ -38,21 +40,11 @@
     "reference_addrs":
     - !!int |-
       54869
-    - !!int |-
-      54869
-    - !!int |-
-      54869
-    - !!int |-
-      54869
-    - !!int |-
-      54869
-    - !!int |-
-      54869
-    - !!int |-
-      54869
     "translated": !!null |-
       null
   "61df":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <PARTY>は 宝箱を開けました。
       宝箱の中には<RET>

@@ -1,5 +1,7 @@
 "entries":
   "59e8":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>船員<C_NONE>
       あのスライム事件以来 おれたちの

@@ -1,5 +1,7 @@
 "entries":
   "5af0":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ドレイク<C_NONE>
       <SET0400><UNSET00ea><SET00eb>毒のきりが なくなっているうちに
@@ -15,6 +17,8 @@
     "translated": !!null |-
       null
   "5cd4":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ガード<C_NONE>
       ふん やはり ここで見張っていて

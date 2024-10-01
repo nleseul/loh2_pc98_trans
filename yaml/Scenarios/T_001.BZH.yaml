@@ -1,5 +1,7 @@
 "entries":
   "5b05":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>武器屋<C_NONE>
       これは、アトラス王子さま。
@@ -23,6 +25,8 @@
     "translated": !!null |-
       null
   "5c65":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <CALL6129>王子さまが お城にいかれてから
       食事の したくを していても 何か
@@ -35,6 +39,8 @@
     "translated": !!null |-
       null
   "5cb9":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <CALL6129>まあ、王子さま。
       どう なさったのですか？
@@ -51,6 +57,8 @@
     "translated": !!null |-
       null
   "5d4b":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <CALL6130>町の者たちには 王子さまは しばらくお城の方で お勉強を していることになっておりますので ご安心ください。
     "original_byte_length": !!int |-
@@ -61,6 +69,8 @@
     "translated": !!null |-
       null
   "5db6":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <CALL6130><IF0068><JUMP5dfe>王子さま、危険なことなどせずに
       よい旅を なさってきてください。<END>
@@ -74,6 +84,8 @@
     "translated": !!null |-
       null
   "5e4d":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       あ、王子さま いらっしゃい。
@@ -88,6 +100,8 @@
     "translated": !!null |-
       null
   "5ee3":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       おや 王子さま。
@@ -102,6 +116,8 @@
     "translated": !!null |-
       null
   "5f5c":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>女<C_NONE>
       ま、王子さま。
@@ -114,6 +130,8 @@
     "translated": !!null |-
       null
   "5f8a":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>子供<C_NONE>
       <IF0068><JUMP5fd8>王子さま、
@@ -130,6 +148,8 @@
     "translated": !!null |-
       null
   "602e":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>パーカー<C_NONE>
       王子さま、おら もう 抜け穴は
@@ -142,6 +162,8 @@
     "translated": !!null |-
       null
   "6067":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>道具屋<C_NONE>
       <IF0068><JUMP60bb>これは 王子さま。
@@ -160,18 +182,22 @@
     "translated": !!null |-
       null
   "6129":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>侍女<C_NONE><RET_N>
     "original_byte_length": !!int |-
       7
     "reference_addrs":
     - !!int |-
-      23654
-    - !!int |-
       23738
+    - !!int |-
+      23654
     "translated": !!null |-
       null
   "6130":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE><RET_N>
     "original_byte_length": !!int |-

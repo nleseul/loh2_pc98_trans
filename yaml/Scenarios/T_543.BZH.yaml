@@ -1,5 +1,7 @@
 "entries":
   "5bb3":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>レイシア<C_NONE>
       あなたたちが 救出した人たちが
@@ -64,6 +66,8 @@
     "translated": !!null |-
       null
   "5f6c":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>レイシア<C_NONE>
       ボザ 行くわよ。
@@ -88,6 +92,8 @@
     "translated": !!null |-
       null
   "604f":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ボザ<C_NONE>
       もう 皇帝には 反抗しないそうだ。
@@ -100,6 +106,8 @@
     "translated": !!null |-
       null
   "6095":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>カザズーム<C_NONE>
       グッハッハッハ。
@@ -115,6 +123,8 @@
     "translated": !!null |-
       null
   "610d":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <CH1>
       なあ あのカザズームってやつ たしかその程度の炎では 壁が壊せないって

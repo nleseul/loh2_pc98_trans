@@ -1,5 +1,7 @@
 "entries":
   "5e7b":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <CH0>
       他のみんなは？
@@ -14,6 +16,8 @@
     "translated": !!null |-
       null
   "5eae":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ボザ<C_NONE>
       リーダー、全員 そろいました。
@@ -34,6 +38,8 @@
     "translated": !!null |-
       null
   "5f68":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>リーダー<C_NONE>
       さあ われわれも 行きましょう。

@@ -1,5 +1,7 @@
 "entries":
   "5afc":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <IF0406><JUMP5b8c><C_YELLOW>教育係 ラウエル<C_NONE>
       <IF0405><JUMP5b33><UNSET0404>いかがですかな 王子？<END>
@@ -36,11 +38,11 @@
     "reference_addrs":
     - !!int |-
       54717
-    - !!int |-
-      54717
     "translated": !!null |-
       null
   "5d12":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       これは 王子さま。

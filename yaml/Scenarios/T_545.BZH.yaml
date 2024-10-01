@@ -1,5 +1,7 @@
 "entries":
   "5af6":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <PARTY>は<RET>
     "original_byte_length": !!int |-

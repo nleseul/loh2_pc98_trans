@@ -1,5 +1,7 @@
 "entries":
   "5eaf":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ガード<C_NONE>
       そういえば さっき捕まえた
@@ -33,6 +35,8 @@
     "translated": !!null |-
       null
   "605b":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ガード<C_NONE>
       なあ 知ってるか？
@@ -73,6 +77,8 @@
     "translated": !!null |-
       null
   "6281":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ナレサ隊長<C_NONE>
       おお 意外と早かったな。
@@ -85,6 +91,8 @@
     "translated": !!null |-
       null
   "62b4":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ナレサ隊長<C_NONE>
       おーい お前たち ここを開けるんだ。
@@ -96,6 +104,8 @@
     "translated": !!null |-
       null
   "62e4":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ガード<C_NONE>
       どんな ご用でしょうか？
@@ -114,6 +124,8 @@
     "translated": !!null |-
       null
   "6368":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ガード<C_NONE>
       さっ どうぞ お入りください。
@@ -129,6 +141,8 @@
     "translated": !!null |-
       null
   "63c0":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ナレサ隊長<C_NONE>
       よし カギは 手に入れた !!
@@ -141,6 +155,8 @@
     "translated": !!null |-
       null
   "63f5":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ナレサ隊長<C_NONE>
       <IF0167><JUMP6446>早く !! だれも こないうちに
@@ -155,6 +171,8 @@
     "translated": !!null |-
       null
   "6499":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ボザ<C_NONE>
       <IF0167><JUMP64c3>おい あの隊長は 何者なんだ？<END>
@@ -167,6 +185,8 @@
     "translated": !!null |-
       null
   "6508":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <CH0>
       マスターは どこにいるんだ？
@@ -211,6 +231,8 @@
     "translated": !!null |-
       null
   "6797":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>レイシア<C_NONE>
       ここは だいじょうぶ。

@@ -1,5 +1,7 @@
 "entries":
   "5b43":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       王子さま、竜の卵は 不吉な物
@@ -13,6 +15,8 @@
     "translated": !!null |-
       null
   "5b98":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       こんなことに なるんだったら
@@ -26,6 +30,8 @@
     "translated": !!null |-
       null
   "5be8":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       あっ 王子さま、モンスターが
@@ -39,6 +45,8 @@
     "translated": !!null |-
       null
   "5c3b":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       王子さま、武器屋のスコットは
@@ -54,6 +62,8 @@
     "translated": !!null |-
       null
   "5ccd":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       いくら モンスターが 出てきても
@@ -67,6 +77,8 @@
     "translated": !!null |-
       null
   "5d29":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>女<C_NONE>
       クルスが つぶされたそうですよ。
@@ -79,6 +91,8 @@
     "translated": !!null |-
       null
   "5d93":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>女<C_NONE>
       竜の卵が 出てきたのは いいことの
@@ -91,6 +105,8 @@
     "translated": !!null |-
       null
   "5dfd":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>老人<C_NONE>
       アロン殿は クルスの村が つぶされてしまったので すっかり 気落ちして
@@ -103,6 +119,8 @@
     "translated": !!null |-
       null
   "5e54":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       モンスターが 現れたというのに
@@ -118,6 +136,8 @@
     "translated": !!null |-
       null
   "5eed":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       王子さま ご安心ください。
@@ -130,6 +150,8 @@
     "translated": !!null |-
       null
   "5f47":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>スコット<C_NONE>
       あっ これは 王子さま。
@@ -146,6 +168,8 @@
     "translated": !!null |-
       null
   "5fdd":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>アロン<C_NONE>
       おお これは アトラスさま。
@@ -162,6 +186,8 @@
     "translated": !!null |-
       null
   "606e":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>クルスにいた女<C_NONE>
       モンスターが 攻めてきたとき 村には私と アロンさんしか いなかったの。
@@ -177,6 +203,8 @@
     "translated": !!null |-
       null
   "6118":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>バーテン<C_NONE>
       これは王子さま、いらっしゃいませ。お酒は 出せませんが ゆっくり
@@ -189,6 +217,8 @@
     "translated": !!null |-
       null
   "617b":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>道具屋<C_NONE>
       おや 王子さま、いらっしゃい。
@@ -201,6 +231,8 @@
     "translated": !!null |-
       null
   "61be":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       また来てくださいね。
     "original_byte_length": !!int |-
@@ -208,13 +240,11 @@
     "reference_addrs":
     - !!int |-
       54792
-    - !!int |-
-      54792
-    - !!int |-
-      54792
     "translated": !!null |-
       null
   "61d3":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       おや？これ以上持てないようですね。
 
@@ -227,6 +257,8 @@
     "translated": !!null |-
       null
   "61f7":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       どれを買ってくれますか？
       <RET_N>
@@ -238,6 +270,8 @@
     "translated": !!null |-
       null
   "6211":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <ITEM>だね。
       どうも ありがとう。
@@ -251,6 +285,8 @@
     "translated": !!null |-
       null
   "6236":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       どれを 売ってくれますか？
       <RET_N>
@@ -262,6 +298,8 @@
     "translated": !!null |-
       null
   "6251":
+    "is_relocatable": !!bool |-
+      true
     "original": |2-
        Gold になるけど
       それでも よろしいですか？
@@ -274,6 +312,8 @@
     "translated": !!null |-
       null
   "627d":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       それは残念です。
 
@@ -286,6 +326,8 @@
     "translated": !!null |-
       null
   "628f":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       どうも ありがとうございます。
       <RET_N>

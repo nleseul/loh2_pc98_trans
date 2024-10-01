@@ -1,5 +1,7 @@
 "entries":
   "5aba":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       巡礼も 終わったことだし
@@ -12,6 +14,8 @@
     "translated": !!null |-
       null
   "5af9":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       この巡礼記念のメダルを買わないか？今なら 竜の祭の サービス価格で
@@ -34,6 +38,8 @@
     "translated": !!null |-
       null
   "5c01":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       いらっしゃい ここは休憩所だ<IF0068><JUMP5c46>
@@ -48,6 +54,8 @@
     "translated": !!null |-
       null
   "5c8d":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <IF_NOT0058><JUMP5c9f><C_YELLOW>ソニア<C_NONE>
       <JUMP5e81><LOC5c9f><SET0058><Xf52c0000><ASM1ae6><Xf7><C_YELLOW>ソニア<C_NONE>
@@ -89,6 +97,8 @@
     "translated": !!null |-
       null
   "5eec":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ポウエル<C_NONE>
       セリスとナッシュが モンスターに
@@ -105,6 +115,8 @@
     "translated": !!null |-
       null
   "5f7c":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>チャールズ王子<C_NONE>
       みんな 今は忙しいって言って
@@ -121,6 +133,8 @@
     "translated": !!null |-
       null
   "6016":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>侍女<C_NONE>
       ひなんしたのは いいけど もしも
@@ -134,6 +148,8 @@
     "translated": !!null |-
       null
   "606e":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>侍女<C_NONE>
       ここは 広いことは広いけど お城から比べたら 狭いし お台所も あまり
@@ -146,6 +162,8 @@
     "translated": !!null |-
       null
   "60ce":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       司祭 バーバラは いったい どこに
@@ -160,6 +178,8 @@
     "translated": !!null |-
       null
   "6149":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       これは アトラス王子さま。
@@ -172,6 +192,8 @@
     "translated": !!null |-
       null
   "61aa":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       これは アトラス王子さま。
@@ -185,6 +207,8 @@
     "translated": !!null |-
       null
   "61f6":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <IF005b><JUMP6410><Xf52c0000><ASM1ae6><Xf7><SET005b><C_YELLOW>エリオン<C_NONE>
       アトラス王子、ご無事で 何よりです。セリオス王は 何か おっしゃって

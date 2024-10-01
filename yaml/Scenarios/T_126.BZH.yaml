@@ -1,5 +1,7 @@
 "entries":
   "5c75":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>オセ<C_NONE>
       わしが このシリカの村の村長じゃ。
@@ -17,6 +19,8 @@
     "translated": !!null |-
       null
   "5d27":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>セオラ<C_NONE>
       おやおや 珍しい。
@@ -30,6 +34,8 @@
     "translated": !!null |-
       null
   "5d7a":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>セリム<C_NONE>
       ここに打つと あれがこうなるから
@@ -43,6 +49,8 @@
     "translated": !!null |-
       null
   "5dce":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>オレム<C_NONE>
       イラ イラ イラ
@@ -56,6 +64,8 @@
     "translated": !!null |-
       null
   "5e1b":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>アベル<C_NONE>
       ハッハッハ これで どうじゃ？
@@ -67,6 +77,8 @@
     "translated": !!null |-
       null
   "5e41":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>タバル<C_NONE>
       ムムムッ また負けそうじゃ ･ ･ ･
@@ -79,6 +91,8 @@
     "translated": !!null |-
       null
   "5e8d":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>リゾン<C_NONE>
       この新しいゲームが できたら きっと話題になることじゃろう。
@@ -91,6 +105,8 @@
     "translated": !!null |-
       null
   "5ef0":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ガンク<C_NONE>
       やっぱり ゲームというものは
@@ -103,6 +119,8 @@
     "translated": !!null |-
       null
   "5f2e":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ハンナ<C_NONE>
       おじいさんたら たまたま ゲームで
@@ -116,6 +134,8 @@
     "translated": !!null |-
       null
   "5f8d":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ロデリック<C_NONE>
       <IF0204><JUMP604f>はて そこの一番でかいの。
@@ -196,6 +216,8 @@
     "translated": !!null |-
       null
   "64d2":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>オレア<C_NONE>
       昔 わしら賢者は ラスタバンという
@@ -215,6 +237,8 @@
     "translated": !!null |-
       null
   "65e9":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>アルノー<C_NONE>
       ロンドの武器屋は 呪文がよく売れて
@@ -228,6 +252,8 @@
     "translated": !!null |-
       null
   "664f":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ディーム<C_NONE>
       どの呪文の書が いるのじゃ？<RET_N>
@@ -239,6 +265,8 @@
     "translated": !!null |-
       null
   "6676":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       いらぬのか。
       それでは 必要なときに 来るがいい。
@@ -250,6 +278,8 @@
     "translated": !!null |-
       null
   "66a6":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <ITEM>でよいのじゃな。
     "original_byte_length": !!int |-
@@ -260,6 +290,8 @@
     "translated": !!null |-
       null
   "66b8":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       もう それ以上 持てぬぞ。
       持ち物を 減らしてから 来なされ。
@@ -271,6 +303,8 @@
     "translated": !!null |-
       null
   "66f2":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>マルク<C_NONE>
       わしゃ 呪文が 売られとる町を
@@ -285,6 +319,8 @@
     "translated": !!null |-
       null
   "6739":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       どの呪文のことを 知りたいのじゃ？<RET_N>
     "original_byte_length": !!int |-
@@ -292,11 +328,11 @@
     "reference_addrs":
     - !!int |-
       54812
-    - !!int |-
-      54812
     "translated": !!null |-
       null
   "675b":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <CLEAR><ITEM>か ･ ･ ･
       それだったら <RET>
@@ -305,11 +341,11 @@
     "reference_addrs":
     - !!int |-
       54831
-    - !!int |-
-      54831
     "translated": !!null |-
       null
   "6774":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       に 行けば
       売っておる。
@@ -323,6 +359,8 @@
     "translated": !!null |-
       null
   "678c":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <CLEAR>呪文の ある所を 知りたかったら
       また来るがいい。

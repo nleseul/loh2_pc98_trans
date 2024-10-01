@@ -1,5 +1,7 @@
 "entries":
   "5d92":
+    "is_relocatable": !!bool |-
+      true
     "original": |
       <CLEAR>       第４章　暗黒の支配者<N>
 
@@ -12,6 +14,8 @@
     "translated": !!null |-
       null
   "5e04":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <CLEAR><C_YELLOW>ヒストラのマスター<C_NONE>
       これから話すことは 地上の者にも

@@ -1,5 +1,7 @@
 "entries":
   "63aa":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <CH0>
       シンディ !!
@@ -47,12 +49,6 @@
     "original_byte_length": !!int |-
       561
     "reference_addrs":
-    - !!int |-
-      54836
-    - !!int |-
-      54836
-    - !!int |-
-      54836
     - !!int |-
       54836
     "translated": !!null |-

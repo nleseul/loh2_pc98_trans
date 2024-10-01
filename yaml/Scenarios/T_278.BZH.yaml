@@ -1,5 +1,7 @@
 "entries":
   "5adb":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ジーナ<C_NONE>
       な、何だい このスライム男が
@@ -12,6 +14,8 @@
     "translated": !!null |-
       null
   "5b24":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>船員<C_NONE>
       モンスターが いなくなったって
@@ -27,6 +31,8 @@
     "translated": !!null |-
       null
   "5b8c":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>船員<C_NONE>
       ジーナさんは 旅人の宿チェーンを
@@ -42,6 +48,8 @@
     "translated": !!null |-
       null
   "5c1b":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>船員<C_NONE>
       あーあ ヒマだなー
@@ -57,6 +65,8 @@
     "translated": !!null |-
       null
   "5c8c":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>船員<C_NONE>
       ジーナさんって こわいんだよな。
@@ -70,6 +80,8 @@
     "translated": !!null |-
       null
   "5ce3":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>船員<C_NONE>
       な、何だよ おれたちゃ バクチ
@@ -86,6 +98,8 @@
     "translated": !!null |-
       null
   "5d8e":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>船員<C_NONE>
       <IF009d><JUMP5e18>おっと 気をつけてくれよ。
@@ -108,6 +122,8 @@
     "translated": !!null |-
       null
   "5e99":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>船員<C_NONE>
       ここには 変わった宝石が たくさん
@@ -120,6 +136,8 @@
     "translated": !!null |-
       null
   "5ee0":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ボアード<C_NONE>
       <IF009d><JUMP5f28><Xf624d6><JUMP5f56>またバクヤクが ほしかったら
@@ -134,11 +152,9 @@
       273
     "reference_addrs":
     - !!int |-
+      24473
+    - !!int |-
       54702
-    - !!int |-
-      24473
-    - !!int |-
-      24473
     "translated": !!null |-
       null
 "note": ""

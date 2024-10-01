@@ -1,5 +1,7 @@
 "entries":
   "5a8a":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       また うちのエリーサが はやとちりをしたそうだね。
@@ -14,6 +16,8 @@
     "translated": !!null |-
       null
   "5af5":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       やあ 若者たち 元気そうでなによりだ。
@@ -29,11 +33,11 @@
     "reference_addrs":
     - !!int |-
       54651
-    - !!int |-
-      54651
     "translated": !!null |-
       null
   "5bb8":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       おう なんでい !!
@@ -47,6 +51,8 @@
     "translated": !!null |-
       null
   "5bfa":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       この中には だんなさまの 大事な物がしまってあるんだ。
@@ -61,6 +67,8 @@
     "translated": !!null |-
       null
   "5c64":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       あれ 君たちは どこかで 会ったね。
@@ -75,6 +83,8 @@
     "translated": !!null |-
       null
   "5ce6":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       あれ 君たちは ･ ･ ･
@@ -87,6 +97,8 @@
     "translated": !!null |-
       null
   "5d21":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       あれ 君たちは あの時の。
@@ -101,6 +113,8 @@
     "translated": !!null |-
       null
   "5d95":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>女<C_NONE>
       あら あの時の。
@@ -116,6 +130,8 @@
     "translated": !!null |-
       null
   "5df6":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>エリーサ<C_NONE>
       あーら あなたたちじゃない。
@@ -132,6 +148,8 @@
     "translated": !!null |-
       null
   "5e96":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>大盗賊 ゲイル<C_NONE>
       <IF017a><JUMP6596><IF0126><JUMP6538><SET0126>やっと きおったな 待っとったぞ。

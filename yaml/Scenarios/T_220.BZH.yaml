@@ -1,5 +1,7 @@
 "entries":
   "5ab3":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       おや 今度は あんたたちかい。
@@ -24,6 +26,8 @@
     "translated": !!null |-
       null
   "5bd4":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       この町の 奥にある ゆうれい屋敷は
@@ -45,6 +49,8 @@
     "translated": !!null |-
       null
   "5d17":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       なあなあ 見ちゃったんだよ おれ !!
@@ -67,6 +73,8 @@
     "translated": !!null |-
       null
   "5e2c":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>老人<C_NONE>
       ジェラルド氏は 今でこそ この町の
@@ -82,6 +90,8 @@
     "translated": !!null |-
       null
   "5eed":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>女<C_NONE>
       この先にある 大きな館は 町長の
@@ -102,6 +112,8 @@
     "translated": !!null |-
       null
   "600b":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ジェラルド夫人<C_NONE>
       えーと 昨日が ネックレスで
@@ -115,6 +127,8 @@
     "translated": !!null |-
       null
   "6077":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>道具屋<C_NONE>
       いらっしゃい。ここは 道具屋だけど

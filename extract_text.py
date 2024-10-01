@@ -65,7 +65,14 @@ def extract_scenario_events(scenario_data:typing.ByteString, custom_hooks:list[X
         entry = trans[block.start_addr]
         entry.original = block.format_string()
         entry.original_byte_length = block.length
-        entry.reference_addrs = [l.source_addr for l in block.get_incoming_links()]
+
+        references = set()
+        for link in block.get_incoming_links():
+            if link.source_addr is None:
+                entry.is_relocatable = False
+            else:
+                references.add(link.source_addr)
+        entry.reference_addrs = list(references)
 
     return trans
 
@@ -99,7 +106,14 @@ def extract_combat_events(combat_data:typing.ByteString, monster_count:int = 4) 
         entry = trans[block.start_addr]
         entry.original = block.format_string()
         entry.original_byte_length = block.length
-        entry.reference_addrs = [l.source_addr for l in block.get_incoming_links()]
+
+        references = set()
+        for link in block.get_incoming_links():
+            if link.source_addr is None:
+                entry.is_relocatable = False
+            else:
+                references.add(link.source_addr)
+        entry.reference_addrs = list(references)
 
     return trans
 

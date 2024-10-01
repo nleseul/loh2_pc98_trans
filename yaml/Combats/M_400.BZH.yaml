@@ -1,54 +1,56 @@
 "entries":
   "7170":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       ﾄﾞﾗｽﾄｺﾞｰｽﾄＡ<RET>
     "original_byte_length": !!int |-
       13
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "71b0":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       ディゲンス<RET>
     "original_byte_length": !!int |-
       11
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "71f0":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       ﾄﾞﾗｽﾄｺﾞｰｽﾄＢ<RET>
     "original_byte_length": !!int |-
       13
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "7230":
+    "is_relocatable": !!bool |-
+      false
     "original": ""
     "original_byte_length": !!int |-
       1
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "777a":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       ディゲンスが現れた。<RET_N>
     "original_byte_length": !!int |-
       21
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "77d8":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <ACTOR>は<C_YELLOW>ディゲンス<C_NONE>の前に出て呪文を受けた。<RET_N>
     "original_byte_length": !!int |-
@@ -59,6 +61,8 @@
     "translated": !!null |-
       null
   "7800":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <ACTOR>は<C_YELLOW>ディゲンス<C_NONE>の前に出て剣を受けた。<RET_N>
     "original_byte_length": !!int |-
@@ -69,13 +73,13 @@
     "translated": !!null |-
       null
   "7855":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <ACTOR>は逃げ出した。<RET_N>
     "original_byte_length": !!int |-
       16
     "reference_addrs":
-    - !!int |-
-      61792
     - !!int |-
       61792
     "translated": !!null |-

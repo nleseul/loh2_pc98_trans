@@ -1,5 +1,7 @@
 "entries":
   "5ce3":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <CH1>
       さあ シンディ 出番だぜ。
@@ -14,6 +16,8 @@
     "translated": !!null |-
       null
   "5d14":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ガード<C_NONE>
       んっ !? 何の音だ？
@@ -28,13 +32,11 @@
     "reference_addrs":
     - !!int |-
       54753
-    - !!int |-
-      54753
-    - !!int |-
-      54753
     "translated": !!null |-
       null
   "5d85":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ガード<C_NONE>
       だっ 脱走だ !!
@@ -44,15 +46,11 @@
     "reference_addrs":
     - !!int |-
       54815
-    - !!int |-
-      54815
-    - !!int |-
-      54815
-    - !!int |-
-      54815
     "translated": !!null |-
       null
   "5dae":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <PARTY>は 宝箱を開けました。
       宝箱の中には<RET>

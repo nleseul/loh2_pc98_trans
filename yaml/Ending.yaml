@@ -1,5 +1,7 @@
 "entries":
   "226c":
+    "is_relocatable": !!bool |-
+      true
     "original": |
       <NAME>セリオス</NAME>
       争いは、いつも、小さなすれ違いから起こる。
@@ -11,6 +13,8 @@
     "translated": !!null |-
       null
   "22c1":
+    "is_relocatable": !!bool |-
+      true
     "original": |
       ありがとう、アトラス。
       <PAGE_PAUSE>
@@ -31,6 +35,8 @@
     "translated": !!null |-
       null
   "23c1":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <PAUSE>でも、お別れではないのです。
 
@@ -52,6 +58,8 @@
     "translated": !!null |-
       null
   "24d3":
+    "is_relocatable": !!bool |-
+      true
     "original": |
       <NAME>フローラ</NAME>
       ねえ、アトラスさま。
@@ -73,6 +81,8 @@
     "translated": !!null |-
       null
   "2611":
+    "is_relocatable": !!bool |-
+      true
     "original": |
       <NAME>ランドー</NAME>
       なに二人で、まとめちゃってんだよ！
@@ -94,6 +104,8 @@
     "translated": !!null |-
       null
   "2722":
+    "is_relocatable": !!bool |-
+      true
     "original": |
       <NAME>アトラス</NAME>
       これからも、力になってくれるね。
@@ -110,6 +122,8 @@
     "translated": !!null |-
       null
   "2792":
+    "is_relocatable": !!bool |-
+      true
     "original": |
       <PAUSE>女神フレイアよ。
       <PAUSE><PAUSE><PAGE>
@@ -125,6 +139,8 @@
     "translated": !!null |-
       null
   "2825":
+    "is_relocatable": !!bool |-
+      true
     "original": |
       <NAME>レイシア</NAME>
       期待しているわ。
@@ -142,6 +158,8 @@
     "translated": !!null |-
       null
   "28d3":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       小さな太陽はやがて父を越え
       大きな太陽として輝く。
@@ -151,6 +169,8 @@
     "translated": !!null |-
       null
   "2b76":
+    "is_relocatable": !!bool |-
+      true
     "original": "        ＳＴＡＦＦ        \n\n\n\n\n\n\n\n\n         シナリオ         \n\n\
       \n\n       秋 葉  紀 好       \n\n\n\n\n\n\n\n\n\n\n        プログラム        \n\n\n\n\
       \       秋 葉  紀 好       \n\n       小 山  英 樹       \n\n\n\n\n\n\n\n\n\n\n   アート＆グラフィック\

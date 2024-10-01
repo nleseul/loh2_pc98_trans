@@ -1,5 +1,7 @@
 "entries":
   "5c1e":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ガード<C_NONE>
       おい 何か音がしなかったか？

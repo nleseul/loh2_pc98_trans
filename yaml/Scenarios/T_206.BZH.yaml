@@ -1,5 +1,7 @@
 "entries":
   "5b69":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>司祭 バーバラ<C_NONE>
       <IF_NOT00f9><JUMP61cb><IF00fc><JUMP5b97><IF005f><JUMP609b><IF005e><JUMP5d46><IF0128><JUMP5bba><LOC5b97>この わしでは どうにもならん ･ ･ ･<END>

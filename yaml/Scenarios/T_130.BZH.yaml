@@ -1,5 +1,7 @@
 "entries":
   "5b2e":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>フォルス<C_NONE>
       フォッフォッフォ
@@ -19,6 +21,8 @@
     "translated": !!null |-
       null
   "5bea":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>エリック<C_NONE>
       この右手の傷は 若い頃に ナイフを
@@ -31,6 +35,8 @@
     "translated": !!null |-
       null
   "5c3a":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>子供<C_NONE>
       わーい わーい。
@@ -43,6 +49,8 @@
     "translated": !!null |-
       null
   "5c84":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>子供<C_NONE>
       あー、びっくりしたな。
@@ -55,6 +63,8 @@
     "translated": !!null |-
       null
   "5cbe":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       ジェストンさまの後継者が もうすぐ
@@ -68,6 +78,8 @@
     "translated": !!null |-
       null
   "5d17":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>女<C_NONE>
       うちの子供たちったら いったい
@@ -91,6 +103,8 @@
     "translated": !!null |-
       null
   "5e43":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>老人<C_NONE>
       ここから北の リーゼルの東に
@@ -107,6 +121,8 @@
     "translated": !!null |-
       null
   "5ee8":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>武器屋<C_NONE>
       へい らっしゃい。
@@ -119,6 +135,8 @@
     "translated": !!null |-
       null
   "5f21":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       また 来てくれよ。
     "original_byte_length": !!int |-
@@ -129,6 +147,8 @@
     "translated": !!null |-
       null
   "5f33":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       もう 持てねえみてえだぜ。
 
@@ -141,6 +161,8 @@
     "translated": !!null |-
       null
   "5f4e":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       何 買ってくれるんだい？
       <RET_N>
@@ -152,6 +174,8 @@
     "translated": !!null |-
       null
   "5f67":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <ITEM>かい。
       へい どうぞ。まいどー。
@@ -165,6 +189,8 @@
     "translated": !!null |-
       null
   "5f88":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>奥にいる道具屋<C_NONE>
       お客さん 悪いねぇ。
@@ -182,6 +208,8 @@
     "translated": !!null |-
       null
   "6039":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>道具屋<C_NONE>
       いらっしゃいませ。
@@ -194,6 +222,8 @@
     "translated": !!null |-
       null
   "606d":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       また おいでください。
     "original_byte_length": !!int |-
@@ -201,13 +231,11 @@
     "reference_addrs":
     - !!int |-
       54761
-    - !!int |-
-      54761
-    - !!int |-
-      54761
     "translated": !!null |-
       null
   "608b":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       おや？これ以上持てないようですね。
 
@@ -220,6 +248,8 @@
     "translated": !!null |-
       null
   "60af":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       どれを買ってくれますか？
       <RET_N>
@@ -231,6 +261,8 @@
     "translated": !!null |-
       null
   "60c9":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <ITEM>だね。
       どうも ありがとう。
@@ -244,6 +276,8 @@
     "translated": !!null |-
       null
   "60ee":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       どれを 売ってくれますか？
       <RET_N>
@@ -255,6 +289,8 @@
     "translated": !!null |-
       null
   "6109":
+    "is_relocatable": !!bool |-
+      true
     "original": |2-
        Gold になるけど
       それでも よろしいですか？
@@ -267,6 +303,8 @@
     "translated": !!null |-
       null
   "6135":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       それは残念です。
 
@@ -279,6 +317,8 @@
     "translated": !!null |-
       null
   "6147":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       どうも ありがとうございます。
       <RET_N>

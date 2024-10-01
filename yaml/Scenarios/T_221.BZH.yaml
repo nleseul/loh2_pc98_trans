@@ -1,5 +1,7 @@
 "entries":
   "5d30":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>フローラ<C_NONE>
       <IF0406><JUMP633e><UNSET0405><SET0072>お父さま 起きてください。
@@ -100,6 +102,8 @@
     "translated": !!null |-
       null
   "63f0":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>チャーリー<C_NONE>
       <IF0407><JUMP663c><IF0404><JUMP644e>むっ どこから もぐり込んだんだ。
@@ -136,11 +140,11 @@
     "reference_addrs":
     - !!int |-
       54726
-    - !!int |-
-      54726
     "translated": !!null |-
       null
   "66c5":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ジェラルド<C_NONE>
       <SET0074>ぐぅぅ がぁぁ ･ ･ ･<WAIT>
@@ -153,6 +157,8 @@
     "translated": !!null |-
       null
   "66fd":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       おら いま 芝刈ってるだよ。
@@ -164,6 +170,8 @@
     "translated": !!null |-
       null
   "671d":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       君たちは 新しく入ってきた 人だね？持ち場を はなれて さぼっていると
@@ -179,6 +187,8 @@
     "translated": !!null |-
       null
   "67c0":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>女中<C_NONE>
       だんなさまと 奥様は 大食漢だから
@@ -199,6 +209,8 @@
     "translated": !!null |-
       null
   "68af":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>女中<C_NONE>
       フローラお嬢さまは ビーフカレーが
@@ -215,6 +227,8 @@
     "translated": !!null |-
       null
   "692b":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>女中<C_NONE>
       フローラお嬢さまは それは それは

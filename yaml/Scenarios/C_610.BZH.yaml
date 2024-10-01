@@ -1,5 +1,7 @@
 "entries":
   "5aa6":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       ここは もう 確保しました。

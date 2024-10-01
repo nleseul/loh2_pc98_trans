@@ -1,5 +1,7 @@
 "entries":
   "5bb2":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>船長<C_NONE>
       この船は モレストン共和国の
@@ -13,6 +15,8 @@
     "translated": !!null |-
       null
   "5c03":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>船長<C_NONE>
       お客さん 切符 持ってるかい？
@@ -30,6 +34,8 @@
     "translated": !!null |-
       null
   "5cca":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       ちょっと あなたたち 足もとに
@@ -47,6 +53,8 @@
     "translated": !!null |-
       null
   "5d98":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>女<C_NONE>
       ここの定期船は とっても時間に
@@ -60,6 +68,8 @@
     "translated": !!null |-
       null
   "5dea":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>女<C_NONE>
       発明家のハリーさんは 昔から
@@ -76,6 +86,8 @@
     "translated": !!null |-
       null
   "5e8a":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>老人<C_NONE>
       <IF_NOT00f5><JUMP5f18>エメのオアシスのそばに 竜の卵が
@@ -94,6 +106,8 @@
     "translated": !!null |-
       null
   "5f6c":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       はい いらしゃい。
@@ -112,6 +126,8 @@
     "translated": !!null |-
       null
   "603c":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>武器屋<C_NONE>
       いらっしゃい。<RET_N>
@@ -123,6 +139,8 @@
     "translated": !!null |-
       null
   "6054":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       またどうぞ。
     "original_byte_length": !!int |-
@@ -133,6 +151,8 @@
     "translated": !!null |-
       null
   "6061":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>道具屋<C_NONE>
       いらっしゃいませ。
@@ -145,6 +165,8 @@
     "translated": !!null |-
       null
   "6099":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       また来てくださいね。
     "original_byte_length": !!int |-
@@ -152,13 +174,11 @@
     "reference_addrs":
     - !!int |-
       54981
-    - !!int |-
-      54981
-    - !!int |-
-      54981
     "translated": !!null |-
       null
   "60ae":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       おや？これ以上持てないようですね。
 
@@ -168,11 +188,11 @@
     "reference_addrs":
     - !!int |-
       2158
-    - !!int |-
-      2158
     "translated": !!null |-
       null
   "60d2":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       どれを買ってくれますか？
       <RET_N>
@@ -181,11 +201,11 @@
     "reference_addrs":
     - !!int |-
       2160
-    - !!int |-
-      2160
     "translated": !!null |-
       null
   "60ec":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <ITEM>だね。
       どうも ありがとう。
@@ -196,11 +216,11 @@
     "reference_addrs":
     - !!int |-
       2162
-    - !!int |-
-      2162
     "translated": !!null |-
       null
   "6111":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       どれを 売ってくれますか？
       <RET_N>
@@ -212,6 +232,8 @@
     "translated": !!null |-
       null
   "612c":
+    "is_relocatable": !!bool |-
+      true
     "original": |2-
        Gold になるけど
       それでも よろしいですか？
@@ -224,6 +246,8 @@
     "translated": !!null |-
       null
   "6158":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       それは残念です。
 
@@ -236,6 +260,8 @@
     "translated": !!null |-
       null
   "616a":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       どうも ありがとうございます。
       <RET_N>

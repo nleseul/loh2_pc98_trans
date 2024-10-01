@@ -1,5 +1,7 @@
 "entries":
   "5b38":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ジャン<C_NONE>
       バズヌーンの城にいる ハリーが
@@ -12,6 +14,8 @@
     "translated": !!null |-
       null
   "5b7b":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <CLEAR>値段が高いのは 武器を売った金を
       ドラゴンの エサ代にするからなんだ。
@@ -26,6 +30,8 @@
     "translated": !!null |-
       null
   "5be9":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ボイル<C_NONE>
       わしは 若いころ ドラゴン牧場の
@@ -51,6 +57,8 @@
     "translated": !!null |-
       null
   "5da1":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ボイル<C_NONE>
       あんたがた 他人の持ち物を
@@ -63,6 +71,8 @@
     "translated": !!null |-
       null
   "5dda":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ノーマ<C_NONE>
       私たちは 牧場を 息子のジャンに
@@ -75,6 +85,8 @@
     "translated": !!null |-
       null
   "5e24":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>商人<C_NONE>
       私は エメから逃げてきたんです。
@@ -90,6 +102,8 @@
     "translated": !!null |-
       null
   "5e7f":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       また来てくださいね。
     "original_byte_length": !!int |-
@@ -100,6 +114,8 @@
     "translated": !!null |-
       null
   "5e94":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>道具屋<C_NONE>
       いらっしゃいませ。
@@ -112,6 +128,8 @@
     "translated": !!null |-
       null
   "5ecc":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       また来てくださいね。
     "original_byte_length": !!int |-
@@ -119,13 +137,11 @@
     "reference_addrs":
     - !!int |-
       54748
-    - !!int |-
-      54748
-    - !!int |-
-      54748
     "translated": !!null |-
       null
   "5ee1":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       おや？これ以上持てないようですね。
 
@@ -135,13 +151,11 @@
     "reference_addrs":
     - !!int |-
       1662
-    - !!int |-
-      1662
-    - !!int |-
-      1662
     "translated": !!null |-
       null
   "5f05":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       どれを買ってくれますか？
       <RET_N>
@@ -150,13 +164,11 @@
     "reference_addrs":
     - !!int |-
       1664
-    - !!int |-
-      1664
-    - !!int |-
-      1664
     "translated": !!null |-
       null
   "5f1f":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <ITEM>だね。
       どうも ありがとう。
@@ -167,13 +179,11 @@
     "reference_addrs":
     - !!int |-
       1666
-    - !!int |-
-      1666
-    - !!int |-
-      1666
     "translated": !!null |-
       null
   "5f44":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       どれを 売ってくれますか？
       <RET_N>
@@ -185,6 +195,8 @@
     "translated": !!null |-
       null
   "5f5f":
+    "is_relocatable": !!bool |-
+      true
     "original": |2-
        Gold になるけど
       それでも よろしいですか？
@@ -197,6 +209,8 @@
     "translated": !!null |-
       null
   "5f8b":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       それは残念です。
 
@@ -209,6 +223,8 @@
     "translated": !!null |-
       null
   "5f9d":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       どうも ありがとうございます。
       <RET_N>

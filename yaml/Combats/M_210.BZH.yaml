@@ -1,55 +1,57 @@
 "entries":
   "7170":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       ブラムナドッグA<RET>
     "original_byte_length": !!int |-
       16
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "71b0":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       ブラムナドッグB<RET>
     "original_byte_length": !!int |-
       16
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "71f0":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       ブラムナドッグC<RET>
     "original_byte_length": !!int |-
       16
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "7230":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       ブラムナドッグD<RET>
     "original_byte_length": !!int |-
       16
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "73c3":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       ブラムナドッグが現れた。<RET_N>
     "original_byte_length": !!int |-
       25
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "7432":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <ACTOR>は毒を中和した。<RET_PAGE>
     "original_byte_length": !!int |-
@@ -60,13 +62,13 @@
     "translated": !!null |-
       null
   "7444":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <ACTOR>は毒を中和しきれなかった。<RET_PAGE>
     "original_byte_length": !!int |-
       28
     "reference_addrs":
-    - !!int |-
-      61355
     - !!int |-
       61355
     "translated": !!null |-

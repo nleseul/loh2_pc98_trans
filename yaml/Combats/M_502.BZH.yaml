@@ -1,55 +1,57 @@
 "entries":
   "7170":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       レイシア<RET>
     "original_byte_length": !!int |-
       9
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "71b0":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       ガービィ<RET>
     "original_byte_length": !!int |-
       9
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "71f0":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       Ｍ５０２Ｃ<RET>
     "original_byte_length": !!int |-
       11
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "7230":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       Ｍ５０２Ｄ<RET>
     "original_byte_length": !!int |-
       11
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "751c":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       ガービィが現れた。<RET_N>
     "original_byte_length": !!int |-
       19
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "762b":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <CALL7660>あと少しなんだから 弱音をはかずに
       がんばってよ。
@@ -63,6 +65,8 @@
     "translated": !!null |-
       null
   "7660":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <CLEAR><C_YELLOW>レイシア<C_NONE><RET_N>
     "original_byte_length": !!int |-

@@ -1,5 +1,7 @@
 "entries":
   "5d01":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <CH0>
       <SET013c>あのガードたちは 全然こっちの方を
@@ -19,6 +21,8 @@
     "translated": !!null |-
       null
   "5d97":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>サミー<C_NONE>
       やっぱ おっさんは すげーよな。
@@ -31,6 +35,8 @@
     "translated": !!null |-
       null
   "5dd3":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>サミー<C_NONE>
       あー つかれた。
@@ -56,6 +62,8 @@
     "translated": !!null |-
       null
   "5edd":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>モーガン<C_NONE>
       さあ 早く 入りなされ。
@@ -68,6 +76,8 @@
     "translated": !!null |-
       null
   "5f1d":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>モーガン<C_NONE>
       どうじゃい サミー。

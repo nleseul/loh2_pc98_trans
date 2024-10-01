@@ -1,53 +1,55 @@
 "entries":
   "7170":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       ゴドウィン２世<RET>
     "original_byte_length": !!int |-
       15
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "71b0":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       Ｍ５００Ｂ<RET>
     "original_byte_length": !!int |-
       11
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "71f0":
+    "is_relocatable": !!bool |-
+      false
     "original": ""
     "original_byte_length": !!int |-
       1
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "7230":
+    "is_relocatable": !!bool |-
+      false
     "original": ""
     "original_byte_length": !!int |-
       1
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "74ac":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       皇帝 ゴドウィン２世との戦闘だ。<RET_N>
     "original_byte_length": !!int |-
       32
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "74cc":
+    "is_relocatable": !!bool |-
+      true
     "original": |2-
 
 
@@ -61,15 +63,11 @@
     "reference_addrs":
     - !!int |-
       61488
-    - !!int |-
-      61488
-    - !!int |-
-      61488
-    - !!int |-
-      61488
     "translated": !!null |-
       null
   "750f":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <ACTOR>は大きくはばたいた。<RET_N>
     "original_byte_length": !!int |-
@@ -77,13 +75,11 @@
     "reference_addrs":
     - !!int |-
       61275
-    - !!int |-
-      61275
-    - !!int |-
-      61275
     "translated": !!null |-
       null
   "7525":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <ACTOR>は炎のブレスをはいた。<RET_N>
     "original_byte_length": !!int |-

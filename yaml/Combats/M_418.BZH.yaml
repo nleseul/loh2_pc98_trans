@@ -1,55 +1,57 @@
 "entries":
   "7170":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       ワッバ<RET>
     "original_byte_length": !!int |-
       7
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "71b0":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       ヒューゲス<RET>
     "original_byte_length": !!int |-
       11
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "71f0":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       Ｍ４１８Ｃ<RET>
     "original_byte_length": !!int |-
       11
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "7230":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       Ｍ４１８Ｄ<RET>
     "original_byte_length": !!int |-
       11
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "7411":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       ワッバとヒューゲスが現れた。<RET_N>
     "original_byte_length": !!int |-
       29
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "743f":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <ACTOR>が助けに来た。<RET_PAGE>
     "original_byte_length": !!int |-
@@ -60,6 +62,8 @@
     "translated": !!null |-
       null
   "744f":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       しかし だれも来なかった。<RET_PAGE>
     "original_byte_length": !!int |-

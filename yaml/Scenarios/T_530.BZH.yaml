@@ -1,5 +1,7 @@
 "entries":
   "5efe":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ガード<C_NONE>
       中に入りたいのか？
@@ -22,6 +24,8 @@
     "translated": !!null |-
       null
   "5f8d":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ガード<C_NONE>
       ここは <ASMd960>への 出口だ。
@@ -38,14 +42,16 @@
     - !!int |-
       54753
     - !!int |-
+      54858
+    - !!int |-
       54788
     - !!int |-
       54823
-    - !!int |-
-      54858
     "translated": !!null |-
       null
   "607c":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ガード<C_NONE>
       <IF0124><JUMP60ca>この先は 城の正門につながっている。お前らは 立入禁止の場所だ。<END>
@@ -72,6 +78,8 @@
     "translated": !!null |-
       null
   "61e3":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ガード<C_NONE>
       <IF0124><JUMP60ca>お前らが 入れるのは ここまでだ。
@@ -85,6 +93,8 @@
     "translated": !!null |-
       null
   "624c":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ガード<C_NONE>
       じゃまだ どけ !!
@@ -96,6 +106,8 @@
     "translated": !!null |-
       null
   "6266":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ガード<C_NONE>
       わかっているだろうが 他の地方に
@@ -109,6 +121,8 @@
     "translated": !!null |-
       null
   "62ce":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       へっへっへ。 あんたたち ちょっと
@@ -124,6 +138,8 @@
     "translated": !!null |-
       null
   "6330":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       この町は 昔 ファーゲスタの中で
@@ -143,6 +159,8 @@
     "translated": !!null |-
       null
   "63ff":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       いやな世の中に なっちゃったよな。
@@ -159,6 +177,8 @@
     "translated": !!null |-
       null
   "64a3":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>女<C_NONE>
       私 ここで 待ち合わせしてるんだけどなかなか こないのよ。
@@ -172,6 +192,8 @@
     "translated": !!null |-
       null
   "651e":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ヤミ屋<C_NONE>
       あんたたち どんな用なんだ？<RET_N>
@@ -183,6 +205,8 @@
     "translated": !!null |-
       null
   "6543":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       おれは よく ここに来てるから
       何か用があったら また来てくれ。
@@ -191,13 +215,11 @@
     "reference_addrs":
     - !!int |-
       55044
-    - !!int |-
-      55044
-    - !!int |-
-      55044
     "translated": !!null |-
       null
   "6580":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       これ以上 持てないみたいだな。
 
@@ -210,6 +232,8 @@
     "translated": !!null |-
       null
   "659f":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       何が 買いたいんだ？
       <RET_N>
@@ -221,6 +245,8 @@
     "translated": !!null |-
       null
   "65b4":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <ITEM>だな。
       ガードに 見つかるなよ。
@@ -234,6 +260,8 @@
     "translated": !!null |-
       null
   "65dd":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       何を 売ってくれるんだ？
       <RET_N>
@@ -245,6 +273,8 @@
     "translated": !!null |-
       null
   "65f6":
+    "is_relocatable": !!bool |-
+      true
     "original": |2-
        Gold なら買ってやるけど
       それで いいか？
@@ -257,6 +287,8 @@
     "translated": !!null |-
       null
   "6620":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       それじゃ しかたねえな。
 
@@ -269,6 +301,8 @@
     "translated": !!null |-
       null
   "6639":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       ありがとよ。
       <RET_N>

@@ -1,5 +1,7 @@
 "entries":
   "5ac7":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ディーナ王妃<C_NONE>
       アトラス、だいたいの話は
@@ -30,11 +32,11 @@
       54753
     - !!int |-
       23675
-    - !!int |-
-      23675
     "translated": !!null |-
       null
   "5c6b":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ディーナ王妃<C_NONE>
       <JUMP5c0a><LOC5c7d><C_YELLOW>フェリシア<C_NONE>
@@ -50,12 +52,14 @@
       201
     "reference_addrs":
     - !!int |-
-      54643
-    - !!int |-
       54658
+    - !!int |-
+      54643
     "translated": !!null |-
       null
   "5d34":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       王子さまのおかげで 竜の卵も もとに戻りましたし モンスターも いなく
@@ -68,6 +72,8 @@
     "translated": !!null |-
       null
   "5d8b":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       王子さま あのモンスターは いったい何だったのですか？
@@ -83,6 +89,8 @@
     "translated": !!null |-
       null
   "5e17":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       王子さま どのようにして 竜の卵を
@@ -99,6 +107,8 @@
     "translated": !!null |-
       null
   "5ea7":
+    "is_relocatable": !!bool |-
+      true
     "original": |
       <C_YELLOW>兵士<C_NONE>
       セリオスさまたちが また どこかに
@@ -111,6 +121,8 @@
     "translated": !!null |-
       null
   "5ee7":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       ソルディスでは 司祭 バーバラさまが竜の卵を 正常にしたという うわさが広がっているそうです。
@@ -122,6 +134,8 @@
     "translated": !!null |-
       null
   "5f49":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       王子さま セリオスさまたちは なぜ
@@ -135,6 +149,8 @@
     "translated": !!null |-
       null
   "5fa6":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       王子さま あのさわぎの原因は
@@ -150,6 +166,8 @@
     "translated": !!null |-
       null
   "6035":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       王子さま あまり 無理をしないようにしてください。
@@ -161,6 +179,8 @@
     "translated": !!null |-
       null
   "606d":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>教育係 ラウエル<C_NONE>
       <Xf60fd6><JUMP6116>おお そうでしたな。

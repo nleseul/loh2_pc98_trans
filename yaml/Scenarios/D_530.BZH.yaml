@@ -1,5 +1,7 @@
 "entries":
   "5b70":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ラルフ<C_NONE>
       おれは 考古学者のラルフだ。
@@ -18,6 +20,8 @@
     "translated": !!null |-
       null
   "5c1f":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ポム<C_NONE>
       <IF0179><JUMP5cf4><SET0179>おれは 冒険家のポム。

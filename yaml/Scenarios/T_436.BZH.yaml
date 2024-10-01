@@ -1,5 +1,7 @@
 "entries":
   "5ac8":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ハンス<C_NONE>
       先日 セリオスさまたちが ここに
@@ -16,6 +18,8 @@
     "translated": !!null |-
       null
   "5b67":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>補佐官<C_NONE>
       今までは わが国の兵士たちも かなり頼りになると 思っていたのです。
@@ -30,6 +34,8 @@
     "translated": !!null |-
       null
   "5c0a":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>役人<C_NONE>
       兵士たちの 訓練を強化するには
@@ -42,6 +48,8 @@
     "translated": !!null |-
       null
   "5c66":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>役人<C_NONE>
       ふぅ ･ ･ ･ お役所仕事も 疲れるよ。こうやって 一日中 ボーっと
@@ -56,6 +64,8 @@
     "translated": !!null |-
       null
   "5d03":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>役人<C_NONE>
       ハンス大統領は 国民の声を 親身に
@@ -69,6 +79,8 @@
     "translated": !!null |-
       null
   "5d59":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>女<C_NONE>
       昔 英雄たちの手で 滅ぼされた
@@ -82,6 +94,8 @@
     "translated": !!null |-
       null
   "5db6":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ジーラ<C_NONE>
       むむむっ お前さんがた 旅人じゃな？いい話をきかせてやろう。
@@ -104,6 +118,8 @@
     "translated": !!null |-
       null
   "5ef5":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>娘<C_NONE>
       うちの おばあちゃんて 昔の話を
@@ -119,6 +135,8 @@
     "translated": !!null |-
       null
   "5f5a":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>女<C_NONE>
       よかったわぁ また平和になって。
@@ -130,6 +148,8 @@
     "translated": !!null |-
       null
   "5f7f":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       狼の口に 逃げていた 盗賊たちが
@@ -143,6 +163,8 @@
     "translated": !!null |-
       null
   "5fd6":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       これから 訓練をきびしくするって
@@ -156,6 +178,8 @@
     "translated": !!null |-
       null
   "602d":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>呪文屋<C_NONE>
       いらっしゃいませ。<RET_N>
@@ -167,6 +191,8 @@
     "translated": !!null |-
       null
   "6049":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       また お願いします。
     "original_byte_length": !!int |-
@@ -177,6 +203,8 @@
     "translated": !!null |-
       null
   "605d":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       お客さん もう持てませんわよ。
 
@@ -189,6 +217,8 @@
     "translated": !!null |-
       null
   "607c":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       何を お求めですか？
       <RET_N>
@@ -200,6 +230,8 @@
     "translated": !!null |-
       null
   "6091":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <ITEM>ですね。
       ありがとう ございます。

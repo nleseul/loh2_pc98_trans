@@ -1,57 +1,59 @@
 "entries":
   "7170":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       ザンオー<RET>
     "original_byte_length": !!int |-
       9
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "71b0":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       紅牙戦士<RET>
     "original_byte_length": !!int |-
       9
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "71f0":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       Ｍ５１２Ｃ<RET>
     "original_byte_length": !!int |-
       11
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "7230":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       Ｍ５１２Ｄ<RET>
     "original_byte_length": !!int |-
       11
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "7447":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       紅牙戦士とザンオーが現れた。<RET_N>
     "original_byte_length": !!int |-
       29
     "reference_addrs":
-    - !!null |-
-      null
     - !!int |-
       61421
     "translated": !!null |-
       null
   "7464":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <ACTOR>は攻撃をかわした。<RET_PAGE>
     "original_byte_length": !!int |-
@@ -62,6 +64,8 @@
     "translated": !!null |-
       null
   "7478":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <ACTOR>は喜んで調子にのっている。<RET_N>
     "original_byte_length": !!int |-
@@ -69,11 +73,11 @@
     "reference_addrs":
     - !!int |-
       61226
-    - !!int |-
-      61226
     "translated": !!null |-
       null
   "7494":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <ACTOR>はきげんが悪くなった。<RET_N>
     "original_byte_length": !!int |-

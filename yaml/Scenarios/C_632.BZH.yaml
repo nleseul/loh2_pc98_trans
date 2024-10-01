@@ -1,5 +1,7 @@
 "entries":
   "5e2a":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       <IF01fc><JUMP6051><SET01fc>･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･
@@ -47,6 +49,8 @@
     "translated": !!null |-
       null
   "60f1":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <PARTY>は 宝箱を開けました。
       宝箱の中には<RET>

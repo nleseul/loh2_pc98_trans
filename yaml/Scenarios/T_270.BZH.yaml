@@ -1,5 +1,7 @@
 "entries":
   "5c77":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <SET0098><SET0062><C_YELLOW>ジーナ<C_NONE>
       もう ほんとに のろまだね。
@@ -53,6 +55,8 @@
     "translated": !!null |-
       null
   "5f4b":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <CH0>
       おい ここから ･ ･ ･
@@ -80,6 +84,8 @@
     "translated": !!null |-
       null
   "6050":
+    "is_relocatable": !!bool |-
+      true
     "original": |
       <C_YELLOW>ジーナ<C_NONE>
       お待ち !!
@@ -91,6 +97,8 @@
     "translated": !!null |-
       null
   "6064":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <CLEAR><C_YELLOW>ジーナ<C_NONE>
       どうも おかしいと 思ったんだよ。
@@ -111,6 +119,8 @@
     "translated": !!null |-
       null
   "6133":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <CH1>
       うっ !! また やっちまった。
@@ -126,11 +136,11 @@
     "reference_addrs":
     - !!int |-
       54938
-    - !!int |-
-      54938
     "translated": !!null |-
       null
   "61ac":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <CLEAR><CH1>
       おい てめえら !!

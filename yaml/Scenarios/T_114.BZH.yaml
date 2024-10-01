@@ -1,5 +1,7 @@
 "entries":
   "5bb7":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <CALL68f2><IF00ff><JUMP5c6b>今回の モンスターは ２０年前の
       ときよりも ずっと数が多いようだ。
@@ -16,6 +18,8 @@
     "translated": !!null |-
       null
   "5cca":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <CALL68f2>ラヌーラは たいへんらしいぞ。
       セリスの城が モンスターに
@@ -35,6 +39,8 @@
     "translated": !!null |-
       null
   "5f1a":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <CALL68f2>ボアード海運の ボアードは
       元海賊だって うわさだぜ。
@@ -50,6 +56,8 @@
     "translated": !!null |-
       null
   "5fad":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <CALL68f2><IF0015><JUMP6011>世界中の竜の卵から モンスターが
       出てきていて いくつかの町や村が
@@ -68,6 +76,8 @@
     "translated": !!null |-
       null
   "60cb":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>女<C_NONE>
       <IF0015><JUMP6168>マスクーンが モンスターに
@@ -91,6 +101,8 @@
     "translated": !!null |-
       null
   "61ff":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>女<C_NONE>
       私 ラルファから マスクーンに 戻る
@@ -112,6 +124,8 @@
     "translated": !!null |-
       null
   "635e":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       ヨルドは セリスから ひなんしてきた人たちで いっぱいですよ。
@@ -123,6 +137,8 @@
     "translated": !!null |-
       null
   "639f":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       お客さん 切符をお願いします。
@@ -140,6 +156,8 @@
     "translated": !!null |-
       null
   "6449":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       グエンの塔には サイレスの呪文の
@@ -165,6 +183,8 @@
     "translated": !!null |-
       null
   "65aa":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <CALL68f9>おや いらっしゃい。
       サイレスの呪文は いかがですか？
@@ -184,11 +204,11 @@
       54873
     - !!int |-
       26341
-    - !!int |-
-      26341
     "translated": !!null |-
       null
   "66eb":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <CALL68f9>おや いらっしゃい。
       サイレスの呪文だけでなく 武器も
@@ -207,6 +227,8 @@
     "translated": !!null |-
       null
   "6792":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       また おいでください。
     "original_byte_length": !!int |-
@@ -217,6 +239,8 @@
     "translated": !!null |-
       null
   "67a8":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>女<C_NONE>
       いらっしゃいませ。
@@ -235,6 +259,8 @@
     "translated": !!null |-
       null
   "6892":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       おや？これ以上持てないようですね。
 
@@ -247,6 +273,8 @@
     "translated": !!null |-
       null
   "68b6":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       どれを買ってくれますか？
       <RET_N>
@@ -258,6 +286,8 @@
     "translated": !!null |-
       null
   "68d0":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <ITEM>だね。
       どうも ありがとう。
@@ -271,6 +301,8 @@
     "translated": !!null |-
       null
   "68f2":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE><RET_N>
     "original_byte_length": !!int |-
@@ -279,21 +311,21 @@
     - !!int |-
       23480
     - !!int |-
-      23755
-    - !!int |-
       24347
+    - !!int |-
+      23755
     - !!int |-
       24494
     "translated": !!null |-
       null
   "68f9":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>呪文屋<C_NONE><RET_N>
     "original_byte_length": !!int |-
       9
     "reference_addrs":
-    - !!int |-
-      26027
     - !!int |-
       26027
     - !!int |-

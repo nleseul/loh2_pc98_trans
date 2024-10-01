@@ -1,5 +1,7 @@
 "entries":
   "5b1c":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       これは 王子さま。ジェストンさまは
@@ -13,6 +15,8 @@
     "translated": !!null |-
       null
   "5b7b":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       世の中が 暗黒に包まれた時
@@ -31,6 +35,8 @@
     "translated": !!null |-
       null
   "5c46":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       きいてくれよ 見ちゃったんだ
@@ -48,6 +54,8 @@
     "translated": !!null |-
       null
   "5d07":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>女<C_NONE>
       うちの子に 遊び友だちが できたの。マスクーンから 逃げてきたという
@@ -64,6 +72,8 @@
     "translated": !!null |-
       null
   "5dbe":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>老人<C_NONE>
       この前の地震は 竜の卵が かえる
@@ -80,6 +90,8 @@
     "translated": !!null |-
       null
   "5e4c":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>フォルス<C_NONE>
       フォッフォッフォ
@@ -95,6 +107,8 @@
     "translated": !!null |-
       null
   "5f0c":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>エリック<C_NONE>
       わしは 昔 この町に住んでいたことがあったのじゃよ。
@@ -107,6 +121,8 @@
     "translated": !!null |-
       null
   "5f5f":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>子供<C_NONE>
       ママがね 町から外に出るなって
@@ -123,6 +139,8 @@
     "translated": !!null |-
       null
   "5ffc":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>子供<C_NONE>
       ぼくのお母さんは ラルファに
@@ -135,6 +153,8 @@
     "translated": !!null |-
       null
   "6062":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>子供<C_NONE>
       ぼくたち いつも ２人でかくれんぼをしてたんだけど ３人でやったら
@@ -147,6 +167,8 @@
     "translated": !!null |-
       null
   "60c3":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>武器屋<C_NONE>
       はい いらっしゃい。<RET_N>
@@ -158,6 +180,8 @@
     "translated": !!null |-
       null
   "60e0":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       またどうぞ。
     "original_byte_length": !!int |-
@@ -168,6 +192,8 @@
     "translated": !!null |-
       null
   "60ed":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>道具屋<C_NONE>
       いらっしゃいませ。
@@ -180,6 +206,8 @@
     "translated": !!null |-
       null
   "6125":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       また来てくださいね。
     "original_byte_length": !!int |-
@@ -187,13 +215,11 @@
     "reference_addrs":
     - !!int |-
       54777
-    - !!int |-
-      54777
-    - !!int |-
-      54777
     "translated": !!null |-
       null
   "613a":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       おや？これ以上持てないようですね。
 
@@ -203,11 +229,11 @@
     "reference_addrs":
     - !!int |-
       2264
-    - !!int |-
-      2264
     "translated": !!null |-
       null
   "615e":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       どれを買ってくれますか？
       <RET_N>
@@ -216,11 +242,11 @@
     "reference_addrs":
     - !!int |-
       2266
-    - !!int |-
-      2266
     "translated": !!null |-
       null
   "6178":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <ITEM>だね。
       どうも ありがとう。
@@ -231,11 +257,11 @@
     "reference_addrs":
     - !!int |-
       2268
-    - !!int |-
-      2268
     "translated": !!null |-
       null
   "619d":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       どれを 売ってくれますか？
       <RET_N>
@@ -247,6 +273,8 @@
     "translated": !!null |-
       null
   "61b8":
+    "is_relocatable": !!bool |-
+      true
     "original": |2-
        Gold になるけど
       それでも よろしいですか？
@@ -259,6 +287,8 @@
     "translated": !!null |-
       null
   "61e4":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       それは残念です。
 
@@ -271,6 +301,8 @@
     "translated": !!null |-
       null
   "61f6":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       どうも ありがとうございます。
       <RET_N>

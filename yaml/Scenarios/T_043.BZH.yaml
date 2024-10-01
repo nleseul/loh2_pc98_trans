@@ -1,5 +1,7 @@
 "entries":
   "5bc0":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>子供<C_NONE>
       <IF_NOT00f0><JUMP5c28>ねえ モンスターって 怖いんでしょ？いつまで いるんだろう 町から
@@ -14,6 +16,8 @@
     "translated": !!null |-
       null
   "5c67":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       おれは 貿易商だから 仕事で
@@ -31,6 +35,8 @@
     "translated": !!null |-
       null
   "5d40":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       <IF0024><JUMP602a><IF0015><JUMP5eb3>この前 モンスターを 見てみようと
@@ -69,6 +75,8 @@
     "translated": !!null |-
       null
   "6057":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>女<C_NONE>
       <IF_NOT00f0><JUMP60c2>セリオスさまは どうしたのかしら
@@ -85,6 +93,8 @@
     "translated": !!null |-
       null
   "6115":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>老人<C_NONE>
       セリオス国王さまは 勇敢な方じゃ。
@@ -100,6 +110,8 @@
     "translated": !!null |-
       null
   "61b4":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       まもなく ロンド行きが 出発します。ご利用の方は お早めに乗船ください。<IF_NOT00f0><JUMP624d>
@@ -115,6 +127,8 @@
     "translated": !!null |-
       null
   "624e":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       お客さん 切符を出してください。
@@ -131,6 +145,8 @@
     "translated": !!null |-
       null
   "62fa":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>女<C_NONE>
       いらっしゃいませ。
@@ -151,6 +167,8 @@
     "translated": !!null |-
       null
   "647b":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>宿屋<C_NONE>
       この宿は 国王さまが お泊まりに
@@ -171,6 +189,8 @@
     "translated": !!null |-
       null
   "65b9":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>武器屋<C_NONE>
       <IF0015><JUMP665f>ベルガの鉱山が 復旧したら 武器を
@@ -192,6 +212,8 @@
     "translated": !!null |-
       null
   "66de":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>道具屋<C_NONE>
       いらっしゃいませ。
@@ -204,6 +226,8 @@
     "translated": !!null |-
       null
   "6716":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       また来てくださいね。
     "original_byte_length": !!int |-
@@ -211,13 +235,11 @@
     "reference_addrs":
     - !!int |-
       54958
-    - !!int |-
-      54958
-    - !!int |-
-      54958
     "translated": !!null |-
       null
   "672b":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       おや？これ以上持てないようですね。
 
@@ -230,6 +252,8 @@
     "translated": !!null |-
       null
   "674f":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       どれを買ってくれますか？
       <RET_N>
@@ -241,6 +265,8 @@
     "translated": !!null |-
       null
   "6769":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <ITEM>だね。
       どうも ありがとう。
@@ -254,6 +280,8 @@
     "translated": !!null |-
       null
   "678e":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       どれを 売ってくれますか？
       <RET_N>
@@ -265,6 +293,8 @@
     "translated": !!null |-
       null
   "67a9":
+    "is_relocatable": !!bool |-
+      true
     "original": |2-
        Gold になるけど
       それでも よろしいですか？
@@ -277,6 +307,8 @@
     "translated": !!null |-
       null
   "67d5":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       それは残念です。
 
@@ -289,6 +321,8 @@
     "translated": !!null |-
       null
   "67e7":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       どうも ありがとうございます。
       <RET_N>

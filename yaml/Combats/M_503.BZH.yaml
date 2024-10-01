@@ -1,55 +1,57 @@
 "entries":
   "7170":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       ハイ･ドールＡ<RET>
     "original_byte_length": !!int |-
       14
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "71b0":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       ハイ･ドールＢ<RET>
     "original_byte_length": !!int |-
       14
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "71f0":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       ハイ･ドールＣ<RET>
     "original_byte_length": !!int |-
       14
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "7230":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       ハイ･ドールＤ<RET>
     "original_byte_length": !!int |-
       14
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "7335":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       ハイ･ドールが現れた。<RET_N>
     "original_byte_length": !!int |-
       22
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "735b":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <ACTOR>は死力をふりしぼって
       体当りした !!<RET_PAGE>

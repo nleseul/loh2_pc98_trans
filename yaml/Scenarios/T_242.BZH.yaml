@@ -1,5 +1,7 @@
 "entries":
   "5ad6":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>情報屋 トミー<C_NONE>
       なあ なあ なあ なあ 知ってるか？
@@ -23,6 +25,8 @@
     "translated": !!null |-
       null
   "5bff":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>老人<C_NONE>
       <IF0015><JUMP5cb8>２０年前も 今のように モンスターが出てきたことがあって それはもう
@@ -41,6 +45,8 @@
     "translated": !!null |-
       null
   "5d08":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>漁師<C_NONE>
       よお シーラスって魚 知ってるか？
@@ -62,6 +68,8 @@
     "translated": !!null |-
       null
   "5e1f":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ジゴ<C_NONE>
       <IF0408><JUMP5e49>やあ 王子さま 元気そうだな。<END>
@@ -75,6 +83,8 @@
     "translated": !!null |-
       null
   "5e7c":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>道具屋<C_NONE>
       いらっしゃいませ。
@@ -87,6 +97,8 @@
     "translated": !!null |-
       null
   "5eb4":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       また来てくださいね。
     "original_byte_length": !!int |-
@@ -94,13 +106,11 @@
     "reference_addrs":
     - !!int |-
       54827
-    - !!int |-
-      54827
-    - !!int |-
-      54827
     "translated": !!null |-
       null
   "5ec9":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       おや？これ以上持てないようですね。
 
@@ -113,6 +123,8 @@
     "translated": !!null |-
       null
   "5eed":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       どれを買ってくれますか？
       <RET_N>
@@ -124,6 +136,8 @@
     "translated": !!null |-
       null
   "5f07":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <ITEM>だね。
       どうも ありがとう。
@@ -137,6 +151,8 @@
     "translated": !!null |-
       null
   "5f2c":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       どれを 売ってくれますか？
       <RET_N>
@@ -148,6 +164,8 @@
     "translated": !!null |-
       null
   "5f47":
+    "is_relocatable": !!bool |-
+      true
     "original": |2-
        Gold になるけど
       それでも よろしいですか？
@@ -160,6 +178,8 @@
     "translated": !!null |-
       null
   "5f73":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       それは残念です。
 
@@ -172,6 +192,8 @@
     "translated": !!null |-
       null
   "5f85":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       どうも ありがとうございます。
       <RET_N>

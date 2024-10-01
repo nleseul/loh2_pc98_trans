@@ -1,5 +1,7 @@
 "entries":
   "5af8":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       これは 王子さま。ジェストンさまは
@@ -13,6 +15,8 @@
     "translated": !!null |-
       null
   "5b57":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       世の中が 暗黒に包まれた時
@@ -31,6 +35,8 @@
     "translated": !!null |-
       null
   "5c2a":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       きいてくれよ。ジェストンさまが
@@ -47,6 +53,8 @@
     "translated": !!null |-
       null
   "5cc5":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>女<C_NONE>
       うちの子たちったら モンスターが
@@ -60,6 +68,8 @@
     "translated": !!null |-
       null
   "5d21":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>老人<C_NONE>
       よかった よかった。
@@ -74,6 +84,8 @@
     "translated": !!null |-
       null
   "5daf":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>子供<C_NONE>
       やっと こわいモンスターが
@@ -87,6 +99,8 @@
     "translated": !!null |-
       null
   "5e0a":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>子供<C_NONE>
       町の外だったら 広いから 鬼ごっこ
@@ -99,6 +113,8 @@
     "translated": !!null |-
       null
   "5e4e":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>子供<C_NONE>
       町の外で かくれんぼをしたら
@@ -112,6 +128,8 @@
     "translated": !!null |-
       null
   "5ea2":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>女<C_NONE>
       マスクーンの町長 フォルスさんは
@@ -125,6 +143,8 @@
     "translated": !!null |-
       null
   "5f09":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>武器屋<C_NONE>
       はい いらっしゃい。<RET_N>
@@ -136,6 +156,8 @@
     "translated": !!null |-
       null
   "5f26":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       またどうぞ。
     "original_byte_length": !!int |-
@@ -146,6 +168,8 @@
     "translated": !!null |-
       null
   "5f33":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>道具屋<C_NONE>
       いらっしゃいませ。
@@ -158,6 +182,8 @@
     "translated": !!null |-
       null
   "5f6b":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       また来てくださいね。
     "original_byte_length": !!int |-
@@ -165,13 +191,11 @@
     "reference_addrs":
     - !!int |-
       54768
-    - !!int |-
-      54768
-    - !!int |-
-      54768
     "translated": !!null |-
       null
   "5f80":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       おや？これ以上持てないようですね。
 
@@ -181,11 +205,11 @@
     "reference_addrs":
     - !!int |-
       1822
-    - !!int |-
-      1822
     "translated": !!null |-
       null
   "5fa4":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       どれを買ってくれますか？
       <RET_N>
@@ -194,11 +218,11 @@
     "reference_addrs":
     - !!int |-
       1824
-    - !!int |-
-      1824
     "translated": !!null |-
       null
   "5fbe":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <ITEM>だね。
       どうも ありがとう。
@@ -209,11 +233,11 @@
     "reference_addrs":
     - !!int |-
       1826
-    - !!int |-
-      1826
     "translated": !!null |-
       null
   "5fe3":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       どれを 売ってくれますか？
       <RET_N>
@@ -225,6 +249,8 @@
     "translated": !!null |-
       null
   "5ffe":
+    "is_relocatable": !!bool |-
+      true
     "original": |2-
        Gold になるけど
       それでも よろしいですか？
@@ -237,6 +263,8 @@
     "translated": !!null |-
       null
   "602a":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       それは残念です。
 
@@ -249,6 +277,8 @@
     "translated": !!null |-
       null
   "603c":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       どうも ありがとうございます。
       <RET_N>

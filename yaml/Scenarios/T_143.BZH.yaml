@@ -1,5 +1,7 @@
 "entries":
   "5b0c":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       これは 王子さま。ジェストンさまは
@@ -13,6 +15,8 @@
     "translated": !!null |-
       null
   "5b6b":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       世の中が 暗黒に包まれた時
@@ -31,6 +35,8 @@
     "translated": !!null |-
       null
   "5c36":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       きいてくれよ ジェストンさまの
@@ -46,6 +52,8 @@
     "translated": !!null |-
       null
   "5cb1":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>女<C_NONE>
       うちの子に 遊び友だちが できたの。マスクーンから 逃げてきたという
@@ -64,6 +72,8 @@
     "translated": !!null |-
       null
   "5da0":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>老人<C_NONE>
       <IF00ff><JUMP5db3><IF0015><JUMP5e3a><LOC5db3>この前の地震は 竜の卵が かえる
@@ -82,6 +92,8 @@
     "translated": !!null |-
       null
   "5e95":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>フォルス<C_NONE>
       <IF00ff><JUMP5f61>フォッフォッフォ
@@ -100,6 +112,8 @@
     "translated": !!null |-
       null
   "5fb8":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>エリック<C_NONE>
       わしは 昔 この町に住んでいたことがあったのじゃよ。
@@ -112,6 +126,8 @@
     "translated": !!null |-
       null
   "600b":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>子供<C_NONE>
       ママがね 町から外に出るなって
@@ -130,6 +146,8 @@
     "translated": !!null |-
       null
   "60af":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>子供<C_NONE>
       <IF0015><JUMP611b>ぼくのお母さんは ラルファに
@@ -147,6 +165,8 @@
     "translated": !!null |-
       null
   "6199":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>子供<C_NONE>
       ぼくたち いつも ２人でかくれんぼをしてたんだけど ３人でやったら
@@ -159,6 +179,8 @@
     "translated": !!null |-
       null
   "61fa":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>女<C_NONE>
       私 モンスターが現れてから 子どもとはなればなれに なっていたの。
@@ -171,6 +193,8 @@
     "translated": !!null |-
       null
   "6262":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>武器屋<C_NONE>
       はい いらっしゃい。<RET_N>
@@ -182,6 +206,8 @@
     "translated": !!null |-
       null
   "627f":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       またどうぞ。
     "original_byte_length": !!int |-
@@ -192,6 +218,8 @@
     "translated": !!null |-
       null
   "628c":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>道具屋<C_NONE>
       いらっしゃいませ。
@@ -204,6 +232,8 @@
     "translated": !!null |-
       null
   "62c4":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       また来てくださいね。
     "original_byte_length": !!int |-
@@ -211,13 +241,11 @@
     "reference_addrs":
     - !!int |-
       54810
-    - !!int |-
-      54810
-    - !!int |-
-      54810
     "translated": !!null |-
       null
   "62d9":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       おや？これ以上持てないようですね。
 
@@ -227,11 +255,11 @@
     "reference_addrs":
     - !!int |-
       2746
-    - !!int |-
-      2746
     "translated": !!null |-
       null
   "62fd":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       どれを買ってくれますか？
       <RET_N>
@@ -240,11 +268,11 @@
     "reference_addrs":
     - !!int |-
       2748
-    - !!int |-
-      2748
     "translated": !!null |-
       null
   "6317":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <ITEM>だね。
       どうも ありがとう。
@@ -255,11 +283,11 @@
     "reference_addrs":
     - !!int |-
       2750
-    - !!int |-
-      2750
     "translated": !!null |-
       null
   "633c":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       どれを 売ってくれますか？
       <RET_N>
@@ -271,6 +299,8 @@
     "translated": !!null |-
       null
   "6357":
+    "is_relocatable": !!bool |-
+      true
     "original": |2-
        Gold になるけど
       それでも よろしいですか？
@@ -283,6 +313,8 @@
     "translated": !!null |-
       null
   "6383":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       それは残念です。
 
@@ -295,6 +327,8 @@
     "translated": !!null |-
       null
   "6395":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       どうも ありがとうございます。
       <RET_N>

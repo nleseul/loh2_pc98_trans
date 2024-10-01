@@ -1,55 +1,57 @@
 "entries":
   "7170":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       ビジョーＡ<RET>
     "original_byte_length": !!int |-
       11
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "71b0":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       ビジョーＢ<RET>
     "original_byte_length": !!int |-
       11
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "71f0":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       ビジョーＣ<RET>
     "original_byte_length": !!int |-
       11
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "7230":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       ビジョーＤ<RET>
     "original_byte_length": !!int |-
       11
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "7432":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       ビジョーが現れた。<RET_N>
     "original_byte_length": !!int |-
       19
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "7445":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       ビジョーは<ACTOR>をほめたたえて拍手をしている。<RET_N>
     "original_byte_length": !!int |-
@@ -60,6 +62,8 @@
     "translated": !!null |-
       null
   "746f":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <ACTOR>はてれている。<RET_N>
     "original_byte_length": !!int |-
@@ -70,6 +74,8 @@
     "translated": !!null |-
       null
   "747f":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <ACTOR>はひとりでよろこんでいる。<RET_N>
     "original_byte_length": !!int |-

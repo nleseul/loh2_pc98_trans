@@ -1,5 +1,7 @@
 "entries":
   "5a7b":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>村長<C_NONE>
       シンディ、何か思い出したことでも
@@ -12,6 +14,8 @@
     "translated": !!null |-
       null
   "5ac3":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>老人<C_NONE>
       うちの孫は 知りませんかの？
@@ -25,6 +29,8 @@
     "translated": !!null |-
       null
   "5b24":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>老人<C_NONE>
       このファエトの村は 隠居村と
@@ -40,6 +46,8 @@
     "translated": !!null |-
       null
   "5baf":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>老婆<C_NONE>
       もし コルクスの町に 行ったら
@@ -56,6 +64,8 @@
     "translated": !!null |-
       null
   "5c4a":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>老婆<C_NONE>
       盗賊の町 ファンガスは バケモノに
@@ -70,6 +80,8 @@
     "translated": !!null |-
       null
   "5ce0":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>子ども<C_NONE>
       おじいちゃんと 鬼ごっこを
@@ -83,6 +95,8 @@
     "translated": !!null |-
       null
   "5d30":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>女<C_NONE>
       私は 弟を連れて コルクスから来たの。<IF_NOT00f5><JUMP5da4>たまには おじいちゃんたちの所に

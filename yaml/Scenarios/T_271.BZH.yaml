@@ -1,5 +1,7 @@
 "entries":
   "5b0d":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ボアード<C_NONE>
       おう ジゴ !!
@@ -84,6 +86,8 @@
     "translated": !!null |-
       null
   "602d":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <CH0>
       そういえば ランドー。

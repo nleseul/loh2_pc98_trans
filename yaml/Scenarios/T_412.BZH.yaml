@@ -1,5 +1,7 @@
 "entries":
   "5a7a":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       <IF_NOT00f5><JUMP5b21>ソルディスに 行ったときに
@@ -18,6 +20,8 @@
     "translated": !!null |-
       null
   "5b78":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       スリの修行とかで よく ファンガスの連中が この町まで来るんだよ。
@@ -30,6 +34,8 @@
     "translated": !!null |-
       null
   "5bd6":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>女<C_NONE>
       モレストンには ファンガスっていう
@@ -48,6 +54,8 @@
     "translated": !!null |-
       null
   "5cc0":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>女<C_NONE>
       ファンガスの 盗賊たちの かしらってかなりの年寄りらしいけど 今でも
@@ -63,6 +71,8 @@
     "translated": !!null |-
       null
   "5d65":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>アニー<C_NONE>
       <IF00d1><JUMP5e60><SET00d1><SET0404>あら シンディ どうしたの ？
@@ -90,6 +100,8 @@
     "translated": !!null |-
       null
   "5eae":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ヤミ屋<C_NONE>
       ヘッヘッヘ なにか用かい？<RET_N>
@@ -101,6 +113,8 @@
     "translated": !!null |-
       null
   "5ed1":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       またどうぞ。
     "original_byte_length": !!int |-
@@ -108,13 +122,11 @@
     "reference_addrs":
     - !!int |-
       54744
-    - !!int |-
-      54744
-    - !!int |-
-      54744
     "translated": !!null |-
       null
   "5ede":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       これ以上持てないようだな。
 
@@ -127,6 +139,8 @@
     "translated": !!null |-
       null
   "5efa":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       どれを買いたいんだ？
       <RET_N>
@@ -138,6 +152,8 @@
     "translated": !!null |-
       null
   "5f10":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <ITEM>だな。
       ありがとよ。
@@ -151,6 +167,8 @@
     "translated": !!null |-
       null
   "5f2e":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       どれを 売りたいんだ？
       <RET_N>
@@ -162,6 +180,8 @@
     "translated": !!null |-
       null
   "5f45":
+    "is_relocatable": !!bool |-
+      true
     "original": |2-
        Gold になるけど
       それで いいかい？
@@ -174,6 +194,8 @@
     "translated": !!null |-
       null
   "5f69":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       そうか 残念だな。
 
@@ -186,6 +208,8 @@
     "translated": !!null |-
       null
   "5f7c":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       ありがとよ。
       <RET_N>

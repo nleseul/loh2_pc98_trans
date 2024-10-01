@@ -1,5 +1,7 @@
 "entries":
   "5b37":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       いらっしゃい ここは休憩所だが
@@ -12,6 +14,8 @@
     "translated": !!null |-
       null
   "5b9e":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <IF0059><JUMP5e6f><SET0059><Xf52c0000><ASM1ae6><Xf7><CALL6cf5>あら アトラス王子。
       もう少し 早ければ セリオスさまが
@@ -103,11 +107,11 @@
     "reference_addrs":
     - !!int |-
       54682
-    - !!int |-
-      54682
     "translated": !!null |-
       null
   "627a":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ポウエル<C_NONE>
       セリスとナッシュが モンスターに
@@ -124,6 +128,8 @@
     "translated": !!null |-
       null
   "630a":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>チャールズ王子<C_NONE>
       みんな 今は忙しいって言って
@@ -140,6 +146,8 @@
     "translated": !!null |-
       null
   "63a4":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>侍女<C_NONE>
       ひなんしたのは いいけど もしも
@@ -153,6 +161,8 @@
     "translated": !!null |-
       null
   "63fc":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>侍女<C_NONE>
       ここは 広いことは広いけど お城から比べたら 狭いし お台所も あまり
@@ -165,6 +175,8 @@
     "translated": !!null |-
       null
   "645c":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       司祭 バーバラは いったい どこに
@@ -179,6 +191,8 @@
     "translated": !!null |-
       null
   "64d7":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       これは アトラス王子さま。
@@ -191,6 +205,8 @@
     "translated": !!null |-
       null
   "6538":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       これは アトラス王子さま。
@@ -204,6 +220,8 @@
     "translated": !!null |-
       null
   "6582":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       <IF0090><JUMP6602>アトラス王子さま。
@@ -224,6 +242,8 @@
     "translated": !!null |-
       null
   "66b9":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       ソニアさま たいへんです !!
@@ -315,37 +335,39 @@
     "translated": !!null |-
       null
   "6cf5":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ソニア王妃<C_NONE><RET_N>
     "original_byte_length": !!int |-
       13
     "reference_addrs":
     - !!int |-
-      26332
-    - !!int |-
-      26552
-    - !!int |-
-      26827
-    - !!int |-
-      27215
-    - !!int |-
-      27474
-    - !!int |-
       27712
     - !!int |-
-      23472
+      24673
     - !!int |-
       23782
     - !!int |-
       23879
     - !!int |-
+      26827
+    - !!int |-
+      24846
+    - !!int |-
+      27215
+    - !!int |-
+      23472
+    - !!int |-
       24176
+    - !!int |-
+      27474
+    - !!int |-
+      26552
     - !!int |-
       24410
     - !!int |-
-      24673
-    - !!int |-
-      24846
+      26332
     "translated": !!null |-
       null
 "note": ""

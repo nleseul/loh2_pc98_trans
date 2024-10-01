@@ -1,5 +1,7 @@
 "entries":
   "5f1d":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>レイシア<C_NONE>
       それじゃ 私とボザが キュベラにいるレジスタンスたちを 連れてくるから
@@ -19,6 +21,8 @@
     "translated": !!null |-
       null
   "5fec":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ケリイ<C_NONE>
       <IF0151><JUMP6103><SET0151>おや あなたたちは？
@@ -46,6 +50,8 @@
     "translated": !!null |-
       null
   "6178":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       ずっと前の地震で ネサの辺土の先に
@@ -68,6 +74,8 @@
     "translated": !!null |-
       null
   "62bc":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>老人<C_NONE>
       うわさによると ガードの隊長が
@@ -85,6 +93,8 @@
     "translated": !!null |-
       null
   "637b":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>女<C_NONE>
       脱走した囚人って まだ ベルンの方にいるらしいわよ。
@@ -96,6 +106,8 @@
     "translated": !!null |-
       null
   "63b3":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>女<C_NONE>
       町の北の門は 囚人が脱走したから
@@ -109,6 +121,8 @@
     "translated": !!null |-
       null
   "6416":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ヤミ屋<C_NONE>
       いらっしゃい。何の用だい？<RET_N>
@@ -120,6 +134,8 @@
     "translated": !!null |-
       null
   "643a":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       また たのむぜ。
     "original_byte_length": !!int |-
@@ -127,13 +143,11 @@
     "reference_addrs":
     - !!int |-
       55224
-    - !!int |-
-      55224
-    - !!int |-
-      55224
     "translated": !!null |-
       null
   "644a":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       これ以上持てないようだぜ。
 
@@ -146,6 +160,8 @@
     "translated": !!null |-
       null
   "6466":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       何を買うんだい？
       <RET_N>
@@ -157,6 +173,8 @@
     "translated": !!null |-
       null
   "6478":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <ITEM>だな。
       ありがとよ。
@@ -170,6 +188,8 @@
     "translated": !!null |-
       null
   "6496":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       何を 売りたいんだ？
       <RET_N>
@@ -181,6 +201,8 @@
     "translated": !!null |-
       null
   "64ab":
+    "is_relocatable": !!bool |-
+      true
     "original": |2-
        Gold で買ってやるけど
       それでも いいかい？
@@ -193,6 +215,8 @@
     "translated": !!null |-
       null
   "64d7":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       何だよ 売ってくれないのか。
 
@@ -205,6 +229,8 @@
     "translated": !!null |-
       null
   "64f4":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       よし 買ってやるぜ。
       <RET_N>

@@ -1,5 +1,7 @@
 "entries":
   "5b95":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <IF0400><JUMP5bfb><CH1>
       うわー こりゃ すげえ !!

@@ -1,5 +1,7 @@
 "entries":
   "5d61":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>フラッド<C_NONE>
       やあ こんにちは。
@@ -11,6 +13,8 @@
     "translated": !!null |-
       null
   "5d7e":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <PARTY>は 宝箱を開けました。
       宝箱の中には<RET>

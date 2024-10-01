@@ -1,5 +1,7 @@
 "entries":
   "60cd":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ガービィ<C_NONE>
       来たな 皇帝陛下に そむく おろかな
@@ -17,6 +19,8 @@
     "translated": !!null |-
       null
   "6161":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ガービィ<C_NONE>
       な 何だ !? この曲は ･ ･ ･<WAIT>
@@ -26,11 +30,11 @@
     "reference_addrs":
     - !!int |-
       54935
-    - !!int |-
-      54935
     "translated": !!null |-
       null
   "6194":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>レイシア<C_NONE>
       お父さん !!
@@ -110,6 +114,8 @@
     "translated": !!null |-
       null
   "65f0":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>レイシア<C_NONE>
       どうして あなたたちが ここに？
@@ -125,6 +131,8 @@
     "translated": !!null |-
       null
   "6654":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <CH1>
       おい アトラス。
@@ -142,6 +150,8 @@
     "translated": !!null |-
       null
   "66ce":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ガービィ<C_NONE>
       おれのことは 心配するな。
@@ -154,6 +164,8 @@
     "translated": !!null |-
       null
   "670d":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <CH1>
       おい アトラス。

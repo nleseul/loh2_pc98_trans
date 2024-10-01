@@ -1,5 +1,7 @@
 "entries":
   "5a04":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       これは 王子さま。

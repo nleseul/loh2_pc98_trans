@@ -1,5 +1,7 @@
 "entries":
   "5bdf":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <PARTY>は 宝箱を開けました。
       宝箱の中には<RET>

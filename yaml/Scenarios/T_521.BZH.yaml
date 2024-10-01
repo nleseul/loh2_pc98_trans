@@ -1,5 +1,7 @@
 "entries":
   "5e74":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       うちの エリーサは せっかちだから
@@ -15,6 +17,8 @@
     "translated": !!null |-
       null
   "5eec":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       <IF0184><JUMP5f94><IF0125><JUMP5f2b>何だね 君たちは？
@@ -34,6 +38,8 @@
     "translated": !!null |-
       null
   "5fec":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       おや 君たちだな？
@@ -50,6 +56,8 @@
     "translated": !!null |-
       null
   "6070":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       おう なんでい !!
@@ -63,6 +71,8 @@
     "translated": !!null |-
       null
   "60b0":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>男<C_NONE>
       この中には だんなさまの 大事な物がしまってあるんだ。
@@ -77,6 +87,8 @@
     "translated": !!null |-
       null
   "611a":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>エリーサ<C_NONE>
       <IF0184><JUMP62e5><IF0124><JUMP61d1><IF0121><JUMP6189>こんなに 屋敷が広いから いろいろとたいへんなのよ。
@@ -108,6 +120,8 @@
     "translated": !!null |-
       null
   "6336":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>エリーサ<C_NONE>
       <SET0121>まあ あんたたち やっと来たのね。
@@ -141,6 +155,8 @@
     "translated": !!null |-
       null
   "6492":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>エリーサ<C_NONE>
       はやく 横に来なさい !!
@@ -152,6 +168,8 @@
     "translated": !!null |-
       null
   "64b4":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>エリーサ<C_NONE>
       さてと ･ ･ ･ それじゃあ
@@ -197,6 +215,8 @@
     "translated": !!null |-
       null
   "66f3":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>エリーサ<C_NONE>
       これが 全部庭だから そう簡単には
@@ -211,6 +231,8 @@
     "translated": !!null |-
       null
   "6751":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>エリーサ<C_NONE>
       なによ うるさいわね !!
@@ -224,6 +246,8 @@
     "translated": !!null |-
       null
   "67a5":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>町長<C_NONE>
       <IF0124><JUMP6ac6><IF0123><JUMP6a78>そうか これで あいつを 助けて
@@ -271,11 +295,11 @@
       54772
     - !!int |-
       27263
-    - !!int |-
-      27263
     "translated": !!null |-
       null
   "6af1":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>エリーサ<C_NONE>
       お帰りなさいませ。
@@ -296,6 +320,8 @@
     "translated": !!null |-
       null
   "6ba2":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ナレサ隊長<C_NONE>
       <SET0122>それじゃ 考えておいてくれ。

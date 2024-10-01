@@ -1,55 +1,57 @@
 "entries":
   "7170":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       グロルＡ<RET>
     "original_byte_length": !!int |-
       9
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "71b0":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       グロルＢ<RET>
     "original_byte_length": !!int |-
       9
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "71f0":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       グロルＣ<RET>
     "original_byte_length": !!int |-
       9
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "7230":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       グロルＤ<RET>
     "original_byte_length": !!int |-
       9
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "74bd":
+    "is_relocatable": !!bool |-
+      false
     "original": |-
       グロルが現れた。<RET_N>
     "original_byte_length": !!int |-
       17
-    "reference_addrs":
-    - !!null |-
-      null
+    "reference_addrs": []
     "translated": !!null |-
       null
   "74e0":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <ACTOR>の運のよさが 11 <RET>
     "original_byte_length": !!int |-
@@ -57,11 +59,11 @@
     "reference_addrs":
     - !!int |-
       61536
-    - !!int |-
-      61536
     "translated": !!null |-
       null
   "74fd":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       さがった。<RET_PAGE>
     "original_byte_length": !!int |-
@@ -69,11 +71,11 @@
     "reference_addrs":
     - !!int |-
       61542
-    - !!int |-
-      61542
     "translated": !!null |-
       null
   "7508":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       グロルはゆで上がってしまった。<RET_PAGE>
     "original_byte_length": !!int |-
@@ -81,11 +83,11 @@
     "reference_addrs":
     - !!int |-
       61505
-    - !!int |-
-      61505
     "translated": !!null |-
       null
   "7527":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       グロルのまわりの水からイグナが
       伝わってきた !!<RET_PAGE>

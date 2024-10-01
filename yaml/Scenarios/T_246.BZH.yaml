@@ -1,5 +1,7 @@
 "entries":
   "5caa":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>情報屋 トミー<C_NONE>
       なあ なあ なあ なあ なあ
@@ -15,6 +17,8 @@
     "translated": !!null |-
       null
   "5d1f":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>老人<C_NONE>
       情報屋 トミーが 地底人が どうのと
@@ -29,6 +33,8 @@
     "translated": !!null |-
       null
   "5db7":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>漁師<C_NONE>
       よお シーラスって魚 知ってるか？
@@ -51,6 +57,8 @@
     "translated": !!null |-
       null
   "5ed2":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>ジゴ<C_NONE>
       <IF0408><JUMP5efc>やあ 王子さま 元気そうだな。<END>
@@ -64,6 +72,8 @@
     "translated": !!null |-
       null
   "5f2f":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>船員<C_NONE>
       <IF0405><JUMP5f81>さあ いらっしゃい。
@@ -83,6 +93,8 @@
     "translated": !!null |-
       null
   "5ff3":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>船員<C_NONE>
       世界３大名所めぐりのクルージングはいかがですか。
@@ -101,6 +113,8 @@
     "translated": !!null |-
       null
   "60e5":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>船員<C_NONE>
       何で こんな物を おれたちが
@@ -118,6 +132,8 @@
     "translated": !!null |-
       null
   "6184":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>船員<C_NONE>
       あー もう 腕が疲れて 動けねえよ。
@@ -130,6 +146,8 @@
     "translated": !!null |-
       null
   "61de":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <C_YELLOW>道具屋<C_NONE>
       いらっしゃいませ。
@@ -142,6 +160,8 @@
     "translated": !!null |-
       null
   "6216":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       また来てくださいね。
     "original_byte_length": !!int |-
@@ -149,13 +169,11 @@
     "reference_addrs":
     - !!int |-
       55163
-    - !!int |-
-      55163
-    - !!int |-
-      55163
     "translated": !!null |-
       null
   "622b":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       おや？これ以上持てないようですね。
 
@@ -168,6 +186,8 @@
     "translated": !!null |-
       null
   "624f":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       どれを買ってくれますか？
       <RET_N>
@@ -179,6 +199,8 @@
     "translated": !!null |-
       null
   "6269":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       <ITEM>だね。
       どうも ありがとう。
@@ -192,6 +214,8 @@
     "translated": !!null |-
       null
   "628e":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       どれを 売ってくれますか？
       <RET_N>
@@ -203,6 +227,8 @@
     "translated": !!null |-
       null
   "62a9":
+    "is_relocatable": !!bool |-
+      true
     "original": |2-
        Gold になるけど
       それでも よろしいですか？
@@ -215,6 +241,8 @@
     "translated": !!null |-
       null
   "62d5":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       それは残念です。
 
@@ -227,6 +255,8 @@
     "translated": !!null |-
       null
   "62e7":
+    "is_relocatable": !!bool |-
+      true
     "original": |-
       どうも ありがとうございます。
       <RET_N>
