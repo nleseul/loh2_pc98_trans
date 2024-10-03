@@ -2,6 +2,8 @@
   "5b2a":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       <IF0130><JUMP5b9a><SET0130>おおっ !! せ、戦士の笛 !!
@@ -22,6 +24,8 @@
   "5bf1":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       <IF0131><JUMP5cb4><SET0131>よう お前ら よく平気だったな。
@@ -46,6 +50,8 @@
   "5d19":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>子ども<C_NONE>
       あー つまんないよー。
@@ -60,6 +66,8 @@
   "5d51":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>女<C_NONE>
       この子 カゼを ひいてしまったのよ。まだなおってないくせに 外に遊びに
@@ -74,6 +82,8 @@
   "5db7":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>老人<C_NONE>
       <IF0132><JUMP5dca><SET0132><JUMP5deb><LOC5dca><IF0144><JUMP60a4><IF013d><JUMP6153><IF013c><JUMP60de><IF0134><JUMP6072><IF0460><JUMP60a4><JUMP6072><LOC5deb>おお これは 珍しい方が おみえに
@@ -148,6 +158,8 @@
   "6290":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       昔は この村も プロスの収容所に
@@ -170,6 +182,8 @@
   "6386":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>女<C_NONE>
       プロスには昔から収容所があったけどあそこから 脱走できた人は だれも
@@ -187,6 +201,8 @@
   "640c":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ヤミ屋<C_NONE>
       らっしゃい !! どんな ご用で？<RET_N>
@@ -200,6 +216,8 @@
   "6433":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       まいどー。
     "original_byte_length": !!int |-
@@ -212,6 +230,8 @@
   "643e":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       お客さん 冗談はいけねえや。
       それ以上は 持てねえんだぜ。
@@ -227,6 +247,8 @@
   "6477":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       なにを買うんでい？
       <RET_N>
@@ -240,6 +262,8 @@
   "648b":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <ITEM>かい。
       へい まいど どうも。
@@ -255,6 +279,8 @@
   "64b1":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       どれを 売るんでい？
       <RET_N>
@@ -268,6 +294,8 @@
   "64c6":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |2-
        Gold だよ。いいかい？
       <RET_N>
@@ -281,6 +309,8 @@
   "64de":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       ひやかしは よくねえよ。
 
@@ -295,6 +325,8 @@
   "64f7":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       わりいね。
       <RET_N>

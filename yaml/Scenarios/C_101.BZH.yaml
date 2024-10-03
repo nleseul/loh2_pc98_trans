@@ -2,6 +2,8 @@
   "5a4f":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ジェストン<C_NONE>
       <IF0068><JUMP601c><IF0050><JUMP5fc6>よく参られた アトラス王子。
@@ -124,6 +126,8 @@
   "62e5":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>オーエン<C_NONE>
       <IF0050><JUMP6340>私は 側近のオーエンです。
@@ -146,6 +150,8 @@
   "63fb":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       ジェストンさまは 独身だから
@@ -160,6 +166,8 @@
   "643f":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       １階にいる 候補の中から 後継ぎを
@@ -175,6 +183,8 @@
   "649b":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       <IF0050><JUMP64f6>お待ちしておりました。
@@ -191,6 +201,8 @@
   "6533":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       <IF0068><JUMP65d9><IF0050><JUMP658d>王子さま、お話は 門番から

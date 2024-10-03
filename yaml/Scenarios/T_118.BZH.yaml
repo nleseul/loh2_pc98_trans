@@ -2,6 +2,8 @@
   "5b67":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL61ec>モンスターが 出てきたときは また
       昔のように 悪神 アグニージャが
@@ -18,6 +20,8 @@
   "5be9":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL61ec>ラヌーラでは セリスの城を 建て直すために たいへんなんだそうだ。
     "original_byte_length": !!int |-
@@ -30,6 +34,8 @@
   "5d53":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL61ec>ボアード海運の ボアードは
       元海賊だって うわさだぜ。
@@ -47,6 +53,8 @@
   "5de6":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>女<C_NONE>
       一時は どうなることかと思ったけど
@@ -62,6 +70,8 @@
   "5e49":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       モンスターが いなくなったとたんに
@@ -77,6 +87,8 @@
   "5ea3":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       お客さん 切符をお願いします。
@@ -96,6 +108,8 @@
   "5f4d":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       モンスターが いなくなったから
@@ -113,6 +127,8 @@
   "5fdf":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>呪文屋<C_NONE>
       おや いらっしゃい。
@@ -134,6 +150,8 @@
   "608c":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       また おいでください。
     "original_byte_length": !!int |-
@@ -146,6 +164,8 @@
   "60a2":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       おや？これ以上持てないようですね。
 
@@ -160,6 +180,8 @@
   "60c6":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       どれを買ってくれますか？
       <RET_N>
@@ -173,6 +195,8 @@
   "60e0":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <ITEM>だね。
       どうも ありがとう。
@@ -188,6 +212,8 @@
   "60fd":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>女<C_NONE>
       いらっしゃいませ。
@@ -208,17 +234,13 @@
   "61ec":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE><RET_N>
     "original_byte_length": !!int |-
       7
-    "reference_addrs":
-    - !!int |-
-      23400
-    - !!int |-
-      23530
-    - !!int |-
-      23892
+    "reference_addrs": []
     "translated": !!null |-
       null
 "note": ""

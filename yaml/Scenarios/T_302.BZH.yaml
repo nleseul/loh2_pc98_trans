@@ -2,6 +2,8 @@
   "5bb2":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>船長<C_NONE>
       この船は モレストン共和国の
@@ -17,6 +19,8 @@
   "5c03":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>船長<C_NONE>
       お客さん 切符 持ってるかい？
@@ -36,6 +40,8 @@
   "5cca":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       ちょっと あなたたち 足もとに
@@ -55,6 +61,8 @@
   "5d98":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>女<C_NONE>
       ここの定期船は とっても時間に
@@ -70,6 +78,8 @@
   "5dea":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>女<C_NONE>
       発明家のハリーさんは 昔から
@@ -88,6 +98,8 @@
   "5e8a":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>老人<C_NONE>
       <IF_NOT00f5><JUMP5f18>エメのオアシスのそばに 竜の卵が
@@ -108,6 +120,8 @@
   "5f6c":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       はい いらしゃい。
@@ -128,6 +142,8 @@
   "603c":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>武器屋<C_NONE>
       いらっしゃい。<RET_N>
@@ -141,6 +157,8 @@
   "6054":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       またどうぞ。
     "original_byte_length": !!int |-
@@ -153,6 +171,8 @@
   "6061":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>道具屋<C_NONE>
       いらっしゃいませ。
@@ -167,6 +187,8 @@
   "6099":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       また来てくださいね。
     "original_byte_length": !!int |-
@@ -179,6 +201,8 @@
   "60ae":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       おや？これ以上持てないようですね。
 
@@ -193,6 +217,8 @@
   "60d2":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       どれを買ってくれますか？
       <RET_N>
@@ -206,6 +232,8 @@
   "60ec":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <ITEM>だね。
       どうも ありがとう。
@@ -221,6 +249,8 @@
   "6111":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       どれを 売ってくれますか？
       <RET_N>
@@ -234,6 +264,8 @@
   "612c":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |2-
        Gold になるけど
       それでも よろしいですか？
@@ -248,6 +280,8 @@
   "6158":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       それは残念です。
 
@@ -262,6 +296,8 @@
   "616a":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       どうも ありがとうございます。
       <RET_N>

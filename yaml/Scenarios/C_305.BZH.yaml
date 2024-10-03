@@ -2,6 +2,8 @@
   "5b14":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>アートス国王<C_NONE>
       <IF0015><JUMP5c22>アトラス、セリオス殿には
@@ -30,6 +32,8 @@
   "5c92":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>クレア王妃<C_NONE>
       <IF0015><JUMP5cf6>あなたは 私たちの 孫でも
@@ -47,6 +51,8 @@
   "5d58":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       <IF_NOT00f5><JUMP5e68>モンスターなんて ２０年ぶりですね。そういえば あのときは たいへん
@@ -69,6 +75,8 @@
   "5eac":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       <IF_NOT00f5><JUMP5ef6>うーむ また 昔のように 破壊神が
@@ -89,6 +97,8 @@
   "5f7f":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       えっ あなたが ディーナさまの !?
@@ -107,6 +117,8 @@
   "6017":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       ソルディスには もともと
@@ -126,6 +138,8 @@
   "60da":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       あーあ 今日も いい天気ですね。
@@ -141,6 +155,8 @@
   "6133":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ハリー<C_NONE>
       あっ ちょっと きみたち。

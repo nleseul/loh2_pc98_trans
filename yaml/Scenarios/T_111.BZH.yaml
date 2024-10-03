@@ -2,6 +2,8 @@
   "5b75":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL6c51>ずっと昔から たっていた
       グエンの塔が あんな地震ごときで
@@ -19,6 +21,8 @@
   "5bf7":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL6c51><IF0032><JUMP5c3b>もうすぐ 竜の祭だから ラヌーラへ
       行くやつが 増えてきたな。<END>
@@ -34,6 +38,8 @@
   "5ea2":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL6c51>ボアード海運の ボアードは
       元海賊だって うわさだぜ。
@@ -51,6 +57,8 @@
   "5f35":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL6c51>お前たち 竜の祭を 見に行くのか？
       うらやましいな。
@@ -68,6 +76,8 @@
   "5fe7":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>女<C_NONE>
       昔のラヌーラは 税金が高くて
@@ -91,6 +101,8 @@
   "60f6":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       船の中は 竜の祭の見物客で
@@ -106,6 +118,8 @@
   "614c":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       お客さん 切符をお願いします。
@@ -136,13 +150,13 @@
     "reference_addrs":
     - !!int |-
       54650
-    - !!int |-
-      27693
     "translated": !!null |-
       null
   "633f":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       <SET0033>ここの呪文屋は こっとう品を
@@ -160,6 +174,8 @@
   "63ba":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL6c58>おや いらっしゃい。
       <IF0030><JUMP63dd><IF0034><JUMP6519><LOC63dd>サイレスの呪文は いかがですか？
@@ -254,16 +270,14 @@
       1775
     "reference_addrs":
     - !!int |-
-      25731
-    - !!int |-
       54804
-    - !!int |-
-      25879
     "translated": !!null |-
       null
   "6aa9":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |2-
 
 
@@ -279,16 +293,14 @@
       <RET>
     "original_byte_length": !!int |-
       171
-    "reference_addrs":
-    - !!int |-
-      26313
-    - !!int |-
-      27251
+    "reference_addrs": []
     "translated": !!null |-
       null
   "6b5c":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>女<C_NONE>
       いらっしゃいませ。
@@ -309,49 +321,25 @@
   "6c51":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE><RET_N>
     "original_byte_length": !!int |-
       7
-    "reference_addrs":
-    - !!int |-
-      23544
-    - !!int |-
-      24374
-    - !!int |-
-      24227
-    - !!int |-
-      23414
+    "reference_addrs": []
     "translated": !!null |-
       null
   "6c58":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>呪文屋<C_NONE><RET_N>
     "original_byte_length": !!int |-
       9
-    "reference_addrs":
-    - !!int |-
-      27043
-    - !!int |-
-      25531
-    - !!int |-
-      27141
-    - !!int |-
-      25992
-    - !!int |-
-      26316
-    - !!int |-
-      27376
-    - !!int |-
-      26775
-    - !!int |-
-      26651
-    - !!int |-
-      26206
-    - !!int |-
-      26910
+    "reference_addrs": []
     "translated": !!null |-
       null
 "note": ""

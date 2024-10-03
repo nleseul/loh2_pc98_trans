@@ -2,6 +2,8 @@
   "5de2":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>フラッド<C_NONE>
       な、何だ お前たち？
@@ -66,6 +68,8 @@
   "614b":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CH2>
       あっ 頭が !!
@@ -122,17 +126,13 @@
   "6301":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･<RET_N>
     "original_byte_length": !!int |-
       34
-    "reference_addrs":
-    - !!int |-
-      25000
-    - !!int |-
-      24970
-    - !!int |-
-      24950
+    "reference_addrs": []
     "translated": !!null |-
       null
 "note": ""

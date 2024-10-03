@@ -2,6 +2,8 @@
   "5bd2":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL6cc6><IF00ec><JUMP5c90><SET00ec>何だ てめえは？<WAIT>
       んっ もしかすると セリオスの？
@@ -27,6 +29,8 @@
   "5cd8":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL6ce8><IF00eb><JUMP662e>な、何だよ お前ら。
       おれを ひとりにしといてくれよ。<IF_NOT00d8><JUMP662d><IF0404><JUMP5dc2>
@@ -175,14 +179,14 @@
     - !!int |-
       54768
     - !!int |-
-      26237
-    - !!int |-
       54759
     "translated": !!null |-
       null
   "670e":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL6ce1><CALL6cd3>さまは どこに行って
       しまったんだろう？
@@ -203,6 +207,8 @@
   "67c4":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL6ce1>ゲイル３世さまは 悪神を倒した
       英雄たちの ひとりなんですよ。
@@ -227,6 +233,8 @@
   "6920":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL6ce1>ドレイクの子分が しばらく
       帰ってきてない みたいだけど
@@ -245,6 +253,8 @@
   "69bc":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL6ce1>いくらがんばっても この扉は 絶対にあかねえように なってるんだ。
 
@@ -259,6 +269,8 @@
   "6a3d":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL6ce1>ドレイクのやろう あいつの子分が
       いなくなってから すっかり おかしくなっちまったんだ。
@@ -276,6 +288,8 @@
   "6af8":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL6ce1>ゲイル２世さまは ラルフという
       名前で 考古学者に なっていて
@@ -293,6 +307,8 @@
   "6b87":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL6ce1>この宝は <CALL6cd3>さまの
       一番大切な物だから だれにも
@@ -310,6 +326,8 @@
   "6c0e":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <PARTY>は 石碑を読みました。
 
@@ -326,6 +344,8 @@
   "6c5e":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <PARTY>は 石碑を読みました。
 
@@ -342,6 +362,8 @@
   "6ca8":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_GREEN>扉は 開きそうもありません。<C_NONE>
     "original_byte_length": !!int |-
@@ -354,119 +376,61 @@
   "6cc6":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ゲイル３世<C_NONE><RET_N>
     "original_byte_length": !!int |-
       13
-    "reference_addrs":
-    - !!int |-
-      23507
-    - !!int |-
-      23589
+    "reference_addrs": []
     "translated": !!null |-
       null
   "6cd3":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       大盗賊 ゲイル<RET>
     "original_byte_length": !!int |-
       14
-    "reference_addrs":
-    - !!int |-
-      27811
-    - !!int |-
-      26639
-    - !!int |-
-      26386
-    - !!int |-
-      27540
-    - !!int |-
-      25526
-    - !!int |-
-      27737
+    "reference_addrs": []
     "translated": !!null |-
       null
   "6ce1":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>盗賊<C_NONE><RET_N>
     "original_byte_length": !!int |-
       7
-    "reference_addrs":
-    - !!int |-
-      26240
-    - !!int |-
-      26913
-    - !!int |-
-      26565
-    - !!int |-
-      27528
-    - !!int |-
-      26383
-    - !!int |-
-      27385
-    - !!int |-
-      27069
-    - !!int |-
-      27198
+    "reference_addrs": []
     "translated": !!null |-
       null
   "6ce8":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ドレイク<C_NONE><RET_N>
     "original_byte_length": !!int |-
       11
-    "reference_addrs":
-    - !!int |-
-      24672
-    - !!int |-
-      24513
-    - !!int |-
-      23865
-    - !!int |-
-      24074
-    - !!int |-
-      24268
-    - !!int |-
-      26030
-    - !!int |-
-      24849
-    - !!int |-
-      23769
-    - !!int |-
-      25851
-    - !!int |-
-      25981
-    - !!int |-
-      24159
+    "reference_addrs": []
     "translated": !!null |-
       null
   "6cf3":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       モンスター<RET>
     "original_byte_length": !!int |-
       11
-    "reference_addrs":
-    - !!int |-
-      25276
-    - !!int |-
-      25001
-    - !!int |-
-      24790
-    - !!int |-
-      23702
-    - !!int |-
-      25751
-    - !!int |-
-      25340
-    - !!int |-
-      26525
+    "reference_addrs": []
     "translated": !!null |-
       null
 "note": ""

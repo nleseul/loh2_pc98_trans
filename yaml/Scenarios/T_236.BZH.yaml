@@ -2,6 +2,8 @@
   "5af4":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       おれたち夫婦は ジェラルドさまの
@@ -16,6 +18,8 @@
   "5b32":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>女<C_NONE>
       別荘の そうじは 女中さんたちが
@@ -31,6 +35,8 @@
   "5b86":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ジェラルド<C_NONE>
       <IF007b><JUMP60f4><IF007a><JUMP5e37><IF_NOT0079><JUMP5bad>おお <JUMP5c29><LOC5bad>きっ きさまら !!
@@ -141,13 +147,13 @@
     "reference_addrs":
     - !!int |-
       54657
-    - !!int |-
-      24179
     "translated": !!null |-
       null
   "6280":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ジェラルド夫人<C_NONE>
       <IF007b><JUMP62f5><SET0400>あぁ フローラ。
@@ -168,6 +174,8 @@
   "6348":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>チャーリー<C_NONE>
       <IF007b><JUMP6438><IF0400><JUMP63fa><SET0400>おお お嬢さま よくごぶじで。
@@ -193,6 +201,8 @@
   "64a7":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       お嬢さま お元気そうで 安心しました。やっぱり 誘拐じゃなかったんですね。
@@ -206,6 +216,8 @@
   "64f4":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       おら もうすぐ 釣りに行かなきゃ
@@ -221,6 +233,8 @@
   "653c":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>女中<C_NONE>
       あら お嬢さまじゃありませんか。
@@ -235,6 +249,8 @@
   "6581":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |
       <C_YELLOW>女中<C_NONE>
       お嬢さま お帰りなさい。
@@ -250,6 +266,8 @@
   "65db":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ジェニー<C_NONE>
       お嬢さま お帰りなさい。

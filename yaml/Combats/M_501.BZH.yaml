@@ -2,6 +2,8 @@
   "7170":
     "is_relocatable": !!bool |-
       false
+    "max_byte_length": !!int |-
+      16
     "original": |-
       ゴドウィン２世<RET>
     "original_byte_length": !!int |-
@@ -14,6 +16,8 @@
   "7197":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       皇帝 <JUMP7170><LOC719f>
 
@@ -30,6 +34,8 @@
   "7201":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW><CALL7197><C_NONE>
       フッハッハッハッハ

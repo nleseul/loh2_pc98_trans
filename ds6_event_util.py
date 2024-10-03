@@ -84,7 +84,7 @@ class DS6TextInstruction(DS6InstructionBase):
 @dataclass(kw_only=True)
 class DS6CodeInstruction(DS6InstructionBase):
     code:int
-    data:typing.ByteString
+    data:typing.ByteString = b''
 
     @property
     def length(self):
@@ -95,7 +95,7 @@ class DS6CodeInstruction(DS6InstructionBase):
         return int.from_bytes(self.data, byteorder='little')
 
 
-def disassemble_event(scenario_data, base_addr, start_addr, continuation_extent_end_addr=None):
+def disassemble_event(scenario_data, base_addr, start_addr, continuation_extent_end_addr=None) -> list[DS6InstructionBase]:
 
     addr = start_addr - base_addr
     instructions:list[DS6InstructionBase] = []
@@ -148,6 +148,144 @@ def disassemble_event(scenario_data, base_addr, start_addr, continuation_extent_
                 raise e
 
     return instructions
+
+
+@dataclass
+class EncodedEventLocationMarker:
+    offset:int
+    addr:int
+
+def encode_event_string(text:str, max_length=None) -> tuple[typing.ByteString, list[EncodedEventLocationMarker], list[EncodedEventLocationMarker]]:
+
+    encoded = bytearray()
+    references:list[EncodedEventLocationMarker] = []
+    locators:list[EncodedEventLocationMarker] = []
+
+    terminated = False
+
+    text = text.replace("\r", "")
+
+    while len(text) > 0:
+
+        terminated = False
+
+        if text.startswith("\n<CONT>"):
+            current_encoded_bytes = b''
+            text = text[7:]
+            continue
+
+        current_encoded_bytes = None
+
+        if text.startswith("<"):
+            tag_end_loc = text.find(">")
+            if tag_end_loc < 0:
+                raise Exception(f"Tag starting at {text[:10]} does not seem to be closed.")
+            tag_contents = text[1:tag_end_loc]
+
+            if tag_contents.startswith("LOC"):
+                if len(tag_contents) != 7:
+                    raise Exception(f"Tag <{tag_contents}> has the incorrect data length.")
+                loc_addr = int(tag_contents[3:7], base=16)
+                loc_offset = len(encoded)
+                #locators[loc_addr] = loc_offset
+                locators.append(EncodedEventLocationMarker(loc_offset, loc_addr))
+                current_encoded_bytes = b''
+                text = text[tag_end_loc + 1:]
+            elif tag_contents.startswith("X"):
+                code = int(tag_contents[1:3], base=16)
+                current_encoded_bytes = bytes([code]) + bytes.fromhex(tag_contents[3:])
+
+                code_info = EVENT_CODE_INFO[code]
+                if code_info.terminator:
+                    terminated = True
+                text = text[tag_end_loc + 1:]
+            else:
+                code, code_info = None, None
+
+                for c, i in EVENT_CODE_INFO.items():
+                    if i.mnemonic is not None and tag_contents.startswith(i.mnemonic):
+                        if code_info is None:
+                            assert(code is None)
+                            code, code_info = c, i
+                        elif len(i.mnemonic) > len(code_info.mnemonic):
+                            code, code_info = c, i
+
+                if code is None or code_info is None:
+                    raise Exception(f"Unrecognized tag <{tag_contents}>")
+
+                current_encoded_bytes = bytes([code])
+
+                data_length = code_info.length - 1
+                arg_str = tag_contents[len(code_info.mnemonic):]
+                if data_length == 0:
+                    if len(arg_str) > 0:
+                        raise Exception(f"Unexpected argument text \"{arg_str}\" following tag <{code_info.mnemonic}>")
+                elif data_length == 1:
+                    # Should only be used for character name
+                    if len(arg_str) != 1:
+                        raise Exception(f"Argument text \"{arg_str}\" following tag <{code_info.mnemonic}> has the wrong length")
+                    arg = int(arg_str)
+                    current_encoded_bytes += int.to_bytes(arg, length=1, byteorder='little')
+                elif data_length == 2:
+                    # Used for a bunch of things that need pointers
+                    if len(arg_str) != 4:
+                        raise Exception(f"Argument text \"{arg_str}\" following tag <{code_info.mnemonic}> has the wrong length")
+                    arg = int(arg_str, base=16)
+                    current_encoded_bytes += int.to_bytes(arg, length=2, byteorder='little')
+
+                    if code == 0x0f: # Jump
+                        #references.append((len(encoded) + 1, arg))
+                        references.append(EncodedEventLocationMarker(len(encoded) + 1, arg))
+                        if len(text) == 0:
+                            terminated = True
+                    elif code == 0x10: # Call
+                        #references.append((len(encoded) + 1, arg))
+                        references.append(EncodedEventLocationMarker(len(encoded) + 1, arg))
+
+
+                elif data_length == 10:
+                    # Used for the "LEADER" code
+                    if len(tag_contents) != 30:
+                        raise Exception(f"Argument text \"{arg_str}\" following tag <{code_info.mnemonic}> has the wrong length")
+                    for ref_index in range(5):
+                        call_addr = int(tag_contents[6 + ref_index*5:6 + ref_index*5 + 4], base=16)
+                        #references.append((len(encoded) + ref_index*2 + 1, call_addr))
+                        references.append(len(encoded) + ref_index*2 + 1, call_addr)
+                        current_encoded_bytes += int.to_bytes(call_addr, 2, 'little')
+                else:
+                    raise Exception(f"Unexpected data length {code_info.length} for code {code:02x} ({code_info.mnemonic})")
+
+                if code_info.terminator:
+                    terminated = True
+
+                text = text[tag_end_loc + 1:]
+
+                if code_info.newline:
+                    if text[0] != "\n":
+                        raise Exception(f"Tag <{code_info.mnemonic}> should be followed by a newline.")
+                    text = text[1:]
+        elif text.startswith("\n\n"):
+                current_encoded_bytes = b'\x05'
+                text = text[2:]
+        elif text.startswith("\n"):
+            current_encoded_bytes = b'\x01'
+            text = text[1:]
+        else:
+            current_encoded_bytes = text[0].encode(encoding='cp932')
+            text = text[1:]
+
+        if not terminated and max_length is not None and len(encoded) + len(current_encoded_bytes) > max_length - 1:
+            print("Text is too long! Truncating.")
+            break
+        elif terminated and max_length is not None and len(encoded) + len(current_encoded_bytes) > max_length:
+            raise Exception("Terminated text is too long!")
+        else:
+            encoded += current_encoded_bytes
+
+    if not terminated:
+        encoded += b'\x00'
+
+    return encoded, references, locators
 
 
 class DS6EventBlock(Block):

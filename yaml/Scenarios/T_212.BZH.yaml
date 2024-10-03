@@ -2,6 +2,8 @@
   "5b95":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <IF0400><JUMP5bfb><CH1>
       うわー こりゃ すげえ !!

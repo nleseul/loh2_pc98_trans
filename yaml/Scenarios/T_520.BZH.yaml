@@ -2,6 +2,8 @@
   "5b20":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       せ、戦士の笛 !!
@@ -19,6 +21,8 @@
   "5b8c":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>女<C_NONE>
       <IF0015><JUMP5beb>うちは 道具屋をやっているのよ。
@@ -39,6 +43,8 @@
   "5c87":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>女<C_NONE>
       新しい町長は たまに 見たこともない食べ物を くれるのよ。
@@ -55,6 +61,8 @@
   "5d1a":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>老人<C_NONE>
       わしゃ ついこの間まで この町の
@@ -72,6 +80,8 @@
   "5db2":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>老人<C_NONE>
       どうせ 町長になってもらうなら
@@ -87,6 +97,8 @@
   "5e14":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>子ども<C_NONE>
       ぼく かくれんぼ してるんだけど
@@ -103,6 +115,8 @@
   "5e76":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>子ども<C_NONE>
       ぼく かくれんぼ してたんだけど
@@ -118,6 +132,8 @@
   "5ecb":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ヤミ屋<C_NONE>
       へっへっへ どんな用だ？<RET_N>
@@ -131,6 +147,8 @@
   "5eec":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       また たのむぜ。
     "original_byte_length": !!int |-
@@ -143,6 +161,8 @@
   "5efc":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       もう 持てねえよ。
 
@@ -157,6 +177,8 @@
   "5f0f":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       どれを 買うんだ？
       <RET_N>
@@ -170,6 +192,8 @@
   "5f22":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <ITEM>だな。
       こいつは よく使えるぜ。
@@ -185,6 +209,8 @@
   "5f4b":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       どれを 売ってくれるんだ？
       <RET_N>
@@ -198,6 +224,8 @@
   "5f66":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |2-
        Gold だぜ。いいか？
       <RET_N>
@@ -211,6 +239,8 @@
   "5f7c":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       何だ 売ってくれねえのか。
 
@@ -225,6 +255,8 @@
   "5f97":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       ありがとよ。
       <RET_N>
@@ -238,6 +270,8 @@
   "5fa5":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>道具屋<C_NONE>
       いらっしゃいませ。
@@ -252,6 +286,8 @@
   "5fdd":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       また来てくださいね。
     "original_byte_length": !!int |-
@@ -264,6 +300,8 @@
   "5ff2":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       おや？これ以上持てないようですね。
 
@@ -278,6 +316,8 @@
   "6016":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       どれを買ってくれますか？
       <RET_N>
@@ -291,6 +331,8 @@
   "6030":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <ITEM>だね。
       どうも ありがとう。
@@ -306,6 +348,8 @@
   "6055":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       どれを 売ってくれますか？
       <RET_N>
@@ -319,6 +363,8 @@
   "6070":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |2-
        Gold になるけど
       それでも よろしいですか？
@@ -333,6 +379,8 @@
   "609c":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       それは残念です。
 
@@ -347,6 +395,8 @@
   "60ae":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       どうも ありがとうございます。
       <RET_N>

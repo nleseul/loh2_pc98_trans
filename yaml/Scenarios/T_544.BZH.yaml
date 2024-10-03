@@ -2,6 +2,8 @@
   "5aa6":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       皇帝は まだ倒していないのか？
@@ -17,6 +19,8 @@
   "5afc":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>子ども<C_NONE>
       ぼくも もっと 大きかったら
@@ -32,6 +36,8 @@
   "5b50":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>女<C_NONE>
       もう みんな 皇帝を倒して 新しい
@@ -46,6 +52,8 @@
   "5b99":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>女<C_NONE>
       私も 皇帝を倒すのに 協力したいと
@@ -61,6 +69,8 @@
   "5bee":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ヤミ屋<C_NONE>
       らっしゃい !! どんな ご用で？<RET_N>
@@ -74,6 +84,8 @@
   "5c15":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       まいどー。
     "original_byte_length": !!int |-
@@ -86,6 +98,8 @@
   "5c20":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       お客さん 冗談はいけねえや。
       それ以上は 持てねえんだぜ。
@@ -101,6 +115,8 @@
   "5c59":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       なにを買うんでい？
       <RET_N>
@@ -114,6 +130,8 @@
   "5c6d":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <ITEM>かい。
       へい まいど どうも。
@@ -129,6 +147,8 @@
   "5c93":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       どれを 売るんでい？
       <RET_N>
@@ -142,6 +162,8 @@
   "5ca8":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |2-
        Gold だよ。いいかい？
       <RET_N>
@@ -155,6 +177,8 @@
   "5cc0":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       ひやかしは よくねえよ。
 
@@ -169,6 +193,8 @@
   "5cd9":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       わりいね。
       <RET_N>

@@ -2,6 +2,8 @@
   "5ab3":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       おや 今度は あんたたちかい。
@@ -28,6 +30,8 @@
   "5bd4":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       この町の 奥にある ゆうれい屋敷は
@@ -51,6 +55,8 @@
   "5d17":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       なあなあ 見ちゃったんだよ おれ !!
@@ -75,6 +81,8 @@
   "5e2c":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>老人<C_NONE>
       ジェラルド氏は 今でこそ この町の
@@ -92,6 +100,8 @@
   "5eed":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>女<C_NONE>
       この先にある 大きな館は 町長の
@@ -114,6 +124,8 @@
   "600b":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ジェラルド夫人<C_NONE>
       えーと 昨日が ネックレスで
@@ -129,6 +141,8 @@
   "6077":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>道具屋<C_NONE>
       いらっしゃい。ここは 道具屋だけど

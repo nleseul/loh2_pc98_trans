@@ -2,6 +2,8 @@
   "59e7":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>モーガン<C_NONE>
       もう わしゃ 何もせんぞ。
@@ -18,6 +20,8 @@
   "5a35":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>サミー<C_NONE>
       おっさんが 抜け穴を掘ったせいで

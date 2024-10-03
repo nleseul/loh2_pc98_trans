@@ -2,6 +2,8 @@
   "5af5":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ジーナ<C_NONE>
       <IF0128><JUMP5b0a><IF0014><JUMP5b4a><LOC5b0a>な、何だい このスライム男が
@@ -18,6 +20,8 @@
   "5b80":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>船員<C_NONE>
       この多島海のあたりには 竜の卵が
@@ -32,6 +36,8 @@
   "5bdf":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>船員<C_NONE>
       いったい 何が起こったんだろうな？
@@ -49,6 +55,8 @@
   "5c63":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>船員<C_NONE>
       あーあ ヒマだなー
@@ -66,6 +74,8 @@
   "5cd4":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>船員<C_NONE>
       ジーナさんって こわいんだよな。
@@ -81,6 +91,8 @@
   "5d2b":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>船員<C_NONE>
       な、何だよ おれたちゃ バクチ
@@ -99,6 +111,8 @@
   "5dd6":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>船員<C_NONE>
       <IF009d><JUMP5e60>おっと 気をつけてくれよ。
@@ -123,6 +137,8 @@
   "5ee1":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>船員<C_NONE>
       ここには 変わった宝石が たくさん
@@ -137,6 +153,8 @@
   "5f28":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": "<C_YELLOW>ジゴ<C_NONE>\nあー いてー ･ ･ ･ \n社長とジーナさんと 両方から\nボコボコに されちまったよ。"
     "original_byte_length": !!int |-
       82
@@ -148,6 +166,8 @@
   "5f7a":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ボアード<C_NONE>
       <IF009d><JUMP63ad><IF009e><JUMP63db><Xf63fd6><JUMP616a><IF010b><JUMP5fb8><CALL64ad>酒でも 手に入ったのか？<END>
@@ -216,23 +236,19 @@
       1331
     "reference_addrs":
     - !!int |-
-      25685
-    - !!int |-
       54717
     "translated": !!null |-
       null
   "64ad":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       おう お前らじゃねえか 元気そうだな。<RET>
     "original_byte_length": !!int |-
       37
-    "reference_addrs":
-    - !!int |-
-      24514
-    - !!int |-
-      24478
+    "reference_addrs": []
     "translated": !!null |-
       null
 "note": ""

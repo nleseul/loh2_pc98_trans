@@ -2,6 +2,8 @@
   "5bac":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ドレイク<C_NONE>
       な、何だよ お前ら？
@@ -23,14 +25,14 @@
     - !!int |-
       54760
     - !!int |-
-      23649
-    - !!int |-
       54751
     "translated": !!null |-
       null
   "5cf2":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL61fb>大盗賊 ゲイルさまは どこに行って
       しまったんだろう？
@@ -51,6 +53,8 @@
   "5db9":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL61fb>ゲイル３世さまは 英雄の
       ひとりなんですよ。
@@ -68,6 +72,8 @@
   "5e3f":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL61fb>ドレイクの子分が しばらく
       帰ってきてない みたいだけど
@@ -86,6 +92,8 @@
   "5edb":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL61fb>いくらがんばっても この扉は 絶対にあかねえように なってるんだ。
 
@@ -100,6 +108,8 @@
   "5f5c":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL61fb>ドレイクのやつ 子分が いなくなって悲しんでるのかと思ったら
       そうでも なさそうなんだ。
@@ -117,6 +127,8 @@
   "600f":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL61fb>ゲイル２世さまは ラルフという
       名前で 考古学者に なっていて
@@ -134,6 +146,8 @@
   "609e":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL61fb>この宝は 大盗賊 ゲイルさまの
       一番大切な物だから だれにも
@@ -151,6 +165,8 @@
   "612f":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <PARTY>は 石碑を読みました。
 
@@ -167,6 +183,8 @@
   "6189":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <PARTY>は 石碑を読みました。
 
@@ -183,6 +201,8 @@
   "61dd":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_GREEN>扉は 開きそうもありません。<C_NONE>
     "original_byte_length": !!int |-
@@ -195,27 +215,13 @@
   "61fb":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>盗賊<C_NONE><RET_N>
     "original_byte_length": !!int |-
       7
-    "reference_addrs":
-    - !!int |-
-      24128
-    - !!int |-
-      23652
-    - !!int |-
-      24592
-    - !!int |-
-      23795
-    - !!int |-
-      23994
-    - !!int |-
-      24284
-    - !!int |-
-      24413
-    - !!int |-
-      24735
+    "reference_addrs": []
     "translated": !!null |-
       null
 "note": ""

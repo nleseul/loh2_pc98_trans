@@ -2,6 +2,8 @@
   "5a3f":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL5d2b>いや これは王子さま。
       いろいろな うわさがあるようですが
@@ -19,6 +21,8 @@
   "5add":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL5d2b>ルドラにいる じいさんの話だと
       バーバラという司祭が 目の前で
@@ -36,6 +40,8 @@
   "5b9c":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL5d2b>私は セリオスさまたちのおかげで
       モンスターが 出てこなくなったと
@@ -57,6 +63,8 @@
   "5c6b":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL5d32>まあ アトラス王子さま。
 
@@ -73,6 +81,8 @@
   "5cd9":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL5d32>屋上にいる 発明家のハリーさんは
       クリが きらいなんですよ。
@@ -87,31 +97,25 @@
   "5d2b":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE><RET_N>
     "original_byte_length": !!int |-
       7
-    "reference_addrs":
-    - !!int |-
-      23104
-    - !!int |-
-      23453
-    - !!int |-
-      23262
+    "reference_addrs": []
     "translated": !!null |-
       null
   "5d32":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>侍女<C_NONE><RET_N>
     "original_byte_length": !!int |-
       7
-    "reference_addrs":
-    - !!int |-
-      23770
-    - !!int |-
-      23660
+    "reference_addrs": []
     "translated": !!null |-
       null
 "note": ""

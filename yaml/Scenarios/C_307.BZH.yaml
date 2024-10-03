@@ -2,6 +2,8 @@
   "5b14":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>アートス国王<C_NONE>
       アトラス よくぞ モンスターの出現を止めてくれた。
@@ -18,6 +20,8 @@
   "5bb0":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>クレア王妃<C_NONE>
       アトラス王子 あなたが このさわぎをしずめたそうですね。
@@ -34,6 +38,8 @@
   "5c26":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       王子さま セリオスさまたちは
@@ -48,6 +54,8 @@
   "5c63":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       王子さま 世界中の竜の卵が もとに
@@ -67,6 +75,8 @@
   "5d07":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       これは アトラス王子さま。
@@ -81,6 +91,8 @@
   "5d44":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       ソルディスには もともと
@@ -98,6 +110,8 @@
   "5dbc":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       あーあ 今日も いい天気ですね。
@@ -113,6 +127,8 @@
   "5e15":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ハリー<C_NONE>
       あっ ちょっと きみたち。

@@ -2,6 +2,8 @@
   "59af":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_GREEN>扉には カギがかかっています。<C_NONE>
     "original_byte_length": !!int |-

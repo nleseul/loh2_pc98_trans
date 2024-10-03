@@ -2,6 +2,8 @@
   "5ac8":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ハンス<C_NONE>
       先日 セリオスさまたちが ここに
@@ -20,6 +22,8 @@
   "5b67":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>補佐官<C_NONE>
       今までは わが国の兵士たちも かなり頼りになると 思っていたのです。
@@ -36,6 +40,8 @@
   "5c0a":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>役人<C_NONE>
       兵士たちの 訓練を強化するには
@@ -50,6 +56,8 @@
   "5c66":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>役人<C_NONE>
       ふぅ ･ ･ ･ お役所仕事も 疲れるよ。こうやって 一日中 ボーっと
@@ -66,6 +74,8 @@
   "5d03":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>役人<C_NONE>
       ハンス大統領は 国民の声を 親身に
@@ -81,6 +91,8 @@
   "5d59":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>女<C_NONE>
       昔 英雄たちの手で 滅ぼされた
@@ -96,6 +108,8 @@
   "5db6":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ジーラ<C_NONE>
       むむむっ お前さんがた 旅人じゃな？いい話をきかせてやろう。
@@ -120,6 +134,8 @@
   "5ef5":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>娘<C_NONE>
       うちの おばあちゃんて 昔の話を
@@ -137,6 +153,8 @@
   "5f5a":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>女<C_NONE>
       よかったわぁ また平和になって。
@@ -150,6 +168,8 @@
   "5f7f":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       狼の口に 逃げていた 盗賊たちが
@@ -165,6 +185,8 @@
   "5fd6":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       これから 訓練をきびしくするって
@@ -180,6 +202,8 @@
   "602d":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>呪文屋<C_NONE>
       いらっしゃいませ。<RET_N>
@@ -193,6 +217,8 @@
   "6049":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       また お願いします。
     "original_byte_length": !!int |-
@@ -205,6 +231,8 @@
   "605d":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       お客さん もう持てませんわよ。
 
@@ -219,6 +247,8 @@
   "607c":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       何を お求めですか？
       <RET_N>
@@ -232,6 +262,8 @@
   "6091":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <ITEM>ですね。
       ありがとう ございます。

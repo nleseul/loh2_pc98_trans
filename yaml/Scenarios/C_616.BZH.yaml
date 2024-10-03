@@ -2,6 +2,8 @@
   "5e4d":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ゲイル３世<C_NONE>
       何だよ うるせえな。
@@ -16,6 +18,8 @@
   "5e8f":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ゲイル３世<C_NONE>
       <IF0191><JUMP5fde><IF01be><JUMP5f17><SET01be>おお 何だ アトラス王子じゃねえか。
@@ -45,6 +49,8 @@
   "601c":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <PARTY>は 宝箱を開けました。
       宝箱の中には<RET>

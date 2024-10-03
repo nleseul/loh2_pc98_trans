@@ -2,6 +2,8 @@
   "5e50":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |
       <CLEAR>      第２章　英雄たちの行方<N>
 
@@ -16,6 +18,8 @@
   "5ed4":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CLEAR><C_YELLOW>ガード<C_NONE>
       陛下 例のやつらが 何者かの

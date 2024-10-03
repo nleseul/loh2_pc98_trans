@@ -2,6 +2,8 @@
   "5d35":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <PARTY>は <RET>
     "original_byte_length": !!int |-

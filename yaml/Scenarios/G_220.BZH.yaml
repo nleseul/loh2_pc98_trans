@@ -2,6 +2,8 @@
   "5e45":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       <SET0125>ああ また迷っちゃったよ。
@@ -16,6 +18,8 @@
   "5e98":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       <SET0125>せっかく イズーで 仕事が
@@ -30,6 +34,8 @@
   "5eea":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       <SET0125>こんな迷路みたいな道じゃ 行きたい
@@ -44,6 +50,8 @@
   "5f33":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>女<C_NONE>
       <SET0125>なんて だらしのない人たちなの？

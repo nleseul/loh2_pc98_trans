@@ -2,6 +2,8 @@
   "7170":
     "is_relocatable": !!bool |-
       false
+    "max_byte_length": !!int |-
+      16
     "original": |-
       ゴドウィン２世<RET>
     "original_byte_length": !!int |-
@@ -12,6 +14,8 @@
   "71b0":
     "is_relocatable": !!bool |-
       false
+    "max_byte_length": !!int |-
+      16
     "original": |-
       Ｍ５００Ｂ<RET>
     "original_byte_length": !!int |-
@@ -22,6 +26,8 @@
   "71f0":
     "is_relocatable": !!bool |-
       false
+    "max_byte_length": !!int |-
+      16
     "original": ""
     "original_byte_length": !!int |-
       1
@@ -31,6 +37,8 @@
   "7230":
     "is_relocatable": !!bool |-
       false
+    "max_byte_length": !!int |-
+      16
     "original": ""
     "original_byte_length": !!int |-
       1
@@ -39,17 +47,23 @@
       null
   "74ac":
     "is_relocatable": !!bool |-
-      false
+      true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       皇帝 ゴドウィン２世との戦闘だ。<RET_N>
     "original_byte_length": !!int |-
       32
-    "reference_addrs": []
+    "reference_addrs":
+    - !!int |-
+      61000
     "translated": !!null |-
       null
   "74cc":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |2-
 
 
@@ -68,6 +82,8 @@
   "750f":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <ACTOR>は大きくはばたいた。<RET_N>
     "original_byte_length": !!int |-
@@ -80,6 +96,8 @@
   "7525":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <ACTOR>は炎のブレスをはいた。<RET_N>
     "original_byte_length": !!int |-

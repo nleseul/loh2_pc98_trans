@@ -2,6 +2,8 @@
   "226c":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |
       <NAME>セリオス</NAME>
       争いは、いつも、小さなすれ違いから起こる。
@@ -15,6 +17,8 @@
   "22c1":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |
       ありがとう、アトラス。
       <PAGE_PAUSE>
@@ -37,6 +41,8 @@
   "23c1":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <PAUSE>でも、お別れではないのです。
 
@@ -60,6 +66,8 @@
   "24d3":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |
       <NAME>フローラ</NAME>
       ねえ、アトラスさま。
@@ -83,6 +91,8 @@
   "2611":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |
       <NAME>ランドー</NAME>
       なに二人で、まとめちゃってんだよ！
@@ -106,6 +116,8 @@
   "2722":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |
       <NAME>アトラス</NAME>
       これからも、力になってくれるね。
@@ -124,6 +136,8 @@
   "2792":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |
       <PAUSE>女神フレイアよ。
       <PAUSE><PAUSE><PAGE>
@@ -141,6 +155,8 @@
   "2825":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |
       <NAME>レイシア</NAME>
       期待しているわ。
@@ -160,6 +176,8 @@
   "28d3":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       小さな太陽はやがて父を越え
       大きな太陽として輝く。
@@ -171,6 +189,8 @@
   "2b76":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": "        ＳＴＡＦＦ        \n\n\n\n\n\n\n\n\n         シナリオ         \n\n\
       \n\n       秋 葉  紀 好       \n\n\n\n\n\n\n\n\n\n\n        プログラム        \n\n\n\n\
       \       秋 葉  紀 好       \n\n       小 山  英 樹       \n\n\n\n\n\n\n\n\n\n\n   アート＆グラフィック\

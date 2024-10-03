@@ -2,6 +2,8 @@
   "5a6e":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       いらっしゃい ここは休憩所だが
@@ -16,6 +18,8 @@
   "5ad5":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ソニア<C_NONE>
       チャールズも アトラス王子のように
@@ -31,6 +35,8 @@
   "5b33":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ポウエル<C_NONE>
       いつまでも このような所にいても
@@ -51,6 +57,8 @@
   "5c05":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>チャールズ王子<C_NONE>
       お城に行ったら じゃまになるからと
@@ -68,6 +76,8 @@
   "5c85":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>侍女<C_NONE>
       早く お城が できないかしら。
@@ -83,6 +93,8 @@
   "5cda":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       これは アトラス王子さま。
@@ -98,6 +110,8 @@
   "5d24":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>司祭 バーバラ<C_NONE>
       アトラス王子の おかげで 聖域に

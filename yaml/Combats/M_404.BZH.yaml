@@ -2,6 +2,8 @@
   "7170":
     "is_relocatable": !!bool |-
       false
+    "max_byte_length": !!int |-
+      16
     "original": |-
       ザコンＡ<RET>
     "original_byte_length": !!int |-
@@ -12,6 +14,8 @@
   "71b0":
     "is_relocatable": !!bool |-
       false
+    "max_byte_length": !!int |-
+      16
     "original": |-
       ザコンＢ<RET>
     "original_byte_length": !!int |-
@@ -22,6 +26,8 @@
   "71f0":
     "is_relocatable": !!bool |-
       false
+    "max_byte_length": !!int |-
+      16
     "original": ""
     "original_byte_length": !!int |-
       1
@@ -31,6 +37,8 @@
   "7230":
     "is_relocatable": !!bool |-
       false
+    "max_byte_length": !!int |-
+      16
     "original": ""
     "original_byte_length": !!int |-
       1
@@ -39,12 +47,16 @@
       null
   "7319":
     "is_relocatable": !!bool |-
-      false
+      true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       ザコンが現れた。<RET_N>
     "original_byte_length": !!int |-
       17
-    "reference_addrs": []
+    "reference_addrs":
+    - !!int |-
+      61000
     "translated": !!null |-
       null
 "note": ""

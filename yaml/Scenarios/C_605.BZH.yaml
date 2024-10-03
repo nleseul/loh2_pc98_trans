@@ -2,6 +2,8 @@
   "5bfe":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>サミー<C_NONE>
       なあ なあ これなんだ？

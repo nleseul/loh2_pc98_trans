@@ -2,6 +2,8 @@
   "5bdf":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <PARTY>は 宝箱を開けました。
       宝箱の中には<RET>

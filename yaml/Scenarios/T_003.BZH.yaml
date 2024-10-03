@@ -2,6 +2,8 @@
   "5ab2":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>武器屋<C_NONE>
       これは、アトラス王子さま。
@@ -21,6 +23,8 @@
   "5b7e":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL6052>王子さまが いなくなられてから
       食事の したくを していても 何か
@@ -35,6 +39,8 @@
   "5bd2":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL6052>まあ、王子さま。
       <IF0015><JUMP5c4a>どう なさったのですか？
@@ -52,6 +58,8 @@
   "5c66":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL6059><IF_NOT00f0><JUMP5cbe>王子さま エルアスタは どんなことがあっても 守ってみせます。
       安心してください。<END>
@@ -67,6 +75,8 @@
   "5cfd":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       あ、王子さま いらっしゃい。
@@ -83,6 +93,8 @@
   "5da1":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       <IF_NOT00f0><JUMP5dfa>おや 王子さま。
@@ -103,6 +115,8 @@
   "5e66":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>女<C_NONE>
       ま、王子さま。
@@ -117,6 +131,8 @@
   "5e94":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>子供<C_NONE>
       <IF_NOT00f0><JUMP5ef7>外には 怖いモンスターがいるから
@@ -135,6 +151,8 @@
   "5f48":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>パーカー<C_NONE>
       王子さま、おら もう 抜け穴は
@@ -149,6 +167,8 @@
   "5f81":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>道具屋<C_NONE>
       <IF_NOT00f0><JUMP5ffe>どうして モンスターなんかが
@@ -169,27 +189,25 @@
   "6052":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>侍女<C_NONE><RET_N>
     "original_byte_length": !!int |-
       7
-    "reference_addrs":
-    - !!int |-
-      23507
-    - !!int |-
-      23423
+    "reference_addrs": []
     "translated": !!null |-
       null
   "6059":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE><RET_N>
     "original_byte_length": !!int |-
       7
-    "reference_addrs":
-    - !!int |-
-      23655
+    "reference_addrs": []
     "translated": !!null |-
       null
 "note": ""

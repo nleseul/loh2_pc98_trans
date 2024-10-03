@@ -2,6 +2,8 @@
   "5c75":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>オセ<C_NONE>
       わしが このシリカの村の村長じゃ。
@@ -21,6 +23,8 @@
   "5d27":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>セオラ<C_NONE>
       おやおや 珍しい。
@@ -36,6 +40,8 @@
   "5d7a":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>セリム<C_NONE>
       ここに打つと あれがこうなるから
@@ -51,6 +57,8 @@
   "5dce":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>オレム<C_NONE>
       イラ イラ イラ
@@ -66,6 +74,8 @@
   "5e1b":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>アベル<C_NONE>
       ハッハッハ これで どうじゃ？
@@ -79,6 +89,8 @@
   "5e41":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>タバル<C_NONE>
       ムムムッ また負けそうじゃ ･ ･ ･
@@ -93,6 +105,8 @@
   "5e8d":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>リゾン<C_NONE>
       この新しいゲームが できたら きっと話題になることじゃろう。
@@ -107,6 +121,8 @@
   "5ef0":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ガンク<C_NONE>
       やっぱり ゲームというものは
@@ -121,6 +137,8 @@
   "5f2e":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ハンナ<C_NONE>
       おじいさんたら たまたま ゲームで
@@ -136,6 +154,8 @@
   "5f8d":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ロデリック<C_NONE>
       <IF0204><JUMP604f>はて そこの一番でかいの。
@@ -218,6 +238,8 @@
   "64d2":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>オレア<C_NONE>
       昔 わしら賢者は ラスタバンという
@@ -239,6 +261,8 @@
   "65e9":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>アルノー<C_NONE>
       ロンドの武器屋は 呪文がよく売れて
@@ -254,6 +278,8 @@
   "664f":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ディーム<C_NONE>
       どの呪文の書が いるのじゃ？<RET_N>
@@ -267,6 +293,8 @@
   "6676":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       いらぬのか。
       それでは 必要なときに 来るがいい。
@@ -280,6 +308,8 @@
   "66a6":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <ITEM>でよいのじゃな。
     "original_byte_length": !!int |-
@@ -292,6 +322,8 @@
   "66b8":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       もう それ以上 持てぬぞ。
       持ち物を 減らしてから 来なされ。
@@ -305,6 +337,8 @@
   "66f2":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>マルク<C_NONE>
       わしゃ 呪文が 売られとる町を
@@ -321,6 +355,8 @@
   "6739":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       どの呪文のことを 知りたいのじゃ？<RET_N>
     "original_byte_length": !!int |-
@@ -333,6 +369,8 @@
   "675b":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CLEAR><ITEM>か ･ ･ ･
       それだったら <RET>
@@ -346,6 +384,8 @@
   "6774":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       に 行けば
       売っておる。
@@ -361,6 +401,8 @@
   "678c":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CLEAR>呪文の ある所を 知りたかったら
       また来るがいい。

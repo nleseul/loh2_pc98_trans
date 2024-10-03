@@ -12,12 +12,13 @@ from ds6_event_util import *
 class EntryPointInfo:
     domain:str
     target_addr:int
+    source_addr:int|None = None
 
 
 def explore(block_pool:BlockPool, entry_points:typing.List[EntryPointInfo]) -> None:
     for entry_point in entry_points:
         block = block_pool.get_block(entry_point.domain, entry_point.target_addr)
-        Link(None, entry_point.target_addr).connect_blocks(None, block)
+        Link(entry_point.source_addr, entry_point.target_addr).connect_blocks(None, block)
 
     while True:
         should_continue = False
@@ -70,7 +71,7 @@ def extract_scenario_events(scenario_data:typing.ByteString, custom_hooks:list[X
         for link in block.get_incoming_links():
             if link.source_addr is None:
                 entry.is_relocatable = False
-            else:
+            elif link.source_block is not None and isinstance(link.source_block, X86CodeBlock):
                 references.add(link.source_addr)
         entry.reference_addrs = list(references)
 
@@ -84,12 +85,12 @@ def extract_combat_events(combat_data:typing.ByteString, monster_count:int = 4) 
 
     intro_text_addr = int.from_bytes(combat_data[0x108:0x10a], byteorder='little')
     if intro_text_addr >= 0x7140:
-        entry_points.append(EntryPointInfo("event", intro_text_addr))
+        entry_points.append(EntryPointInfo("event", intro_text_addr, 0xed40 + 0x108))
 
     for entry_addr_offset in range(0x10a, 0x118, 2):
         entry_addr = int.from_bytes(combat_data[entry_addr_offset:entry_addr_offset+2], byteorder='little')
         if entry_addr >= 0xed40:
-            entry_points.append(EntryPointInfo("code", entry_addr))
+            entry_points.append(EntryPointInfo("code", entry_addr, 0xed40 + entry_addr_offset))
 
     global_code_hooks = [
         DS62_StandardEventCodeHook()
@@ -114,6 +115,9 @@ def extract_combat_events(combat_data:typing.ByteString, monster_count:int = 4) 
             else:
                 references.add(link.source_addr)
         entry.reference_addrs = list(references)
+
+        if block.start_addr < 0x7140 + 0x40*monster_count:
+            entry.max_byte_length = 0x10
 
     return trans
 

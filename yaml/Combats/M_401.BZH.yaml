@@ -2,6 +2,8 @@
   "7170":
     "is_relocatable": !!bool |-
       false
+    "max_byte_length": !!int |-
+      16
     "original": |-
       カザズーム<RET>
     "original_byte_length": !!int |-
@@ -12,6 +14,8 @@
   "71b0":
     "is_relocatable": !!bool |-
       false
+    "max_byte_length": !!int |-
+      16
     "original": ""
     "original_byte_length": !!int |-
       1
@@ -21,6 +25,8 @@
   "71f0":
     "is_relocatable": !!bool |-
       false
+    "max_byte_length": !!int |-
+      16
     "original": ""
     "original_byte_length": !!int |-
       1
@@ -30,6 +36,8 @@
   "7230":
     "is_relocatable": !!bool |-
       false
+    "max_byte_length": !!int |-
+      16
     "original": ""
     "original_byte_length": !!int |-
       1
@@ -39,6 +47,8 @@
   "754a":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL75c7><CALL75ea>この氷の壁は 破れん。
 
@@ -53,6 +63,8 @@
   "7567":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       しかし 氷の壁は壊れない。<RET_PAGE>
     "original_byte_length": !!int |-
@@ -65,6 +77,8 @@
   "758a":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <SET0041><CALL75c7>その程度の炎で この壁は破れんぞ。<IF0418><JUMP75b8>
 
@@ -78,12 +92,16 @@
       null
   "75b9":
     "is_relocatable": !!bool |-
-      false
+      true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL75df>が現れた。<RET_N>
     "original_byte_length": !!int |-
       14
     "reference_addrs":
+    - !!int |-
+      61000
     - !!int |-
       61615
     "translated": !!null |-
@@ -91,6 +109,8 @@
   "75c7":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CLEAR><C_YELLOW><CALL75df><C_NONE>
       グッハッハッハ。<RET_N>
@@ -108,6 +128,8 @@
   "75df":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       カザズーム<RET>
     "original_byte_length": !!int |-
@@ -122,6 +144,8 @@
   "75ea":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       お前らなどに <RET>
     "original_byte_length": !!int |-
@@ -136,6 +160,8 @@
   "75f8":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL75c7><CALL75ea>このおれは 倒せん。<RET>
     "original_byte_length": !!int |-

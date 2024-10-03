@@ -2,6 +2,8 @@
   "5c4e":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       まさか 宝箱の中の武器を 使うなんて思ってもいませんでしたよ。
@@ -16,6 +18,8 @@
   "5cb3":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       セリオス国王から この部屋の財宝を
@@ -34,6 +38,8 @@
   "5d48":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       これは 王子さま 武器庫に どんな
@@ -48,6 +54,8 @@
   "5d7e":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CLEAR>何を お預かりしましょう？<RET_N>
     "original_byte_length": !!int |-
@@ -60,6 +68,8 @@
   "5d99":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CLEAR>何を お渡ししましょう？<RET_N>
     "original_byte_length": !!int |-
@@ -72,6 +82,8 @@
   "5db2":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CLEAR>また 何か ご用がありましたら
       いつでも おいでください。
@@ -85,6 +97,8 @@
   "5dea":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CLEAR>王子さま 申しわけありませんが
       これ以上は 預かれません。
@@ -100,6 +114,8 @@
   "5e24":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CLEAR>王子さま もう これ以上 持ち物は
       持てないようですが ･ ･ ･
@@ -115,6 +131,8 @@
   "5e5f":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CLEAR>王子さまから お預かりしている物は
       何もございません。
@@ -130,6 +148,8 @@
   "5e96":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CLEAR>王子さま これ以上 お預かりしている物は ございません。
 
@@ -144,6 +164,8 @@
   "5ece":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <PARTY>は 宝箱を開けました。
       宝箱の中には<RET>

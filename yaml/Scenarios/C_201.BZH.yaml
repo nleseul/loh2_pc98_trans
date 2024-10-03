@@ -2,6 +2,8 @@
   "5ac6":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>エリオン国王<C_NONE>
       <UNSET0404><IF0069><JUMP5e27><SET0069>んっ !? 何か用かね？<WAIT>
@@ -56,6 +58,8 @@
   "5e63":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ポウエル<C_NONE>
       私は 以前 城に仕えていたパウエルの弟で ポウエルと申します。
@@ -72,6 +76,8 @@
   "5eec":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       この左の方の部屋は 国王さまの
@@ -86,6 +92,8 @@
   "5f2f":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       国王さまは この中だ。
@@ -101,6 +109,8 @@
   "5f8d":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       こんなに 忙しいのに 国民の話を

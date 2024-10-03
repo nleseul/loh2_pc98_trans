@@ -2,6 +2,8 @@
   "5b11":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       なんか このごろ 悪いことばかり
@@ -20,6 +22,8 @@
   "5b9e":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       おれは エメのオアシスに
@@ -45,6 +49,8 @@
   "5cb4":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>女<C_NONE>
       ねえ 知ってる？
@@ -62,6 +68,8 @@
   "5d1f":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       <IF0403><JUMP5eb6><IF0401><JUMP5e63>やあ ラヌーラに 行くのか？
@@ -93,6 +101,8 @@
   "5ee1":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       <IF0403><JUMP5fc8><IF0402><JUMP5f8b><IF0401><JUMP5f54>ほら この川って 流れが速いだろ
@@ -116,6 +126,8 @@
   "600c":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>呪文屋<C_NONE>
       いらっしゃい。<RET_N>
@@ -129,6 +141,8 @@
   "6024":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       またどうぞ。
     "original_byte_length": !!int |-
@@ -141,6 +155,8 @@
   "6031":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       おや？これ以上持てないようですね。
 
@@ -155,6 +171,8 @@
   "6055":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       どれを買ってくれますか？
       <RET_N>
@@ -168,6 +186,8 @@
   "606f":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <ITEM>だね。
       どうも ありがとう。

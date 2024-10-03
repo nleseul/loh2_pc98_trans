@@ -2,6 +2,8 @@
   "5e44":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <PARTY>は 宝箱を開けました。
       宝箱の中には<RET>
@@ -15,6 +17,8 @@
   "5e7d":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <PARTY>は 不思議な宝箱を
       開けました。
@@ -30,6 +34,8 @@
   "5e9e":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       宝箱の中には<RET>
     "original_byte_length": !!int |-
@@ -42,6 +48,8 @@
   "5eab":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       しかし 宝箱の中には 何も入って
       いませんでした。

@@ -2,6 +2,8 @@
   "5b0d":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ボアード<C_NONE>
       おう ジゴ !!
@@ -88,6 +90,8 @@
   "602d":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CH0>
       そういえば ランドー。

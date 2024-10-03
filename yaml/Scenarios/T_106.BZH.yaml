@@ -2,6 +2,8 @@
   "5bde":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>船長<C_NONE>
       やあ お客さん。
@@ -17,6 +19,8 @@
   "5c2b":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>船長<C_NONE>
       新しい船は 乗りごこちが いいぞ。
@@ -38,6 +42,8 @@
   "5d0a":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>修理工のボブ<C_NONE>
       やっと 船長が 船を 新しくして
@@ -55,6 +61,8 @@
   "5d81":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       あー 酒がうまいぜ。
@@ -70,6 +78,8 @@
   "5dca":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>老人<C_NONE>
       モンスターが いなくなって また
@@ -87,6 +97,8 @@
   "5e61":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       この町の呪文屋は モンスターが
@@ -102,6 +114,8 @@
   "5ec7":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       いらっしゃい。
@@ -124,6 +138,8 @@
   "5fce":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>バーテン<C_NONE>
       <IF0411><JUMP601e><IF0412><JUMP5feb><IF0413><JUMP6148><LOC5feb>未成年に 酒は出せないな。
@@ -157,6 +173,8 @@
   "61ae":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>呪文屋<C_NONE>
       はい いらっしゃい。
@@ -171,6 +189,8 @@
   "61e7":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       またどうぞ。
     "original_byte_length": !!int |-
@@ -183,6 +203,8 @@
   "61f4":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>道具屋<C_NONE>
       いらっしゃいませ。
@@ -197,6 +219,8 @@
   "622c":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       また来てくださいね。
     "original_byte_length": !!int |-
@@ -209,6 +233,8 @@
   "6241":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       おや？これ以上持てないようですね。
 
@@ -223,6 +249,8 @@
   "6265":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       どれを買ってくれますか？
       <RET_N>
@@ -236,6 +264,8 @@
   "627f":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <ITEM>だね。
       どうも ありがとう。
@@ -251,6 +281,8 @@
   "62a4":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       どれを 売ってくれますか？
       <RET_N>
@@ -264,6 +296,8 @@
   "62bf":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |2-
        Gold になるけど
       それでも よろしいですか？
@@ -278,6 +312,8 @@
   "62eb":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       それは残念です。
 
@@ -292,6 +328,8 @@
   "62fd":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       どうも ありがとうございます。
       <RET_N>

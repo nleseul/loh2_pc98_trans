@@ -2,6 +2,8 @@
   "5b2d":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       王子さま、竜の卵は 不吉な物
@@ -17,6 +19,8 @@
   "5b82":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       こんなことに なるんだったら
@@ -32,6 +36,8 @@
   "5bd2":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       <IF0015><JUMP5c2b>あっ 王子さま、モンスターが
@@ -53,6 +59,8 @@
   "5cdf":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       王子さま、武器屋のスコットは
@@ -72,6 +80,8 @@
   "5dae":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       <IF0015><JUMP5e10>いくら モンスターが 出てきても
@@ -92,6 +102,8 @@
   "5ec8":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>女<C_NONE>
       <IF0015><JUMP5f38>クルスが つぶされたそうですよ。
@@ -110,6 +122,8 @@
   "5fe1":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>女<C_NONE>
       竜の卵が 出てきたのは いいことの
@@ -124,6 +138,8 @@
   "604b":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>老人<C_NONE>
       アロン殿は クルスの村が つぶされてしまったので すっかり 気落ちして
@@ -138,6 +154,8 @@
   "60a2":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       <IF0015><JUMP6141>モンスターが 現れたというのに
@@ -162,6 +180,8 @@
   "61d4":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       <IF0015><JUMP6234>王子さま ご安心ください。
@@ -182,6 +202,8 @@
   "62ec":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>スコット<C_NONE>
       あっ これは 王子さま。
@@ -203,6 +225,8 @@
   "63cb":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>アロン<C_NONE>
       おお これは アトラスさま。
@@ -221,6 +245,8 @@
   "645c":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>女<C_NONE>
       <IF0015><JUMP6504>モンスターが 攻めてきたとき 村には私と アロンさんしか いなかったの。
@@ -241,6 +267,8 @@
   "6556":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>バーテン<C_NONE>
       これは王子さま、いらっしゃいませ。お酒は 出せませんが ゆっくり
@@ -255,6 +283,8 @@
   "65b9":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>道具屋<C_NONE>
       おや 王子さま、いらっしゃい。
@@ -269,6 +299,8 @@
   "65fc":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       また来てくださいね。
     "original_byte_length": !!int |-
@@ -281,6 +313,8 @@
   "6611":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       おや？これ以上持てないようですね。
 
@@ -295,6 +329,8 @@
   "6635":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       どれを買ってくれますか？
       <RET_N>
@@ -308,6 +344,8 @@
   "664f":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <ITEM>だね。
       どうも ありがとう。
@@ -323,6 +361,8 @@
   "6674":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       どれを 売ってくれますか？
       <RET_N>
@@ -336,6 +376,8 @@
   "668f":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |2-
        Gold になるけど
       それでも よろしいですか？
@@ -350,6 +392,8 @@
   "66bb":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       それは残念です。
 
@@ -364,6 +408,8 @@
   "66cd":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       どうも ありがとうございます。
       <RET_N>

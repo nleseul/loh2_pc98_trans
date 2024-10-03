@@ -2,6 +2,8 @@
   "5b39":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CH2>
       あぁ ･ ･ ･ おそかった ･ ･ ･

@@ -2,6 +2,8 @@
   "5d2c":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <IF0403><JUMP5d89><C_YELLOW>チャーリー<C_NONE>
       <IF0407><JUMP5f2f><IF0406><JUMP5e65><UNSET0404><SET0405>また おじゃましますよ。
@@ -50,6 +52,8 @@
   "5fba":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       <IF0061><JUMP6033><IF0405><JUMP601a>城に なにか用か？
@@ -74,6 +78,8 @@
   "60ea":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       <IF0061><JUMP618d><IF0405><JUMP6157>竜の祭が 終わるまでは 出国の
@@ -91,14 +97,14 @@
       317
     "reference_addrs":
     - !!int |-
-      24600
-    - !!int |-
       54777
     "translated": !!null |-
       null
   "622f":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>子供<C_NONE>
       お祭の日は おこづかいが いっぱい
@@ -116,6 +122,8 @@
   "629c":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>老人<C_NONE>
       ふぉっふぉっふぉ。
@@ -134,6 +142,8 @@
   "6338":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       ねえさんたちは 毎年 竜の祭を
@@ -148,6 +158,8 @@
   "638d":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       私は モレストンの リシェールの港で道具屋と呪文屋を やってるんです。
@@ -164,6 +176,8 @@
   "640a":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>女<C_NONE>
       私は ある事件を きっかけに とても
@@ -182,6 +196,8 @@
   "64aa":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>女<C_NONE>
       うちの おじいちゃんは お祭が
@@ -199,6 +215,8 @@
   "653e":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ギャリー<C_NONE>
       あの大地震で 竜の祭が 中止になると思っておったのじゃが どうやら
@@ -215,6 +233,8 @@
   "65c2":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       なにぃ 誕生日だとぉ。それじゃ
@@ -230,6 +250,8 @@
   "661e":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       あんたたち 祭を 見にきたのかい？
@@ -245,6 +267,8 @@
   "667d":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       そろそろ ギャリーじいさんの 元気が出てきたみたいだな。
@@ -262,6 +286,8 @@
   "6714":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>武器屋<C_NONE>
       いらっしゃい。<RET_N>
@@ -275,6 +301,8 @@
   "672c":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       またどうぞ。
     "original_byte_length": !!int |-
@@ -287,6 +315,8 @@
   "6739":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>道具屋<C_NONE>
       いらっしゃいませ。
@@ -301,6 +331,8 @@
   "6771":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       また来てくださいね。
     "original_byte_length": !!int |-
@@ -313,6 +345,8 @@
   "6786":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>バーテン<C_NONE>
       １杯 いかがですか？<Xf69229><JUMP67b8><CLEAR><IF0410><JUMP67fe><IF0411><JUMP6869><END>
@@ -338,6 +372,8 @@
   "68bb":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       おや？これ以上持てないようですね。
 
@@ -352,6 +388,8 @@
   "68df":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       どれを買ってくれますか？
       <RET_N>
@@ -365,6 +403,8 @@
   "68f9":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <ITEM>だね。
       どうも ありがとう。
@@ -380,6 +420,8 @@
   "691e":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       どれを 売ってくれますか？
       <RET_N>
@@ -393,6 +435,8 @@
   "6939":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |2-
        Gold になるけど
       それでも よろしいですか？
@@ -407,6 +451,8 @@
   "6965":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       それは残念です。
 
@@ -421,6 +467,8 @@
   "6977":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       どうも ありがとうございます。
       <RET_N>

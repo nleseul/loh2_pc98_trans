@@ -2,6 +2,8 @@
   "5c08":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ダリス<C_NONE>
       しぶといやつだな。
@@ -23,6 +25,8 @@
   "5cb4":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ダリス<C_NONE>
       なんだ お前らは？
@@ -48,6 +52,8 @@
   "5d7b":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CH0>
       父上 !!
@@ -63,6 +69,8 @@
   "5d86":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>町長<C_NONE>
       ３世 !!
@@ -77,6 +85,8 @@
   "5daf":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CH0>
       町長さん。

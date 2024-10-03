@@ -2,6 +2,8 @@
   "5b03":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ジーナ<C_NONE>
       な、何だい このスライム男が
@@ -16,6 +18,8 @@
   "5b4c":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>船員<C_NONE>
       <IF0068><JUMP5bf7>社長の奥さんの ジーナさんは
@@ -36,6 +40,8 @@
   "5c4f":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>船員<C_NONE>
       <IF0068><JUMP5cb3>よお あんただろ スライム出したの
@@ -56,6 +62,8 @@
   "5d30":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>船員<C_NONE>
       あーあ ヒマだなー
@@ -73,6 +81,8 @@
   "5da1":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>船員<C_NONE>
       ジーナさんって こわいんだよな。
@@ -88,6 +98,8 @@
   "5df8":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>船員<C_NONE>
       な、何だよ おれたちゃ バクチ
@@ -106,6 +118,8 @@
   "5ea3":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>船員<C_NONE>
       おっと 気をつけてくれよ。
@@ -124,6 +138,8 @@
   "5f27":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>船員<C_NONE>
       ここには 変わった宝石が たくさん
@@ -138,6 +154,8 @@
   "5f6e":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": "<C_YELLOW>ジゴ<C_NONE>\nあー いてー ･ ･ ･ \n社長とジーナさんと 両方から\nボコボコに されちまったよ。"
     "original_byte_length": !!int |-
       82
@@ -149,6 +167,8 @@
   "5fc0":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ボアード<C_NONE>
       <IF_NOT0404><CALL644d><IF009a><JUMP6435><IF0089><JUMP5fe3><IF0087><JUMP619a><LOC5fe3><IF0099><JUMP6071><SET0099>ジーナには よく言っておいたから
@@ -223,13 +243,13 @@
   "644d":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <SET0404>おう お前らじゃねえか 元気そうだな。<RET>
     "original_byte_length": !!int |-
       40
-    "reference_addrs":
-    - !!int |-
-      24527
+    "reference_addrs": []
     "translated": !!null |-
       null
 "note": ""

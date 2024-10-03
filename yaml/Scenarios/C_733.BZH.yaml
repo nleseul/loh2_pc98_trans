@@ -2,6 +2,8 @@
   "60cd":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ガービィ<C_NONE>
       来たな 皇帝陛下に そむく おろかな
@@ -21,6 +23,8 @@
   "6161":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ガービィ<C_NONE>
       な 何だ !? この曲は ･ ･ ･<WAIT>
@@ -35,6 +39,8 @@
   "6194":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>レイシア<C_NONE>
       お父さん !!
@@ -116,6 +122,8 @@
   "65f0":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>レイシア<C_NONE>
       どうして あなたたちが ここに？
@@ -133,6 +141,8 @@
   "6654":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CH1>
       おい アトラス。
@@ -152,6 +162,8 @@
   "66ce":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ガービィ<C_NONE>
       おれのことは 心配するな。
@@ -166,6 +178,8 @@
   "670d":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CH1>
       おい アトラス。

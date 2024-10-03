@@ -2,6 +2,8 @@
   "5a05":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL5ac5>まあ アトラス王子さま。
 
@@ -18,6 +20,8 @@
   "5a73":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL5ac5>屋上にいる 発明家のハリーさんは
       クリが きらいなんですよ。
@@ -32,15 +36,13 @@
   "5ac5":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>侍女<C_NONE><RET_N>
     "original_byte_length": !!int |-
       7
-    "reference_addrs":
-    - !!int |-
-      23156
-    - !!int |-
-      23046
+    "reference_addrs": []
     "translated": !!null |-
       null
 "note": ""

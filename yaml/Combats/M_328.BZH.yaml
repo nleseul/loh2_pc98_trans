@@ -2,6 +2,8 @@
   "7170":
     "is_relocatable": !!bool |-
       false
+    "max_byte_length": !!int |-
+      16
     "original": |-
       ギャノア<RET>
     "original_byte_length": !!int |-
@@ -12,6 +14,8 @@
   "71b0":
     "is_relocatable": !!bool |-
       false
+    "max_byte_length": !!int |-
+      16
     "original": ""
     "original_byte_length": !!int |-
       1
@@ -21,6 +25,8 @@
   "71f0":
     "is_relocatable": !!bool |-
       false
+    "max_byte_length": !!int |-
+      16
     "original": ""
     "original_byte_length": !!int |-
       1
@@ -30,6 +36,8 @@
   "7230":
     "is_relocatable": !!bool |-
       false
+    "max_byte_length": !!int |-
+      16
     "original": ""
     "original_byte_length": !!int |-
       1
@@ -38,12 +46,16 @@
       null
   "7445":
     "is_relocatable": !!bool |-
-      false
+      true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       ギャノアが現れた。<RET_N>
     "original_byte_length": !!int |-
       19
-    "reference_addrs": []
+    "reference_addrs":
+    - !!int |-
+      61000
     "translated": !!null |-
       null
 "note": ""

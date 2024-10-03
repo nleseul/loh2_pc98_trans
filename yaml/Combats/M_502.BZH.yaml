@@ -2,6 +2,8 @@
   "7170":
     "is_relocatable": !!bool |-
       false
+    "max_byte_length": !!int |-
+      16
     "original": |-
       レイシア<RET>
     "original_byte_length": !!int |-
@@ -12,6 +14,8 @@
   "71b0":
     "is_relocatable": !!bool |-
       false
+    "max_byte_length": !!int |-
+      16
     "original": |-
       ガービィ<RET>
     "original_byte_length": !!int |-
@@ -22,6 +26,8 @@
   "71f0":
     "is_relocatable": !!bool |-
       false
+    "max_byte_length": !!int |-
+      16
     "original": |-
       Ｍ５０２Ｃ<RET>
     "original_byte_length": !!int |-
@@ -32,6 +38,8 @@
   "7230":
     "is_relocatable": !!bool |-
       false
+    "max_byte_length": !!int |-
+      16
     "original": |-
       Ｍ５０２Ｄ<RET>
     "original_byte_length": !!int |-
@@ -41,17 +49,23 @@
       null
   "751c":
     "is_relocatable": !!bool |-
-      false
+      true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       ガービィが現れた。<RET_N>
     "original_byte_length": !!int |-
       19
-    "reference_addrs": []
+    "reference_addrs":
+    - !!int |-
+      61000
     "translated": !!null |-
       null
   "762b":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL7660>あと少しなんだから 弱音をはかずに
       がんばってよ。
@@ -67,6 +81,8 @@
   "7660":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CLEAR><C_YELLOW>レイシア<C_NONE><RET_N>
     "original_byte_length": !!int |-

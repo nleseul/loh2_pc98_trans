@@ -2,6 +2,8 @@
   "5d3f":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       キャーーーーッ
     "original_byte_length": !!int |-
@@ -14,6 +16,8 @@
   "5d4e":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CH2>
       あっ あなたたちは !!<WAIT>
@@ -41,6 +45,8 @@
   "5e12":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CH0>
       ケガは なかったかい？
@@ -237,6 +243,8 @@
   "69f6":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>プルダーム<C_NONE>
       きさまら よくも おれの 住かに

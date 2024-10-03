@@ -2,6 +2,8 @@
   "5bbe":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CH0>
       すごい 迫力だね。
@@ -38,6 +40,8 @@
   "5d2a":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <IF0405><JUMP5e0e><UNSET0404><SET00d0><CH0>
       ランドー、あいつ すごい筋肉だなぁ。
@@ -69,6 +73,8 @@
   "5e74":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       <IF00b9><JUMP5ed3>おれ これから ソルディスまで
@@ -89,6 +95,8 @@
   "5f6f":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       スリの修行とかで よく ファンガスの連中が この町まで来るんだよ。
@@ -103,6 +111,8 @@
   "5fcd":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>女<C_NONE>
       モレストンには ファンガスっていう
@@ -121,6 +131,8 @@
   "605d":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>女<C_NONE>
       ファンガスの 盗賊たちの かしらってかなりの年寄りらしいけど 今でも
@@ -138,6 +150,8 @@
   "6102":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>アニー<C_NONE>
       <IF00d1><JUMP6350><IF00d8><JUMP6270>私のおじいちゃんは ファエトの
@@ -180,6 +194,8 @@
   "639e":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ドレイク<C_NONE>
       <IF00d0><JUMP63e0>うー くそー
@@ -198,6 +214,8 @@
   "642d":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ヤミ屋<C_NONE>
       ヘッヘッヘ なにか用かい？<RET_N>
@@ -211,6 +229,8 @@
   "6450":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       またどうぞ。
     "original_byte_length": !!int |-
@@ -223,6 +243,8 @@
   "645d":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       これ以上持てないようだな。
 
@@ -237,6 +259,8 @@
   "6479":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       どれを買いたいんだ？
       <RET_N>
@@ -250,6 +274,8 @@
   "648f":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <ITEM>だな。
       ありがとよ。
@@ -265,6 +291,8 @@
   "64ad":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       どれを 売りたいんだ？
       <RET_N>
@@ -278,6 +306,8 @@
   "64c4":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |2-
        Gold になるけど
       それで いいかい？
@@ -292,6 +322,8 @@
   "64e8":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       そうか 残念だな。
 
@@ -306,6 +338,8 @@
   "64fb":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       ありがとよ。
       <RET_N>

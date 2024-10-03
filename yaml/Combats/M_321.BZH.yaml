@@ -2,6 +2,8 @@
   "7170":
     "is_relocatable": !!bool |-
       false
+    "max_byte_length": !!int |-
+      16
     "original": |-
       ロングアージＡ<RET>
     "original_byte_length": !!int |-
@@ -12,6 +14,8 @@
   "71b0":
     "is_relocatable": !!bool |-
       false
+    "max_byte_length": !!int |-
+      16
     "original": |-
       ロングアージＢ<RET>
     "original_byte_length": !!int |-
@@ -22,6 +26,8 @@
   "71f0":
     "is_relocatable": !!bool |-
       false
+    "max_byte_length": !!int |-
+      16
     "original": |-
       モーンガー<RET>
     "original_byte_length": !!int |-
@@ -32,6 +38,8 @@
   "7230":
     "is_relocatable": !!bool |-
       false
+    "max_byte_length": !!int |-
+      16
     "original": |-
       Ｍ２１９Ｄ<RET>
     "original_byte_length": !!int |-
@@ -41,12 +49,16 @@
       null
   "74fc":
     "is_relocatable": !!bool |-
-      false
+      true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       モーンガーとロングアージが現れた。<RET_N>
     "original_byte_length": !!int |-
       35
-    "reference_addrs": []
+    "reference_addrs":
+    - !!int |-
+      61000
     "translated": !!null |-
       null
 "note": ""

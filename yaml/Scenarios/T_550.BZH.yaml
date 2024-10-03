@@ -2,6 +2,8 @@
   "5d01":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CH0>
       <SET013c>あのガードたちは 全然こっちの方を
@@ -23,6 +25,8 @@
   "5d97":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>サミー<C_NONE>
       やっぱ おっさんは すげーよな。
@@ -37,6 +41,8 @@
   "5dd3":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>サミー<C_NONE>
       あー つかれた。
@@ -64,6 +70,8 @@
   "5edd":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>モーガン<C_NONE>
       さあ 早く 入りなされ。
@@ -78,6 +86,8 @@
   "5f1d":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>モーガン<C_NONE>
       どうじゃい サミー。

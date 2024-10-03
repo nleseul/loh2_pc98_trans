@@ -2,6 +2,8 @@
   "5af0":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ドレイク<C_NONE>
       <SET0400><UNSET00ea><SET00eb>毒のきりが なくなっているうちに
@@ -19,6 +21,8 @@
   "5cd4":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ガード<C_NONE>
       ふん やはり ここで見張っていて

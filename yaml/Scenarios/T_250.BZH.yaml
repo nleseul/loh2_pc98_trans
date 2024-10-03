@@ -2,6 +2,8 @@
   "5afa":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>フラート<C_NONE>
       まったく ここの にわとりどもは
@@ -17,6 +19,8 @@
   "5b64":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ジェルマン<C_NONE>
       君たち チキンが 欲しいんだったら
@@ -32,6 +36,8 @@
   "5bc3":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": "<C_YELLOW>パウエル<C_NONE>\nわしは 昔 お城に仕えていたのじゃ<IF0068><JUMP5d16>が神経ばかり使っていたので\
       \ 胃が\n悪くなってしまったのじゃ。\n\nそれで 弟に 後をまかせて ここに\n帰ってきて 静養をしていたのじゃ。\nそれは 平和な日々じゃった。\n\
       \nところが 裁判の判決だとかで\nこの胃の原因である あの兄弟が \nやってきてしまったのじゃよ。\n\nいつになったら ゆっくり\nできるのじゃろうか\
@@ -48,6 +54,8 @@
   "5e2a":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>村長<C_NONE>
       向こうで 養鶏をしている兄弟は
@@ -75,6 +83,8 @@
   "5ffe":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |
       <C_YELLOW>女<C_NONE>
       この前 養鶏所の にわとりが
@@ -97,6 +107,8 @@
   "6102":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>老人<C_NONE>
       いらっしゃい。

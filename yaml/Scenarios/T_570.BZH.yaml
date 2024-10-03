@@ -2,6 +2,8 @@
   "5eaf":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ガード<C_NONE>
       そういえば さっき捕まえた
@@ -37,6 +39,8 @@
   "605b":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ガード<C_NONE>
       なあ 知ってるか？
@@ -79,6 +83,8 @@
   "6281":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ナレサ隊長<C_NONE>
       おお 意外と早かったな。
@@ -93,6 +99,8 @@
   "62b4":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ナレサ隊長<C_NONE>
       おーい お前たち ここを開けるんだ。
@@ -106,6 +114,8 @@
   "62e4":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ガード<C_NONE>
       どんな ご用でしょうか？
@@ -126,6 +136,8 @@
   "6368":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ガード<C_NONE>
       さっ どうぞ お入りください。
@@ -143,6 +155,8 @@
   "63c0":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ナレサ隊長<C_NONE>
       よし カギは 手に入れた !!
@@ -157,6 +171,8 @@
   "63f5":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ナレサ隊長<C_NONE>
       <IF0167><JUMP6446>早く !! だれも こないうちに
@@ -173,6 +189,8 @@
   "6499":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ボザ<C_NONE>
       <IF0167><JUMP64c3>おい あの隊長は 何者なんだ？<END>
@@ -187,6 +205,8 @@
   "6508":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CH0>
       マスターは どこにいるんだ？
@@ -233,6 +253,8 @@
   "6797":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>レイシア<C_NONE>
       ここは だいじょうぶ。

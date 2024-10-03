@@ -2,6 +2,8 @@
   "61fd":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>大盗賊 ゲイル<C_NONE>
       何じゃ もう少しじゃから 待っておれ。
@@ -15,6 +17,8 @@
   "6232":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>大盗賊 ゲイル<C_NONE>
       <IF01c4><JUMP63fc><IF01c2><JUMP6380><SET01c2>ふー だれかと思えば お前たちか。
@@ -49,8 +53,6 @@
     "original_byte_length": !!int |-
       625
     "reference_addrs":
-    - !!int |-
-      25713
     - !!int |-
       54886
     "translated": !!null |-

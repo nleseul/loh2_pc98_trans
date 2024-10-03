@@ -2,6 +2,8 @@
   "5ab4":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>フラート<C_NONE>
       まったく このにわとりどもは わしをつっついてばかりで 何のうらみが
@@ -16,6 +18,8 @@
   "5b14":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ジェルマン<C_NONE>
       君たち チキンだったら 入口の
@@ -30,6 +34,8 @@
   "5b5a":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>パウエル<C_NONE>
       わしは 昔 お城に仕えていたのじゃ
@@ -48,6 +54,8 @@
   "5c33":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>村長<C_NONE>
       向こうで 養鶏をしている兄弟は
@@ -69,6 +77,8 @@
   "5d54":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>女<C_NONE>
       ねえねえ 知ってる？
@@ -84,6 +94,8 @@
   "5dc2":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>老人<C_NONE>
       いらっしゃい。

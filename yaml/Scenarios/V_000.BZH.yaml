@@ -2,6 +2,8 @@
   "5d28":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |+
       <CLEAR>
                 英雄達の伝説Ⅱ<N>
@@ -16,6 +18,8 @@
   "5e39":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CLEAR><C_YELLOW>フラッド<C_NONE>
       すべては 皇帝陛下の ご命令どおりに進行しております。

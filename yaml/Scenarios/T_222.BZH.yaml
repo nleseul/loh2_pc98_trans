@@ -2,6 +2,8 @@
   "5a7e":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <IF0072><JUMP5c90><IF_NOT0075><CALL5d3f><IF_NOT0074><JUMP5a96><IF0073><JUMP5a9a><LOC5a96><CALL5d92><END>
       <LOC5a9a><CH0>
@@ -55,6 +57,8 @@
   "5d3f":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <SET0075><C_YELLOW>フローラ<C_NONE>
       はじめまして。
@@ -64,14 +68,14 @@
       <RET>
     "original_byte_length": !!int |-
       83
-    "reference_addrs":
-    - !!int |-
-      23176
+    "reference_addrs": []
     "translated": !!null |-
       null
   "5d92":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>フローラ<C_NONE>
       お父さまは お食事の後の お昼寝を
@@ -81,16 +85,14 @@
       おなかが すくまでは 起きないんです。<RET>
     "original_byte_length": !!int |-
       135
-    "reference_addrs":
-    - !!int |-
-      23288
-    - !!int |-
-      23191
+    "reference_addrs": []
     "translated": !!null |-
       null
   "5e19":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ジェニー<C_NONE>
       私は お嬢さまの 家庭教師です。
@@ -105,6 +107,8 @@
   "5e87":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>女中<C_NONE>
       お嬢さまは 世界中の人たちが 幸せにくらしていけるようにと、毎朝 必ず

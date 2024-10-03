@@ -2,6 +2,8 @@
   "5c31":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ディーナ王妃<C_NONE>
       <IF_NOT00f0><JUMP5d14>あなたたちも 知っているでしょうが
@@ -32,6 +34,8 @@
   "5ddd":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>フェリシア<C_NONE>
       いいですか アトラス。
@@ -47,6 +51,8 @@
   "5e3c":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       <IF_NOT00f0><JUMP5eab>モンスターが 増えたといっても
@@ -63,6 +69,8 @@
   "5ee0":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |
       <C_YELLOW>兵士<C_NONE>
       <IF_NOT00f0><JUMP5f43>竜の卵の 近くには いままで以上に
@@ -81,6 +89,8 @@
   "5fa3":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <IF_NOT00f0><JUMP6015><C_YELLOW>兵士<C_NONE>
       竜の卵から 離れている所では あまりモンスターを 見かけないのです。
@@ -101,6 +111,8 @@
   "6074":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       ソルディスでは 司祭 バーバラさまが竜の卵を 正常にしたという うわさが広がっているそうです。
@@ -114,6 +126,8 @@
   "60d6":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       王子さま セリオスさまたちは どこであのようなけがを されたのですか？
@@ -127,6 +141,8 @@
   "6121":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       竜の卵が 正常になった所もあれば
@@ -142,6 +158,8 @@
   "6188":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       王子さま あまり 無理をしないようにしてください。
@@ -155,6 +173,8 @@
   "61c0":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>教育係 ラウエル<C_NONE>
       <Xf6ffd6><JUMP6269>おお そうでしたな。
@@ -178,6 +198,8 @@
   "62a6":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>セリオス<C_NONE>
       <JUMP62cf><LOC62b4><C_YELLOW>エリオン<C_NONE>
@@ -197,6 +219,8 @@
   "62f2":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <SET0014><SET0015><C_YELLOW>兵士<C_NONE>
       たいへんです 王子さま !!

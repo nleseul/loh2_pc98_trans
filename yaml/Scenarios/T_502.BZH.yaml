@@ -2,6 +2,8 @@
   "5bd5":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>子ども<C_NONE>
       <IF017d><JUMP5c48>ぼく 大きくなったら ガードたちを
@@ -24,6 +26,8 @@
   "5caa":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       <IF017c><JUMP5d1b>あのガードめ おれたちが いったい
@@ -43,6 +47,8 @@
   "5d7f":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       <IF017c><JUMP5e51>あなたたちですね うちの子を
@@ -69,6 +75,8 @@
   "5ee9":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>女<C_NONE>
       <IF017c><JUMP5f46>ガードが来たら また 隠れてれば
@@ -85,6 +93,8 @@
   "5fa8":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>女<C_NONE>
       <SET010c>うちの おじいさんは 昔 まだお酒を
@@ -108,6 +118,8 @@
   "60b7":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>老人<C_NONE>
       まったく 住みづらい 世の中に
@@ -126,6 +138,8 @@
   "6146":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       <IF0015><JUMP621c>ちょっと前のことなんだが ここと
@@ -149,6 +163,8 @@
   "62ac":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ボザ<C_NONE>
       どうして こんなに 忙しいときに
@@ -167,6 +183,8 @@
   "6372":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       <IF017d><JUMP63da>よくわからないが こっちの方には

@@ -2,6 +2,8 @@
   "5b7f":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       フレイアさまって すごいんだな。
@@ -17,6 +19,8 @@
   "5bdd":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>女<C_NONE>
       これからは 週に１度は ここに来て
@@ -31,6 +35,8 @@
   "5c1e":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>老人<C_NONE>
       わしゃ 前から 月に２回は 必ず

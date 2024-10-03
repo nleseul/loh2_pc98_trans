@@ -2,6 +2,8 @@
   "5ac8":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>武器屋<C_NONE>
       王子さま やっぱり 平和はいいですね竜の卵も 元に戻ったみたいだし
@@ -16,6 +18,8 @@
   "5b33":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL5e1a>あら 王子さま。
       前と比べて ふんいきが 変わった
@@ -30,6 +34,8 @@
   "5b7c":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL5e1a>まあ、王子さま。
       お元気そうで なによりです。
@@ -43,6 +49,8 @@
   "5bac":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL5e21>王子さま もう モンスターは
       出てこないのでしょうか？
@@ -56,6 +64,8 @@
   "5be3":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       あ、王子さま いらっしゃい。
@@ -71,6 +81,8 @@
   "5c44":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       もう２度と モンスターなんか
@@ -86,6 +98,8 @@
   "5c9d":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>女<C_NONE>
       ま、王子さま ずいぶん おめしものが汚れているようですけど 洞窟の
@@ -100,6 +114,8 @@
   "5cfb":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>子供<C_NONE>
       またモンスターが 出てくるかも
@@ -115,6 +131,8 @@
   "5d56":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>パーカー<C_NONE>
       王子さま モンスターが いなく
@@ -129,6 +147,8 @@
   "5d9c":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": "<C_YELLOW>道具屋<C_NONE>\nいや これは王子さま。\nモンスターが いないと こんなにも\n安心していられるとは\
       \ ･ ･ ･ \n\n平和というのは いいもんですなぁ。"
     "original_byte_length": !!int |-
@@ -141,27 +161,25 @@
   "5e1a":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>侍女<C_NONE><RET_N>
     "original_byte_length": !!int |-
       7
-    "reference_addrs":
-    - !!int |-
-      23348
-    - !!int |-
-      23421
+    "reference_addrs": []
     "translated": !!null |-
       null
   "5e21":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE><RET_N>
     "original_byte_length": !!int |-
       7
-    "reference_addrs":
-    - !!int |-
-      23469
+    "reference_addrs": []
     "translated": !!null |-
       null
 "note": ""

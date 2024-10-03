@@ -3,6 +3,7 @@ import ips_util
 import os
 
 from compression_util import compress_bzh
+from ds6_event_util import *
 from trans_util import TranslationCollection
 
 
@@ -129,7 +130,7 @@ def patch_locations(patch:ips_util.Patch, location_trans:TranslationCollection) 
     pool.patch_leftover_space(patch)
 
 
-def make_program_data_patch(file_data):
+def make_program_data_patch() -> ips_util.Patch:
     patch = ips_util.Patch()
 
     patch.add_record(0x7c80, b"   Prologue - Peaceful Days   ")
@@ -143,6 +144,76 @@ def make_program_data_patch(file_data):
     add_table_to_patch(patch, TranslationCollection.load("yaml/Items.yaml"), 14)
 
     patch_locations(patch, TranslationCollection.load("yaml/Locations.yaml"))
+
+    return patch
+
+
+def make_data_file_patch(yaml_path:str, code_base_addr:int, data_base_addr:int) -> ips_util.Patch:
+    #base_name = os.path.splitext(os.path.basename(file_path))[0]
+    #output_path = os.path.join("yaml/Combats", f"{base_name}.yaml")
+
+    trans = TranslationCollection.load(yaml_path)
+    if trans.empty:
+        return None
+
+    patch = ips_util.Patch()
+
+    space_pool = SpacePool()
+
+    # Maps old address to new address
+    relocations:dict[int, int] = {}
+
+    # Maps new address of reference to old address of target
+    references_to_relocate:dict[int, int] = {}
+
+
+    for key in trans.keys:
+        entry = trans[key]
+
+        if entry.is_relocatable:
+            space_pool.add_space(key, key + entry.original_byte_length - 1)
+            #print(f"Adding {entry.original_byte_length} bytes at {key:04x}")
+
+    #space_pool.dump()
+
+    for key in trans.keys:
+        entry = trans[key]
+        encoded, references, locators = encode_event_string(entry.text)
+
+        if entry.is_relocatable:
+            new_addr = space_pool.take_space(len(encoded))
+            #print(f"Relocating {key:04x} to {new_addr:04x}")
+        else:
+            #print(f"Non-relocatable event {key:04x}")
+            if entry.max_byte_length is None:
+                raise Exception(f"Non-relocatable event at {key:04x} should have a defined max_byte_length!")
+            encoded = encoded.ljust(entry.max_byte_length, b'\x00')
+
+            new_addr = key
+
+        patch.add_record(new_addr - data_base_addr, encoded)
+
+        relocations[key] = new_addr
+        for locator in locators:
+            relocations[locator.addr] = new_addr + locator.offset
+            #print(f"Locator at {locator.addr:04x} moved to {new_addr + locator.offset:04x}")
+
+        for code_reference_addr in entry.reference_addrs:
+            #print(f"Code reference to {key:04x} at {code_reference_addr:04x} will need updated")
+            references_to_relocate[code_reference_addr - code_base_addr + data_base_addr] = key
+
+        for reference in references:
+            #print(f"Reference to {reference.addr:04x} at {new_addr + reference.offset:04x} (formerly {key + reference.offset:04x}) will need updated")
+            references_to_relocate[new_addr + reference.offset] = reference.addr
+
+    for reference_addr, reference_target_addr in references_to_relocate.items():
+        if reference_target_addr not in relocations:
+            raise Exception(f"Trying to update reference to {reference_target_addr:04x}, which is not in the relocation table")
+        new_target_addr = relocations[reference_target_addr]
+
+        #print(f"Updating reference to {reference_target_addr:04x} at {reference_addr:04x} to {new_target_addr:04x}")
+
+        patch.add_record(reference_addr - data_base_addr, int.to_bytes(new_target_addr, length=2, byteorder='little'))
 
     return patch
 
@@ -164,7 +235,15 @@ if __name__ == "__main__":
             patch = None
 
             if modified_path.endswith("PROG.BZH.bin"):
-                patch = make_program_data_patch(file_data)
+                patch = make_program_data_patch()
+            elif modified_path.startswith("local/modified/MON/"):
+                base_name = os.path.splitext(os.path.basename(file_path))[0]
+                yaml_path = os.path.join("yaml/Combats", f"{base_name}.yaml")
+                patch = make_data_file_patch(yaml_path, 0xed40, 0x7140)
+            elif modified_path.startswith("local/modified/SCENA/"):
+                base_name = os.path.splitext(os.path.basename(file_path))[0]
+                yaml_path = os.path.join("yaml/Scenarios", f"{base_name}.yaml")
+                patch = make_data_file_patch(yaml_path, 0xd53e, 0x593e)
 
             if patch is not None:
                 patched_data = patch.apply(file_data)

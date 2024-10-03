@@ -2,6 +2,8 @@
   "5b44":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       また うちのエリーサが はやとちりをしたそうだね。
@@ -18,6 +20,8 @@
   "5baf":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       やあ 若者たち 元気そうでなによりだ。
@@ -38,6 +42,8 @@
   "5c72":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       おう なんでい !!
@@ -53,6 +59,8 @@
   "5cb4":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       この中には だんなさまの 大事な物がしまってあるんだ。
@@ -69,6 +77,8 @@
   "5d1e":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       あれ 君たちは どこかで 会ったね。
@@ -85,6 +95,8 @@
   "5da0":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       あれ 君たちは ･ ･ ･
@@ -99,6 +111,8 @@
   "5ddb":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       あれ 君たちは あの時の。
@@ -115,6 +129,8 @@
   "5e4f":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>女<C_NONE>
       あら あの時の。
@@ -132,6 +148,8 @@
   "5eb0":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>エリーサ<C_NONE>
       あーら あなたたちじゃない。
@@ -150,6 +168,8 @@
   "5f50":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CH0>
       ランドー !!

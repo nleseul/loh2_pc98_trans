@@ -2,6 +2,8 @@
   "5b02":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>アートス国王<C_NONE>
       アトラス よくぞ モンスターの出現を止めてくれた。
@@ -18,6 +20,8 @@
   "5b9e":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>クレア王妃<C_NONE>
       アトラス王子 また セリオス王が
@@ -33,6 +37,8 @@
   "5c09":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       若い兵士たちが エメを 復旧しに
@@ -48,6 +54,8 @@
   "5c64":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       いや これは アトラス王子さま。
@@ -67,6 +75,8 @@
   "5d35":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       あーあ 今日も いい天気ですね。
@@ -82,6 +92,8 @@
   "5d8e":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ハリー<C_NONE>
       あっ ちょっと きみたち。

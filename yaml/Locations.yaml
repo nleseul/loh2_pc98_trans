@@ -2,6 +2,8 @@
   "88e0":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": "            "
     "original_byte_length": !!int |-
       12
@@ -13,6 +15,8 @@
   "88ec":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       エルアスタ
     "original_byte_length": !!int |-
@@ -25,6 +29,8 @@
   "88f7":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       ルディア
     "original_byte_length": !!int |-
@@ -37,6 +43,8 @@
   "8900":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       クルス
     "original_byte_length": !!int |-
@@ -49,6 +57,8 @@
   "8907":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       ベルガ
     "original_byte_length": !!int |-
@@ -61,6 +71,8 @@
   "890e":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       ネリア
     "original_byte_length": !!int |-
@@ -73,6 +85,8 @@
   "8915":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       ロンド
     "original_byte_length": !!int |-
@@ -85,6 +99,8 @@
   "891c":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       ラルファ
     "original_byte_length": !!int |-
@@ -97,6 +113,8 @@
   "8925":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       シリカ
     "original_byte_length": !!int |-
@@ -109,6 +127,8 @@
   "892c":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       マスクーン
     "original_byte_length": !!int |-
@@ -121,6 +141,8 @@
   "8937":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       リーゼル
     "original_byte_length": !!int |-
@@ -133,6 +155,8 @@
   "8940":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       ヨルド
     "original_byte_length": !!int |-
@@ -145,6 +169,8 @@
   "8947":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       セリス
     "original_byte_length": !!int |-
@@ -157,6 +183,8 @@
   "894e":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       ナッシュ
     "original_byte_length": !!int |-
@@ -169,6 +197,8 @@
   "8957":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       セレ
     "original_byte_length": !!int |-
@@ -181,6 +211,8 @@
   "895c":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       スエル
     "original_byte_length": !!int |-
@@ -193,6 +225,8 @@
   "8963":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       アムダ
     "original_byte_length": !!int |-
@@ -205,6 +239,8 @@
   "896a":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       セダル
     "original_byte_length": !!int |-
@@ -217,6 +253,8 @@
   "8971":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       ボアード海運
     "original_byte_length": !!int |-
@@ -229,6 +267,8 @@
   "897d":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       ルドラ
     "original_byte_length": !!int |-
@@ -241,6 +281,8 @@
   "8984":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       カウル
     "original_byte_length": !!int |-
@@ -253,6 +295,8 @@
   "898b":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       バズヌーン
     "original_byte_length": !!int |-
@@ -265,6 +309,8 @@
   "8996":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       リシェール
     "original_byte_length": !!int |-
@@ -277,6 +323,8 @@
   "89a1":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       ナスール
     "original_byte_length": !!int |-
@@ -289,6 +337,8 @@
   "89aa":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       ファエト
     "original_byte_length": !!int |-
@@ -301,6 +351,8 @@
   "89b3":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       コルクス
     "original_byte_length": !!int |-
@@ -313,6 +365,8 @@
   "89bc":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       エメ
     "original_byte_length": !!int |-
@@ -325,6 +379,8 @@
   "89c1":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       ファンガス
     "original_byte_length": !!int |-
@@ -337,6 +393,8 @@
   "89cc":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       イシュタ
     "original_byte_length": !!int |-
@@ -349,6 +407,8 @@
   "89d5":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       アフル
     "original_byte_length": !!int |-
@@ -361,6 +421,8 @@
   "89dc":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       イズー
     "original_byte_length": !!int |-
@@ -373,6 +435,8 @@
   "89e3":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       キュベラ
     "original_byte_length": !!int |-
@@ -385,6 +449,8 @@
   "89ec":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       プロス
     "original_byte_length": !!int |-
@@ -397,6 +463,8 @@
   "89f3":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       ウイル
     "original_byte_length": !!int |-
@@ -409,6 +477,8 @@
   "89fa":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       ベルン
     "original_byte_length": !!int |-
@@ -421,6 +491,8 @@
   "8a01":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       ユイシス
     "original_byte_length": !!int |-
@@ -433,6 +505,8 @@
   "8a0a":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       岬の洞窟
     "original_byte_length": !!int |-
@@ -445,6 +519,8 @@
   "8a13":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       試練の洞窟
     "original_byte_length": !!int |-
@@ -457,6 +533,8 @@
   "8a1e":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       王家の墓
     "original_byte_length": !!int |-
@@ -469,6 +547,8 @@
   "8a27":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       狼の口
     "original_byte_length": !!int |-
@@ -481,6 +561,8 @@
   "8a2e":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       奈落の口
     "original_byte_length": !!int |-
@@ -493,6 +575,8 @@
   "8a37":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       アネスの塔
     "original_byte_length": !!int |-
@@ -505,6 +589,8 @@
   "8a42":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       サピアの湖
     "original_byte_length": !!int |-
@@ -517,6 +603,8 @@
   "8a4d":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       モーガンの家
     "original_byte_length": !!int |-
@@ -529,6 +617,8 @@
   "8a59":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       ネサの辺土
     "original_byte_length": !!int |-
@@ -541,6 +631,8 @@
   "8a64":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       グロストス城
     "original_byte_length": !!int |-
@@ -553,6 +645,8 @@
   "8a70":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       中庭
     "original_byte_length": !!int |-
@@ -565,6 +659,8 @@
   "8a75":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       テクニカ
     "original_byte_length": !!int |-
@@ -577,6 +673,8 @@
   "8a7e":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       溶岩炉
     "original_byte_length": !!int |-
@@ -589,6 +687,8 @@
   "8a85":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       玉座の間
     "original_byte_length": !!int |-
@@ -601,6 +701,8 @@
   "8a8e":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       ｲｼｭﾀ～ｲｽﾞｰ
     "original_byte_length": !!int |-
@@ -613,6 +715,8 @@
   "8a99":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": "ｲｼｭﾀ～ｱﾌﾙ "
     "original_byte_length": !!int |-
       11
@@ -624,6 +728,8 @@
   "8aa4":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": "ｱﾌﾙ～城 "
     "original_byte_length": !!int |-
       9
@@ -635,6 +741,8 @@
   "8aad":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       ｲｽﾞｰ～城
     "original_byte_length": !!int |-
@@ -647,6 +755,8 @@
   "8ab6":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": "ｷｭﾍﾞﾗ～城 "
     "original_byte_length": !!int |-
       11
@@ -658,6 +768,8 @@
   "8ac1":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": "ｷｭﾍﾞﾗ～ﾌﾟﾛｽ "
     "original_byte_length": !!int |-
       12
@@ -669,6 +781,8 @@
   "8acd":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": "ｳｲﾙ～城 "
     "original_byte_length": !!int |-
       9
@@ -680,6 +794,8 @@
   "8ad6":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": "ｳｲﾙ～ﾍﾞﾙﾝ "
     "original_byte_length": !!int |-
       11
@@ -691,6 +807,8 @@
   "8ae1":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       ｷｭﾍﾞﾗ～ｳｲﾙ
     "original_byte_length": !!int |-
@@ -703,6 +821,8 @@
   "8aec":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       ファーレーン
     "original_byte_length": !!int |-
@@ -715,6 +835,8 @@
   "8af8":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       ウォンリーク
     "original_byte_length": !!int |-
@@ -727,6 +849,8 @@
   "8b04":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       ラヌーラ
     "original_byte_length": !!int |-
@@ -739,6 +863,8 @@
   "8b0d":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       ソルディス
     "original_byte_length": !!int |-
@@ -751,6 +877,8 @@
   "8b18":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       モレストン
     "original_byte_length": !!int |-

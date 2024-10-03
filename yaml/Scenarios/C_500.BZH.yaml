@@ -2,6 +2,8 @@
   "5cea":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CH1>
       おっ 見張りが いなくなったぞ。
@@ -30,6 +32,8 @@
   "5db8":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ガード<C_NONE>
       んっ !? どうして お前たちが
@@ -47,6 +51,8 @@
   "5e25":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ガード<C_NONE>
       ちょっとでも 変な行動をしたら
@@ -61,6 +67,8 @@
   "5e6a":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ガード<C_NONE>
       これ以上は 入れてはならんと
@@ -79,6 +87,8 @@
   "5ef3":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ガード<C_NONE>
       こんな所に 来れて 珍しいのは
@@ -94,6 +104,8 @@
   "5f4b":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_GREEN>ガードは気絶しているようです。<C_NONE>
     "original_byte_length": !!int |-
@@ -106,6 +118,8 @@
   "5f6c":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ナレサ隊長<C_NONE>
       おお とうとう 決心してくれたか。

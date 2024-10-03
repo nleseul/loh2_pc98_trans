@@ -2,6 +2,8 @@
   "5e2a":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       <IF01fc><JUMP6051><SET01fc>･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･
@@ -51,6 +53,8 @@
   "60f1":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <PARTY>は 宝箱を開けました。
       宝箱の中には<RET>

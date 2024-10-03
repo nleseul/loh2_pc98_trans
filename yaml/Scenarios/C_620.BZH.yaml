@@ -2,6 +2,8 @@
   "60db":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CH0>
       さあ みんな 行こう。
@@ -15,6 +17,8 @@
   "60f3":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ボザ<C_NONE>
       やっと来てくれたか。
@@ -30,6 +34,8 @@
   "6143":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ボザ<C_NONE>
       なっ 何だ これは !?
@@ -89,6 +95,8 @@
   "6470":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ケリイ<C_NONE>
       さっきから がんばってるんだけど
@@ -103,6 +111,8 @@
   "64b7":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       こんな所で 足止めを くらってたら
@@ -118,6 +128,8 @@
   "6508":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL666c>早く 別館の下の階に行って
       変換炉を止めてみてくれ。
@@ -131,6 +143,8 @@
   "653e":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL666c><JUMP6571><LOC6544><C_YELLOW>バイオラのマスター<C_NONE>
       <JUMP6571><LOC655c><C_YELLOW>ヨシュアのマスター<C_NONE>
@@ -151,6 +165,8 @@
   "65bf":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>リーダー<C_NONE>
       おお アトラス君。
@@ -167,6 +183,8 @@
   "6633":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <PARTY>は 宝箱を開けました。
       宝箱の中には<RET>
@@ -180,25 +198,13 @@
   "666c":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>テクニカのマスター<C_NONE><RET_N>
     "original_byte_length": !!int |-
       21
-    "reference_addrs":
-    - !!int |-
-      25219
-    - !!int |-
-      25919
-    - !!int |-
-      25480
-    - !!int |-
-      25865
-    - !!int |-
-      24988
-    - !!int |-
-      25597
-    - !!int |-
-      24927
+    "reference_addrs": []
     "translated": !!null |-
       null
 "note": ""

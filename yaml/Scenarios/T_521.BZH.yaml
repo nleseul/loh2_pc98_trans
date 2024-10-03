@@ -2,6 +2,8 @@
   "5e74":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       うちの エリーサは せっかちだから
@@ -19,6 +21,8 @@
   "5eec":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       <IF0184><JUMP5f94><IF0125><JUMP5f2b>何だね 君たちは？
@@ -40,6 +44,8 @@
   "5fec":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       おや 君たちだな？
@@ -58,6 +64,8 @@
   "6070":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       おう なんでい !!
@@ -73,6 +81,8 @@
   "60b0":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       この中には だんなさまの 大事な物がしまってあるんだ。
@@ -89,6 +99,8 @@
   "611a":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>エリーサ<C_NONE>
       <IF0184><JUMP62e5><IF0124><JUMP61d1><IF0121><JUMP6189>こんなに 屋敷が広いから いろいろとたいへんなのよ。
@@ -122,6 +134,8 @@
   "6336":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>エリーサ<C_NONE>
       <SET0121>まあ あんたたち やっと来たのね。
@@ -157,6 +171,8 @@
   "6492":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>エリーサ<C_NONE>
       はやく 横に来なさい !!
@@ -170,6 +186,8 @@
   "64b4":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>エリーサ<C_NONE>
       さてと ･ ･ ･ それじゃあ
@@ -217,6 +235,8 @@
   "66f3":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>エリーサ<C_NONE>
       これが 全部庭だから そう簡単には
@@ -233,6 +253,8 @@
   "6751":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>エリーサ<C_NONE>
       なによ うるさいわね !!
@@ -248,6 +270,8 @@
   "67a5":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>町長<C_NONE>
       <IF0124><JUMP6ac6><IF0123><JUMP6a78>そうか これで あいつを 助けて
@@ -293,13 +317,13 @@
     "reference_addrs":
     - !!int |-
       54772
-    - !!int |-
-      27263
     "translated": !!null |-
       null
   "6af1":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>エリーサ<C_NONE>
       お帰りなさいませ。
@@ -322,6 +346,8 @@
   "6ba2":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ナレサ隊長<C_NONE>
       <SET0122>それじゃ 考えておいてくれ。

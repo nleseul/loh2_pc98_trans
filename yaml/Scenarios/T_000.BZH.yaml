@@ -2,6 +2,8 @@
   "5e62":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CH0>
       やあ ラウエル、おはよう。
@@ -21,6 +23,8 @@
   "5eb2":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL6b03><IF0407><JUMP601d><IF0406><JUMP60da><IF0405><JUMP60bf><IF0000><JUMP6070><SET0000>王子、よくきいてください。
 
@@ -60,6 +64,8 @@
   "610f":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL6b03><SET0003><CALL6b15>王子、あなたは もうすぐ
       １６才に なられるのですよ。
@@ -104,6 +110,8 @@
   "6364":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>武器屋<C_NONE>
       これは、<CALL6b15>王子さま。
@@ -123,6 +131,8 @@
   "6411":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL6af5>今日の 夕食は 王子さまの 大好きな
       ビーフシチューですよ。
@@ -136,6 +146,8 @@
   "644d":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL6af5>あら、王子さま。
       お勉強は もう すんだのですか？
@@ -149,6 +161,8 @@
   "6480":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL6afc>お出かけですか、王子さま？
       暗くならないうちに お帰りください。
@@ -162,6 +176,8 @@
   "64c2":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL6afc>王子さま、
       町の外には 行かないでください。
@@ -175,6 +191,8 @@
   "64f0":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL6afc>お待ちください、王子さま。
       <IF0403><JUMP6694>
@@ -211,6 +229,8 @@
   "66b9":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       あ、王子さま いらっしゃい。
@@ -233,6 +253,8 @@
   "6789":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       地震のせいで 家の中の物が
@@ -248,6 +270,8 @@
   "67e0":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>女<C_NONE>
       ま、王子さま。
@@ -262,6 +286,8 @@
   "6816":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>子供<C_NONE>
       あっ 王子さま、
@@ -276,6 +302,8 @@
   "6851":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>パーカー<C_NONE>
       <IF0002><JUMP698b>お、王子さま !!
@@ -308,6 +336,8 @@
   "69b4":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>パーカー<C_NONE>
       <UNSET0404>王子さま ここで ごぜーます。
@@ -321,6 +351,8 @@
   "69df":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CH0>
       大変だった だろう？
@@ -346,6 +378,8 @@
   "6abe":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>道具屋<C_NONE>
       これは 王子さま。
@@ -360,75 +394,49 @@
   "6af5":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>侍女<C_NONE><RET_N>
     "original_byte_length": !!int |-
       7
-    "reference_addrs":
-    - !!int |-
-      25618
-    - !!int |-
-      25678
+    "reference_addrs": []
     "translated": !!null |-
       null
   "6afc":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE><RET_N>
     "original_byte_length": !!int |-
       7
-    "reference_addrs":
-    - !!int |-
-      25729
-    - !!int |-
-      26019
-    - !!int |-
-      25795
-    - !!int |-
-      26252
-    - !!int |-
-      25841
+    "reference_addrs": []
     "translated": !!null |-
       null
   "6b03":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>教育係 ラウエル<C_NONE><RET_N>
     "original_byte_length": !!int |-
       18
-    "reference_addrs":
-    - !!int |-
-      24192
-    - !!int |-
-      25218
-    - !!int |-
-      25327
-    - !!int |-
-      24848
-    - !!int |-
-      25008
-    - !!int |-
-      24243
-    - !!int |-
-      25145
+    "reference_addrs": []
     "translated": |-
       <C_YELLOW>Rauel, royal tutor<C_NONE><RET_N>
   "6b15":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       アトラス<RET>
     "original_byte_length": !!int |-
       9
-    "reference_addrs":
-    - !!int |-
-      24200
-    - !!int |-
-      25462
-    - !!int |-
-      24854
+    "reference_addrs": []
     "translated": !!null |-
       null
 "note": ""

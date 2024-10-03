@@ -2,6 +2,8 @@
   "5bc1":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ハンス<C_NONE>
       <IF00e0><JUMP6034><IF0404><JUMP60a5><IF_NOT00e1><JUMP5c2e>おや これは アトラス王子。
@@ -85,6 +87,8 @@
   "611d":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>補佐官<C_NONE>
       イセルハーサの中で 共和制を
@@ -104,6 +108,8 @@
   "61b5":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>役人<C_NONE>
       <IF00b9><JUMP6215>水晶の塔を 復元するためには
@@ -120,6 +126,8 @@
   "6264":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>役人<C_NONE>
       ふぅ ･ ･ ･ お役所仕事も 疲れるよ。こうやって 一日中 ボーっと
@@ -136,6 +144,8 @@
   "6301":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>役人<C_NONE>
       ハンス大統領は 国民の声を 親身に
@@ -154,6 +164,8 @@
   "638f":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>女<C_NONE>
       昔 英雄たちの手で 滅ぼされた
@@ -169,6 +181,8 @@
   "63ec":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ジーラ<C_NONE>
       むむむっ お前さんがた 旅人じゃな？いい話をきかせてやろう。
@@ -193,6 +207,8 @@
   "652b":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>娘<C_NONE>
       うちの おばあちゃんて 昔の話を
@@ -210,6 +226,8 @@
   "6590":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>女<C_NONE>
       <IF00b9><JUMP664d>私が 子どものころ やっぱり
@@ -238,6 +256,8 @@
   "6737":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       ずっと前の 大地震で 水晶の塔という歴史ある塔が 倒れてしまったんだ。
@@ -254,6 +274,8 @@
   "67ba":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       ファンガスにいた 盗賊たちは
@@ -269,6 +291,8 @@
   "681c":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>呪文屋<C_NONE>
       いらっしゃいませ。<RET_N>
@@ -282,6 +306,8 @@
   "6838":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       また お願いします。
     "original_byte_length": !!int |-
@@ -294,6 +320,8 @@
   "684c":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       お客さん もう持てませんわよ。
 
@@ -308,6 +336,8 @@
   "686b":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       何を お求めですか？
       <RET_N>
@@ -321,6 +351,8 @@
   "6880":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <ITEM>ですね。
       ありがとう ございます。

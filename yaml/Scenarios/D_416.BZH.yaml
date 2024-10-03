@@ -2,6 +2,8 @@
   "5aef":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ドレイク<C_NONE>
       <IF_NOT0401><JUMP5b2d><UNSET0401>おっ!? 何で そっちから ･ ･ ･

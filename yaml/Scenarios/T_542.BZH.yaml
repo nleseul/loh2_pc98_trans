@@ -2,6 +2,8 @@
   "5c24":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <IF0137><JUMP5c30><IF0136><JUMP5c99><LOC5c30><C_YELLOW>男<C_NONE>
       もう 皇帝に逆らうのは やめようぜ。こんな生活でも 収容所なんかよりは
@@ -24,6 +26,8 @@
   "5d1b":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>子ども<C_NONE>
       あー つまんないよー。
@@ -38,6 +42,8 @@
   "5d53":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>子ども<C_NONE>
       ぼく 大きくなったら レジスタンスになって 皇帝を やっつけてやるんだ。
@@ -51,6 +57,8 @@
   "5da1":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>女<C_NONE>
       一斉に レジスタンス狩りが
@@ -66,6 +74,8 @@
   "5df7":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>女<C_NONE>
       <IF0137><JUMP5f40><IF0404><JUMP5f0c><SET0404>な、何かご用ですか？
@@ -92,6 +102,8 @@
   "5f84":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>女<C_NONE>
       捕まった人たちが ユイシスの方に
@@ -109,6 +121,8 @@
   "5ff5":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>レイシア<C_NONE>
       あら アトラスさん。
@@ -124,6 +138,8 @@
   "6055":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ヤミ屋<C_NONE>
       らっしゃい !! どんな ご用で？<RET_N>
@@ -137,6 +153,8 @@
   "607c":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       まいどー。
     "original_byte_length": !!int |-
@@ -149,6 +167,8 @@
   "6087":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       お客さん 冗談はいけねえや。
       それ以上は 持てねえんだぜ。
@@ -164,6 +184,8 @@
   "60c0":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       なにを買うんでい？
       <RET_N>
@@ -177,6 +199,8 @@
   "60d4":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <ITEM>かい。
       へい まいど どうも。
@@ -192,6 +216,8 @@
   "60fa":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       どれを 売るんでい？
       <RET_N>
@@ -205,6 +231,8 @@
   "610f":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |2-
        Gold だよ。いいかい？
       <RET_N>
@@ -218,6 +246,8 @@
   "6127":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       ひやかしは よくねえよ。
 
@@ -232,6 +262,8 @@
   "6140":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       わりいね。
       <RET_N>

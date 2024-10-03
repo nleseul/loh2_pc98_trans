@@ -2,6 +2,8 @@
   "6494":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CH0>
       竜の卵の中というのは こんなふうに
@@ -35,6 +37,8 @@
   "65c9":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CH2>
       もう やめましょうよ。
@@ -49,6 +53,8 @@
   "6606":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CH1>
       あれっ !? なんか うまく
@@ -84,6 +90,8 @@
   "6709":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <SET00fc><CH1>
       なーんだ やっぱりだめか。
@@ -110,6 +118,8 @@
   "67e3":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ギャノア<C_NONE>
       やはり 現れおったな。

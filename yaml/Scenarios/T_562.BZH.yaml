@@ -2,6 +2,8 @@
   "5dbe":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       ずっと前の地震で ネサの辺土の先に
@@ -26,6 +28,8 @@
   "5f02":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>老人<C_NONE>
       とうとう レジスタンスたちが 行動を起こしたそうじゃ。<WAIT>
@@ -40,6 +44,8 @@
   "5f61":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": "<C_YELLOW>女<C_NONE>\nレジスタンスたちが ベルンにいた\n人たちを 助け出したんですって。\n\nしかも 今は\
       \ 皇帝を倒すために\n城に攻め入っているそうよ。 \n早く いい知らせが きてほしいわ。"
     "original_byte_length": !!int |-
@@ -52,6 +58,8 @@
   "6000":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>女<C_NONE>
       これできっとまた 昔のように 自由な生活が できるようになるのね。
@@ -65,6 +73,8 @@
   "6045":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ヤミ屋<C_NONE>
       いらっしゃい。何の用だい？<RET_N>
@@ -78,6 +88,8 @@
   "6069":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       また たのむぜ。
     "original_byte_length": !!int |-
@@ -90,6 +102,8 @@
   "6079":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       これ以上持てないようだぜ。
 
@@ -104,6 +118,8 @@
   "6095":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       何を買うんだい？
       <RET_N>
@@ -117,6 +133,8 @@
   "60a7":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <ITEM>だな。
       ありがとよ。
@@ -132,6 +150,8 @@
   "60c5":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       何を 売りたいんだ？
       <RET_N>
@@ -145,6 +165,8 @@
   "60da":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |2-
        Gold で買ってやるけど
       それでも いいかい？
@@ -159,6 +181,8 @@
   "6106":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       何だよ 売ってくれないのか。
 
@@ -173,6 +197,8 @@
   "6123":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       よし 買ってやるぜ。
       <RET_N>

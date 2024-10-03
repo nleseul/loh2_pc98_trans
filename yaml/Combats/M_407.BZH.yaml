@@ -2,6 +2,8 @@
   "7170":
     "is_relocatable": !!bool |-
       false
+    "max_byte_length": !!int |-
+      16
     "original": |-
       妖魔火砲Ａ<RET>
     "original_byte_length": !!int |-
@@ -12,6 +14,8 @@
   "71b0":
     "is_relocatable": !!bool |-
       false
+    "max_byte_length": !!int |-
+      16
     "original": |-
       妖魔火砲Ｂ<RET>
     "original_byte_length": !!int |-
@@ -22,6 +26,8 @@
   "71f0":
     "is_relocatable": !!bool |-
       false
+    "max_byte_length": !!int |-
+      16
     "original": |-
       妖魔火砲Ｃ<RET>
     "original_byte_length": !!int |-
@@ -32,6 +38,8 @@
   "7230":
     "is_relocatable": !!bool |-
       false
+    "max_byte_length": !!int |-
+      16
     "original": |-
       妖魔火砲Ｄ<RET>
     "original_byte_length": !!int |-
@@ -41,12 +49,16 @@
       null
   "74c8":
     "is_relocatable": !!bool |-
-      false
+      true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <RET>
     "original_byte_length": !!int |-
       1
     "reference_addrs":
+    - !!int |-
+      61000
     - !!int |-
       61132
     "translated": !!null |-
@@ -54,6 +66,8 @@
   "74c9":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       妖魔火砲が現れた。<RET_N>
     "original_byte_length": !!int |-

@@ -2,6 +2,8 @@
   "5f3e":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ケリイ<C_NONE>
       この先にいる 敵が やたらに強くて
@@ -17,6 +19,8 @@
   "5fa1":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ボザ<C_NONE>
       この先のやつを 倒してくれ。
@@ -34,6 +38,8 @@
   "6015":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       ボザが ケガをして ここから先に
@@ -48,6 +54,8 @@
   "6056":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>リーダー<C_NONE>
       ボザが あのとおりじゃから 君らに
@@ -62,6 +70,8 @@
   "60c9":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>テクニカのマスター<C_NONE>
       もう少しで テクニカの部屋なのだ。
@@ -76,6 +86,8 @@
   "6121":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ヨシュアのマスター<C_NONE>
       バイオラのマスターにも困ったものだ。あの敵には 弱点がないとは ･ ･ ･
@@ -89,6 +101,8 @@
   "617a":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>バイオラのマスター<C_NONE>
       私は どうして あんな化け物を
@@ -103,6 +117,8 @@
   "61cb":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ケリイ<C_NONE>
       さあ 早く !!
@@ -121,6 +137,8 @@
   "6230":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <PARTY>は 宝箱を開けました。
       宝箱の中には<RET>

@@ -2,6 +2,8 @@
   "5aaf":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ディーナ<C_NONE>
       <IF0013><JUMP5ce3><SET0013>アトラス、あなたも 知っていると
@@ -43,6 +45,8 @@
   "5d2e":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>フェリシア<C_NONE>
       いいですか アトラス。
@@ -58,6 +62,8 @@
   "5d8d":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       王子さま、まだ セリオスさまに
@@ -72,6 +78,8 @@
   "5dd0":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       竜の卵の 近くには モンスターが
@@ -87,6 +95,8 @@
   "5e2e":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       竜の卵から 離れている所では あまりモンスターを見かけません。竜の卵は避けたほうが よいでしょう。
@@ -100,6 +110,8 @@
   "5e95":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       モンスターが 現れてから スライムを見かけなくなりました。
@@ -115,6 +127,8 @@
   "5f0a":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       王子さま もう あのドラゴンには
@@ -129,6 +143,8 @@
   "5f43":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       今のところ ルディアの 近くでは
@@ -144,6 +160,8 @@
   "5faf":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       セリオスさまが 戻られるまでは
@@ -159,6 +177,8 @@
   "6010":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       セリオスさまに 合流するまでは
@@ -174,6 +194,8 @@
   "605e":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>教育係 ラウエル<C_NONE>
       <Xf6f7d5><JUMP6107>おお そうでしたな。

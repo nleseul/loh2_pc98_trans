@@ -2,6 +2,8 @@
   "5b18":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       何の用できたか 知らないけど みんな祭の準備で 忙しいから じゃまに
@@ -16,6 +18,8 @@
   "5b7b":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       竜の祭とは 今年のしゅうかくを
@@ -31,6 +35,8 @@
   "5be4":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       竜の祭の日には たくさんの料理が
@@ -46,6 +52,8 @@
   "5c3f":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       ここは 出入国記録の 保管所だ。
@@ -65,6 +73,8 @@
   "5d00":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       ここは 出国手続き所だけど
@@ -83,6 +93,8 @@
   "5d8e":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       この船は わがラヌーラ王国の船です。
@@ -100,6 +112,8 @@
   "5e0e":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       祭のじゃまをするような やつが
@@ -115,6 +129,8 @@
   "5e76":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>司祭 バーバラ<C_NONE>
       わしゃ 竜の祭の司祭じゃ。
@@ -132,6 +148,8 @@
   "5f20":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>侍女<C_NONE>
       竜の祭の日には たくさんの料理を
@@ -147,6 +165,8 @@
   "5f77":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>侍女<C_NONE>
       もう祭の準備で大変よ。
@@ -161,6 +181,8 @@
   "5fd0":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ソニア王妃<C_NONE>
       私は 王妃だからって じっとしている性格じゃないのよ。
@@ -178,6 +200,8 @@
   "6065":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>チャールズ王子<C_NONE>
       みんな 祭りの準備をしてて 遊んで

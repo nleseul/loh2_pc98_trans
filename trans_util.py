@@ -14,6 +14,7 @@ class TranslationEntry:
 
     is_relocatable:bool = True
     reference_addrs:list[int] = field(default_factory=list)
+    max_byte_length:int|None = None
 
     @property
     def text(self) -> str:

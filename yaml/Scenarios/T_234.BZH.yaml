@@ -2,6 +2,8 @@
   "5ade":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       おれたち夫婦は ジェラルドさまの
@@ -16,6 +18,8 @@
   "5b1c":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>女<C_NONE>
       別荘の そうじは 女中さんたちが
@@ -31,6 +35,8 @@
   "5b70":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ジェラルド<C_NONE>
       <IF007b><JUMP60ef><IF007a><JUMP5e21><IF_NOT0079><JUMP5b97>おお <JUMP5c13><LOC5b97>きっ きさまら !!
@@ -144,14 +150,14 @@
       1882
     "reference_addrs":
     - !!int |-
-      24157
-    - !!int |-
       54669
     "translated": !!null |-
       null
   "62ca":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ジェラルド夫人<C_NONE>
       <IF007b><JUMP633f><SET0400>あぁ フローラ。
@@ -172,6 +178,8 @@
   "6392":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>チャーリー<C_NONE>
       <IF007b><JUMP6482><IF0400><JUMP6444><SET0400>おお お嬢さま よくごぶじで。
@@ -197,6 +205,8 @@
   "64f1":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       お嬢さま お元気そうで 安心しました。やっぱり 誘拐じゃなかったんですね。
@@ -210,6 +220,8 @@
   "653e":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       おら もうすぐ 釣りに行かなきゃ
@@ -225,6 +237,8 @@
   "6586":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>女中<C_NONE>
       あら お嬢さまじゃありませんか。
@@ -239,6 +253,8 @@
   "65cb":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |
       <C_YELLOW>女中<C_NONE>
       お嬢さま お帰りなさい。
@@ -254,6 +270,8 @@
   "6625":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ジェニー<C_NONE>
       お嬢さま 女神 フレイアさまの

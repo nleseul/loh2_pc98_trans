@@ -2,6 +2,8 @@
   "5ab6":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL619b>ずっと昔から たっていた
       グエンの塔が あんな地震ごときで
@@ -19,6 +21,8 @@
   "5b76":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       ラヌーラに 初めて 出入りする者は
       あらかじめ 各国で 届けを出して
@@ -38,6 +42,8 @@
   "5c50":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL619b>ボアード海運の ボアードは
       元海賊だって うわさだぜ。
@@ -55,6 +61,8 @@
   "5ce3":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>女<C_NONE>
       昔のラヌーラは 税金が高くて
@@ -78,6 +86,8 @@
   "5df2":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       ここの呪文屋は こっとう品を
@@ -95,6 +105,8 @@
   "5e6a":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL61a2>おや いらっしゃい。
       <IF0034><JUMP6097><SET0034>サイレスの呪文は いかがですか？
@@ -138,40 +150,32 @@
       54712
     - !!int |-
       54706
-    - !!int |-
-      24776
     "translated": !!null |-
       null
   "619b":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE><RET_N>
     "original_byte_length": !!int |-
       7
     "reference_addrs":
     - !!int |-
-      23633
-    - !!int |-
       54642
-    - !!int |-
-      23223
     "translated": !!null |-
       null
   "61a2":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>呪文屋<C_NONE><RET_N>
     "original_byte_length": !!int |-
       9
-    "reference_addrs":
-    - !!int |-
-      24642
-    - !!int |-
-      24171
-    - !!int |-
-      24550
+    "reference_addrs": []
     "translated": !!null |-
       null
 "note": ""

@@ -2,6 +2,8 @@
   "59d3":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>モーガン<C_NONE>
       サミーのバカは いったい どこに

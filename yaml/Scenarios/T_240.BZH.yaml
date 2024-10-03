@@ -2,6 +2,8 @@
   "5bbb":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>情報屋 トミー<C_NONE>
       なあ なあ なあ なあ<IF0068><JUMP5c3e>
@@ -24,6 +26,8 @@
   "5c97":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>老人<C_NONE>
       <IF0098><JUMP5d62><IF0069><JUMP5d07>村のはずれで 宿屋を始めるそうじゃ。なんでも 開店サービスの間は
@@ -44,6 +48,8 @@
   "5db5":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>漁師<C_NONE>
       よお シーラスって魚 知ってるか？
@@ -67,6 +73,8 @@
   "5ed1":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ジゴ<C_NONE>
       <IF0069><JUMP5f5b>いらっしゃい ここは宿屋だけど
@@ -99,6 +107,8 @@
   "6043":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ジーナ<C_NONE>
       どうだい ジゴ 眠っているかい？
@@ -167,6 +177,8 @@
   "63a0":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>道具屋<C_NONE>
       いらっしゃいませ。
@@ -181,6 +193,8 @@
   "63d8":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       また来てくださいね。
     "original_byte_length": !!int |-
@@ -193,6 +207,8 @@
   "63ed":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       おや？これ以上持てないようですね。
 
@@ -207,6 +223,8 @@
   "6411":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       どれを買ってくれますか？
       <RET_N>
@@ -220,6 +238,8 @@
   "642b":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <ITEM>だね。
       どうも ありがとう。
@@ -235,6 +255,8 @@
   "6450":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       どれを 売ってくれますか？
       <RET_N>
@@ -248,6 +270,8 @@
   "646b":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |2-
        Gold になるけど
       それでも よろしいですか？
@@ -262,6 +286,8 @@
   "6497":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       それは残念です。
 
@@ -276,6 +302,8 @@
   "64a9":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       どうも ありがとうございます。
       <RET_N>

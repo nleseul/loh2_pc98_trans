@@ -2,6 +2,8 @@
   "5ca4":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ナレサ隊長<C_NONE>
       むっ お前たちは 確か ゲイルの所で

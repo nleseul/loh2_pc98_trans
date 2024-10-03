@@ -2,6 +2,8 @@
   "5ab2":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>モーガン<C_NONE>
       <IF0145><JUMP6002><IF0144><JUMP5fd1><IF0407><JUMP5b13><SET0407>むっ 戦士の笛 ･ ･ ･ お前ら また
@@ -85,6 +87,8 @@
   "6032":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>モーガン<C_NONE>
       <IF0405><JUMP6337><IF0404><JUMP629e><IF0403><JUMP6237><IF0402><JUMP61c7><IF0401><JUMP6153><IF0400><JUMP60d9><SET0400>うわっはっは。
@@ -132,6 +136,8 @@
   "6352":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>モーガン<C_NONE>
       おい サミー。
@@ -156,6 +162,8 @@
   "641e":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>サミー<C_NONE>
       <IF0145><JUMP6529><IF0407><JUMP6449>何だよ おまえらはよ。<END>

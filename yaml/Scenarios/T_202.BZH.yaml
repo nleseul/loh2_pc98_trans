@@ -2,6 +2,8 @@
   "5b83":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>老婆<C_NONE>
       ソルディスの 砂漠の真ん中にある
@@ -21,6 +23,8 @@
   "5c39":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>老婆<C_NONE>
       わしらは ソルディスから来たんじゃ。この聖域を 一度でいいから

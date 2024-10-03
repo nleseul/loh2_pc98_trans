@@ -2,6 +2,8 @@
   "5b06":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       うわさによると ラヌーラの 竜の祭の司祭さまが エメの近くの 竜の卵に
@@ -18,6 +20,8 @@
   "5bae":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       この国の 砂漠の真中あたりに エメ
@@ -39,6 +43,8 @@
   "5c99":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       モンスターが いなくなったのは
@@ -57,6 +63,8 @@
   "5d2d":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       いくら 司祭だといっても 本当に
@@ -72,6 +80,8 @@
   "5d92":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       おれは 道具屋なんだが 店のほうは
@@ -87,6 +97,8 @@
   "5dfa":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       この近くに カザミの塔という 古い
@@ -109,6 +121,8 @@
   "5f13":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>女<C_NONE>
       アートス国王さまは ハリーさんの
@@ -124,6 +138,8 @@
   "5f6f":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>女<C_NONE>
       この国の お姫さま ディーナ姫は
@@ -143,6 +159,8 @@
   "602c":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>呪文屋<C_NONE>
       いらっしゃい。<RET_N>
@@ -156,6 +174,8 @@
   "6044":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       またどうぞ。
     "original_byte_length": !!int |-
@@ -168,6 +188,8 @@
   "6051":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>道具屋<C_NONE>
       あら いらっしゃい。
@@ -182,6 +204,8 @@
   "6082":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       また おいでください。
     "original_byte_length": !!int |-
@@ -194,6 +218,8 @@
   "6098":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       おや？これ以上持てないようですね。
 
@@ -208,6 +234,8 @@
   "60bc":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       どれを買ってくれますか？
       <RET_N>
@@ -221,6 +249,8 @@
   "60d6":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <ITEM>だね。
       どうも ありがとう。
@@ -236,6 +266,8 @@
   "60f3":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       あらまあ もう持てないわよ。
 
@@ -250,6 +282,8 @@
   "6110":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       どれを買ってくれるの？
       <RET_N>
@@ -263,6 +297,8 @@
   "6128":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <ITEM>ね。
       どうも ありがとう。
@@ -278,6 +314,8 @@
   "614b":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       なにを 売ってくれるの？
       <RET_N>
@@ -291,6 +329,8 @@
   "6164":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |2-
        Gold になるわよ
       それでも いいかしら？
@@ -305,6 +345,8 @@
   "618c":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       あら それは残念だわ。
 
@@ -319,6 +361,8 @@
   "61a3":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       どうも ありがとう。
       <RET_N>

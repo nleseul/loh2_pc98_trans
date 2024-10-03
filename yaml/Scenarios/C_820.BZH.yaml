@@ -2,6 +2,8 @@
   "5d0c":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL64c2>フ ･ フレイア ･ ･ フレイアを ･ ･ ･
 
@@ -31,6 +33,8 @@
   "5e20":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": "<CALL64f3><CALL64c8> !!\n\n<CALL64c2>せ ･ 先生 ･ ･ ･\nお許しください ･ ･ やっと\
       \ ･ ･ ･\n意味が ･ ･ わかり ･ ･ ました ･ ･\n\n<CALL64f3>おお ･ ･ ･ お前の悲しみを わかってやれなかった 私にも\
       \ 責任はある。\n\n<CALL64c2>いいえ ･ ･ ･ ともに学んだ仲間を\n殺されて ･ ･ ･ 私は ･ ･ ･\n\n<CH1>\n殺された？\
@@ -56,6 +60,8 @@
   "6368":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL64f3>私は 必ず フレイアを 元の状態に
       戻してみせる。
@@ -72,6 +78,8 @@
   "63cb":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       ハァハァ ･ ･ ･ に 逃げられました。
@@ -89,6 +97,8 @@
   "6420":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       この部屋は われわれに 任せて
@@ -98,13 +108,13 @@
     "reference_addrs":
     - !!int |-
       54899
-    - !!int |-
-      25700
     "translated": !!null |-
       null
   "6460":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <IF_NOT01f2><JUMP6420><C_YELLOW>男<C_NONE>
       <CALL64c8>さんはヒストラのマスターとナレサ隊長が 別の所へ 連れていって休ませています。
@@ -118,6 +128,8 @@
   "64bb":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL64c2><CALL64d1>
     "original_byte_length": !!int |-
@@ -130,91 +142,49 @@
   "64c2":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW><CALL64c8><C_NONE><RET_N>
     "original_byte_length": !!int |-
       6
-    "reference_addrs":
-    - !!int |-
-      25346
-    - !!int |-
-      25059
-    - !!int |-
-      24261
-    - !!int |-
-      24874
-    - !!int |-
-      24107
-    - !!int |-
-      23821
-    - !!int |-
-      23957
-    - !!int |-
-      25788
-    - !!int |-
-      25407
+    "reference_addrs": []
     "translated": !!null |-
       null
   "64c8":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       フラッド<RET>
     "original_byte_length": !!int |-
       9
-    "reference_addrs":
-    - !!int |-
-      24100
-    - !!int |-
-      25796
-    - !!int |-
-      25318
-    - !!int |-
-      25508
-    - !!int |-
-      25386
-    - !!int |-
-      25708
-    - !!int |-
-      24564
-    - !!int |-
-      25400
-    - !!int |-
-      24827
+    "reference_addrs": []
     "translated": !!null |-
       null
   "64d1":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･<RET>
     "original_byte_length": !!int |-
       34
-    "reference_addrs":
-    - !!int |-
-      25410
-    - !!int |-
-      25791
+    "reference_addrs": []
     "translated": !!null |-
       null
   "64f3":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>フレイアのマスター<C_NONE><RET_N>
     "original_byte_length": !!int |-
       21
-    "reference_addrs":
-    - !!int |-
-      24097
-    - !!int |-
-      24353
-    - !!int |-
-      25449
-    - !!int |-
-      25300
-    - !!int |-
-      24191
+    "reference_addrs": []
     "translated": !!null |-
       null
 "note": ""

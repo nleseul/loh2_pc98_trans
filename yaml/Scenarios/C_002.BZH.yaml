@@ -2,6 +2,8 @@
   "5c11":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL6cea><IF000e><JUMP65d3><IF0048><JUMP6421><IF0008><JUMP63e4><IF_NOT0405><JUMP619b><UNSET0405><CALL6d08> お前も もうすぐ１６才だ。わが国では １６才になれば 王位を
       継承する資格が 与えられる。
@@ -130,6 +132,8 @@
   "6632":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       おれが 勝手に <CALL6ce1>の 後に
       くっついて いただけですから
@@ -138,16 +142,14 @@
       <RET>
     "original_byte_length": !!int |-
       81
-    "reference_addrs":
-    - !!int |-
-      25780
-    - !!int |-
-      26470
+    "reference_addrs": []
     "translated": !!null |-
       null
   "6683":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL6cf9><IF000e><JUMP6818><IF0048><JUMP66d9><CALL6d08>、危険な場所に
       近付くんじゃありませんよ。
@@ -181,6 +183,8 @@
   "6857":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL6d11><IF0028><JUMP6922><IF0009><JUMP68fa><SET0009>おや <CALL6d08>。
       あなた お金は 持っているの？
@@ -204,6 +208,8 @@
   "694d":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL6cda>これは <CALL6ce1>、世界を見てまわる
       旅に 出られるそうですね。
@@ -218,6 +224,8 @@
   "69a5":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL6cda><IF0009><JUMP69fb><CALL6d08>王子、フェリシアさまにも
       旅立ちの前に あいさつをされては
@@ -233,6 +241,8 @@
   "6a2d":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL6cda>これは<CALL6ce1>、どうかお気をつけて旅をなさってください。
     "original_byte_length": !!int |-
@@ -245,6 +255,8 @@
   "6a64":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL6cda><CALL6ce1>、スライムいじめを
       なさったことは ございますか？
@@ -259,6 +271,8 @@
   "6abe":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL6cda><CALL6ce1>、せっかく 自由な旅を
       なさるのですから 十分に 楽しんで
@@ -273,6 +287,8 @@
   "6b0c":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL6cda>ラウエル殿が さびしそうですね。
       <CALL6ce1>、しっかりと 勉強を
@@ -287,6 +303,8 @@
   "6b5b":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL6cda><CALL6ce1>、まずは わが国のようすを
       ごらんください。
@@ -303,6 +321,8 @@
   "6bc1":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL6cda><CALL6ce1>、自由だからといって無理をされないように なさってください。
     "original_byte_length": !!int |-
@@ -315,6 +335,8 @@
   "6c03":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL6d24><IF0008><JUMP6c64><UNSET0404>セリオス陛下、
       <CALL6ce1>を お連れいたしました。
@@ -336,165 +358,85 @@
   "6cda":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE><RET_N>
     "original_byte_length": !!int |-
       7
-    "reference_addrs":
-    - !!int |-
-      27586
-    - !!int |-
-      27237
-    - !!int |-
-      27046
-    - !!int |-
-      27405
-    - !!int |-
-      27182
-    - !!int |-
-      26958
-    - !!int |-
-      27484
-    - !!int |-
-      27327
+    "reference_addrs": []
     "translated": !!null |-
       null
   "6ce1":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       王子さま<RET>
     "original_byte_length": !!int |-
       9
-    "reference_addrs":
-    - !!int |-
-      26177
-    - !!int |-
-      27330
-    - !!int |-
-      27554
-    - !!int |-
-      27589
-    - !!int |-
-      26216
-    - !!int |-
-      27240
-    - !!int |-
-      27440
-    - !!int |-
-      27487
-    - !!int |-
-      27191
-    - !!int |-
-      26968
-    - !!int |-
-      27132
-    - !!int |-
-      27679
+    "reference_addrs": []
     "translated": !!null |-
       null
   "6cea":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>セリオス国王<C_NONE><RET_N>
     "original_byte_length": !!int |-
       15
-    "reference_addrs":
-    - !!int |-
-      24939
-    - !!int |-
-      26065
-    - !!int |-
-      23570
-    - !!int |-
-      25783
-    - !!int |-
-      27706
-    - !!int |-
-      25308
+    "reference_addrs": []
     "translated": !!null |-
       null
   "6cf9":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ディーナ王妃<C_NONE><RET_N>
     "original_byte_length": !!int |-
       15
-    "reference_addrs":
-    - !!int |-
-      25440
-    - !!int |-
-      26473
-    - !!int |-
-      26244
+    "reference_addrs": []
     "translated": !!null |-
       null
   "6d08":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       アトラス<RET>
     "original_byte_length": !!int |-
       9
-    "reference_addrs":
-    - !!int |-
-      26338
-    - !!int |-
-      25443
-    - !!int |-
-      26915
-    - !!int |-
-      25573
-    - !!int |-
-      25925
-    - !!int |-
-      26023
-    - !!int |-
-      26735
-    - !!int |-
-      23600
-    - !!int |-
-      27729
-    - !!int |-
-      27055
-    - !!int |-
-      26259
-    - !!int |-
-      26613
-    - !!int |-
-      26875
-    - !!int |-
-      24991
+    "reference_addrs": []
     "translated": !!null |-
       null
   "6d11":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>フェリシア皇太后<C_NONE><RET_N>
     "original_byte_length": !!int |-
       19
-    "reference_addrs":
-    - !!int |-
-      26712
-    - !!int |-
-      26837
+    "reference_addrs": []
     "translated": !!null |-
       null
   "6d24":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>教育係 ラウエル<C_NONE><RET_N>
     "original_byte_length": !!int |-
       18
-    "reference_addrs":
-    - !!int |-
-      25026
-    - !!int |-
-      27652
+    "reference_addrs": []
     "translated": !!null |-
       null
 "note": ""

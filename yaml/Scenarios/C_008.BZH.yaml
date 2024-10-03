@@ -2,6 +2,8 @@
   "59ee":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       これは 王子さま。
@@ -19,13 +21,13 @@
   "5a88":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       まだ <RET>
     "original_byte_length": !!int |-
       6
-    "reference_addrs":
-    - !!int |-
-      23063
+    "reference_addrs": []
     "translated": !!null |-
       null
 "note": ""

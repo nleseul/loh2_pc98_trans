@@ -2,6 +2,8 @@
   "5d61":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>フラッド<C_NONE>
       やあ こんにちは。
@@ -15,6 +17,8 @@
   "5d7e":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <PARTY>は 宝箱を開けました。
       宝箱の中には<RET>

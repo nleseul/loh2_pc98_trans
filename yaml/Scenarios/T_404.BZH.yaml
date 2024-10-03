@@ -2,6 +2,8 @@
   "5b88":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>老人<C_NONE>
       この船は ルドラの港まで いっとる。乗るなら 早く乗りなされ。
@@ -15,6 +17,8 @@
   "5bcb":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>老人<C_NONE>
       お客さん 切符を出してくだされ。
@@ -34,6 +38,8 @@
   "5c8c":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>子ども<C_NONE>
       ぼくの父さんと母さんは ふたりとも
@@ -51,6 +57,8 @@
   "5d03":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>老人<C_NONE>
       わしらは セリスの町が おそわれて
@@ -65,6 +73,8 @@
   "5d60":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       ここは ねえさん夫婦の 家なんだ。
@@ -80,6 +90,8 @@
   "5dc2":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>女<C_NONE>
       司祭 バーバラさまって すごいのね。でも セリオスさまたちは いったい
@@ -94,6 +106,8 @@
   "5e21":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>女<C_NONE>
       あのモンスターは フレイアさまの
@@ -109,6 +123,8 @@
   "5e81":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>老人<C_NONE>
       わしゃ 若いころから まじめに
@@ -123,6 +139,8 @@
   "5ee0":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       いらっしゃい 切符が いるのかい？
@@ -141,6 +159,8 @@
   "5fcd":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>呪文屋<C_NONE>
       いらっしゃいませ。
@@ -155,6 +175,8 @@
   "5ffd":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       また来てください。
     "original_byte_length": !!int |-
@@ -167,6 +189,8 @@
   "6010":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>道具屋<C_NONE>
       いらっしゃいませ。
@@ -181,6 +205,8 @@
   "6048":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       また来てくださいね。
     "original_byte_length": !!int |-
@@ -193,6 +219,8 @@
   "605d":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       おや？これ以上持てないようですね。
 
@@ -207,6 +235,8 @@
   "6081":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       どれを買ってくれますか？
       <RET_N>
@@ -220,6 +250,8 @@
   "609b":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <ITEM>だね。
       どうも ありがとう。
@@ -235,6 +267,8 @@
   "60b8":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       あら いやだ。もう持てませんわよ。
 
@@ -249,6 +283,8 @@
   "60db":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       何を 買ってくれます？
       <RET_N>
@@ -262,6 +298,8 @@
   "60f2":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <ITEM>ですね。
       ありがとう ございます。
@@ -277,6 +315,8 @@
   "611d":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       どれを 売ってくれますか？
       <RET_N>
@@ -290,6 +330,8 @@
   "6138":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |2-
        Gold になるけど
       それでも よろしいですか？
@@ -304,6 +346,8 @@
   "6164":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       それは残念です。
 
@@ -318,6 +362,8 @@
   "6176":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       どうも ありがとうございます。
       <RET_N>

@@ -2,6 +2,8 @@
   "5a42":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       <IF_NOT00f5><JUMP5aa0>あれっ !? ･ ･ ･ アトラス王子？
@@ -23,6 +25,8 @@
   "5b3b":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       <IF_NOT00f5><JUMP5bb0>アトラス王子さま こんなときに
@@ -46,6 +50,8 @@
   "5c6c":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       <IF_NOT00f5><JUMP5d2b>先日 セリオスさまと エリオンさまがそろって おみえになられ
@@ -74,6 +80,8 @@
   "5df7":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>侍女<C_NONE>
       まあ アトラス王子さま。
@@ -91,6 +99,8 @@
   "5e69":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>侍女<C_NONE>
       屋上にいる 発明家のハリーさんは

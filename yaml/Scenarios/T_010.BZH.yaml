@@ -2,6 +2,8 @@
   "5b2f":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       王子さま、この前の 大地震は
@@ -19,6 +21,8 @@
   "5b8f":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       おや これは王子さま、いつ お城に
@@ -33,6 +37,8 @@
   "5bc8":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       あっ 王子さま、この前の 地震は
@@ -51,6 +57,8 @@
   "5c52":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       王子さま、武器屋のスコットは
@@ -67,6 +75,8 @@
   "5cdc":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       王子さま。この前の 地震で クルスの近くに 竜の卵が 出てきたんですよ。そのうち 竜の祭でも 始めませんか？
@@ -80,6 +90,8 @@
   "5d48":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>女<C_NONE>
       あら 王子さま、こんにちは。
@@ -97,6 +109,8 @@
   "5daf":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>女<C_NONE>
       <IF0048><JUMP5dfc>あら 王子さま、
@@ -114,6 +128,8 @@
   "5e2f":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>老人<C_NONE>
       <IF0018><JUMP5ee7>おやおや 王子さま、そのかっこうは
@@ -139,6 +155,8 @@
   "5fa1":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       王子さま、町の者たちに 王子さまの
@@ -154,18 +172,20 @@
   "5ff9":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       一人<RET>
     "original_byte_length": !!int |-
       5
-    "reference_addrs":
-    - !!int |-
-      24526
+    "reference_addrs": []
     "translated": !!null |-
       null
   "5ffe":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       <IF0400><JUMP6077>王子さま、今日は いつもと違って
@@ -185,6 +205,8 @@
   "60aa":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>スコット<C_NONE>
       うわーっ !!<WAIT>
@@ -200,6 +222,8 @@
   "60ef":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>アロン<C_NONE>
       <IF000c><JUMP6448><IF000b><JUMP6360><SET000b>おや、王子さま。
@@ -258,6 +282,8 @@
   "6497":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>バーテン<C_NONE>
       これは王子さま、いらっしゃいませ。お酒は 出せませんが ゆっくり
@@ -272,6 +298,8 @@
   "64fa":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>道具屋<C_NONE>
       おや 王子さま、お散歩ですか？

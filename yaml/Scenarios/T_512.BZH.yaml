@@ -2,6 +2,8 @@
   "5bd0":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ハーベイ<C_NONE>
       <IF0117><JUMP5d9f><IF0401><JUMP5d50><Xf82a7417><JUMP5d50>キノコの王様を くれるのかね？
@@ -37,6 +39,8 @@
   "5dda":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ハーベイ<C_NONE>
       こらこら それは大事な物が入っとる。さわるでない。
@@ -50,6 +54,8 @@
   "5e17":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>老人<C_NONE>
       むっ お前さんたち わしの家から
@@ -67,6 +73,8 @@
   "5e81":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       イシュタの者たちは 反逆罪で
@@ -84,6 +92,8 @@
   "5ef9":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       これで もう 自由への 希望も
@@ -101,6 +111,8 @@
   "5f6b":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       ふー ･ ･ ･<WAIT>
@@ -118,6 +130,8 @@
   "5fc6":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>女<C_NONE>
       なに あなたたちは？
@@ -132,6 +146,8 @@
   "5ffd":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>女<C_NONE>
       あなたたち レジスタンスね？
@@ -152,6 +168,8 @@
   "6099":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>子ども<C_NONE>
       <IF018c><JUMP6106>わーい わーい。
@@ -171,6 +189,8 @@
   "6134":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ヤミ屋<C_NONE>
       何の用だ？<RET_N>
@@ -184,6 +204,8 @@
   "6148":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       まいど どうも。
     "original_byte_length": !!int |-
@@ -196,6 +218,8 @@
   "6158":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       これ以上 持てないみたいだな。
 
@@ -210,6 +234,8 @@
   "6177":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       何を買いたいんだ？
       <RET_N>
@@ -223,6 +249,8 @@
   "618b":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <ITEM>だな。
       まいど どうも。
@@ -238,6 +266,8 @@
   "61ac":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       どれを 売りたいんだ？
       <RET_N>
@@ -251,6 +281,8 @@
   "61c3":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |2-
        Gold で買ってやるよ。
       いいだろ？
@@ -265,6 +297,8 @@
   "61e6":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       何だよ 売ってくれねえのか。
 
@@ -279,6 +313,8 @@
   "6203":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       ありがとよ。
       <RET_N>
@@ -292,6 +328,8 @@
   "6211":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <PARTY>は 宝箱を開けました。
       宝箱の中には<RET>

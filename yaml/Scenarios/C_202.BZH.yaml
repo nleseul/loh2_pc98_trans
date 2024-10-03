@@ -2,6 +2,8 @@
   "5b18":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       アトラスさま ･ ･ ･ ですよね？
@@ -17,6 +19,8 @@
   "5b70":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       ようこそ アトラスさま。
@@ -35,6 +39,8 @@
   "5c31":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       今日と明日は たくさんの料理が
@@ -50,6 +56,8 @@
   "5c87":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       ここは 出入国記録の 保管所です。
@@ -69,6 +77,8 @@
   "5d51":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       ここは 出国手続き所なんです。
@@ -84,6 +94,8 @@
   "5da8":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       この船は わがラヌーラ王国の船です。
@@ -101,6 +113,8 @@
   "5e28":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       祭のじゃまをするような やつが
@@ -115,6 +129,8 @@
   "5e8e":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>司祭 バーバラ<C_NONE>
       わしゃ 竜の祭の司祭じゃ。
@@ -130,6 +146,8 @@
   "5ef7":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>侍女<C_NONE>
       今日は 前夜祭だから 料理をたくさん作らなければ なりませんのよ。
@@ -143,6 +161,8 @@
   "5f3e":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>侍女<C_NONE>
       あんまり 忙しいから 王妃さまにまで手伝っていただいてますのよ。
@@ -156,6 +176,8 @@
   "5f84":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ソニア王妃<C_NONE>
       アトラスさまですね？
@@ -174,6 +196,8 @@
   "6018":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>チャールズ王子<C_NONE>
       バーバラと いっしょに 竜の卵に

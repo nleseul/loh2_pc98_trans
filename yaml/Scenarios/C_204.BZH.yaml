@@ -2,6 +2,8 @@
   "5b41":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>エリオン<C_NONE>
       ソニア、よく 気がついてくれた。
@@ -54,6 +56,8 @@
   "5e06":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ソニア<C_NONE>
       エリオンさま !!

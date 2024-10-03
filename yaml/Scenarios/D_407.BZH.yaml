@@ -2,6 +2,8 @@
   "5bc2":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ドレイク<C_NONE>
       な、何だよ お前ら？
@@ -17,6 +19,8 @@
   "5c25":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL60c8>なんだ おめーら？
       よく ここまで 来れたもんだな。
@@ -34,6 +38,8 @@
   "5cb4":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL60c8>大盗賊 ゲイルさまは どこに行って
       しまったんだろう？
@@ -51,6 +57,8 @@
   "5d45":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL60c8>ゲイル３世さまは 英雄の
       ひとりなんですよ。
@@ -68,6 +76,8 @@
   "5dcb":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL60c8>ドレイクの子分が ずっと 帰ってきてないけど どうしたんだろう。
     "original_byte_length": !!int |-
@@ -80,6 +90,8 @@
   "5e0c":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL60c8>いくらがんばっても この扉は 絶対にあかねえように なってるんだ。
 
@@ -94,6 +106,8 @@
   "5e8d":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL60c8>ドレイクのやつ 毎日 どこかに
       出かけてるんだ。<WAIT>
@@ -108,6 +122,8 @@
   "5edc":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL60c8>ゲイル２世さまは ラルフという
       名前で 考古学者に なっていて
@@ -125,6 +141,8 @@
   "5f6b":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL60c8>この宝は 大盗賊 ゲイルさまの
       一番大切な物だから だれにも
@@ -142,6 +160,8 @@
   "5ffc":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <PARTY>は 石碑を読みました。
 
@@ -158,6 +178,8 @@
   "6056":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <PARTY>は 石碑を読みました。
 
@@ -174,6 +196,8 @@
   "60aa":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_GREEN>扉は 開きそうもありません。<C_NONE>
     "original_byte_length": !!int |-
@@ -186,27 +210,13 @@
   "60c8":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>盗賊<C_NONE><RET_N>
     "original_byte_length": !!int |-
       7
-    "reference_addrs":
-    - !!int |-
-      23878
-    - !!int |-
-      23590
-    - !!int |-
-      24012
-    - !!int |-
-      24077
-    - !!int |-
-      24206
-    - !!int |-
-      24428
-    - !!int |-
-      23733
-    - !!int |-
-      24285
+    "reference_addrs": []
     "translated": !!null |-
       null
 "note": ""

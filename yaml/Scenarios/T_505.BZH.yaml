@@ -2,6 +2,8 @@
   "5a0a":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>リーダー<C_NONE>
       <IF016f><JUMP6432><IF0172><JUMP6222><IF010e><JUMP5e96><SET010e>おお アトラス君、ちょうど いま
@@ -151,6 +153,8 @@
   "64a8":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       あの大きな岩を くずしたのは
@@ -169,6 +173,8 @@
   "652d":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>レイシア<C_NONE>
       <IF010e><JUMP656e>おめでとう お父さんを 助け出した

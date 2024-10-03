@@ -2,6 +2,8 @@
   "5efe":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ガード<C_NONE>
       中に入りたいのか？
@@ -26,6 +28,8 @@
   "5f8d":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ガード<C_NONE>
       ここは <ASMd960>への 出口だ。
@@ -52,6 +56,8 @@
   "607c":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ガード<C_NONE>
       <IF0124><JUMP60ca>この先は 城の正門につながっている。お前らは 立入禁止の場所だ。<END>
@@ -73,13 +79,13 @@
     "reference_addrs":
     - !!int |-
       54888
-    - !!int |-
-      25072
     "translated": !!null |-
       null
   "61e3":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ガード<C_NONE>
       <IF0124><JUMP60ca>お前らが 入れるのは ここまでだ。
@@ -95,6 +101,8 @@
   "624c":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ガード<C_NONE>
       じゃまだ どけ !!
@@ -108,6 +116,8 @@
   "6266":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ガード<C_NONE>
       わかっているだろうが 他の地方に
@@ -123,6 +133,8 @@
   "62ce":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       へっへっへ。 あんたたち ちょっと
@@ -140,6 +152,8 @@
   "6330":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       この町は 昔 ファーゲスタの中で
@@ -161,6 +175,8 @@
   "63ff":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       いやな世の中に なっちゃったよな。
@@ -179,6 +195,8 @@
   "64a3":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>女<C_NONE>
       私 ここで 待ち合わせしてるんだけどなかなか こないのよ。
@@ -194,6 +212,8 @@
   "651e":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ヤミ屋<C_NONE>
       あんたたち どんな用なんだ？<RET_N>
@@ -207,6 +227,8 @@
   "6543":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       おれは よく ここに来てるから
       何か用があったら また来てくれ。
@@ -220,6 +242,8 @@
   "6580":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       これ以上 持てないみたいだな。
 
@@ -234,6 +258,8 @@
   "659f":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       何が 買いたいんだ？
       <RET_N>
@@ -247,6 +273,8 @@
   "65b4":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <ITEM>だな。
       ガードに 見つかるなよ。
@@ -262,6 +290,8 @@
   "65dd":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       何を 売ってくれるんだ？
       <RET_N>
@@ -275,6 +305,8 @@
   "65f6":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |2-
        Gold なら買ってやるけど
       それで いいか？
@@ -289,6 +321,8 @@
   "6620":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       それじゃ しかたねえな。
 
@@ -303,6 +337,8 @@
   "6639":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       ありがとよ。
       <RET_N>

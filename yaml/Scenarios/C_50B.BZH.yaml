@@ -2,6 +2,8 @@
   "5ce3":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CH1>
       さあ シンディ 出番だぜ。
@@ -18,6 +20,8 @@
   "5d14":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ガード<C_NONE>
       んっ !? 何の音だ？
@@ -37,6 +41,8 @@
   "5d85":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ガード<C_NONE>
       だっ 脱走だ !!
@@ -51,6 +57,8 @@
   "5dae":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <PARTY>は 宝箱を開けました。
       宝箱の中には<RET>

@@ -2,6 +2,8 @@
   "5c92":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       <IF0068><JUMP5d62>おや どうしたのですか 王子さま。
@@ -25,6 +27,8 @@
   "5dbf":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       <IF0068><JUMP5f0d>私は ここの見回りを するときに
@@ -51,6 +55,8 @@
   "5fdd":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       セリオス陛下から この部屋の財宝を
@@ -66,6 +72,8 @@
   "603d":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |2-
 
 
@@ -73,14 +81,14 @@
       何か 協力したいと 思うのですが ･ ･<RET>
     "original_byte_length": !!int |-
       69
-    "reference_addrs":
-    - !!int |-
-      24634
+    "reference_addrs": []
     "translated": !!null |-
       null
   "6082":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       これは 王子さま 武器庫に どんな
@@ -96,6 +104,8 @@
   "60b9":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CLEAR>何を お預かりしましょう？<RET_N>
     "original_byte_length": !!int |-
@@ -108,6 +118,8 @@
   "60d4":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CLEAR>何を お渡ししましょう？<RET_N>
     "original_byte_length": !!int |-
@@ -120,6 +132,8 @@
   "60ed":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CLEAR>また 何か ご用がありましたら
       いつでも おいでください。
@@ -133,6 +147,8 @@
   "6125":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CLEAR>王子さま 申しわけありませんが
       これ以上は 預かれません。
@@ -148,6 +164,8 @@
   "615f":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CLEAR>王子さま もう これ以上 持ち物は
       持てないようですが ･ ･ ･
@@ -163,6 +181,8 @@
   "619a":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CLEAR>王子さまから お預かりしている物は
       何もございません。
@@ -178,6 +198,8 @@
   "61d1":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CLEAR>王子さま これ以上 お預かりしている物は ございません。
 
@@ -192,6 +214,8 @@
   "6209":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <PARTY>は 宝箱を開けました。
       宝箱の中には<RET>

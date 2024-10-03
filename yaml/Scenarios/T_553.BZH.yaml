@@ -2,6 +2,8 @@
   "5c28":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       どうしたんだ お前ら。
@@ -16,6 +18,8 @@
   "5c5c":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>老人<C_NONE>
       ありがたいことじゃ。
@@ -30,6 +34,8 @@
   "5c9c":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       助かったぜ 同志。
@@ -44,6 +50,8 @@
   "5cd5":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       おお ありがとう。
@@ -58,6 +66,8 @@
   "5d0b":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       これは ワナじゃないだろうな？
@@ -73,6 +83,8 @@
   "5d5a":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>老人<C_NONE>
       若いの 助けてくれて ありがとう。
@@ -88,6 +100,8 @@
   "5db4":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL6cd2>竜の卵に入ると コンソールがある。
       その いちばん奥に 銀色のレバーが
@@ -111,6 +125,8 @@
   "5f0f":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>手前の老人<C_NONE>
       これは いったい なにごとですかな？
@@ -266,6 +282,8 @@
   "6941":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CALL6ce7>私たち マスターの存在は
       一部の者しか 知らない。
@@ -290,6 +308,8 @@
   "6a92":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>レイシア<C_NONE>
       あなたたちは 転送をやめさせて。
@@ -304,6 +324,8 @@
   "6ad8":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>レイシア<C_NONE>
       この人たちのことは 私に まかせて
@@ -328,6 +350,8 @@
   "6c0c":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CH0>
       ここ あけられるかな？
@@ -344,6 +368,8 @@
   "6c44":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CH1>
       あー だめだ。
@@ -361,6 +387,8 @@
   "6c80":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CH1>
       さすが シンディだ。
@@ -374,6 +402,8 @@
   "6c97":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CH2>
       えっ 私は そんなこと できませんわ。
@@ -387,95 +417,49 @@
   "6cbe":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       フレイア<RET>
     "original_byte_length": !!int |-
       9
-    "reference_addrs":
-    - !!int |-
-      26404
-    - !!int |-
-      26183
-    - !!int |-
-      24487
-    - !!int |-
-      24423
-    - !!int |-
-      26125
-    - !!int |-
-      26254
-    - !!int |-
-      25142
+    "reference_addrs": []
     "translated": !!null |-
       null
   "6cc7":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       モンスター<RET>
     "original_byte_length": !!int |-
       11
-    "reference_addrs":
-    - !!int |-
-      24544
-    - !!int |-
-      24672
-    - !!int |-
-      25698
-    - !!int |-
-      27397
-    - !!int |-
-      26119
-    - !!int |-
-      26568
-    - !!int |-
-      26193
-    - !!int |-
-      27217
-    - !!int |-
-      24629
-    - !!int |-
-      25525
-    - !!int |-
-      26454
+    "reference_addrs": []
     "translated": !!null |-
       null
   "6cd2":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ヨシュアのマスター<C_NONE><RET_N>
     "original_byte_length": !!int |-
       21
-    "reference_addrs":
-    - !!int |-
-      26794
-    - !!int |-
-      26096
-    - !!int |-
-      26290
-    - !!int |-
-      23989
-    - !!int |-
-      26392
+    "reference_addrs": []
     "translated": !!null |-
       null
   "6ce7":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ヒストラのマスター<C_NONE><RET_N>
     "original_byte_length": !!int |-
       21
-    "reference_addrs":
-    - !!int |-
-      26216
-    - !!int |-
-      26321
-    - !!int |-
-      26946
-    - !!int |-
-      26684
+    "reference_addrs": []
     "translated": !!null |-
       null
 "note": ""

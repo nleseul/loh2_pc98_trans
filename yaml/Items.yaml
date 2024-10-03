@@ -2,6 +2,8 @@
   "8b3b":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       何もない
     "original_byte_length": !!null |-
@@ -12,6 +14,8 @@
   "8b4f":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       ナイフ
     "original_byte_length": !!null |-
@@ -22,6 +26,8 @@
   "8b63":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       小型のつるぎ
     "original_byte_length": !!null |-
@@ -32,6 +38,8 @@
   "8b77":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       青銅のつるぎ
     "original_byte_length": !!null |-
@@ -42,6 +50,8 @@
   "8b8b":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       鉄のつるぎ
     "original_byte_length": !!null |-
@@ -52,6 +62,8 @@
   "8b9f":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       鉄球こんぼう
     "original_byte_length": !!null |-
@@ -62,6 +74,8 @@
   "8bb3":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       強者のやり
     "original_byte_length": !!null |-
@@ -72,6 +86,8 @@
   "8bc7":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       必殺のつるぎ
     "original_byte_length": !!null |-
@@ -82,6 +98,8 @@
   "8bdb":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       大地のおの
     "original_byte_length": !!null |-
@@ -92,6 +110,8 @@
   "8bef":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       戦士のつるぎ
     "original_byte_length": !!null |-
@@ -102,6 +122,8 @@
   "8c03":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       勇者のつるぎ
     "original_byte_length": !!null |-
@@ -112,6 +134,8 @@
   "8c17":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       騎士のやり
     "original_byte_length": !!null |-
@@ -122,6 +146,8 @@
   "8c2b":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       撃破のつるぎ
     "original_byte_length": !!null |-
@@ -132,6 +158,8 @@
   "8c3f":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       理力のつるぎ
     "original_byte_length": !!null |-
@@ -142,6 +170,8 @@
   "8c53":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       正義のつるぎ
     "original_byte_length": !!null |-
@@ -152,6 +182,8 @@
   "8c67":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       ドラゴンの剣
     "original_byte_length": !!null |-
@@ -162,6 +194,8 @@
   "8c7b":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       太陽の聖剣
     "original_byte_length": !!null |-
@@ -172,6 +206,8 @@
   "8c8f":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       布の服
     "original_byte_length": !!null |-
@@ -182,6 +218,8 @@
   "8ca3":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       革のヨロイ
     "original_byte_length": !!null |-
@@ -192,6 +230,8 @@
   "8cb7":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       鉄のヨロイ
     "original_byte_length": !!null |-
@@ -202,6 +242,8 @@
   "8ccb":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       はがねのヨロイ
     "original_byte_length": !!null |-
@@ -212,6 +254,8 @@
   "8cdf":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       不死身のヨロイ
     "original_byte_length": !!null |-
@@ -222,6 +266,8 @@
   "8cf3":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       バトルスーツ
     "original_byte_length": !!null |-
@@ -232,6 +278,8 @@
   "8d07":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       理力のヨロイ
     "original_byte_length": !!null |-
@@ -242,6 +290,8 @@
   "8d1b":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       自由のヨロイ
     "original_byte_length": !!null |-
@@ -252,6 +302,8 @@
   "8d2f":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       ドラゴンの鎧
     "original_byte_length": !!null |-
@@ -262,6 +314,8 @@
   "8d43":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       革のたて
     "original_byte_length": !!null |-
@@ -272,6 +326,8 @@
   "8d57":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       鉄のたて
     "original_byte_length": !!null |-
@@ -282,6 +338,8 @@
   "8d6b":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       はがねのたて
     "original_byte_length": !!null |-
@@ -292,6 +350,8 @@
   "8d7f":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       無敵のたて
     "original_byte_length": !!null |-
@@ -302,6 +362,8 @@
   "8d93":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       いにしえのたて
     "original_byte_length": !!null |-
@@ -312,6 +374,8 @@
   "8da7":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       理力のたて
     "original_byte_length": !!null |-
@@ -322,6 +386,8 @@
   "8dbb":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       希望のたて
     "original_byte_length": !!null |-
@@ -332,6 +398,8 @@
   "8dcf":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       ドラゴンのたて
     "original_byte_length": !!null |-
@@ -342,6 +410,8 @@
   "8de3":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       炎のやり
     "original_byte_length": !!null |-
@@ -352,6 +422,8 @@
   "8df7":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       回復のヨロイ
     "original_byte_length": !!null |-
@@ -362,6 +434,8 @@
   "8e0b":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       光の杖
     "original_byte_length": !!null |-
@@ -372,6 +446,8 @@
   "8e1f":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       いかづちの杖
     "original_byte_length": !!null |-
@@ -382,6 +458,8 @@
   "8e33":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       シナリオ専用
     "original_byte_length": !!null |-
@@ -392,6 +470,8 @@
   "8e47":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       災害のお守り
     "original_byte_length": !!null |-
@@ -402,6 +482,8 @@
   "8e5b":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       切符
     "original_byte_length": !!null |-
@@ -412,6 +494,8 @@
   "8e6f":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       戦士の笛
     "original_byte_length": !!null |-
@@ -422,6 +506,8 @@
   "8e83":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       キノコの王様
     "original_byte_length": !!null |-
@@ -432,6 +518,8 @@
   "8e97":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       密造酒
     "original_byte_length": !!null |-
@@ -442,6 +530,8 @@
   "8eab":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       バクヤク
     "original_byte_length": !!null |-
@@ -452,6 +542,8 @@
   "8ebf":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       ワプの翼
     "original_byte_length": !!null |-
@@ -462,6 +554,8 @@
   "8ed3":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       ヨシュアの鏡
     "original_byte_length": !!null |-
@@ -472,6 +566,8 @@
   "8ee7":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       ビスのキノコ
     "original_byte_length": !!null |-
@@ -482,6 +578,8 @@
   "8efb":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       レスの葉
     "original_byte_length": !!null |-
@@ -492,6 +590,8 @@
   "8f0f":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       毒消し草
     "original_byte_length": !!null |-
@@ -502,6 +602,8 @@
   "8f23":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       たいまつ
     "original_byte_length": !!null |-
@@ -512,6 +614,8 @@
   "8f37":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       ヨシュアの目
     "original_byte_length": !!null |-
@@ -522,6 +626,8 @@
   "8f4b":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       気付けぐすり
     "original_byte_length": !!null |-
@@ -532,6 +638,8 @@
   "8f5f":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       聖なるつるぎ
     "original_byte_length": !!null |-
@@ -542,6 +650,8 @@
   "8f73":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       聖なるヨロイ
     "original_byte_length": !!null |-
@@ -552,6 +662,8 @@
   "8f87":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       聖なるたて
     "original_byte_length": !!null |-
@@ -562,6 +674,8 @@
   "8f9b":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       ランプ
     "original_byte_length": !!null |-
@@ -572,6 +686,8 @@
   "8faf":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       回復キノコ
     "original_byte_length": !!null |-
@@ -582,6 +698,8 @@
   "8fc3":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       ビスナの実
     "original_byte_length": !!null |-
@@ -592,6 +710,8 @@
   "8fd7":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       オプナのゆびわ
     "original_byte_length": !!null |-
@@ -602,6 +722,8 @@
   "8feb":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       テュトのゆびわ
     "original_byte_length": !!null |-
@@ -612,6 +734,8 @@
   "8fff":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       クイクのゆびわ
     "original_byte_length": !!null |-
@@ -622,6 +746,8 @@
   "9013":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       幸運のゆびわ
     "original_byte_length": !!null |-
@@ -632,6 +758,8 @@
   "9027":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       スペルのゆびわ
     "original_byte_length": !!null |-
@@ -642,6 +770,8 @@
   "903b":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       レストナキノコ
     "original_byte_length": !!null |-
@@ -652,6 +782,8 @@
   "904f":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       聖なる杖
     "original_byte_length": !!null |-
@@ -662,6 +794,8 @@
   "9063":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       エリクサー
     "original_byte_length": !!null |-
@@ -672,6 +806,8 @@
   "9077":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       氷の杖
     "original_byte_length": !!null |-
@@ -682,6 +818,8 @@
   "908b":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       マホウのゆびわ
     "original_byte_length": !!null |-
@@ -692,6 +830,8 @@
   "909f":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       賢者のゆびわ
     "original_byte_length": !!null |-
@@ -702,6 +842,8 @@
   "90b3":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       眠りタケ
     "original_byte_length": !!null |-
@@ -712,6 +854,8 @@
   "90c7":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       ？？？？？７１
     "original_byte_length": !!null |-
@@ -722,6 +866,8 @@
   "90db":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       ？？？？？７２
     "original_byte_length": !!null |-
@@ -732,6 +878,8 @@
   "90ef":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       ？？？？？７３
     "original_byte_length": !!null |-
@@ -742,6 +890,8 @@
   "9103":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       ？？？？？７４
     "original_byte_length": !!null |-
@@ -752,6 +902,8 @@
   "9117":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       ？？？？？７５
     "original_byte_length": !!null |-
@@ -762,6 +914,8 @@
   "912b":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       カノンの親書
     "original_byte_length": !!null |-
@@ -772,6 +926,8 @@
   "9139":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       ランケアの親書
     "original_byte_length": !!null |-
@@ -782,6 +938,8 @@
   "9147":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       ハルパの親書
     "original_byte_length": !!null |-
@@ -792,6 +950,8 @@
   "9155":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       マリスカの親書
     "original_byte_length": !!null |-
@@ -802,6 +962,8 @@
   "9163":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       ギルモアの涙
     "original_byte_length": !!null |-
@@ -812,6 +974,8 @@
   "9171":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       ギルモアの星
     "original_byte_length": !!null |-
@@ -822,6 +986,8 @@
   "917f":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       アフル通行証
     "original_byte_length": !!null |-
@@ -832,6 +998,8 @@
   "918d":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       イズー通行証
     "original_byte_length": !!null |-
@@ -842,6 +1010,8 @@
   "919b":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       キュベラ通行証
     "original_byte_length": !!null |-
@@ -852,6 +1022,8 @@
   "91a9":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       ウイル通行証
     "original_byte_length": !!null |-
@@ -862,6 +1034,8 @@
   "91b7":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       竜の涙
     "original_byte_length": !!null |-
@@ -872,6 +1046,8 @@
   "91c5":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       銀のプレート
     "original_byte_length": !!null |-
@@ -882,6 +1058,8 @@
   "91d3":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       杖のかけら
     "original_byte_length": !!null |-
@@ -892,6 +1070,8 @@
   "91e1":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       幅広のつるぎ
     "original_byte_length": !!null |-
@@ -902,6 +1082,8 @@
   "91ef":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       くさりかたびら
     "original_byte_length": !!null |-
@@ -912,6 +1094,8 @@
   "91fd":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       金のプレート
     "original_byte_length": !!null |-
@@ -922,6 +1106,8 @@
   "920b":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       ギルモアの虹
     "original_byte_length": !!null |-
@@ -932,6 +1118,8 @@
   "9219":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       銅のプレート
     "original_byte_length": !!null |-
@@ -942,6 +1130,8 @@
   "9227":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       不思議なマント
     "original_byte_length": !!null |-
@@ -952,6 +1142,8 @@
   "9235":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       不思議な箱
     "original_byte_length": !!null |-
@@ -962,6 +1154,8 @@
   "9243":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       ビキニ
     "original_byte_length": !!null |-
@@ -972,6 +1166,8 @@
   "9251":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       大笑い袋
     "original_byte_length": !!null |-
@@ -982,6 +1178,8 @@
   "925f":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       透視メガネ
     "original_byte_length": !!null |-
@@ -992,6 +1190,8 @@
   "926d":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       鉄アレイ
     "original_byte_length": !!null |-
@@ -1002,6 +1202,8 @@
   "927b":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       ？？ＳＩＮ２５
     "original_byte_length": !!null |-
@@ -1012,6 +1214,8 @@
   "9289":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       フレイアの微笑
     "original_byte_length": !!null |-
@@ -1022,6 +1226,8 @@
   "9297":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       変換炉のカギ
     "original_byte_length": !!null |-

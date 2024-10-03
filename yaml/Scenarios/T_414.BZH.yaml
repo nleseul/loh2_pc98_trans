@@ -2,6 +2,8 @@
   "5a90":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       ソルディスに 行ったときに
@@ -17,6 +19,8 @@
   "5aec":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       スリの修行とかで よく ファンガスの連中が この町まで来るんだよ。
@@ -31,6 +35,8 @@
   "5b4a":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>女<C_NONE>
       モレストンには ファンガスっていう
@@ -50,6 +56,8 @@
   "5c02":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>女<C_NONE>
       ファンガスの 盗賊たちの かしらってかなりの年寄りらしいけど 今でも
@@ -67,6 +75,8 @@
   "5ca8":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>アニー<C_NONE>
       <IF0404><JUMP5cd0><SET0404>シンディ 元気そうね？
@@ -82,6 +92,8 @@
   "5cff":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ヤミ屋<C_NONE>
       ヘッヘッヘ なにか用かい？<RET_N>
@@ -95,6 +107,8 @@
   "5d22":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       またどうぞ。
     "original_byte_length": !!int |-
@@ -107,6 +121,8 @@
   "5d2f":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       これ以上持てないようだな。
 
@@ -121,6 +137,8 @@
   "5d4b":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       どれを買いたいんだ？
       <RET_N>
@@ -134,6 +152,8 @@
   "5d61":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <ITEM>だな。
       ありがとよ。
@@ -149,6 +169,8 @@
   "5d7f":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       どれを 売りたいんだ？
       <RET_N>
@@ -162,6 +184,8 @@
   "5d96":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |2-
        Gold になるけど
       それで いいかい？
@@ -176,6 +200,8 @@
   "5dba":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       そうか 残念だな。
 
@@ -190,6 +216,8 @@
   "5dcd":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       ありがとよ。
       <RET_N>

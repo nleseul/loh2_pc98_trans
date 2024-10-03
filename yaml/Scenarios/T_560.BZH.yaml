@@ -2,6 +2,8 @@
   "5f1d":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>レイシア<C_NONE>
       それじゃ 私とボザが キュベラにいるレジスタンスたちを 連れてくるから
@@ -23,6 +25,8 @@
   "5fec":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ケリイ<C_NONE>
       <IF0151><JUMP6103><SET0151>おや あなたたちは？
@@ -52,6 +56,8 @@
   "6178":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>男<C_NONE>
       ずっと前の地震で ネサの辺土の先に
@@ -76,6 +82,8 @@
   "62bc":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>老人<C_NONE>
       うわさによると ガードの隊長が
@@ -95,6 +103,8 @@
   "637b":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>女<C_NONE>
       脱走した囚人って まだ ベルンの方にいるらしいわよ。
@@ -108,6 +118,8 @@
   "63b3":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>女<C_NONE>
       町の北の門は 囚人が脱走したから
@@ -123,6 +135,8 @@
   "6416":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ヤミ屋<C_NONE>
       いらっしゃい。何の用だい？<RET_N>
@@ -136,6 +150,8 @@
   "643a":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       また たのむぜ。
     "original_byte_length": !!int |-
@@ -148,6 +164,8 @@
   "644a":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       これ以上持てないようだぜ。
 
@@ -162,6 +180,8 @@
   "6466":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       何を買うんだい？
       <RET_N>
@@ -175,6 +195,8 @@
   "6478":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <ITEM>だな。
       ありがとよ。
@@ -190,6 +212,8 @@
   "6496":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       何を 売りたいんだ？
       <RET_N>
@@ -203,6 +227,8 @@
   "64ab":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |2-
        Gold で買ってやるけど
       それでも いいかい？
@@ -217,6 +243,8 @@
   "64d7":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       何だよ 売ってくれないのか。
 
@@ -231,6 +259,8 @@
   "64f4":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       よし 買ってやるぜ。
       <RET_N>

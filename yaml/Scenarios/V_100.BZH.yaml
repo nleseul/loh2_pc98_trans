@@ -2,6 +2,8 @@
   "5dd4":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |
       <CLEAR>       第１章　開かれた奈落<N>
 
@@ -16,6 +18,8 @@
   "5e46":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CLEAR><Xfb2861d860><CH2>
       アトラスさま もしや この方たちは

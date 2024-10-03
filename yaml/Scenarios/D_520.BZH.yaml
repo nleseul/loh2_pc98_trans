@@ -2,6 +2,8 @@
   "6075":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ガード<C_NONE>
       <IF0401><JUMP6131>何だ お前らは？
@@ -24,6 +26,8 @@
   "6154":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CH3>
       ドア 閉める。
@@ -57,6 +61,8 @@
   "624b":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <PARTY>は <RET>
     "original_byte_length": !!int |-

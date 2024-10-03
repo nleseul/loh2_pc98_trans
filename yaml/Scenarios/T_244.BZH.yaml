@@ -2,6 +2,8 @@
   "5ab6":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>情報屋 トミー<C_NONE>
       なあ なあ なあ なあ 知ってるか？
@@ -19,6 +21,8 @@
   "5b44":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>老人<C_NONE>
       また 村の奥で 宿屋を始めたようじゃ。やめたり 始めたりと いそがしい
@@ -33,6 +37,8 @@
   "5b9b":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>漁師<C_NONE>
       よお シーラスって魚 知ってるか？
@@ -56,6 +62,8 @@
   "5cb3":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ジゴ<C_NONE>
       <IF0408><JUMP5cdd>やあ 王子さま 元気そうだな。<END>
@@ -71,6 +79,8 @@
   "5d10":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>道具屋<C_NONE>
       いらっしゃいませ。
@@ -85,6 +95,8 @@
   "5d48":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       また来てくださいね。
     "original_byte_length": !!int |-
@@ -97,6 +109,8 @@
   "5d5d":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       おや？これ以上持てないようですね。
 
@@ -111,6 +125,8 @@
   "5d81":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       どれを買ってくれますか？
       <RET_N>
@@ -124,6 +140,8 @@
   "5d9b":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <ITEM>だね。
       どうも ありがとう。
@@ -139,6 +157,8 @@
   "5dc0":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       どれを 売ってくれますか？
       <RET_N>
@@ -152,6 +172,8 @@
   "5ddb":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |2-
        Gold になるけど
       それでも よろしいですか？
@@ -166,6 +188,8 @@
   "5e07":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       それは残念です。
 
@@ -180,6 +204,8 @@
   "5e19":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       どうも ありがとうございます。
       <RET_N>

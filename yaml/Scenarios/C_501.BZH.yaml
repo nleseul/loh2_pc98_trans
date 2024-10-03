@@ -2,6 +2,8 @@
   "5ce1":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>レイシア<C_NONE>
       <SET0114>もう !! あと少しだったのに !!

@@ -2,6 +2,8 @@
   "5b38":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ジャン<C_NONE>
       バズヌーンの城にいる ハリーが
@@ -16,6 +18,8 @@
   "5b7b":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <CLEAR>値段が高いのは 武器を売った金を
       ドラゴンの エサ代にするからなんだ。
@@ -32,6 +36,8 @@
   "5be9":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ボイル<C_NONE>
       わしは 若いころ ドラゴン牧場の
@@ -59,6 +65,8 @@
   "5da1":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ボイル<C_NONE>
       あんたがた 他人の持ち物を
@@ -73,6 +81,8 @@
   "5dda":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>ノーマ<C_NONE>
       私たちは 牧場を 息子のジャンに
@@ -87,6 +97,8 @@
   "5e24":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>商人<C_NONE>
       私は エメから逃げてきたんです。
@@ -104,6 +116,8 @@
   "5e7f":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       また来てくださいね。
     "original_byte_length": !!int |-
@@ -116,6 +130,8 @@
   "5e94":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <C_YELLOW>道具屋<C_NONE>
       いらっしゃいませ。
@@ -130,6 +146,8 @@
   "5ecc":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       また来てくださいね。
     "original_byte_length": !!int |-
@@ -142,6 +160,8 @@
   "5ee1":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       おや？これ以上持てないようですね。
 
@@ -156,6 +176,8 @@
   "5f05":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       どれを買ってくれますか？
       <RET_N>
@@ -169,6 +191,8 @@
   "5f1f":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       <ITEM>だね。
       どうも ありがとう。
@@ -184,6 +208,8 @@
   "5f44":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       どれを 売ってくれますか？
       <RET_N>
@@ -197,6 +223,8 @@
   "5f5f":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |2-
        Gold になるけど
       それでも よろしいですか？
@@ -211,6 +239,8 @@
   "5f8b":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       それは残念です。
 
@@ -225,6 +255,8 @@
   "5f9d":
     "is_relocatable": !!bool |-
       true
+    "max_byte_length": !!null |-
+      null
     "original": |-
       どうも ありがとうございます。
       <RET_N>
