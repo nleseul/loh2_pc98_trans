@@ -1,0 +1,392 @@
+"entries":
+  "6413":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      エルアスタの町<RET_N>
+    "original_byte_length": !!int |-
+      15
+    "reference_addrs":
+    - !!int |-
+      56164
+    "translated": !!null |-
+      null
+  "6422":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |2-
+       ルディアの町 <RET_N>
+    "original_byte_length": !!int |-
+      15
+    "reference_addrs":
+    - !!int |-
+      56176
+    "translated": !!null |-
+      null
+  "6431":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |2-
+       ベルガの鉱山 <RET_N>
+    "original_byte_length": !!int |-
+      15
+    "reference_addrs":
+    - !!int |-
+      56188
+    "translated": !!null |-
+      null
+  "6440":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |2-
+        ネリアの港  <RET_N>
+    "original_byte_length": !!int |-
+      15
+    "reference_addrs":
+    - !!int |-
+      56200
+    "translated": !!null |-
+      null
+  "644f":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |2-
+        ロンドの港  <RET_N>
+    "original_byte_length": !!int |-
+      15
+    "reference_addrs":
+    - !!int |-
+      56212
+    "translated": !!null |-
+      null
+  "645e":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |2-
+       ラルファの港 <RET_N>
+    "original_byte_length": !!int |-
+      15
+    "reference_addrs":
+    - !!int |-
+      56224
+    "translated": !!null |-
+      null
+  "646d":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |2-
+        シリカの村  <RET_N>
+    "original_byte_length": !!int |-
+      15
+    "reference_addrs":
+    - !!int |-
+      56236
+    "translated": !!null |-
+      null
+  "647c":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |2-
+       リーゼルの町 <RET_N>
+    "original_byte_length": !!int |-
+      15
+    "reference_addrs":
+    - !!int |-
+      56248
+    "translated": !!null |-
+      null
+  "648b":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |2-
+        ヨルドの港  <RET_N>
+    "original_byte_length": !!int |-
+      15
+    "reference_addrs":
+    - !!int |-
+      56260
+    "translated": !!null |-
+      null
+  "649a":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |2-
+         セレの村   <RET_N>
+    "original_byte_length": !!int |-
+      15
+    "reference_addrs":
+    - !!int |-
+      56272
+    "translated": !!null |-
+      null
+  "64a9":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |2-
+        スエルの村  <RET_N>
+    "original_byte_length": !!int |-
+      15
+    "reference_addrs":
+    - !!int |-
+      56284
+    "translated": !!null |-
+      null
+  "64b8":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |2-
+        アムダの村  <RET_N>
+    "original_byte_length": !!int |-
+      15
+    "reference_addrs":
+    - !!int |-
+      56296
+    "translated": !!null |-
+      null
+  "64c7":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |2-
+        セダルの町  <RET_N>
+    "original_byte_length": !!int |-
+      15
+    "reference_addrs":
+    - !!int |-
+      56308
+    - !!int |-
+      56356
+    "translated": !!null |-
+      null
+  "64d6":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |2-
+        ルドラの港  <RET_N>
+    "original_byte_length": !!int |-
+      15
+    "reference_addrs":
+    - !!int |-
+      56320
+    "translated": !!null |-
+      null
+  "64e5":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |2-
+        カウルの村  <RET_N>
+    "original_byte_length": !!int |-
+      15
+    "reference_addrs":
+    - !!int |-
+      56332
+    "translated": !!null |-
+      null
+  "64f4":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      バズヌーンの町<RET_N>
+    "original_byte_length": !!int |-
+      15
+    "reference_addrs":
+    - !!int |-
+      56344
+    "translated": !!null |-
+      null
+  "6503":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      リシェールの港<RET_N>
+    "original_byte_length": !!int |-
+      15
+    "reference_addrs":
+    - !!int |-
+      56368
+    "translated": !!null |-
+      null
+  "6512":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |2-
+       ナスールの町 <RET_N>
+    "original_byte_length": !!int |-
+      15
+    "reference_addrs":
+    - !!int |-
+      56380
+    "translated": !!null |-
+      null
+  "6521":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |2-
+       ファエトの村 <RET_N>
+    "original_byte_length": !!int |-
+      15
+    "reference_addrs":
+    - !!int |-
+      56392
+    "translated": !!null |-
+      null
+  "6530":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |2-
+       コルクスの町 <RET_N>
+    "original_byte_length": !!int |-
+      15
+    "reference_addrs":
+    - !!int |-
+      56404
+    "translated": !!null |-
+      null
+  "653f":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |2-
+       ルディアの城 <RET_N>
+    "original_byte_length": !!int |-
+      15
+    "reference_addrs":
+    - !!int |-
+      56476
+    "translated": !!null |-
+      null
+  "654e":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |2-
+         岬の洞窟   <RET_N>
+    "original_byte_length": !!int |-
+      15
+    "reference_addrs":
+    - !!int |-
+      56416
+    - !!int |-
+      56488
+    "translated": !!null |-
+      null
+  "655d":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |2-
+        試練の洞窟  <RET_N>
+    "original_byte_length": !!int |-
+      15
+    "reference_addrs":
+    - !!int |-
+      56428
+    "translated": !!null |-
+      null
+  "656c":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |2-
+         王家の墓   <RET_N>
+    "original_byte_length": !!int |-
+      15
+    "reference_addrs":
+    - !!int |-
+      56440
+    "translated": !!null |-
+      null
+  "657b":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |2-
+          狼の口    <RET_N>
+    "original_byte_length": !!int |-
+      15
+    "reference_addrs":
+    - !!int |-
+      56452
+    "translated": !!null |-
+      null
+  "658a":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |2-
+         奈落の口   <RET_N>
+    "original_byte_length": !!int |-
+      15
+    "reference_addrs":
+    - !!int |-
+      56464
+    "translated": !!null |-
+      null
+  "6599":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |2-
+          竜の卵    <RET_N>
+    "original_byte_length": !!int |-
+      15
+    "reference_addrs":
+    - !!int |-
+      56512
+    - !!int |-
+      56548
+    - !!int |-
+      56524
+    - !!int |-
+      56500
+    - !!int |-
+      56536
+    "translated": !!null |-
+      null
+"note": ""

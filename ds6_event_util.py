@@ -1,3 +1,4 @@
+from capstone import *
 from capstone.x86 import *
 from dataclasses import dataclass
 import typing
@@ -613,3 +614,43 @@ class DS62_BuyFromShopCodeHook(X86CodeHook):
                     link.connect_blocks(current_block, block_pool.get_block("event", event_addr))
         else:
             raise Exception("Don't know what the table address was!!")
+
+
+class DS62_OverworldDestinationTableCodeHook(X86CodeHook):
+
+    def __init__(self, addr:int, entry_size:int=0xc, next_addr:int|None=None):
+        super().__init__()
+
+        self._addr = addr
+        self._entry_size = entry_size
+        self._next_addr = next_addr
+
+    def should_handle(self, instruction:CsInsn) -> bool:
+        return instruction.address == self._addr
+
+    def get_next_ip(self, instruction:CsInsn) -> int:
+        return self._next_addr
+
+    def generate_links(self, instruction:CsInsn, block_pool:BlockPool, current_block:Block, registers) -> None:
+        addr = registers[X86_REG_SI]['value']
+        entry_count = registers[X86_REG_CX]['value']
+        base_addr = block_pool.get_domain_base_addr("event")
+
+        for table_index in range(entry_count):
+            code_addr = addr - block_pool.get_domain_base_addr("event") + block_pool.get_domain_base_addr("code")
+
+            entry_data = block_pool.get_domain_data("event")[addr-base_addr:addr-base_addr+self._entry_size]
+
+            handler_code_addr = int.from_bytes(entry_data[0x8:0xa], byteorder='little')
+            name_event_addr = int.from_bytes(entry_data[0xa:0xc], byteorder='little')
+
+            if block_pool.domain_contains("code", handler_code_addr):
+                link = Link(code_addr + 0x8, handler_code_addr)
+                link.connect_blocks(current_block, block_pool.get_block("code", handler_code_addr))
+
+            if block_pool.domain_contains("event", name_event_addr):
+                    link = Link(code_addr + 0xa, name_event_addr)
+                    link.connect_blocks(current_block, block_pool.get_block("event", name_event_addr))
+
+            addr += self._entry_size
+

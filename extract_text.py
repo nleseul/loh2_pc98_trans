@@ -298,6 +298,12 @@ def main() -> None:
         scenario_hooks = None
         if base_name == "C_203.BZH":
             scenario_hooks = [EmptyHook(0xd5cb, False, 0xd5d6)] # Skip some subroutine calls that would stomp si
+        elif base_name == "F_000.BZH":
+            scenario_hooks = [DS62_OverworldDestinationTableCodeHook(0xd800)]
+        elif base_name == "F_200.BZH":
+            scenario_hooks = [DS62_OverworldDestinationTableCodeHook(0xd7b9)]
+        elif base_name == "F_400.BZH" or base_name == "F_500.BZH":
+            scenario_hooks = [DS62_OverworldDestinationTableCodeHook(0xd570)]
 
         try:
             update_translations(extract_scenario_events(scenario_data, scenario_hooks), output_path)
