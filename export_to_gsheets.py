@@ -26,9 +26,11 @@ if __name__ == '__main__':
 
     progress = tqdm.tqdm(yaml_paths)
     for path in progress:
+        start_time = time.time()
+
         trans = TranslationCollection.load(path)
 
-        worksheet_name = path[4:-4]
+        worksheet_name = path[5:-5]
         if worksheet_name.endswith(".BZH"):
             worksheet_name = worksheet_name[:-4]
 
@@ -58,17 +60,17 @@ if __name__ == '__main__':
             if row_index is None:
                 for i, row in enumerate(worksheet_data):
                     if len(row) == 0:
-                        row += [key,'','']
+                        row += [key_str,'','']
                         row_index = i
                         break
                     elif row[0] == '' and row.count('') == len(row):
-                        row[0] = key
+                        row[0] = key_str
                         row_index = i
                         break
 
             if row_index is None:
                 row_index = len(worksheet_data)
-                worksheet_data.append([key,'',''])
+                worksheet_data.append([key_str,'',''])
 
             while len(worksheet_data[row_index]) < 3:
                 worksheet_data[row_index].append('')
@@ -79,7 +81,9 @@ if __name__ == '__main__':
         worksheet.update(worksheet_data)
 
         # Throttle to avoid triggering gsheets rate limits
-        time.sleep(4)
+        elapsed_time = time.time() - start_time
+        if elapsed_time < 4.0:
+            time.sleep(4.0 - elapsed_time)
 
     try:
         index_worksheet = sheet.worksheet("Index")
