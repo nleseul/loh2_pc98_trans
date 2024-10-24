@@ -29,6 +29,17 @@ def main():
     account = gspread.service_account(filename=config["CredentialsFile"])
     sheet = account.open_by_key(config["SpreadsheetKey"])
 
+    notes = {}
+    try:
+        index_worksheet = sheet.worksheet("Index")
+        index_data = index_worksheet.get_all_values()
+
+        for row in index_data:
+            if len(row) > 1:
+                notes[row[0]] = row[1]
+    except gspread.WorksheetNotFound:
+        pass
+
     progress = tqdm.tqdm(yaml_paths)
     for path in progress:
         trans = TranslationCollection.load(path)
@@ -39,6 +50,9 @@ def main():
 
         progress.set_description(worksheet_name)
         progress.update()
+
+        if worksheet_name in notes:
+            trans.note = notes[worksheet_name]
 
         try:
             worksheet = sheet.worksheet(worksheet_name)

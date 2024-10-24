@@ -36,6 +36,14 @@ class TranslationCollection:
         return len(self._entries) == 0 and len(self._note) == 0
 
     @property
+    def note(self) -> str:
+        return self._note
+
+    @note.setter
+    def note(self, value:str) -> None:
+        self._note = value
+
+    @property
     def keys(self) -> typing.Generator[int, None, None]:
         yield from self._entries.keys()
 

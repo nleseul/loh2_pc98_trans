@@ -23,6 +23,7 @@ if __name__ == '__main__':
     sheet = account.open_by_key(config["SpreadsheetKey"])
 
     worksheet_list = []
+    worksheet_notes = {}
 
     progress = tqdm.tqdm(yaml_paths)
     for path in progress:
@@ -36,6 +37,8 @@ if __name__ == '__main__':
 
         progress.set_description(worksheet_name)
         progress.update()
+
+        worksheet_notes[worksheet_name] = trans.note
 
         try:
             worksheet = sheet.worksheet(worksheet_name)
@@ -99,6 +102,6 @@ if __name__ == '__main__':
 
         link_text = f"=HYPERLINK(\"https://docs.google.com/spreadsheets/d/{config['SpreadsheetKey']}/edit#gid={worksheet_id}\", \"{worksheet_name}\")"
 
-        index_data.append([link_text,'',f"=SUMPRODUCT(--(len('{worksheet_name}'!B:B)>0))", f"=SUMPRODUCT(--(len('{worksheet_name}'!C:C)>0))", f"=D{row_index+1}/C{row_index+1}"])
+        index_data.append([link_text, worksheet_notes[worksheet_name],f"=SUMPRODUCT(--(len('{worksheet_name}'!B:B)>0))", f"=SUMPRODUCT(--(len('{worksheet_name}'!C:C)>0))", f"=D{row_index+1}/C{row_index+1}"])
 
     index_worksheet.update(index_data, value_input_option="USER_ENTERED")
