@@ -1,0 +1,797 @@
+"entries":
+  "0500":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |2-
+
+
+      <RET>
+    "original_byte_length": !!int |-
+      2
+    "reference_addrs":
+    - !!int |-
+      368
+    "translated": !!null |-
+      null
+  "0502":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": ""
+    "original_byte_length": !!int |-
+      1
+    "reference_addrs":
+    - !!int |-
+      389
+    "translated": !!null |-
+      null
+  "0513":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CLEAR>どの力を 高めますか？<RET_N>
+    "original_byte_length": !!int |-
+      23
+    "reference_addrs":
+    - !!int |-
+      817
+    "translated": !!null |-
+      null
+  "052a":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      これで よろしいですか？<RET_N>
+    "original_byte_length": !!int |-
+      24
+    "reference_addrs":
+    - !!int |-
+      887
+    "translated": !!null |-
+      null
+  "0542":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <SND0204><C_RED>その力は これ以上 あげられません。<C_NONE><X0d>
+    "original_byte_length": !!int |-
+      40
+    "reference_addrs":
+    - !!int |-
+      916
+    "translated": !!null |-
+      null
+  "05be":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CLEAR><ACTOR>はレベルアップした。<X0d>
+    "original_byte_length": !!int |-
+      23
+    "reference_addrs":
+    - !!int |-
+      411
+    "translated": !!null |-
+      null
+  "05d5":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      最大ＨＰが <RET>
+    "original_byte_length": !!int |-
+      12
+    "reference_addrs":
+    - !!int |-
+      450
+    "translated": !!null |-
+      null
+  "05f2":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      攻撃力が <RET>
+    "original_byte_length": !!int |-
+      10
+    "reference_addrs":
+    - !!int |-
+      521
+    "translated": !!null |-
+      null
+  "05fc":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      呪文能力が <RET>
+    "original_byte_length": !!int |-
+      12
+    "reference_addrs":
+    - !!int |-
+      554
+    "translated": !!null |-
+      null
+  "0622":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      強さが <RET>
+    "original_byte_length": !!int |-
+      8
+    "reference_addrs":
+    - !!int |-
+      696
+    "translated": !!null |-
+      null
+  "062a":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      かしこさが <RET>
+    "original_byte_length": !!int |-
+      12
+    "reference_addrs":
+    - !!int |-
+      702
+    "translated": !!null |-
+      null
+  "0636":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      すばやさが <RET>
+    "original_byte_length": !!int |-
+      12
+    "reference_addrs":
+    - !!int |-
+      708
+    "translated": !!null |-
+      null
+  "0642":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      運の良さが <RET>
+    "original_byte_length": !!int |-
+      12
+    "reference_addrs":
+    - !!int |-
+      714
+    "translated": !!null |-
+      null
+  "064e":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |2-
+
+
+      <RET>
+    "original_byte_length": !!int |-
+      2
+    "reference_addrs":
+    - !!int |-
+      729
+    "translated": !!null |-
+      null
+  "06a4":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>に<RET>
+    "original_byte_length": !!int |-
+      4
+    "reference_addrs":
+    - !!int |-
+      27185
+    "translated": !!null |-
+      null
+  "06a8":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>自分自身<C_NONE><X1f>に<C_NONE><RET>
+    "original_byte_length": !!int |-
+      15
+    "reference_addrs":
+    - !!int |-
+      27176
+    "translated": !!null |-
+      null
+  "06b7":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CALL06bf><RET>
+    "original_byte_length": !!int |-
+      4
+    "reference_addrs":
+    - !!int |-
+      1132
+    "translated": !!null |-
+      null
+  "06bb":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CALL06bf><RET_PAGE>
+    "original_byte_length": !!int |-
+      4
+    "reference_addrs":
+    - !!int |-
+      1162
+    - !!int |-
+      1127
+    "translated": !!null |-
+      null
+  "06bf":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ITEM>を使った。<RET>
+    "original_byte_length": !!int |-
+      12
+    "reference_addrs": []
+    "translated": !!null |-
+      null
+  "06cb":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      の効果がある。<RET_PAGE>
+    "original_byte_length": !!int |-
+      15
+    "reference_addrs":
+    - !!int |-
+      1144
+    "translated": !!null |-
+      null
+  "06da":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      の呪文は封じられている !!<RET_PAGE>
+    "original_byte_length": !!int |-
+      26
+    "reference_addrs":
+    - !!int |-
+      1232
+    "translated": !!null |-
+      null
+  "06f4":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CALL070c>何も起こらなかった。<RET_PAGE>
+    "original_byte_length": !!int |-
+      24
+    "reference_addrs":
+    - !!int |-
+      1465
+    "translated": !!null |-
+      null
+  "070c":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <IF0418><JUMP0718>しかし<LOC0718><RET>
+    "original_byte_length": !!int |-
+      13
+    "reference_addrs":
+    - !!int |-
+      7542
+    "translated": !!null |-
+      null
+  "0772":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      を唱えた。<RET_N>
+    "original_byte_length": !!int |-
+      11
+    "reference_addrs":
+    - !!int |-
+      1203
+    "translated": !!null |-
+      null
+  "077d":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>のＨＰが<C_YELLOW><RET>
+    "original_byte_length": !!int |-
+      11
+    "reference_addrs":
+    - !!int |-
+      19362
+    "translated": !!null |-
+      null
+  "084e":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CLEAR>戦いに勝利しました。<RET_N>
+    "original_byte_length": !!int |-
+      22
+    "reference_addrs":
+    - !!int |-
+      2189
+    "translated": !!null |-
+      null
+  "0875":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CH0>は戦いに敗れました。
+    "original_byte_length": !!int |-
+      23
+    "reference_addrs":
+    - !!int |-
+      2245
+    "translated": !!null |-
+      null
+  "08c8":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <WAIT>
+      しかし、これ以上持てません。
+      どれを捨てますか？<RET_N>
+    "original_byte_length": !!int |-
+      49
+    "reference_addrs":
+    - !!int |-
+      2542
+    "translated": !!null |-
+      null
+  "091b":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      ＥＰ <RET>
+    "original_byte_length": !!int |-
+      6
+    "reference_addrs":
+    - !!int |-
+      2607
+    "translated": !!null |-
+      null
+  "0a65":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>に<RET>
+    "original_byte_length": !!int |-
+      4
+    "reference_addrs":
+    - !!int |-
+      7475
+    "translated": !!null |-
+      null
+  "0a77":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      会心<JUMP0a82><LOC0a7e>痛恨<LOC0a82>の一撃 !!<RET_N>
+    "original_byte_length": !!int |-
+      21
+    "reference_addrs":
+    - !!int |-
+      7461
+    - !!int |-
+      7469
+    "translated": !!null |-
+      null
+  "0a8c":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>は気絶してしまった。<RET_PAGE>
+    "original_byte_length": !!int |-
+      22
+    "reference_addrs":
+    - !!int |-
+      7418
+    "translated": !!null |-
+      null
+  "0aa2":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>を倒した。<RET_PAGE>
+    "original_byte_length": !!int |-
+      12
+    "reference_addrs":
+    - !!int |-
+      7403
+    "translated": !!null |-
+      null
+  "16fc":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CLEAR><RET>
+    "original_byte_length": !!int |-
+      2
+    "reference_addrs":
+    - !!int |-
+      12657
+    "translated": !!null |-
+      null
+  "16fe":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <RET_N>
+    "original_byte_length": !!int |-
+      1
+    "reference_addrs":
+    - !!int |-
+      12666
+    "translated": !!null |-
+      null
+  "16ff":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      たち<RET>
+    "original_byte_length": !!int |-
+      5
+    "reference_addrs":
+    - !!int |-
+      12744
+    "translated": !!null |-
+      null
+  "1754":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CLEAR>任意のドライブに<RET>
+    "original_byte_length": !!int |-
+      18
+    "reference_addrs":
+    - !!int |-
+      15901
+    "translated": !!null |-
+      null
+  "1766":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CLEAR>ドライブ A: に<RET>
+    "original_byte_length": !!int |-
+      16
+    "reference_addrs":
+    - !!int |-
+      15933
+    "translated": !!null |-
+      null
+  "1776":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      をセットしてください。
+      よろしいですか？<RET_N>
+    "original_byte_length": !!int |-
+      40
+    "reference_addrs":
+    - !!int |-
+      15956
+    "translated": !!null |-
+      null
+  "183c":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CLEAR>プログラムを中止しますか？<RET_N>
+    "original_byte_length": !!int |-
+      28
+    "reference_addrs":
+    - !!int |-
+      15970
+    - !!int |-
+      24406
+    "translated": !!null |-
+      null
+  "1858":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      に<RET>
+    "original_byte_length": !!int |-
+      3
+    "reference_addrs":
+    - !!int |-
+      16442
+    "translated": !!null |-
+      null
+  "185b":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      をセットしてください。<RET>
+    "original_byte_length": !!int |-
+      23
+    "reference_addrs":
+    - !!int |-
+      16453
+    "translated": !!null |-
+      null
+  "19c5":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>は呪文を跳ね返した !!<RET_PAGE>
+    "original_byte_length": !!int |-
+      23
+    "reference_addrs":
+    - !!int |-
+      11744
+    "translated": !!null |-
+      null
+  "19dc":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>は気が付いた。<RET_PAGE>
+    "original_byte_length": !!int |-
+      16
+    "reference_addrs":
+    - !!int |-
+      2418
+    "translated": !!null |-
+      null
+  "1a42":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>は守りのかまえをとった。<RET_PAGE>
+    "original_byte_length": !!int |-
+      26
+    "reference_addrs":
+    - !!int |-
+      21172
+    "translated": !!null |-
+      null
+  "1a5c":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      は逃げ出した。<RET_N>
+    "original_byte_length": !!int |-
+      15
+    "reference_addrs":
+    - !!int |-
+      21342
+    "translated": !!null |-
+      null
+  "1baa":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |2-
+
+      よろしいですか？<RET_N>
+    "original_byte_length": !!int |-
+      18
+    "reference_addrs":
+    - !!int |-
+      24461
+    "translated": !!null |-
+      null
+  "1d74":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>は毒がまわってきた。<RET_PAGE>
+    "original_byte_length": !!int |-
+      22
+    "reference_addrs":
+    - !!int |-
+      25688
+    "translated": !!null |-
+      null
+  "1d8a":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>はしびれてしまった !!<RET_PAGE>
+    "original_byte_length": !!int |-
+      23
+    "reference_addrs":
+    - !!int |-
+      25699
+    "translated": !!null |-
+      null
+  "1da1":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>の全身に毒がまわった !!<RET_PAGE>
+    "original_byte_length": !!int |-
+      25
+    "reference_addrs":
+    - !!int |-
+      25710
+    "translated": !!null |-
+      null
+  "1dba":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>は眠っている。<RET_PAGE>
+    "original_byte_length": !!int |-
+      16
+    "reference_addrs":
+    - !!int |-
+      25759
+    "translated": !!null |-
+      null
+  "1dca":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>は目がさめた。<RET_PAGE>
+    "original_byte_length": !!int |-
+      16
+    "reference_addrs":
+    - !!int |-
+      25733
+    "translated": !!null |-
+      null
+  "1dda":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>は混乱している !!<RET_PAGE>
+    "original_byte_length": !!int |-
+      19
+    "reference_addrs":
+    - !!int |-
+      25842
+    "translated": !!null |-
+      null
+  "1ded":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>は我に返った。<RET_PAGE>
+    "original_byte_length": !!int |-
+      16
+    "reference_addrs":
+    - !!int |-
+      25814
+    "translated": !!null |-
+      null
+  "22d8":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      ドライブ A: <RET>
+    "original_byte_length": !!int |-
+      13
+    "reference_addrs":
+    - !!int |-
+      16467
+    "translated": !!null |-
+      null
+  "231a":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      0000000000<RET>
+    "original_byte_length": !!int |-
+      11
+    "reference_addrs":
+    - !!int |-
+      12796
+    "translated": !!null |-
+      null
+"note": ""

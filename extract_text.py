@@ -32,6 +32,37 @@ def explore(block_pool:BlockPool, entry_points:typing.List[EntryPointInfo]) -> N
             break
 
 
+def extract_program_events(program_data:typing.ByteString):
+    code_hooks = [
+        DS62_StandardEventCodeHook(),
+        DS62_PointerTableCodeHook(0x2e89, 0x0f24),
+    ]
+
+    code_entry_points = [ EntryPointInfo("code", 0) ]
+
+    block_pool = BlockPool()
+    block_pool.register_domain("code", program_data[:0x7c00], 0, X86CodeBlock, {'hooks': code_hooks})
+    block_pool.register_domain("event", program_data[0x7c00:], 0, DS6EventBlock)
+
+    explore(block_pool, code_entry_points)
+
+    trans = TranslationCollection()
+    for block in block_pool.get_blocks("event"):
+        entry = trans[block.start_addr]
+        entry.original = block.format_string()
+        entry.original_byte_length = block.length
+
+        references = set()
+        for link in block.get_incoming_links():
+            if link.source_addr is None:
+                entry.is_relocatable = False
+            elif link.source_block is not None and isinstance(link.source_block, X86CodeBlock):
+                references.add(link.source_addr)
+        entry.reference_addrs = list(references)
+
+    return trans
+
+
 def extract_scenario_events(scenario_data:typing.ByteString, custom_hooks:list[X86CodeHook]) -> TranslationCollection:
     code_entry_points = [ EntryPointInfo("code", int.from_bytes(scenario_data[0:2], byteorder='little')) ]
 
@@ -338,6 +369,8 @@ def main() -> None:
     update_translations(extract_spells(prog_data), "yaml/Spells.yaml")
     update_translations(extract_items(prog_data), "yaml/Items.yaml")
     update_translations(extract_locations(prog_data), "yaml/Locations.yaml")
+
+    update_translations(extract_program_events(prog_data), "yaml/ProgramText.yaml")
 
 if __name__ == '__main__':
     main()
