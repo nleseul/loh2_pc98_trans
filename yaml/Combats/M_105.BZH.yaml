@@ -61,4 +61,32 @@
       61000
     "translated": !!null |-
       null
+  "7460":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      は休んでいる。<RET_PAGE>
+    "original_byte_length": !!int |-
+      15
+    "reference_addrs":
+    - !!int |-
+      61254
+    "translated": !!null |-
+      null
+  "746f":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      は目がさめた。<RET_N>
+    "original_byte_length": !!int |-
+      15
+    "reference_addrs":
+    - !!int |-
+      61272
+    "translated": !!null |-
+      null
 "note": ""

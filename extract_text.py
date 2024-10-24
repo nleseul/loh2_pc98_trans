@@ -34,8 +34,15 @@ def explore(block_pool:BlockPool, entry_points:typing.List[EntryPointInfo]) -> N
 
 def extract_program_events(program_data:typing.ByteString):
     code_hooks = [
-        DS62_StandardEventCodeHook(),
+        EmptyHook(0x1592, False, stop=True), # Calls into scenario entry points
+        DS62_OverrideRegister(0x1d7b, X86_REG_SI, 0x719, 0x1d72), # Correct for pushing/popping SI
+        EmptyHook(0x21b7, False, stop=True), # Calls into combat entry points
+        EmptyHook(0x4c53, False, stop=True), # Calls into scenario entry points
+        DS62_PointerTableCodeHook(0x1596, 0x159b, table_domain="code"),
         DS62_PointerTableCodeHook(0x2e89, 0x0f24),
+        DS62_PointerTableCodeHook(0x5268, 0x1a32),
+
+        DS62_StandardEventCodeHook(),
     ]
 
     code_entry_points = [ EntryPointInfo("code", 0) ]

@@ -270,13 +270,16 @@ class X86CodeHook:
 
 
 class EmptyHook(X86CodeHook):
-    def __init__(self, addr, is_call, next_ip=None):
+    def __init__(self, addr:int, is_call:bool, next_ip:int=None, stop:bool = False):
         self._addr = addr
         self._is_call = is_call
         self._next_ip = next_ip
+        self._stop = stop
 
     def get_next_ip(self, instruction):
-        if self._next_ip is None:
+        if self._stop:
+            return None
+        elif self._next_ip is None:
             return super().get_next_ip(instruction)
         else:
             return self._next_ip
@@ -464,20 +467,23 @@ class X86CodeBlock(Block):
                         else:
                             print(f"Loop to non-immediate address from {instruction.address:04x}!!")
                     elif X86_GRP_CALL in instruction.groups:
-                        destination = instruction.operands[0].value.imm
+                        if instruction.operands[0].type == CS_OP_IMM:
+                            destination = instruction.operands[0].value.imm
 
-                        link = Link(instruction.address + 1, destination, source_instruction_addr=instruction.address, execution_context=registers.copy())
+                            link = Link(instruction.address + 1, destination, source_instruction_addr=instruction.address, execution_context=registers.copy())
 
-                        if (destination < self._base_addr or destination >= self._base_addr + len(self._data)):
-                            link.connect_blocks(self, None)
-                            self.add_global_reference(instruction.address + 1, destination)
+                            if (destination < self._base_addr or destination >= self._base_addr + len(self._data)):
+                                link.connect_blocks(self, None)
+                                self.add_global_reference(instruction.address + 1, destination)
+                            else:
+                                target_block = block_pool.get_block("code", destination)
+                                link.connect_blocks(self, target_block)
+
+                            # Subroutine calls might do anything, so nuke everything we know about the registers at this point.
+                            for r in list(registers.keys()):
+                                del registers[r]
                         else:
-                            target_block = block_pool.get_block("code", destination)
-                            link.connect_blocks(self, target_block)
-
-                        # Subroutine calls might do anything, so nuke everything we know about the registers at this point.
-                        for r in list(registers.keys()):
-                            del registers[r]
+                            print(f"Call to non-immediate address from {instruction.address:04x}!!")
 
                     elif X86_GRP_RET in instruction.groups:
                         done = True

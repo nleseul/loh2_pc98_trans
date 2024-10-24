@@ -475,7 +475,7 @@ class DS6EventBlock(Block):
 class DS62_StandardEventCodeHook(X86CodeHook):
     def should_handle(self, instruction):
         if (X86_GRP_CALL in instruction.groups or X86_GRP_JUMP in instruction.groups) and instruction.operands[0].type == CS_OP_IMM:
-            return (instruction.operands[0].value.imm & 0xffff) in [ 0x12e2, 0x12e7, 0x3234, 0x3249 ]
+            return (instruction.operands[0].value.imm & 0xffff) in [ 0x12e2, 0x12e7, 0x3160, 0x31da, 0x3234, 0x3249 ]
 
     def generate_links(self, instruction, block_pool, current_block, registers):
         if X86_REG_SI in registers:
@@ -509,6 +509,21 @@ class DS62_StandardEventCodeHook(X86CodeHook):
             print("Current registers:")
             print(registers)
 
+
+class DS62_OverrideRegister(X86CodeHook):
+    def __init__(self, addr:int, register:int, force_to_value:int, force_to_source_addr:int):
+        super().__init__()
+
+        self._addr = addr
+        self._register = register
+        self._force_to_value = force_to_value
+        self._force_to_source_addr = force_to_source_addr
+
+    def should_handle(self, instruction:CsInsn) -> bool:
+        return instruction.address == self._addr
+
+    def generate_links(self, instruction:CsInsn, block_pool: BlockPool, current_block: Block, registers) -> None:
+        registers[self._register] = { 'source_addr': self._force_to_source_addr, 'value': self._force_to_value }
 
 
 # Seems to be used for normal NPCs walking around
@@ -653,4 +668,29 @@ class DS62_OverworldDestinationTableCodeHook(X86CodeHook):
                     link.connect_blocks(current_block, block_pool.get_block("event", name_event_addr))
 
             addr += self._entry_size
+
+
+class DS62_PointerTableCodeHook(X86CodeHook):
+    def __init__(self, addr:int, table_addr:int, entry_size:int=0x2, next_addr:int|None=None, table_domain:str = "event"):
+        super().__init__()
+
+        self._addr = addr
+        self._table_addr = table_addr
+        self._entry_size = entry_size
+        self._next_addr = next_addr
+        self._table_domain = table_domain
+
+    def should_handle(self, instruction):
+        return instruction.address == self._addr
+
+    def get_next_ip(self, instruction:CsInsn) -> int:
+        return None
+
+    def generate_links(self, instruction, block_pool, current_block, registers):
+        for table_index in range(5):
+            entry_pointer_addr = self._table_addr + 2 * table_index
+            entry_addr = int.from_bytes(block_pool.get_domain_data(self._table_domain)[entry_pointer_addr:entry_pointer_addr+2], byteorder='little')
+
+            link = Link(entry_pointer_addr, entry_addr)
+            link.connect_blocks(current_block, block_pool.get_block("code", entry_addr))
 

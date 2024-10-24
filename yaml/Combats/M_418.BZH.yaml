@@ -61,6 +61,20 @@
       61000
     "translated": !!null |-
       null
+  "742e":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      は仲間を呼んだ。<RET_PAGE>
+    "original_byte_length": !!int |-
+      17
+    "reference_addrs":
+    - !!int |-
+      61173
+    "translated": !!null |-
+      null
   "743f":
     "is_relocatable": !!bool |-
       true

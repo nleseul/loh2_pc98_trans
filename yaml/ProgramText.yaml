@@ -91,11 +91,16 @@
       null
     "original": |-
       最大ＨＰが <RET>
+      <CONT><LOC05e1>ﾎﾟｲﾝﾄ あがった。<RET_N>
     "original_byte_length": !!int |-
-      12
+      29
     "reference_addrs":
     - !!int |-
+      560
+    - !!int |-
       450
+    - !!int |-
+      527
     "translated": !!null |-
       null
   "05f2":
@@ -196,6 +201,20 @@
     "reference_addrs":
     - !!int |-
       729
+    "translated": !!null |-
+      null
+  "06a1":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      は<RET>
+    "original_byte_length": !!int |-
+      3
+    "reference_addrs":
+    - !!int |-
+      27159
     "translated": !!null |-
       null
   "06a4":
@@ -324,6 +343,20 @@
       7542
     "translated": !!null |-
       null
+  "0719":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      運悪<JUMP0724>運良<LOC0724>く<ACTOR>には当ら<JUMP073b><ACTOR>には効か<LOC073b>なかった。<RET_PAGE>
+    "original_byte_length": !!int |-
+      45
+    "reference_addrs":
+    - !!int |-
+      7538
+    "translated": !!null |-
+      null
   "0772":
     "is_relocatable": !!bool |-
       true
@@ -345,8 +378,9 @@
       null
     "original": |-
       <ACTOR>のＨＰが<C_YELLOW><RET>
+      <CONT><C_NONE>回復した。<RET_PAGE>
     "original_byte_length": !!int |-
-      11
+      23
     "reference_addrs":
     - !!int |-
       19362
@@ -403,11 +437,40 @@
       null
     "original": |-
       ＥＰ <RET>
+      <CONT> ﾎﾟｲﾝﾄ かくとく。<RET_N>
     "original_byte_length": !!int |-
-      6
+      24
     "reference_addrs":
     - !!int |-
       2607
+    "translated": !!null |-
+      null
+  "0933":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |2-
+       Gold 手に入れました。<RET_N>
+    "original_byte_length": !!int |-
+      23
+    "reference_addrs":
+    - !!int |-
+      2679
+    "translated": !!null |-
+      null
+  "0a5e":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      の攻撃<RET_N>
+    "original_byte_length": !!int |-
+      7
+    "reference_addrs":
+    - !!int |-
+      7325
     "translated": !!null |-
       null
   "0a65":
@@ -422,6 +485,20 @@
     "reference_addrs":
     - !!int |-
       7475
+    "translated": !!null |-
+      null
+  "0a69":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      のダメージ !!<RET_PAGE>
+    "original_byte_length": !!int |-
+      14
+    "reference_addrs":
+    - !!int |-
+      7481
     "translated": !!null |-
       null
   "0a77":

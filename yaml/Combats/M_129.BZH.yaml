@@ -96,8 +96,13 @@
       null
     "original": |-
       <CALL7527>くそっ おれが動けない間に <RET>
+      <CONT>も
+      ダメージを与えやがって ･ ･ ･<WAIT>
+      倍にして 返してやる !!
+
+      <RET>
     "original_byte_length": !!int |-
-      30
+      86
     "reference_addrs":
     - !!int |-
       61188
