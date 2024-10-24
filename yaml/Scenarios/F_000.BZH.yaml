@@ -11,8 +11,8 @@
     "reference_addrs":
     - !!int |-
       56418
-    "translated": !!null |-
-      null
+    "translated": |2-
+          Eluasta   <RET_N>
   "6257":
     "is_relocatable": !!bool |-
       true
@@ -25,8 +25,8 @@
     "reference_addrs":
     - !!int |-
       56430
-    "translated": !!null |-
-      null
+    "translated": |2-
+           Rudia    <RET_N>
   "6266":
     "is_relocatable": !!bool |-
       true
@@ -39,8 +39,8 @@
     "reference_addrs":
     - !!int |-
       56442
-    "translated": !!null |-
-      null
+    "translated": |2-
+       Crus Village <RET_N>
   "6275":
     "is_relocatable": !!bool |-
       true
@@ -53,8 +53,8 @@
     "reference_addrs":
     - !!int |-
       56454
-    "translated": !!null |-
-      null
+    "translated": |2-
+        Belga Mine  <RET_N>
   "6284":
     "is_relocatable": !!bool |-
       true
@@ -67,8 +67,8 @@
     "reference_addrs":
     - !!int |-
       56466
-    "translated": !!null |-
-      null
+    "translated": |2-
+       Neria Harbor <RET_N>
   "6293":
     "is_relocatable": !!bool |-
       true

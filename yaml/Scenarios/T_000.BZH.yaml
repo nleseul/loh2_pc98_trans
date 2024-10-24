@@ -59,8 +59,31 @@
       54802
     - !!int |-
       54734
-    "translated": !!null |-
-      null
+    "translated": |-
+      <CALL6b03><IF0407><JUMP601d><IF0406><JUMP60da><IF0405><JUMP60bf><IF0000><JUMP6070><SET0000>Please listen carefully, your
+      Highness.
+
+      While we have been dealing with
+      the aftermath of the earthquake,
+      you have been sneaking out of townto chase slimes. Am I right?
+
+      You should not be wasting your
+      time on those silly games.
+
+      You haven't had much time for
+      study recently, so it's important
+      that we start to focus now.
+
+      Now, then. Let me go gather my
+      books.<END>
+      <LOC601d><UNSET0407>And please don't try to run away
+      again. Just wait here. All right?<END>
+      <LOC6070>Please just wait in your seat,
+      your Highness. I'll be back in a
+      moment.<END>
+      <LOC60bf><UNSET0405>Your Highness! Wait!!<END>
+      <LOC60da>You won't get away this time!
+      Now, back to your studies.
   "610f":
     "is_relocatable": !!bool |-
       true
@@ -105,8 +128,41 @@
     "reference_addrs":
     - !!int |-
       54900
-    "translated": !!null |-
-      null
+    "translated": |-
+      <CALL6b03><SET0003><CALL6b15>Your Highness will be 16 soon.
+      And, when you turn 16...
+
+      <CH0>
+      I know! That's when I'll take the
+      throne. You say that all the time.
+
+      <CALL6b03>I suppose I do. As long as you
+      understand that.
+
+      <Xf9080200><Xf7>And you, Parker? Have I made
+      myself clear?
+
+      <C_YELLOW>Parker<C_NONE>
+      Yep. No need ta go a-tellin' me
+      twice.
+
+      <Xf9080202><Xf7><CALL6b03>Very well. Now, we need to hurry
+      to see his Majesty.
+
+      <CH0>
+      To see Father?!
+
+      <CALL6b03>Exactly. Your Highness has been
+      summoned by King Selios. Let's not
+      keep him waiting.
+
+      <CH0>
+      You mean you're going too?
+
+      <CALL6b03>Is that surprising? Warp Wings are
+      very convenient nowadays.
+
+      <C_GREEN>Rauel uses a Warp Wing.<C_NONE>
   "6364":
     "is_relocatable": !!bool |-
       true
@@ -141,8 +197,9 @@
     "reference_addrs":
     - !!int |-
       54918
-    "translated": !!null |-
-      null
+    "translated": |-
+      <CALL6af5>Tonight's dinner is your favorite
+      beef stew, your Highness!
   "644d":
     "is_relocatable": !!bool |-
       true
@@ -156,8 +213,9 @@
     "reference_addrs":
     - !!int |-
       54927
-    "translated": !!null |-
-      null
+    "translated": |-
+      <CALL6af5>Your Highness! Have you finished
+      your studies already?
   "6480":
     "is_relocatable": !!bool |-
       true
@@ -171,8 +229,9 @@
     "reference_addrs":
     - !!int |-
       54936
-    "translated": !!null |-
-      null
+    "translated": |-
+      <CALL6afc>Going out, your Highness?
+      Please be back before dark.
   "64c2":
     "is_relocatable": !!bool |-
       true
@@ -186,8 +245,9 @@
     "reference_addrs":
     - !!int |-
       54945
-    "translated": !!null |-
-      null
+    "translated": |-
+      <CALL6afc>Please do not leave town, your
+      Highness.
   "64f0":
     "is_relocatable": !!bool |-
       true
@@ -401,8 +461,8 @@
     "original_byte_length": !!int |-
       7
     "reference_addrs": []
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Maid<C_NONE><RET_N>
   "6afc":
     "is_relocatable": !!bool |-
       true
@@ -413,8 +473,8 @@
     "original_byte_length": !!int |-
       7
     "reference_addrs": []
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE><RET_N>
   "6b03":
     "is_relocatable": !!bool |-
       true
@@ -437,6 +497,6 @@
     "original_byte_length": !!int |-
       9
     "reference_addrs": []
-    "translated": !!null |-
-      null
+    "translated": |-
+      At?las<RET>
 "note": ""
