@@ -15,9 +15,11 @@
       感謝しに 来たのじゃよ。
     "original_byte_length": !!int |-
       182
-    "reference_addrs":
-    - !!int |-
-      54682
+    "references":
+    - "source_addr": !!int |-
+        54682
+      "target_addr": !!int |-
+        23427
     "translated": !!null |-
       null
   "5c39":
@@ -34,9 +36,11 @@
       ほんとに すごいもんじゃのう。
     "original_byte_length": !!int |-
       152
-    "reference_addrs":
-    - !!int |-
-      54691
+    "references":
+    - "source_addr": !!int |-
+        54691
+      "target_addr": !!int |-
+        23609
     "translated": !!null |-
       null
 "note": ""

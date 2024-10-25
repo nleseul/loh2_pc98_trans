@@ -10,9 +10,11 @@
       先を急いでください。
     "original_byte_length": !!int |-
       53
-    "reference_addrs":
-    - !!int |-
-      54694
+    "references":
+    - "source_addr": !!int |-
+        54694
+      "target_addr": !!int |-
+        23206
     "translated": !!null |-
       null
 "note": ""

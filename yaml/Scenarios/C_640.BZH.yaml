@@ -11,9 +11,11 @@
       何とかしてください。
     "original_byte_length": !!int |-
       99
-    "reference_addrs":
-    - !!int |-
-      54827
+    "references":
+    - "source_addr": !!int |-
+        54827
+      "target_addr": !!int |-
+        24382
     "translated": !!null |-
       null
   "5fa1":
@@ -30,9 +32,11 @@
       あとは お前らに 任せるぜ。
     "original_byte_length": !!int |-
       116
-    "reference_addrs":
-    - !!int |-
-      54836
+    "references":
+    - "source_addr": !!int |-
+        54836
+      "target_addr": !!int |-
+        24481
     "translated": !!null |-
       null
   "6015":
@@ -46,9 +50,11 @@
       進めなくなってしまったんだ。
     "original_byte_length": !!int |-
       65
-    "reference_addrs":
-    - !!int |-
-      54845
+    "references":
+    - "source_addr": !!int |-
+        54845
+      "target_addr": !!int |-
+        24597
     "translated": !!null |-
       null
   "6056":
@@ -62,9 +68,11 @@
       がんばってもらうしかないようじゃ。何とかして ここを 突破してくれぬか。
     "original_byte_length": !!int |-
       115
-    "reference_addrs":
-    - !!int |-
-      54854
+    "references":
+    - "source_addr": !!int |-
+        54854
+      "target_addr": !!int |-
+        24662
     "translated": !!null |-
       null
   "60c9":
@@ -78,9 +86,11 @@
       何とかして あいつを 倒してくれ。
     "original_byte_length": !!int |-
       88
-    "reference_addrs":
-    - !!int |-
-      54863
+    "references":
+    - "source_addr": !!int |-
+        54863
+      "target_addr": !!int |-
+        24777
     "translated": !!null |-
       null
   "6121":
@@ -93,9 +103,11 @@
       バイオラのマスターにも困ったものだ。あの敵には 弱点がないとは ･ ･ ･
     "original_byte_length": !!int |-
       89
-    "reference_addrs":
-    - !!int |-
-      54872
+    "references":
+    - "source_addr": !!int |-
+        54872
+      "target_addr": !!int |-
+        24865
     "translated": !!null |-
       null
   "617a":
@@ -109,9 +121,11 @@
       作ってしまったのだろうか ･ ･ ･
     "original_byte_length": !!int |-
       81
-    "reference_addrs":
-    - !!int |-
-      54881
+    "references":
+    - "source_addr": !!int |-
+        54881
+      "target_addr": !!int |-
+        24954
     "translated": !!null |-
       null
   "61cb":
@@ -129,9 +143,11 @@
       先に行ってくれ !!
     "original_byte_length": !!int |-
       101
-    "reference_addrs":
-    - !!int |-
-      54906
+    "references":
+    - "source_addr": !!int |-
+        54906
+      "target_addr": !!int |-
+        25035
     "translated": !!null |-
       null
   "6230":
@@ -144,9 +160,11 @@
       宝箱の中には<RET>
     "original_byte_length": !!int |-
       36
-    "reference_addrs":
-    - !!int |-
-      54771
+    "references":
+    - "source_addr": !!int |-
+        54771
+      "target_addr": !!int |-
+        25136
     "translated": !!null |-
       null
 "note": ""

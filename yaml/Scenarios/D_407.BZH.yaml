@@ -11,9 +11,11 @@
       先に行ってるから 早く来いよ。<SET00ea><ASMd683>
     "original_byte_length": !!int |-
       99
-    "reference_addrs":
-    - !!int |-
-      54738
+    "references":
+    - "source_addr": !!int |-
+        54738
+      "target_addr": !!int |-
+        23490
     "translated": !!null |-
       null
   "5c25":
@@ -30,9 +32,11 @@
       ひでえ目 あわねえうちに 帰りな。
     "original_byte_length": !!int |-
       143
-    "reference_addrs":
-    - !!int |-
-      54747
+    "references":
+    - "source_addr": !!int |-
+        54747
+      "target_addr": !!int |-
+        23589
     "translated": !!null |-
       null
   "5cb4":
@@ -49,9 +53,11 @@
       出かけていったのが 最後だったな。
     "original_byte_length": !!int |-
       145
-    "reference_addrs":
-    - !!int |-
-      54756
+    "references":
+    - "source_addr": !!int |-
+        54756
+      "target_addr": !!int |-
+        23732
     "translated": !!null |-
       null
   "5d45":
@@ -68,9 +74,11 @@
       ばかりしているんです。
     "original_byte_length": !!int |-
       134
-    "reference_addrs":
-    - !!int |-
-      54765
+    "references":
+    - "source_addr": !!int |-
+        54765
+      "target_addr": !!int |-
+        23877
     "translated": !!null |-
       null
   "5dcb":
@@ -82,9 +90,11 @@
       <CALL60c8>ドレイクの子分が ずっと 帰ってきてないけど どうしたんだろう。
     "original_byte_length": !!int |-
       65
-    "reference_addrs":
-    - !!int |-
-      54774
+    "references":
+    - "source_addr": !!int |-
+        54774
+      "target_addr": !!int |-
+        24011
     "translated": !!null |-
       null
   "5e0c":
@@ -98,9 +108,11 @@
       作った人が言ってるからまちがいねえ。ムダなことは やめときな。
     "original_byte_length": !!int |-
       129
-    "reference_addrs":
-    - !!int |-
-      54783
+    "references":
+    - "source_addr": !!int |-
+        54783
+      "target_addr": !!int |-
+        24076
     "translated": !!null |-
       null
   "5e8d":
@@ -114,9 +126,11 @@
       いったい 何やってるんだろう。
     "original_byte_length": !!int |-
       79
-    "reference_addrs":
-    - !!int |-
-      54792
+    "references":
+    - "source_addr": !!int |-
+        54792
+      "target_addr": !!int |-
+        24205
     "translated": !!null |-
       null
   "5edc":
@@ -133,9 +147,11 @@
       どこに 行ってしまったのか。
     "original_byte_length": !!int |-
       143
-    "reference_addrs":
-    - !!int |-
-      54801
+    "references":
+    - "source_addr": !!int |-
+        54801
+      "target_addr": !!int |-
+        24284
     "translated": !!null |-
       null
   "5f6b":
@@ -152,9 +168,11 @@
       銀の笛ってのが 入ってるらしいぜ。
     "original_byte_length": !!int |-
       145
-    "reference_addrs":
-    - !!int |-
-      54810
+    "references":
+    - "source_addr": !!int |-
+        54810
+      "target_addr": !!int |-
+        24427
     "translated": !!null |-
       null
   "5ffc":
@@ -170,9 +188,11 @@
                          大盗賊 ゲイル』
     "original_byte_length": !!int |-
       90
-    "reference_addrs":
-    - !!int |-
-      54717
+    "references":
+    - "source_addr": !!int |-
+        54717
+      "target_addr": !!int |-
+        24572
     "translated": !!null |-
       null
   "6056":
@@ -188,9 +208,11 @@
                      　　大盗賊 ゲイル』
     "original_byte_length": !!int |-
       84
-    "reference_addrs":
-    - !!int |-
-      54723
+    "references":
+    - "source_addr": !!int |-
+        54723
+      "target_addr": !!int |-
+        24662
     "translated": !!null |-
       null
   "60aa":
@@ -202,9 +224,11 @@
       <C_GREEN>扉は 開きそうもありません。<C_NONE>
     "original_byte_length": !!int |-
       30
-    "reference_addrs":
-    - !!int |-
-      54729
+    "references":
+    - "source_addr": !!int |-
+        54729
+      "target_addr": !!int |-
+        24746
     "translated": !!null |-
       null
   "60c8":
@@ -216,7 +240,7 @@
       <C_YELLOW>盗賊<C_NONE><RET_N>
     "original_byte_length": !!int |-
       7
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
 "note": ""

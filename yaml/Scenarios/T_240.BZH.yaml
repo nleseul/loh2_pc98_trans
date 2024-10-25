@@ -18,9 +18,11 @@
       避難しているそうだぜ。
     "original_byte_length": !!int |-
       220
-    "reference_addrs":
-    - !!int |-
-      54851
+    "references":
+    - "source_addr": !!int |-
+        54851
+      "target_addr": !!int |-
+        23483
     "translated": !!null |-
       null
   "5c97":
@@ -40,9 +42,11 @@
       いなか じゃからのう ･ ･ ･
     "original_byte_length": !!int |-
       286
-    "reference_addrs":
-    - !!int |-
-      54860
+    "references":
+    - "source_addr": !!int |-
+        54860
+      "target_addr": !!int |-
+        23703
     "translated": !!null |-
       null
   "5db5":
@@ -65,9 +69,11 @@
       沈没船かなんか だったりして ･ ･ ･
     "original_byte_length": !!int |-
       284
-    "reference_addrs":
-    - !!int |-
-      54869
+    "references":
+    - "source_addr": !!int |-
+        54869
+      "target_addr": !!int |-
+        23989
     "translated": !!null |-
       null
   "5ed1":
@@ -99,9 +105,11 @@
       はい どうも これからも よろしく。
     "original_byte_length": !!int |-
       370
-    "reference_addrs":
-    - !!int |-
-      54884
+    "references":
+    - "source_addr": !!int |-
+        54884
+      "target_addr": !!int |-
+        24273
     "translated": !!null |-
       null
   "6043":
@@ -169,9 +177,11 @@
       うわっ い、いま いきます。
     "original_byte_length": !!int |-
       861
-    "reference_addrs":
-    - !!int |-
-      54782
+    "references":
+    - "source_addr": !!int |-
+        54782
+      "target_addr": !!int |-
+        24643
     "translated": !!null |-
       null
   "63a0":
@@ -185,9 +195,11 @@
       どのような ご用でしょうか？<RET_N>
     "original_byte_length": !!int |-
       56
-    "reference_addrs":
-    - !!int |-
-      54912
+    "references":
+    - "source_addr": !!int |-
+        54912
+      "target_addr": !!int |-
+        25504
     "translated": !!null |-
       null
   "63d8":
@@ -199,9 +211,11 @@
       また来てくださいね。
     "original_byte_length": !!int |-
       21
-    "reference_addrs":
-    - !!int |-
-      54939
+    "references":
+    - "source_addr": !!int |-
+        54939
+      "target_addr": !!int |-
+        25560
     "translated": !!null |-
       null
   "63ed":
@@ -215,9 +229,11 @@
       <RET>
     "original_byte_length": !!int |-
       36
-    "reference_addrs":
-    - !!int |-
-      2988
+    "references":
+    - "source_addr": !!int |-
+        2988
+      "target_addr": !!int |-
+        25581
     "translated": !!null |-
       null
   "6411":
@@ -230,9 +246,11 @@
       <RET_N>
     "original_byte_length": !!int |-
       26
-    "reference_addrs":
-    - !!int |-
-      2990
+    "references":
+    - "source_addr": !!int |-
+        2990
+      "target_addr": !!int |-
+        25617
     "translated": !!null |-
       null
   "642b":
@@ -247,9 +265,11 @@
       <RET>
     "original_byte_length": !!int |-
       29
-    "reference_addrs":
-    - !!int |-
-      2992
+    "references":
+    - "source_addr": !!int |-
+        2992
+      "target_addr": !!int |-
+        25643
     "translated": !!null |-
       null
   "6450":
@@ -262,9 +282,11 @@
       <RET_N>
     "original_byte_length": !!int |-
       27
-    "reference_addrs":
-    - !!int |-
-      2826
+    "references":
+    - "source_addr": !!int |-
+        2826
+      "target_addr": !!int |-
+        25680
     "translated": !!null |-
       null
   "646b":
@@ -278,9 +300,11 @@
       <RET_N>
     "original_byte_length": !!int |-
       44
-    "reference_addrs":
-    - !!int |-
-      2828
+    "references":
+    - "source_addr": !!int |-
+        2828
+      "target_addr": !!int |-
+        25707
     "translated": !!null |-
       null
   "6497":
@@ -294,9 +318,11 @@
       <RET_N>
     "original_byte_length": !!int |-
       18
-    "reference_addrs":
-    - !!int |-
-      2830
+    "references":
+    - "source_addr": !!int |-
+        2830
+      "target_addr": !!int |-
+        25751
     "translated": !!null |-
       null
   "64a9":
@@ -309,9 +335,11 @@
       <RET_N>
     "original_byte_length": !!int |-
       31
-    "reference_addrs":
-    - !!int |-
-      2832
+    "references":
+    - "source_addr": !!int |-
+        2832
+      "target_addr": !!int |-
+        25769
     "translated": !!null |-
       null
 "note": ""

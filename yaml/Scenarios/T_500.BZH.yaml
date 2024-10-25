@@ -19,9 +19,11 @@
       こいっ !!
     "original_byte_length": !!int |-
       215
-    "reference_addrs":
-    - !!int |-
-      54826
+    "references":
+    - "source_addr": !!int |-
+        54826
+      "target_addr": !!int |-
+        23912
     "translated": !!null |-
       null
   "5e3f":
@@ -52,9 +54,11 @@
       収容所なんか いやだい。
     "original_byte_length": !!int |-
       268
-    "reference_addrs":
-    - !!int |-
-      54806
+    "references":
+    - "source_addr": !!int |-
+        54806
+      "target_addr": !!int |-
+        24127
     "translated": !!null |-
       null
   "5f4b":
@@ -103,9 +107,11 @@
       何か 知ってるかもよ。
     "original_byte_length": !!int |-
       621
-    "reference_addrs":
-    - !!int |-
-      54970
+    "references":
+    - "source_addr": !!int |-
+        54970
+      "target_addr": !!int |-
+        24395
     "translated": !!null |-
       null
   "61b8":
@@ -119,9 +125,11 @@
       用がないなら 帰ってくれ。
     "original_byte_length": !!int |-
       44
-    "reference_addrs":
-    - !!int |-
-      54979
+    "references":
+    - "source_addr": !!int |-
+        54979
+      "target_addr": !!int |-
+        25016
     "translated": !!null |-
       null
   "61e4":
@@ -135,9 +143,11 @@
       下に降りてきてくれ。
     "original_byte_length": !!int |-
       44
-    "reference_addrs":
-    - !!int |-
-      55031
+    "references":
+    - "source_addr": !!int |-
+        55031
+      "target_addr": !!int |-
+        25060
     "translated": !!null |-
       null
   "6210":
@@ -166,9 +176,11 @@
       なるほど そういうわけか レイシア。<X0d>
     "original_byte_length": !!int |-
       305
-    "reference_addrs":
-    - !!int |-
-      54902
+    "references":
+    - "source_addr": !!int |-
+        54902
+      "target_addr": !!int |-
+        25104
     "translated": !!null |-
       null
   "6341":
@@ -188,9 +200,11 @@
       すっかり だまされたな。
     "original_byte_length": !!int |-
       115
-    "reference_addrs":
-    - !!int |-
-      54954
+    "references":
+    - "source_addr": !!int |-
+        54954
+      "target_addr": !!int |-
+        25409
     "translated": !!null |-
       null
 "note": ""

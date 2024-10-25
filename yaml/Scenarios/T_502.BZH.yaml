@@ -18,9 +18,11 @@
       見張っているんだ。
     "original_byte_length": !!int |-
       213
-    "reference_addrs":
-    - !!int |-
-      54784
+    "references":
+    - "source_addr": !!int |-
+        54784
+      "target_addr": !!int |-
+        23509
     "translated": !!null |-
       null
   "5caa":
@@ -39,9 +41,11 @@
       あぶなくて 外にも出られやしねえぜ。
     "original_byte_length": !!int |-
       213
-    "reference_addrs":
-    - !!int |-
-      54793
+    "references":
+    - "source_addr": !!int |-
+        54793
+      "target_addr": !!int |-
+        23722
     "translated": !!null |-
       null
   "5d7f":
@@ -67,9 +71,11 @@
       そのうち 町もつぶされ 混乱が起こり滅亡していくのです。
     "original_byte_length": !!int |-
       362
-    "reference_addrs":
-    - !!int |-
-      54802
+    "references":
+    - "source_addr": !!int |-
+        54802
+      "target_addr": !!int |-
+        23935
     "translated": !!null |-
       null
   "5ee9":
@@ -85,9 +91,11 @@
       あまり 気にしないでくださいね。
     "original_byte_length": !!int |-
       191
-    "reference_addrs":
-    - !!int |-
-      54811
+    "references":
+    - "source_addr": !!int |-
+        54811
+      "target_addr": !!int |-
+        24297
     "translated": !!null |-
       null
   "5fa8":
@@ -110,9 +118,11 @@
       楽しみが なくなっちゃったのよ。
     "original_byte_length": !!int |-
       271
-    "reference_addrs":
-    - !!int |-
-      54820
+    "references":
+    - "source_addr": !!int |-
+        54820
+      "target_addr": !!int |-
+        24488
     "translated": !!null |-
       null
   "60b7":
@@ -130,9 +140,11 @@
       できるのじゃろうか。<LOC6145>
     "original_byte_length": !!int |-
       143
-    "reference_addrs":
-    - !!int |-
-      54829
+    "references":
+    - "source_addr": !!int |-
+        54829
+      "target_addr": !!int |-
+        24759
     "translated": !!null |-
       null
   "6146":
@@ -155,9 +167,11 @@
       せめて 武器でもあればなあ。
     "original_byte_length": !!int |-
       358
-    "reference_addrs":
-    - !!int |-
-      54838
+    "references":
+    - "source_addr": !!int |-
+        54838
+      "target_addr": !!int |-
+        24902
     "translated": !!null |-
       null
   "62ac":
@@ -175,9 +189,11 @@
       守ることにしたんだ。<LOC6371>
     "original_byte_length": !!int |-
       198
-    "reference_addrs":
-    - !!int |-
-      54847
+    "references":
+    - "source_addr": !!int |-
+        54847
+      "target_addr": !!int |-
+        25260
     "translated": !!null |-
       null
   "6372":
@@ -195,9 +211,11 @@
       休止することに なってしまったな。
     "original_byte_length": !!int |-
       200
-    "reference_addrs":
-    - !!int |-
-      54856
+    "references":
+    - "source_addr": !!int |-
+        54856
+      "target_addr": !!int |-
+        25458
     "translated": !!null |-
       null
 "note": ""

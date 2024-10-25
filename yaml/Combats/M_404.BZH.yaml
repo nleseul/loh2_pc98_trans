@@ -8,7 +8,7 @@
       ザコンＡ<RET>
     "original_byte_length": !!int |-
       9
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "71b0":
@@ -20,7 +20,7 @@
       ザコンＢ<RET>
     "original_byte_length": !!int |-
       9
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "71f0":
@@ -31,7 +31,7 @@
     "original": ""
     "original_byte_length": !!int |-
       1
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "7230":
@@ -42,7 +42,7 @@
     "original": ""
     "original_byte_length": !!int |-
       1
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "7319":
@@ -54,9 +54,11 @@
       ザコンが現れた。<RET_N>
     "original_byte_length": !!int |-
       17
-    "reference_addrs":
-    - !!int |-
-      61000
+    "references":
+    - "source_addr": !!int |-
+        61000
+      "target_addr": !!int |-
+        29465
     "translated": !!null |-
       null
 "note": ""

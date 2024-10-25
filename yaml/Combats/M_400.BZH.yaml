@@ -8,7 +8,7 @@
       ﾄﾞﾗｽﾄｺﾞｰｽﾄＡ<RET>
     "original_byte_length": !!int |-
       13
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "71b0":
@@ -20,7 +20,7 @@
       ディゲンス<RET>
     "original_byte_length": !!int |-
       11
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "71f0":
@@ -32,7 +32,7 @@
       ﾄﾞﾗｽﾄｺﾞｰｽﾄＢ<RET>
     "original_byte_length": !!int |-
       13
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "7230":
@@ -43,7 +43,7 @@
     "original": ""
     "original_byte_length": !!int |-
       1
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "777a":
@@ -55,9 +55,11 @@
       ディゲンスが現れた。<RET_N>
     "original_byte_length": !!int |-
       21
-    "reference_addrs":
-    - !!int |-
-      61000
+    "references":
+    - "source_addr": !!int |-
+        61000
+      "target_addr": !!int |-
+        30586
     "translated": !!null |-
       null
   "77d8":
@@ -69,9 +71,11 @@
       <ACTOR>は<C_YELLOW>ディゲンス<C_NONE>の前に出て呪文を受けた。<RET_N>
     "original_byte_length": !!int |-
       40
-    "reference_addrs":
-    - !!int |-
-      61905
+    "references":
+    - "source_addr": !!int |-
+        61905
+      "target_addr": !!int |-
+        30680
     "translated": !!null |-
       null
   "7800":
@@ -83,9 +87,11 @@
       <ACTOR>は<C_YELLOW>ディゲンス<C_NONE>の前に出て剣を受けた。<RET_N>
     "original_byte_length": !!int |-
       38
-    "reference_addrs":
-    - !!int |-
-      61650
+    "references":
+    - "source_addr": !!int |-
+        61650
+      "target_addr": !!int |-
+        30720
     "translated": !!null |-
       null
   "7855":
@@ -97,9 +103,11 @@
       <ACTOR>は逃げ出した。<RET_N>
     "original_byte_length": !!int |-
       16
-    "reference_addrs":
-    - !!int |-
-      61792
+    "references":
+    - "source_addr": !!int |-
+        61792
+      "target_addr": !!int |-
+        30805
     "translated": !!null |-
       null
 "note": ""

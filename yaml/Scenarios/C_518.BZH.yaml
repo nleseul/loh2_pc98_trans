@@ -60,9 +60,11 @@
       するはずがない。
     "original_byte_length": !!int |-
       873
-    "reference_addrs":
-    - !!int |-
-      54758
+    "references":
+    - "source_addr": !!int |-
+        54758
+      "target_addr": !!int |-
+        24034
     "translated": !!null |-
       null
   "614b":
@@ -118,9 +120,11 @@
       よーし それじゃ 行くか。
     "original_byte_length": !!int |-
       438
-    "reference_addrs":
-    - !!int |-
-      54786
+    "references":
+    - "source_addr": !!int |-
+        54786
+      "target_addr": !!int |-
+        24907
     "translated": !!null |-
       null
   "6301":
@@ -132,7 +136,7 @@
       ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･<RET_N>
     "original_byte_length": !!int |-
       34
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
 "note": ""

@@ -8,9 +8,11 @@
       <ACTOR>は炎のブレスをはいた。<RET_N>
     "original_byte_length": !!int |-
       24
-    "reference_addrs":
-    - !!int |-
-      55756
+    "references":
+    - "source_addr": !!int |-
+        55756
+      "target_addr": !!int |-
+        25068
     "translated": !!null |-
       null
   "6204":
@@ -22,9 +24,11 @@
       <ACTOR>は大きくはばたいた。<RET_N>
     "original_byte_length": !!int |-
       22
-    "reference_addrs":
-    - !!int |-
-      55744
+    "references":
+    - "source_addr": !!int |-
+        55744
+      "target_addr": !!int |-
+        25092
     "translated": !!null |-
       null
   "621a":
@@ -36,9 +40,11 @@
       <CLEAR>皇帝 ゴドウィン２世を倒した。<RET_N>
     "original_byte_length": !!int |-
       31
-    "reference_addrs":
-    - !!int |-
-      55875
+    "references":
+    - "source_addr": !!int |-
+        55875
+      "target_addr": !!int |-
+        25114
     "translated": !!null |-
       null
   "62a8":
@@ -59,9 +65,11 @@
       <LOC636e>どこからでも かかってくるがよい。
     "original_byte_length": !!int |-
       232
-    "reference_addrs":
-    - !!int |-
-      54678
+    "references":
+    - "source_addr": !!int |-
+        54678
+      "target_addr": !!int |-
+        25256
     "translated": !!null |-
       null
   "6390":
@@ -100,9 +108,11 @@
       よーし みんな いくぞ。
     "original_byte_length": !!int |-
       369
-    "reference_addrs":
-    - !!int |-
-      54863
+    "references":
+    - "source_addr": !!int |-
+        54863
+      "target_addr": !!int |-
+        25488
     "translated": !!null |-
       null
   "6502":
@@ -114,9 +124,11 @@
       しかし<ITEM>ではダメージを与えられない !!<RET_PAGE>
     "original_byte_length": !!int |-
       37
-    "reference_addrs":
-    - !!int |-
-      55661
+    "references":
+    - "source_addr": !!int |-
+        55661
+      "target_addr": !!int |-
+        25858
     "translated": !!null |-
       null
 "note": ""

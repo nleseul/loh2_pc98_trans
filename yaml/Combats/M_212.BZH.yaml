@@ -8,7 +8,7 @@
       ハンタークローA<RET>
     "original_byte_length": !!int |-
       16
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "71b0":
@@ -20,7 +20,7 @@
       ハンタークローB<RET>
     "original_byte_length": !!int |-
       16
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "71f0":
@@ -32,7 +32,7 @@
       ハンタークローC<RET>
     "original_byte_length": !!int |-
       16
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "7230":
@@ -44,7 +44,7 @@
       ハンタークローD<RET>
     "original_byte_length": !!int |-
       16
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "7333":
@@ -56,9 +56,11 @@
       ハンタークローが現れた。<RET_N>
     "original_byte_length": !!int |-
       25
-    "reference_addrs":
-    - !!int |-
-      61000
+    "references":
+    - "source_addr": !!int |-
+        61000
+      "target_addr": !!int |-
+        29491
     "translated": !!null |-
       null
   "7382":
@@ -70,9 +72,11 @@
       <ACTOR>の体に毒がまわった。<RET_N>
     "original_byte_length": !!int |-
       22
-    "reference_addrs":
-    - !!int |-
-      61212
+    "references":
+    - "source_addr": !!int |-
+        61212
+      "target_addr": !!int |-
+        29570
     "translated": !!null |-
       null
 "note": ""

@@ -10,9 +10,11 @@
       気持ち悪いから 近寄るんじゃないよ。
     "original_byte_length": !!int |-
       73
-    "reference_addrs":
-    - !!int |-
-      54630
+    "references":
+    - "source_addr": !!int |-
+        54630
+      "target_addr": !!int |-
+        23259
     "translated": !!null |-
       null
   "5b24":
@@ -29,9 +31,11 @@
       よくわからねえんだ。
     "original_byte_length": !!int |-
       104
-    "reference_addrs":
-    - !!int |-
-      54639
+    "references":
+    - "source_addr": !!int |-
+        54639
+      "target_addr": !!int |-
+        23332
     "translated": !!null |-
       null
   "5b8c":
@@ -48,9 +52,11 @@
       なって つぶれてしまったというのに。
     "original_byte_length": !!int |-
       143
-    "reference_addrs":
-    - !!int |-
-      54648
+    "references":
+    - "source_addr": !!int |-
+        54648
+      "target_addr": !!int |-
+        23436
     "translated": !!null |-
       null
   "5c1b":
@@ -67,9 +73,11 @@
       おそった ･ ･ ･ あぶねえ あぶねえ。
     "original_byte_length": !!int |-
       113
-    "reference_addrs":
-    - !!int |-
-      54657
+    "references":
+    - "source_addr": !!int |-
+        54657
+      "target_addr": !!int |-
+        23579
     "translated": !!null |-
       null
   "5c8c":
@@ -84,9 +92,11 @@
       思い出すよな。
     "original_byte_length": !!int |-
       87
-    "reference_addrs":
-    - !!int |-
-      54666
+    "references":
+    - "source_addr": !!int |-
+        54666
+      "target_addr": !!int |-
+        23692
     "translated": !!null |-
       null
   "5ce3":
@@ -104,9 +114,11 @@
       乗せられるやつだ。
     "original_byte_length": !!int |-
       171
-    "reference_addrs":
-    - !!int |-
-      54675
+    "references":
+    - "source_addr": !!int |-
+        54675
+      "target_addr": !!int |-
+        23779
     "translated": !!null |-
       null
   "5d8e":
@@ -130,9 +142,11 @@
       持物が いっぱいだぜ。
     "original_byte_length": !!int |-
       267
-    "reference_addrs":
-    - !!int |-
-      54684
+    "references":
+    - "source_addr": !!int |-
+        54684
+      "target_addr": !!int |-
+        23950
     "translated": !!null |-
       null
   "5e99":
@@ -146,9 +160,11 @@
       あるんだぜ。社長の趣味なんだ。
     "original_byte_length": !!int |-
       71
-    "reference_addrs":
-    - !!int |-
-      54693
+    "references":
+    - "source_addr": !!int |-
+        54693
+      "target_addr": !!int |-
+        24217
     "translated": !!null |-
       null
   "5ee0":
@@ -168,9 +184,11 @@
       交換してやるからな。
     "original_byte_length": !!int |-
       273
-    "reference_addrs":
-    - !!int |-
-      54702
+    "references":
+    - "source_addr": !!int |-
+        54702
+      "target_addr": !!int |-
+        24288
     "translated": !!null |-
       null
 "note": ""

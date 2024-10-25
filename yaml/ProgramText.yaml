@@ -10,9 +10,11 @@
       <RET>
     "original_byte_length": !!int |-
       2
-    "reference_addrs":
-    - !!int |-
-      368
+    "references":
+    - "source_addr": !!int |-
+        368
+      "target_addr": !!int |-
+        1280
     "translated": !!null |-
       null
   "0502":
@@ -23,9 +25,11 @@
     "original": ""
     "original_byte_length": !!int |-
       1
-    "reference_addrs":
-    - !!int |-
-      389
+    "references":
+    - "source_addr": !!int |-
+        389
+      "target_addr": !!int |-
+        1282
     "translated": !!null |-
       null
   "0513":
@@ -37,9 +41,11 @@
       <CLEAR>どの力を 高めますか？<RET_N>
     "original_byte_length": !!int |-
       23
-    "reference_addrs":
-    - !!int |-
-      817
+    "references":
+    - "source_addr": !!int |-
+        817
+      "target_addr": !!int |-
+        1299
     "translated": !!null |-
       null
   "052a":
@@ -51,9 +57,11 @@
       これで よろしいですか？<RET_N>
     "original_byte_length": !!int |-
       24
-    "reference_addrs":
-    - !!int |-
-      887
+    "references":
+    - "source_addr": !!int |-
+        887
+      "target_addr": !!int |-
+        1322
     "translated": !!null |-
       null
   "0542":
@@ -65,9 +73,11 @@
       <SND0204><C_RED>その力は これ以上 あげられません。<C_NONE><X0d>
     "original_byte_length": !!int |-
       40
-    "reference_addrs":
-    - !!int |-
-      916
+    "references":
+    - "source_addr": !!int |-
+        916
+      "target_addr": !!int |-
+        1346
     "translated": !!null |-
       null
   "05be":
@@ -79,9 +89,11 @@
       <CLEAR><ACTOR>はレベルアップした。<X0d>
     "original_byte_length": !!int |-
       23
-    "reference_addrs":
-    - !!int |-
-      411
+    "references":
+    - "source_addr": !!int |-
+        411
+      "target_addr": !!int |-
+        1470
     "translated": !!null |-
       null
   "05d5":
@@ -94,13 +106,19 @@
       <CONT><LOC05e1>ﾎﾟｲﾝﾄ あがった。<RET_N>
     "original_byte_length": !!int |-
       29
-    "reference_addrs":
-    - !!int |-
-      560
-    - !!int |-
-      450
-    - !!int |-
-      527
+    "references":
+    - "source_addr": !!int |-
+        450
+      "target_addr": !!int |-
+        1493
+    - "source_addr": !!int |-
+        527
+      "target_addr": !!int |-
+        1505
+    - "source_addr": !!int |-
+        560
+      "target_addr": !!int |-
+        1505
     "translated": !!null |-
       null
   "05f2":
@@ -112,9 +130,11 @@
       攻撃力が <RET>
     "original_byte_length": !!int |-
       10
-    "reference_addrs":
-    - !!int |-
-      521
+    "references":
+    - "source_addr": !!int |-
+        521
+      "target_addr": !!int |-
+        1522
     "translated": !!null |-
       null
   "05fc":
@@ -126,9 +146,11 @@
       呪文能力が <RET>
     "original_byte_length": !!int |-
       12
-    "reference_addrs":
-    - !!int |-
-      554
+    "references":
+    - "source_addr": !!int |-
+        554
+      "target_addr": !!int |-
+        1532
     "translated": !!null |-
       null
   "0622":
@@ -140,9 +162,11 @@
       強さが <RET>
     "original_byte_length": !!int |-
       8
-    "reference_addrs":
-    - !!int |-
-      696
+    "references":
+    - "source_addr": !!int |-
+        696
+      "target_addr": !!int |-
+        1570
     "translated": !!null |-
       null
   "062a":
@@ -154,9 +178,11 @@
       かしこさが <RET>
     "original_byte_length": !!int |-
       12
-    "reference_addrs":
-    - !!int |-
-      702
+    "references":
+    - "source_addr": !!int |-
+        702
+      "target_addr": !!int |-
+        1578
     "translated": !!null |-
       null
   "0636":
@@ -168,9 +194,11 @@
       すばやさが <RET>
     "original_byte_length": !!int |-
       12
-    "reference_addrs":
-    - !!int |-
-      708
+    "references":
+    - "source_addr": !!int |-
+        708
+      "target_addr": !!int |-
+        1590
     "translated": !!null |-
       null
   "0642":
@@ -182,9 +210,11 @@
       運の良さが <RET>
     "original_byte_length": !!int |-
       12
-    "reference_addrs":
-    - !!int |-
-      714
+    "references":
+    - "source_addr": !!int |-
+        714
+      "target_addr": !!int |-
+        1602
     "translated": !!null |-
       null
   "064e":
@@ -198,9 +228,11 @@
       <RET>
     "original_byte_length": !!int |-
       2
-    "reference_addrs":
-    - !!int |-
-      729
+    "references":
+    - "source_addr": !!int |-
+        729
+      "target_addr": !!int |-
+        1614
     "translated": !!null |-
       null
   "06a1":
@@ -212,9 +244,11 @@
       は<RET>
     "original_byte_length": !!int |-
       3
-    "reference_addrs":
-    - !!int |-
-      27159
+    "references":
+    - "source_addr": !!int |-
+        27159
+      "target_addr": !!int |-
+        1697
     "translated": !!null |-
       null
   "06a4":
@@ -226,9 +260,11 @@
       <ACTOR>に<RET>
     "original_byte_length": !!int |-
       4
-    "reference_addrs":
-    - !!int |-
-      27185
+    "references":
+    - "source_addr": !!int |-
+        27185
+      "target_addr": !!int |-
+        1700
     "translated": !!null |-
       null
   "06a8":
@@ -240,9 +276,11 @@
       <C_YELLOW>自分自身<C_NONE><X1f>に<C_NONE><RET>
     "original_byte_length": !!int |-
       15
-    "reference_addrs":
-    - !!int |-
-      27176
+    "references":
+    - "source_addr": !!int |-
+        27176
+      "target_addr": !!int |-
+        1704
     "translated": !!null |-
       null
   "06b7":
@@ -254,9 +292,11 @@
       <CALL06bf><RET>
     "original_byte_length": !!int |-
       4
-    "reference_addrs":
-    - !!int |-
-      1132
+    "references":
+    - "source_addr": !!int |-
+        1132
+      "target_addr": !!int |-
+        1719
     "translated": !!null |-
       null
   "06bb":
@@ -268,11 +308,15 @@
       <CALL06bf><RET_PAGE>
     "original_byte_length": !!int |-
       4
-    "reference_addrs":
-    - !!int |-
-      1162
-    - !!int |-
-      1127
+    "references":
+    - "source_addr": !!int |-
+        1127
+      "target_addr": !!int |-
+        1723
+    - "source_addr": !!int |-
+        1162
+      "target_addr": !!int |-
+        1723
     "translated": !!null |-
       null
   "06bf":
@@ -284,7 +328,7 @@
       <ITEM>を使った。<RET>
     "original_byte_length": !!int |-
       12
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "06cb":
@@ -296,9 +340,11 @@
       の効果がある。<RET_PAGE>
     "original_byte_length": !!int |-
       15
-    "reference_addrs":
-    - !!int |-
-      1144
+    "references":
+    - "source_addr": !!int |-
+        1144
+      "target_addr": !!int |-
+        1739
     "translated": !!null |-
       null
   "06da":
@@ -310,9 +356,11 @@
       の呪文は封じられている !!<RET_PAGE>
     "original_byte_length": !!int |-
       26
-    "reference_addrs":
-    - !!int |-
-      1232
+    "references":
+    - "source_addr": !!int |-
+        1232
+      "target_addr": !!int |-
+        1754
     "translated": !!null |-
       null
   "06f4":
@@ -324,9 +372,11 @@
       <CALL070c>何も起こらなかった。<RET_PAGE>
     "original_byte_length": !!int |-
       24
-    "reference_addrs":
-    - !!int |-
-      1465
+    "references":
+    - "source_addr": !!int |-
+        1465
+      "target_addr": !!int |-
+        1780
     "translated": !!null |-
       null
   "070c":
@@ -338,9 +388,11 @@
       <IF0418><JUMP0718>しかし<LOC0718><RET>
     "original_byte_length": !!int |-
       13
-    "reference_addrs":
-    - !!int |-
-      7542
+    "references":
+    - "source_addr": !!int |-
+        7542
+      "target_addr": !!int |-
+        1804
     "translated": !!null |-
       null
   "0719":
@@ -352,9 +404,11 @@
       運悪<JUMP0724>運良<LOC0724>く<ACTOR>には当ら<JUMP073b><ACTOR>には効か<LOC073b>なかった。<RET_PAGE>
     "original_byte_length": !!int |-
       45
-    "reference_addrs":
-    - !!int |-
-      7538
+    "references":
+    - "source_addr": !!int |-
+        7538
+      "target_addr": !!int |-
+        1817
     "translated": !!null |-
       null
   "0772":
@@ -366,9 +420,11 @@
       を唱えた。<RET_N>
     "original_byte_length": !!int |-
       11
-    "reference_addrs":
-    - !!int |-
-      1203
+    "references":
+    - "source_addr": !!int |-
+        1203
+      "target_addr": !!int |-
+        1906
     "translated": !!null |-
       null
   "077d":
@@ -381,9 +437,11 @@
       <CONT><C_NONE>回復した。<RET_PAGE>
     "original_byte_length": !!int |-
       23
-    "reference_addrs":
-    - !!int |-
-      19362
+    "references":
+    - "source_addr": !!int |-
+        19362
+      "target_addr": !!int |-
+        1917
     "translated": !!null |-
       null
   "084e":
@@ -395,9 +453,11 @@
       <CLEAR>戦いに勝利しました。<RET_N>
     "original_byte_length": !!int |-
       22
-    "reference_addrs":
-    - !!int |-
-      2189
+    "references":
+    - "source_addr": !!int |-
+        2189
+      "target_addr": !!int |-
+        2126
     "translated": !!null |-
       null
   "0875":
@@ -409,9 +469,11 @@
       <CH0>は戦いに敗れました。
     "original_byte_length": !!int |-
       23
-    "reference_addrs":
-    - !!int |-
-      2245
+    "references":
+    - "source_addr": !!int |-
+        2245
+      "target_addr": !!int |-
+        2165
     "translated": !!null |-
       null
   "08c8":
@@ -425,9 +487,11 @@
       どれを捨てますか？<RET_N>
     "original_byte_length": !!int |-
       49
-    "reference_addrs":
-    - !!int |-
-      2542
+    "references":
+    - "source_addr": !!int |-
+        2542
+      "target_addr": !!int |-
+        2248
     "translated": !!null |-
       null
   "091b":
@@ -440,9 +504,11 @@
       <CONT> ﾎﾟｲﾝﾄ かくとく。<RET_N>
     "original_byte_length": !!int |-
       24
-    "reference_addrs":
-    - !!int |-
-      2607
+    "references":
+    - "source_addr": !!int |-
+        2607
+      "target_addr": !!int |-
+        2331
     "translated": !!null |-
       null
   "0933":
@@ -454,9 +520,11 @@
        Gold 手に入れました。<RET_N>
     "original_byte_length": !!int |-
       23
-    "reference_addrs":
-    - !!int |-
-      2679
+    "references":
+    - "source_addr": !!int |-
+        2679
+      "target_addr": !!int |-
+        2355
     "translated": !!null |-
       null
   "0a5e":
@@ -468,9 +536,11 @@
       の攻撃<RET_N>
     "original_byte_length": !!int |-
       7
-    "reference_addrs":
-    - !!int |-
-      7325
+    "references":
+    - "source_addr": !!int |-
+        7325
+      "target_addr": !!int |-
+        2654
     "translated": !!null |-
       null
   "0a65":
@@ -482,9 +552,11 @@
       <ACTOR>に<RET>
     "original_byte_length": !!int |-
       4
-    "reference_addrs":
-    - !!int |-
-      7475
+    "references":
+    - "source_addr": !!int |-
+        7475
+      "target_addr": !!int |-
+        2661
     "translated": !!null |-
       null
   "0a69":
@@ -496,9 +568,11 @@
       のダメージ !!<RET_PAGE>
     "original_byte_length": !!int |-
       14
-    "reference_addrs":
-    - !!int |-
-      7481
+    "references":
+    - "source_addr": !!int |-
+        7481
+      "target_addr": !!int |-
+        2665
     "translated": !!null |-
       null
   "0a77":
@@ -510,11 +584,15 @@
       会心<JUMP0a82><LOC0a7e>痛恨<LOC0a82>の一撃 !!<RET_N>
     "original_byte_length": !!int |-
       21
-    "reference_addrs":
-    - !!int |-
-      7461
-    - !!int |-
-      7469
+    "references":
+    - "source_addr": !!int |-
+        7469
+      "target_addr": !!int |-
+        2686
+    - "source_addr": !!int |-
+        7461
+      "target_addr": !!int |-
+        2679
     "translated": !!null |-
       null
   "0a8c":
@@ -526,9 +604,11 @@
       <ACTOR>は気絶してしまった。<RET_PAGE>
     "original_byte_length": !!int |-
       22
-    "reference_addrs":
-    - !!int |-
-      7418
+    "references":
+    - "source_addr": !!int |-
+        7418
+      "target_addr": !!int |-
+        2700
     "translated": !!null |-
       null
   "0aa2":
@@ -540,9 +620,11 @@
       <ACTOR>を倒した。<RET_PAGE>
     "original_byte_length": !!int |-
       12
-    "reference_addrs":
-    - !!int |-
-      7403
+    "references":
+    - "source_addr": !!int |-
+        7403
+      "target_addr": !!int |-
+        2722
     "translated": !!null |-
       null
   "16fc":
@@ -554,9 +636,11 @@
       <CLEAR><RET>
     "original_byte_length": !!int |-
       2
-    "reference_addrs":
-    - !!int |-
-      12657
+    "references":
+    - "source_addr": !!int |-
+        12657
+      "target_addr": !!int |-
+        5884
     "translated": !!null |-
       null
   "16fe":
@@ -568,9 +652,11 @@
       <RET_N>
     "original_byte_length": !!int |-
       1
-    "reference_addrs":
-    - !!int |-
-      12666
+    "references":
+    - "source_addr": !!int |-
+        12666
+      "target_addr": !!int |-
+        5886
     "translated": !!null |-
       null
   "16ff":
@@ -582,9 +668,11 @@
       たち<RET>
     "original_byte_length": !!int |-
       5
-    "reference_addrs":
-    - !!int |-
-      12744
+    "references":
+    - "source_addr": !!int |-
+        12744
+      "target_addr": !!int |-
+        5887
     "translated": !!null |-
       null
   "1754":
@@ -596,9 +684,11 @@
       <CLEAR>任意のドライブに<RET>
     "original_byte_length": !!int |-
       18
-    "reference_addrs":
-    - !!int |-
-      15901
+    "references":
+    - "source_addr": !!int |-
+        15901
+      "target_addr": !!int |-
+        5972
     "translated": !!null |-
       null
   "1766":
@@ -610,9 +700,11 @@
       <CLEAR>ドライブ A: に<RET>
     "original_byte_length": !!int |-
       16
-    "reference_addrs":
-    - !!int |-
-      15933
+    "references":
+    - "source_addr": !!int |-
+        15933
+      "target_addr": !!int |-
+        5990
     "translated": !!null |-
       null
   "1776":
@@ -625,9 +717,11 @@
       よろしいですか？<RET_N>
     "original_byte_length": !!int |-
       40
-    "reference_addrs":
-    - !!int |-
-      15956
+    "references":
+    - "source_addr": !!int |-
+        15956
+      "target_addr": !!int |-
+        6006
     "translated": !!null |-
       null
   "183c":
@@ -639,11 +733,15 @@
       <CLEAR>プログラムを中止しますか？<RET_N>
     "original_byte_length": !!int |-
       28
-    "reference_addrs":
-    - !!int |-
-      15970
-    - !!int |-
-      24406
+    "references":
+    - "source_addr": !!int |-
+        24406
+      "target_addr": !!int |-
+        6204
+    - "source_addr": !!int |-
+        15970
+      "target_addr": !!int |-
+        6204
     "translated": !!null |-
       null
   "1858":
@@ -655,9 +753,11 @@
       に<RET>
     "original_byte_length": !!int |-
       3
-    "reference_addrs":
-    - !!int |-
-      16442
+    "references":
+    - "source_addr": !!int |-
+        16442
+      "target_addr": !!int |-
+        6232
     "translated": !!null |-
       null
   "185b":
@@ -669,9 +769,11 @@
       をセットしてください。<RET>
     "original_byte_length": !!int |-
       23
-    "reference_addrs":
-    - !!int |-
-      16453
+    "references":
+    - "source_addr": !!int |-
+        16453
+      "target_addr": !!int |-
+        6235
     "translated": !!null |-
       null
   "19c5":
@@ -683,9 +785,11 @@
       <ACTOR>は呪文を跳ね返した !!<RET_PAGE>
     "original_byte_length": !!int |-
       23
-    "reference_addrs":
-    - !!int |-
-      11744
+    "references":
+    - "source_addr": !!int |-
+        11744
+      "target_addr": !!int |-
+        6597
     "translated": !!null |-
       null
   "19dc":
@@ -697,9 +801,11 @@
       <ACTOR>は気が付いた。<RET_PAGE>
     "original_byte_length": !!int |-
       16
-    "reference_addrs":
-    - !!int |-
-      2418
+    "references":
+    - "source_addr": !!int |-
+        2418
+      "target_addr": !!int |-
+        6620
     "translated": !!null |-
       null
   "1a42":
@@ -711,9 +817,11 @@
       <ACTOR>は守りのかまえをとった。<RET_PAGE>
     "original_byte_length": !!int |-
       26
-    "reference_addrs":
-    - !!int |-
-      21172
+    "references":
+    - "source_addr": !!int |-
+        21172
+      "target_addr": !!int |-
+        6722
     "translated": !!null |-
       null
   "1a5c":
@@ -725,9 +833,11 @@
       は逃げ出した。<RET_N>
     "original_byte_length": !!int |-
       15
-    "reference_addrs":
-    - !!int |-
-      21342
+    "references":
+    - "source_addr": !!int |-
+        21342
+      "target_addr": !!int |-
+        6748
     "translated": !!null |-
       null
   "1baa":
@@ -740,9 +850,11 @@
       よろしいですか？<RET_N>
     "original_byte_length": !!int |-
       18
-    "reference_addrs":
-    - !!int |-
-      24461
+    "references":
+    - "source_addr": !!int |-
+        24461
+      "target_addr": !!int |-
+        7082
     "translated": !!null |-
       null
   "1d74":
@@ -754,9 +866,11 @@
       <ACTOR>は毒がまわってきた。<RET_PAGE>
     "original_byte_length": !!int |-
       22
-    "reference_addrs":
-    - !!int |-
-      25688
+    "references":
+    - "source_addr": !!int |-
+        25688
+      "target_addr": !!int |-
+        7540
     "translated": !!null |-
       null
   "1d8a":
@@ -768,9 +882,11 @@
       <ACTOR>はしびれてしまった !!<RET_PAGE>
     "original_byte_length": !!int |-
       23
-    "reference_addrs":
-    - !!int |-
-      25699
+    "references":
+    - "source_addr": !!int |-
+        25699
+      "target_addr": !!int |-
+        7562
     "translated": !!null |-
       null
   "1da1":
@@ -782,9 +898,11 @@
       <ACTOR>の全身に毒がまわった !!<RET_PAGE>
     "original_byte_length": !!int |-
       25
-    "reference_addrs":
-    - !!int |-
-      25710
+    "references":
+    - "source_addr": !!int |-
+        25710
+      "target_addr": !!int |-
+        7585
     "translated": !!null |-
       null
   "1dba":
@@ -796,9 +914,11 @@
       <ACTOR>は眠っている。<RET_PAGE>
     "original_byte_length": !!int |-
       16
-    "reference_addrs":
-    - !!int |-
-      25759
+    "references":
+    - "source_addr": !!int |-
+        25759
+      "target_addr": !!int |-
+        7610
     "translated": !!null |-
       null
   "1dca":
@@ -810,9 +930,11 @@
       <ACTOR>は目がさめた。<RET_PAGE>
     "original_byte_length": !!int |-
       16
-    "reference_addrs":
-    - !!int |-
-      25733
+    "references":
+    - "source_addr": !!int |-
+        25733
+      "target_addr": !!int |-
+        7626
     "translated": !!null |-
       null
   "1dda":
@@ -824,9 +946,11 @@
       <ACTOR>は混乱している !!<RET_PAGE>
     "original_byte_length": !!int |-
       19
-    "reference_addrs":
-    - !!int |-
-      25842
+    "references":
+    - "source_addr": !!int |-
+        25842
+      "target_addr": !!int |-
+        7642
     "translated": !!null |-
       null
   "1ded":
@@ -838,9 +962,11 @@
       <ACTOR>は我に返った。<RET_PAGE>
     "original_byte_length": !!int |-
       16
-    "reference_addrs":
-    - !!int |-
-      25814
+    "references":
+    - "source_addr": !!int |-
+        25814
+      "target_addr": !!int |-
+        7661
     "translated": !!null |-
       null
   "22d8":
@@ -852,9 +978,11 @@
       ドライブ A: <RET>
     "original_byte_length": !!int |-
       13
-    "reference_addrs":
-    - !!int |-
-      16467
+    "references":
+    - "source_addr": !!int |-
+        16467
+      "target_addr": !!int |-
+        8920
     "translated": !!null |-
       null
   "231a":
@@ -866,9 +994,11 @@
       0000000000<RET>
     "original_byte_length": !!int |-
       11
-    "reference_addrs":
-    - !!int |-
-      12796
+    "references":
+    - "source_addr": !!int |-
+        12796
+      "target_addr": !!int |-
+        8986
     "translated": !!null |-
       null
 "note": ""

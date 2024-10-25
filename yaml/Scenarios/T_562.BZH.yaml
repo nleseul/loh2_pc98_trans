@@ -20,9 +20,11 @@
       聞いてたんだけど ほんとに その通りだったとはね。
     "original_byte_length": !!int |-
       324
-    "reference_addrs":
-    - !!int |-
-      55072
+    "references":
+    - "source_addr": !!int |-
+        55072
+      "target_addr": !!int |-
+        23998
     "translated": !!null |-
       null
   "5f02":
@@ -36,9 +38,11 @@
       成功してくれればいいのじゃが ･ ･ ･
     "original_byte_length": !!int |-
       95
-    "reference_addrs":
-    - !!int |-
-      55081
+    "references":
+    - "source_addr": !!int |-
+        55081
+      "target_addr": !!int |-
+        24322
     "translated": !!null |-
       null
   "5f61":
@@ -50,9 +54,11 @@
       \ 皇帝を倒すために\n城に攻め入っているそうよ。 \n早く いい知らせが きてほしいわ。"
     "original_byte_length": !!int |-
       159
-    "reference_addrs":
-    - !!int |-
-      55090
+    "references":
+    - "source_addr": !!int |-
+        55090
+      "target_addr": !!int |-
+        24417
     "translated": !!null |-
       null
   "6000":
@@ -65,9 +71,11 @@
       これできっとまた 昔のように 自由な生活が できるようになるのね。
     "original_byte_length": !!int |-
       69
-    "reference_addrs":
-    - !!int |-
-      55099
+    "references":
+    - "source_addr": !!int |-
+        55099
+      "target_addr": !!int |-
+        24576
     "translated": !!null |-
       null
   "6045":
@@ -80,9 +88,11 @@
       いらっしゃい。何の用だい？<RET_N>
     "original_byte_length": !!int |-
       36
-    "reference_addrs":
-    - !!int |-
-      55120
+    "references":
+    - "source_addr": !!int |-
+        55120
+      "target_addr": !!int |-
+        24645
     "translated": !!null |-
       null
   "6069":
@@ -94,9 +104,11 @@
       また たのむぜ。
     "original_byte_length": !!int |-
       16
-    "reference_addrs":
-    - !!int |-
-      55147
+    "references":
+    - "source_addr": !!int |-
+        55147
+      "target_addr": !!int |-
+        24681
     "translated": !!null |-
       null
   "6079":
@@ -110,9 +122,11 @@
       <RET>
     "original_byte_length": !!int |-
       28
-    "reference_addrs":
-    - !!int |-
-      2042
+    "references":
+    - "source_addr": !!int |-
+        2042
+      "target_addr": !!int |-
+        24697
     "translated": !!null |-
       null
   "6095":
@@ -125,9 +139,11 @@
       <RET_N>
     "original_byte_length": !!int |-
       18
-    "reference_addrs":
-    - !!int |-
-      2044
+    "references":
+    - "source_addr": !!int |-
+        2044
+      "target_addr": !!int |-
+        24725
     "translated": !!null |-
       null
   "60a7":
@@ -142,9 +158,11 @@
       <RET>
     "original_byte_length": !!int |-
       22
-    "reference_addrs":
-    - !!int |-
-      2046
+    "references":
+    - "source_addr": !!int |-
+        2046
+      "target_addr": !!int |-
+        24743
     "translated": !!null |-
       null
   "60c5":
@@ -157,9 +175,11 @@
       <RET_N>
     "original_byte_length": !!int |-
       21
-    "reference_addrs":
-    - !!int |-
-      1919
+    "references":
+    - "source_addr": !!int |-
+        1919
+      "target_addr": !!int |-
+        24773
     "translated": !!null |-
       null
   "60da":
@@ -173,9 +193,11 @@
       <RET_N>
     "original_byte_length": !!int |-
       44
-    "reference_addrs":
-    - !!int |-
-      1921
+    "references":
+    - "source_addr": !!int |-
+        1921
+      "target_addr": !!int |-
+        24794
     "translated": !!null |-
       null
   "6106":
@@ -189,9 +211,11 @@
       <RET_N>
     "original_byte_length": !!int |-
       29
-    "reference_addrs":
-    - !!int |-
-      1923
+    "references":
+    - "source_addr": !!int |-
+        1923
+      "target_addr": !!int |-
+        24838
     "translated": !!null |-
       null
   "6123":
@@ -204,9 +228,11 @@
       <RET_N>
     "original_byte_length": !!int |-
       21
-    "reference_addrs":
-    - !!int |-
-      1925
+    "references":
+    - "source_addr": !!int |-
+        1925
+      "target_addr": !!int |-
+        24867
     "translated": !!null |-
       null
 "note": ""

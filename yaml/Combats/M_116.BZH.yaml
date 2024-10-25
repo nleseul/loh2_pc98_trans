@@ -8,7 +8,7 @@
       コラドＡ<RET>
     "original_byte_length": !!int |-
       9
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "71b0":
@@ -20,7 +20,7 @@
       コラドＢ<RET>
     "original_byte_length": !!int |-
       9
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "71f0":
@@ -32,7 +32,7 @@
       コラドＣ<RET>
     "original_byte_length": !!int |-
       9
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "7230":
@@ -44,7 +44,7 @@
       コラドＤ<RET>
     "original_byte_length": !!int |-
       9
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "72f4":
@@ -56,9 +56,11 @@
       コラドが現れた。<RET_N>
     "original_byte_length": !!int |-
       17
-    "reference_addrs":
-    - !!int |-
-      61000
+    "references":
+    - "source_addr": !!int |-
+        61000
+      "target_addr": !!int |-
+        29428
     "translated": !!null |-
       null
 "note": ""

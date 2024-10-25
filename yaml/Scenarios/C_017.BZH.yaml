@@ -9,9 +9,11 @@
       まさか 宝箱の中の武器を 使うなんて思ってもいませんでしたよ。
     "original_byte_length": !!int |-
       68
-    "reference_addrs":
-    - !!int |-
-      54653
+    "references":
+    - "source_addr": !!int |-
+        54653
+      "target_addr": !!int |-
+        23630
     "translated": !!null |-
       null
   "5c92":
@@ -29,9 +31,11 @@
       お渡しする物だという話ですよ。
     "original_byte_length": !!int |-
       149
-    "reference_addrs":
-    - !!int |-
-      54662
+    "references":
+    - "source_addr": !!int |-
+        54662
+      "target_addr": !!int |-
+        23698
     "translated": !!null |-
       null
   "5d27":
@@ -45,9 +49,11 @@
       ご用ですかな？<RET>
     "original_byte_length": !!int |-
       54
-    "reference_addrs":
-    - !!int |-
-      54768
+    "references":
+    - "source_addr": !!int |-
+        54768
+      "target_addr": !!int |-
+        23847
     "translated": !!null |-
       null
   "5d5d":
@@ -59,9 +65,11 @@
       <CLEAR>何を お預かりしましょう？<RET_N>
     "original_byte_length": !!int |-
       27
-    "reference_addrs":
-    - !!int |-
-      54832
+    "references":
+    - "source_addr": !!int |-
+        54832
+      "target_addr": !!int |-
+        23901
     "translated": !!null |-
       null
   "5d78":
@@ -73,9 +81,11 @@
       <CLEAR>何を お渡ししましょう？<RET_N>
     "original_byte_length": !!int |-
       25
-    "reference_addrs":
-    - !!int |-
-      54880
+    "references":
+    - "source_addr": !!int |-
+        54880
+      "target_addr": !!int |-
+        23928
     "translated": !!null |-
       null
   "5d91":
@@ -88,9 +98,11 @@
       いつでも おいでください。
     "original_byte_length": !!int |-
       56
-    "reference_addrs":
-    - !!int |-
-      54921
+    "references":
+    - "source_addr": !!int |-
+        54921
+      "target_addr": !!int |-
+        23953
     "translated": !!null |-
       null
   "5dc9":
@@ -105,9 +117,11 @@
       <RET>
     "original_byte_length": !!int |-
       58
-    "reference_addrs":
-    - !!int |-
-      54824
+    "references":
+    - "source_addr": !!int |-
+        54824
+      "target_addr": !!int |-
+        24009
     "translated": !!null |-
       null
   "5e03":
@@ -122,9 +136,11 @@
       <RET>
     "original_byte_length": !!int |-
       59
-    "reference_addrs":
-    - !!int |-
-      54872
+    "references":
+    - "source_addr": !!int |-
+        54872
+      "target_addr": !!int |-
+        24067
     "translated": !!null |-
       null
   "5e3e":
@@ -139,9 +155,11 @@
       <RET>
     "original_byte_length": !!int |-
       55
-    "reference_addrs":
-    - !!int |-
-      54859
+    "references":
+    - "source_addr": !!int |-
+        54859
+      "target_addr": !!int |-
+        24126
     "translated": !!null |-
       null
   "5e75":
@@ -155,9 +173,11 @@
       <RET>
     "original_byte_length": !!int |-
       56
-    "reference_addrs":
-    - !!int |-
-      54915
+    "references":
+    - "source_addr": !!int |-
+        54915
+      "target_addr": !!int |-
+        24181
     "translated": !!null |-
       null
   "5ead":
@@ -170,9 +190,11 @@
       宝箱の中には<RET>
     "original_byte_length": !!int |-
       36
-    "reference_addrs":
-    - !!int |-
-      54727
+    "references":
+    - "source_addr": !!int |-
+        54727
+      "target_addr": !!int |-
+        24237
     "translated": !!null |-
       null
 "note": ""

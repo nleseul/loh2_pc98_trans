@@ -50,9 +50,11 @@
       それまでには お戻りください。
     "original_byte_length": !!int |-
       925
-    "reference_addrs":
-    - !!int |-
-      54655
+    "references":
+    - "source_addr": !!int |-
+        54655
+      "target_addr": !!int |-
+        23238
     "translated": !!null |-
       null
   "5e63":
@@ -68,9 +70,11 @@
       私が代わりに お仕えしているのです。
     "original_byte_length": !!int |-
       137
-    "reference_addrs":
-    - !!int |-
-      54664
+    "references":
+    - "source_addr": !!int |-
+        54664
+      "target_addr": !!int |-
+        24163
     "translated": !!null |-
       null
   "5eec":
@@ -84,9 +88,11 @@
       私室なので 行くんじゃないぞ。
     "original_byte_length": !!int |-
       67
-    "reference_addrs":
-    - !!int |-
-      54673
+    "references":
+    - "source_addr": !!int |-
+        54673
+      "target_addr": !!int |-
+        24300
     "translated": !!null |-
       null
   "5f2f":
@@ -101,9 +107,11 @@
       あまり 時間をかけないようにな。
     "original_byte_length": !!int |-
       94
-    "reference_addrs":
-    - !!int |-
-      54682
+    "references":
+    - "source_addr": !!int |-
+        54682
+      "target_addr": !!int |-
+        24367
     "translated": !!null |-
       null
   "5f8d":
@@ -118,9 +126,11 @@
       いい国王さまだと 思わないか？
     "original_byte_length": !!int |-
       98
-    "reference_addrs":
-    - !!int |-
-      54691
+    "references":
+    - "source_addr": !!int |-
+        54691
+      "target_addr": !!int |-
+        24461
     "translated": !!null |-
       null
 "note": ""

@@ -12,9 +12,11 @@
       シンディ こわす。
     "original_byte_length": !!int |-
       49
-    "reference_addrs":
-    - !!int |-
-      54706
+    "references":
+    - "source_addr": !!int |-
+        54706
+      "target_addr": !!int |-
+        23779
     "translated": !!null |-
       null
   "5d14":
@@ -33,9 +35,11 @@
       おーい うるさいぞ 静かにしてろ !!
     "original_byte_length": !!int |-
       113
-    "reference_addrs":
-    - !!int |-
-      54753
+    "references":
+    - "source_addr": !!int |-
+        54753
+      "target_addr": !!int |-
+        23828
     "translated": !!null |-
       null
   "5d85":
@@ -49,9 +53,11 @@
       早く 捕まえろ !!
     "original_byte_length": !!int |-
       41
-    "reference_addrs":
-    - !!int |-
-      54815
+    "references":
+    - "source_addr": !!int |-
+        54815
+      "target_addr": !!int |-
+        23941
     "translated": !!null |-
       null
   "5dae":
@@ -64,9 +70,11 @@
       宝箱の中には<RET>
     "original_byte_length": !!int |-
       36
-    "reference_addrs":
-    - !!int |-
-      54920
+    "references":
+    - "source_addr": !!int |-
+        54920
+      "target_addr": !!int |-
+        23982
     "translated": !!null |-
       null
 "note": ""

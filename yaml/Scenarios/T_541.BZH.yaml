@@ -18,9 +18,11 @@
       本当に がんこな じいさんだよ。
     "original_byte_length": !!int |-
       328
-    "reference_addrs":
-    - !!int |-
-      54650
+    "references":
+    - "source_addr": !!int |-
+        54650
+      "target_addr": !!int |-
+        23105
     "translated": !!null |-
       null
   "5b89":
@@ -40,9 +42,11 @@
       それじゃ イズーから来たんだな。
     "original_byte_length": !!int |-
       154
-    "reference_addrs":
-    - !!int |-
-      54659
+    "references":
+    - "source_addr": !!int |-
+        54659
+      "target_addr": !!int |-
+        23433
     "translated": !!null |-
       null
 "note": ""

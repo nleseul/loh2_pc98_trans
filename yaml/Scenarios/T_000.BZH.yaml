@@ -12,9 +12,11 @@
       ずいぶん 遅い ごあいさつですな。
     "original_byte_length": !!int |-
       80
-    "reference_addrs":
-    - !!int |-
-      54697
+    "references":
+    - "source_addr": !!int |-
+        54697
+      "target_addr": !!int |-
+        24162
     "translated": |-
       <CH0>
       Good morning, Rauel!
@@ -52,13 +54,19 @@
       さあ いっしょに 戻りましょう。
     "original_byte_length": !!int |-
       605
-    "reference_addrs":
-    - !!int |-
-      54872
-    - !!int |-
-      54802
-    - !!int |-
-      54734
+    "references":
+    - "source_addr": !!int |-
+        54802
+      "target_addr": !!int |-
+        24242
+    - "source_addr": !!int |-
+        54872
+      "target_addr": !!int |-
+        24242
+    - "source_addr": !!int |-
+        54734
+      "target_addr": !!int |-
+        24242
     "translated": |-
       <CALL6b03><IF0407><JUMP601d><IF0406><JUMP60da><IF0405><JUMP60bf><IF0000><JUMP6070><SET0000>Please listen carefully, your
       Highness.
@@ -125,9 +133,11 @@
       <C_GREEN>ラウエルは ワプの翼を使いました。<C_NONE>
     "original_byte_length": !!int |-
       597
-    "reference_addrs":
-    - !!int |-
-      54900
+    "references":
+    - "source_addr": !!int |-
+        54900
+      "target_addr": !!int |-
+        24847
     "translated": |-
       <CALL6b03><SET0003><CALL6b15>Your Highness will be 16 soon.
       And, when you turn 16...
@@ -179,9 +189,11 @@
       思っているんです。
     "original_byte_length": !!int |-
       173
-    "reference_addrs":
-    - !!int |-
-      55100
+    "references":
+    - "source_addr": !!int |-
+        55100
+      "target_addr": !!int |-
+        25444
     "translated": !!null |-
       null
   "6411":
@@ -194,9 +206,11 @@
       ビーフシチューですよ。
     "original_byte_length": !!int |-
       60
-    "reference_addrs":
-    - !!int |-
-      54918
+    "references":
+    - "source_addr": !!int |-
+        54918
+      "target_addr": !!int |-
+        25617
     "translated": |-
       <CALL6af5>Tonight's dinner is your favorite
       beef stew, your Highness!
@@ -210,9 +224,11 @@
       お勉強は もう すんだのですか？
     "original_byte_length": !!int |-
       51
-    "reference_addrs":
-    - !!int |-
-      54927
+    "references":
+    - "source_addr": !!int |-
+        54927
+      "target_addr": !!int |-
+        25677
     "translated": |-
       <CALL6af5>Your Highness! Have you finished
       your studies already?
@@ -226,9 +242,11 @@
       暗くならないうちに お帰りください。
     "original_byte_length": !!int |-
       66
-    "reference_addrs":
-    - !!int |-
-      54936
+    "references":
+    - "source_addr": !!int |-
+        54936
+      "target_addr": !!int |-
+        25728
     "translated": |-
       <CALL6afc>Going out, your Highness?
       Please be back before dark.
@@ -242,9 +260,11 @@
       町の外には 行かないでください。
     "original_byte_length": !!int |-
       46
-    "reference_addrs":
-    - !!int |-
-      54945
+    "references":
+    - "source_addr": !!int |-
+        54945
+      "target_addr": !!int |-
+        25794
     "translated": |-
       <CALL6afc>Please do not leave town, your
       Highness.
@@ -281,9 +301,11 @@
       お戻りください。
     "original_byte_length": !!int |-
       457
-    "reference_addrs":
-    - !!int |-
-      54951
+    "references":
+    - "source_addr": !!int |-
+        54951
+      "target_addr": !!int |-
+        25840
     "translated": !!null |-
       null
   "66b9":
@@ -305,9 +327,11 @@
       決めつけていますが ･ ･ ･
     "original_byte_length": !!int |-
       208
-    "reference_addrs":
-    - !!int |-
-      55079
+    "references":
+    - "source_addr": !!int |-
+        55079
+      "target_addr": !!int |-
+        26297
     "translated": !!null |-
       null
   "6789":
@@ -322,9 +346,11 @@
       片付けるのが 大変なんです。
     "original_byte_length": !!int |-
       87
-    "reference_addrs":
-    - !!int |-
-      55088
+    "references":
+    - "source_addr": !!int |-
+        55088
+      "target_addr": !!int |-
+        26505
     "translated": !!null |-
       null
   "67e0":
@@ -338,9 +364,11 @@
       ごきげん うるわしゅうございます。
     "original_byte_length": !!int |-
       54
-    "reference_addrs":
-    - !!int |-
-      54960
+    "references":
+    - "source_addr": !!int |-
+        54960
+      "target_addr": !!int |-
+        26592
     "translated": !!null |-
       null
   "6816":
@@ -354,9 +382,11 @@
       またスライムいじめに 連れてってね。
     "original_byte_length": !!int |-
       59
-    "reference_addrs":
-    - !!int |-
-      54969
+    "references":
+    - "source_addr": !!int |-
+        54969
+      "target_addr": !!int |-
+        26646
     "translated": !!null |-
       null
   "6851":
@@ -388,9 +418,11 @@
       早く 逃げてくだせー。<ASMd92a>
     "original_byte_length": !!int |-
       355
-    "reference_addrs":
-    - !!int |-
-      54978
+    "references":
+    - "source_addr": !!int |-
+        54978
+      "target_addr": !!int |-
+        26705
     "translated": !!null |-
       null
   "69b4":
@@ -403,9 +435,11 @@
       <UNSET0404>王子さま ここで ごぜーます。
     "original_byte_length": !!int |-
       43
-    "reference_addrs":
-    - !!int |-
-      54987
+    "references":
+    - "source_addr": !!int |-
+        54987
+      "target_addr": !!int |-
+        27060
     "translated": !!null |-
       null
   "69df":
@@ -430,9 +464,11 @@
       ありがとう パーカー。<ASMd92a>
     "original_byte_length": !!int |-
       223
-    "reference_addrs":
-    - !!int |-
-      55039
+    "references":
+    - "source_addr": !!int |-
+        55039
+      "target_addr": !!int |-
+        27103
     "translated": !!null |-
       null
   "6abe":
@@ -446,9 +482,11 @@
       また スライムいじめですか？
     "original_byte_length": !!int |-
       55
-    "reference_addrs":
-    - !!int |-
-      55094
+    "references":
+    - "source_addr": !!int |-
+        55094
+      "target_addr": !!int |-
+        27326
     "translated": !!null |-
       null
   "6af5":
@@ -460,7 +498,7 @@
       <C_YELLOW>侍女<C_NONE><RET_N>
     "original_byte_length": !!int |-
       7
-    "reference_addrs": []
+    "references": []
     "translated": |-
       <C_YELLOW>Maid<C_NONE><RET_N>
   "6afc":
@@ -472,7 +510,7 @@
       <C_YELLOW>兵士<C_NONE><RET_N>
     "original_byte_length": !!int |-
       7
-    "reference_addrs": []
+    "references": []
     "translated": |-
       <C_YELLOW>Soldier<C_NONE><RET_N>
   "6b03":
@@ -484,7 +522,7 @@
       <C_YELLOW>教育係 ラウエル<C_NONE><RET_N>
     "original_byte_length": !!int |-
       18
-    "reference_addrs": []
+    "references": []
     "translated": |-
       <C_YELLOW>Rauel, royal tutor<C_NONE><RET_N>
   "6b15":
@@ -496,8 +534,7 @@
       アトラス<RET>
     "original_byte_length": !!int |-
       9
-    "reference_addrs": []
+    "references": []
     "translated": |-
       At?las<RET>
-"note": |-
-  Eluasta - Prologue
+"note": ""

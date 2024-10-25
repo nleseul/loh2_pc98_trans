@@ -18,9 +18,11 @@
       <LOC6131>おれに逆らうやつは こうしてやる !!<LOC6153>
     "original_byte_length": !!int |-
       223
-    "reference_addrs":
-    - !!int |-
-      55745
+    "references":
+    - "source_addr": !!int |-
+        55745
+      "target_addr": !!int |-
+        24693
     "translated": !!null |-
       null
   "6154":
@@ -53,9 +55,11 @@
       いいんだよ。ほら 行くぞ !!
     "original_byte_length": !!int |-
       247
-    "reference_addrs":
-    - !!int |-
-      54696
+    "references":
+    - "source_addr": !!int |-
+        54696
+      "target_addr": !!int |-
+        24916
     "translated": !!null |-
       null
   "624b":
@@ -67,9 +71,11 @@
       <PARTY>は <RET>
     "original_byte_length": !!int |-
       5
-    "reference_addrs":
-    - !!int |-
-      54790
+    "references":
+    - "source_addr": !!int |-
+        54790
+      "target_addr": !!int |-
+        25163
     "translated": !!null |-
       null
 "note": ""

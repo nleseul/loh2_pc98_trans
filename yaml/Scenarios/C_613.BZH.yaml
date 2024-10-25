@@ -9,9 +9,11 @@
       宝箱の中には<RET>
     "original_byte_length": !!int |-
       36
-    "reference_addrs":
-    - !!int |-
-      54788
+    "references":
+    - "source_addr": !!int |-
+        54788
+      "target_addr": !!int |-
+        24325
     "translated": !!null |-
       null
 "note": ""

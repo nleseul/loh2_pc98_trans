@@ -8,7 +8,7 @@
       猛毒ナメクジＡ<RET>
     "original_byte_length": !!int |-
       15
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "71b0":
@@ -20,7 +20,7 @@
       猛毒ナメクジＢ<RET>
     "original_byte_length": !!int |-
       15
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "71f0":
@@ -32,7 +32,7 @@
       猛毒ナメクジＣ<RET>
     "original_byte_length": !!int |-
       15
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "7230":
@@ -44,7 +44,7 @@
       猛毒ナメクジＤ<RET>
     "original_byte_length": !!int |-
       15
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "72ec":
@@ -56,9 +56,11 @@
       猛毒ナメクジが現れた。<RET_N>
     "original_byte_length": !!int |-
       23
-    "reference_addrs":
-    - !!int |-
-      61000
+    "references":
+    - "source_addr": !!int |-
+        61000
+      "target_addr": !!int |-
+        29420
     "translated": !!null |-
       null
 "note": ""

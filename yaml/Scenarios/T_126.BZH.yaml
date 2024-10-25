@@ -15,9 +15,11 @@
       わっはっは ･ ･ ･
     "original_byte_length": !!int |-
       178
-    "reference_addrs":
-    - !!int |-
-      54627
+    "references":
+    - "source_addr": !!int |-
+        54627
+      "target_addr": !!int |-
+        23669
     "translated": !!null |-
       null
   "5d27":
@@ -32,9 +34,11 @@
       お客さんが お見えになるなんて。
     "original_byte_length": !!int |-
       83
-    "reference_addrs":
-    - !!int |-
-      54636
+    "references":
+    - "source_addr": !!int |-
+        54636
+      "target_addr": !!int |-
+        23847
     "translated": !!null |-
       null
   "5d7a":
@@ -49,9 +53,11 @@
       ぶつ ぶつ ･ ･ ･
     "original_byte_length": !!int |-
       84
-    "reference_addrs":
-    - !!int |-
-      54651
+    "references":
+    - "source_addr": !!int |-
+        54651
+      "target_addr": !!int |-
+        23930
     "translated": !!null |-
       null
   "5dce":
@@ -66,9 +72,11 @@
       イラ イラ イラ イラ
     "original_byte_length": !!int |-
       77
-    "reference_addrs":
-    - !!int |-
-      54666
+    "references":
+    - "source_addr": !!int |-
+        54666
+      "target_addr": !!int |-
+        24014
     "translated": !!null |-
       null
   "5e1b":
@@ -81,9 +89,11 @@
       ハッハッハ これで どうじゃ？
     "original_byte_length": !!int |-
       38
-    "reference_addrs":
-    - !!int |-
-      54681
+    "references":
+    - "source_addr": !!int |-
+        54681
+      "target_addr": !!int |-
+        24091
     "translated": !!null |-
       null
   "5e41":
@@ -97,9 +107,11 @@
       また 地震でも 起こらぬかのお ･ ･ ･
     "original_byte_length": !!int |-
       76
-    "reference_addrs":
-    - !!int |-
-      54690
+    "references":
+    - "source_addr": !!int |-
+        54690
+      "target_addr": !!int |-
+        24129
     "translated": !!null |-
       null
   "5e8d":
@@ -113,9 +125,11 @@
       今から 名前を 考えておくかな。
     "original_byte_length": !!int |-
       99
-    "reference_addrs":
-    - !!int |-
-      54699
+    "references":
+    - "source_addr": !!int |-
+        54699
+      "target_addr": !!int |-
+        24205
     "translated": !!null |-
       null
   "5ef0":
@@ -129,9 +143,11 @@
       おもしろいものじゃわい。
     "original_byte_length": !!int |-
       62
-    "reference_addrs":
-    - !!int |-
-      54708
+    "references":
+    - "source_addr": !!int |-
+        54708
+      "target_addr": !!int |-
+        24304
     "translated": !!null |-
       null
   "5f2e":
@@ -146,9 +162,11 @@
       たいへんなんですよ。
     "original_byte_length": !!int |-
       95
-    "reference_addrs":
-    - !!int |-
-      54717
+    "references":
+    - "source_addr": !!int |-
+        54717
+      "target_addr": !!int |-
+        24366
     "translated": !!null |-
       null
   "5f8d":
@@ -230,9 +248,11 @@
       こりねえ ジジイだぜ。
     "original_byte_length": !!int |-
       1349
-    "reference_addrs":
-    - !!int |-
-      54726
+    "references":
+    - "source_addr": !!int |-
+        54726
+      "target_addr": !!int |-
+        24461
     "translated": !!null |-
       null
   "64d2":
@@ -253,9 +273,11 @@
       村にまで発展したのじゃよ。
     "original_byte_length": !!int |-
       279
-    "reference_addrs":
-    - !!int |-
-      54735
+    "references":
+    - "source_addr": !!int |-
+        54735
+      "target_addr": !!int |-
+        25810
     "translated": !!null |-
       null
   "65e9":
@@ -270,9 +292,11 @@
       わしにくれるそうじゃ。
     "original_byte_length": !!int |-
       102
-    "reference_addrs":
-    - !!int |-
-      54744
+    "references":
+    - "source_addr": !!int |-
+        54744
+      "target_addr": !!int |-
+        26089
     "translated": !!null |-
       null
   "664f":
@@ -285,9 +309,11 @@
       どの呪文の書が いるのじゃ？<RET_N>
     "original_byte_length": !!int |-
       39
-    "reference_addrs":
-    - !!int |-
-      54761
+    "references":
+    - "source_addr": !!int |-
+        54761
+      "target_addr": !!int |-
+        26191
     "translated": !!null |-
       null
   "6676":
@@ -300,9 +326,11 @@
       それでは 必要なときに 来るがいい。
     "original_byte_length": !!int |-
       48
-    "reference_addrs":
-    - !!int |-
-      54789
+    "references":
+    - "source_addr": !!int |-
+        54789
+      "target_addr": !!int |-
+        26230
     "translated": !!null |-
       null
   "66a6":
@@ -314,9 +342,11 @@
       <ITEM>でよいのじゃな。
     "original_byte_length": !!int |-
       18
-    "reference_addrs":
-    - !!int |-
-      54800
+    "references":
+    - "source_addr": !!int |-
+        54800
+      "target_addr": !!int |-
+        26278
     "translated": !!null |-
       null
   "66b8":
@@ -329,9 +359,11 @@
       持ち物を 減らしてから 来なされ。
     "original_byte_length": !!int |-
       58
-    "reference_addrs":
-    - !!int |-
-      54756
+    "references":
+    - "source_addr": !!int |-
+        54756
+      "target_addr": !!int |-
+        26296
     "translated": !!null |-
       null
   "66f2":
@@ -347,9 +379,11 @@
       <RET>
     "original_byte_length": !!int |-
       71
-    "reference_addrs":
-    - !!int |-
-      54806
+    "references":
+    - "source_addr": !!int |-
+        54806
+      "target_addr": !!int |-
+        26354
     "translated": !!null |-
       null
   "6739":
@@ -361,9 +395,11 @@
       どの呪文のことを 知りたいのじゃ？<RET_N>
     "original_byte_length": !!int |-
       34
-    "reference_addrs":
-    - !!int |-
-      54812
+    "references":
+    - "source_addr": !!int |-
+        54812
+      "target_addr": !!int |-
+        26425
     "translated": !!null |-
       null
   "675b":
@@ -376,9 +412,11 @@
       それだったら <RET>
     "original_byte_length": !!int |-
       25
-    "reference_addrs":
-    - !!int |-
-      54831
+    "references":
+    - "source_addr": !!int |-
+        54831
+      "target_addr": !!int |-
+        26459
     "translated": !!null |-
       null
   "6774":
@@ -393,9 +431,11 @@
       <RET>
     "original_byte_length": !!int |-
       24
-    "reference_addrs":
-    - !!int |-
-      54875
+    "references":
+    - "source_addr": !!int |-
+        54875
+      "target_addr": !!int |-
+        26484
     "translated": !!null |-
       null
   "678c":
@@ -408,9 +448,11 @@
       また来るがいい。
     "original_byte_length": !!int |-
       49
-    "reference_addrs":
-    - !!int |-
-      54883
+    "references":
+    - "source_addr": !!int |-
+        54883
+      "target_addr": !!int |-
+        26508
     "translated": !!null |-
       null
 "note": ""

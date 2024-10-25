@@ -37,9 +37,11 @@
       ください。
     "original_byte_length": !!int |-
       639
-    "reference_addrs":
-    - !!int |-
-      54633
+    "references":
+    - "source_addr": !!int |-
+        54633
+      "target_addr": !!int |-
+        23215
     "translated": !!null |-
       null
   "5d2e":
@@ -54,9 +56,11 @@
       良く考えて 行動しなさい。
     "original_byte_length": !!int |-
       95
-    "reference_addrs":
-    - !!int |-
-      54648
+    "references":
+    - "source_addr": !!int |-
+        54648
+      "target_addr": !!int |-
+        23854
     "translated": !!null |-
       null
   "5d8d":
@@ -70,9 +74,11 @@
       合流なさって いないのですか？
     "original_byte_length": !!int |-
       67
-    "reference_addrs":
-    - !!int |-
-      54657
+    "references":
+    - "source_addr": !!int |-
+        54657
+      "target_addr": !!int |-
+        23949
     "translated": !!null |-
       null
   "5dd0":
@@ -87,9 +93,11 @@
       ように なさってください。
     "original_byte_length": !!int |-
       94
-    "reference_addrs":
-    - !!int |-
-      54666
+    "references":
+    - "source_addr": !!int |-
+        54666
+      "target_addr": !!int |-
+        24016
     "translated": !!null |-
       null
   "5e2e":
@@ -102,9 +110,11 @@
       竜の卵から 離れている所では あまりモンスターを見かけません。竜の卵は避けたほうが よいでしょう。
     "original_byte_length": !!int |-
       103
-    "reference_addrs":
-    - !!int |-
-      54675
+    "references":
+    - "source_addr": !!int |-
+        54675
+      "target_addr": !!int |-
+        24110
     "translated": !!null |-
       null
   "5e95":
@@ -119,9 +129,11 @@
       そのため 体力作りが できなくなって困っているんです。
     "original_byte_length": !!int |-
       117
-    "reference_addrs":
-    - !!int |-
-      54684
+    "references":
+    - "source_addr": !!int |-
+        54684
+      "target_addr": !!int |-
+        24213
     "translated": !!null |-
       null
   "5f0a":
@@ -135,9 +147,11 @@
       乗られたのですか？
     "original_byte_length": !!int |-
       57
-    "reference_addrs":
-    - !!int |-
-      54693
+    "references":
+    - "source_addr": !!int |-
+        54693
+      "target_addr": !!int |-
+        24330
     "translated": !!null |-
       null
   "5f43":
@@ -152,9 +166,11 @@
       お城のほうは 安心なさってください。
     "original_byte_length": !!int |-
       108
-    "reference_addrs":
-    - !!int |-
-      54702
+    "references":
+    - "source_addr": !!int |-
+        54702
+      "target_addr": !!int |-
+        24387
     "translated": !!null |-
       null
   "5faf":
@@ -169,9 +185,11 @@
       応戦するな とのことです。
     "original_byte_length": !!int |-
       97
-    "reference_addrs":
-    - !!int |-
-      54711
+    "references":
+    - "source_addr": !!int |-
+        54711
+      "target_addr": !!int |-
+        24495
     "translated": !!null |-
       null
   "6010":
@@ -186,9 +204,11 @@
       してください。
     "original_byte_length": !!int |-
       78
-    "reference_addrs":
-    - !!int |-
-      54720
+    "references":
+    - "source_addr": !!int |-
+        54720
+      "target_addr": !!int |-
+        24592
     "translated": !!null |-
       null
   "605e":
@@ -210,9 +230,11 @@
       <LOC6107>王子さま 一刻も早く セリオスさまをお探しください。
     "original_byte_length": !!int |-
       220
-    "reference_addrs":
-    - !!int |-
-      54729
+    "references":
+    - "source_addr": !!int |-
+        54729
+      "target_addr": !!int |-
+        24670
     "translated": !!null |-
       null
 "note": ""

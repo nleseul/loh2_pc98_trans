@@ -19,9 +19,11 @@
       <Xf197><ITEM><C_GREEN>をもらいました。<SND0103><C_NONE>
     "original_byte_length": !!int |-
       309
-    "reference_addrs":
-    - !!int |-
-      54681
+    "references":
+    - "source_addr": !!int |-
+        54681
+      "target_addr": !!int |-
+        23406
     "translated": !!null |-
       null
   "5ca3":
@@ -36,9 +38,11 @@
       しまいますね。
     "original_byte_length": !!int |-
       79
-    "reference_addrs":
-    - !!int |-
-      54690
+    "references":
+    - "source_addr": !!int |-
+        54690
+      "target_addr": !!int |-
+        23715
     "translated": !!null |-
       null
   "5cf2":
@@ -52,9 +56,11 @@
       どうなさったのですか？
     "original_byte_length": !!int |-
       62
-    "reference_addrs":
-    - !!int |-
-      54699
+    "references":
+    - "source_addr": !!int |-
+        54699
+      "target_addr": !!int |-
+        23794
     "translated": !!null |-
       null
   "5d30":
@@ -69,9 +75,11 @@
       <LOC5d72>これは 王子さま、お帰りなさいませ。
     "original_byte_length": !!int |-
       102
-    "reference_addrs":
-    - !!int |-
-      54708
+    "references":
+    - "source_addr": !!int |-
+        54708
+      "target_addr": !!int |-
+        23856
     "translated": !!null |-
       null
   "5d96":
@@ -85,9 +93,11 @@
       何よりでございます。
     "original_byte_length": !!int |-
       56
-    "reference_addrs":
-    - !!int |-
-      54717
+    "references":
+    - "source_addr": !!int |-
+        54717
+      "target_addr": !!int |-
+        23958
     "translated": !!null |-
       null
   "5dce":
@@ -101,9 +111,11 @@
       財宝室に 何か ご用でしょうか？
     "original_byte_length": !!int |-
       54
-    "reference_addrs":
-    - !!int |-
-      54726
+    "references":
+    - "source_addr": !!int |-
+        54726
+      "target_addr": !!int |-
+        24014
     "translated": !!null |-
       null
   "5e04":
@@ -123,9 +135,11 @@
       どうなってしまったのでしょうか？
     "original_byte_length": !!int |-
       196
-    "reference_addrs":
-    - !!int |-
-      54735
+    "references":
+    - "source_addr": !!int |-
+        54735
+      "target_addr": !!int |-
+        24068
     "translated": !!null |-
       null
 "note": ""

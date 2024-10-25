@@ -23,9 +23,11 @@
       た、たいへんだー !!<SET0068><ASMd72a>
     "original_byte_length": !!int |-
       294
-    "reference_addrs":
-    - !!int |-
-      54658
+    "references":
+    - "source_addr": !!int |-
+        54658
+      "target_addr": !!int |-
+        23607
     "translated": !!null |-
       null
   "5d5d":
@@ -40,9 +42,11 @@
       話していたところです。
     "original_byte_length": !!int |-
       87
-    "reference_addrs":
-    - !!int |-
-      54667
+    "references":
+    - "source_addr": !!int |-
+        54667
+      "target_addr": !!int |-
+        23901
     "translated": !!null |-
       null
   "5db4":
@@ -57,9 +61,11 @@
       なっております。
     "original_byte_length": !!int |-
       87
-    "reference_addrs":
-    - !!int |-
-      54676
+    "references":
+    - "source_addr": !!int |-
+        54676
+      "target_addr": !!int |-
+        23988
     "translated": !!null |-
       null
   "5e0b":
@@ -73,9 +79,11 @@
       ようこそ おいでくださいました。
     "original_byte_length": !!int |-
       69
-    "reference_addrs":
-    - !!int |-
-      54685
+    "references":
+    - "source_addr": !!int |-
+        54685
+      "target_addr": !!int |-
+        24075
     "translated": !!null |-
       null
   "5e50":
@@ -92,9 +100,11 @@
       国王さまは 奥にいらっしゃいます。
     "original_byte_length": !!int |-
       128
-    "reference_addrs":
-    - !!int |-
-      54694
+    "references":
+    - "source_addr": !!int |-
+        54694
+      "target_addr": !!int |-
+        24144
     "translated": !!null |-
       null
   "5ed0":
@@ -122,9 +132,11 @@
       エリオンさまー !!<Xf405c23c>
     "original_byte_length": !!int |-
       301
-    "reference_addrs":
-    - !!int |-
-      54705
+    "references":
+    - "source_addr": !!int |-
+        54705
+      "target_addr": !!int |-
+        24272
     "translated": !!null |-
       null
   "5ffd":
@@ -168,9 +180,11 @@
       さあ とにかく急ぎましょう。
     "original_byte_length": !!int |-
       615
-    "reference_addrs":
-    - !!int |-
-      54715
+    "references":
+    - "source_addr": !!int |-
+        54715
+      "target_addr": !!int |-
+        24573
     "translated": !!null |-
       null
   "6264":
@@ -215,9 +229,11 @@
       お急ぎください。
     "original_byte_length": !!int |-
       564
-    "reference_addrs":
-    - !!int |-
-      54729
+    "references":
+    - "source_addr": !!int |-
+        54729
+      "target_addr": !!int |-
+        25188
     "translated": !!null |-
       null
 "note": ""

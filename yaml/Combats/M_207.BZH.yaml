@@ -8,7 +8,7 @@
       バレート<RET>
     "original_byte_length": !!int |-
       9
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "71b0":
@@ -20,7 +20,7 @@
       イグナの使者Ａ<RET>
     "original_byte_length": !!int |-
       15
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "71f0":
@@ -32,7 +32,7 @@
       イグナの使者Ｂ<RET>
     "original_byte_length": !!int |-
       15
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "7230":
@@ -44,7 +44,7 @@
       Ｍ２０７Ｄ<RET>
     "original_byte_length": !!int |-
       11
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "739f":
@@ -56,9 +56,11 @@
       イグナの使者とバレートが現れた。<RET_N>
     "original_byte_length": !!int |-
       33
-    "reference_addrs":
-    - !!int |-
-      61000
+    "references":
+    - "source_addr": !!int |-
+        61000
+      "target_addr": !!int |-
+        29599
     "translated": !!null |-
       null
 "note": ""

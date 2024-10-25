@@ -13,9 +13,11 @@
       セリオスさまの おかげですよね。
     "original_byte_length": !!int |-
       158
-    "reference_addrs":
-    - !!int |-
-      54633
+    "references":
+    - "source_addr": !!int |-
+        54633
+      "target_addr": !!int |-
+        23103
     "translated": !!null |-
       null
   "5add":
@@ -32,9 +34,11 @@
       出てこなくなったそうなんです。
     "original_byte_length": !!int |-
       191
-    "reference_addrs":
-    - !!int |-
-      54642
+    "references":
+    - "source_addr": !!int |-
+        54642
+      "target_addr": !!int |-
+        23261
     "translated": !!null |-
       null
   "5b9c":
@@ -55,9 +59,11 @@
       あったのでしょうか？
     "original_byte_length": !!int |-
       207
-    "reference_addrs":
-    - !!int |-
-      54651
+    "references":
+    - "source_addr": !!int |-
+        54651
+      "target_addr": !!int |-
+        23452
     "translated": !!null |-
       null
   "5c6b":
@@ -73,9 +79,11 @@
       お作りいたしましょうか？
     "original_byte_length": !!int |-
       110
-    "reference_addrs":
-    - !!int |-
-      54660
+    "references":
+    - "source_addr": !!int |-
+        54660
+      "target_addr": !!int |-
+        23659
     "translated": !!null |-
       null
   "5cd9":
@@ -89,9 +97,11 @@
       変わっているでしょ？
     "original_byte_length": !!int |-
       82
-    "reference_addrs":
-    - !!int |-
-      54669
+    "references":
+    - "source_addr": !!int |-
+        54669
+      "target_addr": !!int |-
+        23769
     "translated": !!null |-
       null
   "5d2b":
@@ -103,7 +113,7 @@
       <C_YELLOW>兵士<C_NONE><RET_N>
     "original_byte_length": !!int |-
       7
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "5d32":
@@ -115,7 +125,7 @@
       <C_YELLOW>侍女<C_NONE><RET_N>
     "original_byte_length": !!int |-
       7
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
 "note": ""

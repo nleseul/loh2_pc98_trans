@@ -8,7 +8,7 @@
       ワッバ<RET>
     "original_byte_length": !!int |-
       7
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "71b0":
@@ -20,7 +20,7 @@
       ヒューゲス<RET>
     "original_byte_length": !!int |-
       11
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "71f0":
@@ -32,7 +32,7 @@
       Ｍ４１８Ｃ<RET>
     "original_byte_length": !!int |-
       11
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "7230":
@@ -44,7 +44,7 @@
       Ｍ４１８Ｄ<RET>
     "original_byte_length": !!int |-
       11
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "7411":
@@ -56,9 +56,11 @@
       ワッバとヒューゲスが現れた。<RET_N>
     "original_byte_length": !!int |-
       29
-    "reference_addrs":
-    - !!int |-
-      61000
+    "references":
+    - "source_addr": !!int |-
+        61000
+      "target_addr": !!int |-
+        29713
     "translated": !!null |-
       null
   "742e":
@@ -70,9 +72,11 @@
       は仲間を呼んだ。<RET_PAGE>
     "original_byte_length": !!int |-
       17
-    "reference_addrs":
-    - !!int |-
-      61173
+    "references":
+    - "source_addr": !!int |-
+        61173
+      "target_addr": !!int |-
+        29742
     "translated": !!null |-
       null
   "743f":
@@ -84,9 +88,11 @@
       <ACTOR>が助けに来た。<RET_PAGE>
     "original_byte_length": !!int |-
       16
-    "reference_addrs":
-    - !!int |-
-      61250
+    "references":
+    - "source_addr": !!int |-
+        61250
+      "target_addr": !!int |-
+        29759
     "translated": !!null |-
       null
   "744f":
@@ -98,9 +104,11 @@
       しかし だれも来なかった。<RET_PAGE>
     "original_byte_length": !!int |-
       26
-    "reference_addrs":
-    - !!int |-
-      61259
+    "references":
+    - "source_addr": !!int |-
+        61259
+      "target_addr": !!int |-
+        29775
     "translated": !!null |-
       null
 "note": ""

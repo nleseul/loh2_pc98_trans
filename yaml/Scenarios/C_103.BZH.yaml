@@ -19,9 +19,11 @@
       心してかかるのじゃぞ。
     "original_byte_length": !!int |-
       281
-    "reference_addrs":
-    - !!int |-
-      54663
+    "references":
+    - "source_addr": !!int |-
+        54663
+      "target_addr": !!int |-
+        23259
     "translated": !!null |-
       null
   "5bf4":
@@ -45,9 +47,11 @@
       私どもも 期待しております。
     "original_byte_length": !!int |-
       303
-    "reference_addrs":
-    - !!int |-
-      54672
+    "references":
+    - "source_addr": !!int |-
+        54672
+      "target_addr": !!int |-
+        23540
     "translated": !!null |-
       null
   "5d23":
@@ -69,9 +73,11 @@
       時間の問題でしょう。
     "original_byte_length": !!int |-
       252
-    "reference_addrs":
-    - !!int |-
-      54681
+    "references":
+    - "source_addr": !!int |-
+        54681
+      "target_addr": !!int |-
+        23843
     "translated": !!null |-
       null
   "5e1f":
@@ -88,9 +94,11 @@
       いったい どうするのでしょうか？
     "original_byte_length": !!int |-
       167
-    "reference_addrs":
-    - !!int |-
-      54690
+    "references":
+    - "source_addr": !!int |-
+        54690
+      "target_addr": !!int |-
+        24095
     "translated": !!null |-
       null
   "5ec6":
@@ -103,9 +111,11 @@
       ああ わが国にも あなたさまのような立派な後継ぎがいたら ･ ･ ･
     "original_byte_length": !!int |-
       68
-    "reference_addrs":
-    - !!int |-
-      54699
+    "references":
+    - "source_addr": !!int |-
+        54699
+      "target_addr": !!int |-
+        24262
     "translated": !!null |-
       null
   "5f0a":
@@ -125,9 +135,11 @@
       お元気そうで なによりでございます。
     "original_byte_length": !!int |-
       220
-    "reference_addrs":
-    - !!int |-
-      54708
+    "references":
+    - "source_addr": !!int |-
+        54708
+      "target_addr": !!int |-
+        24330
     "translated": !!null |-
       null
   "5fe6":
@@ -145,9 +157,11 @@
       こんなことしてるんですよ。
     "original_byte_length": !!int |-
       137
-    "reference_addrs":
-    - !!int |-
-      54717
+    "references":
+    - "source_addr": !!int |-
+        54717
+      "target_addr": !!int |-
+        24550
     "translated": !!null |-
       null
   "606f":
@@ -163,9 +177,11 @@
       なんて 健全な囚人たちでしょう。
     "original_byte_length": !!int |-
       119
-    "reference_addrs":
-    - !!int |-
-      54726
+    "references":
+    - "source_addr": !!int |-
+        54726
+      "target_addr": !!int |-
+        24687
     "translated": !!null |-
       null
 "note": ""

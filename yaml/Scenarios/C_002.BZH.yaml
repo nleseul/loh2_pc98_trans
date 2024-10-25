@@ -124,9 +124,11 @@
       めんどうを みてやってください。
     "original_byte_length": !!int |-
       2589
-    "reference_addrs":
-    - !!int |-
-      54699
+    "references":
+    - "source_addr": !!int |-
+        54699
+      "target_addr": !!int |-
+        23569
     "translated": !!null |-
       null
   "6632":
@@ -142,7 +144,7 @@
       <RET>
     "original_byte_length": !!int |-
       81
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "6683":
@@ -175,9 +177,11 @@
       かけないように するのですよ。
     "original_byte_length": !!int |-
       468
-    "reference_addrs":
-    - !!int |-
-      54761
+    "references":
+    - "source_addr": !!int |-
+        54761
+      "target_addr": !!int |-
+        26243
     "translated": !!null |-
       null
   "6857":
@@ -200,9 +204,11 @@
       増えましたか？
     "original_byte_length": !!int |-
       242
-    "reference_addrs":
-    - !!int |-
-      54776
+    "references":
+    - "source_addr": !!int |-
+        54776
+      "target_addr": !!int |-
+        26711
     "translated": !!null |-
       null
   "694d":
@@ -216,9 +222,11 @@
       お体には お気をつけください。
     "original_byte_length": !!int |-
       88
-    "reference_addrs":
-    - !!int |-
-      54785
+    "references":
+    - "source_addr": !!int |-
+        54785
+      "target_addr": !!int |-
+        26957
     "translated": !!null |-
       null
   "69a5":
@@ -233,9 +241,11 @@
       <LOC69fb><CALL6ce1>が お戻りに なられるときが楽しみでございます。
     "original_byte_length": !!int |-
       136
-    "reference_addrs":
-    - !!int |-
-      54794
+    "references":
+    - "source_addr": !!int |-
+        54794
+      "target_addr": !!int |-
+        27045
     "translated": !!null |-
       null
   "6a2d":
@@ -247,9 +257,11 @@
       <CALL6cda>これは<CALL6ce1>、どうかお気をつけて旅をなさってください。
     "original_byte_length": !!int |-
       55
-    "reference_addrs":
-    - !!int |-
-      54803
+    "references":
+    - "source_addr": !!int |-
+        54803
+      "target_addr": !!int |-
+        27181
     "translated": !!null |-
       null
   "6a64":
@@ -263,9 +275,11 @@
       体力作りには 意外と 効くんですよ。
     "original_byte_length": !!int |-
       90
-    "reference_addrs":
-    - !!int |-
-      54812
+    "references":
+    - "source_addr": !!int |-
+        54812
+      "target_addr": !!int |-
+        27236
     "translated": !!null |-
       null
   "6abe":
@@ -279,9 +293,11 @@
       らしてください。
     "original_byte_length": !!int |-
       78
-    "reference_addrs":
-    - !!int |-
-      54821
+    "references":
+    - "source_addr": !!int |-
+        54821
+      "target_addr": !!int |-
+        27326
     "translated": !!null |-
       null
   "6b0c":
@@ -295,9 +311,11 @@
       してきてくださいね。
     "original_byte_length": !!int |-
       79
-    "reference_addrs":
-    - !!int |-
-      54830
+    "references":
+    - "source_addr": !!int |-
+        54830
+      "target_addr": !!int |-
+        27404
     "translated": !!null |-
       null
   "6b5b":
@@ -313,9 +331,11 @@
       正体も ばれないでしょう。
     "original_byte_length": !!int |-
       102
-    "reference_addrs":
-    - !!int |-
-      54839
+    "references":
+    - "source_addr": !!int |-
+        54839
+      "target_addr": !!int |-
+        27483
     "translated": !!null |-
       null
   "6bc1":
@@ -327,9 +347,11 @@
       <CALL6cda><CALL6ce1>、自由だからといって無理をされないように なさってください。
     "original_byte_length": !!int |-
       66
-    "reference_addrs":
-    - !!int |-
-      54848
+    "references":
+    - "source_addr": !!int |-
+        54848
+      "target_addr": !!int |-
+        27585
     "translated": !!null |-
       null
   "6c03":
@@ -350,9 +372,11 @@
       たくさんのことを 見聞きして 教養を高めてきてください。
     "original_byte_length": !!int |-
       215
-    "reference_addrs":
-    - !!int |-
-      54857
+    "references":
+    - "source_addr": !!int |-
+        54857
+      "target_addr": !!int |-
+        27651
     "translated": !!null |-
       null
   "6cda":
@@ -364,7 +388,7 @@
       <C_YELLOW>兵士<C_NONE><RET_N>
     "original_byte_length": !!int |-
       7
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "6ce1":
@@ -376,7 +400,7 @@
       王子さま<RET>
     "original_byte_length": !!int |-
       9
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "6cea":
@@ -388,7 +412,7 @@
       <C_YELLOW>セリオス国王<C_NONE><RET_N>
     "original_byte_length": !!int |-
       15
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "6cf9":
@@ -400,7 +424,7 @@
       <C_YELLOW>ディーナ王妃<C_NONE><RET_N>
     "original_byte_length": !!int |-
       15
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "6d08":
@@ -412,7 +436,7 @@
       アトラス<RET>
     "original_byte_length": !!int |-
       9
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "6d11":
@@ -424,7 +448,7 @@
       <C_YELLOW>フェリシア皇太后<C_NONE><RET_N>
     "original_byte_length": !!int |-
       19
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "6d24":
@@ -436,7 +460,7 @@
       <C_YELLOW>教育係 ラウエル<C_NONE><RET_N>
     "original_byte_length": !!int |-
       18
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
 "note": ""

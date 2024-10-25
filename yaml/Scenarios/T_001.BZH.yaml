@@ -21,9 +21,11 @@
       どうも すなおに よろこべないんです。
     "original_byte_length": !!int |-
       352
-    "reference_addrs":
-    - !!int |-
-      54782
+    "references":
+    - "source_addr": !!int |-
+        54782
+      "target_addr": !!int |-
+        23301
     "translated": !!null |-
       null
   "5c65":
@@ -37,9 +39,11 @@
       物足りないんです。
     "original_byte_length": !!int |-
       84
-    "reference_addrs":
-    - !!int |-
-      54698
+    "references":
+    - "source_addr": !!int |-
+        54698
+      "target_addr": !!int |-
+        23653
     "translated": !!null |-
       null
   "5cb9":
@@ -57,9 +61,11 @@
       わざわざ こんな所まで 来るなんて。
     "original_byte_length": !!int |-
       146
-    "reference_addrs":
-    - !!int |-
-      54707
+    "references":
+    - "source_addr": !!int |-
+        54707
+      "target_addr": !!int |-
+        23737
     "translated": !!null |-
       null
   "5d4b":
@@ -71,9 +77,11 @@
       <CALL6130>町の者たちには 王子さまは しばらくお城の方で お勉強を していることになっておりますので ご安心ください。
     "original_byte_length": !!int |-
       107
-    "reference_addrs":
-    - !!int |-
-      54716
+    "references":
+    - "source_addr": !!int |-
+        54716
+      "target_addr": !!int |-
+        23883
     "translated": !!null |-
       null
   "5db6":
@@ -88,9 +96,11 @@
       安心してください。
     "original_byte_length": !!int |-
       151
-    "reference_addrs":
-    - !!int |-
-      54725
+    "references":
+    - "source_addr": !!int |-
+        54725
+      "target_addr": !!int |-
+        23990
     "translated": !!null |-
       null
   "5e4d":
@@ -106,9 +116,11 @@
       <LOC5ea6>モンスターが 出てきたら スライムがいなくなったみたいですね。
     "original_byte_length": !!int |-
       150
-    "reference_addrs":
-    - !!int |-
-      54761
+    "references":
+    - "source_addr": !!int |-
+        54761
+      "target_addr": !!int |-
+        24141
     "translated": !!null |-
       null
   "5ee3":
@@ -124,9 +136,11 @@
       どうして モンスターなんかが ･ ･ ･
     "original_byte_length": !!int |-
       121
-    "reference_addrs":
-    - !!int |-
-      54770
+    "references":
+    - "source_addr": !!int |-
+        54770
+      "target_addr": !!int |-
+        24291
     "translated": !!null |-
       null
   "5f5c":
@@ -140,9 +154,11 @@
       お久しぶりで ございます。
     "original_byte_length": !!int |-
       46
-    "reference_addrs":
-    - !!int |-
-      54734
+    "references":
+    - "source_addr": !!int |-
+        54734
+      "target_addr": !!int |-
+        24412
     "translated": !!null |-
       null
   "5f8a":
@@ -160,9 +176,11 @@
       あーあ つまんないな。
     "original_byte_length": !!int |-
       164
-    "reference_addrs":
-    - !!int |-
-      54743
+    "references":
+    - "source_addr": !!int |-
+        54743
+      "target_addr": !!int |-
+        24458
     "translated": !!null |-
       null
   "602e":
@@ -176,9 +194,11 @@
       作らねーですだ。
     "original_byte_length": !!int |-
       57
-    "reference_addrs":
-    - !!int |-
-      54752
+    "references":
+    - "source_addr": !!int |-
+        54752
+      "target_addr": !!int |-
+        24622
     "translated": !!null |-
       null
   "6067":
@@ -198,9 +218,11 @@
       くらさなければ ならないとは ･ ･ ･
     "original_byte_length": !!int |-
       194
-    "reference_addrs":
-    - !!int |-
-      54776
+    "references":
+    - "source_addr": !!int |-
+        54776
+      "target_addr": !!int |-
+        24679
     "translated": !!null |-
       null
   "6129":
@@ -212,7 +234,7 @@
       <C_YELLOW>侍女<C_NONE><RET_N>
     "original_byte_length": !!int |-
       7
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "6130":
@@ -224,7 +246,7 @@
       <C_YELLOW>兵士<C_NONE><RET_N>
     "original_byte_length": !!int |-
       7
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
-"note": "Eluasta - Prologue, chapter 1"
+"note": ""

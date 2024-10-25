@@ -10,9 +10,11 @@
       <LOC5c4f>ぼく 大きくなったら あの船に乗ってとなりの国まで 行くんだ。
     "original_byte_length": !!int |-
       127
-    "reference_addrs":
-    - !!int |-
-      54747
+    "references":
+    - "source_addr": !!int |-
+        54747
+      "target_addr": !!int |-
+        23564
     "translated": !!null |-
       null
   "5c8b":
@@ -33,9 +35,11 @@
       いいんだよな。
     "original_byte_length": !!int |-
       203
-    "reference_addrs":
-    - !!int |-
-      54756
+    "references":
+    - "source_addr": !!int |-
+        54756
+      "target_addr": !!int |-
+        23691
     "translated": !!null |-
       null
   "5d56":
@@ -56,9 +60,11 @@
       安心していられるよ。
     "original_byte_length": !!int |-
       206
-    "reference_addrs":
-    - !!int |-
-      54765
+    "references":
+    - "source_addr": !!int |-
+        54765
+      "target_addr": !!int |-
+        23894
     "translated": !!null |-
       null
   "5e24":
@@ -73,9 +79,11 @@
       どうも インチキくさくって ･ ･ ･
     "original_byte_length": !!int |-
       97
-    "reference_addrs":
-    - !!int |-
-      54774
+    "references":
+    - "source_addr": !!int |-
+        54774
+      "target_addr": !!int |-
+        24100
     "translated": !!null |-
       null
   "5e85":
@@ -93,9 +101,11 @@
       決まっておるわい。ばかばかしい。
     "original_byte_length": !!int |-
       146
-    "reference_addrs":
-    - !!int |-
-      54783
+    "references":
+    - "source_addr": !!int |-
+        54783
+      "target_addr": !!int |-
+        24197
     "translated": !!null |-
       null
   "5f17":
@@ -132,9 +142,11 @@
       買うんじゃねえぞ。
     "original_byte_length": !!int |-
       560
-    "reference_addrs":
-    - !!int |-
-      54807
+    "references":
+    - "source_addr": !!int |-
+        54807
+      "target_addr": !!int |-
+        24343
     "translated": !!null |-
       null
   "614b":
@@ -158,9 +170,11 @@
       古い船だから 大変なんです。
     "original_byte_length": !!int |-
       396
-    "reference_addrs":
-    - !!int |-
-      54816
+    "references":
+    - "source_addr": !!int |-
+        54816
+      "target_addr": !!int |-
+        24907
     "translated": !!null |-
       null
   "62d7":
@@ -187,9 +201,11 @@
       向こうで 買ってきてください。
     "original_byte_length": !!int |-
       429
-    "reference_addrs":
-    - !!int |-
-      54688
+    "references":
+    - "source_addr": !!int |-
+        54688
+      "target_addr": !!int |-
+        25303
     "translated": !!null |-
       null
   "6484":
@@ -221,9 +237,11 @@
       それまで 待っててくれ。
     "original_byte_length": !!int |-
       472
-    "reference_addrs":
-    - !!int |-
-      54798
+    "references":
+    - "source_addr": !!int |-
+        54798
+      "target_addr": !!int |-
+        25732
     "translated": !!null |-
       null
   "6660":
@@ -245,9 +263,11 @@
       みたいですけど ･ ･ ･
     "original_byte_length": !!int |-
       384
-    "reference_addrs":
-    - !!int |-
-      54822
+    "references":
+    - "source_addr": !!int |-
+        54822
+      "target_addr": !!int |-
+        26208
     "translated": !!null |-
       null
   "67e4":
@@ -261,9 +281,11 @@
       なったことも あるんですよ。
     "original_byte_length": !!int |-
       66
-    "reference_addrs":
-    - !!int |-
-      54828
+    "references":
+    - "source_addr": !!int |-
+        54828
+      "target_addr": !!int |-
+        26596
     "translated": !!null |-
       null
   "6826":
@@ -279,9 +301,11 @@
       鉱山が復旧したら 来てみてください。必ず 強い武器を 売りに出しますから。
     "original_byte_length": !!int |-
       144
-    "reference_addrs":
-    - !!int |-
-      54834
+    "references":
+    - "source_addr": !!int |-
+        54834
+      "target_addr": !!int |-
+        26662
     "translated": !!null |-
       null
   "68b6":
@@ -298,9 +322,11 @@
       品切れなんですよ。
     "original_byte_length": !!int |-
       115
-    "reference_addrs":
-    - !!int |-
-      54840
+    "references":
+    - "source_addr": !!int |-
+        54840
+      "target_addr": !!int |-
+        26806
     "translated": !!null |-
       null
 "note": ""

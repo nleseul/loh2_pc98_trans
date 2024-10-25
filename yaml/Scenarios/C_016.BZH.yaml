@@ -29,9 +29,11 @@
       人たちを 救ってあげてください。
     "original_byte_length": !!int |-
       420
-    "reference_addrs":
-    - !!int |-
-      54753
+    "references":
+    - "source_addr": !!int |-
+        54753
+      "target_addr": !!int |-
+        23239
     "translated": !!null |-
       null
   "5c6b":
@@ -52,11 +54,15 @@
       くれぐれも むりをしないように。
     "original_byte_length": !!int |-
       201
-    "reference_addrs":
-    - !!int |-
-      54658
-    - !!int |-
-      54643
+    "references":
+    - "source_addr": !!int |-
+        54643
+      "target_addr": !!int |-
+        23659
+    - "source_addr": !!int |-
+        54658
+      "target_addr": !!int |-
+        23677
     "translated": !!null |-
       null
   "5d34":
@@ -70,9 +76,11 @@
       なりました。
     "original_byte_length": !!int |-
       87
-    "reference_addrs":
-    - !!int |-
-      54667
+    "references":
+    - "source_addr": !!int |-
+        54667
+      "target_addr": !!int |-
+        23860
     "translated": !!null |-
       null
   "5d8b":
@@ -89,9 +97,11 @@
       関係があるのですか？
     "original_byte_length": !!int |-
       140
-    "reference_addrs":
-    - !!int |-
-      54676
+    "references":
+    - "source_addr": !!int |-
+        54676
+      "target_addr": !!int |-
+        23947
     "translated": !!null |-
       null
   "5e17":
@@ -109,9 +119,11 @@
       おりますが ･ ･ ･
     "original_byte_length": !!int |-
       144
-    "reference_addrs":
-    - !!int |-
-      54685
+    "references":
+    - "source_addr": !!int |-
+        54685
+      "target_addr": !!int |-
+        24087
     "translated": !!null |-
       null
   "5ea7":
@@ -125,9 +137,11 @@
       お出かけになりました。
     "original_byte_length": !!int |-
       64
-    "reference_addrs":
-    - !!int |-
-      54694
+    "references":
+    - "source_addr": !!int |-
+        54694
+      "target_addr": !!int |-
+        24231
     "translated": !!null |-
       null
   "5ee7":
@@ -140,9 +154,11 @@
       ソルディスでは 司祭 バーバラさまが竜の卵を 正常にしたという うわさが広がっているそうです。
     "original_byte_length": !!int |-
       98
-    "reference_addrs":
-    - !!int |-
-      54703
+    "references":
+    - "source_addr": !!int |-
+        54703
+      "target_addr": !!int |-
+        24295
     "translated": !!null |-
       null
   "5f49":
@@ -157,9 +173,11 @@
       出かけられたのですか？
     "original_byte_length": !!int |-
       93
-    "reference_addrs":
-    - !!int |-
-      54712
+    "references":
+    - "source_addr": !!int |-
+        54712
+      "target_addr": !!int |-
+        24393
     "translated": !!null |-
       null
   "5fa6":
@@ -176,9 +194,11 @@
       なったという うわさが 広まっているようですが ･ ･ ･
     "original_byte_length": !!int |-
       143
-    "reference_addrs":
-    - !!int |-
-      54721
+    "references":
+    - "source_addr": !!int |-
+        54721
+      "target_addr": !!int |-
+        24486
     "translated": !!null |-
       null
   "6035":
@@ -191,9 +211,11 @@
       王子さま あまり 無理をしないようにしてください。
     "original_byte_length": !!int |-
       56
-    "reference_addrs":
-    - !!int |-
-      54730
+    "references":
+    - "source_addr": !!int |-
+        54730
+      "target_addr": !!int |-
+        24629
     "translated": !!null |-
       null
   "606d":
@@ -223,9 +245,11 @@
       心配でなりません。
     "original_byte_length": !!int |-
       363
-    "reference_addrs":
-    - !!int |-
-      54739
+    "references":
+    - "source_addr": !!int |-
+        54739
+      "target_addr": !!int |-
+        24685
     "translated": !!null |-
       null
 "note": ""

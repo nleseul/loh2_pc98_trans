@@ -10,9 +10,11 @@
       よく似ておられる。
     "original_byte_length": !!int |-
       88
-    "reference_addrs":
-    - !!int |-
-      54639
+    "references":
+    - "source_addr": !!int |-
+        54639
+      "target_addr": !!int |-
+        23224
     "translated": !!null |-
       null
   "5b10":
@@ -29,9 +31,11 @@
       ちょっと 信じられませんけど ･ ･ ･
     "original_byte_length": !!int |-
       125
-    "reference_addrs":
-    - !!int |-
-      54648
+    "references":
+    - "source_addr": !!int |-
+        54648
+      "target_addr": !!int |-
+        23312
     "translated": !!null |-
       null
   "5b8d":
@@ -49,9 +53,11 @@
       起こって 卵が かえるんだってね。
     "original_byte_length": !!int |-
       161
-    "reference_addrs":
-    - !!int |-
-      54657
+    "references":
+    - "source_addr": !!int |-
+        54657
+      "target_addr": !!int |-
+        23437
     "translated": !!null |-
       null
   "5c2e":
@@ -66,9 +72,11 @@
       行っているところです。
     "original_byte_length": !!int |-
       91
-    "reference_addrs":
-    - !!int |-
-      54666
+    "references":
+    - "source_addr": !!int |-
+        54666
+      "target_addr": !!int |-
+        23598
     "translated": !!null |-
       null
   "5c89":
@@ -81,9 +89,11 @@
       ロエル殿は 昔から ジェストンさまの相談役をされていた かたなのです。
     "original_byte_length": !!int |-
       75
-    "reference_addrs":
-    - !!int |-
-      54675
+    "references":
+    - "source_addr": !!int |-
+        54675
+      "target_addr": !!int |-
+        23689
     "translated": !!null |-
       null
   "5cd4":
@@ -100,9 +110,11 @@
       だれも いなくなってしまいましたよ。
     "original_byte_length": !!int |-
       139
-    "reference_addrs":
-    - !!int |-
-      54684
+    "references":
+    - "source_addr": !!int |-
+        54684
+      "target_addr": !!int |-
+        23764
     "translated": !!null |-
       null
   "5d5f":
@@ -116,9 +128,11 @@
       あの方たちは お帰りになりました。
     "original_byte_length": !!int |-
       76
-    "reference_addrs":
-    - !!int |-
-      54693
+    "references":
+    - "source_addr": !!int |-
+        54693
+      "target_addr": !!int |-
+        23903
     "translated": !!null |-
       null
   "5dab":
@@ -131,9 +145,11 @@
       赤スライムも モンスターも どっちもいなくなったから せいせいしたわ。
     "original_byte_length": !!int |-
       75
-    "reference_addrs":
-    - !!int |-
-      54702
+    "references":
+    - "source_addr": !!int |-
+        54702
+      "target_addr": !!int |-
+        23979
     "translated": !!null |-
       null
   "5df6":
@@ -148,9 +164,11 @@
       味見ができるのに ･ ･ ･
     "original_byte_length": !!int |-
       89
-    "reference_addrs":
-    - !!int |-
-      54711
+    "references":
+    - "source_addr": !!int |-
+        54711
+      "target_addr": !!int |-
+        24054
     "translated": !!null |-
       null
 "note": ""

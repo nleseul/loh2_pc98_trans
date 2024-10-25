@@ -14,9 +14,11 @@
       お願いします。
     "original_byte_length": !!int |-
       181
-    "reference_addrs":
-    - !!int |-
-      54669
+    "references":
+    - "source_addr": !!int |-
+        54669
+      "target_addr": !!int |-
+        23276
     "translated": !!null |-
       null
   "5ba1":
@@ -34,9 +36,11 @@
       時間なら いくらでも ありますよ。
     "original_byte_length": !!int |-
       195
-    "reference_addrs":
-    - !!int |-
-      54678
+    "references":
+    - "source_addr": !!int |-
+        54678
+      "target_addr": !!int |-
+        23457
     "translated": !!null |-
       null
   "5c64":
@@ -60,9 +64,11 @@
       ほっほっほっほ。
     "original_byte_length": !!int |-
       289
-    "reference_addrs":
-    - !!int |-
-      54687
+    "references":
+    - "source_addr": !!int |-
+        54687
+      "target_addr": !!int |-
+        23652
     "translated": !!null |-
       null
   "5d85":
@@ -78,9 +84,11 @@
       向いているようじゃ。
     "original_byte_length": !!int |-
       132
-    "reference_addrs":
-    - !!int |-
-      54696
+    "references":
+    - "source_addr": !!int |-
+        54696
+      "target_addr": !!int |-
+        23941
     "translated": !!null |-
       null
   "5e09":
@@ -97,9 +105,11 @@
       前ぶれだったんですね。
     "original_byte_length": !!int |-
       141
-    "reference_addrs":
-    - !!int |-
-      54705
+    "references":
+    - "source_addr": !!int |-
+        54705
+      "target_addr": !!int |-
+        24073
     "translated": !!null |-
       null
   "5e96":
@@ -116,9 +126,11 @@
       確かに まちがってない みたいだけどモンスターが 出てくるなんてねえ。<LOC5f39>
     "original_byte_length": !!int |-
       164
-    "reference_addrs":
-    - !!int |-
-      54714
+    "references":
+    - "source_addr": !!int |-
+        54714
+      "target_addr": !!int |-
+        24214
     "translated": !!null |-
       null
   "5f3a":
@@ -141,9 +153,11 @@
       はずだが どうなったのだろうか？
     "original_byte_length": !!int |-
       315
-    "reference_addrs":
-    - !!int |-
-      54723
+    "references":
+    - "source_addr": !!int |-
+        54723
+      "target_addr": !!int |-
+        24378
     "translated": !!null |-
       null
   "6075":
@@ -163,9 +177,11 @@
       たどりつかれたのです。
     "original_byte_length": !!int |-
       242
-    "reference_addrs":
-    - !!int |-
-      54732
+    "references":
+    - "source_addr": !!int |-
+        54732
+      "target_addr": !!int |-
+        24693
     "translated": !!null |-
       null
   "6167":
@@ -185,9 +201,11 @@
       くるんじゃないかと 心配ですよ。
     "original_byte_length": !!int |-
       237
-    "reference_addrs":
-    - !!int |-
-      54741
+    "references":
+    - "source_addr": !!int |-
+        54741
+      "target_addr": !!int |-
+        24935
     "translated": !!null |-
       null
   "6254":
@@ -201,9 +219,11 @@
       ジェストンさまの 後継ぎ候補です。
     "original_byte_length": !!int |-
       71
-    "reference_addrs":
-    - !!int |-
-      54750
+    "references":
+    - "source_addr": !!int |-
+        54750
+      "target_addr": !!int |-
+        25172
     "translated": !!null |-
       null
   "629b":
@@ -221,9 +241,11 @@
       やっぱり どっちも いやね。
     "original_byte_length": !!int |-
       187
-    "reference_addrs":
-    - !!int |-
-      54759
+    "references":
+    - "source_addr": !!int |-
+        54759
+      "target_addr": !!int |-
+        25243
     "translated": !!null |-
       null
   "6356":
@@ -242,9 +264,11 @@
       どうしましょ。<LOC6402>
     "original_byte_length": !!int |-
       173
-    "reference_addrs":
-    - !!int |-
-      54768
+    "references":
+    - "source_addr": !!int |-
+        54768
+      "target_addr": !!int |-
+        25430
     "translated": !!null |-
       null
 "note": ""

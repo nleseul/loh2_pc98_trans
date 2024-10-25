@@ -8,9 +8,11 @@
       <C_GREEN>扉には カギがかかっています。<C_NONE>
     "original_byte_length": !!int |-
       32
-    "reference_addrs":
-    - !!int |-
-      54713
+    "references":
+    - "source_addr": !!int |-
+        54713
+      "target_addr": !!int |-
+        24024
     "translated": !!null |-
       null
 "note": ""

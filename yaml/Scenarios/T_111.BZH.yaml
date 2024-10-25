@@ -13,9 +13,11 @@
       いいのだが ･ ･ ･
     "original_byte_length": !!int |-
       130
-    "reference_addrs":
-    - !!int |-
-      54709
+    "references":
+    - "source_addr": !!int |-
+        54709
+      "target_addr": !!int |-
+        23413
     "translated": !!null |-
       null
   "5bf7":
@@ -30,9 +32,11 @@
       中は かなりの人が いるはずだ。
     "original_byte_length": !!int |-
       132
-    "reference_addrs":
-    - !!int |-
-      54718
+    "references":
+    - "source_addr": !!int |-
+        54718
+      "target_addr": !!int |-
+        23543
     "translated": !!null |-
       null
   "5ea2":
@@ -49,9 +53,11 @@
       でも まさか そんなはずないよな。
     "original_byte_length": !!int |-
       147
-    "reference_addrs":
-    - !!int |-
-      54762
+    "references":
+    - "source_addr": !!int |-
+        54762
+      "target_addr": !!int |-
+        24226
     "translated": !!null |-
       null
   "5f35":
@@ -68,9 +74,11 @@
       せいぜい 楽しんできてくれ。
     "original_byte_length": !!int |-
       178
-    "reference_addrs":
-    - !!int |-
-      54771
+    "references":
+    - "source_addr": !!int |-
+        54771
+      "target_addr": !!int |-
+        24373
     "translated": !!null |-
       null
   "5fe7":
@@ -93,9 +101,11 @@
       きかなくなったわ。
     "original_byte_length": !!int |-
       271
-    "reference_addrs":
-    - !!int |-
-      54780
+    "references":
+    - "source_addr": !!int |-
+        54780
+      "target_addr": !!int |-
+        24551
     "translated": !!null |-
       null
   "60f6":
@@ -110,9 +120,11 @@
       にぎやかに なりそうですね。
     "original_byte_length": !!int |-
       86
-    "reference_addrs":
-    - !!int |-
-      54789
+    "references":
+    - "source_addr": !!int |-
+        54789
+      "target_addr": !!int |-
+        24822
     "translated": !!null |-
       null
   "614c":
@@ -147,9 +159,11 @@
       何とかして 切符 買う金を作らなきゃならねえな。<LOC633e>
     "original_byte_length": !!int |-
       499
-    "reference_addrs":
-    - !!int |-
-      54650
+    "references":
+    - "source_addr": !!int |-
+        54650
+      "target_addr": !!int |-
+        24908
     "translated": !!null |-
       null
   "633f":
@@ -166,9 +180,11 @@
       見せてみな きっと買いたがるぜ。
     "original_byte_length": !!int |-
       123
-    "reference_addrs":
-    - !!int |-
-      54798
+    "references":
+    - "source_addr": !!int |-
+        54798
+      "target_addr": !!int |-
+        25407
     "translated": !!null |-
       null
   "63ba":
@@ -268,9 +284,11 @@
       高く買わせてくれ。
     "original_byte_length": !!int |-
       1775
-    "reference_addrs":
-    - !!int |-
-      54804
+    "references":
+    - "source_addr": !!int |-
+        54804
+      "target_addr": !!int |-
+        25530
     "translated": !!null |-
       null
   "6aa9":
@@ -293,7 +311,7 @@
       <RET>
     "original_byte_length": !!int |-
       171
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "6b5c":
@@ -313,9 +331,11 @@
       <LOC6c30>これ以上 持てないわよ。
     "original_byte_length": !!int |-
       236
-    "reference_addrs":
-    - !!int |-
-      54810
+    "references":
+    - "source_addr": !!int |-
+        54810
+      "target_addr": !!int |-
+        27484
     "translated": !!null |-
       null
   "6c51":
@@ -327,7 +347,7 @@
       <C_YELLOW>兵士<C_NONE><RET_N>
     "original_byte_length": !!int |-
       7
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "6c58":
@@ -339,7 +359,7 @@
       <C_YELLOW>呪文屋<C_NONE><RET_N>
     "original_byte_length": !!int |-
       9
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
 "note": ""

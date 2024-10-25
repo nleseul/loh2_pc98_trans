@@ -38,9 +38,11 @@
       他の町に 手がかりをさがしに行こう。
     "original_byte_length": !!int |-
       417
-    "reference_addrs":
-    - !!int |-
-      54687
+    "references":
+    - "source_addr": !!int |-
+        54687
+      "target_addr": !!int |-
+        23353
     "translated": !!null |-
       null
 "note": ""

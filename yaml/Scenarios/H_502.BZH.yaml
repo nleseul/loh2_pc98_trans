@@ -12,9 +12,11 @@
       起こらん。
     "original_byte_length": !!int |-
       78
-    "reference_addrs":
-    - !!int |-
-      54638
+    "references":
+    - "source_addr": !!int |-
+        54638
+      "target_addr": !!int |-
+        23015
     "translated": !!null |-
       null
   "5a35":
@@ -29,9 +31,11 @@
       思っているんだ。
     "original_byte_length": !!int |-
       92
-    "reference_addrs":
-    - !!int |-
-      54647
+    "references":
+    - "source_addr": !!int |-
+        54647
+      "target_addr": !!int |-
+        23093
     "translated": !!null |-
       null
 "note": ""

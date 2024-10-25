@@ -13,9 +13,11 @@
       かくれましたよ。
     "original_byte_length": !!int |-
       96
-    "reference_addrs":
-    - !!int |-
-      54633
+    "references":
+    - "source_addr": !!int |-
+        54633
+      "target_addr": !!int |-
+        23343
     "translated": !!null |-
       null
   "5b8f":
@@ -29,9 +31,11 @@
       来られたのですか？
     "original_byte_length": !!int |-
       57
-    "reference_addrs":
-    - !!int |-
-      54642
+    "references":
+    - "source_addr": !!int |-
+        54642
+      "target_addr": !!int |-
+        23439
     "translated": !!null |-
       null
   "5bc8":
@@ -49,9 +53,11 @@
       しょうかね？
     "original_byte_length": !!int |-
       138
-    "reference_addrs":
-    - !!int |-
-      54651
+    "references":
+    - "source_addr": !!int |-
+        54651
+      "target_addr": !!int |-
+        23496
     "translated": !!null |-
       null
   "5c52":
@@ -67,9 +73,11 @@
       別に けがをしたようには みえないしどうしたんでしょうね。
     "original_byte_length": !!int |-
       138
-    "reference_addrs":
-    - !!int |-
-      54660
+    "references":
+    - "source_addr": !!int |-
+        54660
+      "target_addr": !!int |-
+        23634
     "translated": !!null |-
       null
   "5cdc":
@@ -82,9 +90,11 @@
       王子さま。この前の 地震で クルスの近くに 竜の卵が 出てきたんですよ。そのうち 竜の祭でも 始めませんか？
     "original_byte_length": !!int |-
       108
-    "reference_addrs":
-    - !!int |-
-      54669
+    "references":
+    - "source_addr": !!int |-
+        54669
+      "target_addr": !!int |-
+        23772
     "translated": !!null |-
       null
   "5d48":
@@ -101,9 +111,11 @@
       おめでとうございます。
     "original_byte_length": !!int |-
       103
-    "reference_addrs":
-    - !!int |-
-      54678
+    "references":
+    - "source_addr": !!int |-
+        54678
+      "target_addr": !!int |-
+        23880
     "translated": !!null |-
       null
   "5daf":
@@ -120,9 +132,11 @@
       なによりでございます。
     "original_byte_length": !!int |-
       128
-    "reference_addrs":
-    - !!int |-
-      54687
+    "references":
+    - "source_addr": !!int |-
+        54687
+      "target_addr": !!int |-
+        23983
     "translated": !!null |-
       null
   "5e2f":
@@ -147,9 +161,11 @@
       よろこんで おりました。
     "original_byte_length": !!int |-
       370
-    "reference_addrs":
-    - !!int |-
-      54696
+    "references":
+    - "source_addr": !!int |-
+        54696
+      "target_addr": !!int |-
+        24111
     "translated": !!null |-
       null
   "5fa1":
@@ -164,9 +180,11 @@
       してください。
     "original_byte_length": !!int |-
       88
-    "reference_addrs":
-    - !!int |-
-      54705
+    "references":
+    - "source_addr": !!int |-
+        54705
+      "target_addr": !!int |-
+        24481
     "translated": !!null |-
       null
   "5ff9":
@@ -178,7 +196,7 @@
       一人<RET>
     "original_byte_length": !!int |-
       5
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "5ffe":
@@ -197,9 +215,11 @@
       行かれたのですか？
     "original_byte_length": !!int |-
       172
-    "reference_addrs":
-    - !!int |-
-      54714
+    "references":
+    - "source_addr": !!int |-
+        54714
+      "target_addr": !!int |-
+        24574
     "translated": !!null |-
       null
   "60aa":
@@ -214,9 +234,11 @@
       もう武器屋なんていやだ !!
     "original_byte_length": !!int |-
       69
-    "reference_addrs":
-    - !!int |-
-      54729
+    "references":
+    - "source_addr": !!int |-
+        54729
+      "target_addr": !!int |-
+        24746
     "translated": !!null |-
       null
   "60ef":
@@ -274,9 +296,11 @@
       たまには 私の所にも 遊びにいらしてください。
     "original_byte_length": !!int |-
       936
-    "reference_addrs":
-    - !!int |-
-      54738
+    "references":
+    - "source_addr": !!int |-
+        54738
+      "target_addr": !!int |-
+        24815
     "translated": !!null |-
       null
   "6497":
@@ -290,9 +314,11 @@
       なさっていってください。
     "original_byte_length": !!int |-
       99
-    "reference_addrs":
-    - !!int |-
-      54744
+    "references":
+    - "source_addr": !!int |-
+        54744
+      "target_addr": !!int |-
+        25751
     "translated": !!null |-
       null
   "64fa":
@@ -305,9 +331,11 @@
       おや 王子さま、お散歩ですか？
     "original_byte_length": !!int |-
       39
-    "reference_addrs":
-    - !!int |-
-      54750
+    "references":
+    - "source_addr": !!int |-
+        54750
+      "target_addr": !!int |-
+        25850
     "translated": !!null |-
       null
 "note": ""

@@ -8,7 +8,7 @@
       ドラストＡ<RET>
     "original_byte_length": !!int |-
       11
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "71b0":
@@ -20,7 +20,7 @@
       ドラストＢ<RET>
     "original_byte_length": !!int |-
       11
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "71f0":
@@ -32,7 +32,7 @@
       ドラストＣ<RET>
     "original_byte_length": !!int |-
       11
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "7230":
@@ -44,7 +44,7 @@
       ドラストＤ<RET>
     "original_byte_length": !!int |-
       11
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "73dc":
@@ -56,11 +56,15 @@
       ドラストが現れた。<RET_N>
     "original_byte_length": !!int |-
       19
-    "reference_addrs":
-    - !!int |-
-      61000
-    - !!int |-
-      61262
+    "references":
+    - "source_addr": !!int |-
+        61000
+      "target_addr": !!int |-
+        29660
+    - "source_addr": !!int |-
+        61262
+      "target_addr": !!int |-
+        29660
     "translated": !!null |-
       null
 "note": ""

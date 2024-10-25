@@ -21,11 +21,15 @@
       ひでえ目 あわねえうちに 帰りな。
     "original_byte_length": !!int |-
       326
-    "reference_addrs":
-    - !!int |-
-      54760
-    - !!int |-
-      54751
+    "references":
+    - "source_addr": !!int |-
+        54751
+      "target_addr": !!int |-
+        23468
+    - "source_addr": !!int |-
+        54760
+      "target_addr": !!int |-
+        23651
     "translated": !!null |-
       null
   "5cf2":
@@ -45,9 +49,11 @@
       ような人じゃないし ･ ･ ･
     "original_byte_length": !!int |-
       199
-    "reference_addrs":
-    - !!int |-
-      54769
+    "references":
+    - "source_addr": !!int |-
+        54769
+      "target_addr": !!int |-
+        23794
     "translated": !!null |-
       null
   "5db9":
@@ -64,9 +70,11 @@
       ばかりしているんです。
     "original_byte_length": !!int |-
       134
-    "reference_addrs":
-    - !!int |-
-      54778
+    "references":
+    - "source_addr": !!int |-
+        54778
+      "target_addr": !!int |-
+        23993
     "translated": !!null |-
       null
   "5e3f":
@@ -84,9 +92,11 @@
       あいつらどうしたんだろう。
     "original_byte_length": !!int |-
       156
-    "reference_addrs":
-    - !!int |-
-      54787
+    "references":
+    - "source_addr": !!int |-
+        54787
+      "target_addr": !!int |-
+        24127
     "translated": !!null |-
       null
   "5edb":
@@ -100,9 +110,11 @@
       作った人が言ってるからまちがいねえ。ムダなことは やめときな。
     "original_byte_length": !!int |-
       129
-    "reference_addrs":
-    - !!int |-
-      54796
+    "references":
+    - "source_addr": !!int |-
+        54796
+      "target_addr": !!int |-
+        24283
     "translated": !!null |-
       null
   "5f5c":
@@ -119,9 +131,11 @@
       いったい 何やってるんだろう。
     "original_byte_length": !!int |-
       179
-    "reference_addrs":
-    - !!int |-
-      54805
+    "references":
+    - "source_addr": !!int |-
+        54805
+      "target_addr": !!int |-
+        24412
     "translated": !!null |-
       null
   "600f":
@@ -138,9 +152,11 @@
       どこに 行ってしまったのか。
     "original_byte_length": !!int |-
       143
-    "reference_addrs":
-    - !!int |-
-      54814
+    "references":
+    - "source_addr": !!int |-
+        54814
+      "target_addr": !!int |-
+        24591
     "translated": !!null |-
       null
   "609e":
@@ -157,9 +173,11 @@
       銀の笛ってのが 入ってるらしいぜ。
     "original_byte_length": !!int |-
       145
-    "reference_addrs":
-    - !!int |-
-      54823
+    "references":
+    - "source_addr": !!int |-
+        54823
+      "target_addr": !!int |-
+        24734
     "translated": !!null |-
       null
   "612f":
@@ -175,9 +193,11 @@
                          大盗賊 ゲイル』
     "original_byte_length": !!int |-
       90
-    "reference_addrs":
-    - !!int |-
-      54730
+    "references":
+    - "source_addr": !!int |-
+        54730
+      "target_addr": !!int |-
+        24879
     "translated": !!null |-
       null
   "6189":
@@ -193,9 +213,11 @@
                      　　大盗賊 ゲイル』
     "original_byte_length": !!int |-
       84
-    "reference_addrs":
-    - !!int |-
-      54736
+    "references":
+    - "source_addr": !!int |-
+        54736
+      "target_addr": !!int |-
+        24969
     "translated": !!null |-
       null
   "61dd":
@@ -207,9 +229,11 @@
       <C_GREEN>扉は 開きそうもありません。<C_NONE>
     "original_byte_length": !!int |-
       30
-    "reference_addrs":
-    - !!int |-
-      54742
+    "references":
+    - "source_addr": !!int |-
+        54742
+      "target_addr": !!int |-
+        25053
     "translated": !!null |-
       null
   "61fb":
@@ -221,7 +245,7 @@
       <C_YELLOW>盗賊<C_NONE><RET_N>
     "original_byte_length": !!int |-
       7
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
 "note": ""

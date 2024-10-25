@@ -10,9 +10,11 @@
       もうちょっとだから静かにしろよ。
     "original_byte_length": !!int |-
       66
-    "reference_addrs":
-    - !!int |-
-      54812
+    "references":
+    - "source_addr": !!int |-
+        54812
+      "target_addr": !!int |-
+        24141
     "translated": !!null |-
       null
   "5e8f":
@@ -41,9 +43,11 @@
       知っていたら 教えてくれねえか？
     "original_byte_length": !!int |-
       397
-    "reference_addrs":
-    - !!int |-
-      54875
+    "references":
+    - "source_addr": !!int |-
+        54875
+      "target_addr": !!int |-
+        24207
     "translated": !!null |-
       null
   "601c":
@@ -56,9 +60,11 @@
       宝箱の中には<RET>
     "original_byte_length": !!int |-
       36
-    "reference_addrs":
-    - !!int |-
-      54755
+    "references":
+    - "source_addr": !!int |-
+        54755
+      "target_addr": !!int |-
+        24604
     "translated": !!null |-
       null
 "note": ""

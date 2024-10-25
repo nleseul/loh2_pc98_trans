@@ -13,9 +13,11 @@
       世界最強の武器を作ったらしいぜ。
     "original_byte_length": !!int |-
       117
-    "reference_addrs":
-    - !!int |-
-      55076
+    "references":
+    - "source_addr": !!int |-
+        55076
+      "target_addr": !!int |-
+        23722
     "translated": !!null |-
       null
   "5d1f":
@@ -31,9 +33,11 @@
       やつの情報は 今まで 間違ったことがないのが自慢なんじゃがその情報源はいったい 何なのじゃろうか。
     "original_byte_length": !!int |-
       152
-    "reference_addrs":
-    - !!int |-
-      55085
+    "references":
+    - "source_addr": !!int |-
+        55085
+      "target_addr": !!int |-
+        23839
     "translated": !!null |-
       null
   "5db7":
@@ -57,9 +61,11 @@
       んっ !?  ネタがなくなっちまったぜ。
     "original_byte_length": !!int |-
       283
-    "reference_addrs":
-    - !!int |-
-      55094
+    "references":
+    - "source_addr": !!int |-
+        55094
+      "target_addr": !!int |-
+        23991
     "translated": !!null |-
       null
   "5ed2":
@@ -74,9 +80,11 @@
       休んでいってくれ。
     "original_byte_length": !!int |-
       93
-    "reference_addrs":
-    - !!int |-
-      55051
+    "references":
+    - "source_addr": !!int |-
+        55051
+      "target_addr": !!int |-
+        24274
     "translated": !!null |-
       null
   "5f2f":
@@ -95,11 +103,15 @@
       したきには ならないでしょ。
     "original_byte_length": !!int |-
       196
-    "reference_addrs":
-    - !!int |-
-      54897
-    - !!int |-
-      55045
+    "references":
+    - "source_addr": !!int |-
+        54897
+      "target_addr": !!int |-
+        24367
+    - "source_addr": !!int |-
+        55045
+      "target_addr": !!int |-
+        24367
     "translated": !!null |-
       null
   "5ff3":
@@ -119,9 +131,11 @@
       いいと思うんですが ･ ･ ･
     "original_byte_length": !!int |-
       238
-    "reference_addrs":
-    - !!int |-
-      54903
+    "references":
+    - "source_addr": !!int |-
+        54903
+      "target_addr": !!int |-
+        24563
     "translated": !!null |-
       null
   "60e5":
@@ -140,9 +154,11 @@
       あー 疲れた。
     "original_byte_length": !!int |-
       159
-    "reference_addrs":
-    - !!int |-
-      55109
+    "references":
+    - "source_addr": !!int |-
+        55109
+      "target_addr": !!int |-
+        24805
     "translated": !!null |-
       null
   "6184":
@@ -156,9 +172,11 @@
       おれたち １日じゅう こうしてなきゃならねえんだ。
     "original_byte_length": !!int |-
       90
-    "reference_addrs":
-    - !!int |-
-      55124
+    "references":
+    - "source_addr": !!int |-
+        55124
+      "target_addr": !!int |-
+        24964
     "translated": !!null |-
       null
   "61de":
@@ -172,9 +190,11 @@
       どのような ご用でしょうか？<RET_N>
     "original_byte_length": !!int |-
       56
-    "reference_addrs":
-    - !!int |-
-      55136
+    "references":
+    - "source_addr": !!int |-
+        55136
+      "target_addr": !!int |-
+        25054
     "translated": !!null |-
       null
   "6216":
@@ -186,9 +206,11 @@
       また来てくださいね。
     "original_byte_length": !!int |-
       21
-    "reference_addrs":
-    - !!int |-
-      55163
+    "references":
+    - "source_addr": !!int |-
+        55163
+      "target_addr": !!int |-
+        25110
     "translated": !!null |-
       null
   "622b":
@@ -202,9 +224,11 @@
       <RET>
     "original_byte_length": !!int |-
       36
-    "reference_addrs":
-    - !!int |-
-      2504
+    "references":
+    - "source_addr": !!int |-
+        2504
+      "target_addr": !!int |-
+        25131
     "translated": !!null |-
       null
   "624f":
@@ -217,9 +241,11 @@
       <RET_N>
     "original_byte_length": !!int |-
       26
-    "reference_addrs":
-    - !!int |-
-      2506
+    "references":
+    - "source_addr": !!int |-
+        2506
+      "target_addr": !!int |-
+        25167
     "translated": !!null |-
       null
   "6269":
@@ -234,9 +260,11 @@
       <RET>
     "original_byte_length": !!int |-
       29
-    "reference_addrs":
-    - !!int |-
-      2508
+    "references":
+    - "source_addr": !!int |-
+        2508
+      "target_addr": !!int |-
+        25193
     "translated": !!null |-
       null
   "628e":
@@ -249,9 +277,11 @@
       <RET_N>
     "original_byte_length": !!int |-
       27
-    "reference_addrs":
-    - !!int |-
-      2376
+    "references":
+    - "source_addr": !!int |-
+        2376
+      "target_addr": !!int |-
+        25230
     "translated": !!null |-
       null
   "62a9":
@@ -265,9 +295,11 @@
       <RET_N>
     "original_byte_length": !!int |-
       44
-    "reference_addrs":
-    - !!int |-
-      2378
+    "references":
+    - "source_addr": !!int |-
+        2378
+      "target_addr": !!int |-
+        25257
     "translated": !!null |-
       null
   "62d5":
@@ -281,9 +313,11 @@
       <RET_N>
     "original_byte_length": !!int |-
       18
-    "reference_addrs":
-    - !!int |-
-      2380
+    "references":
+    - "source_addr": !!int |-
+        2380
+      "target_addr": !!int |-
+        25301
     "translated": !!null |-
       null
   "62e7":
@@ -296,9 +330,11 @@
       <RET_N>
     "original_byte_length": !!int |-
       31
-    "reference_addrs":
-    - !!int |-
-      2382
+    "references":
+    - "source_addr": !!int |-
+        2382
+      "target_addr": !!int |-
+        25319
     "translated": !!null |-
       null
 "note": ""

@@ -17,9 +17,11 @@
       まだ そんな口が きけるのか !!
     "original_byte_length": !!int |-
       172
-    "reference_addrs":
-    - !!int |-
-      54689
+    "references":
+    - "source_addr": !!int |-
+        54689
+      "target_addr": !!int |-
+        23560
     "translated": !!null |-
       null
   "5cb4":
@@ -44,9 +46,11 @@
       さあ くるんだ。
     "original_byte_length": !!int |-
       199
-    "reference_addrs":
-    - !!int |-
-      54784
+    "references":
+    - "source_addr": !!int |-
+        54784
+      "target_addr": !!int |-
+        23732
     "translated": !!null |-
       null
   "5d7b":
@@ -59,11 +63,15 @@
       父上 !!
     "original_byte_length": !!int |-
       11
-    "reference_addrs":
-    - !!int |-
-      54848
-    - !!int |-
-      54743
+    "references":
+    - "source_addr": !!int |-
+        54743
+      "target_addr": !!int |-
+        23931
+    - "source_addr": !!int |-
+        54848
+      "target_addr": !!int |-
+        23931
     "translated": !!null |-
       null
   "5d86":
@@ -77,9 +85,11 @@
       やっぱり お前だったのか。
     "original_byte_length": !!int |-
       41
-    "reference_addrs":
-    - !!int |-
-      54887
+    "references":
+    - "source_addr": !!int |-
+        54887
+      "target_addr": !!int |-
+        23942
     "translated": !!null |-
       null
   "5daf":
@@ -101,9 +111,11 @@
       早く ここから脱出しよう。
     "original_byte_length": !!int |-
       181
-    "reference_addrs":
-    - !!int |-
-      54905
+    "references":
+    - "source_addr": !!int |-
+        54905
+      "target_addr": !!int |-
+        23983
     "translated": !!null |-
       null
 "note": ""

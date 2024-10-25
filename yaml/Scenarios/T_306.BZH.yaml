@@ -11,9 +11,11 @@
       乗るなら 早く 乗ってくれ。
     "original_byte_length": !!int |-
       81
-    "reference_addrs":
-    - !!int |-
-      54861
+    "references":
+    - "source_addr": !!int |-
+        54861
+      "target_addr": !!int |-
+        23494
     "translated": !!null |-
       null
   "5c17":
@@ -32,9 +34,11 @@
       <LOC5cc4>切符は そこで売ってるぞ。
     "original_byte_length": !!int |-
       199
-    "reference_addrs":
-    - !!int |-
-      54762
+    "references":
+    - "source_addr": !!int |-
+        54762
+      "target_addr": !!int |-
+        23575
     "translated": !!null |-
       null
   "5cde":
@@ -53,9 +57,11 @@
       だから おれが ここの管理人になってあげているんだ。
     "original_byte_length": !!int |-
       206
-    "reference_addrs":
-    - !!int |-
-      54870
+    "references":
+    - "source_addr": !!int |-
+        54870
+      "target_addr": !!int |-
+        23774
     "translated": !!null |-
       null
   "5dac":
@@ -70,9 +76,11 @@
       けっこういるのよ。
     "original_byte_length": !!int |-
       82
-    "reference_addrs":
-    - !!int |-
-      54879
+    "references":
+    - "source_addr": !!int |-
+        54879
+      "target_addr": !!int |-
+        23980
     "translated": !!null |-
       null
   "5dfe":
@@ -90,9 +98,11 @@
       めったに 帰ってこないのよ。
     "original_byte_length": !!int |-
       160
-    "reference_addrs":
-    - !!int |-
-      54888
+    "references":
+    - "source_addr": !!int |-
+        54888
+      "target_addr": !!int |-
+        24062
     "translated": !!null |-
       null
   "5e9e":
@@ -107,9 +117,11 @@
       モンスターの出現を 止めたのじゃ。
     "original_byte_length": !!int |-
       91
-    "reference_addrs":
-    - !!int |-
-      54897
+    "references":
+    - "source_addr": !!int |-
+        54897
+      "target_addr": !!int |-
+        24222
     "translated": !!null |-
       null
   "5ef9":
@@ -129,9 +141,11 @@
       <LOC5faf>もう もてないあるよ。
     "original_byte_length": !!int |-
       204
-    "reference_addrs":
-    - !!int |-
-      54903
+    "references":
+    - "source_addr": !!int |-
+        54903
+      "target_addr": !!int |-
+        24313
     "translated": !!null |-
       null
   "5fc9":
@@ -144,9 +158,11 @@
       いらっしゃい。<RET_N>
     "original_byte_length": !!int |-
       24
-    "reference_addrs":
-    - !!int |-
-      54915
+    "references":
+    - "source_addr": !!int |-
+        54915
+      "target_addr": !!int |-
+        24521
     "translated": !!null |-
       null
   "5fe1":
@@ -158,9 +174,11 @@
       またどうぞ。
     "original_byte_length": !!int |-
       13
-    "reference_addrs":
-    - !!int |-
-      54927
+    "references":
+    - "source_addr": !!int |-
+        54927
+      "target_addr": !!int |-
+        24545
     "translated": !!null |-
       null
   "5fee":
@@ -174,9 +192,11 @@
       どのような ご用でしょうか？<RET_N>
     "original_byte_length": !!int |-
       56
-    "reference_addrs":
-    - !!int |-
-      54939
+    "references":
+    - "source_addr": !!int |-
+        54939
+      "target_addr": !!int |-
+        24558
     "translated": !!null |-
       null
   "6026":
@@ -188,9 +208,11 @@
       また来てくださいね。
     "original_byte_length": !!int |-
       21
-    "reference_addrs":
-    - !!int |-
-      54966
+    "references":
+    - "source_addr": !!int |-
+        54966
+      "target_addr": !!int |-
+        24614
     "translated": !!null |-
       null
   "603b":
@@ -204,9 +226,11 @@
       <RET>
     "original_byte_length": !!int |-
       36
-    "reference_addrs":
-    - !!int |-
-      2008
+    "references":
+    - "source_addr": !!int |-
+        2008
+      "target_addr": !!int |-
+        24635
     "translated": !!null |-
       null
   "605f":
@@ -219,9 +243,11 @@
       <RET_N>
     "original_byte_length": !!int |-
       26
-    "reference_addrs":
-    - !!int |-
-      2010
+    "references":
+    - "source_addr": !!int |-
+        2010
+      "target_addr": !!int |-
+        24671
     "translated": !!null |-
       null
   "6079":
@@ -236,9 +262,11 @@
       <RET>
     "original_byte_length": !!int |-
       29
-    "reference_addrs":
-    - !!int |-
-      2012
+    "references":
+    - "source_addr": !!int |-
+        2012
+      "target_addr": !!int |-
+        24697
     "translated": !!null |-
       null
   "609e":
@@ -251,9 +279,11 @@
       <RET_N>
     "original_byte_length": !!int |-
       27
-    "reference_addrs":
-    - !!int |-
-      1880
+    "references":
+    - "source_addr": !!int |-
+        1880
+      "target_addr": !!int |-
+        24734
     "translated": !!null |-
       null
   "60b9":
@@ -267,9 +297,11 @@
       <RET_N>
     "original_byte_length": !!int |-
       44
-    "reference_addrs":
-    - !!int |-
-      1882
+    "references":
+    - "source_addr": !!int |-
+        1882
+      "target_addr": !!int |-
+        24761
     "translated": !!null |-
       null
   "60e5":
@@ -283,9 +315,11 @@
       <RET_N>
     "original_byte_length": !!int |-
       18
-    "reference_addrs":
-    - !!int |-
-      1884
+    "references":
+    - "source_addr": !!int |-
+        1884
+      "target_addr": !!int |-
+        24805
     "translated": !!null |-
       null
   "60f7":
@@ -298,9 +332,11 @@
       <RET_N>
     "original_byte_length": !!int |-
       31
-    "reference_addrs":
-    - !!int |-
-      1886
+    "references":
+    - "source_addr": !!int |-
+        1886
+      "target_addr": !!int |-
+        24823
     "translated": !!null |-
       null
 "note": ""

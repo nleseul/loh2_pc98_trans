@@ -11,9 +11,11 @@
       くださいました。
     "original_byte_length": !!int |-
       88
-    "reference_addrs":
-    - !!int |-
-      54633
+    "references":
+    - "source_addr": !!int |-
+        54633
+      "target_addr": !!int |-
+        23106
     "translated": !!null |-
       null
   "5a9a":
@@ -33,9 +35,11 @@
       ごいっしょでは なかったのですね？
     "original_byte_length": !!int |-
       210
-    "reference_addrs":
-    - !!int |-
-      54642
+    "references":
+    - "source_addr": !!int |-
+        54642
+      "target_addr": !!int |-
+        23194
     "translated": !!null |-
       null
   "5b6c":
@@ -51,9 +55,11 @@
       行かれたのでしょう。
     "original_byte_length": !!int |-
       156
-    "reference_addrs":
-    - !!int |-
-      54651
+    "references":
+    - "source_addr": !!int |-
+        54651
+      "target_addr": !!int |-
+        23404
     "translated": !!null |-
       null
   "5c08":
@@ -70,9 +76,11 @@
       お作りいたしましょうか？
     "original_byte_length": !!int |-
       114
-    "reference_addrs":
-    - !!int |-
-      54660
+    "references":
+    - "source_addr": !!int |-
+        54660
+      "target_addr": !!int |-
+        23560
     "translated": !!null |-
       null
   "5c7a":
@@ -87,9 +95,11 @@
       変わっているでしょ？
     "original_byte_length": !!int |-
       86
-    "reference_addrs":
-    - !!int |-
-      54669
+    "references":
+    - "source_addr": !!int |-
+        54669
+      "target_addr": !!int |-
+        23674
     "translated": !!null |-
       null
 "note": ""

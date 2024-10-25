@@ -15,9 +15,11 @@
       どうも すなおに よろこべないんです。
     "original_byte_length": !!int |-
       204
-    "reference_addrs":
-    - !!int |-
-      54768
+    "references":
+    - "source_addr": !!int |-
+        54768
+      "target_addr": !!int |-
+        23218
     "translated": !!null |-
       null
   "5b7e":
@@ -31,9 +33,11 @@
       物足りないんです。
     "original_byte_length": !!int |-
       84
-    "reference_addrs":
-    - !!int |-
-      54693
+    "references":
+    - "source_addr": !!int |-
+        54693
+      "target_addr": !!int |-
+        23422
     "translated": !!null |-
       null
   "5bd2":
@@ -50,9 +54,11 @@
       <LOC5c4a>お元気そうで なによりです。
     "original_byte_length": !!int |-
       148
-    "reference_addrs":
-    - !!int |-
-      54702
+    "references":
+    - "source_addr": !!int |-
+        54702
+      "target_addr": !!int |-
+        23506
     "translated": !!null |-
       null
   "5c66":
@@ -67,9 +73,11 @@
       なってしまったのでしょうか？
     "original_byte_length": !!int |-
       151
-    "reference_addrs":
-    - !!int |-
-      54711
+    "references":
+    - "source_addr": !!int |-
+        54711
+      "target_addr": !!int |-
+        23654
     "translated": !!null |-
       null
   "5cfd":
@@ -85,9 +93,11 @@
       ここも さみしくなってしまいました。
     "original_byte_length": !!int |-
       164
-    "reference_addrs":
-    - !!int |-
-      54747
+    "references":
+    - "source_addr": !!int |-
+        54747
+      "target_addr": !!int |-
+        23805
     "translated": !!null |-
       null
   "5da1":
@@ -107,9 +117,11 @@
       かわりませんからね。
     "original_byte_length": !!int |-
       197
-    "reference_addrs":
-    - !!int |-
-      54756
+    "references":
+    - "source_addr": !!int |-
+        54756
+      "target_addr": !!int |-
+        23969
     "translated": !!null |-
       null
   "5e66":
@@ -123,9 +135,11 @@
       お久しぶりで ございます。
     "original_byte_length": !!int |-
       46
-    "reference_addrs":
-    - !!int |-
-      54720
+    "references":
+    - "source_addr": !!int |-
+        54720
+      "target_addr": !!int |-
+        24166
     "translated": !!null |-
       null
   "5e94":
@@ -143,9 +157,11 @@
       いけないんだって。
     "original_byte_length": !!int |-
       180
-    "reference_addrs":
-    - !!int |-
-      54729
+    "references":
+    - "source_addr": !!int |-
+        54729
+      "target_addr": !!int |-
+        24212
     "translated": !!null |-
       null
   "5f48":
@@ -159,9 +175,11 @@
       作らねーですだ。
     "original_byte_length": !!int |-
       57
-    "reference_addrs":
-    - !!int |-
-      54738
+    "references":
+    - "source_addr": !!int |-
+        54738
+      "target_addr": !!int |-
+        24392
     "translated": !!null |-
       null
   "5f81":
@@ -181,9 +199,11 @@
       突然 いなくなったのでしょうか？
     "original_byte_length": !!int |-
       209
-    "reference_addrs":
-    - !!int |-
-      54762
+    "references":
+    - "source_addr": !!int |-
+        54762
+      "target_addr": !!int |-
+        24449
     "translated": !!null |-
       null
   "6052":
@@ -195,7 +215,7 @@
       <C_YELLOW>侍女<C_NONE><RET_N>
     "original_byte_length": !!int |-
       7
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "6059":
@@ -207,7 +227,7 @@
       <C_YELLOW>兵士<C_NONE><RET_N>
     "original_byte_length": !!int |-
       7
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
 "note": ""

@@ -24,9 +24,11 @@
       いったい どこで 見つけたのじゃ？
     "original_byte_length": !!int |-
       382
-    "reference_addrs":
-    - !!int |-
-      54663
+    "references":
+    - "source_addr": !!int |-
+        54663
+      "target_addr": !!int |-
+        23316
     "translated": !!null |-
       null
   "5c92":
@@ -43,9 +45,11 @@
       するのは いいことですが ケガだけはしないように 気をつけるのですよ。
     "original_byte_length": !!int |-
       198
-    "reference_addrs":
-    - !!int |-
-      54678
+    "references":
+    - "source_addr": !!int |-
+        54678
+      "target_addr": !!int |-
+        23698
     "translated": !!null |-
       null
   "5d58":
@@ -67,9 +71,11 @@
       <LOC5e68>王子さま セリオスさまたちとは まだいっしょに なっていないのですか？
     "original_byte_length": !!int |-
       340
-    "reference_addrs":
-    - !!int |-
-      54687
+    "references":
+    - "source_addr": !!int |-
+        54687
+      "target_addr": !!int |-
+        23896
     "translated": !!null |-
       null
   "5eac":
@@ -89,9 +95,11 @@
       たくさんいるらしいですよ。
     "original_byte_length": !!int |-
       211
-    "reference_addrs":
-    - !!int |-
-      54696
+    "references":
+    - "source_addr": !!int |-
+        54696
+      "target_addr": !!int |-
+        24236
     "translated": !!null |-
       null
   "5f7f":
@@ -109,9 +117,11 @@
       いなかったのです。
     "original_byte_length": !!int |-
       152
-    "reference_addrs":
-    - !!int |-
-      54705
+    "references":
+    - "source_addr": !!int |-
+        54705
+      "target_addr": !!int |-
+        24447
     "translated": !!null |-
       null
   "6017":
@@ -130,9 +140,11 @@
       それで 国中で 大よろこびしてたのにこんなことになってしまうとは ･ ･ ･<LOC60d9>
     "original_byte_length": !!int |-
       195
-    "reference_addrs":
-    - !!int |-
-      54714
+    "references":
+    - "source_addr": !!int |-
+        54714
+      "target_addr": !!int |-
+        24599
     "translated": !!null |-
       null
   "60da":
@@ -147,9 +159,11 @@
       ならないとはね ･ ･ ･
     "original_byte_length": !!int |-
       89
-    "reference_addrs":
-    - !!int |-
-      54723
+    "references":
+    - "source_addr": !!int |-
+        54723
+      "target_addr": !!int |-
+        24794
     "translated": !!null |-
       null
   "6133":
@@ -177,9 +191,11 @@
       きっと 期待に こたえられると思うよ。
     "original_byte_length": !!int |-
       374
-    "reference_addrs":
-    - !!int |-
-      54732
+    "references":
+    - "source_addr": !!int |-
+        54732
+      "target_addr": !!int |-
+        24883
     "translated": !!null |-
       null
 "note": ""

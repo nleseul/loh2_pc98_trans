@@ -25,9 +25,11 @@
       事故？
     "original_byte_length": !!int |-
       276
-    "reference_addrs":
-    - !!int |-
-      54798
+    "references":
+    - "source_addr": !!int |-
+        54798
+      "target_addr": !!int |-
+        23820
     "translated": !!null |-
       null
   "5e20":
@@ -52,9 +54,11 @@
       <CALL64c8> !!\n\n<CALL64c2><CALL64d1>\n\n<CH0>\n皇帝め ･ ･ 絶対に 許さないぞ !!"
     "original_byte_length": !!int |-
       1352
-    "reference_addrs":
-    - !!int |-
-      54826
+    "references":
+    - "source_addr": !!int |-
+        54826
+      "target_addr": !!int |-
+        24096
     "translated": !!null |-
       null
   "6368":
@@ -70,9 +74,11 @@
       皇帝を追って 倒してくれ。
     "original_byte_length": !!int |-
       99
-    "reference_addrs":
-    - !!int |-
-      54835
+    "references":
+    - "source_addr": !!int |-
+        54835
+      "target_addr": !!int |-
+        25448
     "translated": !!null |-
       null
   "63cb":
@@ -89,9 +95,11 @@
       ここは 任せたぞ。
     "original_byte_length": !!int |-
       85
-    "reference_addrs":
-    - !!int |-
-      54890
+    "references":
+    - "source_addr": !!int |-
+        54890
+      "target_addr": !!int |-
+        25547
     "translated": !!null |-
       null
   "6420":
@@ -105,9 +113,11 @@
       皇帝のあとを 追ってください。
     "original_byte_length": !!int |-
       64
-    "reference_addrs":
-    - !!int |-
-      54899
+    "references":
+    - "source_addr": !!int |-
+        54899
+      "target_addr": !!int |-
+        25632
     "translated": !!null |-
       null
   "6460":
@@ -120,9 +130,11 @@
       <CALL64c8>さんはヒストラのマスターとナレサ隊長が 別の所へ 連れていって休ませています。
     "original_byte_length": !!int |-
       91
-    "reference_addrs":
-    - !!int |-
-      54908
+    "references":
+    - "source_addr": !!int |-
+        54908
+      "target_addr": !!int |-
+        25696
     "translated": !!null |-
       null
   "64bb":
@@ -134,9 +146,11 @@
       <CALL64c2><CALL64d1>
     "original_byte_length": !!int |-
       7
-    "reference_addrs":
-    - !!int |-
-      54768
+    "references":
+    - "source_addr": !!int |-
+        54768
+      "target_addr": !!int |-
+        25787
     "translated": !!null |-
       null
   "64c2":
@@ -148,7 +162,7 @@
       <C_YELLOW><CALL64c8><C_NONE><RET_N>
     "original_byte_length": !!int |-
       6
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "64c8":
@@ -160,7 +174,7 @@
       フラッド<RET>
     "original_byte_length": !!int |-
       9
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "64d1":
@@ -172,7 +186,7 @@
       ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･<RET>
     "original_byte_length": !!int |-
       34
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "64f3":
@@ -184,7 +198,7 @@
       <C_YELLOW>フレイアのマスター<C_NONE><RET_N>
     "original_byte_length": !!int |-
       21
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
 "note": ""

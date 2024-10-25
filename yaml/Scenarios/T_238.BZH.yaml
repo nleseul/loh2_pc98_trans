@@ -10,9 +10,11 @@
       別荘の管理をしてるだよ。
     "original_byte_length": !!int |-
       62
-    "reference_addrs":
-    - !!int |-
-      54633
+    "references":
+    - "source_addr": !!int |-
+        54633
+      "target_addr": !!int |-
+        23284
     "translated": !!null |-
       null
   "5b32":
@@ -27,9 +29,11 @@
       いいんですって。
     "original_byte_length": !!int |-
       84
-    "reference_addrs":
-    - !!int |-
-      54642
+    "references":
+    - "source_addr": !!int |-
+        54642
+      "target_addr": !!int |-
+        23346
     "translated": !!null |-
       null
   "5b86":
@@ -143,9 +147,11 @@
       めんどくせえから ほっとこうぜ。<LOC6288>
     "original_byte_length": !!int |-
       1795
-    "reference_addrs":
-    - !!int |-
-      54657
+    "references":
+    - "source_addr": !!int |-
+        54657
+      "target_addr": !!int |-
+        23430
     "translated": !!null |-
       null
   "6289":
@@ -165,9 +171,11 @@
       せっかくのチャンスですからね。
     "original_byte_length": !!int |-
       200
-    "reference_addrs":
-    - !!int |-
-      54666
+    "references":
+    - "source_addr": !!int |-
+        54666
+      "target_addr": !!int |-
+        25225
     "translated": !!null |-
       null
   "6351":
@@ -192,9 +200,11 @@
       いらしたものですから。
     "original_byte_length": !!int |-
       351
-    "reference_addrs":
-    - !!int |-
-      54675
+    "references":
+    - "source_addr": !!int |-
+        54675
+      "target_addr": !!int |-
+        25425
     "translated": !!null |-
       null
   "64b0":
@@ -207,9 +217,11 @@
       お嬢さま お元気そうで 安心しました。やっぱり 誘拐じゃなかったんですね。
     "original_byte_length": !!int |-
       77
-    "reference_addrs":
-    - !!int |-
-      54729
+    "references":
+    - "source_addr": !!int |-
+        54729
+      "target_addr": !!int |-
+        25776
     "translated": !!null |-
       null
   "64fd":
@@ -224,9 +236,11 @@
       じゃましねえでくれ。
     "original_byte_length": !!int |-
       72
-    "reference_addrs":
-    - !!int |-
-      54738
+    "references":
+    - "source_addr": !!int |-
+        54738
+      "target_addr": !!int |-
+        25853
     "translated": !!null |-
       null
   "6545":
@@ -240,9 +254,11 @@
       みんな 心配していたのですよ。
     "original_byte_length": !!int |-
       69
-    "reference_addrs":
-    - !!int |-
-      54747
+    "references":
+    - "source_addr": !!int |-
+        54747
+      "target_addr": !!int |-
+        25925
     "translated": !!null |-
       null
   "658a":
@@ -257,9 +273,11 @@
       それだけが 心配でした。
     "original_byte_length": !!int |-
       90
-    "reference_addrs":
-    - !!int |-
-      54756
+    "references":
+    - "source_addr": !!int |-
+        54756
+      "target_addr": !!int |-
+        25994
     "translated": !!null |-
       null
   "65e4":
@@ -272,9 +290,11 @@
       お嬢さま 女神 フレイアさまのお話で何か わかったことが ありましたか？
     "original_byte_length": !!int |-
       80
-    "reference_addrs":
-    - !!int |-
-      54765
+    "references":
+    - "source_addr": !!int |-
+        54765
+      "target_addr": !!int |-
+        26084
     "translated": !!null |-
       null
 "note": ""

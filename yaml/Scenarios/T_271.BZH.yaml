@@ -82,9 +82,11 @@
       くわしてやるよ。<ASMd635>
     "original_byte_length": !!int |-
       1312
-    "reference_addrs":
-    - !!int |-
-      54656
+    "references":
+    - "source_addr": !!int |-
+        54656
+      "target_addr": !!int |-
+        23309
     "translated": !!null |-
       null
   "602d":
@@ -151,9 +153,11 @@
       スエルについたら さっそく セリスに行って 腹いっぱい食おうぜ。
     "original_byte_length": !!int |-
       1121
-    "reference_addrs":
-    - !!int |-
-      54694
+    "references":
+    - "source_addr": !!int |-
+        54694
+      "target_addr": !!int |-
+        24621
     "translated": !!null |-
       null
 "note": ""

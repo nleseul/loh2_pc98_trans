@@ -8,7 +8,7 @@
       ワームドＡ<RET>
     "original_byte_length": !!int |-
       11
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "71b0":
@@ -20,7 +20,7 @@
       ワームドＢ<RET>
     "original_byte_length": !!int |-
       11
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "71f0":
@@ -32,7 +32,7 @@
       ワームドＣ<RET>
     "original_byte_length": !!int |-
       11
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "7230":
@@ -44,7 +44,7 @@
       ワームドＤ<RET>
     "original_byte_length": !!int |-
       11
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "72d7":
@@ -56,9 +56,11 @@
       ワームドが現れた。<RET_N>
     "original_byte_length": !!int |-
       19
-    "reference_addrs":
-    - !!int |-
-      61000
+    "references":
+    - "source_addr": !!int |-
+        61000
+      "target_addr": !!int |-
+        29399
     "translated": !!null |-
       null
 "note": ""

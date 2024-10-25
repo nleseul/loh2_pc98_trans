@@ -10,9 +10,11 @@
       助けてくれるというのか？
     "original_byte_length": !!int |-
       52
-    "reference_addrs":
-    - !!int |-
-      54885
+    "references":
+    - "source_addr": !!int |-
+        54885
+      "target_addr": !!int |-
+        23592
     "translated": !!null |-
       null
   "5c5c":
@@ -26,9 +28,11 @@
       これでまた みんなの活動を手伝える。
     "original_byte_length": !!int |-
       64
-    "reference_addrs":
-    - !!int |-
-      54894
+    "references":
+    - "source_addr": !!int |-
+        54894
+      "target_addr": !!int |-
+        23644
     "translated": !!null |-
       null
   "5c9c":
@@ -42,9 +46,11 @@
       戦士の笛は だてじゃないようだな。
     "original_byte_length": !!int |-
       57
-    "reference_addrs":
-    - !!int |-
-      54903
+    "references":
+    - "source_addr": !!int |-
+        54903
+      "target_addr": !!int |-
+        23708
     "translated": !!null |-
       null
   "5cd5":
@@ -58,9 +64,11 @@
       なんてお礼を言ったらいいんだ。
     "original_byte_length": !!int |-
       54
-    "reference_addrs":
-    - !!int |-
-      54912
+    "references":
+    - "source_addr": !!int |-
+        54912
+      "target_addr": !!int |-
+        23765
     "translated": !!null |-
       null
   "5d0b":
@@ -75,9 +83,11 @@
       ないだろうな？
     "original_byte_length": !!int |-
       79
-    "reference_addrs":
-    - !!int |-
-      54921
+    "references":
+    - "source_addr": !!int |-
+        54921
+      "target_addr": !!int |-
+        23819
     "translated": !!null |-
       null
   "5d5a":
@@ -92,9 +102,11 @@
       連れて行きましょう。
     "original_byte_length": !!int |-
       90
-    "reference_addrs":
-    - !!int |-
-      54930
+    "references":
+    - "source_addr": !!int |-
+        54930
+      "target_addr": !!int |-
+        23898
     "translated": !!null |-
       null
   "5db4":
@@ -117,9 +129,11 @@
       わかったかね？
     "original_byte_length": !!int |-
       347
-    "reference_addrs":
-    - !!int |-
-      54939
+    "references":
+    - "source_addr": !!int |-
+        54939
+      "target_addr": !!int |-
+        23988
     "translated": !!null |-
       null
   "5f0f":
@@ -274,9 +288,11 @@
       悪いけど 全部 きいちゃったわ。
     "original_byte_length": !!int |-
       2610
-    "reference_addrs":
-    - !!int |-
-      54969
+    "references":
+    - "source_addr": !!int |-
+        54969
+      "target_addr": !!int |-
+        24335
     "translated": !!null |-
       null
   "6941":
@@ -300,9 +316,11 @@
       私たちも できるだけの 協力をしよう。
     "original_byte_length": !!int |-
       337
-    "reference_addrs":
-    - !!int |-
-      54978
+    "references":
+    - "source_addr": !!int |-
+        54978
+      "target_addr": !!int |-
+        26945
     "translated": !!null |-
       null
   "6a92":
@@ -316,9 +334,11 @@
       ここは 私が 引き受けるわ。
     "original_byte_length": !!int |-
       70
-    "reference_addrs":
-    - !!int |-
-      54987
+    "references":
+    - "source_addr": !!int |-
+        54987
+      "target_addr": !!int |-
+        27282
     "translated": !!null |-
       null
   "6ad8":
@@ -342,9 +362,11 @@
       ああレイシア、悪かった。
     "original_byte_length": !!int |-
       308
-    "reference_addrs":
-    - !!int |-
-      55001
+    "references":
+    - "source_addr": !!int |-
+        55001
+      "target_addr": !!int |-
+        27352
     "translated": !!null |-
       null
   "6c0c":
@@ -360,9 +382,11 @@
       できるさ おれにまかせとけ。
     "original_byte_length": !!int |-
       56
-    "reference_addrs":
-    - !!int |-
-      54690
+    "references":
+    - "source_addr": !!int |-
+        54690
+      "target_addr": !!int |-
+        27660
     "translated": !!null |-
       null
   "6c44":
@@ -379,9 +403,11 @@
       シンディ こわす。
     "original_byte_length": !!int |-
       60
-    "reference_addrs":
-    - !!int |-
-      54718
+    "references":
+    - "source_addr": !!int |-
+        54718
+      "target_addr": !!int |-
+        27716
     "translated": !!null |-
       null
   "6c80":
@@ -394,9 +420,11 @@
       さすが シンディだ。
     "original_byte_length": !!int |-
       23
-    "reference_addrs":
-    - !!int |-
-      54744
+    "references":
+    - "source_addr": !!int |-
+        54744
+      "target_addr": !!int |-
+        27776
     "translated": !!null |-
       null
   "6c97":
@@ -409,9 +437,11 @@
       えっ 私は そんなこと できませんわ。
     "original_byte_length": !!int |-
       39
-    "reference_addrs":
-    - !!int |-
-      54772
+    "references":
+    - "source_addr": !!int |-
+        54772
+      "target_addr": !!int |-
+        27799
     "translated": !!null |-
       null
   "6cbe":
@@ -423,7 +453,7 @@
       フレイア<RET>
     "original_byte_length": !!int |-
       9
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "6cc7":
@@ -435,7 +465,7 @@
       モンスター<RET>
     "original_byte_length": !!int |-
       11
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "6cd2":
@@ -447,7 +477,7 @@
       <C_YELLOW>ヨシュアのマスター<C_NONE><RET_N>
     "original_byte_length": !!int |-
       21
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "6ce7":
@@ -459,7 +489,7 @@
       <C_YELLOW>ヒストラのマスター<C_NONE><RET_N>
     "original_byte_length": !!int |-
       21
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
 "note": ""

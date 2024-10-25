@@ -11,9 +11,11 @@
       信じることにしたんだよ。
     "original_byte_length": !!int |-
       94
-    "reference_addrs":
-    - !!int |-
-      54635
+    "references":
+    - "source_addr": !!int |-
+        54635
+      "target_addr": !!int |-
+        23420
     "translated": !!null |-
       null
   "5bda":
@@ -27,9 +29,11 @@
       お祈りをすることにしたの。
     "original_byte_length": !!int |-
       65
-    "reference_addrs":
-    - !!int |-
-      54644
+    "references":
+    - "source_addr": !!int |-
+        54644
+      "target_addr": !!int |-
+        23514
     "translated": !!null |-
       null
   "5c1b":
@@ -43,9 +47,11 @@
       ここに来ていたんじゃ。
     "original_byte_length": !!int |-
       60
-    "reference_addrs":
-    - !!int |-
-      54653
+    "references":
+    - "source_addr": !!int |-
+        54653
+      "target_addr": !!int |-
+        23579
     "translated": !!null |-
       null
 "note": ""

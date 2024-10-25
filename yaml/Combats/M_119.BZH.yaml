@@ -8,7 +8,7 @@
       スプラッシャーA<RET>
     "original_byte_length": !!int |-
       16
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "71b0":
@@ -20,7 +20,7 @@
       スプラッシャーB<RET>
     "original_byte_length": !!int |-
       16
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "71f0":
@@ -32,7 +32,7 @@
       スプラッシャーC<RET>
     "original_byte_length": !!int |-
       16
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "7230":
@@ -44,7 +44,7 @@
       スプラッシャーD<RET>
     "original_byte_length": !!int |-
       16
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "7324":
@@ -56,9 +56,11 @@
       スプラッシャーが現れた。<RET_N>
     "original_byte_length": !!int |-
       25
-    "reference_addrs":
-    - !!int |-
-      61000
+    "references":
+    - "source_addr": !!int |-
+        61000
+      "target_addr": !!int |-
+        29476
     "translated": !!null |-
       null
 "note": ""

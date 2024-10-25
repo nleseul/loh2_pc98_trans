@@ -9,9 +9,11 @@
       さあ 早く 先に進んでください。
     "original_byte_length": !!int |-
       36
-    "reference_addrs":
-    - !!int |-
-      54905
+    "references":
+    - "source_addr": !!int |-
+        54905
+      "target_addr": !!int |-
+        23795
     "translated": !!null |-
       null
   "5d17":
@@ -25,9 +27,11 @@
       気をつけてください。
     "original_byte_length": !!int |-
       46
-    "reference_addrs":
-    - !!int |-
-      54914
+    "references":
+    - "source_addr": !!int |-
+        54914
+      "target_addr": !!int |-
+        23831
     "translated": !!null |-
       null
   "5d45":
@@ -40,9 +44,11 @@
       宝箱の中には<RET>
     "original_byte_length": !!int |-
       36
-    "reference_addrs":
-    - !!int |-
-      54861
+    "references":
+    - "source_addr": !!int |-
+        54861
+      "target_addr": !!int |-
+        23877
     "translated": !!null |-
       null
 "note": ""

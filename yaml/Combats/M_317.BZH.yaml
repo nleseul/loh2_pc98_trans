@@ -8,7 +8,7 @@
       デ・オクトＡ<RET>
     "original_byte_length": !!int |-
       13
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "71b0":
@@ -20,7 +20,7 @@
       デ・オクトＢ<RET>
     "original_byte_length": !!int |-
       13
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "71f0":
@@ -32,7 +32,7 @@
       ブランナ<RET>
     "original_byte_length": !!int |-
       9
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "7230":
@@ -44,7 +44,7 @@
       デ・オクトＣ<RET>
     "original_byte_length": !!int |-
       13
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "7413":
@@ -56,9 +56,11 @@
       デ・オクトとブランナが現れた。<RET_N>
     "original_byte_length": !!int |-
       31
-    "reference_addrs":
-    - !!int |-
-      61000
+    "references":
+    - "source_addr": !!int |-
+        61000
+      "target_addr": !!int |-
+        29715
     "translated": !!null |-
       null
   "74de":
@@ -70,9 +72,11 @@
       <ACTOR>のまわりのキリが晴れて姿が見えるようになった。<RET_N>
     "original_byte_length": !!int |-
       48
-    "reference_addrs":
-    - !!int |-
-      61420
+    "references":
+    - "source_addr": !!int |-
+        61420
+      "target_addr": !!int |-
+        29918
     "translated": !!null |-
       null
 "note": ""

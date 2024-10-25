@@ -8,7 +8,7 @@
       インクラブＡ<RET>
     "original_byte_length": !!int |-
       13
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "71b0":
@@ -20,7 +20,7 @@
       インクラブＢ<RET>
     "original_byte_length": !!int |-
       13
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "71f0":
@@ -32,7 +32,7 @@
       インクラブＣ<RET>
     "original_byte_length": !!int |-
       13
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "7230":
@@ -44,7 +44,7 @@
       インクラブＤ<RET>
     "original_byte_length": !!int |-
       13
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "7324":
@@ -56,9 +56,11 @@
       インクラブが現れた。<RET_N>
     "original_byte_length": !!int |-
       21
-    "reference_addrs":
-    - !!int |-
-      61000
+    "references":
+    - "source_addr": !!int |-
+        61000
+      "target_addr": !!int |-
+        29476
     "translated": !!null |-
       null
   "7351":
@@ -70,9 +72,11 @@
       <ACTOR>は からにとじこもった。防御力が２倍になった。<RET_PAGE>
     "original_byte_length": !!int |-
       47
-    "reference_addrs":
-    - !!int |-
-      61208
+    "references":
+    - "source_addr": !!int |-
+        61208
+      "target_addr": !!int |-
+        29521
     "translated": !!null |-
       null
 "note": ""

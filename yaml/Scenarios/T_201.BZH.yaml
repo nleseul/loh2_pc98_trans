@@ -10,9 +10,11 @@
       あとは 竜の祭を 見て 帰るだけだ。
     "original_byte_length": !!int |-
       63
-    "reference_addrs":
-    - !!int |-
-      54662
+    "references":
+    - "source_addr": !!int |-
+        54662
+      "target_addr": !!int |-
+        23226
     "translated": !!null |-
       null
   "5af9":
@@ -36,9 +38,11 @@
       知らないからな。
     "original_byte_length": !!int |-
       264
-    "reference_addrs":
-    - !!int |-
-      54671
+    "references":
+    - "source_addr": !!int |-
+        54671
+      "target_addr": !!int |-
+        23289
     "translated": !!null |-
       null
   "5c01":
@@ -54,9 +58,11 @@
       今は お城の人たちに 貸してるんだ。じゃまを しないようにしてくれよ。
     "original_byte_length": !!int |-
       140
-    "reference_addrs":
-    - !!int |-
-      54677
+    "references":
+    - "source_addr": !!int |-
+        54677
+      "target_addr": !!int |-
+        23553
     "translated": !!null |-
       null
   "5c8d":
@@ -99,9 +105,11 @@
       おいでください。
     "original_byte_length": !!int |-
       607
-    "reference_addrs":
-    - !!int |-
-      54686
+    "references":
+    - "source_addr": !!int |-
+        54686
+      "target_addr": !!int |-
+        23693
     "translated": !!null |-
       null
   "5eec":
@@ -119,9 +127,11 @@
       早く 何とかしなければ ･ ･ ･
     "original_byte_length": !!int |-
       144
-    "reference_addrs":
-    - !!int |-
-      54695
+    "references":
+    - "source_addr": !!int |-
+        54695
+      "target_addr": !!int |-
+        24300
     "translated": !!null |-
       null
   "5f7c":
@@ -139,9 +149,11 @@
       たてられるんだけどな。
     "original_byte_length": !!int |-
       154
-    "reference_addrs":
-    - !!int |-
-      54704
+    "references":
+    - "source_addr": !!int |-
+        54704
+      "target_addr": !!int |-
+        24444
     "translated": !!null |-
       null
   "6016":
@@ -156,9 +168,11 @@
       たいへんだったわ。
     "original_byte_length": !!int |-
       88
-    "reference_addrs":
-    - !!int |-
-      54713
+    "references":
+    - "source_addr": !!int |-
+        54713
+      "target_addr": !!int |-
+        24598
     "translated": !!null |-
       null
   "606e":
@@ -172,9 +186,11 @@
       きれいじゃないし ･ ･ ･
     "original_byte_length": !!int |-
       96
-    "reference_addrs":
-    - !!int |-
-      54722
+    "references":
+    - "source_addr": !!int |-
+        54722
+      "target_addr": !!int |-
+        24686
     "translated": !!null |-
       null
   "60ce":
@@ -190,9 +206,11 @@
       女神 フレイアさまと 話ができるのはバーバラだけなのに ･ ･ ･
     "original_byte_length": !!int |-
       123
-    "reference_addrs":
-    - !!int |-
-      54731
+    "references":
+    - "source_addr": !!int |-
+        54731
+      "target_addr": !!int |-
+        24782
     "translated": !!null |-
       null
   "6149":
@@ -206,9 +224,11 @@
       このような場所が あったので ここを借りて 仕事をしているのです。
     "original_byte_length": !!int |-
       97
-    "reference_addrs":
-    - !!int |-
-      54740
+    "references":
+    - "source_addr": !!int |-
+        54740
+      "target_addr": !!int |-
+        24905
     "translated": !!null |-
       null
   "61aa":
@@ -223,9 +243,11 @@
       いらっしゃいます。
     "original_byte_length": !!int |-
       76
-    "reference_addrs":
-    - !!int |-
-      54749
+    "references":
+    - "source_addr": !!int |-
+        54749
+      "target_addr": !!int |-
+        25002
     "translated": !!null |-
       null
   "61f6":
@@ -264,9 +286,11 @@
       お待ちしたほうが よさそうですね。
     "original_byte_length": !!int |-
       612
-    "reference_addrs":
-    - !!int |-
-      54758
+    "references":
+    - "source_addr": !!int |-
+        54758
+      "target_addr": !!int |-
+        25078
     "translated": !!null |-
       null
 "note": ""

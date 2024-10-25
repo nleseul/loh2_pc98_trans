@@ -21,9 +21,11 @@
       つけるのじゃぞ。
     "original_byte_length": !!int |-
       336
-    "reference_addrs":
-    - !!int |-
-      54739
+    "references":
+    - "source_addr": !!int |-
+        54739
+      "target_addr": !!int |-
+        23596
     "translated": !!null |-
       null
   "5d7c":
@@ -38,9 +40,11 @@
       わしには めんどう みきれんわい。
     "original_byte_length": !!int |-
       97
-    "reference_addrs":
-    - !!int |-
-      54748
+    "references":
+    - "source_addr": !!int |-
+        54748
+      "target_addr": !!int |-
+        23932
     "translated": !!null |-
       null
   "5ddd":
@@ -57,9 +61,11 @@
       なってしまったのじゃよ。
     "original_byte_length": !!int |-
       139
-    "reference_addrs":
-    - !!int |-
-      54757
+    "references":
+    - "source_addr": !!int |-
+        54757
+      "target_addr": !!int |-
+        24029
     "translated": !!null |-
       null
   "5e68":
@@ -77,9 +83,11 @@
       よく知ってるから 勉強になるぞ。
     "original_byte_length": !!int |-
       155
-    "reference_addrs":
-    - !!int |-
-      54766
+    "references":
+    - "source_addr": !!int |-
+        54766
+      "target_addr": !!int |-
+        24168
     "translated": !!null |-
       null
   "5f03":
@@ -95,9 +103,11 @@
       盗賊たちは どこへ 逃げたんじゃろうどの町に 行っても 歓迎されるはずはないし ･ ･ ･
     "original_byte_length": !!int |-
       150
-    "reference_addrs":
-    - !!int |-
-      54775
+    "references":
+    - "source_addr": !!int |-
+        54775
+      "target_addr": !!int |-
+        24323
     "translated": !!null |-
       null
   "5f99":
@@ -112,9 +122,11 @@
       おもしろくないんだ。
     "original_byte_length": !!int |-
       80
-    "reference_addrs":
-    - !!int |-
-      54784
+    "references":
+    - "source_addr": !!int |-
+        54784
+      "target_addr": !!int |-
+        24473
     "translated": !!null |-
       null
   "5fe9":
@@ -128,9 +140,11 @@
       遊びに 行かないと かわいそうでしょ。
     "original_byte_length": !!int |-
       110
-    "reference_addrs":
-    - !!int |-
-      54793
+    "references":
+    - "source_addr": !!int |-
+        54793
+      "target_addr": !!int |-
+        24553
     "translated": !!null |-
       null
   "6057":
@@ -154,9 +168,11 @@
       思ってるのか？
     "original_byte_length": !!int |-
       193
-    "reference_addrs":
-    - !!int |-
-      54721
+    "references":
+    - "source_addr": !!int |-
+        54721
+      "target_addr": !!int |-
+        24663
     "translated": !!null |-
       null
   "6118":
@@ -299,9 +315,11 @@
       <ASMd734><Xf7><SET00d8><C_GREEN>シンディが 仲間になりました。<SND0103><C_NONE>
     "original_byte_length": !!int |-
       1893
-    "reference_addrs":
-    - !!int |-
-      54730
+    "references":
+    - "source_addr": !!int |-
+        54730
+      "target_addr": !!int |-
+        24856
     "translated": !!null |-
       null
 "note": ""

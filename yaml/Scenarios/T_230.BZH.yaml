@@ -13,9 +13,11 @@
       することは わからねえだよ。<LOC5b6e>
     "original_byte_length": !!int |-
       161
-    "reference_addrs":
-    - !!int |-
-      54650
+    "references":
+    - "source_addr": !!int |-
+        54650
+      "target_addr": !!int |-
+        23246
     "translated": !!null |-
       null
   "5b6f":
@@ -33,9 +35,11 @@
       いいんですって。
     "original_byte_length": !!int |-
       177
-    "reference_addrs":
-    - !!int |-
-      54659
+    "references":
+    - "source_addr": !!int |-
+        54659
+      "target_addr": !!int |-
+        23407
     "translated": !!null |-
       null
   "5c20":
@@ -83,9 +87,11 @@
       くれてやるぞ。
     "original_byte_length": !!int |-
       722
-    "reference_addrs":
-    - !!int |-
-      54674
+    "references":
+    - "source_addr": !!int |-
+        54674
+      "target_addr": !!int |-
+        23584
     "translated": !!null |-
       null
   "5ef2":
@@ -103,9 +109,11 @@
       あぁ かわいそうなフローラ ･ ･ ･
     "original_byte_length": !!int |-
       152
-    "reference_addrs":
-    - !!int |-
-      54683
+    "references":
+    - "source_addr": !!int |-
+        54683
+      "target_addr": !!int |-
+        24306
     "translated": !!null |-
       null
   "5f8a":
@@ -130,9 +138,11 @@
       くださいな。
     "original_byte_length": !!int |-
       331
-    "reference_addrs":
-    - !!int |-
-      54692
+    "references":
+    - "source_addr": !!int |-
+        54692
+      "target_addr": !!int |-
+        24458
     "translated": !!null |-
       null
   "60d5":
@@ -149,9 +159,11 @@
       言っているけど 本当かな？
     "original_byte_length": !!int |-
       178
-    "reference_addrs":
-    - !!int |-
-      54724
+    "references":
+    - "source_addr": !!int |-
+        54724
+      "target_addr": !!int |-
+        24789
     "translated": !!null |-
       null
   "6187":
@@ -165,9 +177,11 @@
       なくなっちまっただよ。
     "original_byte_length": !!int |-
       54
-    "reference_addrs":
-    - !!int |-
-      54733
+    "references":
+    - "source_addr": !!int |-
+        54733
+      "target_addr": !!int |-
+        24967
     "translated": !!null |-
       null
   "61bd":
@@ -191,9 +205,11 @@
       きっと そのせいよ。
     "original_byte_length": !!int |-
       285
-    "reference_addrs":
-    - !!int |-
-      54742
+    "references":
+    - "source_addr": !!int |-
+        54742
+      "target_addr": !!int |-
+        25021
     "translated": !!null |-
       null
   "62da":
@@ -218,9 +234,11 @@
       いいんだけど ･ ･ ･
     "original_byte_length": !!int |-
       294
-    "reference_addrs":
-    - !!int |-
-      54751
+    "references":
+    - "source_addr": !!int |-
+        54751
+      "target_addr": !!int |-
+        25306
     "translated": !!null |-
       null
   "6400":
@@ -241,9 +259,11 @@
       どうなさったのかしら。
     "original_byte_length": !!int |-
       220
-    "reference_addrs":
-    - !!int |-
-      54760
+    "references":
+    - "source_addr": !!int |-
+        54760
+      "target_addr": !!int |-
+        25600
     "translated": !!null |-
       null
   "64dc":
@@ -256,9 +276,11 @@
       やーい 話せるものなら話してみろ
     "original_byte_length": !!int |-
       43
-    "reference_addrs":
-    - !!int |-
-      54769
+    "references":
+    - "source_addr": !!int |-
+        54769
+      "target_addr": !!int |-
+        25820
     "translated": !!null |-
       null
 "note": ""

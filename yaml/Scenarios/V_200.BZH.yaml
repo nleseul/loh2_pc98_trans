@@ -10,9 +10,11 @@
       　　　　　　　　完
     "original_byte_length": !!int |-
       51
-    "reference_addrs":
-    - !!int |-
-      54620
+    "references":
+    - "source_addr": !!int |-
+        54620
+      "target_addr": !!int |-
+        24144
     "translated": !!null |-
       null
   "5ed4":
@@ -102,9 +104,11 @@
       してもらったというわけじゃ。
     "original_byte_length": !!int |-
       1590
-    "reference_addrs":
-    - !!int |-
-      54792
+    "references":
+    - "source_addr": !!int |-
+        54792
+      "target_addr": !!int |-
+        24276
     "translated": !!null |-
       null
 "note": ""

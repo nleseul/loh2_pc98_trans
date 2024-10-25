@@ -12,9 +12,11 @@
       連れてくるんじゃないよ。
     "original_byte_length": !!int |-
       139
-    "reference_addrs":
-    - !!int |-
-      54630
+    "references":
+    - "source_addr": !!int |-
+        54630
+      "target_addr": !!int |-
+        23285
     "translated": !!null |-
       null
   "5b80":
@@ -28,9 +30,11 @@
       たくさん あるんだけど モンスターは海を 渡れないのかな？
     "original_byte_length": !!int |-
       95
-    "reference_addrs":
-    - !!int |-
-      54639
+    "references":
+    - "source_addr": !!int |-
+        54639
+      "target_addr": !!int |-
+        23424
     "translated": !!null |-
       null
   "5bdf":
@@ -47,9 +51,11 @@
       ここは 安全だから 関係ねえんだよ。
     "original_byte_length": !!int |-
       132
-    "reference_addrs":
-    - !!int |-
-      54648
+    "references":
+    - "source_addr": !!int |-
+        54648
+      "target_addr": !!int |-
+        23519
     "translated": !!null |-
       null
   "5c63":
@@ -66,9 +72,11 @@
       おそった ･ ･ ･ あぶねえ あぶねえ。
     "original_byte_length": !!int |-
       113
-    "reference_addrs":
-    - !!int |-
-      54657
+    "references":
+    - "source_addr": !!int |-
+        54657
+      "target_addr": !!int |-
+        23651
     "translated": !!null |-
       null
   "5cd4":
@@ -83,9 +91,11 @@
       思い出すよな。
     "original_byte_length": !!int |-
       87
-    "reference_addrs":
-    - !!int |-
-      54666
+    "references":
+    - "source_addr": !!int |-
+        54666
+      "target_addr": !!int |-
+        23764
     "translated": !!null |-
       null
   "5d2b":
@@ -103,9 +113,11 @@
       乗せられるやつだ。
     "original_byte_length": !!int |-
       171
-    "reference_addrs":
-    - !!int |-
-      54675
+    "references":
+    - "source_addr": !!int |-
+        54675
+      "target_addr": !!int |-
+        23851
     "translated": !!null |-
       null
   "5dd6":
@@ -129,9 +141,11 @@
       持物が いっぱいだぜ。
     "original_byte_length": !!int |-
       267
-    "reference_addrs":
-    - !!int |-
-      54684
+    "references":
+    - "source_addr": !!int |-
+        54684
+      "target_addr": !!int |-
+        24022
     "translated": !!null |-
       null
   "5ee1":
@@ -145,9 +159,11 @@
       あるんだぜ。社長の趣味なんだ。
     "original_byte_length": !!int |-
       71
-    "reference_addrs":
-    - !!int |-
-      54693
+    "references":
+    - "source_addr": !!int |-
+        54693
+      "target_addr": !!int |-
+        24289
     "translated": !!null |-
       null
   "5f28":
@@ -158,9 +174,11 @@
     "original": "<C_YELLOW>ジゴ<C_NONE>\nあー いてー ･ ･ ･ \n社長とジーナさんと 両方から\nボコボコに されちまったよ。"
     "original_byte_length": !!int |-
       82
-    "reference_addrs":
-    - !!int |-
-      54708
+    "references":
+    - "source_addr": !!int |-
+        54708
+      "target_addr": !!int |-
+        24360
     "translated": !!null |-
       null
   "5f7a":
@@ -234,9 +252,11 @@
       交換してやるからな。
     "original_byte_length": !!int |-
       1331
-    "reference_addrs":
-    - !!int |-
-      54717
+    "references":
+    - "source_addr": !!int |-
+        54717
+      "target_addr": !!int |-
+        24442
     "translated": !!null |-
       null
   "64ad":
@@ -248,7 +268,7 @@
       おう お前らじゃねえか 元気そうだな。<RET>
     "original_byte_length": !!int |-
       37
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
 "note": ""

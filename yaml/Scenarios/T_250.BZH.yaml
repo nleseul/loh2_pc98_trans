@@ -11,9 +11,11 @@
       何のうらみが あるというんじゃ。
     "original_byte_length": !!int |-
       106
-    "reference_addrs":
-    - !!int |-
-      54664
+    "references":
+    - "source_addr": !!int |-
+        54664
+      "target_addr": !!int |-
+        23290
     "translated": !!null |-
       null
   "5b64":
@@ -28,9 +30,11 @@
       行ってくれたまえ。
     "original_byte_length": !!int |-
       95
-    "reference_addrs":
-    - !!int |-
-      54673
+    "references":
+    - "source_addr": !!int |-
+        54673
+      "target_addr": !!int |-
+        23396
     "translated": !!null |-
       null
   "5bc3":
@@ -46,9 +50,11 @@
       \ あまりよくなくて ･ ･ ･\nううっ また 胃が ･ ･ ･"
     "original_byte_length": !!int |-
       615
-    "reference_addrs":
-    - !!int |-
-      54682
+    "references":
+    - "source_addr": !!int |-
+        54682
+      "target_addr": !!int |-
+        23491
     "translated": !!null |-
       null
   "5e2a":
@@ -75,9 +81,11 @@
       苦労がたえないのう。
     "original_byte_length": !!int |-
       468
-    "reference_addrs":
-    - !!int |-
-      54691
+    "references":
+    - "source_addr": !!int |-
+        54691
+      "target_addr": !!int |-
+        24106
     "translated": !!null |-
       null
   "5ffe":
@@ -99,9 +107,11 @@
       みたいだわ。
     "original_byte_length": !!int |-
       260
-    "reference_addrs":
-    - !!int |-
-      54700
+    "references":
+    - "source_addr": !!int |-
+        54700
+      "target_addr": !!int |-
+        24574
     "translated": !!null |-
       null
   "6102":
@@ -132,9 +142,11 @@
       買うことは できんじゃろうな。
     "original_byte_length": !!int |-
       394
-    "reference_addrs":
-    - !!int |-
-      54706
+    "references":
+    - "source_addr": !!int |-
+        54706
+      "target_addr": !!int |-
+        24834
     "translated": !!null |-
       null
 "note": ""

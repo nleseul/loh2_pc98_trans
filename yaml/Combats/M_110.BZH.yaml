@@ -8,7 +8,7 @@
       アシカサゴＡ<RET>
     "original_byte_length": !!int |-
       13
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "71b0":
@@ -20,7 +20,7 @@
       アシカサゴＢ<RET>
     "original_byte_length": !!int |-
       13
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "71f0":
@@ -32,7 +32,7 @@
       羽竜<RET>
     "original_byte_length": !!int |-
       5
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "7230":
@@ -44,7 +44,7 @@
       アシカサゴＤ<RET>
     "original_byte_length": !!int |-
       13
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "738d":
@@ -56,9 +56,11 @@
       アシカサゴと羽竜が現れた。<RET_N>
     "original_byte_length": !!int |-
       27
-    "reference_addrs":
-    - !!int |-
-      61000
+    "references":
+    - "source_addr": !!int |-
+        61000
+      "target_addr": !!int |-
+        29581
     "translated": !!null |-
       null
   "73a8":
@@ -70,9 +72,11 @@
       <ACTOR>は 守りのかまえをとった。<RET_N>
     "original_byte_length": !!int |-
       27
-    "reference_addrs":
-    - !!int |-
-      61212
+    "references":
+    - "source_addr": !!int |-
+        61212
+      "target_addr": !!int |-
+        29608
     "translated": !!null |-
       null
 "note": ""

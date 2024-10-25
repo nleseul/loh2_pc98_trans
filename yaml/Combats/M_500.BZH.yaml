@@ -8,7 +8,7 @@
       ゴドウィン２世<RET>
     "original_byte_length": !!int |-
       15
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "71b0":
@@ -20,7 +20,7 @@
       Ｍ５００Ｂ<RET>
     "original_byte_length": !!int |-
       11
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "71f0":
@@ -31,7 +31,7 @@
     "original": ""
     "original_byte_length": !!int |-
       1
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "7230":
@@ -42,7 +42,7 @@
     "original": ""
     "original_byte_length": !!int |-
       1
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "74ac":
@@ -54,9 +54,11 @@
       皇帝 ゴドウィン２世との戦闘だ。<RET_N>
     "original_byte_length": !!int |-
       32
-    "reference_addrs":
-    - !!int |-
-      61000
+    "references":
+    - "source_addr": !!int |-
+        61000
+      "target_addr": !!int |-
+        29868
     "translated": !!null |-
       null
   "74cc":
@@ -74,9 +76,11 @@
       <RET>
     "original_byte_length": !!int |-
       67
-    "reference_addrs":
-    - !!int |-
-      61488
+    "references":
+    - "source_addr": !!int |-
+        61488
+      "target_addr": !!int |-
+        29900
     "translated": !!null |-
       null
   "750f":
@@ -88,9 +92,11 @@
       <ACTOR>は大きくはばたいた。<RET_N>
     "original_byte_length": !!int |-
       22
-    "reference_addrs":
-    - !!int |-
-      61275
+    "references":
+    - "source_addr": !!int |-
+        61275
+      "target_addr": !!int |-
+        29967
     "translated": !!null |-
       null
   "7525":
@@ -102,9 +108,11 @@
       <ACTOR>は炎のブレスをはいた。<RET_N>
     "original_byte_length": !!int |-
       24
-    "reference_addrs":
-    - !!int |-
-      61290
+    "references":
+    - "source_addr": !!int |-
+        61290
+      "target_addr": !!int |-
+        29989
     "translated": !!null |-
       null
 "note": ""

@@ -8,7 +8,7 @@
       ジーヘッドＡ<RET>
     "original_byte_length": !!int |-
       13
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "71b0":
@@ -20,7 +20,7 @@
       ジーヘッドＢ<RET>
     "original_byte_length": !!int |-
       13
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "71f0":
@@ -32,7 +32,7 @@
       ジーヘッドＣ<RET>
     "original_byte_length": !!int |-
       13
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "7230":
@@ -44,7 +44,7 @@
       ジーヘッドＤ<RET>
     "original_byte_length": !!int |-
       13
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "73bf":
@@ -56,9 +56,11 @@
       ジーヘッドが現れた。<RET_N>
     "original_byte_length": !!int |-
       21
-    "reference_addrs":
-    - !!int |-
-      61000
+    "references":
+    - "source_addr": !!int |-
+        61000
+      "target_addr": !!int |-
+        29631
     "translated": !!null |-
       null
 "note": ""

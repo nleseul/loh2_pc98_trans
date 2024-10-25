@@ -8,9 +8,11 @@
       こけ～っ !?
     "original_byte_length": !!int |-
       12
-    "reference_addrs":
-    - !!int |-
-      54646
+    "references":
+    - "source_addr": !!int |-
+        54646
+      "target_addr": !!int |-
+        23479
     "translated": !!null |-
       null
   "5bc3":
@@ -24,9 +26,11 @@
       いたんだな。
     "original_byte_length": !!int |-
       82
-    "reference_addrs":
-    - !!int |-
-      54655
+    "references":
+    - "source_addr": !!int |-
+        54655
+      "target_addr": !!int |-
+        23491
     "translated": !!null |-
       null
   "5c15":
@@ -40,9 +44,11 @@
       \nおれが 前に行ったときには まだ\nそのショックで 寝込んでたんだけど\n今は もう店を やってるんだろ？"
     "original_byte_length": !!int |-
       372
-    "reference_addrs":
-    - !!int |-
-      54664
+    "references":
+    - "source_addr": !!int |-
+        54664
+      "target_addr": !!int |-
+        23573
     "translated": !!null |-
       null
   "5d89":
@@ -64,9 +70,11 @@
       よし 村の者を連れて 手伝いに行こう。ぼうず、わざわざ すまなかったな。
     "original_byte_length": !!int |-
       298
-    "reference_addrs":
-    - !!int |-
-      54673
+    "references":
+    - "source_addr": !!int |-
+        54673
+      "target_addr": !!int |-
+        23945
     "translated": !!null |-
       null
   "5eb3":
@@ -79,9 +87,11 @@
       スライムが 畑を荒して 困ってるだ。
     "original_byte_length": !!int |-
       40
-    "reference_addrs":
-    - !!int |-
-      54682
+    "references":
+    - "source_addr": !!int |-
+        54682
+      "target_addr": !!int |-
+        24243
     "translated": !!null |-
       null
   "5edb":
@@ -109,9 +119,11 @@
       早く 鉱山が 復旧すればいいけど。
     "original_byte_length": !!int |-
       447
-    "reference_addrs":
-    - !!int |-
-      54691
+    "references":
+    - "source_addr": !!int |-
+        54691
+      "target_addr": !!int |-
+        24283
     "translated": !!null |-
       null
   "609a":
@@ -153,9 +165,11 @@
       おれのことを あまり 言いふらすなよ。
     "original_byte_length": !!int |-
       493
-    "reference_addrs":
-    - !!int |-
-      54700
+    "references":
+    - "source_addr": !!int |-
+        54700
+      "target_addr": !!int |-
+        24730
     "translated": !!null |-
       null
   "6287":
@@ -170,9 +184,11 @@
       \ もうすぐ１６才に\nなられるのですなぁ ･ ･ ･<END>\n<LOC6424>王子、りっぱな国王と なるためにも\n世界中の いろいろな物を じっくりと見てきてください。"
     "original_byte_length": !!int |-
       500
-    "reference_addrs":
-    - !!int |-
-      54730
+    "references":
+    - "source_addr": !!int |-
+        54730
+      "target_addr": !!int |-
+        25223
     "translated": !!null |-
       null
 "note": ""

@@ -14,7 +14,7 @@
       <PAGE>
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "0001":
@@ -33,7 +33,7 @@
       <PAGE>
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "0002":
@@ -53,7 +53,7 @@
       <PAGE>
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "0003":
@@ -74,7 +74,7 @@
       <PAGE>
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "0004":
@@ -92,7 +92,7 @@
       <PAGE>
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
 "note": ""

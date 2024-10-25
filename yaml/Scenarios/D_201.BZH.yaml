@@ -8,9 +8,11 @@
       キャーーーーッ
     "original_byte_length": !!int |-
       15
-    "reference_addrs":
-    - !!int |-
-      54782
+    "references":
+    - "source_addr": !!int |-
+        54782
+      "target_addr": !!int |-
+        23871
     "translated": !!null |-
       null
   "5d4e":
@@ -37,9 +39,11 @@
       よしっ おれたちに まかせな。
     "original_byte_length": !!int |-
       196
-    "reference_addrs":
-    - !!int |-
-      54819
+    "references":
+    - "source_addr": !!int |-
+        54819
+      "target_addr": !!int |-
+        23886
     "translated": !!null |-
       null
   "5e12":
@@ -235,9 +239,11 @@
       あるはずだよ。
     "original_byte_length": !!int |-
       3044
-    "reference_addrs":
-    - !!int |-
-      54849
+    "references":
+    - "source_addr": !!int |-
+        54849
+      "target_addr": !!int |-
+        24082
     "translated": !!null |-
       null
   "69f6":
@@ -252,9 +258,11 @@
       ただじゃ すまさないぞ !!
     "original_byte_length": !!int |-
       93
-    "reference_addrs":
-    - !!int |-
-      54863
+    "references":
+    - "source_addr": !!int |-
+        54863
+      "target_addr": !!int |-
+        27126
     "translated": !!null |-
       null
 "note": ""

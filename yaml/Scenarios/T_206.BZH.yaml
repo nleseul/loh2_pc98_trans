@@ -80,9 +80,11 @@
       恥じゃ ･ ･ ･
     "original_byte_length": !!int |-
       1781
-    "reference_addrs":
-    - !!int |-
-      54635
+    "references":
+    - "source_addr": !!int |-
+        54635
+      "target_addr": !!int |-
+        23401
     "translated": !!null |-
       null
 "note": ""

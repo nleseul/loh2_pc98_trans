@@ -48,9 +48,11 @@
       危険ですから 気をつけてください。
     "original_byte_length": !!int |-
       709
-    "reference_addrs":
-    - !!int |-
-      54659
+    "references":
+    - "source_addr": !!int |-
+        54659
+      "target_addr": !!int |-
+        23361
     "translated": !!null |-
       null
   "5e06":
@@ -63,9 +65,11 @@
       エリオンさま !!
     "original_byte_length": !!int |-
       25
-    "reference_addrs":
-    - !!int |-
-      54693
+    "references":
+    - "source_addr": !!int |-
+        54693
+      "target_addr": !!int |-
+        24070
     "translated": !!null |-
       null
 "note": ""

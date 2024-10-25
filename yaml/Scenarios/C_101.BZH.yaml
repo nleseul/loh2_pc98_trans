@@ -118,9 +118,11 @@
       気をつけて むりを せぬようにな。
     "original_byte_length": !!int |-
       2198
-    "reference_addrs":
-    - !!int |-
-      54649
+    "references":
+    - "source_addr": !!int |-
+        54649
+      "target_addr": !!int |-
+        23119
     "translated": !!null |-
       null
   "62e5":
@@ -142,9 +144,11 @@
       なってください。
     "original_byte_length": !!int |-
       278
-    "reference_addrs":
-    - !!int |-
-      54658
+    "references":
+    - "source_addr": !!int |-
+        54658
+      "target_addr": !!int |-
+        25317
     "translated": !!null |-
       null
   "63fb":
@@ -158,9 +162,11 @@
       後継ぎがいらっしゃらないんです。
     "original_byte_length": !!int |-
       68
-    "reference_addrs":
-    - !!int |-
-      54667
+    "references":
+    - "source_addr": !!int |-
+        54667
+      "target_addr": !!int |-
+        25595
     "translated": !!null |-
       null
   "643f":
@@ -175,9 +181,11 @@
       決まらないんですよ。
     "original_byte_length": !!int |-
       92
-    "reference_addrs":
-    - !!int |-
-      54676
+    "references":
+    - "source_addr": !!int |-
+        54676
+      "target_addr": !!int |-
+        25663
     "translated": !!null |-
       null
   "649b":
@@ -193,9 +201,11 @@
       <LOC64f6>ああ わが国にも あなたさまのような立派な後継ぎがいたら ･ ･ ･
     "original_byte_length": !!int |-
       152
-    "reference_addrs":
-    - !!int |-
-      54685
+    "references":
+    - "source_addr": !!int |-
+        54685
+      "target_addr": !!int |-
+        25755
     "translated": !!null |-
       null
   "6533":
@@ -219,9 +229,11 @@
       飛べたら 気持ち いいでしょうね。
     "original_byte_length": !!int |-
       304
-    "reference_addrs":
-    - !!int |-
-      54694
+    "references":
+    - "source_addr": !!int |-
+        54694
+      "target_addr": !!int |-
+        25907
     "translated": !!null |-
       null
 "note": ""

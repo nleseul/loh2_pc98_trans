@@ -51,9 +51,11 @@
       行くよ !!
     "original_byte_length": !!int |-
       724
-    "reference_addrs":
-    - !!int |-
-      54663
+    "references":
+    - "source_addr": !!int |-
+        54663
+      "target_addr": !!int |-
+        23671
     "translated": !!null |-
       null
   "5f4b":
@@ -82,9 +84,11 @@
       詳しいことは 後だ、行くぞ。
     "original_byte_length": !!int |-
       261
-    "reference_addrs":
-    - !!int |-
-      54767
+    "references":
+    - "source_addr": !!int |-
+        54767
+      "target_addr": !!int |-
+        24395
     "translated": !!null |-
       null
   "6050":
@@ -97,9 +101,11 @@
       お待ち !!
     "original_byte_length": !!int |-
       20
-    "reference_addrs":
-    - !!int |-
-      54781
+    "references":
+    - "source_addr": !!int |-
+        54781
+      "target_addr": !!int |-
+        24656
     "translated": !!null |-
       null
   "6064":
@@ -121,9 +127,11 @@
       そいつを 戻してきたらね。
     "original_byte_length": !!int |-
       207
-    "reference_addrs":
-    - !!int |-
-      54819
+    "references":
+    - "source_addr": !!int |-
+        54819
+      "target_addr": !!int |-
+        24676
     "translated": !!null |-
       null
   "6133":
@@ -143,9 +151,11 @@
       よし 今のうちだ 早く来い !!
     "original_byte_length": !!int |-
       121
-    "reference_addrs":
-    - !!int |-
-      54938
+    "references":
+    - "source_addr": !!int |-
+        54938
+      "target_addr": !!int |-
+        24883
     "translated": !!null |-
       null
   "61ac":
@@ -184,9 +194,11 @@
       くらえ～ !!
     "original_byte_length": !!int |-
       418
-    "reference_addrs":
-    - !!int |-
-      54861
+    "references":
+    - "source_addr": !!int |-
+        54861
+      "target_addr": !!int |-
+        25004
     "translated": !!null |-
       null
 "note": ""

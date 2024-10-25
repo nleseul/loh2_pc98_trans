@@ -12,9 +12,11 @@
       いいやつなんだけどな。
     "original_byte_length": !!int |-
       107
-    "reference_addrs":
-    - !!int |-
-      54638
+    "references":
+    - "source_addr": !!int |-
+        54638
+      "target_addr": !!int |-
+        23364
     "translated": !!null |-
       null
   "5baf":
@@ -34,9 +36,11 @@
       わっはっはっは。
     "original_byte_length": !!int |-
       195
-    "reference_addrs":
-    - !!int |-
-      54647
+    "references":
+    - "source_addr": !!int |-
+        54647
+      "target_addr": !!int |-
+        23471
     "translated": !!null |-
       null
   "5c72":
@@ -51,9 +55,11 @@
       文句あっか ？
     "original_byte_length": !!int |-
       66
-    "reference_addrs":
-    - !!int |-
-      54656
+    "references":
+    - "source_addr": !!int |-
+        54656
+      "target_addr": !!int |-
+        23666
     "translated": !!null |-
       null
   "5cb4":
@@ -69,9 +75,11 @@
       ふれさせないぜ。
     "original_byte_length": !!int |-
       106
-    "reference_addrs":
-    - !!int |-
-      54665
+    "references":
+    - "source_addr": !!int |-
+        54665
+      "target_addr": !!int |-
+        23732
     "translated": !!null |-
       null
   "5d1e":
@@ -87,9 +95,11 @@
       はくじょうな人たちか。
     "original_byte_length": !!int |-
       130
-    "reference_addrs":
-    - !!int |-
-      54674
+    "references":
+    - "source_addr": !!int |-
+        54674
+      "target_addr": !!int |-
+        23838
     "translated": !!null |-
       null
   "5da0":
@@ -103,9 +113,11 @@
       顔は知ってるけど 思い出せないな。
     "original_byte_length": !!int |-
       59
-    "reference_addrs":
-    - !!int |-
-      54683
+    "references":
+    - "source_addr": !!int |-
+        54683
+      "target_addr": !!int |-
+        23968
     "translated": !!null |-
       null
   "5ddb":
@@ -121,9 +133,11 @@
       もう たいへんだったよ。
     "original_byte_length": !!int |-
       116
-    "reference_addrs":
-    - !!int |-
-      54692
+    "references":
+    - "source_addr": !!int |-
+        54692
+      "target_addr": !!int |-
+        24027
     "translated": !!null |-
       null
   "5e4f":
@@ -140,9 +154,11 @@
       することになったの？
     "original_byte_length": !!int |-
       97
-    "reference_addrs":
-    - !!int |-
-      54701
+    "references":
+    - "source_addr": !!int |-
+        54701
+      "target_addr": !!int |-
+        24143
     "translated": !!null |-
       null
   "5eb0":
@@ -160,9 +176,11 @@
       なっていた人と まちがえたのよ。
     "original_byte_length": !!int |-
       160
-    "reference_addrs":
-    - !!int |-
-      54710
+    "references":
+    - "source_addr": !!int |-
+        54710
+      "target_addr": !!int |-
+        24240
     "translated": !!null |-
       null
   "5f50":
@@ -237,9 +255,11 @@
       きいてみよう。
     "original_byte_length": !!int |-
       1288
-    "reference_addrs":
-    - !!int |-
-      54724
+    "references":
+    - "source_addr": !!int |-
+        54724
+      "target_addr": !!int |-
+        24400
     "translated": !!null |-
       null
 "note": ""

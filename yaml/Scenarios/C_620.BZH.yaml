@@ -9,9 +9,11 @@
       さあ みんな 行こう。
     "original_byte_length": !!int |-
       24
-    "reference_addrs":
-    - !!int |-
-      55152
+    "references":
+    - "source_addr": !!int |-
+        55152
+      "target_addr": !!int |-
+        24795
     "translated": !!null |-
       null
   "60f3":
@@ -26,9 +28,11 @@
       ちょっと 休ませてくれ。
     "original_byte_length": !!int |-
       80
-    "reference_addrs":
-    - !!int |-
-      54917
+    "references":
+    - "source_addr": !!int |-
+        54917
+      "target_addr": !!int |-
+        24819
     "translated": !!null |-
       null
   "6143":
@@ -87,9 +91,11 @@
       止めてみてくれ。
     "original_byte_length": !!int |-
       813
-    "reference_addrs":
-    - !!int |-
-      55232
+    "references":
+    - "source_addr": !!int |-
+        55232
+      "target_addr": !!int |-
+        24899
     "translated": !!null |-
       null
   "6470":
@@ -103,9 +109,11 @@
       なかなか 突破できないんです。
     "original_byte_length": !!int |-
       71
-    "reference_addrs":
-    - !!int |-
-      55052
+    "references":
+    - "source_addr": !!int |-
+        55052
+      "target_addr": !!int |-
+        25712
     "translated": !!null |-
       null
   "64b7":
@@ -120,9 +128,11 @@
       何とかしなければ。
     "original_byte_length": !!int |-
       81
-    "reference_addrs":
-    - !!int |-
-      55061
+    "references":
+    - "source_addr": !!int |-
+        55061
+      "target_addr": !!int |-
+        25783
     "translated": !!null |-
       null
   "6508":
@@ -135,9 +145,11 @@
       変換炉を止めてみてくれ。
     "original_byte_length": !!int |-
       54
-    "reference_addrs":
-    - !!int |-
-      55086
+    "references":
+    - "source_addr": !!int |-
+        55086
+      "target_addr": !!int |-
+        25864
     "translated": !!null |-
       null
   "653e":
@@ -153,13 +165,19 @@
       テクニカの部屋は すぐ近くなのだ。
     "original_byte_length": !!int |-
       129
-    "reference_addrs":
-    - !!int |-
-      55104
-    - !!int |-
-      55113
-    - !!int |-
-      55095
+    "references":
+    - "source_addr": !!int |-
+        55095
+      "target_addr": !!int |-
+        25918
+    - "source_addr": !!int |-
+        55104
+      "target_addr": !!int |-
+        25924
+    - "source_addr": !!int |-
+        55113
+      "target_addr": !!int |-
+        25948
     "translated": !!null |-
       null
   "65bf":
@@ -175,9 +193,11 @@
       君たちの力で 何とかしてくれぬか？
     "original_byte_length": !!int |-
       116
-    "reference_addrs":
-    - !!int |-
-      55122
+    "references":
+    - "source_addr": !!int |-
+        55122
+      "target_addr": !!int |-
+        26047
     "translated": !!null |-
       null
   "6633":
@@ -190,9 +210,11 @@
       宝箱の中には<RET>
     "original_byte_length": !!int |-
       36
-    "reference_addrs":
-    - !!int |-
-      54768
+    "references":
+    - "source_addr": !!int |-
+        54768
+      "target_addr": !!int |-
+        26163
     "translated": !!null |-
       null
   "666c":
@@ -204,7 +226,7 @@
       <C_YELLOW>テクニカのマスター<C_NONE><RET_N>
     "original_byte_length": !!int |-
       21
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
 "note": ""

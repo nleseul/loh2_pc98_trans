@@ -13,9 +13,11 @@
       作戦は中止ね イシュタに戻るわよ。
     "original_byte_length": !!int |-
       120
-    "reference_addrs":
-    - !!int |-
-      54829
+    "references":
+    - "source_addr": !!int |-
+        54829
+      "target_addr": !!int |-
+        23777
     "translated": !!null |-
       null
 "note": ""

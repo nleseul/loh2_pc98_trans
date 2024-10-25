@@ -17,9 +17,11 @@
       ねえな。<LOC5d96>
     "original_byte_length": !!int |-
       150
-    "reference_addrs":
-    - !!int |-
-      54813
+    "references":
+    - "source_addr": !!int |-
+        54813
+      "target_addr": !!int |-
+        23809
     "translated": !!null |-
       null
   "5d97":
@@ -33,9 +35,11 @@
       まだまだ 現役だよ。
     "original_byte_length": !!int |-
       60
-    "reference_addrs":
-    - !!int |-
-      54845
+    "references":
+    - "source_addr": !!int |-
+        54845
+      "target_addr": !!int |-
+        23959
     "translated": !!null |-
       null
   "5dd3":
@@ -62,9 +66,11 @@
       こういう所を 掘れば いいんじゃ。
     "original_byte_length": !!int |-
       266
-    "reference_addrs":
-    - !!int |-
-      54859
+    "references":
+    - "source_addr": !!int |-
+        54859
+      "target_addr": !!int |-
+        24019
     "translated": !!null |-
       null
   "5edd":
@@ -78,9 +84,11 @@
       これが わしの最後の仕事じゃ。
     "original_byte_length": !!int |-
       64
-    "reference_addrs":
-    - !!int |-
-      54822
+    "references":
+    - "source_addr": !!int |-
+        54822
+      "target_addr": !!int |-
+        24285
     "translated": !!null |-
       null
   "5f1d":
@@ -101,9 +109,11 @@
       あげなされ。
     "original_byte_length": !!int |-
       141
-    "reference_addrs":
-    - !!int |-
-      54836
+    "references":
+    - "source_addr": !!int |-
+        54836
+      "target_addr": !!int |-
+        24349
     "translated": !!null |-
       null
 "note": ""

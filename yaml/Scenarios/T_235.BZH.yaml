@@ -10,9 +10,11 @@
       別荘の管理をしてるだよ。
     "original_byte_length": !!int |-
       62
-    "reference_addrs":
-    - !!int |-
-      54645
+    "references":
+    - "source_addr": !!int |-
+        54645
+      "target_addr": !!int |-
+        23206
     "translated": !!null |-
       null
   "5ae4":
@@ -27,9 +29,11 @@
       いいんですって。
     "original_byte_length": !!int |-
       84
-    "reference_addrs":
-    - !!int |-
-      54654
+    "references":
+    - "source_addr": !!int |-
+        54654
+      "target_addr": !!int |-
+        23268
     "translated": !!null |-
       null
   "5b38":
@@ -70,9 +74,11 @@
       ところでも あったのですか？
     "original_byte_length": !!int |-
       617
-    "reference_addrs":
-    - !!int |-
-      54669
+    "references":
+    - "source_addr": !!int |-
+        54669
+      "target_addr": !!int |-
+        23352
     "translated": !!null |-
       null
   "5da1":
@@ -95,9 +101,11 @@
       かわいがってくださいませ。
     "original_byte_length": !!int |-
       281
-    "reference_addrs":
-    - !!int |-
-      54678
+    "references":
+    - "source_addr": !!int |-
+        54678
+      "target_addr": !!int |-
+        23969
     "translated": !!null |-
       null
   "5eba":
@@ -121,9 +129,11 @@
       お考え直したほうが よいのでは？
     "original_byte_length": !!int |-
       313
-    "reference_addrs":
-    - !!int |-
-      54687
+    "references":
+    - "source_addr": !!int |-
+        54687
+      "target_addr": !!int |-
+        24250
     "translated": !!null |-
       null
   "5ff3":
@@ -139,9 +149,11 @@
       だいじょうぶなんだろうか？
     "original_byte_length": !!int |-
       158
-    "reference_addrs":
-    - !!int |-
-      54741
+    "references":
+    - "source_addr": !!int |-
+        54741
+      "target_addr": !!int |-
+        24563
     "translated": !!null |-
       null
   "6091":
@@ -156,9 +168,11 @@
       じゃましねえでくれ。
     "original_byte_length": !!int |-
       72
-    "reference_addrs":
-    - !!int |-
-      54750
+    "references":
+    - "source_addr": !!int |-
+        54750
+      "target_addr": !!int |-
+        24721
     "translated": !!null |-
       null
   "60d9":
@@ -176,9 +190,11 @@
       きっと そのせいよ。
     "original_byte_length": !!int |-
       134
-    "reference_addrs":
-    - !!int |-
-      54759
+    "references":
+    - "source_addr": !!int |-
+        54759
+      "target_addr": !!int |-
+        24793
     "translated": !!null |-
       null
   "615f":
@@ -197,9 +213,11 @@
       いいんだけど ･ ･ ･<LOC6201>
     "original_byte_length": !!int |-
       163
-    "reference_addrs":
-    - !!int |-
-      54768
+    "references":
+    - "source_addr": !!int |-
+        54768
+      "target_addr": !!int |-
+        24927
     "translated": !!null |-
       null
   "6202":
@@ -220,9 +238,11 @@
       お嬢さまは どうなさったのですか？
     "original_byte_length": !!int |-
       245
-    "reference_addrs":
-    - !!int |-
-      54777
+    "references":
+    - "source_addr": !!int |-
+        54777
+      "target_addr": !!int |-
+        25090
     "translated": !!null |-
       null
 "note": ""

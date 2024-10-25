@@ -10,9 +10,11 @@
       　　　　　　　　完
     "original_byte_length": !!int |-
       50
-    "reference_addrs":
-    - !!int |-
-      54620
+    "references":
+    - "source_addr": !!int |-
+        54620
+      "target_addr": !!int |-
+        23954
     "translated": !!null |-
       null
   "5e04":
@@ -274,9 +276,11 @@
       おぉー !!
     "original_byte_length": !!int |-
       4748
-    "reference_addrs":
-    - !!int |-
-      54862
+    "references":
+    - "source_addr": !!int |-
+        54862
+      "target_addr": !!int |-
+        24068
     "translated": !!null |-
       null
 "note": ""

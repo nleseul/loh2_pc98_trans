@@ -13,9 +13,11 @@
       <LOC5a64>お気をつけて いってらっしゃいませ。
     "original_byte_length": !!int |-
       154
-    "reference_addrs":
-    - !!int |-
-      54644
+    "references":
+    - "source_addr": !!int |-
+        54644
+      "target_addr": !!int |-
+        23022
     "translated": !!null |-
       null
   "5a88":
@@ -27,7 +29,7 @@
       まだ <RET>
     "original_byte_length": !!int |-
       6
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
 "note": ""

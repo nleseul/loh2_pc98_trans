@@ -8,7 +8,7 @@
       何もない
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": |-
       Nothing
   "8b4f":
@@ -20,7 +20,7 @@
       ナイフ
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": |-
       Knife
   "8b63":
@@ -32,7 +32,7 @@
       小型のつるぎ
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": |-
       Short Sword
   "8b77":
@@ -44,7 +44,7 @@
       青銅のつるぎ
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": |-
       Copper Sword
   "8b8b":
@@ -56,7 +56,7 @@
       鉄のつるぎ
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": |-
       Iron Sword
   "8b9f":
@@ -68,7 +68,7 @@
       鉄球こんぼう
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "8bb3":
@@ -80,7 +80,7 @@
       強者のやり
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "8bc7":
@@ -92,7 +92,7 @@
       必殺のつるぎ
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "8bdb":
@@ -104,7 +104,7 @@
       大地のおの
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "8bef":
@@ -116,7 +116,7 @@
       戦士のつるぎ
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "8c03":
@@ -128,7 +128,7 @@
       勇者のつるぎ
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "8c17":
@@ -140,7 +140,7 @@
       騎士のやり
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "8c2b":
@@ -152,7 +152,7 @@
       撃破のつるぎ
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "8c3f":
@@ -164,7 +164,7 @@
       理力のつるぎ
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "8c53":
@@ -176,7 +176,7 @@
       正義のつるぎ
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "8c67":
@@ -188,7 +188,7 @@
       ドラゴンの剣
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "8c7b":
@@ -200,7 +200,7 @@
       太陽の聖剣
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "8c8f":
@@ -212,7 +212,7 @@
       布の服
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": |-
       Clothes
   "8ca3":
@@ -224,7 +224,7 @@
       革のヨロイ
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "8cb7":
@@ -236,7 +236,7 @@
       鉄のヨロイ
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "8ccb":
@@ -248,7 +248,7 @@
       はがねのヨロイ
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "8cdf":
@@ -260,7 +260,7 @@
       不死身のヨロイ
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "8cf3":
@@ -272,7 +272,7 @@
       バトルスーツ
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "8d07":
@@ -284,7 +284,7 @@
       理力のヨロイ
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "8d1b":
@@ -296,7 +296,7 @@
       自由のヨロイ
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "8d2f":
@@ -308,7 +308,7 @@
       ドラゴンの鎧
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "8d43":
@@ -320,7 +320,7 @@
       革のたて
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "8d57":
@@ -332,7 +332,7 @@
       鉄のたて
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "8d6b":
@@ -344,7 +344,7 @@
       はがねのたて
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "8d7f":
@@ -356,7 +356,7 @@
       無敵のたて
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "8d93":
@@ -368,7 +368,7 @@
       いにしえのたて
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "8da7":
@@ -380,7 +380,7 @@
       理力のたて
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "8dbb":
@@ -392,7 +392,7 @@
       希望のたて
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "8dcf":
@@ -404,7 +404,7 @@
       ドラゴンのたて
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "8de3":
@@ -416,7 +416,7 @@
       炎のやり
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "8df7":
@@ -428,7 +428,7 @@
       回復のヨロイ
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "8e0b":
@@ -440,7 +440,7 @@
       光の杖
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "8e1f":
@@ -452,7 +452,7 @@
       いかづちの杖
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "8e33":
@@ -464,7 +464,7 @@
       シナリオ専用
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "8e47":
@@ -476,7 +476,7 @@
       災害のお守り
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "8e5b":
@@ -488,7 +488,7 @@
       切符
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "8e6f":
@@ -500,7 +500,7 @@
       戦士の笛
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "8e83":
@@ -512,7 +512,7 @@
       キノコの王様
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "8e97":
@@ -524,7 +524,7 @@
       密造酒
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "8eab":
@@ -536,7 +536,7 @@
       バクヤク
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "8ebf":
@@ -548,7 +548,7 @@
       ワプの翼
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "8ed3":
@@ -560,7 +560,7 @@
       ヨシュアの鏡
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "8ee7":
@@ -572,7 +572,7 @@
       ビスのキノコ
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "8efb":
@@ -584,7 +584,7 @@
       レスの葉
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "8f0f":
@@ -596,7 +596,7 @@
       毒消し草
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "8f23":
@@ -608,7 +608,7 @@
       たいまつ
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "8f37":
@@ -620,7 +620,7 @@
       ヨシュアの目
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "8f4b":
@@ -632,7 +632,7 @@
       気付けぐすり
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "8f5f":
@@ -644,7 +644,7 @@
       聖なるつるぎ
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "8f73":
@@ -656,7 +656,7 @@
       聖なるヨロイ
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "8f87":
@@ -668,7 +668,7 @@
       聖なるたて
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "8f9b":
@@ -680,7 +680,7 @@
       ランプ
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "8faf":
@@ -692,7 +692,7 @@
       回復キノコ
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "8fc3":
@@ -704,7 +704,7 @@
       ビスナの実
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "8fd7":
@@ -716,7 +716,7 @@
       オプナのゆびわ
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "8feb":
@@ -728,7 +728,7 @@
       テュトのゆびわ
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "8fff":
@@ -740,7 +740,7 @@
       クイクのゆびわ
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "9013":
@@ -752,7 +752,7 @@
       幸運のゆびわ
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "9027":
@@ -764,7 +764,7 @@
       スペルのゆびわ
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "903b":
@@ -776,7 +776,7 @@
       レストナキノコ
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "904f":
@@ -788,7 +788,7 @@
       聖なる杖
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "9063":
@@ -800,7 +800,7 @@
       エリクサー
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "9077":
@@ -812,7 +812,7 @@
       氷の杖
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "908b":
@@ -824,7 +824,7 @@
       マホウのゆびわ
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "909f":
@@ -836,7 +836,7 @@
       賢者のゆびわ
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "90b3":
@@ -848,7 +848,7 @@
       眠りタケ
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "90c7":
@@ -860,7 +860,7 @@
       ？？？？？７１
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "90db":
@@ -872,7 +872,7 @@
       ？？？？？７２
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "90ef":
@@ -884,7 +884,7 @@
       ？？？？？７３
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "9103":
@@ -896,7 +896,7 @@
       ？？？？？７４
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "9117":
@@ -908,7 +908,7 @@
       ？？？？？７５
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "912b":
@@ -920,7 +920,7 @@
       カノンの親書
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "9139":
@@ -932,7 +932,7 @@
       ランケアの親書
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "9147":
@@ -944,7 +944,7 @@
       ハルパの親書
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "9155":
@@ -956,7 +956,7 @@
       マリスカの親書
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "9163":
@@ -968,7 +968,7 @@
       ギルモアの涙
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "9171":
@@ -980,7 +980,7 @@
       ギルモアの星
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "917f":
@@ -992,7 +992,7 @@
       アフル通行証
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "918d":
@@ -1004,7 +1004,7 @@
       イズー通行証
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "919b":
@@ -1016,7 +1016,7 @@
       キュベラ通行証
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "91a9":
@@ -1028,7 +1028,7 @@
       ウイル通行証
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "91b7":
@@ -1040,7 +1040,7 @@
       竜の涙
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "91c5":
@@ -1052,7 +1052,7 @@
       銀のプレート
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "91d3":
@@ -1064,7 +1064,7 @@
       杖のかけら
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "91e1":
@@ -1076,7 +1076,7 @@
       幅広のつるぎ
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "91ef":
@@ -1088,7 +1088,7 @@
       くさりかたびら
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "91fd":
@@ -1100,7 +1100,7 @@
       金のプレート
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "920b":
@@ -1112,7 +1112,7 @@
       ギルモアの虹
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "9219":
@@ -1124,7 +1124,7 @@
       銅のプレート
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "9227":
@@ -1136,7 +1136,7 @@
       不思議なマント
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "9235":
@@ -1148,7 +1148,7 @@
       不思議な箱
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "9243":
@@ -1160,7 +1160,7 @@
       ビキニ
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "9251":
@@ -1172,7 +1172,7 @@
       大笑い袋
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "925f":
@@ -1184,7 +1184,7 @@
       透視メガネ
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "926d":
@@ -1196,7 +1196,7 @@
       鉄アレイ
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "927b":
@@ -1208,7 +1208,7 @@
       ？？ＳＩＮ２５
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "9289":
@@ -1220,7 +1220,7 @@
       フレイアの微笑
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "9297":
@@ -1232,7 +1232,7 @@
       変換炉のカギ
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
 "note": ""

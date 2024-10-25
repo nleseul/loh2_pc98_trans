@@ -11,9 +11,11 @@
       さては レジスタンスだな。
     "original_byte_length": !!int |-
       79
-    "reference_addrs":
-    - !!int |-
-      54927
+    "references":
+    - "source_addr": !!int |-
+        54927
+      "target_addr": !!int |-
+        25307
     "translated": !!null |-
       null
 "note": ""

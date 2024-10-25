@@ -19,9 +19,11 @@
       こんなことが 起こるなんて ･ ･ ･
     "original_byte_length": !!int |-
       301
-    "reference_addrs":
-    - !!int |-
-      54653
+    "references":
+    - "source_addr": !!int |-
+        54653
+      "target_addr": !!int |-
+        23698
     "translated": !!null |-
       null
   "5dbf":
@@ -47,9 +49,11 @@
       私は ここの見回りを していたときにあんなに たくさんの武器を 集めてもどうせ使わないと 思っていたのです。でも さすがは セリオスさまですね。
     "original_byte_length": !!int |-
       542
-    "reference_addrs":
-    - !!int |-
-      54662
+    "references":
+    - "source_addr": !!int |-
+        54662
+      "target_addr": !!int |-
+        23999
     "translated": !!null |-
       null
   "5fdd":
@@ -64,9 +68,11 @@
       言われているんです。<IF_NOT0068><CALL603d>
     "original_byte_length": !!int |-
       96
-    "reference_addrs":
-    - !!int |-
-      54671
+    "references":
+    - "source_addr": !!int |-
+        54671
+      "target_addr": !!int |-
+        24541
     "translated": !!null |-
       null
   "603d":
@@ -81,7 +87,7 @@
       何か 協力したいと 思うのですが ･ ･<RET>
     "original_byte_length": !!int |-
       69
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "6082":
@@ -96,9 +102,11 @@
       <CONT>
     "original_byte_length": !!int |-
       55
-    "reference_addrs":
-    - !!int |-
-      54782
+    "references":
+    - "source_addr": !!int |-
+        54782
+      "target_addr": !!int |-
+        24706
     "translated": !!null |-
       null
   "60b9":
@@ -110,9 +118,11 @@
       <CLEAR>何を お預かりしましょう？<RET_N>
     "original_byte_length": !!int |-
       27
-    "reference_addrs":
-    - !!int |-
-      54856
+    "references":
+    - "source_addr": !!int |-
+        54856
+      "target_addr": !!int |-
+        24761
     "translated": !!null |-
       null
   "60d4":
@@ -124,9 +134,11 @@
       <CLEAR>何を お渡ししましょう？<RET_N>
     "original_byte_length": !!int |-
       25
-    "reference_addrs":
-    - !!int |-
-      54904
+    "references":
+    - "source_addr": !!int |-
+        54904
+      "target_addr": !!int |-
+        24788
     "translated": !!null |-
       null
   "60ed":
@@ -139,9 +151,11 @@
       いつでも おいでください。
     "original_byte_length": !!int |-
       56
-    "reference_addrs":
-    - !!int |-
-      54945
+    "references":
+    - "source_addr": !!int |-
+        54945
+      "target_addr": !!int |-
+        24813
     "translated": !!null |-
       null
   "6125":
@@ -156,9 +170,11 @@
       <RET>
     "original_byte_length": !!int |-
       58
-    "reference_addrs":
-    - !!int |-
-      54848
+    "references":
+    - "source_addr": !!int |-
+        54848
+      "target_addr": !!int |-
+        24869
     "translated": !!null |-
       null
   "615f":
@@ -173,9 +189,11 @@
       <RET>
     "original_byte_length": !!int |-
       59
-    "reference_addrs":
-    - !!int |-
-      54896
+    "references":
+    - "source_addr": !!int |-
+        54896
+      "target_addr": !!int |-
+        24927
     "translated": !!null |-
       null
   "619a":
@@ -190,9 +208,11 @@
       <RET>
     "original_byte_length": !!int |-
       55
-    "reference_addrs":
-    - !!int |-
-      54883
+    "references":
+    - "source_addr": !!int |-
+        54883
+      "target_addr": !!int |-
+        24986
     "translated": !!null |-
       null
   "61d1":
@@ -206,9 +226,11 @@
       <RET>
     "original_byte_length": !!int |-
       56
-    "reference_addrs":
-    - !!int |-
-      54939
+    "references":
+    - "source_addr": !!int |-
+        54939
+      "target_addr": !!int |-
+        25041
     "translated": !!null |-
       null
   "6209":
@@ -221,9 +243,11 @@
       宝箱の中には<RET>
     "original_byte_length": !!int |-
       36
-    "reference_addrs":
-    - !!int |-
-      54736
+    "references":
+    - "source_addr": !!int |-
+        54736
+      "target_addr": !!int |-
+        25097
     "translated": !!null |-
       null
 "note": ""

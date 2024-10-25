@@ -12,9 +12,11 @@
       向いているようじゃ。
     "original_byte_length": !!int |-
       132
-    "reference_addrs":
-    - !!int |-
-      54661
+    "references":
+    - "source_addr": !!int |-
+        54661
+      "target_addr": !!int |-
+        23236
     "translated": !!null |-
       null
   "5b48":
@@ -34,9 +36,11 @@
       増えてきてしまったというのに。<LOC5c1e>
     "original_byte_length": !!int |-
       215
-    "reference_addrs":
-    - !!int |-
-      54670
+    "references":
+    - "source_addr": !!int |-
+        54670
+      "target_addr": !!int |-
+        23368
     "translated": !!null |-
       null
   "5c1f":
@@ -53,9 +57,11 @@
       確かに まちがってない みたいだけどモンスターが 出てくるなんてねえ。<LOC5cc2>
     "original_byte_length": !!int |-
       164
-    "reference_addrs":
-    - !!int |-
-      54679
+    "references":
+    - "source_addr": !!int |-
+        54679
+      "target_addr": !!int |-
+        23583
     "translated": !!null |-
       null
   "5cc3":
@@ -77,9 +83,11 @@
       たくさん 出てきているそうです。
     "original_byte_length": !!int |-
       261
-    "reference_addrs":
-    - !!int |-
-      54688
+    "references":
+    - "source_addr": !!int |-
+        54688
+      "target_addr": !!int |-
+        23747
     "translated": !!null |-
       null
   "5dc8":
@@ -100,9 +108,11 @@
       <LOC5ec0>ロエル殿は 昔から ジェストンさまの相談役をされていた かたなのです。
     "original_byte_length": !!int |-
       316
-    "reference_addrs":
-    - !!int |-
-      54697
+    "references":
+    - "source_addr": !!int |-
+        54697
+      "target_addr": !!int |-
+        24008
     "translated": !!null |-
       null
   "5f04":
@@ -122,9 +132,11 @@
       しかたがありませんよ。
     "original_byte_length": !!int |-
       221
-    "reference_addrs":
-    - !!int |-
-      54706
+    "references":
+    - "source_addr": !!int |-
+        54706
+      "target_addr": !!int |-
+        24324
     "translated": !!null |-
       null
   "5fe1":
@@ -140,9 +152,11 @@
       ジェストンさまに 何か いいお考えがあるらしいですよ。
     "original_byte_length": !!int |-
       128
-    "reference_addrs":
-    - !!int |-
-      54715
+    "references":
+    - "source_addr": !!int |-
+        54715
+      "target_addr": !!int |-
+        24545
     "translated": !!null |-
       null
   "6061":
@@ -161,9 +175,11 @@
       あの人たちって たくさん 食べるから私たち たいへんだったの。
     "original_byte_length": !!int |-
       245
-    "reference_addrs":
-    - !!int |-
-      54724
+    "references":
+    - "source_addr": !!int |-
+        54724
+      "target_addr": !!int |-
+        24673
     "translated": !!null |-
       null
   "6156":
@@ -188,9 +204,11 @@
       しかたがなかったのよ。
     "original_byte_length": !!int |-
       316
-    "reference_addrs":
-    - !!int |-
-      54733
+    "references":
+    - "source_addr": !!int |-
+        54733
+      "target_addr": !!int |-
+        24918
     "translated": !!null |-
       null
 "note": ""

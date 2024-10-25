@@ -10,9 +10,11 @@
       　　　　　　　　完
     "original_byte_length": !!int |-
       47
-    "reference_addrs":
-    - !!int |-
-      54620
+    "references":
+    - "source_addr": !!int |-
+        54620
+      "target_addr": !!int |-
+        24092
     "translated": !!null |-
       null
   "5e8b":
@@ -70,9 +72,11 @@
       とりあえず イシュタに行こうぜ。
     "original_byte_length": !!int |-
       698
-    "reference_addrs":
-    - !!int |-
-      54873
+    "references":
+    - "source_addr": !!int |-
+        54873
+      "target_addr": !!int |-
+        24203
     "translated": !!null |-
       null
 "note": ""

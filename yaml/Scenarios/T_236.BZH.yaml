@@ -10,9 +10,11 @@
       別荘の管理をしてるだよ。
     "original_byte_length": !!int |-
       62
-    "reference_addrs":
-    - !!int |-
-      54633
+    "references":
+    - "source_addr": !!int |-
+        54633
+      "target_addr": !!int |-
+        23284
     "translated": !!null |-
       null
   "5b32":
@@ -27,9 +29,11 @@
       いいんですって。
     "original_byte_length": !!int |-
       84
-    "reference_addrs":
-    - !!int |-
-      54642
+    "references":
+    - "source_addr": !!int |-
+        54642
+      "target_addr": !!int |-
+        23346
     "translated": !!null |-
       null
   "5b86":
@@ -144,9 +148,11 @@
       めんどくせえから ほっとこうぜ。<LOC627f>
     "original_byte_length": !!int |-
       1786
-    "reference_addrs":
-    - !!int |-
-      54657
+    "references":
+    - "source_addr": !!int |-
+        54657
+      "target_addr": !!int |-
+        23430
     "translated": !!null |-
       null
   "6280":
@@ -166,9 +172,11 @@
       せっかくのチャンスですからね。
     "original_byte_length": !!int |-
       200
-    "reference_addrs":
-    - !!int |-
-      54666
+    "references":
+    - "source_addr": !!int |-
+        54666
+      "target_addr": !!int |-
+        25216
     "translated": !!null |-
       null
   "6348":
@@ -193,9 +201,11 @@
       いらしたものですから。
     "original_byte_length": !!int |-
       351
-    "reference_addrs":
-    - !!int |-
-      54675
+    "references":
+    - "source_addr": !!int |-
+        54675
+      "target_addr": !!int |-
+        25416
     "translated": !!null |-
       null
   "64a7":
@@ -208,9 +218,11 @@
       お嬢さま お元気そうで 安心しました。やっぱり 誘拐じゃなかったんですね。
     "original_byte_length": !!int |-
       77
-    "reference_addrs":
-    - !!int |-
-      54729
+    "references":
+    - "source_addr": !!int |-
+        54729
+      "target_addr": !!int |-
+        25767
     "translated": !!null |-
       null
   "64f4":
@@ -225,9 +237,11 @@
       じゃましねえでくれ。
     "original_byte_length": !!int |-
       72
-    "reference_addrs":
-    - !!int |-
-      54738
+    "references":
+    - "source_addr": !!int |-
+        54738
+      "target_addr": !!int |-
+        25844
     "translated": !!null |-
       null
   "653c":
@@ -241,9 +255,11 @@
       みんな 心配していたのですよ。
     "original_byte_length": !!int |-
       69
-    "reference_addrs":
-    - !!int |-
-      54747
+    "references":
+    - "source_addr": !!int |-
+        54747
+      "target_addr": !!int |-
+        25916
     "translated": !!null |-
       null
   "6581":
@@ -258,9 +274,11 @@
       それだけが 心配でした。
     "original_byte_length": !!int |-
       90
-    "reference_addrs":
-    - !!int |-
-      54756
+    "references":
+    - "source_addr": !!int |-
+        54756
+      "target_addr": !!int |-
+        25985
     "translated": !!null |-
       null
   "65db":
@@ -275,9 +293,11 @@
       どうなりましたか？
     "original_byte_length": !!int |-
       81
-    "reference_addrs":
-    - !!int |-
-      54765
+    "references":
+    - "source_addr": !!int |-
+        54765
+      "target_addr": !!int |-
+        26075
     "translated": !!null |-
       null
 "note": ""

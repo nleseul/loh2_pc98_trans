@@ -17,9 +17,11 @@
       セリオスさまの おかげですよね。
     "original_byte_length": !!int |-
       249
-    "reference_addrs":
-    - !!int |-
-      54633
+    "references":
+    - "source_addr": !!int |-
+        54633
+      "target_addr": !!int |-
+        23106
     "translated": !!null |-
       null
   "5b3b":
@@ -42,9 +44,11 @@
       出てこなくなったそうなんです。
     "original_byte_length": !!int |-
       305
-    "reference_addrs":
-    - !!int |-
-      54642
+    "references":
+    - "source_addr": !!int |-
+        54642
+      "target_addr": !!int |-
+        23355
     "translated": !!null |-
       null
   "5c6c":
@@ -72,9 +76,11 @@
       あったのでしょうか？
     "original_byte_length": !!int |-
       395
-    "reference_addrs":
-    - !!int |-
-      54651
+    "references":
+    - "source_addr": !!int |-
+        54651
+      "target_addr": !!int |-
+        23660
     "translated": !!null |-
       null
   "5df7":
@@ -91,9 +97,11 @@
       お作りいたしましょうか？
     "original_byte_length": !!int |-
       114
-    "reference_addrs":
-    - !!int |-
-      54660
+    "references":
+    - "source_addr": !!int |-
+        54660
+      "target_addr": !!int |-
+        24055
     "translated": !!null |-
       null
   "5e69":
@@ -108,9 +116,11 @@
       変わっているでしょ？
     "original_byte_length": !!int |-
       86
-    "reference_addrs":
-    - !!int |-
-      54669
+    "references":
+    - "source_addr": !!int |-
+        54669
+      "target_addr": !!int |-
+        24169
     "translated": !!null |-
       null
 "note": ""

@@ -9,9 +9,11 @@
       アトラス !!
     "original_byte_length": !!int |-
       27
-    "reference_addrs":
-    - !!int |-
-      54781
+    "references":
+    - "source_addr": !!int |-
+        54781
+      "target_addr": !!int |-
+        24534
     "translated": !!null |-
       null
   "5ff1":
@@ -24,9 +26,11 @@
       父上 !!
     "original_byte_length": !!int |-
       11
-    "reference_addrs":
-    - !!int |-
-      54815
+    "references":
+    - "source_addr": !!int |-
+        54815
+      "target_addr": !!int |-
+        24561
     "translated": !!null |-
       null
   "5ffc":
@@ -40,9 +44,11 @@
       私たちも すぐに あとを追う。<Xf6c1da><CALL6071>
     "original_byte_length": !!int |-
       117
-    "reference_addrs":
-    - !!int |-
-      54841
+    "references":
+    - "source_addr": !!int |-
+        54841
+      "target_addr": !!int |-
+        24572
     "translated": !!null |-
       null
   "6071":
@@ -61,7 +67,7 @@
       完成したそうだ。<RET>
     "original_byte_length": !!int |-
       124
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
 "note": ""

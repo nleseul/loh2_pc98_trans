@@ -8,7 +8,7 @@
       ポイズンガードA<RET>
     "original_byte_length": !!int |-
       16
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "71b0":
@@ -20,7 +20,7 @@
       ポイズンガードB<RET>
     "original_byte_length": !!int |-
       16
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "71f0":
@@ -32,7 +32,7 @@
       Ｍ２２９Ｃ<RET>
     "original_byte_length": !!int |-
       11
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "7230":
@@ -44,7 +44,7 @@
       Ｍ２２９Ｄ<RET>
     "original_byte_length": !!int |-
       11
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "740c":
@@ -56,9 +56,11 @@
       ポイズンガードが現れた。<RET_N>
     "original_byte_length": !!int |-
       25
-    "reference_addrs":
-    - !!int |-
-      61000
+    "references":
+    - "source_addr": !!int |-
+        61000
+      "target_addr": !!int |-
+        29708
     "translated": !!null |-
       null
   "7454":
@@ -70,9 +72,11 @@
       <ACTOR>は毒ガスを吸い込んだ。<RET_PAGE>
     "original_byte_length": !!int |-
       24
-    "reference_addrs":
-    - !!int |-
-      61319
+    "references":
+    - "source_addr": !!int |-
+        61319
+      "target_addr": !!int |-
+        29780
     "translated": !!null |-
       null
 "note": ""

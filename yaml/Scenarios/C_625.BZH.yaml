@@ -39,9 +39,11 @@
       気をつけよう。
     "original_byte_length": !!int |-
       508
-    "reference_addrs":
-    - !!int |-
-      54869
+    "references":
+    - "source_addr": !!int |-
+        54869
+      "target_addr": !!int |-
+        24547
     "translated": !!null |-
       null
   "61df":
@@ -54,9 +56,11 @@
       宝箱の中には<RET>
     "original_byte_length": !!int |-
       36
-    "reference_addrs":
-    - !!int |-
-      54910
+    "references":
+    - "source_addr": !!int |-
+        54910
+      "target_addr": !!int |-
+        25055
     "translated": !!null |-
       null
 "note": ""

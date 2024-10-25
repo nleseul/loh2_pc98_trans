@@ -46,9 +46,11 @@
       がんばってくれたまえ。
     "original_byte_length": !!int |-
       870
-    "reference_addrs":
-    - !!int |-
-      54661
+    "references":
+    - "source_addr": !!int |-
+        54661
+      "target_addr": !!int |-
+        23282
     "translated": !!null |-
       null
   "5e58":
@@ -103,9 +105,11 @@
       焦ったら 負けじゃぞ。<SET0109><Xf52d0200>
     "original_byte_length": !!int |-
       767
-    "reference_addrs":
-    - !!int |-
-      54677
+    "references":
+    - "source_addr": !!int |-
+        54677
+      "target_addr": !!int |-
+        24152
     "translated": !!null |-
       null
   "6157":
@@ -126,9 +130,11 @@
       行けないだろう。
     "original_byte_length": !!int |-
       263
-    "reference_addrs":
-    - !!int |-
-      54686
+    "references":
+    - "source_addr": !!int |-
+        54686
+      "target_addr": !!int |-
+        24919
     "translated": !!null |-
       null
   "625e":
@@ -145,9 +151,11 @@
       また そのうち チャンスが来るさ。
     "original_byte_length": !!int |-
       161
-    "reference_addrs":
-    - !!int |-
-      54695
+    "references":
+    - "source_addr": !!int |-
+        54695
+      "target_addr": !!int |-
+        25182
     "translated": !!null |-
       null
   "62ff":
@@ -168,9 +176,11 @@
       今まで ぎせいになった 多くの仲間が眠っているところだ。
     "original_byte_length": !!int |-
       223
-    "reference_addrs":
-    - !!int |-
-      54704
+    "references":
+    - "source_addr": !!int |-
+        54704
+      "target_addr": !!int |-
+        25343
     "translated": !!null |-
       null
   "63de":
@@ -186,9 +196,11 @@
       ボザ、そっとしておいてやりなさい。また 戦士の墓にでも 行くのじゃろ。
     "original_byte_length": !!int |-
       106
-    "reference_addrs":
-    - !!int |-
-      54732
+    "references":
+    - "source_addr": !!int |-
+        54732
+      "target_addr": !!int |-
+        25566
     "translated": !!null |-
       null
   "6448":
@@ -234,9 +246,11 @@
       がんばってね。
     "original_byte_length": !!int |-
       803
-    "reference_addrs":
-    - !!int |-
-      54741
+    "references":
+    - "source_addr": !!int |-
+        54741
+      "target_addr": !!int |-
+        25672
     "translated": !!null |-
       null
 "note": ""

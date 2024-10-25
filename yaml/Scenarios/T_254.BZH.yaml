@@ -11,9 +11,11 @@
       何のうらみが あるというんじゃ。
     "original_byte_length": !!int |-
       106
-    "reference_addrs":
-    - !!int |-
-      54647
+    "references":
+    - "source_addr": !!int |-
+        54647
+      "target_addr": !!int |-
+        23220
     "translated": !!null |-
       null
   "5b1e":
@@ -28,9 +30,11 @@
       行ってくれたまえ。
     "original_byte_length": !!int |-
       95
-    "reference_addrs":
-    - !!int |-
-      54656
+    "references":
+    - "source_addr": !!int |-
+        54656
+      "target_addr": !!int |-
+        23326
     "translated": !!null |-
       null
   "5b7d":
@@ -48,9 +52,11 @@
       国王 フラートさまは 誘拐されるしでたいへんじゃった。
     "original_byte_length": !!int |-
       217
-    "reference_addrs":
-    - !!int |-
-      54665
+    "references":
+    - "source_addr": !!int |-
+        54665
+      "target_addr": !!int |-
+        23421
     "translated": !!null |-
       null
   "5c56":
@@ -71,9 +77,11 @@
       くださったのじゃよ。
     "original_byte_length": !!int |-
       289
-    "reference_addrs":
-    - !!int |-
-      54674
+    "references":
+    - "source_addr": !!int |-
+        54674
+      "target_addr": !!int |-
+        23638
     "translated": !!null |-
       null
   "5d77":
@@ -91,9 +99,11 @@
       仕入れてくるのかしら。
     "original_byte_length": !!int |-
       185
-    "reference_addrs":
-    - !!int |-
-      54683
+    "references":
+    - "source_addr": !!int |-
+        54683
+      "target_addr": !!int |-
+        23927
     "translated": !!null |-
       null
   "5e30":
@@ -115,9 +125,11 @@
       よく あれだけ続くものじゃ。
     "original_byte_length": !!int |-
       215
-    "reference_addrs":
-    - !!int |-
-      54689
+    "references":
+    - "source_addr": !!int |-
+        54689
+      "target_addr": !!int |-
+        24112
     "translated": !!null |-
       null
 "note": ""

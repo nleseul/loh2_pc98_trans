@@ -8,7 +8,7 @@
       ハイ･ドールＡ<RET>
     "original_byte_length": !!int |-
       14
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "71b0":
@@ -20,7 +20,7 @@
       ハイ･ドールＢ<RET>
     "original_byte_length": !!int |-
       14
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "71f0":
@@ -32,7 +32,7 @@
       ハイ･ドールＣ<RET>
     "original_byte_length": !!int |-
       14
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "7230":
@@ -44,7 +44,7 @@
       ハイ･ドールＤ<RET>
     "original_byte_length": !!int |-
       14
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "7335":
@@ -56,9 +56,11 @@
       ハイ･ドールが現れた。<RET_N>
     "original_byte_length": !!int |-
       22
-    "reference_addrs":
-    - !!int |-
-      61000
+    "references":
+    - "source_addr": !!int |-
+        61000
+      "target_addr": !!int |-
+        29493
     "translated": !!null |-
       null
   "735b":
@@ -71,9 +73,11 @@
       体当りした !!<RET_PAGE>
     "original_byte_length": !!int |-
       36
-    "reference_addrs":
-    - !!int |-
-      61176
+    "references":
+    - "source_addr": !!int |-
+        61176
+      "target_addr": !!int |-
+        29531
     "translated": !!null |-
       null
 "note": ""

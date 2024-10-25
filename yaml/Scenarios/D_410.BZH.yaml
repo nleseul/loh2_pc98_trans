@@ -13,9 +13,11 @@
       出てくるから 気をつけてくれよ。
     "original_byte_length": !!int |-
       130
-    "reference_addrs":
-    - !!int |-
-      54667
+    "references":
+    - "source_addr": !!int |-
+        54667
+      "target_addr": !!int |-
+        23280
     "translated": !!null |-
       null
   "5cd4":
@@ -37,9 +39,11 @@
       よし いくぞ !!
     "original_byte_length": !!int |-
       164
-    "reference_addrs":
-    - !!int |-
-      54749
+    "references":
+    - "source_addr": !!int |-
+        54749
+      "target_addr": !!int |-
+        23764
     "translated": !!null |-
       null
 "note": ""

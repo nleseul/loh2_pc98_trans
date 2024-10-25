@@ -8,7 +8,7 @@
       プルダーム<RET>
     "original_byte_length": !!int |-
       11
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "71b0":
@@ -20,7 +20,7 @@
       プルダームＢ<RET>
     "original_byte_length": !!int |-
       13
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "71f0":
@@ -32,7 +32,7 @@
       プルダームＣ<RET>
     "original_byte_length": !!int |-
       13
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "7230":
@@ -44,7 +44,7 @@
       プルダームＤ<RET>
     "original_byte_length": !!int |-
       13
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "7427":
@@ -56,9 +56,11 @@
       プルダームが現れた。<RET_N>
     "original_byte_length": !!int |-
       21
-    "reference_addrs":
-    - !!int |-
-      61000
+    "references":
+    - "source_addr": !!int |-
+        61000
+      "target_addr": !!int |-
+        29735
     "translated": !!null |-
       null
   "743c":
@@ -70,9 +72,11 @@
       <ACTOR>は脳しんとうを起こした。<RET_PAGE>
     "original_byte_length": !!int |-
       26
-    "reference_addrs":
-    - !!int |-
-      61359
+    "references":
+    - "source_addr": !!int |-
+        61359
+      "target_addr": !!int |-
+        29756
     "translated": !!null |-
       null
   "7456":
@@ -84,9 +88,11 @@
       <ACTOR>は脳しんとうで動けない。<RET_PAGE>
     "original_byte_length": !!int |-
       26
-    "reference_addrs":
-    - !!int |-
-      61131
+    "references":
+    - "source_addr": !!int |-
+        61131
+      "target_addr": !!int |-
+        29782
     "translated": !!null |-
       null
   "7470":
@@ -103,9 +109,11 @@
       <RET>
     "original_byte_length": !!int |-
       86
-    "reference_addrs":
-    - !!int |-
-      61188
+    "references":
+    - "source_addr": !!int |-
+        61188
+      "target_addr": !!int |-
+        29808
     "translated": !!null |-
       null
   "74c6":
@@ -121,9 +129,11 @@
       <RET>
     "original_byte_length": !!int |-
       97
-    "reference_addrs":
-    - !!int |-
-      61180
+    "references":
+    - "source_addr": !!int |-
+        61180
+      "target_addr": !!int |-
+        29894
     "translated": !!null |-
       null
   "7527":
@@ -135,11 +145,7 @@
       <CLEAR><C_YELLOW>プルダーム<C_NONE><RET_N>
     "original_byte_length": !!int |-
       14
-    "reference_addrs":
-    - !!int |-
-      29809
-    - !!int |-
-      29895
+    "references": []
     "translated": !!null |-
       null
 "note": ""

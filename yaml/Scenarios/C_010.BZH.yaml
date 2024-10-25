@@ -11,9 +11,11 @@
       <LOC5a47>お帰りなさいませ。
     "original_byte_length": !!int |-
       86
-    "reference_addrs":
-    - !!int |-
-      54632
+    "references":
+    - "source_addr": !!int |-
+        54632
+      "target_addr": !!int |-
+        23044
     "translated": !!null |-
       null
 "note": ""

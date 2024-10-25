@@ -21,9 +21,11 @@
       そうだな 気のせいだな。
     "original_byte_length": !!int |-
       241
-    "reference_addrs":
-    - !!int |-
-      54843
+    "references":
+    - "source_addr": !!int |-
+        54843
+      "target_addr": !!int |-
+        23582
     "translated": !!null |-
       null
 "note": ""

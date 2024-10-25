@@ -124,8 +124,9 @@ def patch_locations(patch:ips_util.Patch, location_trans:TranslationCollection) 
         new_addr = pool.take_space(len(encoded))
         patch.add_record(new_addr, encoded)
 
-        for ref_addr in entry.reference_addrs:
-            patch.add_record(ref_addr, (new_addr - 0x7c00).to_bytes(2, byteorder='little'))
+        for ref in entry.references:
+            assert(ref.target_addr == key) # Should not be references to anything except the beginning of a location name
+            patch.add_record(ref.source_addr, (new_addr - 0x7c00).to_bytes(2, byteorder='little'))
 
     pool.patch_leftover_space(patch)
 
@@ -198,9 +199,9 @@ def make_data_file_patch(yaml_path:str, code_base_addr:int, data_base_addr:int) 
             relocations[locator.addr] = new_addr + locator.offset
             #print(f"Locator at {locator.addr:04x} moved to {new_addr + locator.offset:04x}")
 
-        for code_reference_addr in entry.reference_addrs:
-            #print(f"Code reference to {key:04x} at {code_reference_addr:04x} will need updated")
-            references_to_relocate[code_reference_addr - code_base_addr + data_base_addr] = key
+        for code_reference in entry.references:
+            #print(f"Code reference to {code_reference.target_addr:04x} at {code_reference.source_addr:04x} will need updated")
+            references_to_relocate[code_reference.source_addr - code_base_addr + data_base_addr] = code_reference.target_addr
 
         for reference in references:
             #print(f"Reference to {reference.addr:04x} at {new_addr + reference.offset:04x} (formerly {key + reference.offset:04x}) will need updated")

@@ -10,9 +10,11 @@
 
     "original_byte_length": !!int |-
       29
-    "reference_addrs":
-    - !!int |-
-      54620
+    "references":
+    - "source_addr": !!int |-
+        54620
+      "target_addr": !!int |-
+        23848
     "translated": !!null |-
       null
   "5e39":
@@ -73,9 +75,11 @@
       行くぞ !!
     "original_byte_length": !!int |-
       776
-    "reference_addrs":
-    - !!int |-
-      54713
+    "references":
+    - "source_addr": !!int |-
+        54713
+      "target_addr": !!int |-
+        24121
     "translated": !!null |-
       null
 "note": ""

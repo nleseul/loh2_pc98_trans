@@ -8,7 +8,7 @@
       妖魔火砲Ａ<RET>
     "original_byte_length": !!int |-
       11
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "71b0":
@@ -20,7 +20,7 @@
       妖魔火砲Ｂ<RET>
     "original_byte_length": !!int |-
       11
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "71f0":
@@ -32,7 +32,7 @@
       妖魔火砲Ｃ<RET>
     "original_byte_length": !!int |-
       11
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "7230":
@@ -44,7 +44,7 @@
       妖魔火砲Ｄ<RET>
     "original_byte_length": !!int |-
       11
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "74c8":
@@ -56,11 +56,15 @@
       <RET>
     "original_byte_length": !!int |-
       1
-    "reference_addrs":
-    - !!int |-
-      61000
-    - !!int |-
-      61132
+    "references":
+    - "source_addr": !!int |-
+        61000
+      "target_addr": !!int |-
+        29896
+    - "source_addr": !!int |-
+        61132
+      "target_addr": !!int |-
+        29896
     "translated": !!null |-
       null
   "74c9":
@@ -72,9 +76,11 @@
       妖魔火砲が現れた。<RET_N>
     "original_byte_length": !!int |-
       19
-    "reference_addrs":
-    - !!int |-
-      61221
+    "references":
+    - "source_addr": !!int |-
+        61221
+      "target_addr": !!int |-
+        29897
     "translated": !!null |-
       null
 "note": ""

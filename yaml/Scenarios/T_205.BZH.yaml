@@ -10,9 +10,11 @@
       今は お城の人たちに 貸してるんだ。じゃまを しないようにしてくれよ。
     "original_byte_length": !!int |-
       103
-    "reference_addrs":
-    - !!int |-
-      54642
+    "references":
+    - "source_addr": !!int |-
+        54642
+      "target_addr": !!int |-
+        23156
     "translated": !!null |-
       null
   "5adb":
@@ -74,9 +76,11 @@
       この混乱を しずめてくれませんか？
     "original_byte_length": !!int |-
       1066
-    "reference_addrs":
-    - !!int |-
-      54651
+    "references":
+    - "source_addr": !!int |-
+        54651
+      "target_addr": !!int |-
+        23259
     "translated": !!null |-
       null
   "5f05":
@@ -96,9 +100,11 @@
       どうか この世を お救いください。
     "original_byte_length": !!int |-
       257
-    "reference_addrs":
-    - !!int |-
-      54660
+    "references":
+    - "source_addr": !!int |-
+        54660
+      "target_addr": !!int |-
+        24325
     "translated": !!null |-
       null
   "6006":
@@ -116,9 +122,11 @@
       行けるんだけどな。<LOC609f>
     "original_byte_length": !!int |-
       154
-    "reference_addrs":
-    - !!int |-
-      54669
+    "references":
+    - "source_addr": !!int |-
+        54669
+      "target_addr": !!int |-
+        24582
     "translated": !!null |-
       null
   "60a0":
@@ -133,9 +141,11 @@
       たいへんだったわ。
     "original_byte_length": !!int |-
       88
-    "reference_addrs":
-    - !!int |-
-      54678
+    "references":
+    - "source_addr": !!int |-
+        54678
+      "target_addr": !!int |-
+        24736
     "translated": !!null |-
       null
   "60f8":
@@ -149,9 +159,11 @@
       きれいじゃないし ･ ･ ･
     "original_byte_length": !!int |-
       96
-    "reference_addrs":
-    - !!int |-
-      54687
+    "references":
+    - "source_addr": !!int |-
+        54687
+      "target_addr": !!int |-
+        24824
     "translated": !!null |-
       null
   "6158":
@@ -174,9 +186,11 @@
       いったい だれが 戻したのだろうか？
     "original_byte_length": !!int |-
       332
-    "reference_addrs":
-    - !!int |-
-      54696
+    "references":
+    - "source_addr": !!int |-
+        54696
+      "target_addr": !!int |-
+        24920
     "translated": !!null |-
       null
   "62a4":
@@ -190,9 +204,11 @@
       このような場所が あったので ここを借りて 仕事をしているのです。
     "original_byte_length": !!int |-
       97
-    "reference_addrs":
-    - !!int |-
-      54705
+    "references":
+    - "source_addr": !!int |-
+        54705
+      "target_addr": !!int |-
+        25252
     "translated": !!null |-
       null
   "6305":
@@ -207,9 +223,11 @@
       いらっしゃいます。
     "original_byte_length": !!int |-
       74
-    "reference_addrs":
-    - !!int |-
-      54714
+    "references":
+    - "source_addr": !!int |-
+        54714
+      "target_addr": !!int |-
+        25349
     "translated": !!null |-
       null
 "note": ""

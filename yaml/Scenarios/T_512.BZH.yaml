@@ -31,9 +31,11 @@
       <LOC5d9f>その宝箱の中から 持っていきなされ。酒のことは 内緒じゃぞ。
     "original_byte_length": !!int |-
       522
-    "reference_addrs":
-    - !!int |-
-      54809
+    "references":
+    - "source_addr": !!int |-
+        54809
+      "target_addr": !!int |-
+        23504
     "translated": !!null |-
       null
   "5dda":
@@ -46,9 +48,11 @@
       こらこら それは大事な物が入っとる。さわるでない。
     "original_byte_length": !!int |-
       61
-    "reference_addrs":
-    - !!int |-
-      54746
+    "references":
+    - "source_addr": !!int |-
+        54746
+      "target_addr": !!int |-
+        24026
     "translated": !!null |-
       null
   "5e17":
@@ -65,9 +69,11 @@
       ききたくないのじゃ。
     "original_byte_length": !!int |-
       106
-    "reference_addrs":
-    - !!int |-
-      54818
+    "references":
+    - "source_addr": !!int |-
+        54818
+      "target_addr": !!int |-
+        24087
     "translated": !!null |-
       null
   "5e81":
@@ -84,9 +90,11 @@
       あったからだそうだ。
     "original_byte_length": !!int |-
       120
-    "reference_addrs":
-    - !!int |-
-      54827
+    "references":
+    - "source_addr": !!int |-
+        54827
+      "target_addr": !!int |-
+        24193
     "translated": !!null |-
       null
   "5ef9":
@@ -103,9 +111,11 @@
       協力しないことにしたんだ。
     "original_byte_length": !!int |-
       114
-    "reference_addrs":
-    - !!int |-
-      54836
+    "references":
+    - "source_addr": !!int |-
+        54836
+      "target_addr": !!int |-
+        24313
     "translated": !!null |-
       null
   "5f6b":
@@ -122,9 +132,11 @@
       むりだったんだ ･ ･ ･
     "original_byte_length": !!int |-
       91
-    "reference_addrs":
-    - !!int |-
-      54845
+    "references":
+    - "source_addr": !!int |-
+        54845
+      "target_addr": !!int |-
+        24427
     "translated": !!null |-
       null
   "5fc6":
@@ -138,9 +150,11 @@
       洗濯のじゃま しないでくれる。
     "original_byte_length": !!int |-
       55
-    "reference_addrs":
-    - !!int |-
-      54854
+    "references":
+    - "source_addr": !!int |-
+        54854
+      "target_addr": !!int |-
+        24518
     "translated": !!null |-
       null
   "5ffd":
@@ -160,9 +174,11 @@
       悪く思わないで。
     "original_byte_length": !!int |-
       156
-    "reference_addrs":
-    - !!int |-
-      54863
+    "references":
+    - "source_addr": !!int |-
+        54863
+      "target_addr": !!int |-
+        24573
     "translated": !!null |-
       null
   "6099":
@@ -181,9 +197,11 @@
       秘密基地のことは 秘密だよ。
     "original_byte_length": !!int |-
       155
-    "reference_addrs":
-    - !!int |-
-      54872
+    "references":
+    - "source_addr": !!int |-
+        54872
+      "target_addr": !!int |-
+        24729
     "translated": !!null |-
       null
   "6134":
@@ -196,9 +214,11 @@
       何の用だ？<RET_N>
     "original_byte_length": !!int |-
       20
-    "reference_addrs":
-    - !!int |-
-      54893
+    "references":
+    - "source_addr": !!int |-
+        54893
+      "target_addr": !!int |-
+        24884
     "translated": !!null |-
       null
   "6148":
@@ -210,9 +230,11 @@
       まいど どうも。
     "original_byte_length": !!int |-
       16
-    "reference_addrs":
-    - !!int |-
-      54920
+    "references":
+    - "source_addr": !!int |-
+        54920
+      "target_addr": !!int |-
+        24904
     "translated": !!null |-
       null
   "6158":
@@ -226,9 +248,11 @@
       <RET>
     "original_byte_length": !!int |-
       31
-    "reference_addrs":
-    - !!int |-
-      2316
+    "references":
+    - "source_addr": !!int |-
+        2316
+      "target_addr": !!int |-
+        24920
     "translated": !!null |-
       null
   "6177":
@@ -241,9 +265,11 @@
       <RET_N>
     "original_byte_length": !!int |-
       20
-    "reference_addrs":
-    - !!int |-
-      2318
+    "references":
+    - "source_addr": !!int |-
+        2318
+      "target_addr": !!int |-
+        24951
     "translated": !!null |-
       null
   "618b":
@@ -258,9 +284,11 @@
       <RET>
     "original_byte_length": !!int |-
       25
-    "reference_addrs":
-    - !!int |-
-      2320
+    "references":
+    - "source_addr": !!int |-
+        2320
+      "target_addr": !!int |-
+        24971
     "translated": !!null |-
       null
   "61ac":
@@ -273,9 +301,11 @@
       <RET_N>
     "original_byte_length": !!int |-
       23
-    "reference_addrs":
-    - !!int |-
-      2150
+    "references":
+    - "source_addr": !!int |-
+        2150
+      "target_addr": !!int |-
+        25004
     "translated": !!null |-
       null
   "61c3":
@@ -289,9 +319,11 @@
       <RET_N>
     "original_byte_length": !!int |-
       35
-    "reference_addrs":
-    - !!int |-
-      2152
+    "references":
+    - "source_addr": !!int |-
+        2152
+      "target_addr": !!int |-
+        25027
     "translated": !!null |-
       null
   "61e6":
@@ -305,9 +337,11 @@
       <RET_N>
     "original_byte_length": !!int |-
       29
-    "reference_addrs":
-    - !!int |-
-      2154
+    "references":
+    - "source_addr": !!int |-
+        2154
+      "target_addr": !!int |-
+        25062
     "translated": !!null |-
       null
   "6203":
@@ -320,9 +354,11 @@
       <RET_N>
     "original_byte_length": !!int |-
       14
-    "reference_addrs":
-    - !!int |-
-      2156
+    "references":
+    - "source_addr": !!int |-
+        2156
+      "target_addr": !!int |-
+        25091
     "translated": !!null |-
       null
   "6211":
@@ -335,9 +371,11 @@
       宝箱の中には<RET>
     "original_byte_length": !!int |-
       36
-    "reference_addrs":
-    - !!int |-
-      54763
+    "references":
+    - "source_addr": !!int |-
+        54763
+      "target_addr": !!int |-
+        25105
     "translated": !!null |-
       null
 "note": ""

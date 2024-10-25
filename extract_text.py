@@ -32,6 +32,21 @@ def explore(block_pool:BlockPool, entry_points:typing.List[EntryPointInfo]) -> N
             break
 
 
+def update_translation_from_block(entry:TranslationEntry, block:DS6EventBlock) -> None:
+    entry.original = block.format_string()
+    entry.original_byte_length = block.length
+
+    references = {}
+    for link in block.get_incoming_links():
+        if link.source_addr is None:
+            entry.is_relocatable = False
+        elif isinstance(link.source_block, DS6EventBlock):
+            pass
+        else:
+            references[link.source_addr] = link.target_addr
+    entry.references = [CodeReference(source_addr, target_addr) for source_addr, target_addr in references.items()]
+
+
 def extract_program_events(program_data:typing.ByteString):
     code_hooks = [
         EmptyHook(0x1592, False, stop=True), # Calls into scenario entry points
@@ -56,16 +71,7 @@ def extract_program_events(program_data:typing.ByteString):
     trans = TranslationCollection()
     for block in block_pool.get_blocks("event"):
         entry = trans[block.start_addr]
-        entry.original = block.format_string()
-        entry.original_byte_length = block.length
-
-        references = set()
-        for link in block.get_incoming_links():
-            if link.source_addr is None:
-                entry.is_relocatable = False
-            elif link.source_block is not None and isinstance(link.source_block, X86CodeBlock):
-                references.add(link.source_addr)
-        entry.reference_addrs = list(references)
+        update_translation_from_block(entry, block)
 
     return trans
 
@@ -102,16 +108,7 @@ def extract_scenario_events(scenario_data:typing.ByteString, custom_hooks:list[X
     trans = TranslationCollection()
     for block in block_pool.get_blocks("event"):
         entry = trans[block.start_addr]
-        entry.original = block.format_string()
-        entry.original_byte_length = block.length
-
-        references = set()
-        for link in block.get_incoming_links():
-            if link.source_addr is None:
-                entry.is_relocatable = False
-            elif link.source_block is not None and isinstance(link.source_block, X86CodeBlock):
-                references.add(link.source_addr)
-        entry.reference_addrs = list(references)
+        update_translation_from_block(entry, block)
 
     return trans
 
@@ -143,16 +140,7 @@ def extract_combat_events(combat_data:typing.ByteString, monster_count:int = 4) 
     trans = TranslationCollection()
     for block in block_pool.get_blocks("event"):
         entry = trans[block.start_addr]
-        entry.original = block.format_string()
-        entry.original_byte_length = block.length
-
-        references = set()
-        for link in block.get_incoming_links():
-            if link.source_addr is None:
-                entry.is_relocatable = False
-            else:
-                references.add(link.source_addr)
-        entry.reference_addrs = list(references)
+        update_translation_from_block(entry, block)
 
         if block.start_addr < 0x7140 + 0x40*monster_count:
             entry.max_byte_length = 0x10
@@ -288,18 +276,20 @@ def extract_locations(prog_data:typing.ByteString) -> list[str]:
         addr = int.from_bytes(prog_data[table_entry_addr:table_entry_addr+2], byteorder='little') + 0x7c00
         entry = trans[addr]
 
-        first_byte = prog_data[addr]
+        current_addr = addr
+
+        first_byte = prog_data[current_addr]
 
         length = 12
         if first_byte < 0x20:
             length -= first_byte * 2
-            addr += 1
+            current_addr += 1
 
-        location_name = prog_data[addr:addr+length].decode('cp932')
+        location_name = prog_data[current_addr:current_addr+length].decode('cp932')
 
         entry.original = location_name
         entry.original_byte_length = 12 if first_byte >= 0x20 else 12 - first_byte*2 + 1
-        entry.reference_addrs.append(table_entry_addr)
+        entry.references.append(CodeReference(table_entry_addr, addr))
 
     return trans
 

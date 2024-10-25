@@ -11,9 +11,11 @@
       先に行ってるから 早く来いよ。<SET00ea><ASMd657>
     "original_byte_length": !!int |-
       99
-    "reference_addrs":
-    - !!int |-
-      54739
+    "references":
+    - "source_addr": !!int |-
+        54739
+      "target_addr": !!int |-
+        23396
     "translated": !!null |-
       null
   "5bc7":
@@ -30,9 +32,11 @@
       しまいました。
     "original_byte_length": !!int |-
       129
-    "reference_addrs":
-    - !!int |-
-      54748
+    "references":
+    - "source_addr": !!int |-
+        54748
+      "target_addr": !!int |-
+        23495
     "translated": !!null |-
       null
   "5c48":
@@ -46,9 +50,11 @@
       作った人が言ってるからまちがいねえ。ムダなことは やめときな。
     "original_byte_length": !!int |-
       129
-    "reference_addrs":
-    - !!int |-
-      54757
+    "references":
+    - "source_addr": !!int |-
+        54757
+      "target_addr": !!int |-
+        23624
     "translated": !!null |-
       null
   "5cc9":
@@ -65,9 +71,11 @@
       銀の笛ってのが 入ってるらしいぜ。
     "original_byte_length": !!int |-
       145
-    "reference_addrs":
-    - !!int |-
-      54766
+    "references":
+    - "source_addr": !!int |-
+        54766
+      "target_addr": !!int |-
+        23753
     "translated": !!null |-
       null
   "5d5a":
@@ -83,9 +91,11 @@
                          大盗賊 ゲイル』
     "original_byte_length": !!int |-
       90
-    "reference_addrs":
-    - !!int |-
-      54718
+    "references":
+    - "source_addr": !!int |-
+        54718
+      "target_addr": !!int |-
+        23898
     "translated": !!null |-
       null
   "5db4":
@@ -101,9 +111,11 @@
                      　　大盗賊 ゲイル』
     "original_byte_length": !!int |-
       84
-    "reference_addrs":
-    - !!int |-
-      54724
+    "references":
+    - "source_addr": !!int |-
+        54724
+      "target_addr": !!int |-
+        23988
     "translated": !!null |-
       null
   "5e08":
@@ -115,9 +127,11 @@
       <C_GREEN>扉は 開きそうもありません。<C_NONE>
     "original_byte_length": !!int |-
       30
-    "reference_addrs":
-    - !!int |-
-      54730
+    "references":
+    - "source_addr": !!int |-
+        54730
+      "target_addr": !!int |-
+        24072
     "translated": !!null |-
       null
   "5e26":
@@ -129,7 +143,7 @@
       <C_YELLOW>盗賊<C_NONE><RET_N>
     "original_byte_length": !!int |-
       7
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
 "note": ""

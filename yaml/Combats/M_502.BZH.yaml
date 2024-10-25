@@ -8,7 +8,7 @@
       レイシア<RET>
     "original_byte_length": !!int |-
       9
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "71b0":
@@ -20,7 +20,7 @@
       ガービィ<RET>
     "original_byte_length": !!int |-
       9
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "71f0":
@@ -32,7 +32,7 @@
       Ｍ５０２Ｃ<RET>
     "original_byte_length": !!int |-
       11
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "7230":
@@ -44,7 +44,7 @@
       Ｍ５０２Ｄ<RET>
     "original_byte_length": !!int |-
       11
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "751c":
@@ -56,9 +56,11 @@
       ガービィが現れた。<RET_N>
     "original_byte_length": !!int |-
       19
-    "reference_addrs":
-    - !!int |-
-      61000
+    "references":
+    - "source_addr": !!int |-
+        61000
+      "target_addr": !!int |-
+        29980
     "translated": !!null |-
       null
   "762b":
@@ -73,9 +75,11 @@
       <RET>
     "original_byte_length": !!int |-
       53
-    "reference_addrs":
-    - !!int |-
-      61534
+    "references":
+    - "source_addr": !!int |-
+        61534
+      "target_addr": !!int |-
+        30251
     "translated": !!null |-
       null
   "7660":
@@ -87,9 +91,7 @@
       <CLEAR><C_YELLOW>レイシア<C_NONE><RET_N>
     "original_byte_length": !!int |-
       12
-    "reference_addrs":
-    - !!int |-
-      30252
+    "references": []
     "translated": !!null |-
       null
 "note": ""

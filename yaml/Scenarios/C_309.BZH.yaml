@@ -12,9 +12,11 @@
       いや そんなはずはないな。
     "original_byte_length": !!int |-
       156
-    "reference_addrs":
-    - !!int |-
-      54663
+    "references":
+    - "source_addr": !!int |-
+        54663
+      "target_addr": !!int |-
+        23298
     "translated": !!null |-
       null
   "5b9e":
@@ -29,9 +31,11 @@
       ことが起こっているのですか？
     "original_byte_length": !!int |-
       107
-    "reference_addrs":
-    - !!int |-
-      54678
+    "references":
+    - "source_addr": !!int |-
+        54678
+      "target_addr": !!int |-
+        23454
     "translated": !!null |-
       null
   "5c09":
@@ -46,9 +50,11 @@
       手薄になっているんです。
     "original_byte_length": !!int |-
       91
-    "reference_addrs":
-    - !!int |-
-      54687
+    "references":
+    - "source_addr": !!int |-
+        54687
+      "target_addr": !!int |-
+        23561
     "translated": !!null |-
       null
   "5c64":
@@ -67,9 +73,11 @@
       本当かどうかはわかりませんが ･ ･ ･
     "original_byte_length": !!int |-
       209
-    "reference_addrs":
-    - !!int |-
-      54696
+    "references":
+    - "source_addr": !!int |-
+        54696
+      "target_addr": !!int |-
+        23652
     "translated": !!null |-
       null
   "5d35":
@@ -84,9 +92,11 @@
       ならないとはね ･ ･ ･
     "original_byte_length": !!int |-
       89
-    "reference_addrs":
-    - !!int |-
-      54705
+    "references":
+    - "source_addr": !!int |-
+        54705
+      "target_addr": !!int |-
+        23861
     "translated": !!null |-
       null
   "5d8e":
@@ -117,9 +127,11 @@
       ジャンさんが 売ってるから カウルのドラゴン牧場に 行ってごらん。
     "original_byte_length": !!int |-
       446
-    "reference_addrs":
-    - !!int |-
-      54714
+    "references":
+    - "source_addr": !!int |-
+        54714
+      "target_addr": !!int |-
+        23950
     "translated": !!null |-
       null
 "note": ""

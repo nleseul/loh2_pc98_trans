@@ -16,9 +16,11 @@
       行けるんだが ･ ･ ･
     "original_byte_length": !!int |-
       175
-    "reference_addrs":
-    - !!int |-
-      54670
+    "references":
+    - "source_addr": !!int |-
+        54670
+      "target_addr": !!int |-
+        23408
     "translated": !!null |-
       null
   "5c1f":
@@ -42,9 +44,11 @@
       向こう岸まで 行けるんだけどな。
     "original_byte_length": !!int |-
       275
-    "reference_addrs":
-    - !!int |-
-      54685
+    "references":
+    - "source_addr": !!int |-
+        54685
+      "target_addr": !!int |-
+        23583
     "translated": !!null |-
       null
 "note": ""

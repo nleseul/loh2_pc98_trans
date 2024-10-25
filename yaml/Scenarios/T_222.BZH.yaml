@@ -49,9 +49,11 @@
       お役に立てて 私も うれしいわ。<LOC5d3e>
     "original_byte_length": !!int |-
       705
-    "reference_addrs":
-    - !!int |-
-      54627
+    "references":
+    - "source_addr": !!int |-
+        54627
+      "target_addr": !!int |-
+        23166
     "translated": !!null |-
       null
   "5d3f":
@@ -68,7 +70,7 @@
       <RET>
     "original_byte_length": !!int |-
       83
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "5d92":
@@ -85,7 +87,7 @@
       おなかが すくまでは 起きないんです。<RET>
     "original_byte_length": !!int |-
       135
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "5e19":
@@ -99,9 +101,11 @@
       お嬢さまは とても頭が 良い方なので教えることなど ないくらいですわ。
     "original_byte_length": !!int |-
       110
-    "reference_addrs":
-    - !!int |-
-      54652
+    "references":
+    - "source_addr": !!int |-
+        54652
+      "target_addr": !!int |-
+        24089
     "translated": !!null |-
       null
   "5e87":
@@ -117,9 +121,11 @@
       本当に お優しいかたですこと。
     "original_byte_length": !!int |-
       141
-    "reference_addrs":
-    - !!int |-
-      54661
+    "references":
+    - "source_addr": !!int |-
+        54661
+      "target_addr": !!int |-
+        24199
     "translated": !!null |-
       null
 "note": ""

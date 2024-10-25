@@ -8,7 +8,7 @@
       ブラックナイトA<RET>
     "original_byte_length": !!int |-
       16
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "71b0":
@@ -20,7 +20,7 @@
       ブラックナイトB<RET>
     "original_byte_length": !!int |-
       16
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "71f0":
@@ -32,7 +32,7 @@
       ブラックナイトC<RET>
     "original_byte_length": !!int |-
       16
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "7230":
@@ -44,7 +44,7 @@
       ブラックナイトD<RET>
     "original_byte_length": !!int |-
       16
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "744e":
@@ -56,11 +56,15 @@
       <RET>
     "original_byte_length": !!int |-
       1
-    "reference_addrs":
-    - !!int |-
-      61000
-    - !!int |-
-      61393
+    "references":
+    - "source_addr": !!int |-
+        61000
+      "target_addr": !!int |-
+        29774
+    - "source_addr": !!int |-
+        61393
+      "target_addr": !!int |-
+        29774
     "translated": !!null |-
       null
   "744f":
@@ -72,9 +76,11 @@
       ブラックナイツが現れた。<RET_N>
     "original_byte_length": !!int |-
       25
-    "reference_addrs":
-    - !!int |-
-      61457
+    "references":
+    - "source_addr": !!int |-
+        61457
+      "target_addr": !!int |-
+        29775
     "translated": !!null |-
       null
 "note": ""

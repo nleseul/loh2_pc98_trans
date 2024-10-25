@@ -12,9 +12,11 @@
       お作りいたしましょうか？
     "original_byte_length": !!int |-
       110
-    "reference_addrs":
-    - !!int |-
-      54633
+    "references":
+    - "source_addr": !!int |-
+        54633
+      "target_addr": !!int |-
+        23045
     "translated": !!null |-
       null
   "5a73":
@@ -28,9 +30,11 @@
       変わっているでしょ？
     "original_byte_length": !!int |-
       82
-    "reference_addrs":
-    - !!int |-
-      54642
+    "references":
+    - "source_addr": !!int |-
+        54642
+      "target_addr": !!int |-
+        23155
     "translated": !!null |-
       null
   "5ac5":
@@ -42,7 +46,7 @@
       <C_YELLOW>侍女<C_NONE><RET_N>
     "original_byte_length": !!int |-
       7
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
 "note": ""

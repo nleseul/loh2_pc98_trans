@@ -10,9 +10,11 @@
       あるというんじゃ。
     "original_byte_length": !!int |-
       96
-    "reference_addrs":
-    - !!int |-
-      54647
+    "references":
+    - "source_addr": !!int |-
+        54647
+      "target_addr": !!int |-
+        23220
     "translated": !!null |-
       null
   "5b14":
@@ -26,9 +28,11 @@
       販売所に 入ってくれたまえ。
     "original_byte_length": !!int |-
       70
-    "reference_addrs":
-    - !!int |-
-      54656
+    "references":
+    - "source_addr": !!int |-
+        54656
+      "target_addr": !!int |-
+        23316
     "translated": !!null |-
       null
   "5b5a":
@@ -46,9 +50,11 @@
       国王 フラートさまは 誘拐されるしでたいへんじゃった。
     "original_byte_length": !!int |-
       217
-    "reference_addrs":
-    - !!int |-
-      54665
+    "references":
+    - "source_addr": !!int |-
+        54665
+      "target_addr": !!int |-
+        23386
     "translated": !!null |-
       null
   "5c33":
@@ -69,9 +75,11 @@
       くださったのじゃよ。
     "original_byte_length": !!int |-
       289
-    "reference_addrs":
-    - !!int |-
-      54674
+    "references":
+    - "source_addr": !!int |-
+        54674
+      "target_addr": !!int |-
+        23603
     "translated": !!null |-
       null
   "5d54":
@@ -86,9 +94,11 @@
       情報屋 トミーさんの話だと 地底人が地上を征服しにやってくるんですって。こわい話だわ。
     "original_byte_length": !!int |-
       110
-    "reference_addrs":
-    - !!int |-
-      54683
+    "references":
+    - "source_addr": !!int |-
+        54683
+      "target_addr": !!int |-
+        23892
     "translated": !!null |-
       null
   "5dc2":
@@ -110,9 +120,11 @@
       よく あれだけ続くものじゃ。
     "original_byte_length": !!int |-
       215
-    "reference_addrs":
-    - !!int |-
-      54689
+    "references":
+    - "source_addr": !!int |-
+        54689
+      "target_addr": !!int |-
+        24002
     "translated": !!null |-
       null
 "note": ""

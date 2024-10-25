@@ -6,6 +6,12 @@ import yaml
 
 
 @dataclass
+class CodeReference:
+    source_addr:int
+    target_addr:int
+
+
+@dataclass
 class TranslationEntry:
     original:str = ""
     translated:str|None = None
@@ -13,7 +19,7 @@ class TranslationEntry:
     original_byte_length:int|None = None
 
     is_relocatable:bool = True
-    reference_addrs:list[int] = field(default_factory=list)
+    references:list[CodeReference] = field(default_factory=list)
     max_byte_length:int|None = None
 
     @property
@@ -76,6 +82,10 @@ class TranslationCollection:
 
             for key_string, entry_dict in yaml_in['entries'].items():
                 key = int(key_string, base=16)
-                trans._entries[key] = TranslationEntry(**entry_dict)
+                entry = TranslationEntry(**entry_dict)
+                for ref_index in range(len(entry.references)):
+                    entry.references[ref_index] = CodeReference(**entry.references[ref_index])
+
+                trans._entries[key] = entry
 
         return trans

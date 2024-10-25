@@ -8,7 +8,7 @@
       ビジョーＡ<RET>
     "original_byte_length": !!int |-
       11
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "71b0":
@@ -20,7 +20,7 @@
       ビジョーＢ<RET>
     "original_byte_length": !!int |-
       11
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "71f0":
@@ -32,7 +32,7 @@
       ビジョーＣ<RET>
     "original_byte_length": !!int |-
       11
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "7230":
@@ -44,7 +44,7 @@
       ビジョーＤ<RET>
     "original_byte_length": !!int |-
       11
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "7432":
@@ -56,9 +56,11 @@
       ビジョーが現れた。<RET_N>
     "original_byte_length": !!int |-
       19
-    "reference_addrs":
-    - !!int |-
-      61000
+    "references":
+    - "source_addr": !!int |-
+        61000
+      "target_addr": !!int |-
+        29746
     "translated": !!null |-
       null
   "7445":
@@ -70,9 +72,11 @@
       ビジョーは<ACTOR>をほめたたえて拍手をしている。<RET_N>
     "original_byte_length": !!int |-
       42
-    "reference_addrs":
-    - !!int |-
-      61275
+    "references":
+    - "source_addr": !!int |-
+        61275
+      "target_addr": !!int |-
+        29765
     "translated": !!null |-
       null
   "746f":
@@ -84,9 +88,11 @@
       <ACTOR>はてれている。<RET_N>
     "original_byte_length": !!int |-
       16
-    "reference_addrs":
-    - !!int |-
-      61312
+    "references":
+    - "source_addr": !!int |-
+        61312
+      "target_addr": !!int |-
+        29807
     "translated": !!null |-
       null
   "747f":
@@ -98,9 +104,11 @@
       <ACTOR>はひとりでよろこんでいる。<RET_N>
     "original_byte_length": !!int |-
       28
-    "reference_addrs":
-    - !!int |-
-      61242
+    "references":
+    - "source_addr": !!int |-
+        61242
+      "target_addr": !!int |-
+        29823
     "translated": !!null |-
       null
 "note": ""

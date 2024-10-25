@@ -79,9 +79,11 @@
       わしゃ もう 穴は掘らんからな。
     "original_byte_length": !!int |-
       1408
-    "reference_addrs":
-    - !!int |-
-      54642
+    "references":
+    - "source_addr": !!int |-
+        54642
+      "target_addr": !!int |-
+        23218
     "translated": !!null |-
       null
   "6032":
@@ -128,9 +130,11 @@
       <LOC6337>はー ぐるぐる まわっとる。
     "original_byte_length": !!int |-
       800
-    "reference_addrs":
-    - !!int |-
-      54689
+    "references":
+    - "source_addr": !!int |-
+        54689
+      "target_addr": !!int |-
+        24626
     "translated": !!null |-
       null
   "6352":
@@ -154,9 +158,11 @@
       もう めんどくせえな。
     "original_byte_length": !!int |-
       204
-    "reference_addrs":
-    - !!int |-
-      54670
+    "references":
+    - "source_addr": !!int |-
+        54670
+      "target_addr": !!int |-
+        25426
     "translated": !!null |-
       null
   "641e":
@@ -176,9 +182,11 @@
       <LOC6529>おれが 一人前になったら おっさんに内緒で 抜け穴を掘ってやるよ。
     "original_byte_length": !!int |-
       331
-    "reference_addrs":
-    - !!int |-
-      54698
+    "references":
+    - "source_addr": !!int |-
+        54698
+      "target_addr": !!int |-
+        25630
     "translated": !!null |-
       null
 "note": ""

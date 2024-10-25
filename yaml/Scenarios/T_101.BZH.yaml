@@ -13,9 +13,11 @@
       ったく ボブの野郎 手ぇ抜きやがって。
     "original_byte_length": !!int |-
       127
-    "reference_addrs":
-    - !!int |-
-      54811
+    "references":
+    - "source_addr": !!int |-
+        54811
+      "target_addr": !!int |-
+        23481
     "translated": !!null |-
       null
   "5c38":
@@ -36,9 +38,11 @@
       言ってるだろ。
     "original_byte_length": !!int |-
       215
-    "reference_addrs":
-    - !!int |-
-      54713
+    "references":
+    - "source_addr": !!int |-
+        54713
+      "target_addr": !!int |-
+        23608
     "translated": !!null |-
       null
   "5d0f":
@@ -56,9 +60,11 @@
       給料を へらされちゃったよ。
     "original_byte_length": !!int |-
       159
-    "reference_addrs":
-    - !!int |-
-      54820
+    "references":
+    - "source_addr": !!int |-
+        54820
+      "target_addr": !!int |-
+        23823
     "translated": !!null |-
       null
   "5dae":
@@ -75,9 +81,11 @@
       モンスターが うろついてるとはなあ。
     "original_byte_length": !!int |-
       175
-    "reference_addrs":
-    - !!int |-
-      54829
+    "references":
+    - "source_addr": !!int |-
+        54829
+      "target_addr": !!int |-
+        23982
     "translated": !!null |-
       null
   "5e5d":
@@ -112,9 +120,11 @@
       いいのじゃが ･ ･ ･
     "original_byte_length": !!int |-
       596
-    "reference_addrs":
-    - !!int |-
-      54838
+    "references":
+    - "source_addr": !!int |-
+        54838
+      "target_addr": !!int |-
+        24157
     "translated": !!null |-
       null
   "60b1":
@@ -131,9 +141,11 @@
       売り始める気なんだろうか？
     "original_byte_length": !!int |-
       201
-    "reference_addrs":
-    - !!int |-
-      54853
+    "references":
+    - "source_addr": !!int |-
+        54853
+      "target_addr": !!int |-
+        24753
     "translated": !!null |-
       null
   "617a":
@@ -157,9 +169,11 @@
       <LOC627e>もう 持てないみたいだよ。
     "original_byte_length": !!int |-
       286
-    "reference_addrs":
-    - !!int |-
-      54844
+    "references":
+    - "source_addr": !!int |-
+        54844
+      "target_addr": !!int |-
+        24954
     "translated": !!null |-
       null
   "629c":
@@ -192,9 +206,11 @@
       <LOC646c><RET><LOC646d>金が足りないよ。
     "original_byte_length": !!int |-
       482
-    "reference_addrs":
-    - !!int |-
-      54859
+    "references":
+    - "source_addr": !!int |-
+        54859
+      "target_addr": !!int |-
+        25244
     "translated": !!null |-
       null
   "6482":
@@ -208,9 +224,11 @@
       ちょっと 古い武器だけど<RET_N>
     "original_byte_length": !!int |-
       48
-    "reference_addrs":
-    - !!int |-
-      54884
+    "references":
+    - "source_addr": !!int |-
+        54884
+      "target_addr": !!int |-
+        25730
     "translated": !!null |-
       null
   "64b2":
@@ -222,9 +240,11 @@
       またどうぞ。
     "original_byte_length": !!int |-
       13
-    "reference_addrs":
-    - !!int |-
-      54896
+    "references":
+    - "source_addr": !!int |-
+        54896
+      "target_addr": !!int |-
+        25778
     "translated": !!null |-
       null
   "64bf":
@@ -242,9 +262,11 @@
       休業しようと思ってるんだ。
     "original_byte_length": !!int |-
       142
-    "reference_addrs":
-    - !!int |-
-      54872
+    "references":
+    - "source_addr": !!int |-
+        54872
+      "target_addr": !!int |-
+        25791
     "translated": !!null |-
       null
   "654d":
@@ -258,9 +280,11 @@
       どのような ご用でしょうか？<RET_N>
     "original_byte_length": !!int |-
       56
-    "reference_addrs":
-    - !!int |-
-      54908
+    "references":
+    - "source_addr": !!int |-
+        54908
+      "target_addr": !!int |-
+        25933
     "translated": !!null |-
       null
   "6585":
@@ -272,9 +296,11 @@
       また来てくださいね。
     "original_byte_length": !!int |-
       21
-    "reference_addrs":
-    - !!int |-
-      54935
+    "references":
+    - "source_addr": !!int |-
+        54935
+      "target_addr": !!int |-
+        25989
     "translated": !!null |-
       null
   "659a":
@@ -288,9 +314,11 @@
       <RET>
     "original_byte_length": !!int |-
       36
-    "reference_addrs":
-    - !!int |-
-      3452
+    "references":
+    - "source_addr": !!int |-
+        3452
+      "target_addr": !!int |-
+        26010
     "translated": !!null |-
       null
   "65be":
@@ -303,9 +331,11 @@
       <RET_N>
     "original_byte_length": !!int |-
       26
-    "reference_addrs":
-    - !!int |-
-      3454
+    "references":
+    - "source_addr": !!int |-
+        3454
+      "target_addr": !!int |-
+        26046
     "translated": !!null |-
       null
   "65d8":
@@ -320,9 +350,11 @@
       <RET>
     "original_byte_length": !!int |-
       29
-    "reference_addrs":
-    - !!int |-
-      3456
+    "references":
+    - "source_addr": !!int |-
+        3456
+      "target_addr": !!int |-
+        26072
     "translated": !!null |-
       null
   "65fd":
@@ -335,9 +367,11 @@
       <RET_N>
     "original_byte_length": !!int |-
       27
-    "reference_addrs":
-    - !!int |-
-      3255
+    "references":
+    - "source_addr": !!int |-
+        3255
+      "target_addr": !!int |-
+        26109
     "translated": !!null |-
       null
   "6618":
@@ -351,9 +385,11 @@
       <RET_N>
     "original_byte_length": !!int |-
       44
-    "reference_addrs":
-    - !!int |-
-      3257
+    "references":
+    - "source_addr": !!int |-
+        3257
+      "target_addr": !!int |-
+        26136
     "translated": !!null |-
       null
   "6644":
@@ -367,9 +403,11 @@
       <RET_N>
     "original_byte_length": !!int |-
       18
-    "reference_addrs":
-    - !!int |-
-      3259
+    "references":
+    - "source_addr": !!int |-
+        3259
+      "target_addr": !!int |-
+        26180
     "translated": !!null |-
       null
   "6656":
@@ -382,9 +420,11 @@
       <RET_N>
     "original_byte_length": !!int |-
       31
-    "reference_addrs":
-    - !!int |-
-      3261
+    "references":
+    - "source_addr": !!int |-
+        3261
+      "target_addr": !!int |-
+        26198
     "translated": !!null |-
       null
 "note": ""

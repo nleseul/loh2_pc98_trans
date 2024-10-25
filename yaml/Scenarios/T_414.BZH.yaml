@@ -11,9 +11,11 @@
       モンスターを 止めたらしいぜ。
     "original_byte_length": !!int |-
       92
-    "reference_addrs":
-    - !!int |-
-      54627
+    "references":
+    - "source_addr": !!int |-
+        54627
+      "target_addr": !!int |-
+        23184
     "translated": !!null |-
       null
   "5aec":
@@ -27,9 +29,11 @@
       気をつけたほうがいいぞ。
     "original_byte_length": !!int |-
       94
-    "reference_addrs":
-    - !!int |-
-      54636
+    "references":
+    - "source_addr": !!int |-
+        54636
+      "target_addr": !!int |-
+        23276
     "translated": !!null |-
       null
   "5b4a":
@@ -48,9 +52,11 @@
       見ていないんですって。
     "original_byte_length": !!int |-
       184
-    "reference_addrs":
-    - !!int |-
-      54675
+    "references":
+    - "source_addr": !!int |-
+        54675
+      "target_addr": !!int |-
+        23370
     "translated": !!null |-
       null
   "5c02":
@@ -67,9 +73,11 @@
       大盗賊 ゲイルと 呼ばれていたそうよ。
     "original_byte_length": !!int |-
       166
-    "reference_addrs":
-    - !!int |-
-      54684
+    "references":
+    - "source_addr": !!int |-
+        54684
+      "target_addr": !!int |-
+        23554
     "translated": !!null |-
       null
   "5ca8":
@@ -84,9 +92,11 @@
       行ってあげてね。
     "original_byte_length": !!int |-
       87
-    "reference_addrs":
-    - !!int |-
-      54693
+    "references":
+    - "source_addr": !!int |-
+        54693
+      "target_addr": !!int |-
+        23720
     "translated": !!null |-
       null
   "5cff":
@@ -99,9 +109,11 @@
       ヘッヘッヘ なにか用かい？<RET_N>
     "original_byte_length": !!int |-
       35
-    "reference_addrs":
-    - !!int |-
-      54705
+    "references":
+    - "source_addr": !!int |-
+        54705
+      "target_addr": !!int |-
+        23807
     "translated": !!null |-
       null
   "5d22":
@@ -113,9 +125,11 @@
       またどうぞ。
     "original_byte_length": !!int |-
       13
-    "reference_addrs":
-    - !!int |-
-      54732
+    "references":
+    - "source_addr": !!int |-
+        54732
+      "target_addr": !!int |-
+        23842
     "translated": !!null |-
       null
   "5d2f":
@@ -129,9 +143,11 @@
       <RET>
     "original_byte_length": !!int |-
       28
-    "reference_addrs":
-    - !!int |-
-      1182
+    "references":
+    - "source_addr": !!int |-
+        1182
+      "target_addr": !!int |-
+        23855
     "translated": !!null |-
       null
   "5d4b":
@@ -144,9 +160,11 @@
       <RET_N>
     "original_byte_length": !!int |-
       22
-    "reference_addrs":
-    - !!int |-
-      1184
+    "references":
+    - "source_addr": !!int |-
+        1184
+      "target_addr": !!int |-
+        23883
     "translated": !!null |-
       null
   "5d61":
@@ -161,9 +179,11 @@
       <RET>
     "original_byte_length": !!int |-
       22
-    "reference_addrs":
-    - !!int |-
-      1186
+    "references":
+    - "source_addr": !!int |-
+        1186
+      "target_addr": !!int |-
+        23905
     "translated": !!null |-
       null
   "5d7f":
@@ -176,9 +196,11 @@
       <RET_N>
     "original_byte_length": !!int |-
       23
-    "reference_addrs":
-    - !!int |-
-      1081
+    "references":
+    - "source_addr": !!int |-
+        1081
+      "target_addr": !!int |-
+        23935
     "translated": !!null |-
       null
   "5d96":
@@ -192,9 +214,11 @@
       <RET_N>
     "original_byte_length": !!int |-
       36
-    "reference_addrs":
-    - !!int |-
-      1083
+    "references":
+    - "source_addr": !!int |-
+        1083
+      "target_addr": !!int |-
+        23958
     "translated": !!null |-
       null
   "5dba":
@@ -208,9 +232,11 @@
       <RET_N>
     "original_byte_length": !!int |-
       19
-    "reference_addrs":
-    - !!int |-
-      1085
+    "references":
+    - "source_addr": !!int |-
+        1085
+      "target_addr": !!int |-
+        23994
     "translated": !!null |-
       null
   "5dcd":
@@ -223,9 +249,11 @@
       <RET_N>
     "original_byte_length": !!int |-
       14
-    "reference_addrs":
-    - !!int |-
-      1087
+    "references":
+    - "source_addr": !!int |-
+        1087
+      "target_addr": !!int |-
+        24013
     "translated": !!null |-
       null
 "note": ""

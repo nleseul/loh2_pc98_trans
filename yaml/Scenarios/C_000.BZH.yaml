@@ -37,9 +37,11 @@
       セリオス国王が 王子を お呼びです。
     "original_byte_length": !!int |-
       534
-    "reference_addrs":
-    - !!int |-
-      54717
+    "references":
+    - "source_addr": !!int |-
+        54717
+      "target_addr": !!int |-
+        23292
     "translated": !!null |-
       null
   "5d12":
@@ -56,9 +58,11 @@
       近づかないように してください。
     "original_byte_length": !!int |-
       144
-    "reference_addrs":
-    - !!int |-
-      54671
+    "references":
+    - "source_addr": !!int |-
+        54671
+      "target_addr": !!int |-
+        23826
     "translated": !!null |-
       null
 "note": ""

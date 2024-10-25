@@ -12,9 +12,11 @@
       いや そんなはずはないな。
     "original_byte_length": !!int |-
       156
-    "reference_addrs":
-    - !!int |-
-      54663
+    "references":
+    - "source_addr": !!int |-
+        54663
+      "target_addr": !!int |-
+        23316
     "translated": !!null |-
       null
   "5bb0":
@@ -30,9 +32,11 @@
       期待していますよ。
     "original_byte_length": !!int |-
       118
-    "reference_addrs":
-    - !!int |-
-      54678
+    "references":
+    - "source_addr": !!int |-
+        54678
+      "target_addr": !!int |-
+        23472
     "translated": !!null |-
       null
   "5c26":
@@ -46,9 +50,11 @@
       どこに 行かれたのですか？
     "original_byte_length": !!int |-
       61
-    "reference_addrs":
-    - !!int |-
-      54687
+    "references":
+    - "source_addr": !!int |-
+        54687
+      "target_addr": !!int |-
+        23590
     "translated": !!null |-
       null
   "5c63":
@@ -67,9 +73,11 @@
       しれませんね。
     "original_byte_length": !!int |-
       164
-    "reference_addrs":
-    - !!int |-
-      54696
+    "references":
+    - "source_addr": !!int |-
+        54696
+      "target_addr": !!int |-
+        23651
     "translated": !!null |-
       null
   "5d07":
@@ -83,9 +91,11 @@
       お元気そうで なによりです。
     "original_byte_length": !!int |-
       61
-    "reference_addrs":
-    - !!int |-
-      54705
+    "references":
+    - "source_addr": !!int |-
+        54705
+      "target_addr": !!int |-
+        23815
     "translated": !!null |-
       null
   "5d44":
@@ -102,9 +112,11 @@
       地面から出てきたんです。
     "original_byte_length": !!int |-
       120
-    "reference_addrs":
-    - !!int |-
-      54714
+    "references":
+    - "source_addr": !!int |-
+        54714
+      "target_addr": !!int |-
+        23876
     "translated": !!null |-
       null
   "5dbc":
@@ -119,9 +131,11 @@
       ならないとはね ･ ･ ･
     "original_byte_length": !!int |-
       89
-    "reference_addrs":
-    - !!int |-
-      54723
+    "references":
+    - "source_addr": !!int |-
+        54723
+      "target_addr": !!int |-
+        23996
     "translated": !!null |-
       null
   "5e15":
@@ -148,9 +162,11 @@
       きっと 期待に こたえられると思うよ。
     "original_byte_length": !!int |-
       368
-    "reference_addrs":
-    - !!int |-
-      54732
+    "references":
+    - "source_addr": !!int |-
+        54732
+      "target_addr": !!int |-
+        24085
     "translated": !!null |-
       null
 "note": ""

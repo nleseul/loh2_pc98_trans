@@ -12,9 +12,11 @@
       ちょっとこい !!
     "original_byte_length": !!int |-
       68
-    "reference_addrs":
-    - !!int |-
-      54922
+    "references":
+    - "source_addr": !!int |-
+        54922
+      "target_addr": !!int |-
+        24601
     "translated": !!null |-
       null
   "605d":
@@ -56,9 +58,11 @@
       ないんだから。
     "original_byte_length": !!int |-
       513
-    "reference_addrs":
-    - !!int |-
-      54969
+    "references":
+    - "source_addr": !!int |-
+        54969
+      "target_addr": !!int |-
+        24669
     "translated": !!null |-
       null
   "625e":
@@ -76,9 +80,11 @@
       これを押すと 柵があがるんだ。
     "original_byte_length": !!int |-
       116
-    "reference_addrs":
-    - !!int |-
-      54983
+    "references":
+    - "source_addr": !!int |-
+        54983
+      "target_addr": !!int |-
+        25182
     "translated": !!null |-
       null
   "62d2":
@@ -105,9 +111,11 @@
       ここのことは 秘密だからね。
     "original_byte_length": !!int |-
       293
-    "reference_addrs":
-    - !!int |-
-      55032
+    "references":
+    - "source_addr": !!int |-
+        55032
+      "target_addr": !!int |-
+        25298
     "translated": !!null |-
       null
 "note": ""

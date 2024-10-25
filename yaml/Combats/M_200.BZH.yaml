@@ -8,7 +8,7 @@
       怪魚Ａ<RET>
     "original_byte_length": !!int |-
       7
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "71b0":
@@ -20,7 +20,7 @@
       怪魚Ｂ<RET>
     "original_byte_length": !!int |-
       7
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "71f0":
@@ -32,7 +32,7 @@
       怪魚Ｃ<RET>
     "original_byte_length": !!int |-
       7
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "7230":
@@ -44,7 +44,7 @@
       Ｍ２００Ｄ<RET>
     "original_byte_length": !!int |-
       11
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "73ba":
@@ -56,9 +56,11 @@
       怪魚が現れた。<RET_N>
     "original_byte_length": !!int |-
       15
-    "reference_addrs":
-    - !!int |-
-      61000
+    "references":
+    - "source_addr": !!int |-
+        61000
+      "target_addr": !!int |-
+        29626
     "translated": !!null |-
       null
   "73c9":
@@ -70,9 +72,11 @@
       <ACTOR>の不思議な泡が割れた。<RET_N>
     "original_byte_length": !!int |-
       24
-    "reference_addrs":
-    - !!int |-
-      61149
+    "references":
+    - "source_addr": !!int |-
+        61149
+      "target_addr": !!int |-
+        29641
     "translated": !!null |-
       null
 "note": ""

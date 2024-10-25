@@ -18,9 +18,11 @@
       社長のあだ名だけどよ。
     "original_byte_length": !!int |-
       238
-    "reference_addrs":
-    - !!int |-
-      54645
+    "references":
+    - "source_addr": !!int |-
+        54645
+      "target_addr": !!int |-
+        23051
     "translated": !!null |-
       null
 "note": ""

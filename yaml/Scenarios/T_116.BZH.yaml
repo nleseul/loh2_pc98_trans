@@ -12,9 +12,11 @@
       しかし それは 違っていたようだな。
     "original_byte_length": !!int |-
       132
-    "reference_addrs":
-    - !!int |-
-      54739
+    "references":
+    - "source_addr": !!int |-
+        54739
+      "target_addr": !!int |-
+        23399
     "translated": !!null |-
       null
   "5beb":
@@ -26,9 +28,11 @@
       <CALL61ee>ラヌーラでは セリスの城を 建て直すために たいへんなんだそうだ。
     "original_byte_length": !!int |-
       67
-    "reference_addrs":
-    - !!int |-
-      54748
+    "references":
+    - "source_addr": !!int |-
+        54748
+      "target_addr": !!int |-
+        23531
     "translated": !!null |-
       null
   "5d55":
@@ -45,9 +49,11 @@
       でも まさか そんなはずないよな。
     "original_byte_length": !!int |-
       147
-    "reference_addrs":
-    - !!int |-
-      54803
+    "references":
+    - "source_addr": !!int |-
+        54803
+      "target_addr": !!int |-
+        23893
     "translated": !!null |-
       null
   "5de8":
@@ -62,9 +68,11 @@
       これも バーバラさまのおかげね。
     "original_byte_length": !!int |-
       99
-    "reference_addrs":
-    - !!int |-
-      54812
+    "references":
+    - "source_addr": !!int |-
+        54812
+      "target_addr": !!int |-
+        24040
     "translated": !!null |-
       null
   "5e4b":
@@ -79,9 +87,11 @@
       増えたようですよ。
     "original_byte_length": !!int |-
       90
-    "reference_addrs":
-    - !!int |-
-      54821
+    "references":
+    - "source_addr": !!int |-
+        54821
+      "target_addr": !!int |-
+        24139
     "translated": !!null |-
       null
   "5ea5":
@@ -100,9 +110,11 @@
       <LOC5f35>切符が ないみたいですよ。
     "original_byte_length": !!int |-
       170
-    "reference_addrs":
-    - !!int |-
-      54650
+    "references":
+    - "source_addr": !!int |-
+        54650
+      "target_addr": !!int |-
+        24229
     "translated": !!null |-
       null
   "5f4f":
@@ -119,9 +131,11 @@
       あの呪文屋 そのうち こっとう品でも売り始めるんじゃないかな。
     "original_byte_length": !!int |-
       146
-    "reference_addrs":
-    - !!int |-
-      54830
+    "references":
+    - "source_addr": !!int |-
+        54830
+      "target_addr": !!int |-
+        24399
     "translated": !!null |-
       null
   "5fe1":
@@ -142,9 +156,11 @@
       <RET>
     "original_byte_length": !!int |-
       173
-    "reference_addrs":
-    - !!int |-
-      54842
+    "references":
+    - "source_addr": !!int |-
+        54842
+      "target_addr": !!int |-
+        24545
     "translated": !!null |-
       null
   "608e":
@@ -156,9 +172,11 @@
       また おいでください。
     "original_byte_length": !!int |-
       22
-    "reference_addrs":
-    - !!int |-
-      54854
+    "references":
+    - "source_addr": !!int |-
+        54854
+      "target_addr": !!int |-
+        24718
     "translated": !!null |-
       null
   "60a4":
@@ -172,9 +190,11 @@
       <RET>
     "original_byte_length": !!int |-
       36
-    "reference_addrs":
-    - !!int |-
-      2232
+    "references":
+    - "source_addr": !!int |-
+        2232
+      "target_addr": !!int |-
+        24740
     "translated": !!null |-
       null
   "60c8":
@@ -187,9 +207,11 @@
       <RET_N>
     "original_byte_length": !!int |-
       26
-    "reference_addrs":
-    - !!int |-
-      2234
+    "references":
+    - "source_addr": !!int |-
+        2234
+      "target_addr": !!int |-
+        24776
     "translated": !!null |-
       null
   "60e2":
@@ -204,9 +226,11 @@
       <RET>
     "original_byte_length": !!int |-
       29
-    "reference_addrs":
-    - !!int |-
-      2236
+    "references":
+    - "source_addr": !!int |-
+        2236
+      "target_addr": !!int |-
+        24802
     "translated": !!null |-
       null
   "60ff":
@@ -226,9 +250,11 @@
       <LOC61cd>これ以上 持てないわよ。
     "original_byte_length": !!int |-
       230
-    "reference_addrs":
-    - !!int |-
-      54860
+    "references":
+    - "source_addr": !!int |-
+        54860
+      "target_addr": !!int |-
+        24831
     "translated": !!null |-
       null
   "61ee":
@@ -240,7 +266,7 @@
       <C_YELLOW>兵士<C_NONE><RET_N>
     "original_byte_length": !!int |-
       7
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
 "note": ""

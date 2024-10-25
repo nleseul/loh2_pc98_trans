@@ -8,7 +8,7 @@
       ギャノア<RET>
     "original_byte_length": !!int |-
       9
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "71b0":
@@ -19,7 +19,7 @@
     "original": ""
     "original_byte_length": !!int |-
       1
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "71f0":
@@ -30,7 +30,7 @@
     "original": ""
     "original_byte_length": !!int |-
       1
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "7230":
@@ -41,7 +41,7 @@
     "original": ""
     "original_byte_length": !!int |-
       1
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "7445":
@@ -53,9 +53,11 @@
       ギャノアが現れた。<RET_N>
     "original_byte_length": !!int |-
       19
-    "reference_addrs":
-    - !!int |-
-      61000
+    "references":
+    - "source_addr": !!int |-
+        61000
+      "target_addr": !!int |-
+        29765
     "translated": !!null |-
       null
 "note": ""

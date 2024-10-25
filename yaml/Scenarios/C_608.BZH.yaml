@@ -9,9 +9,11 @@
       くっ 今 忙しいんだ じゃまをするな。
     "original_byte_length": !!int |-
       49
-    "reference_addrs":
-    - !!int |-
-      54800
+    "references":
+    - "source_addr": !!int |-
+        54800
+      "target_addr": !!int |-
+        24022
     "translated": !!null |-
       null
   "5e07":
@@ -29,9 +31,11 @@
       わからないの？
     "original_byte_length": !!int |-
       175
-    "reference_addrs":
-    - !!int |-
-      54809
+    "references":
+    - "source_addr": !!int |-
+        54809
+      "target_addr": !!int |-
+        24071
     "translated": !!null |-
       null
   "5eb6":
@@ -45,9 +49,11 @@
       だいじょうぶだ。
     "original_byte_length": !!int |-
       55
-    "reference_addrs":
-    - !!int |-
-      54818
+    "references":
+    - "source_addr": !!int |-
+        54818
+      "target_addr": !!int |-
+        24246
     "translated": !!null |-
       null
   "5eed":
@@ -62,9 +68,11 @@
       できるのだが ･ ･ ･
     "original_byte_length": !!int |-
       107
-    "reference_addrs":
-    - !!int |-
-      54827
+    "references":
+    - "source_addr": !!int |-
+        54827
+      "target_addr": !!int |-
+        24301
     "translated": !!null |-
       null
   "5f58":
@@ -77,9 +85,11 @@
       それなら \n<LOC5fea>あとは皇帝を 追うのみだ。\n早く 行きたまえ。"
     "original_byte_length": !!int |-
       190
-    "reference_addrs":
-    - !!int |-
-      54836
+    "references":
+    - "source_addr": !!int |-
+        54836
+      "target_addr": !!int |-
+        24408
     "translated": !!null |-
       null
   "6016":
@@ -96,7 +106,7 @@
       <RET>
     "original_byte_length": !!int |-
       73
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
 "note": ""

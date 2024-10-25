@@ -33,9 +33,11 @@
       おかねば ならぬことなのじゃ。
     "original_byte_length": !!int |-
       458
-    "reference_addrs":
-    - !!int |-
-      54649
+    "references":
+    - "source_addr": !!int |-
+        54649
+      "target_addr": !!int |-
+        23079
     "translated": !!null |-
       null
   "5bf1":
@@ -49,9 +51,11 @@
       私も かげながら 応援しております。
     "original_byte_length": !!int |-
       78
-    "reference_addrs":
-    - !!int |-
-      54658
+    "references":
+    - "source_addr": !!int |-
+        54658
+      "target_addr": !!int |-
+        23537
     "translated": !!null |-
       null
   "5c3f":
@@ -73,9 +77,11 @@
       時間の問題でしょう。
     "original_byte_length": !!int |-
       252
-    "reference_addrs":
-    - !!int |-
-      54667
+    "references":
+    - "source_addr": !!int |-
+        54667
+      "target_addr": !!int |-
+        23615
     "translated": !!null |-
       null
   "5d3b":
@@ -92,9 +98,11 @@
       いったい どうするのでしょうか？
     "original_byte_length": !!int |-
       167
-    "reference_addrs":
-    - !!int |-
-      54676
+    "references":
+    - "source_addr": !!int |-
+        54676
+      "target_addr": !!int |-
+        23867
     "translated": !!null |-
       null
   "5de2":
@@ -107,9 +115,11 @@
       ああ わが国にも あなたさまのような立派な後継ぎがいたら ･ ･ ･
     "original_byte_length": !!int |-
       68
-    "reference_addrs":
-    - !!int |-
-      54685
+    "references":
+    - "source_addr": !!int |-
+        54685
+      "target_addr": !!int |-
+        24034
     "translated": !!null |-
       null
   "5e26":
@@ -123,9 +133,11 @@
       お元気そうで なによりでございます。
     "original_byte_length": !!int |-
       76
-    "reference_addrs":
-    - !!int |-
-      54694
+    "references":
+    - "source_addr": !!int |-
+        54694
+      "target_addr": !!int |-
+        24102
     "translated": !!null |-
       null
 "note": ""

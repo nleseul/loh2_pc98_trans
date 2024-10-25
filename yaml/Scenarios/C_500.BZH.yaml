@@ -24,9 +24,11 @@
       助けにいこうぜ。
     "original_byte_length": !!int |-
       206
-    "reference_addrs":
-    - !!int |-
-      54768
+    "references":
+    - "source_addr": !!int |-
+        54768
+      "target_addr": !!int |-
+        23786
     "translated": !!null |-
       null
   "5db8":
@@ -43,9 +45,11 @@
       隊長だったら この先だ。
     "original_byte_length": !!int |-
       109
-    "reference_addrs":
-    - !!int |-
-      54777
+    "references":
+    - "source_addr": !!int |-
+        54777
+      "target_addr": !!int |-
+        23992
     "translated": !!null |-
       null
   "5e25":
@@ -59,9 +63,11 @@
       プロスの収容所 行きだからな。
     "original_byte_length": !!int |-
       69
-    "reference_addrs":
-    - !!int |-
-      54786
+    "references":
+    - "source_addr": !!int |-
+        54786
+      "target_addr": !!int |-
+        24101
     "translated": !!null |-
       null
   "5e6a":
@@ -79,9 +85,11 @@
       思うんだな。
     "original_byte_length": !!int |-
       137
-    "reference_addrs":
-    - !!int |-
-      54795
+    "references":
+    - "source_addr": !!int |-
+        54795
+      "target_addr": !!int |-
+        24170
     "translated": !!null |-
       null
   "5ef3":
@@ -96,9 +104,11 @@
       しているんじゃない。
     "original_byte_length": !!int |-
       88
-    "reference_addrs":
-    - !!int |-
-      54804
+    "references":
+    - "source_addr": !!int |-
+        54804
+      "target_addr": !!int |-
+        24307
     "translated": !!null |-
       null
   "5f4b":
@@ -110,9 +120,11 @@
       <C_GREEN>ガードは気絶しているようです。<C_NONE>
     "original_byte_length": !!int |-
       33
-    "reference_addrs":
-    - !!int |-
-      54813
+    "references":
+    - "source_addr": !!int |-
+        54813
+      "target_addr": !!int |-
+        24395
     "translated": !!null |-
       null
   "5f6c":
@@ -142,9 +154,11 @@
       はい。
     "original_byte_length": !!int |-
       226
-    "reference_addrs":
-    - !!int |-
-      54822
+    "references":
+    - "source_addr": !!int |-
+        54822
+      "target_addr": !!int |-
+        24428
     "translated": !!null |-
       null
 "note": ""

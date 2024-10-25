@@ -12,9 +12,11 @@
       もうすぐ 来るはずよ。
     "original_byte_length": !!int |-
       51
-    "reference_addrs":
-    - !!int |-
-      54900
+    "references":
+    - "source_addr": !!int |-
+        54900
+      "target_addr": !!int |-
+        24187
     "translated": !!null |-
       null
   "5eae":
@@ -36,9 +38,11 @@
       <Xf9280202><Xf7><Xf9180202><Xf9200202>では ナレサ殿。
     "original_byte_length": !!int |-
       186
-    "reference_addrs":
-    - !!int |-
-      54968
+    "references":
+    - "source_addr": !!int |-
+        54968
+      "target_addr": !!int |-
+        24238
     "translated": !!null |-
       null
   "5f68":
@@ -51,9 +55,11 @@
       さあ われわれも 行きましょう。
     "original_byte_length": !!int |-
       42
-    "reference_addrs":
-    - !!int |-
-      54721
+    "references":
+    - "source_addr": !!int |-
+        54721
+      "target_addr": !!int |-
+        24424
     "translated": !!null |-
       null
 "note": ""

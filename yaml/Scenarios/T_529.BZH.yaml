@@ -12,9 +12,11 @@
       いいやつなんだけどな。
     "original_byte_length": !!int |-
       107
-    "reference_addrs":
-    - !!int |-
-      54642
+    "references":
+    - "source_addr": !!int |-
+        54642
+      "target_addr": !!int |-
+        23178
     "translated": !!null |-
       null
   "5af5":
@@ -34,9 +36,11 @@
       わっはっはっは。
     "original_byte_length": !!int |-
       195
-    "reference_addrs":
-    - !!int |-
-      54651
+    "references":
+    - "source_addr": !!int |-
+        54651
+      "target_addr": !!int |-
+        23285
     "translated": !!null |-
       null
   "5bb8":
@@ -51,9 +55,11 @@
       文句あっか ？
     "original_byte_length": !!int |-
       66
-    "reference_addrs":
-    - !!int |-
-      54660
+    "references":
+    - "source_addr": !!int |-
+        54660
+      "target_addr": !!int |-
+        23480
     "translated": !!null |-
       null
   "5bfa":
@@ -69,9 +75,11 @@
       ふれさせないぜ。
     "original_byte_length": !!int |-
       106
-    "reference_addrs":
-    - !!int |-
-      54669
+    "references":
+    - "source_addr": !!int |-
+        54669
+      "target_addr": !!int |-
+        23546
     "translated": !!null |-
       null
   "5c64":
@@ -87,9 +95,11 @@
       はくじょうな人たちか。
     "original_byte_length": !!int |-
       130
-    "reference_addrs":
-    - !!int |-
-      54678
+    "references":
+    - "source_addr": !!int |-
+        54678
+      "target_addr": !!int |-
+        23652
     "translated": !!null |-
       null
   "5ce6":
@@ -103,9 +113,11 @@
       顔は知ってるけど 思い出せないな。
     "original_byte_length": !!int |-
       59
-    "reference_addrs":
-    - !!int |-
-      54687
+    "references":
+    - "source_addr": !!int |-
+        54687
+      "target_addr": !!int |-
+        23782
     "translated": !!null |-
       null
   "5d21":
@@ -121,9 +133,11 @@
       もう たいへんだったよ。
     "original_byte_length": !!int |-
       116
-    "reference_addrs":
-    - !!int |-
-      54696
+    "references":
+    - "source_addr": !!int |-
+        54696
+      "target_addr": !!int |-
+        23841
     "translated": !!null |-
       null
   "5d95":
@@ -140,9 +154,11 @@
       することになったの？
     "original_byte_length": !!int |-
       97
-    "reference_addrs":
-    - !!int |-
-      54705
+    "references":
+    - "source_addr": !!int |-
+        54705
+      "target_addr": !!int |-
+        23957
     "translated": !!null |-
       null
   "5df6":
@@ -160,9 +176,11 @@
       なっていた人と まちがえたのよ。
     "original_byte_length": !!int |-
       160
-    "reference_addrs":
-    - !!int |-
-      54714
+    "references":
+    - "source_addr": !!int |-
+        54714
+      "target_addr": !!int |-
+        24054
     "translated": !!null |-
       null
   "5e96":
@@ -254,9 +272,11 @@
       <LOC6596>時代は 新たなる 英雄を求めている。がんばれよ 若者たち。
     "original_byte_length": !!int |-
       1848
-    "reference_addrs":
-    - !!int |-
-      54633
+    "references":
+    - "source_addr": !!int |-
+        54633
+      "target_addr": !!int |-
+        24214
     "translated": !!null |-
       null
 "note": ""

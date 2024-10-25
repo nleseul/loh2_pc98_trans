@@ -8,9 +8,11 @@
       エルアスタの町<RET_N>
     "original_byte_length": !!int |-
       15
-    "reference_addrs":
-    - !!int |-
-      56418
+    "references":
+    - "source_addr": !!int |-
+        56418
+      "target_addr": !!int |-
+        25160
     "translated": |2-
           Eluasta   <RET_N>
   "6257":
@@ -22,9 +24,11 @@
        ルディアの町 <RET_N>
     "original_byte_length": !!int |-
       15
-    "reference_addrs":
-    - !!int |-
-      56430
+    "references":
+    - "source_addr": !!int |-
+        56430
+      "target_addr": !!int |-
+        25175
     "translated": |2-
            Rudia    <RET_N>
   "6266":
@@ -36,9 +40,11 @@
         クルスの村  <RET_N>
     "original_byte_length": !!int |-
       15
-    "reference_addrs":
-    - !!int |-
-      56442
+    "references":
+    - "source_addr": !!int |-
+        56442
+      "target_addr": !!int |-
+        25190
     "translated": |2-
        Crus Village <RET_N>
   "6275":
@@ -50,9 +56,11 @@
        ベルガの鉱山 <RET_N>
     "original_byte_length": !!int |-
       15
-    "reference_addrs":
-    - !!int |-
-      56454
+    "references":
+    - "source_addr": !!int |-
+        56454
+      "target_addr": !!int |-
+        25205
     "translated": |2-
         Belga Mine  <RET_N>
   "6284":
@@ -64,9 +72,11 @@
         ネリアの港  <RET_N>
     "original_byte_length": !!int |-
       15
-    "reference_addrs":
-    - !!int |-
-      56466
+    "references":
+    - "source_addr": !!int |-
+        56466
+      "target_addr": !!int |-
+        25220
     "translated": |2-
        Neria Harbor <RET_N>
   "6293":
@@ -78,9 +88,11 @@
         ロンドの港  <RET_N>
     "original_byte_length": !!int |-
       15
-    "reference_addrs":
-    - !!int |-
-      56478
+    "references":
+    - "source_addr": !!int |-
+        56478
+      "target_addr": !!int |-
+        25235
     "translated": !!null |-
       null
   "62a2":
@@ -92,9 +104,11 @@
        ラルファの港 <RET_N>
     "original_byte_length": !!int |-
       15
-    "reference_addrs":
-    - !!int |-
-      56490
+    "references":
+    - "source_addr": !!int |-
+        56490
+      "target_addr": !!int |-
+        25250
     "translated": !!null |-
       null
   "62b1":
@@ -106,9 +120,11 @@
         シリカの村  <RET_N>
     "original_byte_length": !!int |-
       15
-    "reference_addrs":
-    - !!int |-
-      56502
+    "references":
+    - "source_addr": !!int |-
+        56502
+      "target_addr": !!int |-
+        25265
     "translated": !!null |-
       null
   "62c0":
@@ -120,9 +136,11 @@
       マスクーンの町<RET_N>
     "original_byte_length": !!int |-
       15
-    "reference_addrs":
-    - !!int |-
-      56514
+    "references":
+    - "source_addr": !!int |-
+        56514
+      "target_addr": !!int |-
+        25280
     "translated": !!null |-
       null
   "62cf":
@@ -134,9 +152,11 @@
        リーゼルの町 <RET_N>
     "original_byte_length": !!int |-
       15
-    "reference_addrs":
-    - !!int |-
-      56526
+    "references":
+    - "source_addr": !!int |-
+        56526
+      "target_addr": !!int |-
+        25295
     "translated": !!null |-
       null
   "62de":
@@ -148,9 +168,11 @@
         ヨルドの港  <RET_N>
     "original_byte_length": !!int |-
       15
-    "reference_addrs":
-    - !!int |-
-      56538
+    "references":
+    - "source_addr": !!int |-
+        56538
+      "target_addr": !!int |-
+        25310
     "translated": !!null |-
       null
   "62ed":
@@ -162,9 +184,11 @@
         セリスの町  <RET_N>
     "original_byte_length": !!int |-
       15
-    "reference_addrs":
-    - !!int |-
-      56550
+    "references":
+    - "source_addr": !!int |-
+        56550
+      "target_addr": !!int |-
+        25325
     "translated": !!null |-
       null
   "62fc":
@@ -176,9 +200,11 @@
        ナッシュの町 <RET_N>
     "original_byte_length": !!int |-
       15
-    "reference_addrs":
-    - !!int |-
-      56562
+    "references":
+    - "source_addr": !!int |-
+        56562
+      "target_addr": !!int |-
+        25340
     "translated": !!null |-
       null
   "630b":
@@ -190,9 +216,11 @@
          セレの村   <RET_N>
     "original_byte_length": !!int |-
       15
-    "reference_addrs":
-    - !!int |-
-      56574
+    "references":
+    - "source_addr": !!int |-
+        56574
+      "target_addr": !!int |-
+        25355
     "translated": !!null |-
       null
   "631a":
@@ -204,9 +232,11 @@
         スエルの村  <RET_N>
     "original_byte_length": !!int |-
       15
-    "reference_addrs":
-    - !!int |-
-      56586
+    "references":
+    - "source_addr": !!int |-
+        56586
+      "target_addr": !!int |-
+        25370
     "translated": !!null |-
       null
   "6329":
@@ -218,9 +248,11 @@
         アムダの村  <RET_N>
     "original_byte_length": !!int |-
       15
-    "reference_addrs":
-    - !!int |-
-      56598
+    "references":
+    - "source_addr": !!int |-
+        56598
+      "target_addr": !!int |-
+        25385
     "translated": !!null |-
       null
   "6338":
@@ -232,11 +264,15 @@
         セダルの町  <RET_N>
     "original_byte_length": !!int |-
       15
-    "reference_addrs":
-    - !!int |-
-      56610
-    - !!int |-
-      56658
+    "references":
+    - "source_addr": !!int |-
+        56610
+      "target_addr": !!int |-
+        25400
+    - "source_addr": !!int |-
+        56658
+      "target_addr": !!int |-
+        25400
     "translated": !!null |-
       null
   "6347":
@@ -248,9 +284,11 @@
         ルドラの港  <RET_N>
     "original_byte_length": !!int |-
       15
-    "reference_addrs":
-    - !!int |-
-      56622
+    "references":
+    - "source_addr": !!int |-
+        56622
+      "target_addr": !!int |-
+        25415
     "translated": !!null |-
       null
   "6356":
@@ -262,9 +300,11 @@
         カウルの村  <RET_N>
     "original_byte_length": !!int |-
       15
-    "reference_addrs":
-    - !!int |-
-      56634
+    "references":
+    - "source_addr": !!int |-
+        56634
+      "target_addr": !!int |-
+        25430
     "translated": !!null |-
       null
   "6365":
@@ -276,9 +316,11 @@
       バズヌーンの町<RET_N>
     "original_byte_length": !!int |-
       15
-    "reference_addrs":
-    - !!int |-
-      56646
+    "references":
+    - "source_addr": !!int |-
+        56646
+      "target_addr": !!int |-
+        25445
     "translated": !!null |-
       null
   "6374":
@@ -290,9 +332,11 @@
       リシェールの港<RET_N>
     "original_byte_length": !!int |-
       15
-    "reference_addrs":
-    - !!int |-
-      56670
+    "references":
+    - "source_addr": !!int |-
+        56670
+      "target_addr": !!int |-
+        25460
     "translated": !!null |-
       null
   "6383":
@@ -304,9 +348,11 @@
        ナスールの町 <RET_N>
     "original_byte_length": !!int |-
       15
-    "reference_addrs":
-    - !!int |-
-      56682
+    "references":
+    - "source_addr": !!int |-
+        56682
+      "target_addr": !!int |-
+        25475
     "translated": !!null |-
       null
   "6392":
@@ -318,9 +364,11 @@
        ファエトの村 <RET_N>
     "original_byte_length": !!int |-
       15
-    "reference_addrs":
-    - !!int |-
-      56694
+    "references":
+    - "source_addr": !!int |-
+        56694
+      "target_addr": !!int |-
+        25490
     "translated": !!null |-
       null
   "63a1":
@@ -332,9 +380,11 @@
        コルクスの町 <RET_N>
     "original_byte_length": !!int |-
       15
-    "reference_addrs":
-    - !!int |-
-      56706
+    "references":
+    - "source_addr": !!int |-
+        56706
+      "target_addr": !!int |-
+        25505
     "translated": !!null |-
       null
   "63b0":
@@ -346,9 +396,11 @@
        ルディアの城 <RET_N>
     "original_byte_length": !!int |-
       15
-    "reference_addrs":
-    - !!int |-
-      56778
+    "references":
+    - "source_addr": !!int |-
+        56778
+      "target_addr": !!int |-
+        25520
     "translated": !!null |-
       null
   "63bf":
@@ -360,11 +412,15 @@
          岬の洞窟   <RET_N>
     "original_byte_length": !!int |-
       15
-    "reference_addrs":
-    - !!int |-
-      56790
-    - !!int |-
-      56718
+    "references":
+    - "source_addr": !!int |-
+        56718
+      "target_addr": !!int |-
+        25535
+    - "source_addr": !!int |-
+        56790
+      "target_addr": !!int |-
+        25535
     "translated": !!null |-
       null
   "63ce":
@@ -376,9 +432,11 @@
         試練の洞窟  <RET_N>
     "original_byte_length": !!int |-
       15
-    "reference_addrs":
-    - !!int |-
-      56730
+    "references":
+    - "source_addr": !!int |-
+        56730
+      "target_addr": !!int |-
+        25550
     "translated": !!null |-
       null
   "63dd":
@@ -390,9 +448,11 @@
          王家の墓   <RET_N>
     "original_byte_length": !!int |-
       15
-    "reference_addrs":
-    - !!int |-
-      56742
+    "references":
+    - "source_addr": !!int |-
+        56742
+      "target_addr": !!int |-
+        25565
     "translated": !!null |-
       null
   "63ec":
@@ -404,9 +464,11 @@
           狼の口    <RET_N>
     "original_byte_length": !!int |-
       15
-    "reference_addrs":
-    - !!int |-
-      56754
+    "references":
+    - "source_addr": !!int |-
+        56754
+      "target_addr": !!int |-
+        25580
     "translated": !!null |-
       null
   "63fb":
@@ -418,10 +480,11 @@
          奈落の口   <RET_N>
     "original_byte_length": !!int |-
       15
-    "reference_addrs":
-    - !!int |-
-      56766
+    "references":
+    - "source_addr": !!int |-
+        56766
+      "target_addr": !!int |-
+        25595
     "translated": !!null |-
       null
-"note": |-
-  Overworld - Prologue
+"note": ""

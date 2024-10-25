@@ -50,9 +50,11 @@
       必ず 戻ってくるよ。
     "original_byte_length": !!int |-
       561
-    "reference_addrs":
-    - !!int |-
-      54836
+    "references":
+    - "source_addr": !!int |-
+        54836
+      "target_addr": !!int |-
+        25514
     "translated": !!null |-
       null
 "note": ""

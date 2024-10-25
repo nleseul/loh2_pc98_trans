@@ -8,7 +8,7 @@
       グロルＡ<RET>
     "original_byte_length": !!int |-
       9
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "71b0":
@@ -20,7 +20,7 @@
       グロルＢ<RET>
     "original_byte_length": !!int |-
       9
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "71f0":
@@ -32,7 +32,7 @@
       グロルＣ<RET>
     "original_byte_length": !!int |-
       9
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "7230":
@@ -44,7 +44,7 @@
       グロルＤ<RET>
     "original_byte_length": !!int |-
       9
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "74bd":
@@ -56,9 +56,11 @@
       グロルが現れた。<RET_N>
     "original_byte_length": !!int |-
       17
-    "reference_addrs":
-    - !!int |-
-      61000
+    "references":
+    - "source_addr": !!int |-
+        61000
+      "target_addr": !!int |-
+        29885
     "translated": !!null |-
       null
   "74e0":
@@ -70,9 +72,11 @@
       <ACTOR>の運のよさが 11 <RET>
     "original_byte_length": !!int |-
       18
-    "reference_addrs":
-    - !!int |-
-      61536
+    "references":
+    - "source_addr": !!int |-
+        61536
+      "target_addr": !!int |-
+        29920
     "translated": !!null |-
       null
   "74fd":
@@ -84,9 +88,11 @@
       さがった。<RET_PAGE>
     "original_byte_length": !!int |-
       11
-    "reference_addrs":
-    - !!int |-
-      61542
+    "references":
+    - "source_addr": !!int |-
+        61542
+      "target_addr": !!int |-
+        29949
     "translated": !!null |-
       null
   "7508":
@@ -98,9 +104,11 @@
       グロルはゆで上がってしまった。<RET_PAGE>
     "original_byte_length": !!int |-
       31
-    "reference_addrs":
-    - !!int |-
-      61505
+    "references":
+    - "source_addr": !!int |-
+        61505
+      "target_addr": !!int |-
+        29960
     "translated": !!null |-
       null
   "7527":
@@ -113,9 +121,11 @@
       伝わってきた !!<RET_PAGE>
     "original_byte_length": !!int |-
       47
-    "reference_addrs":
-    - !!int |-
-      61422
+    "references":
+    - "source_addr": !!int |-
+        61422
+      "target_addr": !!int |-
+        29991
     "translated": !!null |-
       null
 "note": ""

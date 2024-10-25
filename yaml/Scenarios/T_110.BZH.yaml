@@ -13,9 +13,11 @@
       いいのだが ･ ･ ･
     "original_byte_length": !!int |-
       130
-    "reference_addrs":
-    - !!int |-
-      54633
+    "references":
+    - "source_addr": !!int |-
+        54633
+      "target_addr": !!int |-
+        23222
     "translated": !!null |-
       null
   "5b76":
@@ -34,9 +36,11 @@
       今からでも 行ってくるんだな。
     "original_byte_length": !!int |-
       218
-    "reference_addrs":
-    - !!int |-
-      54648
+    "references":
+    - "source_addr": !!int |-
+        54648
+      "target_addr": !!int |-
+        23414
     "translated": !!null |-
       null
   "5c50":
@@ -53,9 +57,11 @@
       でも まさか そんなはずないよな。
     "original_byte_length": !!int |-
       147
-    "reference_addrs":
-    - !!int |-
-      54682
+    "references":
+    - "source_addr": !!int |-
+        54682
+      "target_addr": !!int |-
+        23632
     "translated": !!null |-
       null
   "5ce3":
@@ -78,9 +84,11 @@
       きかなくなったわ。
     "original_byte_length": !!int |-
       271
-    "reference_addrs":
-    - !!int |-
-      54691
+    "references":
+    - "source_addr": !!int |-
+        54691
+      "target_addr": !!int |-
+        23779
     "translated": !!null |-
       null
   "5df2":
@@ -97,9 +105,11 @@
       見せてみな きっと買いたがるぜ。
     "original_byte_length": !!int |-
       120
-    "reference_addrs":
-    - !!int |-
-      54700
+    "references":
+    - "source_addr": !!int |-
+        54700
+      "target_addr": !!int |-
+        24050
     "translated": !!null |-
       null
   "5e6a":
@@ -145,11 +155,15 @@
       <LOC6173>お客さん お金が 足りないわよ。
     "original_byte_length": !!int |-
       808
-    "reference_addrs":
-    - !!int |-
-      54712
-    - !!int |-
-      54706
+    "references":
+    - "source_addr": !!int |-
+        54706
+      "target_addr": !!int |-
+        24170
+    - "source_addr": !!int |-
+        54712
+      "target_addr": !!int |-
+        24778
     "translated": !!null |-
       null
   "619b":
@@ -161,9 +175,11 @@
       <C_YELLOW>兵士<C_NONE><RET_N>
     "original_byte_length": !!int |-
       7
-    "reference_addrs":
-    - !!int |-
-      54642
+    "references":
+    - "source_addr": !!int |-
+        54642
+      "target_addr": !!int |-
+        24987
     "translated": !!null |-
       null
   "61a2":
@@ -175,7 +191,7 @@
       <C_YELLOW>呪文屋<C_NONE><RET_N>
     "original_byte_length": !!int |-
       9
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
 "note": ""

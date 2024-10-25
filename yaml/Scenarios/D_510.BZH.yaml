@@ -8,9 +8,11 @@
       岩は 全然動きません。
     "original_byte_length": !!int |-
       22
-    "reference_addrs":
-    - !!int |-
-      54693
+    "references":
+    - "source_addr": !!int |-
+        54693
+      "target_addr": !!int |-
+        23462
     "translated": !!null |-
       null
   "5bbc":
@@ -23,9 +25,11 @@
       大岩にセットしました。<SND0105>
     "original_byte_length": !!int |-
       41
-    "reference_addrs":
-    - !!int |-
-      54715
+    "references":
+    - "source_addr": !!int |-
+        54715
+      "target_addr": !!int |-
+        23484
     "translated": !!null |-
       null
 "note": ""

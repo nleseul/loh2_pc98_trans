@@ -31,9 +31,11 @@
       エリオンさまも お気をつけください。
     "original_byte_length": !!int |-
       448
-    "reference_addrs":
-    - !!int |-
-      54638
+    "references":
+    - "source_addr": !!int |-
+        54638
+      "target_addr": !!int |-
+        23445
     "translated": !!null |-
       null
 "note": ""

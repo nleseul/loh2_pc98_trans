@@ -21,9 +21,11 @@
       戻った方がいいぜ。
     "original_byte_length": !!int |-
       262
-    "reference_addrs":
-    - !!int |-
-      54750
+    "references":
+    - "source_addr": !!int |-
+        54750
+      "target_addr": !!int |-
+        23506
     "translated": !!null |-
       null
   "5cd8":
@@ -175,11 +177,15 @@
       ひでえ目 あわねえうちに 帰りな。
     "original_byte_length": !!int |-
       2614
-    "reference_addrs":
-    - !!int |-
-      54768
-    - !!int |-
-      54759
+    "references":
+    - "source_addr": !!int |-
+        54759
+      "target_addr": !!int |-
+        23768
+    - "source_addr": !!int |-
+        54768
+      "target_addr": !!int |-
+        26239
     "translated": !!null |-
       null
   "670e":
@@ -199,9 +205,11 @@
       ような人じゃないし ･ ･ ･
     "original_byte_length": !!int |-
       182
-    "reference_addrs":
-    - !!int |-
-      54777
+    "references":
+    - "source_addr": !!int |-
+        54777
+      "target_addr": !!int |-
+        26382
     "translated": !!null |-
       null
   "67c4":
@@ -225,9 +233,11 @@
       何か知ってるんじゃないですか。<LOC691f>
     "original_byte_length": !!int |-
       348
-    "reference_addrs":
-    - !!int |-
-      54786
+    "references":
+    - "source_addr": !!int |-
+        54786
+      "target_addr": !!int |-
+        26564
     "translated": !!null |-
       null
   "6920":
@@ -245,9 +255,11 @@
       あいつらどうしたんだろう。
     "original_byte_length": !!int |-
       156
-    "reference_addrs":
-    - !!int |-
-      54795
+    "references":
+    - "source_addr": !!int |-
+        54795
+      "target_addr": !!int |-
+        26912
     "translated": !!null |-
       null
   "69bc":
@@ -261,9 +273,11 @@
       作った人が言ってるからまちがいねえ。ムダなことは やめときな。
     "original_byte_length": !!int |-
       129
-    "reference_addrs":
-    - !!int |-
-      54804
+    "references":
+    - "source_addr": !!int |-
+        54804
+      "target_addr": !!int |-
+        27068
     "translated": !!null |-
       null
   "6a3d":
@@ -280,9 +294,11 @@
       いったい どうしちまったんだろう。
     "original_byte_length": !!int |-
       187
-    "reference_addrs":
-    - !!int |-
-      54813
+    "references":
+    - "source_addr": !!int |-
+        54813
+      "target_addr": !!int |-
+        27197
     "translated": !!null |-
       null
   "6af8":
@@ -299,9 +315,11 @@
       どこに 行ってしまったのか。
     "original_byte_length": !!int |-
       143
-    "reference_addrs":
-    - !!int |-
-      54822
+    "references":
+    - "source_addr": !!int |-
+        54822
+      "target_addr": !!int |-
+        27384
     "translated": !!null |-
       null
   "6b87":
@@ -318,9 +336,11 @@
       銀の笛ってのが 入ってるらしいぜ。
     "original_byte_length": !!int |-
       135
-    "reference_addrs":
-    - !!int |-
-      54831
+    "references":
+    - "source_addr": !!int |-
+        54831
+      "target_addr": !!int |-
+        27527
     "translated": !!null |-
       null
   "6c0e":
@@ -336,9 +356,11 @@
                          <CALL6cd3>』
     "original_byte_length": !!int |-
       80
-    "reference_addrs":
-    - !!int |-
-      54729
+    "references":
+    - "source_addr": !!int |-
+        54729
+      "target_addr": !!int |-
+        27662
     "translated": !!null |-
       null
   "6c5e":
@@ -354,9 +376,11 @@
                      　　<CALL6cd3>』
     "original_byte_length": !!int |-
       74
-    "reference_addrs":
-    - !!int |-
-      54735
+    "references":
+    - "source_addr": !!int |-
+        54735
+      "target_addr": !!int |-
+        27742
     "translated": !!null |-
       null
   "6ca8":
@@ -368,9 +392,11 @@
       <C_GREEN>扉は 開きそうもありません。<C_NONE>
     "original_byte_length": !!int |-
       30
-    "reference_addrs":
-    - !!int |-
-      54741
+    "references":
+    - "source_addr": !!int |-
+        54741
+      "target_addr": !!int |-
+        27816
     "translated": !!null |-
       null
   "6cc6":
@@ -382,7 +408,7 @@
       <C_YELLOW>ゲイル３世<C_NONE><RET_N>
     "original_byte_length": !!int |-
       13
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "6cd3":
@@ -394,7 +420,7 @@
       大盗賊 ゲイル<RET>
     "original_byte_length": !!int |-
       14
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "6ce1":
@@ -406,7 +432,7 @@
       <C_YELLOW>盗賊<C_NONE><RET_N>
     "original_byte_length": !!int |-
       7
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "6ce8":
@@ -418,7 +444,7 @@
       <C_YELLOW>ドレイク<C_NONE><RET_N>
     "original_byte_length": !!int |-
       11
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "6cf3":
@@ -430,7 +456,7 @@
       モンスター<RET>
     "original_byte_length": !!int |-
       11
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
 "note": ""

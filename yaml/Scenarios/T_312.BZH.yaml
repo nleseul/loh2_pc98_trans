@@ -22,9 +22,11 @@
       ドラゴンを 育ててるのさ。
     "original_byte_length": !!int |-
       328
-    "reference_addrs":
-    - !!int |-
-      54664
+    "references":
+    - "source_addr": !!int |-
+        54664
+      "target_addr": !!int |-
+        23283
     "translated": !!null |-
       null
   "5c3b":
@@ -51,9 +53,11 @@
       行っとるのじゃろう。<LOC5df2>
     "original_byte_length": !!int |-
       440
-    "reference_addrs":
-    - !!int |-
-      54673
+    "references":
+    - "source_addr": !!int |-
+        54673
+      "target_addr": !!int |-
+        23611
     "translated": !!null |-
       null
   "5df3":
@@ -67,9 +71,11 @@
       勝手に のぞくでない。
     "original_byte_length": !!int |-
       57
-    "reference_addrs":
-    - !!int |-
-      54655
+    "references":
+    - "source_addr": !!int |-
+        54655
+      "target_addr": !!int |-
+        24051
     "translated": !!null |-
       null
   "5e2c":
@@ -83,9 +89,11 @@
       まかせて ここで隠居してるんです。
     "original_byte_length": !!int |-
       74
-    "reference_addrs":
-    - !!int |-
-      54682
+    "references":
+    - "source_addr": !!int |-
+        54682
+      "target_addr": !!int |-
+        24108
     "translated": !!null |-
       null
   "5e76":
@@ -102,9 +110,11 @@
       <RET>
     "original_byte_length": !!int |-
       91
-    "reference_addrs":
-    - !!int |-
-      54694
+    "references":
+    - "source_addr": !!int |-
+        54694
+      "target_addr": !!int |-
+        24182
     "translated": !!null |-
       null
   "5ed1":
@@ -116,9 +126,11 @@
       また来てくださいね。
     "original_byte_length": !!int |-
       21
-    "reference_addrs":
-    - !!int |-
-      54706
+    "references":
+    - "source_addr": !!int |-
+        54706
+      "target_addr": !!int |-
+        24273
     "translated": !!null |-
       null
   "5ee6":
@@ -132,9 +144,11 @@
       どのような ご用でしょうか？<RET_N>
     "original_byte_length": !!int |-
       56
-    "reference_addrs":
-    - !!int |-
-      54718
+    "references":
+    - "source_addr": !!int |-
+        54718
+      "target_addr": !!int |-
+        24294
     "translated": !!null |-
       null
   "5f1e":
@@ -146,9 +160,11 @@
       また来てくださいね。
     "original_byte_length": !!int |-
       21
-    "reference_addrs":
-    - !!int |-
-      54745
+    "references":
+    - "source_addr": !!int |-
+        54745
+      "target_addr": !!int |-
+        24350
     "translated": !!null |-
       null
   "5f33":
@@ -162,9 +178,11 @@
       <RET>
     "original_byte_length": !!int |-
       36
-    "reference_addrs":
-    - !!int |-
-      1778
+    "references":
+    - "source_addr": !!int |-
+        1778
+      "target_addr": !!int |-
+        24371
     "translated": !!null |-
       null
   "5f57":
@@ -177,9 +195,11 @@
       <RET_N>
     "original_byte_length": !!int |-
       26
-    "reference_addrs":
-    - !!int |-
-      1780
+    "references":
+    - "source_addr": !!int |-
+        1780
+      "target_addr": !!int |-
+        24407
     "translated": !!null |-
       null
   "5f71":
@@ -194,9 +214,11 @@
       <RET>
     "original_byte_length": !!int |-
       29
-    "reference_addrs":
-    - !!int |-
-      1782
+    "references":
+    - "source_addr": !!int |-
+        1782
+      "target_addr": !!int |-
+        24433
     "translated": !!null |-
       null
   "5f96":
@@ -209,9 +231,11 @@
       <RET_N>
     "original_byte_length": !!int |-
       27
-    "reference_addrs":
-    - !!int |-
-      1616
+    "references":
+    - "source_addr": !!int |-
+        1616
+      "target_addr": !!int |-
+        24470
     "translated": !!null |-
       null
   "5fb1":
@@ -225,9 +249,11 @@
       <RET_N>
     "original_byte_length": !!int |-
       44
-    "reference_addrs":
-    - !!int |-
-      1618
+    "references":
+    - "source_addr": !!int |-
+        1618
+      "target_addr": !!int |-
+        24497
     "translated": !!null |-
       null
   "5fdd":
@@ -241,9 +267,11 @@
       <RET_N>
     "original_byte_length": !!int |-
       18
-    "reference_addrs":
-    - !!int |-
-      1620
+    "references":
+    - "source_addr": !!int |-
+        1620
+      "target_addr": !!int |-
+        24541
     "translated": !!null |-
       null
   "5fef":
@@ -256,9 +284,11 @@
       <RET_N>
     "original_byte_length": !!int |-
       31
-    "reference_addrs":
-    - !!int |-
-      1622
+    "references":
+    - "source_addr": !!int |-
+        1622
+      "target_addr": !!int |-
+        24559
     "translated": !!null |-
       null
 "note": ""

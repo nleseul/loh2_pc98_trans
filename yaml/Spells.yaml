@@ -8,7 +8,7 @@
       フラム
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": |-
       Flam
   "9ac8":
@@ -20,7 +20,7 @@
       イグナ
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": |-
       Igna
   "9ad4":
@@ -32,7 +32,7 @@
       ヒュール
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": |-
       Hura
   "9ae0":
@@ -44,7 +44,7 @@
       サクタス
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": |-
       Suctas
   "9aec":
@@ -56,7 +56,7 @@
       パペピア
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": |-
       Papepia
   "9af8":
@@ -68,7 +68,7 @@
       プアゾ
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": |-
       Poizo
   "9b04":
@@ -80,7 +80,7 @@
       ホー
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": |-
       Hoa
   "9b10":
@@ -92,7 +92,7 @@
       シレント
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": |-
       Serento
   "9b1c":
@@ -104,7 +104,7 @@
       オビス
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": |-
       Obis
   "9b28":
@@ -116,7 +116,7 @@
       ダナム
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": |-
       Danam
   "9b34":
@@ -128,7 +128,7 @@
       ヘベタル
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": |-
       Hebetar
   "9b40":
@@ -140,7 +140,7 @@
       ストール
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "9b4c":
@@ -152,7 +152,7 @@
       ブラムナ
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "9b58":
@@ -164,7 +164,7 @@
       ヒュドナ
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "9b64":
@@ -176,7 +176,7 @@
       ＭＧ１４
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "9b70":
@@ -188,7 +188,7 @@
       ＭＧ１５
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "9b7c":
@@ -200,7 +200,7 @@
       インパス
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": |-
       Impas
   "9b88":
@@ -212,7 +212,7 @@
       テュート
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": |-
       Teuto
   "9b94":
@@ -224,7 +224,7 @@
       セラ
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": |-
       Sela
   "9ba0":
@@ -236,7 +236,7 @@
       サイレス
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": |-
       Sylis
   "9bac":
@@ -248,7 +248,7 @@
       リパーク
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": |-
       Reparc
   "9bb8":
@@ -260,7 +260,7 @@
       エント
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "9bc4":
@@ -272,7 +272,7 @@
       ＭＧ２２
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "9bd0":
@@ -284,7 +284,7 @@
       レス
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": |-
       Res
   "9bdc":
@@ -296,7 +296,7 @@
       レジナ
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": |-
       Regina
   "9be8":
@@ -308,7 +308,7 @@
       リーフ
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": |-
       Lefe
   "9bf4":
@@ -320,7 +320,7 @@
       レストナ
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "9c00":
@@ -332,7 +332,7 @@
       笛
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": |-
       Flute
   "9c0c":
@@ -344,7 +344,7 @@
       ワプ
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "9c18":
@@ -356,7 +356,7 @@
       ルクス
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": |-
       Lux
   "9c24":
@@ -368,7 +368,7 @@
       ヨシュア
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": |-
       Joshua
   "9c30":
@@ -380,7 +380,7 @@
       ビス
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
 "note": ""

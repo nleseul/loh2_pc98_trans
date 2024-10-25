@@ -8,7 +8,7 @@
       チャンタラーＡ<RET>
     "original_byte_length": !!int |-
       15
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "71b0":
@@ -20,7 +20,7 @@
       デスバードＡ<RET>
     "original_byte_length": !!int |-
       13
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "71f0":
@@ -32,7 +32,7 @@
       デスバードＢ<RET>
     "original_byte_length": !!int |-
       13
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "7230":
@@ -44,7 +44,7 @@
       チャンタラーＢ<RET>
     "original_byte_length": !!int |-
       15
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "73eb":
@@ -56,9 +56,11 @@
       デスバードとチャンタラーが現れた。<RET_N>
     "original_byte_length": !!int |-
       35
-    "reference_addrs":
-    - !!int |-
-      61000
+    "references":
+    - "source_addr": !!int |-
+        61000
+      "target_addr": !!int |-
+        29675
     "translated": !!null |-
       null
   "7460":
@@ -70,9 +72,11 @@
       は休んでいる。<RET_PAGE>
     "original_byte_length": !!int |-
       15
-    "reference_addrs":
-    - !!int |-
-      61254
+    "references":
+    - "source_addr": !!int |-
+        61254
+      "target_addr": !!int |-
+        29792
     "translated": !!null |-
       null
   "746f":
@@ -84,9 +88,11 @@
       は目がさめた。<RET_N>
     "original_byte_length": !!int |-
       15
-    "reference_addrs":
-    - !!int |-
-      61272
+    "references":
+    - "source_addr": !!int |-
+        61272
+      "target_addr": !!int |-
+        29807
     "translated": !!null |-
       null
 "note": ""

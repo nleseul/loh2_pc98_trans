@@ -8,7 +8,7 @@
       リーゲルＡ<RET>
     "original_byte_length": !!int |-
       11
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "71b0":
@@ -20,7 +20,7 @@
       リーゲルＢ<RET>
     "original_byte_length": !!int |-
       11
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "71f0":
@@ -32,7 +32,7 @@
       リーゲルＣ<RET>
     "original_byte_length": !!int |-
       11
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "7230":
@@ -44,7 +44,7 @@
       リーゲルＤ<RET>
     "original_byte_length": !!int |-
       11
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "734c":
@@ -56,9 +56,11 @@
       リーゲルが現れた。<RET_N>
     "original_byte_length": !!int |-
       19
-    "reference_addrs":
-    - !!int |-
-      61000
+    "references":
+    - "source_addr": !!int |-
+        61000
+      "target_addr": !!int |-
+        29516
     "translated": !!null |-
       null
   "735f":
@@ -70,9 +72,11 @@
       <ACTOR>は攻撃に耐えた。<RET_PAGE>
     "original_byte_length": !!int |-
       18
-    "reference_addrs":
-    - !!int |-
-      61253
+    "references":
+    - "source_addr": !!int |-
+        61253
+      "target_addr": !!int |-
+        29535
     "translated": !!null |-
       null
 "note": ""

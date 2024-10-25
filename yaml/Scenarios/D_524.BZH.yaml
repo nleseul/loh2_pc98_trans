@@ -8,9 +8,11 @@
       <PARTY>は <RET>
     "original_byte_length": !!int |-
       5
-    "reference_addrs":
-    - !!int |-
-      54740
+    "references":
+    - "source_addr": !!int |-
+        54740
+      "target_addr": !!int |-
+        23861
     "translated": !!null |-
       null
 "note": ""

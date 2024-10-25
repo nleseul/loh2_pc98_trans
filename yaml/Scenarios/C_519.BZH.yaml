@@ -9,9 +9,11 @@
       何じゃ もう少しじゃから 待っておれ。
     "original_byte_length": !!int |-
       53
-    "reference_addrs":
-    - !!int |-
-      54823
+    "references":
+    - "source_addr": !!int |-
+        54823
+      "target_addr": !!int |-
+        25085
     "translated": !!null |-
       null
   "6232":
@@ -52,9 +54,11 @@
       渡してやるぞ。
     "original_byte_length": !!int |-
       625
-    "reference_addrs":
-    - !!int |-
-      54886
+    "references":
+    - "source_addr": !!int |-
+        54886
+      "target_addr": !!int |-
+        25138
     "translated": !!null |-
       null
 "note": ""

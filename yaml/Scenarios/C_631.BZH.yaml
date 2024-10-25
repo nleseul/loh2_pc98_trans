@@ -9,9 +9,11 @@
       宝箱の中には<RET>
     "original_byte_length": !!int |-
       36
-    "reference_addrs":
-    - !!int |-
-      54694
+    "references":
+    - "source_addr": !!int |-
+        54694
+      "target_addr": !!int |-
+        24132
     "translated": !!null |-
       null
   "5e7d":
@@ -26,9 +28,11 @@
       <RET>
     "original_byte_length": !!int |-
       33
-    "reference_addrs":
-    - !!int |-
-      54751
+    "references":
+    - "source_addr": !!int |-
+        54751
+      "target_addr": !!int |-
+        24189
     "translated": !!null |-
       null
   "5e9e":
@@ -40,9 +44,11 @@
       宝箱の中には<RET>
     "original_byte_length": !!int |-
       13
-    "reference_addrs":
-    - !!int |-
-      54773
+    "references":
+    - "source_addr": !!int |-
+        54773
+      "target_addr": !!int |-
+        24222
     "translated": !!null |-
       null
   "5eab":
@@ -55,9 +61,11 @@
       いませんでした。
     "original_byte_length": !!int |-
       48
-    "reference_addrs":
-    - !!int |-
-      54765
+    "references":
+    - "source_addr": !!int |-
+        54765
+      "target_addr": !!int |-
+        24235
     "translated": !!null |-
       null
 "note": ""

@@ -88,9 +88,11 @@
       それじゃ ベルンで会おう。
     "original_byte_length": !!int |-
       1390
-    "reference_addrs":
-    - !!int |-
-      54761
+    "references":
+    - "source_addr": !!int |-
+        54761
+      "target_addr": !!int |-
+        23716
     "translated": !!null |-
       null
 "note": ""

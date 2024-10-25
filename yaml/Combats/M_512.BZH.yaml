@@ -8,7 +8,7 @@
       ザンオー<RET>
     "original_byte_length": !!int |-
       9
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "71b0":
@@ -20,7 +20,7 @@
       紅牙戦士<RET>
     "original_byte_length": !!int |-
       9
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "71f0":
@@ -32,7 +32,7 @@
       Ｍ５１２Ｃ<RET>
     "original_byte_length": !!int |-
       11
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "7230":
@@ -44,7 +44,7 @@
       Ｍ５１２Ｄ<RET>
     "original_byte_length": !!int |-
       11
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "7447":
@@ -56,11 +56,15 @@
       紅牙戦士とザンオーが現れた。<RET_N>
     "original_byte_length": !!int |-
       29
-    "reference_addrs":
-    - !!int |-
-      61000
-    - !!int |-
-      61421
+    "references":
+    - "source_addr": !!int |-
+        61000
+      "target_addr": !!int |-
+        29767
+    - "source_addr": !!int |-
+        61421
+      "target_addr": !!int |-
+        29767
     "translated": !!null |-
       null
   "7464":
@@ -72,9 +76,11 @@
       <ACTOR>は攻撃をかわした。<RET_PAGE>
     "original_byte_length": !!int |-
       20
-    "reference_addrs":
-    - !!int |-
-      61348
+    "references":
+    - "source_addr": !!int |-
+        61348
+      "target_addr": !!int |-
+        29796
     "translated": !!null |-
       null
   "7478":
@@ -86,9 +92,11 @@
       <ACTOR>は喜んで調子にのっている。<RET_N>
     "original_byte_length": !!int |-
       28
-    "reference_addrs":
-    - !!int |-
-      61226
+    "references":
+    - "source_addr": !!int |-
+        61226
+      "target_addr": !!int |-
+        29816
     "translated": !!null |-
       null
   "7494":
@@ -100,9 +108,11 @@
       <ACTOR>はきげんが悪くなった。<RET_N>
     "original_byte_length": !!int |-
       24
-    "reference_addrs":
-    - !!int |-
-      61186
+    "references":
+    - "source_addr": !!int |-
+        61186
+      "target_addr": !!int |-
+        29844
     "translated": !!null |-
       null
 "note": ""

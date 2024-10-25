@@ -26,9 +26,11 @@
       ことでしょう。
     "original_byte_length": !!int |-
       428
-    "reference_addrs":
-    - !!int |-
-      54645
+    "references":
+    - "source_addr": !!int |-
+        54645
+      "target_addr": !!int |-
+        23601
     "translated": !!null |-
       null
   "5ddd":
@@ -43,9 +45,11 @@
       良く考えて 行動しなさい。
     "original_byte_length": !!int |-
       95
-    "reference_addrs":
-    - !!int |-
-      54660
+    "references":
+    - "source_addr": !!int |-
+        54660
+      "target_addr": !!int |-
+        24029
     "translated": !!null |-
       null
   "5e3c":
@@ -61,9 +65,11 @@
       いなくなったのでしょうか？
     "original_byte_length": !!int |-
       164
-    "reference_addrs":
-    - !!int |-
-      54669
+    "references":
+    - "source_addr": !!int |-
+        54669
+      "target_addr": !!int |-
+        24124
     "translated": !!null |-
       null
   "5ee0":
@@ -81,9 +87,11 @@
       なったのではないでしょうか。
     "original_byte_length": !!int |-
       195
-    "reference_addrs":
-    - !!int |-
-      54678
+    "references":
+    - "source_addr": !!int |-
+        54678
+      "target_addr": !!int |-
+        24288
     "translated": !!null |-
       null
   "5fa3":
@@ -101,11 +109,15 @@
       王子さまも お気をつけください。
     "original_byte_length": !!int |-
       209
-    "reference_addrs":
-    - !!int |-
-      54696
-    - !!int |-
-      54687
+    "references":
+    - "source_addr": !!int |-
+        54687
+      "target_addr": !!int |-
+        24483
+    - "source_addr": !!int |-
+        54696
+      "target_addr": !!int |-
+        24597
     "translated": !!null |-
       null
   "6074":
@@ -118,9 +130,11 @@
       ソルディスでは 司祭 バーバラさまが竜の卵を 正常にしたという うわさが広がっているそうです。
     "original_byte_length": !!int |-
       98
-    "reference_addrs":
-    - !!int |-
-      54705
+    "references":
+    - "source_addr": !!int |-
+        54705
+      "target_addr": !!int |-
+        24692
     "translated": !!null |-
       null
   "60d6":
@@ -133,9 +147,11 @@
       王子さま セリオスさまたちは どこであのようなけがを されたのですか？
     "original_byte_length": !!int |-
       75
-    "reference_addrs":
-    - !!int |-
-      54714
+    "references":
+    - "source_addr": !!int |-
+        54714
+      "target_addr": !!int |-
+        24790
     "translated": !!null |-
       null
   "6121":
@@ -150,9 +166,11 @@
       何が何だか さっぱりわかりません。
     "original_byte_length": !!int |-
       103
-    "reference_addrs":
-    - !!int |-
-      54723
+    "references":
+    - "source_addr": !!int |-
+        54723
+      "target_addr": !!int |-
+        24865
     "translated": !!null |-
       null
   "6188":
@@ -165,9 +183,11 @@
       王子さま あまり 無理をしないようにしてください。
     "original_byte_length": !!int |-
       56
-    "reference_addrs":
-    - !!int |-
-      54732
+    "references":
+    - "source_addr": !!int |-
+        54732
+      "target_addr": !!int |-
+        24968
     "translated": !!null |-
       null
   "61c0":
@@ -190,9 +210,11 @@
       元気な姿で お戻りください。
     "original_byte_length": !!int |-
       230
-    "reference_addrs":
-    - !!int |-
-      54741
+    "references":
+    - "source_addr": !!int |-
+        54741
+      "target_addr": !!int |-
+        25024
     "translated": !!null |-
       null
   "62a6":
@@ -207,13 +229,19 @@
       <LOC62cf> ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･
     "original_byte_length": !!int |-
       76
-    "reference_addrs":
-    - !!int |-
-      54786
-    - !!int |-
-      54771
-    - !!int |-
-      54756
+    "references":
+    - "source_addr": !!int |-
+        54756
+      "target_addr": !!int |-
+        25254
+    - "source_addr": !!int |-
+        54771
+      "target_addr": !!int |-
+        25268
+    - "source_addr": !!int |-
+        54786
+      "target_addr": !!int |-
+        25282
     "translated": !!null |-
       null
   "62f2":
@@ -362,9 +390,11 @@
       <C_GREEN>ランドーは ワプの翼を使った。<C_NONE><RET>
     "original_byte_length": !!int |-
       2234
-    "reference_addrs":
-    - !!int |-
-      54800
+    "references":
+    - "source_addr": !!int |-
+        54800
+      "target_addr": !!int |-
+        25330
     "translated": !!null |-
       null
 "note": ""

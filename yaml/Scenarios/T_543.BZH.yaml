@@ -62,9 +62,11 @@
       それまで ゆっくり休んでおいて。
     "original_byte_length": !!int |-
       953
-    "reference_addrs":
-    - !!int |-
-      54940
+    "references":
+    - "source_addr": !!int |-
+        54940
+      "target_addr": !!int |-
+        23475
     "translated": !!null |-
       null
   "5f6c":
@@ -90,9 +92,11 @@
       行きましょう。
     "original_byte_length": !!int |-
       227
-    "reference_addrs":
-    - !!int |-
-      54807
+    "references":
+    - "source_addr": !!int |-
+        54807
+      "target_addr": !!int |-
+        24428
     "translated": !!null |-
       null
   "604f":
@@ -106,9 +110,11 @@
       なんてやつらだ まったく ･ ･ ･
     "original_byte_length": !!int |-
       70
-    "reference_addrs":
-    - !!int |-
-      54949
+    "references":
+    - "source_addr": !!int |-
+        54949
+      "target_addr": !!int |-
+        24655
     "translated": !!null |-
       null
   "6095":
@@ -125,9 +131,11 @@
       身をもって知るがいい。
     "original_byte_length": !!int |-
       120
-    "reference_addrs":
-    - !!int |-
-      54907
+    "references":
+    - "source_addr": !!int |-
+        54907
+      "target_addr": !!int |-
+        24725
     "translated": !!null |-
       null
   "610d":
@@ -174,9 +182,11 @@
       知ってるんじゃないかと思ってな。
     "original_byte_length": !!int |-
       626
-    "reference_addrs":
-    - !!int |-
-      54960
+    "references":
+    - "source_addr": !!int |-
+        54960
+      "target_addr": !!int |-
+        24845
     "translated": !!null |-
       null
 "note": ""

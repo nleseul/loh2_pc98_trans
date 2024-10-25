@@ -11,7 +11,7 @@
       アトラス、<PAUSE>心しておくのだぞ。
     "original_byte_length": !!int |-
       85
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "22c1":
@@ -35,7 +35,7 @@
       <PAGE_PAUSE>
     "original_byte_length": !!int |-
       256
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "23c1":
@@ -60,7 +60,7 @@
       あなたが、私を求めるかぎり。
     "original_byte_length": !!int |-
       274
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "24d3":
@@ -85,7 +85,7 @@
       <PAUSE><PAGE_FULL>
     "original_byte_length": !!int |-
       318
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "2611":
@@ -110,7 +110,7 @@
       <PAUSE><PAUSE><PAGE_FULL>
     "original_byte_length": !!int |-
       273
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "2722":
@@ -130,7 +130,7 @@
       <PAUSE><PAGE_FULL>
     "original_byte_length": !!int |-
       112
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "2792":
@@ -149,7 +149,7 @@
       どうか、見ていてください。
     "original_byte_length": !!int |-
       147
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "2825":
@@ -170,7 +170,7 @@
       <PAGE_FULL>
     "original_byte_length": !!int |-
       174
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "28d3":
@@ -183,7 +183,7 @@
       大きな太陽として輝く。
     "original_byte_length": !!null |-
       null
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
   "2b76":
@@ -211,7 +211,7 @@
       \ inc.     \n\n\n\n\n\n\n\n\n\n"
     "original_byte_length": !!int |-
       1269
-    "reference_addrs": []
+    "references": []
     "translated": !!null |-
       null
 "note": ""

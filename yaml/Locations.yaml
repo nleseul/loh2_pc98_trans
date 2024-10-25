@@ -7,9 +7,11 @@
     "original": "            "
     "original_byte_length": !!int |-
       12
-    "reference_addrs":
-    - !!int |-
-      34912
+    "references":
+    - "source_addr": !!int |-
+        34912
+      "target_addr": !!int |-
+        35040
     "translated": !!null |-
       null
   "88ec":
@@ -21,9 +23,11 @@
       エルアスタ
     "original_byte_length": !!int |-
       11
-    "reference_addrs":
-    - !!int |-
-      34914
+    "references":
+    - "source_addr": !!int |-
+        34914
+      "target_addr": !!int |-
+        35052
     "translated": |-
       Eluasta
   "88f7":
@@ -35,9 +39,11 @@
       ルディア
     "original_byte_length": !!int |-
       9
-    "reference_addrs":
-    - !!int |-
-      34916
+    "references":
+    - "source_addr": !!int |-
+        34916
+      "target_addr": !!int |-
+        35063
     "translated": |-
       Rudia
   "8900":
@@ -49,9 +55,11 @@
       クルス
     "original_byte_length": !!int |-
       7
-    "reference_addrs":
-    - !!int |-
-      34918
+    "references":
+    - "source_addr": !!int |-
+        34918
+      "target_addr": !!int |-
+        35072
     "translated": |-
       Crus
   "8907":
@@ -63,9 +71,11 @@
       ベルガ
     "original_byte_length": !!int |-
       7
-    "reference_addrs":
-    - !!int |-
-      34920
+    "references":
+    - "source_addr": !!int |-
+        34920
+      "target_addr": !!int |-
+        35079
     "translated": |-
       Belga
   "890e":
@@ -77,9 +87,11 @@
       ネリア
     "original_byte_length": !!int |-
       7
-    "reference_addrs":
-    - !!int |-
-      34922
+    "references":
+    - "source_addr": !!int |-
+        34922
+      "target_addr": !!int |-
+        35086
     "translated": |-
       Neria
   "8915":
@@ -91,9 +103,11 @@
       ロンド
     "original_byte_length": !!int |-
       7
-    "reference_addrs":
-    - !!int |-
-      34924
+    "references":
+    - "source_addr": !!int |-
+        34924
+      "target_addr": !!int |-
+        35093
     "translated": !!null |-
       null
   "891c":
@@ -105,9 +119,11 @@
       ラルファ
     "original_byte_length": !!int |-
       9
-    "reference_addrs":
-    - !!int |-
-      34926
+    "references":
+    - "source_addr": !!int |-
+        34926
+      "target_addr": !!int |-
+        35100
     "translated": !!null |-
       null
   "8925":
@@ -119,9 +135,11 @@
       シリカ
     "original_byte_length": !!int |-
       7
-    "reference_addrs":
-    - !!int |-
-      34928
+    "references":
+    - "source_addr": !!int |-
+        34928
+      "target_addr": !!int |-
+        35109
     "translated": !!null |-
       null
   "892c":
@@ -133,9 +151,11 @@
       マスクーン
     "original_byte_length": !!int |-
       11
-    "reference_addrs":
-    - !!int |-
-      34930
+    "references":
+    - "source_addr": !!int |-
+        34930
+      "target_addr": !!int |-
+        35116
     "translated": !!null |-
       null
   "8937":
@@ -147,9 +167,11 @@
       リーゼル
     "original_byte_length": !!int |-
       9
-    "reference_addrs":
-    - !!int |-
-      34932
+    "references":
+    - "source_addr": !!int |-
+        34932
+      "target_addr": !!int |-
+        35127
     "translated": !!null |-
       null
   "8940":
@@ -161,9 +183,11 @@
       ヨルド
     "original_byte_length": !!int |-
       7
-    "reference_addrs":
-    - !!int |-
-      34934
+    "references":
+    - "source_addr": !!int |-
+        34934
+      "target_addr": !!int |-
+        35136
     "translated": !!null |-
       null
   "8947":
@@ -175,9 +199,11 @@
       セリス
     "original_byte_length": !!int |-
       7
-    "reference_addrs":
-    - !!int |-
-      34936
+    "references":
+    - "source_addr": !!int |-
+        34936
+      "target_addr": !!int |-
+        35143
     "translated": !!null |-
       null
   "894e":
@@ -189,9 +215,11 @@
       ナッシュ
     "original_byte_length": !!int |-
       9
-    "reference_addrs":
-    - !!int |-
-      34938
+    "references":
+    - "source_addr": !!int |-
+        34938
+      "target_addr": !!int |-
+        35150
     "translated": !!null |-
       null
   "8957":
@@ -203,9 +231,11 @@
       セレ
     "original_byte_length": !!int |-
       5
-    "reference_addrs":
-    - !!int |-
-      34940
+    "references":
+    - "source_addr": !!int |-
+        34940
+      "target_addr": !!int |-
+        35159
     "translated": !!null |-
       null
   "895c":
@@ -217,9 +247,11 @@
       スエル
     "original_byte_length": !!int |-
       7
-    "reference_addrs":
-    - !!int |-
-      34942
+    "references":
+    - "source_addr": !!int |-
+        34942
+      "target_addr": !!int |-
+        35164
     "translated": !!null |-
       null
   "8963":
@@ -231,9 +263,11 @@
       アムダ
     "original_byte_length": !!int |-
       7
-    "reference_addrs":
-    - !!int |-
-      34944
+    "references":
+    - "source_addr": !!int |-
+        34944
+      "target_addr": !!int |-
+        35171
     "translated": !!null |-
       null
   "896a":
@@ -245,9 +279,11 @@
       セダル
     "original_byte_length": !!int |-
       7
-    "reference_addrs":
-    - !!int |-
-      34946
+    "references":
+    - "source_addr": !!int |-
+        34946
+      "target_addr": !!int |-
+        35178
     "translated": !!null |-
       null
   "8971":
@@ -259,9 +295,11 @@
       ボアード海運
     "original_byte_length": !!int |-
       12
-    "reference_addrs":
-    - !!int |-
-      34948
+    "references":
+    - "source_addr": !!int |-
+        34948
+      "target_addr": !!int |-
+        35185
     "translated": !!null |-
       null
   "897d":
@@ -273,9 +311,11 @@
       ルドラ
     "original_byte_length": !!int |-
       7
-    "reference_addrs":
-    - !!int |-
-      34950
+    "references":
+    - "source_addr": !!int |-
+        34950
+      "target_addr": !!int |-
+        35197
     "translated": !!null |-
       null
   "8984":
@@ -287,9 +327,11 @@
       カウル
     "original_byte_length": !!int |-
       7
-    "reference_addrs":
-    - !!int |-
-      34952
+    "references":
+    - "source_addr": !!int |-
+        34952
+      "target_addr": !!int |-
+        35204
     "translated": !!null |-
       null
   "898b":
@@ -301,9 +343,11 @@
       バズヌーン
     "original_byte_length": !!int |-
       11
-    "reference_addrs":
-    - !!int |-
-      34954
+    "references":
+    - "source_addr": !!int |-
+        34954
+      "target_addr": !!int |-
+        35211
     "translated": !!null |-
       null
   "8996":
@@ -315,9 +359,11 @@
       リシェール
     "original_byte_length": !!int |-
       11
-    "reference_addrs":
-    - !!int |-
-      34956
+    "references":
+    - "source_addr": !!int |-
+        34956
+      "target_addr": !!int |-
+        35222
     "translated": !!null |-
       null
   "89a1":
@@ -329,9 +375,11 @@
       ナスール
     "original_byte_length": !!int |-
       9
-    "reference_addrs":
-    - !!int |-
-      34958
+    "references":
+    - "source_addr": !!int |-
+        34958
+      "target_addr": !!int |-
+        35233
     "translated": !!null |-
       null
   "89aa":
@@ -343,9 +391,11 @@
       ファエト
     "original_byte_length": !!int |-
       9
-    "reference_addrs":
-    - !!int |-
-      34960
+    "references":
+    - "source_addr": !!int |-
+        34960
+      "target_addr": !!int |-
+        35242
     "translated": !!null |-
       null
   "89b3":
@@ -357,9 +407,11 @@
       コルクス
     "original_byte_length": !!int |-
       9
-    "reference_addrs":
-    - !!int |-
-      34962
+    "references":
+    - "source_addr": !!int |-
+        34962
+      "target_addr": !!int |-
+        35251
     "translated": !!null |-
       null
   "89bc":
@@ -371,9 +423,11 @@
       エメ
     "original_byte_length": !!int |-
       5
-    "reference_addrs":
-    - !!int |-
-      34964
+    "references":
+    - "source_addr": !!int |-
+        34964
+      "target_addr": !!int |-
+        35260
     "translated": !!null |-
       null
   "89c1":
@@ -385,9 +439,11 @@
       ファンガス
     "original_byte_length": !!int |-
       11
-    "reference_addrs":
-    - !!int |-
-      34966
+    "references":
+    - "source_addr": !!int |-
+        34966
+      "target_addr": !!int |-
+        35265
     "translated": !!null |-
       null
   "89cc":
@@ -399,9 +455,11 @@
       イシュタ
     "original_byte_length": !!int |-
       9
-    "reference_addrs":
-    - !!int |-
-      34968
+    "references":
+    - "source_addr": !!int |-
+        34968
+      "target_addr": !!int |-
+        35276
     "translated": !!null |-
       null
   "89d5":
@@ -413,9 +471,11 @@
       アフル
     "original_byte_length": !!int |-
       7
-    "reference_addrs":
-    - !!int |-
-      34970
+    "references":
+    - "source_addr": !!int |-
+        34970
+      "target_addr": !!int |-
+        35285
     "translated": !!null |-
       null
   "89dc":
@@ -427,9 +487,11 @@
       イズー
     "original_byte_length": !!int |-
       7
-    "reference_addrs":
-    - !!int |-
-      34972
+    "references":
+    - "source_addr": !!int |-
+        34972
+      "target_addr": !!int |-
+        35292
     "translated": !!null |-
       null
   "89e3":
@@ -441,9 +503,11 @@
       キュベラ
     "original_byte_length": !!int |-
       9
-    "reference_addrs":
-    - !!int |-
-      34974
+    "references":
+    - "source_addr": !!int |-
+        34974
+      "target_addr": !!int |-
+        35299
     "translated": !!null |-
       null
   "89ec":
@@ -455,9 +519,11 @@
       プロス
     "original_byte_length": !!int |-
       7
-    "reference_addrs":
-    - !!int |-
-      34976
+    "references":
+    - "source_addr": !!int |-
+        34976
+      "target_addr": !!int |-
+        35308
     "translated": !!null |-
       null
   "89f3":
@@ -469,9 +535,11 @@
       ウイル
     "original_byte_length": !!int |-
       7
-    "reference_addrs":
-    - !!int |-
-      34978
+    "references":
+    - "source_addr": !!int |-
+        34978
+      "target_addr": !!int |-
+        35315
     "translated": !!null |-
       null
   "89fa":
@@ -483,9 +551,11 @@
       ベルン
     "original_byte_length": !!int |-
       7
-    "reference_addrs":
-    - !!int |-
-      34980
+    "references":
+    - "source_addr": !!int |-
+        34980
+      "target_addr": !!int |-
+        35322
     "translated": !!null |-
       null
   "8a01":
@@ -497,9 +567,11 @@
       ユイシス
     "original_byte_length": !!int |-
       9
-    "reference_addrs":
-    - !!int |-
-      34982
+    "references":
+    - "source_addr": !!int |-
+        34982
+      "target_addr": !!int |-
+        35329
     "translated": !!null |-
       null
   "8a0a":
@@ -511,9 +583,11 @@
       岬の洞窟
     "original_byte_length": !!int |-
       9
-    "reference_addrs":
-    - !!int |-
-      34984
+    "references":
+    - "source_addr": !!int |-
+        34984
+      "target_addr": !!int |-
+        35338
     "translated": !!null |-
       null
   "8a13":
@@ -525,9 +599,11 @@
       試練の洞窟
     "original_byte_length": !!int |-
       11
-    "reference_addrs":
-    - !!int |-
-      34986
+    "references":
+    - "source_addr": !!int |-
+        34986
+      "target_addr": !!int |-
+        35347
     "translated": !!null |-
       null
   "8a1e":
@@ -539,9 +615,11 @@
       王家の墓
     "original_byte_length": !!int |-
       9
-    "reference_addrs":
-    - !!int |-
-      34988
+    "references":
+    - "source_addr": !!int |-
+        34988
+      "target_addr": !!int |-
+        35358
     "translated": !!null |-
       null
   "8a27":
@@ -553,9 +631,11 @@
       狼の口
     "original_byte_length": !!int |-
       7
-    "reference_addrs":
-    - !!int |-
-      34990
+    "references":
+    - "source_addr": !!int |-
+        34990
+      "target_addr": !!int |-
+        35367
     "translated": !!null |-
       null
   "8a2e":
@@ -567,9 +647,11 @@
       奈落の口
     "original_byte_length": !!int |-
       9
-    "reference_addrs":
-    - !!int |-
-      34992
+    "references":
+    - "source_addr": !!int |-
+        34992
+      "target_addr": !!int |-
+        35374
     "translated": !!null |-
       null
   "8a37":
@@ -581,9 +663,11 @@
       アネスの塔
     "original_byte_length": !!int |-
       11
-    "reference_addrs":
-    - !!int |-
-      34994
+    "references":
+    - "source_addr": !!int |-
+        34994
+      "target_addr": !!int |-
+        35383
     "translated": !!null |-
       null
   "8a42":
@@ -595,9 +679,11 @@
       サピアの湖
     "original_byte_length": !!int |-
       11
-    "reference_addrs":
-    - !!int |-
-      34996
+    "references":
+    - "source_addr": !!int |-
+        34996
+      "target_addr": !!int |-
+        35394
     "translated": !!null |-
       null
   "8a4d":
@@ -609,9 +695,11 @@
       モーガンの家
     "original_byte_length": !!int |-
       12
-    "reference_addrs":
-    - !!int |-
-      34998
+    "references":
+    - "source_addr": !!int |-
+        34998
+      "target_addr": !!int |-
+        35405
     "translated": !!null |-
       null
   "8a59":
@@ -623,9 +711,11 @@
       ネサの辺土
     "original_byte_length": !!int |-
       11
-    "reference_addrs":
-    - !!int |-
-      35000
+    "references":
+    - "source_addr": !!int |-
+        35000
+      "target_addr": !!int |-
+        35417
     "translated": !!null |-
       null
   "8a64":
@@ -637,9 +727,11 @@
       グロストス城
     "original_byte_length": !!int |-
       12
-    "reference_addrs":
-    - !!int |-
-      35002
+    "references":
+    - "source_addr": !!int |-
+        35002
+      "target_addr": !!int |-
+        35428
     "translated": !!null |-
       null
   "8a70":
@@ -651,9 +743,11 @@
       中庭
     "original_byte_length": !!int |-
       5
-    "reference_addrs":
-    - !!int |-
-      35004
+    "references":
+    - "source_addr": !!int |-
+        35004
+      "target_addr": !!int |-
+        35440
     "translated": !!null |-
       null
   "8a75":
@@ -665,9 +759,11 @@
       テクニカ
     "original_byte_length": !!int |-
       9
-    "reference_addrs":
-    - !!int |-
-      35006
+    "references":
+    - "source_addr": !!int |-
+        35006
+      "target_addr": !!int |-
+        35445
     "translated": !!null |-
       null
   "8a7e":
@@ -679,9 +775,11 @@
       溶岩炉
     "original_byte_length": !!int |-
       7
-    "reference_addrs":
-    - !!int |-
-      35008
+    "references":
+    - "source_addr": !!int |-
+        35008
+      "target_addr": !!int |-
+        35454
     "translated": !!null |-
       null
   "8a85":
@@ -693,9 +791,11 @@
       玉座の間
     "original_byte_length": !!int |-
       9
-    "reference_addrs":
-    - !!int |-
-      35010
+    "references":
+    - "source_addr": !!int |-
+        35010
+      "target_addr": !!int |-
+        35461
     "translated": !!null |-
       null
   "8a8e":
@@ -707,9 +807,11 @@
       ｲｼｭﾀ～ｲｽﾞｰ
     "original_byte_length": !!int |-
       11
-    "reference_addrs":
-    - !!int |-
-      35012
+    "references":
+    - "source_addr": !!int |-
+        35012
+      "target_addr": !!int |-
+        35470
     "translated": !!null |-
       null
   "8a99":
@@ -720,9 +822,11 @@
     "original": "ｲｼｭﾀ～ｱﾌﾙ "
     "original_byte_length": !!int |-
       11
-    "reference_addrs":
-    - !!int |-
-      35014
+    "references":
+    - "source_addr": !!int |-
+        35014
+      "target_addr": !!int |-
+        35481
     "translated": !!null |-
       null
   "8aa4":
@@ -733,9 +837,11 @@
     "original": "ｱﾌﾙ～城 "
     "original_byte_length": !!int |-
       9
-    "reference_addrs":
-    - !!int |-
-      35016
+    "references":
+    - "source_addr": !!int |-
+        35016
+      "target_addr": !!int |-
+        35492
     "translated": !!null |-
       null
   "8aad":
@@ -747,9 +853,11 @@
       ｲｽﾞｰ～城
     "original_byte_length": !!int |-
       9
-    "reference_addrs":
-    - !!int |-
-      35018
+    "references":
+    - "source_addr": !!int |-
+        35018
+      "target_addr": !!int |-
+        35501
     "translated": !!null |-
       null
   "8ab6":
@@ -760,9 +868,11 @@
     "original": "ｷｭﾍﾞﾗ～城 "
     "original_byte_length": !!int |-
       11
-    "reference_addrs":
-    - !!int |-
-      35020
+    "references":
+    - "source_addr": !!int |-
+        35020
+      "target_addr": !!int |-
+        35510
     "translated": !!null |-
       null
   "8ac1":
@@ -773,9 +883,11 @@
     "original": "ｷｭﾍﾞﾗ～ﾌﾟﾛｽ "
     "original_byte_length": !!int |-
       12
-    "reference_addrs":
-    - !!int |-
-      35022
+    "references":
+    - "source_addr": !!int |-
+        35022
+      "target_addr": !!int |-
+        35521
     "translated": !!null |-
       null
   "8acd":
@@ -786,9 +898,11 @@
     "original": "ｳｲﾙ～城 "
     "original_byte_length": !!int |-
       9
-    "reference_addrs":
-    - !!int |-
-      35024
+    "references":
+    - "source_addr": !!int |-
+        35024
+      "target_addr": !!int |-
+        35533
     "translated": !!null |-
       null
   "8ad6":
@@ -799,9 +913,11 @@
     "original": "ｳｲﾙ～ﾍﾞﾙﾝ "
     "original_byte_length": !!int |-
       11
-    "reference_addrs":
-    - !!int |-
-      35026
+    "references":
+    - "source_addr": !!int |-
+        35026
+      "target_addr": !!int |-
+        35542
     "translated": !!null |-
       null
   "8ae1":
@@ -813,9 +929,11 @@
       ｷｭﾍﾞﾗ～ｳｲﾙ
     "original_byte_length": !!int |-
       11
-    "reference_addrs":
-    - !!int |-
-      35028
+    "references":
+    - "source_addr": !!int |-
+        35028
+      "target_addr": !!int |-
+        35553
     "translated": !!null |-
       null
   "8aec":
@@ -827,9 +945,11 @@
       ファーレーン
     "original_byte_length": !!int |-
       12
-    "reference_addrs":
-    - !!int |-
-      35030
+    "references":
+    - "source_addr": !!int |-
+        35030
+      "target_addr": !!int |-
+        35564
     "translated": !!null |-
       null
   "8af8":
@@ -841,9 +961,11 @@
       ウォンリーク
     "original_byte_length": !!int |-
       12
-    "reference_addrs":
-    - !!int |-
-      35032
+    "references":
+    - "source_addr": !!int |-
+        35032
+      "target_addr": !!int |-
+        35576
     "translated": !!null |-
       null
   "8b04":
@@ -855,9 +977,11 @@
       ラヌーラ
     "original_byte_length": !!int |-
       9
-    "reference_addrs":
-    - !!int |-
-      35034
+    "references":
+    - "source_addr": !!int |-
+        35034
+      "target_addr": !!int |-
+        35588
     "translated": !!null |-
       null
   "8b0d":
@@ -869,9 +993,11 @@
       ソルディス
     "original_byte_length": !!int |-
       11
-    "reference_addrs":
-    - !!int |-
-      35036
+    "references":
+    - "source_addr": !!int |-
+        35036
+      "target_addr": !!int |-
+        35597
     "translated": !!null |-
       null
   "8b18":
@@ -883,9 +1009,11 @@
       モレストン
     "original_byte_length": !!int |-
       11
-    "reference_addrs":
-    - !!int |-
-      35038
+    "references":
+    - "source_addr": !!int |-
+        35038
+      "target_addr": !!int |-
+        35608
     "translated": !!null |-
       null
 "note": ""

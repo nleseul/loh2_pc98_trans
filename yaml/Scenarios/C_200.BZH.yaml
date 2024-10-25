@@ -10,9 +10,11 @@
       ならないようにしてくれよ。
     "original_byte_length": !!int |-
       99
-    "reference_addrs":
-    - !!int |-
-      54635
+    "references":
+    - "source_addr": !!int |-
+        54635
+      "target_addr": !!int |-
+        23320
     "translated": !!null |-
       null
   "5b7b":
@@ -27,9 +29,11 @@
       来年の 豊作を 祈る祭のことなんだ。
     "original_byte_length": !!int |-
       105
-    "reference_addrs":
-    - !!int |-
-      54644
+    "references":
+    - "source_addr": !!int |-
+        54644
+      "target_addr": !!int |-
+        23419
     "translated": !!null |-
       null
   "5be4":
@@ -44,9 +48,11 @@
       丸やきは最高だな。
     "original_byte_length": !!int |-
       91
-    "reference_addrs":
-    - !!int |-
-      54653
+    "references":
+    - "source_addr": !!int |-
+        54653
+      "target_addr": !!int |-
+        23524
     "translated": !!null |-
       null
   "5c3f":
@@ -65,9 +71,11 @@
       わかるようになっているんだ。
     "original_byte_length": !!int |-
       193
-    "reference_addrs":
-    - !!int |-
-      54662
+    "references":
+    - "source_addr": !!int |-
+        54662
+      "target_addr": !!int |-
+        23615
     "translated": !!null |-
       null
   "5d00":
@@ -85,9 +93,11 @@
       やれないんだよ。
     "original_byte_length": !!int |-
       142
-    "reference_addrs":
-    - !!int |-
-      54671
+    "references":
+    - "source_addr": !!int |-
+        54671
+      "target_addr": !!int |-
+        23808
     "translated": !!null |-
       null
   "5d8e":
@@ -104,9 +114,11 @@
       用途に使っているのです。
     "original_byte_length": !!int |-
       128
-    "reference_addrs":
-    - !!int |-
-      54680
+    "references":
+    - "source_addr": !!int |-
+        54680
+      "target_addr": !!int |-
+        23950
     "translated": !!null |-
       null
   "5e0e":
@@ -121,9 +133,11 @@
       祭は 国をあげての 行事だからね。
     "original_byte_length": !!int |-
       104
-    "reference_addrs":
-    - !!int |-
-      54689
+    "references":
+    - "source_addr": !!int |-
+        54689
+      "target_addr": !!int |-
+        24078
     "translated": !!null |-
       null
   "5e76":
@@ -140,9 +154,11 @@
       入る所など ないのじゃが わしだけは中に入ることが できるのじゃよ。
     "original_byte_length": !!int |-
       170
-    "reference_addrs":
-    - !!int |-
-      54698
+    "references":
+    - "source_addr": !!int |-
+        54698
+      "target_addr": !!int |-
+        24182
     "translated": !!null |-
       null
   "5f20":
@@ -157,9 +173,11 @@
       しているのよ。
     "original_byte_length": !!int |-
       87
-    "reference_addrs":
-    - !!int |-
-      54707
+    "references":
+    - "source_addr": !!int |-
+        54707
+      "target_addr": !!int |-
+        24352
     "translated": !!null |-
       null
   "5f77":
@@ -173,9 +191,11 @@
       あんまり 忙しいから 王妃さまにまで手伝っていただいてるの。
     "original_byte_length": !!int |-
       89
-    "reference_addrs":
-    - !!int |-
-      54716
+    "references":
+    - "source_addr": !!int |-
+        54716
+      "target_addr": !!int |-
+        24439
     "translated": !!null |-
       null
   "5fd0":
@@ -192,9 +212,11 @@
       手伝っていますわ。
     "original_byte_length": !!int |-
       149
-    "reference_addrs":
-    - !!int |-
-      54725
+    "references":
+    - "source_addr": !!int |-
+        54725
+      "target_addr": !!int |-
+        24528
     "translated": !!null |-
       null
   "6065":
@@ -209,9 +231,11 @@
       つまんないなぁ。
     "original_byte_length": !!int |-
       82
-    "reference_addrs":
-    - !!int |-
-      54734
+    "references":
+    - "source_addr": !!int |-
+        54734
+      "target_addr": !!int |-
+        24677
     "translated": !!null |-
       null
 "note": ""
