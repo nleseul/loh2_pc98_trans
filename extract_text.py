@@ -267,7 +267,7 @@ def extract_items(prog_data:typing.ByteString) -> TranslationCollection:
     return trans
 
 
-def extract_locations(prog_data:typing.ByteString) -> list[str]:
+def extract_locations(prog_data:typing.ByteString) -> TranslationCollection:
     trans = TranslationCollection()
     table_addr = 0xc60 + 0x7c00
 
@@ -292,6 +292,57 @@ def extract_locations(prog_data:typing.ByteString) -> list[str]:
         entry.references.append(CodeReference(table_entry_addr, addr))
 
     return trans
+
+
+def extract_menus(prog_data:typing.ByteString) -> TranslationCollection:
+    trans = TranslationCollection()
+
+    menu_addr_list = [ a + 0x7c00 for a in [ 0x88c, 0xc1e, 0x1d5d, 0x2334 ] ]
+
+    for menu_addr in menu_addr_list:
+        item_count = prog_data[menu_addr+3]
+        addr = menu_addr + 0x4
+
+        entry = trans[menu_addr - 0x7c00]
+
+        # Main field menu adds the "Leader" item dynamically based on party size
+        if menu_addr == 0x2334 + 0x7c00:
+            item_count += 1
+
+        menu_text = ""
+
+        for _ in range(item_count):
+            item_bytes = b''
+            while prog_data[addr] != 0:
+                item_bytes += prog_data[addr:addr+1]
+                addr += 1
+            menu_text += item_bytes.decode('cp932') + "\n"
+            addr += 1
+
+        entry.original = menu_text
+        entry.original_byte_length = addr - (menu_addr + 0x4)
+        entry.max_byte_length = entry.original_byte_length
+        entry.is_relocatable = False
+
+    # Combat menu is just three lines with no header.
+    combat_menu_entry = trans[0x19f4]
+    combat_menu_addr = 0x19f4 + 0x7c00
+    combat_menu_text = ""
+    for _ in range(3):
+        item_bytes = b''
+        while prog_data[combat_menu_addr] != 0:
+            item_bytes += prog_data[combat_menu_addr:combat_menu_addr+1]
+            combat_menu_addr += 1
+        combat_menu_text += item_bytes.decode('cp932') + "\n"
+        combat_menu_addr += 1
+    combat_menu_entry.original = combat_menu_text
+    combat_menu_entry.original_byte_length = combat_menu_addr - (0x19f4 + 0x7c00)
+    combat_menu_entry.max_byte_length = combat_menu_entry.original_byte_length
+    combat_menu_entry.is_relocatable = False
+
+    return trans
+
+
 
 
 def update_translations(trans:TranslationCollection, save_path:str) -> None:
@@ -366,8 +417,10 @@ def main() -> None:
     update_translations(extract_spells(prog_data), "yaml/Spells.yaml")
     update_translations(extract_items(prog_data), "yaml/Items.yaml")
     update_translations(extract_locations(prog_data), "yaml/Locations.yaml")
+    update_translations(extract_menus(prog_data), "yaml/Menus.yaml")
 
     update_translations(extract_program_events(prog_data), "yaml/ProgramText.yaml")
+
 
 if __name__ == '__main__':
     main()
