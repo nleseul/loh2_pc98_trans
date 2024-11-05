@@ -541,8 +541,8 @@
         7325
       "target_addr": !!int |-
         2654
-    "translated": !!null |-
-      null
+    "translated": |2-
+       attacks.
   "0a65":
     "is_relocatable": !!bool |-
       true
@@ -557,8 +557,8 @@
         7475
       "target_addr": !!int |-
         2661
-    "translated": !!null |-
-      null
+    "translated": |-
+      <ACTOR> takes <RET>
   "0a69":
     "is_relocatable": !!bool |-
       true
@@ -573,8 +573,8 @@
         7481
       "target_addr": !!int |-
         2665
-    "translated": !!null |-
-      null
+    "translated": |2-
+       damage!<RET_PAGE>
   "0a77":
     "is_relocatable": !!bool |-
       true
@@ -609,8 +609,8 @@
         7418
       "target_addr": !!int |-
         2700
-    "translated": !!null |-
-      null
+    "translated": |-
+      <ACTOR> passes out.<RET_PAGE>
   "0aa2":
     "is_relocatable": !!bool |-
       true

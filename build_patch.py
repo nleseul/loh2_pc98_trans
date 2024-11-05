@@ -132,7 +132,7 @@ def patch_locations(patch:ips_util.Patch, location_trans:TranslationCollection) 
 
 
 def make_program_data_patch() -> ips_util.Patch:
-    patch = ips_util.Patch()
+    patch = make_data_file_patch("yaml/ProgramText.yaml", 0x0, 0x0, event_offset_in_buffer=0x7c00)
 
     patch.add_record(0x7c80, b"   Prologue - Peaceful Days   ")
 
@@ -149,7 +149,7 @@ def make_program_data_patch() -> ips_util.Patch:
     return patch
 
 
-def make_data_file_patch(yaml_path:str, code_base_addr:int, data_base_addr:int) -> ips_util.Patch:
+def make_data_file_patch(yaml_path:str, code_base_addr:int, event_base_addr:int, code_offset_in_buffer:int = 0, event_offset_in_buffer:int = 0) -> ips_util.Patch:
     #base_name = os.path.splitext(os.path.basename(file_path))[0]
     #output_path = os.path.join("yaml/Combats", f"{base_name}.yaml")
 
@@ -164,8 +164,11 @@ def make_data_file_patch(yaml_path:str, code_base_addr:int, data_base_addr:int) 
     # Maps old address to new address
     relocations:dict[int, int] = {}
 
-    # Maps new address of reference to old address of target
-    references_to_relocate:dict[int, int] = {}
+    # Maps address of reference within code to old address of target
+    code_references_to_relocate:dict[int, int] = {}
+
+    # Maps new address of reference within an event to old address of target
+    event_references_to_relocate:dict[int, int] = {}
 
 
     for key in trans.keys:
@@ -192,7 +195,7 @@ def make_data_file_patch(yaml_path:str, code_base_addr:int, data_base_addr:int) 
 
             new_addr = key
 
-        patch.add_record(new_addr - data_base_addr, encoded)
+        patch.add_record(new_addr - event_base_addr + event_offset_in_buffer, encoded)
 
         relocations[key] = new_addr
         for locator in locators:
@@ -201,20 +204,29 @@ def make_data_file_patch(yaml_path:str, code_base_addr:int, data_base_addr:int) 
 
         for code_reference in entry.references:
             #print(f"Code reference to {code_reference.target_addr:04x} at {code_reference.source_addr:04x} will need updated")
-            references_to_relocate[code_reference.source_addr - code_base_addr + data_base_addr] = code_reference.target_addr
+            code_references_to_relocate[code_reference.source_addr] = code_reference.target_addr
 
         for reference in references:
             #print(f"Reference to {reference.addr:04x} at {new_addr + reference.offset:04x} (formerly {key + reference.offset:04x}) will need updated")
-            references_to_relocate[new_addr + reference.offset] = reference.addr
+            event_references_to_relocate[new_addr + reference.offset] = reference.addr
 
-    for reference_addr, reference_target_addr in references_to_relocate.items():
+    for reference_addr, reference_target_addr in code_references_to_relocate.items():
         if reference_target_addr not in relocations:
             raise Exception(f"Trying to update reference to {reference_target_addr:04x}, which is not in the relocation table")
         new_target_addr = relocations[reference_target_addr]
 
-        #print(f"Updating reference to {reference_target_addr:04x} at {reference_addr:04x} to {new_target_addr:04x}")
+        #print(f"Updating reference to {reference_target_addr:04x} in event at {reference_addr:04x} to {new_target_addr:04x}")
 
-        patch.add_record(reference_addr - data_base_addr, int.to_bytes(new_target_addr, length=2, byteorder='little'))
+        patch.add_record(reference_addr - code_base_addr + code_offset_in_buffer, int.to_bytes(new_target_addr, length=2, byteorder='little'))
+
+    for reference_addr, reference_target_addr in event_references_to_relocate.items():
+        if reference_target_addr not in relocations:
+            raise Exception(f"Trying to update reference to {reference_target_addr:04x}, which is not in the relocation table")
+        new_target_addr = relocations[reference_target_addr]
+
+        #print(f"Updating reference to {reference_target_addr:04x} in event at {reference_addr:04x} to {new_target_addr:04x}")
+
+        patch.add_record(reference_addr - event_base_addr + event_offset_in_buffer, int.to_bytes(new_target_addr, length=2, byteorder='little'))
 
     return patch
 

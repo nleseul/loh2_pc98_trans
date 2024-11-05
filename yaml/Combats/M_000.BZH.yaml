@@ -9,8 +9,8 @@
     "original_byte_length": !!int |-
       11
     "references": []
-    "translated": !!null |-
-      null
+    "translated": |-
+      Slime A<RET>
   "71b0":
     "is_relocatable": !!bool |-
       false
@@ -21,8 +21,8 @@
     "original_byte_length": !!int |-
       11
     "references": []
-    "translated": !!null |-
-      null
+    "translated": |-
+      Slime B<RET>
   "71f0":
     "is_relocatable": !!bool |-
       false
@@ -33,8 +33,8 @@
     "original_byte_length": !!int |-
       11
     "references": []
-    "translated": !!null |-
-      null
+    "translated": |-
+      Slime C<RET>
   "7230":
     "is_relocatable": !!bool |-
       false
@@ -45,8 +45,8 @@
     "original_byte_length": !!int |-
       11
     "references": []
-    "translated": !!null |-
-      null
+    "translated": |-
+      Slime D<RET>
   "72be":
     "is_relocatable": !!bool |-
       true
@@ -61,6 +61,6 @@
         61000
       "target_addr": !!int |-
         29374
-    "translated": !!null |-
-      null
+    "translated": |-
+      Slimes appear.<RET_N>
 "note": ""
