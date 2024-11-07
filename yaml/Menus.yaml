@@ -45,6 +45,59 @@
        Fight   Spell   Guard
        Use     Weapon  Auto
        Stats   Run
+  "1b2c":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      60
+    "original": |2-
+       ＳＡＶＥ
+       ＬＯＡＤ
+       システム
+       戦闘設定
+       ﾃﾞｰﾀ削除
+       ｹﾞｰﾑ終了
+    "original_byte_length": !!int |-
+      60
+    "references": []
+    "translated": !!null |-
+      null
+  "1be1":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      79
+    "original": |-
+      オート移動
+      レベルアップ
+      ＥＰ表示
+      ＢＧＭ
+      移動
+      メッセージ
+      ｾｰﾌﾞ ﾃﾞｨｽｸ
+      ﾌｧﾝｸｼｮﾝ表示
+    "original_byte_length": !!int |-
+      79
+    "references": []
+    "translated": !!null |-
+      null
+  "1c90":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      72
+    "original": |-
+      オートバトル
+      オート回復
+      戦いの呪文
+      回復の呪文
+      回復アイテム
+      全員の設定を
+    "original_byte_length": !!int |-
+      72
+    "references": []
+    "translated": !!null |-
+      null
   "1d5d":
     "is_relocatable": !!bool |-
       false

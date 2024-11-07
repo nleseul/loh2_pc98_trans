@@ -53,9 +53,11 @@ def extract_program_events(program_data:typing.ByteString):
         DS62_OverrideRegister(0x1d7b, X86_REG_SI, 0x719, 0x1d72), # Correct for pushing/popping SI
         EmptyHook(0x21b7, False, stop=True), # Calls into combat entry points
         EmptyHook(0x4c53, False, stop=True), # Calls into scenario entry points
-        DS62_PointerTableCodeHook(0x1596, 0x159b, table_domain="code"),
-        DS62_PointerTableCodeHook(0x2e89, 0x0f24),
-        DS62_PointerTableCodeHook(0x5268, 0x1a32),
+        DS62_PointerTableCodeHook(0x1596, 0x159b, 5, table_domain="code"),
+        DS62_PointerTableCodeHook(0x2e89, 0x0f24, 5),
+        DS62_PointerTableCodeHook(0x5268, 0x1a32, 8),
+        DS62_PointerTableCodeHook(0x5bb4, 0x2326, 7),
+        DS62_PointerTableCodeHook(0x5de3, 0x1b20, 6),
 
         DS62_StandardEventCodeHook(),
     ]
@@ -297,7 +299,7 @@ def extract_locations(prog_data:typing.ByteString) -> TranslationCollection:
 def extract_menus(prog_data:typing.ByteString) -> TranslationCollection:
     trans = TranslationCollection()
 
-    menu_addr_list = [ a + 0x7c00 for a in [ 0x88c, 0xc1e, 0x1d5d, 0x2334 ] ]
+    menu_addr_list = [ a + 0x7c00 for a in [ 0x88c, 0xc1e, 0x1b2c, 0x1be1, 0x1c90, 0x1d5d, 0x2334 ] ]
 
     for menu_addr in menu_addr_list:
         item_count = prog_data[menu_addr+3]

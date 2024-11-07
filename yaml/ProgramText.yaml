@@ -235,6 +235,70 @@
         1614
     "translated": !!null |-
       null
+  "0650":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CLEAR>誰が 呪文を おぼえますか？<RET_N>
+    "original_byte_length": !!int |-
+      28
+    "references":
+    - "source_addr": !!int |-
+        1345
+      "target_addr": !!int |-
+        1616
+    "translated": !!null |-
+      null
+  "066c":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CLEAR>どこに おぼえますか？<RET_N>
+    "original_byte_length": !!int |-
+      23
+    "references":
+    - "source_addr": !!int |-
+        1363
+      "target_addr": !!int |-
+        1644
+    "translated": !!null |-
+      null
+  "0683":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CLEAR><ACTOR>は <RET>
+    "original_byte_length": !!int |-
+      6
+    "references":
+    - "source_addr": !!int |-
+        1421
+      "target_addr": !!int |-
+        1667
+    "translated": !!null |-
+      null
+  "0689":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      の呪文を おぼえました。<RET_PAGE>
+    "original_byte_length": !!int |-
+      24
+    "references":
+    - "source_addr": !!int |-
+        1433
+      "target_addr": !!int |-
+        1673
+    "translated": !!null |-
+      null
   "06a1":
     "is_relocatable": !!bool |-
       true
@@ -840,6 +904,23 @@
         6748
     "translated": !!null |-
       null
+  "1b6c":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <SND0204>ディスクの空き容量がたりません。
+      セーブを中止します。
+    "original_byte_length": !!int |-
+      57
+    "references":
+    - "source_addr": !!int |-
+        24107
+      "target_addr": !!int |-
+        7020
+    "translated": !!null |-
+      null
   "1baa":
     "is_relocatable": !!bool |-
       true
@@ -855,6 +936,86 @@
         24461
       "target_addr": !!int |-
         7082
+    "translated": !!null |-
+      null
+  "1bbc":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      ロード<RET>
+    "original_byte_length": !!int |-
+      7
+    "references":
+    - "source_addr": !!int |-
+        24475
+      "target_addr": !!int |-
+        7100
+    "translated": !!null |-
+      null
+  "1bc3":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      セーブ<RET>
+    "original_byte_length": !!int |-
+      7
+    "references":
+    - "source_addr": !!int |-
+        24493
+      "target_addr": !!int |-
+        7107
+    "translated": !!null |-
+      null
+  "1bca":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      してもよろしいですか？<RET>
+    "original_byte_length": !!int |-
+      23
+    "references":
+    - "source_addr": !!int |-
+        24511
+      "target_addr": !!int |-
+        7114
+    "translated": !!null |-
+      null
+  "1d08":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      セーブデータを削除してもよろしいですか？<RET>
+    "original_byte_length": !!int |-
+      41
+    "references":
+    - "source_addr": !!int |-
+        25166
+      "target_addr": !!int |-
+        7432
+    "translated": !!null |-
+      null
+  "1d31":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      ゲームを終了してもよろしいですか？<RET>
+    "original_byte_length": !!int |-
+      35
+    "references":
+    - "source_addr": !!int |-
+        25192
+      "target_addr": !!int |-
+        7473
     "translated": !!null |-
       null
   "1d74":

@@ -671,11 +671,12 @@ class DS62_OverworldDestinationTableCodeHook(X86CodeHook):
 
 
 class DS62_PointerTableCodeHook(X86CodeHook):
-    def __init__(self, addr:int, table_addr:int, entry_size:int=0x2, next_addr:int|None=None, table_domain:str = "event"):
+    def __init__(self, addr:int, table_addr:int, table_length:int, entry_size:int=0x2, next_addr:int|None=None, table_domain:str = "event"):
         super().__init__()
 
         self._addr = addr
         self._table_addr = table_addr
+        self._table_length = table_length
         self._entry_size = entry_size
         self._next_addr = next_addr
         self._table_domain = table_domain
@@ -687,7 +688,7 @@ class DS62_PointerTableCodeHook(X86CodeHook):
         return None
 
     def generate_links(self, instruction, block_pool, current_block, registers):
-        for table_index in range(5):
+        for table_index in range(self._table_length):
             entry_pointer_addr = self._table_addr + 2 * table_index
             entry_addr = int.from_bytes(block_pool.get_domain_data(self._table_domain)[entry_pointer_addr:entry_pointer_addr+2], byteorder='little')
 
