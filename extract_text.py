@@ -312,11 +312,13 @@ def extract_menus(prog_data:typing.ByteString) -> TranslationCollection:
         menu_text = ""
 
         for _ in range(item_count):
+            if len(menu_text) > 0:
+                menu_text += "\n"
             item_bytes = b''
             while prog_data[addr] != 0:
                 item_bytes += prog_data[addr:addr+1]
                 addr += 1
-            menu_text += item_bytes.decode('cp932') + "\n"
+            menu_text += item_bytes.decode('cp932')
             addr += 1
 
         entry.original = menu_text
@@ -329,11 +331,13 @@ def extract_menus(prog_data:typing.ByteString) -> TranslationCollection:
     combat_menu_addr = 0x19f4 + 0x7c00
     combat_menu_text = ""
     for _ in range(3):
+        if len(combat_menu_text) > 0:
+            combat_menu_text += "\n"
         item_bytes = b''
         while prog_data[combat_menu_addr] != 0:
             item_bytes += prog_data[combat_menu_addr:combat_menu_addr+1]
             combat_menu_addr += 1
-        combat_menu_text += item_bytes.decode('cp932') + "\n"
+        combat_menu_text += item_bytes.decode('cp932')
         combat_menu_addr += 1
     combat_menu_entry.original = combat_menu_text
     combat_menu_entry.original_byte_length = combat_menu_addr - (0x19f4 + 0x7c00)

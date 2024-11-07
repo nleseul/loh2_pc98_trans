@@ -102,7 +102,6 @@ def add_table_to_patch(patch:ips_util.Patch, trans:TranslationCollection, pad_le
 
 
 def patch_locations(patch:ips_util.Patch, location_trans:TranslationCollection) -> None:
-    location_trans = TranslationCollection.load("yaml/Locations.yaml")
     pool = SpacePool()
 
     for key in location_trans.keys:
@@ -131,6 +130,31 @@ def patch_locations(patch:ips_util.Patch, location_trans:TranslationCollection) 
     pool.patch_leftover_space(patch)
 
 
+def patch_menus(patch:ips_util.Patch, menu_trans:TranslationCollection) -> None:
+
+    MENU_ITEM_REFS = {
+        0x2334: [ 0x5c90, 0x5cd9, 0x5d13, 0x5d4b, 0x5d60, None, 0x5d92 ]
+    }
+
+    for key in menu_trans.keys:
+        entry = menu_trans[key]
+        base_addr = key if key in [0x19f4] else key + 0x4
+
+        items = entry.text.splitlines()
+        refs = MENU_ITEM_REFS[key] if key in MENU_ITEM_REFS else None
+        encoded = b''
+
+        for item_index, item in enumerate(items):
+            if refs is not None and item_index < len(refs) and refs[item_index] is not None:
+                patch.add_record(refs[item_index], (base_addr + len(encoded) + 1).to_bytes(2, byteorder='little'))
+            encoded += item.encode('cp932') + b'\0'
+
+        if len(encoded) > entry.max_byte_length:
+            raise Exception(f"Menu string at {key:04x} cannot be encoded in {entry.max_byte_length} bytes (currently {len(encoded)})")
+
+        patch.add_record(base_addr + 0x7c00, encoded)
+
+
 def make_program_data_patch() -> ips_util.Patch:
     patch = make_data_file_patch("yaml/ProgramText.yaml", 0x0, 0x0, event_offset_in_buffer=0x7c00)
 
@@ -145,6 +169,7 @@ def make_program_data_patch() -> ips_util.Patch:
     add_table_to_patch(patch, TranslationCollection.load("yaml/Items.yaml"), 14)
 
     patch_locations(patch, TranslationCollection.load("yaml/Locations.yaml"))
+    patch_menus(patch, TranslationCollection.load("yaml/Menus.yaml"))
 
     return patch
 

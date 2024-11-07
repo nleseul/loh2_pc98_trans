@@ -4,61 +4,67 @@
       false
     "max_byte_length": !!int |-
       56
-    "original": |2
+    "original": |2-
        最後に出た町に戻る
        戦いの直前に戻る
        冒険の続きをする
     "original_byte_length": !!int |-
       56
     "references": []
-    "translated": !!null |-
-      null
+    "translated": |2-
+       Previous town
+       Restart battle
+       Load a save
   "0c1e":
     "is_relocatable": !!bool |-
       false
     "max_byte_length": !!int |-
       13
-    "original": |2
+    "original": |2-
        はい
       いいえ
     "original_byte_length": !!int |-
       13
     "references": []
-    "translated": !!null |-
-      null
+    "translated": |2-
+       Yes
+       No
   "19f4":
     "is_relocatable": !!bool |-
       false
     "max_byte_length": !!int |-
       62
-    "original": |2
+    "original": |2-
        戦う　　呪文　　守る
        使う　　武器　　オート
        強さ　　逃げる
     "original_byte_length": !!int |-
       62
     "references": []
-    "translated": !!null |-
-      null
+    "translated": |2-
+       Fight   Spell   Guard
+       Use     Weapon  Auto
+       Stats   Run
   "1d5d":
     "is_relocatable": !!bool |-
       false
     "max_byte_length": !!int |-
       19
-    "original": |2
+    "original": |2-
        戦闘設定
         逃げる
     "original_byte_length": !!int |-
       19
     "references": []
-    "translated": !!null |-
-      null
+    "translated": |2-
+       Settings
+       Run
   "2334":
     "is_relocatable": !!bool |-
       false
     "max_byte_length": !!int |-
       50
-    "original": |2
+    "original": |2-
        呪文
        使う
        装備
@@ -69,6 +75,12 @@
     "original_byte_length": !!int |-
       50
     "references": []
-    "translated": !!null |-
-      null
+    "translated": |2-
+       Spell
+       Item
+       Equip
+       Drop
+       Stats
+       Other
+       Leader
 "note": ""
