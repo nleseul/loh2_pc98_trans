@@ -60,8 +60,13 @@
     "original_byte_length": !!int |-
       60
     "references": []
-    "translated": !!null |-
-      null
+    "translated": |2-
+       Save
+       Load
+       System
+       Combat
+       Delete
+       Exit
   "1be1":
     "is_relocatable": !!bool |-
       false
@@ -79,8 +84,15 @@
     "original_byte_length": !!int |-
       79
     "references": []
-    "translated": !!null |-
-      null
+    "translated": |-
+      Auto move
+      Level up
+      EP display
+      BGM
+      Movement
+      Messages
+      Save disk
+      Func. keys
   "1c90":
     "is_relocatable": !!bool |-
       false
@@ -96,8 +108,13 @@
     "original_byte_length": !!int |-
       72
     "references": []
-    "translated": !!null |-
-      null
+    "translated": |-
+      Auto battle
+      Auto heal
+      Atk spells
+      Heal spells
+      Heal items
+      All members
   "1d5d":
     "is_relocatable": !!bool |-
       false

@@ -133,6 +133,7 @@ def patch_locations(patch:ips_util.Patch, location_trans:TranslationCollection) 
 def patch_menus(patch:ips_util.Patch, menu_trans:TranslationCollection) -> None:
 
     MENU_ITEM_REFS = {
+        0x1b2c: [ 0x5de8, 0x5e64, 0x5fce, 0x6107, 0x61fa, None],
         0x2334: [ 0x5c90, 0x5cd9, 0x5d13, 0x5d4b, 0x5d60, None, 0x5d92 ]
     }
 
