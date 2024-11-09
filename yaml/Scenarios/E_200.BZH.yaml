@@ -1,0 +1,147 @@
+"entries":
+  "6494":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CH0>
+      竜の卵の中というのは こんなふうに
+      なっていたのか。
+
+      <CH1>
+      モンスターが 出てくるのを 前にして何もできねえなんて くやしいな。
+
+      <CH2>
+      バーバラさまの 気持ちが よく
+      わかるような気がしますわ。
+
+      <CH0>
+      まったく そのとおりだ。
+
+      <CH1>
+      くっそー 腹立つなー。
+
+      もう だめだ がまんできねえ。
+      適当に いじくってやる。
+
+      <CH0>
+      ランドー やめろ !!
+    "original_byte_length": !!int |-
+      309
+    "references":
+    - "source_addr": !!int |-
+        55432
+      "target_addr": !!int |-
+        25748
+    "translated": !!null |-
+      null
+  "65c9":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CH2>
+      もう やめましょうよ。
+      バーバラさまが 言っていたじゃない。
+    "original_byte_length": !!int |-
+      61
+    "references":
+    - "source_addr": !!int |-
+        55438
+      "target_addr": !!int |-
+        26057
+    "translated": !!null |-
+      null
+  "6606":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CH1>
+      あれっ !? なんか うまく
+      いっちゃったような ･ ･ ･
+
+      <CH0>
+      そんな ばかな。
+
+      <CH2>
+      でも 本当みたいだわ。
+
+      <CH3>
+      モンスター 出てこない。
+
+      <CH0>
+      ランドー 今の もう１度できるかい？
+
+      <CH1>
+      できるわけねえだろ 適当に
+      やったんだから。
+
+      でも 他の所でも やってみようぜ。
+
+      <CH0>
+      ちょっと待て !!
+    "original_byte_length": !!int |-
+      259
+    "references":
+    - "source_addr": !!int |-
+        55563
+      "target_addr": !!int |-
+        26118
+    "translated": !!null |-
+      null
+  "6709":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <SET00fc><CH1>
+      なーんだ やっぱりだめか。
+
+      <CH3>
+      ランドー おしい。
+      もうすこし。
+
+      <CH1>
+      なあ そうだよな シンディ。
+      もうちょいだったのによ。
+
+      <CH0>
+      そう 簡単に いくはずないさ。
+      さあ もう 危険なことはやめよう
+      バーバラが 言っていたじゃないか。
+    "original_byte_length": !!int |-
+      218
+    "references":
+    - "source_addr": !!int |-
+        55519
+      "target_addr": !!int |-
+        26377
+    "translated": !!null |-
+      null
+  "67e3":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ギャノア<C_NONE>
+      やはり 現れおったな。
+      皇帝陛下の計画を じゃまする
+      なまいきな やつらよ。
+
+      改造を受けた おれさまの 恐ろしさを思い知るがいい。
+    "original_byte_length": !!int |-
+      134
+    "references":
+    - "source_addr": !!int |-
+        54698
+      "target_addr": !!int |-
+        26595
+    "translated": !!null |-
+      null
+"note": ""

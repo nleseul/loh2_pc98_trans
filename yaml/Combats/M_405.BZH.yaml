@@ -1,0 +1,66 @@
+"entries":
+  "7170":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      16
+    "original": |-
+      音操りＡ<RET>
+    "original_byte_length": !!int |-
+      9
+    "references": []
+    "translated": !!null |-
+      null
+  "71b0":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      16
+    "original": |-
+      音操りＢ<RET>
+    "original_byte_length": !!int |-
+      9
+    "references": []
+    "translated": !!null |-
+      null
+  "71f0":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      16
+    "original": |-
+      音操りＣ<RET>
+    "original_byte_length": !!int |-
+      9
+    "references": []
+    "translated": !!null |-
+      null
+  "7230":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      16
+    "original": |-
+      音操りＤ<RET>
+    "original_byte_length": !!int |-
+      9
+    "references": []
+    "translated": !!null |-
+      null
+  "7385":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      音操りが現れた。<RET_N>
+    "original_byte_length": !!int |-
+      17
+    "references":
+    - "source_addr": !!int |-
+        61000
+      "target_addr": !!int |-
+        29573
+    "translated": !!null |-
+      null
+"note": ""

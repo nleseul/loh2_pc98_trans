@@ -1,0 +1,386 @@
+"entries":
+  "9abc":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      フラム
+    "original_byte_length": !!null |-
+      null
+    "references": []
+    "translated": |-
+      Flam
+  "9ac8":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      イグナ
+    "original_byte_length": !!null |-
+      null
+    "references": []
+    "translated": |-
+      Igna
+  "9ad4":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      ヒュール
+    "original_byte_length": !!null |-
+      null
+    "references": []
+    "translated": |-
+      Hura
+  "9ae0":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      サクタス
+    "original_byte_length": !!null |-
+      null
+    "references": []
+    "translated": |-
+      Suctas
+  "9aec":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      パペピア
+    "original_byte_length": !!null |-
+      null
+    "references": []
+    "translated": |-
+      Papepia
+  "9af8":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      プアゾ
+    "original_byte_length": !!null |-
+      null
+    "references": []
+    "translated": |-
+      Poizo
+  "9b04":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      ホー
+    "original_byte_length": !!null |-
+      null
+    "references": []
+    "translated": |-
+      Hoa
+  "9b10":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      シレント
+    "original_byte_length": !!null |-
+      null
+    "references": []
+    "translated": |-
+      Serento
+  "9b1c":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      オビス
+    "original_byte_length": !!null |-
+      null
+    "references": []
+    "translated": |-
+      Obis
+  "9b28":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      ダナム
+    "original_byte_length": !!null |-
+      null
+    "references": []
+    "translated": |-
+      Danam
+  "9b34":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      ヘベタル
+    "original_byte_length": !!null |-
+      null
+    "references": []
+    "translated": |-
+      Hebetar
+  "9b40":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      ストール
+    "original_byte_length": !!null |-
+      null
+    "references": []
+    "translated": !!null |-
+      null
+  "9b4c":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      ブラムナ
+    "original_byte_length": !!null |-
+      null
+    "references": []
+    "translated": !!null |-
+      null
+  "9b58":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      ヒュドナ
+    "original_byte_length": !!null |-
+      null
+    "references": []
+    "translated": !!null |-
+      null
+  "9b64":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      ＭＧ１４
+    "original_byte_length": !!null |-
+      null
+    "references": []
+    "translated": !!null |-
+      null
+  "9b70":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      ＭＧ１５
+    "original_byte_length": !!null |-
+      null
+    "references": []
+    "translated": !!null |-
+      null
+  "9b7c":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      インパス
+    "original_byte_length": !!null |-
+      null
+    "references": []
+    "translated": |-
+      Impas
+  "9b88":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      テュート
+    "original_byte_length": !!null |-
+      null
+    "references": []
+    "translated": |-
+      Teuto
+  "9b94":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      セラ
+    "original_byte_length": !!null |-
+      null
+    "references": []
+    "translated": |-
+      Sela
+  "9ba0":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      サイレス
+    "original_byte_length": !!null |-
+      null
+    "references": []
+    "translated": |-
+      Sylis
+  "9bac":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      リパーク
+    "original_byte_length": !!null |-
+      null
+    "references": []
+    "translated": |-
+      Reparc
+  "9bb8":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      エント
+    "original_byte_length": !!null |-
+      null
+    "references": []
+    "translated": !!null |-
+      null
+  "9bc4":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      ＭＧ２２
+    "original_byte_length": !!null |-
+      null
+    "references": []
+    "translated": !!null |-
+      null
+  "9bd0":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      レス
+    "original_byte_length": !!null |-
+      null
+    "references": []
+    "translated": |-
+      Res
+  "9bdc":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      レジナ
+    "original_byte_length": !!null |-
+      null
+    "references": []
+    "translated": |-
+      Regina
+  "9be8":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      リーフ
+    "original_byte_length": !!null |-
+      null
+    "references": []
+    "translated": |-
+      Lefe
+  "9bf4":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      レストナ
+    "original_byte_length": !!null |-
+      null
+    "references": []
+    "translated": !!null |-
+      null
+  "9c00":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      笛
+    "original_byte_length": !!null |-
+      null
+    "references": []
+    "translated": |-
+      Flute
+  "9c0c":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      ワプ
+    "original_byte_length": !!null |-
+      null
+    "references": []
+    "translated": !!null |-
+      null
+  "9c18":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      ルクス
+    "original_byte_length": !!null |-
+      null
+    "references": []
+    "translated": |-
+      Lux
+  "9c24":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      ヨシュア
+    "original_byte_length": !!null |-
+      null
+    "references": []
+    "translated": |-
+      Joshua
+  "9c30":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      ビス
+    "original_byte_length": !!null |-
+      null
+    "references": []
+    "translated": !!null |-
+      null
+"note": ""

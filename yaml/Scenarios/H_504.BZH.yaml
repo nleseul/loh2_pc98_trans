@@ -1,0 +1,26 @@
+"entries":
+  "59d3":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>モーガン<C_NONE>
+      サミーのバカは いったい どこに
+      行っとるんじゃろうか。
+
+      ハーベイの所に 酒を取りに
+      行ったきりなんじゃよ。
+
+      あの鉄砲玉が ･ ･ ･ 帰ってきたら
+      ただじゃおかんからな。
+    "original_byte_length": !!int |-
+      169
+    "references":
+    - "source_addr": !!int |-
+        54638
+      "target_addr": !!int |-
+        22995
+    "translated": !!null |-
+      null
+"note": ""

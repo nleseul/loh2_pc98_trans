@@ -1,0 +1,35 @@
+"entries":
+  "5ba6":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      岩は 全然動きません。
+    "original_byte_length": !!int |-
+      22
+    "references":
+    - "source_addr": !!int |-
+        54693
+      "target_addr": !!int |-
+        23462
+    "translated": !!null |-
+      null
+  "5bbc":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <PARTY>は バクヤクを
+      大岩にセットしました。<SND0105>
+    "original_byte_length": !!int |-
+      41
+    "references":
+    - "source_addr": !!int |-
+        54715
+      "target_addr": !!int |-
+        23484
+    "translated": !!null |-
+      null
+"note": ""

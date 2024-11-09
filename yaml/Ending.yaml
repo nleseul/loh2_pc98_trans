@@ -1,0 +1,217 @@
+"entries":
+  "226c":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |
+      <NAME>セリオス</NAME>
+      争いは、いつも、小さなすれ違いから起こる。
+      <PAUSE><PAGE>
+      アトラス、<PAUSE>心しておくのだぞ。
+    "original_byte_length": !!int |-
+      85
+    "references": []
+    "translated": !!null |-
+      null
+  "22c1":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |
+      ありがとう、アトラス。
+      <PAGE_PAUSE>
+      これで、正義が守られました。
+      <PAGE_PAUSE>
+      あなたがたにとって、この機械は、災いの箱。
+      万能の力など、もはや必要ではありません。
+      <PAGE_PAUSE>
+      もう決して、開かれることはないでしょう。
+      <PAGE_PAUSE>
+      さようなら、<PAUSE>アトラス。
+      <PAUSE><PAGE_PAUSE>
+      私は、すべての機能を停止して、眠りにつきます。
+      <PAGE_PAUSE>
+    "original_byte_length": !!int |-
+      256
+    "references": []
+    "translated": !!null |-
+      null
+  "23c1":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <PAUSE>でも、お別れではないのです。
+
+      私は、フレイア。
+      希望の女神。
+      <PAUSE><PAGE>
+      いつでも、あなたのそばにいます。
+      <PAUSE><PAGE>
+      祈りをこめて、大地に種をまくとき、
+      未知を恐れず、大海に船をこぎ出すとき、
+
+      愛するひとと、大空に夢を描くとき、
+      <CHANGE_FREYA_GRAPHIC><PAUSE>いつでも、あなたと共にあります。
+      <PAUSE><PAGE>
+      あなたが、私を求めるかぎり。
+    "original_byte_length": !!int |-
+      274
+    "references": []
+    "translated": !!null |-
+      null
+  "24d3":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |
+      <NAME>フローラ</NAME>
+      ねえ、アトラスさま。
+
+      ドレイクさんもフラッドさんも、本当はいい方たちなのに、
+      どうして、あんなに悲しいことが起きたのでしょう。
+      <PAGE_FULL>
+      <NAME>アトラス</NAME>
+      たぶん、だれも悪くはないんだよ。
+
+      もしかしたら、ぼくだって同じことをしたかもしれない。
+      ただ、みんなが、少しずつ誤解しあっていただけなんだ。
+
+      それだけのことだったんだよ。
+      <PAUSE><PAGE_FULL>
+    "original_byte_length": !!int |-
+      318
+    "references": []
+    "translated": !!null |-
+      null
+  "2611":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |
+      <NAME>ランドー</NAME>
+      なに二人で、まとめちゃってんだよ！
+
+      すぎたことより、これからがたいへんなんだぜ。
+      世界のことを、よろしく頼むぜ、<PAUSE>アトラス！
+      <PAUSE><PAGE_FULL>
+      <NAME>フローラ</NAME>
+      あら、ランドーさん。
+      アトラス皇太子殿下<PAUSE>ですわ。
+      <PAUSE><PAUSE><PAGE_FULL>
+      <NAME>アトラス</NAME>
+      いいんだよ、<PAUSE>フローラ。
+      <PAUSE>今までどおり、<PAUSE>ぼくはただのアトラスさ。
+      <PAUSE><PAUSE><PAGE_FULL>
+    "original_byte_length": !!int |-
+      273
+    "references": []
+    "translated": !!null |-
+      null
+  "2722":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |
+      <NAME>アトラス</NAME>
+      これからも、力になってくれるね。
+      <PAUSE><PAGE_FULL>
+      <NAME>ランドー</NAME>
+      おう。<PAUSE>まかせとけ！
+      <PAUSE><PAGE_FULL>
+      <NAME>フローラ</NAME>
+      お手伝い、いたしますわ。
+      <PAUSE><PAGE_FULL>
+    "original_byte_length": !!int |-
+      112
+    "references": []
+    "translated": !!null |-
+      null
+  "2792":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |
+      <PAUSE>女神フレイアよ。
+      <PAUSE><PAUSE><PAGE>
+      どうか、力を与えてください。
+      <PAUSE><PAGE>
+      みんなが平和に暮らせるように。
+      <PAUSE>今よりもっと幸福になれるように。
+      <PAUSE><PAGE>
+      どうか、見ていてください。
+    "original_byte_length": !!int |-
+      147
+    "references": []
+    "translated": !!null |-
+      null
+  "2825":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |
+      <NAME>レイシア</NAME>
+      期待しているわ。
+      あなたなら、きっといい指導者になれる。
+      <PAGE_FULL>
+      <NAME>アトラス</NAME>
+      ありがとう、<PAUSE>レイシア。
+      <PAGE_PAUSE>
+      これからは、地上の人間と地底の人間が交流する、
+      新しい世界が始まるんだ。
+      <PAGE_FULL>
+    "original_byte_length": !!int |-
+      174
+    "references": []
+    "translated": !!null |-
+      null
+  "28d3":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      小さな太陽はやがて父を越え
+      大きな太陽として輝く。
+    "original_byte_length": !!null |-
+      null
+    "references": []
+    "translated": !!null |-
+      null
+  "2b76":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": "        ＳＴＡＦＦ        \n\n\n\n\n\n\n\n\n         シナリオ         \n\n\
+      \n\n       秋 葉  紀 好       \n\n\n\n\n\n\n\n\n\n\n        プログラム        \n\n\n\n\
+      \       秋 葉  紀 好       \n\n       小 山  英 樹       \n\n\n\n\n\n\n\n\n\n\n   アート＆グラフィック\
+      \   \n\n\n\n       菅 谷  一 輝       \n\n       吉 永  裕 昭       \n\n       蓮 井 \
+      \ 俊 也       \n\n       久 慈  光 久       \n\n       樋 口     修       \n\n      \
+      \ 長友  誠一郎       \n\n       伊 東  慎 一       \n\n       千 頭     元       \n\n\n\n\
+      \n\n\n\n\n\n\n       ミュージック       \n\n\n\n Falcom sound team J.D.K. \n\n\n \
+      \      石川 三恵子        \n\n       白 川 篤 史        \n\n\n\n\n\n\n\n\n\n\n      \
+      \   アシスト         \n\n\n\n       早 川     正       \n\n       西 藤  晋 市       \n\
+      \n       小 野  聡 子       \n\n\n\n\n\n\n\n\n\n\n        ディレクト        \n\n\n\n\
+      \       木 屋  善 夫       \n\n\n\n\n\n\n\n\n\n\n    スペシャルサンクス    \n\n\n\n     \
+      \  鈴 木  繭 子       \n\n       酒 井  朋 子       \n\n       塩 田  雄 一       \n\n \
+      \      金井  まり子       \n\n       村 上  星 児       \n\n       中 村  和 郎       \n\n\
+      \       高 下  雄 一       \n\n       江 藤  珠 樹       \n\n       沢 田  憲 宏       \n\
+      \n\n\n\n\n\n\n\n\n\n       プロデュース       \n\n\n\n       加 藤  正 幸       \n\n\n\
+      \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<STAFF_ROLL_MARKER>Ｄｒａｇｏｎ Ｓｌａｙｅｒ\
+      \ \n\n The Legend Of Heroes Ⅱ  \n\n\n   Copyright (C)  1992    \n    Nihon Falcom\
+      \ inc.     \n\n\n\n\n\n\n\n\n\n"
+    "original_byte_length": !!int |-
+      1269
+    "references": []
+    "translated": !!null |-
+      null
+"note": ""

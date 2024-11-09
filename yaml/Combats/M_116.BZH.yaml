@@ -1,0 +1,66 @@
+"entries":
+  "7170":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      16
+    "original": |-
+      コラドＡ<RET>
+    "original_byte_length": !!int |-
+      9
+    "references": []
+    "translated": !!null |-
+      null
+  "71b0":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      16
+    "original": |-
+      コラドＢ<RET>
+    "original_byte_length": !!int |-
+      9
+    "references": []
+    "translated": !!null |-
+      null
+  "71f0":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      16
+    "original": |-
+      コラドＣ<RET>
+    "original_byte_length": !!int |-
+      9
+    "references": []
+    "translated": !!null |-
+      null
+  "7230":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      16
+    "original": |-
+      コラドＤ<RET>
+    "original_byte_length": !!int |-
+      9
+    "references": []
+    "translated": !!null |-
+      null
+  "72f4":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      コラドが現れた。<RET_N>
+    "original_byte_length": !!int |-
+      17
+    "references":
+    - "source_addr": !!int |-
+        61000
+      "target_addr": !!int |-
+        29428
+    "translated": !!null |-
+      null
+"note": ""

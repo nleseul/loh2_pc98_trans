@@ -1,0 +1,248 @@
+"entries":
+  "5aa6":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      おれたち夫婦は ジェラルドさまの
+      別荘の管理をしてるだよ。
+    "original_byte_length": !!int |-
+      62
+    "references":
+    - "source_addr": !!int |-
+        54645
+      "target_addr": !!int |-
+        23206
+    "translated": !!null |-
+      null
+  "5ae4":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>女<C_NONE>
+      別荘の そうじは 女中さんたちが
+      やるから しばらくは やらなくて
+      いいんですって。
+    "original_byte_length": !!int |-
+      84
+    "references":
+    - "source_addr": !!int |-
+        54654
+      "target_addr": !!int |-
+        23268
+    "translated": !!null |-
+      null
+  "5b38":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ジェラルド<C_NONE>
+      <IF007b><JUMP5d1f><IF0079><JUMP5cd0><SET0079>きっ きさまらだな !!
+      わしの かわいいフローラを
+      かどわかしおってからに !!
+
+      わしの かわいいフローラを どこに
+      連れていったのだ？
+
+      <CH0>
+      ちょ ちょっと 待ってください。
+      ぼくたちには どういうことなのか
+      さっぱり わかりませんが。
+
+      <C_YELLOW>ジェラルド<C_NONE>
+      なんだ お前らが あやしいと思ったが違ったのか。
+
+      わしの かわいいフローラが
+      いなくなってしまったのだ。
+      だれかに 誘拐されてしまったのだ。
+
+      おい お前たち。
+      <LOC5cd0>もし わしの かわいいフローラを
+      連れてきたら 好きなだけ ほうびを
+      くれてやるぞ。<END>
+      <LOC5d1f>これは アトラス王子さま。
+      私の かわいいフローラは
+      どうしたのですか？
+
+      なにか 王子さまの お気にめさない
+      ところでも あったのですか？
+    "original_byte_length": !!int |-
+      617
+    "references":
+    - "source_addr": !!int |-
+        54669
+      "target_addr": !!int |-
+        23352
+    "translated": !!null |-
+      null
+  "5da1":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ジェラルド夫人<C_NONE>
+      <IF007b><JUMP5e37>あぁ フローラ。
+      どこに行ってしまったの。
+
+      きっと ナッシュの館を 出たことが
+      ショックだったのね。
+      あぁ かわいそうなフローラ ･ ･ ･<END>
+      <LOC5e37>アトラス王子さま フローラが なにか悪いところでも あるのでしたら
+      直させます。
+
+      どうか もう一度 フローラを
+      かわいがってくださいませ。
+    "original_byte_length": !!int |-
+      281
+    "references":
+    - "source_addr": !!int |-
+        54678
+      "target_addr": !!int |-
+        23969
+    "translated": !!null |-
+      null
+  "5eba":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>チャーリー<C_NONE>
+      <IF007b><JUMP5f53>むっ また あなたたちですか。
+      だんなさまは 食後の 睡眠中です。
+
+      もし 起きていたとしても 今は
+      取り込み中ですから お引き取り
+      くださいな。<END>
+      <LOC5f53>お嬢さまは どうしたのですかな？
+      まさか 他の方が 現れたのですか。
+
+      でも お嬢さまほど 王子さまに
+      お似合いの方など いないでしょう。
+      お考え直したほうが よいのでは？
+    "original_byte_length": !!int |-
+      313
+    "references":
+    - "source_addr": !!int |-
+        54687
+      "target_addr": !!int |-
+        24250
+    "translated": !!null |-
+      null
+  "5ff3":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      <IF007b><JUMP6056>お嬢さまが 突然 いなくなったんだ。だんなさまは 誘拐されたとか
+      言っているけど 本当かな？<END>
+      <LOC6056>お嬢さまは まだ帰ってこないけど
+      だいじょうぶなんだろうか？
+    "original_byte_length": !!int |-
+      158
+    "references":
+    - "source_addr": !!int |-
+        54741
+      "target_addr": !!int |-
+        24563
+    "translated": !!null |-
+      null
+  "6091":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      おら もうすぐ 釣りに行かなきゃ
+      なんねえだよ。
+      じゃましねえでくれ。
+    "original_byte_length": !!int |-
+      72
+    "references":
+    - "source_addr": !!int |-
+        54750
+      "target_addr": !!int |-
+        24721
+    "translated": !!null |-
+      null
+  "60d9":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>女中<C_NONE>
+      お嬢さまが いなくなる前の日に
+      だんなさまと 言い争っているのを
+      見ちゃったのよ。
+
+      お嬢さまが いなくなったのは
+      きっと そのせいよ。
+    "original_byte_length": !!int |-
+      134
+    "references":
+    - "source_addr": !!int |-
+        54759
+      "target_addr": !!int |-
+        24793
+    "translated": !!null |-
+      null
+  "615f":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>女中<C_NONE>
+      フローラお嬢さまは 今ごろ
+      どうしているのかしら。<IF007b><JUMP6201>
+
+      お嬢さまは 人を うたがうと
+      いうことを 知らないから
+      変な人に だまされて いなければ
+      いいんだけど ･ ･ ･<LOC6201>
+    "original_byte_length": !!int |-
+      163
+    "references":
+    - "source_addr": !!int |-
+        54768
+      "target_addr": !!int |-
+        24927
+    "translated": !!null |-
+      null
+  "6202":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ジェニー<C_NONE>
+      <IF007b><JUMP6297>お嬢さまが いなくなる前に
+      女神 フレイアさまが 助けを
+      求めていると おっしゃっていました。
+
+      いったい お嬢さまは
+      どうなさったのかしら。<END>
+      <LOC6297>あら たしか お嬢さまと いっしょに
+      旅を されていた方でしたね。
+      お嬢さまは どうなさったのですか？
+    "original_byte_length": !!int |-
+      245
+    "references":
+    - "source_addr": !!int |-
+        54777
+      "target_addr": !!int |-
+        25090
+    "translated": !!null |-
+      null
+"note": ""

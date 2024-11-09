@@ -1,0 +1,81 @@
+"entries":
+  "7170":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      16
+    "original": |-
+      ガードＡ<RET>
+    "original_byte_length": !!int |-
+      9
+    "references": []
+    "translated": !!null |-
+      null
+  "71b0":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      16
+    "original": |-
+      ガードＢ<RET>
+    "original_byte_length": !!int |-
+      9
+    "references": []
+    "translated": !!null |-
+      null
+  "71f0":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      16
+    "original": |-
+      ガードＣ<RET>
+    "original_byte_length": !!int |-
+      9
+    "references": []
+    "translated": !!null |-
+      null
+  "7230":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      16
+    "original": ""
+    "original_byte_length": !!int |-
+      1
+    "references": []
+    "translated": !!null |-
+      null
+  "73d0":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      ガードが現れた。<RET_N>
+    "original_byte_length": !!int |-
+      17
+    "references":
+    - "source_addr": !!int |-
+        61000
+      "target_addr": !!int |-
+        29648
+    "translated": !!null |-
+      null
+  "73e1":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>は攻撃をかわし 切り返した。<RET_N>
+    "original_byte_length": !!int |-
+      29
+    "references":
+    - "source_addr": !!int |-
+        61153
+      "target_addr": !!int |-
+        29665
+    "translated": !!null |-
+      null
+"note": ""

@@ -1,0 +1,418 @@
+"entries":
+  "5b06":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      王子さま ききましたよ。
+      竜の卵を戻したのは 王子さまたちの
+      活躍だったそうじゃないですか。
+    "original_byte_length": !!int |-
+      96
+    "references":
+    - "source_addr": !!int |-
+        54633
+      "target_addr": !!int |-
+        23302
+    "translated": !!null |-
+      null
+  "5b66":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      エメのオアシスを 復旧させるため
+      若い兵士たちが 出かけております。
+
+      でも 昔 あそこは 悪い人たちの
+      たまり場だったんです。
+      また 昔のように ならなければ
+      いいのですが ･ ･ ･
+    "original_byte_length": !!int |-
+      174
+    "references":
+    - "source_addr": !!int |-
+        54642
+      "target_addr": !!int |-
+        23398
+    "translated": !!null |-
+      null
+  "5c14":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      王子さま いったい どのようにして
+      あのモンスターを いなくしたのか
+      ぜひ 教えてください。
+    "original_byte_length": !!int |-
+      94
+    "references":
+    - "source_addr": !!int |-
+        54651
+      "target_addr": !!int |-
+        23572
+    "translated": !!null |-
+      null
+  "5c72":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      私は 今まで フレイアさまのことを
+      信じていなかったんです。
+
+      でも 今回のことを きっかけに
+      信じることに したんです。
+      週に１回は ヨルドに お祈りに
+      行こうと思っています。
+    "original_byte_length": !!int |-
+      172
+    "references":
+    - "source_addr": !!int |-
+        54660
+      "target_addr": !!int |-
+        23666
+    "translated": !!null |-
+      null
+  "5d1e":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      おれは 道具屋なんだが 店のほうは
+      女房にまかせてあるから おれは
+      品物を 仕入れに行くだけでいいんだ。
+    "original_byte_length": !!int |-
+      104
+    "references":
+    - "source_addr": !!int |-
+        54669
+      "target_addr": !!int |-
+        23838
+    "translated": !!null |-
+      null
+  "5d86":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      この近くに カザミの塔という 古い
+      塔があったんだけど ずっと前の
+      大地震で 沈んじまったんだよ。
+
+      発明家のハリーが それを見て すごくがっかりしてたから 話をきいたら
+      あの塔には 思い出が あったんだ
+      とかって言ってたなあ。
+
+      そういえば 昔は よくあの塔から
+      大凧で 空を飛んでいたからなあ。
+    "original_byte_length": !!int |-
+      281
+    "references":
+    - "source_addr": !!int |-
+        54678
+      "target_addr": !!int |-
+        23942
+    "translated": !!null |-
+      null
+  "5e9f":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>女<C_NONE>
+      アートス国王さまは ハリーさんの
+      発明に 協力するために お城の中に
+      研究室を 作ったのよ。
+    "original_byte_length": !!int |-
+      92
+    "references":
+    - "source_addr": !!int |-
+        54687
+      "target_addr": !!int |-
+        24223
+    "translated": !!null |-
+      null
+  "5efb":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>女<C_NONE>
+      この国の お姫さま ディーナ姫は
+      ファーレーンの セリオス国王さまの
+      所へ 嫁いでいったのよ。
+
+      私が まだ 若かったころなんだけど
+      それはもう お似合いのカップルで
+      かなり 話題になっていたわよ。
+    "original_byte_length": !!int |-
+      189
+    "references":
+    - "source_addr": !!int |-
+        54696
+      "target_addr": !!int |-
+        24315
+    "translated": !!null |-
+      null
+  "5fb8":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>呪文屋<C_NONE>
+      いらっしゃい。<RET_N>
+    "original_byte_length": !!int |-
+      24
+    "references":
+    - "source_addr": !!int |-
+        54708
+      "target_addr": !!int |-
+        24504
+    "translated": !!null |-
+      null
+  "5fd0":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      またどうぞ。
+    "original_byte_length": !!int |-
+      13
+    "references":
+    - "source_addr": !!int |-
+        54720
+      "target_addr": !!int |-
+        24528
+    "translated": !!null |-
+      null
+  "5fdd":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>道具屋<C_NONE>
+      あら いらっしゃい。
+      どんな ご用ですか？<RET_N>
+    "original_byte_length": !!int |-
+      49
+    "references":
+    - "source_addr": !!int |-
+        54732
+      "target_addr": !!int |-
+        24541
+    "translated": !!null |-
+      null
+  "600e":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      また おいでください。
+    "original_byte_length": !!int |-
+      22
+    "references":
+    - "source_addr": !!int |-
+        54759
+      "target_addr": !!int |-
+        24590
+    "translated": !!null |-
+      null
+  "6024":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      おや？これ以上持てないようですね。
+
+      <RET>
+    "original_byte_length": !!int |-
+      36
+    "references":
+    - "source_addr": !!int |-
+        2054
+      "target_addr": !!int |-
+        24612
+    "translated": !!null |-
+      null
+  "6048":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      どれを買ってくれますか？
+      <RET_N>
+    "original_byte_length": !!int |-
+      26
+    "references":
+    - "source_addr": !!int |-
+        2056
+      "target_addr": !!int |-
+        24648
+    "translated": !!null |-
+      null
+  "6062":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ITEM>だね。
+      どうも ありがとう。
+
+      <RET>
+    "original_byte_length": !!int |-
+      29
+    "references":
+    - "source_addr": !!int |-
+        2058
+      "target_addr": !!int |-
+        24674
+    "translated": !!null |-
+      null
+  "607f":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      あらまあ もう持てないわよ。
+
+      <RET>
+    "original_byte_length": !!int |-
+      29
+    "references":
+    - "source_addr": !!int |-
+        2062
+      "target_addr": !!int |-
+        24703
+    "translated": !!null |-
+      null
+  "609c":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      どれを買ってくれるの？
+      <RET_N>
+    "original_byte_length": !!int |-
+      24
+    "references":
+    - "source_addr": !!int |-
+        2064
+      "target_addr": !!int |-
+        24732
+    "translated": !!null |-
+      null
+  "60b4":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ITEM>ね。
+      どうも ありがとう。
+
+      <RET>
+    "original_byte_length": !!int |-
+      27
+    "references":
+    - "source_addr": !!int |-
+        2066
+      "target_addr": !!int |-
+        24756
+    "translated": !!null |-
+      null
+  "60d7":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      なにを 売ってくれるの？
+      <RET_N>
+    "original_byte_length": !!int |-
+      25
+    "references":
+    - "source_addr": !!int |-
+        1937
+      "target_addr": !!int |-
+        24791
+    "translated": !!null |-
+      null
+  "60f0":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |2-
+       Gold になるわよ
+      それでも いいかしら？
+      <RET_N>
+    "original_byte_length": !!int |-
+      40
+    "references":
+    - "source_addr": !!int |-
+        1939
+      "target_addr": !!int |-
+        24816
+    "translated": !!null |-
+      null
+  "6118":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      あら それは残念だわ。
+
+      <RET_N>
+    "original_byte_length": !!int |-
+      23
+    "references":
+    - "source_addr": !!int |-
+        1941
+      "target_addr": !!int |-
+        24856
+    "translated": !!null |-
+      null
+  "612f":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      どうも ありがとう。
+      <RET_N>
+    "original_byte_length": !!int |-
+      21
+    "references":
+    - "source_addr": !!int |-
+        1943
+      "target_addr": !!int |-
+        24879
+    "translated": !!null |-
+      null
+"note": ""

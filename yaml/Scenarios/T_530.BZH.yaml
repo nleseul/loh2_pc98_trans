@@ -1,0 +1,402 @@
+"entries":
+  "5efe":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ガード<C_NONE>
+      中に入りたいのか？
+      <Xf65317><JUMP5f59><SET0403><ASMd942>それじゃ これを持っていけ。
+
+      <ITEM><C_GREEN>をもらいました。<SND0103><C_NONE><END>
+      <LOC5f59>入りたいなら 通行証を渡すから
+      持物を へらしてこい。
+    "original_byte_length": !!int |-
+      143
+    "references":
+    - "source_addr": !!int |-
+        55058
+      "target_addr": !!int |-
+        24318
+    - "source_addr": !!int |-
+        55090
+      "target_addr": !!int |-
+        24318
+    - "source_addr": !!int |-
+        55122
+      "target_addr": !!int |-
+        24318
+    - "source_addr": !!int |-
+        55154
+      "target_addr": !!int |-
+        24318
+    "translated": !!null |-
+      null
+  "5f8d":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ガード<C_NONE>
+      ここは <ASMd960>への 出口だ。
+      <Xf64dd9><JUMP6039>外に出るなら 通行証を出せ。
+
+      通行証を渡しますか？
+      <Xf69229><JUMP6007><CLEAR><ASMd955><SET0403><ITEM><C_GREEN>を渡しました。<SND0103><C_NONE><END>
+      <LOC6007><CLEAR>変な行動をすると すぐに
+      とりおさえてやるからな。<END>
+      <LOC6039>通行証が なければ 出すことはできん。
+    "original_byte_length": !!int |-
+      209
+    "references":
+    - "source_addr": !!int |-
+        54753
+      "target_addr": !!int |-
+        24461
+    - "source_addr": !!int |-
+        54788
+      "target_addr": !!int |-
+        24461
+    - "source_addr": !!int |-
+        54823
+      "target_addr": !!int |-
+        24461
+    - "source_addr": !!int |-
+        54858
+      "target_addr": !!int |-
+        24461
+    "translated": !!null |-
+      null
+  "607c":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ガード<C_NONE>
+      <IF0124><JUMP60ca>この先は 城の正門につながっている。お前らは 立入禁止の場所だ。<END>
+      <LOC60ca><IF0402><JUMP61b2>この先は 城の正門につながっている。お前らは 立入禁止の場所だ。<IF0015><JUMP61e2><IF_NOT0412><JUMP61e2><SET0184><SET0401>
+
+      <CH2>
+      イズーの町長さんの 使いで
+      ナレサ隊長に お会いしたいのですが。
+
+      <C_YELLOW>ガード<C_NONE>
+      イズーの町長？
+      ああ あの方のことか。
+
+      それだったら 隊長からきいている。
+      <LOC61b2>隊長は 正門のあたりにいるはずだ。
+      入っていいぞ。<LOC61e2>
+    "original_byte_length": !!int |-
+      359
+    "references":
+    - "source_addr": !!int |-
+        54888
+      "target_addr": !!int |-
+        24700
+    "translated": !!null |-
+      null
+  "61e3":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ガード<C_NONE>
+      <IF0124><JUMP60ca>お前らが 入れるのは ここまでだ。
+      この先は 一部の者を除いて だれも
+      入ることは できないぞ。
+    "original_byte_length": !!int |-
+      105
+    "references":
+    - "source_addr": !!int |-
+        54933
+      "target_addr": !!int |-
+        25059
+    "translated": !!null |-
+      null
+  "624c":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ガード<C_NONE>
+      じゃまだ どけ !!
+    "original_byte_length": !!int |-
+      26
+    "references":
+    - "source_addr": !!int |-
+        54954
+      "target_addr": !!int |-
+        25164
+    "translated": !!null |-
+      null
+  "6266":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ガード<C_NONE>
+      わかっているだろうが 他の地方に
+      行くことは禁止されている。
+      入った所からしか 出られないからな。
+    "original_byte_length": !!int |-
+      104
+    "references":
+    - "source_addr": !!int |-
+        54960
+      "target_addr": !!int |-
+        25190
+    "translated": !!null |-
+      null
+  "62ce":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      へっへっへ。 あんたたち ちょっと
+      見ていかないか？
+
+      となりにいるやつが いい物を
+      持ってるんだ。
+    "original_byte_length": !!int |-
+      98
+    "references":
+    - "source_addr": !!int |-
+        54969
+      "target_addr": !!int |-
+        25294
+    "translated": !!null |-
+      null
+  "6330":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      この町は 昔 ファーゲスタの中で
+      いちばん にぎやかな 町だったんだ。
+
+      いろいろな地方から たくさんの人が
+      やってきていたんだよ。
+
+      でも 地方間の移動が 禁止に
+      なってからは こんなふうに 静かに
+      なっちまったんだ。
+    "original_byte_length": !!int |-
+      207
+    "references":
+    - "source_addr": !!int |-
+        54978
+      "target_addr": !!int |-
+        25392
+    "translated": !!null |-
+      null
+  "63ff":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      いやな世の中に なっちゃったよな。
+      ここで さわいでいると ガードたちがすぐに寄ってくるぜ。
+
+      それで たぶん うるさいと言って
+      ここから 追い出すんだ。
+      あーやだやだ。
+    "original_byte_length": !!int |-
+      164
+    "references":
+    - "source_addr": !!int |-
+        54987
+      "target_addr": !!int |-
+        25599
+    "translated": !!null |-
+      null
+  "64a3":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>女<C_NONE>
+      私 ここで 待ち合わせしてるんだけどなかなか こないのよ。
+
+      あんまり ここに長くいると ガードがうるさいし 困っちゃったわ。
+    "original_byte_length": !!int |-
+      123
+    "references":
+    - "source_addr": !!int |-
+        54996
+      "target_addr": !!int |-
+        25763
+    "translated": !!null |-
+      null
+  "651e":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ヤミ屋<C_NONE>
+      あんたたち どんな用なんだ？<RET_N>
+    "original_byte_length": !!int |-
+      37
+    "references":
+    - "source_addr": !!int |-
+        55017
+      "target_addr": !!int |-
+        25886
+    "translated": !!null |-
+      null
+  "6543":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      おれは よく ここに来てるから
+      何か用があったら また来てくれ。
+    "original_byte_length": !!int |-
+      61
+    "references":
+    - "source_addr": !!int |-
+        55044
+      "target_addr": !!int |-
+        25923
+    "translated": !!null |-
+      null
+  "6580":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      これ以上 持てないみたいだな。
+
+      <RET>
+    "original_byte_length": !!int |-
+      31
+    "references":
+    - "source_addr": !!int |-
+        3372
+      "target_addr": !!int |-
+        25984
+    "translated": !!null |-
+      null
+  "659f":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      何が 買いたいんだ？
+      <RET_N>
+    "original_byte_length": !!int |-
+      21
+    "references":
+    - "source_addr": !!int |-
+        3374
+      "target_addr": !!int |-
+        26015
+    "translated": !!null |-
+      null
+  "65b4":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ITEM>だな。
+      ガードに 見つかるなよ。
+
+      <RET>
+    "original_byte_length": !!int |-
+      33
+    "references":
+    - "source_addr": !!int |-
+        3376
+      "target_addr": !!int |-
+        26036
+    "translated": !!null |-
+      null
+  "65dd":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      何を 売ってくれるんだ？
+      <RET_N>
+    "original_byte_length": !!int |-
+      25
+    "references":
+    - "source_addr": !!int |-
+        3223
+      "target_addr": !!int |-
+        26077
+    "translated": !!null |-
+      null
+  "65f6":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |2-
+       Gold なら買ってやるけど
+      それで いいか？
+      <RET_N>
+    "original_byte_length": !!int |-
+      42
+    "references":
+    - "source_addr": !!int |-
+        3225
+      "target_addr": !!int |-
+        26102
+    "translated": !!null |-
+      null
+  "6620":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      それじゃ しかたねえな。
+
+      <RET_N>
+    "original_byte_length": !!int |-
+      25
+    "references":
+    - "source_addr": !!int |-
+        3227
+      "target_addr": !!int |-
+        26144
+    "translated": !!null |-
+      null
+  "6639":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      ありがとよ。
+      <RET_N>
+    "original_byte_length": !!int |-
+      14
+    "references":
+    - "source_addr": !!int |-
+        3229
+      "target_addr": !!int |-
+        26169
+    "translated": !!null |-
+      null
+"note": ""

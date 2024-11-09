@@ -1,0 +1,234 @@
+"entries":
+  "5aa6":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      皇帝は まだ倒していないのか？
+      がんばってくれよ みんなも
+      期待しているんだからな。
+    "original_byte_length": !!int |-
+      86
+    "references":
+    - "source_addr": !!int |-
+        54650
+      "target_addr": !!int |-
+        23206
+    "translated": !!null |-
+      null
+  "5afc":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>子ども<C_NONE>
+      ぼくも もっと 大きかったら
+      いっしょに 皇帝を やっつけに
+      行けたんだけどな。
+    "original_byte_length": !!int |-
+      84
+    "references":
+    - "source_addr": !!int |-
+        54659
+      "target_addr": !!int |-
+        23292
+    "translated": !!null |-
+      null
+  "5b50":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>女<C_NONE>
+      もう みんな 皇帝を倒して 新しい
+      国ができるのを 待ちこがれているわ。
+    "original_byte_length": !!int |-
+      73
+    "references":
+    - "source_addr": !!int |-
+        54668
+      "target_addr": !!int |-
+        23376
+    "translated": !!null |-
+      null
+  "5b99":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>女<C_NONE>
+      私も 皇帝を倒すのに 協力したいと
+      思ってるんだけど 何かできることが
+      あるかしら。
+    "original_byte_length": !!int |-
+      85
+    "references":
+    - "source_addr": !!int |-
+        54677
+      "target_addr": !!int |-
+        23449
+    "translated": !!null |-
+      null
+  "5bee":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ヤミ屋<C_NONE>
+      らっしゃい !! どんな ご用で？<RET_N>
+    "original_byte_length": !!int |-
+      39
+    "references":
+    - "source_addr": !!int |-
+        54698
+      "target_addr": !!int |-
+        23534
+    "translated": !!null |-
+      null
+  "5c15":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      まいどー。
+    "original_byte_length": !!int |-
+      11
+    "references":
+    - "source_addr": !!int |-
+        54725
+      "target_addr": !!int |-
+        23573
+    "translated": !!null |-
+      null
+  "5c20":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      お客さん 冗談はいけねえや。
+      それ以上は 持てねえんだぜ。
+
+      <RET>
+    "original_byte_length": !!int |-
+      57
+    "references":
+    - "source_addr": !!int |-
+        936
+      "target_addr": !!int |-
+        23584
+    "translated": !!null |-
+      null
+  "5c59":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      なにを買うんでい？
+      <RET_N>
+    "original_byte_length": !!int |-
+      20
+    "references":
+    - "source_addr": !!int |-
+        938
+      "target_addr": !!int |-
+        23641
+    "translated": !!null |-
+      null
+  "5c6d":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ITEM>かい。
+      へい まいど どうも。
+
+      <RET>
+    "original_byte_length": !!int |-
+      30
+    "references":
+    - "source_addr": !!int |-
+        940
+      "target_addr": !!int |-
+        23661
+    "translated": !!null |-
+      null
+  "5c93":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      どれを 売るんでい？
+      <RET_N>
+    "original_byte_length": !!int |-
+      21
+    "references":
+    - "source_addr": !!int |-
+        845
+      "target_addr": !!int |-
+        23699
+    "translated": !!null |-
+      null
+  "5ca8":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |2-
+       Gold だよ。いいかい？
+      <RET_N>
+    "original_byte_length": !!int |-
+      24
+    "references":
+    - "source_addr": !!int |-
+        847
+      "target_addr": !!int |-
+        23720
+    "translated": !!null |-
+      null
+  "5cc0":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      ひやかしは よくねえよ。
+
+      <RET_N>
+    "original_byte_length": !!int |-
+      25
+    "references":
+    - "source_addr": !!int |-
+        849
+      "target_addr": !!int |-
+        23744
+    "translated": !!null |-
+      null
+  "5cd9":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      わりいね。
+      <RET_N>
+    "original_byte_length": !!int |-
+      12
+    "references":
+    - "source_addr": !!int |-
+        851
+      "target_addr": !!int |-
+        23769
+    "translated": !!null |-
+      null
+"note": ""

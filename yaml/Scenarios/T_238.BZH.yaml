@@ -1,0 +1,300 @@
+"entries":
+  "5af4":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      おれたち夫婦は ジェラルドさまの
+      別荘の管理をしてるだよ。
+    "original_byte_length": !!int |-
+      62
+    "references":
+    - "source_addr": !!int |-
+        54633
+      "target_addr": !!int |-
+        23284
+    "translated": !!null |-
+      null
+  "5b32":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>女<C_NONE>
+      別荘の そうじは 女中さんたちが
+      やるから しばらくは やらなくて
+      いいんですって。
+    "original_byte_length": !!int |-
+      84
+    "references":
+    - "source_addr": !!int |-
+        54642
+      "target_addr": !!int |-
+        23346
+    "translated": !!null |-
+      null
+  "5b86":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ジェラルド<C_NONE>
+      <IF007b><JUMP60fd><IF007a><JUMP5e3a><IF_NOT0079><JUMP5bad>おお <JUMP5c29><LOC5bad>きっ きさまら !!
+      わしの かわいいフローラを
+      かどわかしおって !!
+
+      <CH2>
+      違うんです お父さま。
+
+      <C_YELLOW>ジェラルド<C_NONE>
+      なに 違うのか？
+      そうか <LOC5c29>わしの かわいいフローラを
+      助けてくれたのか。
+
+      それじゃ 好きなだけ ほうびを
+      くれてやろう。何が いいんだ？
+
+      <CH0>
+      そうじゃないんです ジェラルドさん。
+
+      <C_YELLOW>ジェラルド<C_NONE>
+      なに ほうびは いらんのか？
+      それは 感心だ その心がけを
+      忘れるでないぞ。<LOC5d0b>
+
+      <CH2>
+      お父さま きいてください。
+      あと少しだけ いっしょに いることを許してください。
+
+      <C_YELLOW>ジェラルド<C_NONE>
+      <IF00ba><JUMP5e79>まだ そんなことを 言っているのか
+      だめだと言ったら だめだ。
+
+      <CH1>
+      もう めんどくせえなあ。
+      このまま おいていっちまおうぜ。
+
+      <CH0>
+      それじゃ フローラさんが
+      かわいそうだよ。
+      いっしょに 逃げよう。
+
+      <C_YELLOW>ジェラルド<C_NONE>
+      <SET0400><SET007a><LOC5e3a>こら待て お前ら。
+      わしの かわいいフローラを
+      誘拐するな。<IF00ba><JUMP5d0b><END>
+      <LOC5e79>な、何を言っているのだ !!
+
+      こんな 下品なやつらと いつまでも
+      いっしょにいたら お前まで 下品に
+      なってしまうぞ。
+
+      <CH1>
+      このスケベおやじが 言いてえこと
+      言ってくれるじゃねえかよ。
+
+      いいこと 教えてやるぜ。
+      ここにいる アトラスはなあ
+      ファーレーンの王子さまなんだぞ。
+
+      アトラス王子さまに 向かって
+      下品だなんて よく言えたもんだよな。
+
+      <C_YELLOW>ジェラルド<C_NONE>
+      ファ、ファーレーン !?
+
+      そ、そういえば 昔 拝見した
+      若いころのセリオスさまに
+      似ていらっしゃる。
+
+      これは 失礼いたしました。
+
+      そうでございましたか ･ ･ ･
+      私の かわいいフローラが
+      アトラス王子さまの おきさき候補に
+      なったのでございますな？
+
+      <CH0>
+      いや そんなことは ひとことも ･ ･ ･
+
+      <C_YELLOW>ジェラルド<C_NONE>
+      お隠しに ならなくても わかります
+      <LOC60fd>どうか 私の かわいいフローラを
+      よろしくお願いいたします。<IF007b><JUMP6288><SET007b>
+
+      おお こうしてはいられない。
+      おーい チャーリー。
+
+      <Xf9280200><Xf7>国境に行って 手配を取り消してこい。わしの かわいいフローラは
+      アトラス王子さまの お供を
+      することに なったのだ。
+
+      早く行ってこい。
+
+      <ASMd627><CH1>
+      よかったじゃねえか お嬢さんよ。
+
+      <CH2>
+      でも お父さまは なにか
+      勘違いしているような ･ ･ ･
+
+      <CH1>
+      いいんだよ そんなこと
+      めんどくせえから ほっとこうぜ。<LOC6288>
+    "original_byte_length": !!int |-
+      1795
+    "references":
+    - "source_addr": !!int |-
+        54657
+      "target_addr": !!int |-
+        23430
+    "translated": !!null |-
+      null
+  "6289":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ジェラルド夫人<C_NONE>
+      <IF007b><JUMP62fe><SET0400>あぁ フローラ。
+      戻ってきてくれたのね。
+
+      こんな いなかの 狭い別荘でも
+      がまんしてくれるのね？<END>
+      <LOC62fe>フローラ、アトラス王子さまに
+      きらわれないようにね。
+      せっかくのチャンスですからね。
+    "original_byte_length": !!int |-
+      200
+    "references":
+    - "source_addr": !!int |-
+        54666
+      "target_addr": !!int |-
+        25225
+    "translated": !!null |-
+      null
+  "6351":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>チャーリー<C_NONE>
+      <IF007b><JUMP6441><IF0400><JUMP6403><SET0400>おお お嬢さま よくごぶじで。
+
+      私は お嬢さまが いなくなったので
+      すぐさま 国境に行き 兵士たちに
+      言ってまわったのです。
+      私の考えは 正しかったようですな。<END>
+      <LOC6403>ここから 出ていきたいのなら
+      お嬢さまを おいていくことですな。<END>
+      <LOC6441>あなたさまが 王子さまでしたとは
+      全然 気がつきませんでした。
+
+      庶民の中に うまく溶け込んで
+      いらしたものですから。
+    "original_byte_length": !!int |-
+      351
+    "references":
+    - "source_addr": !!int |-
+        54675
+      "target_addr": !!int |-
+        25425
+    "translated": !!null |-
+      null
+  "64b0":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      お嬢さま お元気そうで 安心しました。やっぱり 誘拐じゃなかったんですね。
+    "original_byte_length": !!int |-
+      77
+    "references":
+    - "source_addr": !!int |-
+        54729
+      "target_addr": !!int |-
+        25776
+    "translated": !!null |-
+      null
+  "64fd":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      おら もうすぐ 釣りに行かなきゃ
+      なんねえだよ。
+      じゃましねえでくれ。
+    "original_byte_length": !!int |-
+      72
+    "references":
+    - "source_addr": !!int |-
+        54738
+      "target_addr": !!int |-
+        25853
+    "translated": !!null |-
+      null
+  "6545":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>女中<C_NONE>
+      あら お嬢さまじゃありませんか。
+      みんな 心配していたのですよ。
+    "original_byte_length": !!int |-
+      69
+    "references":
+    - "source_addr": !!int |-
+        54747
+      "target_addr": !!int |-
+        25925
+    "translated": !!null |-
+      null
+  "658a":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |
+      <C_YELLOW>女中<C_NONE>
+      お嬢さま お帰りなさい。
+      変な人に だまされませんでしたか？
+      それだけが 心配でした。
+    "original_byte_length": !!int |-
+      90
+    "references":
+    - "source_addr": !!int |-
+        54756
+      "target_addr": !!int |-
+        25994
+    "translated": !!null |-
+      null
+  "65e4":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ジェニー<C_NONE>
+      お嬢さま 女神 フレイアさまのお話で何か わかったことが ありましたか？
+    "original_byte_length": !!int |-
+      80
+    "references":
+    - "source_addr": !!int |-
+        54765
+      "target_addr": !!int |-
+        26084
+    "translated": !!null |-
+      null
+"note": ""

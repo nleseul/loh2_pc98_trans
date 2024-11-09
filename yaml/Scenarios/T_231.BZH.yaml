@@ -1,0 +1,319 @@
+"entries":
+  "5b09":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      おれたち夫婦は ジェラルドさまの
+      別荘の管理をしてるだよ。
+    "original_byte_length": !!int |-
+      62
+    "references":
+    - "source_addr": !!int |-
+        54633
+      "target_addr": !!int |-
+        23305
+    "translated": !!null |-
+      null
+  "5b47":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>女<C_NONE>
+      別荘の そうじは 女中さんたちが
+      やるから しばらくは やらなくて
+      いいんですって。
+    "original_byte_length": !!int |-
+      84
+    "references":
+    - "source_addr": !!int |-
+        54642
+      "target_addr": !!int |-
+        23367
+    "translated": !!null |-
+      null
+  "5b9b":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ジェラルド<C_NONE>
+      <IF007b><JUMP6145><IF007a><JUMP5e57><IF_NOT0079><JUMP5bc2>おお <JUMP5c3e><LOC5bc2>きっ きさまら !!
+      わしの かわいいフローラを
+      かどわかしおって !!
+
+      <CH2>
+      違うんです お父さま。
+
+      <C_YELLOW>ジェラルド<C_NONE>
+      なに 違うのか？
+      そうか <LOC5c3e>わしの かわいいフローラを
+      助けてくれたのか。
+
+      それじゃ 好きなだけ ほうびを
+      くれてやろう。何が いいんだ？
+
+      <CH0>
+      そうじゃないんです ジェラルドさん。
+
+      <C_YELLOW>ジェラルド<C_NONE>
+      なに ほうびは いらんのか？
+      それは 感心だ その心がけを
+      忘れるでないぞ。<LOC5d20>
+
+      <CH2>
+      お父さま きいてください。
+      私は この方たちと いっしょに
+      <IF00ba><JUMP5e96>ソルディスに 行きたいのです。
+
+      <C_YELLOW>ジェラルド<C_NONE>
+      まだ そんなことを 言っているのか
+      だめだと言ったら だめだ。
+
+      <CH1>
+      もう めんどくせえなあ。
+      このまま おいていっちまおうぜ。
+
+      <CH0>
+      それじゃ フローラさんが
+      かわいそうだよ。
+      いっしょに 逃げよう。
+
+      <C_YELLOW>ジェラルド<C_NONE>
+      <SET0400><SET007a><LOC5e57>こら待て お前ら。
+      わしの かわいいフローラを
+      誘拐するな。<IF00ba><JUMP5d20><END>
+      <LOC5e96>旅をしたいのです。
+
+      <C_YELLOW>ジェラルド<C_NONE>
+      な、何を言っているのだ !!
+
+      こんな 下品なやつらと いっしょに
+      旅をしたら お前まで 下品に
+      なってしまうぞ。
+
+      <CH1>
+      このスケベおやじが 言いてえこと
+      言ってくれるじゃねえかよ。
+
+      いいこと 教えてやるぜ。
+      ここにいる アトラスはなあ
+      ファーレーンの王子さまなんだぞ。
+
+      アトラス王子さまに 向かって
+      下品だなんて よく言えたもんだよな。
+
+      <C_YELLOW>ジェラルド<C_NONE>
+      ファ、ファーレーン !?<WAIT>
+      お、王子さま !?
+      <PAGE>
+      そ、そういえば 昔 拝見した
+      若いころのセリオスさまに
+      似ていらっしゃる。
+
+      これは 失礼いたしました。
+
+      そうでございましたか ･ ･ ･
+      私の かわいいフローラが
+      アトラス王子さまの おきさき候補に
+      なったのでございますな？
+
+      <CH0>
+      いや そんなことは ひとことも ･ ･ ･
+
+      <C_YELLOW>ジェラルド<C_NONE>
+      お隠しに ならなくても わかります
+      <LOC6145>どうか 私の かわいいフローラを
+      よろしくお願いいたします。
+
+      <IF007b><JUMP62d3><SET007b>おお こうしてはいられない。
+      おーい チャーリー。
+
+      <Xf9280200><Xf7>国境に行って 手配を取り消してこい。わしの かわいいフローラは
+      アトラス王子さまの お供を
+      することに なったのだ。
+
+      早く行ってこい。
+
+      <ASMd634><CH1>
+      よかったじゃねえか お嬢さんよ。
+
+      <CH2>
+      でも お父さまは なにか
+      勘違いをしているような ･ ･ ･
+
+      <CH1>
+      いいんだよ そんなこと
+      めんどくせえから ほっとこうぜ。<END>
+      <LOC62d3>ついに わしの長年の夢がかない
+      我が家も 名門の仲間入りが
+      できるのですな ･ ･ ･
+    "original_byte_length": !!int |-
+      1925
+    "references":
+    - "source_addr": !!int |-
+        54657
+      "target_addr": !!int |-
+        23451
+    "translated": !!null |-
+      null
+  "6320":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ジェラルド夫人<C_NONE>
+      <IF007b><JUMP6395><SET0400>あぁ フローラ。
+      戻ってきてくれたのね。
+
+      こんな いなかの 狭い別荘でも
+      がまんしてくれるのね？<END>
+      <LOC6395>フローラ、アトラス王子さまに
+      きらわれないようにね。
+      せっかくのチャンスですからね。
+    "original_byte_length": !!int |-
+      200
+    "references":
+    - "source_addr": !!int |-
+        54666
+      "target_addr": !!int |-
+        25376
+    "translated": !!null |-
+      null
+  "63e8":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>チャーリー<C_NONE>
+      <IF007b><JUMP64d8><IF0400><JUMP649a><SET0400>おお お嬢さま よくごぶじで。
+
+      私は お嬢さまが いなくなったので
+      すぐさま 国境に行き 兵士たちに
+      言ってまわったのです。
+      私の考えは 正しかったようですな。<END>
+      <LOC649a>ここから 出ていきたいのなら
+      お嬢さまを おいていくことですな。<END>
+      <LOC64d8>あなたさまが 王子さまでしたとは
+      全然 気がつきませんでした。
+
+      庶民の中に うまく溶け込んで
+      いらしたものですから。
+    "original_byte_length": !!int |-
+      351
+    "references":
+    - "source_addr": !!int |-
+        54675
+      "target_addr": !!int |-
+        25576
+    "translated": !!null |-
+      null
+  "6547":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      お嬢さま お元気そうで 安心しました。やっぱり 誘拐じゃなかったんですね。
+    "original_byte_length": !!int |-
+      77
+    "references":
+    - "source_addr": !!int |-
+        54742
+      "target_addr": !!int |-
+        25927
+    "translated": !!null |-
+      null
+  "6594":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      おら もうすぐ 釣りに行かなきゃ
+      なんねえだよ。
+      じゃましねえでくれ。
+    "original_byte_length": !!int |-
+      72
+    "references":
+    - "source_addr": !!int |-
+        54751
+      "target_addr": !!int |-
+        26004
+    "translated": !!null |-
+      null
+  "65dc":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>女中<C_NONE>
+      あら お嬢さまじゃありませんか。
+      みんな 心配していたのですよ。
+    "original_byte_length": !!int |-
+      69
+    "references":
+    - "source_addr": !!int |-
+        54760
+      "target_addr": !!int |-
+        26076
+    "translated": !!null |-
+      null
+  "6621":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |
+      <C_YELLOW>女中<C_NONE>
+      お嬢さま お帰りなさい。
+      変な人に だまされませんでしたか？
+      それだけが 心配でした。
+    "original_byte_length": !!int |-
+      90
+    "references":
+    - "source_addr": !!int |-
+        54769
+      "target_addr": !!int |-
+        26145
+    "translated": !!null |-
+      null
+  "667b":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ジェニー<C_NONE>
+      お嬢さま 女神 フレイアさまの
+      お話は どうなりました？
+
+      えっ この方たちと いっしょに
+      旅をなさるんですか？
+
+      そうですか ･ ･ ･ お勉強が
+      できなくなるのは 残念ですけど
+      ここでの勉強以外のことが 学べる
+      ことでしょう。
+
+      お気をつけて 行ってらしてください。
+    "original_byte_length": !!int |-
+      253
+    "references":
+    - "source_addr": !!int |-
+        54778
+      "target_addr": !!int |-
+        26235
+    "translated": !!null |-
+      null
+"note": ""

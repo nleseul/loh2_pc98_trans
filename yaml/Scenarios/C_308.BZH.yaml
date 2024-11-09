@@ -1,0 +1,52 @@
+"entries":
+  "5a05":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CALL5ac5>まあ アトラス王子さま。
+
+      王子さまが いらっしゃったのなら
+      今日は ビーフシチューでも
+      お作りいたしましょうか？
+    "original_byte_length": !!int |-
+      110
+    "references":
+    - "source_addr": !!int |-
+        54633
+      "target_addr": !!int |-
+        23045
+    "translated": !!null |-
+      null
+  "5a73":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CALL5ac5>屋上にいる 発明家のハリーさんは
+      クリが きらいなんですよ。
+      変わっているでしょ？
+    "original_byte_length": !!int |-
+      82
+    "references":
+    - "source_addr": !!int |-
+        54642
+      "target_addr": !!int |-
+        23155
+    "translated": !!null |-
+      null
+  "5ac5":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>侍女<C_NONE><RET_N>
+    "original_byte_length": !!int |-
+      7
+    "references": []
+    "translated": !!null |-
+      null
+"note": ""

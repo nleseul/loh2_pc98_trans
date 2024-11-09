@@ -1,0 +1,21 @@
+"entries":
+  "62db":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ガード<C_NONE>
+      何だ きさまらは？
+      どうやって もぐり込んだ？
+      さては レジスタンスだな。
+    "original_byte_length": !!int |-
+      79
+    "references":
+    - "source_addr": !!int |-
+        54927
+      "target_addr": !!int |-
+        25307
+    "translated": !!null |-
+      null
+"note": ""

@@ -1,0 +1,75 @@
+"entries":
+  "5b41":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>エリオン<C_NONE>
+      ソニア、よく 気がついてくれた。
+
+      <C_YELLOW>ソニア<C_NONE>
+      いいえ、それより これは ･ ･ ･
+
+      <C_YELLOW>エリオン<C_NONE>
+      いや まさか ･ ･ ･
+      とにかく 私は 竜の卵を 見てくる。
+
+      ポウエルたちが 降りて来たら すぐにヨルドに 向かってくれ。
+
+      <C_YELLOW>ソニア<C_NONE>
+      わかりました ･ ･ ･
+      むりを なさらないでください。
+
+      <Xf9080202><Xf7><C_YELLOW>エリオン<C_NONE>
+      バーバラ 危険ですから あなたも
+      ヨルドに 行ってください。
+
+      <C_YELLOW>司祭 バーバラ<C_NONE>
+      エリオンさまは このばばを
+      みくびっておいでの ようじゃな。
+
+      竜の祭の司祭たる者が このような
+      ときに 逃げ出したとあっては
+      末代までの恥。
+
+      エリオンさま お許しくだされ。
+
+      <C_GREEN>バーバラは ワプの翼を使いました。<C_NONE><ASMd667><CLEAR><C_YELLOW>エリオン<C_NONE>
+      バーバラ !!
+
+      アトラス王子 あなたは どうします？
+
+      <CH0>
+      お供させてください。
+
+      <C_YELLOW>エリオン<C_NONE>
+      やはり そう言いましたか ･ ･ ･
+      危険ですから 気をつけてください。
+    "original_byte_length": !!int |-
+      709
+    "references":
+    - "source_addr": !!int |-
+        54659
+      "target_addr": !!int |-
+        23361
+    "translated": !!null |-
+      null
+  "5e06":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ソニア<C_NONE>
+      エリオンさま !!
+    "original_byte_length": !!int |-
+      25
+    "references":
+    - "source_addr": !!int |-
+        54693
+      "target_addr": !!int |-
+        24070
+    "translated": !!null |-
+      null
+"note": ""

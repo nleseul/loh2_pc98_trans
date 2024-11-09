@@ -1,0 +1,66 @@
+"entries":
+  "7170":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      16
+    "original": |-
+      ゴーリキュＡ<RET>
+    "original_byte_length": !!int |-
+      13
+    "references": []
+    "translated": !!null |-
+      null
+  "71b0":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      16
+    "original": |-
+      ゴーリキュＢ<RET>
+    "original_byte_length": !!int |-
+      13
+    "references": []
+    "translated": !!null |-
+      null
+  "71f0":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      16
+    "original": |-
+      ゴーリキュＣ<RET>
+    "original_byte_length": !!int |-
+      13
+    "references": []
+    "translated": !!null |-
+      null
+  "7230":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      16
+    "original": |-
+      ゴーリキュＤ<RET>
+    "original_byte_length": !!int |-
+      13
+    "references": []
+    "translated": !!null |-
+      null
+  "73cc":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      ゴーリキュが現れた。<RET_N>
+    "original_byte_length": !!int |-
+      21
+    "references":
+    - "source_addr": !!int |-
+        61000
+      "target_addr": !!int |-
+        29644
+    "translated": !!null |-
+      null
+"note": ""

@@ -1,0 +1,35 @@
+"entries":
+  "59ee":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      これは 王子さま。
+      <IF0400><JUMP5a51><IF0015><JUMP5a64><IF_NOT00f0><CALL5a88>危険ですから 竜の卵には
+      近づかないように してください。<END>
+      <LOC5a51>お帰りなさいませ。<END>
+      <LOC5a64>お気をつけて いってらっしゃいませ。
+    "original_byte_length": !!int |-
+      154
+    "references":
+    - "source_addr": !!int |-
+        54644
+      "target_addr": !!int |-
+        23022
+    "translated": !!null |-
+      null
+  "5a88":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      まだ <RET>
+    "original_byte_length": !!int |-
+      6
+    "references": []
+    "translated": !!null |-
+      null
+"note": ""

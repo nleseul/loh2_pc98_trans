@@ -1,0 +1,113 @@
+"entries":
+  "7170":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      16
+    "original": |-
+      ﾄﾞﾗｽﾄｺﾞｰｽﾄＡ<RET>
+    "original_byte_length": !!int |-
+      13
+    "references": []
+    "translated": !!null |-
+      null
+  "71b0":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      16
+    "original": |-
+      ディゲンス<RET>
+    "original_byte_length": !!int |-
+      11
+    "references": []
+    "translated": !!null |-
+      null
+  "71f0":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      16
+    "original": |-
+      ﾄﾞﾗｽﾄｺﾞｰｽﾄＢ<RET>
+    "original_byte_length": !!int |-
+      13
+    "references": []
+    "translated": !!null |-
+      null
+  "7230":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      16
+    "original": ""
+    "original_byte_length": !!int |-
+      1
+    "references": []
+    "translated": !!null |-
+      null
+  "777a":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      ディゲンスが現れた。<RET_N>
+    "original_byte_length": !!int |-
+      21
+    "references":
+    - "source_addr": !!int |-
+        61000
+      "target_addr": !!int |-
+        30586
+    "translated": !!null |-
+      null
+  "77d8":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>は<C_YELLOW>ディゲンス<C_NONE>の前に出て呪文を受けた。<RET_N>
+    "original_byte_length": !!int |-
+      40
+    "references":
+    - "source_addr": !!int |-
+        61905
+      "target_addr": !!int |-
+        30680
+    "translated": !!null |-
+      null
+  "7800":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>は<C_YELLOW>ディゲンス<C_NONE>の前に出て剣を受けた。<RET_N>
+    "original_byte_length": !!int |-
+      38
+    "references":
+    - "source_addr": !!int |-
+        61650
+      "target_addr": !!int |-
+        30720
+    "translated": !!null |-
+      null
+  "7855":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>は逃げ出した。<RET_N>
+    "original_byte_length": !!int |-
+      16
+    "references":
+    - "source_addr": !!int |-
+        61792
+      "target_addr": !!int |-
+        30805
+    "translated": !!null |-
+      null
+"note": ""

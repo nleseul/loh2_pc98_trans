@@ -1,0 +1,210 @@
+"entries":
+  "5d68":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CH0>
+      <UNSET0404>まて !! どんな理由が あるにしても
+      子どもが かわいそうじゃないか。
+
+      <C_YELLOW>ガード<C_NONE>
+      何だと？
+      <Xf9100206><Xf7>おれさまに そんなことを
+      言えるやつが まだ いたとはな。
+
+      そういうやつらが たくさんいる所に
+      連れていってやろう。<WAIT>
+      こいっ !!
+    "original_byte_length": !!int |-
+      215
+    "references":
+    - "source_addr": !!int |-
+        54826
+      "target_addr": !!int |-
+        23912
+    "translated": !!null |-
+      null
+  "5e3f":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>子ども<C_NONE>
+      たすけてくれよー
+      ぼくが 何をしたんだよ？
+
+      <C_YELLOW>ガード<C_NONE>
+      うるさい !! お前は 今 おれを見て
+      笑っただろう。
+
+      <C_YELLOW>子ども<C_NONE>
+      何も していないじゃないか。
+
+      <C_YELLOW>ガード<C_NONE>
+      だまれ !!
+      目つきだけで わかるんだ。
+
+      こっちに来い。
+      お前は プロスの収容所 行きだ。
+
+      <C_YELLOW>子ども<C_NONE>
+      収容所なんか いやだい。
+    "original_byte_length": !!int |-
+      268
+    "references":
+    - "source_addr": !!int |-
+        54806
+      "target_addr": !!int |-
+        24127
+    "translated": !!null |-
+      null
+  "5f4b":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>子ども<C_NONE>
+      <IF0101><JUMP6181><SET0101>お兄ちゃんたち どこから来たの？
+      すごく 強いんだね。
+
+      <CH2>
+      あなた 何か悪いことでもしたの？
+
+      <C_YELLOW>子ども<C_NONE>
+      んーん、ガードの やつらは いつも
+      いばってるから 嫌いなんだ。
+
+      <CH1>
+      ひでえ やつらだなあ。
+      ほかに 強いやつは いねえのか？
+
+      <C_YELLOW>子ども<C_NONE>
+      みんな プロスの収容所に 連れて
+      行かれちゃったんだよ。
+      ぼくの お兄ちゃんも ･ ･ ･
+
+      <CH2>
+      まあ かわいそうに ･ ･ ･
+
+      <CH0>
+      ここには 君だけしか いないのかい？
+
+      <C_YELLOW>子ども<C_NONE>
+      たぶん ガードと何かあったから
+      どこかに 隠れてるんだよ。
+
+      <CH0>
+      そうか この辺に いるってことだね？探してみるよ。ありがとう。
+      もう 気をつけるんだよ。
+
+      <C_YELLOW>子ども<C_NONE>
+      うん、ありがとう。<END>
+      <LOC6181>お兄ちゃん ボザの おじちゃんなら
+      何か 知ってるかもよ。
+    "original_byte_length": !!int |-
+      621
+    "references":
+    - "source_addr": !!int |-
+        54970
+      "target_addr": !!int |-
+        24395
+    "translated": !!null |-
+      null
+  "61b8":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ボザ<C_NONE>
+      何の用だ？
+      用がないなら 帰ってくれ。
+    "original_byte_length": !!int |-
+      44
+    "references":
+    - "source_addr": !!int |-
+        54979
+      "target_addr": !!int |-
+        25016
+    "translated": !!null |-
+      null
+  "61e4":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ボザ<C_NONE>
+      さあ こっちだ。
+      下に降りてきてくれ。
+    "original_byte_length": !!int |-
+      44
+    "references":
+    - "source_addr": !!int |-
+        55031
+      "target_addr": !!int |-
+        25060
+    "translated": !!null |-
+      null
+  "6210":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>老人<C_NONE>
+      まあ待て ボザ。
+      その客は わしが 呼んだんじゃよ。
+
+      どうやら お前さんたちは
+      戦士の笛を 取ってきてくれた
+      ようじゃな？
+
+      <CH1>
+      てめえは さっきの ジジイじゃねえかどこ行ってたんだよ せっかく 笛を
+      持ってきてやったのによ。
+
+      <C_YELLOW>老人<C_NONE>
+      だから ちゃんと ここに
+      おるではないか。
+
+      <C_YELLOW>ボザ<C_NONE>
+      なるほど そういうわけか レイシア。<X0d>
+    "original_byte_length": !!int |-
+      305
+    "references":
+    - "source_addr": !!int |-
+        54902
+      "target_addr": !!int |-
+        25104
+    "translated": !!null |-
+      null
+  "6341":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>レイシア<C_NONE>
+      そういうことよ ボザ。
+      お客さんを 案内してあげて。
+
+      <CH1>
+      おっ 女 !? だったのか？
+
+      <CH0>
+      すっかり だまされたな。
+    "original_byte_length": !!int |-
+      115
+    "references":
+    - "source_addr": !!int |-
+        54954
+      "target_addr": !!int |-
+        25409
+    "translated": !!null |-
+      null
+"note": ""

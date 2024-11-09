@@ -1,0 +1,265 @@
+"entries":
+  "5b44":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      また うちのエリーサが はやとちりをしたそうだね。
+
+      あれさえなければ はたらき者で
+      いいやつなんだけどな。
+    "original_byte_length": !!int |-
+      107
+    "references":
+    - "source_addr": !!int |-
+        54638
+      "target_addr": !!int |-
+        23364
+    "translated": !!null |-
+      null
+  "5baf":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      やあ 若者たち 元気そうでなによりだ。
+
+      まあ 人生は いろいろなことが
+      あるから ここでのことも いい勉強になっただろう。
+
+      細かいことは 気にしないでくれ。
+      君たちは もう自由の身だ。
+      わっはっはっは。
+    "original_byte_length": !!int |-
+      195
+    "references":
+    - "source_addr": !!int |-
+        54647
+      "target_addr": !!int |-
+        23471
+    "translated": !!null |-
+      null
+  "5c72":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      おう なんでい !!
+      これは ウエキって言うんだぜ。
+      文句あっか ？
+    "original_byte_length": !!int |-
+      66
+    "references":
+    - "source_addr": !!int |-
+        54656
+      "target_addr": !!int |-
+        23666
+    "translated": !!null |-
+      null
+  "5cb4":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      この中には だんなさまの 大事な物がしまってあるんだ。
+
+      この おれがいるかぎり だれにも
+      ふれさせないぜ。
+    "original_byte_length": !!int |-
+      106
+    "references":
+    - "source_addr": !!int |-
+        54665
+      "target_addr": !!int |-
+        23732
+    "translated": !!null |-
+      null
+  "5d1e":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      あれ 君たちは どこかで 会ったね。
+
+      そうか ぼくが 道に迷っていたときに無視して行ってしまった あのときの
+      はくじょうな人たちか。
+    "original_byte_length": !!int |-
+      130
+    "references":
+    - "source_addr": !!int |-
+        54674
+      "target_addr": !!int |-
+        23838
+    "translated": !!null |-
+      null
+  "5da0":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      あれ 君たちは ･ ･ ･
+      顔は知ってるけど 思い出せないな。
+    "original_byte_length": !!int |-
+      59
+    "references":
+    - "source_addr": !!int |-
+        54683
+      "target_addr": !!int |-
+        23968
+    "translated": !!null |-
+      null
+  "5ddb":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      あれ 君たちは あの時の。
+      あれから 何回も迷いながら やっとでこの町に たどり着いたんだ。
+
+      もう たいへんだったよ。
+    "original_byte_length": !!int |-
+      116
+    "references":
+    - "source_addr": !!int |-
+        54692
+      "target_addr": !!int |-
+        24027
+    "translated": !!null |-
+      null
+  "5e4f":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>女<C_NONE>
+      あら あの時の。
+      どうしたの こんな所に来て？
+
+      あなたたちも ここで 仕事を
+      することになったの？
+    "original_byte_length": !!int |-
+      97
+    "references":
+    - "source_addr": !!int |-
+        54701
+      "target_addr": !!int |-
+        24143
+    "translated": !!null |-
+      null
+  "5eb0":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>エリーサ<C_NONE>
+      あーら あなたたちじゃない。
+      この前は ごめんなさいね。
+      かん違いを していたみたいなのよ。
+
+      新しく ここで はたらくことに
+      なっていた人と まちがえたのよ。
+    "original_byte_length": !!int |-
+      160
+    "references":
+    - "source_addr": !!int |-
+        54710
+      "target_addr": !!int |-
+        24240
+    "translated": !!null |-
+      null
+  "5f50":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CH0>
+      ランドー !!
+      なんで こんな所に？
+
+      <SET0128><CH1>
+      よう アトラス、元気か？
+
+      お嬢さまが どうしても アトラスに
+      会いたいって言うもんだからよ。
+
+      「私のアトラスさまが いないと
+        さみしくて ･ ･ ･ 」 だってよ。
+
+      <CH2>
+      もう ランドーさんったら !!
+      違うんです アトラスさま。
+
+      じつは あれから フレイアさまを
+      さがす前に お祈りをしようとして
+      ヨルドの聖域に 行ってみたんです。
+
+      そうしたら 司祭 バーバラさまが
+      そこに いらしたのです。
+
+      いろいろと お話をしているうちに
+      また 女神 フレイアさまの お姿が
+      見えたのです。
+
+      そのときに 女神 フレイアさまが
+      おっしゃったことを 口にだして
+      しまったのです。
+
+      バーバラさまは それをきいて
+      しばらく 考えていたようですが
+      何かを 決意したようにして 私に
+      言いました。
+
+      バーバラさまでも フレイアさまの
+      いる所は 知らないそうですが いつもフレイアさまと お話をするのは
+      竜の卵の中だそうです。
+
+      先日 バーバラさまが 竜の卵の中に
+      入ってみたところ どこからか
+      モンスターが 送られてきて そこから外に出ているそうなのです。
+
+      だから フレイアさまと モンスターは何か 関係があるのではないかと
+      言っていました。
+
+      <CH1>
+      まあ 詳しい話は バーバラから
+      直接きいた方が いいだろう。
+
+      とにかく モンスターの 原因ってのがフレイアさまに 関係してるようだし
+      おれたちの目的ってのは どこかで
+      いっしょに なっているようだぜ。
+
+      <CH0>
+      ふーん そうだったのか。
+
+      それじゃ いつまでも こうは
+      していられないな。
+
+      ヨルドの聖域に 行って 話を
+      きいてみよう。
+    "original_byte_length": !!int |-
+      1288
+    "references":
+    - "source_addr": !!int |-
+        54724
+      "target_addr": !!int |-
+        24400
+    "translated": !!null |-
+      null
+"note": ""

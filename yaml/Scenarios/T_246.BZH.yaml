@@ -1,0 +1,340 @@
+"entries":
+  "5caa":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>情報屋 トミー<C_NONE>
+      なあ なあ なあ なあ なあ
+      知ってるか？
+
+      バズヌーンの城にいる ハリーが
+      世界最強の武器を作ったらしいぜ。
+    "original_byte_length": !!int |-
+      117
+    "references":
+    - "source_addr": !!int |-
+        55076
+      "target_addr": !!int |-
+        23722
+    "translated": !!null |-
+      null
+  "5d1f":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>老人<C_NONE>
+      情報屋 トミーが 地底人が どうのと
+      言っておった。
+
+      やつの情報は 今まで 間違ったことがないのが自慢なんじゃがその情報源はいったい 何なのじゃろうか。
+    "original_byte_length": !!int |-
+      152
+    "references":
+    - "source_addr": !!int |-
+        55085
+      "target_addr": !!int |-
+        23839
+    "translated": !!null |-
+      null
+  "5db7":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>漁師<C_NONE>
+      よお シーラスって魚 知ってるか？
+      光る物を見ると かたっぱしから
+      飲み込んじまう 変な魚なんだ。
+
+      それで 腹から スプーンやコインが
+      出てくるんだけどよ。
+
+      そのスプーンとか コインてのは
+      どっから 拾ってくるんだろうな。<WAIT>
+      もしかして ･ ･ ･ ･ ･ ･ ･ ･ ･ ･
+
+      んっ !?  ネタがなくなっちまったぜ。
+    "original_byte_length": !!int |-
+      283
+    "references":
+    - "source_addr": !!int |-
+        55094
+      "target_addr": !!int |-
+        23991
+    "translated": !!null |-
+      null
+  "5ed2":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ジゴ<C_NONE>
+      <IF0408><JUMP5efc>やあ 王子さま 元気そうだな。<END>
+      <LOC5efc><SET0400>やあ 王子さま 疲れているなら
+      休んでいってくれ。
+    "original_byte_length": !!int |-
+      93
+    "references":
+    - "source_addr": !!int |-
+        55051
+      "target_addr": !!int |-
+        24274
+    "translated": !!null |-
+      null
+  "5f2f":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>船員<C_NONE>
+      <IF0405><JUMP5f81>さあ いらっしゃい。
+      世界３大名所めぐりのクルージングはいかがですか。<END>
+      <LOC5f81>どうでしたか お客さん？
+
+      ガイドもきれいだし ３大名所にも
+      行けたし 10000 Gold でも 損を
+      したきには ならないでしょ。
+    "original_byte_length": !!int |-
+      196
+    "references":
+    - "source_addr": !!int |-
+        54897
+      "target_addr": !!int |-
+        24367
+    - "source_addr": !!int |-
+        55045
+      "target_addr": !!int |-
+        24367
+    "translated": !!null |-
+      null
+  "5ff3":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>船員<C_NONE>
+      世界３大名所めぐりのクルージングはいかがですか。
+
+      一周 10000 Gold ですけど。
+      <Xf2e160><JUMP608b>船に のりますか？
+      <Xf69229><JUMP60a7><ASM6b26><Xf3e160><SET0404><CLEAR>10000 Goldを 払いました。<SND0103><END>
+      <LOC608b>お金が たりないようですね。<END>
+      <LOC60a7><CLEAR>そうですか ･ ･ ･ 息抜きになって
+      いいと思うんですが ･ ･ ･
+    "original_byte_length": !!int |-
+      238
+    "references":
+    - "source_addr": !!int |-
+        54903
+      "target_addr": !!int |-
+        24563
+    "translated": !!null |-
+      null
+  "60e5":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>船員<C_NONE>
+      何で こんな物を おれたちが
+      持ってなきゃ ならねえんだろう。
+
+      地面に直接 立てときゃいいのに
+      誰かに盗まれると いけねえから
+      だめなんだってよ。<WAIT>
+      あー 疲れた。
+    "original_byte_length": !!int |-
+      159
+    "references":
+    - "source_addr": !!int |-
+        55109
+      "target_addr": !!int |-
+        24805
+    "translated": !!null |-
+      null
+  "6184":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>船員<C_NONE>
+      あー もう 腕が疲れて 動けねえよ。
+      おれたち １日じゅう こうしてなきゃならねえんだ。
+    "original_byte_length": !!int |-
+      90
+    "references":
+    - "source_addr": !!int |-
+        55124
+      "target_addr": !!int |-
+        24964
+    "translated": !!null |-
+      null
+  "61de":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>道具屋<C_NONE>
+      いらっしゃいませ。
+      どのような ご用でしょうか？<RET_N>
+    "original_byte_length": !!int |-
+      56
+    "references":
+    - "source_addr": !!int |-
+        55136
+      "target_addr": !!int |-
+        25054
+    "translated": !!null |-
+      null
+  "6216":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      また来てくださいね。
+    "original_byte_length": !!int |-
+      21
+    "references":
+    - "source_addr": !!int |-
+        55163
+      "target_addr": !!int |-
+        25110
+    "translated": !!null |-
+      null
+  "622b":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      おや？これ以上持てないようですね。
+
+      <RET>
+    "original_byte_length": !!int |-
+      36
+    "references":
+    - "source_addr": !!int |-
+        2504
+      "target_addr": !!int |-
+        25131
+    "translated": !!null |-
+      null
+  "624f":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      どれを買ってくれますか？
+      <RET_N>
+    "original_byte_length": !!int |-
+      26
+    "references":
+    - "source_addr": !!int |-
+        2506
+      "target_addr": !!int |-
+        25167
+    "translated": !!null |-
+      null
+  "6269":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ITEM>だね。
+      どうも ありがとう。
+
+      <RET>
+    "original_byte_length": !!int |-
+      29
+    "references":
+    - "source_addr": !!int |-
+        2508
+      "target_addr": !!int |-
+        25193
+    "translated": !!null |-
+      null
+  "628e":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      どれを 売ってくれますか？
+      <RET_N>
+    "original_byte_length": !!int |-
+      27
+    "references":
+    - "source_addr": !!int |-
+        2376
+      "target_addr": !!int |-
+        25230
+    "translated": !!null |-
+      null
+  "62a9":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |2-
+       Gold になるけど
+      それでも よろしいですか？
+      <RET_N>
+    "original_byte_length": !!int |-
+      44
+    "references":
+    - "source_addr": !!int |-
+        2378
+      "target_addr": !!int |-
+        25257
+    "translated": !!null |-
+      null
+  "62d5":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      それは残念です。
+
+      <RET_N>
+    "original_byte_length": !!int |-
+      18
+    "references":
+    - "source_addr": !!int |-
+        2380
+      "target_addr": !!int |-
+        25301
+    "translated": !!null |-
+      null
+  "62e7":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      どうも ありがとうございます。
+      <RET_N>
+    "original_byte_length": !!int |-
+      31
+    "references":
+    - "source_addr": !!int |-
+        2382
+      "target_addr": !!int |-
+        25319
+    "translated": !!null |-
+      null
+"note": ""

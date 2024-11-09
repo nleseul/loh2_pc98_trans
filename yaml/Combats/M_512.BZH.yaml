@@ -1,0 +1,118 @@
+"entries":
+  "7170":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      16
+    "original": |-
+      ザンオー<RET>
+    "original_byte_length": !!int |-
+      9
+    "references": []
+    "translated": !!null |-
+      null
+  "71b0":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      16
+    "original": |-
+      紅牙戦士<RET>
+    "original_byte_length": !!int |-
+      9
+    "references": []
+    "translated": !!null |-
+      null
+  "71f0":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      16
+    "original": |-
+      Ｍ５１２Ｃ<RET>
+    "original_byte_length": !!int |-
+      11
+    "references": []
+    "translated": !!null |-
+      null
+  "7230":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      16
+    "original": |-
+      Ｍ５１２Ｄ<RET>
+    "original_byte_length": !!int |-
+      11
+    "references": []
+    "translated": !!null |-
+      null
+  "7447":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      紅牙戦士とザンオーが現れた。<RET_N>
+    "original_byte_length": !!int |-
+      29
+    "references":
+    - "source_addr": !!int |-
+        61000
+      "target_addr": !!int |-
+        29767
+    - "source_addr": !!int |-
+        61421
+      "target_addr": !!int |-
+        29767
+    "translated": !!null |-
+      null
+  "7464":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>は攻撃をかわした。<RET_PAGE>
+    "original_byte_length": !!int |-
+      20
+    "references":
+    - "source_addr": !!int |-
+        61348
+      "target_addr": !!int |-
+        29796
+    "translated": !!null |-
+      null
+  "7478":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>は喜んで調子にのっている。<RET_N>
+    "original_byte_length": !!int |-
+      28
+    "references":
+    - "source_addr": !!int |-
+        61226
+      "target_addr": !!int |-
+        29816
+    "translated": !!null |-
+      null
+  "7494":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>はきげんが悪くなった。<RET_N>
+    "original_byte_length": !!int |-
+      24
+    "references":
+    - "source_addr": !!int |-
+        61186
+      "target_addr": !!int |-
+        29844
+    "translated": !!null |-
+      null
+"note": ""

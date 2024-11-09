@@ -1,0 +1,26 @@
+"entries":
+  "5aef":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ドレイク<C_NONE>
+      <IF_NOT0401><JUMP5b2d><UNSET0401>おっ!? 何で そっちから ･ ･ ･
+      まあいいや。
+
+      <LOC5b2d><SET0400><UNSET00ea><SET00eb>毒のきりが なくなっているうちに
+      早く入っていってくれ。
+
+      少したつと また きりが
+      出てくるから 気をつけてくれよ。
+    "original_byte_length": !!int |-
+      181
+    "references":
+    - "source_addr": !!int |-
+        54684
+      "target_addr": !!int |-
+        23279
+    "translated": !!null |-
+      null
+"note": ""

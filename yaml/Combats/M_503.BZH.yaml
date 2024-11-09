@@ -1,0 +1,83 @@
+"entries":
+  "7170":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      16
+    "original": |-
+      ハイ･ドールＡ<RET>
+    "original_byte_length": !!int |-
+      14
+    "references": []
+    "translated": !!null |-
+      null
+  "71b0":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      16
+    "original": |-
+      ハイ･ドールＢ<RET>
+    "original_byte_length": !!int |-
+      14
+    "references": []
+    "translated": !!null |-
+      null
+  "71f0":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      16
+    "original": |-
+      ハイ･ドールＣ<RET>
+    "original_byte_length": !!int |-
+      14
+    "references": []
+    "translated": !!null |-
+      null
+  "7230":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      16
+    "original": |-
+      ハイ･ドールＤ<RET>
+    "original_byte_length": !!int |-
+      14
+    "references": []
+    "translated": !!null |-
+      null
+  "7335":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      ハイ･ドールが現れた。<RET_N>
+    "original_byte_length": !!int |-
+      22
+    "references":
+    - "source_addr": !!int |-
+        61000
+      "target_addr": !!int |-
+        29493
+    "translated": !!null |-
+      null
+  "735b":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>は死力をふりしぼって
+      体当りした !!<RET_PAGE>
+    "original_byte_length": !!int |-
+      36
+    "references":
+    - "source_addr": !!int |-
+        61176
+      "target_addr": !!int |-
+        29531
+    "translated": !!null |-
+      null
+"note": ""

@@ -1,0 +1,66 @@
+"entries":
+  "7170":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      16
+    "original": |-
+      ロングアージＡ<RET>
+    "original_byte_length": !!int |-
+      15
+    "references": []
+    "translated": !!null |-
+      null
+  "71b0":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      16
+    "original": |-
+      ロングアージＢ<RET>
+    "original_byte_length": !!int |-
+      15
+    "references": []
+    "translated": !!null |-
+      null
+  "71f0":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      16
+    "original": |-
+      モーンガー<RET>
+    "original_byte_length": !!int |-
+      11
+    "references": []
+    "translated": !!null |-
+      null
+  "7230":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      16
+    "original": |-
+      Ｍ２１９Ｄ<RET>
+    "original_byte_length": !!int |-
+      11
+    "references": []
+    "translated": !!null |-
+      null
+  "74fc":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      モーンガーとロングアージが現れた。<RET_N>
+    "original_byte_length": !!int |-
+      35
+    "references":
+    - "source_addr": !!int |-
+        61000
+      "target_addr": !!int |-
+        29948
+    "translated": !!null |-
+      null
+"note": ""

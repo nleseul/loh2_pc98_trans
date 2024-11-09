@@ -1,0 +1,57 @@
+"entries":
+  "5b7c":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      フレイアさまって すごいんだな。
+      これからは フレイアさまのことを
+      信じることにしたんだよ。
+    "original_byte_length": !!int |-
+      94
+    "references":
+    - "source_addr": !!int |-
+        54635
+      "target_addr": !!int |-
+        23420
+    "translated": !!null |-
+      null
+  "5bda":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>女<C_NONE>
+      これからは 週に１度は ここに来て
+      お祈りをすることにしたの。
+    "original_byte_length": !!int |-
+      65
+    "references":
+    - "source_addr": !!int |-
+        54644
+      "target_addr": !!int |-
+        23514
+    "translated": !!null |-
+      null
+  "5c1b":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>老人<C_NONE>
+      わしゃ 前から 月に２回は 必ず
+      ここに来ていたんじゃ。
+    "original_byte_length": !!int |-
+      60
+    "references":
+    - "source_addr": !!int |-
+        54653
+      "target_addr": !!int |-
+        23579
+    "translated": !!null |-
+      null
+"note": ""

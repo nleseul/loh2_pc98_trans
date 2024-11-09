@@ -1,0 +1,80 @@
+"entries":
+  "5ce3":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CH1>
+      さあ シンディ 出番だぜ。
+
+      <CH3>
+      シンディ こわす。
+    "original_byte_length": !!int |-
+      49
+    "references":
+    - "source_addr": !!int |-
+        54706
+      "target_addr": !!int |-
+        23779
+    "translated": !!null |-
+      null
+  "5d14":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ガード<C_NONE>
+      んっ !? 何の音だ？
+
+      <C_YELLOW>ガード<C_NONE>
+      さあ ･ ･ ･
+      中で あばれてるんだろ きっと。
+
+      おーい うるさいぞ 静かにしてろ !!
+    "original_byte_length": !!int |-
+      113
+    "references":
+    - "source_addr": !!int |-
+        54753
+      "target_addr": !!int |-
+        23828
+    "translated": !!null |-
+      null
+  "5d85":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ガード<C_NONE>
+      だっ 脱走だ !!
+      早く 捕まえろ !!
+    "original_byte_length": !!int |-
+      41
+    "references":
+    - "source_addr": !!int |-
+        54815
+      "target_addr": !!int |-
+        23941
+    "translated": !!null |-
+      null
+  "5dae":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <PARTY>は 宝箱を開けました。
+      宝箱の中には<RET>
+    "original_byte_length": !!int |-
+      36
+    "references":
+    - "source_addr": !!int |-
+        54920
+      "target_addr": !!int |-
+        23982
+    "translated": !!null |-
+      null
+"note": ""

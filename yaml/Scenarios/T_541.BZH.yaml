@@ -1,0 +1,52 @@
+"entries":
+  "5a41":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      <SET0133>レジスタンス用の 抜け道は 昔
+      モーガンという がんこじじいに
+      頼んで 掘ってもらったんだ。
+
+      だが それ以来 どんなことがあっても穴は 掘らないと言いはっているんだ。
+
+      前は キュベラにいたんだが おれたちレジスタンスと かかわるのが いやで今では ユイシスの入口のあたりに
+      弟子と２人で 住んでいるそうだ。
+
+      本当に がんこな じいさんだよ。
+    "original_byte_length": !!int |-
+      328
+    "references":
+    - "source_addr": !!int |-
+        54650
+      "target_addr": !!int |-
+        23105
+    "translated": !!null |-
+      null
+  "5b89":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      よお 見かけない 顔だな。
+      ウイルの町から 来たのか？
+
+      この町から ウイルへの 抜け道を
+      通ってきたんだろ？
+
+      えっ 違うのか？
+      それじゃ イズーから来たんだな。
+    "original_byte_length": !!int |-
+      154
+    "references":
+    - "source_addr": !!int |-
+        54659
+      "target_addr": !!int |-
+        23433
+    "translated": !!null |-
+      null
+"note": ""

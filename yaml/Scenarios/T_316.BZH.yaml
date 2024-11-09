@@ -1,0 +1,302 @@
+"entries":
+  "5b38":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ジャン<C_NONE>
+      バズヌーンの城にいる ハリーが
+      作った 武器はいかがですか？
+    "original_byte_length": !!int |-
+      67
+    "references":
+    - "source_addr": !!int |-
+        54655
+      "target_addr": !!int |-
+        23352
+    "translated": !!null |-
+      null
+  "5b7b":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CLEAR>値段が高いのは 武器を売った金を
+      ドラゴンの エサ代にするからなんだ。
+
+      ドラゴンを育てるのは 金が
+      かかるんだよ。
+    "original_byte_length": !!int |-
+      110
+    "references":
+    - "source_addr": !!int |-
+        54667
+      "target_addr": !!int |-
+        23419
+    "translated": !!null |-
+      null
+  "5be9":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ボイル<C_NONE>
+      わしは 若いころ ドラゴン牧場の
+      あるじを しておったのじゃ。<IF_NOT00f5><JUMP5da0>
+
+      ドラゴンは プライドが高くて
+      なかなか 人には なつかないのじゃがファーレーンの セリオス国王さま
+      だけは 別なのじゃ。
+
+      ちょうど ドラゴンの子どもが 卵からかえったとき 初めて見たから 親だと思っているのじゃよ。
+
+      それで セリオスさまを 背中に乗せて空を 飛んだりしているのじゃ。
+
+      このところ 牧場には いない
+      ようじゃから きっと また
+      ファーレーンにでも 遊びに
+      行っとるのじゃろう。<LOC5da0>
+    "original_byte_length": !!int |-
+      440
+    "references":
+    - "source_addr": !!int |-
+        54676
+      "target_addr": !!int |-
+        23529
+    "translated": !!null |-
+      null
+  "5da1":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ボイル<C_NONE>
+      あんたがた 他人の持ち物を
+      勝手に のぞくでない。
+    "original_byte_length": !!int |-
+      57
+    "references":
+    - "source_addr": !!int |-
+        54643
+      "target_addr": !!int |-
+        23969
+    "translated": !!null |-
+      null
+  "5dda":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ノーマ<C_NONE>
+      私たちは 牧場を 息子のジャンに
+      まかせて ここで隠居してるんです。
+    "original_byte_length": !!int |-
+      74
+    "references":
+    - "source_addr": !!int |-
+        54685
+      "target_addr": !!int |-
+        24026
+    "translated": !!null |-
+      null
+  "5e24":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>商人<C_NONE>
+      私は エメから逃げてきたんです。
+      かわいそうだと思ったら 何か
+      買っていってください。
+
+      <RET>
+    "original_byte_length": !!int |-
+      91
+    "references":
+    - "source_addr": !!int |-
+        54697
+      "target_addr": !!int |-
+        24100
+    "translated": !!null |-
+      null
+  "5e7f":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      また来てくださいね。
+    "original_byte_length": !!int |-
+      21
+    "references":
+    - "source_addr": !!int |-
+        54709
+      "target_addr": !!int |-
+        24191
+    "translated": !!null |-
+      null
+  "5e94":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>道具屋<C_NONE>
+      いらっしゃいませ。
+      どのような ご用でしょうか？<RET_N>
+    "original_byte_length": !!int |-
+      56
+    "references":
+    - "source_addr": !!int |-
+        54721
+      "target_addr": !!int |-
+        24212
+    "translated": !!null |-
+      null
+  "5ecc":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      また来てくださいね。
+    "original_byte_length": !!int |-
+      21
+    "references":
+    - "source_addr": !!int |-
+        54748
+      "target_addr": !!int |-
+        24268
+    "translated": !!null |-
+      null
+  "5ee1":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      おや？これ以上持てないようですね。
+
+      <RET>
+    "original_byte_length": !!int |-
+      36
+    "references":
+    - "source_addr": !!int |-
+        1662
+      "target_addr": !!int |-
+        24289
+    "translated": !!null |-
+      null
+  "5f05":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      どれを買ってくれますか？
+      <RET_N>
+    "original_byte_length": !!int |-
+      26
+    "references":
+    - "source_addr": !!int |-
+        1664
+      "target_addr": !!int |-
+        24325
+    "translated": !!null |-
+      null
+  "5f1f":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ITEM>だね。
+      どうも ありがとう。
+
+      <RET>
+    "original_byte_length": !!int |-
+      29
+    "references":
+    - "source_addr": !!int |-
+        1666
+      "target_addr": !!int |-
+        24351
+    "translated": !!null |-
+      null
+  "5f44":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      どれを 売ってくれますか？
+      <RET_N>
+    "original_byte_length": !!int |-
+      27
+    "references":
+    - "source_addr": !!int |-
+        1534
+      "target_addr": !!int |-
+        24388
+    "translated": !!null |-
+      null
+  "5f5f":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |2-
+       Gold になるけど
+      それでも よろしいですか？
+      <RET_N>
+    "original_byte_length": !!int |-
+      44
+    "references":
+    - "source_addr": !!int |-
+        1536
+      "target_addr": !!int |-
+        24415
+    "translated": !!null |-
+      null
+  "5f8b":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      それは残念です。
+
+      <RET_N>
+    "original_byte_length": !!int |-
+      18
+    "references":
+    - "source_addr": !!int |-
+        1538
+      "target_addr": !!int |-
+        24459
+    "translated": !!null |-
+      null
+  "5f9d":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      どうも ありがとうございます。
+      <RET_N>
+    "original_byte_length": !!int |-
+      31
+    "references":
+    - "source_addr": !!int |-
+        1540
+      "target_addr": !!int |-
+        24477
+    "translated": !!null |-
+      null
+"note": ""

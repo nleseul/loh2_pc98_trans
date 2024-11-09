@@ -1,0 +1,41 @@
+"entries":
+  "59e7":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>モーガン<C_NONE>
+      もう わしゃ 何もせんぞ。
+
+      わしが 穴を掘ると ろくなことが
+      起こらん。
+    "original_byte_length": !!int |-
+      78
+    "references":
+    - "source_addr": !!int |-
+        54638
+      "target_addr": !!int |-
+        23015
+    "translated": !!null |-
+      null
+  "5a35":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>サミー<C_NONE>
+      おっさんが 抜け穴を掘ったせいで
+      レジスタンス狩りが 起こったんだと
+      思っているんだ。
+    "original_byte_length": !!int |-
+      92
+    "references":
+    - "source_addr": !!int |-
+        54647
+      "target_addr": !!int |-
+        23093
+    "translated": !!null |-
+      null
+"note": ""

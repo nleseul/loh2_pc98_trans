@@ -1,0 +1,400 @@
+"entries":
+  "5c31":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ディーナ王妃<C_NONE>
+      <IF_NOT00f0><JUMP5d14>あなたたちも 知っているでしょうが
+      モレストンとソルディスにある
+      竜の卵は 正常になったそうです。
+
+      それなのに こちらでは 正常に
+      なるどころか ますます モンスターの数が増えているということが
+      理解できないのです。
+
+      <LOC5d14>アトラス、今となっては あなたしか
+      いません。
+
+      モンスターに 苦しめられている
+      人々のためにも 一刻も早く 原因を
+      突き止め 昔のように 平和な世界に
+      してください。
+
+      国王さまも そう望んでおられる
+      ことでしょう。
+    "original_byte_length": !!int |-
+      428
+    "references":
+    - "source_addr": !!int |-
+        54645
+      "target_addr": !!int |-
+        23601
+    "translated": !!null |-
+      null
+  "5ddd":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>フェリシア<C_NONE>
+      いいですか アトラス。
+      勇気と無謀というのは 違いますよ。
+      良く考えて 行動しなさい。
+    "original_byte_length": !!int |-
+      95
+    "references":
+    - "source_addr": !!int |-
+        54660
+      "target_addr": !!int |-
+        24029
+    "translated": !!null |-
+      null
+  "5e3c":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      <IF_NOT00f0><JUMP5eab>モンスターが 増えたといっても
+      ここは 竜の卵からは はなれています。お城のことは 安心してください。<END>
+      <LOC5eab>どうして モンスターどもが
+      いなくなったのでしょうか？
+    "original_byte_length": !!int |-
+      164
+    "references":
+    - "source_addr": !!int |-
+        54669
+      "target_addr": !!int |-
+        24124
+    "translated": !!null |-
+      null
+  "5ee0":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |
+      <C_YELLOW>兵士<C_NONE>
+      <IF_NOT00f0><JUMP5f43>竜の卵の 近くには いままで以上に
+      モンスターが たくさんいますから
+      気をつけてください。<END>
+      <LOC5f43>モンスターが 増える 前ぶれとして
+      いったん モンスターどもが いなく
+      なったのではないでしょうか。
+    "original_byte_length": !!int |-
+      195
+    "references":
+    - "source_addr": !!int |-
+        54678
+      "target_addr": !!int |-
+        24288
+    "translated": !!null |-
+      null
+  "5fa3":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <IF_NOT00f0><JUMP6015><C_YELLOW>兵士<C_NONE>
+      竜の卵から 離れている所では あまりモンスターを 見かけないのです。
+      竜の卵は 避けたほうが いいですよ。<END>
+      <LOC6015><C_YELLOW>兵士<C_NONE>
+      セリオスさまたちが あのように
+      大けがを なさるとは ･ ･ ･
+      王子さまも お気をつけください。
+    "original_byte_length": !!int |-
+      209
+    "references":
+    - "source_addr": !!int |-
+        54687
+      "target_addr": !!int |-
+        24483
+    - "source_addr": !!int |-
+        54696
+      "target_addr": !!int |-
+        24597
+    "translated": !!null |-
+      null
+  "6074":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      ソルディスでは 司祭 バーバラさまが竜の卵を 正常にしたという うわさが広がっているそうです。
+    "original_byte_length": !!int |-
+      98
+    "references":
+    - "source_addr": !!int |-
+        54705
+      "target_addr": !!int |-
+        24692
+    "translated": !!null |-
+      null
+  "60d6":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      王子さま セリオスさまたちは どこであのようなけがを されたのですか？
+    "original_byte_length": !!int |-
+      75
+    "references":
+    - "source_addr": !!int |-
+        54714
+      "target_addr": !!int |-
+        24790
+    "translated": !!null |-
+      null
+  "6121":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      竜の卵が 正常になった所もあれば
+      モンスターが 増えた所もある。
+      何が何だか さっぱりわかりません。
+    "original_byte_length": !!int |-
+      103
+    "references":
+    - "source_addr": !!int |-
+        54723
+      "target_addr": !!int |-
+        24865
+    "translated": !!null |-
+      null
+  "6188":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      王子さま あまり 無理をしないようにしてください。
+    "original_byte_length": !!int |-
+      56
+    "references":
+    - "source_addr": !!int |-
+        54732
+      "target_addr": !!int |-
+        24968
+    "translated": !!null |-
+      null
+  "61c0":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>教育係 ラウエル<C_NONE>
+      <Xf6ffd6><JUMP6269>おお そうでしたな。
+      もう その親書は あまり意味が
+      なくなったようですな。
+
+      私が お預かりしましょう。
+
+      <ASMd70c><ITEM><C_GREEN>を 渡しました。
+      <C_NONE><ASMd714><ITEM><C_GREEN>を 渡しました。<SND0103><C_NONE>
+
+      <LOC6269>王子さま どうか 無理をなさらずに
+      元気な姿で お戻りください。
+    "original_byte_length": !!int |-
+      230
+    "references":
+    - "source_addr": !!int |-
+        54741
+      "target_addr": !!int |-
+        25024
+    "translated": !!null |-
+      null
+  "62a6":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>セリオス<C_NONE>
+      <JUMP62cf><LOC62b4><C_YELLOW>エリオン<C_NONE>
+      <JUMP62cf><LOC62c2><C_YELLOW>ゲイル３世<C_NONE>
+      <LOC62cf> ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･
+    "original_byte_length": !!int |-
+      76
+    "references":
+    - "source_addr": !!int |-
+        54756
+      "target_addr": !!int |-
+        25254
+    - "source_addr": !!int |-
+        54771
+      "target_addr": !!int |-
+        25268
+    - "source_addr": !!int |-
+        54786
+      "target_addr": !!int |-
+        25282
+    "translated": !!null |-
+      null
+  "62f2":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <SET0014><SET0015><C_YELLOW>兵士<C_NONE>
+      たいへんです 王子さま !!
+      モンスターが 急に増えてきました。
+
+      <Xf9000202><Xf7><CH0>
+      なに !? どういうことだ？
+
+      <C_YELLOW>兵士<C_NONE>
+      いままでの倍以上になっています。
+
+      <C_YELLOW>大盗賊 ゲイル<C_NONE>
+      モンスターだと？
+      そんなの いつから出てきたんじゃ？
+
+      <Xf9000206><Xf7><CH0>
+      ゲイルさんが 地底に入ってからだと
+      きいています。
+
+      <C_YELLOW>大盗賊 ゲイル<C_NONE>
+      そうか そうじゃったのか。
+      だから あんな話を ･ ･ ･
+
+      <CH0>
+      何か 知っているんですか？
+
+      <C_YELLOW>大盗賊 ゲイル<C_NONE>
+      以前 ガードが モンスターを出して
+      どうのこうのと 言っていたんじゃ。
+
+      しかし その時は 城の中をないしょで散歩してたので きいているひまなど
+      ありゃせんかった ･ ･ ･
+
+      まあ またナレサ隊長に 何かやれば
+      そのくらいのことは 教えてくれる
+      じゃろう。<WAIT>
+      さっそく 行ってみねば。
+
+      <CH0>
+      ゲイルさん。
+      ぼくも いっしょに行きます。
+
+      <C_YELLOW>大盗賊 ゲイル<C_NONE>
+      いや わしひとりのほうが なにかと
+      便利なんじゃ。<WAIT>
+      まだ現役じゃからな。
+
+      <CH0>
+      わかりました。
+
+      でも ぼくたちも 地底に行って
+      レジスタンスたちに いろいろと
+      きいてみます。
+
+      あとで イズーの屋敷に 行きます。
+
+      <C_YELLOW>大盗賊 ゲイル<C_NONE>
+      そうじゃな それがいい。
+      それまでに ナレサ隊長から 情報を
+      ききだしておこう。
+
+      <C_GREEN>大盗賊 ゲイルは ワプの翼を使った。<C_NONE><ASMd693><CLEAR><CH0>
+      さあ みんな、地底に行こう。
+
+      <CH2>
+      あの アトラスさま。
+      私は フレイアさまを さがさなくてはいけないのですが ･ ･ ･
+
+      <CH0>
+      そうだったね。<WAIT>
+      もともと 君の目的は フレイアさまをさがすことだったんだよね。
+
+      それじゃ きみは 父上のぐあいが
+      よくなるまで ここにいればいいよ。
+
+      <CH2>
+      でも じっとしていられないんです。
+      セリオスさまとも お話ししたいので
+      必ず戻ってきます。
+
+      <CH1>
+      もう わがままな お嬢さんだな。
+      アトラス、このお嬢さんは まかせろ。おれが いっしょに 行ってやるぜ。
+
+      <CH0>
+      それなら安心だ。
+      シンディはどうする？
+
+      <CH3>
+      シンディ ここにいる。
+
+      <CH0>
+      えっ !?
+
+      <CH3>
+      この人 知ってる。
+
+      <CH2>
+      それじゃ シンディの 知っている
+      アトラスさまに 似ている人って
+      セリオスさまだったの？
+
+      <CH3>
+      シンディ わからない。
+
+      <CH1>
+      もう めんどうな やつだな。
+
+      シンディ、もしお前が 国王さまを
+      知っていてもな 国王さまを こんなにしちまったのは ガードたちなんだぜ。
+
+      <CH3>
+      シンディ ガードにくい。<WAIT>
+      かたき うつ。
+
+      <CH1>
+      そうだろ わかりゃいいんだよ。
+      お前 だんだん ものわかりが
+      よくなってきた みてえじゃねえか。
+
+      <ASMd71c>それじゃあ これからは 別行動だな
+      アトラス むりすんなよ。
+
+      <CH0>
+      ありがとう ランドー。
+      フローラを 守ってあげてくれ。
+
+      <CH1>
+      ああ まかせとけって。
+      じゃ お嬢さま まずは どちらに
+      参りましょうか？
+
+      <CH2>
+      ランドーさん からかわないで。
+
+      <CH1>
+      じゃあ ラヌーラにでも 行くか。
+
+      <C_GREEN>ランドーは ワプの翼を使った。<C_NONE><RET>
+    "original_byte_length": !!int |-
+      2234
+    "references":
+    - "source_addr": !!int |-
+        54800
+      "target_addr": !!int |-
+        25330
+    "translated": !!null |-
+      null
+"note": ""

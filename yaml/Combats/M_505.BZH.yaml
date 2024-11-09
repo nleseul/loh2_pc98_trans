@@ -1,0 +1,66 @@
+"entries":
+  "7170":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      16
+    "original": |-
+      ファンクスＡ<RET>
+    "original_byte_length": !!int |-
+      13
+    "references": []
+    "translated": !!null |-
+      null
+  "71b0":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      16
+    "original": |-
+      ファンクスＡ<RET>
+    "original_byte_length": !!int |-
+      13
+    "references": []
+    "translated": !!null |-
+      null
+  "71f0":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      16
+    "original": |-
+      ファンクスＢ<RET>
+    "original_byte_length": !!int |-
+      13
+    "references": []
+    "translated": !!null |-
+      null
+  "7230":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      16
+    "original": |-
+      ファンクスＢ<RET>
+    "original_byte_length": !!int |-
+      13
+    "references": []
+    "translated": !!null |-
+      null
+  "7311":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      ファンクスが現れた。<RET_N>
+    "original_byte_length": !!int |-
+      21
+    "references":
+    - "source_addr": !!int |-
+        61000
+      "target_addr": !!int |-
+        29457
+    "translated": !!null |-
+      null
+"note": ""

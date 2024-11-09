@@ -1,0 +1,382 @@
+"entries":
+  "5cc8":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ボアード<C_NONE>
+      いやー ちょっと とばしすぎたな。
+      あぶなく ぶつかるとこだったぜ。
+
+      さあ 王子さま ここが ルドラの港だ。
+
+      <CH0>
+      ありがとう。料金は？
+
+      <C_YELLOW>ボアード<C_NONE>
+      そんなの いらねえよ。
+      どうしてもって言うなら 珍しい酒か
+      宝石でもくれよ。
+
+      それより その娘さんと うまくやれよ。おやじさんたちには 黙っててやるよ。
+
+      <CH0>
+      えっ 何のこと？
+
+      <C_YELLOW>ボアード<C_NONE>
+      とぼけるなよ わかってるって。<WAIT>
+      じゃあな また 遊びに来いよ。
+      酒でも持ってな ハッハッハ。
+    "original_byte_length": !!int |-
+      409
+    "references":
+    - "source_addr": !!int |-
+        54802
+      "target_addr": !!int |-
+        23752
+    "translated": !!null |-
+      null
+  "5e61":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>船長<C_NONE>
+      この船は モレストン共和国の
+      リシェール行きだ。
+      乗るなら 早く 乗ってくれ。
+    "original_byte_length": !!int |-
+      81
+    "references":
+    - "source_addr": !!int |-
+        54985
+      "target_addr": !!int |-
+        24161
+    "translated": !!null |-
+      null
+  "5eb2":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>船長<C_NONE>
+      お客さん 切符 持ってるかい？
+      <PAGE>
+      <Xf8287417><JUMP5f5f>船に 乗りますか？
+      <Xf69229><JUMP5f1d><Xf9000206><ASM6b26><Xf828af17><JUMP5f5f><Xf028><SET0400><ITEM>を 渡しました。<SND0103><END>
+      <LOC5f1d><CLEAR>なんだ 乗る気がないなら こっちに
+      来ないでくれ じゃまになるんだ。<END>
+      <LOC5f5f>切符は そこで売ってるぞ。
+    "original_byte_length": !!int |-
+      199
+    "references":
+    - "source_addr": !!int |-
+        54886
+      "target_addr": !!int |-
+        24242
+    "translated": !!null |-
+      null
+  "5f79":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      ちょっと あなたたち 足もとに
+      気をつけてくださいよ。
+
+      ここが 有名な発明家 ハリーの家だ。ハリーは おれの友人なんだけど
+      城の研究室に こもりっきりなんだ。
+
+      だから おれが ここの管理人になってあげているんだ。
+    "original_byte_length": !!int |-
+      206
+    "references":
+    - "source_addr": !!int |-
+        54994
+      "target_addr": !!int |-
+        24441
+    "translated": !!null |-
+      null
+  "6047":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>女<C_NONE>
+      ここの定期船は とっても時間に
+      きびしいから 乗り遅れる人が
+      けっこういるのよ。
+    "original_byte_length": !!int |-
+      82
+    "references":
+    - "source_addr": !!int |-
+        55003
+      "target_addr": !!int |-
+        24647
+    "translated": !!null |-
+      null
+  "6099":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>女<C_NONE>
+      発明家のハリーさんは 昔から
+      いろいろな物を 作っているのよ。
+
+      今は お城に研究室を作ってもらって
+      そこで 研究しているから ここには
+      めったに 帰ってこないのよ。
+    "original_byte_length": !!int |-
+      160
+    "references":
+    - "source_addr": !!int |-
+        55012
+      "target_addr": !!int |-
+        24729
+    "translated": !!null |-
+      null
+  "6139":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>老人<C_NONE>
+      エメのオアシスのそばに 竜の卵が
+      できたと よろこんでおったら
+      そこから モンスターが出てきおった。
+
+      竜の卵とは いったい 何なのじゃ？
+    "original_byte_length": !!int |-
+      136
+    "references":
+    - "source_addr": !!int |-
+        55021
+      "target_addr": !!int |-
+        24889
+    "translated": !!null |-
+      null
+  "61c1":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      はい いらしゃい。
+      ここは キップウリバあるよ。
+      ひとつ 100 Gold ね。
+
+      <Xf28d62><JUMP625f><Xf65317><JUMP6277>切符を 買いますか？<Xf69229><JUMP6244><Xf38d62><Xf128><CLEAR>ども ありがと。<END>
+      <LOC6244><CLEAR>ほんとに いらないあるか？<END>
+      <LOC625f>おカネ たりないあるよ。<END>
+      <LOC6277>もう もてないあるよ。
+    "original_byte_length": !!int |-
+      204
+    "references":
+    - "source_addr": !!int |-
+        55027
+      "target_addr": !!int |-
+        25025
+    "translated": !!null |-
+      null
+  "6291":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>武器屋<C_NONE>
+      いらっしゃい。<RET_N>
+    "original_byte_length": !!int |-
+      24
+    "references":
+    - "source_addr": !!int |-
+        55039
+      "target_addr": !!int |-
+        25233
+    "translated": !!null |-
+      null
+  "62a9":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      またどうぞ。
+    "original_byte_length": !!int |-
+      13
+    "references":
+    - "source_addr": !!int |-
+        55051
+      "target_addr": !!int |-
+        25257
+    "translated": !!null |-
+      null
+  "62b6":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>道具屋<C_NONE>
+      いらっしゃいませ。
+      どのような ご用でしょうか？<RET_N>
+    "original_byte_length": !!int |-
+      56
+    "references":
+    - "source_addr": !!int |-
+        55063
+      "target_addr": !!int |-
+        25270
+    "translated": !!null |-
+      null
+  "62ee":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      また来てくださいね。
+    "original_byte_length": !!int |-
+      21
+    "references":
+    - "source_addr": !!int |-
+        55090
+      "target_addr": !!int |-
+        25326
+    "translated": !!null |-
+      null
+  "6303":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      おや？これ以上持てないようですね。
+
+      <RET>
+    "original_byte_length": !!int |-
+      36
+    "references":
+    - "source_addr": !!int |-
+        2720
+      "target_addr": !!int |-
+        25347
+    "translated": !!null |-
+      null
+  "6327":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      どれを買ってくれますか？
+      <RET_N>
+    "original_byte_length": !!int |-
+      26
+    "references":
+    - "source_addr": !!int |-
+        2722
+      "target_addr": !!int |-
+        25383
+    "translated": !!null |-
+      null
+  "6341":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ITEM>だね。
+      どうも ありがとう。
+
+      <RET>
+    "original_byte_length": !!int |-
+      29
+    "references":
+    - "source_addr": !!int |-
+        2724
+      "target_addr": !!int |-
+        25409
+    "translated": !!null |-
+      null
+  "6366":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      どれを 売ってくれますか？
+      <RET_N>
+    "original_byte_length": !!int |-
+      27
+    "references":
+    - "source_addr": !!int |-
+        2592
+      "target_addr": !!int |-
+        25446
+    "translated": !!null |-
+      null
+  "6381":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |2-
+       Gold になるけど
+      それでも よろしいですか？
+      <RET_N>
+    "original_byte_length": !!int |-
+      44
+    "references":
+    - "source_addr": !!int |-
+        2594
+      "target_addr": !!int |-
+        25473
+    "translated": !!null |-
+      null
+  "63ad":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      それは残念です。
+
+      <RET_N>
+    "original_byte_length": !!int |-
+      18
+    "references":
+    - "source_addr": !!int |-
+        2596
+      "target_addr": !!int |-
+        25517
+    "translated": !!null |-
+      null
+  "63bf":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      どうも ありがとうございます。
+      <RET_N>
+    "original_byte_length": !!int |-
+      31
+    "references":
+    - "source_addr": !!int |-
+        2598
+      "target_addr": !!int |-
+        25535
+    "translated": !!null |-
+      null
+"note": ""

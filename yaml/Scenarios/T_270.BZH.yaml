@@ -1,0 +1,204 @@
+"entries":
+  "5c77":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <SET0098><SET0062><C_YELLOW>ジーナ<C_NONE>
+      もう ほんとに のろまだね。
+      ほら あんた、早く来な !!
+
+      <C_YELLOW>ボアード<C_NONE>
+      そんなに せかすなよ ジーナ。
+
+      <C_YELLOW>ジーナ<C_NONE>
+      ほら どうだい こいつのことさ。
+
+      <C_YELLOW>ボアード<C_NONE>
+      なっ!? カネづるって こいつか？
+      ガキを連れてきて どうするんだよ？
+
+      <C_YELLOW>ジーナ<C_NONE>
+      何 言ってんだい。
+      いいかい こいつは ファーレーンの
+      王子なんだよ。
+
+      ファーレーンから こいつの身代金を
+      いただこうっていうんだよ。
+      わかったかい。
+
+      <C_YELLOW>ボアード<C_NONE>
+      ファ、ファーレーン !?
+      ジーナ、そりゃ まずいぞ。
+
+      ファーレーンって いやぁ
+      あのセリオスの 子供だぜ。<WAIT>
+      わかってるのか？
+
+      <C_YELLOW>ジーナ<C_NONE>
+      どうして あんたは そうなんだい？
+      セリオスが こわいってのかい？
+
+      <C_YELLOW>ボアード<C_NONE>
+      こわいんじゃねえよ 昔なあ ･ ･ ･
+      <C_YELLOW>ジーナ<C_NONE>
+      グチグチ 言ってんじゃないよ !!
+
+      あたしゃ はっきり しないやつと
+      グズは 大っきらいなんだよ。
+
+      行くよ !!
+    "original_byte_length": !!int |-
+      724
+    "references":
+    - "source_addr": !!int |-
+        54663
+      "target_addr": !!int |-
+        23671
+    "translated": !!null |-
+      null
+  "5f4b":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CH0>
+      おい ここから ･ ･ ･
+      <C_YELLOW>ボアード<C_NONE>
+      シーッ 静かにするんだ。
+
+      いいか 大声を 出すなよ。
+      おれに ついてこい 逃げるんだ。
+
+      <CH0>
+      えっ !?
+      逃がしてくれるのか？
+
+      <C_YELLOW>ボアード<C_NONE>
+      ああ ･ ･ ･ 昔 セリオスと
+      ちょっと あってな ･ ･ ･
+      知らねえ 仲じゃねえんだ。
+      <PAGE>
+      詳しいことは 後だ、行くぞ。
+    "original_byte_length": !!int |-
+      261
+    "references":
+    - "source_addr": !!int |-
+        54767
+      "target_addr": !!int |-
+        24395
+    "translated": !!null |-
+      null
+  "6050":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |
+      <C_YELLOW>ジーナ<C_NONE>
+      お待ち !!
+    "original_byte_length": !!int |-
+      20
+    "references":
+    - "source_addr": !!int |-
+        54781
+      "target_addr": !!int |-
+        24656
+    "translated": !!null |-
+      null
+  "6064":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CLEAR><C_YELLOW>ジーナ<C_NONE>
+      どうも おかしいと 思ったんだよ。
+      そのガキを どうしようってんだい？
+
+      <C_YELLOW>ボアード<C_NONE>
+      ちょ、ちょっと待て ジーナ。
+      おれの 話も きいてくれ。
+
+      <C_YELLOW>ジーナ<C_NONE>
+      ああ いくらでも きいてやるよ。
+      そいつを 戻してきたらね。
+    "original_byte_length": !!int |-
+      207
+    "references":
+    - "source_addr": !!int |-
+        54819
+      "target_addr": !!int |-
+        24676
+    "translated": !!null |-
+      null
+  "6133":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CH1>
+      うっ !! また やっちまった。
+
+      <C_YELLOW>ジーナ<C_NONE>
+      な、なんだい これは !?
+      き、気持ち悪いね。
+
+      <C_YELLOW>ボアード<C_NONE>
+      よし 今のうちだ 早く来い !!
+    "original_byte_length": !!int |-
+      121
+    "references":
+    - "source_addr": !!int |-
+        54938
+      "target_addr": !!int |-
+        24883
+    "translated": !!null |-
+      null
+  "61ac":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CLEAR><CH1>
+      おい てめえら !!
+
+      アトラスを はなしてもらおうか。
+
+      <C_YELLOW>ジーナ<C_NONE>
+      な、なんだい おまえは !?
+      ど、どこから もぐり込んだんだい？
+
+      まったく ゆだんも すきも
+      あったもんじゃないね。
+
+      おーい おまえたち こいつら２人
+      まとめて 牢屋に ほうりこんどきな。
+
+      <CH1>
+      ちょっと待った。
+      言っとくけど おれを 本気にさせたら後悔するぜ。
+
+      <C_YELLOW>ジーナ<C_NONE>
+      ふん 何 かっこ つけてんだろうね
+      このオヤジは。
+      ほら おまえたち 早くおし。
+
+      <CH1>
+      オ、オヤジだと !?
+
+      くらえ～ !!
+    "original_byte_length": !!int |-
+      418
+    "references":
+    - "source_addr": !!int |-
+        54861
+      "target_addr": !!int |-
+        25004
+    "translated": !!null |-
+      null
+"note": ""

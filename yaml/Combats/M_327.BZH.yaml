@@ -1,0 +1,66 @@
+"entries":
+  "7170":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      16
+    "original": |-
+      ヌカッチＡ<RET>
+    "original_byte_length": !!int |-
+      11
+    "references": []
+    "translated": !!null |-
+      null
+  "71b0":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      16
+    "original": |-
+      ヌカッチＢ<RET>
+    "original_byte_length": !!int |-
+      11
+    "references": []
+    "translated": !!null |-
+      null
+  "71f0":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      16
+    "original": |-
+      甲速虫<RET>
+    "original_byte_length": !!int |-
+      7
+    "references": []
+    "translated": !!null |-
+      null
+  "7230":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      16
+    "original": |-
+      Ｍ２２７Ｄ<RET>
+    "original_byte_length": !!int |-
+      11
+    "references": []
+    "translated": !!null |-
+      null
+  "73a9":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      ヌカッチと甲速虫が現れた。<RET_N>
+    "original_byte_length": !!int |-
+      27
+    "references":
+    - "source_addr": !!int |-
+        61000
+      "target_addr": !!int |-
+        29609
+    "translated": !!null |-
+      null
+"note": ""

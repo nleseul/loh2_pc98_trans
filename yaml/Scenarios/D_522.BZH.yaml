@@ -1,0 +1,18 @@
+"entries":
+  "5d35":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <PARTY>は <RET>
+    "original_byte_length": !!int |-
+      5
+    "references":
+    - "source_addr": !!int |-
+        54740
+      "target_addr": !!int |-
+        23861
+    "translated": !!null |-
+      null
+"note": ""

@@ -1,0 +1,66 @@
+"entries":
+  "7170":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      16
+    "original": |-
+      ワームマスター<RET>
+    "original_byte_length": !!int |-
+      15
+    "references": []
+    "translated": !!null |-
+      null
+  "71b0":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      16
+    "original": |-
+      アースワームＡ<RET>
+    "original_byte_length": !!int |-
+      15
+    "references": []
+    "translated": !!null |-
+      null
+  "71f0":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      16
+    "original": |-
+      アースワームＢ<RET>
+    "original_byte_length": !!int |-
+      15
+    "references": []
+    "translated": !!null |-
+      null
+  "7230":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      16
+    "original": |-
+      アースワームＣ<RET>
+    "original_byte_length": !!int |-
+      15
+    "references": []
+    "translated": !!null |-
+      null
+  "742c":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      ワームマスターとアースワームが現れた。<RET_N>
+    "original_byte_length": !!int |-
+      39
+    "references":
+    - "source_addr": !!int |-
+        61000
+      "target_addr": !!int |-
+        29740
+    "translated": !!null |-
+      null
+"note": ""

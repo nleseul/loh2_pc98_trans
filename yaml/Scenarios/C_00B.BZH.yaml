@@ -1,0 +1,217 @@
+"entries":
+  "5c62":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      まさか 宝箱の中の武器を 使うなんて思ってもいませんでしたよ。
+      <IF_NOT00f0><JUMP5ccb>こんなことが 起こるなんて ･ ･ ･<LOC5ccb>
+    "original_byte_length": !!int |-
+      106
+    "references":
+    - "source_addr": !!int |-
+        54653
+      "target_addr": !!int |-
+        23650
+    "translated": !!null |-
+      null
+  "5ccc":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      これは王子さま とうとう ここにある武器を 使うときが来てしまいました。
+
+      私は ここの見回りを していたときにあんなに たくさんの武器を 集めてもどうせ使わないと 思っていたのです。でも さすがは セリオスさまですね。
+    "original_byte_length": !!int |-
+      215
+    "references":
+    - "source_addr": !!int |-
+        54662
+      "target_addr": !!int |-
+        23756
+    "translated": !!null |-
+      null
+  "5da3":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      セリオス国王から この部屋の財宝を
+      王子さまに 持ち出させるなと
+      言われているんです。
+    "original_byte_length": !!int |-
+      90
+    "references":
+    - "source_addr": !!int |-
+        54671
+      "target_addr": !!int |-
+        23971
+    "translated": !!null |-
+      null
+  "5dfd":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      これは 王子さま 武器庫に どんな
+      ご用ですかな？<RET>
+    "original_byte_length": !!int |-
+      54
+    "references":
+    - "source_addr": !!int |-
+        54777
+      "target_addr": !!int |-
+        24061
+    "translated": !!null |-
+      null
+  "5e33":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CLEAR>何を お預かりしましょう？<RET_N>
+    "original_byte_length": !!int |-
+      27
+    "references":
+    - "source_addr": !!int |-
+        54841
+      "target_addr": !!int |-
+        24115
+    "translated": !!null |-
+      null
+  "5e4e":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CLEAR>何を お渡ししましょう？<RET_N>
+    "original_byte_length": !!int |-
+      25
+    "references":
+    - "source_addr": !!int |-
+        54889
+      "target_addr": !!int |-
+        24142
+    "translated": !!null |-
+      null
+  "5e67":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CLEAR>また 何か ご用がありましたら
+      いつでも おいでください。
+    "original_byte_length": !!int |-
+      56
+    "references":
+    - "source_addr": !!int |-
+        54930
+      "target_addr": !!int |-
+        24167
+    "translated": !!null |-
+      null
+  "5e9f":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CLEAR>王子さま 申しわけありませんが
+      これ以上は 預かれません。
+
+      <RET>
+    "original_byte_length": !!int |-
+      58
+    "references":
+    - "source_addr": !!int |-
+        54833
+      "target_addr": !!int |-
+        24223
+    "translated": !!null |-
+      null
+  "5ed9":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CLEAR>王子さま もう これ以上 持ち物は
+      持てないようですが ･ ･ ･
+
+      <RET>
+    "original_byte_length": !!int |-
+      59
+    "references":
+    - "source_addr": !!int |-
+        54881
+      "target_addr": !!int |-
+        24281
+    "translated": !!null |-
+      null
+  "5f14":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CLEAR>王子さまから お預かりしている物は
+      何もございません。
+
+      <RET>
+    "original_byte_length": !!int |-
+      55
+    "references":
+    - "source_addr": !!int |-
+        54868
+      "target_addr": !!int |-
+        24340
+    "translated": !!null |-
+      null
+  "5f4b":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CLEAR>王子さま これ以上 お預かりしている物は ございません。
+
+      <RET>
+    "original_byte_length": !!int |-
+      56
+    "references":
+    - "source_addr": !!int |-
+        54924
+      "target_addr": !!int |-
+        24395
+    "translated": !!null |-
+      null
+  "5f83":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <PARTY>は 宝箱を開けました。
+      宝箱の中には<RET>
+    "original_byte_length": !!int |-
+      36
+    "references":
+    - "source_addr": !!int |-
+        54736
+      "target_addr": !!int |-
+        24451
+    "translated": !!null |-
+      null
+"note": ""

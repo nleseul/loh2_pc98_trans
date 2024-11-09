@@ -1,0 +1,1019 @@
+"entries":
+  "88e0":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": "            "
+    "original_byte_length": !!int |-
+      12
+    "references":
+    - "source_addr": !!int |-
+        34912
+      "target_addr": !!int |-
+        35040
+    "translated": !!null |-
+      null
+  "88ec":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      エルアスタ
+    "original_byte_length": !!int |-
+      11
+    "references":
+    - "source_addr": !!int |-
+        34914
+      "target_addr": !!int |-
+        35052
+    "translated": |-
+      Eluasta
+  "88f7":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      ルディア
+    "original_byte_length": !!int |-
+      9
+    "references":
+    - "source_addr": !!int |-
+        34916
+      "target_addr": !!int |-
+        35063
+    "translated": |-
+      Rudia
+  "8900":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      クルス
+    "original_byte_length": !!int |-
+      7
+    "references":
+    - "source_addr": !!int |-
+        34918
+      "target_addr": !!int |-
+        35072
+    "translated": |-
+      Crus
+  "8907":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      ベルガ
+    "original_byte_length": !!int |-
+      7
+    "references":
+    - "source_addr": !!int |-
+        34920
+      "target_addr": !!int |-
+        35079
+    "translated": |-
+      Belga
+  "890e":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      ネリア
+    "original_byte_length": !!int |-
+      7
+    "references":
+    - "source_addr": !!int |-
+        34922
+      "target_addr": !!int |-
+        35086
+    "translated": |-
+      Neria
+  "8915":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      ロンド
+    "original_byte_length": !!int |-
+      7
+    "references":
+    - "source_addr": !!int |-
+        34924
+      "target_addr": !!int |-
+        35093
+    "translated": !!null |-
+      null
+  "891c":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      ラルファ
+    "original_byte_length": !!int |-
+      9
+    "references":
+    - "source_addr": !!int |-
+        34926
+      "target_addr": !!int |-
+        35100
+    "translated": !!null |-
+      null
+  "8925":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      シリカ
+    "original_byte_length": !!int |-
+      7
+    "references":
+    - "source_addr": !!int |-
+        34928
+      "target_addr": !!int |-
+        35109
+    "translated": !!null |-
+      null
+  "892c":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      マスクーン
+    "original_byte_length": !!int |-
+      11
+    "references":
+    - "source_addr": !!int |-
+        34930
+      "target_addr": !!int |-
+        35116
+    "translated": !!null |-
+      null
+  "8937":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      リーゼル
+    "original_byte_length": !!int |-
+      9
+    "references":
+    - "source_addr": !!int |-
+        34932
+      "target_addr": !!int |-
+        35127
+    "translated": !!null |-
+      null
+  "8940":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      ヨルド
+    "original_byte_length": !!int |-
+      7
+    "references":
+    - "source_addr": !!int |-
+        34934
+      "target_addr": !!int |-
+        35136
+    "translated": !!null |-
+      null
+  "8947":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      セリス
+    "original_byte_length": !!int |-
+      7
+    "references":
+    - "source_addr": !!int |-
+        34936
+      "target_addr": !!int |-
+        35143
+    "translated": !!null |-
+      null
+  "894e":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      ナッシュ
+    "original_byte_length": !!int |-
+      9
+    "references":
+    - "source_addr": !!int |-
+        34938
+      "target_addr": !!int |-
+        35150
+    "translated": !!null |-
+      null
+  "8957":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      セレ
+    "original_byte_length": !!int |-
+      5
+    "references":
+    - "source_addr": !!int |-
+        34940
+      "target_addr": !!int |-
+        35159
+    "translated": !!null |-
+      null
+  "895c":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      スエル
+    "original_byte_length": !!int |-
+      7
+    "references":
+    - "source_addr": !!int |-
+        34942
+      "target_addr": !!int |-
+        35164
+    "translated": !!null |-
+      null
+  "8963":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      アムダ
+    "original_byte_length": !!int |-
+      7
+    "references":
+    - "source_addr": !!int |-
+        34944
+      "target_addr": !!int |-
+        35171
+    "translated": !!null |-
+      null
+  "896a":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      セダル
+    "original_byte_length": !!int |-
+      7
+    "references":
+    - "source_addr": !!int |-
+        34946
+      "target_addr": !!int |-
+        35178
+    "translated": !!null |-
+      null
+  "8971":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      ボアード海運
+    "original_byte_length": !!int |-
+      12
+    "references":
+    - "source_addr": !!int |-
+        34948
+      "target_addr": !!int |-
+        35185
+    "translated": !!null |-
+      null
+  "897d":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      ルドラ
+    "original_byte_length": !!int |-
+      7
+    "references":
+    - "source_addr": !!int |-
+        34950
+      "target_addr": !!int |-
+        35197
+    "translated": !!null |-
+      null
+  "8984":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      カウル
+    "original_byte_length": !!int |-
+      7
+    "references":
+    - "source_addr": !!int |-
+        34952
+      "target_addr": !!int |-
+        35204
+    "translated": !!null |-
+      null
+  "898b":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      バズヌーン
+    "original_byte_length": !!int |-
+      11
+    "references":
+    - "source_addr": !!int |-
+        34954
+      "target_addr": !!int |-
+        35211
+    "translated": !!null |-
+      null
+  "8996":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      リシェール
+    "original_byte_length": !!int |-
+      11
+    "references":
+    - "source_addr": !!int |-
+        34956
+      "target_addr": !!int |-
+        35222
+    "translated": !!null |-
+      null
+  "89a1":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      ナスール
+    "original_byte_length": !!int |-
+      9
+    "references":
+    - "source_addr": !!int |-
+        34958
+      "target_addr": !!int |-
+        35233
+    "translated": !!null |-
+      null
+  "89aa":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      ファエト
+    "original_byte_length": !!int |-
+      9
+    "references":
+    - "source_addr": !!int |-
+        34960
+      "target_addr": !!int |-
+        35242
+    "translated": !!null |-
+      null
+  "89b3":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      コルクス
+    "original_byte_length": !!int |-
+      9
+    "references":
+    - "source_addr": !!int |-
+        34962
+      "target_addr": !!int |-
+        35251
+    "translated": !!null |-
+      null
+  "89bc":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      エメ
+    "original_byte_length": !!int |-
+      5
+    "references":
+    - "source_addr": !!int |-
+        34964
+      "target_addr": !!int |-
+        35260
+    "translated": !!null |-
+      null
+  "89c1":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      ファンガス
+    "original_byte_length": !!int |-
+      11
+    "references":
+    - "source_addr": !!int |-
+        34966
+      "target_addr": !!int |-
+        35265
+    "translated": !!null |-
+      null
+  "89cc":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      イシュタ
+    "original_byte_length": !!int |-
+      9
+    "references":
+    - "source_addr": !!int |-
+        34968
+      "target_addr": !!int |-
+        35276
+    "translated": !!null |-
+      null
+  "89d5":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      アフル
+    "original_byte_length": !!int |-
+      7
+    "references":
+    - "source_addr": !!int |-
+        34970
+      "target_addr": !!int |-
+        35285
+    "translated": !!null |-
+      null
+  "89dc":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      イズー
+    "original_byte_length": !!int |-
+      7
+    "references":
+    - "source_addr": !!int |-
+        34972
+      "target_addr": !!int |-
+        35292
+    "translated": !!null |-
+      null
+  "89e3":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      キュベラ
+    "original_byte_length": !!int |-
+      9
+    "references":
+    - "source_addr": !!int |-
+        34974
+      "target_addr": !!int |-
+        35299
+    "translated": !!null |-
+      null
+  "89ec":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      プロス
+    "original_byte_length": !!int |-
+      7
+    "references":
+    - "source_addr": !!int |-
+        34976
+      "target_addr": !!int |-
+        35308
+    "translated": !!null |-
+      null
+  "89f3":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      ウイル
+    "original_byte_length": !!int |-
+      7
+    "references":
+    - "source_addr": !!int |-
+        34978
+      "target_addr": !!int |-
+        35315
+    "translated": !!null |-
+      null
+  "89fa":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      ベルン
+    "original_byte_length": !!int |-
+      7
+    "references":
+    - "source_addr": !!int |-
+        34980
+      "target_addr": !!int |-
+        35322
+    "translated": !!null |-
+      null
+  "8a01":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      ユイシス
+    "original_byte_length": !!int |-
+      9
+    "references":
+    - "source_addr": !!int |-
+        34982
+      "target_addr": !!int |-
+        35329
+    "translated": !!null |-
+      null
+  "8a0a":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      岬の洞窟
+    "original_byte_length": !!int |-
+      9
+    "references":
+    - "source_addr": !!int |-
+        34984
+      "target_addr": !!int |-
+        35338
+    "translated": !!null |-
+      null
+  "8a13":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      試練の洞窟
+    "original_byte_length": !!int |-
+      11
+    "references":
+    - "source_addr": !!int |-
+        34986
+      "target_addr": !!int |-
+        35347
+    "translated": !!null |-
+      null
+  "8a1e":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      王家の墓
+    "original_byte_length": !!int |-
+      9
+    "references":
+    - "source_addr": !!int |-
+        34988
+      "target_addr": !!int |-
+        35358
+    "translated": !!null |-
+      null
+  "8a27":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      狼の口
+    "original_byte_length": !!int |-
+      7
+    "references":
+    - "source_addr": !!int |-
+        34990
+      "target_addr": !!int |-
+        35367
+    "translated": !!null |-
+      null
+  "8a2e":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      奈落の口
+    "original_byte_length": !!int |-
+      9
+    "references":
+    - "source_addr": !!int |-
+        34992
+      "target_addr": !!int |-
+        35374
+    "translated": !!null |-
+      null
+  "8a37":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      アネスの塔
+    "original_byte_length": !!int |-
+      11
+    "references":
+    - "source_addr": !!int |-
+        34994
+      "target_addr": !!int |-
+        35383
+    "translated": !!null |-
+      null
+  "8a42":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      サピアの湖
+    "original_byte_length": !!int |-
+      11
+    "references":
+    - "source_addr": !!int |-
+        34996
+      "target_addr": !!int |-
+        35394
+    "translated": !!null |-
+      null
+  "8a4d":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      モーガンの家
+    "original_byte_length": !!int |-
+      12
+    "references":
+    - "source_addr": !!int |-
+        34998
+      "target_addr": !!int |-
+        35405
+    "translated": !!null |-
+      null
+  "8a59":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      ネサの辺土
+    "original_byte_length": !!int |-
+      11
+    "references":
+    - "source_addr": !!int |-
+        35000
+      "target_addr": !!int |-
+        35417
+    "translated": !!null |-
+      null
+  "8a64":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      グロストス城
+    "original_byte_length": !!int |-
+      12
+    "references":
+    - "source_addr": !!int |-
+        35002
+      "target_addr": !!int |-
+        35428
+    "translated": !!null |-
+      null
+  "8a70":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      中庭
+    "original_byte_length": !!int |-
+      5
+    "references":
+    - "source_addr": !!int |-
+        35004
+      "target_addr": !!int |-
+        35440
+    "translated": !!null |-
+      null
+  "8a75":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      テクニカ
+    "original_byte_length": !!int |-
+      9
+    "references":
+    - "source_addr": !!int |-
+        35006
+      "target_addr": !!int |-
+        35445
+    "translated": !!null |-
+      null
+  "8a7e":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      溶岩炉
+    "original_byte_length": !!int |-
+      7
+    "references":
+    - "source_addr": !!int |-
+        35008
+      "target_addr": !!int |-
+        35454
+    "translated": !!null |-
+      null
+  "8a85":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      玉座の間
+    "original_byte_length": !!int |-
+      9
+    "references":
+    - "source_addr": !!int |-
+        35010
+      "target_addr": !!int |-
+        35461
+    "translated": !!null |-
+      null
+  "8a8e":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      ｲｼｭﾀ～ｲｽﾞｰ
+    "original_byte_length": !!int |-
+      11
+    "references":
+    - "source_addr": !!int |-
+        35012
+      "target_addr": !!int |-
+        35470
+    "translated": !!null |-
+      null
+  "8a99":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": "ｲｼｭﾀ～ｱﾌﾙ "
+    "original_byte_length": !!int |-
+      11
+    "references":
+    - "source_addr": !!int |-
+        35014
+      "target_addr": !!int |-
+        35481
+    "translated": !!null |-
+      null
+  "8aa4":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": "ｱﾌﾙ～城 "
+    "original_byte_length": !!int |-
+      9
+    "references":
+    - "source_addr": !!int |-
+        35016
+      "target_addr": !!int |-
+        35492
+    "translated": !!null |-
+      null
+  "8aad":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      ｲｽﾞｰ～城
+    "original_byte_length": !!int |-
+      9
+    "references":
+    - "source_addr": !!int |-
+        35018
+      "target_addr": !!int |-
+        35501
+    "translated": !!null |-
+      null
+  "8ab6":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": "ｷｭﾍﾞﾗ～城 "
+    "original_byte_length": !!int |-
+      11
+    "references":
+    - "source_addr": !!int |-
+        35020
+      "target_addr": !!int |-
+        35510
+    "translated": !!null |-
+      null
+  "8ac1":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": "ｷｭﾍﾞﾗ～ﾌﾟﾛｽ "
+    "original_byte_length": !!int |-
+      12
+    "references":
+    - "source_addr": !!int |-
+        35022
+      "target_addr": !!int |-
+        35521
+    "translated": !!null |-
+      null
+  "8acd":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": "ｳｲﾙ～城 "
+    "original_byte_length": !!int |-
+      9
+    "references":
+    - "source_addr": !!int |-
+        35024
+      "target_addr": !!int |-
+        35533
+    "translated": !!null |-
+      null
+  "8ad6":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": "ｳｲﾙ～ﾍﾞﾙﾝ "
+    "original_byte_length": !!int |-
+      11
+    "references":
+    - "source_addr": !!int |-
+        35026
+      "target_addr": !!int |-
+        35542
+    "translated": !!null |-
+      null
+  "8ae1":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      ｷｭﾍﾞﾗ～ｳｲﾙ
+    "original_byte_length": !!int |-
+      11
+    "references":
+    - "source_addr": !!int |-
+        35028
+      "target_addr": !!int |-
+        35553
+    "translated": !!null |-
+      null
+  "8aec":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      ファーレーン
+    "original_byte_length": !!int |-
+      12
+    "references":
+    - "source_addr": !!int |-
+        35030
+      "target_addr": !!int |-
+        35564
+    "translated": !!null |-
+      null
+  "8af8":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      ウォンリーク
+    "original_byte_length": !!int |-
+      12
+    "references":
+    - "source_addr": !!int |-
+        35032
+      "target_addr": !!int |-
+        35576
+    "translated": !!null |-
+      null
+  "8b04":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      ラヌーラ
+    "original_byte_length": !!int |-
+      9
+    "references":
+    - "source_addr": !!int |-
+        35034
+      "target_addr": !!int |-
+        35588
+    "translated": !!null |-
+      null
+  "8b0d":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      ソルディス
+    "original_byte_length": !!int |-
+      11
+    "references":
+    - "source_addr": !!int |-
+        35036
+      "target_addr": !!int |-
+        35597
+    "translated": !!null |-
+      null
+  "8b18":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      モレストン
+    "original_byte_length": !!int |-
+      11
+    "references":
+    - "source_addr": !!int |-
+        35038
+      "target_addr": !!int |-
+        35608
+    "translated": !!null |-
+      null
+"note": ""

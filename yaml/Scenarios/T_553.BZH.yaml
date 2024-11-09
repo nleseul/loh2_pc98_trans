@@ -1,0 +1,495 @@
+"entries":
+  "5c28":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      どうしたんだ お前ら。
+      助けてくれるというのか？
+    "original_byte_length": !!int |-
+      52
+    "references":
+    - "source_addr": !!int |-
+        54885
+      "target_addr": !!int |-
+        23592
+    "translated": !!null |-
+      null
+  "5c5c":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>老人<C_NONE>
+      ありがたいことじゃ。
+      これでまた みんなの活動を手伝える。
+    "original_byte_length": !!int |-
+      64
+    "references":
+    - "source_addr": !!int |-
+        54894
+      "target_addr": !!int |-
+        23644
+    "translated": !!null |-
+      null
+  "5c9c":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      助かったぜ 同志。
+      戦士の笛は だてじゃないようだな。
+    "original_byte_length": !!int |-
+      57
+    "references":
+    - "source_addr": !!int |-
+        54903
+      "target_addr": !!int |-
+        23708
+    "translated": !!null |-
+      null
+  "5cd5":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      おお ありがとう。
+      なんてお礼を言ったらいいんだ。
+    "original_byte_length": !!int |-
+      54
+    "references":
+    - "source_addr": !!int |-
+        54912
+      "target_addr": !!int |-
+        23765
+    "translated": !!null |-
+      null
+  "5d0b":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      これは ワナじゃないだろうな？
+      まさか お前ら 皇帝の手下じゃ
+      ないだろうな？
+    "original_byte_length": !!int |-
+      79
+    "references":
+    - "source_addr": !!int |-
+        54921
+      "target_addr": !!int |-
+        23819
+    "translated": !!null |-
+      null
+  "5d5a":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>老人<C_NONE>
+      若いの 助けてくれて ありがとう。
+      わしが みんなを キュベラまで
+      連れて行きましょう。
+    "original_byte_length": !!int |-
+      90
+    "references":
+    - "source_addr": !!int |-
+        54930
+      "target_addr": !!int |-
+        23898
+    "translated": !!null |-
+      null
+  "5db4":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CALL6cd2>竜の卵に入ると コンソールがある。
+      その いちばん奥に 銀色のレバーが
+      あるはずだ。
+
+      まず始めに そのレバーを「LOCAL」とかいてある方に 動かして 竜の卵を
+      フレイアの支配下から解放させる。
+
+      そして 左上の方にある 赤いボタンを押すと 竜の卵が モンスターの転送を受け付けなくなるはずだ。
+
+      <SET0141>今 言った以外の ボタンには 絶対に
+      さわらないように。
+      わかったかね？
+    "original_byte_length": !!int |-
+      347
+    "references":
+    - "source_addr": !!int |-
+        54939
+      "target_addr": !!int |-
+        23988
+    "translated": !!null |-
+      null
+  "5f0f":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>手前の老人<C_NONE>
+      これは いったい なにごとですかな？
+
+      <Xf52c0000><ASM1ae6><Xf7><Xf5010206><Xf5500200><CH0>
+      あなたたちは さっき <CALL6cbe>と
+      言っていたようですが だれのこと
+      なのですか？
+
+      <C_YELLOW>手前の老人<C_NONE>
+      <CALL6cbe> ･ ･ ･
+      君たちは 知らなくても いいことだ。
+
+      <CH2>
+      私たちは <CALL6cc7>を 作れるという人が ここにいるときいたのです。
+
+      お願いです 教えてください。
+      人々が <CALL6cc7>に 苦しめられて
+      いるのです。
+
+      <C_YELLOW>奥の老人<C_NONE>
+      <CALL6cc7>に 苦しめられる？
+      まさか 君たちは 地上の ･ ･ ･
+
+      <CH0>
+      そうです 地上から やってきました。この世界に来て はじめて 地上を
+      知っている人と 会いました。
+
+      なぜ あなたたちは 地上のことを
+      知っているのですか？
+
+      <C_YELLOW>奥の老人<C_NONE>
+      それは もともと われわれの祖先は
+      地上で 生活をしていたからだ。
+
+      君たちの祖先が 誕生する ずっと前にわれわれの祖先は とても 発達した
+      文明を築いていた。
+
+      だが その文明も 悪神アグニージャによって 一瞬のうちに 破壊されて
+      滅亡してしまったのだ。
+
+      しかし 一部の人間だけは <CALL6cbe>の指示によって 地下に避難することが
+      できた。
+
+      彼らは 地上が 住みやすくなるまで
+      地底で 生活をすることにした。
+      それが われわれの祖先なのだ。
+
+      <CH1>
+      ほんとかよ それ !!
+
+      それじゃ なんで おれたちが 平気で
+      生活してるのに お前らは 地上に
+      出てこなかったんだよ？
+
+      <C_YELLOW>奥の老人<C_NONE>
+      それは ･ ･ ･<WAIT>
+      時期を ･ ･ ･<WAIT>
+      時期をのがしたからだ。
+
+      <C_YELLOW>手前の老人<C_NONE>
+      もう それ以上 話すのは やめておけ。
+
+      <CH0>
+      地上では 竜の卵から <CALL6cc7>が
+      出てきて 困っているんです。
+      止め方を 教えてください。
+
+      <C_YELLOW>手前の老人<C_NONE>
+      竜の卵？ 知っているか？
+
+      <C_YELLOW>奥の老人<C_NONE>
+      たぶん あのシェルターのことだ。
+
+      <C_YELLOW>手前の老人<C_NONE>
+      なるほど あそこから <CALL6cc7>が
+      出てきているのか。
+
+      君たち よくききなさい。
+
+      私たちのような地位に ついている
+      者は 全部で ５人いて それぞれの
+      専門分野を担当していたのだ。
+
+      私は ヨシュアのマスターといい
+      人工衛星 ヨシュアの 担当をしている。
+
+      <CH0>
+      ジンコウエイセイ？
+
+      <CH1>
+      ヨシュアさまの 身分のことだろ
+      きっと。
+
+      <C_YELLOW>奥の老人<C_NONE>
+      私は ヒストラのマスターだ。
+      いや マスターだった。
+
+      私は われわれの祖先が 滅亡する
+      以前からの 歴史を 担当していた。
+
+      <CALL6cd2>さて 本題に入ろう。
+      <CALL6cc7>は <CALL6cbe>の力を使って
+      作り出しているはずだ。
+
+      <CH2>
+      どうして？
+      なぜ <CALL6cbe>さまが <CALL6cc7>を
+      お作りになるの？
+
+      <CALL6ce7>そうか ･ ･ ･ 思い出したぞ。
+      彼らは <CALL6cbe>を 女神として
+      あがめているんだ。
+
+      <CALL6cd2>現実を 教えるべきだろうか？
+
+      <CALL6ce7>いや まだ 早すぎる。
+      とにかく シェルターの話をした方が
+      いいだろう。
+
+      <CALL6cd2>とにかく <CALL6cbe>のマスターの
+      弟子であった フラッドという 若者が<CALL6cc7>を 作り出している。
+
+      それを やめさせるためには 城の奥に行かなければならない。
+
+      だが もしも 竜の卵に 入れるのなら
+      <CALL6cc7>が転送されてこないように操作することもできるのだ。
+
+      <CH2>
+      この竜の涙で 入れます。
+      いっしょに 行って 止めてください。
+
+      <CALL6ce7>いや 君たちだけのほうがいい
+      我々は あしでまといになるだけだ。
+
+      地上のことは 君たちだけのほうが
+      いいだろう。
+
+      <CALL6cd2>そのとおり。
+      転送を禁止させる方法を 教えるから
+      君たちの手で やってくれ。
+
+      <C_YELLOW>レイシア<C_NONE>
+      ふーん そういうことだったの ･ ･ ･
+      悪いけど 全部 きいちゃったわ。
+    "original_byte_length": !!int |-
+      2610
+    "references":
+    - "source_addr": !!int |-
+        54969
+      "target_addr": !!int |-
+        24335
+    "translated": !!null |-
+      null
+  "6941":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CALL6ce7>私たち マスターの存在は
+      一部の者しか 知らない。
+
+      そして 各マスターの知識は 他の
+      マスターと その弟子にしか 教えてはいけなかったのだ。
+
+      だが 皇帝の計画を 阻止するために
+      地底の人 特に レジスタンスたちにはわれわれの歴史を 教えなければ
+      ならなくなるだろう。
+
+      その前に 君たちは <CALL6cc7>の
+      転送をやめさせるのだ。
+      私たちも できるだけの 協力をしよう。
+    "original_byte_length": !!int |-
+      337
+    "references":
+    - "source_addr": !!int |-
+        54978
+      "target_addr": !!int |-
+        26945
+    "translated": !!null |-
+      null
+  "6a92":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>レイシア<C_NONE>
+      あなたたちは 転送をやめさせて。
+      ここは 私が 引き受けるわ。
+    "original_byte_length": !!int |-
+      70
+    "references":
+    - "source_addr": !!int |-
+        54987
+      "target_addr": !!int |-
+        27282
+    "translated": !!null |-
+      null
+  "6ad8":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>レイシア<C_NONE>
+      この人たちのことは 私に まかせて
+      <CALL6cc7>のほうを 何とかしてよ。
+
+      それから ひとこと 言っておくけど
+      あなたたち こんなに おおっぴらに
+      ガードを 倒したりしていると すぐに皇帝に 知れてしまうわよ。
+
+      私たちにも 計画があるんだから
+      あまり はでな行動は ひかえるようにしてくれるかしら。
+
+      <CH0>
+      ああレイシア、悪かった。
+    "original_byte_length": !!int |-
+      308
+    "references":
+    - "source_addr": !!int |-
+        55001
+      "target_addr": !!int |-
+        27352
+    "translated": !!null |-
+      null
+  "6c0c":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CH0>
+      ここ あけられるかな？
+
+      <CH1>
+      できるさ おれにまかせとけ。
+    "original_byte_length": !!int |-
+      56
+    "references":
+    - "source_addr": !!int |-
+        54690
+      "target_addr": !!int |-
+        27660
+    "translated": !!null |-
+      null
+  "6c44":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CH1>
+      あー だめだ。
+      よし シンディ いけ !!
+
+      <CH3>
+      シンディ こわす。
+    "original_byte_length": !!int |-
+      60
+    "references":
+    - "source_addr": !!int |-
+        54718
+      "target_addr": !!int |-
+        27716
+    "translated": !!null |-
+      null
+  "6c80":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CH1>
+      さすが シンディだ。
+    "original_byte_length": !!int |-
+      23
+    "references":
+    - "source_addr": !!int |-
+        54744
+      "target_addr": !!int |-
+        27776
+    "translated": !!null |-
+      null
+  "6c97":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CH2>
+      えっ 私は そんなこと できませんわ。
+    "original_byte_length": !!int |-
+      39
+    "references":
+    - "source_addr": !!int |-
+        54772
+      "target_addr": !!int |-
+        27799
+    "translated": !!null |-
+      null
+  "6cbe":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      フレイア<RET>
+    "original_byte_length": !!int |-
+      9
+    "references": []
+    "translated": !!null |-
+      null
+  "6cc7":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      モンスター<RET>
+    "original_byte_length": !!int |-
+      11
+    "references": []
+    "translated": !!null |-
+      null
+  "6cd2":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ヨシュアのマスター<C_NONE><RET_N>
+    "original_byte_length": !!int |-
+      21
+    "references": []
+    "translated": !!null |-
+      null
+  "6ce7":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ヒストラのマスター<C_NONE><RET_N>
+    "original_byte_length": !!int |-
+      21
+    "references": []
+    "translated": !!null |-
+      null
+"note": ""

@@ -1,0 +1,19 @@
+"entries":
+  "5a18":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <PARTY>は 宝箱を開けました。
+      宝箱の中には<RET>
+    "original_byte_length": !!int |-
+      36
+    "references":
+    - "source_addr": !!int |-
+        54679
+      "target_addr": !!int |-
+        23064
+    "translated": !!null |-
+      null
+"note": ""

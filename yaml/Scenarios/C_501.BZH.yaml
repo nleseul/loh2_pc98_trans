@@ -1,0 +1,23 @@
+"entries":
+  "5ce1":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>レイシア<C_NONE>
+      <SET0114>もう !! あと少しだったのに !!
+      どうして あんなに大きな音を
+      立てたのよ !!
+
+      作戦は中止ね イシュタに戻るわよ。
+    "original_byte_length": !!int |-
+      120
+    "references":
+    - "source_addr": !!int |-
+        54829
+      "target_addr": !!int |-
+        23777
+    "translated": !!null |-
+      null
+"note": ""

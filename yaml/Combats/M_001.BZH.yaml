@@ -1,0 +1,66 @@
+"entries":
+  "7170":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      16
+    "original": |-
+      ヨークスライムA<RET>
+    "original_byte_length": !!int |-
+      16
+    "references": []
+    "translated": !!null |-
+      null
+  "71b0":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      16
+    "original": |-
+      ヨークスライムB<RET>
+    "original_byte_length": !!int |-
+      16
+    "references": []
+    "translated": !!null |-
+      null
+  "71f0":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      16
+    "original": |-
+      ヨークスライムC<RET>
+    "original_byte_length": !!int |-
+      16
+    "references": []
+    "translated": !!null |-
+      null
+  "7230":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      16
+    "original": |-
+      ヨークスライムD<RET>
+    "original_byte_length": !!int |-
+      16
+    "references": []
+    "translated": !!null |-
+      null
+  "72fc":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      ヨークスライムが現れた。<RET_N>
+    "original_byte_length": !!int |-
+      25
+    "references":
+    - "source_addr": !!int |-
+        61000
+      "target_addr": !!int |-
+        29436
+    "translated": !!null |-
+      null
+"note": ""

@@ -1,0 +1,74 @@
+"entries":
+  "5e45":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      <SET0125>ああ また迷っちゃったよ。
+      イズーは どうやって 行けばいいのか知らないかい？
+    "original_byte_length": !!int |-
+      83
+    "references":
+    - "source_addr": !!int |-
+        54968
+      "target_addr": !!int |-
+        24133
+    "translated": !!null |-
+      null
+  "5e98":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      <SET0125>せっかく イズーで 仕事が
+      見つかったのに 町まで 行けないから困ってるんだ。
+    "original_byte_length": !!int |-
+      82
+    "references":
+    - "source_addr": !!int |-
+        54977
+      "target_addr": !!int |-
+        24216
+    "translated": !!null |-
+      null
+  "5eea":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      <SET0125>こんな迷路みたいな道じゃ 行きたい
+      所まで 行くのに ひと苦労だよ。
+    "original_byte_length": !!int |-
+      73
+    "references":
+    - "source_addr": !!int |-
+        54986
+      "target_addr": !!int |-
+        24298
+    "translated": !!null |-
+      null
+  "5f33":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>女<C_NONE>
+      <SET0125>なんて だらしのない人たちなの？
+      もう 私 帰っちゃおうかしら。
+    "original_byte_length": !!int |-
+      69
+    "references":
+    - "source_addr": !!int |-
+        54995
+      "target_addr": !!int |-
+        24371
+    "translated": !!null |-
+      null
+"note": ""

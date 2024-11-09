@@ -1,0 +1,98 @@
+"entries":
+  "7170":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      16
+    "original": |-
+      ブラムナドッグA<RET>
+    "original_byte_length": !!int |-
+      16
+    "references": []
+    "translated": !!null |-
+      null
+  "71b0":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      16
+    "original": |-
+      ブラムナドッグB<RET>
+    "original_byte_length": !!int |-
+      16
+    "references": []
+    "translated": !!null |-
+      null
+  "71f0":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      16
+    "original": |-
+      ブラムナドッグC<RET>
+    "original_byte_length": !!int |-
+      16
+    "references": []
+    "translated": !!null |-
+      null
+  "7230":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      16
+    "original": |-
+      ブラムナドッグD<RET>
+    "original_byte_length": !!int |-
+      16
+    "references": []
+    "translated": !!null |-
+      null
+  "73c3":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      ブラムナドッグが現れた。<RET_N>
+    "original_byte_length": !!int |-
+      25
+    "references":
+    - "source_addr": !!int |-
+        61000
+      "target_addr": !!int |-
+        29635
+    "translated": !!null |-
+      null
+  "7432":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>は毒を中和した。<RET_PAGE>
+    "original_byte_length": !!int |-
+      18
+    "references":
+    - "source_addr": !!int |-
+        61346
+      "target_addr": !!int |-
+        29746
+    "translated": !!null |-
+      null
+  "7444":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>は毒を中和しきれなかった。<RET_PAGE>
+    "original_byte_length": !!int |-
+      28
+    "references":
+    - "source_addr": !!int |-
+        61355
+      "target_addr": !!int |-
+        29764
+    "translated": !!null |-
+      null
+"note": ""

@@ -1,0 +1,98 @@
+"entries":
+  "7170":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      16
+    "original": |-
+      チャンタラーＡ<RET>
+    "original_byte_length": !!int |-
+      15
+    "references": []
+    "translated": !!null |-
+      null
+  "71b0":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      16
+    "original": |-
+      デスバードＡ<RET>
+    "original_byte_length": !!int |-
+      13
+    "references": []
+    "translated": !!null |-
+      null
+  "71f0":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      16
+    "original": |-
+      デスバードＢ<RET>
+    "original_byte_length": !!int |-
+      13
+    "references": []
+    "translated": !!null |-
+      null
+  "7230":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      16
+    "original": |-
+      チャンタラーＢ<RET>
+    "original_byte_length": !!int |-
+      15
+    "references": []
+    "translated": !!null |-
+      null
+  "73eb":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      デスバードとチャンタラーが現れた。<RET_N>
+    "original_byte_length": !!int |-
+      35
+    "references":
+    - "source_addr": !!int |-
+        61000
+      "target_addr": !!int |-
+        29675
+    "translated": !!null |-
+      null
+  "7460":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      は休んでいる。<RET_PAGE>
+    "original_byte_length": !!int |-
+      15
+    "references":
+    - "source_addr": !!int |-
+        61254
+      "target_addr": !!int |-
+        29792
+    "translated": !!null |-
+      null
+  "746f":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      は目がさめた。<RET_N>
+    "original_byte_length": !!int |-
+      15
+    "references":
+    - "source_addr": !!int |-
+        61272
+      "target_addr": !!int |-
+        29807
+    "translated": !!null |-
+      null
+"note": ""

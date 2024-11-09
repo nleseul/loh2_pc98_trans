@@ -212,6 +212,7 @@ def compress_bzh(input:typing.ByteString) -> typing.ByteString:
             input_processed.append(input[0])
             input = input[1:]
 
+    # The actual end code is 1-1, followed by a 0 value.
     flag_writer.write_flag(output, 1)
     flag_writer.write_flag(output, 1)
 
@@ -219,7 +220,10 @@ def compress_bzh(input:typing.ByteString) -> typing.ByteString:
         flag_writer.write_flag(output, 0)
     output += b"\x00"
 
+    # It seems as though the game's decompressor expects there to be one extra 0 byte at the end, for some reason?
+    output += b"\x00"
+
     length = len(output) + 3
-    output = length.to_bytes(3, byteorder='little') + output
+    output = (length - 1).to_bytes(3, byteorder='little') + output
 
     return output

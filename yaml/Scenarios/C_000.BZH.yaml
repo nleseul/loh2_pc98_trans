@@ -1,0 +1,68 @@
+"entries":
+  "5afc":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <IF0406><JUMP5b8c><C_YELLOW>教育係 ラウエル<C_NONE>
+      <IF0405><JUMP5b33><UNSET0404>いかがですかな 王子？<END>
+      <LOC5b33><UNSET0405>アトラスさまを お連れした。
+
+      <C_YELLOW>兵士<C_NONE>
+      これは これは ラウエル殿
+      ご苦労さまで ございます。<END>
+      <LOC5b8c><UNSET0406><CH0>
+      ラウエル !!
+      いつのまに 先回りしたんだ？
+
+      <C_YELLOW>教育係 ラウエル<C_NONE>
+      いいですか 王子。
+      この世の中には ワプの翼という
+      便利な物が あるのです。
+
+      それよりも どうしてまた
+      抜け出したりしたのですか？
+      ちゃんと 待っているようにと言った
+      はずですぞ。
+
+      まあ 今回は 大目に見ましょう。
+      これから 国王陛下の所へ 参りますぞ。
+
+      <CH0>
+      父上の ところへ !?
+
+      <C_YELLOW>教育係 ラウエル<C_NONE>
+      さようです。
+      セリオス国王が 王子を お呼びです。
+    "original_byte_length": !!int |-
+      534
+    "references":
+    - "source_addr": !!int |-
+        54717
+      "target_addr": !!int |-
+        23292
+    "translated": !!null |-
+      null
+  "5d12":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      これは 王子さま。
+      <IF0400><JUMP5d57><IF0068><JUMP5d6a>エルアスタに 行かれるのですか？<END>
+      <LOC5d57>お帰りなさいませ。<END>
+      <LOC5d6a>危険ですから 竜の卵には
+      近づかないように してください。
+    "original_byte_length": !!int |-
+      144
+    "references":
+    - "source_addr": !!int |-
+        54671
+      "target_addr": !!int |-
+        23826
+    "translated": !!null |-
+      null
+"note": ""

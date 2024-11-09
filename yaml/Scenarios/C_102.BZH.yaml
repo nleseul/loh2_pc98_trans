@@ -1,0 +1,214 @@
+"entries":
+  "5ac4":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ロエル<C_NONE>
+      しかし いつになっても 城という所は人が たくさんおって 落ちつかぬのう。
+
+      やはり わしには ひとりのほうが
+      向いているようじゃ。
+    "original_byte_length": !!int |-
+      132
+    "references":
+    - "source_addr": !!int |-
+        54661
+      "target_addr": !!int |-
+        23236
+    "translated": !!null |-
+      null
+  "5b48":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      <IF0015><JUMP5ba6>赤スライムの 異常はんしょくは
+      モンスターが 出てくることの
+      前ぶれだったんですね。<END>
+      <LOC5ba6>王子さま セリオスさまは その後
+      どうなされているのですか？<IF00ff><JUMP5c1e>
+
+      モンスターが 減るどころか
+      増えてきてしまったというのに。<LOC5c1e>
+    "original_byte_length": !!int |-
+      215
+    "references":
+    - "source_addr": !!int |-
+        54670
+      "target_addr": !!int |-
+        23368
+    "translated": !!null |-
+      null
+  "5c1f":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      うちのばあさんが 言ってましたよ。
+      あの大地震は 竜の卵がかえる
+      前ぶれなんだってね。<IF0015><JUMP5cc2>
+
+      確かに まちがってない みたいだけどモンスターが 出てくるなんてねえ。<LOC5cc2>
+    "original_byte_length": !!int |-
+      164
+    "references":
+    - "source_addr": !!int |-
+        54679
+      "target_addr": !!int |-
+        23583
+    "translated": !!null |-
+      null
+  "5cc3":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      <IF0015><JUMP5d4e>今 わが国の船は 罪人を 送るために
+      ジャグリに 向かっている。
+
+      たしか あそこにも 竜の卵が あった
+      はずだが どうなったのだろうか？<END>
+      <LOC5d4e>ジャグリに行った船が 多くの罪人を
+      連れて帰ってきたのです。
+
+      やはり むこうでも モンスターが
+      たくさん 出てきているそうです。
+    "original_byte_length": !!int |-
+      261
+    "references":
+    - "source_addr": !!int |-
+        54688
+      "target_addr": !!int |-
+        23747
+    "translated": !!null |-
+      null
+  "5dc8":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      <IF0015><JUMP5ec0>ロエル殿は 昔から ジェストンさまの相談役をされていて 城の北西にある
+      一軒家に 住んでおられました。
+
+      ところが 先日の地震で 家がつぶれてしまったのです。
+
+      つぶれた家から 大けがを したまま
+      なんとか 抜け出して、ここまで
+      たどりつかれたのです。<END>
+      <LOC5ec0>ロエル殿は 昔から ジェストンさまの相談役をされていた かたなのです。
+    "original_byte_length": !!int |-
+      316
+    "references":
+    - "source_addr": !!int |-
+        54697
+      "target_addr": !!int |-
+        24008
+    "translated": !!null |-
+      null
+  "5f04":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      この先は 地下ろうへの 入口です。
+
+      <IF0015><JUMP5f8e>この騒ぎの どさくさに まぎれて
+      悪いことを するやつが 増えて
+      くるんじゃないかと 心配ですよ。<END>
+      <LOC5f8e>ジャグリの罪人たちを 地下ろうに
+      ひなんさせたので うるさくて
+      しかたがありませんよ。
+    "original_byte_length": !!int |-
+      221
+    "references":
+    - "source_addr": !!int |-
+        54706
+      "target_addr": !!int |-
+        24324
+    "translated": !!null |-
+      null
+  "5fe1":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      ジェストンさまの 後継ぎ候補ですか
+      あの方たちは お帰りになりました。
+
+      ジェストンさまに 何か いいお考えがあるらしいですよ。
+    "original_byte_length": !!int |-
+      128
+    "references":
+    - "source_addr": !!int |-
+        54715
+      "target_addr": !!int |-
+        24545
+    "translated": !!null |-
+      null
+  "6061":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>侍女<C_NONE>
+      <IF0015><JUMP60c5>あの赤スライムの 気持ち悪さと
+      モンスターの おそろしさ ･ ･ ･
+      やっぱり どっちも いやね。<END>
+      <LOC60c5>ここだけの話だけどジェストンさまの後継ぎ候補たちが いなくなったから
+      たすかったのよ。
+
+      あの人たちって たくさん 食べるから私たち たいへんだったの。
+    "original_byte_length": !!int |-
+      245
+    "references":
+    - "source_addr": !!int |-
+        54724
+      "target_addr": !!int |-
+        24673
+    "translated": !!null |-
+      null
+  "6156":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>侍女<C_NONE>
+      <IF0015><JUMP6203>今 おやつの アップルパイを
+      作ってるの 早くできないかしら。
+      味見ができるのに ･ ･ ･
+
+      なーんて のんきなこと 言ってて
+      もしモンスターが おそってきたら
+      どうしましょ。<END>
+      <LOC6203>ジェストンさまの 後継ぎ候補たちが
+      いなくなって せいせいしたわ。
+
+      あの人たちって 変なところが
+      あるんですもの 気持ち悪くて
+      しかたがなかったのよ。
+    "original_byte_length": !!int |-
+      316
+    "references":
+    - "source_addr": !!int |-
+        54733
+      "target_addr": !!int |-
+        24918
+    "translated": !!null |-
+      null
+"note": ""

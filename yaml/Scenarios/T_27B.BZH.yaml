@@ -1,0 +1,23 @@
+"entries":
+  "59e8":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>船員<C_NONE>
+      あのスライム事件以来 おれたちの
+      親分は 貫禄がでてきたんだぜ。
+
+      あっ 言っとくけど 親分ってのは
+      社長のあだ名だけどよ。
+    "original_byte_length": !!int |-
+      123
+    "references":
+    - "source_addr": !!int |-
+        54627
+      "target_addr": !!int |-
+        23016
+    "translated": !!null |-
+      null
+"note": ""

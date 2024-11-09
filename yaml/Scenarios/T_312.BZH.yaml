@@ -1,0 +1,294 @@
+"entries":
+  "5af3":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ジャン<C_NONE>
+      おれは ドラゴン牧場を経営している
+      世界で ただひとりの男だ。
+
+      ソルディスのドラゴンは １００年に
+      １度しか卵を産まないんだ。
+      じいさんの話だと 今度は８０年も
+      さきに なるそうだ。
+
+      おれが 生きている間には
+      産んでくれないなんて かなしいけど
+      これだけは どうにもならないからな。
+
+      おれの子孫のために 大事に
+      ドラゴンを 育ててるのさ。
+    "original_byte_length": !!int |-
+      328
+    "references":
+    - "source_addr": !!int |-
+        54664
+      "target_addr": !!int |-
+        23283
+    "translated": !!null |-
+      null
+  "5c3b":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ボイル<C_NONE>
+      わしは 若いころ ドラゴン牧場の
+      あるじを しておったのじゃ。<IF_NOT00f5><JUMP5df2>
+
+      ドラゴンは プライドが高くて
+      なかなか 人には なつかないのじゃがファーレーンの セリオス国王さま
+      だけは 別なのじゃ。
+
+      ちょうど ドラゴンの子どもが 卵からかえったとき 初めて見たから 親だと思っているのじゃよ。
+
+      それで セリオスさまを 背中に乗せて空を 飛んだりしているのじゃ。
+
+      このところ 牧場には いない
+      ようじゃから きっと また
+      ファーレーンにでも 遊びに
+      行っとるのじゃろう。<LOC5df2>
+    "original_byte_length": !!int |-
+      440
+    "references":
+    - "source_addr": !!int |-
+        54673
+      "target_addr": !!int |-
+        23611
+    "translated": !!null |-
+      null
+  "5df3":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ボイル<C_NONE>
+      あんたがた 他人の持ち物を
+      勝手に のぞくでない。
+    "original_byte_length": !!int |-
+      57
+    "references":
+    - "source_addr": !!int |-
+        54655
+      "target_addr": !!int |-
+        24051
+    "translated": !!null |-
+      null
+  "5e2c":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ノーマ<C_NONE>
+      私たちは 牧場を 息子のジャンに
+      まかせて ここで隠居してるんです。
+    "original_byte_length": !!int |-
+      74
+    "references":
+    - "source_addr": !!int |-
+        54682
+      "target_addr": !!int |-
+        24108
+    "translated": !!null |-
+      null
+  "5e76":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>商人<C_NONE>
+      私は エメから逃げてきたんです。
+      かわいそうだと思ったら 何か
+      買っていってください。
+
+      <RET>
+    "original_byte_length": !!int |-
+      91
+    "references":
+    - "source_addr": !!int |-
+        54694
+      "target_addr": !!int |-
+        24182
+    "translated": !!null |-
+      null
+  "5ed1":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      また来てくださいね。
+    "original_byte_length": !!int |-
+      21
+    "references":
+    - "source_addr": !!int |-
+        54706
+      "target_addr": !!int |-
+        24273
+    "translated": !!null |-
+      null
+  "5ee6":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>道具屋<C_NONE>
+      いらっしゃいませ。
+      どのような ご用でしょうか？<RET_N>
+    "original_byte_length": !!int |-
+      56
+    "references":
+    - "source_addr": !!int |-
+        54718
+      "target_addr": !!int |-
+        24294
+    "translated": !!null |-
+      null
+  "5f1e":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      また来てくださいね。
+    "original_byte_length": !!int |-
+      21
+    "references":
+    - "source_addr": !!int |-
+        54745
+      "target_addr": !!int |-
+        24350
+    "translated": !!null |-
+      null
+  "5f33":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      おや？これ以上持てないようですね。
+
+      <RET>
+    "original_byte_length": !!int |-
+      36
+    "references":
+    - "source_addr": !!int |-
+        1778
+      "target_addr": !!int |-
+        24371
+    "translated": !!null |-
+      null
+  "5f57":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      どれを買ってくれますか？
+      <RET_N>
+    "original_byte_length": !!int |-
+      26
+    "references":
+    - "source_addr": !!int |-
+        1780
+      "target_addr": !!int |-
+        24407
+    "translated": !!null |-
+      null
+  "5f71":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ITEM>だね。
+      どうも ありがとう。
+
+      <RET>
+    "original_byte_length": !!int |-
+      29
+    "references":
+    - "source_addr": !!int |-
+        1782
+      "target_addr": !!int |-
+        24433
+    "translated": !!null |-
+      null
+  "5f96":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      どれを 売ってくれますか？
+      <RET_N>
+    "original_byte_length": !!int |-
+      27
+    "references":
+    - "source_addr": !!int |-
+        1616
+      "target_addr": !!int |-
+        24470
+    "translated": !!null |-
+      null
+  "5fb1":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |2-
+       Gold になるけど
+      それでも よろしいですか？
+      <RET_N>
+    "original_byte_length": !!int |-
+      44
+    "references":
+    - "source_addr": !!int |-
+        1618
+      "target_addr": !!int |-
+        24497
+    "translated": !!null |-
+      null
+  "5fdd":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      それは残念です。
+
+      <RET_N>
+    "original_byte_length": !!int |-
+      18
+    "references":
+    - "source_addr": !!int |-
+        1620
+      "target_addr": !!int |-
+        24541
+    "translated": !!null |-
+      null
+  "5fef":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      どうも ありがとうございます。
+      <RET_N>
+    "original_byte_length": !!int |-
+      31
+    "references":
+    - "source_addr": !!int |-
+        1622
+      "target_addr": !!int |-
+        24559
+    "translated": !!null |-
+      null
+"note": ""

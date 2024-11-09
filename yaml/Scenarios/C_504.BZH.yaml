@@ -1,0 +1,121 @@
+"entries":
+  "5c08":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ダリス<C_NONE>
+      しぶといやつだな。
+      言っていることが わからないのか？
+
+      <C_YELLOW>セリオス<C_NONE>
+      ･ ･ ･ きさまに ･ ･ ･ はなす ･ ･ ･
+      ことなど ･ ･ ･ ない ･ ･ ･
+
+      <C_YELLOW>ダリス<C_NONE>
+      まだ そんな口が きけるのか !!
+    "original_byte_length": !!int |-
+      172
+    "references":
+    - "source_addr": !!int |-
+        54689
+      "target_addr": !!int |-
+        23560
+    "translated": !!null |-
+      null
+  "5cb4":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ダリス<C_NONE>
+      なんだ お前らは？
+      どこから もぐり込んだんだ。
+
+      <CH0>
+      父上たちに 何をしたんだ !!
+
+      <C_YELLOW>ダリス<C_NONE>
+      父だと？
+      ちょうどいい こいつらは なかなか
+      口がかたいのだ。
+
+      お前らに ききたいことがある。
+      さあ くるんだ。
+    "original_byte_length": !!int |-
+      199
+    "references":
+    - "source_addr": !!int |-
+        54784
+      "target_addr": !!int |-
+        23732
+    "translated": !!null |-
+      null
+  "5d7b":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CH0>
+      父上 !!
+    "original_byte_length": !!int |-
+      11
+    "references":
+    - "source_addr": !!int |-
+        54743
+      "target_addr": !!int |-
+        23931
+    - "source_addr": !!int |-
+        54848
+      "target_addr": !!int |-
+        23931
+    "translated": !!null |-
+      null
+  "5d86":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>町長<C_NONE>
+      ３世 !!
+      やっぱり お前だったのか。
+    "original_byte_length": !!int |-
+      41
+    "references":
+    - "source_addr": !!int |-
+        54887
+      "target_addr": !!int |-
+        23942
+    "translated": !!null |-
+      null
+  "5daf":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CH0>
+      町長さん。
+      これは どういうことですか？
+
+      <C_YELLOW>町長<C_NONE>
+      わしゃ もともと 地上の人間で
+      ゲイルというんじゃ。<WAIT>
+      そいつは わしの 孫じゃよ。
+
+      まあ こんな話は あとでいい。
+      早く ここから脱出しよう。
+    "original_byte_length": !!int |-
+      181
+    "references":
+    - "source_addr": !!int |-
+        54905
+      "target_addr": !!int |-
+        23983
+    "translated": !!null |-
+      null
+"note": ""

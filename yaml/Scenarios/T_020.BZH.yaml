@@ -1,0 +1,194 @@
+"entries":
+  "5bb7":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      こけ～っ !?
+    "original_byte_length": !!int |-
+      12
+    "references":
+    - "source_addr": !!int |-
+        54646
+      "target_addr": !!int |-
+        23479
+    "translated": !!null |-
+      null
+  "5bc3":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      大地震で 竜の卵が 出てきたんだよ。きっと 今まで 地下に 埋まって
+      いたんだな。
+    "original_byte_length": !!int |-
+      82
+    "references":
+    - "source_addr": !!int |-
+        54655
+      "target_addr": !!int |-
+        23491
+    "translated": !!null |-
+      null
+  "5c15":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": "<C_YELLOW>男<C_NONE>\n<IF0404><JUMP5c79><SET0404>おや 見かけない子だな。\nどこから来たんだ？\n\
+      \n<CH0>\nえっ えーと ルディアから。\n\n<C_YELLOW>男<C_NONE>\nそうか、<LOC5c79>ルディアといえば 武器屋の\n\
+      スコットがいるだろ。\n\nあいつな この前の 地震のときに\n壁に かけてあった武器が 全部 \n自分めがけて 落ちてきたんだけど\nかすりきず ひとつしなかったんだと。\n\
+      \nおれが 前に行ったときには まだ\nそのショックで 寝込んでたんだけど\n今は もう店を やってるんだろ？"
+    "original_byte_length": !!int |-
+      372
+    "references":
+    - "source_addr": !!int |-
+        54664
+      "target_addr": !!int |-
+        23573
+    "translated": !!null |-
+      null
+  "5d89":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      <IF000b><JUMP5e0b>あんな所に 竜の卵が 埋まっていた
+      なんて 全然知らなかったよ。
+
+      そのうち 女神 フレイアさまが
+      出てくるんじゃないだろうか。<END>
+      <LOC5e0b><SET0012><ASMd6ec>なに ピートが 復旧作業を 手伝いに
+      来いと 言っているのか。
+      あの地震は すごかったからな ･ ･ ･
+
+      よし 村の者を連れて 手伝いに行こう。ぼうず、わざわざ すまなかったな。
+    "original_byte_length": !!int |-
+      298
+    "references":
+    - "source_addr": !!int |-
+        54673
+      "target_addr": !!int |-
+        23945
+    "translated": !!null |-
+      null
+  "5eb3":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      スライムが 畑を荒して 困ってるだ。
+    "original_byte_length": !!int |-
+      40
+    "references":
+    - "source_addr": !!int |-
+        54682
+      "target_addr": !!int |-
+        24243
+    "translated": !!null |-
+      null
+  "5edb":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>女<C_NONE>
+      <IF0012><JUMP6064><IF000b><JUMP600f><IF0018><JUMP5fd9>この村の アロンさんって長老さん
+      知ってる？
+
+      昔から セリオス国王の 相談役を
+      していたほどの 人なのよ。
+
+      でも何年か前に お城を出て あそこで一人暮らしを してるんだけど
+      いつも ひなたぼっこをしてるの。
+      とても そんな人だとは 思えないわよ。<END>
+      <LOC5fd9>アロンさんなら ルディアの町に
+      行くって 言ってたわよ。<END>
+      <LOC600f>まあ、ピートさんが 困ってるの？
+      それなら うらの畑にいる男の人に
+      言ってごらんなさい。<END>
+      <LOC6064>ピートさんも大変ね。
+      早く 鉱山が 復旧すればいいけど。
+    "original_byte_length": !!int |-
+      447
+    "references":
+    - "source_addr": !!int |-
+        54691
+      "target_addr": !!int |-
+        24283
+    "translated": !!null |-
+      null
+  "609a":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ロー<C_NONE>
+      <IF0010><JUMP6256><SET0010>んっ !?
+
+      おい チビ。お前 もしかすると
+      アトラス王子じゃねえか？
+
+      <CH0>
+      えっ ま、まさか。
+      ぼくは 王子なんかじゃないよ。
+
+      <C_YELLOW>ロー<C_NONE>
+      ごまかすんじゃねえよ、その顔見りゃわかるさ。
+      セリオスに そっくりだぜ。
+
+      <CH0>
+      ど、どうして 父上のことを !?
+
+      <C_YELLOW>ロー<C_NONE>
+      あいつとは ずっと昔 いっしょに旅をしてたことが あったんだ。
+
+      何度も あいつの命を 助けてやった
+      もんだぜ ･ ･ ･
+
+      <CH0>
+      じゃあ 父上の 命の恩人？
+
+      <C_YELLOW>ロー<C_NONE>
+      そりゃ そうだぜ。
+      でも あまり 言いふらすんじゃねえぞ。<END>
+      <LOC6256>おい チビ。
+      おれのことを あまり 言いふらすなよ。
+    "original_byte_length": !!int |-
+      493
+    "references":
+    - "source_addr": !!int |-
+        54700
+      "target_addr": !!int |-
+        24730
+    "translated": !!null |-
+      null
+  "6287":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": "<IF0011><JUMP63e0><ASMd708><SET0011><CH0>\nやあ アロン、元気そうだね。\n\n<C_YELLOW>アロン<C_NONE>\n\
+      はっ !! これは アトラス王子。\nお久しぶりでございます。\nその お姿は ･ ･ ･\n\n以前、セリオス国王さまが\nお使いになっていた物ですな。\n\
+      なんと勇ましきお姿 ･ ･ ･ \n\nまるで 若き日の セリオスさまの\nようでございます。\n王子さまも これほどにまで\nご成長なされて ･ ･\
+      \ ･\n\nじいは ･ ･ ･\nじいは うれしゅうございます。<END>\n<LOC63e0><C_YELLOW>アロン<C_NONE>\n<IF000c><JUMP6424>王子さまも\
+      \ もうすぐ１６才に\nなられるのですなぁ ･ ･ ･<END>\n<LOC6424>王子、りっぱな国王と なるためにも\n世界中の いろいろな物を じっくりと見てきてください。"
+    "original_byte_length": !!int |-
+      500
+    "references":
+    - "source_addr": !!int |-
+        54730
+      "target_addr": !!int |-
+        25223
+    "translated": !!null |-
+      null
+"note": ""

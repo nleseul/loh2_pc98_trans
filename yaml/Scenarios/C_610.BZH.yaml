@@ -1,0 +1,20 @@
+"entries":
+  "5aa6":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      ここは もう 確保しました。
+      先を急いでください。
+    "original_byte_length": !!int |-
+      53
+    "references":
+    - "source_addr": !!int |-
+        54694
+      "target_addr": !!int |-
+        23206
+    "translated": !!null |-
+      null
+"note": ""

@@ -1,0 +1,458 @@
+"entries":
+  "5c75":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>オセ<C_NONE>
+      わしが このシリカの村の村長じゃ。
+      昔は わしとゲームをした者にだけ
+      呪文を教えていたのじゃ。
+
+      でも、今は ゲームの 相手をしても
+      何も 教えてあげないのじゃよ。
+      わっはっは ･ ･ ･
+    "original_byte_length": !!int |-
+      178
+    "references":
+    - "source_addr": !!int |-
+        54627
+      "target_addr": !!int |-
+        23669
+    "translated": !!null |-
+      null
+  "5d27":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>セオラ<C_NONE>
+      おやおや 珍しい。
+      こんな 老人ばかりの村に
+      お客さんが お見えになるなんて。
+    "original_byte_length": !!int |-
+      83
+    "references":
+    - "source_addr": !!int |-
+        54636
+      "target_addr": !!int |-
+        23847
+    "translated": !!null |-
+      null
+  "5d7a":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>セリム<C_NONE>
+      ここに打つと あれがこうなるから
+      あそこに打って、そうしたら
+      ぶつ ぶつ ･ ･ ･
+    "original_byte_length": !!int |-
+      84
+    "references":
+    - "source_addr": !!int |-
+        54651
+      "target_addr": !!int |-
+        23930
+    "translated": !!null |-
+      null
+  "5dce":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>オレム<C_NONE>
+      イラ イラ イラ
+      いつまで 考えとるんじゃ まったく
+      イラ イラ イラ イラ
+    "original_byte_length": !!int |-
+      77
+    "references":
+    - "source_addr": !!int |-
+        54666
+      "target_addr": !!int |-
+        24014
+    "translated": !!null |-
+      null
+  "5e1b":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>アベル<C_NONE>
+      ハッハッハ これで どうじゃ？
+    "original_byte_length": !!int |-
+      38
+    "references":
+    - "source_addr": !!int |-
+        54681
+      "target_addr": !!int |-
+        24091
+    "translated": !!null |-
+      null
+  "5e41":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>タバル<C_NONE>
+      ムムムッ また負けそうじゃ ･ ･ ･
+      また 地震でも 起こらぬかのお ･ ･ ･
+    "original_byte_length": !!int |-
+      76
+    "references":
+    - "source_addr": !!int |-
+        54690
+      "target_addr": !!int |-
+        24129
+    "translated": !!null |-
+      null
+  "5e8d":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>リゾン<C_NONE>
+      この新しいゲームが できたら きっと話題になることじゃろう。
+      今から 名前を 考えておくかな。
+    "original_byte_length": !!int |-
+      99
+    "references":
+    - "source_addr": !!int |-
+        54699
+      "target_addr": !!int |-
+        24205
+    "translated": !!null |-
+      null
+  "5ef0":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ガンク<C_NONE>
+      やっぱり ゲームというものは
+      おもしろいものじゃわい。
+    "original_byte_length": !!int |-
+      62
+    "references":
+    - "source_addr": !!int |-
+        54708
+      "target_addr": !!int |-
+        24304
+    "translated": !!null |-
+      null
+  "5f2e":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ハンナ<C_NONE>
+      おじいさんたら たまたま ゲームで
+      勝ったものだから よろこんでいて
+      たいへんなんですよ。
+    "original_byte_length": !!int |-
+      95
+    "references":
+    - "source_addr": !!int |-
+        54717
+      "target_addr": !!int |-
+        24366
+    "translated": !!null |-
+      null
+  "5f8d":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ロデリック<C_NONE>
+      <IF0204><JUMP604f>はて そこの一番でかいの。
+      お前さん わしのこと知らぬか？
+
+      <CH3>
+      シンディ 知らない。
+
+      <C_YELLOW>ロデリック<C_NONE>
+      そうか それは よかった。
+
+      <CH0>
+      なにか あるんですか？
+
+      <C_YELLOW>ロデリック<C_NONE>
+      いや なんでもない。<END>
+      <LOC604f>ランドー お前と いっしょにいた
+      でかいやつは どうしたんじゃ？
+
+      じつはな ･ ･ ･ あいつは わしが
+      変身の呪文を 研究しているときに
+      やってきてな。
+
+      あいつに 呪文をかけてみたのじゃが
+      失敗して あんな体になったのじゃ。
+      呪文が完成したら 元に戻してやると
+      伝えておいてくれ。
+
+      <CH1>
+      てめえ ボケじじい !!
+      人のこと バカにしといて 自分だって呪文を 失敗したんじゃねえか。
+
+      <IF0208><JUMP61e6>あいつはなぁ もう 戻ってこねえよ。かわいそうに ･ ･ ･<END>
+      <LOC61e6><C_YELLOW>ロデリック<C_NONE>
+      いや ランドー きいてくれぬか。
+
+      あれは モンスターが 出てきて
+      セリオスどのが ドラゴンに 乗って
+      この国を 出られてからじゃった。
+
+      ある日 そのドラゴンが わしの所に
+      来たのじゃよ。
+
+      そいつは 何か言いたそうなんじゃが
+      ことばが 話せぬものだから わしも
+      困っていたのじゃ。
+
+      そのうち じれったくなり 実験を
+      かねて 人間に変身させれば
+      言いたいことが わかると思い
+      変身の呪文を かけてみたのじゃ。
+
+      まあ 結果は まずまずだった。
+
+      <CH1>
+      どこが まずまずなんだよ。
+
+      <C_YELLOW>ロデリック<C_NONE>
+      そうなんじゃよ ･ ･ ･
+      大事なことを 忘れていたのじゃ。
+
+      変身したとたんに それまでの 記憶がなくなってしまうのじゃ。
+
+      まあ 実際には 人間のことばで
+      考えるから それ以前にあった記憶が
+      認識できないだけなのじゃがな。
+
+      その辺が これからの課題なんじゃ。
+      何とかしなければ ･ ･ ･
+
+      <CH1>
+      こりねえ ジジイだぜ。
+    "original_byte_length": !!int |-
+      1349
+    "references":
+    - "source_addr": !!int |-
+        54726
+      "target_addr": !!int |-
+        24461
+    "translated": !!null |-
+      null
+  "64d2":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>オレア<C_NONE>
+      昔 わしら賢者は ラスタバンという
+      地から 各地にちらばり 人々に呪文を教えてあげていたのじゃ。
+
+      しかし 呪文の書が 売買されるようになってしまって わしらの役目も
+      なくなってしまってのう。
+
+      この辺で ゲームをやりはじめたら
+      だんだんと 人があつまってきて
+      村にまで発展したのじゃよ。
+    "original_byte_length": !!int |-
+      279
+    "references":
+    - "source_addr": !!int |-
+        54735
+      "target_addr": !!int |-
+        25810
+    "translated": !!null |-
+      null
+  "65e9":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>アルノー<C_NONE>
+      ロンドの武器屋は 呪文がよく売れて
+      もうかっとるから 売り上げの半分を
+      わしにくれるそうじゃ。
+    "original_byte_length": !!int |-
+      102
+    "references":
+    - "source_addr": !!int |-
+        54744
+      "target_addr": !!int |-
+        26089
+    "translated": !!null |-
+      null
+  "664f":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ディーム<C_NONE>
+      どの呪文の書が いるのじゃ？<RET_N>
+    "original_byte_length": !!int |-
+      39
+    "references":
+    - "source_addr": !!int |-
+        54761
+      "target_addr": !!int |-
+        26191
+    "translated": !!null |-
+      null
+  "6676":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      いらぬのか。
+      それでは 必要なときに 来るがいい。
+    "original_byte_length": !!int |-
+      48
+    "references":
+    - "source_addr": !!int |-
+        54789
+      "target_addr": !!int |-
+        26230
+    "translated": !!null |-
+      null
+  "66a6":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ITEM>でよいのじゃな。
+    "original_byte_length": !!int |-
+      18
+    "references":
+    - "source_addr": !!int |-
+        54800
+      "target_addr": !!int |-
+        26278
+    "translated": !!null |-
+      null
+  "66b8":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      もう それ以上 持てぬぞ。
+      持ち物を 減らしてから 来なされ。
+    "original_byte_length": !!int |-
+      58
+    "references":
+    - "source_addr": !!int |-
+        54756
+      "target_addr": !!int |-
+        26296
+    "translated": !!null |-
+      null
+  "66f2":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>マルク<C_NONE>
+      わしゃ 呪文が 売られとる町を
+      教える 案内係のようなものじゃ。
+
+      <RET>
+    "original_byte_length": !!int |-
+      71
+    "references":
+    - "source_addr": !!int |-
+        54806
+      "target_addr": !!int |-
+        26354
+    "translated": !!null |-
+      null
+  "6739":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      どの呪文のことを 知りたいのじゃ？<RET_N>
+    "original_byte_length": !!int |-
+      34
+    "references":
+    - "source_addr": !!int |-
+        54812
+      "target_addr": !!int |-
+        26425
+    "translated": !!null |-
+      null
+  "675b":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CLEAR><ITEM>か ･ ･ ･
+      それだったら <RET>
+    "original_byte_length": !!int |-
+      25
+    "references":
+    - "source_addr": !!int |-
+        54831
+      "target_addr": !!int |-
+        26459
+    "translated": !!null |-
+      null
+  "6774":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      に 行けば
+      売っておる。
+
+      <RET>
+    "original_byte_length": !!int |-
+      24
+    "references":
+    - "source_addr": !!int |-
+        54875
+      "target_addr": !!int |-
+        26484
+    "translated": !!null |-
+      null
+  "678c":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CLEAR>呪文の ある所を 知りたかったら
+      また来るがいい。
+    "original_byte_length": !!int |-
+      49
+    "references":
+    - "source_addr": !!int |-
+        54883
+      "target_addr": !!int |-
+        26508
+    "translated": !!null |-
+      null
+"note": ""

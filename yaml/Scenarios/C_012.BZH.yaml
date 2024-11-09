@@ -1,0 +1,296 @@
+"entries":
+  "5afb":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ディーナ王妃<C_NONE>
+      <IF0016><JUMP5d1c><SET0016>アトラス ご苦労さまでした。
+      報告によると すべての 竜の卵が
+      以前のように 戻ったそうです。
+
+      あとは 国王さまたちの ぐあいが
+      よくなりしだい たいかんの儀式を
+      行うことに しましょう。
+
+      <CH1>
+      おー すげえじゃねえか アトラス。<WAIT>
+      でも その前に ひと仕事しなくちゃな。
+
+      <CH0>
+      そうなんです 母上。
+
+      もう少し しなければ 詳しいことは
+      話せませんが まだ 竜の卵のさわぎの後始末をしなければ ならないのです。
+
+      <C_YELLOW>ディーナ王妃<C_NONE>
+      まあ まだ何か あるのですか ･ ･ ･
+
+      でも あなたたちは あれだけのことをやってのけたのですから いまさら
+      心配することなど ありませんね。
+
+      <LOC5d1c>あなたたちが ぶじに 戻って
+      くることを 祈っています。
+    "original_byte_length": !!int |-
+      598
+    "references":
+    - "source_addr": !!int |-
+        54633
+      "target_addr": !!int |-
+        23291
+    "translated": !!null |-
+      null
+  "5d51":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>フェリシア<C_NONE>
+      まだ 何かしなければ ならないことがあるのですか？
+
+      あなたの その行動的なところは
+      よいのですが くれぐれも 無謀な
+      ことを しないようにするのですよ。
+    "original_byte_length": !!int |-
+      157
+    "references":
+    - "source_addr": !!int |-
+        54648
+      "target_addr": !!int |-
+        23889
+    "translated": !!null |-
+      null
+  "5dee":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      王子さまのおかげで 竜の卵も もとに戻りましたし モンスターも いなく
+      なりました。
+    "original_byte_length": !!int |-
+      87
+    "references":
+    - "source_addr": !!int |-
+        54657
+      "target_addr": !!int |-
+        24046
+    "translated": !!null |-
+      null
+  "5e45":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      王子さま あのモンスターは いったい何だったのですか？
+
+      以前 さわぎになった 破壊神
+      アグニージャとかいうやつと 何か
+      関係があるのですか？
+    "original_byte_length": !!int |-
+      140
+    "references":
+    - "source_addr": !!int |-
+        54666
+      "target_addr": !!int |-
+        24133
+    "translated": !!null |-
+      null
+  "5ed1":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      王子さま どのようにして 竜の卵を
+      もとに戻したのですか？
+
+      竜の卵に 入れるのは ラヌーラの
+      司祭 バーバラさまだけだと きいて
+      おりますが ･ ･ ･
+    "original_byte_length": !!int |-
+      144
+    "references":
+    - "source_addr": !!int |-
+        54675
+      "target_addr": !!int |-
+        24273
+    "translated": !!null |-
+      null
+  "5f61":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      セリオスさまたちが あのように
+      大けがを なさるとは ･ ･ ･
+      王子さまも お気をつけください。
+    "original_byte_length": !!int |-
+      95
+    "references":
+    - "source_addr": !!int |-
+        54684
+      "target_addr": !!int |-
+        24417
+    "translated": !!null |-
+      null
+  "5fc0":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      ソルディスでは 司祭 バーバラさまが竜の卵を 正常にしたという うわさが広がっているそうです。
+    "original_byte_length": !!int |-
+      98
+    "references":
+    - "source_addr": !!int |-
+        54693
+      "target_addr": !!int |-
+        24512
+    "translated": !!null |-
+      null
+  "6022":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      王子さま セリオスさまたちは どこであのようなけがを されたのですか？
+    "original_byte_length": !!int |-
+      75
+    "references":
+    - "source_addr": !!int |-
+        54702
+      "target_addr": !!int |-
+        24610
+    "translated": !!null |-
+      null
+  "606d":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      王子さま あのさわぎの原因は
+      いったい 何だったのですか？
+
+      女神 フレイアさまが お怒りに
+      なったという うわさが 広まっているようですが ･ ･ ･
+    "original_byte_length": !!int |-
+      143
+    "references":
+    - "source_addr": !!int |-
+        54711
+      "target_addr": !!int |-
+        24685
+    "translated": !!null |-
+      null
+  "60fc":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      王子さま あまり 無理をしないようにしてください。
+    "original_byte_length": !!int |-
+      56
+    "references":
+    - "source_addr": !!int |-
+        54720
+      "target_addr": !!int |-
+        24828
+    "translated": !!null |-
+      null
+  "6134":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>教育係 ラウエル<C_NONE>
+      <Xf624d6><JUMP61dd>おお そうでしたな。
+      もう その親書は あまり意味が
+      なくなったようですな。
+
+      私が お預かりしましょう。
+
+      <ASMd631><ITEM><C_GREEN>を 渡しました。
+      <C_NONE><ASMd639><ITEM><C_GREEN>を 渡しました。<SND0103><C_NONE>
+
+      <LOC61dd>王子さま どうか 無理をなさらずに
+      元気な姿で お戻りください。
+    "original_byte_length": !!int |-
+      230
+    "references":
+    - "source_addr": !!int |-
+        54729
+      "target_addr": !!int |-
+        24884
+    "translated": !!null |-
+      null
+  "621a":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>セリオス<C_NONE>
+      きさまら ･ ･ ･ 地上を ･ ･ ･
+    "original_byte_length": !!int |-
+      39
+    "references":
+    - "source_addr": !!int |-
+        54744
+      "target_addr": !!int |-
+        25114
+    "translated": !!null |-
+      null
+  "6241":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>エリオン<C_NONE>
+      きさまらに ･ ･ ･ 支配など ･ ･ ･
+      させん ･ ･ ･
+    "original_byte_length": !!int |-
+      56
+    "references":
+    - "source_addr": !!int |-
+        54759
+      "target_addr": !!int |-
+        25153
+    "translated": !!null |-
+      null
+  "6279":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ゲイル３世<C_NONE>
+      てめえら ･ ･ ･ おぼえてろ ･ ･ ･
+    "original_byte_length": !!int |-
+      45
+    "references":
+    - "source_addr": !!int |-
+        54774
+      "target_addr": !!int |-
+        25209
+    "translated": !!null |-
+      null
+"note": ""

@@ -269,15 +269,40 @@ class X86CodeHook:
         pass
 
 
+class EmptyHook(X86CodeHook):
+    def __init__(self, addr:int, is_call:bool, next_ip:int=None, stop:bool = False):
+        self._addr = addr
+        self._is_call = is_call
+        self._next_ip = next_ip
+        self._stop = stop
+
+    def get_next_ip(self, instruction):
+        if self._stop:
+            return None
+        elif self._next_ip is None:
+            return super().get_next_ip(instruction)
+        else:
+            return self._next_ip
+
+    def should_handle(self, instruction):
+        if self._is_call:
+            return (X86_GRP_CALL in instruction.groups or X86_GRP_JUMP in instruction.groups) and instruction.operands[0].type == CS_OP_IMM and instruction.operands[0].imm == self._addr
+        else:
+            return instruction.address == self._addr
+
+    def generate_links(self, instruction, block_pool, current_block, registers):
+        pass
+
+
 class X86CodeBlock(Block):
 
     _hooks:typing.List[X86CodeHook] = []
 
     def __init__(self, data:typing.ByteString, base_addr:int, start_addr:int, params:dict):
-        super().__init__(data, base_addr, start_addr, params)
-
         if 'hooks' in params and params['hooks'] is not None:
             self._hooks = params['hooks']
+
+        super().__init__(data, base_addr, start_addr, params)
 
 
     def dump(self):
@@ -336,7 +361,11 @@ class X86CodeBlock(Block):
 
         done = False
         while not done:
-            instruction = next(disasm_iter)
+            try:
+                instruction = next(disasm_iter)
+            except StopIteration:
+                print(f"Disassembly ended without terminator in code block starting at {self._start_addr:04x}")
+                break
 
             hook_found = False
             for hook in self._hooks:
@@ -381,7 +410,11 @@ class X86CodeBlock(Block):
 
             done = False
             while not done:
-                instruction = next(disasm_iter)
+                try:
+                    instruction = next(disasm_iter)
+                except StopIteration:
+                    print(f"Disassembly ended without terminator in code block starting at {self._start_addr:04x}")
+                    break
 
                 hook_found = False
                 for hook in self._hooks:
@@ -434,20 +467,23 @@ class X86CodeBlock(Block):
                         else:
                             print(f"Loop to non-immediate address from {instruction.address:04x}!!")
                     elif X86_GRP_CALL in instruction.groups:
-                        destination = instruction.operands[0].value.imm
+                        if instruction.operands[0].type == CS_OP_IMM:
+                            destination = instruction.operands[0].value.imm
 
-                        link = Link(instruction.address + 1, destination, source_instruction_addr=instruction.address, execution_context=registers.copy())
+                            link = Link(instruction.address + 1, destination, source_instruction_addr=instruction.address, execution_context=registers.copy())
 
-                        if (destination < self._base_addr or destination >= self._base_addr + len(self._data)):
-                            link.connect_blocks(self, None)
-                            self.add_global_reference(instruction.address + 1, destination)
+                            if (destination < self._base_addr or destination >= self._base_addr + len(self._data)):
+                                link.connect_blocks(self, None)
+                                self.add_global_reference(instruction.address + 1, destination)
+                            else:
+                                target_block = block_pool.get_block("code", destination)
+                                link.connect_blocks(self, target_block)
+
+                            # Subroutine calls might do anything, so nuke everything we know about the registers at this point.
+                            for r in list(registers.keys()):
+                                del registers[r]
                         else:
-                            target_block = block_pool.get_block("code", destination)
-                            link.connect_blocks(self, target_block)
-
-                        # Subroutine calls might do anything, so nuke everything we know about the registers at this point.
-                        for r in list(registers.keys()):
-                            del registers[r]
+                            print(f"Call to non-immediate address from {instruction.address:04x}!!")
 
                     elif X86_GRP_RET in instruction.groups:
                         done = True

@@ -1,0 +1,209 @@
+"entries":
+  "60cd":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ガービィ<C_NONE>
+      来たな 皇帝陛下に そむく おろかな
+      レジスタンスどもめ。
+
+      このおれさまの使命は 皇帝陛下を
+      お守りすること。
+
+      ここから先は だれにも 行かせん。
+    "original_byte_length": !!int |-
+      148
+    "references":
+    - "source_addr": !!int |-
+        54879
+      "target_addr": !!int |-
+        24781
+    "translated": !!null |-
+      null
+  "6161":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ガービィ<C_NONE>
+      な 何だ !? この曲は ･ ･ ･<WAIT>
+      か 体が ･ ･ ･
+    "original_byte_length": !!int |-
+      51
+    "references":
+    - "source_addr": !!int |-
+        54935
+      "target_addr": !!int |-
+        24929
+    "translated": !!null |-
+      null
+  "6194":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>レイシア<C_NONE>
+      お父さん !!
+
+      <C_YELLOW>ガービィ<C_NONE>
+      おお レイシア !!
+      おれは ここで 何をしていたのだ？
+
+      たしか おれひとりで 捕まって
+      城に連れて行かれ 変な台の上で
+      何かを されたところまでは
+      覚えているんだが ･ ･ ･
+
+      <CH0>
+      ガービィさん あなたは それから
+      ずっと 気を失っていただけです。
+
+      <C_YELLOW>レイシア<C_NONE>
+      アトラスさん ･ ･ ･
+
+      <C_YELLOW>ガービィ<C_NONE>
+      ところで とうとう 始まったのか？
+
+      <C_YELLOW>レイシア<C_NONE>
+      ええ。<WAIT>
+      やっと 指導者としてふさわしい人が
+      見つかったのよ。
+
+      あとで 詳しい話を 教えてあげるわ。お父さん ここで 待っていてくれる？皇帝が 強力な力を 得る前に
+      倒したいのよ。
+
+      <C_YELLOW>ガービィ<C_NONE>
+      ああ かまわん。
+      おれのことなど 気にせずに 皇帝を
+      倒してきてくれ。
+
+      <CH1>
+      よし それじゃ 早く 皇帝を
+      追いかけようぜ。
+
+      <CH0>
+      ちょっと 待ってくれ。
+
+      <ASMd9ec><Xf7>ここから先は ぼくひとりで行く
+      みんなは 危険だから 待っていてくれ。
+
+      <C_YELLOW>レイシア<C_NONE>
+      私は 絶対に 行くわよ。
+      これは 私たちの問題なんだから。
+
+      <CH2>
+      私だって フレイアさまのためにも
+      行かなくてはなりませんわ。
+
+      <CH1>
+      おいアトラス このおれが いながら
+      いいところを お前の ひとりじめに
+      させるとでも思ってるのか？
+
+      <CH3>
+      シンディ 強い。
+      皇帝 倒す。
+
+      <CH0>
+      そうか ･ ･ ･ みんな ありがとう。
+
+      <CH1>
+      さあ いつまでも こんなことしてると皇帝に逃げられちまうぞ。
+
+      <CH0>
+      よし それじゃ ５人で行こう !!
+    "original_byte_length": !!int |-
+      1116
+    "references":
+    - "source_addr": !!int |-
+        54976
+      "target_addr": !!int |-
+        24980
+    "translated": !!null |-
+      null
+  "65f0":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>レイシア<C_NONE>
+      どうして あなたたちが ここに？
+
+      わかったわ。
+      また あのワプの翼とかってやつを
+      使ったのね。
+    "original_byte_length": !!int |-
+      100
+    "references":
+    - "source_addr": !!int |-
+        55039
+      "target_addr": !!int |-
+        26096
+    "translated": !!null |-
+      null
+  "6654":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CH1>
+      おい アトラス。
+      今ごろ 来ても 皇帝は おれたちが
+      倒しちまったぜ。
+
+      <CH2>
+      うそですよ アトラスさま。
+      さあ 早く 行きましょう。
+    "original_byte_length": !!int |-
+      122
+    "references":
+    - "source_addr": !!int |-
+        55053
+      "target_addr": !!int |-
+        26196
+    "translated": !!null |-
+      null
+  "66ce":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ガービィ<C_NONE>
+      おれのことは 心配するな。
+      長年の夢を 実現するのだ。
+    "original_byte_length": !!int |-
+      63
+    "references":
+    - "source_addr": !!int |-
+        55097
+      "target_addr": !!int |-
+        26318
+    "translated": !!null |-
+      null
+  "670d":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CH1>
+      おい アトラス。
+      どこに 行くつもりなんだ？<WAIT>
+      まさか 逃げるつもりじゃねえよな？
+    "original_byte_length": !!int |-
+      79
+    "references":
+    - "source_addr": !!int |-
+        55128
+      "target_addr": !!int |-
+        26381
+    "translated": !!null |-
+      null
+"note": ""

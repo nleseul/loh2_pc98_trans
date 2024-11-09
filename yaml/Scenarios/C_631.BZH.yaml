@@ -1,0 +1,71 @@
+"entries":
+  "5e44":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <PARTY>は 宝箱を開けました。
+      宝箱の中には<RET>
+    "original_byte_length": !!int |-
+      36
+    "references":
+    - "source_addr": !!int |-
+        54694
+      "target_addr": !!int |-
+        24132
+    "translated": !!null |-
+      null
+  "5e7d":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <PARTY>は 不思議な宝箱を
+      開けました。
+
+      <RET>
+    "original_byte_length": !!int |-
+      33
+    "references":
+    - "source_addr": !!int |-
+        54751
+      "target_addr": !!int |-
+        24189
+    "translated": !!null |-
+      null
+  "5e9e":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      宝箱の中には<RET>
+    "original_byte_length": !!int |-
+      13
+    "references":
+    - "source_addr": !!int |-
+        54773
+      "target_addr": !!int |-
+        24222
+    "translated": !!null |-
+      null
+  "5eab":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      しかし 宝箱の中には 何も入って
+      いませんでした。
+    "original_byte_length": !!int |-
+      48
+    "references":
+    - "source_addr": !!int |-
+        54765
+      "target_addr": !!int |-
+        24235
+    "translated": !!null |-
+      null
+"note": ""

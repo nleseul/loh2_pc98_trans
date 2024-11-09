@@ -1,0 +1,136 @@
+"entries":
+  "5ac6":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>エリオン国王<C_NONE>
+      <UNSET0404><IF0069><JUMP5e27><SET0069>んっ !? 何か用かね？<WAIT>
+      <ASMd615><Xf7><CLEAR><CH0>
+      はじめまして。
+      ファーレーンの王子 アトラスです。
+      父上から 手紙を預かってきました。
+
+      <ASMd60d><ITEM><C_GREEN>を 渡しました。<SND0103><C_NONE>
+
+      <C_YELLOW>エリオン国王<C_NONE>
+      ファーレーンから ･ ･ ･
+      わざわざ 王子が おいでになるとは
+      どうなさったのですか？
+
+      <CH0>
+      はい 親書を渡しながら 各国を見学
+      しているのです。
+
+      このあと ソルディスと モレストンに行こうと思っています。
+
+      <C_YELLOW>エリオン国王<C_NONE>
+      なるほど セリオス王も お考えに
+      なったことだ。
+      世界見学というわけですな？
+
+      それでは アトラス王子。
+      竜の祭のことは ご存じですかな？
+
+      せっかく おいでになったのですから
+      ごらんになって いってください。
+
+      <CH0>
+      はい よろこんで。
+      ぼくも 竜の祭は 見せてもらおうと
+      思っていたんです。
+
+      でも 気づかいは しないでください。祭の日になったら また うかがいます。それまで 国を 見学させてください。
+
+      <C_YELLOW>エリオン国王<C_NONE>
+      わかりました それまで 王子のことは内緒にしておきましょう。
+      ごゆっくり 見学なさって ください。<END>
+      <LOC5e27>祭の前日は 前夜祭があります。
+      それまでには お戻りください。
+    "original_byte_length": !!int |-
+      925
+    "references":
+    - "source_addr": !!int |-
+        54655
+      "target_addr": !!int |-
+        23238
+    "translated": !!null |-
+      null
+  "5e63":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ポウエル<C_NONE>
+      私は 以前 城に仕えていたパウエルの弟で ポウエルと申します。
+
+      兄が 胃をやられてしまったので
+      私が代わりに お仕えしているのです。
+    "original_byte_length": !!int |-
+      137
+    "references":
+    - "source_addr": !!int |-
+        54664
+      "target_addr": !!int |-
+        24163
+    "translated": !!null |-
+      null
+  "5eec":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      この左の方の部屋は 国王さまの
+      私室なので 行くんじゃないぞ。
+    "original_byte_length": !!int |-
+      67
+    "references":
+    - "source_addr": !!int |-
+        54673
+      "target_addr": !!int |-
+        24300
+    "translated": !!null |-
+      null
+  "5f2f":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      国王さまは この中だ。
+      ちょうど 祭の 打ち合わせ中だから
+      あまり 時間をかけないようにな。
+    "original_byte_length": !!int |-
+      94
+    "references":
+    - "source_addr": !!int |-
+        54682
+      "target_addr": !!int |-
+        24367
+    "translated": !!null |-
+      null
+  "5f8d":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      こんなに 忙しいのに 国民の話を
+      ちゃんと きいてくれるんだから
+      いい国王さまだと 思わないか？
+    "original_byte_length": !!int |-
+      98
+    "references":
+    - "source_addr": !!int |-
+        54691
+      "target_addr": !!int |-
+        24461
+    "translated": !!null |-
+      null
+"note": ""

@@ -1,0 +1,66 @@
+"entries":
+  "7170":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      16
+    "original": |-
+      スライムＡ<RET>
+    "original_byte_length": !!int |-
+      11
+    "references": []
+    "translated": |-
+      Slime A<RET>
+  "71b0":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      16
+    "original": |-
+      スライムＢ<RET>
+    "original_byte_length": !!int |-
+      11
+    "references": []
+    "translated": |-
+      Slime B<RET>
+  "71f0":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      16
+    "original": |-
+      スライムＣ<RET>
+    "original_byte_length": !!int |-
+      11
+    "references": []
+    "translated": |-
+      Slime C<RET>
+  "7230":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      16
+    "original": |-
+      スライムＤ<RET>
+    "original_byte_length": !!int |-
+      11
+    "references": []
+    "translated": |-
+      Slime D<RET>
+  "72be":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      スライムが現れた。<RET_N>
+    "original_byte_length": !!int |-
+      19
+    "references":
+    - "source_addr": !!int |-
+        61000
+      "target_addr": !!int |-
+        29374
+    "translated": |-
+      Slimes appear.<RET_N>
+"note": ""

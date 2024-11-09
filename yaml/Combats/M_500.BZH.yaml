@@ -1,0 +1,118 @@
+"entries":
+  "7170":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      16
+    "original": |-
+      ゴドウィン２世<RET>
+    "original_byte_length": !!int |-
+      15
+    "references": []
+    "translated": !!null |-
+      null
+  "71b0":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      16
+    "original": |-
+      Ｍ５００Ｂ<RET>
+    "original_byte_length": !!int |-
+      11
+    "references": []
+    "translated": !!null |-
+      null
+  "71f0":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      16
+    "original": ""
+    "original_byte_length": !!int |-
+      1
+    "references": []
+    "translated": !!null |-
+      null
+  "7230":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      16
+    "original": ""
+    "original_byte_length": !!int |-
+      1
+    "references": []
+    "translated": !!null |-
+      null
+  "74ac":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      皇帝 ゴドウィン２世との戦闘だ。<RET_N>
+    "original_byte_length": !!int |-
+      32
+    "references":
+    - "source_addr": !!int |-
+        61000
+      "target_addr": !!int |-
+        29868
+    "translated": !!null |-
+      null
+  "74cc":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |2-
+
+
+      <CLEAR><ACTOR>
+      なかなか 手ごたえのあるやつだ。
+      そろそろ 本気を出してやろう。
+
+      <RET>
+    "original_byte_length": !!int |-
+      67
+    "references":
+    - "source_addr": !!int |-
+        61488
+      "target_addr": !!int |-
+        29900
+    "translated": !!null |-
+      null
+  "750f":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>は大きくはばたいた。<RET_N>
+    "original_byte_length": !!int |-
+      22
+    "references":
+    - "source_addr": !!int |-
+        61275
+      "target_addr": !!int |-
+        29967
+    "translated": !!null |-
+      null
+  "7525":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>は炎のブレスをはいた。<RET_N>
+    "original_byte_length": !!int |-
+      24
+    "references":
+    - "source_addr": !!int |-
+        61290
+      "target_addr": !!int |-
+        29989
+    "translated": !!null |-
+      null
+"note": ""

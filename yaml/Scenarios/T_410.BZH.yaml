@@ -1,0 +1,387 @@
+"entries":
+  "5bbe":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CH0>
+      すごい 迫力だね。
+
+      <CH1>
+      ふん。
+      あんなの おれが 本気になったら
+      ひとひねりだぜ。
+
+      <CH2>
+      まあ ランドーさんたら。
+
+      <CH1>
+      なっ何だよ お嬢さんよ。
+      何か 言いたそうじゃねえか。
+
+      <CH2>
+      ごめんなさい。
+      私まだ ランドーさんが 本気になったところを知らないみたいなので ･ ･ ･
+
+      <CH0>
+      フローラのほうが うわてだね。
+      ランドーの負けだよ。
+
+      さあ こんなことを してないで 早く
+      父上たちを さがしに行こう。
+    "original_byte_length": !!int |-
+      364
+    "references":
+    - "source_addr": !!int |-
+        54756
+      "target_addr": !!int |-
+        23486
+    "translated": !!null |-
+      null
+  "5d2a":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <IF0405><JUMP5e0e><UNSET0404><SET00d0><CH0>
+      ランドー、あいつ すごい筋肉だなぁ。
+
+      <CH2>
+      まあ 本当 !!
+      強くて 頼りに なりそうな男性だわ。
+
+      <CH1>
+      ふん、
+      ああいうのは 見かけだおしってのが
+      よくあるんだよ。
+
+      鉄仮面で 顔が見えないのが残念だぜ。どうせ 軟弱な顔だけどな ･ ･ ･<END>
+      <LOC5e0e><UNSET0405><C_YELLOW>男<C_NONE>
+      おい !! ･ ･ ･<WAIT>
+      カネ !!
+
+      <C_YELLOW>ドレイク<C_NONE>
+      いててっ いてーよ ･ ･ ･ ほ、ほら
+      か、返すから はなしてくれ。
+    "original_byte_length": !!int |-
+      330
+    "references":
+    - "source_addr": !!int |-
+        54652
+      "target_addr": !!int |-
+        23850
+    "translated": !!null |-
+      null
+  "5e74":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      <IF00b9><JUMP5ed3>おれ これから ソルディスまで
+      行かなけりゃならないんだよ。
+      ぶじに 帰ってこれるかな。<END>
+      <LOC5ed3>ソルディスに 行ったときに
+      きいたんだけど セリオスさまたちが
+      モンスター退治に出かけたんだってよ
+
+      しかも ドラゴンの背に 乗ってったんだって、かっこいいじゃん。
+    "original_byte_length": !!int |-
+      251
+    "references":
+    - "source_addr": !!int |-
+        54661
+      "target_addr": !!int |-
+        24180
+    "translated": !!null |-
+      null
+  "5f6f":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      スリの修行とかで よく ファンガスの連中が この町まで来るんだよ。
+      気をつけたほうがいいぞ。
+    "original_byte_length": !!int |-
+      94
+    "references":
+    - "source_addr": !!int |-
+        54670
+      "target_addr": !!int |-
+        24431
+    "translated": !!null |-
+      null
+  "5fcd":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>女<C_NONE>
+      モレストンには ファンガスっていう
+      盗賊の町があったけど モンスターに
+      おそわれてしまったそうよ。
+
+      盗賊たちは いったい どこに
+      行ったのかしら？
+    "original_byte_length": !!int |-
+      144
+    "references":
+    - "source_addr": !!int |-
+        54709
+      "target_addr": !!int |-
+        24525
+    "translated": !!null |-
+      null
+  "605d":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>女<C_NONE>
+      ファンガスの 盗賊たちの かしらってかなりの年寄りらしいけど 今でも
+      すごく 元気だっていう話よ。
+
+      若いころは 世界をまたにかける
+      大盗賊ゲイルと 呼ばれていたそうよ。
+    "original_byte_length": !!int |-
+      165
+    "references":
+    - "source_addr": !!int |-
+        54718
+      "target_addr": !!int |-
+        24669
+    "translated": !!null |-
+      null
+  "6102":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>アニー<C_NONE>
+      <IF00d1><JUMP6350><IF00d8><JUMP6270>私のおじいちゃんは ファエトの
+      村長なのよ。
+
+      ひとり暮しで さみしいらしくて
+      すぐに 見ず知らずの人を 家に連れてくるのよ。<IF_NOT00b9><JUMP626f>
+
+      最近も シンディという人を 連れて
+      きて めんどうを みているんだけど
+      シンディったら 私のことも 好きに
+      なってくれたみたいなの。
+
+      もしも ファエトに行くことが
+      あったら おじいちゃんと シンディによろしく 言っておいて くださいね。<LOC626f><END>
+      <LOC6270><SET00d1><SET0406>あら シンディ どうしたの ？
+
+      <CH3>
+      シンディ いっしょ。
+
+      <C_YELLOW>アニー<C_NONE>
+      えっ この人たちと 旅を始めたの？
+      そうなの ･ ･ ･ せっかく 仲が
+      よくなったところなのに 残念だわ。
+
+      それじゃあ 気をつけて 旅をしてね。
+
+      <CH3>
+      シンディ だいじょうぶ。<END>
+      <LOC6350><IF0406><JUMP636f><SET0406>シンディ 元気そうね？
+      <LOC636f>たまには おじいちゃんの所にも
+      行ってあげてね。
+    "original_byte_length": !!int |-
+      668
+    "references":
+    - "source_addr": !!int |-
+        54727
+      "target_addr": !!int |-
+        24834
+    "translated": !!null |-
+      null
+  "639e":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ドレイク<C_NONE>
+      <IF00d0><JUMP63e0>うー くそー
+      こ、子分がよー
+      おれの 子分がな ･ ･ ･<END>
+      <LOC63e0>うっ いてえなあ ･ ･ ･
+      おれは けがしてるんだから
+      ぶつかってくるんじゃねえよ。
+    "original_byte_length": !!int |-
+      143
+    "references":
+    - "source_addr": !!int |-
+        54736
+      "target_addr": !!int |-
+        25502
+    "translated": !!null |-
+      null
+  "642d":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ヤミ屋<C_NONE>
+      ヘッヘッヘ なにか用かい？<RET_N>
+    "original_byte_length": !!int |-
+      35
+    "references":
+    - "source_addr": !!int |-
+        54768
+      "target_addr": !!int |-
+        25645
+    "translated": !!null |-
+      null
+  "6450":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      またどうぞ。
+    "original_byte_length": !!int |-
+      13
+    "references":
+    - "source_addr": !!int |-
+        54795
+      "target_addr": !!int |-
+        25680
+    "translated": !!null |-
+      null
+  "645d":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      これ以上持てないようだな。
+
+      <RET>
+    "original_byte_length": !!int |-
+      28
+    "references":
+    - "source_addr": !!int |-
+        3020
+      "target_addr": !!int |-
+        25693
+    "translated": !!null |-
+      null
+  "6479":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      どれを買いたいんだ？
+      <RET_N>
+    "original_byte_length": !!int |-
+      22
+    "references":
+    - "source_addr": !!int |-
+        3022
+      "target_addr": !!int |-
+        25721
+    "translated": !!null |-
+      null
+  "648f":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ITEM>だな。
+      ありがとよ。
+
+      <RET>
+    "original_byte_length": !!int |-
+      22
+    "references":
+    - "source_addr": !!int |-
+        3024
+      "target_addr": !!int |-
+        25743
+    "translated": !!null |-
+      null
+  "64ad":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      どれを 売りたいんだ？
+      <RET_N>
+    "original_byte_length": !!int |-
+      23
+    "references":
+    - "source_addr": !!int |-
+        2919
+      "target_addr": !!int |-
+        25773
+    "translated": !!null |-
+      null
+  "64c4":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |2-
+       Gold になるけど
+      それで いいかい？
+      <RET_N>
+    "original_byte_length": !!int |-
+      36
+    "references":
+    - "source_addr": !!int |-
+        2921
+      "target_addr": !!int |-
+        25796
+    "translated": !!null |-
+      null
+  "64e8":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      そうか 残念だな。
+
+      <RET_N>
+    "original_byte_length": !!int |-
+      19
+    "references":
+    - "source_addr": !!int |-
+        2923
+      "target_addr": !!int |-
+        25832
+    "translated": !!null |-
+      null
+  "64fb":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      ありがとよ。
+      <RET_N>
+    "original_byte_length": !!int |-
+      14
+    "references":
+    - "source_addr": !!int |-
+        2925
+      "target_addr": !!int |-
+        25851
+    "translated": !!null |-
+      null
+"note": ""

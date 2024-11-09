@@ -1,0 +1,192 @@
+"entries":
+  "5ab2":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>モーガン<C_NONE>
+      <IF0145><JUMP6002><IF0144><JUMP5fd1><IF0407><JUMP5b13><SET0407>むっ 戦士の笛 ･ ･ ･ お前ら また
+      このわしに 穴を掘れと いうのか？
+
+      <LOC5b13>何度 言ったらわかるんじゃ。
+      わしはもう 穴は掘らん ･ ･ ･
+
+      争いごとは もうたくさんじゃよ。
+      みんなが 不幸になるだけじゃ ･ ･ ･<IF_NOT0406><JUMP5fd0>
+
+      <CH0>
+      モーガンさん ぼくたちは みんなを
+      不幸にするために やっているのでは
+      ありませんよ。
+
+      平和な世界に しようと がんばって
+      いるんです。
+
+      モンスターの発生を 防ぐためには
+      どうしても 必要なんです。
+      協力してください。
+
+      <C_YELLOW>モーガン<C_NONE>
+      わしゃ もうたくさんじゃ。
+
+      サミーの親が いなくなったのも
+      わしのせいじゃ。
+      あのとき 穴さえ掘らなければ ･ ･ ･
+
+      <CH2>
+      モーガンさん。
+      気持ちは よくわかりますわ。
+      でも あなたしか いないのです。
+
+      プロスの収容所には モンスターを
+      作れる人が 収容されているそうです。その人ならモンスターの発生を止める方法を 知っていると思うのです。
+
+      人々を苦しめている モンスターを
+      いなくするためには どうしても
+      その人に 会わなければなりません。
+
+      お願いです。
+      プロスの収容所への 抜け穴を
+      作ってください。
+
+      きっと 今よりは ずっと 平和に
+      なるはずです。
+      私たちは 平和を 望んでいるのです。
+
+      <C_YELLOW>サミー<C_NONE>
+      そっかー そうだったのか。
+      お前ら なかなか やるじゃん。
+      おっさん やってやれよ。
+
+      <C_YELLOW>モーガン<C_NONE>
+      だめじゃ。
+      何と言われようと 絶対に 掘らぬぞ。
+
+      <C_YELLOW>サミー<C_NONE>
+      ったく がんこじじいがよ。
+      よし おれが やってやるぜ。
+
+      プロスに 行こう。
+
+      <C_YELLOW>モーガン<C_NONE>
+      バカ !! サミー やめるんじゃ。
+      こらまて わしの言うことが
+      きけんのか。<SET0144><Xf5150201><Xf5170200><LOC5fd0><END>
+      <LOC5fd1>あのバカめ !!
+      まだ 一人前とは 言えぬくせに ･ ･ ･<END>
+      <LOC6002>どうしたのじゃ？
+      わしゃ もう 穴は掘らんからな。
+    "original_byte_length": !!int |-
+      1408
+    "references":
+    - "source_addr": !!int |-
+        54642
+      "target_addr": !!int |-
+        23218
+    "translated": !!null |-
+      null
+  "6032":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>モーガン<C_NONE>
+      <IF0405><JUMP6337><IF0404><JUMP629e><IF0403><JUMP6237><IF0402><JUMP61c7><IF0401><JUMP6153><IF0400><JUMP60d9><SET0400>うわっはっは。
+      やっぱり 酒は ハーベイんところの
+      やつが いちばんじゃのう。
+
+      <C_YELLOW>サミー<C_NONE>
+      おれは 酒より食い物の方がいいな。<END>
+      <LOC60d9><SET0401>おい サミー。 魚が食いたいから
+      取ってきてくれんか？
+
+      <C_YELLOW>サミー<C_NONE>
+      おっさん 魚じゃなくて たまには
+      肉も食ったらどうなんだよ。<END>
+      <LOC6153><SET0402>わしゃ 基本的に 肉はきらいなんじゃ。何度 言えばわかるんじゃ？
+
+      <C_YELLOW>サミー<C_NONE>
+      ったく 肉が 食えないなんて
+      笑っちゃうぜ。<END>
+      <LOC61c7><SET0403>別に わしゃ 肉が食えぬわけではない。高い肉だったら ちゃんと食えるぞ。
+
+      <C_YELLOW>サミー<C_NONE>
+      おっさんは ぜいたくなんだよ。<END>
+      <LOC6237><SET0404>ところで サミー。
+      さっきから全然 酒が 減ってないが
+      どうしたのじゃ？
+
+      <C_YELLOW>サミー<C_NONE>
+      えー もう 飲めねえよ。<END>
+      <LOC629e><SET0405>サミー このくらいの酒が 飲めなくてどうする。
+
+      そんなことじゃ 一人前には なれん。ほらほら 飲め飲め。
+
+      <C_YELLOW>サミー<C_NONE>
+      おっさん もう やめろよ。
+      よっぱらいがよ。<END>
+      <LOC6337>はー ぐるぐる まわっとる。
+    "original_byte_length": !!int |-
+      800
+    "references":
+    - "source_addr": !!int |-
+        54689
+      "target_addr": !!int |-
+        24626
+    "translated": !!null |-
+      null
+  "6352":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>モーガン<C_NONE>
+      おい サミー。
+      外に だれか来とるぞ。
+
+      <C_YELLOW>サミー<C_NONE>
+      だれなんだよ まったく。
+      ほっといていいよ。
+
+      <C_YELLOW>モーガン<C_NONE>
+      バカ そんなこと 言うもんじゃない。さっさと ドアを あけてこい。
+
+      <C_YELLOW>サミー<C_NONE>
+      もう めんどくせえな。
+    "original_byte_length": !!int |-
+      204
+    "references":
+    - "source_addr": !!int |-
+        54670
+      "target_addr": !!int |-
+        25426
+    "translated": !!null |-
+      null
+  "641e":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>サミー<C_NONE>
+      <IF0145><JUMP6529><IF0407><JUMP6449>何だよ おまえらはよ。<END>
+      <LOC6449><SET0406>おっさんは おれのために 穴を
+      掘るのを やめたんだ。
+
+      おっさんが掘った 抜け穴を ガードがおれの親が 掘ったと思って 間違えて捕まえていったんだ。
+
+      そのとき 小さなおれが 泣いてるのをおっさんが みつけて ここまで育ててくれたんだ。<END>
+      <LOC6529>おれが 一人前になったら おっさんに内緒で 抜け穴を掘ってやるよ。
+    "original_byte_length": !!int |-
+      331
+    "references":
+    - "source_addr": !!int |-
+        54698
+      "target_addr": !!int |-
+        25630
+    "translated": !!null |-
+      null
+"note": ""

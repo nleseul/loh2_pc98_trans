@@ -1,0 +1,65 @@
+"entries":
+  "5e7b":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CH0>
+      他のみんなは？
+
+      <C_YELLOW>レイシア<C_NONE>
+      もうすぐ 来るはずよ。
+    "original_byte_length": !!int |-
+      51
+    "references":
+    - "source_addr": !!int |-
+        54900
+      "target_addr": !!int |-
+        24187
+    "translated": !!null |-
+      null
+  "5eae":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ボザ<C_NONE>
+      リーダー、全員 そろいました。
+
+      <Xf9180206><Xf9200206><Xf9280206><Xf7><C_YELLOW>リーダー<C_NONE>
+      うむ ごくろう。
+
+      みなの者 準備はよいな。
+      門を壊したら 計画どおりに 各自の
+      目標を占拠するように。
+
+      <Xf9280202><Xf7><Xf9180202><Xf9200202>では ナレサ殿。
+    "original_byte_length": !!int |-
+      186
+    "references":
+    - "source_addr": !!int |-
+        54968
+      "target_addr": !!int |-
+        24238
+    "translated": !!null |-
+      null
+  "5f68":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>リーダー<C_NONE>
+      さあ われわれも 行きましょう。
+    "original_byte_length": !!int |-
+      42
+    "references":
+    - "source_addr": !!int |-
+        54721
+      "target_addr": !!int |-
+        24424
+    "translated": !!null |-
+      null
+"note": ""

@@ -1,0 +1,20 @@
+"entries":
+  "5bfe":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>サミー<C_NONE>
+      なあ なあ これなんだ？
+      変わってるなあ ･ ･ ･
+    "original_byte_length": !!int |-
+      53
+    "references":
+    - "source_addr": !!int |-
+        54821
+      "target_addr": !!int |-
+        23550
+    "translated": !!null |-
+      null
+"note": ""

@@ -1,0 +1,126 @@
+"entries":
+  "5a42":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      <IF_NOT00f5><JUMP5aa0>あれっ !? ･ ･ ･ アトラス王子？
+      ようこそ バズヌーンの城へ おいで
+      くださいました。<END>
+      <LOC5aa0>いや これは王子さま。
+      いろいろな うわさがあるようですが
+      私は セリオスさまを 信じております。
+
+      モンスターが いなくなったのは
+      セリオスさまの おかげですよね。
+    "original_byte_length": !!int |-
+      249
+    "references":
+    - "source_addr": !!int |-
+        54633
+      "target_addr": !!int |-
+        23106
+    "translated": !!null |-
+      null
+  "5b3b":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      <IF_NOT00f5><JUMP5bb0>アトラス王子さま こんなときに
+      わざわざ おいでになるとは。
+
+      もし セリオスさまに 知れたら
+      たいへんですよ。<END>
+      <LOC5bb0>ルドラにいる じいさんの話だと
+      バーバラという司祭が 目の前で
+      竜の卵に入っていったらしいんです。
+
+      そして しばらくすると 竜の卵の色が青い色に戻って モンスターも
+      出てこなくなったそうなんです。
+    "original_byte_length": !!int |-
+      305
+    "references":
+    - "source_addr": !!int |-
+        54642
+      "target_addr": !!int |-
+        23355
+    "translated": !!null |-
+      null
+  "5c6c":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      <IF_NOT00f5><JUMP5d2b>先日 セリオスさまと エリオンさまがそろって おみえになられ
+      モンスター退治に 出られたのです。
+
+      あれから かなり たっていますから
+      きっと 苦戦なされているのではと
+      心配しているんです。<END>
+      <LOC5d2b>私は セリオスさまたちのおかげで
+      モンスターが 出てこなくなったと
+      思っていたんです。
+
+      ところが ラヌーラの司祭さまが
+      モンスターを止めたっていう話を
+      きいたんです。
+
+      セリオスさまたちに 何か
+      あったのでしょうか？
+    "original_byte_length": !!int |-
+      395
+    "references":
+    - "source_addr": !!int |-
+        54651
+      "target_addr": !!int |-
+        23660
+    "translated": !!null |-
+      null
+  "5df7":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>侍女<C_NONE>
+      まあ アトラス王子さま。
+
+      王子さまが いらっしゃったのなら
+      今日は ビーフシチューでも
+      お作りいたしましょうか？
+    "original_byte_length": !!int |-
+      114
+    "references":
+    - "source_addr": !!int |-
+        54660
+      "target_addr": !!int |-
+        24055
+    "translated": !!null |-
+      null
+  "5e69":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>侍女<C_NONE>
+      屋上にいる 発明家のハリーさんは
+      クリが きらいなんですよ。
+      変わっているでしょ？
+    "original_byte_length": !!int |-
+      86
+    "references":
+    - "source_addr": !!int |-
+        54669
+      "target_addr": !!int |-
+        24169
+    "translated": !!null |-
+      null
+"note": ""

@@ -1,0 +1,325 @@
+"entries":
+  "5c2c":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>村長<C_NONE>
+      <IF00d8><JUMP5d30><IF00b9><JUMP5c99>わしは ファエトの村の 村長じゃ。
+      孫娘の アニーが ナスールに
+      行っとるから さみしくてのう。<END>
+      <LOC5c99>あんたがた 旅人のようじゃが
+      ナスールで シンディを
+      見かけなかったかのう？
+
+      わしの孫娘のところに 遊びに
+      行ったのじゃが 帰りが 遅いから
+      心配しとるのじゃ。<END>
+      <LOC5d30>シンディ、お前が いなくなると
+      またさみしくなるが 体に 気を
+      つけるのじゃぞ。
+    "original_byte_length": !!int |-
+      336
+    "references":
+    - "source_addr": !!int |-
+        54739
+      "target_addr": !!int |-
+        23596
+    "translated": !!null |-
+      null
+  "5d7c":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>老人<C_NONE>
+      うちの孫は 知りませんかの？
+      元気が あるのは いいんじゃが
+      わしには めんどう みきれんわい。
+    "original_byte_length": !!int |-
+      97
+    "references":
+    - "source_addr": !!int |-
+        54748
+      "target_addr": !!int |-
+        23932
+    "translated": !!null |-
+      null
+  "5ddd":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>老人<C_NONE>
+      このファエトの村は 隠居村と
+      呼ばれているんじゃ。
+
+      若い者たちは みんな 町へ出ていってしまって 年寄りばかりに
+      なってしまったのじゃよ。
+    "original_byte_length": !!int |-
+      139
+    "references":
+    - "source_addr": !!int |-
+        54757
+      "target_addr": !!int |-
+        24029
+    "translated": !!null |-
+      null
+  "5e68":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>老婆<C_NONE>
+      もし コルクスの町に 行ったら
+      わしの 友人のジーラばあさんに
+      話をきいてみるがいい。
+
+      あのばあさんは 昔からの言い伝えを
+      よく知ってるから 勉強になるぞ。
+    "original_byte_length": !!int |-
+      155
+    "references":
+    - "source_addr": !!int |-
+        54766
+      "target_addr": !!int |-
+        24168
+    "translated": !!null |-
+      null
+  "5f03":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>老婆<C_NONE>
+      盗賊の町 ファンガスは バケモノに
+      つぶされてしまったそうじゃ。
+
+      盗賊たちは どこへ 逃げたんじゃろうどの町に 行っても 歓迎されるはずはないし ･ ･ ･
+    "original_byte_length": !!int |-
+      150
+    "references":
+    - "source_addr": !!int |-
+        54775
+      "target_addr": !!int |-
+        24323
+    "translated": !!null |-
+      null
+  "5f99":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>子ども<C_NONE>
+      おじいちゃんと 鬼ごっこを
+      してるんだけど ちっとも
+      おもしろくないんだ。
+    "original_byte_length": !!int |-
+      80
+    "references":
+    - "source_addr": !!int |-
+        54784
+      "target_addr": !!int |-
+        24473
+    "translated": !!null |-
+      null
+  "5fe9":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>女<C_NONE>
+      私は 弟を連れて コルクスから来たの。たまには おじいちゃんたちの所に
+      遊びに 行かないと かわいそうでしょ。
+    "original_byte_length": !!int |-
+      110
+    "references":
+    - "source_addr": !!int |-
+        54793
+      "target_addr": !!int |-
+        24553
+    "translated": !!null |-
+      null
+  "6057":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <UNSET0404><C_YELLOW>男<C_NONE>
+      おまえ ･ ･ ･
+
+      <CH1>
+      やめろ この鉄仮面野郎 !!
+
+      てめえのこと バカにしたのは
+      このおれさまだ、アトラスには
+      関係ねえ !!
+
+      あいててて こいつ やる気か？<WAIT>
+      よーし おれたちに 勝てるとでも
+      思ってるのか？
+    "original_byte_length": !!int |-
+      193
+    "references":
+    - "source_addr": !!int |-
+        54721
+      "target_addr": !!int |-
+        24663
+    "translated": !!null |-
+      null
+  "6118":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <UNSET0405><C_YELLOW>村長<C_NONE>
+      待ってくだされ !
+      やめるんじゃ シンディ。
+
+      <CH0>
+      シ、シンディ !?
+
+      <CH1>
+      まさか このデカブツが シンディって名前だって いうんじゃねぇだろうな。
+
+      <C_YELLOW>村長<C_NONE>
+      そのとおりじゃが。
+
+      <CH1>
+      ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･<WAIT>
+      どんな センスしてやがるんだ
+      そんな名前つけやがって。
+
+      <C_YELLOW>村長<C_NONE>
+      シンディは 記憶喪失らしくて
+      自分のことも 名前以外は なにも
+      覚えていないらしいのです。
+
+      先日 この村に さまよいこんで
+      きたので わしの家で めんどうを
+      みているのですじゃ。
+
+      <CH1>
+      なんか よく わかんねえ やつだな。
+
+      <CH2>
+      ランドーさん そんな 失礼なことを
+      言ってはいけないわ。
+
+      それに 名前のことだって この方に
+      よく似合っていて かわいいですわ。
+
+      <CH1>
+      なあ おじょうさん。
+      おれが フローラって 名前だったら
+      どう思う？
+
+      <CH2>
+      かわいらしくて いいと思うわ。
+
+      <CH1>
+      ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･<WAIT>
+      ほ、本気でそう思ってるのか？
+
+      <C_YELLOW>村長<C_NONE>
+      まあまあ 今日のところは わしに
+      めんじて 許してやってくだされ。
+
+      <CH1>
+      んっ まあ 別に けがしたわけじゃ
+      ねえから いいけどよ。
+
+      <C_YELLOW>村長<C_NONE>
+      ありがとうございます。
+      シンディが わけもなく ぼう力を
+      振るうはずは ないんですが ･ ･ ･
+
+      口数が少ないもんで よくわからない
+      ところもあるのです。
+      ご迷惑を おかけしました。
+
+      <CH2>
+      シンディさんの 記憶が 戻ると
+      いいですわね。
+
+      <CH0>
+      それじゃあ。
+
+      <CH3>
+      おまえ !!<WAIT>
+      似てる。
+
+      <CH1>
+      似てるって だれに 似てるんだ？
+
+      <CH3>
+      わからない ･ ･ ･<WAIT>
+      おまえ 好き。
+
+      <C_YELLOW>村長<C_NONE>
+      シンディ どうしたというのじゃ？
+
+      <CH2>
+      シンディさんは こう言いたいのよ。
+
+      記憶が ないから だれなのかは
+      わからないけど アトラスさまは
+      シンディさんが 知っていた人に
+      似ているのよ。
+
+      そうでしょ シンディさん？
+
+      <CH3>
+      いっしょに 行く。
+
+      <C_YELLOW>村長<C_NONE>
+      行く？<WAIT>
+      この人たちと いっしょに
+      行くというのか？
+
+      <CH3>
+      好き。
+
+      <C_YELLOW>村長<C_NONE>
+      こう言っておりますが ･ ･ ･
+
+      <CH1>
+      こいつの めんどうを みるのか？
+
+      <CH2>
+      そんなこと言ったら かわいそうだわ。何かの ひょうしに 記憶が 戻るかも
+      しれないし ねえ アトラスさま？
+
+      <CH0>
+      うん ぼくは かまわないけど。
+
+      <CH1>
+      ちぇっ しょうがねえなあ。
+
+      <C_YELLOW>村長<C_NONE>
+      どうも ありがとうございます。
+
+      シンディ、お前が いなくなると
+      またさみしくなるが 体に 気を
+      つけるのじゃぞ。
+
+      <ASMd734><Xf7><SET00d8><C_GREEN>シンディが 仲間になりました。<SND0103><C_NONE>
+    "original_byte_length": !!int |-
+      1893
+    "references":
+    - "source_addr": !!int |-
+        54730
+      "target_addr": !!int |-
+        24856
+    "translated": !!null |-
+      null
+"note": ""

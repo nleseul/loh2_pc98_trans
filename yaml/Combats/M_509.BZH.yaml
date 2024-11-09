@@ -1,0 +1,114 @@
+"entries":
+  "7170":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      16
+    "original": |-
+      バイオレッド<RET>
+    "original_byte_length": !!int |-
+      13
+    "references": []
+    "translated": !!null |-
+      null
+  "71b0":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      16
+    "original": |-
+      装甲スライム<RET>
+    "original_byte_length": !!int |-
+      13
+    "references": []
+    "translated": !!null |-
+      null
+  "71f0":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      16
+    "original": |-
+      バイオレッドＣ<RET>
+    "original_byte_length": !!int |-
+      15
+    "references": []
+    "translated": !!null |-
+      null
+  "7230":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      16
+    "original": |-
+      バイオレッドＤ<RET>
+    "original_byte_length": !!int |-
+      15
+    "references": []
+    "translated": !!null |-
+      null
+  "7442":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      バイオレッドが現れた。<RET_N>
+    "original_byte_length": !!int |-
+      23
+    "references":
+    - "source_addr": !!int |-
+        61000
+      "target_addr": !!int |-
+        29762
+    "translated": !!null |-
+      null
+  "7459":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>は自分の頭をゆすって<RET>
+    "original_byte_length": !!int |-
+      22
+    "references":
+    - "source_addr": !!int |-
+        61350
+      "target_addr": !!int |-
+        29785
+    "translated": !!null |-
+      null
+  "7495":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>は仲間を呼んだ。<RET_N>
+    "original_byte_length": !!int |-
+      18
+    "references":
+    - "source_addr": !!int |-
+        61145
+      "target_addr": !!int |-
+        29845
+    "translated": !!null |-
+      null
+  "74a7":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      装甲スライムが落ちてきた!!<RET_PAGE>
+    "original_byte_length": !!int |-
+      27
+    "references":
+    - "source_addr": !!int |-
+        61199
+      "target_addr": !!int |-
+        29863
+    "translated": !!null |-
+      null
+"note": ""

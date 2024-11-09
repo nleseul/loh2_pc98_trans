@@ -1,0 +1,49 @@
+"entries":
+  "5af0":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ドレイク<C_NONE>
+      <SET0400><UNSET00ea><SET00eb>毒のきりが なくなっているうちに
+      早く入っていってくれ。
+
+      少したつと また きりが
+      出てくるから 気をつけてくれよ。
+    "original_byte_length": !!int |-
+      130
+    "references":
+    - "source_addr": !!int |-
+        54667
+      "target_addr": !!int |-
+        23280
+    "translated": !!null |-
+      null
+  "5cd4":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ガード<C_NONE>
+      ふん やはり ここで見張っていて
+      正解だったようだ。
+
+      <C_YELLOW>ガード<C_NONE>
+      ああ この前の やつらよりも
+      弱そうだから 眠りタケなんか
+      いらないだろう。
+
+      <C_YELLOW>ガード<C_NONE>
+      よし いくぞ !!
+    "original_byte_length": !!int |-
+      164
+    "references":
+    - "source_addr": !!int |-
+        54749
+      "target_addr": !!int |-
+        23764
+    "translated": !!null |-
+      null
+"note": ""

@@ -1,0 +1,239 @@
+"entries":
+  "5c37":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>エリオン国王<C_NONE>
+      アトラス王子 セリスの城に ようこそ。いよいよ 明日は 竜の祭です。
+
+      今夜は 前夜祭も ありますので
+      おふたりとも ごゆっくり
+      していってください。
+
+      <CH1>
+      これは どうも 国王さま。
+      よろこんで 見学させてもらいます。
+      なあ アトラス？
+
+      <Xf52c0000><ASM1ae6><Xf7><CH0>
+      ええ エリオンさま
+      <C_YELLOW>兵士<C_NONE>
+      た、たいへんだー !!<SET0068><ASMd72a>
+    "original_byte_length": !!int |-
+      294
+    "references":
+    - "source_addr": !!int |-
+        54658
+      "target_addr": !!int |-
+        23607
+    "translated": !!null |-
+      null
+  "5d5d":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ポウエル<C_NONE>
+      これは アトラス王子。
+      そろそろ おいでになる ころだと
+      話していたところです。
+    "original_byte_length": !!int |-
+      87
+    "references":
+    - "source_addr": !!int |-
+        54667
+      "target_addr": !!int |-
+        23901
+    "translated": !!null |-
+      null
+  "5db4":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      お待ちしておりました アトラスさま
+      国王さまも この中で お待ちに
+      なっております。
+    "original_byte_length": !!int |-
+      87
+    "references":
+    - "source_addr": !!int |-
+        54676
+      "target_addr": !!int |-
+        23988
+    "translated": !!null |-
+      null
+  "5e0b":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      アトラスさまで ございますな？
+      ようこそ おいでくださいました。
+    "original_byte_length": !!int |-
+      69
+    "references":
+    - "source_addr": !!int |-
+        54685
+      "target_addr": !!int |-
+        24075
+    "translated": !!null |-
+      null
+  "5e50":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      アトラスさま ･ ･ ･ ですな？
+
+      これは これは セリスの城に
+      ようこそ おいでくださいました。
+      国王さまは 奥にいらっしゃいます。
+    "original_byte_length": !!int |-
+      128
+    "references":
+    - "source_addr": !!int |-
+        54694
+      "target_addr": !!int |-
+        24144
+    "translated": !!null |-
+      null
+  "5ed0":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <SET0405><ASMd740><C_YELLOW>兵士<C_NONE>
+      ハァハァ た、たいへんです。
+      た、卵が 竜の卵が ･ ･ ･
+
+      <C_YELLOW>エリオン<C_NONE>
+      どうした 落ちつきなさい。
+      竜の卵が どうしたというのだ？
+
+      <C_YELLOW>兵士<C_NONE>
+      ハァハァ ･ ･ ハァハァ
+      竜の卵が 赤く光り始めたのです。
+      祭の準備を していたら 突然。
+
+      <C_YELLOW>エリオン<C_NONE>
+      な、なに どういうことなんだ？
+      <C_YELLOW>司祭 バーバラ<C_NONE>
+      エリオンさまー !!<Xf405c23c>
+    "original_byte_length": !!int |-
+      301
+    "references":
+    - "source_addr": !!int |-
+        54705
+      "target_addr": !!int |-
+        24272
+    "translated": !!null |-
+      null
+  "5ffd":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <SET0406><ASMd74f><C_YELLOW>司祭 バーバラ<C_NONE>
+      一大事ですぞ エリオンさま !!
+      竜の卵が 赤くなっておるのじゃ。
+
+      竜の卵が 赤く光るなど わしは
+      きいたことも ございませぬ。
+
+      城からでは 良く見えませぬから
+      卵のそばまで 行ってまいります。
+
+      <C_YELLOW>エリオン<C_NONE>
+      よし バーバラ。
+      私も いっしょに 行こう。
+
+      <CH0>
+      エリオンさま ぼくも いっしょに
+      行かせてください。
+
+      <C_YELLOW>エリオン<C_NONE>
+      王子が !? いけません 王子の身に
+      何かあったら 大変です。
+      ここで お待ちになっていてください。
+
+      <CH1>
+      赤い竜の卵なんて 見たこともねえな。国王さま じゃまは しないから
+      おれたちも 連れてってください。
+
+      <C_YELLOW>エリオン<C_NONE>
+      しかたがない ･ ･ ･
+      王子 危険なことは なさらぬように
+      してください。
+
+      さあ とにかく急ぎましょう。
+    "original_byte_length": !!int |-
+      615
+    "references":
+    - "source_addr": !!int |-
+        54715
+      "target_addr": !!int |-
+        24573
+    "translated": !!null |-
+      null
+  "6264":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      あっ エリオンさま !!
+
+      早く お逃げください !!
+
+      <C_YELLOW>エリオン<C_NONE>
+      逃げる？ どういうことだ？
+
+      <C_YELLOW>兵士<C_NONE>
+      赤くなった 竜の卵から バケモノが
+      わき出てきたのです。
+
+      後から 後から 数えきれないほどの
+      バケモノが 出てきて 応戦していてもきりがありません。
+
+      すでに セリスの町にまで 入り込んできてしまいました。
+      城まで来るのも 時間の問題です。
+
+      <C_YELLOW>エリオン<C_NONE>
+      町の者たちが 危険だ !!
+      ソニアは？
+
+      <C_YELLOW>兵士<C_NONE>
+      ソニアさまは すでに 町の者たちを
+      船に乗せて 国王さまを お待ちです。
+
+      <C_YELLOW>エリオン<C_NONE>
+      そうか 私が 心配するまでも
+      なかったようだ。
+
+      <C_YELLOW>兵士<C_NONE>
+      私は ポウエルさまたちにも
+      伝えてまいります。
+      お急ぎください。
+    "original_byte_length": !!int |-
+      564
+    "references":
+    - "source_addr": !!int |-
+        54729
+      "target_addr": !!int |-
+        25188
+    "translated": !!null |-
+      null
+"note": ""

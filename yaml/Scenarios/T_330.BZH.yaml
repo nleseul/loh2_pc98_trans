@@ -1,0 +1,223 @@
+"entries":
+  "5b11":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      なんか このごろ 悪いことばかり
+      起こってると思わないか？
+
+      カザミの塔は 沈むし モンスターは
+      出てくるし ･ ･ ･
+      この次は 何が起こるんだろう？
+    "original_byte_length": !!int |-
+      141
+    "references":
+    - "source_addr": !!int |-
+        54700
+      "target_addr": !!int |-
+        23313
+    "translated": !!null |-
+      null
+  "5b9e":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      おれは エメのオアシスに
+      住んでたんだ。
+
+      何だかしらないけど 急に竜の卵から
+      モンスターが出てきてよ。
+
+      こりゃ たいへんだと思って ここまで逃げてきたんだ。
+
+      そんで ラヌーラにでも 逃げようと
+      してたら 向こうでも モンスターが
+      出てきたっていうじゃないか。
+
+      おれ どこ 行きゃいいんだよ。
+    "original_byte_length": !!int |-
+      278
+    "references":
+    - "source_addr": !!int |-
+        54709
+      "target_addr": !!int |-
+        23454
+    "translated": !!null |-
+      null
+  "5cb4":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>女<C_NONE>
+      ねえ 知ってる？
+
+      世界を救ってくれた英雄たちが
+      モンスターを 退治するために
+      出かけて行ったってうわさよ。
+    "original_byte_length": !!int |-
+      107
+    "references":
+    - "source_addr": !!int |-
+        54718
+      "target_addr": !!int |-
+        23732
+    "translated": !!null |-
+      null
+  "5d1f":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      <IF0403><JUMP5eb6><IF0401><JUMP5e63>やあ ラヌーラに 行くのか？
+      それじゃ ここに名前を かいてくれ。
+
+      <IF007b><JUMP5e48>そういえば ジェラルドさんの所の
+      お嬢さんが いなくなったそうだが
+      お前たち 知らないか？
+
+      ほら こういう顔なんだけどなあ。
+
+      あれっ きみは よく似ているが
+      まさか きのせいだよな。
+
+      <CH2>
+      バレないうちに 早く戻りましょうよ。<END>
+      <LOC5e48><SET0401>はいはい ごくろうさん。<END>
+      <LOC5e63>そういえば 言い忘れていたけど
+      ラヌーラでも モンスターが いるから気をつけてくれよ。<END>
+      <LOC5eb6>モンスターに 気をつけて
+      いい旅をしてくれ。
+    "original_byte_length": !!int |-
+      450
+    "references":
+    - "source_addr": !!int |-
+        54727
+      "target_addr": !!int |-
+        23839
+    "translated": !!null |-
+      null
+  "5ee1":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      <IF0403><JUMP5fc8><IF0402><JUMP5f8b><IF0401><JUMP5f54>ほら この川って 流れが速いだろ
+      だから けっこう 危ないんだけど
+      国境の洞窟よりは ましだな。<END>
+      <LOC5f54>んっ ちょっと待ってくれ
+      すぐに 橋を 出してあげるから。<END>
+      <LOC5f8b>川の流れが 急だから
+      落ちないように 気をつけて
+      渡ってくれよ。<END>
+      <LOC5fc8>ソルディスに ようこそ。
+      と言っても おれは ラヌーラの
+      兵士だけどね。
+    "original_byte_length": !!int |-
+      299
+    "references":
+    - "source_addr": !!int |-
+        54736
+      "target_addr": !!int |-
+        24289
+    "translated": !!null |-
+      null
+  "600c":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>呪文屋<C_NONE>
+      いらっしゃい。<RET_N>
+    "original_byte_length": !!int |-
+      24
+    "references":
+    - "source_addr": !!int |-
+        54775
+      "target_addr": !!int |-
+        24588
+    "translated": !!null |-
+      null
+  "6024":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      またどうぞ。
+    "original_byte_length": !!int |-
+      13
+    "references":
+    - "source_addr": !!int |-
+        54787
+      "target_addr": !!int |-
+        24612
+    "translated": !!null |-
+      null
+  "6031":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      おや？これ以上持てないようですね。
+
+      <RET>
+    "original_byte_length": !!int |-
+      36
+    "references":
+    - "source_addr": !!int |-
+        1998
+      "target_addr": !!int |-
+        24625
+    "translated": !!null |-
+      null
+  "6055":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      どれを買ってくれますか？
+      <RET_N>
+    "original_byte_length": !!int |-
+      26
+    "references":
+    - "source_addr": !!int |-
+        2000
+      "target_addr": !!int |-
+        24661
+    "translated": !!null |-
+      null
+  "606f":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ITEM>だね。
+      どうも ありがとう。
+
+      <RET>
+    "original_byte_length": !!int |-
+      29
+    "references":
+    - "source_addr": !!int |-
+        2002
+      "target_addr": !!int |-
+        24687
+    "translated": !!null |-
+      null
+"note": ""

@@ -1,0 +1,233 @@
+"entries":
+  "5ab2":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>武器屋<C_NONE>
+      これは、アトラス王子さま。
+      モンスターのせいで あっというまに
+      武器が 売り切れてしまいました。
+
+      こんなに 売れたのは 初めてなので
+      うれしいような 気もするのですが
+      どうも すなおに よろこべないんです。
+    "original_byte_length": !!int |-
+      204
+    "references":
+    - "source_addr": !!int |-
+        54768
+      "target_addr": !!int |-
+        23218
+    "translated": !!null |-
+      null
+  "5b7e":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CALL6052>王子さまが いなくなられてから
+      食事の したくを していても 何か
+      物足りないんです。
+    "original_byte_length": !!int |-
+      84
+    "references":
+    - "source_addr": !!int |-
+        54693
+      "target_addr": !!int |-
+        23422
+    "translated": !!null |-
+      null
+  "5bd2":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CALL6052>まあ、王子さま。
+      <IF0015><JUMP5c4a>どう なさったのですか？
+      <PAGE>
+      外には モンスターがいるというのに
+      わざわざ こんな所まで 来るなんて。<END>
+      <LOC5c4a>お元気そうで なによりです。
+    "original_byte_length": !!int |-
+      148
+    "references":
+    - "source_addr": !!int |-
+        54702
+      "target_addr": !!int |-
+        23506
+    "translated": !!null |-
+      null
+  "5c66":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CALL6059><IF_NOT00f0><JUMP5cbe>王子さま エルアスタは どんなことがあっても 守ってみせます。
+      安心してください。<END>
+      <LOC5cbe>どうして 突然 モンスターが いなく
+      なってしまったのでしょうか？
+    "original_byte_length": !!int |-
+      151
+    "references":
+    - "source_addr": !!int |-
+        54711
+      "target_addr": !!int |-
+        23654
+    "translated": !!null |-
+      null
+  "5cfd":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      あ、王子さま いらっしゃい。
+      <IF0015><JUMP5d61>モンスターが 出てきたら スライムがいなくなったみたいですね。<END>
+      <LOC5d61>王子さまが いなくなったので
+      ここも さみしくなってしまいました。
+    "original_byte_length": !!int |-
+      164
+    "references":
+    - "source_addr": !!int |-
+        54747
+      "target_addr": !!int |-
+        23805
+    "translated": !!null |-
+      null
+  "5da1":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      <IF_NOT00f0><JUMP5dfa>おや 王子さま。
+      ぶっそうに なったものですね
+      どうして モンスターなんかが ･ ･ ･<END>
+      <LOC5dfa>モンスターが いなくなったからって
+      まだ 安心できませんよ。
+
+      いつまた やつらが 出てくるか
+      かわりませんからね。
+    "original_byte_length": !!int |-
+      197
+    "references":
+    - "source_addr": !!int |-
+        54756
+      "target_addr": !!int |-
+        23969
+    "translated": !!null |-
+      null
+  "5e66":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>女<C_NONE>
+      ま、王子さま。
+      お久しぶりで ございます。
+    "original_byte_length": !!int |-
+      46
+    "references":
+    - "source_addr": !!int |-
+        54720
+      "target_addr": !!int |-
+        24166
+    "translated": !!null |-
+      null
+  "5e94":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>子供<C_NONE>
+      <IF_NOT00f0><JUMP5ef7>外には 怖いモンスターがいるから
+      町から 出ちゃいけないんだって。
+      あーあ つまんないな。<END>
+      <LOC5ef7>また モンスターが 出てくるかも
+      しれないから まだ 町から出ちゃ
+      いけないんだって。
+    "original_byte_length": !!int |-
+      180
+    "references":
+    - "source_addr": !!int |-
+        54729
+      "target_addr": !!int |-
+        24212
+    "translated": !!null |-
+      null
+  "5f48":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>パーカー<C_NONE>
+      王子さま、おら もう 抜け穴は
+      作らねーですだ。
+    "original_byte_length": !!int |-
+      57
+    "references":
+    - "source_addr": !!int |-
+        54738
+      "target_addr": !!int |-
+        24392
+    "translated": !!null |-
+      null
+  "5f81":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>道具屋<C_NONE>
+      <IF_NOT00f0><JUMP5ffe>どうして モンスターなんかが
+      出てきたのでしょう？
+
+      また やつらに おびえながら
+      くらさなければ ならないとは ･ ･ ･<END>
+      <LOC5ffe>いや これは王子さま。
+      なぜ あれほどいたモンスターが
+      突然 いなくなったのでしょうか？
+    "original_byte_length": !!int |-
+      209
+    "references":
+    - "source_addr": !!int |-
+        54762
+      "target_addr": !!int |-
+        24449
+    "translated": !!null |-
+      null
+  "6052":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>侍女<C_NONE><RET_N>
+    "original_byte_length": !!int |-
+      7
+    "references": []
+    "translated": !!null |-
+      null
+  "6059":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>兵士<C_NONE><RET_N>
+    "original_byte_length": !!int |-
+      7
+    "references": []
+    "translated": !!null |-
+      null
+"note": ""

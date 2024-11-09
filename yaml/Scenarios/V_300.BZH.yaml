@@ -1,0 +1,82 @@
+"entries":
+  "5e1c":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |
+      <CLEAR>          第３章　竜の卵<N>
+
+      　　　　　　　　完
+    "original_byte_length": !!int |-
+      47
+    "references":
+    - "source_addr": !!int |-
+        54620
+      "target_addr": !!int |-
+        24092
+    "translated": !!null |-
+      null
+  "5e8b":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CLEAR><CH0>
+      バーバラさま 竜の卵を止めたので
+      モンスターのことは 心配ありません。
+
+      <Xf5aa6101><C_YELLOW>バーバラ<C_NONE>
+      なに !? それはよかった。
+      さすが ファーレーンの王子さまじゃ。
+
+      <Xfba8615061><C_YELLOW>ソニア王妃<C_NONE>
+      ありがとうございます アトラス王子。
+
+      <Xf5aa6100><CH0>
+      バーバラさま この大事な物を
+      お返しします。
+
+      <ASMd8eb><ITEM>を渡しました。<SND0103><WAIT>
+      <ASMd8f5><CLEAR><ASMd90c><CH2>
+      あっ !!<ASMd979><ASMd9d2><ASMd9f2><CLEAR><C_YELLOW>ガード<C_NONE>
+      隊長 レジスタンスたちは すべて
+      捕らえました。
+
+      <C_YELLOW>隊長<C_NONE>
+      よし 発射準備 !!
+
+      <C_YELLOW>ガード<C_NONE>
+      準備完了です。
+
+      <C_YELLOW>隊長<C_NONE>
+      発射 !!<WAIT>
+      <ASMda04><Xfba8618261><Xf5aa6101><CLEAR><CH0>
+      どうしたんだ フローラ？
+
+      <Xfba8617861><CH2>
+      みんなが ･ ･ ･ イシュタが ･ ･ ･
+      早く ･ ･ ･ 早く 行かなければ ･ ･ ･
+
+      <Xfba8618261><CH0>
+      イシュタが どうしたんだ？<WAIT>
+      みんなとは？
+
+      <Xfba8617861><CH2>
+      ああ もうおそい ･ ･ ･
+      みんなが ･ ･ ･
+
+      <Xfba8618c61><CH1>
+      何があったか 行きゃわかるだろ。
+      とりあえず イシュタに行こうぜ。
+    "original_byte_length": !!int |-
+      698
+    "references":
+    - "source_addr": !!int |-
+        54873
+      "target_addr": !!int |-
+        24203
+    "translated": !!null |-
+      null
+"note": ""

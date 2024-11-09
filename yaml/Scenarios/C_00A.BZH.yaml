@@ -1,0 +1,240 @@
+"entries":
+  "5aaf":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ディーナ<C_NONE>
+      <IF0013><JUMP5ce3><SET0013>アトラス、あなたも 知っていると
+      思いますが 陛下たちの行方が
+      わからなくなってしまいました。
+
+      <CH0>
+      ええ、ハンス大統領にききました。
+      でも ひとつ心当たりがあるんです。
+
+      これから 調べに行くところなので
+      父上たちのことは 秘密にしておいて
+      ください。
+
+      <C_YELLOW>ディーナ<C_NONE>
+      まあ !! それは どういうことなの？
+
+      <CH0>
+      もう少し 待っていてください。
+      今は あまり詳しいことは言えません。
+
+      <C_YELLOW>ディーナ<C_NONE>
+      そうですか ･ ･ ･
+      アトラス、あなたも かなり りっぱになったのですね。
+
+      もう あなたに いろいろと言うのは
+      やめます、自分がいいと思うとおりにしなさい。<WAIT>
+      でも 命だけは 大切にするのですよ。<END>
+      <LOC5ce3>今は あなたたちだけが 頼りです。
+      早く 陛下たちの 行方をつかんで
+      ください。
+    "original_byte_length": !!int |-
+      639
+    "references":
+    - "source_addr": !!int |-
+        54633
+      "target_addr": !!int |-
+        23215
+    "translated": !!null |-
+      null
+  "5d2e":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>フェリシア<C_NONE>
+      いいですか アトラス。
+      勇気と無謀というのは 違いますよ。
+      良く考えて 行動しなさい。
+    "original_byte_length": !!int |-
+      95
+    "references":
+    - "source_addr": !!int |-
+        54648
+      "target_addr": !!int |-
+        23854
+    "translated": !!null |-
+      null
+  "5d8d":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      王子さま、まだ セリオスさまに
+      合流なさって いないのですか？
+    "original_byte_length": !!int |-
+      67
+    "references":
+    - "source_addr": !!int |-
+        54657
+      "target_addr": !!int |-
+        23949
+    "translated": !!null |-
+      null
+  "5dd0":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      竜の卵の 近くには モンスターが
+      たくさんいますから 近づかない
+      ように なさってください。
+    "original_byte_length": !!int |-
+      94
+    "references":
+    - "source_addr": !!int |-
+        54666
+      "target_addr": !!int |-
+        24016
+    "translated": !!null |-
+      null
+  "5e2e":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      竜の卵から 離れている所では あまりモンスターを見かけません。竜の卵は避けたほうが よいでしょう。
+    "original_byte_length": !!int |-
+      103
+    "references":
+    - "source_addr": !!int |-
+        54675
+      "target_addr": !!int |-
+        24110
+    "translated": !!null |-
+      null
+  "5e95":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      モンスターが 現れてから スライムを見かけなくなりました。
+
+      そのため 体力作りが できなくなって困っているんです。
+    "original_byte_length": !!int |-
+      117
+    "references":
+    - "source_addr": !!int |-
+        54684
+      "target_addr": !!int |-
+        24213
+    "translated": !!null |-
+      null
+  "5f0a":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      王子さま もう あのドラゴンには
+      乗られたのですか？
+    "original_byte_length": !!int |-
+      57
+    "references":
+    - "source_addr": !!int |-
+        54693
+      "target_addr": !!int |-
+        24330
+    "translated": !!null |-
+      null
+  "5f43":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      今のところ ルディアの 近くでは
+      あまりモンスターを 見かけません。
+      お城のほうは 安心なさってください。
+    "original_byte_length": !!int |-
+      108
+    "references":
+    - "source_addr": !!int |-
+        54702
+      "target_addr": !!int |-
+        24387
+    "translated": !!null |-
+      null
+  "5faf":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      セリオスさまが 戻られるまでは
+      モンスターから 攻撃してこない限り
+      応戦するな とのことです。
+    "original_byte_length": !!int |-
+      97
+    "references":
+    - "source_addr": !!int |-
+        54711
+      "target_addr": !!int |-
+        24495
+    "translated": !!null |-
+      null
+  "6010":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      セリオスさまに 合流するまでは
+      あまり 無理をしないように
+      してください。
+    "original_byte_length": !!int |-
+      78
+    "references":
+    - "source_addr": !!int |-
+        54720
+      "target_addr": !!int |-
+        24592
+    "translated": !!null |-
+      null
+  "605e":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>教育係 ラウエル<C_NONE>
+      <Xf6f7d5><JUMP6107>おお そうでしたな。
+      もう その親書は あまり意味が
+      なくなったようですな。
+
+      私が お預かりしましょう。
+
+      <ASMd604><ITEM><C_GREEN>を 渡しました。
+      <C_NONE><ASMd60c><ITEM><C_GREEN>を 渡しました。<SND0103><C_NONE>
+
+      <LOC6107>王子さま 一刻も早く セリオスさまをお探しください。
+    "original_byte_length": !!int |-
+      220
+    "references":
+    - "source_addr": !!int |-
+        54729
+      "target_addr": !!int |-
+        24670
+    "translated": !!null |-
+      null
+"note": ""

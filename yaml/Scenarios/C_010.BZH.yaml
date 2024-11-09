@@ -1,0 +1,21 @@
+"entries":
+  "5a04":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      これは 王子さま。
+      <IF0400><JUMP5a47>お気をつけて いってらっしゃいませ。<END>
+      <LOC5a47>お帰りなさいませ。
+    "original_byte_length": !!int |-
+      86
+    "references":
+    - "source_addr": !!int |-
+        54632
+      "target_addr": !!int |-
+        23044
+    "translated": !!null |-
+      null
+"note": ""

@@ -1,0 +1,239 @@
+"entries":
+  "5a4f":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ジェストン<C_NONE>
+      <IF0068><JUMP601c><IF0050><JUMP5fc6>よく参られた アトラス王子。
+      <PAGE>
+      <CH0>
+      ジェストンさま。
+      初めて お目にかかります。
+
+      <C_YELLOW>ジェストン<C_NONE>
+      いや 王子、初めてではないぞ。
+
+      ２度目になるかな ･ ･ ･ と言っても
+      ずっと昔のことだ。
+      覚えていないのも むりはない。
+
+      <CH0>
+      そうでしたか 失礼いたしました。
+      ジェストンさま、父上より 親書を
+      預かってまいりした。
+
+      <Xf6d4d5><SET0019><SET0050><ITEM><C_GREEN>を 渡しました。<SND0103><C_NONE>
+
+      <C_YELLOW>ジェストン<C_NONE>
+      ご苦労であった。
+      ところで 王子の 従者たちは
+      どこにおるのだ？
+
+      <CH0>
+      いいえ おりません。
+      父上から 供を連れずに ひとりで
+      行くようにと 命じられました。
+
+      <C_YELLOW>ジェストン<C_NONE>
+      なに ひとりで !?
+      そうか よくぞ ひとりで参られた。
+      それで 帰りは いかがいたすのだ？
+
+      <CH0>
+      いいえ すぐには戻りません。
+      他の３国への親書もあって すべてを
+      ひとりで 届けるまで 帰れないのです。
+
+      それに ワプで たくさんの町に
+      行けるようにするという目的も
+      あるのです。
+
+      <C_YELLOW>ジェストン<C_NONE>
+      なに 世界中を ひとりで !?
+      それは たいへんなことだ。
+
+      しかし アトラス王子であれば
+      きっと 成しとげるであろう。
+
+      すると 次は ラヌーラ王国か ･ ･ ･<WAIT>
+      ラヌーラでは 出入国する者を
+      規制しているのを 知っておるか？
+
+      <CH0>
+      はい 話だけは きいております。<WAIT>
+      ジェストンさま お願いがございます。
+
+      ぼくが 王子でなく ただの少年だと
+      いうことにして いただけませんか？
+
+      <C_YELLOW>ジェストン<C_NONE>
+      たしかに 規制のため 身分を明らかにしなければ ならんからな。
+
+      王子だということを 知られたく
+      ないと いうわけか。
+      <PAGE>
+      いいだろう ラルファにいる 兵士に
+      伝えておいてやろう。
+      ルディアの町の アトラスで よいな。
+
+      それにしても セリオスめ なかなか
+      よい子に 育てたものじゃ ･ ･ ･
+
+      <LOC5fc6>わしには 子供が いないので
+      後継ぎのことで 大変なのだ。<WAIT>
+      候補は ３人も いるのだが ･ ･ ･<END>
+      <LOC601c><IF0051><JUMP62aa><SET0051><SET006a>おや アトラス王子ではないか。
+      いったい どうしたと いうのだ？
+
+      <Xf52c0000><ASM1ae6><Xf7><CH0>
+      父上が こちらに向かったと
+      ききまして ･ ･ ･
+
+      <C_YELLOW>ジェストン<C_NONE>
+      おお セリオス殿なら たしかに
+      このモンスターの 発生について
+      話をされにきたぞ。
+
+      セリオス殿が 言うには イセルハーサ全土で モンスターが 発生している
+      可能性があるそうだ。
+
+      そして その手がかりを つかむためにイセルハーサ中にある 竜の卵を 見てまわると 言っておられた。
+
+      つい先ほど ラヌーラのエリオン殿に
+      会うために 出発されたところだが
+      何か用でも あったのかね？
+
+      <CH0>
+      ええ ぼくも 父上と 行動をともに
+      しようと思いまして。
+
+      ジェストンさま それでは ぼくも
+      父を追って ラヌーラに 向かいます。
+
+      <C_YELLOW>ジェストン<C_NONE>
+      そうか それは よいことだ。
+      <LOC62aa>くれぐれも モンスターには
+      気をつけて むりを せぬようにな。
+    "original_byte_length": !!int |-
+      2198
+    "references":
+    - "source_addr": !!int |-
+        54649
+      "target_addr": !!int |-
+        23119
+    "translated": !!null |-
+      null
+  "62e5":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>オーエン<C_NONE>
+      <IF0050><JUMP6340>私は 側近のオーエンです。
+      アトラス王子さま よくぞ おいで
+      くださいました。<END>
+      <LOC6340>ふぅ やはり ジェストンさまに
+      合併計画を お話しすべきでは ･ ･ ･
+
+      あ いや、ひとりごとです。
+      <IF0051><JUMP63c9><IF0068><JUMP63c8>お気をつけて 旅をなさってください。<LOC63c8><END>
+      <LOC63c9>モンスターには 十分 お気をつけに
+      なってください。
+    "original_byte_length": !!int |-
+      278
+    "references":
+    - "source_addr": !!int |-
+        54658
+      "target_addr": !!int |-
+        25317
+    "translated": !!null |-
+      null
+  "63fb":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      ジェストンさまは 独身だから
+      後継ぎがいらっしゃらないんです。
+    "original_byte_length": !!int |-
+      68
+    "references":
+    - "source_addr": !!int |-
+        54667
+      "target_addr": !!int |-
+        25595
+    "translated": !!null |-
+      null
+  "643f":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      １階にいる 候補の中から 後継ぎを
+      決めるのですが、いつになっても
+      決まらないんですよ。
+    "original_byte_length": !!int |-
+      92
+    "references":
+    - "source_addr": !!int |-
+        54676
+      "target_addr": !!int |-
+        25663
+    "translated": !!null |-
+      null
+  "649b":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      <IF0050><JUMP64f6>お待ちしておりました。
+      アトラス王子さまですね？
+      ジェストンさまは この先です。<END>
+      <LOC64f6>ああ わが国にも あなたさまのような立派な後継ぎがいたら ･ ･ ･
+    "original_byte_length": !!int |-
+      152
+    "references":
+    - "source_addr": !!int |-
+        54685
+      "target_addr": !!int |-
+        25755
+    "translated": !!null |-
+      null
+  "6533":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      <IF0068><JUMP65d9><IF0050><JUMP658d>王子さま、お話は 門番から
+      きいております。
+      どうぞ中に お入りください。<END>
+      <LOC658d>はぁ ･ ･ ･<WAIT>
+      ここだけの話ですが あの候補たち
+      君主の器なんかじゃないんですよ。<END>
+      <LOC65d9>あっ これは 王子さま。
+      私は 初めて見ましたよ。
+      あのドラゴンっていうやつを。
+
+      いやー あんな物に乗って 空を
+      飛べたら 気持ち いいでしょうね。
+    "original_byte_length": !!int |-
+      304
+    "references":
+    - "source_addr": !!int |-
+        54694
+      "target_addr": !!int |-
+        25907
+    "translated": !!null |-
+      null
+"note": ""

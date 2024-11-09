@@ -1,0 +1,284 @@
+"entries":
+  "5b96":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CALL6658>ラヌーラの 竜の祭が 中止になった
+      そうだが そんなことは 竜の祭が
+      始まって以来の ことらしい。
+
+      まあ こんな異常なときなんだから
+      しかたのないことだけどな。
+    "original_byte_length": !!int |-
+      154
+    "references":
+    - "source_addr": !!int |-
+        54739
+      "target_addr": !!int |-
+        23446
+    "translated": !!null |-
+      null
+  "5c30":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CALL6658>ラヌーラは たいへんらしいぞ。
+      セリスの城が モンスターに
+      おそわれたんだ。
+
+      だから ヨルドで 出入国の手続きを
+      やっているんだが 思うように
+      できないらしい。
+
+      でも この状態だから 手続きは
+      中止になるという話もあるんだ。
+    "original_byte_length": !!int |-
+      214
+    "references":
+    - "source_addr": !!int |-
+        54748
+      "target_addr": !!int |-
+        23600
+    "translated": !!null |-
+      null
+  "5e80":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CALL6658>ボアード海運の ボアードは
+      元海賊だって うわさだぜ。
+
+      そういえば あれが できてからは
+      海賊が いなくなったしなぁ。
+      でも まさか そんなはずないよな。
+    "original_byte_length": !!int |-
+      147
+    "references":
+    - "source_addr": !!int |-
+        54803
+      "target_addr": !!int |-
+        24192
+    "translated": !!null |-
+      null
+  "5f13":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CALL6658>うちの子供が 竜の祭に 行きたがっていたんだけど おれの つごうが悪くて行けなかったんだ。
+
+      でも 行けなくて よかったよ。
+      もし 行ってたら 子ども連れで
+      逃げなけりゃならなかったからな。
+    "original_byte_length": !!int |-
+      181
+    "references":
+    - "source_addr": !!int |-
+        54812
+      "target_addr": !!int |-
+        24339
+    "translated": !!null |-
+      null
+  "5fc8":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>女<C_NONE>
+      マスクーンが モンスターに
+      おそわれたの 知ってる？
+
+      竜の卵が いきなり赤くなって
+      モンスターが 出てきたんですって。
+      竜の卵って いったい何なのかしら。
+    "original_byte_length": !!int |-
+      151
+    "references":
+    - "source_addr": !!int |-
+        54821
+      "target_addr": !!int |-
+        24520
+    "translated": !!null |-
+      null
+  "605f":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>女<C_NONE>
+      私 ラルファから マスクーンに 戻る
+      途中で 竜の卵が 赤くなって 中から
+      モンスターが 出てくるのを 見たの。
+
+      私の 子どもたちが 家にいたから
+      急いで 助けに 行こうとしたんだけどモンスターに 追いかけられて 夢中でここまで 逃げてきたの。
+
+      あとで 兵士さんに きいたら町長の
+      フォルスさんと いっしょに
+      リーゼルに 逃げていたらしいのよ。
+      早く ぶじな姿を 見たいわ。
+    "original_byte_length": !!int |-
+      351
+    "references":
+    - "source_addr": !!int |-
+        54830
+      "target_addr": !!int |-
+        24671
+    "translated": !!null |-
+      null
+  "61be":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      ヨルドは セリスから ひなんしてきた人たちで いっぱいですよ。
+      向こうにも モンスターがいるんです。
+    "original_byte_length": !!int |-
+      101
+    "references":
+    - "source_addr": !!int |-
+        54839
+      "target_addr": !!int |-
+        25022
+    "translated": !!null |-
+      null
+  "6223":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      お客さん 切符をお願いします。
+      <PAGE>
+      <Xf8287417><JUMP62b3>船に 乗りますか？
+      <Xf69229><JUMP628d><Xf9000204><ASM6b26><Xf828af17><JUMP62b3><Xf028><SET0400><ITEM>を 渡しました。<SND0103><END>
+      <LOC628d><CLEAR>早く お乗りください。
+      出発しますよ。<END>
+      <LOC62b3>切符が ないみたいですよ。
+    "original_byte_length": !!int |-
+      170
+    "references":
+    - "source_addr": !!int |-
+        54650
+      "target_addr": !!int |-
+        25123
+    "translated": !!null |-
+      null
+  "62cd":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      グエンの塔には サイレスの呪文の
+      石碑があったんだけど 倒れて
+      なくなちゃったんだ。
+
+      それで サイレスの呪文を
+      手に入れるには ここの呪文屋で
+      買うしかなくなったんだよ。
+
+      そうしたら 呪文屋のやつ 値段を
+      ２倍にして 売りはじめたんだぜ。
+
+      でも しばらくは 値段が高いから
+      あまり 売れてなかったけど
+      モンスターが 出てきてからは
+      けっこう 売れているみたいだぜ。
+    "original_byte_length": !!int |-
+      347
+    "references":
+    - "source_addr": !!int |-
+        54848
+      "target_addr": !!int |-
+        25293
+    "translated": !!null |-
+      null
+  "6428":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CALL665f>おや いらっしゃい。
+      サイレスの呪文は いかがですか？
+
+      １つ 200 Gold になりますが
+      <Xf65317><JUMP6521><Xf26565><JUMP6544>サイレスを買いますか？
+      <Xf69229><JUMP64d1><SET0404><Xf193><Xf36565>これはどうも ありがとうございます。<JUMP650b><LOC64d1>そうですか ･ ･ ･
+      <IF0404><JUMP650b>こんな 便利なものは ないのに ･ ･ ･<END>
+      <LOC650b>また おいでください。<END>
+      <LOC6521>これ以上 持てないみたいですね。
+      <JUMP650b><LOC6544>お金が足りない みたいですね。
+      <JUMP650b>ﾈ
+    "original_byte_length": !!int |-
+      319
+    "references":
+    - "source_addr": !!int |-
+        54854
+      "target_addr": !!int |-
+        25640
+    "translated": !!null |-
+      null
+  "6569":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>女<C_NONE>
+      いらっしゃいませ。
+      ここは 切符売場です。
+      １枚 100 Gold になりますが
+
+      <Xf24f66><JUMP6618><Xf65317><JUMP6637>切符を 買いますか？<Xf69229><JUMP6601><Xf34f66><Xf128><CLEAR>はい どうぞ、ありがとうございます。<END>
+      <LOC6601><CLEAR>あら そうですか ･ ･ ･<END>
+      <LOC6618>お客さん お金が 足りないわよ。<END>
+      <LOC6637>これ以上 持てないわよ。
+    "original_byte_length": !!int |-
+      230
+    "references":
+    - "source_addr": !!int |-
+        54860
+      "target_addr": !!int |-
+        25961
+    "translated": !!null |-
+      null
+  "6658":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>兵士<C_NONE><RET_N>
+    "original_byte_length": !!int |-
+      7
+    "references": []
+    "translated": !!null |-
+      null
+  "665f":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>呪文屋<C_NONE><RET_N>
+    "original_byte_length": !!int |-
+      9
+    "references": []
+    "translated": !!null |-
+      null
+"note": ""

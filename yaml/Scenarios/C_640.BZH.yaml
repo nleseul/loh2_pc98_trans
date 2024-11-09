@@ -1,0 +1,170 @@
+"entries":
+  "5f3e":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ケリイ<C_NONE>
+      この先にいる 敵が やたらに強くて
+      私たちでは どうにもならないんです。<WAIT>
+      何とかしてください。
+    "original_byte_length": !!int |-
+      99
+    "references":
+    - "source_addr": !!int |-
+        54827
+      "target_addr": !!int |-
+        24382
+    "translated": !!null |-
+      null
+  "5fa1":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ボザ<C_NONE>
+      この先のやつを 倒してくれ。
+      おれは 腕をケガしてしまったから
+      しばらくは 戦えない。
+
+      あとは お前らに 任せるぜ。
+    "original_byte_length": !!int |-
+      116
+    "references":
+    - "source_addr": !!int |-
+        54836
+      "target_addr": !!int |-
+        24481
+    "translated": !!null |-
+      null
+  "6015":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      ボザが ケガをして ここから先に
+      進めなくなってしまったんだ。
+    "original_byte_length": !!int |-
+      65
+    "references":
+    - "source_addr": !!int |-
+        54845
+      "target_addr": !!int |-
+        24597
+    "translated": !!null |-
+      null
+  "6056":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>リーダー<C_NONE>
+      ボザが あのとおりじゃから 君らに
+      がんばってもらうしかないようじゃ。何とかして ここを 突破してくれぬか。
+    "original_byte_length": !!int |-
+      115
+    "references":
+    - "source_addr": !!int |-
+        54854
+      "target_addr": !!int |-
+        24662
+    "translated": !!null |-
+      null
+  "60c9":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>テクニカのマスター<C_NONE>
+      もう少しで テクニカの部屋なのだ。
+      何とかして あいつを 倒してくれ。
+    "original_byte_length": !!int |-
+      88
+    "references":
+    - "source_addr": !!int |-
+        54863
+      "target_addr": !!int |-
+        24777
+    "translated": !!null |-
+      null
+  "6121":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ヨシュアのマスター<C_NONE>
+      バイオラのマスターにも困ったものだ。あの敵には 弱点がないとは ･ ･ ･
+    "original_byte_length": !!int |-
+      89
+    "references":
+    - "source_addr": !!int |-
+        54872
+      "target_addr": !!int |-
+        24865
+    "translated": !!null |-
+      null
+  "617a":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>バイオラのマスター<C_NONE>
+      私は どうして あんな化け物を
+      作ってしまったのだろうか ･ ･ ･
+    "original_byte_length": !!int |-
+      81
+    "references":
+    - "source_addr": !!int |-
+        54881
+      "target_addr": !!int |-
+        24954
+    "translated": !!null |-
+      null
+  "61cb":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ケリイ<C_NONE>
+      さあ 早く !!
+      いっしょに 行きましょう。
+
+      <CH0>
+      よし 後ろは ぼくたちに まかせて
+      先に行ってくれ !!
+    "original_byte_length": !!int |-
+      101
+    "references":
+    - "source_addr": !!int |-
+        54906
+      "target_addr": !!int |-
+        25035
+    "translated": !!null |-
+      null
+  "6230":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <PARTY>は 宝箱を開けました。
+      宝箱の中には<RET>
+    "original_byte_length": !!int |-
+      36
+    "references":
+    - "source_addr": !!int |-
+        54771
+      "target_addr": !!int |-
+        25136
+    "translated": !!null |-
+      null
+"note": ""

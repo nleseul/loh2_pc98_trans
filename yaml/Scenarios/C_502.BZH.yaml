@@ -1,0 +1,31 @@
+"entries":
+  "5c1e":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ガード<C_NONE>
+      おい 何か音がしなかったか？
+
+      <C_YELLOW>ガード<C_NONE>
+      いや 別にきこえなかったぞ。
+      ダリスさまが 拷問してる音でも
+      きこえたんじゃないか？
+
+      これだけ 警備を厚くしてるんだ。
+      レジスタンスも そう簡単には
+      侵入できないだろう。
+
+      <C_YELLOW>ガード<C_NONE>
+      そうだな 気のせいだな。
+    "original_byte_length": !!int |-
+      241
+    "references":
+    - "source_addr": !!int |-
+        54843
+      "target_addr": !!int |-
+        23582
+    "translated": !!null |-
+      null
+"note": ""

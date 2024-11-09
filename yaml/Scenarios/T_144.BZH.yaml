@@ -1,0 +1,370 @@
+"entries":
+  "5af8":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      これは 王子さま。ジェストンさまは
+      城の２階に いらっしゃいます。
+      どうぞ お入りください。
+    "original_byte_length": !!int |-
+      95
+    "references":
+    - "source_addr": !!int |-
+        54633
+      "target_addr": !!int |-
+        23288
+    "translated": !!null |-
+      null
+  "5b57":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |
+      <C_YELLOW>男<C_NONE>
+      世の中が 暗黒に包まれた時
+      竜の卵から 真紅の竜がかえり
+      邪悪なものを焼きつくす。
+
+      こんな言い伝え 知ってますか？
+      父が よく言っていたんです。
+    "original_byte_length": !!int |-
+      143
+    "references":
+    - "source_addr": !!int |-
+        54642
+      "target_addr": !!int |-
+        23383
+    "translated": !!null |-
+      null
+  "5be6":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      きいてくれよ。ジェストンさまが
+      後継ぎ候補を 追い出したから
+      変だと思っていたんだ。
+
+      そしたら何と ファーレーン王国と
+      合併しようとしてるって うわさだぜ。
+    "original_byte_length": !!int |-
+      155
+    "references":
+    - "source_addr": !!int |-
+        54651
+      "target_addr": !!int |-
+        23526
+    "translated": !!null |-
+      null
+  "5c81":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>女<C_NONE>
+      うちの子たちったら モンスターが
+      いなくなったから おおよろこびで
+      遊びまわっているのよ。
+    "original_byte_length": !!int |-
+      92
+    "references":
+    - "source_addr": !!int |-
+        54660
+      "target_addr": !!int |-
+        23681
+    "translated": !!null |-
+      null
+  "5cdd":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>老人<C_NONE>
+      よかった よかった。
+      やっと女神 フレイアさまの お怒りがおさまったようじゃ。
+
+      ちかごろの 若いもんときたら 神様を信じぬから いかんのじゃ。
+    "original_byte_length": !!int |-
+      142
+    "references":
+    - "source_addr": !!int |-
+        54669
+      "target_addr": !!int |-
+        23773
+    "translated": !!null |-
+      null
+  "5d6b":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>子供<C_NONE>
+      やっと こわいモンスターが
+      いなくなったから 町の外まで
+      出ていけるように なったんだ。
+    "original_byte_length": !!int |-
+      91
+    "references":
+    - "source_addr": !!int |-
+        54678
+      "target_addr": !!int |-
+        23915
+    "translated": !!null |-
+      null
+  "5dc6":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>子供<C_NONE>
+      町の外だったら 広いから 鬼ごっこ
+      やってても おもしろいんだ。
+    "original_byte_length": !!int |-
+      68
+    "references":
+    - "source_addr": !!int |-
+        54687
+      "target_addr": !!int |-
+        24006
+    "translated": !!null |-
+      null
+  "5e0a":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>子供<C_NONE>
+      町の外で かくれんぼをしたら
+      なかなか 見つけられなくて
+      いやんなっちゃった。
+    "original_byte_length": !!int |-
+      82
+    "references":
+    - "source_addr": !!int |-
+        54696
+      "target_addr": !!int |-
+        24074
+    "translated": !!null |-
+      null
+  "5e5c":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>女<C_NONE>
+      マスクーンの町長 フォルスさんは
+      兵士さんたちと マスクーンに行って
+      こわれた町を なおしているのよ。
+    "original_byte_length": !!int |-
+      103
+    "references":
+    - "source_addr": !!int |-
+        54705
+      "target_addr": !!int |-
+        24156
+    "translated": !!null |-
+      null
+  "5ec3":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>武器屋<C_NONE>
+      はい いらっしゃい。<RET_N>
+    "original_byte_length": !!int |-
+      29
+    "references":
+    - "source_addr": !!int |-
+        54717
+      "target_addr": !!int |-
+        24259
+    "translated": !!null |-
+      null
+  "5ee0":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      またどうぞ。
+    "original_byte_length": !!int |-
+      13
+    "references":
+    - "source_addr": !!int |-
+        54729
+      "target_addr": !!int |-
+        24288
+    "translated": !!null |-
+      null
+  "5eed":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>道具屋<C_NONE>
+      いらっしゃいませ。
+      どのような ご用でしょうか？<RET_N>
+    "original_byte_length": !!int |-
+      56
+    "references":
+    - "source_addr": !!int |-
+        54741
+      "target_addr": !!int |-
+        24301
+    "translated": !!null |-
+      null
+  "5f25":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      また来てくださいね。
+    "original_byte_length": !!int |-
+      21
+    "references":
+    - "source_addr": !!int |-
+        54768
+      "target_addr": !!int |-
+        24357
+    "translated": !!null |-
+      null
+  "5f3a":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      おや？これ以上持てないようですね。
+
+      <RET>
+    "original_byte_length": !!int |-
+      36
+    "references":
+    - "source_addr": !!int |-
+        1752
+      "target_addr": !!int |-
+        24378
+    "translated": !!null |-
+      null
+  "5f5e":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      どれを買ってくれますか？
+      <RET_N>
+    "original_byte_length": !!int |-
+      26
+    "references":
+    - "source_addr": !!int |-
+        1754
+      "target_addr": !!int |-
+        24414
+    "translated": !!null |-
+      null
+  "5f78":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ITEM>だね。
+      どうも ありがとう。
+
+      <RET>
+    "original_byte_length": !!int |-
+      29
+    "references":
+    - "source_addr": !!int |-
+        1756
+      "target_addr": !!int |-
+        24440
+    "translated": !!null |-
+      null
+  "5f9d":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      どれを 売ってくれますか？
+      <RET_N>
+    "original_byte_length": !!int |-
+      27
+    "references":
+    - "source_addr": !!int |-
+        1623
+      "target_addr": !!int |-
+        24477
+    "translated": !!null |-
+      null
+  "5fb8":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |2-
+       Gold になるけど
+      それでも よろしいですか？
+      <RET_N>
+    "original_byte_length": !!int |-
+      44
+    "references":
+    - "source_addr": !!int |-
+        1625
+      "target_addr": !!int |-
+        24504
+    "translated": !!null |-
+      null
+  "5fe4":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      それは残念です。
+
+      <RET_N>
+    "original_byte_length": !!int |-
+      18
+    "references":
+    - "source_addr": !!int |-
+        1627
+      "target_addr": !!int |-
+        24548
+    "translated": !!null |-
+      null
+  "5ff6":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      どうも ありがとうございます。
+      <RET_N>
+    "original_byte_length": !!int |-
+      31
+    "references":
+    - "source_addr": !!int |-
+        1629
+      "target_addr": !!int |-
+        24566
+    "translated": !!null |-
+      null
+"note": ""

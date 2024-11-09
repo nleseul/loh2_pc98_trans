@@ -1,0 +1,255 @@
+"entries":
+  "5ac7":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ディーナ王妃<C_NONE>
+      アトラス、だいたいの話は
+      ゲイル殿から きいています。
+
+      その話をきいて 陛下たちも 地底に
+      手助けに向かいました。
+
+      <CH0>
+      そうでしたか ･ ･ ･ 父上たちは
+      まだ完全には 治っていないのでは
+      ありませんか？
+
+      <C_YELLOW>ディーナ王妃<C_NONE>
+      ええ ･ ･ ･ でも あの方たちは
+      私が何と言おうが 聞く耳を
+      持っておりません。
+
+      すぐに 出発してしまいました。
+
+      <LOC5c0a>アトラス、そして 仲間のみなさん。
+      一刻も早く 地底で 苦しんでいる
+      人たちを 救ってあげてください。
+    "original_byte_length": !!int |-
+      420
+    "references":
+    - "source_addr": !!int |-
+        54753
+      "target_addr": !!int |-
+        23239
+    "translated": !!null |-
+      null
+  "5c6b":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ディーナ王妃<C_NONE>
+      <JUMP5c0a><LOC5c7d><C_YELLOW>フェリシア<C_NONE>
+      どうして あなたも セリオスも
+      落ちついて いられないのですか？
+
+      でも 何か とても 大変なことが
+      起こっていると いうことぐらいは
+      想像できます。
+
+      くれぐれも むりをしないように。
+    "original_byte_length": !!int |-
+      201
+    "references":
+    - "source_addr": !!int |-
+        54643
+      "target_addr": !!int |-
+        23659
+    - "source_addr": !!int |-
+        54658
+      "target_addr": !!int |-
+        23677
+    "translated": !!null |-
+      null
+  "5d34":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      王子さまのおかげで 竜の卵も もとに戻りましたし モンスターも いなく
+      なりました。
+    "original_byte_length": !!int |-
+      87
+    "references":
+    - "source_addr": !!int |-
+        54667
+      "target_addr": !!int |-
+        23860
+    "translated": !!null |-
+      null
+  "5d8b":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      王子さま あのモンスターは いったい何だったのですか？
+
+      以前 さわぎになった 破壊神
+      アグニージャとかいうやつと 何か
+      関係があるのですか？
+    "original_byte_length": !!int |-
+      140
+    "references":
+    - "source_addr": !!int |-
+        54676
+      "target_addr": !!int |-
+        23947
+    "translated": !!null |-
+      null
+  "5e17":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      王子さま どのようにして 竜の卵を
+      もとに戻したのですか？
+
+      竜の卵に 入れるのは ラヌーラの
+      司祭 バーバラさまだけだと きいて
+      おりますが ･ ･ ･
+    "original_byte_length": !!int |-
+      144
+    "references":
+    - "source_addr": !!int |-
+        54685
+      "target_addr": !!int |-
+        24087
+    "translated": !!null |-
+      null
+  "5ea7":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |
+      <C_YELLOW>兵士<C_NONE>
+      セリオスさまたちが また どこかに
+      お出かけになりました。
+    "original_byte_length": !!int |-
+      64
+    "references":
+    - "source_addr": !!int |-
+        54694
+      "target_addr": !!int |-
+        24231
+    "translated": !!null |-
+      null
+  "5ee7":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      ソルディスでは 司祭 バーバラさまが竜の卵を 正常にしたという うわさが広がっているそうです。
+    "original_byte_length": !!int |-
+      98
+    "references":
+    - "source_addr": !!int |-
+        54703
+      "target_addr": !!int |-
+        24295
+    "translated": !!null |-
+      null
+  "5f49":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      王子さま セリオスさまたちは なぜ
+      あんなに ケガをされているのに
+      出かけられたのですか？
+    "original_byte_length": !!int |-
+      93
+    "references":
+    - "source_addr": !!int |-
+        54712
+      "target_addr": !!int |-
+        24393
+    "translated": !!null |-
+      null
+  "5fa6":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      王子さま あのさわぎの原因は
+      いったい 何だったのですか？
+
+      女神 フレイアさまが お怒りに
+      なったという うわさが 広まっているようですが ･ ･ ･
+    "original_byte_length": !!int |-
+      143
+    "references":
+    - "source_addr": !!int |-
+        54721
+      "target_addr": !!int |-
+        24486
+    "translated": !!null |-
+      null
+  "6035":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      王子さま あまり 無理をしないようにしてください。
+    "original_byte_length": !!int |-
+      56
+    "references":
+    - "source_addr": !!int |-
+        54730
+      "target_addr": !!int |-
+        24629
+    "translated": !!null |-
+      null
+  "606d":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>教育係 ラウエル<C_NONE>
+      <Xf60fd6><JUMP6116>おお そうでしたな。
+      もう その親書は あまり意味が
+      なくなったようですな。
+
+      私が お預かりしましょう。
+
+      <ASMd61c><ITEM><C_GREEN>を 渡しました。
+      <C_NONE><ASMd624><ITEM><C_GREEN>を 渡しました。<SND0103><C_NONE>
+
+      <LOC6116>セリオスさまたちが またお出かけに
+      なられました。
+
+      ゲイル殿が やってきて 何やら話を
+      すると すぐに戦闘用の装備をして
+      ３人とも出て行かれました。
+
+      まだ ケガが完全に治っていないのに
+      心配でなりません。
+    "original_byte_length": !!int |-
+      363
+    "references":
+    - "source_addr": !!int |-
+        54739
+      "target_addr": !!int |-
+        24685
+    "translated": !!null |-
+      null
+"note": ""

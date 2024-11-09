@@ -1,0 +1,26 @@
+"entries":
+  "5af6":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <PARTY>は<RET>
+    "original_byte_length": !!int |-
+      4
+    "references":
+    - "source_addr": !!int |-
+        54649
+      "target_addr": !!int |-
+        23286
+    - "source_addr": !!int |-
+        54681
+      "target_addr": !!int |-
+        23286
+    - "source_addr": !!int |-
+        54713
+      "target_addr": !!int |-
+        23286
+    "translated": !!null |-
+      null
+"note": ""

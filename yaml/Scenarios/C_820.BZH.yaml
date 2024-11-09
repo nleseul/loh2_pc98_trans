@@ -1,0 +1,204 @@
+"entries":
+  "5d0c":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CALL64c2>フ ･ フレイア ･ ･ フレイアを ･ ･ ･
+
+      <CH1>
+      こいつは ひでえ ･ ･ ･
+      何を使えば こんな傷になるんだ？
+
+      <CH0>
+      しっかりしろ !
+      皇帝にやられたんだな？
+
+      <CALL64c2>き ･ 君たちは ･ ･ 地上の ･ ･ ･
+
+      すまない ･ ･ ･ 君たちを ･ ･ ･
+      誤解して ･ いた ･ ･ あれは ･ ･
+      不幸な ･ ･ ･ ･ 事故だっ ･ ･ た ･ ･
+
+      <CH0>
+      事故？
+    "original_byte_length": !!int |-
+      276
+    "references":
+    - "source_addr": !!int |-
+        54798
+      "target_addr": !!int |-
+        23820
+    "translated": !!null |-
+      null
+  "5e20":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": "<CALL64f3><CALL64c8> !!\n\n<CALL64c2>せ ･ 先生 ･ ･ ･\nお許しください ･ ･ やっと\
+      \ ･ ･ ･\n意味が ･ ･ わかり ･ ･ ました ･ ･\n\n<CALL64f3>おお ･ ･ ･ お前の悲しみを わかってやれなかった 私にも\
+      \ 責任はある。\n\n<CALL64c2>いいえ ･ ･ ･ ともに学んだ仲間を\n殺されて ･ ･ ･ 私は ･ ･ ･\n\n<CH1>\n殺された？\
+      \ 何のことなんだ？\n\n<CALL64f3>できることなら 君たちには\n知られたく なかったのだか ･ ･ ･\n\nわれわれは あの大地震のあと\
+      \ ５人のマスターの弟子たちを 地上の視察に\n行かせたのだ。\n\nマスターには 次期候補として １人の弟子がいるのだが 私の弟子は この\n<CALL64c8>だったのだ。\n\
+      \nそして 弟子たちが 地上に出ると\n２人の人間が 襲いかかってきたのだ。\n\n彼らの 見なれぬ姿を見て 驚いたのかモンスターとでも 思ったのか ･\
+      \ ･ ･\n\n<CH1>\nまてよ ･ ･ ･\nこの話 きいたこと あるような ･ ･ ･\n\n<CH3>\nドレイク。\n\n<CH1>\n\
+      そうか !!\nドレイクが 見たモンスターってのは\n<CALL64c8>たちのことだったんだ。\n\n<CH3>\nシンディ えらい。\n\n<CALL64c2>私は\
+      \ 地上の人々が ･ ･ ･ 凶悪だから･ ･ ･ 襲ってきたのだと ･ ･ ･\n\n先生に言っても ･ ･ 耳さえ ･ ･ ･\nだから ･ ･ ･\
+      \ 皇帝に ･ ･ ･ 訴え ･ ･復讐を ･ ･ ･ ･\n\n<CH2>\nよく わかりますわ。その お気持ち。\n\n<CALL64c2>しかし\
+      \ ･ ･ ･ 皇帝は ･ ･ 利用して\nいた ･ だけ ･ ･ だった ･ ･ ･\n\nフレイアを ･ ･ 悪用し ･ ･ ･ ･ ･\nモンスターを\
+      \ ･ ･ 何とか ･ ･ 皇帝の野望を ･ ･ はばもうと したが ･ ･ ･\n\nせ ･ ･ 先生 !!\nフレイアを ･ ･ モンスターを ･\
+      \ ･\n止 ･ め ･ ･ ･ て ･ ･ ･ ･ ･ \n\n<CALL64f3>安心するがいい <CALL64c8>。\n必ず やってみせよう。\n\
+      \n<CALL64c2>お ･ ･ お願い ･ しま ･ ･ ･ す ･ ･\n\n<CH2>\n<CALL64c8>さん !!\n\n<CH0>\n\
+      <CALL64c8> !!\n\n<CALL64c2><CALL64d1>\n\n<CH0>\n皇帝め ･ ･ 絶対に 許さないぞ !!"
+    "original_byte_length": !!int |-
+      1352
+    "references":
+    - "source_addr": !!int |-
+        54826
+      "target_addr": !!int |-
+        24096
+    "translated": !!null |-
+      null
+  "6368":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CALL64f3>私は 必ず フレイアを 元の状態に
+      戻してみせる。
+
+      君たちは <CALL64c8>のためにも
+      皇帝を追って 倒してくれ。
+    "original_byte_length": !!int |-
+      99
+    "references":
+    - "source_addr": !!int |-
+        54835
+      "target_addr": !!int |-
+        25448
+    "translated": !!null |-
+      null
+  "63cb":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      ハァハァ ･ ･ ･ に 逃げられました。
+
+      <CH0>
+      よし ぼくたちが 追う !!
+      ここは 任せたぞ。
+    "original_byte_length": !!int |-
+      85
+    "references":
+    - "source_addr": !!int |-
+        54890
+      "target_addr": !!int |-
+        25547
+    "translated": !!null |-
+      null
+  "6420":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      この部屋は われわれに 任せて
+      皇帝のあとを 追ってください。
+    "original_byte_length": !!int |-
+      64
+    "references":
+    - "source_addr": !!int |-
+        54899
+      "target_addr": !!int |-
+        25632
+    "translated": !!null |-
+      null
+  "6460":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <IF_NOT01f2><JUMP6420><C_YELLOW>男<C_NONE>
+      <CALL64c8>さんはヒストラのマスターとナレサ隊長が 別の所へ 連れていって休ませています。
+    "original_byte_length": !!int |-
+      91
+    "references":
+    - "source_addr": !!int |-
+        54908
+      "target_addr": !!int |-
+        25696
+    "translated": !!null |-
+      null
+  "64bb":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CALL64c2><CALL64d1>
+    "original_byte_length": !!int |-
+      7
+    "references":
+    - "source_addr": !!int |-
+        54768
+      "target_addr": !!int |-
+        25787
+    "translated": !!null |-
+      null
+  "64c2":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW><CALL64c8><C_NONE><RET_N>
+    "original_byte_length": !!int |-
+      6
+    "references": []
+    "translated": !!null |-
+      null
+  "64c8":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      フラッド<RET>
+    "original_byte_length": !!int |-
+      9
+    "references": []
+    "translated": !!null |-
+      null
+  "64d1":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･<RET>
+    "original_byte_length": !!int |-
+      34
+    "references": []
+    "translated": !!null |-
+      null
+  "64f3":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>フレイアのマスター<C_NONE><RET_N>
+    "original_byte_length": !!int |-
+      21
+    "references": []
+    "translated": !!null |-
+      null
+"note": ""

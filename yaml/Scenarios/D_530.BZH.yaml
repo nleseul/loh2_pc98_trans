@@ -1,0 +1,54 @@
+"entries":
+  "5b70":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ラルフ<C_NONE>
+      おれは 考古学者のラルフだ。
+
+      向こう岸に 古代の塔があるという
+      情報をきいたので 何とかして
+      行く方法を 考えているんだ。
+
+      もう少し 水の流れが 変わったら
+      行けるんだが ･ ･ ･
+    "original_byte_length": !!int |-
+      175
+    "references":
+    - "source_addr": !!int |-
+        54670
+      "target_addr": !!int |-
+        23408
+    "translated": !!null |-
+      null
+  "5c1f":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ポム<C_NONE>
+      <IF0179><JUMP5cf4><SET0179>おれは 冒険家のポム。
+      ラルフ先生の一番弟子だ。
+
+      先生、やっぱり あと少しの所までは
+      行くんですけど だめですね。
+
+      <C_YELLOW>ラルフ<C_NONE>
+      そうか ･ ･ ･
+      もう少し ねばってみて それでも
+      だめだったら 今回は あきらめよう。<END>
+      <LOC5cf4>水の流れさえ 変わってくれれば
+      向こう岸まで 行けるんだけどな。
+    "original_byte_length": !!int |-
+      275
+    "references":
+    - "source_addr": !!int |-
+        54685
+      "target_addr": !!int |-
+        23583
+    "translated": !!null |-
+      null
+"note": ""

@@ -1,0 +1,149 @@
+"entries":
+  "5b64":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ドレイク<C_NONE>
+      な、何だよ お前ら？
+      またあの箱を 止めてほしいのか？<WAIT>
+      先に行ってるから 早く来いよ。<SET00ea><ASMd657>
+    "original_byte_length": !!int |-
+      99
+    "references":
+    - "source_addr": !!int |-
+        54739
+      "target_addr": !!int |-
+        23396
+    "translated": !!null |-
+      null
+  "5bc7":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CALL5e26>この前 大盗賊 ゲイルさまが
+      戻ってきたんです。
+
+      でも すぐにまた いつものように
+      「散歩に行く」と言って 出ていって
+      しまいました。
+    "original_byte_length": !!int |-
+      129
+    "references":
+    - "source_addr": !!int |-
+        54748
+      "target_addr": !!int |-
+        23495
+    "translated": !!null |-
+      null
+  "5c48":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CALL5e26>いくらがんばっても この扉は 絶対にあかねえように なってるんだ。
+
+      作った人が言ってるからまちがいねえ。ムダなことは やめときな。
+    "original_byte_length": !!int |-
+      129
+    "references":
+    - "source_addr": !!int |-
+        54757
+      "target_addr": !!int |-
+        23624
+    "translated": !!null |-
+      null
+  "5cc9":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CALL5e26>この宝は 大盗賊 ゲイルさまの
+      一番大切な物だから だれにも
+      さわらせられねえよ。
+
+      ここだけの話だけど この中には
+      銀の笛ってのが 入ってるらしいぜ。
+    "original_byte_length": !!int |-
+      145
+    "references":
+    - "source_addr": !!int |-
+        54766
+      "target_addr": !!int |-
+        23753
+    "translated": !!null |-
+      null
+  "5d5a":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <PARTY>は 石碑を読みました。
+
+
+      『この部屋の宝に触れるべからず
+                         大盗賊 ゲイル』
+    "original_byte_length": !!int |-
+      90
+    "references":
+    - "source_addr": !!int |-
+        54718
+      "target_addr": !!int |-
+        23898
+    "translated": !!null |-
+      null
+  "5db4":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <PARTY>は 石碑を読みました。
+
+
+      『この回廊を走るべからず
+                     　　大盗賊 ゲイル』
+    "original_byte_length": !!int |-
+      84
+    "references":
+    - "source_addr": !!int |-
+        54724
+      "target_addr": !!int |-
+        23988
+    "translated": !!null |-
+      null
+  "5e08":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_GREEN>扉は 開きそうもありません。<C_NONE>
+    "original_byte_length": !!int |-
+      30
+    "references":
+    - "source_addr": !!int |-
+        54730
+      "target_addr": !!int |-
+        24072
+    "translated": !!null |-
+      null
+  "5e26":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>盗賊<C_NONE><RET_N>
+    "original_byte_length": !!int |-
+      7
+    "references": []
+    "translated": !!null |-
+      null
+"note": ""

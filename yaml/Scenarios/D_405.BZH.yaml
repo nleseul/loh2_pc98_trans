@@ -1,0 +1,251 @@
+"entries":
+  "5bac":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ドレイク<C_NONE>
+      な、何だよ お前ら？
+      またあの箱を 止めてほしいのか？
+
+      <IF0015><JUMP5c44>めんどうだけど ３世さまのためだ
+      やってやるよ。
+      <LOC5c20>先に行ってるから 早く来いよ。<SET00ea><ASMd690><END>
+      <LOC5c44>しかたねえな やってやるよ。
+      <JUMP5c20><LOC5c63><CALL61fb>なんだ おめーら？
+      よく ここまで 来れたもんだな。
+
+      でもな こんなとこに 来たって
+      金スラれるぐらいなもんだぜ。
+      ひでえ目 あわねえうちに 帰りな。
+    "original_byte_length": !!int |-
+      326
+    "references":
+    - "source_addr": !!int |-
+        54751
+      "target_addr": !!int |-
+        23468
+    - "source_addr": !!int |-
+        54760
+      "target_addr": !!int |-
+        23651
+    "translated": !!null |-
+      null
+  "5cf2":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CALL61fb>大盗賊 ゲイルさまは どこに行って
+      しまったんだろう？
+
+      あの 大地震の後で いつものように
+      「散歩に行く」と言って
+      出かけていったのが 最後だったな。
+
+      まさか モンスターに やられる
+      ような人じゃないし ･ ･ ･
+    "original_byte_length": !!int |-
+      199
+    "references":
+    - "source_addr": !!int |-
+        54769
+      "target_addr": !!int |-
+        23794
+    "translated": !!null |-
+      null
+  "5db9":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CALL61fb>ゲイル３世さまは 英雄の
+      ひとりなんですよ。
+
+      だから 大盗賊 ゲイルさまの 跡は
+      継がないとか言って いつも けんか
+      ばかりしているんです。
+    "original_byte_length": !!int |-
+      134
+    "references":
+    - "source_addr": !!int |-
+        54778
+      "target_addr": !!int |-
+        23993
+    "translated": !!null |-
+      null
+  "5e3f":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CALL61fb>ドレイクの子分が しばらく
+      帰ってきてない みたいだけど
+      捕まっちまったのかな。
+
+      そういえば 最近 ドレイクの
+      ようすも おかしいな。
+      あいつらどうしたんだろう。
+    "original_byte_length": !!int |-
+      156
+    "references":
+    - "source_addr": !!int |-
+        54787
+      "target_addr": !!int |-
+        24127
+    "translated": !!null |-
+      null
+  "5edb":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CALL61fb>いくらがんばっても この扉は 絶対にあかねえように なってるんだ。
+
+      作った人が言ってるからまちがいねえ。ムダなことは やめときな。
+    "original_byte_length": !!int |-
+      129
+    "references":
+    - "source_addr": !!int |-
+        54796
+      "target_addr": !!int |-
+        24283
+    "translated": !!null |-
+      null
+  "5f5c":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CALL61fb>ドレイクのやつ 子分が いなくなって悲しんでるのかと思ったら
+      そうでも なさそうなんだ。
+
+      何かに おびえてるような感じで
+      毎日 どこかに 出かけてるんだ。
+      いったい 何やってるんだろう。
+    "original_byte_length": !!int |-
+      179
+    "references":
+    - "source_addr": !!int |-
+        54805
+      "target_addr": !!int |-
+        24412
+    "translated": !!null |-
+      null
+  "600f":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CALL61fb>ゲイル２世さまは ラルフという
+      名前で 考古学者に なっていて
+      助手まで いるんですよ。
+
+      あの人も 最近 見かけないけど
+      どこに 行ってしまったのか。
+    "original_byte_length": !!int |-
+      143
+    "references":
+    - "source_addr": !!int |-
+        54814
+      "target_addr": !!int |-
+        24591
+    "translated": !!null |-
+      null
+  "609e":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CALL61fb>この宝は 大盗賊 ゲイルさまの
+      一番大切な物だから だれにも
+      さわらせられねえよ。
+
+      ここだけの話だけど この中には
+      銀の笛ってのが 入ってるらしいぜ。
+    "original_byte_length": !!int |-
+      145
+    "references":
+    - "source_addr": !!int |-
+        54823
+      "target_addr": !!int |-
+        24734
+    "translated": !!null |-
+      null
+  "612f":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <PARTY>は 石碑を読みました。
+
+
+      『この部屋の宝に触れるべからず
+                         大盗賊 ゲイル』
+    "original_byte_length": !!int |-
+      90
+    "references":
+    - "source_addr": !!int |-
+        54730
+      "target_addr": !!int |-
+        24879
+    "translated": !!null |-
+      null
+  "6189":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <PARTY>は 石碑を読みました。
+
+
+      『この回廊を走るべからず
+                     　　大盗賊 ゲイル』
+    "original_byte_length": !!int |-
+      84
+    "references":
+    - "source_addr": !!int |-
+        54736
+      "target_addr": !!int |-
+        24969
+    "translated": !!null |-
+      null
+  "61dd":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_GREEN>扉は 開きそうもありません。<C_NONE>
+    "original_byte_length": !!int |-
+      30
+    "references":
+    - "source_addr": !!int |-
+        54742
+      "target_addr": !!int |-
+        25053
+    "translated": !!null |-
+      null
+  "61fb":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>盗賊<C_NONE><RET_N>
+    "original_byte_length": !!int |-
+      7
+    "references": []
+    "translated": !!null |-
+      null
+"note": ""

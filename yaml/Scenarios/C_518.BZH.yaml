@@ -1,0 +1,142 @@
+"entries":
+  "5de2":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>フラッド<C_NONE>
+      な、何だ お前たち？
+      いったい どこから入ってきた？
+
+      <CH0>
+      お前が フラッドだな？
+      モンスターを作るのを やめるんだ。
+
+      <C_YELLOW>フラッド<C_NONE>
+      お前たち 地上の者か？
+
+      はっはっはっは おろかなやつよ。
+      地上の者どもを 全滅させるまでは
+      ずっと モンスターを 送り続けて
+      やるのだ。
+
+      お前らの さしずなど うけん。
+      わかったか。
+
+      <CH1>
+      それじゃ もう やめとくんだな。
+
+      竜の卵は おれたちが 止めちまった。地上には もうモンスターは １匹も
+      いないぜ。
+
+      <C_YELLOW>フラッド<C_NONE>
+      何だって !?
+
+      <CH2>
+      モンスターは 地上まで 行かずに
+      地底を うろついているだけなのよ。
+      地底の人たちを 苦しめても いいの？
+
+      <C_YELLOW>フラッド<C_NONE>
+      そ そんなはずはない。
+
+      もし モンスターが 地底にいるのならきっと 皇帝陛下から 中止の命令が
+      きているはずだ。
+
+      <CH0>
+      その皇帝は モンスターが 地底の
+      人たちを 苦しめていることを
+      知っているんだぞ。
+
+      <CH2>
+      それどころか イシュタの村を
+      壊滅させてしまったのよ。
+
+      <C_YELLOW>フラッド<C_NONE>
+      いいかげんなことを言うな !!
+
+      皇帝陛下が そんなことを
+      するはずがない。
+    "original_byte_length": !!int |-
+      873
+    "references":
+    - "source_addr": !!int |-
+        54758
+      "target_addr": !!int |-
+        24034
+    "translated": !!null |-
+      null
+  "614b":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CH2>
+      あっ 頭が !!
+
+      <CH0>
+      どうした フローラ？
+
+      <CH2>
+      <CALL6301><WAIT>
+      フレイアさま !!
+
+      <CALL6301><WAIT>
+      えっ すぐ近くなのですか？
+
+      <CALL6301><WAIT>
+      どうすれば？
+
+      <CH0>
+      おい フローラ !!
+
+      <CH2>
+      うーん ･ ･ ･ あっ アトラスさま。
+
+      <CH0>
+      どうしたんだ いったい？
+
+      <CH2>
+      急に 頭が痛くなって その後は
+      よく覚えていないんです ･ ･ ･
+
+      <CH1>
+      フレイアがどうのって言っていたぞ。
+
+      <CH2>
+      そういえば フレイアさまを
+      見たような ･ ･ ･
+
+      <CH3>
+      フローラ 平気か？
+
+      <CH2>
+      ええ ありがとう シンディ。
+      もう だいじょうぶよ。
+
+      <CH1>
+      よーし それじゃ 行くか。
+    "original_byte_length": !!int |-
+      438
+    "references":
+    - "source_addr": !!int |-
+        54786
+      "target_addr": !!int |-
+        24907
+    "translated": !!null |-
+      null
+  "6301":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･<RET_N>
+    "original_byte_length": !!int |-
+      34
+    "references": []
+    "translated": !!null |-
+      null
+"note": ""

@@ -1,0 +1,351 @@
+"entries":
+  "5ab2":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ハンス<C_NONE>
+      <IF0015><JUMP5b75>これは これは アトラス王子。
+      盗賊たちは 狼の口の奥の方に
+      逃げていました。
+
+      そこで 話を ききましたが だれも
+      心当たりがないとのことでした。
+      セリオス王が ごぶじであれば
+      いいのですが。<END>
+      <LOC5b75>これは アトラス王子。
+      どうやら セリオス王の 行方が
+      わかったそうで ･ ･ ･
+
+      私どもは 何のお役にも立てずに
+      恥ずかしいかぎりです。
+    "original_byte_length": !!int |-
+      320
+    "references":
+    - "source_addr": !!int |-
+        54726
+      "target_addr": !!int |-
+        23218
+    "translated": !!null |-
+      null
+  "5bf2":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>補佐官<C_NONE>
+      イセルハーサの中で 共和制を
+      とりいれているのは
+      このモレストンだけです。
+
+      ちなみに 私は ２０年間 ずっと
+      ハンス大統領の 補佐官を
+      務めております。
+    "original_byte_length": !!int |-
+      152
+    "references":
+    - "source_addr": !!int |-
+        54639
+      "target_addr": !!int |-
+        23538
+    "translated": !!null |-
+      null
+  "5c8a":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>役人<C_NONE>
+      兵士たちが 出動するには いろいろと手続きが 必要なんだよ。
+      ああ 忙しい 忙しい。
+    "original_byte_length": !!int |-
+      86
+    "references":
+    - "source_addr": !!int |-
+        54648
+      "target_addr": !!int |-
+        23690
+    "translated": !!null |-
+      null
+  "5ce0":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>役人<C_NONE>
+      ふぅ ･ ･ ･ お役所仕事も 疲れるよ。こうやって 一日中 ボーっと
+      してなけりゃ ならないんだもんな。
+
+      こうやって ボーっとしてて かれこれ２０年になるかなぁ。
+    "original_byte_length": !!int |-
+      157
+    "references":
+    - "source_addr": !!int |-
+        54657
+      "target_addr": !!int |-
+        23776
+    "translated": !!null |-
+      null
+  "5d7d":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>役人<C_NONE>
+      ハンス大統領は 国民の声を 親身に
+      なって きいてくれる とてもいい
+      大統領なのよ。
+
+      だから 今まで ２０年近く ずっと
+      大統領を 務めているの。
+    "original_byte_length": !!int |-
+      142
+    "references":
+    - "source_addr": !!int |-
+        54666
+      "target_addr": !!int |-
+        23933
+    "translated": !!null |-
+      null
+  "5e0b":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>女<C_NONE>
+      昔 英雄たちの手で 滅ぼされた
+      悪神が 復活したという うわさを
+      きいたけど 本当なのかしら。
+    "original_byte_length": !!int |-
+      93
+    "references":
+    - "source_addr": !!int |-
+        54675
+      "target_addr": !!int |-
+        24075
+    "translated": !!null |-
+      null
+  "5e68":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ジーラ<C_NONE>
+      むむむっ お前さんがた 旅人じゃな？いい話をきかせてやろう。
+
+      女神 フレイアさまは その昔 我々の
+      祖先を 悪神のやみの力から 救いだしこの地にお導きくだされたのじゃ。
+
+      そして 祖先に ことばを与え
+      多くの知恵を 授けてくださった。
+
+      フレイアさまは 我々人間 すべての
+      偉大な母にあたる お方なのじゃよ。
+
+      どうじゃな 感動したか？
+    "original_byte_length": !!int |-
+      319
+    "references":
+    - "source_addr": !!int |-
+        54684
+      "target_addr": !!int |-
+        24168
+    "translated": !!null |-
+      null
+  "5fa7":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>娘<C_NONE>
+      うちの おばあちゃんて 昔の話を
+      よく知ってるのよ。
+
+      おかげで 私も いろいろな話を
+      覚えちゃったわ。
+    "original_byte_length": !!int |-
+      101
+    "references":
+    - "source_addr": !!int |-
+        54693
+      "target_addr": !!int |-
+        24487
+    "translated": !!null |-
+      null
+  "600c":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>女<C_NONE>
+      <IF_NOT00f5><JUMP609e>ねえねえ きいてよ。
+      セリオスさまたちが モンスターを
+      退治しに いったらしいわよ。
+
+      よかったわぁ もう少し がまんすればまた平和になるのね。<END>
+      <LOC609e>よかったわぁ また平和になって。
+      でも ソルディスとモレストンしか
+      平和になっていないらしいわよ。
+
+      かわいそうに 早く 世界中が平和に
+      ならないかしら。<IF0014><JUMP621a>
+
+      <CH2>
+      この方 私と気が合いそうだわ。
+
+      <CH1>
+      よせよ お嬢さん。
+      今は そんなこと 言ってられねえだろ。
+
+      <CH2>
+      ごめんなさい ･ ･ ･
+      でも 世界中の人が 幸せになることが私の願いなんですもの。
+
+      <CH1>
+      あー わかった わかった。
+      その話は もう何百回もきいたぜ。<LOC621a>
+    "original_byte_length": !!int |-
+      527
+    "references":
+    - "source_addr": !!int |-
+        54702
+      "target_addr": !!int |-
+        24588
+    "translated": !!null |-
+      null
+  "621b":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      ずっと前の 大地震で 水晶の塔という歴史ある塔が 倒れてしまったんだ。
+
+      大統領は 何とかして 復元しようと
+      思っているらしいんだ。
+    "original_byte_length": !!int |-
+      131
+    "references":
+    - "source_addr": !!int |-
+        54711
+      "target_addr": !!int |-
+        25115
+    "translated": !!null |-
+      null
+  "629e":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      ファンガスにいた 盗賊たちは
+      狼の口に逃げていたんだ。
+      おれが 捜し出したんだぜ。
+    "original_byte_length": !!int |-
+      86
+    "references":
+    - "source_addr": !!int |-
+        54720
+      "target_addr": !!int |-
+        25246
+    "translated": !!null |-
+      null
+  "62f4":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>呪文屋<C_NONE>
+      いらっしゃいませ。<RET_N>
+    "original_byte_length": !!int |-
+      28
+    "references":
+    - "source_addr": !!int |-
+        54738
+      "target_addr": !!int |-
+        25332
+    "translated": !!null |-
+      null
+  "6310":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      また お願いします。
+    "original_byte_length": !!int |-
+      20
+    "references":
+    - "source_addr": !!int |-
+        54750
+      "target_addr": !!int |-
+        25360
+    "translated": !!null |-
+      null
+  "6324":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      お客さん もう持てませんわよ。
+
+      <RET>
+    "original_byte_length": !!int |-
+      31
+    "references":
+    - "source_addr": !!int |-
+        2656
+      "target_addr": !!int |-
+        25380
+    "translated": !!null |-
+      null
+  "6343":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      何を お求めですか？
+      <RET_N>
+    "original_byte_length": !!int |-
+      21
+    "references":
+    - "source_addr": !!int |-
+        2658
+      "target_addr": !!int |-
+        25411
+    "translated": !!null |-
+      null
+  "6358":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ITEM>ですね。
+      ありがとう ございます。
+
+      <RET>
+    "original_byte_length": !!int |-
+      35
+    "references":
+    - "source_addr": !!int |-
+        2660
+      "target_addr": !!int |-
+        25432
+    "translated": !!null |-
+      null
+"note": ""

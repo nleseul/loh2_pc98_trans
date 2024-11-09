@@ -1,0 +1,306 @@
+"entries":
+  "5aa7":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>老人<C_NONE>
+      鉱山のほうも なんとか復旧できたし
+      モンスターも いなくなって
+      ひと安心じゃよ。
+    "original_byte_length": !!int |-
+      84
+    "references":
+    - "source_addr": !!int |-
+        54630
+      "target_addr": !!int |-
+        23207
+    "translated": !!null |-
+      null
+  "5afb":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ピート<C_NONE>
+      ふー ･ ･ ･ つかれた ･ ･ ･
+
+      今のうちに 坑道を補強しているんだ。いつ また地震が くるか わからない
+      からな。
+    "original_byte_length": !!int |-
+      113
+    "references":
+    - "source_addr": !!int |-
+        54639
+      "target_addr": !!int |-
+        23291
+    "translated": !!null |-
+      null
+  "5b6c":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      みんな 忙しいんだから 作業の
+      じゃまをするなよ。
+    "original_byte_length": !!int |-
+      53
+    "references":
+    - "source_addr": !!int |-
+        54648
+      "target_addr": !!int |-
+        23404
+    "translated": !!null |-
+      null
+  "5bd7":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      忙しい 忙しい ･ ･ ･
+    "original_byte_length": !!int |-
+      25
+    "references":
+    - "source_addr": !!int |-
+        54693
+      "target_addr": !!int |-
+        23511
+    "translated": !!null |-
+      null
+  "5bf0":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      ああ 疲れた ･ ･ ･
+    "original_byte_length": !!int |-
+      23
+    "references":
+    - "source_addr": !!int |-
+        54698
+      "target_addr": !!int |-
+        23536
+    "translated": !!null |-
+      null
+  "5c07":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      鉱夫の中に やたらに 話好きの
+      じいさんがいて いちど話し出すと
+      なかなか やめてくれないんだ。
+
+      昔から ここに いたらしくて
+      ここの名物じいさんだそうだよ。
+    "original_byte_length": !!int |-
+      154
+    "references":
+    - "source_addr": !!int |-
+        54707
+      "target_addr": !!int |-
+        23559
+    "translated": !!null |-
+      null
+  "5ca1":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>武器屋<C_NONE>
+      はい いらっしゃい。<RET_N>
+    "original_byte_length": !!int |-
+      29
+    "references":
+    - "source_addr": !!int |-
+        54719
+      "target_addr": !!int |-
+        23713
+    "translated": !!null |-
+      null
+  "5cbe":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      またどうぞ。
+    "original_byte_length": !!int |-
+      13
+    "references":
+    - "source_addr": !!int |-
+        54731
+      "target_addr": !!int |-
+        23742
+    "translated": !!null |-
+      null
+  "5ccb":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>道具屋<C_NONE>
+      いらっしゃいませ。
+      どのような ご用でしょうか？<RET_N>
+    "original_byte_length": !!int |-
+      56
+    "references":
+    - "source_addr": !!int |-
+        54743
+      "target_addr": !!int |-
+        23755
+    "translated": !!null |-
+      null
+  "5d03":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      また来てくださいね。
+    "original_byte_length": !!int |-
+      21
+    "references":
+    - "source_addr": !!int |-
+        54770
+      "target_addr": !!int |-
+        23811
+    "translated": !!null |-
+      null
+  "5d18":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      おや？これ以上持てないようですね。
+
+      <RET>
+    "original_byte_length": !!int |-
+      36
+    "references":
+    - "source_addr": !!int |-
+        1206
+      "target_addr": !!int |-
+        23832
+    "translated": !!null |-
+      null
+  "5d3c":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      どれを買ってくれますか？
+      <RET_N>
+    "original_byte_length": !!int |-
+      26
+    "references":
+    - "source_addr": !!int |-
+        1208
+      "target_addr": !!int |-
+        23868
+    "translated": !!null |-
+      null
+  "5d56":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ITEM>だね。
+      どうも ありがとう。
+
+      <RET>
+    "original_byte_length": !!int |-
+      29
+    "references":
+    - "source_addr": !!int |-
+        1210
+      "target_addr": !!int |-
+        23894
+    "translated": !!null |-
+      null
+  "5d7b":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      どれを 売ってくれますか？
+      <RET_N>
+    "original_byte_length": !!int |-
+      27
+    "references":
+    - "source_addr": !!int |-
+        1077
+      "target_addr": !!int |-
+        23931
+    "translated": !!null |-
+      null
+  "5d96":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |2-
+       Gold になるけど
+      それでも よろしいですか？
+      <RET_N>
+    "original_byte_length": !!int |-
+      44
+    "references":
+    - "source_addr": !!int |-
+        1079
+      "target_addr": !!int |-
+        23958
+    "translated": !!null |-
+      null
+  "5dc2":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      それは残念です。
+
+      <RET_N>
+    "original_byte_length": !!int |-
+      18
+    "references":
+    - "source_addr": !!int |-
+        1081
+      "target_addr": !!int |-
+        24002
+    "translated": !!null |-
+      null
+  "5dd4":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      どうも ありがとうございます。
+      <RET_N>
+    "original_byte_length": !!int |-
+      31
+    "references":
+    - "source_addr": !!int |-
+        1083
+      "target_addr": !!int |-
+        24020
+    "translated": !!null |-
+      null
+"note": ""

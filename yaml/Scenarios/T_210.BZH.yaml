@@ -1,0 +1,534 @@
+"entries":
+  "5d2c":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <IF0403><JUMP5d89><C_YELLOW>チャーリー<C_NONE>
+      <IF0407><JUMP5f2f><IF0406><JUMP5e65><UNSET0404><SET0405>また おじゃましますよ。
+
+      <Xf9080204><Xf7><C_YELLOW>兵士<C_NONE>
+      おお チャーリーか。<END>
+      <LOC5d89><UNSET0403><CH1>
+      おい !!
+      なんで あいつは 城に入れるんだよ？
+
+      <C_YELLOW>兵士<C_NONE>
+      チャーリーは 竜の祭の 準備のためにジェラルドさまの 使いで来たのだ。
+      手続きとは関係ない。
+
+      <CH0>
+      ぼくは ファーレーンのアトラ ･ ･ ･
+      <C_YELLOW>兵士<C_NONE>
+      うるさい ダメなものはダメだ !!<END>
+      <LOC5e65><UNSET0406><SET0061>兵士に 話しておきましたので
+      もう 入れてくれるでしょう。
+
+      <CH0>
+      どうも ありがとう。
+      ジェラルドさんに かんしゃ
+      しています と伝えてください。
+
+      <C_YELLOW>チャーリー<C_NONE>
+      かしこまりました。
+      それでは これで 失礼します。<END>
+      <LOC5f2f><UNSET0407>あっ 忘れておりました。
+
+      <ASMd7c5><Xf7>だんなさまからの 伝言です。
+
+      <C_RED>『２度と わしのかわいいフローラに
+        近付くな !!』
+      <C_NONE>と おっしゃっておりました。
+    "original_byte_length": !!int |-
+      654
+    "references":
+    - "source_addr": !!int |-
+        54706
+      "target_addr": !!int |-
+        23852
+    - "source_addr": !!int |-
+        54678
+      "target_addr": !!int |-
+        23852
+    "translated": !!null |-
+      null
+  "5fba":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      <IF0061><JUMP6033><IF0405><JUMP601a>城に なにか用か？
+      今は 竜の祭のために 出国の
+      手続きは 受け付けておらんぞ。<JUMP6220><LOC601a>何度 来たって むだだぞ。<END>
+      <LOC6033>いや かんちがいを していたようで
+      申し訳ない。
+
+      もうすぐ 竜の祭なので あやしい
+      やつは 城には 入れないことに
+      しているのだ。
+
+      それで 出国の手続きだとか言って
+      知らないふりを していたのだ。
+    "original_byte_length": !!int |-
+      304
+    "references":
+    - "source_addr": !!int |-
+        54768
+      "target_addr": !!int |-
+        24506
+    "translated": !!null |-
+      null
+  "60ea":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      <IF0061><JUMP618d><IF0405><JUMP6157>竜の祭が 終わるまでは 出国の
+      手続き所は やってないんだ。
+      だから 城には 入れないんだよ。<JUMP6220><LOC6157>かわいそうだけど 本当に
+      手続きは やっていないんだよ。<END>
+      <LOC618d>男の 二人連れだったから きっと
+      城の中に入れたら あばれまわって
+      準備のじゃまを すると思ったんだよ。
+
+      でも 出国の手続きは 本当に
+      やっていないんだよ。<END>
+      <LOC6220><IF_NOT0060><ASMd7d2>
+    "original_byte_length": !!int |-
+      317
+    "references":
+    - "source_addr": !!int |-
+        54777
+      "target_addr": !!int |-
+        24810
+    "translated": !!null |-
+      null
+  "622f":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>子供<C_NONE>
+      お祭の日は おこづかいが いっぱい
+      もらえて おいしいものも いっぱい
+      食べられるんだよ。
+
+      たのしみだなー。
+    "original_byte_length": !!int |-
+      109
+    "references":
+    - "source_addr": !!int |-
+        54786
+      "target_addr": !!int |-
+        25135
+    "translated": !!null |-
+      null
+  "629c":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>老人<C_NONE>
+      ふぉっふぉっふぉ。
+      前にいるのは わしの娘夫婦なんじゃ。
+
+      昔 娘にひどいことを したんじゃが
+      それが縁で こんなに やさしい人と
+      いっしょに なったんじゃよ。
+    "original_byte_length": !!int |-
+      156
+    "references":
+    - "source_addr": !!int |-
+        54795
+      "target_addr": !!int |-
+        25244
+    "translated": !!null |-
+      null
+  "6338":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      ねえさんたちは 毎年 竜の祭を
+      見るために はるばる リシェールから来てくれるんだ。
+    "original_byte_length": !!int |-
+      85
+    "references":
+    - "source_addr": !!int |-
+        54804
+      "target_addr": !!int |-
+        25400
+    "translated": !!null |-
+      null
+  "638d":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      私は モレストンの リシェールの港で道具屋と呪文屋を やってるんです。
+
+      リシェールに 来たときには ぜひ
+      寄ってみてください。
+    "original_byte_length": !!int |-
+      125
+    "references":
+    - "source_addr": !!int |-
+        54813
+      "target_addr": !!int |-
+        25485
+    "translated": !!null |-
+      null
+  "640a":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>女<C_NONE>
+      私は ある事件を きっかけに とても
+      幸せになったのよ。
+
+      今では 子供も 大きくなってきたし
+      このまま ずっと 幸せでいたいわ。
+      気になるのは 弟の結婚ぐらいかしら。
+    "original_byte_length": !!int |-
+      160
+    "references":
+    - "source_addr": !!int |-
+        54822
+      "target_addr": !!int |-
+        25610
+    "translated": !!null |-
+      null
+  "64aa":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>女<C_NONE>
+      うちの おじいちゃんは お祭が
+      なによりも 大好きなんですよ。
+
+      地震のために お祭が 中止に
+      なってたら 今ごろは きっと寝込んでいたんじゃないかしら。
+    "original_byte_length": !!int |-
+      148
+    "references":
+    - "source_addr": !!int |-
+        54831
+      "target_addr": !!int |-
+        25770
+    "translated": !!null |-
+      null
+  "653e":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ギャリー<C_NONE>
+      あの大地震で 竜の祭が 中止になると思っておったのじゃが どうやら
+      とりこし苦労だったようじゃわい。
+
+      いやー 楽しみじゃのう。
+    "original_byte_length": !!int |-
+      132
+    "references":
+    - "source_addr": !!int |-
+        54840
+      "target_addr": !!int |-
+        25918
+    "translated": !!null |-
+      null
+  "65c2":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      なにぃ 誕生日だとぉ。それじゃ
+      今年で 何才に なったってんだよぉ
+      えぇっ 言ってみろよぉ。
+    "original_byte_length": !!int |-
+      92
+    "references":
+    - "source_addr": !!int |-
+        54888
+      "target_addr": !!int |-
+        26050
+    "translated": !!null |-
+      null
+  "661e":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      あんたたち 祭を 見にきたのかい？
+      竜の祭は 年に１回しかないからね
+      誕生日みたいなもんだな。
+    "original_byte_length": !!int |-
+      95
+    "references":
+    - "source_addr": !!int |-
+        54897
+      "target_addr": !!int |-
+        26142
+    "translated": !!null |-
+      null
+  "667d":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      そろそろ ギャリーじいさんの 元気が出てきたみたいだな。
+
+      あのじいさんは 祭が 好きで 毎年
+      この時期になると 20 才ぐらいは
+      若返ったように なるんだよ。
+    "original_byte_length": !!int |-
+      151
+    "references":
+    - "source_addr": !!int |-
+        54906
+      "target_addr": !!int |-
+        26237
+    "translated": !!null |-
+      null
+  "6714":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>武器屋<C_NONE>
+      いらっしゃい。<RET_N>
+    "original_byte_length": !!int |-
+      24
+    "references":
+    - "source_addr": !!int |-
+        54918
+      "target_addr": !!int |-
+        26388
+    "translated": !!null |-
+      null
+  "672c":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      またどうぞ。
+    "original_byte_length": !!int |-
+      13
+    "references":
+    - "source_addr": !!int |-
+        54930
+      "target_addr": !!int |-
+        26412
+    "translated": !!null |-
+      null
+  "6739":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>道具屋<C_NONE>
+      いらっしゃいませ。
+      どのような ご用でしょうか？<RET_N>
+    "original_byte_length": !!int |-
+      56
+    "references":
+    - "source_addr": !!int |-
+        54942
+      "target_addr": !!int |-
+        26425
+    "translated": !!null |-
+      null
+  "6771":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      また来てくださいね。
+    "original_byte_length": !!int |-
+      21
+    "references":
+    - "source_addr": !!int |-
+        54969
+      "target_addr": !!int |-
+        26481
+    "translated": !!null |-
+      null
+  "6786":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>バーテン<C_NONE>
+      １杯 いかがですか？<Xf69229><JUMP67b8><CLEAR><IF0410><JUMP67fe><IF0411><JUMP6869><END>
+      <LOC67b8><CLEAR>そうですか ･ ･ ･
+      今なら 竜の祭の サービスで
+      タダなんですけどね ･ ･ ･<END>
+      <LOC67fe>おや あなたは 未成年ですね？
+      ラヌーラでは 未成年に 酒を
+      飲ませた人も 罪になるんです。
+      あきらめてください。<END>
+      <LOC6869>はい どうぞ。
+      料金は 竜の祭の サービスですから
+      タダになってます。<Xf6f1d7><JUMP68ba>
+
+      <SET0418><ASMd7eb><UNSET0418><LOC68ba>
+    "original_byte_length": !!int |-
+      309
+    "references":
+    - "source_addr": !!int |-
+        54975
+      "target_addr": !!int |-
+        26502
+    "translated": !!null |-
+      null
+  "68bb":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      おや？これ以上持てないようですね。
+
+      <RET>
+    "original_byte_length": !!int |-
+      36
+    "references":
+    - "source_addr": !!int |-
+        4184
+      "target_addr": !!int |-
+        26811
+    "translated": !!null |-
+      null
+  "68df":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      どれを買ってくれますか？
+      <RET_N>
+    "original_byte_length": !!int |-
+      26
+    "references":
+    - "source_addr": !!int |-
+        4186
+      "target_addr": !!int |-
+        26847
+    "translated": !!null |-
+      null
+  "68f9":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ITEM>だね。
+      どうも ありがとう。
+
+      <RET>
+    "original_byte_length": !!int |-
+      29
+    "references":
+    - "source_addr": !!int |-
+        4188
+      "target_addr": !!int |-
+        26873
+    "translated": !!null |-
+      null
+  "691e":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      どれを 売ってくれますか？
+      <RET_N>
+    "original_byte_length": !!int |-
+      27
+    "references":
+    - "source_addr": !!int |-
+        4056
+      "target_addr": !!int |-
+        26910
+    "translated": !!null |-
+      null
+  "6939":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |2-
+       Gold になるけど
+      それでも よろしいですか？
+      <RET_N>
+    "original_byte_length": !!int |-
+      44
+    "references":
+    - "source_addr": !!int |-
+        4058
+      "target_addr": !!int |-
+        26937
+    "translated": !!null |-
+      null
+  "6965":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      それは残念です。
+
+      <RET_N>
+    "original_byte_length": !!int |-
+      18
+    "references":
+    - "source_addr": !!int |-
+        4060
+      "target_addr": !!int |-
+        26981
+    "translated": !!null |-
+      null
+  "6977":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      どうも ありがとうございます。
+      <RET_N>
+    "original_byte_length": !!int |-
+      31
+    "references":
+    - "source_addr": !!int |-
+        4062
+      "target_addr": !!int |-
+        26999
+    "translated": !!null |-
+      null
+"note": ""

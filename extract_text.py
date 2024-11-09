@@ -3,21 +3,22 @@ import fnmatch
 import os
 import typing
 
-from code_analysis_util import BlockPool, Link, X86CodeBlock
-from csv_util import *
-from ds6_event_util import DS6EventBlock, DS62_StandardEventCodeHook, DS62_NpcTable1370CodeHook
+from code_analysis_util import BlockPool, EmptyHook, Link, X86CodeBlock
+from trans_util import *
+from ds6_event_util import *
 
 
 @dataclass
 class EntryPointInfo:
     domain:str
     target_addr:int
+    source_addr:int|None = None
 
 
 def explore(block_pool:BlockPool, entry_points:typing.List[EntryPointInfo]) -> None:
     for entry_point in entry_points:
         block = block_pool.get_block(entry_point.domain, entry_point.target_addr)
-        Link(None, entry_point.target_addr).connect_blocks(None, block)
+        Link(entry_point.source_addr, entry_point.target_addr).connect_blocks(None, block)
 
     while True:
         should_continue = False
@@ -31,7 +32,53 @@ def explore(block_pool:BlockPool, entry_points:typing.List[EntryPointInfo]) -> N
             break
 
 
-def extract_scenario_events(scenario_data:typing.ByteString) -> typing.List[DS6EventBlock]:
+def update_translation_from_block(entry:TranslationEntry, block:DS6EventBlock) -> None:
+    entry.original = block.format_string()
+    entry.original_byte_length = block.length
+
+    references = {}
+    for link in block.get_incoming_links():
+        if link.source_addr is None:
+            entry.is_relocatable = False
+        elif isinstance(link.source_block, DS6EventBlock):
+            pass
+        else:
+            references[link.source_addr] = link.target_addr
+    entry.references = [CodeReference(source_addr, target_addr) for source_addr, target_addr in references.items()]
+
+
+def extract_program_events(program_data:typing.ByteString):
+    code_hooks = [
+        EmptyHook(0x1592, False, stop=True), # Calls into scenario entry points
+        DS62_OverrideRegister(0x1d7b, X86_REG_SI, 0x719, 0x1d72), # Correct for pushing/popping SI
+        EmptyHook(0x21b7, False, stop=True), # Calls into combat entry points
+        EmptyHook(0x4c53, False, stop=True), # Calls into scenario entry points
+        DS62_PointerTableCodeHook(0x1596, 0x159b, 5, table_domain="code"),
+        DS62_PointerTableCodeHook(0x2e89, 0x0f24, 5),
+        DS62_PointerTableCodeHook(0x5268, 0x1a32, 8),
+        DS62_PointerTableCodeHook(0x5bb4, 0x2326, 7),
+        DS62_PointerTableCodeHook(0x5de3, 0x1b20, 6),
+
+        DS62_StandardEventCodeHook(),
+    ]
+
+    code_entry_points = [ EntryPointInfo("code", 0) ]
+
+    block_pool = BlockPool()
+    block_pool.register_domain("code", program_data[:0x7c00], 0, X86CodeBlock, {'hooks': code_hooks})
+    block_pool.register_domain("event", program_data[0x7c00:], 0, DS6EventBlock)
+
+    explore(block_pool, code_entry_points)
+
+    trans = TranslationCollection()
+    for block in block_pool.get_blocks("event"):
+        entry = trans[block.start_addr]
+        update_translation_from_block(entry, block)
+
+    return trans
+
+
+def extract_scenario_events(scenario_data:typing.ByteString, custom_hooks:list[X86CodeHook]) -> TranslationCollection:
     code_entry_points = [ EntryPointInfo("code", int.from_bytes(scenario_data[0:2], byteorder='little')) ]
 
     addr_offset = 2
@@ -43,33 +90,44 @@ def extract_scenario_events(scenario_data:typing.ByteString) -> typing.List[DS6E
             code_entry_points.append(EntryPointInfo("code", addr) )
         addr_offset += 2
 
-    global_code_hooks = [
+    code_hooks = [
         DS62_StandardEventCodeHook(),
-        DS62_NpcTable1370CodeHook()
+        DS62_NpcTable1370CodeHook(),
+        DS62_NpcTable13e7CodeHook(),
+        DS62_BuyFromShopCodeHook(),
+        DS62_SellToShopCodeHook()
     ]
 
+    if custom_hooks is not None:
+        code_hooks += custom_hooks
+
     block_pool = BlockPool()
-    block_pool.register_domain("code", scenario_data, 0xd53e, X86CodeBlock, {'hooks': global_code_hooks})
+    block_pool.register_domain("code", scenario_data, 0xd53e, X86CodeBlock, {'hooks': code_hooks})
     block_pool.register_domain("event", scenario_data, 0x593e, DS6EventBlock)
 
     explore(block_pool, code_entry_points)
 
-    return sorted(list(block_pool.get_blocks("event")), key=lambda e: e.start_addr)
+    trans = TranslationCollection()
+    for block in block_pool.get_blocks("event"):
+        entry = trans[block.start_addr]
+        update_translation_from_block(entry, block)
+
+    return trans
 
 
-def extract_combat_events(combat_data:typing.ByteString) -> typing.List[DS6EventBlock]:
+def extract_combat_events(combat_data:typing.ByteString, monster_count:int = 4) -> TranslationCollection:
     entry_points = []
-    for name_index in range(1 if "M_501" in file_path else 4):
+    for name_index in range(monster_count):
         entry_points.append(EntryPointInfo("event", 0x7140 + name_index * 0x40 + 0x30))
 
     intro_text_addr = int.from_bytes(combat_data[0x108:0x10a], byteorder='little')
     if intro_text_addr >= 0x7140:
-        entry_points.append(EntryPointInfo("event", intro_text_addr))
+        entry_points.append(EntryPointInfo("event", intro_text_addr, 0xed40 + 0x108))
 
     for entry_addr_offset in range(0x10a, 0x118, 2):
         entry_addr = int.from_bytes(combat_data[entry_addr_offset:entry_addr_offset+2], byteorder='little')
         if entry_addr >= 0xed40:
-            entry_points.append(EntryPointInfo("code", entry_addr))
+            entry_points.append(EntryPointInfo("code", entry_addr, 0xed40 + entry_addr_offset))
 
     global_code_hooks = [
         DS62_StandardEventCodeHook()
@@ -81,39 +139,257 @@ def extract_combat_events(combat_data:typing.ByteString) -> typing.List[DS6Event
 
     explore(block_pool, entry_points)
 
-    return sorted(list(block_pool.get_blocks("event")), key=lambda e: e.start_addr)
+    trans = TranslationCollection()
+    for block in block_pool.get_blocks("event"):
+        entry = trans[block.start_addr]
+        update_translation_from_block(entry, block)
+
+        if block.start_addr < 0x7140 + 0x40*monster_count:
+            entry.max_byte_length = 0x10
+
+    return trans
 
 
-def extract_opening_text(opening_data:typing.ByteString, start_addr:int) -> typing.Tuple[int, str]:
-    text = ""
-    addr = start_addr
+def extract_opening_text(opening_data:typing.ByteString) -> TranslationCollection:
+    trans = TranslationCollection()
 
-    while True:
-        if opening_data[addr] == 0xff:
+    addr = 0x3dc2
+
+    for text_index in range(5):
+        text = ""
+        while True:
+            if opening_data[addr] == 0xff:
+                text += "<PAGE>\n"
+                addr += 1
+                break
+            elif opening_data[addr] == 0:
+                text += "\n"
+                addr += 1
+            else:
+                ch, addr = read_sjis_char(opening_data, addr)
+                text += ch
+
+
+        trans[text_index].original = text
+
+    return trans
+
+
+def extract_ending_text(ending_data:typing.ByteString) -> TranslationCollection:
+    trans = TranslationCollection()
+
+    addresses = [
+        0x226c,
+        0x22c1,
+        0x23c1, # Special background scrolling code; may be different
+        0x24d3,
+        0x2611,
+        0x2722,
+        0x2792,
+        0x2825,
+        0x2b76  # Staff roll; probably different codes
+    ]
+
+    for start_addr in addresses:
+        addr = start_addr
+        text = ""
+
+        while True:
+            if ending_data[addr] == 0x9:
+                addr += 1
+                break
+            elif ending_data[addr] == 0x0:
+                text += "\n"
+                addr += 1
+            elif ending_data[addr] == 0x1:
+                text += "\n" if text[-1] == "\n" else "<PAGE>\n"
+                addr += 1
+            elif ending_data[addr] == 0x2:
+                text += "<PAGE_FULL>\n"
+                addr += 1
+            elif ending_data[addr] == 0x3:
+                text += "<NAME>"
+                text += ending_data[addr+1:addr+9].decode('cp932')
+                text += "</NAME>\n"
+                addr += 9
+            elif ending_data[addr] == 0x4:
+                text += "<PAGE_PAUSE>\n"
+                addr += 1
+            elif ending_data[addr] == 0x5:
+                text += "<PAUSE>"
+                addr += 1
+            elif ending_data[addr] == 0x6:  # Changes graphic during the Freya animation
+                text += "<CHANGE_FREYA_GRAPHIC>"
+                addr+= 1
+            elif ending_data[addr] == 0x8:  # Something specific to the staff roll
+                text += "<STAFF_ROLL_MARKER>"
+                addr+= 1
+            else:
+                ch, addr = read_sjis_char(ending_data, addr)
+                text += ch
+
+        entry = trans[start_addr]
+        entry.original = text
+        entry.original_byte_length = addr - start_addr
+        # TODO: Copy reference addresses from source
+
+    # Line lengths are hardcoded at 0x1003 and 0x1019
+    final_text_addr = 0x28d3
+    line_lengths = [0xd, 0xb]
+    second_line_start = final_text_addr + line_lengths[0]*2
+    trans[final_text_addr].original = ending_data[final_text_addr:final_text_addr+line_lengths[0]*2].decode('cp932') +\
+          "\n" +\
+          ending_data[second_line_start:second_line_start+line_lengths[1]*2].decode('cp932')
+
+    return trans
+
+
+def extract_spells(prog_data:typing.ByteString) -> TranslationCollection:
+    trans = TranslationCollection()
+    base_addr = 0x1ebc + 0x7c00
+
+    for spell_index in range(32):
+        addr = base_addr + spell_index*12
+        spell_name = prog_data[addr:addr+8].decode('cp932')
+        trans[addr].original = spell_name.strip()
+
+    return trans
+
+
+def extract_items(prog_data:typing.ByteString) -> TranslationCollection:
+    trans = TranslationCollection()
+    addr = 0xf3b + 0x7c00
+
+    while prog_data[addr] != 0:
+        item_name = prog_data[addr:addr+14].decode('cp932')
+        trans[addr].original = item_name.strip()
+
+        addr += 14 if addr >= 0x152b + 0x7c00 else 20
+
+    return trans
+
+
+def extract_locations(prog_data:typing.ByteString) -> TranslationCollection:
+    trans = TranslationCollection()
+    table_addr = 0xc60 + 0x7c00
+
+    for location_index in range(64):
+        table_entry_addr = table_addr + location_index*2
+        addr = int.from_bytes(prog_data[table_entry_addr:table_entry_addr+2], byteorder='little') + 0x7c00
+        entry = trans[addr]
+
+        current_addr = addr
+
+        first_byte = prog_data[current_addr]
+
+        length = 12
+        if first_byte < 0x20:
+            length -= first_byte * 2
+            current_addr += 1
+
+        location_name = prog_data[current_addr:current_addr+length].decode('cp932')
+
+        entry.original = location_name
+        entry.original_byte_length = 12 if first_byte >= 0x20 else 12 - first_byte*2 + 1
+        entry.references.append(CodeReference(table_entry_addr, addr))
+
+    return trans
+
+
+def extract_menus(prog_data:typing.ByteString) -> TranslationCollection:
+    trans = TranslationCollection()
+
+    menu_addr_list = [ a + 0x7c00 for a in [ 0x88c, 0xc1e, 0x1b2c, 0x1be1, 0x1c90, 0x1d5d, 0x2334 ] ]
+    toggle_list = [
+        (0x1c34 + 0x7c00, 2),
+        (0x1c42 + 0x7c00, 2),
+        (0x1c50 + 0x7c00, 4),
+        (0x1c6c + 0x7c00, 2),
+        (0x1c7a + 0x7c00, 2),
+        (0x1cdc + 0x7c00, 2),
+        (0x1cea + 0x7c00, 2),
+        (0x1cfa + 0x7c00, 2)
+    ]
+
+    for menu_addr in menu_addr_list:
+        item_count = prog_data[menu_addr+3]
+        addr = menu_addr + 0x4
+
+        entry = trans[menu_addr - 0x7c00]
+
+        # Main field menu adds the "Leader" item dynamically based on party size
+        if menu_addr == 0x2334 + 0x7c00:
+            item_count += 1
+
+        menu_text = ""
+
+        for _ in range(item_count):
+            if len(menu_text) > 0:
+                menu_text += "\n"
+            item_bytes = b''
+            while prog_data[addr] != 0:
+                item_bytes += prog_data[addr:addr+1]
+                addr += 1
+            menu_text += item_bytes.decode('cp932')
             addr += 1
-            break
-        elif opening_data[addr] == 0:
-            text += "\n"
-            addr += 1
-        elif opening_data[addr] >= 0xe0: # Kanji block above 0xe0 is two bytes each.
-            text += opening_data[addr:addr+2].decode('cp932')
-            addr += 2
-        elif opening_data[addr] >= 0xa0: # Half-width katakana are between 0xa0 and 0xdf. One byte each.
-            text += opening_data[addr:addr+1].decode('cp932')
-            addr += 1
-        elif opening_data[addr] >= 0x80:
-            text += opening_data[addr:addr+2].decode('cp932')
-            addr += 2
-        elif opening_data[addr] >= 0x20:
-            text += opening_data[addr:addr+1].decode('cp932')
-            addr += 1
-        else:
-            raise Exception(f"Unknown byte {opening_data[addr]:02x} at location {addr:04x} in opening.")
 
-    return addr, text
+        entry.original = menu_text
+        entry.original_byte_length = addr - (menu_addr + 0x4)
+        entry.max_byte_length = entry.original_byte_length
+        entry.is_relocatable = False
+
+    for toggle_addr, toggle_count in toggle_list:
+        entry = trans[toggle_addr - 0x7c00]
+
+        toggle_text = ""
+        addr = toggle_addr
+
+        for _ in range(toggle_count):
+            if len(toggle_text) > 0:
+                toggle_text += "\n"
+            item_bytes = b''
+            while prog_data[addr] != 0:
+                item_bytes += prog_data[addr:addr+1]
+                addr += 1
+            toggle_text += item_bytes.decode('cp932')
+            addr += 1
+
+        entry.original = toggle_text
+        entry.original_byte_length = addr - toggle_addr
+        entry.max_byte_length = entry.original_byte_length
+        entry.is_relocatable = False
 
 
-if __name__ == '__main__':
+    # Combat menu is just three lines with no header.
+    combat_menu_entry = trans[0x19f4]
+    combat_menu_addr = 0x19f4 + 0x7c00
+    combat_menu_text = ""
+    for _ in range(3):
+        if len(combat_menu_text) > 0:
+            combat_menu_text += "\n"
+        item_bytes = b''
+        while prog_data[combat_menu_addr] != 0:
+            item_bytes += prog_data[combat_menu_addr:combat_menu_addr+1]
+            combat_menu_addr += 1
+        combat_menu_text += item_bytes.decode('cp932')
+        combat_menu_addr += 1
+    combat_menu_entry.original = combat_menu_text
+    combat_menu_entry.original_byte_length = combat_menu_addr - (0x19f4 + 0x7c00)
+    combat_menu_entry.max_byte_length = combat_menu_entry.original_byte_length
+    combat_menu_entry.is_relocatable = False
+
+    return trans
+
+
+
+
+def update_translations(trans:TranslationCollection, save_path:str) -> None:
+    if not trans.empty:
+        trans.import_translations(TranslationCollection.load(save_path))
+        trans.save(save_path)
+
+
+def main() -> None:
     scenario_list = []
     combat_list = []
     for path, dirs, files in os.walk("local/decompressed"):
@@ -127,7 +403,8 @@ if __name__ == '__main__':
     combat_list = sorted(combat_list)
 
     for file_path in scenario_list:
-        output_path = os.path.join("csv/Scenarios", os.path.splitext(os.path.basename(file_path))[0] + ".csv")
+        base_name = os.path.splitext(os.path.basename(file_path))[0]
+        output_path = os.path.join("yaml/Scenarios", f"{base_name}.yaml")
         print(output_path)
 
         os.makedirs(os.path.dirname(output_path), exist_ok=True)
@@ -135,21 +412,23 @@ if __name__ == '__main__':
         with open(file_path, 'rb') as in_file:
             scenario_data = in_file.read()
 
+        scenario_hooks = None
+        if base_name == "C_203.BZH":
+            scenario_hooks = [EmptyHook(0xd5cb, False, 0xd5d6)] # Skip some subroutine calls that would stomp si
+        elif base_name == "F_000.BZH":
+            scenario_hooks = [DS62_OverworldDestinationTableCodeHook(0xd800)]
+        elif base_name == "F_200.BZH":
+            scenario_hooks = [DS62_OverworldDestinationTableCodeHook(0xd7b9)]
+        elif base_name == "F_400.BZH" or base_name == "F_500.BZH":
+            scenario_hooks = [DS62_OverworldDestinationTableCodeHook(0xd570)]
+
         try:
-            events = extract_scenario_events(scenario_data)
-
-            if len(events) > 0:
-                csv_data = load_csv(output_path)
-
-                for event in events:
-                    add_csv_original(csv_data, event.start_addr, event.format_string())
-
-                save_csv(output_path, csv_data)
+            update_translations(extract_scenario_events(scenario_data, scenario_hooks), output_path)
         except Exception as e:
             print(f" FAILED - {e}")
 
     for file_path in combat_list:
-        output_path = os.path.join("csv/Combats", os.path.splitext(os.path.basename(file_path))[0] + ".csv")
+        output_path = os.path.join("yaml/Combats", os.path.splitext(os.path.basename(file_path))[0] + ".yaml")
         print(output_path)
 
         os.makedirs(os.path.dirname(output_path), exist_ok=True)
@@ -158,27 +437,28 @@ if __name__ == '__main__':
             combat_data = in_file.read()
 
         try:
-            events = extract_combat_events(combat_data)
-
-            if len(events) > 0:
-                csv_data = load_csv(output_path)
-
-                for event in events:
-                    add_csv_original(csv_data, event.start_addr, event.format_string())
-
-                save_csv(output_path, csv_data)
+            update_translations(extract_combat_events(combat_data, 1 if "M_501" in file_path else 4), output_path)
         except Exception as e:
             print(f" FAILED - {e}")
 
     with open("local/decompressed/OPENING.BZH.bin", 'rb') as in_file:
         opening_data = in_file.read()
-    opening_csv_data = load_csv("csv/Opening.csv")
+    update_translations(extract_opening_text(opening_data), "yaml/Opening.yaml")
 
-    opening_addr = 0x3dc2
-    for opening_page_index in range(5):
-        opening_addr, text = extract_opening_text(opening_data, opening_addr)
-        add_csv_original(opening_csv_data, opening_page_index, text)
+    with open("local/decompressed/ENDING.BZH.bin", 'rb') as in_file:
+        ending_data = in_file.read()
+    update_translations(extract_ending_text(ending_data), "yaml/Ending.yaml")
 
-    save_csv("csv/Opening.csv", opening_csv_data)
+    with open("local/decompressed/PROG.BZH.bin", 'rb') as in_file:
+        prog_data = in_file.read()
+
+    update_translations(extract_spells(prog_data), "yaml/Spells.yaml")
+    update_translations(extract_items(prog_data), "yaml/Items.yaml")
+    update_translations(extract_locations(prog_data), "yaml/Locations.yaml")
+    update_translations(extract_menus(prog_data), "yaml/Menus.yaml")
+
+    update_translations(extract_program_events(prog_data), "yaml/ProgramText.yaml")
 
 
+if __name__ == '__main__':
+    main()

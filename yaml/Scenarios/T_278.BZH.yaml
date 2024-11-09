@@ -1,0 +1,194 @@
+"entries":
+  "5adb":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ジーナ<C_NONE>
+      な、何だい このスライム男が
+      気持ち悪いから 近寄るんじゃないよ。
+    "original_byte_length": !!int |-
+      73
+    "references":
+    - "source_addr": !!int |-
+        54630
+      "target_addr": !!int |-
+        23259
+    "translated": !!null |-
+      null
+  "5b24":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>船員<C_NONE>
+      モンスターが いなくなったって
+      きいたけど 本当か？
+
+      ここじゃ 関係なかったから
+      よくわからねえんだ。
+    "original_byte_length": !!int |-
+      104
+    "references":
+    - "source_addr": !!int |-
+        54639
+      "target_addr": !!int |-
+        23332
+    "translated": !!null |-
+      null
+  "5b8c":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>船員<C_NONE>
+      ジーナさんは 旅人の宿チェーンを
+      復活させるんだって 言っていたな。
+
+      あれは もう ずっと前に はやらなく
+      なって つぶれてしまったというのに。
+    "original_byte_length": !!int |-
+      143
+    "references":
+    - "source_addr": !!int |-
+        54648
+      "target_addr": !!int |-
+        23436
+    "translated": !!null |-
+      null
+  "5c1b":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>船員<C_NONE>
+      あーあ ヒマだなー
+      昔は 良かったよなー
+
+      酒飲んだり バクチしたり 定期船を
+      おそった ･ ･ ･ あぶねえ あぶねえ。
+    "original_byte_length": !!int |-
+      113
+    "references":
+    - "source_addr": !!int |-
+        54657
+      "target_addr": !!int |-
+        23579
+    "translated": !!null |-
+      null
+  "5c8c":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>船員<C_NONE>
+      ジーナさんって こわいんだよな。
+      あの人見てると 社長の お袋さんを
+      思い出すよな。
+    "original_byte_length": !!int |-
+      87
+    "references":
+    - "source_addr": !!int |-
+        54666
+      "target_addr": !!int |-
+        23692
+    "translated": !!null |-
+      null
+  "5ce3":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>船員<C_NONE>
+      な、何だよ おれたちゃ バクチ
+      やってるわけじゃねえぞ ちゃんと
+      仕事してるんだからな。
+
+      ほら見ろ 新しい船を 考えてるんだ。今より 速くて 人をたくさん
+      乗せられるやつだ。
+    "original_byte_length": !!int |-
+      171
+    "references":
+    - "source_addr": !!int |-
+        54675
+      "target_addr": !!int |-
+        23779
+    "translated": !!null |-
+      null
+  "5d8e":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>船員<C_NONE>
+      <IF009d><JUMP5e18>おっと 気をつけてくれよ。
+      ここには バクヤクが たくさん
+      あるんだからよ。
+
+      えっ 何に 使うかって？
+      そんなの きくまでもねえだろ。<END>
+      <LOC5e18>なに バクヤク？
+      <Xf65317><JUMP5e6b>ほらよ ここで 使うんじゃねえぞ。
+
+      <Xf12c><UNSET009d><ITEM><C_GREEN>をもらいました。<SND0103><C_NONE><END>
+      <LOC5e6b>そんなに よくばるなよ。
+      持物が いっぱいだぜ。
+    "original_byte_length": !!int |-
+      267
+    "references":
+    - "source_addr": !!int |-
+        54684
+      "target_addr": !!int |-
+        23950
+    "translated": !!null |-
+      null
+  "5e99":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>船員<C_NONE>
+      ここには 変わった宝石が たくさん
+      あるんだぜ。社長の趣味なんだ。
+    "original_byte_length": !!int |-
+      71
+    "references":
+    - "source_addr": !!int |-
+        54693
+      "target_addr": !!int |-
+        24217
+    "translated": !!null |-
+      null
+  "5ee0":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ボアード<C_NONE>
+      <IF009d><JUMP5f28><Xf624d6><JUMP5f56>またバクヤクが ほしかったら
+      酒と交換してやるよ。<END>
+      <LOC5f28>右の武器をおいてある所から
+      持っていってくれ。<END>
+      <LOC5f56>おっ また バクヤクがほしいのか？<Xf69229><JUMP5f9b><SET009d><ASMd61c><CLEAR><ITEM><C_GREEN>を渡しました。<SND0103><C_NONE>
+
+      <JUMP5f28><LOC5f9b><CLEAR>そうか その酒 けっこう気に入ったぜ。またバクヤクが ほしかったら
+      交換してやるからな。
+    "original_byte_length": !!int |-
+      273
+    "references":
+    - "source_addr": !!int |-
+        54702
+      "target_addr": !!int |-
+        24288
+    "translated": !!null |-
+      null
+"note": ""

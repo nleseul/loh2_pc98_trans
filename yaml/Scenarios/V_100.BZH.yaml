@@ -1,0 +1,76 @@
+"entries":
+  "5dd4":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |
+      <CLEAR>       第１章　開かれた奈落<N>
+
+      　　　　　　　　完
+    "original_byte_length": !!int |-
+      50
+    "references":
+    - "source_addr": !!int |-
+        54620
+      "target_addr": !!int |-
+        24020
+    "translated": !!null |-
+      null
+  "5e46":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CLEAR><Xfb2861d860><CH2>
+      アトラスさま もしや この方たちは
+      人間なのでは ないでしょうか？
+
+      <Xfb2861e260><CH0>
+      ･ ･ ･ でも ぼくたちとは ちょっと
+      違うようだけど ･ ･ ･<WAIT>
+      <ASMd8bb><CLEAR><CH1>
+      モンスターに決まってるじゃねえか !
+
+      <CH0>
+      奥に行けば 何か手がかりが
+      あるかもしれないな ･ ･ ･<ASMd931>
+
+      <ASMd97a><CLEAR><C_YELLOW>セリオス国王<C_NONE>
+      ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･
+
+      <ASMd98f><CLEAR><C_YELLOW>ダリス<C_NONE>
+      早く はいたほうが 身のためだぞ。
+
+      <ASMd9b3><C_YELLOW>セリオス国王<C_NONE>
+      ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･
+
+      <ASMd9ad><C_YELLOW>ダリス<C_NONE>
+      しぶといやつだ。
+
+      だが そのほうが おれとしても
+      楽しみがいが あるというものだ。
+      ハッハッハッハ。
+
+      <ASMd9b9><CLEAR><CH1>
+      ま とにかく いつまで 考えていても
+      しかたねえよ。
+
+      <Xfb28610261><CH0>
+      そうだな 早く 父上たちを
+      追わなくては ･ ･ ･
+
+      <Xfb28610c61><CH1>
+      よし そうだな。
+      だったら さっさと 出発しようぜ !!
+    "original_byte_length": !!int |-
+      657
+    "references":
+    - "source_addr": !!int |-
+        54832
+      "target_addr": !!int |-
+        24134
+    "translated": !!null |-
+      null
+"note": ""

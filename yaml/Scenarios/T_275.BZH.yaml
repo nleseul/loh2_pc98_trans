@@ -1,0 +1,28 @@
+"entries":
+  "5a0b":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>船員<C_NONE>
+      ここだけの話なんだけどよ。
+      うちの社長 ジーナさんの しりに
+      しかれてたんだよ。
+
+      でも あの事件の後でよ ジーナさんをびしっと怒ったんだよ。
+      さすがは おれたちの親分だなって
+      思ったぜ。
+
+      あっ 言っとくけど 親分ってのは
+      社長のあだ名だけどよ。
+    "original_byte_length": !!int |-
+      238
+    "references":
+    - "source_addr": !!int |-
+        54645
+      "target_addr": !!int |-
+        23051
+    "translated": !!null |-
+      null
+"note": ""

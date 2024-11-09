@@ -1,0 +1,121 @@
+"entries":
+  "6019":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ガード<C_NONE>
+      何だ？<WAIT>
+      どうしてお前たちが ここにいるのだ。
+
+      ちょっとこい !!
+    "original_byte_length": !!int |-
+      68
+    "references":
+    - "source_addr": !!int |-
+        54922
+      "target_addr": !!int |-
+        24601
+    "translated": !!null |-
+      null
+  "605d":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>子ども<C_NONE>
+      あれっ お兄ちゃんたちどうしたの？
+      よく ぼくの秘密基地が わかったね。
+
+      <CH0>
+      秘密基地？ この城の中の ことかい？
+
+      <C_YELLOW>子ども<C_NONE>
+      うん そうだよ。
+      でも これは だれにも 言わないでね。
+
+      <CH2>
+      この中で 遊んでいたら 危ないわよ。
+
+      <C_YELLOW>子ども<C_NONE>
+      見つからなければ 平気さ。
+
+      そうだ だれにも 言わないって
+      約束すれば 中に入れてあげるよ。
+      だれにも 言わない？
+
+      <CH0>
+      うーん まあ だれにも 言わないけど
+      城の中は 本当に危ないんだよ。
+
+      <C_YELLOW>子ども<C_NONE>
+      だから 平気だってば。
+      それじゃ いっしょに ついてきてよ。
+
+      見つからなければ 全然こわくなんか
+      ないんだから。
+    "original_byte_length": !!int |-
+      513
+    "references":
+    - "source_addr": !!int |-
+        54969
+      "target_addr": !!int |-
+        24669
+    "translated": !!null |-
+      null
+  "625e":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CH1>
+      さすが ガキだな。
+      こんな細い所を すり抜けやがった。
+
+      <C_YELLOW>子ども<C_NONE>
+      ちょっと 待っててね。
+      これを押すと 柵があがるんだ。
+    "original_byte_length": !!int |-
+      116
+    "references":
+    - "source_addr": !!int |-
+        54983
+      "target_addr": !!int |-
+        25182
+    "translated": !!null |-
+      null
+  "62d2":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>子ども<C_NONE>
+      ねっ ぜんぜん平気でしょ？
+
+      秘密基地は もう少し先なんだけど
+      早く アフルに帰らないと お母さんに怒られちゃうから お兄ちゃんたち
+      かってに 入って遊んでていいよ。
+
+      じゃあ またね。バイバイ。
+
+      <CH2>
+      ありがとう ボク。
+      気をつけて 帰ってね。
+
+      <C_YELLOW>子ども<C_NONE>
+      うん だいじょうぶさ。
+      ここのことは 秘密だからね。
+    "original_byte_length": !!int |-
+      293
+    "references":
+    - "source_addr": !!int |-
+        55032
+      "target_addr": !!int |-
+        25298
+    "translated": !!null |-
+      null
+"note": ""

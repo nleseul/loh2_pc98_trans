@@ -1,0 +1,18 @@
+"entries":
+  "5c28":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_GREEN>扉には カギがかかっています。<C_NONE>
+    "original_byte_length": !!int |-
+      32
+    "references":
+    - "source_addr": !!int |-
+        54757
+      "target_addr": !!int |-
+        23592
+    "translated": !!null |-
+      null
+"note": ""

@@ -1,0 +1,50 @@
+"entries":
+  "7170":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      16
+    "original": |-
+      ゴドウィン２世<RET>
+    "original_byte_length": !!int |-
+      15
+    "references": []
+    "translated": !!null |-
+      null
+  "7197":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      皇帝 <JUMP7170><LOC719f>
+
+      <RET>
+    "original_byte_length": !!int |-
+      10
+    "references":
+    - "source_addr": !!int |-
+        61690
+      "target_addr": !!int |-
+        29087
+    "translated": !!null |-
+      null
+  "7201":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW><CALL7197><C_NONE>
+      フッハッハッハッハ
+      この私の本当の力を思い知るがいい。<RET_N>
+    "original_byte_length": !!int |-
+      60
+    "references":
+    - "source_addr": !!int |-
+        61669
+      "target_addr": !!int |-
+        29185
+    "translated": !!null |-
+      null
+"note": ""

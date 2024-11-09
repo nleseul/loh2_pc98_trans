@@ -1,0 +1,462 @@
+"entries":
+  "5bd2":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CALL6cc6><IF00ec><JUMP5c90><SET00ec>何だ てめえは？<WAIT>
+      んっ もしかすると セリオスの？
+
+      <CH0>
+      はい アトラスです。
+
+      <CALL6cc6>そうか セリオスのガキかぁ。
+      なつかしいなぁ あれから ２０年も
+      たっちまったんだなぁ。
+
+      で 何しに 来たんだ？
+      <LOC5c90>外は <CALL6cf3>だらけなんだ
+      けがしねえうちに ファーレーンに
+      戻った方がいいぜ。
+    "original_byte_length": !!int |-
+      262
+    "references":
+    - "source_addr": !!int |-
+        54750
+      "target_addr": !!int |-
+        23506
+    "translated": !!null |-
+      null
+  "5cd8":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CALL6ce8><IF00eb><JUMP662e>な、何だよ お前ら。
+      おれを ひとりにしといてくれよ。<IF_NOT00d8><JUMP662d><IF0404><JUMP5dc2>
+
+      <CH3>
+      おまえ カネ取った。
+
+      <CALL6ce8>げげっ お、おめえは ナスールで
+      おれに からんできた ･ ･ ･
+
+      <CH1>
+      何 言ってんだよ。
+      逆だろ お前が シンディから 金を
+      盗もうと したんだろうが。<LOC5dc2><IF00e9><JUMP5dce><SET0404><JUMP662d><LOC5dce>
+
+      <CH0>
+      そんなことより ちょっと ききたい
+      ことが あるんだけど。
+
+      <CALL6ce8>な、何だよ おれは 何も知らねえよ。
+
+      <CH0>
+      ゲイル３世が どこに 行ったのか
+      知らないか？
+
+      <CALL6ce8>だから 何も 知らねえって
+      言ってるじゃねえか。
+
+      <CH1>
+      ３世たちが 出かけたまま 戻って
+      こねえのは 知ってるよな。
+
+      <CALL6ce8>さあて 何の ことだかさっぱり。
+
+      <CH1>
+      そうか よくわかったぜ。
+
+      おれは ものわかりが いいから
+      かまわねえけどな このシンディには
+      もうちょっと 詳しく言わねえと
+      わかってくれねえぜ。
+
+      なあ シンディ。
+
+      <C_GREEN>シンディは ドレイクの顔を じっと
+      にらみつけました。<C_NONE>
+
+      <CALL6ce8>うっ ･ ･ ･ わ、わかったよ。
+      話すから 助けてくれ。
+
+      ゲイル３世さまは ここの西にある
+      奈落の口っていう洞窟に入って
+      いったんだ。
+
+      <CH0>
+      洞窟？ どうして そんな所に？
+
+      <CALL6ce8>あー もー しょうがねえなあ。
+      みんな 話してやるよ。
+
+      奈落の口ってのは この前の 大地震でできた穴なんだけど その中から
+      <CALL6cf3>が 出てきやがったんだ。
+
+      <CH0>
+      竜の卵だけじゃなかったのか。
+
+      <CALL6ce8>ああ でも それは 竜の卵から
+      出てくるように なる前の話だ。
+
+      それに あのときは ５匹しか
+      いなかったんだ。
+
+      そのとき おれは 子分と ふたりだけ
+      だったんだが <CALL6cf3>の 動きが
+      のろいし 弱そうだから 退治して
+      やろうと 飛びかかっていったんだ。
+
+      それで あっというまに ４匹
+      やっつけたときに 残りの１匹の
+      方から でかい音がして 子分が
+      倒れて 動かなくなっちまったんだ。
+
+      おれは それを見て 次は おれに
+      くると思って 怖くなっちまって
+      逃げ出したんだ。
+
+      <CALL6cf3>が 追ってこないって
+      わかっても 怖くて怖くて ･ ･ ･
+
+      あの穴から <CALL6cf3>の仲間が
+      たくさん 出てくるかもしれないと
+      思うと ･ ･ ･
+
+      このことは だれにも 知られたく
+      なかったけど あいつらの仲間が
+      出てきてからじゃ おそいと思って
+      ゲイル３世さまに わけを話したんだ。
+
+      <CALL6cd3>さまは もう
+      そのときには 行方不明に
+      なってたからな。
+
+      そうしたら ３世さまは
+      プアゾの箱っていう 古代の 箱を
+      出してきて そいつを 奈落の口に
+      しかけるように 言ったんだ。
+
+      そいつは まわりに 毒のきりを出す
+      ようになっていて それで
+      <CALL6cf3>が 出てこないように
+      しておいたんだ。
+
+      <CH0>
+      それで ゲイル３世たちは その穴からずっと出てこない ･ ･ ･
+
+      <CALL6ce8>ああ そういうことだ。
+      おれも 気にはなっていたんだが
+      ひとりで 入る勇気がなくて ･ ･ ･
+
+      <CH0>
+      よし ぼくたちも その穴に
+      入ってみよう。
+
+      <CALL6ce8>お、お前ら 本気なのか？
+
+      <CH1>
+      あったりめーだろ。
+
+      <CALL6ce8>そうか ３世さまを
+      探してくれるんだな？
+
+      それじゃ あの洞窟の プアゾの箱を
+      止めてやるよ。
+      先に行ってるから後から来てくれ。<LOC6627><SET00ea><ASMd6ab><LOC662d><END>
+      <LOC662e>また あの箱を止めてほしいのか？
+      めんどうなやつらだな よしちょっと
+      待ってろよ。<JUMP6627><LOC667f><CALL6ce1>なんだ おめーら？
+      よく ここまで 来れたもんだな。
+
+      でもな こんなとこに 来たって
+      金スラれるぐらいなもんだぜ。
+      ひでえ目 あわねえうちに 帰りな。
+    "original_byte_length": !!int |-
+      2614
+    "references":
+    - "source_addr": !!int |-
+        54759
+      "target_addr": !!int |-
+        23768
+    - "source_addr": !!int |-
+        54768
+      "target_addr": !!int |-
+        26239
+    "translated": !!null |-
+      null
+  "670e":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CALL6ce1><CALL6cd3>さまは どこに行って
+      しまったんだろう？
+
+      あの 大地震の後で いつものように
+      「散歩に行く」と言って
+      出かけていったのが 最後だったな。
+
+      まさか <CALL6cf3>に やられる
+      ような人じゃないし ･ ･ ･
+    "original_byte_length": !!int |-
+      182
+    "references":
+    - "source_addr": !!int |-
+        54777
+      "target_addr": !!int |-
+        26382
+    "translated": !!null |-
+      null
+  "67c4":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CALL6ce1>ゲイル３世さまは 悪神を倒した
+      英雄たちの ひとりなんですよ。
+
+      そのせいか <CALL6cd3>さまの跡は絶対に 継がないとか言って いつも
+      けんかばかりしているんです。<IF_NOT00b9><JUMP691f><SET00e9>
+
+      えっ 今は 出かけていますよ。
+      何でも 昔の友だちという人が来て
+      いっしょに 出ていったきりです。
+
+      その前に ドレイクのやつと 話して
+      いましたから あいつにでも きけば
+      何か知ってるんじゃないですか。<LOC691f>
+    "original_byte_length": !!int |-
+      348
+    "references":
+    - "source_addr": !!int |-
+        54786
+      "target_addr": !!int |-
+        26564
+    "translated": !!null |-
+      null
+  "6920":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CALL6ce1>ドレイクの子分が しばらく
+      帰ってきてない みたいだけど
+      捕まっちまったのかな。
+
+      そういえば 最近 ドレイクの
+      ようすも おかしいな。
+      あいつらどうしたんだろう。
+    "original_byte_length": !!int |-
+      156
+    "references":
+    - "source_addr": !!int |-
+        54795
+      "target_addr": !!int |-
+        26912
+    "translated": !!null |-
+      null
+  "69bc":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CALL6ce1>いくらがんばっても この扉は 絶対にあかねえように なってるんだ。
+
+      作った人が言ってるからまちがいねえ。ムダなことは やめときな。
+    "original_byte_length": !!int |-
+      129
+    "references":
+    - "source_addr": !!int |-
+        54804
+      "target_addr": !!int |-
+        27068
+    "translated": !!null |-
+      null
+  "6a3d":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CALL6ce1>ドレイクのやろう あいつの子分が
+      いなくなってから すっかり おかしくなっちまったんだ。
+
+      いつも おびえてるように見えるし
+      毎日 どこかに 行ってやがるんだ。
+      いったい どうしちまったんだろう。
+    "original_byte_length": !!int |-
+      187
+    "references":
+    - "source_addr": !!int |-
+        54813
+      "target_addr": !!int |-
+        27197
+    "translated": !!null |-
+      null
+  "6af8":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CALL6ce1>ゲイル２世さまは ラルフという
+      名前で 考古学者に なっていて
+      助手まで いるんですよ。
+
+      あの人も 最近 見かけないけど
+      どこに 行ってしまったのか。
+    "original_byte_length": !!int |-
+      143
+    "references":
+    - "source_addr": !!int |-
+        54822
+      "target_addr": !!int |-
+        27384
+    "translated": !!null |-
+      null
+  "6b87":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CALL6ce1>この宝は <CALL6cd3>さまの
+      一番大切な物だから だれにも
+      さわらせられねえよ。
+
+      ここだけの話だけど この中には
+      銀の笛ってのが 入ってるらしいぜ。
+    "original_byte_length": !!int |-
+      135
+    "references":
+    - "source_addr": !!int |-
+        54831
+      "target_addr": !!int |-
+        27527
+    "translated": !!null |-
+      null
+  "6c0e":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <PARTY>は 石碑を読みました。
+
+
+      『この部屋の宝に触れるべからず
+                         <CALL6cd3>』
+    "original_byte_length": !!int |-
+      80
+    "references":
+    - "source_addr": !!int |-
+        54729
+      "target_addr": !!int |-
+        27662
+    "translated": !!null |-
+      null
+  "6c5e":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <PARTY>は 石碑を読みました。
+
+
+      『この回廊を走るべからず
+                     　　<CALL6cd3>』
+    "original_byte_length": !!int |-
+      74
+    "references":
+    - "source_addr": !!int |-
+        54735
+      "target_addr": !!int |-
+        27742
+    "translated": !!null |-
+      null
+  "6ca8":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_GREEN>扉は 開きそうもありません。<C_NONE>
+    "original_byte_length": !!int |-
+      30
+    "references":
+    - "source_addr": !!int |-
+        54741
+      "target_addr": !!int |-
+        27816
+    "translated": !!null |-
+      null
+  "6cc6":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ゲイル３世<C_NONE><RET_N>
+    "original_byte_length": !!int |-
+      13
+    "references": []
+    "translated": !!null |-
+      null
+  "6cd3":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      大盗賊 ゲイル<RET>
+    "original_byte_length": !!int |-
+      14
+    "references": []
+    "translated": !!null |-
+      null
+  "6ce1":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>盗賊<C_NONE><RET_N>
+    "original_byte_length": !!int |-
+      7
+    "references": []
+    "translated": !!null |-
+      null
+  "6ce8":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ドレイク<C_NONE><RET_N>
+    "original_byte_length": !!int |-
+      11
+    "references": []
+    "translated": !!null |-
+      null
+  "6cf3":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      モンスター<RET>
+    "original_byte_length": !!int |-
+      11
+    "references": []
+    "translated": !!null |-
+      null
+"note": ""

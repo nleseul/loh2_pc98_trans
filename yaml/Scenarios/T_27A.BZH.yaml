@@ -1,0 +1,190 @@
+"entries":
+  "5adb":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ジーナ<C_NONE>
+      お前たち スエルには 行ったかい？
+
+      今度 ジーナ観光ツアーってのを
+      始めたから 行ってみておくれよ。
+    "original_byte_length": !!int |-
+      104
+    "references":
+    - "source_addr": !!int |-
+        54630
+      "target_addr": !!int |-
+        23259
+    "translated": !!null |-
+      null
+  "5b43":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>船員<C_NONE>
+      ジーナさんは 観光ツアーと宿屋とで
+      金をもうけるって言ってたぜ。
+    "original_byte_length": !!int |-
+      70
+    "references":
+    - "source_addr": !!int |-
+        54639
+      "target_addr": !!int |-
+        23363
+    "translated": !!null |-
+      null
+  "5b89":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>船員<C_NONE>
+      ジーナさんは 最新の船を使って
+      観光を始めたんだ。
+
+      もし いきたければ スエルから
+      出発しているから 行ってみな。
+    "original_byte_length": !!int |-
+      115
+    "references":
+    - "source_addr": !!int |-
+        54648
+      "target_addr": !!int |-
+        23433
+    "translated": !!null |-
+      null
+  "5bfc":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>船員<C_NONE>
+      あーあ ヒマだなー
+      昔は 良かったよなー
+
+      酒飲んだり バクチしたり 定期船を
+      おそった ･ ･ ･ あぶねえ あぶねえ。
+    "original_byte_length": !!int |-
+      113
+    "references":
+    - "source_addr": !!int |-
+        54657
+      "target_addr": !!int |-
+        23548
+    "translated": !!null |-
+      null
+  "5c6d":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>船員<C_NONE>
+      ジーナさんは なかなか 頭がいいな
+      あの人見てると 社長の お袋さんを
+      思い出すよな。
+    "original_byte_length": !!int |-
+      88
+    "references":
+    - "source_addr": !!int |-
+        54666
+      "target_addr": !!int |-
+        23661
+    "translated": !!null |-
+      null
+  "5cc5":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>船員<C_NONE>
+      やっと 新しい船が できたんだ。
+      今のより 速くて 人をたくさん
+      乗せられるんだぜ。
+    "original_byte_length": !!int |-
+      86
+    "references":
+    - "source_addr": !!int |-
+        54675
+      "target_addr": !!int |-
+        23749
+    "translated": !!null |-
+      null
+  "5d1b":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>船員<C_NONE>
+      <IF009d><JUMP5da5>おっと 気をつけてくれよ。
+      ここには バクヤクが たくさん
+      あるんだからよ。
+
+      えっ 何に 使うかって？
+      そんなの きくまでもねえだろ。<END>
+      <LOC5da5>なに バクヤク？
+      <Xf65317><JUMP5df8>ほらよ ここで 使うんじゃねえぞ。
+
+      <Xf12c><UNSET009d><ITEM><C_GREEN>をもらいました。<SND0103><C_NONE><END>
+      <LOC5df8>そんなに よくばるなよ。
+      持物が いっぱいだぜ。
+    "original_byte_length": !!int |-
+      267
+    "references":
+    - "source_addr": !!int |-
+        54684
+      "target_addr": !!int |-
+        23835
+    "translated": !!null |-
+      null
+  "5e26":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>船員<C_NONE>
+      ここには 変わった宝石が たくさん
+      あるんだぜ。社長の趣味なんだ。
+    "original_byte_length": !!int |-
+      71
+    "references":
+    - "source_addr": !!int |-
+        54693
+      "target_addr": !!int |-
+        24102
+    "translated": !!null |-
+      null
+  "5e6d":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ボアード<C_NONE>
+      <IF009d><JUMP5eb5><Xf624d6><JUMP5ee3>またバクヤクが ほしかったら
+      酒と交換してやるよ。<END>
+      <LOC5eb5>右の武器をおいてある所から
+      持っていってくれ。<END>
+      <LOC5ee3>おっ また バクヤクがほしいのか？<Xf69229><JUMP5f28><SET009d><ASMd61c><CLEAR><ITEM><C_GREEN>を渡しました。<SND0103><C_NONE>
+
+      <JUMP5eb5><LOC5f28><CLEAR>そうか その酒 けっこう気に入ったぜ。またバクヤクが ほしかったら
+      交換してやるからな。
+    "original_byte_length": !!int |-
+      273
+    "references":
+    - "source_addr": !!int |-
+        54702
+      "target_addr": !!int |-
+        24173
+    "translated": !!null |-
+      null
+"note": ""

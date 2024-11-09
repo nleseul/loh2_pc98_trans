@@ -1,0 +1,281 @@
+"entries":
+  "5a5f":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      君たち ソルディスに 行くのかね？
+      前もって 手続きしてあるだろうね？
+      してないなら あきらめてくれ。
+
+      せっかくなんだから 竜の祭でも
+      見ていったらどうだい。
+      年に１度しかない 国をあげての
+      行事なんだから。
+    "original_byte_length": !!int |-
+      204
+    "references":
+    - "source_addr": !!int |-
+        54627
+      "target_addr": !!int |-
+        23135
+    "translated": !!null |-
+      null
+  "5b2b":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      人が通るときだけ ここから 橋を
+      出してあげるんだよ。
+      ずっと橋が 出てるわけではないんだ。
+    "original_byte_length": !!int |-
+      95
+    "references":
+    - "source_addr": !!int |-
+        54636
+      "target_addr": !!int |-
+        23339
+    "translated": !!null |-
+      null
+  "5b8a":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      おれは この町を作ったときの 工事の責任者だったんだよ。
+
+      この町も だんだん 大きくなってきておれも うれしいよ。
+    "original_byte_length": !!int |-
+      114
+    "references":
+    - "source_addr": !!int |-
+        54645
+      "target_addr": !!int |-
+        23434
+    "translated": !!null |-
+      null
+  "5bfc":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>女<C_NONE>
+      この町は ラヌーラとソルディスが
+      共同で 作った町なのよ。
+    "original_byte_length": !!int |-
+      61
+    "references":
+    - "source_addr": !!int |-
+        54654
+      "target_addr": !!int |-
+        23548
+    "translated": !!null |-
+      null
+  "5c39":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>子供<C_NONE>
+      あの川は 流れが すごく速いんだよ。ぼくが お母さんと 橋を渡ったときに落ちそうになって こわかったよ。
+    "original_byte_length": !!int |-
+      107
+    "references":
+    - "source_addr": !!int |-
+        54663
+      "target_addr": !!int |-
+        23609
+    "translated": !!null |-
+      null
+  "5ca4":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>老人<C_NONE>
+      昔 ラヌーラとソルディスの国境は
+      国境の洞窟という洞窟でつながれて
+      おったのじゃ。
+
+      そこは 暗い洞窟じゃから 追いはぎにおそわれる者が 絶えず困っておった。
+
+      そこで 洞窟を封鎖して そのかわりにこの急な川に 橋を渡すことに
+      なったのじゃよ。
+    "original_byte_length": !!int |-
+      236
+    "references":
+    - "source_addr": !!int |-
+        54672
+      "target_addr": !!int |-
+        23716
+    "translated": !!null |-
+      null
+  "5d90":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>道具屋<C_NONE>
+      いらっしゃいませ。
+      どのような ご用でしょうか？<RET_N>
+    "original_byte_length": !!int |-
+      56
+    "references":
+    - "source_addr": !!int |-
+        54684
+      "target_addr": !!int |-
+        23952
+    "translated": !!null |-
+      null
+  "5dc8":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      また来てくださいね。
+    "original_byte_length": !!int |-
+      21
+    "references":
+    - "source_addr": !!int |-
+        54711
+      "target_addr": !!int |-
+        24008
+    "translated": !!null |-
+      null
+  "5ddd":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      おや？これ以上持てないようですね。
+
+      <RET>
+    "original_byte_length": !!int |-
+      36
+    "references":
+    - "source_addr": !!int |-
+        1402
+      "target_addr": !!int |-
+        24029
+    "translated": !!null |-
+      null
+  "5e01":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      どれを買ってくれますか？
+      <RET_N>
+    "original_byte_length": !!int |-
+      26
+    "references":
+    - "source_addr": !!int |-
+        1404
+      "target_addr": !!int |-
+        24065
+    "translated": !!null |-
+      null
+  "5e1b":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ITEM>だね。
+      どうも ありがとう。
+
+      <RET>
+    "original_byte_length": !!int |-
+      29
+    "references":
+    - "source_addr": !!int |-
+        1406
+      "target_addr": !!int |-
+        24091
+    "translated": !!null |-
+      null
+  "5e40":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      どれを 売ってくれますか？
+      <RET_N>
+    "original_byte_length": !!int |-
+      27
+    "references":
+    - "source_addr": !!int |-
+        1274
+      "target_addr": !!int |-
+        24128
+    "translated": !!null |-
+      null
+  "5e5b":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |2-
+       Gold になるけど
+      それでも よろしいですか？
+      <RET_N>
+    "original_byte_length": !!int |-
+      44
+    "references":
+    - "source_addr": !!int |-
+        1276
+      "target_addr": !!int |-
+        24155
+    "translated": !!null |-
+      null
+  "5e87":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      それは残念です。
+
+      <RET_N>
+    "original_byte_length": !!int |-
+      18
+    "references":
+    - "source_addr": !!int |-
+        1278
+      "target_addr": !!int |-
+        24199
+    "translated": !!null |-
+      null
+  "5e99":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      どうも ありがとうございます。
+      <RET_N>
+    "original_byte_length": !!int |-
+      31
+    "references":
+    - "source_addr": !!int |-
+        1280
+      "target_addr": !!int |-
+        24217
+    "translated": !!null |-
+      null
+"note": ""

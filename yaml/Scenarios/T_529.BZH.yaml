@@ -1,0 +1,282 @@
+"entries":
+  "5a8a":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      また うちのエリーサが はやとちりをしたそうだね。
+
+      あれさえなければ はたらき者で
+      いいやつなんだけどな。
+    "original_byte_length": !!int |-
+      107
+    "references":
+    - "source_addr": !!int |-
+        54642
+      "target_addr": !!int |-
+        23178
+    "translated": !!null |-
+      null
+  "5af5":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      やあ 若者たち 元気そうでなによりだ。
+
+      まあ 人生は いろいろなことが
+      あるから ここでのことも いい勉強になっただろう。
+
+      細かいことは 気にしないでくれ。
+      君たちは もう自由の身だ。
+      わっはっはっは。
+    "original_byte_length": !!int |-
+      195
+    "references":
+    - "source_addr": !!int |-
+        54651
+      "target_addr": !!int |-
+        23285
+    "translated": !!null |-
+      null
+  "5bb8":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      おう なんでい !!
+      これは ウエキって言うんだぜ。
+      文句あっか ？
+    "original_byte_length": !!int |-
+      66
+    "references":
+    - "source_addr": !!int |-
+        54660
+      "target_addr": !!int |-
+        23480
+    "translated": !!null |-
+      null
+  "5bfa":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      この中には だんなさまの 大事な物がしまってあるんだ。
+
+      この おれがいるかぎり だれにも
+      ふれさせないぜ。
+    "original_byte_length": !!int |-
+      106
+    "references":
+    - "source_addr": !!int |-
+        54669
+      "target_addr": !!int |-
+        23546
+    "translated": !!null |-
+      null
+  "5c64":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      あれ 君たちは どこかで 会ったね。
+
+      そうか ぼくが 道に迷っていたときに無視して行ってしまった あのときの
+      はくじょうな人たちか。
+    "original_byte_length": !!int |-
+      130
+    "references":
+    - "source_addr": !!int |-
+        54678
+      "target_addr": !!int |-
+        23652
+    "translated": !!null |-
+      null
+  "5ce6":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      あれ 君たちは ･ ･ ･
+      顔は知ってるけど 思い出せないな。
+    "original_byte_length": !!int |-
+      59
+    "references":
+    - "source_addr": !!int |-
+        54687
+      "target_addr": !!int |-
+        23782
+    "translated": !!null |-
+      null
+  "5d21":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      あれ 君たちは あの時の。
+      あれから 何回も迷いながら やっとでこの町に たどり着いたんだ。
+
+      もう たいへんだったよ。
+    "original_byte_length": !!int |-
+      116
+    "references":
+    - "source_addr": !!int |-
+        54696
+      "target_addr": !!int |-
+        23841
+    "translated": !!null |-
+      null
+  "5d95":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>女<C_NONE>
+      あら あの時の。
+      どうしたの こんな所に来て？
+
+      あなたたちも ここで 仕事を
+      することになったの？
+    "original_byte_length": !!int |-
+      97
+    "references":
+    - "source_addr": !!int |-
+        54705
+      "target_addr": !!int |-
+        23957
+    "translated": !!null |-
+      null
+  "5df6":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>エリーサ<C_NONE>
+      あーら あなたたちじゃない。
+      この前は ごめんなさいね。
+      かん違いを していたみたいなのよ。
+
+      新しく ここで はたらくことに
+      なっていた人と まちがえたのよ。
+    "original_byte_length": !!int |-
+      160
+    "references":
+    - "source_addr": !!int |-
+        54714
+      "target_addr": !!int |-
+        24054
+    "translated": !!null |-
+      null
+  "5e96":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>大盗賊 ゲイル<C_NONE>
+      <IF017a><JUMP6596><IF0126><JUMP6538><SET0126>やっと きおったな 待っとったぞ。
+      ナレサ隊長から やっとのことでききだした ことがあるんじゃ。
+
+      隊長の話からすると 思ったとおり
+      モンスターの 原因は 地底人たちに
+      あるとみて いいようじゃ。
+
+      地底人の中には マスターという 特に選ばれた人たちが おるそうじゃ。
+
+      彼らは いろいろな知識を 持っておりその中に モンスターを 作ることの
+      できる者が いるらしい。
+
+      だが なぜかは 知らんが かなり前に
+      その地位を 取り上げられて プロスの収容所で 監禁されているそうじゃ。
+
+      今では そのマスターというのは
+      １人だけらしく 何種類かの地位を
+      全部 ひとり占めにしているそうじゃ。
+
+      <CH0>
+      モンスターは そのひとり占めを
+      しているやつのせいだと？
+
+      <CH1>
+      何だか よくわからねえけど そいつのせいに きまってるじゃねえか。
+
+      そうじゃなけりゃ 全部の地位を
+      ひとり占めになんか しやしねえよ。
+
+      <C_YELLOW>大盗賊 ゲイル<C_NONE>
+      そのとおりじゃ。<WAIT>
+      自分のために じゃまなやつらを
+      収容所に 連れていかせたんじゃろう。
+
+      <CH1>
+      で そいつは どこにいるんだ？
+
+      <C_YELLOW>大盗賊 ゲイル<C_NONE>
+      城の別館のいちばん奥だそうだ。
+      この前 入った所よりも ずっと監視がきびしいらしい。
+
+      <CH1>
+      それは ちょっと やっかいだな。
+
+      <CH0>
+      収容所にいる人たちのほうが
+      接触しやすいんじゃないかな。
+
+      <C_YELLOW>大盗賊 ゲイル<C_NONE>
+      わしも そう思って 隊長に 収容所の
+      場所を きいておいたのじゃが
+      ちょっと 難しいかもしれん。
+
+      ユイシスの４つの出口の ひとつ
+      キュベラ地方への 出口を出ると
+      キュベラの村が ある。
+
+      そして さらにおくに 行ったところにプロスの収容所があるらしい。
+
+      ナレサ隊長に 何とか キュベラの
+      通行証を 手に入れてくれるように
+      頼んでみたが ムリだと 言いおった。
+
+      あの救出さわぎで ユイシスの監視が
+      きびしくなったうえ ナレサ自身も
+      だれかに 監視されているようだと
+      いいわけを しておった。
+
+      <CH0>
+      とにかく プロスにいるんですね？
+      レジスタンスにも きいてみます。
+
+      <C_YELLOW>大盗賊 ゲイル<C_NONE>
+      そうじゃな それがいいじゃろう。
+      わしの力でも ここまでじゃよ。
+
+      <LOC6538>わしも なんとか キュベラの通行証を手に入れるよう がんばってみるが
+      あまり あてにするでないぞ。
+
+      <LOC6596>時代は 新たなる 英雄を求めている。がんばれよ 若者たち。
+    "original_byte_length": !!int |-
+      1848
+    "references":
+    - "source_addr": !!int |-
+        54633
+      "target_addr": !!int |-
+        24214
+    "translated": !!null |-
+      null
+"note": ""

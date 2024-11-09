@@ -1,0 +1,275 @@
+"entries":
+  "5b03":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ジーナ<C_NONE>
+      な、何だい このスライム男が
+      気持ち悪いから 近寄るんじゃないよ。
+    "original_byte_length": !!int |-
+      73
+    "references":
+    - "source_addr": !!int |-
+        54642
+      "target_addr": !!int |-
+        23299
+    "translated": !!null |-
+      null
+  "5b4c":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>船員<C_NONE>
+      <IF0068><JUMP5bf7>社長の奥さんの ジーナさんは
+      モレストンの出身なんだよ。
+
+      スライムって言えば ファーレーンか
+      ウォンリークにしか いないだろ。
+      だから初めてスライムを見たらしいぜ。<END>
+      <LOC5bf7>この多島海のあたりには 竜の卵が
+      たくさん あるんだけど モンスターは海を 渡れないのかな？
+    "original_byte_length": !!int |-
+      259
+    "references":
+    - "source_addr": !!int |-
+        54651
+      "target_addr": !!int |-
+        23372
+    "translated": !!null |-
+      null
+  "5c4f":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>船員<C_NONE>
+      <IF0068><JUMP5cb3>よお あんただろ スライム出したの
+      あんな呪文 どこで覚えたんだ？
+      おれにも 教えてくれよ。<END>
+      <LOC5cb3>いったい 何が起こったんだろうな？
+      ふしぎなことだぜ まったく。
+
+      んっ おどろいちゃいるけどよ
+      ここは 安全だから 関係ねえんだよ。
+    "original_byte_length": !!int |-
+      225
+    "references":
+    - "source_addr": !!int |-
+        54660
+      "target_addr": !!int |-
+        23631
+    "translated": !!null |-
+      null
+  "5d30":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>船員<C_NONE>
+      あーあ ヒマだなー
+      昔は 良かったよなー
+
+      酒飲んだり バクチしたり 定期船を
+      おそった ･ ･ ･ あぶねえ あぶねえ。
+    "original_byte_length": !!int |-
+      113
+    "references":
+    - "source_addr": !!int |-
+        54669
+      "target_addr": !!int |-
+        23856
+    "translated": !!null |-
+      null
+  "5da1":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>船員<C_NONE>
+      ジーナさんって こわいんだよな。
+      あの人見てると 社長の お袋さんを
+      思い出すよな。
+    "original_byte_length": !!int |-
+      87
+    "references":
+    - "source_addr": !!int |-
+        54678
+      "target_addr": !!int |-
+        23969
+    "translated": !!null |-
+      null
+  "5df8":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>船員<C_NONE>
+      な、何だよ おれたちゃ バクチ
+      やってるわけじゃねえぞ ちゃんと
+      仕事してるんだからな。
+
+      ほら見ろ 新しい船を 考えてるんだ。今より 速くて 人をたくさん
+      乗せられるやつだ。
+    "original_byte_length": !!int |-
+      171
+    "references":
+    - "source_addr": !!int |-
+        54687
+      "target_addr": !!int |-
+        24056
+    "translated": !!null |-
+      null
+  "5ea3":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>船員<C_NONE>
+      おっと 気をつけてくれよ。
+      ここには バクヤクが たくさん
+      あるんだからよ。
+
+      えっ 何に 使うかって？
+      そんなの きくまでもねえだろ。
+    "original_byte_length": !!int |-
+      132
+    "references":
+    - "source_addr": !!int |-
+        54696
+      "target_addr": !!int |-
+        24227
+    "translated": !!null |-
+      null
+  "5f27":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>船員<C_NONE>
+      ここには 変わった宝石が たくさん
+      あるんだぜ。社長の趣味なんだ。
+    "original_byte_length": !!int |-
+      71
+    "references":
+    - "source_addr": !!int |-
+        54705
+      "target_addr": !!int |-
+        24359
+    "translated": !!null |-
+      null
+  "5f6e":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": "<C_YELLOW>ジゴ<C_NONE>\nあー いてー ･ ･ ･ \n社長とジーナさんと 両方から\nボコボコに されちまったよ。"
+    "original_byte_length": !!int |-
+      82
+    "references":
+    - "source_addr": !!int |-
+        54720
+      "target_addr": !!int |-
+        24430
+    "translated": !!null |-
+      null
+  "5fc0":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ボアード<C_NONE>
+      <IF_NOT0404><CALL644d><IF009a><JUMP6435><IF0089><JUMP5fe3><IF0087><JUMP619a><LOC5fe3><IF0099><JUMP6071><SET0099>ジーナには よく言っておいたから
+      安心してくれ。
+
+      それにしても あの気の強いやつが
+      スライムが 苦手だったとはな。
+      ハッハッハ お笑いだぜ。<END>
+      <LOC6071>おれは いろいろな問題があって
+      困ってるんだ。
+
+      定期船の航路が ３つしかないだろ？
+      それで いろんな所から 不便だって
+      文句がきてるんだよ。
+
+      でも 航路を少なくしとけば おれが
+      もうかるだろ？
+      だから ずっと増やさなかったんだ。
+
+      でも そろそろ 新しい船もできるし
+      来年あたりに 航路も 増やそうかって考えてるんだ。<END>
+      <LOC619a><UNSET0404><ASM6b26><SET009b>
+
+      <CH0>
+      ボアードさん お願いがあるんだけど。
+
+      <C_YELLOW>ボアード<C_NONE>
+      おう どんなことだ？
+
+      <CH0>
+      船で ソルディスまで 連れていって
+      もらいたいんだけど。
+
+      <C_YELLOW>ボアード<C_NONE>
+      何で わざわざ 船で 行くんだ？
+
+      <CH0>
+      この女の子が 出国の 手続きを
+      できないんだ。
+
+      <C_YELLOW>ボアード<C_NONE>
+      手続きなしで 行くのか？
+      何か わけありみたいだな。
+
+      <CH0>
+      この子 フローラって言って
+      ジェラルドさんの 娘さんなんだけど
+      家出してきたんだ。
+
+      <CH2>
+      家出なんかじゃありません。
+      フレイアさまを 助けに行くだけです。
+
+      <C_GREEN>そして また フローラの夢の話が
+      始まりました。<C_NONE>
+
+      <C_YELLOW>ボアード<C_NONE>
+      まあ そんな 作り話なんかしなくてもおれには わかってるぜ まったく
+      子どものくせに やるじゃねえか？
+
+      そういう ことだったら はっきり
+      言えば いいのによ。
+      さあ 行くぜ。ついてきな。<END>
+      <LOC6435>酒でも 手に入ったのか？
+    "original_byte_length": !!int |-
+      1165
+    "references":
+    - "source_addr": !!int |-
+        54729
+      "target_addr": !!int |-
+        24512
+    "translated": !!null |-
+      null
+  "644d":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <SET0404>おう お前らじゃねえか 元気そうだな。<RET>
+    "original_byte_length": !!int |-
+      40
+    "references": []
+    "translated": !!null |-
+      null
+"note": ""

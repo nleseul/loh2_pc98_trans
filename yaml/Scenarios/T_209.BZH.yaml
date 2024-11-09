@@ -1,0 +1,160 @@
+"entries":
+  "5a6e":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      いらっしゃい ここは休憩所だが
+      今は お城の人たちに 貸してるんだ。じゃまを しないようにしてくれよ。
+    "original_byte_length": !!int |-
+      103
+    "references":
+    - "source_addr": !!int |-
+        54630
+      "target_addr": !!int |-
+        23150
+    "translated": !!null |-
+      null
+  "5ad5":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ソニア<C_NONE>
+      チャールズも アトラス王子のように
+      りっぱな王子に なってくれれば
+      いいのですけど ･ ･ ･
+    "original_byte_length": !!int |-
+      94
+    "references":
+    - "source_addr": !!int |-
+        54639
+      "target_addr": !!int |-
+        23253
+    "translated": !!null |-
+      null
+  "5b33":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ポウエル<C_NONE>
+      いつまでも このような所にいても
+      しかたがないので 城の建て直しを
+      させているのです。
+
+      ところが なかなか はかどらなくて
+      エリオンさまが お帰りになられても
+      お城で お迎えできなくなりそうで
+      困っております。
+    "original_byte_length": !!int |-
+      210
+    "references":
+    - "source_addr": !!int |-
+        54648
+      "target_addr": !!int |-
+        23347
+    "translated": !!null |-
+      null
+  "5c05":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>チャールズ王子<C_NONE>
+      お城に行ったら じゃまになるからと
+      行かせてもらえないんだ。
+
+      ずっと ここにいても 何もなくて
+      おもしろくないんだ。
+    "original_byte_length": !!int |-
+      128
+    "references":
+    - "source_addr": !!int |-
+        54657
+      "target_addr": !!int |-
+        23557
+    "translated": !!null |-
+      null
+  "5c85":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>侍女<C_NONE>
+      早く お城が できないかしら。
+      いつまでも こんなに狭い所になんか
+      いたくないわ。
+    "original_byte_length": !!int |-
+      85
+    "references":
+    - "source_addr": !!int |-
+        54666
+      "target_addr": !!int |-
+        23685
+    "translated": !!null |-
+      null
+  "5cda":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>兵士<C_NONE>
+      これは アトラス王子さま。
+      ソニアさまは この中に
+      いらっしゃいます。
+    "original_byte_length": !!int |-
+      74
+    "references":
+    - "source_addr": !!int |-
+        54675
+      "target_addr": !!int |-
+        23770
+    "translated": !!null |-
+      null
+  "5d24":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>司祭 バーバラ<C_NONE>
+      アトラス王子の おかげで 聖域に
+      お祈りに来る者たちが 増えましてな。
+
+      多くの者たちは わしのおかげだと
+      思って よくお礼に やってきて
+      くれるのです。
+
+      わしは 名ばかりの 司祭なのじゃと
+      言いたいのじゃが ･ ･ ･
+
+      <CH2>
+      そんなことは ありませんわ。
+      バーバラさまの おかげで 私たちも
+      竜の卵に 入れたのですよ。
+
+      <CH0>
+      そのとおりです バーバラ。
+      ふかく 考えないほうが いいですよ。
+
+      わざわざ 遠いところから お祈りに
+      やって来る人たちだって あなたの
+      元気のない顔は 見たくないはずです。
+    "original_byte_length": !!int |-
+      470
+    "references":
+    - "source_addr": !!int |-
+        54684
+      "target_addr": !!int |-
+        23844
+    "translated": !!null |-
+      null
+"note": ""

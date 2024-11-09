@@ -1,0 +1,72 @@
+"entries":
+  "5e2a":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      <IF01fc><JUMP6051><SET01fc>･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･
+
+      <CH2>
+      この人 戦士の笛を持っているわよ。
+
+      <CH1>
+      これが 人なのかよ？
+
+      <CH3>
+      笛 ふく。
+
+      <CH2>
+      そうね やってみましょうよ。
+
+      <C_GREEN>アトラスたちは戦士の笛を吹きました。<C_NONE><ASMd888><CLEAR><C_YELLOW>男<C_NONE>
+      ん ･ ･ ･ 何だ この笛の音は ･ ･ ･
+
+      そうか お前たち レジスタンスだな。
+
+      私も レジスタンスだったのだ。
+
+      だが ガードに捕まって 何かの実験をされてしまい こんな みにくい体に
+      されたのだ。
+
+      その後 レジスタンスの中で いちばん勇敢だといわれている ガービィが
+      連れてこられたのだ。
+
+      ガービィは やつらに 皇帝の
+      命令のみをきく 化け物にされて
+      この辺を 警備させられている。
+
+      <LOC6051>やつらの手で 化け物にされたのは
+      おれと ガービィだけだ。
+
+      いくら あんな体に されたといってもどこかに 昔の心が 残っているはずだ。
+
+      頼む あいつも 助けてやってくれ。
+    "original_byte_length": !!int |-
+      711
+    "references":
+    - "source_addr": !!int |-
+        54763
+      "target_addr": !!int |-
+        24106
+    "translated": !!null |-
+      null
+  "60f1":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <PARTY>は 宝箱を開けました。
+      宝箱の中には<RET>
+    "original_byte_length": !!int |-
+      36
+    "references":
+    - "source_addr": !!int |-
+        54713
+      "target_addr": !!int |-
+        24817
+    "translated": !!null |-
+      null
+"note": ""

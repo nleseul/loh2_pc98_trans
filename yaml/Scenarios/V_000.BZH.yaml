@@ -1,0 +1,85 @@
+"entries":
+  "5d28":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |+
+      <CLEAR>
+                英雄達の伝説Ⅱ<N>
+
+    "original_byte_length": !!int |-
+      29
+    "references":
+    - "source_addr": !!int |-
+        54620
+      "target_addr": !!int |-
+        23848
+    "translated": !!null |-
+      null
+  "5e39":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CLEAR><C_YELLOW>フラッド<C_NONE>
+      すべては 皇帝陛下の ご命令どおりに進行しております。
+
+      <C_YELLOW>皇帝<C_NONE>
+      あの老いぼれどもは どうした？
+
+      <C_YELLOW>フラッド<C_NONE>
+      拘束してありますが ･ ･ ･
+
+      <C_YELLOW>皇帝<C_NONE>
+      あまいぞ フラッド。
+      いまだに 師に未練があるとみえる。
+
+      まとめて 収容所に送るのだ。
+      この計画に 従う気になるまで 頭を
+      冷やしてやるがいい。
+
+      <C_YELLOW>フラッド<C_NONE>
+      ･ ･ ･ ･
+
+      <C_YELLOW>皇帝<C_NONE>
+      これからは ５つのすべての技を
+      お前が つかさどるのだ。
+      期待しておるぞ。
+
+      <C_YELLOW>フラッド<C_NONE>
+      ･ ･ ･ ･ ははっ。
+
+      <ASMd866><CLEAR><C_YELLOW>レイシア<C_NONE>
+      ガードたちの動きが あわただしく
+      なってきたと 思わない？
+
+      <ASMd8c5><C_YELLOW>ボザ<C_NONE>
+      ああ、皇帝は いったい 何を
+      始める気だろうな？
+
+      <ASMd8cc><CLEAR><C_YELLOW>ラウエル<C_NONE>
+      陛下、決して ご無理をなさらぬよう
+      お気をつけくだされ。
+
+      <C_YELLOW>セリオス国王<C_NONE>
+      わかっている ラウエル。<WAIT>
+      <ASMd8f8><CLEAR><C_YELLOW>ディーナ王妃<C_NONE>
+      セリオスさま ･ ･ ･
+
+      <C_YELLOW>セリオス国王<C_NONE>
+      ディーナ 心配などいらん。
+      すぐに戻る 留守を頼むぞ。<WAIT>
+      <ASMd910><CLEAR><C_YELLOW>セリオス国王<C_NONE>
+      行くぞ !!
+    "original_byte_length": !!int |-
+      776
+    "references":
+    - "source_addr": !!int |-
+        54713
+      "target_addr": !!int |-
+        24121
+    "translated": !!null |-
+      null
+"note": ""
