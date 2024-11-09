@@ -300,6 +300,16 @@ def extract_menus(prog_data:typing.ByteString) -> TranslationCollection:
     trans = TranslationCollection()
 
     menu_addr_list = [ a + 0x7c00 for a in [ 0x88c, 0xc1e, 0x1b2c, 0x1be1, 0x1c90, 0x1d5d, 0x2334 ] ]
+    toggle_list = [
+        (0x1c34 + 0x7c00, 2),
+        (0x1c42 + 0x7c00, 2),
+        (0x1c50 + 0x7c00, 4),
+        (0x1c6c + 0x7c00, 2),
+        (0x1c7a + 0x7c00, 2),
+        (0x1cdc + 0x7c00, 2),
+        (0x1cea + 0x7c00, 2),
+        (0x1cfa + 0x7c00, 2)
+    ]
 
     for menu_addr in menu_addr_list:
         item_count = prog_data[menu_addr+3]
@@ -327,6 +337,28 @@ def extract_menus(prog_data:typing.ByteString) -> TranslationCollection:
         entry.original_byte_length = addr - (menu_addr + 0x4)
         entry.max_byte_length = entry.original_byte_length
         entry.is_relocatable = False
+
+    for toggle_addr, toggle_count in toggle_list:
+        entry = trans[toggle_addr - 0x7c00]
+
+        toggle_text = ""
+        addr = toggle_addr
+
+        for _ in range(toggle_count):
+            if len(toggle_text) > 0:
+                toggle_text += "\n"
+            item_bytes = b''
+            while prog_data[addr] != 0:
+                item_bytes += prog_data[addr:addr+1]
+                addr += 1
+            toggle_text += item_bytes.decode('cp932')
+            addr += 1
+
+        entry.original = toggle_text
+        entry.original_byte_length = addr - toggle_addr
+        entry.max_byte_length = entry.original_byte_length
+        entry.is_relocatable = False
+
 
     # Combat menu is just three lines with no header.
     combat_menu_entry = trans[0x19f4]

@@ -139,7 +139,7 @@ def patch_menus(patch:ips_util.Patch, menu_trans:TranslationCollection) -> None:
 
     for key in menu_trans.keys:
         entry = menu_trans[key]
-        base_addr = key if key in [0x19f4] else key + 0x4
+        base_addr = key if key in [0x19f4, 0x1c34, 0x1c42, 0x1c50, 0x1c6c, 0x1c7a, 0x1cdc, 0x1cea, 0x1cfa] else key + 0x4
 
         items = entry.text.splitlines()
         refs = MENU_ITEM_REFS[key] if key in MENU_ITEM_REFS else None

@@ -93,6 +93,64 @@
       Messages
       Save disk
       Func. keys
+  "1c34":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      14
+    "original": |-
+      ＯＦＦ
+      ＯＮ　
+    "original_byte_length": !!int |-
+      14
+    "references": []
+    "translated": "Off   \nOn    "
+  "1c42":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      14
+    "original": |-
+      ＥＰ　
+      あと　
+    "original_byte_length": !!int |-
+      14
+    "references": []
+    "translated": "EP    \nLeft  "
+  "1c50":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      28
+    "original": |-
+      速い　
+      普通　
+      遅い　
+      止まる
+    "original_byte_length": !!int |-
+      28
+    "references": []
+    "translated": "Fast  \nNormal\nSlow  \nWait  "
+  "1c6c":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      14
+    "original": "オート\nﾏﾆｭｱﾙ "
+    "original_byte_length": !!int |-
+      14
+    "references": []
+    "translated": "Auto  \nManual"
+  "1c7a":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      14
+    "original": "ｼｽﾃﾑ  \nﾕｰｻﾞｰ "
+    "original_byte_length": !!int |-
+      14
+    "references": []
+    "translated": "System\nUser  "
   "1c90":
     "is_relocatable": !!bool |-
       false
@@ -115,6 +173,38 @@
       Heal spells
       Heal items
       All members
+  "1cdc":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      14
+    "original": "ＯＮ  \nＯＦＦ"
+    "original_byte_length": !!int |-
+      14
+    "references": []
+    "translated": "On    \nOff   "
+  "1cea":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      16
+    "original": "使う  \n使わない"
+    "original_byte_length": !!int |-
+      16
+    "references": []
+    "translated": "Used  \nNot used"
+  "1cfa":
+    "is_relocatable": !!bool |-
+      false
+    "max_byte_length": !!int |-
+      14
+    "original": |-
+      同じに
+      別々に
+    "original_byte_length": !!int |-
+      14
+    "references": []
+    "translated": "Same  \nSepr. "
   "1d5d":
     "is_relocatable": !!bool |-
       false
