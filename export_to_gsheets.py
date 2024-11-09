@@ -1,3 +1,4 @@
+import argparse
 import configparser
 import gspread
 import gspread_formatting
@@ -7,12 +8,19 @@ import tqdm
 
 from trans_util import *
 
-if __name__ == '__main__':
-    yaml_paths = []
-    for path, dirs, files in os.walk("yaml"):
-        for file in files:
-            yaml_paths.append(os.path.join(path, file))
-    yaml_paths = sorted(yaml_paths)
+def main() -> None:
+    parser = argparse.ArgumentParser("import_from_gsheets", description="Import a translation from Google Sheets")
+    parser.add_argument("--file", type=str)
+    args = parser.parse_args()
+
+    if args.file is None:
+        yaml_paths = []
+        for path, dirs, files in os.walk("yaml"):
+            for file in files:
+                yaml_paths.append(os.path.join(path, file))
+        yaml_paths = sorted(yaml_paths)
+    else:
+        yaml_paths = [args.file]
 
     configfile = configparser.ConfigParser(interpolation=configparser.ExtendedInterpolation())
     configfile.read("loh2_patch.conf")
@@ -105,3 +113,7 @@ if __name__ == '__main__':
         index_data.append([link_text, worksheet_notes[worksheet_name],f"=SUMPRODUCT(--(len('{worksheet_name}'!B:B)>0))", f"=SUMPRODUCT(--(len('{worksheet_name}'!C:C)>0))", f"=D{row_index+1}/C{row_index+1}"])
 
     index_worksheet.update(index_data, value_input_option="USER_ENTERED")
+
+
+if __name__ == '__main__':
+    main()
