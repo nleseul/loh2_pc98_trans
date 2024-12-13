@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+    <head>
+        {% block head %}
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="stylesheet" href="/static/style.css"/>
+        <title>{% block title %}{% endblock %} - LOH2 trans</title>
+        {% endblock %}
+    </head>
+    <body onload="{% block onload %}{% endblock %}">
+        <div id="header">
+            {%block header %}{% endblock %}
+        </div>
+        <div id="flash-messages">
+            {% with messages = get_flashed_messages() %}
+                {% if messages %}
+                    {% for message in messages %}
+                        <p>{{ message }}</p>
+                    {% endfor %}
+                {% endif %}
+            {% endwith %}
+        </div>
+        <div id="content">
+            {% block content %}{% endblock %}
+        </div>
+    </body>
+</html>

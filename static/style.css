@@ -1,0 +1,20 @@
+.unknown_tag {
+    font-weight:bold;
+    color:red;
+}
+
+.text_green {
+    color: green;
+}
+
+.text_yellow {
+    color:darkgoldenrod;
+}
+
+.condition_toggle + label {
+    color: gray;
+}
+
+.condition_toggle_waschecked + label {
+    color:purple;
+}

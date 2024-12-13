@@ -1,0 +1,135 @@
+{% extends "base.html.jinja" %}
+{% block title %}Edit item{% endblock %}
+
+{% block head %}
+    {{ super() }}
+    <script>
+
+        pages = [];
+        pageIndex = 0;
+
+        function updateText()
+        {
+            const apiUrl = {{ url_for('render_item_text')|tojson }};
+
+            formData = new FormData();
+            formData.append("folder_key", "{{folder_key}}");
+            formData.append("file_name", "{{file_name}}");
+            formData.append("key", "{{key_str}}");
+
+            var showOriginal = document.getElementById('show_original')
+            formData.append("which_text", showOriginal != undefined && showOriginal.checked ? "original" : "translation");
+
+            var conditions = [];
+            for (var toggle of document.getElementsByClassName('condition_toggle'))
+            {
+                if (toggle.checked)
+                {
+                    var condition = toggle.id.replace("condition_", "").replace("_active", "");
+                    //console.trace(condition + " is checked");
+                    //formData.append("active_conditions", condition);
+                    conditions.push(toggle.dataset.condition);
+                }
+            }
+            formData.append("active_conditions", JSON.stringify(conditions));
+
+            fetch(apiUrl, { method: 'POST', body: formData })
+                .then(response => response.json())
+                .then(json => {
+                    var conditionsChecked = json['conditions_checked']
+
+                    pages = json['pages'];
+                    document.getElementById('max_page_number').innerHTML = pages.length;
+                    setPage(pageIndex);
+
+                    for (var toggle of document.getElementsByClassName('condition_toggle'))
+                    {
+                        var conditionNumeric = parseInt(toggle.dataset.condition, 16);
+
+                        if (conditionsChecked.includes(conditionNumeric))
+                        {
+                            toggle.classList.add("condition_toggle_waschecked");
+                        }
+                        else
+                        {
+                            toggle.classList.remove("condition_toggle_waschecked");
+                        }
+                    }
+                });
+        }
+
+        function setPage(newPageIndex)
+        {
+            var text = "";
+
+            if (newPageIndex >= 0 && newPageIndex < pages.length)
+            {
+                var text = pages[newPageIndex].replace(/\r?\n/g, '\r\n');
+
+                document.getElementById('preview_area').innerHTML = text;
+                document.getElementById('current_page_number').innerHTML = newPageIndex + 1;
+
+                pageIndex = newPageIndex;
+            }
+            else
+            {
+                document.getElementById('preview_area').innerHTML = "";
+                document.getElementById('current_page_number').innerHTML = "0";
+
+                pageIndex = 0;
+            }
+        }
+
+        function handleTranslationChanged()
+        {
+            const apiUrl = {{ url_for('update_item_text')|tojson }};
+
+            formData = new FormData();
+            formData.append("folder_key", "{{folder_key}}");
+            formData.append("file_name", "{{file_name}}");
+            formData.append("key", "{{key_str}}");
+
+            var newText = document.getElementById('translated_text').value;
+
+            formData.append("new_text", newText);
+
+            fetch(apiUrl, { method: 'POST', body: formData })
+                .then(response => updateText());
+        }
+
+        //updateText();
+    </script>
+{% endblock %}
+
+{% block header %}
+    <h1>Edit Item</h1>
+{% endblock %}
+
+{% block onload %} updateText(); {% endblock %}
+
+{% block content %}
+    <p>{{folder_key}}</p>
+    <p>{{file_name}}</p>
+    <p>{{key_str}}</p>
+    <p>prev={{prev_key}} next={{next_key}}</p>
+
+    <p id="preview_area"></p>
+    <p>Page <span id="current_page_number">0</span> of <span id="max_page_number">0</span></p> <button id="prev_page" onclick="setPage(pageIndex - 1);">Prev</button> <button id="next_page" onclick="setPage(pageIndex + 1);">Next</button>
+
+    <input type="radio" id="show_original" name="which_text" value="original" onclick="updateText();"/>
+    <label for="show_original">Original</label>
+    <input type="radio" id="show_translated" name="which_text" value="translated" onclick="updateText();" checked/>
+    <label for="show_translated">Translated</label>
+
+    <textarea id="original_text" rows="15" onscroll="document.getElementById('translated_text').scrollTop = document.getElementById('original_text').scrollTop;" readonly>{{original if original else ""}}</textarea>
+    <textarea id="translated_text" rows="15" onscroll="document.getElementById('original_text').scrollTop = document.getElementById('translated_text').scrollTop;" onchange="handleTranslationChanged();">{{translation if translation else ""}}</textarea>
+
+    <button onclick="updateText();">Foo</button>
+
+    {% if condition_list %}
+        {% for condition in condition_list %}
+            <input type="checkbox" id="condition_{{condition}}_active" class="condition_toggle" data-condition="{{condition}}"  onclick="updateText();"/>
+            <label for="condition_{{condition}}_active">{{condition}}</label>
+        {% endfor %}
+    {% endif %}
+{% endblock %}

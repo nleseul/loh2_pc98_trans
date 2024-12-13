@@ -111,7 +111,9 @@ def disassemble_event(scenario_data, base_addr, start_addr, continuation_extent_
             if len(instructions) > 0 and isinstance(instructions[-1], DS6TextInstruction):
                 instructions.append(DS6TextInstruction(addr=addr+base_addr, text=""))
 
-        if scenario_data[addr] < 0x20 or scenario_data[addr] >= 0xf0:
+        if addr < 0 or addr >= len(scenario_data):
+            break
+        elif scenario_data[addr] < 0x20 or scenario_data[addr] >= 0xf0:
             code = scenario_data[addr]
 
             if code not in EVENT_CODE_INFO:

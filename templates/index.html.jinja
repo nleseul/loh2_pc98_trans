@@ -1,0 +1,30 @@
+{% extends "base.html.jinja" %}
+{% block title %}Index{% endblock %}
+
+{% block header %}
+    <h1>Index</h1>
+{% endblock %}
+
+{% block content %}
+    {% if files %}
+        <ul>
+        {% for file in files %}
+            <li>
+                {% if file.folder_items %}
+                    {{file.display}}
+                    <ul>
+                    {% for subfile in file.folder_items %}
+                        <li>
+                            <a href="{{url_for('items', folder_key=file.folder_key, file_name=subfile.display)}}">{{subfile.display}}</a>
+                        </li>
+                    {% endfor %}
+                    </ul>
+                {% else %}
+                    <a href="{{url_for('items', file_name=file.display)}}">{{file.display}}</a>
+                {% endif%}
+            </li>
+
+        {% endfor %}
+        </ul>
+    {% endif %}
+{% endblock %}
