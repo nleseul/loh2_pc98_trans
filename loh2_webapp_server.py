@@ -29,14 +29,10 @@ def render_text_html(trans:TranslationCollection, entry_point_key:int, max_pages
             self._pages = []
             self._current_page_text = ""
 
-            #self._text = "<p>"
             self._page_line_count = 0
             self._line_char_count = 0
             self._has_active_style = False
 
-        #@property
-        #def text(self) -> str:
-        #    return self._text + ("</span>" if self._has_active_style else "") + "</p>"
         @property
         def pages(self) -> typing.Generator[str, None, None]:
             yield from self._pages
@@ -46,11 +42,6 @@ def render_text_html(trans:TranslationCollection, entry_point_key:int, max_pages
                     yield self._current_page_text + "</span>"
                 else:
                     yield self._current_page_text
-
-
-        #@property
-        #def line_count(self) -> int:
-        #    return self._line_count
 
         @property
         def page_count(self) -> int:
@@ -111,10 +102,6 @@ def render_text_html(trans:TranslationCollection, entry_point_key:int, max_pages
         for locator in locators:
             locator_to_key_and_offset[locator.addr] = (key, locator.offset)
 
-
-    #current_data = trans[entry_point_key]
-    #encoded_event, _, locators = encode_event_string(current_data.original)
-    #print(entry_point_key, locators)
     disassembled_events = disassemble_event(encoded_events[entry_point_key], entry_point_key, entry_point_key)
     instruction_index = 0
 
@@ -179,6 +166,11 @@ def render_text_html(trans:TranslationCollection, entry_point_key:int, max_pages
                 print(f"key={call_target_key:04x}, offset={call_target_offset}")
                 disassembled_events = disassemble_event(encoded_events[call_target_key], call_target_key, call_target_key+call_target_offset)
                 instruction_index = 0
+            elif code == 0x11:
+                condition = int.from_bytes(instruction.data, byteorder='little')
+                condition_was_true = condition not in active_conditions
+                conditions_checked.add(condition)
+                print(f"Checking condition {condition:04x}... was {condition_was_true} (inverted)")
             elif code == 0x12:
                 condition = int.from_bytes(instruction.data, byteorder='little')
                 condition_was_true = condition in active_conditions
@@ -188,6 +180,9 @@ def render_text_html(trans:TranslationCollection, entry_point_key:int, max_pages
                 renderer.change_text_style("text_green")
             elif code == 0x1e:
                 renderer.change_text_style("text_yellow")
+            elif code in [0x13, 0x14, 0x15, 0xf7, 0xf9]:
+                # Control codes that don't need to affect text preview rendering.
+                pass
             else:
                 renderer.change_text_style("unknown_tag")
                 renderer.add_debug_text(f"{instruction.code:02x}{':' if len(instruction.data) > 0 else ''}{instruction.data.hex()} ")
