@@ -8,8 +8,16 @@
         {% endblock %}
     </head>
     <body onload="{% block onload %}{% endblock %}">
-        <div id="header">
-            {%block header %}{% endblock %}
+        <div id="header-wrapper">
+            <div id="header">
+                <div id="header_left">
+                    {% block header_left %}{% endblock %}
+                </div>
+                <div id="header_right">
+                    {% block header_right %}{% endblock %}
+                </div>
+                {% block header %}{% endblock %}
+            </div>
         </div>
         <div id="flash-messages">
             {% with messages = get_flashed_messages() %}
@@ -20,8 +28,10 @@
                 {% endif %}
             {% endwith %}
         </div>
-        <div id="content">
-            {% block content %}{% endblock %}
+        <div id="">
+            <div id="content-wrapper">
+                {% block content %}{% endblock %}
+            </div>
         </div>
     </body>
 </html>

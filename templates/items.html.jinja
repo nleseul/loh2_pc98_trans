@@ -1,21 +1,21 @@
 {% extends "base.html.jinja" %}
-{% block title %}Items{% endblock %}
+{% block title %}Translation items - {{file_name}}{% endblock %}
 
 {% block header %}
-    <h1>Items</h1>
+    <h1>Translation items - {{file_name}}</h1>
 {% endblock %}
 
 {% block content %}
     {% if items %}
-        <table>
+        <ul>
         {% for item in items %}
-            <tr>
-                <td><a href="{{url_for('edit_item', folder_key=folder_key, file_name=file_name, key_str=item.key)}}">{{item.key}}</a></td>
-                <td>{{item.original}}</td>
-                <td>{%if item.translated %}{{item.translated}}{%endif%}</td>
-            </tr>
+            <li class="translation_item_list_item">
+                <h1 class="translation_item_title"><a href="{{url_for('edit_item', folder_key=folder_key, file_name=file_name, key_str=item.key)}}">{{item.key}}</a></h1>
+                <p class="translation_item_original">{{item.original[0]}}</p>
+                {%if item.translated %}<hr/><p class="translation_item_translated">{{item.translated[0]}}</p>{%endif%}
+            </li>
 
         {% endfor %}
-        </table>
+        </ul>
     {% endif %}
 {% endblock %}

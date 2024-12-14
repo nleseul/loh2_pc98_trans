@@ -58,26 +58,45 @@
                 });
         }
 
+        function prevPage()
+        {
+            var potentialPrevPage = pageIndex - 1;
+            if (potentialPrevPage >= 0)
+            {
+                setPage(potentialPrevPage);
+            }
+        }
+
+        function nextPage()
+        {
+            var potentialNextPage = pageIndex + 1;
+            if (potentialNextPage < pages.length)
+            {
+                setPage(potentialNextPage);
+            }
+        }
+
         function setPage(newPageIndex)
         {
             var text = "";
 
-            if (newPageIndex >= 0 && newPageIndex < pages.length)
+            var actualPageIndex = newPageIndex;
+            if (actualPageIndex < 0)
             {
-                var text = pages[newPageIndex].replace(/\r?\n/g, '\r\n');
-
-                document.getElementById('preview_area').innerHTML = text;
-                document.getElementById('current_page_number').innerHTML = newPageIndex + 1;
-
-                pageIndex = newPageIndex;
+                actualPageIndex = 0;
             }
-            else
+
+            if (actualPageIndex >= pages.length)
             {
-                document.getElementById('preview_area').innerHTML = "";
-                document.getElementById('current_page_number').innerHTML = "0";
-
-                pageIndex = 0;
+                actualPageIndex = pages.length - 1;
             }
+
+            var text = pages[actualPageIndex].replace(/\r?\n/g, '\r\n');
+
+            document.getElementById('preview_text').innerHTML = text;
+            document.getElementById('current_page_number').innerHTML = actualPageIndex + 1;
+
+            pageIndex = actualPageIndex;
         }
 
         function handleTranslationChanged()
@@ -102,34 +121,54 @@
 {% endblock %}
 
 {% block header %}
-    <h1>Edit Item</h1>
+    <h1>Edit item - {{key_str}}</h1>
+{% endblock %}
+
+{% block header_left %}
+    {% if prev_key %}
+        <a href="{{url_for('edit_item', folder_key=folder_key, file_name=file_name, key_str=prev_key)}}">{{prev_key}}</a>
+    {% endif %}
+{% endblock %}
+
+{% block header_right %}
+    {% if next_key %}
+        <a href="{{url_for('edit_item', folder_key=folder_key, file_name=file_name, key_str=next_key)}}">{{next_key}}</a>
+    {% endif %}
 {% endblock %}
 
 {% block onload %} updateText(); {% endblock %}
 
 {% block content %}
-    <p>{{folder_key}}</p>
-    <p>{{file_name}}</p>
-    <p>{{key_str}}</p>
-    <p>prev={{prev_key}} next={{next_key}}</p>
+    <div id="preview_panel">
+        <p id="page_number">Page <span id="current_page_number">0</span> of <span id="max_page_number">0</span></p>
+        <p id="preview_text"></p>
+        <button id="prev_page" onclick="prevPage();">Prev</button>
+        <button id="next_page" onclick="nextPage();">Next</button>
 
-    <p id="preview_area"></p>
-    <p>Page <span id="current_page_number">0</span> of <span id="max_page_number">0</span></p> <button id="prev_page" onclick="setPage(pageIndex - 1);">Prev</button> <button id="next_page" onclick="setPage(pageIndex + 1);">Next</button>
+        <div id="preview_text_selection">
+            <input type="radio" id="show_original" name="which_text" value="original" onclick="updateText();"/>
+            <label for="show_original">Original</label>
+            <input type="radio" id="show_translated" name="which_text" value="translated" onclick="updateText();" checked/>
+            <label for="show_translated">Translated</label>
+        </div>
 
-    <input type="radio" id="show_original" name="which_text" value="original" onclick="updateText();"/>
-    <label for="show_original">Original</label>
-    <input type="radio" id="show_translated" name="which_text" value="translated" onclick="updateText();" checked/>
-    <label for="show_translated">Translated</label>
-
-    <textarea id="original_text" rows="15" onscroll="document.getElementById('translated_text').scrollTop = document.getElementById('original_text').scrollTop;" readonly>{{original if original else ""}}</textarea>
-    <textarea id="translated_text" rows="15" onscroll="document.getElementById('original_text').scrollTop = document.getElementById('translated_text').scrollTop;" onchange="handleTranslationChanged();">{{translation if translation else ""}}</textarea>
-
-    <button onclick="updateText();">Foo</button>
-
-    {% if condition_list %}
-        {% for condition in condition_list %}
-            <input type="checkbox" id="condition_{{condition}}_active" class="condition_toggle" data-condition="{{condition}}"  onclick="updateText();"/>
-            <label for="condition_{{condition}}_active">{{condition}}</label>
-        {% endfor %}
+        {% if condition_list %}
+        <ul id="condition_list">
+            {% for condition in condition_list %}
+                <li class="condition_item">
+                    <input type="checkbox" id="condition_{{condition}}_active" class="condition_toggle" data-condition="{{condition}}"  onclick="updateText();"/>
+                    <label for="condition_{{condition}}_active">{{condition}}</label>
+                </li>
+            {% endfor %}
+        </ul>
     {% endif %}
+    </div>
+
+    <div id="text_entry_panel">
+        <textarea id="original_text" rows="15" onscroll="document.getElementById('translated_text').scrollTop = document.getElementById('original_text').scrollTop;" readonly>{{original if original else ""}}</textarea>
+        <textarea id="translated_text" rows="15" onscroll="document.getElementById('original_text').scrollTop = document.getElementById('translated_text').scrollTop;" onchange="handleTranslationChanged();">{{translation if translation else ""}}</textarea>
+    </div>
+
+
+
 {% endblock %}

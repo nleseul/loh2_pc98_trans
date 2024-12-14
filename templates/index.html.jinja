@@ -9,12 +9,12 @@
     {% if files %}
         <ul>
         {% for file in files %}
-            <li>
+            <li class="index_top_level_item">
                 {% if file.folder_items %}
                     {{file.display}}
                     <ul>
                     {% for subfile in file.folder_items %}
-                        <li>
+                        <li class="index_sub_item">
                             <a href="{{url_for('items', folder_key=file.folder_key, file_name=subfile.display)}}">{{subfile.display}}</a>
                         </li>
                     {% endfor %}
