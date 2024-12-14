@@ -169,6 +169,6 @@
         <textarea id="translated_text" rows="15" onscroll="document.getElementById('original_text').scrollTop = document.getElementById('translated_text').scrollTop;" onchange="handleTranslationChanged();">{{translation if translation else ""}}</textarea>
     </div>
 
-
+    <p><a href="{{url_for('items', folder_key=folder_key, file_name=file_name)}}">Back</a></p>
 
 {% endblock %}
