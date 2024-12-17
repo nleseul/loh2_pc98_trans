@@ -125,12 +125,14 @@ def render_text_html(trans:TranslationCollection, entry_point_key:int, max_pages
                 renderer.cancel_text_style()
             elif code == 0x05:
                 renderer.add_page_break()
-            elif code == 0x06 or code == 0x07:
+            elif code == 0x06 or code == 0x07 or code == 0x0a:
                 if len(call_stack) > 0:
                     disassembled_events, instruction_index = call_stack.pop()
 
                     if code == 0x07:
                         renderer.add_newline()
+                    elif code == 0x0a:
+                        renderer.add_page_break()
                 else:
                     break
             elif code == 0x09:
@@ -286,6 +288,52 @@ def edit_item(file_name, key_str, folder_key=None):
                                  original=current_item_info.original,
                                  translation=current_item_info.translated)
 
+
+@app.route("/search")
+@auth.login_required
+def search():
+
+    if 'search_term' in flask.request.args:
+        search_term = markupsafe.escape(flask.request.args.get('search_term'))
+        results = []
+
+        for path, dirs, files in os.walk("yaml"):
+            folder_key = path[5:] if len(path) > 5 else None
+            for file in files:
+                file_name = file[:-9] if file.endswith("BZH.yaml") else file[:-5]
+
+                trans = TranslationCollection.load(os.path.join(path, file))
+
+                for key in trans.keys:
+                    item = trans[key]
+
+                    if item.original is not None:
+                        original_index = item.original.find(search_term)
+                        if original_index >= 0:
+                            excerpt_start_index = max(original_index - 20, 0)
+                            excerpt_end_index = min(original_index + len(search_term) + 20, len(item.original))
+                            results.append({'folder_key': folder_key,
+                                            'file_name': file_name,
+                                            'key_str': f"{key:04x}",
+                                            'excerpt': markupsafe.escape(item.original[excerpt_start_index:excerpt_end_index]),
+                                            'translated': False})
+
+                    if item.translated is not None:
+                        translated_index = item.translated.find(search_term)
+                        if translated_index >= 0:
+                            excerpt_start_index = max(translated_index - 20, 0)
+                            excerpt_end_index = min(translated_index + len(search_term) + 20, len(item.translated))
+                            results.append({'folder_key': folder_key,
+                                            'file_name': file_name,
+                                            'key_str': f"{key:04x}",
+                                            'excerpt': markupsafe.escape(item.translated[excerpt_start_index:excerpt_end_index]),
+                                            'translated': True})
+
+        return flask.render_template("search.html.jinja", search_term=search_term, results=results)
+    else:
+        return flask.render_template("search.html.jinja")
+
+
 @app.route("/api/render_item_text", methods=['POST'])
 def render_item_text():
     folder_key = flask.request.form['folder_key']
@@ -337,48 +385,3 @@ def update_item_text():
     trans.save(path)
 
     return { }
-
-'''
-class Files(flask_restful.Resource):
-    def get(self):
-        scenario_filenames = sorted([file[:-8] for file in os.listdir("csv/Scenarios")])
-        combat_filenames = sorted([file[:-8] for file in os.listdir("csv/Combats")])
-        root_filenames = sorted([file[:-4] for file in os.listdir("csv") if file.endswith(".csv")])
-
-        return [
-            {'display': "Scenarios", 'folder_key': "scenarios", 'folder_items': [{'display': name} for name in scenario_filenames]},
-            {'display': "Combats", 'folder_key': "combats", 'folder_items': [{'display': name} for name in combat_filenames]}
-        ] + [{'display': name for name in root_filenames}]
-
-
-class Translations(flask_restful.Resource):
-    def get(self, folder_key, file_name):
-        path = None
-        if folder_key == "_":
-            path = f"csv/{file_name}.csv"
-        elif folder_key == "scenarios":
-            path = f"csv/Scenarios/{file_name}.BZH.csv"
-        elif folder_key == "combats":
-            path = f"csv/Combats/{file_name}.BZH.csv"
-
-        if path is None:
-            flask_restful.abort(404, message="Folder not found")
-
-        csv_data = load_csv(path)
-        if len(csv_data) == 0:
-            flask_restful.abort(404, message="File not found")
-
-        items = []
-        for key, data in csv_data.items():
-            items.append({'key': f"{key:04x}", 'original': data.original, 'translated': data.translated})
-
-        return items
-
-
-api.add_resource(Files, "/")
-api.add_resource(Translations, "/<string:folder_key>/<string:file_name>")
-
-
-if __name__ == '__main__':
-    app.run(debug=True)
-'''

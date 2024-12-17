@@ -6,6 +6,7 @@
 {% endblock %}
 
 {% block content %}
+    <p><a href="{{url_for('search')}}">Search</a></p>
     {% if files %}
         <ul>
         {% for file in files %}

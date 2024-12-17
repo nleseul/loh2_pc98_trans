@@ -1,0 +1,32 @@
+{% extends "base.html.jinja" %}
+{% block title %}Search{% endblock %}
+
+{% block header %}
+    <h1>Search</h1>
+{% endblock %}
+
+{% block content %}
+    <form action="{{url_for('search')}}">
+        <input type="text" name="search_term" autofocus/> <input type="submit" value="Search"/>
+    </form>
+
+    {% if search_term %}
+        <p>Results for: {{search_term}}</p>
+    {% endif %}
+
+    {% if results %}
+        <ul>
+            {% for result in results %}
+                <li class="search-result-item">
+                    <div class="search-result-header-wrapper">
+                        <h1 class="search-result-file">{% if result.folder_key %}<span class="search-result-folder-key">{{result.folder_key}}/</span>{% endif %}<span class="search-result-file-name">{{result.file_name}}</span></h1>
+                        <h2 class="search-result-key"><a href="{{url_for('edit_item', folder_key=result.folder_key, file_name=result.file_name, key_str=result.key_str)}}">{{result.key_str}}</a></h2>
+                    </div>
+                    <p class="search-result-extract">{{result.excerpt}}</p>
+                </li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+
+    <p><a href="{{url_for('index')}}">Back</a></p>
+{% endblock %}
