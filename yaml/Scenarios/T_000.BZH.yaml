@@ -139,7 +139,7 @@
       "target_addr": !!int |-
         24847
     "translated": |-
-      <CALL6b03><SET0003><CALL6b15>Your Highness will be 16 soon.
+      <CALL6b03><SET0003>Your Highness will be 16 soon.
       And, when you turn 16...
 
       <CH0>
@@ -163,14 +163,12 @@
       To see Father?!
 
       <CALL6b03>Exactly. Your Highness has been
-      summoned by King Selios. Let's not
-      keep him waiting.
+      summoned by King Selios. Let's notkeep him waiting.
 
       <CH0>
       You mean you're going too?
 
-      <CALL6b03>Is that surprising? Warp Wings are
-      very convenient nowadays.
+      <CALL6b03>Is that surprising? Warp Wings arevery convenient nowadays.
 
       <C_GREEN>Rauel uses a Warp Wing.<C_NONE>
   "6364":
@@ -194,8 +192,13 @@
         55100
       "target_addr": !!int |-
         25444
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Weapon merchant<C_NONE>
+      Welcome, Prince <CALL6b15>.
+      With the world is at peace, there
+      isn't any demand for weapons.
+
+      I can't do any business like this.I wonder if I should open a bakerynext.
   "6411":
     "is_relocatable": !!bool |-
       true
@@ -306,8 +309,31 @@
         54951
       "target_addr": !!int |-
         25840
-    "translated": !!null |-
-      null
+    "translated": |-
+      <CALL6afc>Please wait, your Highness.
+      <IF0403><JUMP6694>
+
+      <Xf9000202><Xf7><IF0001><JUMP6636><SET0001>We were instructed by Rauel to notlet you leave the town.
+
+      <CH0>
+      Couldn't you just not say anythingand let me out, just for a little
+      while?
+
+      <CALL6afc>It wouldn't be right, whether we
+      said anything or not.
+
+      Incidentally, did your Highness
+      already finish with today's
+      studies? We heard from Rauel that
+      you would be studying all day.<END>
+      <LOC6636><CH0>
+      Old Rauel will never know if you
+      don't tell him! Come on, just for
+      a little while?
+
+      <SET0403><CALL6afc>Your Highness.
+      <LOC6694>You should be back at the manor,
+      not loitering around here.
   "66b9":
     "is_relocatable": !!bool |-
       true
@@ -332,8 +358,18 @@
         55079
       "target_addr": !!int |-
         26297
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Man<C_NONE>
+      Oh, hello, your Highness.
+      Don't mention this to Rauel,
+      but, just between us...
+
+      I've heard that slime-chasing
+      really is an effective form of
+      exercise.
+
+      Even if old Rauel thinks it's
+      a waste of time.
   "6789":
     "is_relocatable": !!bool |-
       true
@@ -351,8 +387,10 @@
         55088
       "target_addr": !!int |-
         26505
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Man<C_NONE>
+      Everything in my house got smashedup by the earthquake. It's been a
+      bother getting it all clean.
   "67e0":
     "is_relocatable": !!bool |-
       true
@@ -369,8 +407,9 @@
         54960
       "target_addr": !!int |-
         26592
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Woman<C_NONE>
+      How do you do, your Highness?
   "6816":
     "is_relocatable": !!bool |-
       true
@@ -387,8 +426,10 @@
         54969
       "target_addr": !!int |-
         26646
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Child<C_NONE>
+      Your Highness!
+      Are we going slime-chasing again?
   "6851":
     "is_relocatable": !!bool |-
       true
@@ -423,8 +464,31 @@
         54978
       "target_addr": !!int |-
         26705
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Parker<C_NONE>
+      <IF0002><JUMP698b>Ah, yer Highness!!
+      Don't go a-trompin' through here!
+      I just now got tha weedin' done!<IF_NOT0001><JUMP698a>
+
+      <CH0>
+      Oh! I'm sorry!
+      But, Parker... did you finish
+      that other thing yet?
+
+      <C_YELLOW>Parker<C_NONE>
+      Yup, just got 'er done this
+      mornin'.
+
+      <CH0>
+      Really?!
+      In that case, take me there!
+      Quick!
+
+      <C_YELLOW>Parker<C_NONE>
+      Sure thing, yer Highness.
+      Right this-a way.<SET0400><SET0002><ASMd912><LOC698a><END>
+      <LOC698b>Yer Highness!!
+      Run! Quick!<ASMd92a>
   "69b4":
     "is_relocatable": !!bool |-
       true
@@ -440,8 +504,9 @@
         54987
       "target_addr": !!int |-
         27060
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Parker<C_NONE>
+      <UNSET0404>There's tha spot, yer Highness.
   "69df":
     "is_relocatable": !!bool |-
       true
@@ -469,8 +534,10 @@
         55039
       "target_addr": !!int |-
         27103
-    "translated": !!null |-
-      null
+    "translated": "<CH0>\nWas it a lot of work?\n\n<C_YELLOW>Parker<C_NONE>\nNaw,\
+      \ not at all! Looked like therewas already a hole here as someonewent an' plugged\
+      \ up. \n\nBut, yer Highness, ya'd better\nhurry, 'fore ol' Rauel comes\na-lookin'.\n\
+      \n<CH0>\nThanks, Parker!<ASMd92a>"
   "6abe":
     "is_relocatable": !!bool |-
       true
@@ -487,8 +554,10 @@
         55094
       "target_addr": !!int |-
         27326
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Tool merchant<C_NONE>
+      Hello, your Highness.
+      Going slime-chasing again?
   "6af5":
     "is_relocatable": !!bool |-
       true
