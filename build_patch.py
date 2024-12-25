@@ -13,8 +13,10 @@ class SpacePool:
         start:int
         end:int
 
-    def __init__(self):
+    def __init__(self, overflow_start:int|None = None):
         self._available_spans:list[SpacePool.Span] = []
+        self._overflow_start = overflow_start
+        self._overflow_current = self._overflow_start
 
     @property
     def total_available_space(self) -> int:
@@ -24,28 +26,50 @@ class SpacePool:
     def largest_available_space(self) -> int:
         return max([s.end - s.start + 1 for s in self._available_spans])
 
+    @property
+    def overflow_used(self) -> int:
+        if self._overflow_start is None:
+            return 0
+        elif self._overflow_current <= self._overflow_start:
+            return 0
+        else:
+            return self._overflow_current - self._overflow_start
+
     def add_space(self, start:int, end:int) -> None:
         if end < start:
             raise Exception("Start must come before end!")
 
         should_append = True
-        for span_index, span in enumerate(self._available_spans):
-            if end < span.start:
-                self._available_spans.insert(span_index, SpacePool.Span(start, end))
-                should_append = False
-                break
-            elif start >= span.start and start <= span.end:
-                print(f"    Space from {start:04x} to {end:04x} overlaps with existing space from {span.start:04x} to {span.end:04x}")
-                span.end = max(span.end, end)
-                should_append = False
-                break
-            elif start == span.end + 1:
-                span.end = end
-                should_append = False
-                break
+        #if self._overflow_current is not None and end + 1 >= self._overflow_current:
+        #    if end > self._overflow_current + 1:
+        #        print(f"    Space from {start:04x} to {end:04x} overlaps with overflow starting at {self._overflow_current:04x}")
+        #    self._overflow_current = start
+        #else:
+        if True:
+            for span_index, span in enumerate(self._available_spans):
+                if end < span.start:
+                    self._available_spans.insert(span_index, SpacePool.Span(start, end))
+                    should_append = False
+                    break
+                elif start >= span.start and start <= span.end:
+                    print(f"    Space from {start:04x} to {end:04x} overlaps with existing space from {span.start:04x} to {span.end:04x}")
+                    span.end = max(span.end, end)
+                    should_append = False
+                    break
+                elif start == span.end + 1:
+                    span.end = end
+                    should_append = False
+                    break
 
         if should_append:
             self._available_spans.append(SpacePool.Span(start, end))
+
+        self._available_spans = sorted(self._available_spans, key=lambda s: s.end)
+
+        if self._overflow_current is not None:
+            while len(self._available_spans) > 0 and self._available_spans[-1].end == self._overflow_current - 1:
+                self._overflow_current = self._available_spans[-1].start
+                self._available_spans.pop()
 
     def take_space(self, length:int, strategy:str='first') -> int:
         addr = None
@@ -72,6 +96,9 @@ class SpacePool:
             span.start += length
             if span.start > span.end:
                 del self._available_spans[best_index]
+        elif self._overflow_current is not None:
+            addr = self._overflow_current
+            self._overflow_current += length
         else:
             raise Exception(f"Unable to find {length} bytes of space! Total available: {self.total_available_space} bytes; largest available: {self.largest_available_space} bytes")
 
@@ -81,6 +108,7 @@ class SpacePool:
         print("Available space:")
         for span in self._available_spans:
             print(f"  {span.start:04x}~{span.end:04x} ({span.end - span.start + 1} bytes)")
+        print(f"  {self._overflow_current:04x}~     (Overflow)")
         print()
 
     def patch_leftover_space(self, patch:ips_util.Patch) -> None:
@@ -185,7 +213,7 @@ def make_data_file_patch(yaml_path:str, code_base_addr:int, event_base_addr:int,
 
     patch = ips_util.Patch()
 
-    space_pool = SpacePool()
+    space_pool = SpacePool(trans.end_of_file_addr - event_offset_in_buffer + event_base_addr)
 
     # Maps old address to new address
     relocations:dict[int, int] = {}
@@ -235,6 +263,9 @@ def make_data_file_patch(yaml_path:str, code_base_addr:int, event_base_addr:int,
         for reference in references:
             #print(f"Reference to {reference.addr:04x} at {new_addr + reference.offset:04x} (formerly {key + reference.offset:04x}) will need updated")
             event_references_to_relocate[new_addr + reference.offset] = reference.addr
+
+    if space_pool.overflow_used > 0:
+        print(f" WARNING: Used {space_pool.overflow_used} bytes of overflow space")
 
     for reference_addr, reference_target_addr in code_references_to_relocate.items():
         if reference_target_addr not in relocations:

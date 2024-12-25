@@ -71,6 +71,7 @@ def extract_program_events(program_data:typing.ByteString):
     explore(block_pool, code_entry_points)
 
     trans = TranslationCollection()
+    trans.end_of_file_addr = len(program_data)
     for block in block_pool.get_blocks("event"):
         entry = trans[block.start_addr]
         update_translation_from_block(entry, block)
@@ -108,6 +109,7 @@ def extract_scenario_events(scenario_data:typing.ByteString, custom_hooks:list[X
     explore(block_pool, code_entry_points)
 
     trans = TranslationCollection()
+    trans.end_of_file_addr = len(scenario_data)
     for block in block_pool.get_blocks("event"):
         entry = trans[block.start_addr]
         update_translation_from_block(entry, block)
@@ -140,6 +142,7 @@ def extract_combat_events(combat_data:typing.ByteString, monster_count:int = 4) 
     explore(block_pool, entry_points)
 
     trans = TranslationCollection()
+    trans.end_of_file_addr = len(combat_data)
     for block in block_pool.get_blocks("event"):
         entry = trans[block.start_addr]
         update_translation_from_block(entry, block)

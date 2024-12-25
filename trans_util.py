@@ -30,6 +30,7 @@ class TranslationEntry:
 class TranslationCollection:
     def __init__(self):
         self._note = ""
+        self._end_of_file_addr = None
         self._entries:dict[int, TranslationEntry] = {}
 
     def __getitem__(self, key:int) -> TranslationEntry:
@@ -50,6 +51,14 @@ class TranslationCollection:
         self._note = value
 
     @property
+    def end_of_file_addr(self) -> int:
+        return self._end_of_file_addr
+
+    @end_of_file_addr.setter
+    def end_of_file_addr(self, value:str) -> None:
+        self._end_of_file_addr = value
+
+    @property
     def keys(self) -> typing.Generator[int, None, None]:
         yield from self._entries.keys()
 
@@ -66,6 +75,7 @@ class TranslationCollection:
 
         out_dict = {
             'note': self._note,
+            'end_of_file_addr': self._end_of_file_addr,
             'entries': out_dict_entries
         }
 
@@ -79,6 +89,7 @@ class TranslationCollection:
                 yaml_in = yaml.safe_load(in_file)
 
             trans._note = yaml_in['note']
+            trans.end_of_file_addr = yaml_in['end_of_file_addr']
 
             for key_string, entry_dict in yaml_in['entries'].items():
                 key = int(key_string, base=16)

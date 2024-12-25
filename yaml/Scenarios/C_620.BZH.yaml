@@ -1,3 +1,5 @@
+"end_of_file_addr": !!int |-
+  3430
 "entries":
   "60db":
     "is_relocatable": !!bool |-
