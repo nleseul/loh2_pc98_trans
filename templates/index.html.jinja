@@ -16,12 +16,13 @@
                     <ul>
                     {% for subfile in file.folder_items %}
                         <li class="index_sub_item">
-                            <a href="{{url_for('items', folder_key=file.folder_key, file_name=subfile.display)}}">{{subfile.display}}</a>
+                            <h1><a href="{{url_for('items', folder_key=file.folder_key, file_name=subfile.display)}}">{{subfile.display}}</a></h1>
+                            {%if subfile.note %}<h2>{{subfile.note}}</h2>{%endif%}
                         </li>
                     {% endfor %}
                     </ul>
                 {% else %}
-                    <a href="{{url_for('items', file_name=file.display)}}">{{file.display}}</a>
+                    <h1><a href="{{url_for('items', file_name=file.display)}}">{{file.display}}</a></h1>
                 {% endif%}
             </li>
 

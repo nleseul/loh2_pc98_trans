@@ -198,6 +198,23 @@ def render_text_html(trans:TranslationCollection, entry_point_key:int, max_pages
     return list(renderer.pages), list(conditions_checked)
 
 
+def get_yaml_path(folder_key:str, file_name:str) -> str:
+    path = None
+    if folder_key is None:
+        path = f"yaml/{file_name}.yaml"
+    else:
+        path = f"yaml/{folder_key}/{file_name}.BZH.yaml"
+
+    return path
+
+def load_trans(folder_key:str, file_name:str) -> TranslationCollection:
+    path = get_yaml_path(folder_key, file_name)
+    return TranslationCollection.load(path)
+
+def save_trans(folder_key:str, file_name:str, trans:TranslationCollection) -> None:
+    path = get_yaml_path(folder_key, file_name)
+    trans.save(path)
+
 
 @app.route("/")
 @auth.login_required
@@ -206,10 +223,27 @@ def index():
     combat_filenames = sorted([file[:-9] for file in os.listdir("yaml/Combats")])
     root_filenames = sorted([file[:-5] for file in os.listdir("yaml") if file.endswith(".yaml")])
 
-    files = [
-        {'display': "Scenarios", 'folder_key': "Scenarios", 'folder_items': [{'display': name} for name in scenario_filenames]},
-        {'display': "Combats", 'folder_key': "Combats", 'folder_items': [{'display': name} for name in combat_filenames]}
-    ] + [{'display': name} for name in root_filenames]
+    files = []
+
+    scenarios_folder = {'display': "Scenarios", 'folder_key': "Scenarios", 'folder_items': [] }
+    for name in scenario_filenames:
+        trans = load_trans("Scenarios", name)
+        scenarios_folder['folder_items'].append({
+            'display': name,
+            'note': trans.note
+        })
+    files.append(scenarios_folder)
+
+    combats_folder = {'display': "Combats", 'folder_key': "Combats", 'folder_items': [] }
+    for name in combat_filenames:
+        trans = load_trans("Combats", name)
+        combats_folder['folder_items'].append({
+            'display': name,
+            'note': trans.note
+        })
+    files.append(combats_folder)
+
+    files += [{'display': name} for name in root_filenames]
 
     return flask.render_template("index.html.jinja", files=files)
 
@@ -218,13 +252,11 @@ def index():
 @app.route("/items/<folder_key>/<file_name>")
 @auth.login_required
 def items(file_name, folder_key=None):
-    path = None
-    if folder_key is None:
-        path = f"yaml/{file_name}.yaml"
-    else:
-        path = f"yaml/{folder_key}/{file_name}.BZH.yaml"
+    trans = load_trans(folder_key, file_name)
 
-    trans = TranslationCollection.load(path)
+    if 'new_note' in flask.request.args:
+        trans.note = flask.request.args['new_note']
+        save_trans(folder_key, file_name, trans)
 
     items = []
     for key in trans.keys:
@@ -238,23 +270,16 @@ def items(file_name, folder_key=None):
             'translated': translated_pages[0] if len(translated_pages) > 0 else None
         })
 
-    return flask.render_template("items.html.jinja", items=items, file_name=file_name, folder_key=folder_key)
+    return flask.render_template("items.html.jinja", items=items, file_name=file_name, folder_key=folder_key, note=trans.note)
 
 
 @app.route("/edit_item/<file_name>/<key_str>")
 @app.route("/edit_item/<folder_key>/<file_name>/<key_str>")
 @auth.login_required
 def edit_item(file_name, key_str, folder_key=None):
-
-    path = None
-    if folder_key is None:
-        path = f"yaml/{file_name}.yaml"
-    else:
-        path = f"yaml/{folder_key}/{file_name}.BZH.yaml"
-
     key = int(key_str, base=16)
 
-    trans = TranslationCollection.load(path)
+    trans = load_trans(folder_key, file_name)
     key_list = sorted(list(trans.keys))
 
     key_index = key_list.index(key)
@@ -368,20 +393,12 @@ def update_item_text():
     key_str = flask.request.form['key']
 
     new_text = flask.request.form['new_text']
-
     new_text = new_text.replace("\r\n", "\n")
-
-    path = None
-    if folder_key is None:
-        path = f"yaml/{file_name}.yaml"
-    else:
-        path = f"yaml/{folder_key}/{file_name}.BZH.yaml"
 
     key = int(key_str, base=16)
 
-    trans = TranslationCollection.load(path)
-
+    trans = load_trans(folder_key, file_name)
     trans[key].translated = new_text
-    trans.save(path)
+    save_trans(folder_key, file_name, trans)
 
     return { }

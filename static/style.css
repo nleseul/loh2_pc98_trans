@@ -61,6 +61,16 @@ h1 {
     border-color: #222;
 }
 
+.index_top_level_item h1 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.index_top_level_item h2 {
+    font-size: 1em;
+    margin: 0;
+}
+
 .index_sub_item {
     list-style-type: none;
     background-color: #484040;
@@ -107,7 +117,6 @@ h1 {
 
 #preview_panel {
     display: inline-grid;
-    margin: auto;
 }
 
 #page_number {

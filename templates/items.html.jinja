@@ -6,6 +6,10 @@
 {% endblock %}
 
 {% block content %}
+    <form>
+        <input type="text" name="new_note" value="{{note}}"/>
+        <input type="submit" value="Update note"/>
+    </form>
     {% if items %}
         <ul>
         {% for item in items %}
