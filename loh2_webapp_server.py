@@ -121,6 +121,8 @@ def render_text_html(trans:TranslationCollection, entry_point_key:int, max_pages
                 break
             elif code == 0x01:
                 renderer.add_newline()
+            elif code == 0x03:
+                renderer.add_newline() # Wait, includes implied newline
             elif code == 0x04:
                 renderer.cancel_text_style()
             elif code == 0x05:
@@ -135,11 +137,18 @@ def render_text_html(trans:TranslationCollection, entry_point_key:int, max_pages
                         renderer.add_page_break()
                 else:
                     break
+            elif code == 0x08:
+                renderer.add_page_break()
             elif code == 0x09:
                 character_index = int.from_bytes(instruction.data, byteorder='little')
                 character_name = ["At?las", "Landor", "Flora", "Cindy"][character_index]
                 renderer.change_text_style("text_yellow")
                 renderer.add_text(character_name)
+                renderer.cancel_text_style()
+
+            elif code == 0x0e:
+                renderer.change_text_style("text_yellow")
+                renderer.add_text("Leather Shield")
                 renderer.cancel_text_style()
 
             elif code == 0x0f:
@@ -182,7 +191,7 @@ def render_text_html(trans:TranslationCollection, entry_point_key:int, max_pages
                 renderer.change_text_style("text_green")
             elif code == 0x1e:
                 renderer.change_text_style("text_yellow")
-            elif code in [0x13, 0x14, 0x15, 0xf7, 0xf9]:
+            elif code in [0x0c, 0x13, 0x14, 0x15, 0xf0, 0xf1, 0xf7, 0xf9]:
                 # Control codes that don't need to affect text preview rendering.
                 pass
             else:
