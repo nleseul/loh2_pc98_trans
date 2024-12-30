@@ -20,7 +20,7 @@ def verify(username, password):
         return False
 
 
-def render_text_html(trans:TranslationCollection, entry_point_key:int, max_pages:int|None = None, translated:bool = True, active_conditions:list[int] = []) -> tuple[list[str], list[int]]:
+def render_text_html(trans:TranslationCollection, entry_point_key:int, max_pages:int|None = None, translated:bool = True, active_conditions:list[str] = []) -> tuple[list[str], list[str]]:
     class TextRenderer:
         def __init__(self, width:int, lines_per_page:int = 4):
             self._width = width
@@ -65,7 +65,10 @@ def render_text_html(trans:TranslationCollection, entry_point_key:int, max_pages
                 self._page_line_count += 1
                 self._line_char_count = 0
 
-        def add_page_break(self) -> None:
+        def add_page_break(self, allow_blank_page:bool = True) -> None:
+            if not allow_blank_page and len(self._current_page_text) == 0:
+                return
+
             if self._has_active_style:
                 self.cancel_text_style()
             self._pages.append(self._current_page_text)
@@ -138,7 +141,7 @@ def render_text_html(trans:TranslationCollection, entry_point_key:int, max_pages
                 else:
                     break
             elif code == 0x08:
-                renderer.add_page_break()
+                renderer.add_page_break(allow_blank_page=False)
             elif code == 0x09:
                 character_index = int.from_bytes(instruction.data, byteorder='little')
                 character_name = ["At?las", "Landor", "Flora", "Cindy"][character_index]
@@ -156,41 +159,56 @@ def render_text_html(trans:TranslationCollection, entry_point_key:int, max_pages
                     jump_target = int.from_bytes(instruction.data, byteorder='little')
                     if jump_target not in locator_to_key_and_offset:
                         raise Exception(f"Unknown jump target address {jump_target:04x}!")
-                    print(f"Jump to {jump_target:04x}")
+                    #print(f"Jump to {jump_target:04x}")
 
                     jump_target_key, jump_target_offset = locator_to_key_and_offset[jump_target]
-                    print(f"key={jump_target_key:04x}, offset={jump_target_offset}")
+                    #print(f"key={jump_target_key:04x}, offset={jump_target_offset}")
                     disassembled_events = disassemble_event(encoded_events[jump_target_key], jump_target_key, jump_target_key+jump_target_offset)
                     instruction_index = 0
-                else:
-                    print("Skipping jump due to false condition")
+                #else:
+                #    print("Skipping jump due to false condition")
                 condition_was_true = None
             elif code == 0x10:
                 call_target = int.from_bytes(instruction.data, byteorder='little')
                 if call_target not in locator_to_key_and_offset:
                     raise Exception(f"Unknown call target address {call_target:04x}!")
-                print(f"Call to {call_target:04x}")
+                #print(f"Call to {call_target:04x}")
 
                 call_stack.append((disassembled_events, instruction_index))
 
                 call_target_key, call_target_offset = locator_to_key_and_offset[call_target]
-                print(f"key={call_target_key:04x}, offset={call_target_offset}")
+                #print(f"key={call_target_key:04x}, offset={call_target_offset}")
                 disassembled_events = disassemble_event(encoded_events[call_target_key], call_target_key, call_target_key+call_target_offset)
                 instruction_index = 0
             elif code == 0x11:
-                condition = int.from_bytes(instruction.data, byteorder='little')
+                condition = instruction.data[::-1].hex()
                 condition_was_true = condition not in active_conditions
                 conditions_checked.add(condition)
-                print(f"Checking condition {condition:04x}... was {condition_was_true} (inverted)")
+                #print(f"Checking condition {condition}... was {condition_was_true} (inverted)")
             elif code == 0x12:
-                condition = int.from_bytes(instruction.data, byteorder='little')
+                condition = instruction.data[::-1].hex()
                 condition_was_true = condition in active_conditions
                 conditions_checked.add(condition)
-                print(f"Checking condition {condition:04x}... was {condition_was_true}")
+                #print(f"Checking condition {condition}... was {condition_was_true}")
             elif code == 0x1c:
                 renderer.change_text_style("text_green")
             elif code == 0x1e:
                 renderer.change_text_style("text_yellow")
+            elif code == 0xf6:
+                # I think this is probably making an asm call and checking the return
+                # value of that? Data is the address of the call.
+                condition = f"asmCheck({instruction.data[1::-1].hex()})"
+                condition_was_true = condition in active_conditions
+                conditions_checked.add(condition)
+                #print(f"Checking condition {condition}... was {condition_was_true}")
+            elif code == 0xf8:
+                # I think this is probably making an asm call and checking the return
+                # value of that? First byte is a parameter, second two bytes are the
+                # call address. Mostly used for checking if you're carrying an item.
+                condition = f"asmCheck({instruction.data[2:0:-1].hex()},{instruction.data[:1].hex()})"
+                condition_was_true = condition in active_conditions
+                conditions_checked.add(condition)
+                #print(f"Checking condition {condition}... was {condition_was_true}")
             elif code in [0x0c, 0x13, 0x14, 0x15, 0xf0, 0xf1, 0xf7, 0xf9]:
                 # Control codes that don't need to affect text preview rendering.
                 pass
@@ -306,8 +324,11 @@ def edit_item(file_name, key_str, folder_key=None):
         for instruction in disassemble_event(encoded, k, k):
             if isinstance(instruction, DS6CodeInstruction):
                 if instruction.code == 0x11 or instruction.code == 0x12:
-                    condition = int.from_bytes(instruction.data, byteorder='little')
-                    conditions.add(f"{condition:04x}")
+                    conditions.add(instruction.data[::-1].hex())
+                elif instruction.code == 0xf6:
+                    conditions.add(f"asmCheck({instruction.data[1::-1].hex()})")
+                elif instruction.code == 0xf8:
+                    conditions.add(f"asmCheck({instruction.data[2:0:-1].hex()},{instruction.data[:1].hex()})")
     condition_list = sorted(conditions)
 
     current_item_info = trans[key]
@@ -378,8 +399,7 @@ def render_item_text():
     if 'which_text' in flask.request.form and flask.request.form['which_text'] == "original":
         translated = False
 
-    active_conditions = [int(s, base=16) for s in json.loads(flask.request.form['active_conditions'])]
-    print(active_conditions)
+    active_conditions = json.loads(flask.request.form['active_conditions'])
 
     path = None
     if folder_key is None:
