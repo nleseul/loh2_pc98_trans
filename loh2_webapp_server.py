@@ -2,6 +2,7 @@ import flask
 import flask_httpauth
 import json
 import markupsafe
+import operator
 import os
 import typing
 
@@ -242,35 +243,97 @@ def save_trans(folder_key:str, file_name:str, trans:TranslationCollection) -> No
     path = get_yaml_path(folder_key, file_name)
     trans.save(path)
 
+    update_index_cache(folder_key, file_name, trans)
+
+
+def create_index_cache() -> dict:
+    index_cache = {}
+
+    for folder_key in [None, "Scenarios", "Combats"]:
+        dir_path = "yaml" if folder_key is None else f"yaml/{folder_key}"
+
+        for file in os.listdir(dir_path):
+            if not file.endswith(".yaml"):
+                continue
+
+            display_name = file[:-5]
+            if display_name.endswith(".BZH"):
+                display_name = display_name[:-4]
+
+            trans = load_trans(folder_key, display_name)
+
+            item_info = {
+                'display_name': display_name,
+                'note': trans.note
+            }
+
+            cache_key = f"{folder_key}/{display_name}" if folder_key is not None else display_name
+            index_cache[cache_key] = item_info
+
+    os.makedirs("local/webapp", exist_ok=True)
+    with open("local/webapp/index_cache.yaml", "w+") as out_file:
+        yaml.safe_dump(index_cache, out_file)
+
+    return index_cache
+
+def load_index_cache() -> dict:
+    if os.path.exists("local/webapp/index_cache.yaml"):
+        print("Using stored index cache")
+        with open("local/webapp/index_cache.yaml", "r") as in_file:
+            return yaml.safe_load(in_file)
+
+    print("Recreating index cache")
+    return create_index_cache()
+
+def update_index_cache(folder_key:str, file_name:str, trans:TranslationCollection) -> None:
+
+    print(f"Updating index cache for {folder_key}/{file_name}")
+
+    index_cache = load_index_cache()
+
+    cache_key = f"{folder_key}/{file_name}" if folder_key is not None else file_name
+
+    index_cache[cache_key] = {
+        'display_name': file_name,
+        'note': trans.note
+    }
+
+    with open("local/webapp/index_cache.yaml", "w+") as out_file:
+        yaml.safe_dump(index_cache, out_file)
+
 
 @app.route("/")
 @auth.login_required
 def index():
-    scenario_filenames = sorted([file[:-9] for file in os.listdir("yaml/Scenarios")])
-    combat_filenames = sorted([file[:-9] for file in os.listdir("yaml/Combats")])
-    root_filenames = sorted([file[:-5] for file in os.listdir("yaml") if file.endswith(".yaml")])
+
+    index_cache = load_index_cache()
+
+    folder_files = {}
+
+    for cache_key, info in index_cache.items():
+        if '/' in cache_key:
+            folder_key, file_name = cache_key.split("/")
+        else:
+            folder_key, file_name = None, cache_key
+
+        if folder_key in folder_files:
+            folder_files[folder_key].append(info)
+        else:
+            folder_files[folder_key] = [info]
 
     files = []
 
-    scenarios_folder = {'display': "Scenarios", 'folder_key': "Scenarios", 'folder_items': [] }
-    for name in scenario_filenames:
-        trans = load_trans("Scenarios", name)
-        scenarios_folder['folder_items'].append({
-            'display': name,
-            'note': trans.note
-        })
-    files.append(scenarios_folder)
+    for folder_key, folder_file_list in folder_files.items():
+        if folder_key is None:
+            files += folder_file_list
+        else:
+            files.append({
+                'display_name': folder_key,
+                'folder_key': folder_key,
+                'folder_items': sorted(folder_file_list, key=operator.itemgetter('display_name'))
+            })
 
-    combats_folder = {'display': "Combats", 'folder_key': "Combats", 'folder_items': [] }
-    for name in combat_filenames:
-        trans = load_trans("Combats", name)
-        combats_folder['folder_items'].append({
-            'display': name,
-            'note': trans.note
-        })
-    files.append(combats_folder)
-
-    files += [{'display': name} for name in root_filenames]
+    files.sort(key=lambda f: ('' if 'folder_key' not in f else f['folder_key'], f['display_name']), reverse=True)
 
     return flask.render_template("index.html.jinja", files=files)
 
