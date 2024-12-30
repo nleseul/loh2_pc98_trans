@@ -44,9 +44,7 @@
 
                     for (var toggle of document.getElementsByClassName('condition_toggle'))
                     {
-                        var conditionNumeric = parseInt(toggle.dataset.condition, 16);
-
-                        if (conditionsChecked.includes(conditionNumeric))
+                        if (conditionsChecked.includes(toggle.dataset.condition))
                         {
                             toggle.classList.add("condition_toggle_waschecked");
                         }
