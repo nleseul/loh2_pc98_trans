@@ -21,72 +21,76 @@ def verify(username, password):
         return False
 
 
-def render_text_html(trans:TranslationCollection, entry_point_key:int, max_pages:int|None = None, translated:bool = True, active_conditions:list[str] = []) -> tuple[list[str], list[str]]:
-    class TextRenderer:
-        def __init__(self, width:int, lines_per_page:int = 4):
-            self._width = width
-            self._lines_per_page = 4
+class TextRenderer:
+    def __init__(self, width:int, lines_per_page:int = 4):
+        self._width = width
+        self._lines_per_page = lines_per_page
 
-            self._pages = []
-            self._current_page_text = ""
+        self._pages = []
+        self._current_page_text = ""
 
-            self._page_line_count = 0
-            self._line_char_count = 0
-            self._has_active_style = False
+        self._page_line_count = 0
+        self._line_char_count = 0
+        self._has_active_style = False
 
-        @property
-        def pages(self) -> typing.Generator[str, None, None]:
-            yield from self._pages
+    @property
+    def pages(self) -> typing.Generator[str, None, None]:
+        yield from self._pages
 
-            if len(self._current_page_text):
-                if self._has_active_style:
-                    yield self._current_page_text + "</span>"
-                else:
-                    yield self._current_page_text
-
-        @property
-        def page_count(self) -> int:
-            return len(self._pages) + (1 if len(self._current_page_text) > 0 else 0)
-
-        def add_text(self, text:str) -> None:
-            for ch in text:
-                self._current_page_text += ch
-                self._line_char_count += len(ch.encode('cp932'))
-                if self._line_char_count >= self._width:
-                    self.add_newline()
-
-        def add_debug_text(self, text) -> None:
-            self._current_page_text += text
-
-        def add_newline(self) -> None:
-            if self._page_line_count + 1 == self._lines_per_page:
-                self.add_page_break()
+        if len(self._current_page_text):
+            if self._has_active_style:
+                yield self._current_page_text + "</span>"
             else:
-                self._current_page_text += "<br/>"
-                self._page_line_count += 1
-                self._line_char_count = 0
+                yield self._current_page_text
 
-        def add_page_break(self, allow_blank_page:bool = True) -> None:
-            if not allow_blank_page and len(self._current_page_text) == 0:
-                return
+    @property
+    def page_count(self) -> int:
+        return len(self._pages) + (1 if len(self._current_page_text) > 0 else 0)
 
-            if self._has_active_style:
-                self.cancel_text_style()
-            self._pages.append(self._current_page_text)
+    def add_text(self, text:str) -> None:
+        for ch in text:
+            if ch == " ":
+                self._current_page_text += "&nbsp;"
+            else:
+                self._current_page_text += ch
+            self._line_char_count += len(ch.encode('cp932'))
+            if self._line_char_count >= self._width:
+                self.add_newline()
 
-            self._current_page_text = ""
-            self._page_line_count = 0
+    def add_debug_text(self, text) -> None:
+        self._current_page_text += text
+
+    def add_newline(self) -> None:
+        if self._page_line_count + 1 == self._lines_per_page:
+            self.add_page_break()
+        else:
+            self._current_page_text += "<br/>"
+            self._page_line_count += 1
             self._line_char_count = 0
 
-        def change_text_style(self, style:str) -> None:
-            if self._has_active_style:
-                self.cancel_text_style()
-            self._current_page_text += f"<span class=\"{style}\">"
+    def add_page_break(self, allow_blank_page:bool = True) -> None:
+        if not allow_blank_page and len(self._current_page_text) == 0:
+            return
 
-        def cancel_text_style(self) -> None:
-            self._current_page_text += f"</span>"
-            self._has_active_style = False
+        if self._has_active_style:
+            self.cancel_text_style()
+        self._pages.append(self._current_page_text)
 
+        self._current_page_text = ""
+        self._page_line_count = 0
+        self._line_char_count = 0
+
+    def change_text_style(self, style:str) -> None:
+        if self._has_active_style:
+            self.cancel_text_style()
+        self._current_page_text += f"<span class=\"{style}\">"
+
+    def cancel_text_style(self) -> None:
+        self._current_page_text += f"</span>"
+        self._has_active_style = False
+
+
+def render_text_html(trans:TranslationCollection, entry_point_key:int, max_pages:int|None = None, translated:bool = True, active_conditions:list[str] = []) -> tuple[list[str], list[str]]:
     renderer = TextRenderer(34, 4)
 
     locator_to_key_and_offset = {}
@@ -233,6 +237,60 @@ def render_opening_text_html(text:str) -> str:
         return [page_text.replace("\n", "<br/>").replace(" ", "&nbsp;") for page_text in text.split("<PAGE>\n")]
 
 
+def render_ending_text_html(text:str, is_end_credits:bool = False) -> str:
+
+    if text is None:
+        return []
+
+    renderer = TextRenderer(26, 10) if is_end_credits else TextRenderer(60, 2)
+
+    current_name = None
+
+    while len(text) > 0:
+        if text.startswith("<NAME>"):
+            text = text[6:]
+            name = ""
+            while len(name.encode('cp932')) < 8:
+                name += text[:1]
+                text = text[1:]
+
+            renderer.add_text(name + "  ")
+
+            current_name = name
+
+            text = text[8:]
+        elif text.startswith("<PAUSE>"):
+            text = text[7:]
+        elif text.startswith("<PAGE>\n"):
+            renderer.add_page_break(allow_blank_page=False)
+            if current_name is not None:
+                renderer.add_text("          ")
+            text = text[7:]
+        elif text.startswith("<PAGE_PAUSE>\n"):
+            renderer.add_page_break(allow_blank_page=False)
+            if current_name is not None:
+                renderer.add_text("          ")
+            text = text[13:]
+        elif text.startswith("<PAGE_FULL>\n"):
+            renderer.add_page_break(allow_blank_page=False)
+            current_name = None
+            text = text[12:]
+        elif text.startswith("<CHANGE_FREYA_GRAPHIC>"):
+            text = text[22:]
+        elif text.startswith("<STAFF_ROLL_MARKER>"):
+            text = text[19:]
+        elif text.startswith("\n"):
+            renderer.add_newline()
+            if current_name is not None:
+                renderer.add_text("          ")
+            text = text[1:]
+        else:
+            renderer.add_text(text[:1])
+            text = text[1:]
+
+    return list(renderer.pages)
+
+
 def get_yaml_path(folder_key:str, file_name:str) -> str:
     path = None
     if folder_key is None:
@@ -361,6 +419,9 @@ def items(file_name, folder_key=None):
         if file_name == "Opening":
             original_pages = render_opening_text_html(trans[key].original)
             translated_pages = render_opening_text_html(trans[key].translated)
+        elif file_name == "Ending":
+            original_pages = render_ending_text_html(trans[key].original)
+            translated_pages = render_ending_text_html(trans[key].translated)
         else:
             original_pages, _ = render_text_html(trans, key, 3, translated=False)
             translated_pages, _ = render_text_html(trans, key, 3, translated=True)
@@ -392,23 +453,29 @@ def edit_item(file_name, key_str, folder_key=None):
     next_key_str = None if next_key is None else f"{next_key:04x}"
 
     conditions = set()
-    for k in key_list:
-        item = trans[k]
-        encoded, _, _ = encode_event_string(item.original)
-        for instruction in disassemble_event(encoded, k, k):
-            if isinstance(instruction, DS6CodeInstruction):
-                if instruction.code == 0x11 or instruction.code == 0x12:
-                    conditions.add(instruction.data[::-1].hex())
-                elif instruction.code == 0xf6:
-                    conditions.add(f"asmCheck({instruction.data[1::-1].hex()})")
-                elif instruction.code == 0xf8:
-                    conditions.add(f"asmCheck({instruction.data[2:0:-1].hex()},{instruction.data[:1].hex()})")
+    if file_name != "Opening" and file_name != "Ending":
+        for k in key_list:
+            item = trans[k]
+            encoded, _, _ = encode_event_string(item.original)
+            for instruction in disassemble_event(encoded, k, k):
+                if isinstance(instruction, DS6CodeInstruction):
+                    if instruction.code == 0x11 or instruction.code == 0x12:
+                        conditions.add(instruction.data[::-1].hex())
+                    elif instruction.code == 0xf6:
+                        conditions.add(f"asmCheck({instruction.data[1::-1].hex()})")
+                    elif instruction.code == 0xf8:
+                        conditions.add(f"asmCheck({instruction.data[2:0:-1].hex()},{instruction.data[:1].hex()})")
     condition_list = sorted(conditions)
 
     current_item_info = trans[key]
 
     if file_name == "Opening":
         window_width, window_height = 62, 9
+    elif file_name == "Ending":
+        if key == 0x2b76:
+            window_width, window_height = 26, 10
+        else:
+            window_width, window_height = 62, 2
     else:
         window_width, window_height = 34, 4
 
@@ -494,7 +561,9 @@ def render_item_text():
 
     if file_name == "Opening":
         pages = render_opening_text_html(trans[key].translated if translated else trans[key].original)
-        print(pages)
+        conditions_checked = []
+    elif file_name == "Ending":
+        pages = render_ending_text_html(trans[key].translated if translated else trans[key].original, key == 0x2b76)
         conditions_checked = []
     else:
         pages, conditions_checked = render_text_html(trans, key, translated=translated, active_conditions=active_conditions)
