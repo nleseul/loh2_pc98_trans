@@ -138,8 +138,7 @@ h1 {
     border-width: 1pt;
     border-color: #222;
     font-family: monospace;
-    width: 25em;
-    height: 6em;
+    white-space: nowrap;
 }
 
 #prev_page {
@@ -192,6 +191,11 @@ h1 {
 
 #translated_text {
     grid-column: 2;
+}
+
+#text_measurement {
+    font-family: monospace;
+    display: none;
 }
 
 .unknown_tag {

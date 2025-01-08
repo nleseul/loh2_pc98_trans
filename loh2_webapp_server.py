@@ -226,6 +226,13 @@ def render_text_html(trans:TranslationCollection, entry_point_key:int, max_pages
     return list(renderer.pages), list(conditions_checked)
 
 
+def render_opening_text_html(text:str) -> str:
+    if text is None or len(text) == 0:
+        return []
+    else:
+        return [page_text.replace("\n", "<br/>").replace(" ", "&nbsp;") for page_text in text.split("<PAGE>\n")]
+
+
 def get_yaml_path(folder_key:str, file_name:str) -> str:
     path = None
     if folder_key is None:
@@ -351,13 +358,17 @@ def items(file_name, folder_key=None):
     items = []
     for key in trans.keys:
 
-        original_pages = render_text_html(trans, key, 3, translated=False)
-        translated_pages = render_text_html(trans, key, 3, translated=True)
+        if file_name == "Opening":
+            original_pages = render_opening_text_html(trans[key].original)
+            translated_pages = render_opening_text_html(trans[key].translated)
+        else:
+            original_pages, _ = render_text_html(trans, key, 3, translated=False)
+            translated_pages, _ = render_text_html(trans, key, 3, translated=True)
 
         items.append({
             'key': f"{key:04x}",
-            'original': original_pages[0] if len(original_pages) > 0 else None,
-            'translated': translated_pages[0] if len(translated_pages) > 0 else None
+            'original': original_pages if len(original_pages) > 0 else None,
+            'translated': translated_pages if len(translated_pages) > 0 else None
         })
 
     return flask.render_template("items.html.jinja", items=items, file_name=file_name, folder_key=folder_key, note=trans.note)
@@ -396,10 +407,17 @@ def edit_item(file_name, key_str, folder_key=None):
 
     current_item_info = trans[key]
 
+    if file_name == "Opening":
+        window_width, window_height = 62, 9
+    else:
+        window_width, window_height = 34, 4
+
     return flask.render_template("edit_item.html.jinja",
                                  file_name=file_name,
                                  folder_key=folder_key,
                                  key_str=key_str,
+                                 window_width=window_width,
+                                 window_height=window_height,
                                  condition_list=condition_list,
                                  prev_key=prev_key_str,
                                  next_key=next_key_str,
@@ -454,7 +472,7 @@ def search():
 
 @app.route("/api/render_item_text", methods=['POST'])
 def render_item_text():
-    folder_key = flask.request.form['folder_key']
+    folder_key = flask.request.form['folder_key'] if 'folder_key' in flask.request.form else None
     file_name = flask.request.form['file_name']
     key_str = flask.request.form['key']
 
@@ -474,13 +492,18 @@ def render_item_text():
 
     trans = TranslationCollection.load(path)
 
-    pages, conditions_checked = render_text_html(trans, key, translated=translated, active_conditions=active_conditions)
+    if file_name == "Opening":
+        pages = render_opening_text_html(trans[key].translated if translated else trans[key].original)
+        print(pages)
+        conditions_checked = []
+    else:
+        pages, conditions_checked = render_text_html(trans, key, translated=translated, active_conditions=active_conditions)
 
     return { 'pages': pages, 'conditions_checked': conditions_checked }
 
 @app.route("/api/update_item_text", methods=['POST'])
 def update_item_text():
-    folder_key = flask.request.form['folder_key']
+    folder_key = flask.request.form['folder_key'] if 'folder_key' in flask.request.form else None
     file_name = flask.request.form['file_name']
     key_str = flask.request.form['key']
 
