@@ -63,6 +63,8 @@ class TranslationCollection:
         yield from self._entries.keys()
 
     def import_translations(self, other:'TranslationCollection') -> None:
+        self._note = other.note
+
         for key in self._entries.keys():
             if key in other._entries:
                 self._entries[key].translated = other._entries[key].translated
