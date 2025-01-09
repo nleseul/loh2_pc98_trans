@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'Migu 2M';
+    src: url('migu-2m-regular.woff2') format('woff2'),
+        url('migu-2m-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 body {
     background-color: #787070;
     color: #eee;
@@ -14,6 +24,11 @@ a:visited {
 
 h1 {
     text-align: center;
+}
+
+textarea {
+    font-family: "Migu 2M", monospace;
+    font-size: 10pt;
 }
 
 #header-wrapper {
@@ -112,7 +127,7 @@ h1 {
 
 .translation_item_list_item p {
     margin: 4pt;
-    font-family: monospace;
+    font-family: "Migu 2M", monospace;
 }
 
 #preview_panel {
@@ -137,7 +152,7 @@ h1 {
     border-style: groove;
     border-width: 1pt;
     border-color: #222;
-    font-family: monospace;
+    font-family: "Migu 2M", monospace;
     white-space: nowrap;
 }
 
@@ -194,7 +209,7 @@ h1 {
 }
 
 #text_measurement {
-    font-family: monospace;
+    font-family: "Migu 2M", monospace;
     display: none;
 }
 
@@ -203,8 +218,12 @@ h1 {
     color:darkred;
 }
 
+.text_red {
+    color: red;
+}
+
 .text_green {
-    color: green;
+    color: lightgreen;
 }
 
 .text_yellow {
@@ -239,7 +258,7 @@ h1 {
 }
 
 .search-result-key {
-    .font-size: 18pt;
+    font-size: 18pt;
 }
 
 .search-result-file {
@@ -253,6 +272,6 @@ h1 {
 }
 
 .search-result-extract {
-    font-family: monospace;
+    font-family: "Migu 2M", monospace;
     padding: 4pt;
 }

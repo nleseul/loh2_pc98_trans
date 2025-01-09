@@ -195,6 +195,8 @@ def render_text_html(trans:TranslationCollection, entry_point_key:int, max_pages
                 condition_was_true = condition in active_conditions
                 conditions_checked.add(condition)
                 #print(f"Checking condition {condition}... was {condition_was_true}")
+            elif code == 0x1a:
+                renderer.change_text_style("text_red")
             elif code == 0x1c:
                 renderer.change_text_style("text_green")
             elif code == 0x1e:
