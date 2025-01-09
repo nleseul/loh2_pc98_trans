@@ -149,10 +149,19 @@ def render_text_html(trans:TranslationCollection, entry_point_key:int, max_pages
                 renderer.add_page_break(allow_blank_page=False)
             elif code == 0x09:
                 character_index = int.from_bytes(instruction.data, byteorder='little')
-                character_name = ["At?las", "Landor", "Flora", "Cindy"][character_index]
+                if translated:
+                    character_name = ["At?las", "Landor", "Flora", "Cindy"][character_index]
+                else:
+                    character_name = ["アトラス", "ランドー", "フローラ", "シンディ"][character_index]
                 renderer.change_text_style("text_yellow")
                 renderer.add_text(character_name)
                 renderer.cancel_text_style()
+
+            elif code == 0x0b:
+                renderer.change_text_style("text_yellow")
+                renderer.add_text("Landor" if translated else "ランドー")
+                renderer.cancel_text_style()
+                renderer.add_text("'s party" if translated else "たち")
 
             elif code == 0x0e:
                 renderer.change_text_style("text_yellow")
@@ -174,17 +183,19 @@ def render_text_html(trans:TranslationCollection, entry_point_key:int, max_pages
                 #    print("Skipping jump due to false condition")
                 condition_was_true = None
             elif code == 0x10:
-                call_target = int.from_bytes(instruction.data, byteorder='little')
-                if call_target not in locator_to_key_and_offset:
-                    raise Exception(f"Unknown call target address {call_target:04x}!")
-                #print(f"Call to {call_target:04x}")
+                if condition_was_true is None or condition_was_true:
+                    call_target = int.from_bytes(instruction.data, byteorder='little')
+                    if call_target not in locator_to_key_and_offset:
+                        raise Exception(f"Unknown call target address {call_target:04x}!")
+                    #print(f"Call to {call_target:04x}")
 
-                call_stack.append((disassembled_events, instruction_index))
+                    call_stack.append((disassembled_events, instruction_index))
 
-                call_target_key, call_target_offset = locator_to_key_and_offset[call_target]
-                #print(f"key={call_target_key:04x}, offset={call_target_offset}")
-                disassembled_events = disassemble_event(encoded_events[call_target_key], call_target_key, call_target_key+call_target_offset)
-                instruction_index = 0
+                    call_target_key, call_target_offset = locator_to_key_and_offset[call_target]
+                    #print(f"key={call_target_key:04x}, offset={call_target_offset}")
+                    disassembled_events = disassemble_event(encoded_events[call_target_key], call_target_key, call_target_key+call_target_offset)
+                    instruction_index = 0
+                condition_was_true = None
             elif code == 0x11:
                 condition = instruction.data[::-1].hex()
                 condition_was_true = condition not in active_conditions
