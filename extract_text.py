@@ -156,24 +156,29 @@ def extract_combat_events(combat_data:typing.ByteString, monster_count:int = 4) 
 def extract_opening_text(opening_data:typing.ByteString) -> TranslationCollection:
     trans = TranslationCollection()
 
-    addr = 0x3dc2
+    start_addr = 0x3dc2
+    addr = start_addr
+    page_count = 5
 
-    for text_index in range(5):
-        text = ""
-        while True:
-            if opening_data[addr] == 0xff:
-                text += "<PAGE>\n"
-                addr += 1
+    text = ""
+    while True:
+        if opening_data[addr] == 0xff:
+            text += "<PAGE>\n"
+            addr += 1
+            page_count -= 1
+            if page_count == 0:
                 break
-            elif opening_data[addr] == 0:
-                text += "\n"
-                addr += 1
-            else:
-                ch, addr = read_sjis_char(opening_data, addr)
-                text += ch
+        elif opening_data[addr] == 0:
+            text += "\n"
+            addr += 1
+        else:
+            ch, addr = read_sjis_char(opening_data, addr)
+            text += ch
 
-
-        trans[text_index].original = text
+    entry = trans[0x3dc2]
+    entry.original = text
+    entry.is_relocatable = False
+    entry.original_byte_length = addr - start_addr
 
     return trans
 

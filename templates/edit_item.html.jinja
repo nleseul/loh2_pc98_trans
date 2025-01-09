@@ -8,17 +8,55 @@
         pages = [];
         pageIndex = 0;
 
+        function setPreviewSize(columns, rows, translated)
+        {
+            var textMeasurement = document.getElementById('text_measurement');
+            var previewText = document.getElementById('preview_text');
+
+            var charWidth = textMeasurement.offsetWidth / 10.0;
+            var charHeight = textMeasurement.offsetHeight / 10.0;
+
+            textMeasurement.style.display = "inline-block";
+            if (true == translated)
+            {
+                textMeasurement.innerHTML = "WWWWWWWWWW<br/>WWWWWWWWWW<br/>WWWWWWWWWW<br/>WWWWWWWWWW<br/>WWWWWWWWWW";
+
+                var charWidth = textMeasurement.offsetWidth / 10.0;
+                var charHeight = textMeasurement.offsetHeight / 5.0;
+                previewText.style.width = (charWidth * columns).toString() + "px";
+                previewText.style.height = (charHeight * rows).toString() + "px";
+            }
+            else
+            {
+                textMeasurement.innerHTML = "ーーーーー<br/>ーーーーー<br/>ーーーーー<br/>ーーーーー<br/>ーーーーー";
+
+                var charWidth = textMeasurement.offsetWidth / 5.0;
+                var charHeight = textMeasurement.offsetHeight / 5.0;
+                previewText.style.width = (charWidth * columns / 2).toString() + "px";
+                previewText.style.height = (charHeight * rows).toString() + "px";
+            }
+
+            textMeasurement.style.display = "none";
+
+            console.trace(charWidth, charHeight);
+        }
+
         function updateText()
         {
             const apiUrl = {{ url_for('render_item_text')|tojson }};
 
             formData = new FormData();
-            formData.append("folder_key", "{{folder_key}}");
+            {% if folder_key %}
+                formData.append("folder_key", "{{folder_key}}");
+            {% endif %}
             formData.append("file_name", "{{file_name}}");
             formData.append("key", "{{key_str}}");
 
             var showOriginal = document.getElementById('show_original')
-            formData.append("which_text", showOriginal != undefined && showOriginal.checked ? "original" : "translation");
+            var translated = showOriginal == undefined || !showOriginal.checked
+            formData.append("which_text", translated ? "translation" : "original");
+
+            setPreviewSize({{window_width}}, {{window_height}}, translated);
 
             var conditions = [];
             for (var toggle of document.getElementsByClassName('condition_toggle'))
@@ -26,8 +64,6 @@
                 if (toggle.checked)
                 {
                     var condition = toggle.id.replace("condition_", "").replace("_active", "");
-                    //console.trace(condition + " is checked");
-                    //formData.append("active_conditions", condition);
                     conditions.push(toggle.dataset.condition);
                 }
             }
@@ -102,7 +138,9 @@
             const apiUrl = {{ url_for('update_item_text')|tojson }};
 
             formData = new FormData();
-            formData.append("folder_key", "{{folder_key}}");
+            {% if folder_key %}
+                formData.append("folder_key", "{{folder_key}}");
+            {% endif %}
             formData.append("file_name", "{{file_name}}");
             formData.append("key", "{{key_str}}");
 
@@ -113,8 +151,6 @@
             fetch(apiUrl, { method: 'POST', body: formData })
                 .then(response => updateText());
         }
-
-        //updateText();
     </script>
 {% endblock %}
 
@@ -137,6 +173,9 @@
 {% block onload %} updateText(); {% endblock %}
 
 {% block content %}
+
+    <p id="text_measurement"/>
+
     <div id="preview_panel">
         <p id="page_number">Page <span id="current_page_number">0</span> of <span id="max_page_number">0</span></p>
         <p id="preview_text"></p>
