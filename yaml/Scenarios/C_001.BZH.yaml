@@ -34,8 +34,29 @@
         54694
       "target_addr": !!int |-
         23449
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Old man<C_NONE>
+      <IF0068><JUMP5c6d>Welcome, your Highness.
+      Originally, it was we sages who
+      taught spells to people.
+
+      But at some point, spell tomes
+      began being sold. And so, there
+      are few duties left to sages now.<END>
+      <LOC5c6d><IF_NOT001b><JUMP5cbe>Welcome, Prince At?las.
+      Please be careful not to lose
+      that Res tome.<END>
+      <LOC5cbe>Welcome, Prince At?las.<SET001b><Xf8977417><JUMP5d3f>
+      Oh, did you already purchase a
+      Res tome?
+
+      If you had only spoken to me
+      first. I could have given you
+      one free of charge...<END>
+      <LOC5d3f> Do you nothave a Res tome? That must be
+      inconvenient. Please, take this.
+
+      <Xf197><C_GREEN>Received the <C_NONE><ITEM><C_GREEN>.<SND0103><C_NONE>
   "5d9b":
     "is_relocatable": !!bool |-
       true
@@ -53,8 +74,11 @@
         54703
       "target_addr": !!int |-
         23963
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Maid<C_NONE>
+      I guess your Highness won't be
+      having many good meals on the
+      road.
   "5dea":
     "is_relocatable": !!bool |-
       true
@@ -71,8 +95,11 @@
         54712
       "target_addr": !!int |-
         24042
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Maid<C_NONE>
+      Busy, busy...
+      Oh, your Highness! What can I do
+      for you?
   "5e28":
     "is_relocatable": !!bool |-
       true
@@ -93,8 +120,13 @@
         54721
       "target_addr": !!int |-
         24104
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      <IF0400><JUMP5e6a>Take care, your Highness!<END>
+      <LOC5e6a><IF0068><JUMP5ea3>Oh, your Highness!
+      Have you already managed to travelall over the world?<END>
+      <LOC5ea3>Oh, your Highness!
+      Is his Majesty not with you?
   "5edb":
     "is_relocatable": !!bool |-
       true
@@ -116,8 +148,16 @@
         54730
       "target_addr": !!int |-
         24283
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      Hey!! Don't play in the castle!
+
+      <IF0068><JUMP5f69>I am practicing, in case I should
+      need to pretend not to know your
+      Highness in town.
+      Was that suitable?<END>
+      <LOC5f69>I-I apologize, your Highness!
+      Force of habit...
   "5fa8":
     "is_relocatable": !!bool |-
       true
@@ -134,8 +174,10 @@
         54739
       "target_addr": !!int |-
         24488
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      Did your Highness need something
+      from the treasure room?
   "5fde":
     "is_relocatable": !!bool |-
       true
@@ -162,6 +204,19 @@
         54748
       "target_addr": !!int |-
         24542
-    "translated": !!null |-
-      null
-"note": ""
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      <IF0068><JUMP6098>I've heard it said that the
+      world's strongest weapons are keptin this armory, your Highness.
+
+      The story is that they're the
+      weapons used by King Selios when
+      he saved the world 20 years ago.<END>
+      <LOC6098>Your Highness!! I saw them!
+      The strongest weapons!
+
+      Swords of Light, I think they're
+      called. I saw King Selios taking
+      them when he left.
+"note": |-
+  Rudia 1F - Prologue

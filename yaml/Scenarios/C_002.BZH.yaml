@@ -131,8 +131,132 @@
         54699
       "target_addr": !!int |-
         23569
-    "translated": !!null |-
-      null
+    "translated": |-
+      <CALL6cea><IF000e><JUMP65d3><IF0048><JUMP6421><IF0008><JUMP63e4><IF_NOT0405><JUMP619b><UNSET0405><CALL6d08>. You're nearly 16 now.
+      In our tradition, that qualifies
+      you to take the throne.
+
+      A king must be skilled in battle,
+      and wise in the ways of the world.Not just those of Farleyn. You
+      should see other lands as well.
+
+      I'm sure that other areas of
+      Isilartha have been damaged by therecent earthquake as well.
+
+      So I have decided to send letters
+      expressing our support to leaders
+      I am acquainted with in each of
+      the nations.
+
+      I would like you to greet these
+      leaders and deliver the letters,
+      and evaluate the situation in
+      the rest of the world.
+
+      But I don't think you'll be able
+      to make an honest appraisal if youtravel as a prince of Farleyn.
+
+      So you're going to be traveling
+      incognito, without telling anyone
+      about your station.
+
+      Unlike the old days, you won't
+      be in danger from monsters, so youshouldn't have any need for an
+      honor guard.
+
+      There are four letters in all.
+      To the Duchy of Wonliech, the
+      Kingdoms of Lanoura and Soldythe,
+      and the Republic of Moreston.
+
+      You'll deliver one letter to a
+      leader in each of those four.
+
+      And you'll have one other goal.
+      You know about Warp Wings, right?
+
+      They're a very useful tool you canuse to travel instantly to any
+      town you've been to at least once.
+
+      There's a licensing system now, tobe sure only responsible people
+      are allowed to have them. But I'veregistered you to take one.
+
+      You'll need to be able to travel
+      to towns around the world
+      quickly when you become king.
+
+      So as you deliver the letters,
+      visit as many towns as you can,
+      and add them to your Warp
+      destinations.
+
+      <CH0>
+      Of course, Father.
+
+      <CALL6cea>Perfect.
+      You should leave tomorrow morning.<END>
+      <LOC619b><SET0008>It's time for you to be leaving,
+      <CALL6d08>.<WAIT>
+      Rauel?
+
+      <CALL6d24>Yes, your Majesty.
+
+      <ASMd6f2>These are for you, your Highness.
+
+      <ASMd704>Equipped the <ITEM>.
+      <ASMd70c>Equipped the <ITEM>.
+      <ASMd714>Equipped the <ITEM>.<SND0103><PAGE>
+      <Xf12d><Xf164><Xf165><Xf166><Xf167><ASMd71c><UNSET0441><UNSET0464><Xf02d>Received the <ITEM>.
+      Received the 4 letters.
+      Received 3000 Gold.<SND0103><WAIT>
+      <ASMd72b><CLEAR><CH0>
+      Nobody walks around wearing old
+      relics like this these days,
+      Father.
+
+      <CALL6cea>What do you mean? I've been
+      keeping those around for a time
+      when they're needed.
+
+      However peaceful it is, heroes
+      should at least keep up
+      appearances.
+
+      <CALL6cf9>Take care of yourself, <CALL6d08>.
+      Don't do anything dangerous.
+
+      <CH0>
+      Wow, Mother's already worried?<WAIT>
+      All right, I'll be going now.<END>
+      <LOC63e4><CALL6d08>, deliver the four letters,
+      and see other parts of the world.<END>
+      <LOC6421><SET000e>んっ !?
+      こちらは ･ ･ ･ ？
+
+      <CH0>
+      あっ ごめんなさい 父上。
+      ひとりきりで 旅を しなくて ･ ･ ･
+
+      <CH1>
+      これは どうも 国王さま。
+      おれは ランドーといいます。
+
+      <CALL6632><CALL6cea>いや 怒るなんてとんでもない。
+      信頼できる仲間を 見つけることも
+      この旅の目的の ひとつなのだ。
+
+      でも ランドー殿 お願いがあります。できるかぎり <CALL6d08>の自由に
+      させるように してください。
+      それだけです。
+
+      <CH1>
+      そりゃそうですよ 国王さま。
+      おれは ただ <CALL6d08>王子の 後を
+      くっついてるだけですから。
+
+      <CALL6cea><LOC65d3>ランドー殿、かってなことを
+      言うようだが いざというときには
+      めんどうを みてやってください。
   "6632":
     "is_relocatable": !!bool |-
       true
@@ -184,8 +308,29 @@
         54761
       "target_addr": !!int |-
         26243
-    "translated": !!null |-
-      null
+    "translated": |-
+      <CALL6cf9><IF000e><JUMP6818><IF0048><JUMP66d9>Don't go anywhere too dangerous,
+      <CALL6d08>. And don't stay up too
+      late.<END>
+      <LOC66d9><SET000e>まあ <CALL6d08> そちらは？
+
+      <CH0>
+      あっ ごめんなさい 母上。
+      ひとりきりで 旅を しなくて ･ ･ ･
+
+      <CH1>
+      これは どうも 王妃さま。
+      おれは ランドーといいます。
+
+      <CALL6632><CALL6cf9>いいえ 怒るなんてとんでもない。
+
+      この旅の目的は いろいろ ありますが信頼できる仲間を 見つけることも
+      そのひとつだったのです。
+
+      ランドーさん、<CALL6d08>のことを
+      よろしく お願いします。<END>
+      <LOC6818>ランドーさんに あまり めいわくを
+      かけないように するのですよ。
   "6857":
     "is_relocatable": !!bool |-
       true
@@ -211,8 +356,20 @@
         54776
       "target_addr": !!int |-
         26711
-    "translated": !!null |-
-      null
+    "translated": |-
+      <CALL6d11><IF0028><JUMP6922><IF0009><JUMP68fa><SET0009>Oh, <CALL6d08>.
+      You have some money, right?
+
+      Don't tell your parents about
+      this.
+
+      <C_GREEN>Received 5000 Gold.<SND0103><C_NONE><ASMd74e>
+
+      <CALL6d11>Try not to waste it, okay?<END>
+      <LOC68fa>You won't waste it, will you,
+      <CALL6d08>?<END>
+      <LOC6922>Have you gathered many Warp
+      destinations, <CALL6d08>?
   "694d":
     "is_relocatable": !!bool |-
       true
@@ -229,8 +386,10 @@
         54785
       "target_addr": !!int |-
         26957
-    "translated": !!null |-
-      null
+    "translated": |-
+      <CALL6cda>I hear that <CALL6ce1> will be
+      traveling to see the world?
+      Take care!
   "69a5":
     "is_relocatable": !!bool |-
       true
@@ -248,8 +407,11 @@
         54794
       "target_addr": !!int |-
         27045
-    "translated": !!null |-
-      null
+    "translated": |-
+      <CALL6cda><IF0009><JUMP69fb>Perhaps <CALL6ce1> should pay avisit to Queen Mother Felicia
+      before departing?<END>
+      <LOC69fb>I look forward to <CALL6ce1>'s
+      return.
   "6a2d":
     "is_relocatable": !!bool |-
       true
@@ -264,8 +426,8 @@
         54803
       "target_addr": !!int |-
         27181
-    "translated": !!null |-
-      null
+    "translated": |-
+      <CALL6cda>Your Highness! Please take care inyour travels.
   "6a64":
     "is_relocatable": !!bool |-
       true
@@ -282,8 +444,9 @@
         54812
       "target_addr": !!int |-
         27236
-    "translated": !!null |-
-      null
+    "translated": |-
+      <CALL6cda>Has <CALL6ce1> ever gone slime-chasing? It's a surprisingly
+      effective workout.
   "6abe":
     "is_relocatable": !!bool |-
       true
@@ -300,8 +463,10 @@
         54821
       "target_addr": !!int |-
         27326
-    "translated": !!null |-
-      null
+    "translated": |-
+      <CALL6cda>This is your chance to travel as
+      you like, <CALL6ce1>. Please
+      enjoy it to the fullest.
   "6b0c":
     "is_relocatable": !!bool |-
       true
@@ -318,8 +483,10 @@
         54830
       "target_addr": !!int |-
         27404
-    "translated": !!null |-
-      null
+    "translated": |-
+      <CALL6cda>Rauel must be very strict.
+      Please apply yourself to your
+      studies, <CALL6ce1>.
   "6b5b":
     "is_relocatable": !!bool |-
       true
@@ -338,8 +505,13 @@
         54839
       "target_addr": !!int |-
         27483
-    "translated": !!null |-
-      null
+    "translated": |-
+      <CALL6cda>Please have a look around our own
+      kingdom first, <CALL6ce1>.
+
+      I doubt anyone will know your
+      identity once you leave the town
+      of Rudia.
   "6bc1":
     "is_relocatable": !!bool |-
       true
@@ -354,8 +526,10 @@
         54848
       "target_addr": !!int |-
         27585
-    "translated": !!null |-
-      null
+    "translated": |-
+      <CALL6cda>Even if <CALL6ce1> is free to
+      travel, please try to stay out of
+      trouble.
   "6c03":
     "is_relocatable": !!bool |-
       true
@@ -379,8 +553,18 @@
         54857
       "target_addr": !!int |-
         27651
-    "translated": !!null |-
-      null
+    "translated": |-
+      <CALL6d24><IF0008><JUMP6c64><UNSET0404>Your Majesty.
+      I have brought Prince <CALL6d08>.
+
+      <CALL6cea>Well done.
+
+      Come forward, <CALL6d08>.<END>
+      <LOC6c64>Our world is full of strange and
+      wonderful things, <CALL6ce1>.
+
+      Please use these experiences to
+      further your education.
   "6cda":
     "is_relocatable": !!bool |-
       true
@@ -391,8 +575,8 @@
     "original_byte_length": !!int |-
       7
     "references": []
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE><RET_N>
   "6ce1":
     "is_relocatable": !!bool |-
       true
@@ -403,8 +587,8 @@
     "original_byte_length": !!int |-
       9
     "references": []
-    "translated": !!null |-
-      null
+    "translated": |-
+      your Highness<RET>
   "6cea":
     "is_relocatable": !!bool |-
       true
@@ -415,8 +599,8 @@
     "original_byte_length": !!int |-
       15
     "references": []
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>King Selios<C_NONE><RET_N>
   "6cf9":
     "is_relocatable": !!bool |-
       true
@@ -427,8 +611,8 @@
     "original_byte_length": !!int |-
       15
     "references": []
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Queen Dina<C_NONE><RET_N>
   "6d08":
     "is_relocatable": !!bool |-
       true
@@ -439,8 +623,8 @@
     "original_byte_length": !!int |-
       9
     "references": []
-    "translated": !!null |-
-      null
+    "translated": |-
+      At?las<RET>
   "6d11":
     "is_relocatable": !!bool |-
       true
@@ -451,8 +635,8 @@
     "original_byte_length": !!int |-
       19
     "references": []
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Queen Mother Felicia<C_NONE><RET_N>
   "6d24":
     "is_relocatable": !!bool |-
       true
@@ -463,6 +647,7 @@
     "original_byte_length": !!int |-
       18
     "references": []
-    "translated": !!null |-
-      null
-"note": ""
+    "translated": |-
+      <C_YELLOW>Rauel, royal tutor<C_NONE><RET_N>
+"note": |-
+  Rudia 2F - Prologue

@@ -26,8 +26,20 @@
         54653
       "target_addr": !!int |-
         23698
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      <IF0068><JUMP5d62>Oh, your Highness! What is it?
+
+      The treasure chests in the
+      underground dungeon are not to be
+      touched by anyone, by order of
+      King Selios.
+
+      They contain a stockpile of arms,
+      for a time when they're needed.<END>
+      <LOC5d62>I never thought anyone would use
+      the weapons in those chests.
+      What has the world come to...?･
   "5dbf":
     "is_relocatable": !!bool |-
       true
@@ -56,8 +68,31 @@
         54662
       "target_addr": !!int |-
         23999
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      <IF0068><JUMP5f0d>I always get to thinking when I
+      make my rounds here.
+
+      We've gathered all these weapons,
+      but I wonder if we'll ever use
+      them.
+
+      I'd never criticize his Majesty,
+      of course, but I don't feel like
+      these peaceful times will ever
+      end.
+
+      So what reason would we ever have
+      to use weapons?
+      What do you think, your Highness?<END>
+      <LOC5f0d>Your Highness. I suppose the time
+      to use the weapons here has come
+      at last.
+
+      When I made my rounds here, I
+      always wondered why we needed so
+      many weapons no one was using.
+      Of course, the King knew better.
   "5fdd":
     "is_relocatable": !!bool |-
       true
@@ -75,8 +110,11 @@
         54671
       "target_addr": !!int |-
         24541
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      I was told by his Majesty not to
+      let your Highness take any
+      treasure from this room.<IF_NOT0068><CALL603d>
   "603d":
     "is_relocatable": !!bool |-
       true
@@ -90,8 +128,10 @@
     "original_byte_length": !!int |-
       69
     "references": []
-    "translated": !!null |-
-      null
+    "translated": |2-
+
+      If it were up to me, I'd offer
+      help with your journey, but...<RET>
   "6082":
     "is_relocatable": !!bool |-
       true
@@ -109,8 +149,11 @@
         54782
       "target_addr": !!int |-
         24706
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      Welcome, your Highness! Do you
+      need something from the armory?<RET>
+      <CONT>
   "60b9":
     "is_relocatable": !!bool |-
       true
@@ -125,8 +168,8 @@
         54856
       "target_addr": !!int |-
         24761
-    "translated": !!null |-
-      null
+    "translated": |-
+      <CLEAR>What shall I hold for you?<RET_N>
   "60d4":
     "is_relocatable": !!bool |-
       true
@@ -141,8 +184,8 @@
         54904
       "target_addr": !!int |-
         24788
-    "translated": !!null |-
-      null
+    "translated": |-
+      <CLEAR>What shall I fetch for you?<RET_N>
   "60ed":
     "is_relocatable": !!bool |-
       true
@@ -158,8 +201,9 @@
         54945
       "target_addr": !!int |-
         24813
-    "translated": !!null |-
-      null
+    "translated": |-
+      <CLEAR>Please come again if you ever
+      need anything.
   "6125":
     "is_relocatable": !!bool |-
       true
@@ -177,8 +221,11 @@
         54848
       "target_addr": !!int |-
         24869
-    "translated": !!null |-
-      null
+    "translated": |-
+      <CLEAR>I'm sorry, your Highness, but I
+      can't store anything else.
+
+      <RET>
   "615f":
     "is_relocatable": !!bool |-
       true
@@ -196,8 +243,11 @@
         54896
       "target_addr": !!int |-
         24927
-    "translated": !!null |-
-      null
+    "translated": |-
+      <CLEAR>I'm afraid your Highness can't
+      carry any more.
+
+      <RET>
   "619a":
     "is_relocatable": !!bool |-
       true
@@ -215,8 +265,11 @@
         54883
       "target_addr": !!int |-
         24986
-    "translated": !!null |-
-      null
+    "translated": |-
+      <CLEAR>I don't believe I'm holding
+      anything for your Highness.
+
+      <RET>
   "61d1":
     "is_relocatable": !!bool |-
       true
@@ -233,8 +286,11 @@
         54939
       "target_addr": !!int |-
         25041
-    "translated": !!null |-
-      null
+    "translated": |-
+      <CLEAR>I don't believe I'm holding
+      anything else for your Highness.
+
+      <RET>
   "6209":
     "is_relocatable": !!bool |-
       true
@@ -250,6 +306,8 @@
         54736
       "target_addr": !!int |-
         25097
-    "translated": !!null |-
-      null
-"note": ""
+    "translated": |-
+      <PARTY> opened the chest.
+      There was a <RET>
+"note": |-
+  Rudia basement - Prologue

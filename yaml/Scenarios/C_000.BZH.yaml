@@ -44,8 +44,36 @@
         54717
       "target_addr": !!int |-
         23292
-    "translated": !!null |-
-      null
+    "translated": |-
+      <IF0406><JUMP5b8c><C_YELLOW>Rauel, royal tutor<C_NONE>
+      <IF0405><JUMP5b33><UNSET0404>How was that, your Highness?<END>
+      <LOC5b33><UNSET0405>I have brought Prince At?las.
+
+      <C_YELLOW>Soldier<C_NONE>
+      Thank you, Rauel.
+      And welcome.<END>
+      <LOC5b8c><UNSET0406><CH0>
+      Rauel?!
+      How did you get here already?
+
+      <C_YELLOW>Rauel, royal tutor<C_NONE>
+      How was that, your Highness?
+      Warp Wings are very convenient
+      nowadays.
+
+      But what about you? Why did you
+      run? I did tell you to wait.
+
+      Well, I'll let it go for today.
+      Now, we should be on our way to
+      see the king.
+
+      <CH0>
+      To see Father?!
+
+      <C_YELLOW>Rauel, royal tutor<C_NONE>
+      Exactly. Your Highness has been
+      summoned by King Selios.
   "5d12":
     "is_relocatable": !!bool |-
       true
@@ -65,6 +93,12 @@
         54671
       "target_addr": !!int |-
         23826
-    "translated": !!null |-
-      null
-"note": ""
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      Your Highness!
+      <IF0400><JUMP5d57><IF0068><JUMP5d6a>Are you on your way to Eluasta?<END>
+      <LOC5d57>Welcome back.<END>
+      <LOC5d6a>Given the danger, please try to
+      stay away from dragonseggs.
+"note": |-
+  Rudia gates - Prologue
