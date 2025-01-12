@@ -1,17 +1,19 @@
 import flask
+import flask_apscheduler
 import flask_httpauth
 import json
 import markupsafe
 import operator
 import os
+import subprocess
 import typing
 
 from ds6_event_util import *
 from trans_util import *
 
 app = flask.Flask(__name__)
-auth = flask_httpauth.HTTPBasicAuth()
 
+auth = flask_httpauth.HTTPBasicAuth()
 
 @auth.verify_password
 def verify(username, password):
@@ -20,6 +22,33 @@ def verify(username, password):
     else:
         return False
 
+scheduler = flask_apscheduler.APScheduler()
+scheduler.init_app(app)
+scheduler.start()
+
+def git_commit_interval():
+    app.logger.info("Checking for translation changes...")
+
+    result = subprocess.run(["git", "status", "--porcelain", "yaml"], stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+    if result.returncode != 0:
+        app.logger.error(f"git status returned error {result.returncode}: {result.stderr}")
+        return
+    elif len(result.stdout) == 0:
+        app.logger.info("No changes.")
+        return
+
+    result = subprocess.run(["git", "add", "yaml"], stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+    if result.returncode != 0:
+        app.logger.error(f"git add returned error {result.returncode}: {result.stderr}")
+        return
+
+    result = subprocess.run(["git", "commit", "--author=\"Webapp <>\"", "-m", "\"Automated commit of webapp changes\""], stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+    if result.returncode != 0:
+        app.logger.error(f"git commit returned error {result.returncode}: {result.stderr}")
+        return
+
+
+scheduler.add_job("git_commit", git_commit_interval, trigger='interval', hours=1)
 
 class TextRenderer:
     def __init__(self, width:int, lines_per_page:int = 4):
