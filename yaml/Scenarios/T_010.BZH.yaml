@@ -20,8 +20,13 @@
         54633
       "target_addr": !!int |-
         23343
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Man<C_NONE>
+      That earthquake was really
+      something, your Highness.
+
+      I hid under my desk right
+      away.
   "5b8f":
     "is_relocatable": !!bool |-
       true
@@ -38,8 +43,10 @@
         54642
       "target_addr": !!int |-
         23439
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Man<C_NONE>
+      Oh, when did your Highness return
+      to the castle?
   "5bc8":
     "is_relocatable": !!bool |-
       true
@@ -60,8 +67,14 @@
         54651
       "target_addr": !!int |-
         23496
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Man<C_NONE>
+      That was such a big earthquake,
+      your Highness.
+
+      And a dragonsegg appearing at
+      Crus...
+      What kind of earthquake does that?
   "5c52":
     "is_relocatable": !!bool |-
       true
@@ -80,8 +93,14 @@
         54660
       "target_addr": !!int |-
         23634
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Man<C_NONE>
+      The weapon merchant, Scott, hasn'tbeen out of bed since the
+      earthquake, your Highness.
+
+      It doesn't look like he was
+      really injured, so I wonder what
+      happened.
   "5cdc":
     "is_relocatable": !!bool |-
       true
@@ -97,8 +116,11 @@
         54669
       "target_addr": !!int |-
         23772
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Man<C_NONE>
+      A dragonsegg appeared near Crus
+      after that earthquake. Should we
+      start holding our own Dragonsfete?
   "5d48":
     "is_relocatable": !!bool |-
       true
@@ -118,8 +140,11 @@
         54678
       "target_addr": !!int |-
         23880
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Woman<C_NONE>
+      Oh, hello, your Highness!
+
+      Your 16th birthday is coming soon,right? Happy birthday!
   "5daf":
     "is_relocatable": !!bool |-
       true
@@ -139,8 +164,13 @@
         54687
       "target_addr": !!int |-
         23983
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Woman<C_NONE>
+      <IF0048><JUMP5dfc>Out for a stroll on your own
+      today, your Highness? That's a
+      rarity.<END>
+      <LOC5dfc>I'm happy to see that your
+      Highness is well.
   "5e2f":
     "is_relocatable": !!bool |-
       true
@@ -187,8 +217,11 @@
         54705
       "target_addr": !!int |-
         24481
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      Please try not to let the
+      townspeople know that you're
+      traveling<IF0048><CALL5ff9>, your Highness.
   "5ff9":
     "is_relocatable": !!bool |-
       true
@@ -199,8 +232,8 @@
     "original_byte_length": !!int |-
       5
     "references": []
-    "translated": !!null |-
-      null
+    "translated": |2-
+       alone<RET>
   "5ffe":
     "is_relocatable": !!bool |-
       true
@@ -241,8 +274,11 @@
         54729
       "target_addr": !!int |-
         24746
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Scott<C_NONE>
+      Agghhh!!<WAIT>
+      H-Help! Help!!<WAIT>
+      I'll never sell another weapon!
   "60ef":
     "is_relocatable": !!bool |-
       true
@@ -321,8 +357,11 @@
         54744
       "target_addr": !!int |-
         25751
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Bartender<C_NONE>
+      Come on in, your Highness.
+      I can't serve you a drink, but
+      please make yourself at home.
   "64fa":
     "is_relocatable": !!bool |-
       true
@@ -338,6 +377,8 @@
         54750
       "target_addr": !!int |-
         25850
-    "translated": !!null |-
-      null
-"note": ""
+    "translated": |-
+      <C_YELLOW>Tool merchant<C_NONE>
+      Out for a walk, your Highness?
+"note": |-
+  Rudia town - Prologue
