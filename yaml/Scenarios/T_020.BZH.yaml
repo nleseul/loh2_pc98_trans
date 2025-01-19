@@ -172,8 +172,42 @@
         54700
       "target_addr": !!int |-
         24730
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Ro<C_NONE>
+      <IF0010><JUMP6256><SET0010>Huh!?
+
+      Hey, shrimp. You wouldn't happen
+      to be be Prince At?las, would you?
+
+      <CH0>
+      What? O-of course not!
+      I'm definitely not a prince!
+
+      <C_YELLOW>Ro<C_NONE>
+      There's no use hiding it. I know
+      that face. You look just like
+      Selios.
+
+      <CH0>
+      What? Y-you know Father?
+
+      <C_YELLOW>Ro<C_NONE>
+      Yeah, I traveled with him once,
+      a really long time ago.
+
+      The number of times I saved that
+      kid's life...
+
+      <CH0>
+      You mean Father owes you his life?
+
+      <C_YELLOW>Ro<C_NONE>
+      Yeah, that's right.
+      I don't really like to brag about
+      it, though.<END>
+      <LOC6256>Hey, shrimp.
+      Don't go around telling people
+      what I said, all right?
   "6287":
     "is_relocatable": !!bool |-
       true
