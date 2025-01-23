@@ -257,11 +257,12 @@
         24574
     "translated": |-
       <C_YELLOW>Soldier<C_NONE>
-      <IF0400><JUMP6077>王子さま、今日は いつもと違って
-      ご自由に 町から出られます。
+      <IF0400><JUMP6077>This is a rare chance for your
+      Highness to come and go from town
+      as you like.
 
-      どうか お気をつけて よい旅を
-      なさってください。<END>
+      Please take care of yourself and
+      have a pleasant journey.<END>
       <LOC6077>Oh, your Highness!
       Have you already managed to travelall over the world?
   "60aa":
