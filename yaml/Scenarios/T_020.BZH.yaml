@@ -15,8 +15,8 @@
         54646
       "target_addr": !!int |-
         23479
-    "translated": !!null |-
-      null
+    "translated": |-
+      Bok! Bokaaw!
   "5bc3":
     "is_relocatable": !!bool |-
       true
@@ -33,8 +33,10 @@
         54655
       "target_addr": !!int |-
         23491
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Man<C_NONE>
+      That dragonsegg appeared in the
+      earthquake. It must've been buriedunderground before.
   "5c15":
     "is_relocatable": !!bool |-
       true
@@ -51,8 +53,27 @@
         54664
       "target_addr": !!int |-
         23573
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Man<C_NONE>
+      <IF0404><JUMP5c79><SET0404>Oh, hey, kid. I haven't seen you
+      around here. Where're you from?
+
+      <CH0>
+      Uhh... R-Rudia.
+
+      <C_YELLOW>Man<C_NONE>
+      Oh, I see. <LOC5c79>Isn't there a weapon
+      merchant named Scott out there
+      in Rudia?
+
+      I hear during that earthquake,
+      all the weapons he had hung on hiswalls fell right on top of him,
+      but he didn't get a single cut.
+
+      The last I saw him, he was still
+      passed out in bed from the shock.
+      He's got to be back to work by
+      now, though, right?
   "5d89":
     "is_relocatable": !!bool |-
       true
@@ -77,8 +98,18 @@
         54673
       "target_addr": !!int |-
         23945
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Man<C_NONE>
+      <IF000b><JUMP5e0b>I never thought there'd be a
+      dragonsegg buried right there.
+
+      The Goddess Freya appears inside
+      those things, right?<END>
+      <LOC5e0b><SET0012><ASMd6ec>なに ピートが 復旧作業を 手伝いに
+      来いと 言っているのか。
+      あの地震は すごかったからな ･ ･ ･
+
+      よし 村の者を連れて 手伝いに行こう。ぼうず、わざわざ すまなかったな。
   "5eb3":
     "is_relocatable": !!bool |-
       true
@@ -94,8 +125,11 @@
         54682
       "target_addr": !!int |-
         24243
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Man<C_NONE>
+      Those darn slimes've been
+      a-squishin' through these fields
+      again.
   "5edb":
     "is_relocatable": !!bool |-
       true
@@ -126,8 +160,21 @@
         54691
       "target_addr": !!int |-
         24283
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Woman<C_NONE>
+      <IF0012><JUMP6064><IF000b><JUMP600f><IF0018><JUMP5fd9>You know Alon, our village elder?
+
+      Would you believe he was an
+      advisor to King Selios years ago?
+
+      But he left the castle a few yearsago. Now he lives alone here, and sits in the sun all day long. It'shard to believe who he used to be.<END>
+      <LOC5fd9>アロンさんなら ルディアの町に
+      行くって 言ってたわよ。<END>
+      <LOC600f>まあ、ピートさんが 困ってるの？
+      それなら うらの畑にいる男の人に
+      言ってごらんなさい。<END>
+      <LOC6064>ピートさんも大変ね。
+      早く 鉱山が 復旧すればいいけど。
   "609a":
     "is_relocatable": !!bool |-
       true
@@ -225,7 +272,29 @@
         54730
       "target_addr": !!int |-
         25223
-    "translated": !!null |-
-      null
+    "translated": |-
+      <IF0011><JUMP63e0><ASMd708><SET0011><CH0>
+      Alon! You look well!
+
+      <C_YELLOW>Alon<C_NONE>
+      Oh!! Your Highness!
+      It's been such a long time.
+      And you look...
+
+      That the armor that King Selios
+      used to wear, isn't it? Such
+      a brave figure...
+
+      You look exactly like young
+      Selios. Seeing how much your
+      Highness has grown...
+
+      You've made...
+      You've made this old man so happy.<END>
+      <LOC63e0><C_YELLOW>Alon<C_NONE>
+      <IF000c><JUMP6424>Your Highness will be turning 16
+      soon...<END>
+      <LOC6424>Please take your time seeing the
+      world, your Highness. It will makeyou a fine King.
 "note": |-
   Crus - Prologue
