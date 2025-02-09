@@ -13,7 +13,12 @@
     {% if items %}
         <ul>
         {% for item in items %}
-            <li class="translation_item_list_item">
+            <li class="translation_item_list_item {%if item.translation_done%}translation_done{%elif item.translation_in_progress%}translation_in_progress{%endif%}">
+                {% if item.translation_done%}
+                    <div class="status_tag">Done</div>
+                {% elif item.translation_in_progress %}
+                    <div class="status_tag">In progress</div>
+                {% endif %}
                 <h1 class="translation_item_title"><a href="{{url_for('edit_item', folder_key=folder_key, file_name=file_name, key_str=item.key)}}">{{item.key}}</a></h1>
                 <p class="translation_item_original">{{item.original[0]}}</p>
                 {%if item.translated %}<hr/><p class="translation_item_translated">{{item.translated[0]}}</p>{%endif%}

@@ -1,9 +1,11 @@
+import configparser
 import flask
 import flask_httpauth
 import json
 import markupsafe
 import operator
 import os
+import re
 import typing
 
 from ds6_event_util import *
@@ -13,9 +15,17 @@ app = flask.Flask(__name__)
 auth = flask_httpauth.HTTPBasicAuth()
 
 
+def get_config() -> configparser.SectionProxy:
+    if 'config' not in flask.g:
+        configfile = configparser.ConfigParser(interpolation=configparser.ExtendedInterpolation())
+        configfile.read("loh2_patch.conf")
+        flask.g.config = configfile["WebApp"]
+    return flask.g.config
+
 @auth.verify_password
 def verify(username, password):
-    if password == "foo":
+    correct_password = get_config()["Password"]
+    if password == correct_password:
         return True
     else:
         return False
@@ -324,6 +334,24 @@ def save_trans(folder_key:str, file_name:str, trans:TranslationCollection) -> No
     update_index_cache(folder_key, file_name, trans)
 
 
+def text_contains_japanese(text:str) -> bool:
+    return re.search("[\u3040-\u30ff]", text) or re.search("[\u4e00-\u9faf]", text)
+
+def calculate_progress(trans:TranslationCollection) -> float:
+    total_items = 0
+    items_done = 0
+    for key in trans.keys:
+        item = trans[key]
+        total_items += 1
+        if item.translated is not None and len(item.translated) > 0:
+            if text_contains_japanese(item.translated):
+                items_done += 0.5
+            else:
+                items_done += 1
+
+    return items_done / total_items if total_items > 0 else 0
+
+
 def create_index_cache() -> dict:
     index_cache = {}
 
@@ -342,7 +370,8 @@ def create_index_cache() -> dict:
 
             item_info = {
                 'display_name': display_name,
-                'note': trans.note
+                'note': trans.note,
+                'progress': calculate_progress(trans)
             }
 
             cache_key = f"{folder_key}/{display_name}" if folder_key is not None else display_name
@@ -373,7 +402,8 @@ def update_index_cache(folder_key:str, file_name:str, trans:TranslationCollectio
 
     index_cache[cache_key] = {
         'display_name': file_name,
-        'note': trans.note
+        'note': trans.note,
+        'progress': calculate_progress(trans)
     }
 
     with open("local/webapp/index_cache.yaml", "w+") as out_file:
@@ -439,10 +469,16 @@ def items(file_name, folder_key=None):
             original_pages, _ = render_text_html(trans, key, 3, translated=False)
             translated_pages, _ = render_text_html(trans, key, 3, translated=True)
 
+        has_translation = trans[key].translated is not None and len(trans[key].translated) > 0
+        is_done = has_translation and not text_contains_japanese(trans[key].translated)
+        is_in_progress = has_translation and not is_done
+
         items.append({
             'key': f"{key:04x}",
             'original': original_pages if len(original_pages) > 0 else None,
-            'translated': translated_pages if len(translated_pages) > 0 else None
+            'translated': translated_pages if len(translated_pages) > 0 else None,
+            'translation_done': is_done,
+            'translation_in_progress': is_in_progress
         })
 
     return flask.render_template("items.html.jinja", items=items, file_name=file_name, folder_key=folder_key, note=trans.note)
