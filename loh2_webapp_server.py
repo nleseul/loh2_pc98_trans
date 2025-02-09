@@ -1,3 +1,4 @@
+import configparser
 import flask
 import flask_httpauth
 import json
@@ -14,9 +15,17 @@ app = flask.Flask(__name__)
 auth = flask_httpauth.HTTPBasicAuth()
 
 
+def get_config() -> configparser.SectionProxy:
+    if 'config' not in flask.g:
+        configfile = configparser.ConfigParser(interpolation=configparser.ExtendedInterpolation())
+        configfile.read("loh2_patch.conf")
+        flask.g.config = configfile["WebApp"]
+    return flask.g.config
+
 @auth.verify_password
 def verify(username, password):
-    if password == "foo":
+    correct_password = get_config()["Password"]
+    if password == correct_password:
         return True
     else:
         return False
