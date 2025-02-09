@@ -15,9 +15,10 @@
                     {{file.display_name}}
                     <ul>
                     {% for subfile in file.folder_items %}
-                        <li class="index_sub_item">
+                        <li class="index_sub_item {%if subfile.progress >= 1%}translation_done{%elif subfile.progress > 0%}translation_in_progress{%endif%}">
                             <h1><a href="{{url_for('items', folder_key=file.folder_key, file_name=subfile.display_name)}}">{{subfile.display_name}}</a></h1>
                             {%if subfile.note %}<h2>{{subfile.note}}</h2>{%endif%}
+                            <progress max="1" value="{{subfile.progress}}"></progress>
                         </li>
                     {% endfor %}
                     </ul>

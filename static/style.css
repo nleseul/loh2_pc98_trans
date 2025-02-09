@@ -110,6 +110,12 @@ textarea {
     overflow: hidden;
 }
 
+.translation_item_list_item .status_tag {
+    float: right;
+    font-style: italic;
+    font-size: 8pt;
+}
+
 .translation_item_list_item h1 {
     text-align: center;
     margin: 0pt;
@@ -128,6 +134,14 @@ textarea {
 .translation_item_list_item p {
     margin: 4pt;
     font-family: "Migu 2M", monospace;
+}
+
+.translation_done {
+    background-color: #506050;
+}
+
+.translation_in_progress {
+    background-color: #585850;
 }
 
 #preview_panel {
