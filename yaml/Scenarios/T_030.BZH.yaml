@@ -27,8 +27,21 @@
         54647
       "target_addr": !!int |-
         23258
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Old man<C_NONE>
+      <IF0068><JUMP5b76>There was a cave-in after that
+      earthquake the other day.
+
+      I'm glad that no injured people
+      have turned up, but I don't know
+      how long it's going to take to
+      clear it.<END>
+      <LOC5b76>鉱山の復旧が 手間取ってしまって
+      いまだに 復旧しとらんのじゃ。
+
+      モンスターが 出てきたので 武器を
+      作るための材料が たくさん必要に
+      なったというのに ･ ･ ･
   "5c0c":
     "is_relocatable": !!bool |-
       true
@@ -86,8 +99,55 @@
         54656
       "target_addr": !!int |-
         23564
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Pete<C_NONE>
+      <IF0068><JUMP5f2c><IF0012><JUMP5ee6><IF0018><JUMP5e9a><IF_NOT0010><JUMP5c33><IF0011><JUMP5c62><LOC5c33>Ugh... the earthquake caused a
+      cave-in.<END>
+      <LOC5c62><SET0018>Hey, could I ask where you're
+      from?
+
+      <CH0>
+      I'm from Rudia.
+
+      <C_YELLOW>Pete<C_NONE>
+      You don't happen to know old Alon
+      in Crus village, do you?
+
+      <CH0>
+      Oh, I do! I was just talking to
+      him.
+
+      <C_YELLOW>Pete<C_NONE>
+      Really? That's perfect!
+      Sorry to bother you with it, but Iwanted to ask Alon for help.
+
+      Like you see, it's taking a long
+      time to clear this cave-in, since
+      we just don't have the manpower
+      right now.
+
+      So I was hoping he might send a
+      few people from the village to
+      help.
+
+      My name's Pete. I'm the foreman
+      here at the mine, and Alon's an
+      old friend.
+
+      I'm sure that the villagers will
+      be willing to help if you mention
+      my name.
+
+      <CH0>
+      Of course! I'll go right away.<END>
+      <LOC5e9a>We really don't have the manpower
+      right now. Please go to Crus and
+      talk to Alon.<END>
+      <LOC5ee6>お前の おかげで クルスの者たちが
+      手伝いに 来てくれたから 助かったよ。<END>
+      <LOC5f2c>どうして こう次々と 悪いことが
+      続くんだろう 落盤の次は
+      モンスターが 出てくるとは ･ ･ ･
   "5f83":
     "is_relocatable": !!bool |-
       true
@@ -103,8 +163,10 @@
         54665
       "target_addr": !!int |-
         24451
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Man<C_NONE>
+      Everyone's busy dealing with the
+      cave-in. Stay out of their way.
   "5ff9":
     "is_relocatable": !!bool |-
       true
@@ -120,8 +182,9 @@
         54710
       "target_addr": !!int |-
         24569
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Man<C_NONE>
+      Busy, busy...
   "6012":
     "is_relocatable": !!bool |-
       true
@@ -138,8 +201,11 @@
         54715
       "target_addr": !!int |-
         24594
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Man<C_NONE>
+      We keep digging and digging, but
+      there's no end in sight.
+      Ugh, I'm so tired...
   "604a":
     "is_relocatable": !!bool |-
       true
