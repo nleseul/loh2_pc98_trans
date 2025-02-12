@@ -198,8 +198,20 @@
         54696
       "target_addr": !!int |-
         24111
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Old man<C_NONE>
+      <IF0018><JUMP5ee7>Oh, your Highness! That outfit is
+      really something!
+      But it suits you quite well.
+
+      I bet old Alon out in Crus would
+      weep with happiness if he saw sucha gallant prince.<END>
+      <LOC5ee7><IF_NOT0404><JUMP5f4b>アロン殿は 王子さまが もうすぐ
+      １６才に なられるので お祝いの
+      あいさつを してきたそうですよ。<END>
+      <LOC5f4b>アロン殿は 王子さまが クルスまで
+      会いに 行かれたことを とても
+      よろこんで おりました。
   "5fa1":
     "is_relocatable": !!bool |-
       true
