@@ -65,4 +65,36 @@
         29609
     "translated": !!null |-
       null
+  "73c4":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>は回復のヨロイを脱いだ。<RET_PAGE>
+    "original_byte_length": !!int |-
+      26
+    "references":
+    - "source_addr": !!int |-
+        61184
+      "target_addr": !!int |-
+        29636
+    "translated": !!null |-
+      null
+  "73de":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>は守りのかまえをとった。<RET_PAGE>
+    "original_byte_length": !!int |-
+      26
+    "references":
+    - "source_addr": !!int |-
+        61243
+      "target_addr": !!int |-
+        29662
+    "translated": !!null |-
+      null
 "note": ""

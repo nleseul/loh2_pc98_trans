@@ -65,6 +65,22 @@
         29885
     "translated": !!null |-
       null
+  "74ce":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>は潮をまねいた。<RET_PAGE>
+    "original_byte_length": !!int |-
+      18
+    "references":
+    - "source_addr": !!int |-
+        61145
+      "target_addr": !!int |-
+        29902
+    "translated": !!null |-
+      null
   "74e0":
     "is_relocatable": !!bool |-
       true
@@ -79,6 +95,26 @@
         61536
       "target_addr": !!int |-
         29920
+    - "source_addr": !!int |-
+        61206
+      "target_addr": !!int |-
+        29920
+    "translated": !!null |-
+      null
+  "74f2":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      あがった。<RET_PAGE>
+    "original_byte_length": !!int |-
+      11
+    "references":
+    - "source_addr": !!int |-
+        61212
+      "target_addr": !!int |-
+        29938
     "translated": !!null |-
       null
   "74fd":

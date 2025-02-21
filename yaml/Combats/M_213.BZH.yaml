@@ -65,6 +65,22 @@
         29568
     "translated": !!null |-
       null
+  "73a0":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>のむちから稲妻がほとばしった!!<RET_N>
+    "original_byte_length": !!int |-
+      32
+    "references":
+    - "source_addr": !!int |-
+        61090
+      "target_addr": !!int |-
+        29600
+    "translated": !!null |-
+      null
   "73c0":
     "is_relocatable": !!bool |-
       true

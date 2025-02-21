@@ -65,6 +65,39 @@
         29708
     "translated": !!null |-
       null
+  "7425":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>は怪しげな技を
+      披露した。<RET_N>
+    "original_byte_length": !!int |-
+      27
+    "references":
+    - "source_addr": !!int |-
+        61159
+      "target_addr": !!int |-
+        29733
+    "translated": !!null |-
+      null
+  "7440":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>は毒ガスを出した。<RET_PAGE>
+    "original_byte_length": !!int |-
+      20
+    "references":
+    - "source_addr": !!int |-
+        61217
+      "target_addr": !!int |-
+        29760
+    "translated": !!null |-
+      null
   "7454":
     "is_relocatable": !!bool |-
       true

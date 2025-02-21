@@ -65,4 +65,36 @@
         29900
     "translated": !!null |-
       null
+  "74e5":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>のハンマーアックスが灼熱の斧になった。<RET_N>
+    "original_byte_length": !!int |-
+      40
+    "references":
+    - "source_addr": !!int |-
+        61190
+      "target_addr": !!int |-
+        29925
+    "translated": !!null |-
+      null
+  "750d":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>のまわりに熱風が起こった !!<RET_N>
+    "original_byte_length": !!int |-
+      29
+    "references":
+    - "source_addr": !!int |-
+        61285
+      "target_addr": !!int |-
+        29965
+    "translated": !!null |-
+      null
 "note": ""

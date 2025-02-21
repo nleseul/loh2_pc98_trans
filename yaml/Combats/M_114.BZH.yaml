@@ -65,4 +65,36 @@
         29436
     "translated": !!null |-
       null
+  "7313":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      は 仲間を呼んだ。<RET_N>
+    "original_byte_length": !!int |-
+      18
+    "references":
+    - "source_addr": !!int |-
+        61100
+      "target_addr": !!int |-
+        29459
+    "translated": !!null |-
+      null
+  "7325":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>が現れた。<RET_PAGE>
+    "original_byte_length": !!int |-
+      12
+    "references":
+    - "source_addr": !!int |-
+        61153
+      "target_addr": !!int |-
+        29477
+    "translated": !!null |-
+      null
 "note": ""

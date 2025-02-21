@@ -85,4 +85,52 @@
         29775
     "translated": !!null |-
       null
+  "7468":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>は剣をふった。<RET_N>
+    "original_byte_length": !!int |-
+      16
+    "references":
+    - "source_addr": !!int |-
+        61204
+      "target_addr": !!int |-
+        29800
+    "translated": !!null |-
+      null
+  "7478":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      ブラックナイツは結界をはった。<RET_PAGE>
+    "original_byte_length": !!int |-
+      31
+    "references":
+    - "source_addr": !!int |-
+        61188
+      "target_addr": !!int |-
+        29816
+    "translated": !!null |-
+      null
+  "7497":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>は結界をはった。<RET_PAGE>
+    "original_byte_length": !!int |-
+      18
+    "references":
+    - "source_addr": !!int |-
+        61196
+      "target_addr": !!int |-
+        29847
+    "translated": !!null |-
+      null
 "note": ""

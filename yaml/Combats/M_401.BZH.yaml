@@ -80,22 +80,26 @@
         30055
     "translated": !!null |-
       null
-  "758a":
+  "7581":
     "is_relocatable": !!bool |-
       true
     "max_byte_length": !!null |-
       null
     "original": |-
-      <SET0041><CALL75c7>その程度の炎で この壁は破れんぞ。<IF0418><JUMP75b8>
+      <ACTOR>は<CALL06a8><JUMP06bb><LOC758a><SET0041><CALL75c7>その程度の炎で この壁は破れんぞ。<IF0418><JUMP75b8>
 
       <LOC75b8><RET>
     "original_byte_length": !!int |-
-      47
+      56
     "references":
     - "source_addr": !!int |-
         61369
       "target_addr": !!int |-
         30090
+    - "source_addr": !!int |-
+        61256
+      "target_addr": !!int |-
+        30081
     "translated": !!null |-
       null
   "75b9":
@@ -169,6 +173,26 @@
         61454
       "target_addr": !!int |-
         30200
+    "translated": !!null |-
+      null
+  "7612":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CALL75df>は分身した。<RET_PAGE>
+      <CONT><CLEAR><C_YELLOW><CALL75df>Ａ<C_NONE>
+      <CALL75ce><CALL75ea>おれたちは<CALL7608>
+
+      <RET>
+    "original_byte_length": !!int |-
+      46
+    "references":
+    - "source_addr": !!int |-
+        61232
+      "target_addr": !!int |-
+        30226
     "translated": !!null |-
       null
 "note": ""

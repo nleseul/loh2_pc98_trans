@@ -65,4 +65,36 @@
         29570
     "translated": !!null |-
       null
+  "73ab":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      は逃げ出した。<RET_PAGE>
+    "original_byte_length": !!int |-
+      15
+    "references":
+    - "source_addr": !!int |-
+        61134
+      "target_addr": !!int |-
+        29611
+    "translated": !!null |-
+      null
+  "73ba":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      はＨＰを回復して帰ってきた。<RET_PAGE>
+    "original_byte_length": !!int |-
+      29
+    "references":
+    - "source_addr": !!int |-
+        61251
+      "target_addr": !!int |-
+        29626
+    "translated": !!null |-
+      null
 "note": ""

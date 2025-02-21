@@ -65,4 +65,52 @@
         29625
     "translated": !!null |-
       null
+  "73ca":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>は獲物を見つけ飛んでいった。<RET_PAGE>
+    "original_byte_length": !!int |-
+      30
+    "references":
+    - "source_addr": !!int |-
+        61169
+      "target_addr": !!int |-
+        29642
+    "translated": !!null |-
+      null
+  "73e8":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      は仲間を呼んだ。<RET_PAGE>
+    "original_byte_length": !!int |-
+      17
+    "references":
+    - "source_addr": !!int |-
+        61219
+      "target_addr": !!int |-
+        29672
+    "translated": !!null |-
+      null
+  "73f9":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>が飛んできた。<RET_PAGE>
+    "original_byte_length": !!int |-
+      16
+    "references":
+    - "source_addr": !!int |-
+        61286
+      "target_addr": !!int |-
+        29689
+    "translated": !!null |-
+      null
 "note": ""

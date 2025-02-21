@@ -65,4 +65,20 @@
         29644
     "translated": !!null |-
       null
+  "73e1":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>は何かけはいを感じた。<RET_PAGE>
+    "original_byte_length": !!int |-
+      24
+    "references":
+    - "source_addr": !!int |-
+        61137
+      "target_addr": !!int |-
+        29665
+    "translated": !!null |-
+      null
 "note": ""

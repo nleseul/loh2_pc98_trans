@@ -64,6 +64,54 @@
         30586
     "translated": !!null |-
       null
+  "778f":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      はドラストゴーストを呼びよせた。<RET_PAGE>
+    "original_byte_length": !!int |-
+      33
+    "references":
+    - "source_addr": !!int |-
+        61284
+      "target_addr": !!int |-
+        30607
+    "translated": !!null |-
+      null
+  "77b0":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>は攻撃体制に入った。<RET_PAGE>
+    "original_byte_length": !!int |-
+      22
+    "references":
+    - "source_addr": !!int |-
+        61306
+      "target_addr": !!int |-
+        30640
+    "translated": !!null |-
+      null
+  "77c6":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>は毒を中和した。<RET_PAGE>
+    "original_byte_length": !!int |-
+      18
+    "references":
+    - "source_addr": !!int |-
+        61434
+      "target_addr": !!int |-
+        30662
+    "translated": !!null |-
+      null
   "77d8":
     "is_relocatable": !!bool |-
       true
@@ -94,6 +142,55 @@
         61650
       "target_addr": !!int |-
         30720
+    "translated": !!null |-
+      null
+  "7826":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>はしっぽで攻撃した。<RET_N>
+    "original_byte_length": !!int |-
+      22
+    "references":
+    - "source_addr": !!int |-
+        61339
+      "target_addr": !!int |-
+        30758
+    "translated": !!null |-
+      null
+  "783c":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>は<RET>
+    "original_byte_length": !!int |-
+      4
+    "references":
+    - "source_addr": !!int |-
+        61541
+      "target_addr": !!int |-
+        30780
+    "translated": !!null |-
+      null
+  "7840":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>の首に
+      かみついた。<RET_N>
+    "original_byte_length": !!int |-
+      21
+    "references":
+    - "source_addr": !!int |-
+        61550
+      "target_addr": !!int |-
+        30784
     "translated": !!null |-
       null
   "7855":

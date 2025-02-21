@@ -46,6 +46,22 @@
     "references": []
     "translated": !!null |-
       null
+  "73ef":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CLEAR>戦いに勝利しました。<RET_N>
+    "original_byte_length": !!int |-
+      22
+    "references":
+    - "source_addr": !!int |-
+        61280
+      "target_addr": !!int |-
+        29679
+    "translated": !!null |-
+      null
   "7445":
     "is_relocatable": !!bool |-
       true
@@ -60,6 +76,22 @@
         61000
       "target_addr": !!int |-
         29765
+    "translated": !!null |-
+      null
+  "7458":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>は炎をあやつっている。<RET_N>
+    "original_byte_length": !!int |-
+      24
+    "references":
+    - "source_addr": !!int |-
+        61125
+      "target_addr": !!int |-
+        29784
     "translated": !!null |-
       null
 "note": ""

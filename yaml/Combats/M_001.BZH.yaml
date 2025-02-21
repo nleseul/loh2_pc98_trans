@@ -65,5 +65,21 @@
         29436
     "translated": !!null |-
       null
+  "7315":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      は<ACTOR>を冷たい視線で見つめた。<RET_PAGE>
+    "original_byte_length": !!int |-
+      28
+    "references":
+    - "source_addr": !!int |-
+        61096
+      "target_addr": !!int |-
+        29461
+    "translated": !!null |-
+      null
 "note": |-
   Yolkslimes - Prologue

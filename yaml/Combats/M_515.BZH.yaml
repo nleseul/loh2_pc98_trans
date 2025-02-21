@@ -65,4 +65,36 @@
         29657
     "translated": !!null |-
       null
+  "73ec":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      は粘液を吐きつけた。<RET_N>
+    "original_byte_length": !!int |-
+      21
+    "references":
+    - "source_addr": !!int |-
+        61140
+      "target_addr": !!int |-
+        29676
+    "translated": !!null |-
+      null
+  "7401":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>はしっぽをふって笑った。<RET_PAGE>
+    "original_byte_length": !!int |-
+      26
+    "references":
+    - "source_addr": !!int |-
+        61181
+      "target_addr": !!int |-
+        29697
+    "translated": !!null |-
+      null
 "note": ""

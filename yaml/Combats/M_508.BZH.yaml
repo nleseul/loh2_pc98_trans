@@ -65,4 +65,36 @@
         29455
     "translated": !!null |-
       null
+  "7322":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>の服の中から本体が出た。<RET_PAGE>
+    "original_byte_length": !!int |-
+      26
+    "references":
+    - "source_addr": !!int |-
+        61154
+      "target_addr": !!int |-
+        29474
+    "translated": !!null |-
+      null
+  "733c":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>はようすを見ている。<RET_PAGE>
+    "original_byte_length": !!int |-
+      22
+    "references":
+    - "source_addr": !!int |-
+        61161
+      "target_addr": !!int |-
+        29500
+    "translated": !!null |-
+      null
 "note": ""

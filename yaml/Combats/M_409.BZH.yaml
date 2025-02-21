@@ -81,4 +81,37 @@
         29625
     "translated": !!null |-
       null
+  "73cf":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>は飲み込んだ<RET>
+    "original_byte_length": !!int |-
+      14
+    "references":
+    - "source_addr": !!int |-
+        61135
+      "target_addr": !!int |-
+        29647
+    "translated": !!null |-
+      null
+  "73dd":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      を
+      吐き出した !!<RET_PAGE>
+    "original_byte_length": !!int |-
+      17
+    "references":
+    - "source_addr": !!int |-
+        61147
+      "target_addr": !!int |-
+        29661
+    "translated": !!null |-
+      null
 "note": ""

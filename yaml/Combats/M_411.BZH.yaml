@@ -65,4 +65,37 @@
         29747
     "translated": !!null |-
       null
+  "7450":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      は 亜空間から武器を
+      持ってきた。<RET_PAGE>
+    "original_byte_length": !!int |-
+      33
+    "references":
+    - "source_addr": !!int |-
+        61142
+      "target_addr": !!int |-
+        29776
+    "translated": !!null |-
+      null
+  "7471":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>は死の底から舞い上がった。<RET_PAGE>
+    "original_byte_length": !!int |-
+      28
+    "references":
+    - "source_addr": !!int |-
+        61262
+      "target_addr": !!int |-
+        29809
+    "translated": !!null |-
+      null
 "note": ""

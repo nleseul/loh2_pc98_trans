@@ -63,4 +63,20 @@
         29465
     "translated": !!null |-
       null
+  "732a":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      が襲いかかってきた !!<RET_N>
+    "original_byte_length": !!int |-
+      22
+    "references":
+    - "source_addr": !!int |-
+        61104
+      "target_addr": !!int |-
+        29482
+    "translated": !!null |-
+      null
 "note": ""

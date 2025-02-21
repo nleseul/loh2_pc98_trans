@@ -131,6 +131,11 @@ def extract_combat_events(combat_data:typing.ByteString, monster_count:int = 4) 
         if entry_addr >= 0xed40:
             entry_points.append(EntryPointInfo("code", entry_addr, 0xed40 + entry_addr_offset))
 
+    for entry_addr_offset in range(0x120, 0x140, 2):
+        entry_addr = int.from_bytes(combat_data[entry_addr_offset:entry_addr_offset+2], byteorder='little')
+        if entry_addr >= 0xed40:
+            entry_points.append(EntryPointInfo("code", entry_addr, 0xed40 + entry_addr_offset))
+
     global_code_hooks = [
         DS62_StandardEventCodeHook()
     ]

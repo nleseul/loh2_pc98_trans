@@ -65,6 +65,22 @@
         29584
     "translated": !!null |-
       null
+  "73a5":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>は酸胞を出した。<RET_PAGE>
+    "original_byte_length": !!int |-
+      18
+    "references":
+    - "source_addr": !!int |-
+        61118
+      "target_addr": !!int |-
+        29605
+    "translated": !!null |-
+      null
   "73b7":
     "is_relocatable": !!bool |-
       true

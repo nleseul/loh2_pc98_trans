@@ -65,4 +65,20 @@
         29423
     "translated": !!null |-
       null
+  "7302":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>は頭をあげて襲いかかった。<RET>
+    "original_byte_length": !!int |-
+      28
+    "references":
+    - "source_addr": !!int |-
+        61112
+      "target_addr": !!int |-
+        29442
+    "translated": !!null |-
+      null
 "note": ""

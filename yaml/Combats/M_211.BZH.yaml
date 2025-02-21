@@ -65,4 +65,53 @@
         29716
     "translated": !!null |-
       null
+  "742f":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      は杖をかかげた。<RET_N>
+    "original_byte_length": !!int |-
+      17
+    "references":
+    - "source_addr": !!int |-
+        61137
+      "target_addr": !!int |-
+        29743
+    "translated": !!null |-
+      null
+  "7440":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      は<RET>
+      <CONT><ACTOR>に目をつけた。<RET_PAGE>
+    "original_byte_length": !!int |-
+      19
+    "references":
+    - "source_addr": !!int |-
+        61250
+      "target_addr": !!int |-
+        29760
+    "translated": !!null |-
+      null
+  "7453":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>は<RET>
+    "original_byte_length": !!int |-
+      4
+    "references":
+    - "source_addr": !!int |-
+        61312
+      "target_addr": !!int |-
+        29779
+    "translated": !!null |-
+      null
 "note": ""

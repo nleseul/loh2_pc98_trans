@@ -65,4 +65,54 @@
         29612
     "translated": !!null |-
       null
+  "73c9":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      は 長い腕が絡まって
+      動けなくなった。<RET_PAGE>
+    "original_byte_length": !!int |-
+      37
+    "references":
+    - "source_addr": !!int |-
+        61133
+      "target_addr": !!int |-
+        29641
+    "translated": !!null |-
+      null
+  "73ee":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>は腕が絡まっている。<RET_PAGE>
+    "original_byte_length": !!int |-
+      22
+    "references":
+    - "source_addr": !!int |-
+        61139
+      "target_addr": !!int |-
+        29678
+    "translated": !!null |-
+      null
+  "7404":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      は<RET>
+      <CONT><ACTOR>の腕をほどいた。<RET_PAGE>
+    "original_byte_length": !!int |-
+      21
+    "references":
+    - "source_addr": !!int |-
+        61250
+      "target_addr": !!int |-
+        29700
+    "translated": !!null |-
+      null
 "note": ""

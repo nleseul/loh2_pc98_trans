@@ -65,4 +65,75 @@
         29638
     "translated": !!null |-
       null
+  "73d7":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>ダリス<C_NONE>
+      フッフッフ
+      おれさまの 本当の恐ろしさを
+      思い知るがいい。
+
+      <RET>
+    "original_byte_length": !!int |-
+      66
+    "references":
+    - "source_addr": !!int |-
+        61132
+      "target_addr": !!int |-
+        29655
+    "translated": !!null |-
+      null
+  "7419":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>は気合いとともに気を体に
+      まとった。<RET_PAGE>
+    "original_byte_length": !!int |-
+      37
+    "references":
+    - "source_addr": !!int |-
+        61149
+      "target_addr": !!int |-
+        29721
+    "translated": !!null |-
+      null
+  "7494":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>は気で<RET>
+    "original_byte_length": !!int |-
+      8
+    "references":
+    - "source_addr": !!int |-
+        61191
+      "target_addr": !!int |-
+        29844
+    "translated": !!null |-
+      null
+  "749c":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>の胸を
+      しめつけた。<RET_PAGE>
+    "original_byte_length": !!int |-
+      21
+    "references":
+    - "source_addr": !!int |-
+        61200
+      "target_addr": !!int |-
+        29852
+    "translated": !!null |-
+      null
 "note": ""

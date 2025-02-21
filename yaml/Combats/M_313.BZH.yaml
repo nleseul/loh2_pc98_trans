@@ -65,4 +65,53 @@
         29725
     "translated": !!null |-
       null
+  "7440":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      は杖を振った。<RET_PAGE>
+      <CONT><ACTOR>は我に返った。<RET_PAGE>
+    "original_byte_length": !!int |-
+      31
+    "references":
+    - "source_addr": !!int |-
+        61308
+      "target_addr": !!int |-
+        29760
+    "translated": !!null |-
+      null
+  "745f":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      は助けを呼んだ。<RET_PAGE>
+    "original_byte_length": !!int |-
+      17
+    "references":
+    - "source_addr": !!int |-
+        61180
+      "target_addr": !!int |-
+        29791
+    "translated": !!null |-
+      null
+  "7470":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>が助けにきた。<RET_PAGE>
+    "original_byte_length": !!int |-
+      16
+    "references":
+    - "source_addr": !!int |-
+        61229
+      "target_addr": !!int |-
+        29808
+    "translated": !!null |-
+      null
 "note": ""

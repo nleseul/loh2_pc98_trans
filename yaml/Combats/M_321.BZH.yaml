@@ -65,4 +65,52 @@
         29948
     "translated": !!null |-
       null
+  "7533":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      は逃げ出した。<RET_PAGE>
+    "original_byte_length": !!int |-
+      15
+    "references":
+    - "source_addr": !!int |-
+        61150
+      "target_addr": !!int |-
+        30003
+    "translated": !!null |-
+      null
+  "7542":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      はＨＰを回復して帰ってきた。<RET_PAGE>
+    "original_byte_length": !!int |-
+      29
+    "references":
+    - "source_addr": !!int |-
+        61267
+      "target_addr": !!int |-
+        30018
+    "translated": !!null |-
+      null
+  "755f":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      は飛び跳ねた。<RET_N>
+    "original_byte_length": !!int |-
+      15
+    "references":
+    - "source_addr": !!int |-
+        61336
+      "target_addr": !!int |-
+        30047
+    "translated": !!null |-
+      null
 "note": ""

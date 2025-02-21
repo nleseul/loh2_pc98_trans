@@ -65,4 +65,36 @@
         29440
     "translated": !!null |-
       null
+  "732e":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>は呪文がなくなったので逃げ出す機会をうかがっている。<RET_PAGE>
+    "original_byte_length": !!int |-
+      54
+    "references":
+    - "source_addr": !!int |-
+        61129
+      "target_addr": !!int |-
+        29486
+    "translated": !!null |-
+      null
+  "7364":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>は逃げ出した。<RET_PAGE>
+    "original_byte_length": !!int |-
+      16
+    "references":
+    - "source_addr": !!int |-
+        61161
+      "target_addr": !!int |-
+        29540
+    "translated": !!null |-
+      null
 "note": ""

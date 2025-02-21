@@ -65,6 +65,39 @@
         29491
     "translated": !!null |-
       null
+  "734c":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      は鋭いパンチを
+      繰り出した。<RET_N>
+    "original_byte_length": !!int |-
+      28
+    "references":
+    - "source_addr": !!int |-
+        61118
+      "target_addr": !!int |-
+        29516
+    "translated": !!null |-
+      null
+  "7368":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>は頭がしびれてしまった。<RET_PAGE>
+    "original_byte_length": !!int |-
+      26
+    "references":
+    - "source_addr": !!int |-
+        61146
+      "target_addr": !!int |-
+        29544
+    "translated": !!null |-
+      null
   "7382":
     "is_relocatable": !!bool |-
       true

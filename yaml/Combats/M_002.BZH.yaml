@@ -65,5 +65,65 @@
         30143
     "translated": !!null |-
       null
+  "75d4":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>は２匹に分裂して<RET>
+    "original_byte_length": !!int |-
+      18
+    "references":
+    - "source_addr": !!int |-
+        61261
+      "target_addr": !!int |-
+        30164
+    - "source_addr": !!int |-
+        61448
+      "target_addr": !!int |-
+        30164
+    "translated": !!null |-
+      null
+  "75e6":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>と<RET>
+    "original_byte_length": !!int |-
+      4
+    "references":
+    - "source_addr": !!int |-
+        61277
+      "target_addr": !!int |-
+        30182
+    - "source_addr": !!int |-
+        61464
+      "target_addr": !!int |-
+        30182
+    "translated": !!null |-
+      null
+  "75ea":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>になった。<RET_PAGE>
+    "original_byte_length": !!int |-
+      12
+    "references":
+    - "source_addr": !!int |-
+        61285
+      "target_addr": !!int |-
+        30186
+    - "source_addr": !!int |-
+        61482
+      "target_addr": !!int |-
+        30186
+    "translated": !!null |-
+      null
 "note": |-
   Red slimes - Prologue

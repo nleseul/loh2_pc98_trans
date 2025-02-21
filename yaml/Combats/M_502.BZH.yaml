@@ -65,6 +65,116 @@
         29980
     "translated": !!null |-
       null
+  "752f":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      の３回攻撃 !!<RET_PAGE>
+    "original_byte_length": !!int |-
+      14
+    "references":
+    - "source_addr": !!int |-
+        61120
+      "target_addr": !!int |-
+        29999
+    "translated": !!null |-
+      null
+  "753d":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      の２<JUMP7533><LOC7544><ACTOR>は炎のブレスをはいた。<RET_N>
+    "original_byte_length": !!int |-
+      31
+    "references":
+    - "source_addr": !!int |-
+        61219
+      "target_addr": !!int |-
+        30020
+    - "source_addr": !!int |-
+        61133
+      "target_addr": !!int |-
+        30013
+    "translated": !!null |-
+      null
+  "755c":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <C_YELLOW>レイシア<C_NONE>が現れた。
+
+      <CALL7661>はい おまちどうさま。
+      これが マスターの作ってくれた剣よ。
+
+      <RET>
+    "original_byte_length": !!int |-
+      83
+    "references":
+    - "source_addr": !!int |-
+        61405
+      "target_addr": !!int |-
+        30044
+    "translated": !!null |-
+      null
+  "75af":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      レイシアが<RET>
+    "original_byte_length": !!int |-
+      11
+    "references":
+    - "source_addr": !!int |-
+        61411
+      "target_addr": !!int |-
+        30127
+    "translated": !!null |-
+      null
+  "75ca":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CLEAR><CALL7660>こんな時に 冗談を言うのはやめて
+      ちゃんと 受けとってよ。
+
+      <RET>
+    "original_byte_length": !!int |-
+      61
+    "references":
+    - "source_addr": !!int |-
+        61429
+      "target_addr": !!int |-
+        30154
+    "translated": !!null |-
+      null
+  "7607":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CLEAR><CALL7660>さあ いっしょに 戦いましょう。
+
+      <RET>
+    "original_byte_length": !!int |-
+      36
+    "references":
+    - "source_addr": !!int |-
+        61437
+      "target_addr": !!int |-
+        30215
+    "translated": !!null |-
+      null
   "762b":
     "is_relocatable": !!bool |-
       true
@@ -90,7 +200,7 @@
     "max_byte_length": !!null |-
       null
     "original": |-
-      <CLEAR><C_YELLOW>レイシア<C_NONE><RET_N>
+      <CLEAR><LOC7661><C_YELLOW>レイシア<C_NONE><RET_N>
     "original_byte_length": !!int |-
       12
     "references": []

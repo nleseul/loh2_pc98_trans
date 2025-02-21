@@ -65,4 +65,69 @@
         29599
     "translated": !!null |-
       null
+  "73c0":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      は杖をにぎりしめた。<RET_PAGE>
+    "original_byte_length": !!int |-
+      21
+    "references":
+    - "source_addr": !!int |-
+        61106
+      "target_addr": !!int |-
+        29632
+    "translated": !!null |-
+      null
+  "73d5":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      は<RET>
+    "original_byte_length": !!int |-
+      3
+    "references":
+    - "source_addr": !!int |-
+        61194
+      "target_addr": !!int |-
+        29653
+    "translated": !!null |-
+      null
+  "73d8":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>は 最後の力をふりしぼって<RET_N>
+      <CONT><ACTOR>にレスを唱えた。<RET_PAGE>
+    "original_byte_length": !!int |-
+      45
+    "references":
+    - "source_addr": !!int |-
+        61288
+      "target_addr": !!int |-
+        29656
+    "translated": !!null |-
+      null
+  "7405":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      は逃げ出した。<RET_PAGE>
+    "original_byte_length": !!int |-
+      15
+    "references":
+    - "source_addr": !!int |-
+        61248
+      "target_addr": !!int |-
+        29701
+    "translated": !!null |-
+      null
 "note": ""

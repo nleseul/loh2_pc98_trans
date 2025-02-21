@@ -65,4 +65,36 @@
         29991
     "translated": !!null |-
       null
+  "753a":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      は子どもを産んだ。<RET_PAGE>
+    "original_byte_length": !!int |-
+      19
+    "references":
+    - "source_addr": !!int |-
+        61289
+      "target_addr": !!int |-
+        30010
+    "translated": !!null |-
+      null
+  "754d":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      ニュートハニーは３匹で力を合わせた。<RET_N>
+    "original_byte_length": !!int |-
+      37
+    "references":
+    - "source_addr": !!int |-
+        61444
+      "target_addr": !!int |-
+        30029
+    "translated": !!null |-
+      null
 "note": ""

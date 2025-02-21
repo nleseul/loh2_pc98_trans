@@ -65,4 +65,36 @@
         29529
     "translated": !!null |-
       null
+  "7372":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      の 目が光った !!<RET_PAGE>
+    "original_byte_length": !!int |-
+      17
+    "references":
+    - "source_addr": !!int |-
+        61108
+      "target_addr": !!int |-
+        29554
+    "translated": !!null |-
+      null
+  "7383":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>は<C_YELLOW>いかづちの杖<C_NONE>を使った。イグナの効果がある。<RET_PAGE>
+    "original_byte_length": !!int |-
+      48
+    "references":
+    - "source_addr": !!int |-
+        61186
+      "target_addr": !!int |-
+        29571
+    "translated": !!null |-
+      null
 "note": ""

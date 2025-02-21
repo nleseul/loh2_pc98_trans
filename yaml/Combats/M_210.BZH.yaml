@@ -65,6 +65,39 @@
         29635
     "translated": !!null |-
       null
+  "73fe":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      は遠ぼえをしている。<RET_PAGE>
+    "original_byte_length": !!int |-
+      21
+    "references":
+    - "source_addr": !!int |-
+        61166
+      "target_addr": !!int |-
+        29694
+    "translated": !!null |-
+      null
+  "7413":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      遠ぼえをきいて<ACTOR>が
+      かけつけた。<RET_PAGE>
+    "original_byte_length": !!int |-
+      31
+    "references":
+    - "source_addr": !!int |-
+        61233
+      "target_addr": !!int |-
+        29715
+    "translated": !!null |-
+      null
   "7432":
     "is_relocatable": !!bool |-
       true

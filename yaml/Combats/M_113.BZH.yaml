@@ -81,4 +81,21 @@
         29521
     "translated": !!null |-
       null
+  "7380":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      は からにとじこもって
+      いる。<RET_PAGE>
+    "original_byte_length": !!int |-
+      29
+    "references":
+    - "source_addr": !!int |-
+        61090
+      "target_addr": !!int |-
+        29568
+    "translated": !!null |-
+      null
 "note": ""
