@@ -65,4 +65,52 @@
         29552
     "translated": !!null |-
       null
+  "7383":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      は怒っている。<RET_N>
+    "original_byte_length": !!int |-
+      15
+    "references":
+    - "source_addr": !!int |-
+        61143
+      "target_addr": !!int |-
+        29571
+    "translated": !!null |-
+      null
+  "7392":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      は仲間を呼んだ。<RET_PAGE>
+    "original_byte_length": !!int |-
+      17
+    "references":
+    - "source_addr": !!int |-
+        61172
+      "target_addr": !!int |-
+        29586
+    "translated": !!null |-
+      null
+  "73a3":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>が現れた。<RET_PAGE>
+    "original_byte_length": !!int |-
+      12
+    "references":
+    - "source_addr": !!int |-
+        61252
+      "target_addr": !!int |-
+        29603
+    "translated": !!null |-
+      null
 "note": ""

@@ -65,4 +65,36 @@
         29536
     "translated": !!null |-
       null
+  "737f":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      は 体液をはいた。<RET_N>
+    "original_byte_length": !!int |-
+      18
+    "references":
+    - "source_addr": !!int |-
+        61128
+      "target_addr": !!int |-
+        29567
+    "translated": !!null |-
+      null
+  "7391":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      は 見えない羽ではばたいた。<RET_N>
+    "original_byte_length": !!int |-
+      28
+    "references":
+    - "source_addr": !!int |-
+        61186
+      "target_addr": !!int |-
+        29585
+    "translated": !!null |-
+      null
 "note": ""

@@ -81,4 +81,36 @@
         29756
     "translated": !!null |-
       null
+  "7457":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>が痛がる姿を見て<RET>
+    "original_byte_length": !!int |-
+      18
+    "references":
+    - "source_addr": !!int |-
+        61171
+      "target_addr": !!int |-
+        29783
+    "translated": !!null |-
+      null
+  "7469":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>は興奮した。<RET_N>
+    "original_byte_length": !!int |-
+      14
+    "references":
+    - "source_addr": !!int |-
+        61181
+      "target_addr": !!int |-
+        29801
+    "translated": !!null |-
+      null
 "note": ""

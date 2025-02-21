@@ -65,4 +65,20 @@
         29573
     "translated": !!null |-
       null
+  "7396":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      は あやしげな旋律を奏でた。<RET_N>
+    "original_byte_length": !!int |-
+      28
+    "references":
+    - "source_addr": !!int |-
+        61117
+      "target_addr": !!int |-
+        29590
+    "translated": !!null |-
+      null
 "note": ""

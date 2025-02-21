@@ -65,4 +65,37 @@
         29618
     "translated": !!null |-
       null
+  "73c9":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>は姿を消した。<RET_PAGE>
+    "original_byte_length": !!int |-
+      16
+    "references":
+    - "source_addr": !!int |-
+        61167
+      "target_addr": !!int |-
+        29641
+    "translated": !!null |-
+      null
+  "73d9":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>がＨＰを回復させて
+      現れた。<RET_PAGE>
+    "original_byte_length": !!int |-
+      29
+    "references":
+    - "source_addr": !!int |-
+        61220
+      "target_addr": !!int |-
+        29657
+    "translated": !!null |-
+      null
 "note": ""

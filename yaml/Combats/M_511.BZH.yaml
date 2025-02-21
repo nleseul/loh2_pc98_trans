@@ -65,4 +65,20 @@
         29532
     "translated": !!null |-
       null
+  "7379":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>は光の輪をとばした。<RET_N>
+    "original_byte_length": !!int |-
+      22
+    "references":
+    - "source_addr": !!int |-
+        61104
+      "target_addr": !!int |-
+        29561
+    "translated": !!null |-
+      null
 "note": ""

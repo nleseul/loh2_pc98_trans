@@ -65,6 +65,38 @@
         29623
     "translated": !!null |-
       null
+  "73c8":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      は上段の構えをとった。<RET_PAGE>
+    "original_byte_length": !!int |-
+      23
+    "references":
+    - "source_addr": !!int |-
+        61123
+      "target_addr": !!int |-
+        29640
+    "translated": !!null |-
+      null
+  "73df":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      は剣を振り下ろした。<RET_N>
+    "original_byte_length": !!int |-
+      21
+    "references":
+    - "source_addr": !!int |-
+        61132
+      "target_addr": !!int |-
+        29663
+    "translated": !!null |-
+      null
   "73f4":
     "is_relocatable": !!bool |-
       true

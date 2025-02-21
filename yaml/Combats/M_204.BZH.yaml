@@ -65,4 +65,53 @@
         29539
     "translated": !!null |-
       null
+  "7378":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      は ひげをあやしく
+      動かした !!<RET_N>
+    "original_byte_length": !!int |-
+      30
+    "references":
+    - "source_addr": !!int |-
+        61200
+      "target_addr": !!int |-
+        29560
+    "translated": !!null |-
+      null
+  "7396":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>が 潮をふくと ふしぎなカサができた。<RET_PAGE>
+    "original_byte_length": !!int |-
+      38
+    "references":
+    - "source_addr": !!int |-
+        61160
+      "target_addr": !!int |-
+        29590
+    "translated": !!null |-
+      null
+  "73bc":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>の カサが消えた。<RET_N>
+    "original_byte_length": !!int |-
+      19
+    "references":
+    - "source_addr": !!int |-
+        61105
+      "target_addr": !!int |-
+        29628
+    "translated": !!null |-
+      null
 "note": ""

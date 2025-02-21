@@ -65,6 +65,55 @@
         29675
     "translated": !!null |-
       null
+  "740e":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      は触手をのばした。<RET_PAGE>
+    "original_byte_length": !!int |-
+      19
+    "references":
+    - "source_addr": !!int |-
+        61109
+      "target_addr": !!int |-
+        29710
+    "translated": !!null |-
+      null
+  "7421":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      の触手が<ACTOR>の体にからみついた !!<RET_PAGE>
+    "original_byte_length": !!int |-
+      31
+    "references":
+    - "source_addr": !!int |-
+        61154
+      "target_addr": !!int |-
+        29729
+    "translated": !!null |-
+      null
+  "7440":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>は皮をむいて
+      悪臭をはなった !!<RET_N>
+    "original_byte_length": !!int |-
+      32
+    "references":
+    - "source_addr": !!int |-
+        61184
+      "target_addr": !!int |-
+        29760
+    "translated": !!null |-
+      null
   "7460":
     "is_relocatable": !!bool |-
       true

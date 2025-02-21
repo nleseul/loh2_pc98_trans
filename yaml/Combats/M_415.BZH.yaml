@@ -65,6 +65,22 @@
         29899
     "translated": !!null |-
       null
+  "74de":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      は変身した。<RET_PAGE>
+    "original_byte_length": !!int |-
+      13
+    "references":
+    - "source_addr": !!int |-
+        61261
+      "target_addr": !!int |-
+        29918
+    "translated": !!null |-
+      null
   "74eb":
     "is_relocatable": !!bool |-
       true

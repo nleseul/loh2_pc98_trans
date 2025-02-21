@@ -65,4 +65,20 @@
         29517
     "translated": !!null |-
       null
+  "7360":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>は杖をにぎりしめた。<RET_N>
+    "original_byte_length": !!int |-
+      22
+    "references":
+    - "source_addr": !!int |-
+        61104
+      "target_addr": !!int |-
+        29536
+    "translated": !!null |-
+      null
 "note": ""

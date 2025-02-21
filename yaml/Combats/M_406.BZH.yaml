@@ -65,4 +65,20 @@
         29399
     "translated": !!null |-
       null
+  "72ea":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      は第３の目を開けた。<RET_N>
+    "original_byte_length": !!int |-
+      21
+    "references":
+    - "source_addr": !!int |-
+        61110
+      "target_addr": !!int |-
+        29418
+    "translated": !!null |-
+      null
 "note": ""

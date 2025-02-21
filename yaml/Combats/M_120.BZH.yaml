@@ -81,4 +81,52 @@
         29735
     "translated": !!null |-
       null
+  "743b":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      の怒りの攻撃 !!!<RET_N>
+    "original_byte_length": !!int |-
+      17
+    "references":
+    - "source_addr": !!int |-
+        61122
+      "target_addr": !!int |-
+        29755
+    "translated": !!null |-
+      null
+  "744c":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>は<RET>
+    "original_byte_length": !!int |-
+      4
+    "references":
+    - "source_addr": !!int |-
+        61219
+      "target_addr": !!int |-
+        29772
+    "translated": !!null |-
+      null
+  "7462":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>の持っているこんぼうが剣に変形した。<RET_PAGE>
+    "original_byte_length": !!int |-
+      38
+    "references":
+    - "source_addr": !!int |-
+        61285
+      "target_addr": !!int |-
+        29794
+    "translated": !!null |-
+      null
 "note": ""

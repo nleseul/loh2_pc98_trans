@@ -65,4 +65,68 @@
         30374
     "translated": !!null |-
       null
+  "76b9":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      は砂の中にもぐった。<RET_N>
+    "original_byte_length": !!int |-
+      21
+    "references":
+    - "source_addr": !!int |-
+        61118
+      "target_addr": !!int |-
+        30393
+    "translated": !!null |-
+      null
+  "76ce":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      が砂の中から出てきた !!<RET_N>
+    "original_byte_length": !!int |-
+      24
+    "references":
+    - "source_addr": !!int |-
+        61189
+      "target_addr": !!int |-
+        30414
+    "translated": !!null |-
+      null
+  "76e6":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <RET_PAGE>
+    "original_byte_length": !!int |-
+      1
+    "references":
+    - "source_addr": !!int |-
+        61148
+      "target_addr": !!int |-
+        30438
+    "translated": !!null |-
+      null
+  "76e7":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>は不意をつかれた。<RET_N>
+    "original_byte_length": !!int |-
+      20
+    "references":
+    - "source_addr": !!int |-
+        61218
+      "target_addr": !!int |-
+        30439
+    "translated": !!null |-
+      null
 "note": ""

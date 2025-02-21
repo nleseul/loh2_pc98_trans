@@ -65,4 +65,68 @@
         29610
     "translated": !!null |-
       null
+  "73ca":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      の２回攻撃 !!<RET_N>
+    "original_byte_length": !!int |-
+      14
+    "references":
+    - "source_addr": !!int |-
+        61126
+      "target_addr": !!int |-
+        29642
+    "translated": !!null |-
+      null
+  "73d8":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      は<CH4>をせかした。<RET_PAGE>
+    "original_byte_length": !!int |-
+      17
+    "references":
+    - "source_addr": !!int |-
+        61314
+      "target_addr": !!int |-
+        29656
+    "translated": !!null |-
+      null
+  "73e9":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <CH5>にせかされた<ACTOR>は連続攻撃をした !!<RET_N>
+    "original_byte_length": !!int |-
+      35
+    "references":
+    - "source_addr": !!int |-
+        61189
+      "target_addr": !!int |-
+        29673
+    "translated": !!null |-
+      null
+  "740c":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      はしっぽで攻撃した<RET_PAGE>
+    "original_byte_length": !!int |-
+      19
+    "references":
+    - "source_addr": !!int |-
+        61286
+      "target_addr": !!int |-
+        29708
+    "translated": !!null |-
+      null
 "note": ""

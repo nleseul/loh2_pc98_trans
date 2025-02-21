@@ -113,4 +113,36 @@
         29863
     "translated": !!null |-
       null
+  "74c2":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>は クラブアーマーを装備した。<RET_PAGE>
+    "original_byte_length": !!int |-
+      31
+    "references":
+    - "source_addr": !!int |-
+        61255
+      "target_addr": !!int |-
+        29890
+    "translated": !!null |-
+      null
+  "74e1":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>は クラブアーマーの重さで身動きがとれない。<RET_PAGE>
+    "original_byte_length": !!int |-
+      45
+    "references":
+    - "source_addr": !!int |-
+        61286
+      "target_addr": !!int |-
+        29921
+    "translated": !!null |-
+      null
 "note": ""

@@ -65,6 +65,22 @@
         29493
     "translated": !!null |-
       null
+  "734b":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>はかみついた。<RET_N>
+    "original_byte_length": !!int |-
+      16
+    "references":
+    - "source_addr": !!int |-
+        61112
+      "target_addr": !!int |-
+        29515
+    "translated": !!null |-
+      null
   "735b":
     "is_relocatable": !!bool |-
       true

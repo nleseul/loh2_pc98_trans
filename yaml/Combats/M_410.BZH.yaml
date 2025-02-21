@@ -65,4 +65,21 @@
         29631
     "translated": !!null |-
       null
+  "73d4":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      は 身も凍るような
+      おたけびをあげた。<RET_N>
+    "original_byte_length": !!int |-
+      37
+    "references":
+    - "source_addr": !!int |-
+        61129
+      "target_addr": !!int |-
+        29652
+    "translated": !!null |-
+      null
 "note": ""

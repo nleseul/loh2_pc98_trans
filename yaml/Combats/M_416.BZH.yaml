@@ -65,6 +65,23 @@
         29763
     "translated": !!null |-
       null
+  "7464":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      は 灼熱の炎を
+      吹き出した !!<RET_N>
+    "original_byte_length": !!int |-
+      28
+    "references":
+    - "source_addr": !!int |-
+        61150
+      "target_addr": !!int |-
+        29796
+    "translated": !!null |-
+      null
   "7480":
     "is_relocatable": !!bool |-
       true

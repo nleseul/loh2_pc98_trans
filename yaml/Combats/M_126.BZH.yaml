@@ -65,4 +65,85 @@
         30158
     "translated": !!null |-
       null
+  "75f2":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      のこぶが ふくらんできた。<RET_N>
+    "original_byte_length": !!int |-
+      26
+    "references":
+    - "source_addr": !!int |-
+        61123
+      "target_addr": !!int |-
+        30194
+    "translated": !!null |-
+      null
+  "760c":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>は 宙に浮いた。<RET_PAGE>
+    "original_byte_length": !!int |-
+      17
+    "references":
+    - "source_addr": !!int |-
+        61140
+      "target_addr": !!int |-
+        30220
+    "translated": !!null |-
+      null
+  "761d":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>は 上昇気流にのって
+      消えてしまった。<RET_PAGE>
+    "original_byte_length": !!int |-
+      38
+    "references":
+    - "source_addr": !!int |-
+        61207
+      "target_addr": !!int |-
+        30237
+    "translated": !!null |-
+      null
+  "7643":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      は まだ浮いている。<RET_PAGE>
+    "original_byte_length": !!int |-
+      20
+    "references":
+    - "source_addr": !!int |-
+        61169
+      "target_addr": !!int |-
+        30275
+    "translated": !!null |-
+      null
+  "7657":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      の 高度がさがってきた。<RET_PAGE>
+    "original_byte_length": !!int |-
+      24
+    "references":
+    - "source_addr": !!int |-
+        61221
+      "target_addr": !!int |-
+        30295
+    "translated": !!null |-
+      null
 "note": ""

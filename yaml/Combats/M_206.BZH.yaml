@@ -65,4 +65,36 @@
         29544
     "translated": !!null |-
       null
+  "7383":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      は羽を揺り動かした。<RET_N>
+    "original_byte_length": !!int |-
+      21
+    "references":
+    - "source_addr": !!int |-
+        61140
+      "target_addr": !!int |-
+        29571
+    "translated": !!null |-
+      null
+  "7398":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      は毒を吐きかけた。<RET_N>
+    "original_byte_length": !!int |-
+      19
+    "references":
+    - "source_addr": !!int |-
+        61209
+      "target_addr": !!int |-
+        29592
+    "translated": !!null |-
+      null
 "note": ""

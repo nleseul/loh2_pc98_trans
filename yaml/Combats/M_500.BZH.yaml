@@ -117,4 +117,20 @@
         29989
     "translated": !!null |-
       null
+  "753d":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>は空を切り裂く波動を出した。<RET_N>
+    "original_byte_length": !!int |-
+      30
+    "references":
+    - "source_addr": !!int |-
+        61146
+      "target_addr": !!int |-
+        30013
+    "translated": !!null |-
+      null
 "note": ""

@@ -65,6 +65,86 @@
         29715
     "translated": !!null |-
       null
+  "7432":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      は仲間を呼んだ。<RET_PAGE>
+    "original_byte_length": !!int |-
+      17
+    "references":
+    - "source_addr": !!int |-
+        61145
+      "target_addr": !!int |-
+        29746
+    "translated": !!null |-
+      null
+  "7443":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>が現れた。<RET_PAGE>
+    "original_byte_length": !!int |-
+      12
+    "references":
+    - "source_addr": !!int |-
+        61213
+      "target_addr": !!int |-
+        29763
+    "translated": !!null |-
+      null
+  "7486":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>はキリを吹き出した。<RET_N>
+    "original_byte_length": !!int |-
+      22
+    "references":
+    - "source_addr": !!int |-
+        61317
+      "target_addr": !!int |-
+        29830
+    "translated": !!null |-
+      null
+  "749c":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>がキリの中から現れた。<RET_N>
+    "original_byte_length": !!int |-
+      24
+    "references":
+    - "source_addr": !!int |-
+        61360
+      "target_addr": !!int |-
+        29852
+    "translated": !!null |-
+      null
+  "74c7":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>は<RET>
+    "original_byte_length": !!int |-
+      4
+    "references":
+    - "source_addr": !!int |-
+        61295
+      "target_addr": !!int |-
+        29895
+    "translated": !!null |-
+      null
   "74de":
     "is_relocatable": !!bool |-
       true

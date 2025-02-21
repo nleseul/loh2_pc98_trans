@@ -65,4 +65,36 @@
         29706
     "translated": !!null |-
       null
+  "741b":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      の水晶玉が輝いた !!<RET_PAGE>
+    "original_byte_length": !!int |-
+      20
+    "references":
+    - "source_addr": !!int |-
+        61136
+      "target_addr": !!int |-
+        29723
+    "translated": !!null |-
+      null
+  "7443":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>は呪いの言葉を残した。<RET_N>
+    "original_byte_length": !!int |-
+      24
+    "references":
+    - "source_addr": !!int |-
+        61250
+      "target_addr": !!int |-
+        29763
+    "translated": !!null |-
+      null
 "note": ""

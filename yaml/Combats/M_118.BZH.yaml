@@ -65,4 +65,52 @@
         29637
     "translated": !!null |-
       null
+  "7417":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      は ツメをふりおろした !!<RET_N>
+    "original_byte_length": !!int |-
+      25
+    "references":
+    - "source_addr": !!int |-
+        61123
+      "target_addr": !!int |-
+        29719
+    "translated": !!null |-
+      null
+  "7430":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      は あたりを駆け回っている。<RET_PAGE>
+    "original_byte_length": !!int |-
+      28
+    "references":
+    - "source_addr": !!int |-
+        61171
+      "target_addr": !!int |-
+        29744
+    "translated": !!null |-
+      null
+  "744c":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      の急降下攻撃 !!<RET_N>
+    "original_byte_length": !!int |-
+      16
+    "references":
+    - "source_addr": !!int |-
+        61207
+      "target_addr": !!int |-
+        29772
+    "translated": !!null |-
+      null
 "note": ""

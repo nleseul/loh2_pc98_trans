@@ -65,4 +65,36 @@
         29668
     "translated": !!null |-
       null
+  "740a":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      は 超音波を発した。<RET_PAGE>
+    "original_byte_length": !!int |-
+      20
+    "references":
+    - "source_addr": !!int |-
+        61107
+      "target_addr": !!int |-
+        29706
+    "translated": !!null |-
+      null
+  "741e":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      が 共鳴している。<RET_N>
+    "original_byte_length": !!int |-
+      18
+    "references":
+    - "source_addr": !!int |-
+        61340
+      "target_addr": !!int |-
+        29726
+    "translated": !!null |-
+      null
 "note": ""

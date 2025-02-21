@@ -65,4 +65,21 @@
         29427
     "translated": !!null |-
       null
+  "7306":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      の やりから 炎が
+      ふき出した !!<RET_N>
+    "original_byte_length": !!int |-
+      31
+    "references":
+    - "source_addr": !!int |-
+        61098
+      "target_addr": !!int |-
+        29446
+    "translated": !!null |-
+      null
 "note": ""

@@ -65,4 +65,21 @@
         29508
     "translated": !!null |-
       null
+  "7359":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      はしっぽの針を自分の
+      背中に刺した。<RET_N>
+    "original_byte_length": !!int |-
+      36
+    "references":
+    - "source_addr": !!int |-
+        61104
+      "target_addr": !!int |-
+        29529
+    "translated": !!null |-
+      null
 "note": ""

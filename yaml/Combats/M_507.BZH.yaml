@@ -65,4 +65,68 @@
         29604
     "translated": !!null |-
       null
+  "73bd":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>は姿を消した。<RET_PAGE>
+    "original_byte_length": !!int |-
+      16
+    "references":
+    - "source_addr": !!int |-
+        61145
+      "target_addr": !!int |-
+        29629
+    "translated": !!null |-
+      null
+  "73cd":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>が姿を現した。<RET_PAGE>
+    "original_byte_length": !!int |-
+      16
+    "references":
+    - "source_addr": !!int |-
+        61329
+      "target_addr": !!int |-
+        29645
+    "translated": !!null |-
+      null
+  "73dd":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>は毒を作りはじめた。<RET_PAGE>
+    "original_byte_length": !!int |-
+      22
+    "references":
+    - "source_addr": !!int |-
+        61199
+      "target_addr": !!int |-
+        29661
+    "translated": !!null |-
+      null
+  "73f3":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>は猛毒を完成させた。<RET_PAGE>
+    "original_byte_length": !!int |-
+      22
+    "references":
+    - "source_addr": !!int |-
+        61217
+      "target_addr": !!int |-
+        29683
+    "translated": !!null |-
+      null
 "note": ""

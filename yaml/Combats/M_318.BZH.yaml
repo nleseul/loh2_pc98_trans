@@ -65,4 +65,21 @@
         29485
     "translated": !!null |-
       null
+  "7344":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      <ACTOR>は自分の体に蓄えた
+      エネルギーを一気に放出した。<RET_N>
+    "original_byte_length": !!int |-
+      49
+    "references":
+    - "source_addr": !!int |-
+        61111
+      "target_addr": !!int |-
+        29508
+    "translated": !!null |-
+      null
 "note": ""
