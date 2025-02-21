@@ -8,12 +8,12 @@
 {% block content %}
     <p><a href="{{url_for('search')}}">Search</a></p>
     {% if files %}
-        <ul>
+        <ul class="flow_list">
         {% for file in files %}
             <li class="index_top_level_item">
                 {% if file.folder_items %}
                     {{file.display_name}}
-                    <ul>
+                    <ul class="flow_list">
                     {% for subfile in file.folder_items %}
                         <li class="index_sub_item {%if subfile.progress >= 1%}translation_done{%elif subfile.progress > 0%}translation_in_progress{%endif%}">
                             <h1><a href="{{url_for('items', folder_key=file.folder_key, file_name=subfile.display_name)}}">{{subfile.display_name}}</a></h1>

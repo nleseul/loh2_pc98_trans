@@ -15,11 +15,11 @@
     {% endif %}
 
     {% if results %}
-        <ul>
+        <ul class="flow_list">
             {% for result in results %}
                 <li class="search-result-item">
                     <div class="search-result-header-wrapper">
-                        <h1 class="search-result-file">{% if result.folder_key %}<span class="search-result-folder-key">{{result.folder_key}}/</span>{% endif %}<span class="search-result-file-name">{{result.file_name}}</span></h1>
+                        <p class="search-result-file">{% if result.folder_key %}<span class="search-result-folder-key">{{result.folder_key}}/</span>{% endif %}<span class="search-result-file-name">{{result.file_name}}</span></p>
                         <h2 class="search-result-key"><a href="{{url_for('edit_item', folder_key=result.folder_key, file_name=result.file_name, key_str=result.key_str)}}">{{result.key_str}}</a></h2>
                     </div>
                     <p class="search-result-extract">{{result.excerpt}}</p>

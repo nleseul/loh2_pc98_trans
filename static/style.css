@@ -64,10 +64,17 @@ textarea {
     margin: 4pt;
 }
 
+.flow_list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0;
+}
+
 .index_top_level_item {
     list-style-type: none;
     background-color: #585050;
-    display: inline-block;
     margin: 4pt;
     padding: 4pt;
     border-radius: 4pt;
@@ -89,7 +96,6 @@ textarea {
 .index_sub_item {
     list-style-type: none;
     background-color: #484040;
-    display: inline-block;
     margin: 4pt;
     padding: 4pt;
     border-radius: 4pt;
@@ -101,7 +107,6 @@ textarea {
 .translation_item_list_item {
     list-style-type: none;
     background-color: #585050;
-    display: inline-block;
     margin: 4pt;
     border-radius: 4pt;
     border-style: groove;
@@ -146,6 +151,7 @@ textarea {
 
 #preview_panel {
     display: inline-grid;
+    margin: 8pt;
 }
 
 #page_number {
@@ -155,8 +161,7 @@ textarea {
 }
 
 #preview_text {
-    grid-row-start: 2;
-    grid-row-end: 4;
+    grid-row: 2;
     grid-column: 1;
     background-color: #585050;
     display: inline-block;
@@ -170,18 +175,16 @@ textarea {
     white-space: nowrap;
 }
 
-#prev_page {
+#page_controls {
     grid-row: 2;
     grid-column: 2;
-}
-
-#next_page {
-    grid-row: 3;
-    grid-column: 2;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
 }
 
 #preview_text_selection {
-    grid-row: 4;
+    grid-row: 3;
     grid-column-start: 1;
     grid-column-end: 3;
 }
@@ -206,12 +209,14 @@ textarea {
 }
 
 #text_entry_panel {
-    display: grid;
+    display: flex;
+    flex-direction: row;
 }
 
 #text_entry_panel textarea {
     resize: none;
     background-color: #dcc;
+    flex-grow: 1;
 }
 
 #original_text {
@@ -293,7 +298,6 @@ textarea {
 .search-result-item {
     list-style-type: none;
     background-color: #585050;
-    display: inline-block;
     margin: 4pt;
     padding: 0;
     border-radius: 4pt;
@@ -333,5 +337,7 @@ textarea {
 
 .search-result-extract {
     font-family: "Migu 2M", monospace;
+    font-size: 10pt;
     padding: 4pt;
+    white-space: pre-line;
 }

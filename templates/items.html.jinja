@@ -11,7 +11,7 @@
         <input type="submit" value="Update note"/>
     </form>
     {% if items %}
-        <ul>
+        <ul class="flow_list">
         {% for item in items %}
             <li class="translation_item_list_item {%if item.translation_done%}translation_done{%elif item.translation_in_progress%}translation_in_progress{%endif%}">
                 {% if item.translation_done%}

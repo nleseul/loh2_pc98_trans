@@ -228,8 +228,10 @@
     <div id="preview_panel">
         <p id="page_number">Page <span id="current_page_number">0</span> of <span id="max_page_number">0</span></p>
         <p id="preview_text"></p>
-        <button id="prev_page" onclick="prevPage();">Prev</button>
-        <button id="next_page" onclick="nextPage();">Next</button>
+        <div id="page_controls">
+            <button id="prev_page" onclick="prevPage();">Prev</button>
+            <button id="next_page" onclick="nextPage();">Next</button>
+        </div>
 
         <div id="preview_text_selection">
             <input type="radio" id="show_original" name="which_text" value="original" onclick="updateText();"/>
