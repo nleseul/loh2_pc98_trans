@@ -237,7 +237,7 @@ def render_text_html(trans:TranslationCollection, entry_point_key:int, max_pages
                 condition_was_true = condition in active_conditions
                 conditions_checked.add(condition)
                 #print(f"Checking condition {condition}... was {condition_was_true}")
-            elif code in [0x0c, 0x13, 0x14, 0x15, 0xf0, 0xf1, 0xf7, 0xf9]:
+            elif code in [0x0c, 0x13, 0x14, 0x15, 0xf0, 0xf1, 0xf5, 0xf7, 0xf9]:
                 # Control codes that don't need to affect text preview rendering.
                 pass
             else:
