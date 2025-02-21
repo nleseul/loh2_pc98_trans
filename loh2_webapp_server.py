@@ -635,3 +635,43 @@ def update_item_text():
     save_trans(folder_key, file_name, trans)
 
     return { }
+
+@app.route("/api/find_similar_items", methods=['POST'])
+def find_similar_items():
+    original_folder_key = flask.request.form['folder_key'] if 'folder_key' in flask.request.form else None
+    original_file_name = flask.request.form['file_name']
+    original_key_str = flask.request.form['key']
+
+    original_trans = load_trans(original_folder_key, original_file_name)
+
+    original_key = int(original_key_str, base=16)
+    original_text = original_trans[original_key].original
+
+    results = []
+
+    for path, dirs, files in os.walk("yaml"):
+        folder_key = path[5:] if len(path) > 5 else None
+
+        for file in files:
+            file_name = file[:-9] if file.endswith("BZH.yaml") else file[:-5]
+
+            trans = TranslationCollection.load(os.path.join(path, file))
+
+            for key in trans.keys:
+                if key == original_key and file_name == original_file_name and folder_key == original_folder_key:
+                    continue
+
+                entry = trans[key]
+                if entry.translated is not None and len(entry.translated) > 0 and entry.original == original_text:
+                    results.append( {
+                        'folder_key': folder_key,
+                        'file_name': file_name,
+                        'key': f"{key:04x}",
+                        'original': entry.original,
+                        'translated': entry.translated
+                    })
+
+                    break
+
+    return results
+

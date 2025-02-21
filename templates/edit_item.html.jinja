@@ -151,6 +151,55 @@
             fetch(apiUrl, { method: 'POST', body: formData })
                 .then(response => updateText());
         }
+
+        function findSimilar()
+        {
+            const apiUrl = {{ url_for('find_similar_items')|tojson }};
+
+            var resultsRoot = document.getElementById('find_similar_results');
+            resultsRoot.replaceChildren();
+
+            formData = new FormData();
+            {% if folder_key %}
+                formData.append("folder_key", "{{folder_key}}");
+            {% endif %}
+            formData.append("file_name", "{{file_name}}");
+            formData.append("key", "{{key_str}}");
+
+            fetch(apiUrl, { method: 'POST', body: formData })
+                .then(response => response.json())
+                .then(json => {
+                    var resultsRoot = document.getElementById('find_similar_results');
+                    var resultTemplate = document.getElementById("find_similar_item_template")
+
+                    for (var result of json)
+                    {
+                        var resultItem = resultTemplate.content.cloneNode(true);
+                        resultItem.querySelector(".find_similar_result_original").innerText = result['original']
+                        resultItem.querySelector(".find_similar_result_translated").innerText = result['translated']
+
+                        var resultLink = resultItem.querySelector(".find_similar_result_link");
+                        resultLink.innerText = result['file_name'] + "/" + result['key']
+                        resultLink.href = "/edit_item/"
+                            + (result['folder_key'] == undefined ? "" : result['folder_key'] + "/")
+                            + result['file_name'] + "/"
+                            + result['key'];
+
+                        resultsRoot.appendChild(resultItem);
+                    }
+
+                });
+        }
+
+        function useSimilarResult(clickedButton)
+        {
+            var resultItem = clickedButton.parentElement;
+            var textToUse = resultItem.querySelector(".find_similar_result_translated").innerText;
+
+            document.getElementById('translated_text').value = textToUse;
+
+            handleTranslationChanged();
+        }
     </script>
 {% endblock %}
 
@@ -179,8 +228,10 @@
     <div id="preview_panel">
         <p id="page_number">Page <span id="current_page_number">0</span> of <span id="max_page_number">0</span></p>
         <p id="preview_text"></p>
-        <button id="prev_page" onclick="prevPage();">Prev</button>
-        <button id="next_page" onclick="nextPage();">Next</button>
+        <div id="page_controls">
+            <button id="prev_page" onclick="prevPage();">Prev</button>
+            <button id="next_page" onclick="nextPage();">Next</button>
+        </div>
 
         <div id="preview_text_selection">
             <input type="radio" id="show_original" name="which_text" value="original" onclick="updateText();"/>
@@ -204,6 +255,19 @@
     <div id="text_entry_panel">
         <textarea id="original_text" rows="15" onscroll="document.getElementById('translated_text').scrollTop = document.getElementById('original_text').scrollTop;" readonly>{{original if original else ""}}</textarea>
         <textarea id="translated_text" rows="15" onscroll="document.getElementById('original_text').scrollTop = document.getElementById('translated_text').scrollTop;" onchange="handleTranslationChanged();">{{translation if translation else ""}}</textarea>
+    </div>
+
+    <div>
+        <button onclick="findSimilar();">Find similar</button>
+        <ul id="find_similar_results"></ul>
+        <template id="find_similar_item_template">
+            <li class="find_similar_result">
+                <p><a class="find_similar_result_link"></a></p>
+                <p class="find_similar_result_original"></p>
+                <p class="find_similar_result_translated"></p>
+                <button class="find_similar_result_use_button" onclick="useSimilarResult(this);">Use</button>
+            </li>
+        </template>
     </div>
 
     <p><a href="{{url_for('items', folder_key=folder_key, file_name=file_name)}}">Back</a></p>
