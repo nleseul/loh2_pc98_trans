@@ -227,6 +227,52 @@ textarea {
     display: none;
 }
 
+#find_similar_results {
+    display: flex;
+    flex-direction: row;
+}
+
+.find_similar_result {
+    display: flex;
+    margin: 4pt;
+    padding: 4pt;
+    border-radius: 4pt;
+    border-style: groove;
+    border-width: 1pt;
+    border-color: #222;
+
+}
+
+.find_similar_result_original {
+    background-color: #585050;
+    margin: 4pt;
+    padding: 4pt;
+    border-radius: 4pt;
+    border-style: groove;
+    border-width: 1pt;
+    border-color: #222;
+    font-family: "Migu 2M", monospace;
+    font-size: 10pt;
+    white-space: nowrap;
+}
+
+.find_similar_result_translated {
+    background-color: #585050;
+    margin: 4pt;
+    padding: 4pt;
+    border-radius: 4pt;
+    border-style: groove;
+    border-width: 1pt;
+    border-color: #222;
+    font-family: "Migu 2M", monospace;
+    font-size: 10pt;
+    white-space: nowrap;
+}
+
+.find_similar_result_use_button {
+    align-self: center;
+}
+
 .unknown_tag {
     font-weight:bold;
     color:darkred;
