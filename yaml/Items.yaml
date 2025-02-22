@@ -479,8 +479,8 @@
     "original_byte_length": !!null |-
       null
     "references": []
-    "translated": !!null |-
-      null
+    "translated": |-
+      Disaster Charm
   "8e5b":
     "is_relocatable": !!bool |-
       true

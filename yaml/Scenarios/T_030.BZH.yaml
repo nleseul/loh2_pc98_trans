@@ -244,8 +244,9 @@
         54744
       "target_addr": !!int |-
         24852
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Weapon merchant<C_NONE>
+      Welcome!<RET_N>
   "6131":
     "is_relocatable": !!bool |-
       true
@@ -260,8 +261,8 @@
         54756
       "target_addr": !!int |-
         24881
-    "translated": !!null |-
-      null
+    "translated": |-
+      Come again!
   "613e":
     "is_relocatable": !!bool |-
       true
@@ -278,8 +279,9 @@
         54776
       "target_addr": !!int |-
         24894
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Tool merchant<C_NONE>
+      Welcome! What can I do for you?<RET_N>
   "6176":
     "is_relocatable": !!bool |-
       true
@@ -294,8 +296,8 @@
         54803
       "target_addr": !!int |-
         24950
-    "translated": !!null |-
-      null
+    "translated": |-
+      Please come again!
   "618b":
     "is_relocatable": !!bool |-
       true
@@ -312,8 +314,10 @@
         2344
       "target_addr": !!int |-
         24971
-    "translated": !!null |-
-      null
+    "translated": |-
+      You don't have any room for it.
+
+      <RET>
   "61af":
     "is_relocatable": !!bool |-
       true
@@ -329,8 +333,9 @@
         2346
       "target_addr": !!int |-
         25007
-    "translated": !!null |-
-      null
+    "translated": |-
+      What would you like to buy?
+      <RET_N>
   "61c9":
     "is_relocatable": !!bool |-
       true
@@ -348,8 +353,11 @@
         2348
       "target_addr": !!int |-
         25033
-    "translated": !!null |-
-      null
+    "translated": |-
+      The <ITEM>?
+      Thank you very much!
+
+      <RET>
   "61ee":
     "is_relocatable": !!bool |-
       true
@@ -365,8 +373,9 @@
         2216
       "target_addr": !!int |-
         25070
-    "translated": !!null |-
-      null
+    "translated": |-
+      What would you like to sell?
+      <RET_N>
   "6209":
     "is_relocatable": !!bool |-
       true
@@ -383,8 +392,10 @@
         2218
       "target_addr": !!int |-
         25097
-    "translated": !!null |-
-      null
+    "translated": |2-
+       gold.
+      Will that be okay?
+      <RET_N>
   "6235":
     "is_relocatable": !!bool |-
       true
@@ -401,8 +412,10 @@
         2220
       "target_addr": !!int |-
         25141
-    "translated": !!null |-
-      null
+    "translated": |-
+      That's too bad.
+
+      <RET_N>
   "6247":
     "is_relocatable": !!bool |-
       true
@@ -418,7 +431,8 @@
         2222
       "target_addr": !!int |-
         25159
-    "translated": !!null |-
-      null
+    "translated": |-
+      Thank you very much.
+      <RET_N>
 "note": |-
   Belga - Prologue

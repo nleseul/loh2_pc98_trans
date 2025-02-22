@@ -17,8 +17,12 @@
         54747
       "target_addr": !!int |-
         23564
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Child<C_NONE>
+      <IF0404><JUMP5c4f>I always watch the ships from
+      here. I wonder if one'll come
+      soon?<END>
+      <LOC5c4f>When I grow up, I'm gonna ride theship to other lands.
   "5c8b":
     "is_relocatable": !!bool |-
       true
@@ -42,8 +46,16 @@
         54756
       "target_addr": !!int |-
         23691
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Man<C_NONE>
+      C'mon... The ship here is
+      constantly needing repairs.
+
+      I'm a trader! How can I do
+      business if the ship doesn't come?
+
+      I hope they stop using that old
+      ship and get a new one soon.
   "5d56":
     "is_relocatable": !!bool |-
       true
@@ -67,8 +79,18 @@
         54765
       "target_addr": !!int |-
         23894
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Man<C_NONE>
+      Hey, are you also here to buy
+      some Disaster Charms?
+
+      I bought 2 at first, but then I
+      figured you can never have too
+      many, so now I've ended up buying
+      7 in all.
+
+      So I'll be ready for whatever
+      disaster happens now!
   "5e24":
     "is_relocatable": !!bool |-
       true
@@ -86,8 +108,10 @@
         54774
       "target_addr": !!int |-
         24100
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Woman<C_NONE>
+      I wonder if Disaster Charms reallyhave any effect. That merchant
+      doesn't seem too reputable...
   "5e85":
     "is_relocatable": !!bool |-
       true
@@ -108,8 +132,14 @@
         54783
       "target_addr": !!int |-
         24197
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Old man<C_NONE>
+      These young'uns today, I tell ya!
+      Walkin' around with charms,
+      thinkin' they're so safe...
+
+      Those Disaster Charms are nothin'
+      but a scam! Ridiculous.
   "5f17":
     "is_relocatable": !!bool |-
       true
@@ -149,8 +179,33 @@
         54807
       "target_addr": !!int |-
         24343
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Ro<C_NONE>
+      <IF0020><JUMP609b><SET0020><IF0019><JUMP5f34><SET0021><Xf5700200><LOC5f34>Well, how about that. You came allthe way here on your own?
+
+      By the way, Highness...
+      I don't suppose you've bought
+      any Disaster Charms or anything
+      like that, have you?
+
+      <CH0>
+      <Xf8277417><JUMP60d5>Oh, yeah, I've got one right here.
+
+      <C_YELLOW>Ro<C_NONE>
+      Well, what good do you think a
+      thing like that is going to do?
+      That naivety'll ruin you.
+
+      Well, no use in lecturing you now.But there's all sorts of people inthis world, Highness.<WAIT>
+      So you'd best be careful, 'kay?<END>
+      <LOC609b>You'll worry Selios if you wander
+      around too much.<END>
+      <LOC60d5>No, I haven't bought anything likethat.
+
+      <C_YELLOW>Roh<C_NONE>
+      I'm glad to hear it.
+      There's no reason to go around
+      buying crap like that.
   "614b":
     "is_relocatable": !!bool |-
       true
@@ -288,8 +343,10 @@
         54828
       "target_addr": !!int |-
         26596
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Innkeeper<C_NONE>
+      The King himself once stayed in
+      this inn, you know.
   "6826":
     "is_relocatable": !!bool |-
       true
@@ -308,8 +365,15 @@
         54834
       "target_addr": !!int |-
         26662
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Weapon merchant<C_NONE>
+      I haven't received any materials
+      due to the cave-in at Belga Mine.
+
+      Please come back when the cave-in
+      has been cleared, and I guarantee
+      I'll have some strong weapons for
+      you.
   "68b6":
     "is_relocatable": !!bool |-
       true
@@ -329,7 +393,13 @@
         54840
       "target_addr": !!int |-
         26806
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Tool merchant<C_NONE>
+      Welcome! But I'm afraid you've
+      come at a bad time.
+
+      I haven't received any deliveries
+      from Rondo, so I'm sold out of
+      everything.
 "note": |-
   Neria - Prologue
