@@ -232,8 +232,27 @@
         54816
       "target_addr": !!int |-
         24907
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Man<C_NONE>
+      <IF0023><JUMP621f><IF0022><JUMP6265><IF0404><JUMP621f><IF0021><JUMP61de>If you're waiting here for the
+      ship, I'm afraid it won't be here
+      any time soon.
+
+      It's currently being repaired at
+      Rondo. That's the trouble with
+      having such an old ship.<END>
+      <LOC61de>I understand the repairs to
+      the ship are finally complete.
+      Thank you for your patience.<END>
+      <LOC621f>The ship for Rondo will be
+      departing shortly. Please board atyour earliest convenience.<END>
+      <LOC6265>If you're waiting here for the
+      ship, I'm afraid it won't be here
+      any time soon.
+
+      It's still under repair. That's
+      the trouble with having such
+      an old ship.
   "62d7":
     "is_relocatable": !!bool |-
       true
@@ -263,8 +282,25 @@
         54688
       "target_addr": !!int |-
         25303
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Man<C_NONE>
+      Please have your ticket ready.
+      <PAGE>
+      <Xf8287417><JUMP6444>Will you be boarding the ship?
+      <Xf69229><JUMP6343><Xf9000200><ASM6b26><Xf828af17><JUMP6444><Xf028><SET0400>Handed over the <ITEM>.<SND0103><END>
+      <LOC6343><CLEAR>I see...
+      But, just between us, this is a
+      rather old ship.
+
+      If you go to Rondo, I suspect
+      something will go wrong, and it
+      will need to be repaired.
+
+      So it may be some time before you
+      can return. So I advise you to
+      keep that in mind.<END>
+      <LOC6444>I can't let you board without one.Please purchase your ticket
+      over there.
   "6484":
     "is_relocatable": !!bool |-
       true

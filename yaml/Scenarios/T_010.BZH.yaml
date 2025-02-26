@@ -359,8 +359,49 @@
         54738
       "target_addr": !!int |-
         24815
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Alon<C_NONE>
+      <IF000c><JUMP6448><IF000b><JUMP6360><SET000b>Your Highness!
+      Is something the matter?
+
+      <CH0>
+      Alon! I've been looking for you.
+
+      There was a cave-in at Belga Mine,and they don't have enough people
+      to clear it.
+
+      So the foreman there, Pete, wantedto ask if some people from Crus
+      could come to help.
+
+      <C_YELLOW>Alon<C_NONE>
+      Oh, my. That is a problem.
+
+      I should send some people right
+      away. But I'm still very tired
+      after coming from Crus to Rudia.
+
+      And I'd just settled in for a chathere.
+
+      I'm very sorry, your Highness, butcould I trouble you to convey thisrequest to the people of Crus?
+
+      <CH0>
+      Oh, of course.<WAIT>
+      Please just relax here, Alon.<END>
+      <LOC6360>I apologize for burdening your
+      Highness with this matter.<IF_NOT0012><JUMP6447><SET000c>
+
+      クルスの村の者に 伝えて
+      いただけましたでしょうか？
+
+      <CH0>
+      うん 大丈夫だよ、みんな すぐに
+      行ってくれたみたいだ。
+
+      <C_YELLOW>アロン<C_NONE>
+      それは よかった、王子さま 本当に
+      ありがとうございました。<LOC6447><END>
+      <LOC6448>私は そろそろ クルスに 戻ります。
+      たまには 私の所にも 遊びにいらしてください。
   "6497":
     "is_relocatable": !!bool |-
       true
