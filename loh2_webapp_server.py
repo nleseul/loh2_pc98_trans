@@ -100,6 +100,29 @@ class TextRenderer:
         self._has_active_style = False
 
 
+def make_condition_description(code:int, data:bytes) -> str | None:
+    if code == 0x11 or code == 0x12:
+        return data[::-1].hex()
+    elif code == 0xf2:
+        return f"notEnoughMoney({data[1::-1].hex()})"
+    elif code == 0xf6:
+        loc = int.from_bytes(data, byteorder='little')
+        if loc == 0x1753:
+            return "noRoomInInventory()"
+        elif loc == 0x2992:
+            return "choseNo()"
+        else:
+            return f"asmCheck({loc:04x})"
+    elif code == 0xf8:
+        loc = int.from_bytes(data[1:], byteorder='little')
+        arg = int.from_bytes(data[:1], byteorder='little')
+        if loc == 0x1774:
+            return f"notCarryingItem({arg:02x})"
+        elif loc == 0x17af:
+            return f"notCarryingItem2({arg:02x})"
+        return f"asmCheck({loc:04x},{arg:02x})"
+
+
 def render_text_html(trans:TranslationCollection, entry_point_key:int, max_pages:int|None = None, translated:bool = True, active_conditions:list[str] = []) -> tuple[list[str], list[str]]:
     renderer = TextRenderer(34, 4)
 
@@ -207,12 +230,12 @@ def render_text_html(trans:TranslationCollection, entry_point_key:int, max_pages
                     instruction_index = 0
                 condition_was_true = None
             elif code == 0x11:
-                condition = instruction.data[::-1].hex()
+                condition = make_condition_description(code, instruction.data)
                 condition_was_true = condition not in active_conditions
                 conditions_checked.add(condition)
                 #print(f"Checking condition {condition}... was {condition_was_true} (inverted)")
             elif code == 0x12:
-                condition = instruction.data[::-1].hex()
+                condition = make_condition_description(code, instruction.data)
                 condition_was_true = condition in active_conditions
                 conditions_checked.add(condition)
                 #print(f"Checking condition {condition}... was {condition_was_true}")
@@ -222,10 +245,18 @@ def render_text_html(trans:TranslationCollection, entry_point_key:int, max_pages
                 renderer.change_text_style("text_green")
             elif code == 0x1e:
                 renderer.change_text_style("text_yellow")
+            elif code == 0xf2:
+                # This appears to check if your current gold is at least the
+                # value at the given memory address. Usually paired with 0xf3,
+                # which probably deducts that amount from your current gold.
+                condition = make_condition_description(code, instruction.data)
+                condition_was_true = condition in active_conditions
+                conditions_checked.add(condition)
+                #print(f"Checking condition {condition}... was {condition_was_true}")
             elif code == 0xf6:
                 # I think this is probably making an asm call and checking the return
                 # value of that? Data is the address of the call.
-                condition = f"asmCheck({instruction.data[1::-1].hex()})"
+                condition = make_condition_description(code, instruction.data)
                 condition_was_true = condition in active_conditions
                 conditions_checked.add(condition)
                 #print(f"Checking condition {condition}... was {condition_was_true}")
@@ -233,11 +264,11 @@ def render_text_html(trans:TranslationCollection, entry_point_key:int, max_pages
                 # I think this is probably making an asm call and checking the return
                 # value of that? First byte is a parameter, second two bytes are the
                 # call address. Mostly used for checking if you're carrying an item.
-                condition = f"asmCheck({instruction.data[2:0:-1].hex()},{instruction.data[:1].hex()})"
+                condition = make_condition_description(code, instruction.data)
                 condition_was_true = condition in active_conditions
                 conditions_checked.add(condition)
                 #print(f"Checking condition {condition}... was {condition_was_true}")
-            elif code in [0x0c, 0x13, 0x14, 0x15, 0xf0, 0xf1, 0xf5, 0xf7, 0xf9]:
+            elif code in [0x0c, 0x13, 0x14, 0x15, 0xf0, 0xf1, 0xf3, 0xf5, 0xf7, 0xf9]:
                 # Control codes that don't need to affect text preview rendering.
                 pass
             else:
@@ -508,12 +539,9 @@ def edit_item(file_name, key_str, folder_key=None):
             encoded, _, _ = encode_event_string(item.original)
             for instruction in disassemble_event(encoded, k, k):
                 if isinstance(instruction, DS6CodeInstruction):
-                    if instruction.code == 0x11 or instruction.code == 0x12:
-                        conditions.add(instruction.data[::-1].hex())
-                    elif instruction.code == 0xf6:
-                        conditions.add(f"asmCheck({instruction.data[1::-1].hex()})")
-                    elif instruction.code == 0xf8:
-                        conditions.add(f"asmCheck({instruction.data[2:0:-1].hex()},{instruction.data[:1].hex()})")
+                    condition_str = make_condition_description(instruction.code, instruction.data)
+                    if condition_str is not None:
+                        conditions.add(condition_str)
     condition_list = sorted(conditions)
 
     current_item_info = trans[key]
