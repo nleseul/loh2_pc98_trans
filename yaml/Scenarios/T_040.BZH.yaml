@@ -335,8 +335,32 @@
         54798
       "target_addr": !!int |-
         25732
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Shady merchant<C_NONE>
+      <IF0025><JUMP65e3>Heh heh heh...
+      Interested in an Disaster Charm?
+
+      As long as you carry it, you'll
+      be safe, even if there's another
+      earthquake.
+      Only 300 gold apiece!
+
+      <Xf027><Xf65317><JUMP6566><Xf25c66><JUMP6594>Buy a <ITEM>?
+      <Xf69229><JUMP65c1><SET0025><Xf127><Xf35c66>Ah, excellent. That was my
+      last charm.
+      Do come again!<END>
+      <LOC6566>Ah, but you can't carry any more.
+      Do come back later!<END>
+      <LOC6594>But you can't afford one.
+      Come again when you've earned
+      some cash!<END>
+      <LOC65c1>If you aren't here to buy, then
+      move along.<END>
+      <LOC65e3>I've sold out of Disaster Charms,
+      I'm afraid.
+
+      They sold quite well, so I'll haveto acquire some more inventory.
+      Do wait until then.
   "6660":
     "is_relocatable": !!bool |-
       true
@@ -361,8 +385,23 @@
         54822
       "target_addr": !!int |-
         26208
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Woman<C_NONE>
+      Welcome. If you will be boarding
+      the ship, please buy your ticket
+      here. They are 100 gold each.
+
+      <Xf2e067><JUMP6791><Xf65317><JUMP67b0>Will you be buying a ticket?<Xf69229><JUMP6745><Xf3e067><Xf128><ASMd63d><CLEAR>You won't be able to board the
+      ship without your ticket, so
+      please take care not to lose it.<END>
+      <LOC6745><CLEAR>Oh, I see...
+      But if you don't have a ticket,
+      you won't be able to board the
+      ship. You know that, right?<END>
+      <LOC6791>But I'm afraid you don't have
+      enough money for one.<END>
+      <LOC67b0>But it doesn't look like you're
+      able to carry any more.
   "67e4":
     "is_relocatable": !!bool |-
       true

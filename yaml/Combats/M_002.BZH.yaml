@@ -11,8 +11,8 @@
     "original_byte_length": !!int |-
       13
     "references": []
-    "translated": !!null |-
-      null
+    "translated": |-
+      Red Slime A<RET>
   "71b0":
     "is_relocatable": !!bool |-
       false
@@ -23,8 +23,8 @@
     "original_byte_length": !!int |-
       15
     "references": []
-    "translated": !!null |-
-      null
+    "translated": |-
+      Red Slime A'<RET>
   "71f0":
     "is_relocatable": !!bool |-
       false
@@ -35,8 +35,8 @@
     "original_byte_length": !!int |-
       13
     "references": []
-    "translated": !!null |-
-      null
+    "translated": |-
+      Red Slime B<RET>
   "7230":
     "is_relocatable": !!bool |-
       false
@@ -47,8 +47,8 @@
     "original_byte_length": !!int |-
       15
     "references": []
-    "translated": !!null |-
-      null
+    "translated": |-
+      Red Slime B"<RET>
   "75bf":
     "is_relocatable": !!bool |-
       true
@@ -63,8 +63,8 @@
         61000
       "target_addr": !!int |-
         30143
-    "translated": !!null |-
-      null
+    "translated": |-
+      A red slime appears.<RET_N>
   "75d4":
     "is_relocatable": !!bool |-
       true
@@ -83,8 +83,9 @@
         61448
       "target_addr": !!int |-
         30164
-    "translated": !!null |-
-      null
+    "translated": |2-
+       splits in two,
+      <RET>
   "75e6":
     "is_relocatable": !!bool |-
       true
@@ -103,8 +104,8 @@
         61464
       "target_addr": !!int |-
         30182
-    "translated": !!null |-
-      null
+    "translated": |-
+      and becomes <ACTOR> and<RET>
   "75ea":
     "is_relocatable": !!bool |-
       true
@@ -123,7 +124,7 @@
         61482
       "target_addr": !!int |-
         30186
-    "translated": !!null |-
-      null
+    "translated": |-
+      <ACTOR>.<RET_PAGE>
 "note": |-
   Red slimes - Prologue

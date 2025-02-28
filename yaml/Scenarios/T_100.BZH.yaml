@@ -24,8 +24,17 @@
         54857
       "target_addr": !!int |-
         23986
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Captain<C_NONE>
+      <IF_NOT0404><JUMP5e64><UNSET0404>Damn it! This rotten old tub...
+      I've gotta have it repaired again.
+
+      <ASMd805>I'm sorry, but I'm gonna need
+      to cancel the return trip.
+      Gotta fix this old tub first.
+      <END>
+      <LOC5e64>I give up.
+      I'm done with that ship.
   "5e98":
     "is_relocatable": !!bool |-
       true
@@ -55,8 +64,24 @@
         54834
       "target_addr": !!int |-
         24216
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Dabar<C_NONE>
+      Hey, kid. Haven't seen you around
+      before.
+
+      <C_YELLOW>Jabar<C_NONE>
+      Me an' my brothers wants to
+      order drinks, but we hasn't
+      got no money, ya see.
+
+      <C_YELLOW>Gobar<C_NONE>
+      <Xf22560><JUMP5f54><Xf8287417><JUMP5fe9>Oh, a ticket, too?
+      <JUMP5fe9><LOC5f54><Xf8287417><JUMP5f9d>What? You neither?
+      Oh, how about that ticket?
+
+      <JUMP5fe9><LOC5f9d>What? Nothin' of value on you?
+      C'mon, where're ya hidin' it?<JUMP601e><LOC5fe9>Ha ha, don't worry!
+      We'll pay ya back soon.<SND010b><LOC601e><ASMd826><SET0028>
   "602d":
     "is_relocatable": !!bool |-
       true
@@ -94,8 +119,32 @@
         54848
       "target_addr": !!int |-
         24621
-    "translated": !!null |-
-      null
+    "translated": |-
+      <CH1>
+      Hey! You guys shouldn't be
+      botherin' kids.
+
+      <C_YELLOW>Dabar<C_NONE>
+      What? Why do you care?<WAIT>
+      <C_YELLOW>Jabar<C_NONE>
+      Yeah, dad. Butt out.
+
+      <CH1>
+      What did you say?<WAIT>
+      Who are you callin' "dad"?
+
+      <C_YELLOW>Gobar<C_NONE>
+      This guy's bein' a pest.
+      Let's get rid of him.
+
+      <C_GREEN>At that point, Landor cast a Flam
+      spell.<C_NONE><WAIT>
+      <SND0117><ASMd83c><CLEAR><C_YELLOW>Gobar<C_NONE>
+      Arrgh!!<WAIT>
+      <CH1>
+      Hey! Over here!!<WAIT>
+      <ASMd874><CLEAR><C_YELLOW>Dabar<C_NONE>
+      Dammit! Get back here!!
   "6198":
     "is_relocatable": !!bool |-
       true
@@ -115,8 +164,14 @@
         54866
       "target_addr": !!int |-
         24984
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Bob, repairman<C_NONE>
+      I just finished repairs on it,
+      but now I have to repair it again.
+
+      I wish the captain would stop
+      messing around and get a new
+      ship.
   "6225":
     "is_relocatable": !!bool |-
       true
@@ -133,8 +188,10 @@
         54875
       "target_addr": !!int |-
         25125
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Man<C_NONE>
+      Some disgusting red slimes have
+      been spreading around here lately.
   "626d":
     "is_relocatable": !!bool |-
       true
@@ -170,8 +227,31 @@
         54893
       "target_addr": !!int |-
         25197
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Old man<C_NONE>
+      There used to be a place called
+      the Bloody Cave east of here.
+
+      There were some awful monsters
+      living there, and it got to the
+      point that people were sacrificingkids to 'em.
+
+      But then one day, four young
+      people came and got rid of those
+      horrible monsters.
+
+      And then, not long after that,
+      King Selios of Farleyn and his
+      companions saved the world.
+
+      That's when we finally realized.
+      Those four had been the very same
+      heroes, including King Selios
+      himself.
+
+      People in town here felt uneasy
+      leaving the Bloody Cave there, so
+      they buried it in a hurry.
   "6489":
     "is_relocatable": !!bool |-
       true
@@ -188,8 +268,11 @@
         54884
       "target_addr": !!int |-
         25737
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Man<C_NONE>
+      All the weapon merchant sells is
+      antiques. He doesn't get many
+      customers, so he's struggling.
   "64ef":
     "is_relocatable": !!bool |-
       true
@@ -218,8 +301,7 @@
         54899
       "target_addr": !!int |-
         25839
-    "translated": !!null |-
-      null
+    "translated": ""
   "665b":
     "is_relocatable": !!bool |-
       true
@@ -273,8 +355,10 @@
         54917
       "target_addr": !!int |-
         26677
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Weapon merchant<C_NONE>
+      Welcome! All I've got is some
+      old weapons, though.<RET_N>
   "6865":
     "is_relocatable": !!bool |-
       true
@@ -289,8 +373,8 @@
         54929
       "target_addr": !!int |-
         26725
-    "translated": !!null |-
-      null
+    "translated": |-
+      Come again!
   "6872":
     "is_relocatable": !!bool |-
       true
@@ -307,8 +391,9 @@
         54958
       "target_addr": !!int |-
         26738
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Tool merchant<C_NONE>
+      Welcome! What can I do for you?<RET_N>
   "68aa":
     "is_relocatable": !!bool |-
       true
@@ -330,8 +415,11 @@
         54985
       "target_addr": !!int |-
         26863
-    "translated": !!null |-
-      null
+    "translated": |
+      <C_YELLOW>Tool merchant<C_NONE>
+      Those hoodlums have stolen all
+      my stock, so I'm closed now.
+      <LOC68ef>Please come again.
   "6904":
     "is_relocatable": !!bool |-
       true
@@ -348,8 +436,10 @@
         4258
       "target_addr": !!int |-
         26884
-    "translated": !!null |-
-      null
+    "translated": |-
+      You don't have any room for it.
+
+      <RET>
   "6928":
     "is_relocatable": !!bool |-
       true
@@ -365,8 +455,9 @@
         4260
       "target_addr": !!int |-
         26920
-    "translated": !!null |-
-      null
+    "translated": |-
+      What would you like to buy?
+      <RET_N>
   "6942":
     "is_relocatable": !!bool |-
       true
@@ -384,8 +475,11 @@
         4262
       "target_addr": !!int |-
         26946
-    "translated": !!null |-
-      null
+    "translated": |-
+      The <ITEM>?
+      Thank you very much!
+
+      <RET>
   "6967":
     "is_relocatable": !!bool |-
       true
@@ -401,8 +495,9 @@
         4129
       "target_addr": !!int |-
         26983
-    "translated": !!null |-
-      null
+    "translated": |-
+      What would you like to sell?
+      <RET_N>
   "6982":
     "is_relocatable": !!bool |-
       true
@@ -419,8 +514,10 @@
         4131
       "target_addr": !!int |-
         27010
-    "translated": !!null |-
-      null
+    "translated": |-
+      gold.
+      Will that be okay?
+      <RET_N>
   "69ae":
     "is_relocatable": !!bool |-
       true
@@ -437,8 +534,10 @@
         4133
       "target_addr": !!int |-
         27054
-    "translated": !!null |-
-      null
+    "translated": |-
+      That's too bad.
+
+      <RET_N>
   "69c0":
     "is_relocatable": !!bool |-
       true
@@ -454,6 +553,8 @@
         4135
       "target_addr": !!int |-
         27072
-    "translated": !!null |-
-      null
-"note": ""
+    "translated": |-
+      Thank you very much.
+      <RET_N>
+"note": |-
+  Rondo - Prologue

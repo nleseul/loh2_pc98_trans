@@ -206,12 +206,10 @@
 
       I bet old Alon out in Crus would
       weep with happiness if he saw sucha gallant prince.<END>
-      <LOC5ee7><IF_NOT0404><JUMP5f4b>アロン殿は 王子さまが もうすぐ
-      １６才に なられるので お祝いの
-      あいさつを してきたそうですよ。<END>
-      <LOC5f4b>アロン殿は 王子さまが クルスまで
-      会いに 行かれたことを とても
-      よろこんで おりました。
+      <LOC5ee7><IF_NOT0404><JUMP5f4b>Alon came for a celebratory visit,in honor of your Highness's
+      coming 16th birthday.<END>
+      <LOC5f4b>Alon was very happy that your
+      Highness came to visit him in Crus.
   "5fa1":
     "is_relocatable": !!bool |-
       true
@@ -390,18 +388,19 @@
       <LOC6360>I apologize for burdening your
       Highness with this matter.<IF_NOT0012><JUMP6447><SET000c>
 
-      クルスの村の者に 伝えて
-      いただけましたでしょうか？
+      Have you let them know of this
+      in Crus yet?
 
       <CH0>
-      うん 大丈夫だよ、みんな すぐに
-      行ってくれたみたいだ。
+      Yeah, it went fine. It sounded
+      like they'll be leaving soon.
 
-      <C_YELLOW>アロン<C_NONE>
-      それは よかった、王子さま 本当に
-      ありがとうございました。<LOC6447><END>
-      <LOC6448>私は そろそろ クルスに 戻ります。
-      たまには 私の所にも 遊びにいらしてください。
+      <C_YELLOW>Alon<C_NONE>
+      I'm glad to hear it. Thank you
+      so much, your Highness.<LOC6447><END>
+      <LOC6448>I'll be going back to Crus soon.
+      Please come and see me once in
+      a while.
   "6497":
     "is_relocatable": !!bool |-
       true

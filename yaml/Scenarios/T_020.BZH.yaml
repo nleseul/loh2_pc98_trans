@@ -98,18 +98,11 @@
         54673
       "target_addr": !!int |-
         23945
-    "translated": |-
-      <C_YELLOW>Man<C_NONE>
-      <IF000b><JUMP5e0b>I never thought there'd be a
-      dragonsegg buried right there.
-
-      The Goddess Freya appears inside
-      those things, right?<END>
-      <LOC5e0b><SET0012><ASMd6ec>なに ピートが 復旧作業を 手伝いに
-      来いと 言っているのか。
-      あの地震は すごかったからな ･ ･ ･
-
-      よし 村の者を連れて 手伝いに行こう。ぼうず、わざわざ すまなかったな。
+    "translated": "<C_YELLOW>Man<C_NONE>\n<IF000b><JUMP5e0b>I never thought there'd\
+      \ be a\ndragonsegg buried right there.\n\nThe Goddess Freya appears inside\n\
+      those things, right?<END>\n<LOC5e0b><SET0012><ASMd6ec>What? Pete wants us to\
+      \ come help\nclear a cave-in?\nWow, that earthquake...\n\nAll right, I'll take\
+      \ some people \nout there. Thanks for letting\nus know, kid!"
   "5eb3":
     "is_relocatable": !!bool |-
       true
@@ -170,11 +163,12 @@
       But he left the castle a few yearsago. Now he lives alone here, and sits in the sun all day long. It'shard to believe who he used to be.<END>
       <LOC5fd9>If you're looking for Alon, he
       said he was going to Rudia.<END>
-      <LOC600f>まあ、ピートさんが 困ってるの？
-      それなら うらの畑にいる男の人に
-      言ってごらんなさい。<END>
-      <LOC6064>ピートさんも大変ね。
-      早く 鉱山が 復旧すればいいけど。
+      <LOC600f>Oh, Pete needs help?
+      You should let the men out in the
+      fields know.<END>
+      <LOC6064>This must be rough on Pete.
+      I hope they can re-open the mine
+      soon.
   "609a":
     "is_relocatable": !!bool |-
       true

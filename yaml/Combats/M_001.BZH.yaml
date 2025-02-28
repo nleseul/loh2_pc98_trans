@@ -11,8 +11,8 @@
     "original_byte_length": !!int |-
       16
     "references": []
-    "translated": !!null |-
-      null
+    "translated": |-
+      Yolkslime A<RET>
   "71b0":
     "is_relocatable": !!bool |-
       false
@@ -23,8 +23,8 @@
     "original_byte_length": !!int |-
       16
     "references": []
-    "translated": !!null |-
-      null
+    "translated": |-
+      Yolkslime B<RET>
   "71f0":
     "is_relocatable": !!bool |-
       false
@@ -35,8 +35,8 @@
     "original_byte_length": !!int |-
       16
     "references": []
-    "translated": !!null |-
-      null
+    "translated": |-
+      Yolkslime C<RET>
   "7230":
     "is_relocatable": !!bool |-
       false
@@ -47,8 +47,8 @@
     "original_byte_length": !!int |-
       16
     "references": []
-    "translated": !!null |-
-      null
+    "translated": |-
+      Yolkslime D<RET>
   "72fc":
     "is_relocatable": !!bool |-
       true
@@ -63,8 +63,8 @@
         61000
       "target_addr": !!int |-
         29436
-    "translated": !!null |-
-      null
+    "translated": |-
+      Yolkslimes appear.<RET_N>
   "7315":
     "is_relocatable": !!bool |-
       true
@@ -79,7 +79,8 @@
         61096
       "target_addr": !!int |-
         29461
-    "translated": !!null |-
-      null
+    "translated": |2-
+       gazes coldly at
+      <ACTOR>.
 "note": |-
   Yolkslimes - Prologue

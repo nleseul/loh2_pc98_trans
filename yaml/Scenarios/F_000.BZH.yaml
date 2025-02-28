@@ -95,8 +95,8 @@
         56478
       "target_addr": !!int |-
         25235
-    "translated": !!null |-
-      null
+    "translated": |2-
+       Rondo Harbor <RET_N>
   "62a2":
     "is_relocatable": !!bool |-
       true
@@ -111,8 +111,8 @@
         56490
       "target_addr": !!int |-
         25250
-    "translated": !!null |-
-      null
+    "translated": |2-
+       Larfa Harbor <RET_N>
   "62b1":
     "is_relocatable": !!bool |-
       true
@@ -143,8 +143,8 @@
         56514
       "target_addr": !!int |-
         25280
-    "translated": !!null |-
-      null
+    "translated": |2-
+         Maschun    <RET_N>
   "62cf":
     "is_relocatable": !!bool |-
       true
@@ -159,8 +159,8 @@
         56526
       "target_addr": !!int |-
         25295
-    "translated": !!null |-
-      null
+    "translated": |2-
+          Riezel    <RET_N>
   "62de":
     "is_relocatable": !!bool |-
       true
