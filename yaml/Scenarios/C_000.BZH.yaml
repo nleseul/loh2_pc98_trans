@@ -47,7 +47,7 @@
     "translated": |-
       <IF0406><JUMP5b8c><C_YELLOW>Rauel, royal tutor<C_NONE>
       <IF0405><JUMP5b33><UNSET0404>How was that, your Highness?<END>
-      <LOC5b33><UNSET0405>I have brought Prince At?las.
+      <LOC5b33><UNSET0405>I have brought Prince Atlas.
 
       <C_YELLOW>Soldier<C_NONE>
       Thank you, Rauel.

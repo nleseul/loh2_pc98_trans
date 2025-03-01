@@ -43,10 +43,10 @@
       But at some point, spell tomes
       began being sold. And so, there
       are few duties left to sages now.<END>
-      <LOC5c6d><IF_NOT001b><JUMP5cbe>Welcome, Prince At?las.
+      <LOC5c6d><IF_NOT001b><JUMP5cbe>Welcome, Prince Atlas.
       Please be careful not to lose
       that Res tome.<END>
-      <LOC5cbe>Welcome, Prince At?las.<SET001b><Xf8977417><JUMP5d3f>
+      <LOC5cbe>Welcome, Prince Atlas.<SET001b><Xf8977417><JUMP5d3f>
       Oh, did you already purchase a
       Res tome?
 
