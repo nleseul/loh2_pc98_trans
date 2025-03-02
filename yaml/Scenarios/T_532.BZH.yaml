@@ -71,6 +71,70 @@
         24639
     "translated": !!null |-
       null
+  "6110":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      アフル<RET>
+    "original_byte_length": !!int |-
+      7
+    "references":
+    - "source_addr": !!int |-
+        55740
+      "target_addr": !!int |-
+        24848
+    "translated": !!null |-
+      null
+  "6117":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      イズー<RET>
+    "original_byte_length": !!int |-
+      7
+    "references":
+    - "source_addr": !!int |-
+        55750
+      "target_addr": !!int |-
+        24855
+    "translated": !!null |-
+      null
+  "611e":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      キュベラ<RET>
+    "original_byte_length": !!int |-
+      9
+    "references":
+    - "source_addr": !!int |-
+        55757
+      "target_addr": !!int |-
+        24862
+    "translated": !!null |-
+      null
+  "6127":
+    "is_relocatable": !!bool |-
+      true
+    "max_byte_length": !!null |-
+      null
+    "original": |-
+      ウイル<RET>
+    "original_byte_length": !!int |-
+      7
+    "references":
+    - "source_addr": !!int |-
+        55764
+      "target_addr": !!int |-
+        24871
+    "translated": !!null |-
+      null
   "612e":
     "is_relocatable": !!bool |-
       true
