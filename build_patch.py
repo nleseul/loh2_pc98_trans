@@ -1,6 +1,8 @@
+import configparser
 from dataclasses import dataclass
 import ips_util
 import os
+from tempfile import NamedTemporaryFile
 
 from compression_util import compress_bzh
 from ds6_event_util import *
@@ -116,6 +118,38 @@ class SpacePool:
             patch.add_rle_record(span.start, b'\x00', span.end - span.start + 1)
 
 
+def patch_asm(patch:ips_util.Patch, nasm_path:str, base_addr:int, max_length:int, asm_code:str|bytes) -> None:
+    if isinstance(asm_code, str):
+        with NamedTemporaryFile(mode="w+", delete=False) as src_file, NamedTemporaryFile(mode="rb", delete=False) as dest_file:
+            src_file_name = src_file.name
+            dest_file_name = dest_file.name
+
+            src_file.write("BITS 16\n")
+            src_file.write(f"org 0x{base_addr:04x}\n\n")
+            src_file.write(asm_code)
+
+        if not os.path.exists(nasm_path):
+            raise Exception(f"NASM is not available at the path {nasm_path}!")
+
+        os.system(f"\"{nasm_path}\" {src_file.name} -o {dest_file_name}")
+
+        with open(dest_file_name, "rb") as dest_file:
+            encoded = dest_file.read()
+
+        os.remove(src_file_name)
+        os.remove(dest_file_name)
+
+    else:
+        encoded = asm_code
+
+    print(f"Encoding asm patch at {base_addr:04x} ({len(encoded)}/{max_length} bytes)")
+
+    if len(encoded) > max_length:
+        raise Exception(f"Not enough space to patch asm code at {base_addr}! available={max_length} bytes; used={len(encoded)} bytes")
+
+    patch.add_record(base_addr, encoded.ljust(max_length, b'\x90'))
+
+
 def add_table_to_patch(patch:ips_util.Patch, trans:TranslationCollection, pad_length:int|None = None) -> None:
     for key in trans.keys:
         entry = trans[key]
@@ -199,6 +233,96 @@ def make_program_data_patch() -> ips_util.Patch:
 
     patch_locations(patch, TranslationCollection.load("yaml/Locations.yaml"))
     patch_menus(patch, TranslationCollection.load("yaml/Menus.yaml"))
+
+    return patch
+
+
+def make_opening_data_patch(nasm_path:str) -> ips_util.Patch:
+    trans = TranslationCollection.load("yaml/Opening.yaml")
+    if trans.empty:
+        return None
+
+    entry = trans[0x3dc2]
+    opening_text = entry.translated
+    if opening_text is None or len(opening_text) == 0:
+        opening_text = entry.original
+
+    patch = ips_util.Patch()
+
+    encoded_text = b''
+
+    pages = opening_text.split("<PAGE>\n")
+
+    while len(pages[-1]) == 0:
+        pages = pages[:-1]
+
+    if len(pages) != 5:
+        raise Exception(f"Opening text should have 5 pages, but translated text has {len(pages)} pages")
+
+    for page_text in pages:
+        lines = page_text.split("\n")
+        for line_text in lines:
+            leading_space_count = 0
+            while len(line_text) > 0 and line_text[0] == " ":
+                leading_space_count += 1
+                line_text = line_text[1:]
+            encoded_text += leading_space_count.to_bytes(1, byteorder='little')
+            encoded_text += line_text.encode('cp932')
+            encoded_text += b'\x00'
+        encoded_text += b'\xff'
+
+    if len(encoded_text) > entry.original_byte_length:
+        raise Exception(f"Opening text is too long! length={len(encoded_text)} bytes, available={entry.original_byte_length} bytes")
+
+    encoded_text = encoded_text.ljust(entry.original_byte_length, b'\xff')
+    patch.add_record(0x3dc2, encoded_text)
+
+    # Update the text loading routine to expect half-width characters.
+    # Note that the text encoding this reads differs from the original game code.
+    # Originally, the game stored leading indentations as space characters. Since we
+    # need space characters to function as actual spaces, we change the format
+    # so that the indentation length is just given by a byte at the beginning of
+    # each line.
+    patch_asm(patch, nasm_path, 0x0bf3, 0x58, '''
+    start_line:
+        xor ax,ax
+        lodsb
+        cmp al,0xff
+        jz handle_endpage
+
+        mov word [bp+0x0],ax
+        inc bp
+        inc bp
+        add di,ax
+
+    read_char:
+        lodsb
+        cmp al,0x0
+        jz handle_newline
+
+        mov ah,0x0a
+        int 0x41
+        inc di
+        inc word [0x75de]
+        jmp read_char
+
+    handle_newline:
+        mov di,word [0x75dc]
+        add word [0x75dc],0x780
+        mov ax,[0x75de]
+        inc ax
+        shr ax,1
+        mov word[bp+0x0],ax
+        inc bp
+        inc bp
+        mov word [0x75de],0x0
+        jmp start_line
+
+    handle_endpage:
+        mov word[bp+0x0],0xffff
+        ret
+
+    ''')
 
     return patch
 
@@ -288,7 +412,11 @@ def make_data_file_patch(yaml_path:str, code_base_addr:int, event_base_addr:int,
     return patch
 
 
-if __name__ == "__main__":
+def main() -> None:
+    configfile = configparser.ConfigParser(interpolation=configparser.ExtendedInterpolation())
+    configfile.read("loh2_patch.conf")
+    config = configfile["Common"]
+
     decompressed_output_path_base = "local/decompressed"
     modified_output_path_base = "local/modified"
     recompressed_output_path_base = "local/recompressed"
@@ -300,27 +428,32 @@ if __name__ == "__main__":
 
             print(modified_path)
 
-            with open(file_path, 'rb') as in_file:
-                file_data = in_file.read()
-            patch = None
+            try:
+                with open(file_path, 'rb') as in_file:
+                    file_data = in_file.read()
+                patch = None
 
-            if modified_path.endswith("PROG.BZH.bin"):
-                patch = make_program_data_patch()
-            elif modified_path.startswith("local/modified/MON/"):
-                base_name = os.path.splitext(os.path.basename(file_path))[0]
-                yaml_path = os.path.join("yaml/Combats", f"{base_name}.yaml")
-                patch = make_data_file_patch(yaml_path, 0xed40, 0x7140)
-            elif modified_path.startswith("local/modified/SCENA/"):
-                base_name = os.path.splitext(os.path.basename(file_path))[0]
-                yaml_path = os.path.join("yaml/Scenarios", f"{base_name}.yaml")
-                patch = make_data_file_patch(yaml_path, 0xd53e, 0x593e)
+                if modified_path.endswith("PROG.BZH.bin"):
+                    patch = make_program_data_patch()
+                elif modified_path.endswith("OPENING.BZH.bin"):
+                    patch = make_opening_data_patch(config["NasmPath"])
+                elif modified_path.startswith("local/modified/MON/"):
+                    base_name = os.path.splitext(os.path.basename(file_path))[0]
+                    yaml_path = os.path.join("yaml/Combats", f"{base_name}.yaml")
+                    patch = make_data_file_patch(yaml_path, 0xed40, 0x7140)
+                elif modified_path.startswith("local/modified/SCENA/"):
+                    base_name = os.path.splitext(os.path.basename(file_path))[0]
+                    yaml_path = os.path.join("yaml/Scenarios", f"{base_name}.yaml")
+                    patch = make_data_file_patch(yaml_path, 0xd53e, 0x593e)
 
-            if patch is not None:
-                patched_data = patch.apply(file_data)
+                if patch is not None:
+                    patched_data = patch.apply(file_data)
 
-                os.makedirs(os.path.dirname(modified_path), exist_ok=True)
-                with open(modified_path, 'w+b') as out_file:
-                    out_file.write(patched_data)
+                    os.makedirs(os.path.dirname(modified_path), exist_ok=True)
+                    with open(modified_path, 'w+b') as out_file:
+                        out_file.write(patched_data)
+            except Exception as e:
+                print(f"  Failed to patch file! {e}")
     print()
 
     for path, dirs, files in os.walk(modified_output_path_base):
@@ -340,3 +473,5 @@ if __name__ == "__main__":
                 out_file.write(compressed_data)
     print()
 
+if __name__ == "__main__":
+    main()
