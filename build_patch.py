@@ -42,26 +42,21 @@ class SpacePool:
             raise Exception("Start must come before end!")
 
         should_append = True
-        #if self._overflow_current is not None and end + 1 >= self._overflow_current:
-        #    if end > self._overflow_current + 1:
-        #        print(f"    Space from {start:04x} to {end:04x} overlaps with overflow starting at {self._overflow_current:04x}")
-        #    self._overflow_current = start
-        #else:
-        if True:
-            for span_index, span in enumerate(self._available_spans):
-                if end < span.start:
-                    self._available_spans.insert(span_index, SpacePool.Span(start, end))
-                    should_append = False
-                    break
-                elif start >= span.start and start <= span.end:
-                    print(f"    Space from {start:04x} to {end:04x} overlaps with existing space from {span.start:04x} to {span.end:04x}")
-                    span.end = max(span.end, end)
-                    should_append = False
-                    break
-                elif start == span.end + 1:
-                    span.end = end
-                    should_append = False
-                    break
+
+        for span_index, span in enumerate(self._available_spans):
+            if end < span.start:
+                self._available_spans.insert(span_index, SpacePool.Span(start, end))
+                should_append = False
+                break
+            elif start >= span.start and start <= span.end:
+                print(f"    Space from {start:04x} to {end:04x} overlaps with existing space from {span.start:04x} to {span.end:04x}")
+                span.end = max(span.end, end)
+                should_append = False
+                break
+            elif start == span.end + 1:
+                span.end = end
+                should_append = False
+                break
 
         if should_append:
             self._available_spans.append(SpacePool.Span(start, end))
@@ -113,10 +108,22 @@ class SpacePool:
         print(f"  {self._overflow_current:04x}~     (Overflow)")
         print()
 
-    def patch_leftover_space(self, patch:ips_util.Patch) -> None:
+    def get_leftover_spans(self) -> list[tuple[int, int]]:
+        out_spans = []
         for span in self._available_spans:
-            patch.add_rle_record(span.start, b'\x00', span.end - span.start + 1)
+            out_spans.append((span.start, span.end))
 
+        if self._overflow_start is not None and self._overflow_current < self._overflow_start:
+            out_spans.append((self._overflow_current, self._overflow_start - 1))
+
+        return out_spans
+
+
+def patch_leftover_space(patch:ips_util.Patch, pool:SpacePool, addr_offset:int = 0) -> None:
+    for span in pool.get_leftover_spans():
+        start_offset = span[0] - addr_offset
+        end_offset = span[1] - addr_offset
+        patch.add_rle_record(start_offset, b'\x00', end_offset - start_offset + 1)
 
 def patch_asm(patch:ips_util.Patch, nasm_path:str, base_addr:int, max_length:int, asm_code:str|bytes) -> None:
     if isinstance(asm_code, str):
@@ -189,7 +196,8 @@ def patch_locations(patch:ips_util.Patch, location_trans:TranslationCollection) 
             assert(ref.target_addr == key) # Should not be references to anything except the beginning of a location name
             patch.add_record(ref.source_addr, (new_addr - 0x7c00).to_bytes(2, byteorder='little'))
 
-    pool.patch_leftover_space(patch)
+    #pool.patch_leftover_space(patch)
+    patch_leftover_space(patch, pool)
 
 
 def patch_menus(patch:ips_util.Patch, menu_trans:TranslationCollection) -> None:
@@ -408,6 +416,8 @@ def make_data_file_patch(yaml_path:str, code_base_addr:int, event_base_addr:int,
         #print(f"Updating reference to {reference_target_addr:04x} in event at {reference_addr:04x} to {new_target_addr:04x}")
 
         patch.add_record(reference_addr - event_base_addr + event_offset_in_buffer, int.to_bytes(new_target_addr, length=2, byteorder='little'))
+
+    patch_leftover_space(patch, space_pool, event_base_addr - event_offset_in_buffer)
 
     return patch
 
