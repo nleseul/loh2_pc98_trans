@@ -196,7 +196,6 @@ def patch_locations(patch:ips_util.Patch, location_trans:TranslationCollection) 
             assert(ref.target_addr == key) # Should not be references to anything except the beginning of a location name
             patch.add_record(ref.source_addr, (new_addr - 0x7c00).to_bytes(2, byteorder='little'))
 
-    #pool.patch_leftover_space(patch)
     patch_leftover_space(patch, pool)
 
 
@@ -335,7 +334,7 @@ def make_opening_data_patch(nasm_path:str) -> ips_util.Patch:
     return patch
 
 
-def make_data_file_patch(yaml_path:str, code_base_addr:int, event_base_addr:int, code_offset_in_buffer:int = 0, event_offset_in_buffer:int = 0) -> ips_util.Patch:
+def make_data_file_patch(yaml_path:str, code_base_addr:int, event_base_addr:int, code_offset_in_buffer:int = 0, event_offset_in_buffer:int = 0, max_size:int|None = None) -> ips_util.Patch:
     #base_name = os.path.splitext(os.path.basename(file_path))[0]
     #output_path = os.path.join("yaml/Combats", f"{base_name}.yaml")
 
@@ -346,6 +345,7 @@ def make_data_file_patch(yaml_path:str, code_base_addr:int, event_base_addr:int,
     patch = ips_util.Patch()
 
     space_pool = SpacePool(trans.end_of_file_addr - event_offset_in_buffer + event_base_addr)
+    max_overflow = None if max_size is None else max_size - trans.end_of_file_addr
 
     # Maps old address to new address
     relocations:dict[int, int] = {}
@@ -398,6 +398,9 @@ def make_data_file_patch(yaml_path:str, code_base_addr:int, event_base_addr:int,
 
     if space_pool.overflow_used > 0:
         print(f" WARNING: Used {space_pool.overflow_used} bytes of overflow space")
+
+    if max_overflow is not None and space_pool.overflow_used > max_overflow:
+        raise Exception(f"Maximum overflow exceeded! allowed={max_overflow} bytes, used={space_pool.overflow_used} bytes")
 
     for reference_addr, reference_target_addr in code_references_to_relocate.items():
         if reference_target_addr not in relocations:
@@ -454,7 +457,7 @@ def main() -> None:
                 elif modified_path.startswith("local/modified/SCENA/"):
                     base_name = os.path.splitext(os.path.basename(file_path))[0]
                     yaml_path = os.path.join("yaml/Scenarios", f"{base_name}.yaml")
-                    patch = make_data_file_patch(yaml_path, 0xd53e, 0x593e)
+                    patch = make_data_file_patch(yaml_path, 0xd53e, 0x593e, max_size=0x7140-0x593e)
 
                 if patch is not None:
                     patched_data = patch.apply(file_data)
