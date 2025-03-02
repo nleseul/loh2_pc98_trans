@@ -183,7 +183,7 @@ def render_text_html(trans:TranslationCollection, entry_point_key:int, max_pages
             elif code == 0x09:
                 character_index = int.from_bytes(instruction.data, byteorder='little')
                 if translated:
-                    character_name = ["At?las", "Landor", "Flora", "Cindy"][character_index]
+                    character_name = ["Atlas", "Landor", "Flora", "Cindy"][character_index]
                 else:
                     character_name = ["アトラス", "ランドー", "フローラ", "シンディ"][character_index]
                 renderer.change_text_style("text_yellow")
