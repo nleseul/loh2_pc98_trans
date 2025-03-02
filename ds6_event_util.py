@@ -361,11 +361,11 @@ class DS6EventBlock(Block):
                     elif code == 0x15: # ASM call
                         arg = instruction.arg_as_int
                         link = Link(instruction.addr + 1, arg, source_instruction_addr=instruction.addr)
-                        if (arg < self._base_addr or arg >= self._base_addr + len(self._data)):
+                        if block_pool.domain_contains("code", arg):
+                            link.connect_blocks(self, block_pool.get_block("code", arg))
+                        else:
                             link.connect_blocks(self, None)
                             self.add_global_reference(instruction.addr + 1, arg)
-                        else:
-                            link.connect_blocks(self, block_pool.get_block("code", arg))
 
                     elif code == 0x16: # Subroutine call based on leader
                         for ref_index in range(5):
