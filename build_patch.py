@@ -223,7 +223,7 @@ def make_program_data_patch() -> ips_util.Patch:
 
     patch.add_record(0x7c80, b"   Prologue - Peaceful Days   ")
 
-    patch.add_record(0x7f30, b"At?las\x06")
+    patch.add_record(0x7f30, b"Atlas\x06")
     patch.add_record(0x7f70, b"Landor\x06")
     patch.add_record(0x7fb0, b"Flora\x06")
     patch.add_record(0x7ff0, b"Cindy\x06")
