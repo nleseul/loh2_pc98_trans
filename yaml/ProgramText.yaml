@@ -103,6 +103,11 @@
         560
       "target_addr": !!int |-
         1505
+    - !CodeReference
+      "source_addr": !!int |-
+        741
+      "target_addr": !!int |-
+        1505
     "translated": !!null |-
       null
   !!int "1522": !RelocatableTranslatableEntry
@@ -129,6 +134,19 @@
         554
       "target_addr": !!int |-
         1532
+    "translated": !!null |-
+      null
+  !!int "1544": !RelocatableTranslatableEntry
+    "original": |-
+      ﾎﾟｲﾝﾄ 力を 高められます。<X0d>
+    "original_byte_length": !!int |-
+      26
+    "references":
+    - !CodeReference
+      "source_addr": !!int |-
+        773
+      "target_addr": !!int |-
+        1544
     "translated": !!null |-
       null
   !!int "1570": !RelocatableTranslatableEntry
@@ -974,19 +992,6 @@
         16467
       "target_addr": !!int |-
         8920
-    "translated": !!null |-
-      null
-  !!int "8986": !RelocatableTranslatableEntry
-    "original": |-
-      0000000000<RET>
-    "original_byte_length": !!int |-
-      11
-    "references":
-    - !CodeReference
-      "source_addr": !!int |-
-        12796
-      "target_addr": !!int |-
-        8986
     "translated": !!null |-
       null
 "_note": ""

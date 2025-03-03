@@ -491,7 +491,7 @@ class DS62_GiveMoneyCodeHook(X86CodeHook):
 class DS62_StandardEventCodeHook(X86CodeHook):
     def should_handle(self, instruction):
         if (X86_GRP_CALL in instruction.groups or X86_GRP_JUMP in instruction.groups) and instruction.operands[0].type == CS_OP_IMM:
-            return (instruction.operands[0].value.imm & 0xffff) in [ 0x12e2, 0x12e7, 0x3160, 0x31da, 0x3234, 0x3249 ]
+            return (instruction.operands[0].value.imm & 0xffff) in [ 0x12e2, 0x12e7, 0x3160, 0x31d1, 0x31da, 0x3234, 0x3249 ]
 
     def generate_links(self, instruction, block_pool, current_block, registers):
         if X86_REG_SI in registers:
