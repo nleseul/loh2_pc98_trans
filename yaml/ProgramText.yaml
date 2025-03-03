@@ -356,10 +356,15 @@
       null
   !!int "1780": !RelocatableTranslatableEntry
     "original": |-
-      <CALL070c>何も起こらなかった。<RET_PAGE>
+      <CALL070c><LOC06f7>何も起こらなかった。<RET_PAGE>
     "original_byte_length": !!int |-
       24
     "references":
+    - !CodeReference
+      "source_addr": !!int |-
+        7519
+      "target_addr": !!int |-
+        1783
     - !CodeReference
       "source_addr": !!int |-
         1465
@@ -382,15 +387,43 @@
       null
   !!int "1817": !RelocatableTranslatableEntry
     "original": |-
-      運悪<JUMP0724>運良<LOC0724>く<ACTOR>には当ら<JUMP073b><ACTOR>には効か<LOC073b>なかった。<RET_PAGE>
+      運悪<JUMP0724><LOC0720>運良<LOC0724>く<LOC0726><ACTOR>には当ら<JUMP073b><LOC0732><ACTOR>には効か<LOC073b>なかった。<RET_PAGE>
     "original_byte_length": !!int |-
       45
     "references":
     - !CodeReference
       "source_addr": !!int |-
+        7494
+      "target_addr": !!int |-
+        1830
+    - !CodeReference
+      "source_addr": !!int |-
         7538
       "target_addr": !!int |-
         1817
+    - !CodeReference
+      "source_addr": !!int |-
+        7505
+      "target_addr": !!int |-
+        1842
+    - !CodeReference
+      "source_addr": !!int |-
+        7530
+      "target_addr": !!int |-
+        1824
+    "translated": !!null |-
+      null
+  !!int "1880": !RelocatableTranslatableEntry
+    "original": |-
+      <ACTOR>のＨＰは回復しなかった。<RET_PAGE>
+    "original_byte_length": !!int |-
+      26
+    "references":
+    - !CodeReference
+      "source_addr": !!int |-
+        7514
+      "target_addr": !!int |-
+        1880
     "translated": !!null |-
       null
   !!int "1906": !RelocatableTranslatableEntry

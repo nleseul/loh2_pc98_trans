@@ -66,7 +66,6 @@ def make_entry_from_block(block:DS6EventBlock) -> TranslatableEntry:
 def extract_program_events(program_data:typing.ByteString):
     code_hooks = [
         EmptyHook(0x1592, False, stop=True), # Calls into scenario entry points
-        DS62_OverrideRegister(0x1d7b, X86_REG_SI, 0x719, 0x1d72), # Correct for pushing/popping SI
         EmptyHook(0x21b7, False, stop=True), # Calls into combat entry points
         EmptyHook(0x4c53, False, stop=True), # Calls into scenario entry points
         DS62_PointerTableCodeHook(0x1596, 0x159b, 5, table_domain="code"),
@@ -74,6 +73,7 @@ def extract_program_events(program_data:typing.ByteString):
         DS62_PointerTableCodeHook(0x5268, 0x1a32, 8),
         DS62_PointerTableCodeHook(0x5bb4, 0x2326, 7),
         DS62_PointerTableCodeHook(0x5de3, 0x1b20, 6),
+        DS62_PrefixedEvent1d74CodeHook(),
 
         DS62_StandardEventCodeHook(),
     ]

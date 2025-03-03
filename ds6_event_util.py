@@ -713,3 +713,18 @@ class DS62_PointerTableCodeHook(X86CodeHook):
             link = Link(entry_pointer_addr, entry_addr)
             link.connect_blocks(current_block, block_pool.get_block("code", entry_addr))
 
+
+# Awkward push/pop code that inserts the text "however" before whatever the current text in SI is.
+class DS62_PrefixedEvent1d74CodeHook(DS62_StandardEventCodeHook):
+    def should_handle(self, instruction):
+        return instruction.address == 0x1d74
+
+    def get_next_ip(self, instruction:CsInsn) -> int:
+        return 0x1d7f
+
+    def generate_links(self, instruction, block_pool, current_block, registers):
+        super().generate_links(instruction, block_pool, current_block, registers)
+
+        # Hardcode the reference to the "however" text.
+        however_text_link = Link(0x1d76, 0x70c)
+        however_text_link.connect_blocks(current_block, block_pool.get_block("event", 0x70c))
