@@ -1,11 +1,8 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   512
-"entries":
-  "5a0b":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "23051": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>船員<C_NONE>
       ここだけの話なんだけどよ。
@@ -21,10 +18,11 @@
     "original_byte_length": !!int |-
       238
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54645
       "target_addr": !!int |-
         23051
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

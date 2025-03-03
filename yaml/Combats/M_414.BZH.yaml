@@ -1,116 +1,85 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   672
-"entries":
-  "7170":
-    "is_relocatable": !!bool |-
-      false
+"_entries":
+  !!int "29040": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       エビューンＡ<RET>
-    "original_byte_length": !!int |-
-      13
-    "references": []
     "translated": !!null |-
       null
-  "71b0":
-    "is_relocatable": !!bool |-
-      false
+  !!int "29104": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       エビューンＢ<RET>
-    "original_byte_length": !!int |-
-      13
-    "references": []
     "translated": !!null |-
       null
-  "71f0":
-    "is_relocatable": !!bool |-
-      false
+  !!int "29168": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       エビューンＣ<RET>
-    "original_byte_length": !!int |-
-      13
-    "references": []
     "translated": !!null |-
       null
-  "7230":
-    "is_relocatable": !!bool |-
-      false
+  !!int "29232": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       エビューンＤ<RET>
-    "original_byte_length": !!int |-
-      13
-    "references": []
     "translated": !!null |-
       null
-  "7390":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29584": !RelocatableTranslatableEntry
     "original": |-
       エビューンが現れた。<RET_N>
     "original_byte_length": !!int |-
       21
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61000
       "target_addr": !!int |-
         29584
     "translated": !!null |-
       null
-  "73a5":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29605": !RelocatableTranslatableEntry
     "original": |-
       <ACTOR>は酸胞を出した。<RET_PAGE>
     "original_byte_length": !!int |-
       18
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61118
       "target_addr": !!int |-
         29605
     "translated": !!null |-
       null
-  "73b7":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29623": !RelocatableTranslatableEntry
     "original": |-
       <ACTOR>の酸胞が飛び散った !!<RET_PAGE>
     "original_byte_length": !!int |-
       23
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61173
       "target_addr": !!int |-
         29623
     "translated": !!null |-
       null
-  "73ce":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29646": !RelocatableTranslatableEntry
     "original": |-
       <ACTOR>の酸胞を壊した。<RET_PAGE>
     "original_byte_length": !!int |-
       18
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61272
       "target_addr": !!int |-
         29646
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

@@ -1,11 +1,8 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   2376
-"entries":
-  "6075":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "24693": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ガード<C_NONE>
       <IF0401><JUMP6131>何だ お前らは？
@@ -21,17 +18,14 @@
     "original_byte_length": !!int |-
       223
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         55745
       "target_addr": !!int |-
         24693
     "translated": !!null |-
       null
-  "6154":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24916": !RelocatableTranslatableEntry
     "original": |-
       <CH3>
       ドア 閉める。
@@ -58,26 +52,24 @@
     "original_byte_length": !!int |-
       247
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54696
       "target_addr": !!int |-
         24916
     "translated": !!null |-
       null
-  "624b":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "25163": !RelocatableTranslatableEntry
     "original": |-
       <PARTY>は <RET>
     "original_byte_length": !!int |-
       5
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54790
       "target_addr": !!int |-
         25163
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

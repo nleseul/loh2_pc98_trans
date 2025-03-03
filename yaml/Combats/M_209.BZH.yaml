@@ -1,100 +1,72 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   795
-"entries":
-  "7170":
-    "is_relocatable": !!bool |-
-      false
+"_entries":
+  !!int "29040": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       魔界僧Ａ<RET>
-    "original_byte_length": !!int |-
-      9
-    "references": []
     "translated": !!null |-
       null
-  "71b0":
-    "is_relocatable": !!bool |-
-      false
+  !!int "29104": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       魔界僧Ｂ<RET>
-    "original_byte_length": !!int |-
-      9
-    "references": []
     "translated": !!null |-
       null
-  "71f0":
-    "is_relocatable": !!bool |-
-      false
+  !!int "29168": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       魔界僧Ｃ<RET>
-    "original_byte_length": !!int |-
-      9
-    "references": []
     "translated": !!null |-
       null
-  "7230":
-    "is_relocatable": !!bool |-
-      false
+  !!int "29232": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       Ｍ２０９Ｄ<RET>
-    "original_byte_length": !!int |-
-      11
-    "references": []
     "translated": !!null |-
       null
-  "740a":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29706": !RelocatableTranslatableEntry
     "original": |-
       魔界僧が現れた。<RET_N>
     "original_byte_length": !!int |-
       17
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61000
       "target_addr": !!int |-
         29706
     "translated": !!null |-
       null
-  "741b":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29723": !RelocatableTranslatableEntry
     "original": |-
       の水晶玉が輝いた !!<RET_PAGE>
     "original_byte_length": !!int |-
       20
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61136
       "target_addr": !!int |-
         29723
     "translated": !!null |-
       null
-  "7443":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29763": !RelocatableTranslatableEntry
     "original": |-
       <ACTOR>は呪いの言葉を残した。<RET_N>
     "original_byte_length": !!int |-
       24
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61250
       "target_addr": !!int |-
         29763
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

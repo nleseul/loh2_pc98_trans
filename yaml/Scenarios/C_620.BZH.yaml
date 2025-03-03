@@ -1,28 +1,22 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   3430
-"entries":
-  "60db":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "24795": !RelocatableTranslatableEntry
     "original": |-
       <CH0>
       さあ みんな 行こう。
     "original_byte_length": !!int |-
       24
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         55152
       "target_addr": !!int |-
         24795
     "translated": !!null |-
       null
-  "60f3":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24819": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ボザ<C_NONE>
       やっと来てくれたか。
@@ -31,17 +25,14 @@
     "original_byte_length": !!int |-
       80
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54917
       "target_addr": !!int |-
         24819
     "translated": !!null |-
       null
-  "6143":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24899": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ボザ<C_NONE>
       なっ 何だ これは !?
@@ -94,17 +85,14 @@
     "original_byte_length": !!int |-
       813
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         55232
       "target_addr": !!int |-
         24899
     "translated": !!null |-
       null
-  "6470":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "25712": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ケリイ<C_NONE>
       さっきから がんばってるんだけど
@@ -112,17 +100,14 @@
     "original_byte_length": !!int |-
       71
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         55052
       "target_addr": !!int |-
         25712
     "translated": !!null |-
       null
-  "64b7":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "25783": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
       こんな所で 足止めを くらってたら
@@ -131,34 +116,28 @@
     "original_byte_length": !!int |-
       81
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         55061
       "target_addr": !!int |-
         25783
     "translated": !!null |-
       null
-  "6508":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "25864": !RelocatableTranslatableEntry
     "original": |-
       <CALL666c>早く 別館の下の階に行って
       変換炉を止めてみてくれ。
     "original_byte_length": !!int |-
       54
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         55086
       "target_addr": !!int |-
         25864
     "translated": !!null |-
       null
-  "653e":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "25918": !RelocatableTranslatableEntry
     "original": |-
       <CALL666c><JUMP6571><LOC6544><C_YELLOW>バイオラのマスター<C_NONE>
       <JUMP6571><LOC655c><C_YELLOW>ヨシュアのマスター<C_NONE>
@@ -168,25 +147,24 @@
     "original_byte_length": !!int |-
       129
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         55095
       "target_addr": !!int |-
         25918
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         55104
       "target_addr": !!int |-
         25924
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         55113
       "target_addr": !!int |-
         25948
     "translated": !!null |-
       null
-  "65bf":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "26047": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>リーダー<C_NONE>
       おお アトラス君。
@@ -196,34 +174,28 @@
     "original_byte_length": !!int |-
       116
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         55122
       "target_addr": !!int |-
         26047
     "translated": !!null |-
       null
-  "6633":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "26163": !RelocatableTranslatableEntry
     "original": |-
       <PARTY>は 宝箱を開けました。
       宝箱の中には<RET>
     "original_byte_length": !!int |-
       36
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54768
       "target_addr": !!int |-
         26163
     "translated": !!null |-
       null
-  "666c":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "26220": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>テクニカのマスター<C_NONE><RET_N>
     "original_byte_length": !!int |-
@@ -231,4 +203,4 @@
     "references": []
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

@@ -1,11 +1,8 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   2153
-"entries":
-  "5e1c":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "24092": !RelocatableTranslatableEntry
     "original": |
       <CLEAR>          第３章　竜の卵<N>
 
@@ -13,17 +10,14 @@
     "original_byte_length": !!int |-
       47
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54620
       "target_addr": !!int |-
         24092
     "translated": !!null |-
       null
-  "5e8b":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24203": !RelocatableTranslatableEntry
     "original": |-
       <CLEAR><CH0>
       バーバラさま 竜の卵を止めたので
@@ -75,10 +69,11 @@
     "original_byte_length": !!int |-
       698
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54873
       "target_addr": !!int |-
         24203
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

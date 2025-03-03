@@ -1,11 +1,8 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   1850
-"entries":
-  "5e4d":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "24141": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ゲイル３世<C_NONE>
       何だよ うるせえな。
@@ -13,17 +10,14 @@
     "original_byte_length": !!int |-
       66
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54812
       "target_addr": !!int |-
         24141
     "translated": !!null |-
       null
-  "5e8f":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24207": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ゲイル３世<C_NONE>
       <IF0191><JUMP5fde><IF01be><JUMP5f17><SET01be>おお 何だ アトラス王子じゃねえか。
@@ -46,27 +40,25 @@
     "original_byte_length": !!int |-
       397
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54875
       "target_addr": !!int |-
         24207
     "translated": !!null |-
       null
-  "601c":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24604": !RelocatableTranslatableEntry
     "original": |-
       <PARTY>は 宝箱を開けました。
       宝箱の中には<RET>
     "original_byte_length": !!int |-
       36
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54755
       "target_addr": !!int |-
         24604
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

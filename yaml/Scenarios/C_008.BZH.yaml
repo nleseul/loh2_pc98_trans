@@ -1,11 +1,8 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   370
-"entries":
-  "59ee":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "23022": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       これは 王子さま。
@@ -16,17 +13,14 @@
     "original_byte_length": !!int |-
       154
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54644
       "target_addr": !!int |-
         23022
     "translated": !!null |-
       null
-  "5a88":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23176": !RelocatableTranslatableEntry
     "original": |-
       まだ <RET>
     "original_byte_length": !!int |-
@@ -34,4 +28,4 @@
     "references": []
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

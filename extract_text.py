@@ -3,7 +3,7 @@ import fnmatch
 import os
 import typing
 
-from code_analysis_util import BlockPool, EmptyHook, Link, X86CodeBlock
+from code_analysis_util import BlockPool, DataBlock, EmptyHook, Link, X86CodeBlock
 from trans_util import *
 from ds6_event_util import *
 
@@ -32,19 +32,26 @@ def explore(block_pool:BlockPool, entry_points:typing.List[EntryPointInfo]) -> N
             break
 
 
-def update_translation_from_block(entry:TranslationEntry, block:DS6EventBlock) -> None:
-    entry.original = block.format_string()
-    entry.original_byte_length = block.length
-
+def make_entry_from_block(block:DS6EventBlock) -> TranslatableEntry:
+    is_relocatable = True
     references = {}
     for link in block.get_incoming_links():
         if link.source_addr is None:
-            entry.is_relocatable = False
+            is_relocatable = False
         elif isinstance(link.source_block, DS6EventBlock):
             pass
         else:
             references[link.source_addr] = link.target_addr
-    entry.references = [CodeReference(source_addr, target_addr) for source_addr, target_addr in references.items()]
+
+    if is_relocatable:
+        entry = RelocatableTranslatableEntry(references=[CodeReference(source_addr, target_addr) for source_addr, target_addr in references.items()],
+                                             original_byte_length=block.length)
+    else:
+        entry = FixedTranslatableEntry(max_byte_length=block.length)
+
+    entry.original = block.format_string()
+
+    return entry
 
 
 def extract_program_events(program_data:typing.ByteString):
@@ -73,8 +80,8 @@ def extract_program_events(program_data:typing.ByteString):
     trans = TranslationCollection()
     trans.end_of_file_addr = len(program_data)
     for block in block_pool.get_blocks("event"):
-        entry = trans[block.start_addr]
-        update_translation_from_block(entry, block)
+        entry = make_entry_from_block(block)
+        trans.add_entry(block.start_addr, entry)
 
     return trans
 
@@ -93,6 +100,7 @@ def extract_scenario_events(scenario_data:typing.ByteString, custom_hooks:list[X
 
     code_hooks = [
         DS62_StandardEventCodeHook(),
+        DS62_GiveMoneyCodeHook(),
         DS62_NpcTable1370CodeHook(),
         DS62_NpcTable13e7CodeHook(),
         DS62_BuyFromShopCodeHook(),
@@ -104,6 +112,7 @@ def extract_scenario_events(scenario_data:typing.ByteString, custom_hooks:list[X
 
     block_pool = BlockPool()
     block_pool.register_domain("code", scenario_data, 0xd53e, X86CodeBlock, {'hooks': code_hooks})
+    block_pool.register_domain("data", scenario_data, 0x593e, DataBlock)
     block_pool.register_domain("event", scenario_data, 0x593e, DS6EventBlock)
 
     explore(block_pool, code_entry_points)
@@ -111,8 +120,23 @@ def extract_scenario_events(scenario_data:typing.ByteString, custom_hooks:list[X
     trans = TranslationCollection()
     trans.end_of_file_addr = len(scenario_data)
     for block in block_pool.get_blocks("event"):
-        entry = trans[block.start_addr]
-        update_translation_from_block(entry, block)
+        entry = make_entry_from_block(block)
+        trans.add_entry(block.start_addr, entry)
+
+    for block in block_pool.get_blocks("data"):
+        references = {}
+        for link in block.get_incoming_links():
+            if link.source_addr is None:
+                raise Exception(f"Data block at {block.start_addr:04x} is non-relocatable, which is not supported/useful.")
+            elif isinstance(link.source_block, DS6EventBlock):
+                pass
+            else:
+                references[link.source_addr] = link.target_addr
+
+        entry = RelocatableRawDataEntry(data=block.data,
+                                        references=[CodeReference(source_addr, target_addr) for source_addr, target_addr in references.items()])
+
+        trans.add_entry(block.start_addr, entry)
 
     return trans
 
@@ -142,6 +166,7 @@ def extract_combat_events(combat_data:typing.ByteString, monster_count:int = 4) 
 
     block_pool = BlockPool()
     block_pool.register_domain("code", combat_data, 0xed40, X86CodeBlock, {'hooks': global_code_hooks})
+    block_pool.register_domain("data", combat_data, 0x7140, DataBlock)
     block_pool.register_domain("event", combat_data, 0x7140, DS6EventBlock)
 
     explore(block_pool, entry_points)
@@ -149,11 +174,12 @@ def extract_combat_events(combat_data:typing.ByteString, monster_count:int = 4) 
     trans = TranslationCollection()
     trans.end_of_file_addr = len(combat_data)
     for block in block_pool.get_blocks("event"):
-        entry = trans[block.start_addr]
-        update_translation_from_block(entry, block)
-
+        entry = make_entry_from_block(block)
         if block.start_addr < 0x7140 + 0x40*monster_count:
             entry.max_byte_length = 0x10
+        trans.add_entry(block.start_addr, entry)
+
+
 
     return trans
 
@@ -180,10 +206,8 @@ def extract_opening_text(opening_data:typing.ByteString) -> TranslationCollectio
             ch, addr = read_sjis_char(opening_data, addr)
             text += ch
 
-    entry = trans[0x3dc2]
-    entry.original = text
-    entry.is_relocatable = False
-    entry.original_byte_length = addr - start_addr
+    entry = FixedTranslatableEntry(original=text, max_byte_length=addr-start_addr)
+    trans.add_entry(0x3dc2, entry)
 
     return trans
 
@@ -241,18 +265,17 @@ def extract_ending_text(ending_data:typing.ByteString) -> TranslationCollection:
                 ch, addr = read_sjis_char(ending_data, addr)
                 text += ch
 
-        entry = trans[start_addr]
-        entry.original = text
-        entry.original_byte_length = addr - start_addr
+        entry = RelocatableTranslatableEntry(original=text, original_byte_length=addr-start_addr)
+        trans.add_entry(start_addr, entry)
         # TODO: Copy reference addresses from source
 
     # Line lengths are hardcoded at 0x1003 and 0x1019
     final_text_addr = 0x28d3
     line_lengths = [0xd, 0xb]
     second_line_start = final_text_addr + line_lengths[0]*2
-    trans[final_text_addr].original = ending_data[final_text_addr:final_text_addr+line_lengths[0]*2].decode('cp932') +\
+    final_entry = FixedTranslatableEntry(original=ending_data[final_text_addr:final_text_addr+line_lengths[0]*2].decode('cp932') +\
           "\n" +\
-          ending_data[second_line_start:second_line_start+line_lengths[1]*2].decode('cp932')
+          ending_data[second_line_start:second_line_start+line_lengths[1]*2].decode('cp932'))
 
     return trans
 
@@ -264,7 +287,8 @@ def extract_spells(prog_data:typing.ByteString) -> TranslationCollection:
     for spell_index in range(32):
         addr = base_addr + spell_index*12
         spell_name = prog_data[addr:addr+8].decode('cp932')
-        trans[addr].original = spell_name.strip()
+        entry = FixedTranslatableEntry(original=spell_name.strip(), max_byte_length=8)
+        trans.add_entry(addr, entry)
 
     return trans
 
@@ -275,7 +299,8 @@ def extract_items(prog_data:typing.ByteString) -> TranslationCollection:
 
     while prog_data[addr] != 0:
         item_name = prog_data[addr:addr+14].decode('cp932')
-        trans[addr].original = item_name.strip()
+        entry = FixedTranslatableEntry(original=item_name.strip(), max_byte_length=14)
+        trans.add_entry(addr, entry)
 
         addr += 14 if addr >= 0x152b + 0x7c00 else 20
 
@@ -289,7 +314,6 @@ def extract_locations(prog_data:typing.ByteString) -> TranslationCollection:
     for location_index in range(64):
         table_entry_addr = table_addr + location_index*2
         addr = int.from_bytes(prog_data[table_entry_addr:table_entry_addr+2], byteorder='little') + 0x7c00
-        entry = trans[addr]
 
         current_addr = addr
 
@@ -302,9 +326,10 @@ def extract_locations(prog_data:typing.ByteString) -> TranslationCollection:
 
         location_name = prog_data[current_addr:current_addr+length].decode('cp932')
 
-        entry.original = location_name
-        entry.original_byte_length = 12 if first_byte >= 0x20 else 12 - first_byte*2 + 1
+        entry = RelocatableTranslatableEntry(original=location_name,
+                                             original_byte_length=12 if first_byte >= 0x20 else 12 - first_byte*2 + 1)
         entry.references.append(CodeReference(table_entry_addr, addr))
+        trans.add_entry(addr, entry)
 
     return trans
 
@@ -328,8 +353,6 @@ def extract_menus(prog_data:typing.ByteString) -> TranslationCollection:
         item_count = prog_data[menu_addr+3]
         addr = menu_addr + 0x4
 
-        entry = trans[menu_addr - 0x7c00]
-
         # Main field menu adds the "Leader" item dynamically based on party size
         if menu_addr == 0x2334 + 0x7c00:
             item_count += 1
@@ -346,14 +369,11 @@ def extract_menus(prog_data:typing.ByteString) -> TranslationCollection:
             menu_text += item_bytes.decode('cp932')
             addr += 1
 
-        entry.original = menu_text
-        entry.original_byte_length = addr - (menu_addr + 0x4)
-        entry.max_byte_length = entry.original_byte_length
-        entry.is_relocatable = False
+        entry = FixedTranslatableEntry(original=menu_text,
+                                       max_byte_length=addr - (menu_addr + 0x4))
+        trans.add_entry(menu_addr - 0x7c00, entry)
 
     for toggle_addr, toggle_count in toggle_list:
-        entry = trans[toggle_addr - 0x7c00]
-
         toggle_text = ""
         addr = toggle_addr
 
@@ -367,14 +387,12 @@ def extract_menus(prog_data:typing.ByteString) -> TranslationCollection:
             toggle_text += item_bytes.decode('cp932')
             addr += 1
 
-        entry.original = toggle_text
-        entry.original_byte_length = addr - toggle_addr
-        entry.max_byte_length = entry.original_byte_length
-        entry.is_relocatable = False
+        entry = FixedTranslatableEntry(original=toggle_text,
+                                       max_byte_length=addr-toggle_addr)
+        trans.add_entry(toggle_addr - 0x7c00, entry)
 
 
     # Combat menu is just three lines with no header.
-    combat_menu_entry = trans[0x19f4]
     combat_menu_addr = 0x19f4 + 0x7c00
     combat_menu_text = ""
     for _ in range(3):
@@ -386,10 +404,9 @@ def extract_menus(prog_data:typing.ByteString) -> TranslationCollection:
             combat_menu_addr += 1
         combat_menu_text += item_bytes.decode('cp932')
         combat_menu_addr += 1
-    combat_menu_entry.original = combat_menu_text
-    combat_menu_entry.original_byte_length = combat_menu_addr - (0x19f4 + 0x7c00)
-    combat_menu_entry.max_byte_length = combat_menu_entry.original_byte_length
-    combat_menu_entry.is_relocatable = False
+    combat_menu_entry = FixedTranslatableEntry(original=combat_menu_text,
+                                               max_byte_length=combat_menu_addr - (0x19f4 + 0x7c00))
+    trans.add_entry(0x19f4, combat_menu_entry)
 
     return trans
 

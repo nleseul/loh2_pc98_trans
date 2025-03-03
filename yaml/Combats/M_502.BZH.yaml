@@ -1,111 +1,80 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   1324
-"entries":
-  "7170":
-    "is_relocatable": !!bool |-
-      false
+"_entries":
+  !!int "29040": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       レイシア<RET>
-    "original_byte_length": !!int |-
-      9
-    "references": []
     "translated": !!null |-
       null
-  "71b0":
-    "is_relocatable": !!bool |-
-      false
+  !!int "29104": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       ガービィ<RET>
-    "original_byte_length": !!int |-
-      9
-    "references": []
     "translated": !!null |-
       null
-  "71f0":
-    "is_relocatable": !!bool |-
-      false
+  !!int "29168": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       Ｍ５０２Ｃ<RET>
-    "original_byte_length": !!int |-
-      11
-    "references": []
     "translated": !!null |-
       null
-  "7230":
-    "is_relocatable": !!bool |-
-      false
+  !!int "29232": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       Ｍ５０２Ｄ<RET>
-    "original_byte_length": !!int |-
-      11
-    "references": []
     "translated": !!null |-
       null
-  "751c":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29980": !RelocatableTranslatableEntry
     "original": |-
       ガービィが現れた。<RET_N>
     "original_byte_length": !!int |-
       19
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61000
       "target_addr": !!int |-
         29980
     "translated": !!null |-
       null
-  "752f":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29999": !RelocatableTranslatableEntry
     "original": |-
       の３回攻撃 !!<RET_PAGE>
     "original_byte_length": !!int |-
       14
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61120
       "target_addr": !!int |-
         29999
     "translated": !!null |-
       null
-  "753d":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "30013": !RelocatableTranslatableEntry
     "original": |-
       の２<JUMP7533><LOC7544><ACTOR>は炎のブレスをはいた。<RET_N>
     "original_byte_length": !!int |-
       31
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61219
       "target_addr": !!int |-
         30020
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61133
       "target_addr": !!int |-
         30013
     "translated": !!null |-
       null
-  "755c":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "30044": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>レイシア<C_NONE>が現れた。
 
@@ -116,33 +85,27 @@
     "original_byte_length": !!int |-
       83
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61405
       "target_addr": !!int |-
         30044
     "translated": !!null |-
       null
-  "75af":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "30127": !RelocatableTranslatableEntry
     "original": |-
       レイシアが<RET>
     "original_byte_length": !!int |-
       11
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61411
       "target_addr": !!int |-
         30127
     "translated": !!null |-
       null
-  "75ca":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "30154": !RelocatableTranslatableEntry
     "original": |-
       <CLEAR><CALL7660>こんな時に 冗談を言うのはやめて
       ちゃんと 受けとってよ。
@@ -151,17 +114,14 @@
     "original_byte_length": !!int |-
       61
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61429
       "target_addr": !!int |-
         30154
     "translated": !!null |-
       null
-  "7607":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "30215": !RelocatableTranslatableEntry
     "original": |-
       <CLEAR><CALL7660>さあ いっしょに 戦いましょう。
 
@@ -169,17 +129,14 @@
     "original_byte_length": !!int |-
       36
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61437
       "target_addr": !!int |-
         30215
     "translated": !!null |-
       null
-  "762b":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "30251": !RelocatableTranslatableEntry
     "original": |-
       <CALL7660>あと少しなんだから 弱音をはかずに
       がんばってよ。
@@ -188,17 +145,14 @@
     "original_byte_length": !!int |-
       53
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61534
       "target_addr": !!int |-
         30251
     "translated": !!null |-
       null
-  "7660":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "30304": !RelocatableTranslatableEntry
     "original": |-
       <CLEAR><LOC7661><C_YELLOW>レイシア<C_NONE><RET_N>
     "original_byte_length": !!int |-
@@ -206,4 +160,4 @@
     "references": []
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

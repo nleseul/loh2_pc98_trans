@@ -1,11 +1,8 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   1344
-"entries":
-  "5b7e":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "23422": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>老人<C_NONE>
       <IF_NOT001b><JUMP5bd6>これは アトラス王子。
@@ -22,17 +19,14 @@
     "original_byte_length": !!int |-
       309
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54663
       "target_addr": !!int |-
         23422
     "translated": !!null |-
       null
-  "5cb3":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23731": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>侍女<C_NONE>
       王子さま ちょっと おやせになって
@@ -40,17 +34,14 @@
     "original_byte_length": !!int |-
       53
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54672
       "target_addr": !!int |-
         23731
     "translated": !!null |-
       null
-  "5ce8":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23784": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>侍女<C_NONE>
       ああ 忙しい ･ ･ まあ 王子さま。
@@ -58,17 +49,14 @@
     "original_byte_length": !!int |-
       62
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54681
       "target_addr": !!int |-
         23784
     "translated": !!null |-
       null
-  "5d26":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23846": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       <IF0400><JUMP5d68>これは 王子さま、お気をつけて
@@ -77,17 +65,14 @@
     "original_byte_length": !!int |-
       102
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54690
       "target_addr": !!int |-
         23846
     "translated": !!null |-
       null
-  "5d8c":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23948": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       これは王子さま お元気そうで
@@ -95,17 +80,14 @@
     "original_byte_length": !!int |-
       56
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54699
       "target_addr": !!int |-
         23948
     "translated": !!null |-
       null
-  "5dc4":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24004": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       おや 王子さま。
@@ -113,17 +95,14 @@
     "original_byte_length": !!int |-
       54
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54708
       "target_addr": !!int |-
         24004
     "translated": !!null |-
       null
-  "5dfa":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24058": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       また セリオスさまが 装備をして
@@ -135,10 +114,11 @@
     "original_byte_length": !!int |-
       132
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54717
       "target_addr": !!int |-
         24058
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

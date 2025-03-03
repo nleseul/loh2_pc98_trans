@@ -1,11 +1,8 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   3351
-"entries":
-  "5b14":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "23316": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>アートス国王<C_NONE>
       <IF00b8><JUMP613f><SET00b8><SET00b9>おおっ アトラスではないか !!
@@ -106,17 +103,14 @@
     "original_byte_length": !!int |-
       1647
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54663
       "target_addr": !!int |-
         23316
     "translated": !!null |-
       null
-  "6183":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24963": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>クレア王妃<C_NONE>
       まあ 小さいころから いたずらばかりしていた アトラス王子が こんなに
@@ -128,17 +122,14 @@
     "original_byte_length": !!int |-
       182
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54678
       "target_addr": !!int |-
         24963
     "translated": !!null |-
       null
-  "6239":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "25145": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       モンスターなんて ２０年ぶりですね。そういえば あのときは たいへん
@@ -153,17 +144,14 @@
     "original_byte_length": !!int |-
       266
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54687
       "target_addr": !!int |-
         25145
     "translated": !!null |-
       null
-  "6343":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "25411": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       うーむ また 昔のように 破壊神が
@@ -171,17 +159,14 @@
     "original_byte_length": !!int |-
       68
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54696
       "target_addr": !!int |-
         25411
     "translated": !!null |-
       null
-  "6387":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "25479": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       えっ あなたが ディーナさまの !?
@@ -193,17 +178,14 @@
     "original_byte_length": !!int |-
       152
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54705
       "target_addr": !!int |-
         25479
     "translated": !!null |-
       null
-  "641f":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "25631": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       ソルディスには もともと
@@ -216,17 +198,14 @@
     "original_byte_length": !!int |-
       189
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54714
       "target_addr": !!int |-
         25631
     "translated": !!null |-
       null
-  "64dc":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "25820": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       あーあ 今日も いい天気ですね。
@@ -235,17 +214,14 @@
     "original_byte_length": !!int |-
       89
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54723
       "target_addr": !!int |-
         25820
     "translated": !!null |-
       null
-  "6535":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "25909": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ハリー<C_NONE>
       あっ ちょっと きみたち。
@@ -264,10 +240,11 @@
     "original_byte_length": !!int |-
       288
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54732
       "target_addr": !!int |-
         25909
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

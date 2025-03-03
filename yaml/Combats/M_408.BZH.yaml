@@ -1,132 +1,98 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   735
-"entries":
-  "7170":
-    "is_relocatable": !!bool |-
-      false
+"_entries":
+  !!int "29040": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       バッファー<RET>
-    "original_byte_length": !!int |-
-      11
-    "references": []
     "translated": !!null |-
       null
-  "71b0":
-    "is_relocatable": !!bool |-
-      false
+  !!int "29104": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       ウｲーバー<RET>
-    "original_byte_length": !!int |-
-      10
-    "references": []
     "translated": !!null |-
       null
-  "71f0":
-    "is_relocatable": !!bool |-
-      false
+  !!int "29168": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       バッファーＣ<RET>
-    "original_byte_length": !!int |-
-      13
-    "references": []
     "translated": !!null |-
       null
-  "7230":
-    "is_relocatable": !!bool |-
-      false
+  !!int "29232": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       バッファーＤ<RET>
-    "original_byte_length": !!int |-
-      13
-    "references": []
     "translated": !!null |-
       null
-  "73aa":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29610": !RelocatableTranslatableEntry
     "original": |-
       バッファーとウｲーバーが現れた。<RET_N>
     "original_byte_length": !!int |-
       32
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61000
       "target_addr": !!int |-
         29610
     "translated": !!null |-
       null
-  "73ca":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29642": !RelocatableTranslatableEntry
     "original": |-
       の２回攻撃 !!<RET_N>
     "original_byte_length": !!int |-
       14
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61126
       "target_addr": !!int |-
         29642
     "translated": !!null |-
       null
-  "73d8":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29656": !RelocatableTranslatableEntry
     "original": |-
       は<CH4>をせかした。<RET_PAGE>
     "original_byte_length": !!int |-
       17
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61314
       "target_addr": !!int |-
         29656
     "translated": !!null |-
       null
-  "73e9":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29673": !RelocatableTranslatableEntry
     "original": |-
       <CH5>にせかされた<ACTOR>は連続攻撃をした !!<RET_N>
     "original_byte_length": !!int |-
       35
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61189
       "target_addr": !!int |-
         29673
     "translated": !!null |-
       null
-  "740c":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29708": !RelocatableTranslatableEntry
     "original": |-
       はしっぽで攻撃した<RET_PAGE>
     "original_byte_length": !!int |-
       19
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61286
       "target_addr": !!int |-
         29708
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

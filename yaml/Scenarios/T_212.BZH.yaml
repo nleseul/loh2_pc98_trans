@@ -1,11 +1,8 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   1047
-"entries":
-  "5b95":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "23445": !RelocatableTranslatableEntry
     "original": |-
       <IF0400><JUMP5bfb><CH1>
       うわー こりゃ すげえ !!
@@ -34,10 +31,11 @@
     "original_byte_length": !!int |-
       448
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54638
       "target_addr": !!int |-
         23445
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

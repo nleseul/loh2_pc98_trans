@@ -1,11 +1,8 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   5060
-"entries":
-  "5b37":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "23351": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
       いらっしゃい ここは休憩所だが
@@ -13,17 +10,14 @@
     "original_byte_length": !!int |-
       103
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54642
       "target_addr": !!int |-
         23351
     "translated": !!null |-
       null
-  "5b9e":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23454": !RelocatableTranslatableEntry
     "original": |-
       <IF0059><JUMP5e6f><SET0059><Xf52c0000><ASM1ae6><Xf7><CALL6cf5>あら アトラス王子。
       もう少し 早ければ セリオスさまが
@@ -113,17 +107,14 @@
     "original_byte_length": !!int |-
       1756
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54682
       "target_addr": !!int |-
         23454
     "translated": !!null |-
       null
-  "627a":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "25210": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ポウエル<C_NONE>
       セリスとナッシュが モンスターに
@@ -135,17 +126,14 @@
     "original_byte_length": !!int |-
       144
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54691
       "target_addr": !!int |-
         25210
     "translated": !!null |-
       null
-  "630a":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "25354": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>チャールズ王子<C_NONE>
       みんな 今は忙しいって言って
@@ -157,17 +145,14 @@
     "original_byte_length": !!int |-
       154
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54700
       "target_addr": !!int |-
         25354
     "translated": !!null |-
       null
-  "63a4":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "25508": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>侍女<C_NONE>
       ひなんしたのは いいけど もしも
@@ -176,17 +161,14 @@
     "original_byte_length": !!int |-
       88
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54709
       "target_addr": !!int |-
         25508
     "translated": !!null |-
       null
-  "63fc":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "25596": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>侍女<C_NONE>
       ここは 広いことは広いけど お城から比べたら 狭いし お台所も あまり
@@ -194,17 +176,14 @@
     "original_byte_length": !!int |-
       96
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54718
       "target_addr": !!int |-
         25596
     "translated": !!null |-
       null
-  "645c":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "25692": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       司祭 バーバラは いったい どこに
@@ -214,17 +193,14 @@
     "original_byte_length": !!int |-
       123
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54727
       "target_addr": !!int |-
         25692
     "translated": !!null |-
       null
-  "64d7":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "25815": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       これは アトラス王子さま。
@@ -232,17 +208,14 @@
     "original_byte_length": !!int |-
       97
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54736
       "target_addr": !!int |-
         25815
     "translated": !!null |-
       null
-  "6538":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "25912": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       これは アトラス王子さま。
@@ -251,17 +224,14 @@
     "original_byte_length": !!int |-
       74
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54745
       "target_addr": !!int |-
         25912
     "translated": !!null |-
       null
-  "6582":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "25986": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       <IF0090><JUMP6602>アトラス王子さま。
@@ -277,17 +247,14 @@
     "original_byte_length": !!int |-
       311
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54754
       "target_addr": !!int |-
         25986
     "translated": !!null |-
       null
-  "66b9":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "26297": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       ソニアさま たいへんです !!
@@ -374,17 +341,14 @@
     "original_byte_length": !!int |-
       1596
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54798
       "target_addr": !!int |-
         26297
     "translated": !!null |-
       null
-  "6cf5":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "27893": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ソニア王妃<C_NONE><RET_N>
     "original_byte_length": !!int |-
@@ -392,4 +356,4 @@
     "references": []
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

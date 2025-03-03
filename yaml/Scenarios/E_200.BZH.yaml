@@ -1,11 +1,8 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   3940
-"entries":
-  "6494":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "25748": !RelocatableTranslatableEntry
     "original": |-
       <CH0>
       竜の卵の中というのは こんなふうに
@@ -32,17 +29,14 @@
     "original_byte_length": !!int |-
       309
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         55432
       "target_addr": !!int |-
         25748
     "translated": !!null |-
       null
-  "65c9":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "26057": !RelocatableTranslatableEntry
     "original": |-
       <CH2>
       もう やめましょうよ。
@@ -50,17 +44,14 @@
     "original_byte_length": !!int |-
       61
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         55438
       "target_addr": !!int |-
         26057
     "translated": !!null |-
       null
-  "6606":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "26118": !RelocatableTranslatableEntry
     "original": |-
       <CH1>
       あれっ !? なんか うまく
@@ -89,17 +80,14 @@
     "original_byte_length": !!int |-
       259
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         55563
       "target_addr": !!int |-
         26118
     "translated": !!null |-
       null
-  "6709":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "26377": !RelocatableTranslatableEntry
     "original": |-
       <SET00fc><CH1>
       なーんだ やっぱりだめか。
@@ -119,17 +107,14 @@
     "original_byte_length": !!int |-
       218
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         55519
       "target_addr": !!int |-
         26377
     "translated": !!null |-
       null
-  "67e3":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "26595": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ギャノア<C_NONE>
       やはり 現れおったな。
@@ -140,10 +125,11 @@
     "original_byte_length": !!int |-
       134
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54698
       "target_addr": !!int |-
         26595
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

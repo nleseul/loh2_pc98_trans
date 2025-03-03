@@ -1,11 +1,8 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   4039
-"entries":
-  "5c4c":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "23628": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>オセ<C_NONE>
       わしが このシリカの村の村長じゃ。
@@ -18,17 +15,14 @@
     "original_byte_length": !!int |-
       178
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54644
       "target_addr": !!int |-
         23628
     "translated": !!null |-
       null
-  "5cfe":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23806": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>セオラ<C_NONE>
       おやおや 珍しい。
@@ -37,17 +31,14 @@
     "original_byte_length": !!int |-
       83
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54653
       "target_addr": !!int |-
         23806
     "translated": !!null |-
       null
-  "5d51":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23889": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>セリム<C_NONE>
       ここに打つと あれがこうなるから
@@ -56,17 +47,14 @@
     "original_byte_length": !!int |-
       84
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54668
       "target_addr": !!int |-
         23889
     "translated": !!null |-
       null
-  "5da5":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23973": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>オレム<C_NONE>
       イラ イラ イラ
@@ -75,17 +63,14 @@
     "original_byte_length": !!int |-
       77
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54683
       "target_addr": !!int |-
         23973
     "translated": !!null |-
       null
-  "5df2":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24050": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>アベル<C_NONE>
       <IF0068><JUMP5e3e>せっかく ･ ･ ･ 何日もかけて ･ ･ ･
@@ -94,17 +79,14 @@
     "original_byte_length": !!int |-
       105
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54698
       "target_addr": !!int |-
         24050
     "translated": !!null |-
       null
-  "5e5b":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24155": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>タバル<C_NONE>
       <IF0068><JUMP5ef4>わっはっはっは、地震で ゲーム盤が
@@ -118,17 +100,14 @@
     "original_byte_length": !!int |-
       220
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54707
       "target_addr": !!int |-
         24155
     "translated": !!null |-
       null
-  "5f37":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24375": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>リゾン<C_NONE>
       <IF0068><JUMP5f96>今度 新しい ゲームを作ろうと
@@ -139,17 +118,14 @@
     "original_byte_length": !!int |-
       185
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54716
       "target_addr": !!int |-
         24375
     "translated": !!null |-
       null
-  "5ff0":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24560": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ガンク<C_NONE>
       ふん なにが ゲームじゃ。
@@ -165,17 +141,14 @@
     "original_byte_length": !!int |-
       232
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54725
       "target_addr": !!int |-
         24560
     "translated": !!null |-
       null
-  "60d8":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24792": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ハンナ<C_NONE>
       <IF0068><JUMP6191>まったく うちの おじいさんたら
@@ -193,17 +166,14 @@
     "original_byte_length": !!int |-
       355
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54734
       "target_addr": !!int |-
         24792
     "translated": !!null |-
       null
-  "623b":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "25147": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ロデリック<C_NONE>
       <IF0068><JUMP63f1><IF0048><JUMP62a5>わしは 変身という 新しい呪文を
@@ -249,17 +219,14 @@
     "original_byte_length": !!int |-
       824
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54743
       "target_addr": !!int |-
         25147
     "translated": !!null |-
       null
-  "6573":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "25971": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>オレア<C_NONE>
       昔 わしら賢者は ラスタバンという
@@ -275,17 +242,14 @@
     "original_byte_length": !!int |-
       297
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54752
       "target_addr": !!int |-
         25971
     "translated": !!null |-
       null
-  "669c":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "26268": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>アルノー<C_NONE>
       わしは 新しい呪文を 完成させて
@@ -299,17 +263,14 @@
     "original_byte_length": !!int |-
       206
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54761
       "target_addr": !!int |-
         26268
     "translated": !!null |-
       null
-  "676a":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "26474": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ディーム<C_NONE>
       わしは ヒュールの専門家なのじゃが
@@ -321,17 +282,14 @@
     "original_byte_length": !!int |-
       169
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54770
       "target_addr": !!int |-
         26474
     "translated": !!null |-
       null
-  "6813":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "26643": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>マルク<C_NONE>
       わしゃ 呪文が 売られとる町を
@@ -341,50 +299,41 @@
     "original_byte_length": !!int |-
       71
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54776
       "target_addr": !!int |-
         26643
     "translated": !!null |-
       null
-  "685a":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "26714": !RelocatableTranslatableEntry
     "original": |-
       どの呪文のことを 知りたいのじゃ？<RET_N>
     "original_byte_length": !!int |-
       34
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54782
       "target_addr": !!int |-
         26714
     "translated": !!null |-
       null
-  "687c":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "26748": !RelocatableTranslatableEntry
     "original": |-
       <CLEAR><ITEM>か ･ ･ ･
       それだったら <RET>
     "original_byte_length": !!int |-
       25
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54801
       "target_addr": !!int |-
         26748
     "translated": !!null |-
       null
-  "6895":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "26773": !RelocatableTranslatableEntry
     "original": |-
       に 行けば
       売っておる。
@@ -393,27 +342,25 @@
     "original_byte_length": !!int |-
       24
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54855
       "target_addr": !!int |-
         26773
     "translated": !!null |-
       null
-  "68ad":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "26797": !RelocatableTranslatableEntry
     "original": |-
       <CLEAR>呪文の ある所を 知りたかったら
       また来るがいい。
     "original_byte_length": !!int |-
       49
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54863
       "target_addr": !!int |-
         26797
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

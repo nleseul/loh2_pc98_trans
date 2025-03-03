@@ -1,38 +1,33 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   1180
-"entries":
-  "5d61":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "23905": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>フラッド<C_NONE>
       やあ こんにちは。
     "original_byte_length": !!int |-
       29
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54743
       "target_addr": !!int |-
         23905
     "translated": !!null |-
       null
-  "5d7e":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23934": !RelocatableTranslatableEntry
     "original": |-
       <PARTY>は 宝箱を開けました。
       宝箱の中には<RET>
     "original_byte_length": !!int |-
       36
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54702
       "target_addr": !!int |-
         23934
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

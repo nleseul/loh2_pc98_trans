@@ -1,11 +1,8 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   1409
-"entries":
-  "5a42":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "23106": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       <IF_NOT00f5><JUMP5aa0>あれっ !? ･ ･ ･ アトラス王子？
@@ -20,17 +17,14 @@
     "original_byte_length": !!int |-
       249
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54633
       "target_addr": !!int |-
         23106
     "translated": !!null |-
       null
-  "5b3b":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23355": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       <IF_NOT00f5><JUMP5bb0>アトラス王子さま こんなときに
@@ -47,17 +41,14 @@
     "original_byte_length": !!int |-
       305
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54642
       "target_addr": !!int |-
         23355
     "translated": !!null |-
       null
-  "5c6c":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23660": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       <IF_NOT00f5><JUMP5d2b>先日 セリオスさまと エリオンさまがそろって おみえになられ
@@ -79,17 +70,14 @@
     "original_byte_length": !!int |-
       395
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54651
       "target_addr": !!int |-
         23660
     "translated": !!null |-
       null
-  "5df7":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24055": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>侍女<C_NONE>
       まあ アトラス王子さま。
@@ -100,17 +88,14 @@
     "original_byte_length": !!int |-
       114
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54660
       "target_addr": !!int |-
         24055
     "translated": !!null |-
       null
-  "5e69":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24169": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>侍女<C_NONE>
       屋上にいる 発明家のハリーさんは
@@ -119,10 +104,11 @@
     "original_byte_length": !!int |-
       86
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54669
       "target_addr": !!int |-
         24169
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

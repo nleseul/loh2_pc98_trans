@@ -1,11 +1,8 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   2574
-"entries":
-  "62db":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "25307": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ガード<C_NONE>
       何だ きさまらは？
@@ -14,10 +11,11 @@
     "original_byte_length": !!int |-
       79
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54927
       "target_addr": !!int |-
         25307
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

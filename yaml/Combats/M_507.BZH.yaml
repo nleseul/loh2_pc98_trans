@@ -1,132 +1,98 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   713
-"entries":
-  "7170":
-    "is_relocatable": !!bool |-
-      false
+"_entries":
+  !!int "29040": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       浮遊王<RET>
-    "original_byte_length": !!int |-
-      7
-    "references": []
     "translated": !!null |-
       null
-  "71b0":
-    "is_relocatable": !!bool |-
-      false
+  !!int "29104": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       毒鉱石<RET>
-    "original_byte_length": !!int |-
-      7
-    "references": []
     "translated": !!null |-
       null
-  "71f0":
-    "is_relocatable": !!bool |-
-      false
+  !!int "29168": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       Ｍ５０７Ｃ<RET>
-    "original_byte_length": !!int |-
-      11
-    "references": []
     "translated": !!null |-
       null
-  "7230":
-    "is_relocatable": !!bool |-
-      false
+  !!int "29232": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       Ｍ５０７Ｄ<RET>
-    "original_byte_length": !!int |-
-      11
-    "references": []
     "translated": !!null |-
       null
-  "73a4":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29604": !RelocatableTranslatableEntry
     "original": |-
       浮遊王と毒鉱石が現れた。<RET_N>
     "original_byte_length": !!int |-
       25
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61000
       "target_addr": !!int |-
         29604
     "translated": !!null |-
       null
-  "73bd":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29629": !RelocatableTranslatableEntry
     "original": |-
       <ACTOR>は姿を消した。<RET_PAGE>
     "original_byte_length": !!int |-
       16
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61145
       "target_addr": !!int |-
         29629
     "translated": !!null |-
       null
-  "73cd":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29645": !RelocatableTranslatableEntry
     "original": |-
       <ACTOR>が姿を現した。<RET_PAGE>
     "original_byte_length": !!int |-
       16
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61329
       "target_addr": !!int |-
         29645
     "translated": !!null |-
       null
-  "73dd":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29661": !RelocatableTranslatableEntry
     "original": |-
       <ACTOR>は毒を作りはじめた。<RET_PAGE>
     "original_byte_length": !!int |-
       22
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61199
       "target_addr": !!int |-
         29661
     "translated": !!null |-
       null
-  "73f3":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29683": !RelocatableTranslatableEntry
     "original": |-
       <ACTOR>は猛毒を完成させた。<RET_PAGE>
     "original_byte_length": !!int |-
       22
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61217
       "target_addr": !!int |-
         29683
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

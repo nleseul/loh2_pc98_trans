@@ -1,169 +1,130 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   1046
-"entries":
-  "7170":
-    "is_relocatable": !!bool |-
-      false
+"_entries":
+  !!int "29040": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       グロルＡ<RET>
-    "original_byte_length": !!int |-
-      9
-    "references": []
     "translated": !!null |-
       null
-  "71b0":
-    "is_relocatable": !!bool |-
-      false
+  !!int "29104": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       グロルＢ<RET>
-    "original_byte_length": !!int |-
-      9
-    "references": []
     "translated": !!null |-
       null
-  "71f0":
-    "is_relocatable": !!bool |-
-      false
+  !!int "29168": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       グロルＣ<RET>
-    "original_byte_length": !!int |-
-      9
-    "references": []
     "translated": !!null |-
       null
-  "7230":
-    "is_relocatable": !!bool |-
-      false
+  !!int "29232": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       グロルＤ<RET>
-    "original_byte_length": !!int |-
-      9
-    "references": []
     "translated": !!null |-
       null
-  "74bd":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29885": !RelocatableTranslatableEntry
     "original": |-
       グロルが現れた。<RET_N>
     "original_byte_length": !!int |-
       17
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61000
       "target_addr": !!int |-
         29885
     "translated": !!null |-
       null
-  "74ce":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29902": !RelocatableTranslatableEntry
     "original": |-
       <ACTOR>は潮をまねいた。<RET_PAGE>
     "original_byte_length": !!int |-
       18
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61145
       "target_addr": !!int |-
         29902
     "translated": !!null |-
       null
-  "74e0":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29920": !RelocatableTranslatableEntry
     "original": |-
       <ACTOR>の運のよさが 11 <RET>
     "original_byte_length": !!int |-
       18
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61536
       "target_addr": !!int |-
         29920
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61206
       "target_addr": !!int |-
         29920
     "translated": !!null |-
       null
-  "74f2":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29938": !RelocatableTranslatableEntry
     "original": |-
       あがった。<RET_PAGE>
     "original_byte_length": !!int |-
       11
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61212
       "target_addr": !!int |-
         29938
     "translated": !!null |-
       null
-  "74fd":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29949": !RelocatableTranslatableEntry
     "original": |-
       さがった。<RET_PAGE>
     "original_byte_length": !!int |-
       11
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61542
       "target_addr": !!int |-
         29949
     "translated": !!null |-
       null
-  "7508":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29960": !RelocatableTranslatableEntry
     "original": |-
       グロルはゆで上がってしまった。<RET_PAGE>
     "original_byte_length": !!int |-
       31
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61505
       "target_addr": !!int |-
         29960
     "translated": !!null |-
       null
-  "7527":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29991": !RelocatableTranslatableEntry
     "original": |-
       グロルのまわりの水からイグナが
       伝わってきた !!<RET_PAGE>
     "original_byte_length": !!int |-
       47
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61422
       "target_addr": !!int |-
         29991
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

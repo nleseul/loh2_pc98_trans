@@ -1,388 +1,229 @@
-"end_of_file_addr": !!null |-
+!TranslationCollection
+"_end_of_file_addr": !!null |-
   null
-"entries":
-  "9abc":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "39612": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      8
     "original": |-
       フラム
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": |-
       Flam
-  "9ac8":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "39624": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      8
     "original": |-
       イグナ
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": |-
       Igna
-  "9ad4":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "39636": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      8
     "original": |-
       ヒュール
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": |-
       Hura
-  "9ae0":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "39648": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      8
     "original": |-
       サクタス
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": |-
       Suctas
-  "9aec":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "39660": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      8
     "original": |-
       パペピア
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": |-
       Papepia
-  "9af8":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "39672": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      8
     "original": |-
       プアゾ
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": |-
       Poizo
-  "9b04":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "39684": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      8
     "original": |-
       ホー
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": |-
       Hoa
-  "9b10":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "39696": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      8
     "original": |-
       シレント
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": |-
       Serento
-  "9b1c":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "39708": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      8
     "original": |-
       オビス
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": |-
       Obis
-  "9b28":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "39720": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      8
     "original": |-
       ダナム
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": |-
       Danam
-  "9b34":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "39732": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      8
     "original": |-
       ヘベタル
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": |-
       Hebetar
-  "9b40":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "39744": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      8
     "original": |-
       ストール
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "9b4c":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "39756": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      8
     "original": |-
       ブラムナ
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "9b58":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "39768": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      8
     "original": |-
       ヒュドナ
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "9b64":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "39780": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      8
     "original": |-
       ＭＧ１４
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "9b70":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "39792": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      8
     "original": |-
       ＭＧ１５
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "9b7c":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "39804": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      8
     "original": |-
       インパス
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": |-
       Impas
-  "9b88":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "39816": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      8
     "original": |-
       テュート
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": |-
       Teuto
-  "9b94":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "39828": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      8
     "original": |-
       セラ
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": |-
       Sela
-  "9ba0":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "39840": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      8
     "original": |-
       サイレス
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": |-
       Sylis
-  "9bac":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "39852": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      8
     "original": |-
       リパーク
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": |-
       Reparc
-  "9bb8":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "39864": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      8
     "original": |-
       エント
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "9bc4":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "39876": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      8
     "original": |-
       ＭＧ２２
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "9bd0":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "39888": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      8
     "original": |-
       レス
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": |-
       Res
-  "9bdc":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "39900": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      8
     "original": |-
       レジナ
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": |-
       Regina
-  "9be8":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "39912": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      8
     "original": |-
       リーフ
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": |-
       Lefe
-  "9bf4":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "39924": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      8
     "original": |-
       レストナ
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "9c00":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "39936": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      8
     "original": |-
       笛
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": |-
       Flute
-  "9c0c":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "39948": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      8
     "original": |-
       ワプ
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "9c18":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "39960": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      8
     "original": |-
       ルクス
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": |-
       Lux
-  "9c24":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "39972": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      8
     "original": |-
       ヨシュア
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": |-
       Joshua
-  "9c30":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "39984": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      8
     "original": |-
       ビス
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

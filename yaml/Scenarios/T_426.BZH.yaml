@@ -1,11 +1,8 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   1157
-"entries":
-  "5a61":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "23137": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>村長<C_NONE>
       <IF0204><JUMP5aaf>シンディ、何か思い出したことでも
@@ -16,17 +13,14 @@
     "original_byte_length": !!int |-
       160
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54631
       "target_addr": !!int |-
         23137
     "translated": !!null |-
       null
-  "5b01":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23297": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>老人<C_NONE>
       うちの孫は 知りませんかの？
@@ -35,17 +29,14 @@
     "original_byte_length": !!int |-
       97
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54640
       "target_addr": !!int |-
         23297
     "translated": !!null |-
       null
-  "5b62":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23394": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>老人<C_NONE>
       このファエトの村は 隠居村と
@@ -56,17 +47,14 @@
     "original_byte_length": !!int |-
       139
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54649
       "target_addr": !!int |-
         23394
     "translated": !!null |-
       null
-  "5bed":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23533": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>老婆<C_NONE>
       もし コルクスの町に 行ったら
@@ -78,34 +66,28 @@
     "original_byte_length": !!int |-
       155
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54658
       "target_addr": !!int |-
         23533
     "translated": !!null |-
       null
-  "5c88":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23688": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>老婆<C_NONE>
       このところ 盗賊たちが ファンガスのまわりに 集まってきているそうじゃ。迷惑なやつらよのう。
     "original_byte_length": !!int |-
       97
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54667
       "target_addr": !!int |-
         23688
     "translated": !!null |-
       null
-  "5ce9":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23785": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>子ども<C_NONE>
       おじいちゃんと 鬼ごっこを
@@ -114,17 +96,14 @@
     "original_byte_length": !!int |-
       80
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54676
       "target_addr": !!int |-
         23785
     "translated": !!null |-
       null
-  "5d39":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23865": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>女<C_NONE>
       私は 弟を連れて コルクスから来たの。
@@ -135,10 +114,11 @@
     "original_byte_length": !!int |-
       138
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54685
       "target_addr": !!int |-
         23865
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

@@ -1,212 +1,163 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   1840
-"entries":
-  "7170":
-    "is_relocatable": !!bool |-
-      false
+"_entries":
+  !!int "29040": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       ﾄﾞﾗｽﾄｺﾞｰｽﾄＡ<RET>
-    "original_byte_length": !!int |-
-      13
-    "references": []
     "translated": !!null |-
       null
-  "71b0":
-    "is_relocatable": !!bool |-
-      false
+  !!int "29104": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       ディゲンス<RET>
-    "original_byte_length": !!int |-
-      11
-    "references": []
     "translated": !!null |-
       null
-  "71f0":
-    "is_relocatable": !!bool |-
-      false
+  !!int "29168": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       ﾄﾞﾗｽﾄｺﾞｰｽﾄＢ<RET>
-    "original_byte_length": !!int |-
-      13
-    "references": []
     "translated": !!null |-
       null
-  "7230":
-    "is_relocatable": !!bool |-
-      false
+  !!int "29232": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": ""
-    "original_byte_length": !!int |-
-      1
-    "references": []
     "translated": !!null |-
       null
-  "777a":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "30586": !RelocatableTranslatableEntry
     "original": |-
       ディゲンスが現れた。<RET_N>
     "original_byte_length": !!int |-
       21
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61000
       "target_addr": !!int |-
         30586
     "translated": !!null |-
       null
-  "778f":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "30607": !RelocatableTranslatableEntry
     "original": |-
       はドラストゴーストを呼びよせた。<RET_PAGE>
     "original_byte_length": !!int |-
       33
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61284
       "target_addr": !!int |-
         30607
     "translated": !!null |-
       null
-  "77b0":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "30640": !RelocatableTranslatableEntry
     "original": |-
       <ACTOR>は攻撃体制に入った。<RET_PAGE>
     "original_byte_length": !!int |-
       22
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61306
       "target_addr": !!int |-
         30640
     "translated": !!null |-
       null
-  "77c6":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "30662": !RelocatableTranslatableEntry
     "original": |-
       <ACTOR>は毒を中和した。<RET_PAGE>
     "original_byte_length": !!int |-
       18
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61434
       "target_addr": !!int |-
         30662
     "translated": !!null |-
       null
-  "77d8":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "30680": !RelocatableTranslatableEntry
     "original": |-
       <ACTOR>は<C_YELLOW>ディゲンス<C_NONE>の前に出て呪文を受けた。<RET_N>
     "original_byte_length": !!int |-
       40
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61905
       "target_addr": !!int |-
         30680
     "translated": !!null |-
       null
-  "7800":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "30720": !RelocatableTranslatableEntry
     "original": |-
       <ACTOR>は<C_YELLOW>ディゲンス<C_NONE>の前に出て剣を受けた。<RET_N>
     "original_byte_length": !!int |-
       38
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61650
       "target_addr": !!int |-
         30720
     "translated": !!null |-
       null
-  "7826":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "30758": !RelocatableTranslatableEntry
     "original": |-
       <ACTOR>はしっぽで攻撃した。<RET_N>
     "original_byte_length": !!int |-
       22
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61339
       "target_addr": !!int |-
         30758
     "translated": !!null |-
       null
-  "783c":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "30780": !RelocatableTranslatableEntry
     "original": |-
       <ACTOR>は<RET>
     "original_byte_length": !!int |-
       4
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61541
       "target_addr": !!int |-
         30780
     "translated": !!null |-
       null
-  "7840":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "30784": !RelocatableTranslatableEntry
     "original": |-
       <ACTOR>の首に
       かみついた。<RET_N>
     "original_byte_length": !!int |-
       21
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61550
       "target_addr": !!int |-
         30784
     "translated": !!null |-
       null
-  "7855":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "30805": !RelocatableTranslatableEntry
     "original": |-
       <ACTOR>は逃げ出した。<RET_N>
     "original_byte_length": !!int |-
       16
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61792
       "target_addr": !!int |-
         30805
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

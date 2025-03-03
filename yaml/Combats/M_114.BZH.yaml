@@ -1,100 +1,72 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   497
-"entries":
-  "7170":
-    "is_relocatable": !!bool |-
-      false
+"_entries":
+  !!int "29040": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       アースワームＣ<RET>
-    "original_byte_length": !!int |-
-      15
-    "references": []
     "translated": !!null |-
       null
-  "71b0":
-    "is_relocatable": !!bool |-
-      false
+  !!int "29104": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       アースワームＡ<RET>
-    "original_byte_length": !!int |-
-      15
-    "references": []
     "translated": !!null |-
       null
-  "71f0":
-    "is_relocatable": !!bool |-
-      false
+  !!int "29168": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       アースワームＢ<RET>
-    "original_byte_length": !!int |-
-      15
-    "references": []
     "translated": !!null |-
       null
-  "7230":
-    "is_relocatable": !!bool |-
-      false
+  !!int "29232": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       アースワームＤ<RET>
-    "original_byte_length": !!int |-
-      15
-    "references": []
     "translated": !!null |-
       null
-  "72fc":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29436": !RelocatableTranslatableEntry
     "original": |-
       アースワームが現れた。<RET_N>
     "original_byte_length": !!int |-
       23
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61000
       "target_addr": !!int |-
         29436
     "translated": !!null |-
       null
-  "7313":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29459": !RelocatableTranslatableEntry
     "original": |-
       は 仲間を呼んだ。<RET_N>
     "original_byte_length": !!int |-
       18
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61100
       "target_addr": !!int |-
         29459
     "translated": !!null |-
       null
-  "7325":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29477": !RelocatableTranslatableEntry
     "original": |-
       <ACTOR>が現れた。<RET_PAGE>
     "original_byte_length": !!int |-
       12
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61153
       "target_addr": !!int |-
         29477
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

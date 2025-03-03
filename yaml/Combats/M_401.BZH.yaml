@@ -1,56 +1,33 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   1280
-"entries":
-  "7170":
-    "is_relocatable": !!bool |-
-      false
+"_entries":
+  !!int "29040": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       カザズーム<RET>
-    "original_byte_length": !!int |-
-      11
-    "references": []
     "translated": !!null |-
       null
-  "71b0":
-    "is_relocatable": !!bool |-
-      false
+  !!int "29104": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": ""
-    "original_byte_length": !!int |-
-      1
-    "references": []
     "translated": !!null |-
       null
-  "71f0":
-    "is_relocatable": !!bool |-
-      false
+  !!int "29168": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": ""
-    "original_byte_length": !!int |-
-      1
-    "references": []
     "translated": !!null |-
       null
-  "7230":
-    "is_relocatable": !!bool |-
-      false
+  !!int "29232": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": ""
-    "original_byte_length": !!int |-
-      1
-    "references": []
     "translated": !!null |-
       null
-  "754a":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "30026": !RelocatableTranslatableEntry
     "original": |-
       <CALL75c7><CALL75ea>この氷の壁は 破れん。
 
@@ -58,33 +35,27 @@
     "original_byte_length": !!int |-
       29
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61661
       "target_addr": !!int |-
         30026
     "translated": !!null |-
       null
-  "7567":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "30055": !RelocatableTranslatableEntry
     "original": |-
       しかし 氷の壁は壊れない。<RET_PAGE>
     "original_byte_length": !!int |-
       26
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61494
       "target_addr": !!int |-
         30055
     "translated": !!null |-
       null
-  "7581":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "30081": !RelocatableTranslatableEntry
     "original": |-
       <ACTOR>は<CALL06a8><JUMP06bb><LOC758a><SET0041><CALL75c7>その程度の炎で この壁は破れんぞ。<IF0418><JUMP75b8>
 
@@ -92,41 +63,37 @@
     "original_byte_length": !!int |-
       56
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61369
       "target_addr": !!int |-
         30090
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61256
       "target_addr": !!int |-
         30081
     "translated": !!null |-
       null
-  "75b9":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "30137": !RelocatableTranslatableEntry
     "original": |-
       <CALL75df>が現れた。<RET_N>
     "original_byte_length": !!int |-
       14
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61000
       "target_addr": !!int |-
         30137
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61615
       "target_addr": !!int |-
         30137
     "translated": !!null |-
       null
-  "75c7":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "30151": !RelocatableTranslatableEntry
     "original": |-
       <CLEAR><C_YELLOW><CALL75df><C_NONE>
       グッハッハッハ。<RET_N>
@@ -135,11 +102,7 @@
     "references": []
     "translated": !!null |-
       null
-  "75df":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "30175": !RelocatableTranslatableEntry
     "original": |-
       カザズーム<RET>
     "original_byte_length": !!int |-
@@ -147,11 +110,7 @@
     "references": []
     "translated": !!null |-
       null
-  "75ea":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "30186": !RelocatableTranslatableEntry
     "original": |-
       お前らなどに <RET>
     "original_byte_length": !!int |-
@@ -159,27 +118,20 @@
     "references": []
     "translated": !!null |-
       null
-  "75f8":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "30200": !RelocatableTranslatableEntry
     "original": |-
       <CALL75c7><CALL75ea>このおれは 倒せん。<RET>
     "original_byte_length": !!int |-
       26
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61454
       "target_addr": !!int |-
         30200
     "translated": !!null |-
       null
-  "7612":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "30226": !RelocatableTranslatableEntry
     "original": |-
       <CALL75df>は分身した。<RET_PAGE>
       <CONT><CLEAR><C_YELLOW><CALL75df>Ａ<C_NONE>
@@ -189,10 +141,11 @@
     "original_byte_length": !!int |-
       46
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61232
       "target_addr": !!int |-
         30226
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

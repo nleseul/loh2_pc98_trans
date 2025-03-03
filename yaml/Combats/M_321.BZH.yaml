@@ -1,116 +1,85 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   1070
-"entries":
-  "7170":
-    "is_relocatable": !!bool |-
-      false
+"_entries":
+  !!int "29040": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       ロングアージＡ<RET>
-    "original_byte_length": !!int |-
-      15
-    "references": []
     "translated": !!null |-
       null
-  "71b0":
-    "is_relocatable": !!bool |-
-      false
+  !!int "29104": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       ロングアージＢ<RET>
-    "original_byte_length": !!int |-
-      15
-    "references": []
     "translated": !!null |-
       null
-  "71f0":
-    "is_relocatable": !!bool |-
-      false
+  !!int "29168": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       モーンガー<RET>
-    "original_byte_length": !!int |-
-      11
-    "references": []
     "translated": !!null |-
       null
-  "7230":
-    "is_relocatable": !!bool |-
-      false
+  !!int "29232": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       Ｍ２１９Ｄ<RET>
-    "original_byte_length": !!int |-
-      11
-    "references": []
     "translated": !!null |-
       null
-  "74fc":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29948": !RelocatableTranslatableEntry
     "original": |-
       モーンガーとロングアージが現れた。<RET_N>
     "original_byte_length": !!int |-
       35
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61000
       "target_addr": !!int |-
         29948
     "translated": !!null |-
       null
-  "7533":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "30003": !RelocatableTranslatableEntry
     "original": |-
       は逃げ出した。<RET_PAGE>
     "original_byte_length": !!int |-
       15
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61150
       "target_addr": !!int |-
         30003
     "translated": !!null |-
       null
-  "7542":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "30018": !RelocatableTranslatableEntry
     "original": |-
       はＨＰを回復して帰ってきた。<RET_PAGE>
     "original_byte_length": !!int |-
       29
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61267
       "target_addr": !!int |-
         30018
     "translated": !!null |-
       null
-  "755f":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "30047": !RelocatableTranslatableEntry
     "original": |-
       は飛び跳ねた。<RET_N>
     "original_byte_length": !!int |-
       15
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61336
       "target_addr": !!int |-
         30047
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

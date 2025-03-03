@@ -1,11 +1,8 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   1849
-"entries":
-  "5b18":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "23320": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       アトラスさま ･ ･ ･ ですよね？
@@ -14,17 +11,14 @@
     "original_byte_length": !!int |-
       88
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54635
       "target_addr": !!int |-
         23320
     "translated": !!null |-
       null
-  "5b70":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23408": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       ようこそ アトラスさま。
@@ -36,17 +30,14 @@
     "original_byte_length": !!int |-
       193
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54644
       "target_addr": !!int |-
         23408
     "translated": !!null |-
       null
-  "5c31":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23601": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       今日と明日は たくさんの料理が
@@ -55,17 +46,14 @@
     "original_byte_length": !!int |-
       86
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54653
       "target_addr": !!int |-
         23601
     "translated": !!null |-
       null
-  "5c87":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23687": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       ここは 出入国記録の 保管所です。
@@ -78,17 +66,14 @@
     "original_byte_length": !!int |-
       202
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54662
       "target_addr": !!int |-
         23687
     "translated": !!null |-
       null
-  "5d51":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23889": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       ここは 出国手続き所なんです。
@@ -97,17 +82,14 @@
     "original_byte_length": !!int |-
       87
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54671
       "target_addr": !!int |-
         23889
     "translated": !!null |-
       null
-  "5da8":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23976": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       この船は わがラヌーラ王国の船です。
@@ -118,17 +100,14 @@
     "original_byte_length": !!int |-
       128
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54680
       "target_addr": !!int |-
         23976
     "translated": !!null |-
       null
-  "5e28":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24104": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       祭のじゃまをするような やつが
@@ -136,17 +115,14 @@
     "original_byte_length": !!int |-
       102
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54689
       "target_addr": !!int |-
         24104
     "translated": !!null |-
       null
-  "5e8e":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24206": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>司祭 バーバラ<C_NONE>
       わしゃ 竜の祭の司祭じゃ。
@@ -155,51 +131,42 @@
     "original_byte_length": !!int |-
       105
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54698
       "target_addr": !!int |-
         24206
     "translated": !!null |-
       null
-  "5ef7":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24311": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>侍女<C_NONE>
       今日は 前夜祭だから 料理をたくさん作らなければ なりませんのよ。
     "original_byte_length": !!int |-
       71
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54707
       "target_addr": !!int |-
         24311
     "translated": !!null |-
       null
-  "5f3e":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24382": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>侍女<C_NONE>
       あんまり 忙しいから 王妃さまにまで手伝っていただいてますのよ。
     "original_byte_length": !!int |-
       70
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54716
       "target_addr": !!int |-
         24382
     "translated": !!null |-
       null
-  "5f84":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24452": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ソニア王妃<C_NONE>
       アトラスさまですね？
@@ -211,17 +178,14 @@
     "original_byte_length": !!int |-
       148
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54725
       "target_addr": !!int |-
         24452
     "translated": !!null |-
       null
-  "6018":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24600": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>チャールズ王子<C_NONE>
       バーバラと いっしょに 竜の卵に
@@ -230,10 +194,11 @@
     "original_byte_length": !!int |-
       95
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54734
       "target_addr": !!int |-
         24600
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

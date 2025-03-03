@@ -129,8 +129,7 @@ def render_text_html(trans:TranslationCollection, entry_point_key:int, max_pages
     locator_to_key_and_offset = {}
     encoded_events = {}
 
-    for key in trans.keys:
-        data = trans[key]
+    for key, data in trans.translatables():
         event_string = data.translated if translated else data.original
 
         if event_string is None:
@@ -371,8 +370,7 @@ def text_contains_japanese(text:str) -> bool:
 def calculate_progress(trans:TranslationCollection) -> float:
     total_items = 0
     items_done = 0
-    for key in trans.keys:
-        item = trans[key]
+    for key, item in trans.translatables():
         total_items += 1
         if item.translated is not None and len(item.translated) > 0:
             if text_contains_japanese(item.translated):
@@ -488,20 +486,20 @@ def items(file_name, folder_key=None):
         save_trans(folder_key, file_name, trans)
 
     items = []
-    for key in trans.keys:
+    for key, entry in trans.translatables():
 
         if file_name == "Opening":
-            original_pages = render_opening_text_html(trans[key].original)
-            translated_pages = render_opening_text_html(trans[key].translated)
+            original_pages = render_opening_text_html(entry.original)
+            translated_pages = render_opening_text_html(entry.translated)
         elif file_name == "Ending":
-            original_pages = render_ending_text_html(trans[key].original)
-            translated_pages = render_ending_text_html(trans[key].translated)
+            original_pages = render_ending_text_html(entry.original)
+            translated_pages = render_ending_text_html(entry.translated)
         else:
             original_pages, _ = render_text_html(trans, key, 3, translated=False)
             translated_pages, _ = render_text_html(trans, key, 3, translated=True)
 
-        has_translation = trans[key].translated is not None and len(trans[key].translated) > 0
-        is_done = has_translation and not text_contains_japanese(trans[key].translated)
+        has_translation = entry.translated is not None and len(entry.translated) > 0
+        is_done = has_translation and not text_contains_japanese(entry.translated)
         is_in_progress = has_translation and not is_done
 
         items.append({
@@ -522,7 +520,7 @@ def edit_item(file_name, key_str, folder_key=None):
     key = int(key_str, base=16)
 
     trans = load_trans(folder_key, file_name)
-    key_list = sorted(list(trans.keys))
+    key_list = sorted([key for key, _ in trans.translatables()])
 
     key_index = key_list.index(key)
 
@@ -535,7 +533,12 @@ def edit_item(file_name, key_str, folder_key=None):
     conditions = set()
     if file_name != "Opening" and file_name != "Ending":
         for k in key_list:
-            item = trans[k]
+            item = trans.get_entry(k)
+            assert(isinstance(item, TranslatableEntry))
+
+            if k == key:
+                current_item_info = item
+
             encoded, _, _ = encode_event_string(item.original)
             for instruction in disassemble_event(encoded, k, k):
                 if isinstance(instruction, DS6CodeInstruction):
@@ -543,8 +546,6 @@ def edit_item(file_name, key_str, folder_key=None):
                     if condition_str is not None:
                         conditions.add(condition_str)
     condition_list = sorted(conditions)
-
-    current_item_info = trans[key]
 
     if file_name == "Opening":
         window_width, window_height = 62, 9
@@ -584,9 +585,7 @@ def search():
 
                 trans = TranslationCollection.load(os.path.join(path, file))
 
-                for key in trans.keys:
-                    item = trans[key]
-
+                for key, item in trans.translatables():
                     if item.original is not None:
                         original_index = item.original.find(search_term)
                         if original_index >= 0:
@@ -635,12 +634,14 @@ def render_item_text():
     key = int(key_str, base=16)
 
     trans = TranslationCollection.load(path)
+    entry = trans.get_entry(key)
+    assert(isinstance(entry, TranslatableEntry))
 
     if file_name == "Opening":
-        pages = render_opening_text_html(trans[key].translated if translated else trans[key].original)
+        pages = render_opening_text_html(entry.translated if translated else entry.original)
         conditions_checked = []
     elif file_name == "Ending":
-        pages = render_ending_text_html(trans[key].translated if translated else trans[key].original, key == 0x2b76)
+        pages = render_ending_text_html(entry.translated if translated else entry.original, key == 0x2b76)
         conditions_checked = []
     else:
         pages, conditions_checked = render_text_html(trans, key, translated=translated, active_conditions=active_conditions)
@@ -659,7 +660,9 @@ def update_item_text():
     key = int(key_str, base=16)
 
     trans = load_trans(folder_key, file_name)
-    trans[key].translated = new_text
+    entry = trans.get_entry(key)
+    assert(isinstance(entry, TranslatableEntry))
+    entry.translated = new_text
     save_trans(folder_key, file_name, trans)
 
     return { }
@@ -673,7 +676,9 @@ def find_similar_items():
     original_trans = load_trans(original_folder_key, original_file_name)
 
     original_key = int(original_key_str, base=16)
-    original_text = original_trans[original_key].original
+    original_entry = original_trans.get_entry(original_key)
+    assert(isinstance(original_entry, TranslatableEntry))
+    original_text = original_entry.original
 
     results = []
 
@@ -685,11 +690,10 @@ def find_similar_items():
 
             trans = TranslationCollection.load(os.path.join(path, file))
 
-            for key in trans.keys:
+            for key, entry in trans.translatables():
                 if key == original_key and file_name == original_file_name and folder_key == original_folder_key:
                     continue
 
-                entry = trans[key]
                 if entry.translated is not None and len(entry.translated) > 0 and entry.original == original_text:
                     results.append( {
                         'folder_key': folder_key,

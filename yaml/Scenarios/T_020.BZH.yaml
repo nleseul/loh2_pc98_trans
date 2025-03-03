@@ -1,27 +1,21 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   2877
-"entries":
-  "5bb7":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "23479": !RelocatableTranslatableEntry
     "original": |-
       こけ～っ !?
     "original_byte_length": !!int |-
       12
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54646
       "target_addr": !!int |-
         23479
     "translated": |-
       Bok! Bokaaw!
-  "5bc3":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23491": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
       大地震で 竜の卵が 出てきたんだよ。きっと 今まで 地下に 埋まって
@@ -29,7 +23,8 @@
     "original_byte_length": !!int |-
       82
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54655
       "target_addr": !!int |-
         23491
@@ -37,11 +32,7 @@
       <C_YELLOW>Man<C_NONE>
       That dragonsegg appeared in the
       earthquake. It must've been buriedunderground before.
-  "5c15":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23573": !RelocatableTranslatableEntry
     "original": "<C_YELLOW>男<C_NONE>\n<IF0404><JUMP5c79><SET0404>おや 見かけない子だな。\nどこから来たんだ？\n\
       \n<CH0>\nえっ えーと ルディアから。\n\n<C_YELLOW>男<C_NONE>\nそうか、<LOC5c79>ルディアといえば 武器屋の\n\
       スコットがいるだろ。\n\nあいつな この前の 地震のときに\n壁に かけてあった武器が 全部 \n自分めがけて 落ちてきたんだけど\nかすりきず ひとつしなかったんだと。\n\
@@ -49,7 +40,8 @@
     "original_byte_length": !!int |-
       372
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54664
       "target_addr": !!int |-
         23573
@@ -74,11 +66,7 @@
       passed out in bed from the shock.
       He's got to be back to work by
       now, though, right?
-  "5d89":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23945": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
       <IF000b><JUMP5e0b>あんな所に 竜の卵が 埋まっていた
@@ -94,7 +82,8 @@
     "original_byte_length": !!int |-
       298
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54673
       "target_addr": !!int |-
         23945
@@ -103,18 +92,15 @@
       those things, right?<END>\n<LOC5e0b><SET0012><ASMd6ec>What? Pete wants us to\
       \ come help\nclear a cave-in?\nWow, that earthquake...\n\nAll right, I'll take\
       \ some people \nout there. Thanks for letting\nus know, kid!"
-  "5eb3":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24243": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
       スライムが 畑を荒して 困ってるだ。
     "original_byte_length": !!int |-
       40
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54682
       "target_addr": !!int |-
         24243
@@ -123,11 +109,7 @@
       Those darn slimes've been
       a-squishin' through these fields
       again.
-  "5edb":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24283": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>女<C_NONE>
       <IF0012><JUMP6064><IF000b><JUMP600f><IF0018><JUMP5fd9>この村の アロンさんって長老さん
@@ -149,7 +131,8 @@
     "original_byte_length": !!int |-
       447
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54691
       "target_addr": !!int |-
         24283
@@ -169,11 +152,7 @@
       <LOC6064>This must be rough on Pete.
       I hope they can re-open the mine
       soon.
-  "609a":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24730": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ロー<C_NONE>
       <IF0010><JUMP6256><SET0010>んっ !?
@@ -209,7 +188,8 @@
     "original_byte_length": !!int |-
       493
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54700
       "target_addr": !!int |-
         24730
@@ -249,11 +229,7 @@
       <LOC6256>Hey, shrimp.
       Don't go around telling people
       what I said, all right?
-  "6287":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "25223": !RelocatableTranslatableEntry
     "original": "<IF0011><JUMP63e0><ASMd708><SET0011><CH0>\nやあ アロン、元気そうだね。\n\n<C_YELLOW>アロン<C_NONE>\n\
       はっ !! これは アトラス王子。\nお久しぶりでございます。\nその お姿は ･ ･ ･\n\n以前、セリオス国王さまが\nお使いになっていた物ですな。\n\
       なんと勇ましきお姿 ･ ･ ･ \n\nまるで 若き日の セリオスさまの\nようでございます。\n王子さまも これほどにまで\nご成長なされて ･ ･\
@@ -262,7 +238,8 @@
     "original_byte_length": !!int |-
       500
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54730
       "target_addr": !!int |-
         25223
@@ -290,5 +267,5 @@
       soon...<END>
       <LOC6424>Please take your time seeing the
       world, your Highness. It will makeyou a fine King.
-"note": |-
+"_note": |-
   Crus - Prologue

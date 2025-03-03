@@ -1,117 +1,86 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   600
-"entries":
-  "7170":
-    "is_relocatable": !!bool |-
-      false
+"_entries":
+  !!int "29040": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       ハンタークローA<RET>
-    "original_byte_length": !!int |-
-      16
-    "references": []
     "translated": !!null |-
       null
-  "71b0":
-    "is_relocatable": !!bool |-
-      false
+  !!int "29104": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       ハンタークローB<RET>
-    "original_byte_length": !!int |-
-      16
-    "references": []
     "translated": !!null |-
       null
-  "71f0":
-    "is_relocatable": !!bool |-
-      false
+  !!int "29168": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       ハンタークローC<RET>
-    "original_byte_length": !!int |-
-      16
-    "references": []
     "translated": !!null |-
       null
-  "7230":
-    "is_relocatable": !!bool |-
-      false
+  !!int "29232": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       ハンタークローD<RET>
-    "original_byte_length": !!int |-
-      16
-    "references": []
     "translated": !!null |-
       null
-  "7333":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29491": !RelocatableTranslatableEntry
     "original": |-
       ハンタークローが現れた。<RET_N>
     "original_byte_length": !!int |-
       25
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61000
       "target_addr": !!int |-
         29491
     "translated": !!null |-
       null
-  "734c":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29516": !RelocatableTranslatableEntry
     "original": |-
       は鋭いパンチを
       繰り出した。<RET_N>
     "original_byte_length": !!int |-
       28
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61118
       "target_addr": !!int |-
         29516
     "translated": !!null |-
       null
-  "7368":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29544": !RelocatableTranslatableEntry
     "original": |-
       <ACTOR>は頭がしびれてしまった。<RET_PAGE>
     "original_byte_length": !!int |-
       26
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61146
       "target_addr": !!int |-
         29544
     "translated": !!null |-
       null
-  "7382":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29570": !RelocatableTranslatableEntry
     "original": |-
       <ACTOR>の体に毒がまわった。<RET_N>
     "original_byte_length": !!int |-
       22
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61212
       "target_addr": !!int |-
         29570
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

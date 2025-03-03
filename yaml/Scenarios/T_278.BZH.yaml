@@ -1,11 +1,8 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   1715
-"entries":
-  "5adb":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "23259": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ジーナ<C_NONE>
       な、何だい このスライム男が
@@ -13,17 +10,14 @@
     "original_byte_length": !!int |-
       73
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54630
       "target_addr": !!int |-
         23259
     "translated": !!null |-
       null
-  "5b24":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23332": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>船員<C_NONE>
       モンスターが いなくなったって
@@ -34,17 +28,14 @@
     "original_byte_length": !!int |-
       104
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54639
       "target_addr": !!int |-
         23332
     "translated": !!null |-
       null
-  "5b8c":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23436": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>船員<C_NONE>
       ジーナさんは 旅人の宿チェーンを
@@ -55,17 +46,14 @@
     "original_byte_length": !!int |-
       143
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54648
       "target_addr": !!int |-
         23436
     "translated": !!null |-
       null
-  "5c1b":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23579": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>船員<C_NONE>
       あーあ ヒマだなー
@@ -76,17 +64,14 @@
     "original_byte_length": !!int |-
       113
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54657
       "target_addr": !!int |-
         23579
     "translated": !!null |-
       null
-  "5c8c":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23692": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>船員<C_NONE>
       ジーナさんって こわいんだよな。
@@ -95,17 +80,14 @@
     "original_byte_length": !!int |-
       87
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54666
       "target_addr": !!int |-
         23692
     "translated": !!null |-
       null
-  "5ce3":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23779": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>船員<C_NONE>
       な、何だよ おれたちゃ バクチ
@@ -117,17 +99,14 @@
     "original_byte_length": !!int |-
       171
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54675
       "target_addr": !!int |-
         23779
     "translated": !!null |-
       null
-  "5d8e":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23950": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>船員<C_NONE>
       <IF009d><JUMP5e18>おっと 気をつけてくれよ。
@@ -145,17 +124,14 @@
     "original_byte_length": !!int |-
       267
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54684
       "target_addr": !!int |-
         23950
     "translated": !!null |-
       null
-  "5e99":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24217": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>船員<C_NONE>
       ここには 変わった宝石が たくさん
@@ -163,17 +139,14 @@
     "original_byte_length": !!int |-
       71
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54693
       "target_addr": !!int |-
         24217
     "translated": !!null |-
       null
-  "5ee0":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24288": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ボアード<C_NONE>
       <IF009d><JUMP5f28><Xf624d6><JUMP5f56>またバクヤクが ほしかったら
@@ -187,10 +160,11 @@
     "original_byte_length": !!int |-
       273
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54702
       "target_addr": !!int |-
         24288
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

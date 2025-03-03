@@ -1,164 +1,124 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   974
-"entries":
-  "7170":
-    "is_relocatable": !!bool |-
-      false
+"_entries":
+  !!int "29040": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       デ・オクトＡ<RET>
-    "original_byte_length": !!int |-
-      13
-    "references": []
     "translated": !!null |-
       null
-  "71b0":
-    "is_relocatable": !!bool |-
-      false
+  !!int "29104": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       デ・オクトＢ<RET>
-    "original_byte_length": !!int |-
-      13
-    "references": []
     "translated": !!null |-
       null
-  "71f0":
-    "is_relocatable": !!bool |-
-      false
+  !!int "29168": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       ブランナ<RET>
-    "original_byte_length": !!int |-
-      9
-    "references": []
     "translated": !!null |-
       null
-  "7230":
-    "is_relocatable": !!bool |-
-      false
+  !!int "29232": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       デ・オクトＣ<RET>
-    "original_byte_length": !!int |-
-      13
-    "references": []
     "translated": !!null |-
       null
-  "7413":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29715": !RelocatableTranslatableEntry
     "original": |-
       デ・オクトとブランナが現れた。<RET_N>
     "original_byte_length": !!int |-
       31
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61000
       "target_addr": !!int |-
         29715
     "translated": !!null |-
       null
-  "7432":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29746": !RelocatableTranslatableEntry
     "original": |-
       は仲間を呼んだ。<RET_PAGE>
     "original_byte_length": !!int |-
       17
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61145
       "target_addr": !!int |-
         29746
     "translated": !!null |-
       null
-  "7443":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29763": !RelocatableTranslatableEntry
     "original": |-
       <ACTOR>が現れた。<RET_PAGE>
     "original_byte_length": !!int |-
       12
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61213
       "target_addr": !!int |-
         29763
     "translated": !!null |-
       null
-  "7486":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29830": !RelocatableTranslatableEntry
     "original": |-
       <ACTOR>はキリを吹き出した。<RET_N>
     "original_byte_length": !!int |-
       22
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61317
       "target_addr": !!int |-
         29830
     "translated": !!null |-
       null
-  "749c":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29852": !RelocatableTranslatableEntry
     "original": |-
       <ACTOR>がキリの中から現れた。<RET_N>
     "original_byte_length": !!int |-
       24
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61360
       "target_addr": !!int |-
         29852
     "translated": !!null |-
       null
-  "74c7":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29895": !RelocatableTranslatableEntry
     "original": |-
       <ACTOR>は<RET>
     "original_byte_length": !!int |-
       4
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61295
       "target_addr": !!int |-
         29895
     "translated": !!null |-
       null
-  "74de":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29918": !RelocatableTranslatableEntry
     "original": |-
       <ACTOR>のまわりのキリが晴れて姿が見えるようになった。<RET_N>
     "original_byte_length": !!int |-
       48
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61420
       "target_addr": !!int |-
         29918
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

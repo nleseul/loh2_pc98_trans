@@ -1,11 +1,8 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   2814
-"entries":
-  "6019":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "24601": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ガード<C_NONE>
       何だ？<WAIT>
@@ -15,17 +12,14 @@
     "original_byte_length": !!int |-
       68
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54922
       "target_addr": !!int |-
         24601
     "translated": !!null |-
       null
-  "605d":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24669": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>子ども<C_NONE>
       あれっ お兄ちゃんたちどうしたの？
@@ -61,17 +55,14 @@
     "original_byte_length": !!int |-
       513
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54969
       "target_addr": !!int |-
         24669
     "translated": !!null |-
       null
-  "625e":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "25182": !RelocatableTranslatableEntry
     "original": |-
       <CH1>
       さすが ガキだな。
@@ -83,17 +74,14 @@
     "original_byte_length": !!int |-
       116
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54983
       "target_addr": !!int |-
         25182
     "translated": !!null |-
       null
-  "62d2":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "25298": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>子ども<C_NONE>
       ねっ ぜんぜん平気でしょ？
@@ -114,10 +102,11 @@
     "original_byte_length": !!int |-
       293
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         55032
       "target_addr": !!int |-
         25298
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

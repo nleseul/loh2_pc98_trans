@@ -1,28 +1,22 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   2950
-"entries":
-  "61fd":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "25085": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>大盗賊 ゲイル<C_NONE>
       何じゃ もう少しじゃから 待っておれ。
     "original_byte_length": !!int |-
       53
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54823
       "target_addr": !!int |-
         25085
     "translated": !!null |-
       null
-  "6232":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "25138": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>大盗賊 ゲイル<C_NONE>
       <IF01c4><JUMP63fc><IF01c2><JUMP6380><SET01c2>ふー だれかと思えば お前たちか。
@@ -57,10 +51,11 @@
     "original_byte_length": !!int |-
       625
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54886
       "target_addr": !!int |-
         25138
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

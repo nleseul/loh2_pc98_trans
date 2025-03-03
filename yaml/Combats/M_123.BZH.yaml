@@ -1,100 +1,72 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   621
-"entries":
-  "7170":
-    "is_relocatable": !!bool |-
-      false
+"_entries":
+  !!int "29040": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       トプスＡ<RET>
-    "original_byte_length": !!int |-
-      9
-    "references": []
     "translated": !!null |-
       null
-  "71b0":
-    "is_relocatable": !!bool |-
-      false
+  !!int "29104": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       猛毒ナメクジ<RET>
-    "original_byte_length": !!int |-
-      13
-    "references": []
     "translated": !!null |-
       null
-  "71f0":
-    "is_relocatable": !!bool |-
-      false
+  !!int "29168": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       トプスＢ<RET>
-    "original_byte_length": !!int |-
-      9
-    "references": []
     "translated": !!null |-
       null
-  "7230":
-    "is_relocatable": !!bool |-
-      false
+  !!int "29232": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       トプスＣ<RET>
-    "original_byte_length": !!int |-
-      9
-    "references": []
     "translated": !!null |-
       null
-  "7360":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29536": !RelocatableTranslatableEntry
     "original": |-
       猛毒ナメクジとトプスが現れた。<RET_N>
     "original_byte_length": !!int |-
       31
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61000
       "target_addr": !!int |-
         29536
     "translated": !!null |-
       null
-  "737f":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29567": !RelocatableTranslatableEntry
     "original": |-
       は 体液をはいた。<RET_N>
     "original_byte_length": !!int |-
       18
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61128
       "target_addr": !!int |-
         29567
     "translated": !!null |-
       null
-  "7391":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29585": !RelocatableTranslatableEntry
     "original": |-
       は 見えない羽ではばたいた。<RET_N>
     "original_byte_length": !!int |-
       28
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61186
       "target_addr": !!int |-
         29585
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

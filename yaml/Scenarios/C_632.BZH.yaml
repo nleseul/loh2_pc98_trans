@@ -1,11 +1,8 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   2028
-"entries":
-  "5e2a":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "24106": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
       <IF01fc><JUMP6051><SET01fc>･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･
@@ -48,27 +45,25 @@
     "original_byte_length": !!int |-
       711
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54763
       "target_addr": !!int |-
         24106
     "translated": !!null |-
       null
-  "60f1":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24817": !RelocatableTranslatableEntry
     "original": |-
       <PARTY>は 宝箱を開けました。
       宝箱の中には<RET>
     "original_byte_length": !!int |-
       36
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54713
       "target_addr": !!int |-
         24817
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

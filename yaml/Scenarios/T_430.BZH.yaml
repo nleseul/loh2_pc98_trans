@@ -1,11 +1,8 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   3950
-"entries":
-  "5bc1":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "23489": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ハンス<C_NONE>
       <IF00e0><JUMP6034><IF0404><JUMP60a5><IF_NOT00e1><JUMP5c2e>おや これは アトラス王子。
@@ -82,17 +79,14 @@
     "original_byte_length": !!int |-
       1372
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54714
       "target_addr": !!int |-
         23489
     "translated": !!null |-
       null
-  "611d":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24861": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>補佐官<C_NONE>
       イセルハーサの中で 共和制を
@@ -105,17 +99,14 @@
     "original_byte_length": !!int |-
       152
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54627
       "target_addr": !!int |-
         24861
     "translated": !!null |-
       null
-  "61b5":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "25013": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>役人<C_NONE>
       <IF00b9><JUMP6215>水晶の塔を 復元するためには
@@ -125,17 +116,14 @@
     "original_byte_length": !!int |-
       175
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54636
       "target_addr": !!int |-
         25013
     "translated": !!null |-
       null
-  "6264":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "25188": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>役人<C_NONE>
       ふぅ ･ ･ ･ お役所仕事も 疲れるよ。こうやって 一日中 ボーっと
@@ -145,17 +133,14 @@
     "original_byte_length": !!int |-
       157
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54645
       "target_addr": !!int |-
         25188
     "translated": !!null |-
       null
-  "6301":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "25345": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>役人<C_NONE>
       ハンス大統領は 国民の声を 親身に
@@ -167,17 +152,14 @@
     "original_byte_length": !!int |-
       142
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54654
       "target_addr": !!int |-
         25345
     "translated": !!null |-
       null
-  "638f":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "25487": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>女<C_NONE>
       昔 英雄たちの手で 滅ぼされた
@@ -186,17 +168,14 @@
     "original_byte_length": !!int |-
       93
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54663
       "target_addr": !!int |-
         25487
     "translated": !!null |-
       null
-  "63ec":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "25580": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ジーラ<C_NONE>
       むむむっ お前さんがた 旅人じゃな？いい話をきかせてやろう。
@@ -214,17 +193,14 @@
     "original_byte_length": !!int |-
       319
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54672
       "target_addr": !!int |-
         25580
     "translated": !!null |-
       null
-  "652b":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "25899": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>娘<C_NONE>
       うちの おばあちゃんて 昔の話を
@@ -235,17 +211,14 @@
     "original_byte_length": !!int |-
       101
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54681
       "target_addr": !!int |-
         25899
     "translated": !!null |-
       null
-  "6590":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "26000": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>女<C_NONE>
       <IF00b9><JUMP664d>私が 子どものころ やっぱり
@@ -267,17 +240,14 @@
     "original_byte_length": !!int |-
       423
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54690
       "target_addr": !!int |-
         26000
     "translated": !!null |-
       null
-  "6737":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "26423": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       ずっと前の 大地震で 水晶の塔という歴史ある塔が 倒れてしまったんだ。
@@ -287,17 +257,14 @@
     "original_byte_length": !!int |-
       131
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54699
       "target_addr": !!int |-
         26423
     "translated": !!null |-
       null
-  "67ba":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "26554": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       ファンガスにいた 盗賊たちは
@@ -306,50 +273,41 @@
     "original_byte_length": !!int |-
       98
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54708
       "target_addr": !!int |-
         26554
     "translated": !!null |-
       null
-  "681c":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "26652": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>呪文屋<C_NONE>
       いらっしゃいませ。<RET_N>
     "original_byte_length": !!int |-
       28
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54726
       "target_addr": !!int |-
         26652
     "translated": !!null |-
       null
-  "6838":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "26680": !RelocatableTranslatableEntry
     "original": |-
       また お願いします。
     "original_byte_length": !!int |-
       20
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54738
       "target_addr": !!int |-
         26680
     "translated": !!null |-
       null
-  "684c":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "26700": !RelocatableTranslatableEntry
     "original": |-
       お客さん もう持てませんわよ。
 
@@ -357,34 +315,28 @@
     "original_byte_length": !!int |-
       31
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         3942
       "target_addr": !!int |-
         26700
     "translated": !!null |-
       null
-  "686b":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "26731": !RelocatableTranslatableEntry
     "original": |-
       何を お求めですか？
       <RET_N>
     "original_byte_length": !!int |-
       21
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         3944
       "target_addr": !!int |-
         26731
     "translated": !!null |-
       null
-  "6880":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "26752": !RelocatableTranslatableEntry
     "original": |-
       <ITEM>ですね。
       ありがとう ございます。
@@ -393,10 +345,11 @@
     "original_byte_length": !!int |-
       35
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         3946
       "target_addr": !!int |-
         26752
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

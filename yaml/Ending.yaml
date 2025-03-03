@@ -1,11 +1,8 @@
-"end_of_file_addr": !!null |-
+!TranslationCollection
+"_end_of_file_addr": !!null |-
   null
-"entries":
-  "226c":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "8812": !RelocatableTranslatableEntry
     "original": |
       <NAME>セリオス</NAME>
       争いは、いつも、小さなすれ違いから起こる。
@@ -16,11 +13,7 @@
     "references": []
     "translated": !!null |-
       null
-  "22c1":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "8897": !RelocatableTranslatableEntry
     "original": |
       ありがとう、アトラス。
       <PAGE_PAUSE>
@@ -40,11 +33,7 @@
     "references": []
     "translated": !!null |-
       null
-  "23c1":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "9153": !RelocatableTranslatableEntry
     "original": |-
       <PAUSE>でも、お別れではないのです。
 
@@ -65,11 +54,7 @@
     "references": []
     "translated": !!null |-
       null
-  "24d3":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "9427": !RelocatableTranslatableEntry
     "original": |
       <NAME>フローラ</NAME>
       ねえ、アトラスさま。
@@ -90,11 +75,7 @@
     "references": []
     "translated": !!null |-
       null
-  "2611":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "9745": !RelocatableTranslatableEntry
     "original": |
       <NAME>ランドー</NAME>
       なに二人で、まとめちゃってんだよ！
@@ -115,11 +96,7 @@
     "references": []
     "translated": !!null |-
       null
-  "2722":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "10018": !RelocatableTranslatableEntry
     "original": |
       <NAME>アトラス</NAME>
       これからも、力になってくれるね。
@@ -135,11 +112,7 @@
     "references": []
     "translated": !!null |-
       null
-  "2792":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "10130": !RelocatableTranslatableEntry
     "original": |
       <PAUSE>女神フレイアよ。
       <PAUSE><PAUSE><PAGE>
@@ -154,11 +127,7 @@
     "references": []
     "translated": !!null |-
       null
-  "2825":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "10277": !RelocatableTranslatableEntry
     "original": |
       <NAME>レイシア</NAME>
       期待しているわ。
@@ -175,24 +144,7 @@
     "references": []
     "translated": !!null |-
       null
-  "28d3":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
-    "original": |-
-      小さな太陽はやがて父を越え
-      大きな太陽として輝く。
-    "original_byte_length": !!null |-
-      null
-    "references": []
-    "translated": !!null |-
-      null
-  "2b76":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "11126": !RelocatableTranslatableEntry
     "original": "        ＳＴＡＦＦ        \n\n\n\n\n\n\n\n\n         シナリオ         \n\n\
       \n\n       秋 葉  紀 好       \n\n\n\n\n\n\n\n\n\n\n        プログラム        \n\n\n\n\
       \       秋 葉  紀 好       \n\n       小 山  英 樹       \n\n\n\n\n\n\n\n\n\n\n   アート＆グラフィック\
@@ -216,4 +168,4 @@
     "references": []
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

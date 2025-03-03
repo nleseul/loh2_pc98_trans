@@ -1,11 +1,8 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   5112
-"entries":
-  "5c11":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "23569": !RelocatableTranslatableEntry
     "original": |-
       <CALL6cea><IF000e><JUMP65d3><IF0048><JUMP6421><IF0008><JUMP63e4><IF_NOT0405><JUMP619b><UNSET0405><CALL6d08> お前も もうすぐ１６才だ。わが国では １６才になれば 王位を
       継承する資格が 与えられる。
@@ -127,7 +124,8 @@
     "original_byte_length": !!int |-
       2589
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54699
       "target_addr": !!int |-
         23569
@@ -257,11 +255,18 @@
       <CALL6cea><LOC65d3>ランドー殿、かってなことを
       言うようだが いざというときには
       めんどうを みてやってください。
-  "6632":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "26158": !RelocatableRawDataEntry
+    "data": !!binary |
+      uAsAAA==
+    "original_byte_length": !!int |-
+      4
+    "references":
+    - !CodeReference
+      "source_addr": !!int |-
+        55069
+      "target_addr": !!int |-
+        26158
+  !!int "26162": !RelocatableTranslatableEntry
     "original": |-
       おれが 勝手に <CALL6ce1>の 後に
       くっついて いただけですから
@@ -273,11 +278,7 @@
     "references": []
     "translated": !!null |-
       null
-  "6683":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "26243": !RelocatableTranslatableEntry
     "original": |-
       <CALL6cf9><IF000e><JUMP6818><IF0048><JUMP66d9><CALL6d08>、危険な場所に
       近付くんじゃありませんよ。
@@ -304,7 +305,8 @@
     "original_byte_length": !!int |-
       468
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54761
       "target_addr": !!int |-
         26243
@@ -331,11 +333,7 @@
       よろしく お願いします。<END>
       <LOC6818>ランドーさんに あまり めいわくを
       かけないように するのですよ。
-  "6857":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "26711": !RelocatableTranslatableEntry
     "original": |-
       <CALL6d11><IF0028><JUMP6922><IF0009><JUMP68fa><SET0009>おや <CALL6d08>。
       あなた お金は 持っているの？
@@ -352,7 +350,8 @@
     "original_byte_length": !!int |-
       242
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54776
       "target_addr": !!int |-
         26711
@@ -370,11 +369,18 @@
       <CALL6d08>?<END>
       <LOC6922>Have you gathered many Warp
       destinations, <CALL6d08>?
-  "694d":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "26953": !RelocatableRawDataEntry
+    "data": !!binary |
+      iBMAAA==
+    "original_byte_length": !!int |-
+      4
+    "references":
+    - !CodeReference
+      "source_addr": !!int |-
+        55119
+      "target_addr": !!int |-
+        26953
+  !!int "26957": !RelocatableTranslatableEntry
     "original": |-
       <CALL6cda>これは <CALL6ce1>、世界を見てまわる
       旅に 出られるそうですね。
@@ -382,7 +388,8 @@
     "original_byte_length": !!int |-
       88
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54785
       "target_addr": !!int |-
         26957
@@ -390,11 +397,7 @@
       <CALL6cda>I hear that <CALL6ce1> will be
       traveling to see the world?
       Take care!
-  "69a5":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "27045": !RelocatableTranslatableEntry
     "original": |-
       <CALL6cda><IF0009><JUMP69fb><CALL6d08>王子、フェリシアさまにも
       旅立ちの前に あいさつをされては
@@ -403,7 +406,8 @@
     "original_byte_length": !!int |-
       136
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54794
       "target_addr": !!int |-
         27045
@@ -412,27 +416,20 @@
       before departing?<END>
       <LOC69fb>I look forward to <CALL6ce1>'s
       return.
-  "6a2d":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "27181": !RelocatableTranslatableEntry
     "original": |-
       <CALL6cda>これは<CALL6ce1>、どうかお気をつけて旅をなさってください。
     "original_byte_length": !!int |-
       55
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54803
       "target_addr": !!int |-
         27181
     "translated": |-
       <CALL6cda>Your Highness! Please take care inyour travels.
-  "6a64":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "27236": !RelocatableTranslatableEntry
     "original": |-
       <CALL6cda><CALL6ce1>、スライムいじめを
       なさったことは ございますか？
@@ -440,18 +437,15 @@
     "original_byte_length": !!int |-
       90
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54812
       "target_addr": !!int |-
         27236
     "translated": |-
       <CALL6cda>Has <CALL6ce1> ever gone slime-chasing? It's a surprisingly
       effective workout.
-  "6abe":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "27326": !RelocatableTranslatableEntry
     "original": |-
       <CALL6cda><CALL6ce1>、せっかく 自由な旅を
       なさるのですから 十分に 楽しんで
@@ -459,7 +453,8 @@
     "original_byte_length": !!int |-
       78
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54821
       "target_addr": !!int |-
         27326
@@ -467,11 +462,7 @@
       <CALL6cda>This is your chance to travel as
       you like, <CALL6ce1>. Please
       enjoy it to the fullest.
-  "6b0c":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "27404": !RelocatableTranslatableEntry
     "original": |-
       <CALL6cda>ラウエル殿が さびしそうですね。
       <CALL6ce1>、しっかりと 勉強を
@@ -479,7 +470,8 @@
     "original_byte_length": !!int |-
       79
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54830
       "target_addr": !!int |-
         27404
@@ -487,11 +479,7 @@
       <CALL6cda>Rauel must be very strict.
       Please apply yourself to your
       studies, <CALL6ce1>.
-  "6b5b":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "27483": !RelocatableTranslatableEntry
     "original": |-
       <CALL6cda><CALL6ce1>、まずは わが国のようすを
       ごらんください。
@@ -501,7 +489,8 @@
     "original_byte_length": !!int |-
       102
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54839
       "target_addr": !!int |-
         27483
@@ -512,17 +501,14 @@
       I doubt anyone will know your
       identity once you leave the town
       of Rudia.
-  "6bc1":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "27585": !RelocatableTranslatableEntry
     "original": |-
       <CALL6cda><CALL6ce1>、自由だからといって無理をされないように なさってください。
     "original_byte_length": !!int |-
       66
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54848
       "target_addr": !!int |-
         27585
@@ -530,11 +516,7 @@
       <CALL6cda>Even if <CALL6ce1> is free to
       travel, please try to stay out of
       trouble.
-  "6c03":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "27651": !RelocatableTranslatableEntry
     "original": |-
       <CALL6d24><IF0008><JUMP6c64><UNSET0404>セリオス陛下、
       <CALL6ce1>を お連れいたしました。
@@ -549,7 +531,8 @@
     "original_byte_length": !!int |-
       215
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54857
       "target_addr": !!int |-
         27651
@@ -565,11 +548,7 @@
 
       Please use these experiences to
       further your education.
-  "6cda":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "27866": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE><RET_N>
     "original_byte_length": !!int |-
@@ -577,11 +556,7 @@
     "references": []
     "translated": |-
       <C_YELLOW>Soldier<C_NONE><RET_N>
-  "6ce1":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "27873": !RelocatableTranslatableEntry
     "original": |-
       王子さま<RET>
     "original_byte_length": !!int |-
@@ -589,11 +564,7 @@
     "references": []
     "translated": |-
       your Highness<RET>
-  "6cea":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "27882": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>セリオス国王<C_NONE><RET_N>
     "original_byte_length": !!int |-
@@ -601,11 +572,7 @@
     "references": []
     "translated": |-
       <C_YELLOW>King Selios<C_NONE><RET_N>
-  "6cf9":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "27897": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ディーナ王妃<C_NONE><RET_N>
     "original_byte_length": !!int |-
@@ -613,11 +580,7 @@
     "references": []
     "translated": |-
       <C_YELLOW>Queen Dina<C_NONE><RET_N>
-  "6d08":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "27912": !RelocatableTranslatableEntry
     "original": |-
       アトラス<RET>
     "original_byte_length": !!int |-
@@ -625,11 +588,7 @@
     "references": []
     "translated": |-
       Atlas<RET>
-  "6d11":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "27921": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>フェリシア皇太后<C_NONE><RET_N>
     "original_byte_length": !!int |-
@@ -637,11 +596,7 @@
     "references": []
     "translated": |-
       <C_YELLOW>Queen Mother Felicia<C_NONE><RET_N>
-  "6d24":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "27940": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>教育係 ラウエル<C_NONE><RET_N>
     "original_byte_length": !!int |-
@@ -649,5 +604,5 @@
     "references": []
     "translated": |-
       <C_YELLOW>Rauel, royal tutor<C_NONE><RET_N>
-"note": |-
+"_note": |-
   Rudia 2F - Prologue

@@ -1,11 +1,8 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   2202
-"entries":
-  "5ac7":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "23239": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ディーナ王妃<C_NONE>
       アトラス、だいたいの話は
@@ -32,17 +29,14 @@
     "original_byte_length": !!int |-
       420
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54753
       "target_addr": !!int |-
         23239
     "translated": !!null |-
       null
-  "5c6b":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23659": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ディーナ王妃<C_NONE>
       <JUMP5c0a><LOC5c7d><C_YELLOW>フェリシア<C_NONE>
@@ -57,21 +51,19 @@
     "original_byte_length": !!int |-
       201
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54643
       "target_addr": !!int |-
         23659
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54658
       "target_addr": !!int |-
         23677
     "translated": !!null |-
       null
-  "5d34":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23860": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       王子さまのおかげで 竜の卵も もとに戻りましたし モンスターも いなく
@@ -79,17 +71,14 @@
     "original_byte_length": !!int |-
       87
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54667
       "target_addr": !!int |-
         23860
     "translated": !!null |-
       null
-  "5d8b":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23947": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       王子さま あのモンスターは いったい何だったのですか？
@@ -100,17 +89,14 @@
     "original_byte_length": !!int |-
       140
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54676
       "target_addr": !!int |-
         23947
     "translated": !!null |-
       null
-  "5e17":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24087": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       王子さま どのようにして 竜の卵を
@@ -122,17 +108,14 @@
     "original_byte_length": !!int |-
       144
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54685
       "target_addr": !!int |-
         24087
     "translated": !!null |-
       null
-  "5ea7":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24231": !RelocatableTranslatableEntry
     "original": |
       <C_YELLOW>兵士<C_NONE>
       セリオスさまたちが また どこかに
@@ -140,34 +123,28 @@
     "original_byte_length": !!int |-
       64
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54694
       "target_addr": !!int |-
         24231
     "translated": !!null |-
       null
-  "5ee7":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24295": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       ソルディスでは 司祭 バーバラさまが竜の卵を 正常にしたという うわさが広がっているそうです。
     "original_byte_length": !!int |-
       98
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54703
       "target_addr": !!int |-
         24295
     "translated": !!null |-
       null
-  "5f49":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24393": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       王子さま セリオスさまたちは なぜ
@@ -176,17 +153,14 @@
     "original_byte_length": !!int |-
       93
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54712
       "target_addr": !!int |-
         24393
     "translated": !!null |-
       null
-  "5fa6":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24486": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       王子さま あのさわぎの原因は
@@ -197,34 +171,28 @@
     "original_byte_length": !!int |-
       143
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54721
       "target_addr": !!int |-
         24486
     "translated": !!null |-
       null
-  "6035":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24629": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       王子さま あまり 無理をしないようにしてください。
     "original_byte_length": !!int |-
       56
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54730
       "target_addr": !!int |-
         24629
     "translated": !!null |-
       null
-  "606d":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24685": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>教育係 ラウエル<C_NONE>
       <Xf60fd6><JUMP6116>おお そうでしたな。
@@ -248,10 +216,11 @@
     "original_byte_length": !!int |-
       363
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54739
       "target_addr": !!int |-
         24685
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

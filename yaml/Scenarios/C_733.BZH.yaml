@@ -1,11 +1,8 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   3648
-"entries":
-  "60cd":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "24781": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ガービィ<C_NONE>
       来たな 皇帝陛下に そむく おろかな
@@ -18,17 +15,14 @@
     "original_byte_length": !!int |-
       148
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54879
       "target_addr": !!int |-
         24781
     "translated": !!null |-
       null
-  "6161":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24929": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ガービィ<C_NONE>
       な 何だ !? この曲は ･ ･ ･<WAIT>
@@ -36,17 +30,14 @@
     "original_byte_length": !!int |-
       51
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54935
       "target_addr": !!int |-
         24929
     "translated": !!null |-
       null
-  "6194":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24980": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>レイシア<C_NONE>
       お父さん !!
@@ -121,17 +112,14 @@
     "original_byte_length": !!int |-
       1116
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54976
       "target_addr": !!int |-
         24980
     "translated": !!null |-
       null
-  "65f0":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "26096": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>レイシア<C_NONE>
       どうして あなたたちが ここに？
@@ -142,17 +130,14 @@
     "original_byte_length": !!int |-
       100
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         55039
       "target_addr": !!int |-
         26096
     "translated": !!null |-
       null
-  "6654":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "26196": !RelocatableTranslatableEntry
     "original": |-
       <CH1>
       おい アトラス。
@@ -165,17 +150,14 @@
     "original_byte_length": !!int |-
       122
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         55053
       "target_addr": !!int |-
         26196
     "translated": !!null |-
       null
-  "66ce":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "26318": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ガービィ<C_NONE>
       おれのことは 心配するな。
@@ -183,17 +165,14 @@
     "original_byte_length": !!int |-
       63
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         55097
       "target_addr": !!int |-
         26318
     "translated": !!null |-
       null
-  "670d":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "26381": !RelocatableTranslatableEntry
     "original": |-
       <CH1>
       おい アトラス。
@@ -202,10 +181,11 @@
     "original_byte_length": !!int |-
       79
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         55128
       "target_addr": !!int |-
         26381
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

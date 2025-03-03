@@ -1,20 +1,18 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   1278
-"entries":
-  "5dd8":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "24024": !RelocatableTranslatableEntry
     "original": |-
       <C_GREEN>扉には カギがかかっています。<C_NONE>
     "original_byte_length": !!int |-
       32
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54713
       "target_addr": !!int |-
         24024
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

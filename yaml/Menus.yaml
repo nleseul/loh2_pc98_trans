@@ -1,55 +1,39 @@
-"end_of_file_addr": !!null |-
+!TranslationCollection
+"_end_of_file_addr": !!null |-
   null
-"entries":
-  "088c":
-    "is_relocatable": !!bool |-
-      false
+"_entries":
+  !!int "2188": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       56
     "original": |2-
        最後に出た町に戻る
        戦いの直前に戻る
        冒険の続きをする
-    "original_byte_length": !!int |-
-      56
-    "references": []
     "translated": |2-
        Previous town
        Restart battle
        Load a save
-  "0c1e":
-    "is_relocatable": !!bool |-
-      false
+  !!int "3102": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       13
     "original": |2-
        はい
       いいえ
-    "original_byte_length": !!int |-
-      13
-    "references": []
     "translated": |2-
        Yes
        No
-  "19f4":
-    "is_relocatable": !!bool |-
-      false
+  !!int "6644": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       62
     "original": |2-
        戦う　　呪文　　守る
        使う　　武器　　オート
        強さ　　逃げる
-    "original_byte_length": !!int |-
-      62
-    "references": []
     "translated": |2-
        Fight   Spell   Guard
        Use     Weapon  Auto
        Stats   Run
-  "1b2c":
-    "is_relocatable": !!bool |-
-      false
+  !!int "6956": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       60
     "original": |2-
@@ -59,9 +43,6 @@
        戦闘設定
        ﾃﾞｰﾀ削除
        ｹﾞｰﾑ終了
-    "original_byte_length": !!int |-
-      60
-    "references": []
     "translated": |2-
        Save
        Load
@@ -69,9 +50,7 @@
        Combat
        Delete
        Exit
-  "1be1":
-    "is_relocatable": !!bool |-
-      false
+  !!int "7137": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       79
     "original": |-
@@ -83,9 +62,6 @@
       メッセージ
       ｾｰﾌﾞ ﾃﾞｨｽｸ
       ﾌｧﾝｸｼｮﾝ表示
-    "original_byte_length": !!int |-
-      79
-    "references": []
     "translated": |-
       Auto move
       Level up
@@ -95,33 +71,21 @@
       Messages
       Save disk
       Func. keys
-  "1c34":
-    "is_relocatable": !!bool |-
-      false
+  !!int "7220": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       14
     "original": |-
       ＯＦＦ
       ＯＮ　
-    "original_byte_length": !!int |-
-      14
-    "references": []
     "translated": "Off   \nOn    "
-  "1c42":
-    "is_relocatable": !!bool |-
-      false
+  !!int "7234": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       14
     "original": |-
       ＥＰ　
       あと　
-    "original_byte_length": !!int |-
-      14
-    "references": []
     "translated": "EP    \nLeft  "
-  "1c50":
-    "is_relocatable": !!bool |-
-      false
+  !!int "7248": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       28
     "original": |-
@@ -129,33 +93,18 @@
       普通　
       遅い　
       止まる
-    "original_byte_length": !!int |-
-      28
-    "references": []
     "translated": "Fast  \nNormal\nSlow  \nWait  "
-  "1c6c":
-    "is_relocatable": !!bool |-
-      false
+  !!int "7276": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       14
     "original": "オート\nﾏﾆｭｱﾙ "
-    "original_byte_length": !!int |-
-      14
-    "references": []
     "translated": "Auto  \nManual"
-  "1c7a":
-    "is_relocatable": !!bool |-
-      false
+  !!int "7290": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       14
     "original": "ｼｽﾃﾑ  \nﾕｰｻﾞｰ "
-    "original_byte_length": !!int |-
-      14
-    "references": []
     "translated": "System\nUser  "
-  "1c90":
-    "is_relocatable": !!bool |-
-      false
+  !!int "7312": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       72
     "original": |-
@@ -165,9 +114,6 @@
       回復の呪文
       回復アイテム
       全員の設定を
-    "original_byte_length": !!int |-
-      72
-    "references": []
     "translated": |-
       Auto battle
       Auto heal
@@ -175,55 +121,33 @@
       Heal spells
       Heal items
       All members
-  "1cdc":
-    "is_relocatable": !!bool |-
-      false
+  !!int "7388": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       14
     "original": "ＯＮ  \nＯＦＦ"
-    "original_byte_length": !!int |-
-      14
-    "references": []
     "translated": "On    \nOff   "
-  "1cea":
-    "is_relocatable": !!bool |-
-      false
+  !!int "7402": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": "使う  \n使わない"
-    "original_byte_length": !!int |-
-      16
-    "references": []
     "translated": "Used  \nNot used"
-  "1cfa":
-    "is_relocatable": !!bool |-
-      false
+  !!int "7418": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       14
     "original": |-
       同じに
       別々に
-    "original_byte_length": !!int |-
-      14
-    "references": []
     "translated": "Same  \nSepr. "
-  "1d5d":
-    "is_relocatable": !!bool |-
-      false
+  !!int "7517": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       19
     "original": |2-
        戦闘設定
         逃げる
-    "original_byte_length": !!int |-
-      19
-    "references": []
     "translated": |2-
        Settings
        Run
-  "2334":
-    "is_relocatable": !!bool |-
-      false
+  !!int "9012": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       50
     "original": |2-
@@ -234,9 +158,6 @@
        強さ
        その他
        リーダー
-    "original_byte_length": !!int |-
-      50
-    "references": []
     "translated": |2-
        Spell
        Item
@@ -245,4 +166,4 @@
        Stats
        Other
        Leader
-"note": ""
+"_note": ""

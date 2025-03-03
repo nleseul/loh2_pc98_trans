@@ -6,7 +6,7 @@ from tempfile import NamedTemporaryFile
 
 from compression_util import compress_bzh
 from ds6_event_util import *
-from trans_util import TranslationCollection
+from trans_util import *
 
 
 class SpacePool:
@@ -158,8 +158,7 @@ def patch_asm(patch:ips_util.Patch, nasm_path:str, base_addr:int, max_length:int
 
 
 def add_table_to_patch(patch:ips_util.Patch, trans:TranslationCollection, pad_length:int|None = None) -> None:
-    for key in trans.keys:
-        entry = trans[key]
+    for key, entry in trans.translatables():
         encoded = entry.text.encode('cp932')
 
         if pad_length is not None:
@@ -173,12 +172,11 @@ def add_table_to_patch(patch:ips_util.Patch, trans:TranslationCollection, pad_le
 def patch_locations(patch:ips_util.Patch, location_trans:TranslationCollection) -> None:
     pool = SpacePool()
 
-    for key in location_trans.keys:
-        entry = location_trans[key]
+    for key, entry in location_trans.relocatables():
         pool.add_space(key, key+entry.original_byte_length-1)
 
-    for key in location_trans.keys:
-        entry = location_trans[key]
+    for key, entry in location_trans.translatables():
+        assert(isinstance(entry, RelocatableEntry)) # All entries in the location table should be relocatable
         encoded = entry.text.encode('cp932')
         if len(encoded) > 12:
             raise Exception(f"Location string {entry.text} cannot be encoded in 12 bytes")
@@ -206,8 +204,7 @@ def patch_menus(patch:ips_util.Patch, menu_trans:TranslationCollection) -> None:
         0x2334: [ 0x5c90, 0x5cd9, 0x5d13, 0x5d4b, 0x5d60, None, 0x5d92 ]
     }
 
-    for key in menu_trans.keys:
-        entry = menu_trans[key]
+    for key, entry in menu_trans.translatables():
         base_addr = key if key in [0x19f4, 0x1c34, 0x1c42, 0x1c50, 0x1c6c, 0x1c7a, 0x1cdc, 0x1cea, 0x1cfa] else key + 0x4
 
         items = entry.text.splitlines()
@@ -249,7 +246,9 @@ def make_opening_data_patch(nasm_path:str) -> ips_util.Patch:
     if trans.empty:
         return None
 
-    entry = trans[0x3dc2]
+    entry = trans.get_entry(0x3dc2)
+    assert(isinstance(entry, FixedTranslatableEntry))
+
     opening_text = entry.translated
     if opening_text is None or len(opening_text) == 0:
         opening_text = entry.original
@@ -278,10 +277,10 @@ def make_opening_data_patch(nasm_path:str) -> ips_util.Patch:
             encoded_text += b'\x00'
         encoded_text += b'\xff'
 
-    if len(encoded_text) > entry.original_byte_length:
-        raise Exception(f"Opening text is too long! length={len(encoded_text)} bytes, available={entry.original_byte_length} bytes")
+    if len(encoded_text) > entry.max_byte_length:
+        raise Exception(f"Opening text is too long! length={len(encoded_text)} bytes, available={entry.max_byte_length} bytes")
 
-    encoded_text = encoded_text.ljust(entry.original_byte_length, b'\xff')
+    encoded_text = encoded_text.ljust(entry.max_byte_length, b'\xff')
     patch.add_record(0x3dc2, encoded_text)
 
     # Update the text loading routine to expect half-width characters.
@@ -357,31 +356,24 @@ def make_data_file_patch(yaml_path:str, code_base_addr:int, event_base_addr:int,
     event_references_to_relocate:dict[int, int] = {}
 
 
-    for key in trans.keys:
-        entry = trans[key]
-
-        if entry.is_relocatable:
+    for key, entry in trans.relocatables():
             space_pool.add_space(key, key + entry.original_byte_length - 1)
             #print(f"Adding {entry.original_byte_length} bytes at {key:04x}")
 
     #space_pool.dump()
 
-    for key in trans.keys:
-        entry = trans[key]
-        encoded, references, locators = encode_event_string(entry.text)
-
-        if entry.is_relocatable:
-            new_addr = space_pool.take_space(len(encoded))
-            #print(f"Relocating {key:04x} to {new_addr:04x}")
+    for key, entry in trans.relocatables():
+        if isinstance(entry, TranslatableEntry):
+            data, references, locators = encode_event_string(entry.text)
         else:
-            #print(f"Non-relocatable event {key:04x}")
-            if entry.max_byte_length is None:
-                raise Exception(f"Non-relocatable event at {key:04x} should have a defined max_byte_length!")
-            encoded = encoded.ljust(entry.max_byte_length, b'\x00')
+            assert(isinstance(entry, RelocatableRawDataEntry))
 
-            new_addr = key
+            data = entry.data
+            references = []
+            locators = []
 
-        patch.add_record(new_addr - event_base_addr + event_offset_in_buffer, encoded)
+        new_addr = space_pool.take_space(len(data))
+        #print(f"Relocating {key:04x} to {new_addr:04x}")
 
         relocations[key] = new_addr
         for locator in locators:
@@ -395,6 +387,21 @@ def make_data_file_patch(yaml_path:str, code_base_addr:int, event_base_addr:int,
         for reference in references:
             #print(f"Reference to {reference.addr:04x} at {new_addr + reference.offset:04x} (formerly {key + reference.offset:04x}) will need updated")
             event_references_to_relocate[new_addr + reference.offset] = reference.addr
+
+        patch.add_record(new_addr - event_base_addr + event_offset_in_buffer, data)
+
+    for key, entry in trans.translatables():
+        if isinstance(entry, FixedTranslatableEntry):
+            #print(f"Non-relocatable event {key:04x}")
+
+            data, references, locators = encode_event_string(entry.text)
+
+            assert(len(references) == 0)
+            assert(len(locators) == 0)
+
+            data = data.ljust(entry.max_byte_length, b'\x00')
+
+            patch.add_record(key - event_base_addr + event_offset_in_buffer, data)
 
     if space_pool.overflow_used > 0:
         print(f" WARNING: Used {space_pool.overflow_used} bytes of overflow space")

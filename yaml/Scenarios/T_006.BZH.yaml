@@ -1,11 +1,8 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   1258
-"entries":
-  "5ac8":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "23240": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>武器屋<C_NONE>
       王子さま やっぱり 平和はいいですね竜の卵も 元に戻ったみたいだし
@@ -13,17 +10,14 @@
     "original_byte_length": !!int |-
       107
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54756
       "target_addr": !!int |-
         23240
     "translated": !!null |-
       null
-  "5b33":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23347": !RelocatableTranslatableEntry
     "original": |-
       <CALL5e1a>あら 王子さま。
       前と比べて ふんいきが 変わった
@@ -31,51 +25,42 @@
     "original_byte_length": !!int |-
       73
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54681
       "target_addr": !!int |-
         23347
     "translated": !!null |-
       null
-  "5b7c":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23420": !RelocatableTranslatableEntry
     "original": |-
       <CALL5e1a>まあ、王子さま。
       お元気そうで なによりです。
     "original_byte_length": !!int |-
       48
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54690
       "target_addr": !!int |-
         23420
     "translated": !!null |-
       null
-  "5bac":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23468": !RelocatableTranslatableEntry
     "original": |-
       <CALL5e21>王子さま もう モンスターは
       出てこないのでしょうか？
     "original_byte_length": !!int |-
       55
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54699
       "target_addr": !!int |-
         23468
     "translated": !!null |-
       null
-  "5be3":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23523": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
       あ、王子さま いらっしゃい。
@@ -84,17 +69,14 @@
     "original_byte_length": !!int |-
       97
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54735
       "target_addr": !!int |-
         23523
     "translated": !!null |-
       null
-  "5c44":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23620": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
       もう２度と モンスターなんか
@@ -103,17 +85,14 @@
     "original_byte_length": !!int |-
       89
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54744
       "target_addr": !!int |-
         23620
     "translated": !!null |-
       null
-  "5c9d":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23709": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>女<C_NONE>
       ま、王子さま ずいぶん おめしものが汚れているようですけど 洞窟の
@@ -121,17 +100,14 @@
     "original_byte_length": !!int |-
       94
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54708
       "target_addr": !!int |-
         23709
     "translated": !!null |-
       null
-  "5cfb":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23803": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>子供<C_NONE>
       またモンスターが 出てくるかも
@@ -140,17 +116,14 @@
     "original_byte_length": !!int |-
       91
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54717
       "target_addr": !!int |-
         23803
     "translated": !!null |-
       null
-  "5d56":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23894": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>パーカー<C_NONE>
       王子さま モンスターが いなく
@@ -158,33 +131,27 @@
     "original_byte_length": !!int |-
       70
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54726
       "target_addr": !!int |-
         23894
     "translated": !!null |-
       null
-  "5d9c":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23964": !RelocatableTranslatableEntry
     "original": "<C_YELLOW>道具屋<C_NONE>\nいや これは王子さま。\nモンスターが いないと こんなにも\n安心していられるとは\
       \ ･ ･ ･ \n\n平和というのは いいもんですなぁ。"
     "original_byte_length": !!int |-
       126
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54750
       "target_addr": !!int |-
         23964
     "translated": !!null |-
       null
-  "5e1a":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24090": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>侍女<C_NONE><RET_N>
     "original_byte_length": !!int |-
@@ -192,11 +159,7 @@
     "references": []
     "translated": !!null |-
       null
-  "5e21":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24097": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE><RET_N>
     "original_byte_length": !!int |-
@@ -204,4 +167,4 @@
     "references": []
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

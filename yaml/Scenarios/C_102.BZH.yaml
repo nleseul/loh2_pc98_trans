@@ -1,11 +1,8 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   2422
-"entries":
-  "5ac4":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "23236": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ロエル<C_NONE>
       しかし いつになっても 城という所は人が たくさんおって 落ちつかぬのう。
@@ -15,17 +12,14 @@
     "original_byte_length": !!int |-
       132
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54661
       "target_addr": !!int |-
         23236
     "translated": !!null |-
       null
-  "5b48":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23368": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       <IF0015><JUMP5ba6>赤スライムの 異常はんしょくは
@@ -39,17 +33,14 @@
     "original_byte_length": !!int |-
       215
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54670
       "target_addr": !!int |-
         23368
     "translated": !!null |-
       null
-  "5c1f":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23583": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       うちのばあさんが 言ってましたよ。
@@ -60,17 +51,14 @@
     "original_byte_length": !!int |-
       164
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54679
       "target_addr": !!int |-
         23583
     "translated": !!null |-
       null
-  "5cc3":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23747": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       <IF0015><JUMP5d4e>今 わが国の船は 罪人を 送るために
@@ -86,17 +74,14 @@
     "original_byte_length": !!int |-
       261
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54688
       "target_addr": !!int |-
         23747
     "translated": !!null |-
       null
-  "5dc8":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24008": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       <IF0015><JUMP5ec0>ロエル殿は 昔から ジェストンさまの相談役をされていて 城の北西にある
@@ -111,17 +96,14 @@
     "original_byte_length": !!int |-
       316
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54697
       "target_addr": !!int |-
         24008
     "translated": !!null |-
       null
-  "5f04":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24324": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       この先は 地下ろうへの 入口です。
@@ -135,17 +117,14 @@
     "original_byte_length": !!int |-
       221
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54706
       "target_addr": !!int |-
         24324
     "translated": !!null |-
       null
-  "5fe1":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24545": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       ジェストンさまの 後継ぎ候補ですか
@@ -155,17 +134,14 @@
     "original_byte_length": !!int |-
       128
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54715
       "target_addr": !!int |-
         24545
     "translated": !!null |-
       null
-  "6061":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24673": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>侍女<C_NONE>
       <IF0015><JUMP60c5>あの赤スライムの 気持ち悪さと
@@ -178,17 +154,14 @@
     "original_byte_length": !!int |-
       245
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54724
       "target_addr": !!int |-
         24673
     "translated": !!null |-
       null
-  "6156":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24918": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>侍女<C_NONE>
       <IF0015><JUMP6203>今 おやつの アップルパイを
@@ -207,10 +180,11 @@
     "original_byte_length": !!int |-
       316
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54733
       "target_addr": !!int |-
         24918
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

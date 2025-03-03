@@ -1,11 +1,8 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   741
-"entries":
-  "5a41":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "23105": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
       <SET0133>レジスタンス用の 抜け道は 昔
@@ -21,17 +18,14 @@
     "original_byte_length": !!int |-
       328
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54650
       "target_addr": !!int |-
         23105
     "translated": !!null |-
       null
-  "5b89":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23433": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
       よお 見かけない 顔だな。
@@ -45,10 +39,11 @@
     "original_byte_length": !!int |-
       154
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54659
       "target_addr": !!int |-
         23433
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

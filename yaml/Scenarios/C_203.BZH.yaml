@@ -1,11 +1,8 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   2906
-"entries":
-  "5c37":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "23607": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>エリオン国王<C_NONE>
       アトラス王子 セリスの城に ようこそ。いよいよ 明日は 竜の祭です。
@@ -26,17 +23,14 @@
     "original_byte_length": !!int |-
       294
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54658
       "target_addr": !!int |-
         23607
     "translated": !!null |-
       null
-  "5d5d":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23901": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ポウエル<C_NONE>
       これは アトラス王子。
@@ -45,17 +39,14 @@
     "original_byte_length": !!int |-
       87
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54667
       "target_addr": !!int |-
         23901
     "translated": !!null |-
       null
-  "5db4":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23988": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       お待ちしておりました アトラスさま
@@ -64,17 +55,14 @@
     "original_byte_length": !!int |-
       87
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54676
       "target_addr": !!int |-
         23988
     "translated": !!null |-
       null
-  "5e0b":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24075": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       アトラスさまで ございますな？
@@ -82,17 +70,14 @@
     "original_byte_length": !!int |-
       69
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54685
       "target_addr": !!int |-
         24075
     "translated": !!null |-
       null
-  "5e50":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24144": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       アトラスさま ･ ･ ･ ですな？
@@ -103,17 +88,14 @@
     "original_byte_length": !!int |-
       128
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54694
       "target_addr": !!int |-
         24144
     "translated": !!null |-
       null
-  "5ed0":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24272": !RelocatableTranslatableEntry
     "original": |-
       <SET0405><ASMd740><C_YELLOW>兵士<C_NONE>
       ハァハァ た、たいへんです。
@@ -135,17 +117,14 @@
     "original_byte_length": !!int |-
       301
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54705
       "target_addr": !!int |-
         24272
     "translated": !!null |-
       null
-  "5ffd":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24573": !RelocatableTranslatableEntry
     "original": |-
       <SET0406><ASMd74f><C_YELLOW>司祭 バーバラ<C_NONE>
       一大事ですぞ エリオンさま !!
@@ -183,17 +162,14 @@
     "original_byte_length": !!int |-
       615
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54715
       "target_addr": !!int |-
         24573
     "translated": !!null |-
       null
-  "6264":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "25188": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       あっ エリオンさま !!
@@ -232,10 +208,11 @@
     "original_byte_length": !!int |-
       564
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54729
       "target_addr": !!int |-
         25188
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

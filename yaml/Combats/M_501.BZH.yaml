@@ -1,40 +1,29 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   1679
-"entries":
-  "7170":
-    "is_relocatable": !!bool |-
-      false
+"_entries":
+  !!int "29040": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       ゴドウィン２世<RET>
-    "original_byte_length": !!int |-
-      15
-    "references": []
     "translated": !!null |-
       null
-  "7181":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29057": !RelocatableTranslatableEntry
     "original": |-
       <ACTOR>に合計<RET>
       <CONT>のダメージ !!<RET_N>
     "original_byte_length": !!int |-
       22
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61414
       "target_addr": !!int |-
         29057
     "translated": !!null |-
       null
-  "7197":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29079": !RelocatableTranslatableEntry
     "original": |-
       皇帝 <JUMP7170><LOC719f>
 
@@ -42,69 +31,58 @@
     "original_byte_length": !!int |-
       10
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61690
       "target_addr": !!int |-
         29087
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61475
       "target_addr": !!int |-
         29087
     "translated": !!null |-
       null
-  "71c1":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29121": !RelocatableTranslatableEntry
     "original": |-
       の胸が光った !!<RET_N>
     "original_byte_length": !!int |-
       16
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61127
       "target_addr": !!int |-
         29121
     "translated": !!null |-
       null
-  "71d1":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29137": !RelocatableTranslatableEntry
     "original": |-
       <ACTOR>の連続攻撃 !!<RET_N>
     "original_byte_length": !!int |-
       15
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61317
       "target_addr": !!int |-
         29137
     "translated": !!null |-
       null
-  "71e0":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29152": !RelocatableTranslatableEntry
     "original": |-
       <ACTOR>は空を切り裂く波動を出した。<RET_N>
     "original_byte_length": !!int |-
       30
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61219
       "target_addr": !!int |-
         29152
     "translated": !!null |-
       null
-  "7201":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29185": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW><CALL7197><C_NONE>
       フッハッハッハッハ
@@ -112,10 +90,11 @@
     "original_byte_length": !!int |-
       60
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61669
       "target_addr": !!int |-
         29185
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

@@ -1,11 +1,8 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   2025
-"entries":
-  "5dd4":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "24020": !RelocatableTranslatableEntry
     "original": |
       <CLEAR>       第１章　開かれた奈落<N>
 
@@ -13,17 +10,14 @@
     "original_byte_length": !!int |-
       50
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54620
       "target_addr": !!int |-
         24020
     "translated": !!null |-
       null
-  "5e46":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24134": !RelocatableTranslatableEntry
     "original": |-
       <CLEAR><Xfb2861d860><CH2>
       アトラスさま もしや この方たちは
@@ -69,10 +63,11 @@
     "original_byte_length": !!int |-
       657
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54832
       "target_addr": !!int |-
         24134
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

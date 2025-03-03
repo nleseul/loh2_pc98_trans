@@ -1,118 +1,87 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   855
-"entries":
-  "7170":
-    "is_relocatable": !!bool |-
-      false
+"_entries":
+  !!int "29040": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       木人Ａ<RET>
-    "original_byte_length": !!int |-
-      7
-    "references": []
     "translated": !!null |-
       null
-  "71b0":
-    "is_relocatable": !!bool |-
-      false
+  !!int "29104": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       木人Ｂ<RET>
-    "original_byte_length": !!int |-
-      7
-    "references": []
     "translated": !!null |-
       null
-  "71f0":
-    "is_relocatable": !!bool |-
-      false
+  !!int "29168": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       木人Ｃ<RET>
-    "original_byte_length": !!int |-
-      7
-    "references": []
     "translated": !!null |-
       null
-  "7230":
-    "is_relocatable": !!bool |-
-      false
+  !!int "29232": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       ビルタラＢ<RET>
-    "original_byte_length": !!int |-
-      11
-    "references": []
     "translated": !!null |-
       null
-  "7417":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29719": !RelocatableTranslatableEntry
     "original": |-
       木人が現れた。<RET_N>
     "original_byte_length": !!int |-
       15
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61000
       "target_addr": !!int |-
         29719
     "translated": !!null |-
       null
-  "743f":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29759": !RelocatableTranslatableEntry
     "original": |-
       は 片足で立った。<RET_N>
     "original_byte_length": !!int |-
       18
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61263
       "target_addr": !!int |-
         29759
     "translated": !!null |-
       null
-  "7451":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29777": !RelocatableTranslatableEntry
     "original": |-
       は 倒れた仲間を見て
       悲しんでいる。<RET_N>
     "original_byte_length": !!int |-
       35
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61175
       "target_addr": !!int |-
         29777
     "translated": !!null |-
       null
-  "7474":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29812": !RelocatableTranslatableEntry
     "original": |-
       その思いが通じて<ACTOR>は
       よみがえった。<RET_PAGE>
     "original_byte_length": !!int |-
       35
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61193
       "target_addr": !!int |-
         29812
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

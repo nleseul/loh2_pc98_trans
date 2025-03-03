@@ -1,11 +1,8 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   4280
-"entries":
-  "5b73":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "23411": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ボザ<C_NONE>
       <UNSET0404>リーダー、お客さんです。
@@ -18,17 +15,14 @@
     "original_byte_length": !!int |-
       115
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54708
       "target_addr": !!int |-
         23411
     "translated": !!null |-
       null
-  "5be6":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23526": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>レイシア<C_NONE>
       <SET0100><SET0106>リーダー、例のガードを 倒したのは
@@ -141,17 +135,14 @@
     "original_byte_length": !!int |-
       2000
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54738
       "target_addr": !!int |-
         23526
     "translated": !!null |-
       null
-  "63b6":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "25526": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>リーダー<C_NONE>
       <IF0400><JUMP6507><IF0107><JUMP642d>救出が 成功するように ガードに
@@ -173,17 +164,14 @@
     "original_byte_length": !!int |-
       441
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54663
       "target_addr": !!int |-
         25526
     "translated": !!null |-
       null
-  "656f":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "25967": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
       イシュタ地方には ３つの村がある。
@@ -196,17 +184,14 @@
     "original_byte_length": !!int |-
       208
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54672
       "target_addr": !!int |-
         25967
     "translated": !!null |-
       null
-  "663f":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "26175": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
       <IF0400><JUMP66a4>お前らが 城に潜入するのか？
@@ -219,17 +204,14 @@
     "original_byte_length": !!int |-
       190
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54681
       "target_addr": !!int |-
         26175
     "translated": !!null |-
       null
-  "66fd":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "26365": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ボザ<C_NONE>
       皇帝は おれたちが 団結するのを
@@ -253,17 +235,14 @@
     "original_byte_length": !!int |-
       390
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54690
       "target_addr": !!int |-
         26365
     "translated": !!null |-
       null
-  "6883":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "26755": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>レイシア<C_NONE>
       <IF0107><JUMP6902>もう少ししたら 偵察に行った者が
@@ -279,10 +258,11 @@
     "original_byte_length": !!int |-
       336
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54699
       "target_addr": !!int |-
         26755
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

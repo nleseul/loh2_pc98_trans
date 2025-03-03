@@ -1,11 +1,8 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   3115
-"entries":
-  "5ab2":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "23218": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>モーガン<C_NONE>
       <IF0145><JUMP6002><IF0144><JUMP5fd1><IF0407><JUMP5b13><SET0407>むっ 戦士の笛 ･ ･ ･ お前ら また
@@ -82,17 +79,14 @@
     "original_byte_length": !!int |-
       1408
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54642
       "target_addr": !!int |-
         23218
     "translated": !!null |-
       null
-  "6032":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24626": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>モーガン<C_NONE>
       <IF0405><JUMP6337><IF0404><JUMP629e><IF0403><JUMP6237><IF0402><JUMP61c7><IF0401><JUMP6153><IF0400><JUMP60d9><SET0400>うわっはっは。
@@ -133,17 +127,14 @@
     "original_byte_length": !!int |-
       800
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54689
       "target_addr": !!int |-
         24626
     "translated": !!null |-
       null
-  "6352":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "25426": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>モーガン<C_NONE>
       おい サミー。
@@ -161,17 +152,14 @@
     "original_byte_length": !!int |-
       204
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54670
       "target_addr": !!int |-
         25426
     "translated": !!null |-
       null
-  "641e":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "25630": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>サミー<C_NONE>
       <IF0145><JUMP6529><IF0407><JUMP6449>何だよ おまえらはよ。<END>
@@ -185,10 +173,11 @@
     "original_byte_length": !!int |-
       331
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54698
       "target_addr": !!int |-
         25630
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

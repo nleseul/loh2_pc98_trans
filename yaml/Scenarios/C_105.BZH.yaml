@@ -1,11 +1,8 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   1366
-"entries":
-  "5a27":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "23079": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ジェストン<C_NONE>
       アトラス王子 そなたの おかげで
@@ -36,17 +33,14 @@
     "original_byte_length": !!int |-
       458
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54649
       "target_addr": !!int |-
         23079
     "translated": !!null |-
       null
-  "5bf1":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23537": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>オーエン<C_NONE>
       これからは 王子さまの時代です。
@@ -54,17 +48,14 @@
     "original_byte_length": !!int |-
       78
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54658
       "target_addr": !!int |-
         23537
     "translated": !!null |-
       null
-  "5c3f":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23615": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       これは 私のカンなのですが
@@ -80,17 +71,14 @@
     "original_byte_length": !!int |-
       252
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54667
       "target_addr": !!int |-
         23615
     "translated": !!null |-
       null
-  "5d3b":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23867": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       結局 例の候補たちは 頼りないので
@@ -101,34 +89,28 @@
     "original_byte_length": !!int |-
       167
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54676
       "target_addr": !!int |-
         23867
     "translated": !!null |-
       null
-  "5de2":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24034": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       ああ わが国にも あなたさまのような立派な後継ぎがいたら ･ ･ ･
     "original_byte_length": !!int |-
       68
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54685
       "target_addr": !!int |-
         24034
     "translated": !!null |-
       null
-  "5e26":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24102": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       おおっ これは アトラス王子さま。
@@ -136,10 +118,11 @@
     "original_byte_length": !!int |-
       76
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54694
       "target_addr": !!int |-
         24102
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

@@ -1,130 +1,102 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   1206
-"entries":
-  "7170":
-    "is_relocatable": !!bool |-
-      false
+"_entries":
+  !!int "29040": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       赤スライムＡ<RET>
-    "original_byte_length": !!int |-
-      13
-    "references": []
     "translated": |-
       Red Slime A<RET>
-  "71b0":
-    "is_relocatable": !!bool |-
-      false
+  !!int "29104": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       赤スライムＡ′<RET>
-    "original_byte_length": !!int |-
-      15
-    "references": []
     "translated": |-
       Red Slime A'<RET>
-  "71f0":
-    "is_relocatable": !!bool |-
-      false
+  !!int "29168": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       赤スライムＢ<RET>
-    "original_byte_length": !!int |-
-      13
-    "references": []
     "translated": |-
       Red Slime B<RET>
-  "7230":
-    "is_relocatable": !!bool |-
-      false
+  !!int "29232": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       赤スライムＢ″<RET>
-    "original_byte_length": !!int |-
-      15
-    "references": []
     "translated": |-
       Red Slime B"<RET>
-  "75bf":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "30143": !RelocatableTranslatableEntry
     "original": |-
       赤スライムが現れた。<RET_N>
     "original_byte_length": !!int |-
       21
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61000
       "target_addr": !!int |-
         30143
     "translated": |-
       A red slime appears.<RET_N>
-  "75d4":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "30164": !RelocatableTranslatableEntry
     "original": |-
       <ACTOR>は２匹に分裂して<RET>
     "original_byte_length": !!int |-
       18
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61261
       "target_addr": !!int |-
         30164
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61448
       "target_addr": !!int |-
         30164
     "translated": |2-
        splits in two,
       <RET>
-  "75e6":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "30182": !RelocatableTranslatableEntry
     "original": |-
       <ACTOR>と<RET>
     "original_byte_length": !!int |-
       4
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61277
       "target_addr": !!int |-
         30182
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61464
       "target_addr": !!int |-
         30182
     "translated": |-
       and becomes <ACTOR> and<RET>
-  "75ea":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "30186": !RelocatableTranslatableEntry
     "original": |-
       <ACTOR>になった。<RET_PAGE>
     "original_byte_length": !!int |-
       12
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61285
       "target_addr": !!int |-
         30186
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61482
       "target_addr": !!int |-
         30186
     "translated": |-
       <ACTOR>.<RET_PAGE>
-"note": |-
+"_note": |-
   Red slimes - Prologue

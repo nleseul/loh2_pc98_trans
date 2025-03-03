@@ -1,28 +1,28 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   460
-"entries":
-  "5af6":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "23286": !RelocatableTranslatableEntry
     "original": |-
       <PARTY>は<RET>
     "original_byte_length": !!int |-
       4
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54649
       "target_addr": !!int |-
         23286
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54681
       "target_addr": !!int |-
         23286
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54713
       "target_addr": !!int |-
         23286
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

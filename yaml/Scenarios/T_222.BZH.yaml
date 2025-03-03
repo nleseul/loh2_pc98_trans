@@ -1,11 +1,8 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   1494
-"entries":
-  "5a7e":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "23166": !RelocatableTranslatableEntry
     "original": |-
       <IF0072><JUMP5c90><IF_NOT0075><CALL5d3f><IF_NOT0074><JUMP5a96><IF0073><JUMP5a9a><LOC5a96><CALL5d92><END>
       <LOC5a9a><CH0>
@@ -52,17 +49,14 @@
     "original_byte_length": !!int |-
       705
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54627
       "target_addr": !!int |-
         23166
     "translated": !!null |-
       null
-  "5d3f":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23871": !RelocatableTranslatableEntry
     "original": |-
       <SET0075><C_YELLOW>フローラ<C_NONE>
       はじめまして。
@@ -75,11 +69,7 @@
     "references": []
     "translated": !!null |-
       null
-  "5d92":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23954": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>フローラ<C_NONE>
       お父さまは お食事の後の お昼寝を
@@ -92,11 +82,7 @@
     "references": []
     "translated": !!null |-
       null
-  "5e19":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24089": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ジェニー<C_NONE>
       私は お嬢さまの 家庭教師です。
@@ -104,17 +90,14 @@
     "original_byte_length": !!int |-
       110
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54652
       "target_addr": !!int |-
         24089
     "translated": !!null |-
       null
-  "5e87":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24199": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>女中<C_NONE>
       お嬢さまは 世界中の人たちが 幸せにくらしていけるようにと、毎朝 必ず
@@ -124,10 +107,11 @@
     "original_byte_length": !!int |-
       141
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54661
       "target_addr": !!int |-
         24199
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

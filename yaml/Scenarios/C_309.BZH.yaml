@@ -1,11 +1,8 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   1550
-"entries":
-  "5b02":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "23298": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>アートス国王<C_NONE>
       アトラス よくぞ モンスターの出現を止めてくれた。
@@ -15,17 +12,14 @@
     "original_byte_length": !!int |-
       156
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54663
       "target_addr": !!int |-
         23298
     "translated": !!null |-
       null
-  "5b9e":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23454": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>クレア王妃<C_NONE>
       アトラス王子 また セリオス王が
@@ -34,17 +28,14 @@
     "original_byte_length": !!int |-
       107
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54678
       "target_addr": !!int |-
         23454
     "translated": !!null |-
       null
-  "5c09":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23561": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       若い兵士たちが エメを 復旧しに
@@ -53,17 +44,14 @@
     "original_byte_length": !!int |-
       91
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54687
       "target_addr": !!int |-
         23561
     "translated": !!null |-
       null
-  "5c64":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23652": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       いや これは アトラス王子さま。
@@ -76,17 +64,14 @@
     "original_byte_length": !!int |-
       209
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54696
       "target_addr": !!int |-
         23652
     "translated": !!null |-
       null
-  "5d35":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23861": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       あーあ 今日も いい天気ですね。
@@ -95,17 +80,14 @@
     "original_byte_length": !!int |-
       89
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54705
       "target_addr": !!int |-
         23861
     "translated": !!null |-
       null
-  "5d8e":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23950": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ハリー<C_NONE>
       あっ ちょっと きみたち。
@@ -130,10 +112,11 @@
     "original_byte_length": !!int |-
       446
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54714
       "target_addr": !!int |-
         23950
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

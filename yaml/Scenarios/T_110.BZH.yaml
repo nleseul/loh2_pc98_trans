@@ -1,11 +1,8 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   2157
-"entries":
-  "5ab6":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "23222": !RelocatableTranslatableEntry
     "original": |-
       <CALL619b>ずっと昔から たっていた
       グエンの塔が あんな地震ごときで
@@ -16,17 +13,14 @@
     "original_byte_length": !!int |-
       130
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54633
       "target_addr": !!int |-
         23222
     "translated": !!null |-
       null
-  "5b76":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23414": !RelocatableTranslatableEntry
     "original": |-
       ラヌーラに 初めて 出入りする者は
       あらかじめ 各国で 届けを出して
@@ -39,17 +33,14 @@
     "original_byte_length": !!int |-
       218
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54648
       "target_addr": !!int |-
         23414
     "translated": !!null |-
       null
-  "5c50":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23632": !RelocatableTranslatableEntry
     "original": |-
       <CALL619b>ボアード海運の ボアードは
       元海賊だって うわさだぜ。
@@ -60,17 +51,14 @@
     "original_byte_length": !!int |-
       147
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54682
       "target_addr": !!int |-
         23632
     "translated": !!null |-
       null
-  "5ce3":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23779": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>女<C_NONE>
       昔のラヌーラは 税金が高くて
@@ -87,17 +75,14 @@
     "original_byte_length": !!int |-
       271
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54691
       "target_addr": !!int |-
         23779
     "translated": !!null |-
       null
-  "5df2":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24050": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
       ここの呪文屋は こっとう品を
@@ -108,17 +93,14 @@
     "original_byte_length": !!int |-
       120
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54700
       "target_addr": !!int |-
         24050
     "translated": !!null |-
       null
-  "5e6a":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24170": !RelocatableTranslatableEntry
     "original": |-
       <CALL61a2>おや いらっしゃい。
       <IF0034><JUMP6097><SET0034>サイレスの呪文は いかがですか？
@@ -158,37 +140,32 @@
     "original_byte_length": !!int |-
       808
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54706
       "target_addr": !!int |-
         24170
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54712
       "target_addr": !!int |-
         24778
     "translated": !!null |-
       null
-  "619b":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24987": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE><RET_N>
     "original_byte_length": !!int |-
       7
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54642
       "target_addr": !!int |-
         24987
     "translated": !!null |-
       null
-  "61a2":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24994": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>呪文屋<C_NONE><RET_N>
     "original_byte_length": !!int |-
@@ -196,5 +173,5 @@
     "references": []
     "translated": !!null |-
       null
-"note": |-
+"_note": |-
   Larfa - Prologue

@@ -1,101 +1,73 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   694
-"entries":
-  "7170":
-    "is_relocatable": !!bool |-
-      false
+"_entries":
+  !!int "29040": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       ストライプツＡ<RET>
-    "original_byte_length": !!int |-
-      15
-    "references": []
     "translated": !!null |-
       null
-  "71b0":
-    "is_relocatable": !!bool |-
-      false
+  !!int "29104": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       ストライプツＢ<RET>
-    "original_byte_length": !!int |-
-      15
-    "references": []
     "translated": !!null |-
       null
-  "71f0":
-    "is_relocatable": !!bool |-
-      false
+  !!int "29168": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       ストライプツＣ<RET>
-    "original_byte_length": !!int |-
-      15
-    "references": []
     "translated": !!null |-
       null
-  "7230":
-    "is_relocatable": !!bool |-
-      false
+  !!int "29232": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       ストライプツＤ<RET>
-    "original_byte_length": !!int |-
-      15
-    "references": []
     "translated": !!null |-
       null
-  "73b2":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29618": !RelocatableTranslatableEntry
     "original": |-
       ストライプツが現れた。<RET_N>
     "original_byte_length": !!int |-
       23
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61000
       "target_addr": !!int |-
         29618
     "translated": !!null |-
       null
-  "73c9":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29641": !RelocatableTranslatableEntry
     "original": |-
       <ACTOR>は姿を消した。<RET_PAGE>
     "original_byte_length": !!int |-
       16
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61167
       "target_addr": !!int |-
         29641
     "translated": !!null |-
       null
-  "73d9":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29657": !RelocatableTranslatableEntry
     "original": |-
       <ACTOR>がＨＰを回復させて
       現れた。<RET_PAGE>
     "original_byte_length": !!int |-
       29
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61220
       "target_addr": !!int |-
         29657
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

@@ -1,11 +1,8 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   4332
-"entries":
-  "5c31":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "23601": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>漁師<C_NONE>
       <IF_NOT00f9><JUMP5d09><IF0015><JUMP5ca6>そろそろ うちの子に 漁のしかたでも教えてやろうと 思ってたんだがよ
@@ -20,17 +17,14 @@
     "original_byte_length": !!int |-
       299
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54764
       "target_addr": !!int |-
         23601
     "translated": !!null |-
       null
-  "5d5c":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23900": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>女<C_NONE>
       セリスから たくさんの人が ひなん
@@ -39,17 +33,14 @@
     "original_byte_length": !!int |-
       98
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54773
       "target_addr": !!int |-
         23900
     "translated": !!null |-
       null
-  "5dbe":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23998": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>老人<C_NONE>
       これは きっと だれかが 竜の卵に
@@ -61,17 +52,14 @@
     "original_byte_length": !!int |-
       149
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54782
       "target_addr": !!int |-
         23998
     "translated": !!null |-
       null
-  "5e53":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24147": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>子供<C_NONE>
       ぼく シーラス釣りの 名人よりも
@@ -82,17 +70,14 @@
     "original_byte_length": !!int |-
       126
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54791
       "target_addr": !!int |-
         24147
     "translated": !!null |-
       null
-  "5ed1":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24273": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
       <IF_NOT0404><JUMP5f3b><IF0405><JUMP5f3b><SET0405>ようこそ ラヌーラへ。
@@ -105,17 +90,14 @@
     "original_byte_length": !!int |-
       224
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54800
       "target_addr": !!int |-
         24273
     "translated": !!null |-
       null
-  "5fb1":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24497": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
       お客さん 切符をお願いします。
@@ -129,17 +111,14 @@
     "original_byte_length": !!int |-
       227
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54705
       "target_addr": !!int |-
         24497
     "translated": !!null |-
       null
-  "6094":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24724": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
       <IF_NOT00f9><JUMP6110>こんな状態になっても まだ 出入国の手続きを やってるんだぜ。
@@ -154,17 +133,14 @@
     "original_byte_length": !!int |-
       227
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54809
       "target_addr": !!int |-
         24724
     "translated": !!null |-
       null
-  "6177":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24951": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
       おれは 予備役の 兵士なんだ。
@@ -175,17 +151,14 @@
     "original_byte_length": !!int |-
       127
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54818
       "target_addr": !!int |-
         24951
     "translated": !!null |-
       null
-  "633a":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "25402": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>女<C_NONE>
       <IF_NOT00f9><JUMP648f><IF0015><JUMP6402>モンスターって 竜の卵からしか
@@ -212,17 +185,14 @@
     "original_byte_length": !!int |-
       478
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54870
       "target_addr": !!int |-
         25402
     "translated": !!null |-
       null
-  "6518":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "25880": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>女<C_NONE>
       ここは うちのおじいちゃんの
@@ -238,17 +208,14 @@
     "original_byte_length": !!int |-
       226
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54885
       "target_addr": !!int |-
         25880
     "translated": !!null |-
       null
-  "65fa":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "26106": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ギャリー<C_NONE>
       あぁ もうおしまいじゃぁ ･ ･ ･
@@ -261,17 +228,14 @@
     "original_byte_length": !!int |-
       184
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54894
       "target_addr": !!int |-
         26106
     "translated": !!null |-
       null
-  "66b2":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "26290": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
       <IF_NOT00f9><JUMP66c3><IF0015><JUMP672b><LOC66c3>聖域で 何か 悪いことした やつが
@@ -289,17 +253,14 @@
     "original_byte_length": !!int |-
       309
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54903
       "target_addr": !!int |-
         26290
     "translated": !!null |-
       null
-  "67e7":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "26599": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>女<C_NONE>
       いらっしゃいませ。
@@ -312,50 +273,41 @@
     "original_byte_length": !!int |-
       200
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54876
       "target_addr": !!int |-
         26599
     "translated": !!null |-
       null
-  "68b3":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "26803": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>武器屋<C_NONE>
       いらっしゃい。<RET_N>
     "original_byte_length": !!int |-
       24
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54915
       "target_addr": !!int |-
         26803
     "translated": !!null |-
       null
-  "68cb":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "26827": !RelocatableTranslatableEntry
     "original": |-
       またどうぞ。
     "original_byte_length": !!int |-
       13
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54927
       "target_addr": !!int |-
         26827
     "translated": !!null |-
       null
-  "68d8":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "26840": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>道具屋<C_NONE>
       いらっしゃいませ。
@@ -363,33 +315,27 @@
     "original_byte_length": !!int |-
       56
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54939
       "target_addr": !!int |-
         26840
     "translated": !!null |-
       null
-  "6910":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "26896": !RelocatableTranslatableEntry
     "original": |-
       また来てくださいね。
     "original_byte_length": !!int |-
       21
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54966
       "target_addr": !!int |-
         26896
     "translated": !!null |-
       null
-  "6925":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "26917": !RelocatableTranslatableEntry
     "original": |-
       おや？これ以上持てないようですね。
 
@@ -397,34 +343,28 @@
     "original_byte_length": !!int |-
       36
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         4324
       "target_addr": !!int |-
         26917
     "translated": !!null |-
       null
-  "6949":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "26953": !RelocatableTranslatableEntry
     "original": |-
       どれを買ってくれますか？
       <RET_N>
     "original_byte_length": !!int |-
       26
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         4326
       "target_addr": !!int |-
         26953
     "translated": !!null |-
       null
-  "6963":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "26979": !RelocatableTranslatableEntry
     "original": |-
       <ITEM>だね。
       どうも ありがとう。
@@ -433,34 +373,28 @@
     "original_byte_length": !!int |-
       29
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         4328
       "target_addr": !!int |-
         26979
     "translated": !!null |-
       null
-  "6988":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "27016": !RelocatableTranslatableEntry
     "original": |-
       どれを 売ってくれますか？
       <RET_N>
     "original_byte_length": !!int |-
       27
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         4162
       "target_addr": !!int |-
         27016
     "translated": !!null |-
       null
-  "69a3":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "27043": !RelocatableTranslatableEntry
     "original": |2-
        Gold になるけど
       それでも よろしいですか？
@@ -468,17 +402,14 @@
     "original_byte_length": !!int |-
       44
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         4164
       "target_addr": !!int |-
         27043
     "translated": !!null |-
       null
-  "69cf":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "27087": !RelocatableTranslatableEntry
     "original": |-
       それは残念です。
 
@@ -486,27 +417,25 @@
     "original_byte_length": !!int |-
       18
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         4166
       "target_addr": !!int |-
         27087
     "translated": !!null |-
       null
-  "69e1":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "27105": !RelocatableTranslatableEntry
     "original": |-
       どうも ありがとうございます。
       <RET_N>
     "original_byte_length": !!int |-
       31
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         4168
       "target_addr": !!int |-
         27105
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

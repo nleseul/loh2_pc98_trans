@@ -1,11 +1,8 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   1068
-"entries":
-  "5c1e":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "23582": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ガード<C_NONE>
       おい 何か音がしなかったか？
@@ -24,10 +21,11 @@
     "original_byte_length": !!int |-
       241
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54843
       "target_addr": !!int |-
         23582
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

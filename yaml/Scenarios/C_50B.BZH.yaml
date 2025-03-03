@@ -1,11 +1,8 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   1228
-"entries":
-  "5ce3":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "23779": !RelocatableTranslatableEntry
     "original": |-
       <CH1>
       さあ シンディ 出番だぜ。
@@ -15,17 +12,14 @@
     "original_byte_length": !!int |-
       49
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54706
       "target_addr": !!int |-
         23779
     "translated": !!null |-
       null
-  "5d14":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23828": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ガード<C_NONE>
       んっ !? 何の音だ？
@@ -38,17 +32,14 @@
     "original_byte_length": !!int |-
       113
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54753
       "target_addr": !!int |-
         23828
     "translated": !!null |-
       null
-  "5d85":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23941": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ガード<C_NONE>
       だっ 脱走だ !!
@@ -56,27 +47,25 @@
     "original_byte_length": !!int |-
       41
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54815
       "target_addr": !!int |-
         23941
     "translated": !!null |-
       null
-  "5dae":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23982": !RelocatableTranslatableEntry
     "original": |-
       <PARTY>は 宝箱を開けました。
       宝箱の中には<RET>
     "original_byte_length": !!int |-
       36
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54920
       "target_addr": !!int |-
         23982
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

@@ -1,11 +1,10 @@
-"end_of_file_addr": !!null |-
+!TranslationCollection
+"_end_of_file_addr": !!null |-
   null
-"entries":
-  "3dc2":
-    "is_relocatable": !!bool |-
-      false
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "15810": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      1307
     "original": |2
 
 
@@ -90,4 +89,4 @@
 
                      The disaster that was yet to come...
       <PAGE>
-"note": ""
+"_note": ""

@@ -1,11 +1,8 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   2099
-"entries":
-  "5d28":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "23848": !RelocatableTranslatableEntry
     "original": |+
       <CLEAR>
                 英雄達の伝説Ⅱ<N>
@@ -13,17 +10,14 @@
     "original_byte_length": !!int |-
       29
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54620
       "target_addr": !!int |-
         23848
     "translated": !!null |-
       null
-  "5e39":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24121": !RelocatableTranslatableEntry
     "original": |-
       <CLEAR><C_YELLOW>フラッド<C_NONE>
       すべては 皇帝陛下の ご命令どおりに進行しております。
@@ -78,10 +72,11 @@
     "original_byte_length": !!int |-
       776
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54713
       "target_addr": !!int |-
         24121
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

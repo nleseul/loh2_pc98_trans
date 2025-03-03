@@ -1,11 +1,8 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   4075
-"entries":
-  "5c0c":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "23564": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>子供<C_NONE>
       <IF0404><JUMP5c4f>ぼく いつも ここで 船を見てるんだ。早く来ないかなぁ。<END>
@@ -13,7 +10,8 @@
     "original_byte_length": !!int |-
       127
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54747
       "target_addr": !!int |-
         23564
@@ -23,11 +21,7 @@
       here. I wonder if one'll come
       soon?<END>
       <LOC5c4f>When I grow up, I'm gonna ride theship to other lands.
-  "5c8b":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23691": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
       まったく ここの定期船ときたら
@@ -42,7 +36,8 @@
     "original_byte_length": !!int |-
       203
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54756
       "target_addr": !!int |-
         23691
@@ -56,11 +51,7 @@
 
       I hope they stop using that old
       ship and get a new one soon.
-  "5d56":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23894": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
       やあ あんたも 災害のお守りを
@@ -75,7 +66,8 @@
     "original_byte_length": !!int |-
       206
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54765
       "target_addr": !!int |-
         23894
@@ -91,11 +83,7 @@
 
       So I'll be ready for whatever
       disaster happens now!
-  "5e24":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24100": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>女<C_NONE>
       災害のお守りって 本当にききめが
@@ -104,7 +92,8 @@
     "original_byte_length": !!int |-
       97
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54774
       "target_addr": !!int |-
         24100
@@ -112,11 +101,7 @@
       <C_YELLOW>Woman<C_NONE>
       I wonder if Disaster Charms reallyhave any effect. That merchant
       doesn't seem too reputable...
-  "5e85":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24197": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>老人<C_NONE>
       まったく 近頃の若いもんと きたら
@@ -128,7 +113,8 @@
     "original_byte_length": !!int |-
       146
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54783
       "target_addr": !!int |-
         24197
@@ -140,11 +126,7 @@
 
       Those Disaster Charms are nothin'
       but a scam! Ridiculous.
-  "5f17":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24343": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ロー<C_NONE>
       <IF0020><JUMP609b><SET0020><IF0019><JUMP5f34><SET0021><Xf5700200><LOC5f34>おや どうしたんだ こんな所まで
@@ -175,7 +157,8 @@
     "original_byte_length": !!int |-
       560
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54807
       "target_addr": !!int |-
         24343
@@ -206,11 +189,7 @@
       I'm glad to hear it.
       There's no reason to go around
       buying crap like that.
-  "614b":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24907": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
       <IF0023><JUMP621f><IF0022><JUMP6265><IF0404><JUMP621f><IF0021><JUMP61de>お客さん、ここで船を待っていても
@@ -228,7 +207,8 @@
     "original_byte_length": !!int |-
       396
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54816
       "target_addr": !!int |-
         24907
@@ -253,11 +233,7 @@
       It's still under repair. That's
       the trouble with having such
       an old ship.
-  "62d7":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "25303": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
       お客さん 切符を出してください。
@@ -278,7 +254,8 @@
     "original_byte_length": !!int |-
       429
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54688
       "target_addr": !!int |-
         25303
@@ -301,11 +278,7 @@
       keep that in mind.<END>
       <LOC6444>I can't let you board without one.Please purchase your ticket
       over there.
-  "6484":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "25732": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ヤミ屋<C_NONE>
       <IF0025><JUMP65e3>へっへっへ 災害のお守りは
@@ -331,7 +304,8 @@
     "original_byte_length": !!int |-
       472
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54798
       "target_addr": !!int |-
         25732
@@ -361,11 +335,7 @@
 
       They sold quite well, so I'll haveto acquire some more inventory.
       Do wait until then.
-  "6660":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "26208": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>女<C_NONE>
       いらっしゃいませ。
@@ -381,7 +351,8 @@
     "original_byte_length": !!int |-
       384
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54822
       "target_addr": !!int |-
         26208
@@ -402,11 +373,7 @@
       enough money for one.<END>
       <LOC67b0>But it doesn't look like you're
       able to carry any more.
-  "67e4":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "26596": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>宿屋<C_NONE>
       この宿は 国王さまが お泊まりに
@@ -414,7 +381,8 @@
     "original_byte_length": !!int |-
       66
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54828
       "target_addr": !!int |-
         26596
@@ -422,11 +390,7 @@
       <C_YELLOW>Innkeeper<C_NONE>
       The King himself once stayed in
       this inn, you know.
-  "6826":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "26662": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>武器屋<C_NONE>
       ベルガの鉱山で 落盤が起こったので
@@ -436,7 +400,8 @@
     "original_byte_length": !!int |-
       144
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54834
       "target_addr": !!int |-
         26662
@@ -449,11 +414,7 @@
       has been cleared, and I guarantee
       I'll have some strong weapons for
       you.
-  "68b6":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "26806": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>道具屋<C_NONE>
       いらっしゃいませ。
@@ -464,7 +425,8 @@
     "original_byte_length": !!int |-
       115
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54840
       "target_addr": !!int |-
         26806
@@ -476,5 +438,5 @@
       I haven't received any deliveries
       from Rondo, so I'm sold out of
       everything.
-"note": |-
+"_note": |-
   Neria - Prologue

@@ -1,11 +1,8 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   1607
-"entries":
-  "5b14":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "23316": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>アートス国王<C_NONE>
       アトラス よくぞ モンスターの出現を止めてくれた。
@@ -15,17 +12,14 @@
     "original_byte_length": !!int |-
       156
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54663
       "target_addr": !!int |-
         23316
     "translated": !!null |-
       null
-  "5bb0":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23472": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>クレア王妃<C_NONE>
       アトラス王子 あなたが このさわぎをしずめたそうですね。
@@ -35,17 +29,14 @@
     "original_byte_length": !!int |-
       118
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54678
       "target_addr": !!int |-
         23472
     "translated": !!null |-
       null
-  "5c26":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23590": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       王子さま セリオスさまたちは
@@ -53,17 +44,14 @@
     "original_byte_length": !!int |-
       61
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54687
       "target_addr": !!int |-
         23590
     "translated": !!null |-
       null
-  "5c63":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23651": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       王子さま 世界中の竜の卵が もとに
@@ -76,17 +64,14 @@
     "original_byte_length": !!int |-
       164
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54696
       "target_addr": !!int |-
         23651
     "translated": !!null |-
       null
-  "5d07":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23815": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       これは アトラス王子さま。
@@ -94,17 +79,14 @@
     "original_byte_length": !!int |-
       61
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54705
       "target_addr": !!int |-
         23815
     "translated": !!null |-
       null
-  "5d44":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23876": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       ソルディスには もともと
@@ -115,17 +97,14 @@
     "original_byte_length": !!int |-
       120
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54714
       "target_addr": !!int |-
         23876
     "translated": !!null |-
       null
-  "5dbc":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23996": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       あーあ 今日も いい天気ですね。
@@ -134,17 +113,14 @@
     "original_byte_length": !!int |-
       89
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54723
       "target_addr": !!int |-
         23996
     "translated": !!null |-
       null
-  "5e15":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24085": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ハリー<C_NONE>
       あっ ちょっと きみたち。
@@ -165,10 +141,11 @@
     "original_byte_length": !!int |-
       368
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54732
       "target_addr": !!int |-
         24085
     "translated": !!null |-
       null
-"note": ""
+"_note": ""
