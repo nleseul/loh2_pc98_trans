@@ -401,8 +401,8 @@
         7542
       "target_addr": !!int |-
         1804
-    "translated": !!null |-
-      null
+    "translated": |-
+      <IF0418><JUMP0718>But <LOC0718><RET>
   !!int "1817": !RelocatableTranslatableEntry
     "original": |-
       運悪<JUMP0724><LOC0720>運良<LOC0724>く<LOC0726><ACTOR>には当ら<JUMP073b><LOC0732><ACTOR>には効か<LOC073b>なかった。<RET_PAGE>
@@ -429,8 +429,8 @@
         7530
       "target_addr": !!int |-
         1824
-    "translated": !!null |-
-      null
+    "translated": "un<LOC0720>fortunate<LOC0724>ly, <LOC0726>it missed \n<JUMP073b><LOC0732>it\
+      \ had no\neffect on <LOC073b><ACTOR>.<RET_PAGE>\n\n\n"
   !!int "1880": !RelocatableTranslatableEntry
     "original": |-
       <ACTOR>のＨＰは回復しなかった。<RET_PAGE>
@@ -469,8 +469,9 @@
         19362
       "target_addr": !!int |-
         1917
-    "translated": !!null |-
-      null
+    "translated": |-
+      <ACTOR> recovers <C_YELLOW><RET>
+      <CONT><C_NONE> HP.<RET_PAGE>
   !!int "2126": !RelocatableTranslatableEntry
     "original": |-
       <CLEAR>戦いに勝利しました。<RET_N>
@@ -482,8 +483,8 @@
         2189
       "target_addr": !!int |-
         2126
-    "translated": !!null |-
-      null
+    "translated": |-
+      <CLEAR>Victory!<RET_N>
   !!int "2165": !RelocatableTranslatableEntry
     "original": |-
       <CH0>は戦いに敗れました。
@@ -524,8 +525,9 @@
         2607
       "target_addr": !!int |-
         2331
-    "translated": !!null |-
-      null
+    "translated": |-
+      Gained <RET>
+      <CONT> EP<RET_N>
   !!int "2355": !RelocatableTranslatableEntry
     "original": |2-
        Gold 手に入れました。<RET_N>
@@ -537,8 +539,8 @@
         2679
       "target_addr": !!int |-
         2355
-    "translated": !!null |-
-      null
+    "translated": |2-
+       gold obtained.<RET_N>
   !!int "2654": !RelocatableTranslatableEntry
     "original": |-
       の攻撃<RET_N>
@@ -594,8 +596,8 @@
         7461
       "target_addr": !!int |-
         2679
-    "translated": !!null |-
-      null
+    "translated": |-
+      Critical hit<JUMP0a82><LOC0a7e>A dire blow<LOC0a82>!!<RET_N>
   !!int "2700": !RelocatableTranslatableEntry
     "original": |-
       <ACTOR>は気絶してしまった。<RET_PAGE>
@@ -620,8 +622,8 @@
         7403
       "target_addr": !!int |-
         2722
-    "translated": !!null |-
-      null
+    "translated": |-
+      <ACTOR> was defeated.<RET_PAGE>
   !!int "5884": !RelocatableTranslatableEntry
     "original": |-
       <CLEAR><RET>
@@ -782,8 +784,8 @@
         21172
       "target_addr": !!int |-
         6722
-    "translated": !!null |-
-      null
+    "translated": |-
+      <ACTOR> takes a defensive stance.<RET_PAGE>
   !!int "6748": !RelocatableTranslatableEntry
     "original": |-
       は逃げ出した。<RET_N>
@@ -795,8 +797,8 @@
         21342
       "target_addr": !!int |-
         6748
-    "translated": !!null |-
-      null
+    "translated": |2-
+       ran away.<RET_N>
   !!int "7020": !RelocatableTranslatableEntry
     "original": |-
       <SND0204>ディスクの空き容量がたりません。
