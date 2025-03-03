@@ -32,9 +32,10 @@ def verify(username, password):
 
 
 class TextRenderer:
-    def __init__(self, width:int, lines_per_page:int = 4):
+    def __init__(self, width:int, lines_per_page:int = 4, fudge_characters:list[str] = []):
         self._width = width
         self._lines_per_page = lines_per_page
+        self._fudge_characters = fudge_characters
 
         self._pages = []
         self._current_page_text = ""
@@ -59,13 +60,14 @@ class TextRenderer:
 
     def add_text(self, text:str) -> None:
         for ch in text:
+            if self._line_char_count > self._width or self._line_char_count == self._width and ch not in self._fudge_characters:
+                self.add_newline()
+
             if ch == " ":
                 self._current_page_text += "&nbsp;"
             else:
                 self._current_page_text += ch
             self._line_char_count += len(ch.encode('cp932'))
-            if self._line_char_count >= self._width:
-                self.add_newline()
 
     def add_debug_text(self, text) -> None:
         self._current_page_text += text
@@ -124,7 +126,7 @@ def make_condition_description(code:int, data:bytes) -> str | None:
 
 
 def render_text_html(trans:TranslationCollection, entry_point_key:int, max_pages:int|None = None, translated:bool = True, active_conditions:list[str] = []) -> tuple[list[str], list[str]]:
-    renderer = TextRenderer(34, 4)
+    renderer = TextRenderer(34, 4, ["。", "!"])
 
     locator_to_key_and_offset = {}
     encoded_events = {}
