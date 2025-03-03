@@ -5,13 +5,21 @@ import typing
 import yaml
 
 
+
 @dataclass
-class CodeReference(yaml.YAMLObject):
+class BaseReference:
+    source_addr:int
+    target_addr:int
+
+@dataclass
+class CodeReference(BaseReference, yaml.YAMLObject):
     yaml_loader = yaml.SafeLoader
     yaml_tag = '!CodeReference'
 
-    source_addr:int
-    target_addr:int
+@dataclass
+class DataReference(BaseReference, yaml.YAMLObject):
+    yaml_loader = yaml.SafeLoader
+    yaml_tag = '!DataReference'
 
 
 @dataclass
@@ -20,7 +28,7 @@ class BaseEntry:
 
 @dataclass
 class RelocatableEntry:
-    references:list[CodeReference] = field(default_factory=list)
+    references:list[BaseReference] = field(default_factory=list)
 
     original_byte_length:int = 0
 
@@ -31,7 +39,7 @@ class RelocatableRawDataEntry(RelocatableEntry, yaml.YAMLObject):
 
     data:bytes = b''
 
-    def __init__(self, references:list[CodeReference], data:bytes):
+    def __init__(self, references:list[BaseReference], data:bytes):
         super().__init__(references, len(data))
 
         self.data = data

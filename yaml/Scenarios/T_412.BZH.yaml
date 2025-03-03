@@ -142,9 +142,9 @@
     "original_byte_length": !!int |-
       28
     "references":
-    - !CodeReference
+    - !DataReference
       "source_addr": !!int |-
-        1646
+        24492
       "target_addr": !!int |-
         24286
     "translated": !!null |-
@@ -156,9 +156,9 @@
     "original_byte_length": !!int |-
       22
     "references":
-    - !CodeReference
+    - !DataReference
       "source_addr": !!int |-
-        1648
+        24494
       "target_addr": !!int |-
         24314
     "translated": !!null |-
@@ -172,9 +172,9 @@
     "original_byte_length": !!int |-
       22
     "references":
-    - !CodeReference
+    - !DataReference
       "source_addr": !!int |-
-        1650
+        24496
       "target_addr": !!int |-
         24336
     "translated": !!null |-
@@ -186,9 +186,9 @@
     "original_byte_length": !!int |-
       23
     "references":
-    - !CodeReference
+    - !DataReference
       "source_addr": !!int |-
-        1512
+        24358
       "target_addr": !!int |-
         24366
     "translated": !!null |-
@@ -201,9 +201,9 @@
     "original_byte_length": !!int |-
       36
     "references":
-    - !CodeReference
+    - !DataReference
       "source_addr": !!int |-
-        1514
+        24360
       "target_addr": !!int |-
         24389
     "translated": !!null |-
@@ -216,9 +216,9 @@
     "original_byte_length": !!int |-
       19
     "references":
-    - !CodeReference
+    - !DataReference
       "source_addr": !!int |-
-        1516
+        24362
       "target_addr": !!int |-
         24425
     "translated": !!null |-
@@ -230,9 +230,9 @@
     "original_byte_length": !!int |-
       14
     "references":
-    - !CodeReference
+    - !DataReference
       "source_addr": !!int |-
-        1518
+        24364
       "target_addr": !!int |-
         24444
     "translated": !!null |-

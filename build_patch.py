@@ -352,6 +352,9 @@ def make_data_file_patch(yaml_path:str, code_base_addr:int, event_base_addr:int,
     # Maps address of reference within code to old address of target
     code_references_to_relocate:dict[int, int] = {}
 
+    # Maps address of reference within data to old address of target
+    data_references_to_relocate:dict[int, int] = {}
+
     # Maps new address of reference within an event to old address of target
     event_references_to_relocate:dict[int, int] = {}
 
@@ -380,9 +383,14 @@ def make_data_file_patch(yaml_path:str, code_base_addr:int, event_base_addr:int,
             relocations[locator.addr] = new_addr + locator.offset
             #print(f"Locator at {locator.addr:04x} moved to {new_addr + locator.offset:04x}")
 
-        for code_reference in entry.references:
-            #print(f"Code reference to {code_reference.target_addr:04x} at {code_reference.source_addr:04x} will need updated")
-            code_references_to_relocate[code_reference.source_addr] = code_reference.target_addr
+        for reference in entry.references:
+            if isinstance(reference, CodeReference):
+                #print(f"Code reference to {reference.target_addr:04x} at {reference.source_addr:04x} will need updated")
+                code_references_to_relocate[reference.source_addr] = reference.target_addr
+            else:
+                assert(isinstance(reference, DataReference))
+                #print(f"Data reference to {reference.target_addr:04x} at {reference.source_addr:04x} will need updated")
+                data_references_to_relocate[reference.source_addr] = reference.target_addr
 
         for reference in references:
             #print(f"Reference to {reference.addr:04x} at {new_addr + reference.offset:04x} (formerly {key + reference.offset:04x}) will need updated")
@@ -417,6 +425,15 @@ def make_data_file_patch(yaml_path:str, code_base_addr:int, event_base_addr:int,
         #print(f"Updating reference to {reference_target_addr:04x} in event at {reference_addr:04x} to {new_target_addr:04x}")
 
         patch.add_record(reference_addr - code_base_addr + code_offset_in_buffer, int.to_bytes(new_target_addr, length=2, byteorder='little'))
+
+    for reference_addr, reference_target_addr in data_references_to_relocate.items():
+        if reference_target_addr not in relocations:
+            raise Exception(f"Trying to update reference to {reference_target_addr:04x}, which is not in the relocation table")
+        new_target_addr = relocations[reference_target_addr]
+
+        #print(f"Updating reference to {reference_target_addr:04x} in event at {reference_addr:04x} to {new_target_addr:04x}")
+
+        patch.add_record(reference_addr - event_base_addr + event_offset_in_buffer, int.to_bytes(new_target_addr, length=2, byteorder='little'))
 
     for reference_addr, reference_target_addr in event_references_to_relocate.items():
         if reference_target_addr not in relocations:

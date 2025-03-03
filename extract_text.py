@@ -34,18 +34,27 @@ def explore(block_pool:BlockPool, entry_points:typing.List[EntryPointInfo]) -> N
 
 def make_entry_from_block(block:DS6EventBlock) -> TranslatableEntry:
     is_relocatable = True
-    references = {}
+    code_references = {}
+    data_references = {}
     for link in block.get_incoming_links():
         if link.source_addr is None:
             is_relocatable = False
         elif isinstance(link.source_block, DS6EventBlock):
+            # Ignore references from events for now, since those are already embedded
+            # in the event's string representation.
             pass
+        elif isinstance(link.source_block, DataBlock):
+            data_references[link.source_addr] = link.target_addr
         else:
-            references[link.source_addr] = link.target_addr
+            #assert(isinstance(link.source_block, X86CodeBlock))
+            code_references[link.source_addr] = link.target_addr
 
     if is_relocatable:
-        entry = RelocatableTranslatableEntry(references=[CodeReference(source_addr, target_addr) for source_addr, target_addr in references.items()],
-                                             original_byte_length=block.length)
+        entry = RelocatableTranslatableEntry(original_byte_length=block.length)
+        for source_addr, target_addr in code_references.items():
+            entry.references.append(CodeReference(source_addr, target_addr))
+        for source_addr, target_addr in data_references.items():
+            entry.references.append(DataReference(source_addr, target_addr))
     else:
         entry = FixedTranslatableEntry(max_byte_length=block.length)
 
@@ -124,6 +133,12 @@ def extract_scenario_events(scenario_data:typing.ByteString, custom_hooks:list[X
         trans.add_entry(block.start_addr, entry)
 
     for block in block_pool.get_blocks("data"):
+
+        if any(True for _ in block.get_outgoing_links()):
+            # If there are any outgoing links in the block, don't track it. Not really
+            # set up to update references inside a relocated data block yet.
+            continue
+
         references = {}
         for link in block.get_incoming_links():
             if link.source_addr is None:

@@ -156,9 +156,9 @@
     "original_byte_length": !!int |-
       36
     "references":
-    - !CodeReference
+    - !DataReference
       "source_addr": !!int |-
-        1998
+        24844
       "target_addr": !!int |-
         24625
     "translated": !!null |-
@@ -170,9 +170,9 @@
     "original_byte_length": !!int |-
       26
     "references":
-    - !CodeReference
+    - !DataReference
       "source_addr": !!int |-
-        2000
+        24846
       "target_addr": !!int |-
         24661
     "translated": !!null |-
@@ -186,9 +186,9 @@
     "original_byte_length": !!int |-
       29
     "references":
-    - !CodeReference
+    - !DataReference
       "source_addr": !!int |-
-        2002
+        24848
       "target_addr": !!int |-
         24687
     "translated": !!null |-

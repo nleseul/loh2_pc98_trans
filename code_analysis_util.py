@@ -209,6 +209,15 @@ class BlockPool:
     def get_domain_data(self, domain:str) -> typing.ByteString:
         return self._domains[domain].data
 
+    def read_data_from_domain(self, domain:str, addr:int, length:int) -> typing.ByteString:
+        base_addr = self.get_domain_base_addr(domain)
+        data = self.get_domain_data(domain)
+
+        if not self.domain_contains(domain, addr):
+            raise Exception(f"Trying to read data at address {addr:04x} in domain {domain}, which is only defined in range {base_addr:04x}~{base_addr+len(data):04x}.")
+
+        return data[addr-base_addr:addr-base_addr+length]
+
     def domain_contains(self, domain:str, addr:int) -> bool:
         domain_info = self._domains[domain]
         return addr >= domain_info.base_addr and addr < domain_info.base_addr + len(domain_info.data)

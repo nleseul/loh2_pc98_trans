@@ -3,7 +3,7 @@ from capstone.x86 import *
 from dataclasses import dataclass
 import typing
 
-from code_analysis_util import Block, BlockPool, Link, X86CodeHook
+from code_analysis_util import Block, BlockPool, DataBlock, Link, X86CodeHook
 
 
 def read_sjis_char(data:typing.ByteString, addr:int) -> tuple[str, int]:
@@ -552,10 +552,9 @@ class DS62_NpcTable1370CodeHook(X86CodeHook):
         if X86_REG_DX in registers:
             table_destination = registers[X86_REG_DX]['value']
 
-            table_destination -=  block_pool.get_domain_base_addr("event")
-            table_size = int.from_bytes(block_pool.get_domain_data("code")[table_destination:table_destination+2], byteorder='little') - 1
+            table_size = int.from_bytes(block_pool.read_data_from_domain("event", table_destination, 2), byteorder='little') - 1
             for table_index in range(table_size):
-                table_entry = int.from_bytes(block_pool.get_domain_data("code")[table_destination + 2 + table_index*2:table_destination + 2 + (table_index + 1)*2], byteorder='little')
+                table_entry = int.from_bytes(block_pool.read_data_from_domain("event", table_destination + 2 + table_index*2, 2), byteorder='little')
                 if block_pool.domain_contains("code", table_entry):
                     link = Link(table_destination + 2 + table_index*2 + current_block.base_addr, table_entry)
                     link.connect_blocks(current_block, block_pool.get_block("code", table_entry))
@@ -573,20 +572,17 @@ class DS62_NpcTable13e7CodeHook(X86CodeHook):
         if X86_REG_SI in registers:
             table_destination = registers[X86_REG_SI]['value']
 
-            table_destination -=  block_pool.get_domain_base_addr("event")
-
-            data = block_pool.get_domain_data("code")
             table_offset = 0
 
             while True:
-                first_byte = data[table_destination + table_offset]
+                first_byte = block_pool.read_data_from_domain("event", table_destination + table_offset, 1)[0]
 
                 if first_byte == 0xff:
                     break
 
                 handler_pointer_addr = table_destination + table_offset + (5 if first_byte & 0x40 != 0 else 3)
 
-                handler_addr = int.from_bytes(data[handler_pointer_addr:handler_pointer_addr + 2], byteorder='little')
+                handler_addr = int.from_bytes(block_pool.read_data_from_domain("event", handler_pointer_addr, 2), byteorder='little')
 
                 #print(f"First byte of object table record is {data[table_destination + table_offset]:02x} ({data[table_destination + table_offset]:08b})")
                 #print(f"Pointer is {handler_addr:04x}")
@@ -608,17 +604,20 @@ class DS62_SellToShopCodeHook(X86CodeHook):
         if X86_REG_BX in registers:
             table_destination = registers[X86_REG_BX]['value']
 
-            table_destination -=  block_pool.get_domain_base_addr("event")
+            table_block = block_pool.get_block("data", table_destination)
+            assert(isinstance(table_block, DataBlock))
+            table_block.set_length(8)
 
-            data = block_pool.get_domain_data("code")
+            link_to_table = Link(registers[X86_REG_BX]['source_addr'], table_destination)
+            link_to_table.connect_blocks(current_block, table_block)
 
             # Four pointers to events - "What do you want to sell?" / "Is this price okay?" / "Too bad" / "Thanks"
             for entry_index in range(4):
                 event_pointer_addr = table_destination + entry_index*2
-                event_addr = int.from_bytes(data[event_pointer_addr:event_pointer_addr + 2], byteorder='little')
+                event_addr = int.from_bytes(block_pool.read_data_from_domain("data", event_pointer_addr, 2), byteorder='little')
                 if block_pool.domain_contains("event", event_addr):
                     link = Link(event_pointer_addr, event_addr)
-                    link.connect_blocks(current_block, block_pool.get_block("event", event_addr))
+                    link.connect_blocks(table_block, block_pool.get_block("event", event_addr))
         else:
             raise Exception("Don't know what the table address was!!")
 
@@ -632,17 +631,20 @@ class DS62_BuyFromShopCodeHook(X86CodeHook):
         if X86_REG_BX in registers:
             table_destination = registers[X86_REG_BX]['value']
 
-            table_destination -=  block_pool.get_domain_base_addr("event")
+            table_block = block_pool.get_block("data", table_destination)
+            assert(isinstance(table_block, DataBlock))
+            table_block.set_length(6)
 
-            data = block_pool.get_domain_data("code")
+            link_to_table = Link(registers[X86_REG_BX]['source_addr'], table_destination)
+            link_to_table.connect_blocks(current_block, table_block)
 
             # Three pointers to events - "You can't hold any more" / "What do you want to buy?" / "Thank you"
             for entry_index in range(3):
                 event_pointer_addr = table_destination + entry_index*2
-                event_addr = int.from_bytes(data[event_pointer_addr:event_pointer_addr + 2], byteorder='little')
+                event_addr = int.from_bytes(block_pool.read_data_from_domain("data", event_pointer_addr, 2), byteorder='little')
                 if block_pool.domain_contains("event", event_addr):
                     link = Link(event_pointer_addr, event_addr)
-                    link.connect_blocks(current_block, block_pool.get_block("event", event_addr))
+                    link.connect_blocks(table_block, block_pool.get_block("event", event_addr))
         else:
             raise Exception("Don't know what the table address was!!")
 
@@ -670,7 +672,7 @@ class DS62_OverworldDestinationTableCodeHook(X86CodeHook):
         for table_index in range(entry_count):
             code_addr = addr - block_pool.get_domain_base_addr("event") + block_pool.get_domain_base_addr("code")
 
-            entry_data = block_pool.get_domain_data("event")[addr-base_addr:addr-base_addr+self._entry_size]
+            entry_data =  block_pool.read_data_from_domain("event", addr, self._entry_size)
 
             handler_code_addr = int.from_bytes(entry_data[0x8:0xa], byteorder='little')
             name_event_addr = int.from_bytes(entry_data[0xa:0xc], byteorder='little')
@@ -706,7 +708,7 @@ class DS62_PointerTableCodeHook(X86CodeHook):
     def generate_links(self, instruction, block_pool, current_block, registers):
         for table_index in range(self._table_length):
             entry_pointer_addr = self._table_addr + 2 * table_index
-            entry_addr = int.from_bytes(block_pool.get_domain_data(self._table_domain)[entry_pointer_addr:entry_pointer_addr+2], byteorder='little')
+            entry_addr = int.from_bytes(block_pool.read_data_from_domain(self._table_domain, entry_pointer_addr, 2), byteorder='little')
 
             link = Link(entry_pointer_addr, entry_addr)
             link.connect_blocks(current_block, block_pool.get_block("code", entry_addr))
