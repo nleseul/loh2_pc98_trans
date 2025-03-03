@@ -158,6 +158,38 @@
         24951
     "translated": !!null |-
       null
+  !!int "25078": !RelocatableTranslatableEntry
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      おい あんたたち。
+      出国するなら ここに名前を
+      かいていってくれ。
+
+      <Xf5010204><Xf7><Xf607d7><JUMP624b><IF_NOT007b><JUMP62a4><LOC624b>こんなときだから 名前をかくだけで
+      よくなったんだ。
+
+      <SET0401>はい ごくろうさん。
+      通っていいぞ。<END>
+      <LOC62a4>んっ この顔 ･ ･ ･ これだ !!<WAIT>
+      ジェラルドさんのお嬢さんだな？
+
+      <CH1>
+      あーあ どこに行っても だめだな。
+      さっさと 逃げよう。
+
+      <C_YELLOW>兵士<C_NONE>
+      おい !! 待て 待つんだ。
+      <ASMd70d>
+    "original_byte_length": !!int |-
+      324
+    "references":
+    - !CodeReference
+      "source_addr": !!int |-
+        54861
+      "target_addr": !!int |-
+        25078
+    "translated": !!null |-
+      null
   !!int "25402": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>女<C_NONE>

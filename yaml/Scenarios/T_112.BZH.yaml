@@ -42,6 +42,40 @@
         23600
     "translated": !!null |-
       null
+  !!int "23814": !RelocatableTranslatableEntry
+    "original": |-
+      <CALL6658>ちょっと待て。
+      ラヌーラへ 行くなら こいつに
+      名前を かいてくれ。
+
+      <IF007b><JUMP5d55><IF0090><JUMP5d6c><LOC5d55><SET0405>よし 通っていいぞ。<END>
+      <LOC5d6c>それから フローラという お嬢さんを知らないかな？
+      ラヌーラの娘さん なんだけど。
+
+      <CH0>
+      こんな所まで 連絡がきてるとはなあ
+      しかたがない あきらめよう。
+
+      <CH2>
+      ごめんなさい。
+      私のせいで 苦労させてしまって。
+
+      <CH1>
+      ほんとだぜ まったく。
+
+      <CH0>
+      ランドー そんなに せめるなよ。
+      かわいそうじゃないか。
+    "original_byte_length": !!int |-
+      378
+    "references":
+    - !CodeReference
+      "source_addr": !!int |-
+        54794
+      "target_addr": !!int |-
+        23814
+    "translated": !!null |-
+      null
   !!int "24192": !RelocatableTranslatableEntry
     "original": |-
       <CALL6658>ボアード海運の ボアードは

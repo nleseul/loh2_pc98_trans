@@ -2,6 +2,61 @@
 "_end_of_file_addr": !!int |-
   2950
 "_entries":
+  !!int "24523": !RelocatableTranslatableEntry
+    "original": |-
+      <CH1>
+      おい フラッドがいるぞ。
+      いっしょに話してるのが 皇帝かな？
+
+      <CH3>
+      皇帝 悪いやつ。シンディ 倒す。
+
+      <CH0>
+      しー 静かに !!
+    "original_byte_length": !!int |-
+      113
+    "references":
+    - !CodeReference
+      "source_addr": !!int |-
+        54669
+      "target_addr": !!int |-
+        24523
+    "translated": !!null |-
+      null
+  !!int "24636": !RelocatableTranslatableEntry
+    "original": |-
+      <CLEAR><CALL64b9>それでは このまま モンスターを
+      送り続けて いいのですね？
+
+      <CALL64a3>あたりまえだ フラッド。
+      わが国の者たちも 多少のことには
+      耐えてくれるだろう。
+
+      <CALL64b9>ですが 陛下。
+      イシュタを 壊滅させたというのは
+      本当なのですか？
+
+      <CALL64a3>フラッド、よく きくがいい。
+      われわれには 地上を取り戻すという
+      大きな目的があるのだ。
+
+      それを達成するには 多少の犠牲は
+      つきものなのだ。
+      小さなことなど 気にしていては
+      われわれの 目的は達成できん。
+
+      いいものを 見せてやろう。
+      ついてくるがいい。
+    "original_byte_length": !!int |-
+      449
+    "references":
+    - !CodeReference
+      "source_addr": !!int |-
+        54709
+      "target_addr": !!int |-
+        24636
+    "translated": !!null |-
+      null
   !!int "25085": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>大盗賊 ゲイル<C_NONE>
@@ -56,6 +111,22 @@
         54886
       "target_addr": !!int |-
         25138
+    "translated": !!null |-
+      null
+  !!int "25763": !RelocatableTranslatableEntry
+    "original": |-
+      <C_YELLOW>皇帝 ゴドウィン２世<C_NONE><RET_N>
+    "original_byte_length": !!int |-
+      22
+    "references": []
+    "translated": !!null |-
+      null
+  !!int "25785": !RelocatableTranslatableEntry
+    "original": |-
+      <C_YELLOW>フラッド<C_NONE><RET_N>
+    "original_byte_length": !!int |-
+      11
+    "references": []
     "translated": !!null |-
       null
 "_note": ""

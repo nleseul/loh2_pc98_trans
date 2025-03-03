@@ -566,7 +566,7 @@ class DS62_NpcTable1370CodeHook(X86CodeHook):
 class DS62_NpcTable13e7CodeHook(X86CodeHook):
     def should_handle(self, instruction):
         if (X86_GRP_CALL in instruction.groups or X86_GRP_JUMP in instruction.groups) and instruction.operands[0].type == CS_OP_IMM:
-            return (instruction.operands[0].value.imm & 0xffff) in [ 0x13e7 ]
+            return (instruction.operands[0].value.imm & 0xffff) in [ 0x13e1, 0x13e7 ]
 
     def generate_links(self, instruction, block_pool, current_block, registers):
         if X86_REG_SI in registers:

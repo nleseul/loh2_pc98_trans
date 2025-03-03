@@ -50,6 +50,21 @@
         23404
     "translated": !!null |-
       null
+  !!int "23457": !RelocatableTranslatableEntry
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      こらこら、坑道の中は 危険だから
+      入ってはいかん。
+    "original_byte_length": !!int |-
+      54
+    "references":
+    - !CodeReference
+      "source_addr": !!int |-
+        54679
+      "target_addr": !!int |-
+        23457
+    "translated": !!null |-
+      null
   !!int "23511": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>

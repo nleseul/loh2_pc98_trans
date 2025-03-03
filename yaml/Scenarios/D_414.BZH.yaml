@@ -18,9 +18,45 @@
     "references":
     - !CodeReference
       "source_addr": !!int |-
+        54755
+      "target_addr": !!int |-
+        23279
+    - !CodeReference
+      "source_addr": !!int |-
         54684
       "target_addr": !!int |-
         23279
+    "translated": !!null |-
+      null
+  !!int "23460": !RelocatableTranslatableEntry
+    "original": |-
+      <CH1>
+      また ドレイクを連れてきて プアゾを止めてもらうしかねえな。
+    "original_byte_length": !!int |-
+      62
+    "references":
+    - !CodeReference
+      "source_addr": !!int |-
+        54704
+      "target_addr": !!int |-
+        23460
+    "translated": !!null |-
+      null
+  !!int "23522": !RelocatableTranslatableEntry
+    "original": |-
+      <CH1>
+      この先は プアゾの箱が あるから
+      これ以上 進むと 気絶しちまうぜ。
+
+      外に出るなら ワプの翼で出ようぜ。
+    "original_byte_length": !!int |-
+      101
+    "references":
+    - !CodeReference
+      "source_addr": !!int |-
+        54724
+      "target_addr": !!int |-
+        23522
     "translated": !!null |-
       null
 "_note": ""

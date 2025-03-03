@@ -21,6 +21,59 @@
         54732
       "target_addr": !!int |-
         23203
+    - !CodeReference
+      "source_addr": !!int |-
+        54815
+      "target_addr": !!int |-
+        23203
+    "translated": !!null |-
+      null
+  !!int "23384": !RelocatableTranslatableEntry
+    "original": |-
+      <IF0404><JUMP5c37><IF00eb><JUMP5bda><SET0404><CH2>
+      あら ちょっと待って。
+
+      <CH0>
+      なんか 体がしびれてきたな。
+
+      <CH1>
+      こりゃ プアゾと同じ毒だぜ。
+      あぶねえから 引き返そうぜ。<END>
+      <LOC5bda><IF_NOT0014><JUMP5bf9><IF0128><JUMP5bf9><CH3>
+      ドレイク 呼ぶ。<END>
+      <LOC5bf9><CH1>
+      また ドレイクを連れてきて プアゾを止めてもらうしかねえな。<END>
+      <LOC5c37><CH1>
+      これ以上いると 気絶しちまうぜ。
+      あぶねえから 引き返そう。
+    "original_byte_length": !!int |-
+      284
+    "references":
+    - !CodeReference
+      "source_addr": !!int |-
+        54758
+      "target_addr": !!int |-
+        23384
+    "translated": !!null |-
+      null
+  !!int "23668": !RelocatableTranslatableEntry
+    "original": |-
+      <IF_NOT0014><JUMP5ca4><IF0128><JUMP5ca4><CH3>
+      プアゾの箱 気絶する。<WAIT>
+      ワプ使う。<END>
+      <LOC5ca4><CH1>
+      この先は プアゾの箱が あるから
+      これ以上 進むと 気絶しちまうぜ。
+
+      外に出るなら ワプの翼で出ようぜ。
+    "original_byte_length": !!int |-
+      149
+    "references":
+    - !CodeReference
+      "source_addr": !!int |-
+        54784
+      "target_addr": !!int |-
+        23668
     "translated": !!null |-
       null
 "_note": ""

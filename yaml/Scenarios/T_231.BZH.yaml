@@ -198,6 +198,16 @@
     "references":
     - !CodeReference
       "source_addr": !!int |-
+        54688
+      "target_addr": !!int |-
+        25576
+    - !CodeReference
+      "source_addr": !!int |-
+        54733
+      "target_addr": !!int |-
+        25576
+    - !CodeReference
+      "source_addr": !!int |-
         54675
       "target_addr": !!int |-
         25576

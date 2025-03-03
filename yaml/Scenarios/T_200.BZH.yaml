@@ -164,6 +164,48 @@
         25130
     "translated": !!null |-
       null
+  !!int "25375": !RelocatableTranslatableEntry
+    "original": |-
+      <C_YELLOW>男<C_NONE>
+      おい あんたたち。
+      <IF0068><JUMP644e><IF_NOT0404><JUMP637a>ラヌーラに なにしに来たんだ？
+      今きた ばかりなのに ･ ･ ･<END>
+      <LOC637a>出国手続きは 終わってるか？
+
+      今は 竜の祭の 準備のために 出国の
+      手続きは １週間前までに しないと
+      だめなんだぞ。
+
+      もし していないんだったら 竜の祭が終わるまでは やってくれないんだ
+      どうせだから 竜の祭でも見ていけよ。<END>
+      <LOC644e>出国するなら ここに名前を
+      かいていってくれ。
+
+      <Xf5010204><Xf7><IF007b><JUMP648c><IF0090><JUMP64e5><LOC648c>こんなときだから 名前をかくだけで
+      よくなったんだ。
+
+      <SET0401>はい ごくろうさん。
+      通っていいぞ。<END>
+      <LOC64e5>んっ この顔 ･ ･ ･ これだ !!<WAIT>
+      ジェラルドさんのお嬢さんだな？
+
+      <CH1>
+      あーあ どこに行っても だめだな。
+      さっさと 逃げよう。
+
+      <C_YELLOW>兵士<C_NONE>
+      おい !! 待て 待つんだ。
+      <ASMd750>
+    "original_byte_length": !!int |-
+      604
+    "references":
+    - !CodeReference
+      "source_addr": !!int |-
+        54913
+      "target_addr": !!int |-
+        25375
+    "translated": !!null |-
+      null
   !!int "25979": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>女<C_NONE>

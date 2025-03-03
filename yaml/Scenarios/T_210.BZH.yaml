@@ -74,6 +74,11 @@
     "references":
     - !CodeReference
       "source_addr": !!int |-
+        54736
+      "target_addr": !!int |-
+        24506
+    - !CodeReference
+      "source_addr": !!int |-
         54768
       "target_addr": !!int |-
         24506
@@ -96,6 +101,11 @@
     "original_byte_length": !!int |-
       317
     "references":
+    - !CodeReference
+      "source_addr": !!int |-
+        54759
+      "target_addr": !!int |-
+        24810
     - !CodeReference
       "source_addr": !!int |-
         54777

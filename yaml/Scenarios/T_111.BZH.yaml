@@ -36,6 +36,47 @@
         23543
     "translated": !!null |-
       null
+  !!int "23675": !RelocatableTranslatableEntry
+    "original": |-
+      <CALL6c51>ちょっと待て。
+      ラヌーラへ 行くための 届けを
+      出してあるか？
+
+      <Xf5010200><Xf7><IF_NOT0048><JUMP5dd8><IF0032><JUMP5d94><SET0032><SET0405><CH1>
+      ああ あたりまえだろ。
+
+      <CALL6c51>それじゃ そこに名前を かいてくれ。
+
+      ランドーと アトラスか？
+      アトラスは さっき 連絡があったな。ランドーはと ･ ･ ･
+
+      これだな よし通っていいぞ。
+      竜の祭を 楽しんできてくれ。<END>
+      <LOC5d94><CH0>
+      アトラスとランドーです。
+
+      <SET0405><CALL6c51>んっ これだな よし 通っていいぞ。<END>
+      <LOC5dd8><CH0>
+      今 リーゼルの城で 届けを出した
+      アトラスですけど。
+
+      <CALL6c51>アトラスだな？
+      ちょっと待ってくれ。<WAIT>
+      えーと アトラス アトラスと ･ ･ ･
+
+      まだ 来ていないようだな。
+      もういちど リーゼルに行って
+      確認してみたらどうだ？
+    "original_byte_length": !!int |-
+      551
+    "references":
+    - !CodeReference
+      "source_addr": !!int |-
+        54753
+      "target_addr": !!int |-
+        23675
+    "translated": !!null |-
+      null
   !!int "24226": !RelocatableTranslatableEntry
     "original": |-
       <CALL6c51>ボアード海運の ボアードは

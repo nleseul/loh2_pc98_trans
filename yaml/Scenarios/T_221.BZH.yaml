@@ -147,6 +147,21 @@
         25584
     "translated": !!null |-
       null
+  !!int "26250": !RelocatableTranslatableEntry
+    "original": |-
+      <C_YELLOW>チャーリー<C_NONE>
+      あー 君たち。
+      めざわりだから 出ていきなさい。
+    "original_byte_length": !!int |-
+      59
+    "references":
+    - !CodeReference
+      "source_addr": !!int |-
+        54765
+      "target_addr": !!int |-
+        26250
+    "translated": !!null |-
+      null
   !!int "26309": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ジェラルド<C_NONE>

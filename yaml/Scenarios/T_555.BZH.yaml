@@ -1,0 +1,74 @@
+!TranslationCollection
+"_end_of_file_addr": !!int |-
+  920
+"_entries":
+  !!int "23310": !RelocatableTranslatableEntry
+    "original": |-
+      <CH1>
+      おい 見てみろ むこうを。
+    "original_byte_length": !!int |-
+      28
+    "references":
+    - !CodeReference
+      "source_addr": !!int |-
+        54689
+      "target_addr": !!int |-
+        23310
+    "translated": !!null |-
+      null
+  !!int "23338": !RelocatableTranslatableEntry
+    "original": |-
+      <CH2>
+      マスターたちよ。
+
+      <CH3>
+      マスター 助ける。
+
+      <CH0>
+      しーっ 静かに。
+
+      <C_YELLOW>ディゲンス<C_NONE>
+      ハッハッハッハ。
+      お前たちも 満足だろう？
+
+      自分たちの 作った兵器で 最期を
+      むかえられるんだ 皇帝陛下に
+      感謝することだな。
+
+      よし 最終調整を始めろ。
+    "original_byte_length": !!int |-
+      216
+    "references":
+    - !CodeReference
+      "source_addr": !!int |-
+        54751
+      "target_addr": !!int |-
+        23338
+    "translated": !!null |-
+      null
+  !!int "23554": !RelocatableTranslatableEntry
+    "original": |-
+      <CH0>
+      待て !!
+
+      <CH1>
+      お前らの 好きには させねえぜ。
+
+      <Xf9200206><Xf7><C_YELLOW>ディゲンス<C_NONE>
+      何だ きさまら !?
+      さては レジスタンスの残党だな。
+
+      よし それならば まず きさまらから
+      先に 始末してやる。<WAIT>
+      覚悟しろ !!
+    "original_byte_length": !!int |-
+      178
+    "references":
+    - !CodeReference
+      "source_addr": !!int |-
+        54782
+      "target_addr": !!int |-
+        23554
+    "translated": !!null |-
+      null
+"_note": ""

@@ -20,9 +20,13 @@
         23222
     "translated": !!null |-
       null
-  !!int "23414": !RelocatableTranslatableEntry
+  !!int "23352": !RelocatableTranslatableEntry
     "original": |-
-      ラヌーラに 初めて 出入りする者は
+      <CALL619b>ちょっと待て。
+      ラヌーラへ 行くための 届けを
+      出してあるか？
+
+      <LOC5b76>ラヌーラに 初めて 出入りする者は
       あらかじめ 各国で 届けを出して
       いなければならないのだ。
 
@@ -31,8 +35,13 @@
       届け出れば すぐに 連絡がくるので
       今からでも 行ってくるんだな。
     "original_byte_length": !!int |-
-      218
+      280
     "references":
+    - !CodeReference
+      "source_addr": !!int |-
+        54673
+      "target_addr": !!int |-
+        23352
     - !CodeReference
       "source_addr": !!int |-
         54648

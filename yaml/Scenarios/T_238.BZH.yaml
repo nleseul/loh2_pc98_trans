@@ -190,6 +190,11 @@
     "references":
     - !CodeReference
       "source_addr": !!int |-
+        54720
+      "target_addr": !!int |-
+        25425
+    - !CodeReference
+      "source_addr": !!int |-
         54675
       "target_addr": !!int |-
         25425
