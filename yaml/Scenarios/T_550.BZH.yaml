@@ -1,11 +1,8 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   1678
-"entries":
-  "5d01":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "23809": !RelocatableTranslatableEntry
     "original": |-
       <CH0>
       <SET013c>あのガードたちは 全然こっちの方を
@@ -20,17 +17,14 @@
     "original_byte_length": !!int |-
       150
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54813
       "target_addr": !!int |-
         23809
     "translated": !!null |-
       null
-  "5d97":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23959": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>サミー<C_NONE>
       やっぱ おっさんは すげーよな。
@@ -38,17 +32,14 @@
     "original_byte_length": !!int |-
       60
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54845
       "target_addr": !!int |-
         23959
     "translated": !!null |-
       null
-  "5dd3":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24019": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>サミー<C_NONE>
       あー つかれた。
@@ -69,17 +60,14 @@
     "original_byte_length": !!int |-
       266
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54859
       "target_addr": !!int |-
         24019
     "translated": !!null |-
       null
-  "5edd":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24285": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>モーガン<C_NONE>
       さあ 早く 入りなされ。
@@ -87,17 +75,14 @@
     "original_byte_length": !!int |-
       64
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54822
       "target_addr": !!int |-
         24285
     "translated": !!null |-
       null
-  "5f1d":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24349": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>モーガン<C_NONE>
       どうじゃい サミー。
@@ -112,10 +97,11 @@
     "original_byte_length": !!int |-
       141
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54836
       "target_addr": !!int |-
         24349
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

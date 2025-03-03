@@ -1,11 +1,8 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   5090
-"entries":
-  "5bd2":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "23506": !RelocatableTranslatableEntry
     "original": |-
       <CALL6cc6><IF00ec><JUMP5c90><SET00ec>何だ てめえは？<WAIT>
       んっ もしかすると セリオスの？
@@ -24,17 +21,14 @@
     "original_byte_length": !!int |-
       262
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54750
       "target_addr": !!int |-
         23506
     "translated": !!null |-
       null
-  "5cd8":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23768": !RelocatableTranslatableEntry
     "original": |-
       <CALL6ce8><IF00eb><JUMP662e>な、何だよ お前ら。
       おれを ひとりにしといてくれよ。<IF_NOT00d8><JUMP662d><IF0404><JUMP5dc2>
@@ -180,21 +174,19 @@
     "original_byte_length": !!int |-
       2614
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54759
       "target_addr": !!int |-
         23768
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54768
       "target_addr": !!int |-
         26239
     "translated": !!null |-
       null
-  "670e":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "26382": !RelocatableTranslatableEntry
     "original": |-
       <CALL6ce1><CALL6cd3>さまは どこに行って
       しまったんだろう？
@@ -208,17 +200,14 @@
     "original_byte_length": !!int |-
       182
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54777
       "target_addr": !!int |-
         26382
     "translated": !!null |-
       null
-  "67c4":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "26564": !RelocatableTranslatableEntry
     "original": |-
       <CALL6ce1>ゲイル３世さまは 悪神を倒した
       英雄たちの ひとりなんですよ。
@@ -236,17 +225,14 @@
     "original_byte_length": !!int |-
       348
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54786
       "target_addr": !!int |-
         26564
     "translated": !!null |-
       null
-  "6920":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "26912": !RelocatableTranslatableEntry
     "original": |-
       <CALL6ce1>ドレイクの子分が しばらく
       帰ってきてない みたいだけど
@@ -258,17 +244,14 @@
     "original_byte_length": !!int |-
       156
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54795
       "target_addr": !!int |-
         26912
     "translated": !!null |-
       null
-  "69bc":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "27068": !RelocatableTranslatableEntry
     "original": |-
       <CALL6ce1>いくらがんばっても この扉は 絶対にあかねえように なってるんだ。
 
@@ -276,17 +259,14 @@
     "original_byte_length": !!int |-
       129
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54804
       "target_addr": !!int |-
         27068
     "translated": !!null |-
       null
-  "6a3d":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "27197": !RelocatableTranslatableEntry
     "original": |-
       <CALL6ce1>ドレイクのやろう あいつの子分が
       いなくなってから すっかり おかしくなっちまったんだ。
@@ -297,17 +277,14 @@
     "original_byte_length": !!int |-
       187
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54813
       "target_addr": !!int |-
         27197
     "translated": !!null |-
       null
-  "6af8":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "27384": !RelocatableTranslatableEntry
     "original": |-
       <CALL6ce1>ゲイル２世さまは ラルフという
       名前で 考古学者に なっていて
@@ -318,17 +295,14 @@
     "original_byte_length": !!int |-
       143
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54822
       "target_addr": !!int |-
         27384
     "translated": !!null |-
       null
-  "6b87":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "27527": !RelocatableTranslatableEntry
     "original": |-
       <CALL6ce1>この宝は <CALL6cd3>さまの
       一番大切な物だから だれにも
@@ -339,17 +313,14 @@
     "original_byte_length": !!int |-
       135
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54831
       "target_addr": !!int |-
         27527
     "translated": !!null |-
       null
-  "6c0e":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "27662": !RelocatableTranslatableEntry
     "original": |-
       <PARTY>は 石碑を読みました。
 
@@ -359,17 +330,14 @@
     "original_byte_length": !!int |-
       80
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54729
       "target_addr": !!int |-
         27662
     "translated": !!null |-
       null
-  "6c5e":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "27742": !RelocatableTranslatableEntry
     "original": |-
       <PARTY>は 石碑を読みました。
 
@@ -379,33 +347,27 @@
     "original_byte_length": !!int |-
       74
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54735
       "target_addr": !!int |-
         27742
     "translated": !!null |-
       null
-  "6ca8":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "27816": !RelocatableTranslatableEntry
     "original": |-
       <C_GREEN>扉は 開きそうもありません。<C_NONE>
     "original_byte_length": !!int |-
       30
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54741
       "target_addr": !!int |-
         27816
     "translated": !!null |-
       null
-  "6cc6":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "27846": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ゲイル３世<C_NONE><RET_N>
     "original_byte_length": !!int |-
@@ -413,11 +375,7 @@
     "references": []
     "translated": !!null |-
       null
-  "6cd3":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "27859": !RelocatableTranslatableEntry
     "original": |-
       大盗賊 ゲイル<RET>
     "original_byte_length": !!int |-
@@ -425,11 +383,7 @@
     "references": []
     "translated": !!null |-
       null
-  "6ce1":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "27873": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>盗賊<C_NONE><RET_N>
     "original_byte_length": !!int |-
@@ -437,11 +391,7 @@
     "references": []
     "translated": !!null |-
       null
-  "6ce8":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "27880": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ドレイク<C_NONE><RET_N>
     "original_byte_length": !!int |-
@@ -449,11 +399,7 @@
     "references": []
     "translated": !!null |-
       null
-  "6cf3":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "27891": !RelocatableTranslatableEntry
     "original": |-
       モンスター<RET>
     "original_byte_length": !!int |-
@@ -461,4 +407,4 @@
     "references": []
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

@@ -1,11 +1,8 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   2092
-"entries":
-  "5ab3":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "23219": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
       おや 今度は あんたたちかい。
@@ -25,17 +22,14 @@
     "original_byte_length": !!int |-
       289
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54633
       "target_addr": !!int |-
         23219
     "translated": !!null |-
       null
-  "5bd4":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23508": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
       この町の 奥にある ゆうれい屋敷は
@@ -52,17 +46,14 @@
     "original_byte_length": !!int |-
       323
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54642
       "target_addr": !!int |-
         23508
     "translated": !!null |-
       null
-  "5d17":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23831": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
       なあなあ 見ちゃったんだよ おれ !!
@@ -80,17 +71,14 @@
     "original_byte_length": !!int |-
       277
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54651
       "target_addr": !!int |-
         23831
     "translated": !!null |-
       null
-  "5e2c":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24108": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>老人<C_NONE>
       ジェラルド氏は 今でこそ この町の
@@ -101,17 +89,14 @@
     "original_byte_length": !!int |-
       193
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54660
       "target_addr": !!int |-
         24108
     "translated": !!null |-
       null
-  "5eed":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24301": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>女<C_NONE>
       この先にある 大きな館は 町長の
@@ -127,17 +112,14 @@
     "original_byte_length": !!int |-
       286
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54669
       "target_addr": !!int |-
         24301
     "translated": !!null |-
       null
-  "600b":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24587": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ジェラルド夫人<C_NONE>
       えーと 昨日が ネックレスで
@@ -146,17 +128,14 @@
     "original_byte_length": !!int |-
       108
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54678
       "target_addr": !!int |-
         24587
     "translated": !!null |-
       null
-  "6077":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24695": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>道具屋<C_NONE>
       いらっしゃい。ここは 道具屋だけど
@@ -171,10 +150,11 @@
     "original_byte_length": !!int |-
       243
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54684
       "target_addr": !!int |-
         24695
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

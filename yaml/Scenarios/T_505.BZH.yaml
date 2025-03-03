@@ -1,11 +1,8 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   3212
-"entries":
-  "5a0a":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "23050": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>リーダー<C_NONE>
       <IF016f><JUMP6432><IF0172><JUMP6222><IF010e><JUMP5e96><SET010e>おお アトラス君、ちょうど いま
@@ -148,17 +145,14 @@
     "original_byte_length": !!int |-
       2718
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54645
       "target_addr": !!int |-
         23050
     "translated": !!null |-
       null
-  "64a8":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "25768": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
       あの大きな岩を くずしたのは
@@ -170,17 +164,14 @@
     "original_byte_length": !!int |-
       133
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54654
       "target_addr": !!int |-
         25768
     "translated": !!null |-
       null
-  "652d":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "25901": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>レイシア<C_NONE>
       <IF010e><JUMP656e>おめでとう お父さんを 助け出した
@@ -190,10 +181,11 @@
     "original_byte_length": !!int |-
       122
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54663
       "target_addr": !!int |-
         25901
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

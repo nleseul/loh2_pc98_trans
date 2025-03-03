@@ -1,428 +1,353 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   2014
-"entries":
-  "5f74":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "24436": !RelocatableTranslatableEntry
     "original": |-
       エルアスタの町<RET_N>
     "original_byte_length": !!int |-
       15
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54936
       "target_addr": !!int |-
         24436
     "translated": !!null |-
       null
-  "5f83":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24451": !RelocatableTranslatableEntry
     "original": |2-
        ルディアの町 <RET_N>
     "original_byte_length": !!int |-
       15
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54948
       "target_addr": !!int |-
         24451
     "translated": !!null |-
       null
-  "5f92":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24466": !RelocatableTranslatableEntry
     "original": |2-
        ベルガの鉱山 <RET_N>
     "original_byte_length": !!int |-
       15
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54960
       "target_addr": !!int |-
         24466
     "translated": !!null |-
       null
-  "5fa1":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24481": !RelocatableTranslatableEntry
     "original": |2-
         ネリアの港  <RET_N>
     "original_byte_length": !!int |-
       15
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54972
       "target_addr": !!int |-
         24481
     "translated": !!null |-
       null
-  "5fb0":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24496": !RelocatableTranslatableEntry
     "original": |2-
         ロンドの港  <RET_N>
     "original_byte_length": !!int |-
       15
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54984
       "target_addr": !!int |-
         24496
     "translated": !!null |-
       null
-  "5fbf":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24511": !RelocatableTranslatableEntry
     "original": |2-
        ラルファの港 <RET_N>
     "original_byte_length": !!int |-
       15
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54996
       "target_addr": !!int |-
         24511
     "translated": !!null |-
       null
-  "5fce":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24526": !RelocatableTranslatableEntry
     "original": |2-
         シリカの村  <RET_N>
     "original_byte_length": !!int |-
       15
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         55008
       "target_addr": !!int |-
         24526
     "translated": !!null |-
       null
-  "5fdd":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24541": !RelocatableTranslatableEntry
     "original": |2-
        リーゼルの町 <RET_N>
     "original_byte_length": !!int |-
       15
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         55020
       "target_addr": !!int |-
         24541
     "translated": !!null |-
       null
-  "5fec":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24556": !RelocatableTranslatableEntry
     "original": |2-
         ヨルドの港  <RET_N>
     "original_byte_length": !!int |-
       15
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         55032
       "target_addr": !!int |-
         24556
     "translated": !!null |-
       null
-  "5ffb":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24571": !RelocatableTranslatableEntry
     "original": |2-
          セレの村   <RET_N>
     "original_byte_length": !!int |-
       15
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         55044
       "target_addr": !!int |-
         24571
     "translated": !!null |-
       null
-  "600a":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24586": !RelocatableTranslatableEntry
     "original": |2-
         スエルの村  <RET_N>
     "original_byte_length": !!int |-
       15
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         55056
       "target_addr": !!int |-
         24586
     "translated": !!null |-
       null
-  "6019":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24601": !RelocatableTranslatableEntry
     "original": |2-
         アムダの村  <RET_N>
     "original_byte_length": !!int |-
       15
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         55068
       "target_addr": !!int |-
         24601
     "translated": !!null |-
       null
-  "6028":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24616": !RelocatableTranslatableEntry
     "original": |2-
         セダルの町  <RET_N>
     "original_byte_length": !!int |-
       15
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         55080
       "target_addr": !!int |-
         24616
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         55128
       "target_addr": !!int |-
         24616
     "translated": !!null |-
       null
-  "6037":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24631": !RelocatableTranslatableEntry
     "original": |2-
         ルドラの港  <RET_N>
     "original_byte_length": !!int |-
       15
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         55092
       "target_addr": !!int |-
         24631
     "translated": !!null |-
       null
-  "6046":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24646": !RelocatableTranslatableEntry
     "original": |2-
         カウルの村  <RET_N>
     "original_byte_length": !!int |-
       15
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         55104
       "target_addr": !!int |-
         24646
     "translated": !!null |-
       null
-  "6055":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24661": !RelocatableTranslatableEntry
     "original": |-
       バズヌーンの町<RET_N>
     "original_byte_length": !!int |-
       15
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         55116
       "target_addr": !!int |-
         24661
     "translated": !!null |-
       null
-  "6064":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24676": !RelocatableTranslatableEntry
     "original": |-
       リシェールの港<RET_N>
     "original_byte_length": !!int |-
       15
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         55140
       "target_addr": !!int |-
         24676
     "translated": !!null |-
       null
-  "6073":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24691": !RelocatableTranslatableEntry
     "original": |2-
        ナスールの町 <RET_N>
     "original_byte_length": !!int |-
       15
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         55152
       "target_addr": !!int |-
         24691
     "translated": !!null |-
       null
-  "6082":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24706": !RelocatableTranslatableEntry
     "original": |2-
        ファエトの村 <RET_N>
     "original_byte_length": !!int |-
       15
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         55164
       "target_addr": !!int |-
         24706
     "translated": !!null |-
       null
-  "6091":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24721": !RelocatableTranslatableEntry
     "original": |2-
        コルクスの町 <RET_N>
     "original_byte_length": !!int |-
       15
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         55176
       "target_addr": !!int |-
         24721
     "translated": !!null |-
       null
-  "60a0":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24736": !RelocatableTranslatableEntry
     "original": |2-
        ルディアの城 <RET_N>
     "original_byte_length": !!int |-
       15
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         55248
       "target_addr": !!int |-
         24736
     "translated": !!null |-
       null
-  "60af":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24751": !RelocatableTranslatableEntry
     "original": |2-
          岬の洞窟   <RET_N>
     "original_byte_length": !!int |-
       15
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         55188
       "target_addr": !!int |-
         24751
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         55260
       "target_addr": !!int |-
         24751
     "translated": !!null |-
       null
-  "60be":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24766": !RelocatableTranslatableEntry
     "original": |2-
         試練の洞窟  <RET_N>
     "original_byte_length": !!int |-
       15
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         55200
       "target_addr": !!int |-
         24766
     "translated": !!null |-
       null
-  "60cd":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24781": !RelocatableTranslatableEntry
     "original": |2-
          王家の墓   <RET_N>
     "original_byte_length": !!int |-
       15
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         55212
       "target_addr": !!int |-
         24781
     "translated": !!null |-
       null
-  "60dc":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24796": !RelocatableTranslatableEntry
     "original": |2-
           狼の口    <RET_N>
     "original_byte_length": !!int |-
       15
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         55224
       "target_addr": !!int |-
         24796
     "translated": !!null |-
       null
-  "60eb":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24811": !RelocatableTranslatableEntry
     "original": |2-
          奈落の口   <RET_N>
     "original_byte_length": !!int |-
       15
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         55236
       "target_addr": !!int |-
         24811
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

@@ -1,28 +1,22 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   1224
-"entries":
-  "5cf3":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "23795": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
       さあ 早く 先に進んでください。
     "original_byte_length": !!int |-
       36
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54905
       "target_addr": !!int |-
         23795
     "translated": !!null |-
       null
-  "5d17":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23831": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
       この先は 危険です。
@@ -30,27 +24,25 @@
     "original_byte_length": !!int |-
       46
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54914
       "target_addr": !!int |-
         23831
     "translated": !!null |-
       null
-  "5d45":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23877": !RelocatableTranslatableEntry
     "original": |-
       <PARTY>は 宝箱を開けました。
       宝箱の中には<RET>
     "original_byte_length": !!int |-
       36
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54861
       "target_addr": !!int |-
         23877
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

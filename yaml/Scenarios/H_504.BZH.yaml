@@ -1,11 +1,8 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   318
-"entries":
-  "59d3":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "22995": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>モーガン<C_NONE>
       サミーのバカは いったい どこに
@@ -19,10 +16,11 @@
     "original_byte_length": !!int |-
       169
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54638
       "target_addr": !!int |-
         22995
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

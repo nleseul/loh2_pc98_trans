@@ -1,11 +1,10 @@
-"end_of_file_addr": !!null |-
+!TranslationCollection
+"_end_of_file_addr": !!null |-
   null
-"entries":
-  "3dc2":
-    "is_relocatable": !!bool |-
-      false
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "15810": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      1307
     "original": |2
 
 
@@ -48,9 +47,6 @@
 
                 新たな災いが、降りかかろうとしていることを・・・
       <PAGE>
-    "original_byte_length": !!int |-
-      1307
-    "references": []
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

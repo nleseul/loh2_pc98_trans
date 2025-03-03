@@ -1,11 +1,8 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   1082
-"entries":
-  "5af0":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "23280": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ドレイク<C_NONE>
       <SET0400><UNSET00ea><SET00eb>毒のきりが なくなっているうちに
@@ -16,17 +13,14 @@
     "original_byte_length": !!int |-
       130
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54667
       "target_addr": !!int |-
         23280
     "translated": !!null |-
       null
-  "5cd4":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23764": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ガード<C_NONE>
       ふん やはり ここで見張っていて
@@ -42,10 +36,11 @@
     "original_byte_length": !!int |-
       164
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54749
       "target_addr": !!int |-
         23764
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

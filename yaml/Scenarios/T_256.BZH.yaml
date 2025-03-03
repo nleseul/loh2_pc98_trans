@@ -1,11 +1,8 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   1371
-"entries":
-  "5ab4":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "23220": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>フラート<C_NONE>
       まったく このにわとりどもは わしをつっついてばかりで 何のうらみが
@@ -13,17 +10,14 @@
     "original_byte_length": !!int |-
       96
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54647
       "target_addr": !!int |-
         23220
     "translated": !!null |-
       null
-  "5b14":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23316": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ジェルマン<C_NONE>
       君たち チキンだったら 入口の
@@ -31,17 +25,14 @@
     "original_byte_length": !!int |-
       70
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54656
       "target_addr": !!int |-
         23316
     "translated": !!null |-
       null
-  "5b5a":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23386": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>パウエル<C_NONE>
       わしは 昔 お城に仕えていたのじゃ
@@ -53,17 +44,14 @@
     "original_byte_length": !!int |-
       217
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54665
       "target_addr": !!int |-
         23386
     "translated": !!null |-
       null
-  "5c33":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23603": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>村長<C_NONE>
       向こうで 養鶏をしている兄弟は
@@ -78,17 +66,14 @@
     "original_byte_length": !!int |-
       289
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54674
       "target_addr": !!int |-
         23603
     "translated": !!null |-
       null
-  "5d54":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23892": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>女<C_NONE>
       ねえねえ 知ってる？
@@ -97,17 +82,14 @@
     "original_byte_length": !!int |-
       110
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54683
       "target_addr": !!int |-
         23892
     "translated": !!null |-
       null
-  "5dc2":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24002": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>老人<C_NONE>
       いらっしゃい。
@@ -123,10 +105,11 @@
     "original_byte_length": !!int |-
       215
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54689
       "target_addr": !!int |-
         24002
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

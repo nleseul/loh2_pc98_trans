@@ -1,75 +1,49 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   881
-"entries":
-  "7170":
-    "is_relocatable": !!bool |-
-      false
+"_entries":
+  !!int "29040": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       ダリス<RET>
-    "original_byte_length": !!int |-
-      7
-    "references": []
     "translated": !!null |-
       null
-  "71b0":
-    "is_relocatable": !!bool |-
-      false
+  !!int "29104": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       ダリスＢ<RET>
-    "original_byte_length": !!int |-
-      9
-    "references": []
     "translated": !!null |-
       null
-  "71f0":
-    "is_relocatable": !!bool |-
-      false
+  !!int "29168": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       ダリスＣ<RET>
-    "original_byte_length": !!int |-
-      9
-    "references": []
     "translated": !!null |-
       null
-  "7230":
-    "is_relocatable": !!bool |-
-      false
+  !!int "29232": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       ダリスＤ<RET>
-    "original_byte_length": !!int |-
-      9
-    "references": []
     "translated": !!null |-
       null
-  "73c6":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29638": !RelocatableTranslatableEntry
     "original": |-
       ダリスが現れた。<RET_N>
     "original_byte_length": !!int |-
       17
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61000
       "target_addr": !!int |-
         29638
     "translated": !!null |-
       null
-  "73d7":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29655": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ダリス<C_NONE>
       フッフッフ
@@ -80,60 +54,52 @@
     "original_byte_length": !!int |-
       66
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61132
       "target_addr": !!int |-
         29655
     "translated": !!null |-
       null
-  "7419":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29721": !RelocatableTranslatableEntry
     "original": |-
       <ACTOR>は気合いとともに気を体に
       まとった。<RET_PAGE>
     "original_byte_length": !!int |-
       37
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61149
       "target_addr": !!int |-
         29721
     "translated": !!null |-
       null
-  "7494":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29844": !RelocatableTranslatableEntry
     "original": |-
       <ACTOR>は気で<RET>
     "original_byte_length": !!int |-
       8
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61191
       "target_addr": !!int |-
         29844
     "translated": !!null |-
       null
-  "749c":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29852": !RelocatableTranslatableEntry
     "original": |-
       <ACTOR>の胸を
       しめつけた。<RET_PAGE>
     "original_byte_length": !!int |-
       21
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61200
       "target_addr": !!int |-
         29852
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

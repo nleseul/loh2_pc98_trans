@@ -1,11 +1,8 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   796
-"entries":
-  "5b7f":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "23423": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
       フレイアさまって すごいんだな。
@@ -14,17 +11,14 @@
     "original_byte_length": !!int |-
       94
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54635
       "target_addr": !!int |-
         23423
     "translated": !!null |-
       null
-  "5bdd":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23517": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>女<C_NONE>
       これからは 週に１度は ここに来て
@@ -32,17 +26,14 @@
     "original_byte_length": !!int |-
       65
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54644
       "target_addr": !!int |-
         23517
     "translated": !!null |-
       null
-  "5c1e":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23582": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>老人<C_NONE>
       わしゃ 前から 月に２回は 必ず
@@ -50,10 +41,11 @@
     "original_byte_length": !!int |-
       60
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54653
       "target_addr": !!int |-
         23582
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

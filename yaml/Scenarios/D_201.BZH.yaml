@@ -1,27 +1,21 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   4405
-"entries":
-  "5d3f":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "23871": !RelocatableTranslatableEntry
     "original": |-
       キャーーーーッ
     "original_byte_length": !!int |-
       15
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54782
       "target_addr": !!int |-
         23871
     "translated": !!null |-
       null
-  "5d4e":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23886": !RelocatableTranslatableEntry
     "original": |-
       <CH2>
       あっ あなたたちは !!<WAIT>
@@ -42,17 +36,14 @@
     "original_byte_length": !!int |-
       196
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54819
       "target_addr": !!int |-
         23886
     "translated": !!null |-
       null
-  "5e12":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24082": !RelocatableTranslatableEntry
     "original": |-
       <CH0>
       ケガは なかったかい？
@@ -242,17 +233,14 @@
     "original_byte_length": !!int |-
       3044
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54849
       "target_addr": !!int |-
         24082
     "translated": !!null |-
       null
-  "69f6":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "27126": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>プルダーム<C_NONE>
       きさまら よくも おれの 住かに
@@ -261,10 +249,11 @@
     "original_byte_length": !!int |-
       93
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54863
       "target_addr": !!int |-
         27126
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

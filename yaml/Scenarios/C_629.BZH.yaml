@@ -1,28 +1,22 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   1018
-"entries":
-  "5ad3":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "23251": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ボザ<C_NONE>
       武器ができるまで ここは おれたちが守ってるから お前らは 先にいくんだ。
     "original_byte_length": !!int |-
       78
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54645
       "target_addr": !!int |-
         23251
     "translated": !!null |-
       null
-  "5b21":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23329": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
       <IF0200><JUMP5ced>ここが <CALL5d1d>の部屋だそうです。
@@ -30,17 +24,14 @@
     "original_byte_length": !!int |-
       66
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54654
       "target_addr": !!int |-
         23329
     "translated": !!null |-
       null
-  "5b63":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23395": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW><CALL5d1d>の<CALL5d26><C_NONE>
       こいつを使えば 強力な武器が
@@ -48,17 +39,14 @@
     "original_byte_length": !!int |-
       54
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54663
       "target_addr": !!int |-
         23395
     "translated": !!null |-
       null
-  "5b99":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23449": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ヨシュアの<CALL5d26><C_NONE>
       武器のほうは われわれに まかせて
@@ -66,17 +54,14 @@
     "original_byte_length": !!int |-
       75
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54672
       "target_addr": !!int |-
         23449
     "translated": !!null |-
       null
-  "5be4":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23524": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>バイオラの<CALL5d26><C_NONE>
       私が作り出した ガードたちは 特殊な攻撃をするから 君たちも 覚悟して
@@ -84,17 +69,14 @@
     "original_byte_length": !!int |-
       96
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54681
       "target_addr": !!int |-
         23524
     "translated": !!null |-
       null
-  "5c44":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23620": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW><CALL5d2f><C_NONE>
       武器が できしだい わしらも 後を
@@ -103,17 +85,14 @@
     "original_byte_length": !!int |-
       99
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54690
       "target_addr": !!int |-
         23620
     "translated": !!null |-
       null
-  "5ca7":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23719": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ケリイ<C_NONE>
       <IF0200><JUMP5ced>ここは 気にしないで 早く 皇帝を
@@ -123,17 +102,14 @@
     "original_byte_length": !!int |-
       118
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54699
       "target_addr": !!int |-
         23719
     "translated": !!null |-
       null
-  "5d1d":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23837": !RelocatableTranslatableEntry
     "original": |-
       テクニカ<RET>
     "original_byte_length": !!int |-
@@ -141,11 +117,7 @@
     "references": []
     "translated": !!null |-
       null
-  "5d26":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23846": !RelocatableTranslatableEntry
     "original": |-
       マスター<RET>
     "original_byte_length": !!int |-
@@ -153,11 +125,7 @@
     "references": []
     "translated": !!null |-
       null
-  "5d2f":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23855": !RelocatableTranslatableEntry
     "original": |-
       リーダー<RET>
     "original_byte_length": !!int |-
@@ -165,4 +133,4 @@
     "references": []
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

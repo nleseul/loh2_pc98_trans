@@ -1,11 +1,8 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   2294
-"entries":
-  "5ca4":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "23716": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ナレサ隊長<C_NONE>
       むっ お前たちは 確か ゲイルの所で
@@ -91,10 +88,11 @@
     "original_byte_length": !!int |-
       1390
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54761
       "target_addr": !!int |-
         23716
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

@@ -1,116 +1,85 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   796
-"entries":
-  "7170":
-    "is_relocatable": !!bool |-
-      false
+"_entries":
+  !!int "29040": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       レミングプラスA<RET>
-    "original_byte_length": !!int |-
-      16
-    "references": []
     "translated": !!null |-
       null
-  "71b0":
-    "is_relocatable": !!bool |-
-      false
+  !!int "29104": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       スプラッシャー<RET>
-    "original_byte_length": !!int |-
-      15
-    "references": []
     "translated": !!null |-
       null
-  "71f0":
-    "is_relocatable": !!bool |-
-      false
+  !!int "29168": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       レミングプラスB<RET>
-    "original_byte_length": !!int |-
-      16
-    "references": []
     "translated": !!null |-
       null
-  "7230":
-    "is_relocatable": !!bool |-
-      false
+  !!int "29232": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       レミングプラスC<RET>
-    "original_byte_length": !!int |-
-      16
-    "references": []
     "translated": !!null |-
       null
-  "73c5":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29637": !RelocatableTranslatableEntry
     "original": |-
       レミングプラスが現れた。<RET_N>
     "original_byte_length": !!int |-
       25
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61000
       "target_addr": !!int |-
         29637
     "translated": !!null |-
       null
-  "7417":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29719": !RelocatableTranslatableEntry
     "original": |-
       は ツメをふりおろした !!<RET_N>
     "original_byte_length": !!int |-
       25
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61123
       "target_addr": !!int |-
         29719
     "translated": !!null |-
       null
-  "7430":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29744": !RelocatableTranslatableEntry
     "original": |-
       は あたりを駆け回っている。<RET_PAGE>
     "original_byte_length": !!int |-
       28
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61171
       "target_addr": !!int |-
         29744
     "translated": !!null |-
       null
-  "744c":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29772": !RelocatableTranslatableEntry
     "original": |-
       の急降下攻撃 !!<RET_N>
     "original_byte_length": !!int |-
       16
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61207
       "target_addr": !!int |-
         29772
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

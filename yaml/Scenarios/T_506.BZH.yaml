@@ -1,11 +1,8 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   924
-"entries":
-  "5b39":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "23353": !RelocatableTranslatableEntry
     "original": |-
       <CH2>
       あぁ ･ ･ ･ おそかった ･ ･ ･
@@ -41,10 +38,11 @@
     "original_byte_length": !!int |-
       417
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54687
       "target_addr": !!int |-
         23353
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

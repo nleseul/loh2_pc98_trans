@@ -1,11 +1,8 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   4576
-"entries":
-  "5e62":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "24162": !RelocatableTranslatableEntry
     "original": |-
       <CH0>
       やあ ラウエル、おはよう。
@@ -15,7 +12,8 @@
     "original_byte_length": !!int |-
       80
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54697
       "target_addr": !!int |-
         24162
@@ -24,11 +22,7 @@
       Good morning, Rauel!
 
       <CALL6b03>Oh! Your Highness is quite late togreet me today!
-  "5eb2":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24242": !RelocatableTranslatableEntry
     "original": |-
       <CALL6b03><IF0407><JUMP601d><IF0406><JUMP60da><IF0405><JUMP60bf><IF0000><JUMP6070><SET0000>王子、よくきいてください。
 
@@ -57,15 +51,18 @@
     "original_byte_length": !!int |-
       605
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54802
       "target_addr": !!int |-
         24242
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54872
       "target_addr": !!int |-
         24242
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54734
       "target_addr": !!int |-
         24242
@@ -94,11 +91,7 @@
       <LOC60bf><UNSET0405>Your Highness! Wait!!<END>
       <LOC60da>You won't get away this time!
       Now, back to your studies.
-  "610f":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24847": !RelocatableTranslatableEntry
     "original": |-
       <CALL6b03><SET0003><CALL6b15>王子、あなたは もうすぐ
       １６才に なられるのですよ。
@@ -136,7 +129,8 @@
     "original_byte_length": !!int |-
       597
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54900
       "target_addr": !!int |-
         24847
@@ -173,11 +167,7 @@
       <CALL6b03>Is that surprising? Warp Wings arevery convenient nowadays.
 
       <C_GREEN>Rauel uses a Warp Wing.<C_NONE>
-  "6364":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "25444": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>武器屋<C_NONE>
       これは、<CALL6b15>王子さま。
@@ -190,7 +180,8 @@
     "original_byte_length": !!int |-
       173
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         55100
       "target_addr": !!int |-
         25444
@@ -201,83 +192,67 @@
       isn't any demand for weapons.
 
       I can't do any business like this.I wonder if I should open a bakerynext.
-  "6411":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "25617": !RelocatableTranslatableEntry
     "original": |-
       <CALL6af5>今日の 夕食は 王子さまの 大好きな
       ビーフシチューですよ。
     "original_byte_length": !!int |-
       60
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54918
       "target_addr": !!int |-
         25617
     "translated": |-
       <CALL6af5>Tonight's dinner is your favorite
       beef stew, your Highness!
-  "644d":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "25677": !RelocatableTranslatableEntry
     "original": |-
       <CALL6af5>あら、王子さま。
       お勉強は もう すんだのですか？
     "original_byte_length": !!int |-
       51
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54927
       "target_addr": !!int |-
         25677
     "translated": |-
       <CALL6af5>Your Highness! Have you finished
       your studies already?
-  "6480":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "25728": !RelocatableTranslatableEntry
     "original": |-
       <CALL6afc>お出かけですか、王子さま？
       暗くならないうちに お帰りください。
     "original_byte_length": !!int |-
       66
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54936
       "target_addr": !!int |-
         25728
     "translated": |-
       <CALL6afc>Going out, your Highness?
       Please be back before dark.
-  "64c2":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "25794": !RelocatableTranslatableEntry
     "original": |-
       <CALL6afc>王子さま、
       町の外には 行かないでください。
     "original_byte_length": !!int |-
       46
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54945
       "target_addr": !!int |-
         25794
     "translated": |-
       <CALL6afc>Please do not leave town, your
       Highness.
-  "64f0":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "25840": !RelocatableTranslatableEntry
     "original": |-
       <CALL6afc>お待ちください、王子さま。
       <IF0403><JUMP6694>
@@ -307,7 +282,8 @@
     "original_byte_length": !!int |-
       457
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54951
       "target_addr": !!int |-
         25840
@@ -336,11 +312,7 @@
       <SET0403><CALL6afc>Your Highness.
       <LOC6694>You should be back at the manor,
       not loitering around here.
-  "66b9":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "26297": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
       あ、王子さま いらっしゃい。
@@ -356,7 +328,8 @@
     "original_byte_length": !!int |-
       208
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         55079
       "target_addr": !!int |-
         26297
@@ -372,11 +345,7 @@
 
       Even if old Rauel thinks it's
       a waste of time.
-  "6789":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "26505": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
       地震のせいで 家の中の物が
@@ -385,7 +354,8 @@
     "original_byte_length": !!int |-
       87
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         55088
       "target_addr": !!int |-
         26505
@@ -393,11 +363,7 @@
       <C_YELLOW>Man<C_NONE>
       Everything in my house got smashedup by the earthquake. It's been a
       bother getting it all clean.
-  "67e0":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "26592": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>女<C_NONE>
       ま、王子さま。
@@ -405,18 +371,15 @@
     "original_byte_length": !!int |-
       54
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54960
       "target_addr": !!int |-
         26592
     "translated": |-
       <C_YELLOW>Woman<C_NONE>
       How do you do, your Highness?
-  "6816":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "26646": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>子供<C_NONE>
       あっ 王子さま、
@@ -424,7 +387,8 @@
     "original_byte_length": !!int |-
       59
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54969
       "target_addr": !!int |-
         26646
@@ -432,11 +396,7 @@
       <C_YELLOW>Child<C_NONE>
       Your Highness!
       Are we going slime-chasing again?
-  "6851":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "26705": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>パーカー<C_NONE>
       <IF0002><JUMP698b>お、王子さま !!
@@ -462,7 +422,8 @@
     "original_byte_length": !!int |-
       355
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54978
       "target_addr": !!int |-
         26705
@@ -491,29 +452,22 @@
       Right this-a way.<SET0400><SET0002><ASMd912><LOC698a><END>
       <LOC698b>Yer Highness!!
       Run! Quick!<ASMd92a>
-  "69b4":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "27060": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>パーカー<C_NONE>
       <UNSET0404>王子さま ここで ごぜーます。
     "original_byte_length": !!int |-
       43
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54987
       "target_addr": !!int |-
         27060
     "translated": |-
       <C_YELLOW>Parker<C_NONE>
       <UNSET0404>There's tha spot, yer Highness.
-  "69df":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "27103": !RelocatableTranslatableEntry
     "original": |-
       <CH0>
       大変だった だろう？
@@ -532,7 +486,8 @@
     "original_byte_length": !!int |-
       223
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         55039
       "target_addr": !!int |-
         27103
@@ -540,11 +495,7 @@
       \ not at all! Looked like therewas already a hole here as someonewent an' plugged\
       \ up. \n\nBut, yer Highness, ya'd better\nhurry, 'fore ol' Rauel comes\na-lookin'.\n\
       \n<CH0>\nThanks, Parker!<ASMd92a>"
-  "6abe":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "27326": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>道具屋<C_NONE>
       これは 王子さま。
@@ -552,7 +503,8 @@
     "original_byte_length": !!int |-
       55
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         55094
       "target_addr": !!int |-
         27326
@@ -560,11 +512,7 @@
       <C_YELLOW>Tool merchant<C_NONE>
       Hello, your Highness.
       Going slime-chasing again?
-  "6af5":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "27381": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>侍女<C_NONE><RET_N>
     "original_byte_length": !!int |-
@@ -572,11 +520,7 @@
     "references": []
     "translated": |-
       <C_YELLOW>Maid<C_NONE><RET_N>
-  "6afc":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "27388": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE><RET_N>
     "original_byte_length": !!int |-
@@ -584,11 +528,7 @@
     "references": []
     "translated": |-
       <C_YELLOW>Soldier<C_NONE><RET_N>
-  "6b03":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "27395": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>教育係 ラウエル<C_NONE><RET_N>
     "original_byte_length": !!int |-
@@ -596,11 +536,7 @@
     "references": []
     "translated": |-
       <C_YELLOW>Rauel, royal tutor<C_NONE><RET_N>
-  "6b15":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "27413": !RelocatableTranslatableEntry
     "original": |-
       アトラス<RET>
     "original_byte_length": !!int |-
@@ -608,5 +544,5 @@
     "references": []
     "translated": |-
       At?las<RET>
-"note": |-
+"_note": |-
   Eluasta - Prologue

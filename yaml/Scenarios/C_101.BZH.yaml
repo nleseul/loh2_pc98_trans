@@ -1,11 +1,8 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   3400
-"entries":
-  "5a4f":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "23119": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ジェストン<C_NONE>
       <IF0068><JUMP601c><IF0050><JUMP5fc6>よく参られた アトラス王子。
@@ -121,17 +118,14 @@
     "original_byte_length": !!int |-
       2198
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54649
       "target_addr": !!int |-
         23119
     "translated": !!null |-
       null
-  "62e5":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "25317": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>オーエン<C_NONE>
       <IF0050><JUMP6340>私は 側近のオーエンです。
@@ -147,17 +141,14 @@
     "original_byte_length": !!int |-
       278
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54658
       "target_addr": !!int |-
         25317
     "translated": !!null |-
       null
-  "63fb":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "25595": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       ジェストンさまは 独身だから
@@ -165,17 +156,14 @@
     "original_byte_length": !!int |-
       68
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54667
       "target_addr": !!int |-
         25595
     "translated": !!null |-
       null
-  "643f":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "25663": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       １階にいる 候補の中から 後継ぎを
@@ -184,17 +172,14 @@
     "original_byte_length": !!int |-
       92
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54676
       "target_addr": !!int |-
         25663
     "translated": !!null |-
       null
-  "649b":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "25755": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       <IF0050><JUMP64f6>お待ちしておりました。
@@ -204,17 +189,14 @@
     "original_byte_length": !!int |-
       152
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54685
       "target_addr": !!int |-
         25755
     "translated": !!null |-
       null
-  "6533":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "25907": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       <IF0068><JUMP65d9><IF0050><JUMP658d>王子さま、お話は 門番から
@@ -232,10 +214,11 @@
     "original_byte_length": !!int |-
       304
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54694
       "target_addr": !!int |-
         25907
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

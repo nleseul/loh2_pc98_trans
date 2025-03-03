@@ -1,11 +1,8 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   777
-"entries":
-  "5aef":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "23279": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ドレイク<C_NONE>
       <IF_NOT0401><JUMP5b2d><UNSET0401>おっ!? 何で そっちから ･ ･ ･
@@ -19,10 +16,11 @@
     "original_byte_length": !!int |-
       181
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54684
       "target_addr": !!int |-
         23279
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

@@ -1,11 +1,8 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   3043
-"entries":
-  "5b2f":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "23343": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
       王子さま、この前の 大地震は
@@ -16,17 +13,14 @@
     "original_byte_length": !!int |-
       96
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54633
       "target_addr": !!int |-
         23343
     "translated": !!null |-
       null
-  "5b8f":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23439": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
       おや これは王子さま、いつ お城に
@@ -34,17 +28,14 @@
     "original_byte_length": !!int |-
       57
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54642
       "target_addr": !!int |-
         23439
     "translated": !!null |-
       null
-  "5bc8":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23496": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
       あっ 王子さま、この前の 地震は
@@ -56,17 +47,14 @@
     "original_byte_length": !!int |-
       138
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54651
       "target_addr": !!int |-
         23496
     "translated": !!null |-
       null
-  "5c52":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23634": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
       王子さま、武器屋のスコットは
@@ -76,34 +64,28 @@
     "original_byte_length": !!int |-
       138
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54660
       "target_addr": !!int |-
         23634
     "translated": !!null |-
       null
-  "5cdc":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23772": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
       王子さま。この前の 地震で クルスの近くに 竜の卵が 出てきたんですよ。そのうち 竜の祭でも 始めませんか？
     "original_byte_length": !!int |-
       108
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54669
       "target_addr": !!int |-
         23772
     "translated": !!null |-
       null
-  "5d48":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23880": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>女<C_NONE>
       あら 王子さま、こんにちは。
@@ -114,17 +96,14 @@
     "original_byte_length": !!int |-
       103
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54678
       "target_addr": !!int |-
         23880
     "translated": !!null |-
       null
-  "5daf":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23983": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>女<C_NONE>
       <IF0048><JUMP5dfc>あら 王子さま、
@@ -135,17 +114,14 @@
     "original_byte_length": !!int |-
       128
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54687
       "target_addr": !!int |-
         23983
     "translated": !!null |-
       null
-  "5e2f":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24111": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>老人<C_NONE>
       <IF0018><JUMP5ee7>おやおや 王子さま、そのかっこうは
@@ -164,17 +140,14 @@
     "original_byte_length": !!int |-
       370
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54696
       "target_addr": !!int |-
         24111
     "translated": !!null |-
       null
-  "5fa1":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24481": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       王子さま、町の者たちに 王子さまの
@@ -183,17 +156,14 @@
     "original_byte_length": !!int |-
       88
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54705
       "target_addr": !!int |-
         24481
     "translated": !!null |-
       null
-  "5ff9":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24569": !RelocatableTranslatableEntry
     "original": |-
       一人<RET>
     "original_byte_length": !!int |-
@@ -201,11 +171,7 @@
     "references": []
     "translated": !!null |-
       null
-  "5ffe":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24574": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       <IF0400><JUMP6077>王子さま、今日は いつもと違って
@@ -218,17 +184,14 @@
     "original_byte_length": !!int |-
       172
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54714
       "target_addr": !!int |-
         24574
     "translated": !!null |-
       null
-  "60aa":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24746": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>スコット<C_NONE>
       うわーっ !!<WAIT>
@@ -237,17 +200,14 @@
     "original_byte_length": !!int |-
       69
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54729
       "target_addr": !!int |-
         24746
     "translated": !!null |-
       null
-  "60ef":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24815": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>アロン<C_NONE>
       <IF000c><JUMP6448><IF000b><JUMP6360><SET000b>おや、王子さま。
@@ -299,17 +259,14 @@
     "original_byte_length": !!int |-
       936
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54738
       "target_addr": !!int |-
         24815
     "translated": !!null |-
       null
-  "6497":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "25751": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>バーテン<C_NONE>
       これは王子さま、いらっしゃいませ。お酒は 出せませんが ゆっくり
@@ -317,27 +274,25 @@
     "original_byte_length": !!int |-
       99
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54744
       "target_addr": !!int |-
         25751
     "translated": !!null |-
       null
-  "64fa":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "25850": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>道具屋<C_NONE>
       おや 王子さま、お散歩ですか？
     "original_byte_length": !!int |-
       39
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54750
       "target_addr": !!int |-
         25850
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

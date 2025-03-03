@@ -1,133 +1,99 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   724
-"entries":
-  "7170":
-    "is_relocatable": !!bool |-
-      false
+"_entries":
+  !!int "29040": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       バレート<RET>
-    "original_byte_length": !!int |-
-      9
-    "references": []
     "translated": !!null |-
       null
-  "71b0":
-    "is_relocatable": !!bool |-
-      false
+  !!int "29104": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       イグナの使者Ａ<RET>
-    "original_byte_length": !!int |-
-      15
-    "references": []
     "translated": !!null |-
       null
-  "71f0":
-    "is_relocatable": !!bool |-
-      false
+  !!int "29168": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       イグナの使者Ｂ<RET>
-    "original_byte_length": !!int |-
-      15
-    "references": []
     "translated": !!null |-
       null
-  "7230":
-    "is_relocatable": !!bool |-
-      false
+  !!int "29232": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       Ｍ２０７Ｄ<RET>
-    "original_byte_length": !!int |-
-      11
-    "references": []
     "translated": !!null |-
       null
-  "739f":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29599": !RelocatableTranslatableEntry
     "original": |-
       イグナの使者とバレートが現れた。<RET_N>
     "original_byte_length": !!int |-
       33
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61000
       "target_addr": !!int |-
         29599
     "translated": !!null |-
       null
-  "73c0":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29632": !RelocatableTranslatableEntry
     "original": |-
       は杖をにぎりしめた。<RET_PAGE>
     "original_byte_length": !!int |-
       21
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61106
       "target_addr": !!int |-
         29632
     "translated": !!null |-
       null
-  "73d5":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29653": !RelocatableTranslatableEntry
     "original": |-
       は<RET>
     "original_byte_length": !!int |-
       3
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61194
       "target_addr": !!int |-
         29653
     "translated": !!null |-
       null
-  "73d8":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29656": !RelocatableTranslatableEntry
     "original": |-
       <ACTOR>は 最後の力をふりしぼって<RET_N>
       <CONT><ACTOR>にレスを唱えた。<RET_PAGE>
     "original_byte_length": !!int |-
       45
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61288
       "target_addr": !!int |-
         29656
     "translated": !!null |-
       null
-  "7405":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29701": !RelocatableTranslatableEntry
     "original": |-
       は逃げ出した。<RET_PAGE>
     "original_byte_length": !!int |-
       15
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61248
       "target_addr": !!int |-
         29701
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

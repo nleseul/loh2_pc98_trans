@@ -1,11 +1,8 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   1249
-"entries":
-  "5b41":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "23361": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>エリオン<C_NONE>
       ソニア、よく 気がついてくれた。
@@ -51,27 +48,25 @@
     "original_byte_length": !!int |-
       709
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54659
       "target_addr": !!int |-
         23361
     "translated": !!null |-
       null
-  "5e06":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24070": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ソニア<C_NONE>
       エリオンさま !!
     "original_byte_length": !!int |-
       25
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54693
       "target_addr": !!int |-
         24070
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

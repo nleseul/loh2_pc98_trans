@@ -1,11 +1,8 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   2336
-"entries":
-  "5b69":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "23401": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>司祭 バーバラ<C_NONE>
       <IF_NOT00f9><JUMP61cb><IF00fc><JUMP5b97><IF005f><JUMP609b><IF005e><JUMP5d46><IF0128><JUMP5bba><LOC5b97>この わしでは どうにもならん ･ ･ ･<END>
@@ -83,10 +80,11 @@
     "original_byte_length": !!int |-
       1781
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54635
       "target_addr": !!int |-
         23401
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

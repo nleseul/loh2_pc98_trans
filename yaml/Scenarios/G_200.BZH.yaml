@@ -1,11 +1,8 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   2682
-"entries":
-  "5ddf":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "24031": !RelocatableTranslatableEntry
     "original": |-
       <IF0103><JUMP60e4><SET0103><CH1>
       てめー 覚悟しやがれ !!
@@ -59,10 +56,11 @@
     "original_byte_length": !!int |-
       853
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         55000
       "target_addr": !!int |-
         24031
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

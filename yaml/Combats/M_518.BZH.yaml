@@ -1,136 +1,103 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   873
-"entries":
-  "7170":
-    "is_relocatable": !!bool |-
-      false
+"_entries":
+  !!int "29040": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       ブラックナイトA<RET>
-    "original_byte_length": !!int |-
-      16
-    "references": []
     "translated": !!null |-
       null
-  "71b0":
-    "is_relocatable": !!bool |-
-      false
+  !!int "29104": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       ブラックナイトB<RET>
-    "original_byte_length": !!int |-
-      16
-    "references": []
     "translated": !!null |-
       null
-  "71f0":
-    "is_relocatable": !!bool |-
-      false
+  !!int "29168": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       ブラックナイトC<RET>
-    "original_byte_length": !!int |-
-      16
-    "references": []
     "translated": !!null |-
       null
-  "7230":
-    "is_relocatable": !!bool |-
-      false
+  !!int "29232": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       ブラックナイトD<RET>
-    "original_byte_length": !!int |-
-      16
-    "references": []
     "translated": !!null |-
       null
-  "744e":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29774": !RelocatableTranslatableEntry
     "original": |-
       <RET>
     "original_byte_length": !!int |-
       1
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61000
       "target_addr": !!int |-
         29774
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61393
       "target_addr": !!int |-
         29774
     "translated": !!null |-
       null
-  "744f":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29775": !RelocatableTranslatableEntry
     "original": |-
       ブラックナイツが現れた。<RET_N>
     "original_byte_length": !!int |-
       25
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61457
       "target_addr": !!int |-
         29775
     "translated": !!null |-
       null
-  "7468":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29800": !RelocatableTranslatableEntry
     "original": |-
       <ACTOR>は剣をふった。<RET_N>
     "original_byte_length": !!int |-
       16
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61204
       "target_addr": !!int |-
         29800
     "translated": !!null |-
       null
-  "7478":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29816": !RelocatableTranslatableEntry
     "original": |-
       ブラックナイツは結界をはった。<RET_PAGE>
     "original_byte_length": !!int |-
       31
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61188
       "target_addr": !!int |-
         29816
     "translated": !!null |-
       null
-  "7497":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29847": !RelocatableTranslatableEntry
     "original": |-
       <ACTOR>は結界をはった。<RET_PAGE>
     "original_byte_length": !!int |-
       18
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61196
       "target_addr": !!int |-
         29847
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

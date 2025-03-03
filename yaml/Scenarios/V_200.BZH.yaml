@@ -1,11 +1,8 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   3067
-"entries":
-  "5e50":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "24144": !RelocatableTranslatableEntry
     "original": |
       <CLEAR>      第２章　英雄たちの行方<N>
 
@@ -13,17 +10,14 @@
     "original_byte_length": !!int |-
       51
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54620
       "target_addr": !!int |-
         24144
     "translated": !!null |-
       null
-  "5ed4":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24276": !RelocatableTranslatableEntry
     "original": |-
       <CLEAR><C_YELLOW>ガード<C_NONE>
       陛下 例のやつらが 何者かの
@@ -107,10 +101,11 @@
     "original_byte_length": !!int |-
       1590
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54792
       "target_addr": !!int |-
         24276
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

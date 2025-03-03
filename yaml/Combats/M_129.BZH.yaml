@@ -1,107 +1,75 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   1013
-"entries":
-  "7170":
-    "is_relocatable": !!bool |-
-      false
+"_entries":
+  !!int "29040": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       プルダーム<RET>
-    "original_byte_length": !!int |-
-      11
-    "references": []
     "translated": !!null |-
       null
-  "71b0":
-    "is_relocatable": !!bool |-
-      false
+  !!int "29104": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       プルダームＢ<RET>
-    "original_byte_length": !!int |-
-      13
-    "references": []
     "translated": !!null |-
       null
-  "71f0":
-    "is_relocatable": !!bool |-
-      false
+  !!int "29168": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       プルダームＣ<RET>
-    "original_byte_length": !!int |-
-      13
-    "references": []
     "translated": !!null |-
       null
-  "7230":
-    "is_relocatable": !!bool |-
-      false
+  !!int "29232": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       プルダームＤ<RET>
-    "original_byte_length": !!int |-
-      13
-    "references": []
     "translated": !!null |-
       null
-  "7427":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29735": !RelocatableTranslatableEntry
     "original": |-
       プルダームが現れた。<RET_N>
     "original_byte_length": !!int |-
       21
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61000
       "target_addr": !!int |-
         29735
     "translated": !!null |-
       null
-  "743c":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29756": !RelocatableTranslatableEntry
     "original": |-
       <ACTOR>は脳しんとうを起こした。<RET_PAGE>
     "original_byte_length": !!int |-
       26
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61359
       "target_addr": !!int |-
         29756
     "translated": !!null |-
       null
-  "7456":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29782": !RelocatableTranslatableEntry
     "original": |-
       <ACTOR>は脳しんとうで動けない。<RET_PAGE>
     "original_byte_length": !!int |-
       26
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61131
       "target_addr": !!int |-
         29782
     "translated": !!null |-
       null
-  "7470":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29808": !RelocatableTranslatableEntry
     "original": |-
       <CALL7527>くそっ おれが動けない間に <RET>
       <CONT>も
@@ -112,17 +80,14 @@
     "original_byte_length": !!int |-
       86
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61188
       "target_addr": !!int |-
         29808
     "translated": !!null |-
       null
-  "74c6":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29894": !RelocatableTranslatableEntry
     "original": |-
       <CALL7527>バカめ おれが 動けないというのに
       ダメージを与えられないとは ･ ･ ･<WAIT>
@@ -132,17 +97,14 @@
     "original_byte_length": !!int |-
       97
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61180
       "target_addr": !!int |-
         29894
     "translated": !!null |-
       null
-  "7527":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29991": !RelocatableTranslatableEntry
     "original": |-
       <CLEAR><C_YELLOW>プルダーム<C_NONE><RET_N>
     "original_byte_length": !!int |-
@@ -150,4 +112,4 @@
     "references": []
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

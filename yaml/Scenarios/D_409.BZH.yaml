@@ -1,11 +1,8 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   1263
-"entries":
-  "5b64":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "23396": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ドレイク<C_NONE>
       な、何だよ お前ら？
@@ -14,17 +11,14 @@
     "original_byte_length": !!int |-
       99
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54739
       "target_addr": !!int |-
         23396
     "translated": !!null |-
       null
-  "5bc7":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23495": !RelocatableTranslatableEntry
     "original": |-
       <CALL5e26>この前 大盗賊 ゲイルさまが
       戻ってきたんです。
@@ -35,17 +29,14 @@
     "original_byte_length": !!int |-
       129
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54748
       "target_addr": !!int |-
         23495
     "translated": !!null |-
       null
-  "5c48":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23624": !RelocatableTranslatableEntry
     "original": |-
       <CALL5e26>いくらがんばっても この扉は 絶対にあかねえように なってるんだ。
 
@@ -53,17 +44,14 @@
     "original_byte_length": !!int |-
       129
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54757
       "target_addr": !!int |-
         23624
     "translated": !!null |-
       null
-  "5cc9":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23753": !RelocatableTranslatableEntry
     "original": |-
       <CALL5e26>この宝は 大盗賊 ゲイルさまの
       一番大切な物だから だれにも
@@ -74,17 +62,14 @@
     "original_byte_length": !!int |-
       145
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54766
       "target_addr": !!int |-
         23753
     "translated": !!null |-
       null
-  "5d5a":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23898": !RelocatableTranslatableEntry
     "original": |-
       <PARTY>は 石碑を読みました。
 
@@ -94,17 +79,14 @@
     "original_byte_length": !!int |-
       90
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54718
       "target_addr": !!int |-
         23898
     "translated": !!null |-
       null
-  "5db4":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23988": !RelocatableTranslatableEntry
     "original": |-
       <PARTY>は 石碑を読みました。
 
@@ -114,33 +96,27 @@
     "original_byte_length": !!int |-
       84
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54724
       "target_addr": !!int |-
         23988
     "translated": !!null |-
       null
-  "5e08":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24072": !RelocatableTranslatableEntry
     "original": |-
       <C_GREEN>扉は 開きそうもありません。<C_NONE>
     "original_byte_length": !!int |-
       30
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54730
       "target_addr": !!int |-
         24072
     "translated": !!null |-
       null
-  "5e26":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24102": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>盗賊<C_NONE><RET_N>
     "original_byte_length": !!int |-
@@ -148,4 +124,4 @@
     "references": []
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

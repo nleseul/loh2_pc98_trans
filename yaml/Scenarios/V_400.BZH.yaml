@@ -1,11 +1,8 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   6071
-"entries":
-  "5d92":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "23954": !RelocatableTranslatableEntry
     "original": |
       <CLEAR>       第４章　暗黒の支配者<N>
 
@@ -13,17 +10,14 @@
     "original_byte_length": !!int |-
       50
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54620
       "target_addr": !!int |-
         23954
     "translated": !!null |-
       null
-  "5e04":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24068": !RelocatableTranslatableEntry
     "original": |-
       <CLEAR><C_YELLOW>ヒストラのマスター<C_NONE>
       これから話すことは 地上の者にも
@@ -279,10 +273,11 @@
     "original_byte_length": !!int |-
       4748
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54862
       "target_addr": !!int |-
         24068
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

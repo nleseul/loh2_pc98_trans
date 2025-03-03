@@ -1,11 +1,8 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   2568
-"entries":
-  "5de2":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "24034": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>フラッド<C_NONE>
       な、何だ お前たち？
@@ -63,17 +60,14 @@
     "original_byte_length": !!int |-
       873
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54758
       "target_addr": !!int |-
         24034
     "translated": !!null |-
       null
-  "614b":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24907": !RelocatableTranslatableEntry
     "original": |-
       <CH2>
       あっ 頭が !!
@@ -123,17 +117,14 @@
     "original_byte_length": !!int |-
       438
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54786
       "target_addr": !!int |-
         24907
     "translated": !!null |-
       null
-  "6301":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "25345": !RelocatableTranslatableEntry
     "original": |-
       ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･<RET_N>
     "original_byte_length": !!int |-
@@ -141,4 +132,4 @@
     "references": []
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

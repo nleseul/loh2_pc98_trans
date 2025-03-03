@@ -1,59 +1,47 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   3051
-"entries":
-  "61ec":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "25068": !RelocatableTranslatableEntry
     "original": |-
       <ACTOR>は炎のブレスをはいた。<RET_N>
     "original_byte_length": !!int |-
       24
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         55756
       "target_addr": !!int |-
         25068
     "translated": !!null |-
       null
-  "6204":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "25092": !RelocatableTranslatableEntry
     "original": |-
       <ACTOR>は大きくはばたいた。<RET_N>
     "original_byte_length": !!int |-
       22
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         55744
       "target_addr": !!int |-
         25092
     "translated": !!null |-
       null
-  "621a":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "25114": !RelocatableTranslatableEntry
     "original": |-
       <CLEAR>皇帝 ゴドウィン２世を倒した。<RET_N>
     "original_byte_length": !!int |-
       31
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         55875
       "target_addr": !!int |-
         25114
     "translated": !!null |-
       null
-  "62a8":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "25256": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>皇帝 ゴドウィン２世<C_NONE>
       <IF0400><JUMP636e><SET0400>フッハッハッハ
@@ -68,17 +56,14 @@
     "original_byte_length": !!int |-
       232
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54678
       "target_addr": !!int |-
         25256
     "translated": !!null |-
       null
-  "6390":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "25488": !RelocatableTranslatableEntry
     "original": |-
       <CH1>
       何だ このドラゴンは？
@@ -111,26 +96,24 @@
     "original_byte_length": !!int |-
       369
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54863
       "target_addr": !!int |-
         25488
     "translated": !!null |-
       null
-  "6502":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "25858": !RelocatableTranslatableEntry
     "original": |-
       しかし<ITEM>ではダメージを与えられない !!<RET_PAGE>
     "original_byte_length": !!int |-
       37
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         55661
       "target_addr": !!int |-
         25858
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

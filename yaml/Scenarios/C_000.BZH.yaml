@@ -1,11 +1,8 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   1124
-"entries":
-  "5afc":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "23292": !RelocatableTranslatableEntry
     "original": |-
       <IF0406><JUMP5b8c><C_YELLOW>教育係 ラウエル<C_NONE>
       <IF0405><JUMP5b33><UNSET0404>いかがですかな 王子？<END>
@@ -40,17 +37,14 @@
     "original_byte_length": !!int |-
       534
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54717
       "target_addr": !!int |-
         23292
     "translated": !!null |-
       null
-  "5d12":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23826": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       これは 王子さま。
@@ -61,10 +55,11 @@
     "original_byte_length": !!int |-
       144
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54671
       "target_addr": !!int |-
         23826
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

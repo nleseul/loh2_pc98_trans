@@ -474,6 +474,20 @@ class DS6EventBlock(Block):
         return c1_continuations == c2_continuations
 
 
+class DS62_GiveMoneyCodeHook(X86CodeHook):
+    def should_handle(self, instruction):
+        if (X86_GRP_CALL in instruction.groups or X86_GRP_JUMP in instruction.groups) and instruction.operands[0].type == CS_OP_IMM:
+            return (instruction.operands[0].value.imm & 0xffff) in [ 0x3ca7 ]
+
+    def generate_links(self, instruction, block_pool, current_block, registers):
+        data_addr = registers[X86_REG_BX]['value']
+        value_link = Link(registers[X86_REG_BX]['source_addr'], data_addr)
+
+        data_block = block_pool.get_block("data", data_addr)
+        data_block.set_length(4)
+        value_link.connect_blocks(current_block, data_block)
+
+
 class DS62_StandardEventCodeHook(X86CodeHook):
     def should_handle(self, instruction):
         if (X86_GRP_CALL in instruction.groups or X86_GRP_JUMP in instruction.groups) and instruction.operands[0].type == CS_OP_IMM:

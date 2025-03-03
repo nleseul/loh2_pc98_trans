@@ -1,11 +1,8 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   4314
-"entries":
-  "5d30":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "23856": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>フローラ<C_NONE>
       <IF0406><JUMP633e><UNSET0405><SET0072>お父さま 起きてください。
@@ -101,17 +98,14 @@
     "original_byte_length": !!int |-
       1728
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54712
       "target_addr": !!int |-
         23856
     "translated": !!null |-
       null
-  "63f0":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "25584": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>チャーリー<C_NONE>
       <IF0407><JUMP663c><IF0404><JUMP644e>むっ どこから もぐり込んだんだ。
@@ -146,17 +140,14 @@
     "original_byte_length": !!int |-
       666
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54726
       "target_addr": !!int |-
         25584
     "translated": !!null |-
       null
-  "66c5":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "26309": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ジェラルド<C_NONE>
       <SET0074>ぐぅぅ がぁぁ ･ ･ ･<WAIT>
@@ -164,34 +155,28 @@
     "original_byte_length": !!int |-
       56
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54780
       "target_addr": !!int |-
         26309
     "translated": !!null |-
       null
-  "66fd":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "26365": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
       おら いま 芝刈ってるだよ。
     "original_byte_length": !!int |-
       32
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54789
       "target_addr": !!int |-
         26365
     "translated": !!null |-
       null
-  "671d":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "26397": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
       君たちは 新しく入ってきた 人だね？持ち場を はなれて さぼっていると
@@ -202,17 +187,14 @@
     "original_byte_length": !!int |-
       163
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54798
       "target_addr": !!int |-
         26397
     "translated": !!null |-
       null
-  "67c0":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "26560": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>女中<C_NONE>
       だんなさまと 奥様は 大食漢だから
@@ -228,17 +210,14 @@
     "original_byte_length": !!int |-
       239
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54807
       "target_addr": !!int |-
         26560
     "translated": !!null |-
       null
-  "68af":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "26799": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>女中<C_NONE>
       フローラお嬢さまは ビーフカレーが
@@ -250,17 +229,14 @@
     "original_byte_length": !!int |-
       124
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54816
       "target_addr": !!int |-
         26799
     "translated": !!null |-
       null
-  "692b":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "26923": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>女中<C_NONE>
       フローラお嬢さまは それは それは
@@ -275,10 +251,11 @@
     "original_byte_length": !!int |-
       237
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54825
       "target_addr": !!int |-
         26923
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

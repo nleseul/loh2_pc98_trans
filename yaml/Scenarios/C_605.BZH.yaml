@@ -1,11 +1,8 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   860
-"entries":
-  "5bfe":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "23550": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>サミー<C_NONE>
       なあ なあ これなんだ？
@@ -13,10 +10,11 @@
     "original_byte_length": !!int |-
       53
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54821
       "target_addr": !!int |-
         23550
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

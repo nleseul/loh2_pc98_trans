@@ -1,11 +1,8 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   3264
-"entries":
-  "63aa":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "25514": !RelocatableTranslatableEntry
     "original": |-
       <CH0>
       シンディ !!
@@ -53,10 +50,11 @@
     "original_byte_length": !!int |-
       561
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54836
       "target_addr": !!int |-
         25514
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

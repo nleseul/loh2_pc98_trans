@@ -1,11 +1,8 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   2896
-"entries":
-  "5b0d":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "23309": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ボアード<C_NONE>
       おう ジゴ !!
@@ -85,17 +82,14 @@
     "original_byte_length": !!int |-
       1312
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54656
       "target_addr": !!int |-
         23309
     "translated": !!null |-
       null
-  "602d":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24621": !RelocatableTranslatableEntry
     "original": |-
       <CH0>
       そういえば ランドー。
@@ -156,10 +150,11 @@
     "original_byte_length": !!int |-
       1121
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54694
       "target_addr": !!int |-
         24621
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

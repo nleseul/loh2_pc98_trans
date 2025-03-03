@@ -1,11 +1,8 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   2912
-"entries":
-  "5aba":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "23226": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
       巡礼も 終わったことだし
@@ -13,17 +10,14 @@
     "original_byte_length": !!int |-
       63
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54662
       "target_addr": !!int |-
         23226
     "translated": !!null |-
       null
-  "5af9":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23289": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
       この巡礼記念のメダルを買わないか？今なら 竜の祭の サービス価格で
@@ -41,17 +35,14 @@
     "original_byte_length": !!int |-
       264
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54671
       "target_addr": !!int |-
         23289
     "translated": !!null |-
       null
-  "5c01":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23553": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
       いらっしゃい ここは休憩所だ<IF0068><JUMP5c46>
@@ -61,17 +52,14 @@
     "original_byte_length": !!int |-
       140
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54677
       "target_addr": !!int |-
         23553
     "translated": !!null |-
       null
-  "5c8d":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23693": !RelocatableTranslatableEntry
     "original": |-
       <IF_NOT0058><JUMP5c9f><C_YELLOW>ソニア<C_NONE>
       <JUMP5e81><LOC5c9f><SET0058><Xf52c0000><ASM1ae6><Xf7><C_YELLOW>ソニア<C_NONE>
@@ -108,17 +96,14 @@
     "original_byte_length": !!int |-
       607
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54686
       "target_addr": !!int |-
         23693
     "translated": !!null |-
       null
-  "5eec":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24300": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ポウエル<C_NONE>
       セリスとナッシュが モンスターに
@@ -130,17 +115,14 @@
     "original_byte_length": !!int |-
       144
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54695
       "target_addr": !!int |-
         24300
     "translated": !!null |-
       null
-  "5f7c":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24444": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>チャールズ王子<C_NONE>
       みんな 今は忙しいって言って
@@ -152,17 +134,14 @@
     "original_byte_length": !!int |-
       154
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54704
       "target_addr": !!int |-
         24444
     "translated": !!null |-
       null
-  "6016":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24598": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>侍女<C_NONE>
       ひなんしたのは いいけど もしも
@@ -171,17 +150,14 @@
     "original_byte_length": !!int |-
       88
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54713
       "target_addr": !!int |-
         24598
     "translated": !!null |-
       null
-  "606e":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24686": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>侍女<C_NONE>
       ここは 広いことは広いけど お城から比べたら 狭いし お台所も あまり
@@ -189,17 +165,14 @@
     "original_byte_length": !!int |-
       96
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54722
       "target_addr": !!int |-
         24686
     "translated": !!null |-
       null
-  "60ce":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24782": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       司祭 バーバラは いったい どこに
@@ -209,17 +182,14 @@
     "original_byte_length": !!int |-
       123
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54731
       "target_addr": !!int |-
         24782
     "translated": !!null |-
       null
-  "6149":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24905": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       これは アトラス王子さま。
@@ -227,17 +197,14 @@
     "original_byte_length": !!int |-
       97
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54740
       "target_addr": !!int |-
         24905
     "translated": !!null |-
       null
-  "61aa":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "25002": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
       これは アトラス王子さま。
@@ -246,17 +213,14 @@
     "original_byte_length": !!int |-
       76
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54749
       "target_addr": !!int |-
         25002
     "translated": !!null |-
       null
-  "61f6":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "25078": !RelocatableTranslatableEntry
     "original": |-
       <IF005b><JUMP6410><Xf52c0000><ASM1ae6><Xf7><SET005b><C_YELLOW>エリオン<C_NONE>
       アトラス王子、ご無事で 何よりです。セリオス王は 何か おっしゃって
@@ -289,10 +253,11 @@
     "original_byte_length": !!int |-
       612
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54758
       "target_addr": !!int |-
         25078
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

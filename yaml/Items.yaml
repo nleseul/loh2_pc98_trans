@@ -1,1240 +1,726 @@
-"end_of_file_addr": !!null |-
+!TranslationCollection
+"_end_of_file_addr": !!null |-
   null
-"entries":
-  "8b3b":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "35643": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       何もない
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": |-
       Nothing
-  "8b4f":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "35663": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       ナイフ
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": |-
       Knife
-  "8b63":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "35683": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       小型のつるぎ
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": |-
       Short Sword
-  "8b77":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "35703": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       青銅のつるぎ
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": |-
       Copper Sword
-  "8b8b":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "35723": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       鉄のつるぎ
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": |-
       Iron Sword
-  "8b9f":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "35743": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       鉄球こんぼう
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "8bb3":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "35763": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       強者のやり
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "8bc7":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "35783": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       必殺のつるぎ
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "8bdb":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "35803": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       大地のおの
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "8bef":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "35823": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       戦士のつるぎ
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "8c03":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "35843": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       勇者のつるぎ
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "8c17":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "35863": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       騎士のやり
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "8c2b":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "35883": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       撃破のつるぎ
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "8c3f":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "35903": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       理力のつるぎ
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "8c53":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "35923": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       正義のつるぎ
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "8c67":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "35943": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       ドラゴンの剣
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "8c7b":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "35963": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       太陽の聖剣
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "8c8f":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "35983": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       布の服
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": |-
       Clothes
-  "8ca3":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "36003": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       革のヨロイ
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "8cb7":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "36023": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       鉄のヨロイ
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "8ccb":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "36043": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       はがねのヨロイ
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "8cdf":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "36063": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       不死身のヨロイ
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "8cf3":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "36083": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       バトルスーツ
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "8d07":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "36103": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       理力のヨロイ
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "8d1b":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "36123": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       自由のヨロイ
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "8d2f":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "36143": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       ドラゴンの鎧
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "8d43":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "36163": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       革のたて
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "8d57":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "36183": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       鉄のたて
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "8d6b":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "36203": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       はがねのたて
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "8d7f":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "36223": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       無敵のたて
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "8d93":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "36243": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       いにしえのたて
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "8da7":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "36263": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       理力のたて
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "8dbb":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "36283": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       希望のたて
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "8dcf":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "36303": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       ドラゴンのたて
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "8de3":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "36323": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       炎のやり
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "8df7":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "36343": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       回復のヨロイ
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "8e0b":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "36363": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       光の杖
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "8e1f":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "36383": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       いかづちの杖
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "8e33":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "36403": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       シナリオ専用
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "8e47":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "36423": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       災害のお守り
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "8e5b":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "36443": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       切符
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "8e6f":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "36463": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       戦士の笛
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "8e83":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "36483": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       キノコの王様
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "8e97":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "36503": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       密造酒
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "8eab":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "36523": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       バクヤク
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "8ebf":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "36543": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       ワプの翼
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "8ed3":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "36563": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       ヨシュアの鏡
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "8ee7":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "36583": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       ビスのキノコ
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "8efb":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "36603": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       レスの葉
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "8f0f":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "36623": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       毒消し草
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "8f23":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "36643": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       たいまつ
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "8f37":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "36663": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       ヨシュアの目
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "8f4b":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "36683": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       気付けぐすり
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "8f5f":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "36703": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       聖なるつるぎ
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "8f73":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "36723": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       聖なるヨロイ
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "8f87":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "36743": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       聖なるたて
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "8f9b":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "36763": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       ランプ
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "8faf":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "36783": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       回復キノコ
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "8fc3":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "36803": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       ビスナの実
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "8fd7":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "36823": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       オプナのゆびわ
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "8feb":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "36843": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       テュトのゆびわ
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "8fff":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "36863": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       クイクのゆびわ
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "9013":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "36883": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       幸運のゆびわ
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "9027":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "36903": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       スペルのゆびわ
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "903b":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "36923": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       レストナキノコ
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "904f":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "36943": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       聖なる杖
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "9063":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "36963": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       エリクサー
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "9077":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "36983": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       氷の杖
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "908b":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "37003": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       マホウのゆびわ
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "909f":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "37023": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       賢者のゆびわ
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "90b3":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "37043": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       眠りタケ
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "90c7":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "37063": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       ？？？？？７１
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "90db":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "37083": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       ？？？？？７２
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "90ef":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "37103": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       ？？？？？７３
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "9103":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "37123": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       ？？？？？７４
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "9117":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "37143": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       ？？？？？７５
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "912b":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "37163": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       カノンの親書
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "9139":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "37177": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       ランケアの親書
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "9147":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "37191": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       ハルパの親書
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "9155":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "37205": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       マリスカの親書
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "9163":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "37219": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       ギルモアの涙
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "9171":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "37233": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       ギルモアの星
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "917f":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "37247": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       アフル通行証
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "918d":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "37261": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       イズー通行証
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "919b":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "37275": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       キュベラ通行証
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "91a9":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "37289": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       ウイル通行証
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "91b7":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "37303": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       竜の涙
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "91c5":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "37317": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       銀のプレート
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "91d3":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "37331": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       杖のかけら
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "91e1":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "37345": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       幅広のつるぎ
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "91ef":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "37359": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       くさりかたびら
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "91fd":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "37373": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       金のプレート
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "920b":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "37387": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       ギルモアの虹
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "9219":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "37401": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       銅のプレート
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "9227":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "37415": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       不思議なマント
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "9235":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "37429": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       不思議な箱
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "9243":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "37443": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       ビキニ
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "9251":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "37457": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       大笑い袋
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "925f":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "37471": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       透視メガネ
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "926d":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "37485": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       鉄アレイ
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "927b":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "37499": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       ？？ＳＩＮ２５
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "9289":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "37513": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       フレイアの微笑
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-  "9297":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "37527": !FixedTranslatableEntry
+    "max_byte_length": !!int |-
+      14
     "original": |-
       変換炉のカギ
-    "original_byte_length": !!null |-
-      null
-    "references": []
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

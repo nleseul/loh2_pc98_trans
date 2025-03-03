@@ -1,28 +1,22 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   1894
-"entries":
-  "5dd6":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "24022": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ナレサ隊長<C_NONE>
       くっ 今 忙しいんだ じゃまをするな。
     "original_byte_length": !!int |-
       49
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54800
       "target_addr": !!int |-
         24022
     "translated": !!null |-
       null
-  "5e07":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24071": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>レイシア<C_NONE>
       <IF0400><JUMP5e6f>フレイアの部屋は 私たちに任せて
@@ -34,17 +28,14 @@
     "original_byte_length": !!int |-
       175
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54809
       "target_addr": !!int |-
         24071
     "translated": !!null |-
       null
-  "5eb6":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24246": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
       ここは もう少しで 突破できるから
@@ -52,17 +43,14 @@
     "original_byte_length": !!int |-
       55
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54818
       "target_addr": !!int |-
         24246
     "translated": !!null |-
       null
-  "5eed":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24301": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>フレイアのマスター<C_NONE>
       フレイアさえ 操作できれば 城内の
@@ -71,34 +59,28 @@
     "original_byte_length": !!int |-
       107
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54827
       "target_addr": !!int |-
         24301
     "translated": !!null |-
       null
-  "5f58":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24408": !RelocatableTranslatableEntry
     "original": "<C_YELLOW>ヒストラのマスター<C_NONE>\n<IF0401><JUMP5fea>テクニカの部屋を 何とかしないと\n\
       新しい武器が 作れないぞ。\n早く 行きたまえ。<IF046f><JUMP5fc5><END>\n<LOC5fc5><CALL6016><SET0401><C_YELLOW>ヒストラのマスター<C_NONE>\n\
       それなら \n<LOC5fea>あとは皇帝を 追うのみだ。\n早く 行きたまえ。"
     "original_byte_length": !!int |-
       190
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54836
       "target_addr": !!int |-
         24408
     "translated": !!null |-
       null
-  "6016":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24598": !RelocatableTranslatableEntry
     "original": |2-
 
 
@@ -111,4 +93,4 @@
     "references": []
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

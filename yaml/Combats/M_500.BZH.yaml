@@ -1,73 +1,47 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   1051
-"entries":
-  "7170":
-    "is_relocatable": !!bool |-
-      false
+"_entries":
+  !!int "29040": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       ゴドウィン２世<RET>
-    "original_byte_length": !!int |-
-      15
-    "references": []
     "translated": !!null |-
       null
-  "71b0":
-    "is_relocatable": !!bool |-
-      false
+  !!int "29104": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       Ｍ５００Ｂ<RET>
-    "original_byte_length": !!int |-
-      11
-    "references": []
     "translated": !!null |-
       null
-  "71f0":
-    "is_relocatable": !!bool |-
-      false
+  !!int "29168": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": ""
-    "original_byte_length": !!int |-
-      1
-    "references": []
     "translated": !!null |-
       null
-  "7230":
-    "is_relocatable": !!bool |-
-      false
+  !!int "29232": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": ""
-    "original_byte_length": !!int |-
-      1
-    "references": []
     "translated": !!null |-
       null
-  "74ac":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29868": !RelocatableTranslatableEntry
     "original": |-
       皇帝 ゴドウィン２世との戦闘だ。<RET_N>
     "original_byte_length": !!int |-
       32
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61000
       "target_addr": !!int |-
         29868
     "translated": !!null |-
       null
-  "74cc":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29900": !RelocatableTranslatableEntry
     "original": |2-
 
 
@@ -79,58 +53,50 @@
     "original_byte_length": !!int |-
       67
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61488
       "target_addr": !!int |-
         29900
     "translated": !!null |-
       null
-  "750f":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29967": !RelocatableTranslatableEntry
     "original": |-
       <ACTOR>は大きくはばたいた。<RET_N>
     "original_byte_length": !!int |-
       22
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61275
       "target_addr": !!int |-
         29967
     "translated": !!null |-
       null
-  "7525":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "29989": !RelocatableTranslatableEntry
     "original": |-
       <ACTOR>は炎のブレスをはいた。<RET_N>
     "original_byte_length": !!int |-
       24
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61290
       "target_addr": !!int |-
         29989
     "translated": !!null |-
       null
-  "753d":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "30013": !RelocatableTranslatableEntry
     "original": |-
       <ACTOR>は空を切り裂く波動を出した。<RET_N>
     "original_byte_length": !!int |-
       30
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         61146
       "target_addr": !!int |-
         30013
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

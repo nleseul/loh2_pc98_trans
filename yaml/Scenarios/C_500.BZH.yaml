@@ -1,11 +1,8 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   1842
-"entries":
-  "5cea":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "23786": !RelocatableTranslatableEntry
     "original": |-
       <CH1>
       おっ 見張りが いなくなったぞ。
@@ -27,17 +24,14 @@
     "original_byte_length": !!int |-
       206
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54768
       "target_addr": !!int |-
         23786
     "translated": !!null |-
       null
-  "5db8":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23992": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ガード<C_NONE>
       んっ !? どうして お前たちが
@@ -48,17 +42,14 @@
     "original_byte_length": !!int |-
       109
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54777
       "target_addr": !!int |-
         23992
     "translated": !!null |-
       null
-  "5e25":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24101": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ガード<C_NONE>
       ちょっとでも 変な行動をしたら
@@ -66,17 +57,14 @@
     "original_byte_length": !!int |-
       69
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54786
       "target_addr": !!int |-
         24101
     "translated": !!null |-
       null
-  "5e6a":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24170": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ガード<C_NONE>
       これ以上は 入れてはならんと
@@ -88,17 +76,14 @@
     "original_byte_length": !!int |-
       137
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54795
       "target_addr": !!int |-
         24170
     "translated": !!null |-
       null
-  "5ef3":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24307": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ガード<C_NONE>
       こんな所に 来れて 珍しいのは
@@ -107,33 +92,27 @@
     "original_byte_length": !!int |-
       88
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54804
       "target_addr": !!int |-
         24307
     "translated": !!null |-
       null
-  "5f4b":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24395": !RelocatableTranslatableEntry
     "original": |-
       <C_GREEN>ガードは気絶しているようです。<C_NONE>
     "original_byte_length": !!int |-
       33
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54813
       "target_addr": !!int |-
         24395
     "translated": !!null |-
       null
-  "5f6c":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "24428": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ナレサ隊長<C_NONE>
       おお とうとう 決心してくれたか。
@@ -157,10 +136,11 @@
     "original_byte_length": !!int |-
       226
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54822
       "target_addr": !!int |-
         24428
     "translated": !!null |-
       null
-"note": ""
+"_note": ""

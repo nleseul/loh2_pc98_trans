@@ -104,10 +104,6 @@ class Block:
     def is_relocatable(self) -> bool:
         return False not in [link.source_addr is not None for link in self._incoming_links]
 
-    def expand(self, addr:int) -> None:
-        if addr >= self._start_addr + self._length:
-            self._length = addr - self._entry_addr + 1
-
     def dump(self) -> None:
         raise NotImplementedError("Implement this in a subclass!")
 
@@ -494,3 +490,32 @@ class X86CodeBlock(Block):
                         registers[reg_id] = { 'source_addr': instruction.address + 1, 'value': value }
 
             link_path_info['is_linked'] = True
+
+
+class DataBlock(Block):
+    def dump(self) -> None:
+        addr = self.start_addr
+        while addr < self.start_addr + self.length:
+            line_end_addr = min(addr + 16, self.start_addr + self.length)
+            print(f"{addr:04x}  {self._data[addr - self._base_addr:line_end_addr - self._base_addr].hex(" ")}")
+            addr += 16
+
+    def set_length(self, length:int) -> None:
+        self._length = length
+
+    @property
+    def data(self) -> bytes:
+        return self._data[self._start_addr-self._base_addr:self._start_addr-self._base_addr+self._length]
+
+    def _explore(self) -> None:
+        if self._length is None:
+            self._length = 1
+
+    def link(self, block_pool) -> None:
+        for link, link_path in zip(self._incoming_links, self._incoming_link_path_index):
+            link_path_info = self._link_paths[link_path]
+
+            link_path_info['is_linked'] = True
+
+    def _context_is_equivalent(self, c1:dict, c2:dict):
+        return False

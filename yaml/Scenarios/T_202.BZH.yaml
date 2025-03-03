@@ -1,11 +1,8 @@
-"end_of_file_addr": !!int |-
+!TranslationCollection
+"_end_of_file_addr": !!int |-
   957
-"entries":
-  "5b83":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+"_entries":
+  !!int "23427": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>老婆<C_NONE>
       ソルディスの 砂漠の真ん中にある
@@ -18,17 +15,14 @@
     "original_byte_length": !!int |-
       182
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54682
       "target_addr": !!int |-
         23427
     "translated": !!null |-
       null
-  "5c39":
-    "is_relocatable": !!bool |-
-      true
-    "max_byte_length": !!null |-
-      null
+  !!int "23609": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>老婆<C_NONE>
       わしらは ソルディスから来たんじゃ。この聖域を 一度でいいから
@@ -39,10 +33,11 @@
     "original_byte_length": !!int |-
       152
     "references":
-    - "source_addr": !!int |-
+    - !CodeReference
+      "source_addr": !!int |-
         54691
       "target_addr": !!int |-
         23609
     "translated": !!null |-
       null
-"note": ""
+"_note": ""
