@@ -202,7 +202,7 @@
       <C_YELLOW>女<C_NONE>
       いらっしゃいませ。
       切符は １枚 100 Gold ですが
-      <Xf23063><JUMP6302><Xf65317><JUMP6318>切符を 買いますか？<Xf69229><JUMP62eb><Xf33063><Xf128><CLEAR>はい どうぞ。
+      <CHECK_MONEY6330><JUMP6302><Xf65317><JUMP6318>切符を 買いますか？<Xf69229><JUMP62eb><TAKE_MONEY6330><Xf128><CLEAR>はい どうぞ。
       また おいでください。<END>
       <LOC62eb><CLEAR>あら そうですか ･ ･ ･<END>
       <LOC6302>お金が 足りないわよ。<END>
@@ -217,6 +217,12 @@
         25192
     "translated": !!null |-
       null
+  !!int "25392": !RelocatableRawDataEntry
+    "data": !!binary |
+      ZAAAAA==
+    "original_byte_length": !!int |-
+      4
+    "references": []
   !!int "25396": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>武器屋<C_NONE>

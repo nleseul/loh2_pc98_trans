@@ -39,7 +39,20 @@
   !!int "23659": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ディーナ王妃<C_NONE>
-      <JUMP5c0a><LOC5c7d><C_YELLOW>フェリシア<C_NONE>
+      <JUMP5c0a>
+    "original_byte_length": !!int |-
+      18
+    "references":
+    - !CodeReference
+      "source_addr": !!int |-
+        54643
+      "target_addr": !!int |-
+        23659
+    "translated": !!null |-
+      null
+  !!int "23677": !RelocatableTranslatableEntry
+    "original": |-
+      <C_YELLOW>フェリシア<C_NONE>
       どうして あなたも セリオスも
       落ちついて いられないのですか？
 
@@ -49,13 +62,8 @@
 
       くれぐれも むりをしないように。
     "original_byte_length": !!int |-
-      201
+      183
     "references":
-    - !CodeReference
-      "source_addr": !!int |-
-        54643
-      "target_addr": !!int |-
-        23659
     - !CodeReference
       "source_addr": !!int |-
         54658

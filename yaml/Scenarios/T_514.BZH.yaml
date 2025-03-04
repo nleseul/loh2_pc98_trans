@@ -10,7 +10,7 @@
       密造酒は いらんかね？
       １本 50000 Gold じゃ。
 
-      <Xf2cf5c><JUMP5c4d><Xf65317><JUMP5c9d>密造酒を 買いますか？<Xf69229><JUMP5c02><Xf3cf5c><Xf12b><LOC5c02><CLEAR>お前さんたちの おかげで 密造酒が
+      <CHECK_MONEY5ccf><JUMP5c4d><Xf65317><JUMP5c9d>密造酒を 買いますか？<Xf69229><JUMP5c02><TAKE_MONEY5ccf><Xf12b><LOC5c02><CLEAR>お前さんたちの おかげで 密造酒が
       たくさんできたので 商売を
       始めたのじゃ。<END>
       <LOC5c4d>おや 金がたりんようじゃな。
@@ -28,6 +28,12 @@
         23434
     "translated": !!null |-
       null
+  !!int "23759": !RelocatableRawDataEntry
+    "data": !!binary |
+      UMMAAA==
+    "original_byte_length": !!int |-
+      4
+    "references": []
   !!int "23763": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ハーベイ<C_NONE>

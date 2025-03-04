@@ -288,8 +288,8 @@
       起こっても 安心だ。
       １個が たったの 300 Gold !!
 
-      <Xf027><Xf65317><JUMP6566><Xf25c66><JUMP6594><ITEM>を 買いますか？
-      <Xf69229><JUMP65c1><SET0025><Xf127><Xf35c66>はいよ これが最後のお守りだ。
+      <Xf027><Xf65317><JUMP6566><CHECK_MONEY665c><JUMP6594><ITEM>を 買いますか？
+      <Xf69229><JUMP65c1><SET0025><Xf127><TAKE_MONEY665c>はいよ これが最後のお守りだ。
       まいどー。<END>
       <LOC6566>なんだ もう 持てねーぞ。
       また あとで 来いよ。<END>
@@ -319,8 +319,8 @@
       earthquake.
       Only 300 gold apiece!
 
-      <Xf027><Xf65317><JUMP6566><Xf25c66><JUMP6594>Buy a <ITEM>?
-      <Xf69229><JUMP65c1><SET0025><Xf127><Xf35c66>Ah, excellent. That was my
+      <Xf027><Xf65317><JUMP6566><CHECK_MONEY665c><JUMP6594>Buy a <ITEM>?
+      <Xf69229><JUMP65c1><SET0025><Xf127><TAKE_MONEY665c>Ah, excellent. That was my
       last charm.
       Do come again!<END>
       <LOC6566>Ah, but you can't carry any more.
@@ -335,13 +335,19 @@
 
       They sold quite well, so I'll haveto acquire some more inventory.
       Do wait until then.
+  !!int "26204": !RelocatableRawDataEntry
+    "data": !!binary |
+      LAEAAA==
+    "original_byte_length": !!int |-
+      4
+    "references": []
   !!int "26208": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>女<C_NONE>
       いらっしゃいませ。
       船に乗るなら 切符を買ってください。１枚 100 Gold です。
 
-      <Xf2e067><JUMP6791><Xf65317><JUMP67b0>切符を 買いますか？<Xf69229><JUMP6745><Xf3e067><Xf128><ASMd63d><CLEAR>船に乗るときに この切符を出さないと乗せてくれませんから、落したりしてなくさないように してくださいね。<END>
+      <CHECK_MONEY67e0><JUMP6791><Xf65317><JUMP67b0>切符を 買いますか？<Xf69229><JUMP6745><TAKE_MONEY67e0><Xf128><ASMd63d><CLEAR>船に乗るときに この切符を出さないと乗せてくれませんから、落したりしてなくさないように してくださいね。<END>
       <LOC6745><CLEAR>あら そうですか ･ ･ ･
       切符がないと 船には乗れないのよ。
       わかってるわよね？<END>
@@ -362,7 +368,7 @@
       the ship, please buy your ticket
       here. They are 100 gold each.
 
-      <Xf2e067><JUMP6791><Xf65317><JUMP67b0>Will you be buying a ticket?<Xf69229><JUMP6745><Xf3e067><Xf128><ASMd63d><CLEAR>You won't be able to board the
+      <CHECK_MONEY67e0><JUMP6791><Xf65317><JUMP67b0>Will you be buying a ticket?<Xf69229><JUMP6745><TAKE_MONEY67e0><Xf128><ASMd63d><CLEAR>You won't be able to board the
       ship without your ticket, so
       please take care not to lose it.<END>
       <LOC6745><CLEAR>Oh, I see...
@@ -373,6 +379,12 @@
       enough money for one.<END>
       <LOC67b0>But it doesn't look like you're
       able to carry any more.
+  !!int "26592": !RelocatableRawDataEntry
+    "data": !!binary |
+      ZAAAAA==
+    "original_byte_length": !!int |-
+      4
+    "references": []
   !!int "26596": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>宿屋<C_NONE>

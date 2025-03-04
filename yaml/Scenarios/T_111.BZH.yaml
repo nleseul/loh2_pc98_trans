@@ -213,7 +213,7 @@
       <IF0030><JUMP63dd><IF0034><JUMP6519><LOC63dd>サイレスの呪文は いかがですか？
 
       <IF0030><JUMP6415><IF_NOT0033><JUMP6415><IF_NOT0019><JUMP6415><IF0031><JUMP6870><LOC6415>１つ 200 Gold になりますが
-      <Xf65317><JUMP64d5><Xf2546b><JUMP64f8>サイレスを買いますか？
+      <Xf65317><JUMP64d5><CHECK_MONEY6b54><JUMP64f8>サイレスを買いますか？
       <Xf69229><JUMP6485><SET0404><Xf193>これはどうも ありがとうございます。
 
       <JUMP6415><LOC6485>そうですか ･ ･ ･
@@ -327,6 +327,12 @@
     "references": []
     "translated": !!null |-
       null
+  !!int "27476": !RelocatableRawDataEntry
+    "data": !!binary |
+      yAAAAA==
+    "original_byte_length": !!int |-
+      4
+    "references": []
   !!int "27480": !RelocatableRawDataEntry
     "data": !!binary |
       lgAAAA==
@@ -345,7 +351,7 @@
       ここは 切符売場です。
       １枚 100 Gold になりますが
 
-      <Xf2486c><JUMP6c0b><Xf65317><JUMP6c30>切符を 買いますか？<Xf69229><JUMP6bf4><Xf3486c><Xf128><CLEAR>はい どうぞ、ありがとうございます。<END>
+      <CHECK_MONEY6c48><JUMP6c0b><Xf65317><JUMP6c30>切符を 買いますか？<Xf69229><JUMP6bf4><TAKE_MONEY6c48><Xf128><CLEAR>はい どうぞ、ありがとうございます。<END>
       <LOC6bf4><CLEAR>あら そうですか ･ ･ ･<END>
       <LOC6c0b>お客さん お金が 足りないわよ。<IF0048><JUMP61f8><END>
       <LOC6c30>これ以上 持てないわよ。
@@ -359,6 +365,12 @@
         27484
     "translated": !!null |-
       null
+  !!int "27720": !RelocatableRawDataEntry
+    "data": !!binary |
+      ZAAAAA==
+    "original_byte_length": !!int |-
+      4
+    "references": []
   !!int "27729": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE><RET_N>

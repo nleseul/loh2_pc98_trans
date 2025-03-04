@@ -61,8 +61,8 @@ EVENT_CODE_INFO = {
     # New codes for DS6-2
     0xf0: EventCodeInfo(length=2),
     0xf1: EventCodeInfo(length=2),
-    0xf2: EventCodeInfo(length=3),
-    0xf3: EventCodeInfo(length=3),
+    0xf2: EventCodeInfo(mnemonic="CHECK_MONEY",length=3),
+    0xf3: EventCodeInfo(mnemonic="TAKE_MONEY", length=3),
     0xf4: EventCodeInfo(length=4),
     0xf5: EventCodeInfo(length=4),
     0xf6: EventCodeInfo(length=3),
@@ -127,6 +127,14 @@ def disassemble_event(scenario_data, base_addr, start_addr, continuation_extent_
 
             if code == 0x0f:
                 jumps.add(instructions[-1].arg_as_int)
+                if len(instructions) == 1 or not isinstance(instructions[-2], DS6CodeInstruction) or instructions[-2].code not in [ 0x11, 0x12, 0xf2, 0xf6, 0xf8 ]:
+                    # We should stop parsing at unconditional jumps. So break unless the instruction prior to this jump
+                    # was a condition.
+                    #break
+                    if addr+base_addr in jumps:
+                        jumps.remove(addr+base_addr)
+                    else:
+                        break
             elif code == 0x15: # ASM call
                 if instructions[-1].arg_as_int == 0xe887:
                     break
@@ -190,7 +198,6 @@ def encode_event_string(text:str, max_length=None) -> tuple[typing.ByteString, l
                     raise Exception(f"Tag <{tag_contents}> has the incorrect data length.")
                 loc_addr = int(tag_contents[3:7], base=16)
                 loc_offset = len(encoded)
-                #locators[loc_addr] = loc_offset
                 locators.append(EncodedEventLocationMarker(loc_offset, loc_addr))
                 current_encoded_bytes = b''
                 text = text[tag_end_loc + 1:]
@@ -237,14 +244,13 @@ def encode_event_string(text:str, max_length=None) -> tuple[typing.ByteString, l
                     current_encoded_bytes += int.to_bytes(arg, length=2, byteorder='little')
 
                     if code == 0x0f: # Jump
-                        #references.append((len(encoded) + 1, arg))
                         references.append(EncodedEventLocationMarker(len(encoded) + 1, arg))
                         if len(text) == 0:
                             terminated = True
                     elif code == 0x10: # Call
-                        #references.append((len(encoded) + 1, arg))
                         references.append(EncodedEventLocationMarker(len(encoded) + 1, arg))
-
+                    elif code == 0xf2 or code == 0xf3: # Check money / deduct money
+                        references.append(EncodedEventLocationMarker(len(encoded) + 1, arg))
 
                 elif data_length == 10:
                     # Used for the "LEADER" code
@@ -252,7 +258,6 @@ def encode_event_string(text:str, max_length=None) -> tuple[typing.ByteString, l
                         raise Exception(f"Argument text \"{arg_str}\" following tag <{code_info.mnemonic}> has the wrong length")
                     for ref_index in range(5):
                         call_addr = int(tag_contents[6 + ref_index*5:6 + ref_index*5 + 4], base=16)
-                        #references.append((len(encoded) + ref_index*2 + 1, call_addr))
                         references.append(len(encoded) + ref_index*2 + 1, call_addr)
                         current_encoded_bytes += int.to_bytes(call_addr, 2, 'little')
                 else:
@@ -376,6 +381,16 @@ class DS6EventBlock(Block):
                                 self.add_global_reference(instruction.addr + ref_index*2 + 1, arg)
                             else:
                                 link.connect_blocks(self, block_pool.get_block("event", arg))
+
+                    elif code == 0xf2 or code == 0xf3: # Check if money is less than the value at the pointer/deduct money using the value at the pointer
+                        arg = instruction.arg_as_int
+                        link = Link(instruction.addr + 1, arg, source_instruction_addr=instruction.addr)
+
+                        value_block = block_pool.get_block("data", arg)
+                        assert(isinstance(value_block, DataBlock))
+                        value_block.set_length(4)
+
+                        link.connect_blocks(self, block_pool.get_block("data", arg))
 
             for jump_target, jump_source in jump_map.items():
                 link = Link(jump_source + 1, jump_target, source_instruction_addr=jump_source)

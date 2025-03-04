@@ -12,20 +12,28 @@
       やってやるよ。
       <LOC5c20>先に行ってるから 早く来いよ。<SET00ea><ASMd690><END>
       <LOC5c44>しかたねえな やってやるよ。
-      <JUMP5c20><LOC5c63><CALL61fb>なんだ おめーら？
-      よく ここまで 来れたもんだな。
-
-      でもな こんなとこに 来たって
-      金スラれるぐらいなもんだぜ。
-      ひでえ目 あわねえうちに 帰りな。
+      <JUMP5c20>
     "original_byte_length": !!int |-
-      326
+      183
     "references":
     - !CodeReference
       "source_addr": !!int |-
         54751
       "target_addr": !!int |-
         23468
+    "translated": !!null |-
+      null
+  !!int "23651": !RelocatableTranslatableEntry
+    "original": |-
+      <CALL61fb>なんだ おめーら？
+      よく ここまで 来れたもんだな。
+
+      でもな こんなとこに 来たって
+      金スラれるぐらいなもんだぜ。
+      ひでえ目 あわねえうちに 帰りな。
+    "original_byte_length": !!int |-
+      143
+    "references":
     - !CodeReference
       "source_addr": !!int |-
         54760

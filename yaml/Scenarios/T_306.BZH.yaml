@@ -116,7 +116,7 @@
       ここは キップウリバあるよ。
       ひとつ 100 Gold ね。
 
-      <Xf2c55f><JUMP5f97><Xf65317><JUMP5faf>切符を 買いますか？<Xf69229><JUMP5f7c><Xf3c55f><Xf128><CLEAR>ども ありがと。<END>
+      <CHECK_MONEY5fc5><JUMP5f97><Xf65317><JUMP5faf>切符を 買いますか？<Xf69229><JUMP5f7c><TAKE_MONEY5fc5><Xf128><CLEAR>ども ありがと。<END>
       <LOC5f7c><CLEAR>ほんとに いらないあるか？<END>
       <LOC5f97>おカネ たりないあるよ。<END>
       <LOC5faf>もう もてないあるよ。
@@ -130,6 +130,12 @@
         24313
     "translated": !!null |-
       null
+  !!int "24517": !RelocatableRawDataEntry
+    "data": !!binary |
+      ZAAAAA==
+    "original_byte_length": !!int |-
+      4
+    "references": []
   !!int "24521": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>武器屋<C_NONE>

@@ -58,20 +58,28 @@
       null
   !!int "30013": !RelocatableTranslatableEntry
     "original": |-
-      の２<JUMP7533><LOC7544><ACTOR>は炎のブレスをはいた。<RET_N>
+      の２<JUMP7533>
     "original_byte_length": !!int |-
-      31
+      7
+    "references":
+    - !CodeReference
+      "source_addr": !!int |-
+        61133
+      "target_addr": !!int |-
+        30013
+    "translated": !!null |-
+      null
+  !!int "30020": !RelocatableTranslatableEntry
+    "original": |-
+      <ACTOR>は炎のブレスをはいた。<RET_N>
+    "original_byte_length": !!int |-
+      24
     "references":
     - !CodeReference
       "source_addr": !!int |-
         61219
       "target_addr": !!int |-
         30020
-    - !CodeReference
-      "source_addr": !!int |-
-        61133
-      "target_addr": !!int |-
-        30013
     "translated": !!null |-
       null
   !!int "30044": !RelocatableTranslatableEntry

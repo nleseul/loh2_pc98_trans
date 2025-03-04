@@ -139,24 +139,40 @@
       null
   !!int "25918": !RelocatableTranslatableEntry
     "original": |-
-      <CALL666c><JUMP6571><LOC6544><C_YELLOW>バイオラのマスター<C_NONE>
-      <JUMP6571><LOC655c><C_YELLOW>ヨシュアのマスター<C_NONE>
-      <LOC6571>おお 君たちか。
-      早く 何とかしてくれないか？
-      テクニカの部屋は すぐ近くなのだ。
+      <CALL666c><JUMP6571>
     "original_byte_length": !!int |-
-      129
+      6
     "references":
     - !CodeReference
       "source_addr": !!int |-
         55095
       "target_addr": !!int |-
         25918
+    "translated": !!null |-
+      null
+  !!int "25924": !RelocatableTranslatableEntry
+    "original": |-
+      <C_YELLOW>バイオラのマスター<C_NONE>
+      <JUMP6571>
+    "original_byte_length": !!int |-
+      24
+    "references":
     - !CodeReference
       "source_addr": !!int |-
         55104
       "target_addr": !!int |-
         25924
+    "translated": !!null |-
+      null
+  !!int "25948": !RelocatableTranslatableEntry
+    "original": |-
+      <C_YELLOW>ヨシュアのマスター<C_NONE>
+      <LOC6571>おお 君たちか。
+      早く 何とかしてくれないか？
+      テクニカの部屋は すぐ近くなのだ。
+    "original_byte_length": !!int |-
+      99
+    "references":
     - !CodeReference
       "source_addr": !!int |-
         55113

@@ -236,7 +236,7 @@
       ここは 切符売場です。
       １枚 100 Gold になりますが
 
-      <Xf2e561><JUMP61ae><Xf65317><JUMP61cd>切符を 買いますか？<Xf69229><JUMP6197><Xf3e561><Xf128><CLEAR>はい どうぞ、ありがとうございます。<END>
+      <CHECK_MONEY61e5><JUMP61ae><Xf65317><JUMP61cd>切符を 買いますか？<Xf69229><JUMP6197><TAKE_MONEY61e5><Xf128><CLEAR>はい どうぞ、ありがとうございます。<END>
       <LOC6197><CLEAR>あら そうですか ･ ･ ･<END>
       <LOC61ae>お客さん お金が 足りないわよ。<END>
       <LOC61cd>これ以上 持てないわよ。
@@ -250,6 +250,12 @@
         24831
     "translated": !!null |-
       null
+  !!int "25061": !RelocatableRawDataEntry
+    "data": !!binary |
+      ZAAAAA==
+    "original_byte_length": !!int |-
+      4
+    "references": []
   !!int "25070": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE><RET_N>

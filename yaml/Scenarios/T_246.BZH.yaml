@@ -109,8 +109,8 @@
       世界３大名所めぐりのクルージングはいかがですか。
 
       一周 10000 Gold ですけど。
-      <Xf2e160><JUMP608b>船に のりますか？
-      <Xf69229><JUMP60a7><ASM6b26><Xf3e160><SET0404><CLEAR>10000 Goldを 払いました。<SND0103><END>
+      <CHECK_MONEY60e1><JUMP608b>船に のりますか？
+      <Xf69229><JUMP60a7><ASM6b26><TAKE_MONEY60e1><SET0404><CLEAR>10000 Goldを 払いました。<SND0103><END>
       <LOC608b>お金が たりないようですね。<END>
       <LOC60a7><CLEAR>そうですか ･ ･ ･ 息抜きになって
       いいと思うんですが ･ ･ ･
@@ -124,6 +124,12 @@
         24563
     "translated": !!null |-
       null
+  !!int "24801": !RelocatableRawDataEntry
+    "data": !!binary |
+      ECcAAA==
+    "original_byte_length": !!int |-
+      4
+    "references": []
   !!int "24805": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>船員<C_NONE>

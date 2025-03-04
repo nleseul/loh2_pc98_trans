@@ -44,7 +44,7 @@
       持ちあわせが ねぇんだよな。
 
       <C_YELLOW>ゴバール<C_NONE>
-      <Xf22560><JUMP5f54><Xf8287417><JUMP5fe9>おっ 切符まで あるじゃねえか。
+      <CHECK_MONEY6025><JUMP5f54><Xf8287417><JUMP5fe9>おっ 切符まで あるじゃねえか。
       <JUMP5fe9><LOC5f54><Xf8287417><JUMP5f9d>ちっ カネ持ってねえのかよ。
       おー こりゃいいや 切符じゃねえか。
 
@@ -70,13 +70,19 @@
       got no money, ya see.
 
       <C_YELLOW>Gobar<C_NONE>
-      <Xf22560><JUMP5f54><Xf8287417><JUMP5fe9>Oh, a ticket, too?
+      <CHECK_MONEY6025><JUMP5f54><Xf8287417><JUMP5fe9>Oh, a ticket, too?
       <JUMP5fe9><LOC5f54><Xf8287417><JUMP5f9d>What? You neither?
       Oh, how about that ticket?
 
       <JUMP5fe9><LOC5f9d>What? Nothin' of value on you?
       C'mon, where're ya hidin' it?<JUMP601e><LOC5fe9>Ha ha, don't worry!
       We'll pay ya back soon.<SND010b><LOC601e><ASMd826><SET0028>
+  !!int "24613": !RelocatableRawDataEntry
+    "data": !!binary |
+      AQAAAA==
+    "original_byte_length": !!int |-
+      4
+    "references": []
   !!int "24621": !RelocatableTranslatableEntry
     "original": |-
       <CH1>
@@ -262,7 +268,7 @@
       ネリアまで行くには 切符１枚で
       料金は 100 Gold だ。
 
-      <Xf65317><JUMP663d><Xf25766><JUMP6621>切符を 買いますか？<Xf69229><JUMP65d7><Xf35766><Xf128><CLEAR>修理が終わったら すぐに
+      <Xf65317><JUMP663d><CHECK_MONEY6657><JUMP6621>切符を 買いますか？<Xf69229><JUMP65d7><TAKE_MONEY6657><Xf128><CLEAR>修理が終わったら すぐに
       出航する はずですから。
       遅れないように してください。<END>
       <LOC65d7><CLEAR>やっぱり そうですよね。
@@ -279,6 +285,12 @@
       "target_addr": !!int |-
         25839
     "translated": ""
+  !!int "26199": !RelocatableRawDataEntry
+    "data": !!binary |
+      ZAAAAA==
+    "original_byte_length": !!int |-
+      4
+    "references": []
   !!int "26203": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>バーテン<C_NONE>
@@ -299,7 +311,7 @@
       うーん 本当でしょうね？
       それじゃあ 今までのことは 忘れて
       あげましょう。<LOC67ce><END>
-      <LOC67cf>１杯 10 Gold だけど <Xf23168><JUMP6820>酒を飲むかい？<Xf69229><JUMP681f><Xf33168><CLEAR>はい どうぞ。<Xf6a1d8><JUMP681e>
+      <LOC67cf>１杯 10 Gold だけど <CHECK_MONEY6831><JUMP6820>酒を飲むかい？<Xf69229><JUMP681f><TAKE_MONEY6831><CLEAR>はい どうぞ。<Xf6a1d8><JUMP681e>
 
       <SET0418><ASMd89b><UNSET0418><LOC681e><END>
       <LOC681f><RET><LOC6820>金が足りないよ。
@@ -313,6 +325,12 @@
         26203
     "translated": !!null |-
       null
+  !!int "26673": !RelocatableRawDataEntry
+    "data": !!binary |
+      CgAAAA==
+    "original_byte_length": !!int |-
+      4
+    "references": []
   !!int "26677": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>武器屋<C_NONE>

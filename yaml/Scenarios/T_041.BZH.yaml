@@ -139,7 +139,7 @@
       いらっしゃいませ。
       船に乗るなら 切符を買ってください。１枚 100 Gold です。
 
-      <Xf2a861><JUMP6159><Xf65317><JUMP6178>切符を 買いますか？<Xf69229><JUMP610d><Xf3a861><Xf128><CLEAR>船に乗るときに この切符を出さないと乗せてくれませんから、落したりしてなくさないように してくださいね。<END>
+      <CHECK_MONEY61a8><JUMP6159><Xf65317><JUMP6178>切符を 買いますか？<Xf69229><JUMP610d><TAKE_MONEY61a8><Xf128><CLEAR>船に乗るときに この切符を出さないと乗せてくれませんから、落したりしてなくさないように してくださいね。<END>
       <LOC610d><CLEAR>あら そうですか ･ ･ ･
       切符がないと 船には乗れないのよ。
       わかってるわよね？<END>
@@ -156,6 +156,12 @@
         24619
     "translated": !!null |-
       null
+  !!int "25000": !RelocatableRawDataEntry
+    "data": !!binary |
+      ZAAAAA==
+    "original_byte_length": !!int |-
+      4
+    "references": []
   !!int "25004": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>宿屋<C_NONE>
@@ -163,7 +169,7 @@
       なったことも あるんですよ。
       だから １晩 100 Gold になります。
 
-      <Xf2e662><JUMP62ae>よろしいですか？<Xf69229><JUMP6270><Xf3e662><SET0401><ASMd6e1><CLEAR>それは ありがとうございます。
+      <CHECK_MONEY62e6><JUMP62ae>よろしいですか？<Xf69229><JUMP6270><TAKE_MONEY62e6><SET0401><ASMd6e1><CLEAR>それは ありがとうございます。
       ごゆっくり お休みください。<END>
       <LOC6270><CLEAR>そうですか 国王さまが お泊まりに
       なったことも あるのに ･ ･ ･<END>
@@ -179,6 +185,12 @@
         25004
     "translated": !!null |-
       null
+  !!int "25318": !RelocatableRawDataEntry
+    "data": !!binary |
+      ZAAAAA==
+    "original_byte_length": !!int |-
+      4
+    "references": []
   !!int "25322": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>武器屋<C_NONE>

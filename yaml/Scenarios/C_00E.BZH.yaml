@@ -194,22 +194,38 @@
   !!int "25254": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>セリオス<C_NONE>
-      <JUMP62cf><LOC62b4><C_YELLOW>エリオン<C_NONE>
-      <JUMP62cf><LOC62c2><C_YELLOW>ゲイル３世<C_NONE>
-      <LOC62cf> ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･
+      <JUMP62cf>
     "original_byte_length": !!int |-
-      76
+      14
     "references":
     - !CodeReference
       "source_addr": !!int |-
         54756
       "target_addr": !!int |-
         25254
+    "translated": !!null |-
+      null
+  !!int "25268": !RelocatableTranslatableEntry
+    "original": |-
+      <C_YELLOW>エリオン<C_NONE>
+      <JUMP62cf>
+    "original_byte_length": !!int |-
+      14
+    "references":
     - !CodeReference
       "source_addr": !!int |-
         54771
       "target_addr": !!int |-
         25268
+    "translated": !!null |-
+      null
+  !!int "25282": !RelocatableTranslatableEntry
+    "original": |-
+      <C_YELLOW>ゲイル３世<C_NONE>
+      <LOC62cf> ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･ ･
+    "original_byte_length": !!int |-
+      48
+    "references":
     - !CodeReference
       "source_addr": !!int |-
         54786

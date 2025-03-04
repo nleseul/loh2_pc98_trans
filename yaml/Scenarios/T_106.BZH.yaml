@@ -115,7 +115,7 @@
       ネリアまで行くには 切符１枚で
       料金は 100 Gold だ。
 
-      <Xf65317><JUMP5fb0><Xf2ca5f><JUMP5f94>切符を 買いますか？<Xf69229><JUMP5f6b><Xf3ca5f><Xf128><CLEAR>はい どうぞ。船に のるまで なくさないでください。<END>
+      <Xf65317><JUMP5fb0><CHECK_MONEY5fca><JUMP5f94>切符を 買いますか？<Xf69229><JUMP5f6b><TAKE_MONEY5fca><Xf128><CLEAR>はい どうぞ。船に のるまで なくさないでください。<END>
       <LOC5f6b><CLEAR>やっぱりね。
       買わないと 思いましたよ。
       <END>
@@ -131,6 +131,12 @@
         24263
     "translated": !!null |-
       null
+  !!int "24522": !RelocatableRawDataEntry
+    "data": !!binary |
+      ZAAAAA==
+    "original_byte_length": !!int |-
+      4
+    "references": []
   !!int "24526": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>バーテン<C_NONE>
@@ -151,7 +157,7 @@
       うーん 本当でしょうね？
       それじゃあ 今までのことは 忘れて
       あげましょう。<END>
-      <LOC6148>１杯 10 Gold だけど <Xf2aa61><JUMP6199>酒を飲むかい？<Xf69229><JUMP6198><Xf3aa61><CLEAR>はい どうぞ。<Xf6c2d6><JUMP6197>
+      <LOC6148>１杯 10 Gold だけど <CHECK_MONEY61aa><JUMP6199>酒を飲むかい？<Xf69229><JUMP6198><TAKE_MONEY61aa><CLEAR>はい どうぞ。<Xf6c2d6><JUMP6197>
 
       <SET0418><ASMd6bc><UNSET0418><LOC6197><END>
       <LOC6198><RET><LOC6199>金が足りないよ。
@@ -165,6 +171,12 @@
         24526
     "translated": !!null |-
       null
+  !!int "25002": !RelocatableRawDataEntry
+    "data": !!binary |
+      CgAAAA==
+    "original_byte_length": !!int |-
+      4
+    "references": []
   !!int "25006": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>呪文屋<C_NONE>

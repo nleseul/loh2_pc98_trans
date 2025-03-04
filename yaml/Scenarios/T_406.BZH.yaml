@@ -136,7 +136,7 @@
       <C_YELLOW>男<C_NONE>
       いらっしゃい 切符が いるのかい？
       １つ 100 Gold だけど
-      <Xf2c95f><JUMP5f93><Xf65317><JUMP5faf>どうする 切符を 買うかい？<Xf69229><JUMP5f58><Xf3c95f><Xf128><CLEAR>まいどー。<END>
+      <CHECK_MONEY5fc9><JUMP5f93><Xf65317><JUMP5faf>どうする 切符を 買うかい？<Xf69229><JUMP5f58><TAKE_MONEY5fc9><Xf128><CLEAR>まいどー。<END>
       <LOC5f58><CLEAR>からかうのは やめてくれ おれだっていろいろと 忙しいんだ。<END>
       <LOC5f93>お金が 足りないみたいだよ。<END>
       <LOC5faf>もう 持てないみたいだよ。
@@ -150,6 +150,12 @@
         24288
     "translated": !!null |-
       null
+  !!int "24521": !RelocatableRawDataEntry
+    "data": !!binary |
+      ZAAAAA==
+    "original_byte_length": !!int |-
+      4
+    "references": []
   !!int "24525": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>呪文屋<C_NONE>

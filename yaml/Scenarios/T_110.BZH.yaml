@@ -138,22 +138,30 @@
       <CALL61a2>そうですか ･ ･ ･ 残念ですね。
       それじゃあ 気が変わったら いつでもいらしてください。<END>
       <LOC6097>聖なるシリーズを ゆずる気にでも
-      なったのですか？<JUMP601c><LOC60ca><C_YELLOW>女<C_NONE>
-      いらっしゃいませ。
-      ここは 切符売場です。
-      １枚 100 Gold になりますが
-
-      <Xf29261><JUMP6173>切符を 買いますか？<Xf69229><JUMP615c><Xf39261><Xf128><CLEAR>はい どうぞ、ありがとうございます。<END>
-      <LOC615c><CLEAR>あら そうですか ･ ･ ･<END>
-      <LOC6173>お客さん お金が 足りないわよ。
+      なったのですか？<JUMP601c>
     "original_byte_length": !!int |-
-      808
+      608
     "references":
     - !CodeReference
       "source_addr": !!int |-
         54706
       "target_addr": !!int |-
         24170
+    "translated": !!null |-
+      null
+  !!int "24778": !RelocatableTranslatableEntry
+    "original": |-
+      <C_YELLOW>女<C_NONE>
+      いらっしゃいませ。
+      ここは 切符売場です。
+      １枚 100 Gold になりますが
+
+      <CHECK_MONEY6192><JUMP6173>切符を 買いますか？<Xf69229><JUMP615c><TAKE_MONEY6192><Xf128><CLEAR>はい どうぞ、ありがとうございます。<END>
+      <LOC615c><CLEAR>あら そうですか ･ ･ ･<END>
+      <LOC6173>お客さん お金が 足りないわよ。
+    "original_byte_length": !!int |-
+      200
+    "references":
     - !CodeReference
       "source_addr": !!int |-
         54712
@@ -161,6 +169,12 @@
         24778
     "translated": !!null |-
       null
+  !!int "24978": !RelocatableRawDataEntry
+    "data": !!binary |
+      ZAAAAA==
+    "original_byte_length": !!int |-
+      4
+    "references": []
   !!int "24987": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE><RET_N>

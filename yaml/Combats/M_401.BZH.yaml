@@ -57,22 +57,30 @@
       null
   !!int "30081": !RelocatableTranslatableEntry
     "original": |-
-      <ACTOR>は<CALL06a8><JUMP06bb><LOC758a><SET0041><CALL75c7>その程度の炎で この壁は破れんぞ。<IF0418><JUMP75b8>
+      <ACTOR>は<CALL06a8><JUMP06bb>
+    "original_byte_length": !!int |-
+      9
+    "references":
+    - !CodeReference
+      "source_addr": !!int |-
+        61256
+      "target_addr": !!int |-
+        30081
+    "translated": !!null |-
+      null
+  !!int "30090": !RelocatableTranslatableEntry
+    "original": |-
+      <SET0041><CALL75c7>その程度の炎で この壁は破れんぞ。<IF0418><JUMP75b8>
 
       <LOC75b8><RET>
     "original_byte_length": !!int |-
-      56
+      47
     "references":
     - !CodeReference
       "source_addr": !!int |-
         61369
       "target_addr": !!int |-
         30090
-    - !CodeReference
-      "source_addr": !!int |-
-        61256
-      "target_addr": !!int |-
-        30081
     "translated": !!null |-
       null
   !!int "30137": !RelocatableTranslatableEntry

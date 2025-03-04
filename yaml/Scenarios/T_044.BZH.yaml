@@ -42,7 +42,7 @@
       あと １つだけだから 100 GOLDで
       どうだ？
 
-      <Xf2655e><JUMP5e00><Xf65317><JUMP5dc1>災害のお守りを 買いますか？<Xf69229><JUMP5d85><SET0024><Xf3655e><Xf127><CLEAR>助かったよ。７つも買っちゃったからどうしようかと思っていたんだ。<END>
+      <CHECK_MONEY5e65><JUMP5e00><Xf65317><JUMP5dc1>災害のお守りを 買いますか？<Xf69229><JUMP5d85><SET0024><TAKE_MONEY5e65><Xf127><CLEAR>助かったよ。７つも買っちゃったからどうしようかと思っていたんだ。<END>
       <LOC5d85><CLEAR>そうか 残念だな。ちょっとは
       役に立つかもしれないのに ･ ･ ･<END>
       <LOC5dc1>なんだ これ以上 持てないのか。
@@ -61,6 +61,12 @@
         23738
     "translated": !!null |-
       null
+  !!int "24165": !RelocatableRawDataEntry
+    "data": !!binary |
+      ZAAAAA==
+    "original_byte_length": !!int |-
+      4
+    "references": []
   !!int "24169": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>女<C_NONE>
@@ -132,7 +138,7 @@
       いらっしゃいませ。
       船に乗るなら 切符を買ってください。１枚 100 Gold です。
 
-      <Xf29661><JUMP6147><Xf65317><JUMP6166>切符を 買いますか？<Xf69229><JUMP60fb><Xf39661><Xf128><CLEAR>船に乗るときに この切符を出さないと乗せてくれませんから、落したりしてなくさないように してくださいね。<END>
+      <CHECK_MONEY6196><JUMP6147><Xf65317><JUMP6166>切符を 買いますか？<Xf69229><JUMP60fb><TAKE_MONEY6196><Xf128><CLEAR>船に乗るときに この切符を出さないと乗せてくれませんから、落したりしてなくさないように してくださいね。<END>
       <LOC60fb><CLEAR>あら そうですか ･ ･ ･
       切符がないと 船には乗れないのよ。
       わかってるわよね？<END>
@@ -149,6 +155,12 @@
         24601
     "translated": !!null |-
       null
+  !!int "24982": !RelocatableRawDataEntry
+    "data": !!binary |
+      ZAAAAA==
+    "original_byte_length": !!int |-
+      4
+    "references": []
   !!int "24986": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>宿屋<C_NONE>
@@ -156,7 +168,7 @@
       なったことも あるんですよ。
       だから １晩 100 Gold になります。
 
-      <Xf2d462><JUMP629c>よろしいですか？<Xf69229><JUMP625e><Xf3d462><SET0401><ASMd6f4><CLEAR>それは ありがとうございます。
+      <CHECK_MONEY62d4><JUMP629c>よろしいですか？<Xf69229><JUMP625e><TAKE_MONEY62d4><SET0401><ASMd6f4><CLEAR>それは ありがとうございます。
       ごゆっくり お休みください。<END>
       <LOC625e><CLEAR>そうですか 国王さまが お泊まりに
       なったことも あるのに ･ ･ ･<END>
@@ -172,6 +184,12 @@
         24986
     "translated": !!null |-
       null
+  !!int "25300": !RelocatableRawDataEntry
+    "data": !!binary |
+      ZAAAAA==
+    "original_byte_length": !!int |-
+      4
+    "references": []
   !!int "25304": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>武器屋<C_NONE>

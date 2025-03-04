@@ -25,11 +25,19 @@
       null
   !!int "29079": !RelocatableTranslatableEntry
     "original": |-
-      皇帝 <JUMP7170><LOC719f>
+      皇帝 <JUMP7170>
+    "original_byte_length": !!int |-
+      8
+    "references": []
+    "translated": !!null |-
+      null
+  !!int "29087": !RelocatableTranslatableEntry
+    "original": |2-
+
 
       <RET>
     "original_byte_length": !!int |-
-      10
+      2
     "references":
     - !CodeReference
       "source_addr": !!int |-

@@ -165,20 +165,28 @@
       先に行ってるから後から来てくれ。<LOC6627><SET00ea><ASMd6ab><LOC662d><END>
       <LOC662e>また あの箱を止めてほしいのか？
       めんどうなやつらだな よしちょっと
-      待ってろよ。<JUMP6627><LOC667f><CALL6ce1>なんだ おめーら？
-      よく ここまで 来れたもんだな。
-
-      でもな こんなとこに 来たって
-      金スラれるぐらいなもんだぜ。
-      ひでえ目 あわねえうちに 帰りな。
+      待ってろよ。<JUMP6627>
     "original_byte_length": !!int |-
-      2614
+      2471
     "references":
     - !CodeReference
       "source_addr": !!int |-
         54759
       "target_addr": !!int |-
         23768
+    "translated": !!null |-
+      null
+  !!int "26239": !RelocatableTranslatableEntry
+    "original": |-
+      <CALL6ce1>なんだ おめーら？
+      よく ここまで 来れたもんだな。
+
+      でもな こんなとこに 来たって
+      金スラれるぐらいなもんだぜ。
+      ひでえ目 あわねえうちに 帰りな。
+    "original_byte_length": !!int |-
+      143
+    "references":
     - !CodeReference
       "source_addr": !!int |-
         54768
