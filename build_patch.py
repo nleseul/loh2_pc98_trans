@@ -152,7 +152,7 @@ def patch_asm(patch:ips_util.Patch, nasm_path:str, base_addr:int, max_length:int
     print(f"Encoding asm patch at {base_addr:04x} ({len(encoded)}/{max_length} bytes)")
 
     if len(encoded) > max_length:
-        raise Exception(f"Not enough space to patch asm code at {base_addr}! available={max_length} bytes; used={len(encoded)} bytes")
+        raise Exception(f"Not enough space to patch asm code at {base_addr:04x}! available={max_length} bytes; used={len(encoded)} bytes")
 
     patch.add_record(base_addr, encoded.ljust(max_length, b'\x90'))
 
@@ -222,7 +222,7 @@ def patch_menus(patch:ips_util.Patch, menu_trans:TranslationCollection) -> None:
         patch.add_record(base_addr + 0x7c00, encoded)
 
 
-def make_program_data_patch() -> ips_util.Patch:
+def make_program_data_patch(nasm_path:str) -> ips_util.Patch:
     patch = make_data_file_patch("yaml/ProgramText.yaml", 0x0, 0x0, event_offset_in_buffer=0x7c00)
 
     patch.add_record(0x7c80, b"   Prologue - Peaceful Days   ")
@@ -237,6 +237,25 @@ def make_program_data_patch() -> ips_util.Patch:
 
     patch_locations(patch, TranslationCollection.load("yaml/Locations.yaml"))
     patch_menus(patch, TranslationCollection.load("yaml/Menus.yaml"))
+
+    # Change the "fudge characters" (punctuation allowed to extend outside the text box)
+    # that will be checked in the translated text.
+    patch_asm(patch, nasm_path, 0x3357, 0x1c, '''
+        cmp ch,0x22
+        jc no_newline
+        ja newline
+        mov al,byte [si]
+        cmp al,0x21     ; exclamation mark
+        jz no_newline
+        cmp al,0x2e     ; period
+        jz no_newline
+        cmp al,0x2c     ; comma
+        jz no_newline
+    newline:
+        jmp 0x3624
+    no_newline:
+        ret
+    ''')
 
     return patch
 
@@ -327,7 +346,6 @@ def make_opening_data_patch(nasm_path:str) -> ips_util.Patch:
     handle_endpage:
         mov word[bp+0x0],0xffff
         ret
-
     ''')
 
     return patch
@@ -471,7 +489,7 @@ def main() -> None:
                 patch = None
 
                 if modified_path.endswith("PROG.BZH.bin"):
-                    patch = make_program_data_patch()
+                    patch = make_program_data_patch(config["NasmPath"])
                 elif modified_path.endswith("OPENING.BZH.bin"):
                     patch = make_opening_data_patch(config["NasmPath"])
                 elif modified_path.startswith("local/modified/MON/"):

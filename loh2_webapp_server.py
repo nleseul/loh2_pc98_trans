@@ -126,7 +126,8 @@ def make_condition_description(code:int, data:bytes) -> str | None:
 
 
 def render_text_html(trans:TranslationCollection, entry_point_key:int, max_pages:int|None = None, translated:bool = True, active_conditions:list[str] = []) -> tuple[list[str], list[str]]:
-    renderer = TextRenderer(34, 4, ["。", "!"])
+    fudge_characters = [".", ",", "!"] if translated else ["。", "!"]
+    renderer = TextRenderer(34, 4, fudge_characters)
 
     locator_to_key_and_offset = {}
     encoded_events = {}
