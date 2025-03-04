@@ -90,8 +90,8 @@
         34924
       "target_addr": !!int |-
         35093
-    "translated": !!null |-
-      null
+    "translated": |-
+      Rondo
   !!int "35100": !RelocatableTranslatableEntry
     "original": |-
       ラルファ
@@ -103,8 +103,8 @@
         34926
       "target_addr": !!int |-
         35100
-    "translated": !!null |-
-      null
+    "translated": |-
+      Larfa
   !!int "35109": !RelocatableTranslatableEntry
     "original": |-
       シリカ
@@ -129,8 +129,8 @@
         34930
       "target_addr": !!int |-
         35116
-    "translated": !!null |-
-      null
+    "translated": |-
+      Maschun
   !!int "35127": !RelocatableTranslatableEntry
     "original": |-
       リーゼル
@@ -142,8 +142,8 @@
         34932
       "target_addr": !!int |-
         35127
-    "translated": !!null |-
-      null
+    "translated": |-
+      Riezel
   !!int "35136": !RelocatableTranslatableEntry
     "original": |-
       ヨルド
@@ -773,8 +773,8 @@
         35030
       "target_addr": !!int |-
         35564
-    "translated": !!null |-
-      null
+    "translated": |-
+      Farleyn
   !!int "35576": !RelocatableTranslatableEntry
     "original": |-
       ウォンリーク
@@ -786,8 +786,8 @@
         35032
       "target_addr": !!int |-
         35576
-    "translated": !!null |-
-      null
+    "translated": |-
+      Wonliech
   !!int "35588": !RelocatableTranslatableEntry
     "original": |-
       ラヌーラ
@@ -799,8 +799,8 @@
         35034
       "target_addr": !!int |-
         35588
-    "translated": !!null |-
-      null
+    "translated": |-
+      Lanoura
   !!int "35597": !RelocatableTranslatableEntry
     "original": |-
       ソルディス
@@ -812,8 +812,8 @@
         35036
       "target_addr": !!int |-
         35597
-    "translated": !!null |-
-      null
+    "translated": |-
+      Soldythe
   !!int "35608": !RelocatableTranslatableEntry
     "original": |-
       モレストン
@@ -825,6 +825,6 @@
         35038
       "target_addr": !!int |-
         35608
-    "translated": !!null |-
-      null
+    "translated": |-
+      Moreston
 "_note": ""

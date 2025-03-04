@@ -287,8 +287,8 @@
       14
     "original": |-
       切符
-    "translated": !!null |-
-      null
+    "translated": |-
+      Ticket
   !!int "36463": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       14
@@ -322,8 +322,8 @@
       14
     "original": |-
       ワプの翼
-    "translated": !!null |-
-      null
+    "translated": |-
+      Warp Wing
   !!int "36563": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       14
@@ -357,8 +357,8 @@
       14
     "original": |-
       たいまつ
-    "translated": !!null |-
-      null
+    "translated": |-
+      Torch
   !!int "36663": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       14
@@ -378,22 +378,22 @@
       14
     "original": |-
       聖なるつるぎ
-    "translated": !!null |-
-      null
+    "translated": |-
+      Holy Sword
   !!int "36723": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       14
     "original": |-
       聖なるヨロイ
-    "translated": !!null |-
-      null
+    "translated": |-
+      Holy Armor
   !!int "36743": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       14
     "original": |-
       聖なるたて
-    "translated": !!null |-
-      null
+    "translated": |-
+      Holy Shield
   !!int "36763": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       14
@@ -539,29 +539,29 @@
       14
     "original": |-
       カノンの親書
-    "translated": !!null |-
-      null
+    "translated": |-
+      Kanon's Note
   !!int "37177": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       14
     "original": |-
       ランケアの親書
-    "translated": !!null |-
-      null
+    "translated": |-
+      Lanchea's Note
   !!int "37191": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       14
     "original": |-
       ハルパの親書
-    "translated": !!null |-
-      null
+    "translated": |-
+      Harpa's Note
   !!int "37205": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       14
     "original": |-
       マリスカの親書
-    "translated": !!null |-
-      null
+    "translated": |-
+      Mariska's Note
   !!int "37219": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       14

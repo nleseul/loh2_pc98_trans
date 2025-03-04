@@ -405,9 +405,22 @@
       <IF0418><JUMP0718>But <LOC0718><RET>
   !!int "1817": !RelocatableTranslatableEntry
     "original": |-
-      運悪<JUMP0724><LOC0720>運良<LOC0724>く<LOC0726><ACTOR>には当ら<JUMP073b><LOC0732><ACTOR>には効か<LOC073b>なかった。<RET_PAGE>
+      運悪<JUMP0724>
     "original_byte_length": !!int |-
-      45
+      7
+    "references":
+    - !CodeReference
+      "source_addr": !!int |-
+        7538
+      "target_addr": !!int |-
+        1817
+    "translated": "un<LOC0720>fortunate<LOC0724>ly, <LOC0726>it missed \n<JUMP073b><LOC0732>it\
+      \ had no\neffect on <LOC073b><ACTOR>.<RET_PAGE>\n\n\n"
+  !!int "1824": !RelocatableTranslatableEntry
+    "original": |-
+      運良く<LOC0726><ACTOR>には当ら<JUMP073b>
+    "original_byte_length": !!int |-
+      18
     "references":
     - !CodeReference
       "source_addr": !!int |-
@@ -416,21 +429,24 @@
         1830
     - !CodeReference
       "source_addr": !!int |-
-        7538
+        7530
       "target_addr": !!int |-
-        1817
+        1824
+    "translated": !!null |-
+      null
+  !!int "1842": !RelocatableTranslatableEntry
+    "original": |-
+      <ACTOR>には効かなかった。<RET_PAGE>
+    "original_byte_length": !!int |-
+      20
+    "references":
     - !CodeReference
       "source_addr": !!int |-
         7505
       "target_addr": !!int |-
         1842
-    - !CodeReference
-      "source_addr": !!int |-
-        7530
-      "target_addr": !!int |-
-        1824
-    "translated": "un<LOC0720>fortunate<LOC0724>ly, <LOC0726>it missed \n<JUMP073b><LOC0732>it\
-      \ had no\neffect on <LOC073b><ACTOR>.<RET_PAGE>\n\n\n"
+    "translated": !!null |-
+      null
   !!int "1880": !RelocatableTranslatableEntry
     "original": |-
       <ACTOR>のＨＰは回復しなかった。<RET_PAGE>
@@ -582,15 +598,10 @@
        damage!<RET_PAGE>
   !!int "2679": !RelocatableTranslatableEntry
     "original": |-
-      会心<JUMP0a82><LOC0a7e>痛恨<LOC0a82>の一撃 !!<RET_N>
+      会心<JUMP0a82>
     "original_byte_length": !!int |-
-      21
+      7
     "references":
-    - !CodeReference
-      "source_addr": !!int |-
-        7469
-      "target_addr": !!int |-
-        2686
     - !CodeReference
       "source_addr": !!int |-
         7461
@@ -598,6 +609,19 @@
         2679
     "translated": |-
       Critical hit<JUMP0a82><LOC0a7e>A dire blow<LOC0a82>!!<RET_N>
+  !!int "2686": !RelocatableTranslatableEntry
+    "original": |-
+      痛恨の一撃 !!<RET_N>
+    "original_byte_length": !!int |-
+      14
+    "references":
+    - !CodeReference
+      "source_addr": !!int |-
+        7469
+      "target_addr": !!int |-
+        2686
+    "translated": !!null |-
+      null
   !!int "2700": !RelocatableTranslatableEntry
     "original": |-
       <ACTOR>は気絶してしまった。<RET_PAGE>
