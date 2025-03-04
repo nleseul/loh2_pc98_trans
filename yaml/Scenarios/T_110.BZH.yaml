@@ -18,8 +18,12 @@
         54633
       "target_addr": !!int |-
         23222
-    "translated": !!null |-
-      null
+    "translated": |-
+      <CALL619b>The Tower of Guenn has been
+      standing for a long time. For it
+      to collapse after an earthquake...
+
+      I just hope nothing bad happens.
   !!int "23352": !RelocatableTranslatableEntry
     "original": |-
       <CALL619b>ちょっと待て。
@@ -47,8 +51,20 @@
         54648
       "target_addr": !!int |-
         23414
-    "translated": !!null |-
-      null
+    "translated": |-
+      <CALL619b>Excuse me.
+      Have you registered for travel to
+      Lanoura yet?
+
+      <LOC5b76>Anyone entering or leaving Lanoura
+      for the first time needs to
+      register in advance in their home
+      country.
+
+      Citizens of Farleyn and Wonliech
+      are processed in Riezel Castle.
+      We'll be notified here immediately,
+      so go and register first.
   !!int "23632": !RelocatableTranslatableEntry
     "original": |-
       <CALL619b>ボアード海運の ボアードは
@@ -65,8 +81,15 @@
         54682
       "target_addr": !!int |-
         23632
-    "translated": !!null |-
-      null
+    "translated": |-
+      <CALL619b>I've heard rumors that Buald, of
+      Buald Shipping, used to be a
+      pirate.
+
+      And it does seem like the pirates
+      have disappeared since the company
+      was established. Still, I really
+      can't believe it.
   !!int "23779": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>女<C_NONE>
@@ -89,8 +112,22 @@
         54691
       "target_addr": !!int |-
         23779
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Woman<C_NONE>
+      Taxes in Lanoura used to be very
+      high, and life was difficult for
+      people there.
+
+      Supposedly that led to young
+      people being sold as slaves.
+
+      But now that they have a new king,
+      everyone entering and leaving
+      Lanoura is registered, to prevent
+      anything like that from happening.
+
+      So we don't hear ugly rumors like
+      that today.
   !!int "24050": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -107,8 +144,14 @@
         54700
       "target_addr": !!int |-
         24050
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Man<C_NONE>
+      The spell merchant here enjoys
+      collecting antiques.
+
+      If you have any rare items, you
+      should see if he's interested.
+      He'd certainly make an offer.
   !!int "24170": !RelocatableTranslatableEntry
     "original": |-
       <CALL61a2>おや いらっしゃい。
@@ -186,15 +229,15 @@
         54642
       "target_addr": !!int |-
         24987
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE><RET_N>
   !!int "24994": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>呪文屋<C_NONE><RET_N>
     "original_byte_length": !!int |-
       9
     "references": []
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Spell merchant<C_NONE><RET_N>
 "_note": |-
   Larfa - Prologue
