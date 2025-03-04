@@ -41,6 +41,8 @@ def main() -> None:
                             entry_size = int(table_entries[2].replace(',', ''))
                             files_to_check.append((entry_name, entry_size))
 
+        files_to_check = sorted(files_to_check)
+
         for file_path, file_size in files_to_check:
             local_path = os.path.join("local/recompressed/", file_path[len(base_path) + 1:])
             if os.path.exists(local_path):

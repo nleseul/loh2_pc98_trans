@@ -476,56 +476,70 @@ def main() -> None:
     modified_output_path_base = "local/modified"
     recompressed_output_path_base = "local/recompressed"
 
+    decompressed_file_list = []
+
     for path, dirs, files in os.walk(decompressed_output_path_base):
         for filename in files:
             file_path = os.path.join(path, filename)
-            modified_path = os.path.join(modified_output_path_base, file_path[len(decompressed_output_path_base)+1:])
+            decompressed_file_list.append(file_path)
 
-            print(modified_path)
+    decompressed_file_list = sorted(decompressed_file_list)
 
-            try:
-                with open(file_path, 'rb') as in_file:
-                    file_data = in_file.read()
-                patch = None
+    for file_path in decompressed_file_list:
+        modified_path = os.path.join(modified_output_path_base, file_path[len(decompressed_output_path_base)+1:])
 
-                if modified_path.endswith("PROG.BZH.bin"):
-                    patch = make_program_data_patch(config["NasmPath"])
-                elif modified_path.endswith("OPENING.BZH.bin"):
-                    patch = make_opening_data_patch(config["NasmPath"])
-                elif modified_path.startswith("local/modified/MON/"):
-                    base_name = os.path.splitext(os.path.basename(file_path))[0]
-                    yaml_path = os.path.join("yaml/Combats", f"{base_name}.yaml")
-                    patch = make_data_file_patch(yaml_path, 0xed40, 0x7140)
-                elif modified_path.startswith("local/modified/SCENA/"):
-                    base_name = os.path.splitext(os.path.basename(file_path))[0]
-                    yaml_path = os.path.join("yaml/Scenarios", f"{base_name}.yaml")
-                    patch = make_data_file_patch(yaml_path, 0xd53e, 0x593e, max_size=0x7140-0x593e)
+        print(modified_path)
 
-                if patch is not None:
-                    patched_data = patch.apply(file_data)
+        try:
+            with open(file_path, 'rb') as in_file:
+                file_data = in_file.read()
+            patch = None
 
-                    os.makedirs(os.path.dirname(modified_path), exist_ok=True)
-                    with open(modified_path, 'w+b') as out_file:
-                        out_file.write(patched_data)
-            except Exception as e:
-                print(f"  Failed to patch file! {e}")
+            if modified_path.endswith("PROG.BZH.bin"):
+                patch = make_program_data_patch(config["NasmPath"])
+            elif modified_path.endswith("OPENING.BZH.bin"):
+                patch = make_opening_data_patch(config["NasmPath"])
+            elif modified_path.startswith("local/modified/MON/"):
+                base_name = os.path.splitext(os.path.basename(file_path))[0]
+                yaml_path = os.path.join("yaml/Combats", f"{base_name}.yaml")
+                patch = make_data_file_patch(yaml_path, 0xed40, 0x7140)
+            elif modified_path.startswith("local/modified/SCENA/"):
+                base_name = os.path.splitext(os.path.basename(file_path))[0]
+                yaml_path = os.path.join("yaml/Scenarios", f"{base_name}.yaml")
+                patch = make_data_file_patch(yaml_path, 0xd53e, 0x593e, max_size=0x7140-0x593e)
+
+            if patch is not None:
+                patched_data = patch.apply(file_data)
+
+                os.makedirs(os.path.dirname(modified_path), exist_ok=True)
+                with open(modified_path, 'w+b') as out_file:
+                    out_file.write(patched_data)
+        except Exception as e:
+            print(f"  Failed to patch file! {e}")
     print()
+
+    modified_file_list = []
 
     for path, dirs, files in os.walk(modified_output_path_base):
         for filename in files:
             file_path = os.path.join(path, filename)
-            recompressed_path = os.path.join(recompressed_output_path_base, file_path[len(modified_output_path_base)+1:-4])
+            modified_file_list.append(file_path)
 
-            print(recompressed_path)
+    modified_file_list = sorted(modified_file_list)
 
-            with open(file_path, 'rb') as in_file:
-                file_data = in_file.read()
+    for file_path in modified_file_list:
+        recompressed_path = os.path.join(recompressed_output_path_base, file_path[len(modified_output_path_base)+1:-4])
 
-            compressed_data = compress_bzh(file_data)
+        print(recompressed_path)
 
-            os.makedirs(os.path.dirname(recompressed_path), exist_ok=True)
-            with open(recompressed_path, 'w+b') as out_file:
-                out_file.write(compressed_data)
+        with open(file_path, 'rb') as in_file:
+            file_data = in_file.read()
+
+        compressed_data = compress_bzh(file_data)
+
+        os.makedirs(os.path.dirname(recompressed_path), exist_ok=True)
+        with open(recompressed_path, 'w+b') as out_file:
+            out_file.write(compressed_data)
     print()
 
 if __name__ == "__main__":
