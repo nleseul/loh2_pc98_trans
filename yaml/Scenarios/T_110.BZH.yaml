@@ -210,8 +210,15 @@
         54712
       "target_addr": !!int |-
         24778
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Woman<C_NONE>
+      Welcome.
+      This is the ticket counter.
+      Tickets are 100 gold each.
+
+      <CHECK_MONEY6192><JUMP6173>Will you be buying a ticket?<Xf69229><JUMP615c><TAKE_MONEY6192><Xf128><CLEAR>Here you are! Thank you very much.<END>
+      <LOC615c><CLEAR>Oh, I see...<END>
+      <LOC6173>But you don't have enough money.
   !!int "24978": !RelocatableRawDataEntry
     "data": !!binary |
       ZAAAAA==

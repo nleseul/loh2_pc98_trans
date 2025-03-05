@@ -22,8 +22,18 @@
         54638
       "target_addr": !!int |-
         23342
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Foless<C_NONE>
+      Ha ha ha...
+      It's great to see kids so full
+      of energy!
+
+      I'm Foless, mayor of the town
+      of Maschun.
+
+      Hmm... I feel like I've seen you
+      somewhere before.
+      I wonder...
   !!int "23530": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>エリック<C_NONE>
@@ -37,8 +47,11 @@
         54647
       "target_addr": !!int |-
         23530
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Erich<C_NONE>
+      I got this scar on my right hand
+      by cutting myself on a knife when
+      I was young.
   !!int "23610": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>子供<C_NONE>
@@ -52,8 +65,11 @@
         54656
       "target_addr": !!int |-
         23610
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Child<C_NONE>
+      Whee! Whee!
+      This house is full of hiding
+      places! It's so fun!
   !!int "23684": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>子供<C_NONE>
@@ -67,8 +83,10 @@
         54665
       "target_addr": !!int |-
         23684
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Child<C_NONE>
+      Aiee! You startled me!
+      I'm playing hide-and-seek.
   !!int "23742": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -83,8 +101,11 @@
         54674
       "target_addr": !!int |-
         23742
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Man<C_NONE>
+      Duke Jestonn should be announcing
+      his successor soon.
+      I wonder who it'll be?
   !!int "23831": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>女<C_NONE>
@@ -109,8 +130,22 @@
         54683
       "target_addr": !!int |-
         23831
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Woman<C_NONE>
+      Those kids... Where could they
+      have gotten to?
+
+      I guess they're at Foless's house
+      playing hide-and-seek or somethingagain...
+
+      He loves kids, so he never gets
+      mad at them when they run around
+      inside his house.
+
+      The most he does is grin and say
+      something like "Ha ha ha, it's
+      great to see kids so full of
+      energy."
   !!int "24131": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>老人<C_NONE>
@@ -128,8 +163,15 @@
         54692
       "target_addr": !!int |-
         24131
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Old man<C_NONE>
+      If you go north to Riezel and
+      then east, there's a place called
+      the Cave of Trials.
+
+      There used to be weapons and such
+      stored in there, but before we
+      knew it, they'd all disappeared.
   !!int "24296": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>武器屋<C_NONE>
@@ -354,4 +396,5 @@
         24903
     "translated": !!null |-
       null
-"_note": ""
+"_note": |-
+  Maschun - Prologue

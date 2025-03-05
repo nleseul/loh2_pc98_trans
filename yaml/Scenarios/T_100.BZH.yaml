@@ -284,7 +284,24 @@
         54899
       "target_addr": !!int |-
         25839
-    "translated": ""
+    "translated": |-
+      <C_YELLOW>Man<C_NONE>
+      Welcome. The ship is under repair,
+      but I can sell you a ticket, at
+      least.
+
+      The price of each ticket to Neria
+      is 100 gold.
+
+      <Xf65317><JUMP663d><CHECK_MONEY6657><JUMP6621>Will you be buying a ticket?<Xf69229><JUMP65d7><TAKE_MONEY6657><Xf128><CLEAR>The ship is expected to depart
+      as soon as repairs are complete.
+      So please try not to be late.<END>
+      <LOC65d7><CLEAR>I suppose that makes sense.
+      There's no reason to buy a ticket
+      until repairs are done, anyway.<END>
+      <LOC6621>But you don't have the money,
+      do you?<END>
+      <LOC663d>It doesn't look like you can carryany more.
   !!int "26199": !RelocatableRawDataEntry
     "data": !!binary |
       ZAAAAA==
