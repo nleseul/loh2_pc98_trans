@@ -107,10 +107,6 @@ def disassemble_event(scenario_data, base_addr, start_addr, continuation_extent_
         if addr+base_addr in jumps:
             jumps.remove(addr+base_addr)
 
-            # Split up text if a jump lands in the middle of a block of text.
-            if len(instructions) > 0 and isinstance(instructions[-1], DS6TextInstruction):
-                instructions.append(DS6TextInstruction(addr=addr+base_addr, text=""))
-
         if addr < 0 or addr >= len(scenario_data):
             break
         elif scenario_data[addr] < 0x20 or scenario_data[addr] >= 0xf0:
@@ -130,7 +126,6 @@ def disassemble_event(scenario_data, base_addr, start_addr, continuation_extent_
                 if len(instructions) == 1 or not isinstance(instructions[-2], DS6CodeInstruction) or instructions[-2].code not in [ 0x11, 0x12, 0xf2, 0xf6, 0xf8 ]:
                     # We should stop parsing at unconditional jumps. So break unless the instruction prior to this jump
                     # was a condition.
-                    #break
                     if addr+base_addr in jumps:
                         jumps.remove(addr+base_addr)
                     else:
@@ -148,12 +143,10 @@ def disassemble_event(scenario_data, base_addr, start_addr, continuation_extent_
                 else:
                     break
         else:
-            if len(instructions) == 0 or not isinstance(instructions[-1], DS6TextInstruction):
-                instructions.append(DS6TextInstruction(addr=addr+base_addr, text=""))
-
             try:
-                ch, addr = read_sjis_char(scenario_data, addr)
-                instructions[-1].text += ch
+                ch, next_addr = read_sjis_char(scenario_data, addr)
+                instructions.append(DS6TextInstruction(addr=addr+base_addr, text=ch))
+                addr = next_addr
             except UnicodeDecodeError as e:
                 print(f"Unable to interpret SJIS sequence {scenario_data[addr:addr+2].hex()} at {addr+base_addr:04x} while disassembling event at {start_addr:04x}")
                 raise e
@@ -303,8 +296,27 @@ class DS6EventBlock(Block):
         super().__init__(data, base_addr, start_addr)
 
     def dump(self):
-        for instruction in disassemble_event(self._data, self.base_addr, self.start_addr, self._continuation_extent_end_addr):
-            if True in [not isinstance(in_link, Link) and instruction['addr'] == in_link['dest_addr'] for in_link in self._incoming_links]:
+
+        disassembled_instructions = disassemble_event(self._data, self.base_addr, self.start_addr, self._continuation_extent_end_addr)
+
+        combined_instructions = []
+
+        for instruction in disassembled_instructions:
+            has_incoming_link = False
+            for link in self.get_incoming_links():
+                if link.target_addr == instruction.addr:
+                    has_incoming_link = True
+                    break
+
+            if isinstance(instruction, DS6TextInstruction) and len(combined_instructions) > 0 and isinstance(combined_instructions[-1], DS6TextInstruction) and not has_incoming_link:
+                combined_instructions[-1].text += instruction.text
+            else:
+                combined_instructions.append(instruction)
+
+        for instruction in combined_instructions:
+            if True in [instruction.addr == in_link.target_addr for in_link in self.get_incoming_links()]:
+                print("==> ", end='')
+            elif True in [instruction.addr == ref['dest_addr'] for ref in self.get_internal_references()]:
                 print("--> ", end='')
             else:
                 print("    ", end='')
@@ -318,7 +330,9 @@ class DS6EventBlock(Block):
             else:
                 print(f"{instruction.code:02x}       {instruction.data.hex()} ", end='')
 
-            if True in [not isinstance(out_link, Link) and 'source_addr' in out_link and instruction['addr'] == out_link['source_addr'] for out_link in self._outgoing_links]:
+            if True in [instruction.addr == out_link.source_instruction_addr for out_link in self.get_outgoing_links()]:
+                print("==> ", end='')
+            elif True in [instruction.addr == ref['source_instruction_addr'] for ref in self.get_internal_references()]:
                 print("--> ", end='')
             else:
                 print("    ", end='')

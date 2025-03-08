@@ -45,7 +45,7 @@
       null
   !!int "29999": !RelocatableTranslatableEntry
     "original": |-
-      の３回攻撃 !!<RET_PAGE>
+      の３<LOC7533>回攻撃 !!<RET_PAGE>
     "original_byte_length": !!int |-
       14
     "references":
