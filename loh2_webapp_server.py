@@ -207,7 +207,11 @@ def render_text_html(trans:TranslationCollection, entry_point_key:int, max_pages
                 if condition_was_true is None or condition_was_true:
                     jump_target = int.from_bytes(instruction.data, byteorder='little')
                     if jump_target not in locator_to_key_and_offset:
-                        raise Exception(f"Unknown jump target address {jump_target:04x}!")
+                        renderer.add_newline()
+                        renderer.change_text_style("unknown_tag")
+                        renderer.add_debug_text(f"Unknown jump target address {jump_target:04x}!")
+                        renderer.cancel_text_style()
+                        break
                     #print(f"Jump to {jump_target:04x}")
 
                     jump_target_key, jump_target_offset = locator_to_key_and_offset[jump_target]
@@ -221,7 +225,11 @@ def render_text_html(trans:TranslationCollection, entry_point_key:int, max_pages
                 if condition_was_true is None or condition_was_true:
                     call_target = int.from_bytes(instruction.data, byteorder='little')
                     if call_target not in locator_to_key_and_offset:
-                        raise Exception(f"Unknown call target address {call_target:04x}!")
+                        renderer.add_newline()
+                        renderer.change_text_style("unknown_tag")
+                        renderer.add_debug_text(f"Unknown call target address {call_target:04x}!")
+                        renderer.cancel_text_style()
+                        break
                     #print(f"Call to {call_target:04x}")
 
                     call_stack.append((disassembled_events, instruction_index))
