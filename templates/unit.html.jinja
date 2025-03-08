@@ -165,25 +165,31 @@
 
         function setPage(newPageIndex)
         {
-            var text = "";
-
-            var actualPageIndex = newPageIndex;
-            if (actualPageIndex < 0)
+            if (pages.length == 0)
             {
-                actualPageIndex = 0;
+                document.getElementById('preview_text').innerHTML = "";
+                document.getElementById('current_page_number').innerHTML = 0;
+            }
+            else
+            {
+                pageIndex = newPageIndex;
+
+                if (pageIndex < 0)
+                {
+                    pageIndex = 0;
+                }
+                else if (pageIndex >= pages.length)
+                {
+                    pageIndex = pages.length - 1;
+                }
+
+                var text = pages[pageIndex].replace(/\r?\n/g, '\r\n');
+                document.getElementById('preview_text').innerHTML = text;
+                document.getElementById('current_page_number').innerHTML = pageIndex + 1;
             }
 
-            if (actualPageIndex >= pages.length)
-            {
-                actualPageIndex = pages.length - 1;
-            }
-
-            var text = pages[actualPageIndex].replace(/\r?\n/g, '\r\n');
-
-            document.getElementById('preview_text').innerHTML = text;
-            document.getElementById('current_page_number').innerHTML = actualPageIndex + 1;
-
-            pageIndex = actualPageIndex;
+            document.getElementById('prev_page').disabled = (pageIndex <= 0);
+            document.getElementById('next_page').disabled = (pageIndex >= pages.length - 1);
         }
 
         function handleTranslationChanged()
@@ -202,6 +208,14 @@
                 .then(response => updateText());
         }
 
+        function copyOriginal()
+        {
+            var text = document.getElementById("original_text").value;
+            document.getElementById("translated_text").value = text;
+
+            handleTranslationChanged();
+        }
+
         function findSimilar()
         {
             const apiUrl = "/api/find_similar_units";
@@ -213,25 +227,32 @@
             formData.append("document_path", currentDocumentPath);
             formData.append("key", currentKey);
 
+            document.getElementById("find_similar_status").innerText = "Searching...";
+
             fetch(apiUrl, { method: 'POST', body: formData })
                 .then(response => response.ok ? response.json() : Promise.reject(response))
                 .then(json => {
                     var resultsRoot = document.getElementById('find_similar_results');
-                    var resultTemplate = document.getElementById("find_similar_item_template")
+                    var resultTemplate = document.getElementById("find_similar_item_template");
 
                     for (var result of json)
                     {
                         var resultItem = resultTemplate.content.cloneNode(true);
-                        resultItem.querySelector(".find_similar_result_original").innerText = result['original']
-                        resultItem.querySelector(".find_similar_result_translated").innerText = result['translated']
+                        resultItem.querySelector(".find_similar_result_original").innerText = result['original'];
+                        resultItem.querySelector(".find_similar_result_translated").innerText = result['translated'];
 
                         var resultLink = resultItem.querySelector(".find_similar_result_link");
-                        resultLink.innerText = result['document_path'] + "/" + result['key']
+                        resultLink.innerText = result['document_path'] + "/" + result['key'];
                         resultLink.href = "/unit?document_path=" + result['document_path']
                             + "&key=" + result['key'];
 
+                        var similarityText = (result['similarity'] * 100).toFixed(0) + "%";
+                        resultItem.querySelector(".find_similar_result_similarity").innerText = similarityText;
+
                         resultsRoot.appendChild(resultItem);
                     }
+
+                    document.getElementById("find_similar_status").innerText = (json.length > 0 ? "" : "No results.");
 
                 })
                 .catch(response => window.alert("API call failed: " + response.status + " " + response.statusText));
@@ -299,13 +320,20 @@
     </div>
 
     <div>
+        <button onclick="copyOriginal();">Copy original</button>
         <button onclick="findSimilar();">Find similar</button>
+        <p id="find_similar_status"></p>
         <ul id="find_similar_results"></ul>
         <template id="find_similar_item_template">
             <li class="find_similar_result">
-                <p><a class="find_similar_result_link"></a></p>
-                <p class="find_similar_result_original"></p>
-                <p class="find_similar_result_translated"></p>
+                <div class="find_similar_result_header">
+                    <h2><a class="find_similar_result_link"></a></h2>
+                    <p class="find_similar_result_similarity"></p>
+                </div>
+                <div class="find_similar_result_content">
+                    <p class="find_similar_result_original"></p>
+                    <p class="find_similar_result_translated"></p>
+                </div>
                 <button class="find_similar_result_use_button" onclick="useSimilarResult(this);">Use</button>
             </li>
         </template>
