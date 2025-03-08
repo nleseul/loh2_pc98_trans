@@ -165,25 +165,31 @@
 
         function setPage(newPageIndex)
         {
-            var text = "";
-
-            var actualPageIndex = newPageIndex;
-            if (actualPageIndex < 0)
+            if (pages.length == 0)
             {
-                actualPageIndex = 0;
+                document.getElementById('preview_text').innerHTML = "";
+                document.getElementById('current_page_number').innerHTML = 0;
+            }
+            else
+            {
+                pageIndex = newPageIndex;
+
+                if (pageIndex < 0)
+                {
+                    pageIndex = 0;
+                }
+                else if (pageIndex >= pages.length)
+                {
+                    pageIndex = pages.length - 1;
+                }
+
+                var text = pages[pageIndex].replace(/\r?\n/g, '\r\n');
+                document.getElementById('preview_text').innerHTML = text;
+                document.getElementById('current_page_number').innerHTML = pageIndex + 1;
             }
 
-            if (actualPageIndex >= pages.length)
-            {
-                actualPageIndex = pages.length - 1;
-            }
-
-            var text = pages[actualPageIndex].replace(/\r?\n/g, '\r\n');
-
-            document.getElementById('preview_text').innerHTML = text;
-            document.getElementById('current_page_number').innerHTML = actualPageIndex + 1;
-
-            pageIndex = actualPageIndex;
+            document.getElementById('prev_page').disabled = (pageIndex <= 0);
+            document.getElementById('next_page').disabled = (pageIndex >= pages.length - 1);
         }
 
         function handleTranslationChanged()
