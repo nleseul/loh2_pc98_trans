@@ -506,7 +506,7 @@ class DataBlock(Block):
         addr = self.start_addr
         while addr < self.start_addr + self.length:
             line_end_addr = min(addr + 16, self.start_addr + self.length)
-            print(f"{addr:04x}  {self._data[addr - self._base_addr:line_end_addr - self._base_addr].hex(" ")}")
+            print(f"{addr:04x}  {self._data[addr - self._base_addr:line_end_addr - self._base_addr].hex(' ')}")
             addr += 16
 
     def set_length(self, length:int) -> None:
