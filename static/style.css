@@ -235,21 +235,41 @@ textarea {
 #find_similar_results {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0;
 }
 
 .find_similar_result {
     display: flex;
+    flex-direction: column;
     margin: 4pt;
-    padding: 4pt;
+    padding: 0;
     border-radius: 4pt;
     border-style: groove;
     border-width: 1pt;
     border-color: #222;
+    background-color: #585050;
+}
 
+.find_similar_result_header {
+    text-align: center;
+    margin: 0;
+    background-color: #484040;
+    box-shadow: 0px 0px 6px 0px #101;
+}
+
+.find_similar_result_header h2 {
+    font-size: 1em;
+    margin: 4pt;
+}
+
+.find_similar_result_header p {
+    font-size: 0.75em;
+    margin: 4pt;
 }
 
 .find_similar_result_original {
-    background-color: #585050;
+    background-color: #484040;
     margin: 4pt;
     padding: 4pt;
     border-radius: 4pt;
@@ -262,7 +282,7 @@ textarea {
 }
 
 .find_similar_result_translated {
-    background-color: #585050;
+    background-color: #484040;
     margin: 4pt;
     padding: 4pt;
     border-radius: 4pt;

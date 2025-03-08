@@ -1,4 +1,5 @@
 import configparser
+import difflib
 import flask
 import flask_httpauth
 import json
@@ -737,6 +738,8 @@ def find_similar_units():
     assert(isinstance(original_entry, TranslatableEntry))
     original_text = original_entry.original
 
+    matcher = difflib.SequenceMatcher(a=original_text)
+
     results = []
 
     for path, dirs, files in os.walk("yaml"):
@@ -751,15 +754,19 @@ def find_similar_units():
                 if key == original_key and file_name == original_file_name and folder_key == original_folder_path:
                     continue
 
-                if entry.translated is not None and len(entry.translated) > 0 and entry.original == original_text:
-                    results.append( {
-                        'document_path': f"{folder_key}/{file_name}",
-                        'key': f"{key:04x}",
-                        'original': entry.original,
-                        'translated': entry.translated
-                    })
+                if entry.translated is not None and len(entry.translated) > 0:
+                    matcher.set_seq2(entry.original)
 
-                    break
+                    if matcher.quick_ratio() > 0.6:
+                        results.append( {
+                            'document_path': f"{folder_key}/{file_name}",
+                            'key': f"{key:04x}",
+                            'original': entry.original,
+                            'translated': entry.translated,
+                            'similarity': matcher.ratio()
+                        })
+
+    results.sort(key=lambda r: r['similarity'], reverse=True)
 
     return results
 
