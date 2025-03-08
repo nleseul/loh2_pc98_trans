@@ -1,32 +1,70 @@
 {% extends "base.html.jinja" %}
 {% block title %}Search{% endblock %}
 
+{% block head %}
+    {{ super() }}
+    <script>
+        function search()
+        {
+            var searchTerm = document.getElementById("search_term").value;
+            var apiUrl = "/api/search_units?search_term=" + searchTerm;
+
+            document.getElementById("result_header").innerText = "";
+
+            fetch(apiUrl)
+                .then(response => response.ok ? response.json() : Promise.reject(response))
+                .then(json => {
+                    if (json.length == 0)
+                    {
+                        document.getElementById("result_header").innerText = "No results for " + searchTerm;
+                    }
+                    else
+                    {
+                        var resultItemTemplate = document.getElementById("search_result_item_template")
+                        var resultsRoot = document.getElementById('search_results');
+
+                        for (result of json)
+                        {
+                            var resultItem = resultItemTemplate.content.cloneNode(true);
+
+                            resultItem.querySelector(".search-result-file").innerText = result['document_path'];
+                            resultItem.querySelector(".search_result_key_link").innerText = result['key'];
+                            resultItem.querySelector(".search_result_key_link").href = "/unit?document_path=" + result['document_path'] + "&key=" + result['key'];
+                            resultItem.querySelector(".search-result-extract").innerHTML = result['excerpt'];
+
+                            resultsRoot.appendChild(resultItem);
+                        }
+
+                        document.getElementById("result_header").innerText = "Results for: " + searchTerm;
+                    }
+                })
+                .catch(response => window.alert("API call failed: " + response.status + " " + response.statusText));
+        }
+    </script>
+{% endblock %}
+
 {% block header %}
-    <h1>Search</h1>
+    <h1 id="header_text">Search</h1>
 {% endblock %}
 
 {% block content %}
-    <form action="{{url_for('search')}}">
-        <input type="text" name="search_term" autofocus/> <input type="submit" value="Search"/>
-    </form>
+    <input type="text" id="search_term" autofocus/> <button onclick="search();">Search</button>
 
-    {% if search_term %}
-        <p>Results for: {{search_term}}</p>
-    {% endif %}
+    <p id="result_header"></p>
 
-    {% if results %}
-        <ul class="flow_list">
-            {% for result in results %}
-                <li class="search-result-item">
-                    <div class="search-result-header-wrapper">
-                        <p class="search-result-file">{% if result.folder_key %}<span class="search-result-folder-key">{{result.folder_key}}/</span>{% endif %}<span class="search-result-file-name">{{result.file_name}}</span></p>
-                        <h2 class="search-result-key"><a href="{{url_for('edit_item', folder_key=result.folder_key, file_name=result.file_name, key_str=result.key_str)}}">{{result.key_str}}</a></h2>
-                    </div>
-                    <p class="search-result-extract">{{result.excerpt}}</p>
-                </li>
-            {% endfor %}
-        </ul>
-    {% endif %}
+    <ul id="search_results" class="flow_list">
+    </ul>
 
-    <p><a href="{{url_for('index')}}">Back</a></p>
+
+    <template id="search_result_item_template">
+        <li class="search-result-item">
+            <div class="search-result-header-wrapper">
+                <p class="search-result-file"></p>
+                <h2 class="search-result-key"><a class="search_result_key_link"></a></h2>
+            </div>
+            <p class="search-result-extract"></p>
+        </li>
+    </template>
+
+    <p><a href="/">Back</a></p>
 {% endblock %}

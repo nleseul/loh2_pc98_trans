@@ -1,0 +1,112 @@
+{% extends "base.html.jinja" %}
+{% block title %}Translation units - {% endblock %}
+
+{% block head %}
+    {{ super() }}
+    <script>
+        function loadUnits()
+        {
+            const currentUrl = new URL(window.location.href);
+            const documentPath = currentUrl.searchParams.get("document_path");
+            const apiUrl = "/api/list_units?document_path=" + documentPath;
+            const noteApiUrl = "/api/get_document_note?document_path=" + documentPath;
+
+            document.getElementById("header_text").innerText = "Translation units - " + documentPath;
+            document.title = "Translation units - " + documentPath + " - LOH2 trans";
+
+            fetch(apiUrl)
+                .then(response => response.ok ? response.json() : Promise.reject(response))
+                .then(json => {
+                    var resultsRoot = document.getElementById("unit_list");
+                    var resultItemTemplate = document.getElementById("unit_list_item_template");
+
+                    for (var result of json)
+                    {
+                        var resultItem = resultItemTemplate.content.cloneNode(true);
+
+                        var itemUrl = "/unit?document_path=" + documentPath + "&key=" + result['key'];
+
+                        resultItem.querySelector("h1").innerHTML = "<a href=\"" + itemUrl + "\">" + result['key'] + "</a>";
+                        if (result['original'] != null && result['original'].length > 0)
+                        {
+                            resultItem.querySelector(".translation_item_original").innerHTML = result['original'][0];
+                        }
+                        if (result['translated'] != null && result['translated'].length > 0)
+                        {
+                            resultItem.querySelector(".translation_item_translated").innerHTML = result['translated'][0];
+                        }
+
+                        if (result['translation_done'])
+                        {
+                            resultItem.querySelector(".status_tag").innerText = "Done";
+                            resultItem.firstElementChild.classList.add("translation_done");
+                        }
+                        else if (result['translation_in_progress'])
+                        {
+                            resultItem.querySelector(".status_tag").innerText = "In progress";
+                            resultItem.firstElementChild.classList.add("translation_in_progress");
+                        }
+
+                        resultsRoot.appendChild(resultItem);
+                    }
+                })
+                .catch(response => window.alert("API call failed: " + response.status + " " + response.statusText));
+
+            fetch(noteApiUrl)
+                .then(response => response.ok ? response.text() : Promise.reject(response))
+                .then(text => {
+                    document.getElementById("note_text").value = text;
+                    document.getElementById("update_note_button").disabled = false;
+                })
+                .catch(response => window.alert("API call failed: " + response.status + " " + response.statusText));
+        }
+
+        function updateNote()
+        {
+            const currentUrl = new URL(window.location.href);
+            const documentPath = currentUrl.searchParams.get("document_path");
+            const apiUrl = "/api/update_document_note";
+
+            formData = new FormData();
+
+            formData.append("document_path", documentPath);
+            formData.append("new_note", document.getElementById("note_text").value);
+
+            document.getElementById("update_note_button").disabled = true;
+
+            fetch(apiUrl, { method: 'POST', body: formData })
+                .catch(response => window.alert("API call failed: " + response.status + " " + response.statusText))
+                .finally(() => {
+                    document.getElementById("update_note_button").disabled = false;
+                });
+        }
+    </script>
+{% endblock %}
+
+{% block header %}
+    <h1 id="header_text">Translation units - </h1>
+{% endblock %}
+
+{% block onload %} loadUnits(); {% endblock %}
+
+{% block content %}
+
+    <input type="text" id="note_text"/>
+    <button id="update_note_button" onclick="updateNote();" disabled>Update note</button>
+
+    <template id="unit_list_item_template">
+        <li class="translation_item_list_item">
+            <div class="status_tag"></div>
+            <h1 class="translation_item_title"></h1>
+            <p class="translation_item_original"></p>
+            <hr/>
+            <p class="translation_item_translated"></p>
+        </li>
+    </template>
+
+    <ul id="unit_list" class="flow_list">
+    </ul>
+
+    <p><a href="/">Back</a></p>
+
+{% endblock %}

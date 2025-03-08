@@ -349,7 +349,7 @@ def render_ending_text_html(text:str, is_end_credits:bool = False) -> str:
 
 def get_yaml_path(folder_key:str, file_name:str) -> str:
     path = None
-    if folder_key is None:
+    if folder_key is None or len(folder_key) == 0:
         path = f"yaml/{file_name}.yaml"
     else:
         path = f"yaml/{folder_key}/{file_name}.BZH.yaml"
@@ -426,11 +426,10 @@ def load_index_cache() -> dict:
 
 def update_index_cache(folder_key:str, file_name:str, trans:TranslationCollection) -> None:
 
-    print(f"Updating index cache for {folder_key}/{file_name}")
+    cache_key = file_name if folder_key is None or folder_key == "" else f"{folder_key}/{file_name}"
+    print(f"Updating index cache for {cache_key}")
 
     index_cache = load_index_cache()
-
-    cache_key = f"{folder_key}/{file_name}" if folder_key is not None else file_name
 
     index_cache[cache_key] = {
         'display_name': file_name,
@@ -442,55 +441,88 @@ def update_index_cache(folder_key:str, file_name:str, trans:TranslationCollectio
         yaml.safe_dump(index_cache, out_file)
 
 
+def full_path_to_folder_and_file_name(full_path:str) -> tuple[str, str]:
+    first_sep = full_path.rfind("/")
+    folder_path = "" if first_sep < 0 else full_path[:first_sep]
+    file_name = full_path if first_sep < 0 else full_path[first_sep+1:]
+
+    return folder_path, file_name
+
+
 @app.route("/")
 @auth.login_required
 def index():
+    return flask.render_template("index.html.jinja")
+
+@app.route("/document")
+@auth.login_required
+def document():
+    return flask.render_template("document.html.jinja")
+
+@app.route("/unit")
+@auth.login_required
+def unit():
+    return flask.render_template("unit.html.jinja")
+
+@app.route("/search")
+@auth.login_required
+def search():
+    return flask.render_template("search.html.jinja")
+
+
+@app.route("/api/list_documents")
+@auth.login_required
+def list_documents():
+    requested_folder_path = flask.request.args['folder_path'] if 'folder_path' in flask.request.args else ""
 
     index_cache = load_index_cache()
 
-    folder_files = {}
+    files = []
+    folders = set()
 
     for cache_key, info in index_cache.items():
-        if '/' in cache_key:
-            folder_key, file_name = cache_key.split("/")
-        else:
-            folder_key, file_name = None, cache_key
+        assert(isinstance(cache_key, str))
+        folder_path, file_name = full_path_to_folder_and_file_name(cache_key)
 
-        if folder_key in folder_files:
-            folder_files[folder_key].append(info)
-        else:
-            folder_files[folder_key] = [info]
+        if folder_path == requested_folder_path:
+            info = { 'full_path': cache_key,
+                     'display_name': info['display_name'],
+                     'note': info['note'],
+                     'progress': info['progress'],
+                     'is_folder': False }
+            files.append(info)
+        elif folder_path.startswith(requested_folder_path):
+            folders.add(folder_path)
 
-    files = []
+    for folder_name in folders:
+        files.append( { 'display_name': folder_name, 'full_path': folder_name, 'is_folder': True})
 
-    for folder_key, folder_file_list in folder_files.items():
-        if folder_key is None:
-            files += folder_file_list
-        else:
-            files.append({
-                'display_name': folder_key,
-                'folder_key': folder_key,
-                'folder_items': sorted(folder_file_list, key=operator.itemgetter('display_name'))
-            })
+    files.sort(key=lambda f: (not f['is_folder'], f['display_name']))
 
-    files.sort(key=lambda f: ('' if 'folder_key' not in f else f['folder_key'], f['display_name']), reverse=True)
+    return files
 
-    return flask.render_template("index.html.jinja", files=files)
-
-
-@app.route("/items/<file_name>")
-@app.route("/items/<folder_key>/<file_name>")
+@app.route("/api/get_document_note")
 @auth.login_required
-def items(file_name, folder_key=None):
-    trans = load_trans(folder_key, file_name)
+def get_document_note():
+    document_path = flask.request.args['document_path']
 
-    if 'new_note' in flask.request.args:
-        trans.note = flask.request.args['new_note']
-        save_trans(folder_key, file_name, trans)
+    folder_path, file_name = full_path_to_folder_and_file_name(document_path)
 
-    items = []
+    trans = load_trans(folder_path, file_name)
+
+    return trans.note
+
+@app.route("/api/list_units")
+@auth.login_required
+def list_units():
+    document_path = flask.request.args['document_path']
+
+    folder_path, file_name = full_path_to_folder_and_file_name(document_path)
+
+    trans = load_trans(folder_path, file_name)
+
+    units = []
     for key, entry in trans.translatables():
-
         if file_name == "Opening":
             original_pages = render_opening_text_html(entry.original)
             translated_pages = render_opening_text_html(entry.translated)
@@ -505,7 +537,7 @@ def items(file_name, folder_key=None):
         is_done = has_translation and not text_contains_japanese(entry.translated)
         is_in_progress = has_translation and not is_done
 
-        items.append({
+        units.append({
             'key': f"{key:04x}",
             'original': original_pages if len(original_pages) > 0 else None,
             'translated': translated_pages if len(translated_pages) > 0 else None,
@@ -513,16 +545,20 @@ def items(file_name, folder_key=None):
             'translation_in_progress': is_in_progress
         })
 
-    return flask.render_template("items.html.jinja", items=items, file_name=file_name, folder_key=folder_key, note=trans.note)
+    return units
 
 
-@app.route("/edit_item/<file_name>/<key_str>")
-@app.route("/edit_item/<folder_key>/<file_name>/<key_str>")
+@app.route("/api/get_unit_info")
 @auth.login_required
-def edit_item(file_name, key_str, folder_key=None):
+def get_unit_info():
+    document_path = flask.request.args['document_path']
+    key_str = flask.request.args['key']
+
     key = int(key_str, base=16)
 
-    trans = load_trans(folder_key, file_name)
+    folder_path, file_name = full_path_to_folder_and_file_name(document_path)
+
+    trans = load_trans(folder_path, file_name)
     key_list = sorted([key for key, _ in trans.translatables()])
 
     key_index = key_list.index(key)
@@ -560,67 +596,65 @@ def edit_item(file_name, key_str, folder_key=None):
     else:
         window_width, window_height = 34, 4
 
-    return flask.render_template("edit_item.html.jinja",
-                                 file_name=file_name,
-                                 folder_key=folder_key,
-                                 key_str=key_str,
-                                 window_width=window_width,
-                                 window_height=window_height,
-                                 condition_list=condition_list,
-                                 prev_key=prev_key_str,
-                                 next_key=next_key_str,
-                                 original=current_item_info.original,
-                                 translation=current_item_info.translated)
+    return {
+        'file_name': file_name,
+        'folder_path': folder_path,
+        'key': key_str,
+        'window_width': window_width,
+        'window_height': window_height,
+        'condition_list': condition_list,
+        'prev_key': prev_key_str,
+        'next_key': next_key_str,
+        'original': current_item_info.original,
+        'translation': current_item_info.translated
+    }
 
 
-@app.route("/search")
+@app.route("/api/search_units")
 @auth.login_required
-def search():
+def search_units():
 
-    if 'search_term' in flask.request.args:
-        search_term = markupsafe.escape(flask.request.args.get('search_term'))
-        results = []
+    search_term = markupsafe.escape(flask.request.args.get('search_term'))
+    results = []
 
-        for path, dirs, files in os.walk("yaml"):
-            folder_key = path[5:] if len(path) > 5 else None
-            for file in files:
-                file_name = file[:-9] if file.endswith("BZH.yaml") else file[:-5]
+    for path, dirs, files in os.walk("yaml"):
+        folder_key = path[5:] if len(path) > 5 else None
+        for file in files:
+            file_name = file[:-9] if file.endswith("BZH.yaml") else file[:-5]
 
-                trans = TranslationCollection.load(os.path.join(path, file))
+            trans = TranslationCollection.load(os.path.join(path, file))
 
-                for key, item in trans.translatables():
-                    if item.original is not None:
-                        original_index = item.original.find(search_term)
-                        if original_index >= 0:
-                            excerpt_start_index = max(original_index - 20, 0)
-                            excerpt_end_index = min(original_index + len(search_term) + 20, len(item.original))
-                            results.append({'folder_key': folder_key,
-                                            'file_name': file_name,
-                                            'key_str': f"{key:04x}",
-                                            'excerpt': markupsafe.escape(item.original[excerpt_start_index:excerpt_end_index]),
-                                            'translated': False})
+            for key, item in trans.translatables():
+                if item.original is not None:
+                    original_index = item.original.find(search_term)
+                    if original_index >= 0:
+                        excerpt_start_index = max(original_index - 20, 0)
+                        excerpt_end_index = min(original_index + len(search_term) + 20, len(item.original))
+                        results.append({'document_path': f"{folder_key}/{file_name}",
+                                        'key': f"{key:04x}",
+                                        'excerpt': markupsafe.escape(item.original[excerpt_start_index:excerpt_end_index]),
+                                        'translated': False})
 
-                    if item.translated is not None:
-                        translated_index = item.translated.find(search_term)
-                        if translated_index >= 0:
-                            excerpt_start_index = max(translated_index - 20, 0)
-                            excerpt_end_index = min(translated_index + len(search_term) + 20, len(item.translated))
-                            results.append({'folder_key': folder_key,
-                                            'file_name': file_name,
-                                            'key_str': f"{key:04x}",
-                                            'excerpt': markupsafe.escape(item.translated[excerpt_start_index:excerpt_end_index]),
-                                            'translated': True})
+                if item.translated is not None:
+                    translated_index = item.translated.find(search_term)
+                    if translated_index >= 0:
+                        excerpt_start_index = max(translated_index - 20, 0)
+                        excerpt_end_index = min(translated_index + len(search_term) + 20, len(item.translated))
+                        results.append({'document_path': f"{folder_key}/{file_name}",
+                                        'key': f"{key:04x}",
+                                        'excerpt': markupsafe.escape(item.translated[excerpt_start_index:excerpt_end_index]),
+                                        'translated': True})
+    return results
 
-        return flask.render_template("search.html.jinja", search_term=search_term, results=results)
-    else:
-        return flask.render_template("search.html.jinja")
-
-
-@app.route("/api/render_item_text", methods=['POST'])
-def render_item_text():
-    folder_key = flask.request.form['folder_key'] if 'folder_key' in flask.request.form else None
-    file_name = flask.request.form['file_name']
+@app.route("/api/render_unit_text", methods=['POST'])
+@auth.login_required
+def render_unit_text():
+    document_path = flask.request.form['document_path']
     key_str = flask.request.form['key']
+
+    key = int(key_str, base=16)
+
+    folder_path, file_name = full_path_to_folder_and_file_name(document_path)
 
     translated = True
     if 'which_text' in flask.request.form and flask.request.form['which_text'] == "original":
@@ -628,15 +662,9 @@ def render_item_text():
 
     active_conditions = json.loads(flask.request.form['active_conditions'])
 
-    path = None
-    if folder_key is None:
-        path = f"yaml/{file_name}.yaml"
-    else:
-        path = f"yaml/{folder_key}/{file_name}.BZH.yaml"
-
     key = int(key_str, base=16)
 
-    trans = TranslationCollection.load(path)
+    trans = load_trans(folder_path, file_name)
     entry = trans.get_entry(key)
     assert(isinstance(entry, TranslatableEntry))
 
@@ -651,32 +679,50 @@ def render_item_text():
 
     return { 'pages': pages, 'conditions_checked': conditions_checked }
 
-@app.route("/api/update_item_text", methods=['POST'])
-def update_item_text():
-    folder_key = flask.request.form['folder_key'] if 'folder_key' in flask.request.form else None
-    file_name = flask.request.form['file_name']
+@app.route("/api/update_unit_text", methods=['POST'])
+@auth.login_required
+def update_unit_text():
+    document_path = flask.request.form['document_path']
     key_str = flask.request.form['key']
+
+    key = int(key_str, base=16)
+    folder_path, file_name = full_path_to_folder_and_file_name(document_path)
 
     new_text = flask.request.form['new_text']
     new_text = new_text.replace("\r\n", "\n")
 
     key = int(key_str, base=16)
 
-    trans = load_trans(folder_key, file_name)
+    trans = load_trans(folder_path, file_name)
     entry = trans.get_entry(key)
     assert(isinstance(entry, TranslatableEntry))
     entry.translated = new_text
-    save_trans(folder_key, file_name, trans)
+    save_trans(folder_path, file_name, trans)
 
-    return { }
+    return flask.Response(status=200)
 
-@app.route("/api/find_similar_items", methods=['POST'])
-def find_similar_items():
-    original_folder_key = flask.request.form['folder_key'] if 'folder_key' in flask.request.form else None
-    original_file_name = flask.request.form['file_name']
+@app.route("/api/update_document_note", methods=['POST'])
+@auth.login_required
+def update_document_note():
+    document_path = flask.request.form['document_path']
+    new_note = flask.request.form['new_note']
+
+    folder_path, file_name = full_path_to_folder_and_file_name(document_path)
+
+    trans = load_trans(folder_path, file_name)
+    trans.note = new_note
+    save_trans(folder_path, file_name, trans)
+
+    return flask.Response(status=200)
+
+@app.route("/api/find_similar_units", methods=['POST'])
+@auth.login_required
+def find_similar_units():
+    original_document_path = flask.request.form['document_path']
     original_key_str = flask.request.form['key']
+    original_folder_path, original_file_name = full_path_to_folder_and_file_name(original_document_path)
 
-    original_trans = load_trans(original_folder_key, original_file_name)
+    original_trans = load_trans(original_folder_path, original_file_name)
 
     original_key = int(original_key_str, base=16)
     original_entry = original_trans.get_entry(original_key)
@@ -686,7 +732,7 @@ def find_similar_items():
     results = []
 
     for path, dirs, files in os.walk("yaml"):
-        folder_key = path[5:] if len(path) > 5 else None
+        folder_key = path[5:] if len(path) > 5 else ""
 
         for file in files:
             file_name = file[:-9] if file.endswith("BZH.yaml") else file[:-5]
@@ -694,13 +740,12 @@ def find_similar_items():
             trans = TranslationCollection.load(os.path.join(path, file))
 
             for key, entry in trans.translatables():
-                if key == original_key and file_name == original_file_name and folder_key == original_folder_key:
+                if key == original_key and file_name == original_file_name and folder_key == original_folder_path:
                     continue
 
                 if entry.translated is not None and len(entry.translated) > 0 and entry.original == original_text:
                     results.append( {
-                        'folder_key': folder_key,
-                        'file_name': file_name,
+                        'document_path': f"{folder_key}/{file_name}",
                         'key': f"{key:04x}",
                         'original': entry.original,
                         'translated': entry.translated

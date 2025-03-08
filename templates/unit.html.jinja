@@ -8,6 +8,63 @@
         pages = [];
         pageIndex = 0;
 
+        currentDocumentPath = null;
+        currentKey = null;
+
+        windowWidth = null;
+        windowHeight = null;
+
+        function loadUnit()
+        {
+            const currentUrl = new URL(window.location.href);
+            currentDocumentPath = currentUrl.searchParams.get("document_path");
+            currentKey = currentUrl.searchParams.get("key");
+
+            document.title = "Edit item - " + currentKey + " - LOH2 trans";
+            document.getElementById("header_text").innerText = "Edit item - " + currentKey;
+            document.getElementById("back_link").href = "/document?document_path=" + currentDocumentPath;
+
+            const apiUrl = "/api/get_unit_info?document_path=" + currentDocumentPath + "&key=" + currentKey;
+
+            fetch(apiUrl)
+                .then(response => response.ok ? response.json() : Promise.reject(response))
+                .then(json => {
+                    windowWidth = json['window_width'];
+                    windowHeight = json['window_height'];
+
+                    document.getElementById("original_text").value = json['original'];
+                    document.getElementById("translated_text").value = json['translation'];
+
+                    if ('prev_key' in json)
+                    {
+                        document.getElementById("prev_key_link").href = "/unit?document_path=" + currentDocumentPath + "&key=" + json['prev_key'];
+                        document.getElementById("prev_key_link").innerText = json['prev_key'];
+                    }
+
+                    if ('next_key' in json)
+                    {
+                        document.getElementById("next_key_link").href = "/unit?document_path=" + currentDocumentPath + "&key=" + json['next_key'];
+                        document.getElementById("next_key_link").innerText = json['next_key'];
+                    }
+
+
+                    var conditionsRoot = document.getElementById("condition_list");
+                    var conditionTemplate = document.getElementById("condition_list_item_template");
+
+                    for (var condition of json['condition_list'])
+                    {
+                        var conditionItem = conditionTemplate.content.cloneNode(true);
+                        conditionItem.firstElementChild.dataset.condition = condition;
+                        conditionItem.querySelector("label").innerText = condition;
+
+                        conditionsRoot.appendChild(conditionItem);
+                    }
+
+                    updateText();
+                })
+                .catch(response => window.alert("API call failed: " + response.status + " " + response.statusText));
+        }
+
         function setPreviewSize(columns, rows, translated)
         {
             var textMeasurement = document.getElementById('text_measurement');
@@ -37,40 +94,33 @@
             }
 
             textMeasurement.style.display = "none";
-
-            console.trace(charWidth, charHeight);
         }
 
         function updateText()
         {
-            const apiUrl = {{ url_for('render_item_text')|tojson }};
+            const apiUrl = "/api/render_unit_text";
 
             formData = new FormData();
-            {% if folder_key %}
-                formData.append("folder_key", "{{folder_key}}");
-            {% endif %}
-            formData.append("file_name", "{{file_name}}");
-            formData.append("key", "{{key_str}}");
+
+            formData.append("document_path", currentDocumentPath);
+            formData.append("key", currentKey);
 
             var showOriginal = document.getElementById('show_original')
             var translated = showOriginal == undefined || !showOriginal.checked
             formData.append("which_text", translated ? "translation" : "original");
-
-            setPreviewSize({{window_width}}, {{window_height}}, translated);
 
             var conditions = [];
             for (var toggle of document.getElementsByClassName('condition_toggle'))
             {
                 if (toggle.checked)
                 {
-                    var condition = toggle.id.replace("condition_", "").replace("_active", "");
-                    conditions.push(toggle.dataset.condition);
+                    conditions.push(toggle.parentElement.dataset.condition);
                 }
             }
             formData.append("active_conditions", JSON.stringify(conditions));
 
             fetch(apiUrl, { method: 'POST', body: formData })
-                .then(response => response.json())
+                .then(response => response.ok ? response.json() : Promise.reject(response))
                 .then(json => {
                     var conditionsChecked = json['conditions_checked']
 
@@ -80,7 +130,7 @@
 
                     for (var toggle of document.getElementsByClassName('condition_toggle'))
                     {
-                        if (conditionsChecked.includes(toggle.dataset.condition))
+                        if (conditionsChecked.includes(toggle.parentElement.dataset.condition))
                         {
                             toggle.classList.add("condition_toggle_waschecked");
                         }
@@ -89,7 +139,10 @@
                             toggle.classList.remove("condition_toggle_waschecked");
                         }
                     }
-                });
+
+                    setPreviewSize(windowWidth, windowHeight, translated);
+                })
+                .catch(response => window.alert("API call failed: " + response.status + " " + response.statusText));
         }
 
         function prevPage()
@@ -135,14 +188,11 @@
 
         function handleTranslationChanged()
         {
-            const apiUrl = {{ url_for('update_item_text')|tojson }};
+            const apiUrl = "/api/update_unit_text";
 
             formData = new FormData();
-            {% if folder_key %}
-                formData.append("folder_key", "{{folder_key}}");
-            {% endif %}
-            formData.append("file_name", "{{file_name}}");
-            formData.append("key", "{{key_str}}");
+            formData.append("document_path", currentDocumentPath);
+            formData.append("key", currentKey);
 
             var newText = document.getElementById('translated_text').value;
 
@@ -154,20 +204,17 @@
 
         function findSimilar()
         {
-            const apiUrl = {{ url_for('find_similar_items')|tojson }};
+            const apiUrl = "/api/find_similar_units";
 
             var resultsRoot = document.getElementById('find_similar_results');
             resultsRoot.replaceChildren();
 
             formData = new FormData();
-            {% if folder_key %}
-                formData.append("folder_key", "{{folder_key}}");
-            {% endif %}
-            formData.append("file_name", "{{file_name}}");
-            formData.append("key", "{{key_str}}");
+            formData.append("document_path", currentDocumentPath);
+            formData.append("key", currentKey);
 
             fetch(apiUrl, { method: 'POST', body: formData })
-                .then(response => response.json())
+                .then(response => response.ok ? response.json() : Promise.reject(response))
                 .then(json => {
                     var resultsRoot = document.getElementById('find_similar_results');
                     var resultTemplate = document.getElementById("find_similar_item_template")
@@ -179,16 +226,15 @@
                         resultItem.querySelector(".find_similar_result_translated").innerText = result['translated']
 
                         var resultLink = resultItem.querySelector(".find_similar_result_link");
-                        resultLink.innerText = result['file_name'] + "/" + result['key']
-                        resultLink.href = "/edit_item/"
-                            + (result['folder_key'] == undefined ? "" : result['folder_key'] + "/")
-                            + result['file_name'] + "/"
-                            + result['key'];
+                        resultLink.innerText = result['document_path'] + "/" + result['key']
+                        resultLink.href = "/unit?document_path=" + result['document_path']
+                            + "&key=" + result['key'];
 
                         resultsRoot.appendChild(resultItem);
                     }
 
-                });
+                })
+                .catch(response => window.alert("API call failed: " + response.status + " " + response.statusText));
         }
 
         function useSimilarResult(clickedButton)
@@ -204,22 +250,18 @@
 {% endblock %}
 
 {% block header %}
-    <h1>Edit item - {{key_str}}</h1>
+    <h1 id="header_text">Edit item - </h1>
 {% endblock %}
 
 {% block header_left %}
-    {% if prev_key %}
-        <a href="{{url_for('edit_item', folder_key=folder_key, file_name=file_name, key_str=prev_key)}}">{{prev_key}}</a>
-    {% endif %}
+    <a id="prev_key_link"></a>
 {% endblock %}
 
 {% block header_right %}
-    {% if next_key %}
-        <a href="{{url_for('edit_item', folder_key=folder_key, file_name=file_name, key_str=next_key)}}">{{next_key}}</a>
-    {% endif %}
+    <a id="next_key_link"></a>
 {% endblock %}
 
-{% block onload %} updateText(); {% endblock %}
+{% block onload %} loadUnit(); {% endblock %}
 
 {% block content %}
 
@@ -240,21 +282,20 @@
             <label for="show_translated">Translated</label>
         </div>
 
-        {% if condition_list %}
         <ul id="condition_list">
-            {% for condition in condition_list %}
-                <li class="condition_item">
-                    <input type="checkbox" id="condition_{{condition}}_active" class="condition_toggle" data-condition="{{condition}}"  onclick="updateText();"/>
-                    <label for="condition_{{condition}}_active">{{condition}}</label>
-                </li>
-            {% endfor %}
         </ul>
-    {% endif %}
+        <template id="condition_list_item_template">
+            <li class="condition_item">
+                <input type="checkbox" class="condition_toggle" onclick="updateText();"/>
+                <label></label>
+            </li>
+        </template>
+
     </div>
 
     <div id="text_entry_panel">
-        <textarea id="original_text" rows="15" onscroll="document.getElementById('translated_text').scrollTop = document.getElementById('original_text').scrollTop;" readonly>{{original if original else ""}}</textarea>
-        <textarea id="translated_text" rows="15" onscroll="document.getElementById('original_text').scrollTop = document.getElementById('translated_text').scrollTop;" onchange="handleTranslationChanged();">{{translation if translation else ""}}</textarea>
+        <textarea id="original_text" rows="15" onscroll="document.getElementById('translated_text').scrollTop = document.getElementById('original_text').scrollTop;" readonly></textarea>
+        <textarea id="translated_text" rows="15" onscroll="document.getElementById('original_text').scrollTop = document.getElementById('translated_text').scrollTop;" onchange="handleTranslationChanged();"></textarea>
     </div>
 
     <div>
@@ -270,6 +311,6 @@
         </template>
     </div>
 
-    <p><a href="{{url_for('items', folder_key=folder_key, file_name=file_name)}}">Back</a></p>
+    <p><a id="back_link">Back</a></p>
 
 {% endblock %}

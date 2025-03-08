@@ -1,33 +1,113 @@
 {% extends "base.html.jinja" %}
 {% block title %}Index{% endblock %}
 
+{% block head %}
+    {{ super() }}
+    <script>
+        function loadTopLevelDocuments()
+        {
+            var resultsRoot = document.getElementById('document_list');
+
+            fetchDocuments("", resultsRoot);
+        }
+
+        function fetchDocuments(folderPath, resultsRoot)
+        {
+            const apiUrl = "/api/list_documents?folder_path=" + folderPath;
+
+            fetch(apiUrl)
+                .then(response => response.ok ? response.json() : Promise.reject(response))
+                .then(json => {
+
+                    var resultItemTemplate = document.getElementById("document_list_item_template")
+                    var resultFolderTemplate = document.getElementById("document_list_folder_template")
+
+                    for (var result of json)
+                    {
+                        if (true == result['is_folder'])
+                        {
+                            var resultItem = resultFolderTemplate.content.cloneNode(true);
+                            resultItem.firstElementChild.dataset.fullPath = result['full_path'];
+
+                            resultItem.querySelector("h1").innerHTML = result['display_name']
+
+                            resultsRoot.appendChild(resultItem);
+                        }
+                        else
+                        {
+                            var documentUrl = "/document?document_path=" + result['full_path']
+                            var resultItem = resultItemTemplate.content.cloneNode(true);
+                            resultItem.querySelector("h1").innerHTML = "<a href=\"" + documentUrl + "\">" + result['display_name'] + "</a>";
+                            resultItem.querySelector("h2").innerText = result['note'];
+                            resultItem.querySelector("progress").value = result['progress']
+
+                            if (result['progress'] >= 1)
+                            {
+                                resultItem.firstElementChild.classList.add("translation_done");
+                            }
+                            else if (result['progress'] > 0)
+                            {
+                                resultItem.firstElementChild.classList.add("translation_in_progress");
+                            }
+
+                            resultsRoot.appendChild(resultItem);
+                        }
+                    }
+                })
+                .catch(response => window.alert("API call failed: " + response.status + " " + response.statusText));
+        }
+
+        function toggleExpand(clickedButton)
+        {
+            var folderItem = clickedButton.parentElement;
+            var resultsRoot = folderItem.querySelector("ul");
+
+            resultsRoot.replaceChildren();
+
+            console.trace(folderItem.classList.contains("folder-expanded"));
+
+            if (folderItem.classList.contains("folder-expanded"))
+            {
+                folderItem.querySelector("button").innerText = "Expand";
+                folderItem.classList.remove("folder-expanded");
+            }
+            else
+            {
+                fetchDocuments(folderItem.dataset.fullPath, resultsRoot);
+
+                folderItem.querySelector("button").innerText = "Collapse";
+                folderItem.classList.add("folder-expanded");
+            }
+        }
+    </script>
+{% endblock %}
+
 {% block header %}
     <h1>Index</h1>
 {% endblock %}
 
-{% block content %}
-    <p><a href="{{url_for('search')}}">Search</a></p>
-    {% if files %}
-        <ul class="flow_list">
-        {% for file in files %}
-            <li class="index_top_level_item">
-                {% if file.folder_items %}
-                    {{file.display_name}}
-                    <ul class="flow_list">
-                    {% for subfile in file.folder_items %}
-                        <li class="index_sub_item {%if subfile.progress >= 1%}translation_done{%elif subfile.progress > 0%}translation_in_progress{%endif%}">
-                            <h1><a href="{{url_for('items', folder_key=file.folder_key, file_name=subfile.display_name)}}">{{subfile.display_name}}</a></h1>
-                            {%if subfile.note %}<h2>{{subfile.note}}</h2>{%endif%}
-                            <progress max="1" value="{{subfile.progress}}"></progress>
-                        </li>
-                    {% endfor %}
-                    </ul>
-                {% else %}
-                    <h1><a href="{{url_for('items', file_name=file.display_name)}}">{{file.display_name}}</a></h1>
-                {% endif%}
-            </li>
+{% block onload %} loadTopLevelDocuments(); {% endblock %}
 
-        {% endfor %}
-        </ul>
-    {% endif %}
+{% block content %}
+    <p><a href="/search">Search</a></p>
+
+    <template id="document_list_item_template">
+        <li class="index_sub_item">
+            <h1></h1>
+            <h2></h2>
+            <progress class="document_list_item_progress" max="1"></progress>
+        </li>
+    </template>
+
+    <template id="document_list_folder_template">
+        <li class="index_top_level_item">
+            <h1></h1>
+            <button onclick="toggleExpand(this);">Expand</button>
+            <ul class="flow_list"></ul>
+        </li>
+    </template>
+
+    <ul id="document_list" class="flow_list">
+
+    </ul>
 {% endblock %}
