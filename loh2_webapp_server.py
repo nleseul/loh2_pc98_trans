@@ -154,6 +154,8 @@ def render_text_html(trans:TranslationCollection, entry_point_key:int, max_pages
     condition_was_true = None
     conditions_checked = set()
 
+    jump_history = set()
+
     while instruction_index < len(disassembled_events):
         instruction = disassembled_events[instruction_index]
         instruction_index += 1
@@ -207,13 +209,24 @@ def render_text_html(trans:TranslationCollection, entry_point_key:int, max_pages
             elif code == 0x0f:
                 if condition_was_true is None or condition_was_true:
                     jump_target = int.from_bytes(instruction.data, byteorder='little')
+                    if jump_target in jump_history:
+                        renderer.add_newline()
+                        renderer.change_text_style("unknown_tag")
+                        renderer.add_debug_text(f"Cycle detected when jumping")
+                        renderer.add_newline()
+                        renderer.add_debug_text(f"to {jump_target:04x} from {instruction.addr:04x}!")
+                        renderer.cancel_text_style()
+                        break
+
                     if jump_target not in locator_to_key_and_offset:
                         renderer.add_newline()
                         renderer.change_text_style("unknown_tag")
                         renderer.add_debug_text(f"Unknown jump target address {jump_target:04x}!")
                         renderer.cancel_text_style()
                         break
-                    #print(f"Jump to {jump_target:04x}")
+
+                    #print(f"Jump to {jump_target:04x} from {instruction.addr:04x}")
+                    jump_history.add(jump_target)
 
                     jump_target_key, jump_target_offset = locator_to_key_and_offset[jump_target]
                     #print(f"key={jump_target_key:04x}, offset={jump_target_offset}")
@@ -231,7 +244,7 @@ def render_text_html(trans:TranslationCollection, entry_point_key:int, max_pages
                         renderer.add_debug_text(f"Unknown call target address {call_target:04x}!")
                         renderer.cancel_text_style()
                         break
-                    #print(f"Call to {call_target:04x}")
+                    #print(f"Call to {call_target:04x} from {instruction.addr:04x}")
 
                     call_stack.append((disassembled_events, instruction_index))
 
