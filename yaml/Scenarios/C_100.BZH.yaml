@@ -19,8 +19,14 @@
         54669
       "target_addr": !!int |-
         23276
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Durant<C_NONE>
+      <IF0050><JUMP5b51>Where do you think you're going?!
+      This is no place for peasants!
+      Get out! Get out!!<END>
+      <LOC5b51>Your Highness! What a pleasure!
+      I look forward to working with you
+      once I am named Duke.
   !!int "23457": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ローランス<C_NONE>
@@ -38,8 +44,13 @@
         54678
       "target_addr": !!int |-
         23457
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Laurence<C_NONE>
+      <IF0050><JUMP5c07>What is it? I'm far too busy to
+      waste time with commoners.<END>
+      <LOC5c07>Busy as I may be, it would be
+      my pleasure to speak with your
+      Highness as long as you desire.
   !!int "23652": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>マルセー<C_NONE>
@@ -63,8 +74,16 @@
         54687
       "target_addr": !!int |-
         23652
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Marssei<C_NONE>
+      <IF0050><JUMP5cf6>What? Duke Jestonn? No, I'm afraidI am not the Duke.
+
+      Many people do make that mistake,
+      of course. Ha ha ha ha!<END>
+      <LOC5cf6>Ah, your Highness. His Excellency
+      spoke to you about me, I suppose?
+
+      I will be his successor, after all.Ha ha ha ha!
   !!int "23941": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ロエル<C_NONE>
@@ -80,8 +99,14 @@
         54696
       "target_addr": !!int |-
         23941
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Loell<C_NONE>
+      I find I still can't relax in a
+      place like a castle. Too many
+      people, you see.
+
+      I'm surely more suited for the
+      solitary life.
   !!int "24073": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -98,8 +123,12 @@
         54705
       "target_addr": !!int |-
         24073
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      This strange red slime outbreak
+      was probably a warning sign of
+      <IF0068><JUMP5e63>the earthquake, right?<END>
+      <LOC5e63>the monsters, right?
   !!int "24214": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -116,8 +145,14 @@
         54714
       "target_addr": !!int |-
         24214
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      I heard it from my grandmother.
+      That earthquake was an omen of
+      the hatching of the dragonseggs.<IF_NOT0068><JUMP5f39>
+
+      I guess she wasn't wrong. That's
+      where these monsters came from.<LOC5f39>
   !!int "24378": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -140,8 +175,21 @@
         54723
       "target_addr": !!int |-
         24378
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      The castle's ship is currently
+      transporting criminals to Jagri.
+
+      <IF0068><JUMP6033>Jagri is the region to the north
+      of Wonliech. It's a penal colony,
+      surrounded by stormy seas and
+      treacherous mountains.
+
+      It's jointly managed by all the
+      nations as a place for criminals
+      to settle.<END>
+      <LOC6033>I'm sure there are dragonseggs
+      up there too. I wonder how they'vefared?
   !!int "24693": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -161,8 +209,18 @@
         54732
       "target_addr": !!int |-
         24693
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      Loell has been an advisor to Duke
+      Jestonn for many years. He lived
+      in a house to the northwest.
+
+      However, his house collapsed
+      during the earthquake.
+
+      He was badly injured, but he
+      somehow managed to pull himself
+      free and make his way here.
   !!int "24935": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -182,8 +240,16 @@
         54741
       "target_addr": !!int |-
         24935
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      The dungeons are through here.<IF0068><JUMP61d7>
+      All the criminals were just sent
+      to Jagri, so there's no one there.<END>
+      <LOC61d7>
+
+      I'm worried that there's going to
+      be an increase in crime, with all
+      this confusion.
   !!int "25172": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -197,8 +263,11 @@
         54750
       "target_addr": !!int |-
         25172
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      These are the rooms where the
+      three candidates to succeed the
+      Duke are lodged.
   !!int "25243": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>侍女<C_NONE>
@@ -238,4 +307,5 @@
         25430
     "translated": !!null |-
       null
-"_note": ""
+"_note": |-
+  Riezel Castle 1F - Prologue

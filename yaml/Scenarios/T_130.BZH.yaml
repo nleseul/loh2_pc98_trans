@@ -185,8 +185,10 @@
         54704
       "target_addr": !!int |-
         24296
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Weapon merchant<C_NONE>
+      Come on in! Nothin' but the best
+      weapons here.<RET_N>
   !!int "24353": !RelocatableTranslatableEntry
     "original": |-
       また 来てくれよ。
@@ -198,8 +200,8 @@
         54716
       "target_addr": !!int |-
         24353
-    "translated": !!null |-
-      null
+    "translated": |-
+      Come again!
   !!int "24371": !RelocatableTranslatableEntry
     "original": |-
       もう 持てねえみてえだぜ。
@@ -213,8 +215,10 @@
         24934
       "target_addr": !!int |-
         24371
-    "translated": !!null |-
-      null
+    "translated": |-
+      Can't carry any more, can you?
+
+      <RET>
   !!int "24398": !RelocatableTranslatableEntry
     "original": |-
       何 買ってくれるんだい？
@@ -227,8 +231,9 @@
         24936
       "target_addr": !!int |-
         24398
-    "translated": !!null |-
-      null
+    "translated": |-
+      What're you buyin'?
+      <RET_N>
   !!int "24423": !RelocatableTranslatableEntry
     "original": |-
       <ITEM>かい。
@@ -243,8 +248,11 @@
         24938
       "target_addr": !!int |-
         24423
-    "translated": !!null |-
-      null
+    "translated": |-
+      The <ITEM>, huh?
+      Here you go. Thanks!
+
+      <RET>
   !!int "24456": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>奥にいる道具屋<C_NONE>
@@ -263,8 +271,15 @@
         54722
       "target_addr": !!int |-
         24456
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Tool merchant in the back<C_NONE>
+      I'm sorry, but I haven't decided
+      what I'm going to sell yet.
+
+      No one buys Reveal Chimes
+      anymore...
+      So I've been thinking hard about
+      what I should offer instead.
   !!int "24633": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>道具屋<C_NONE>
@@ -278,8 +293,10 @@
         54734
       "target_addr": !!int |-
         24633
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Tool merchant<C_NONE>
+      Welcome! Anything I can help you
+      with?<RET_N>
   !!int "24685": !RelocatableTranslatableEntry
     "original": |-
       また おいでください。
@@ -291,8 +308,8 @@
         54761
       "target_addr": !!int |-
         24685
-    "translated": !!null |-
-      null
+    "translated": |-
+      Come again!
   !!int "24715": !RelocatableTranslatableEntry
     "original": |-
       おや？これ以上持てないようですね。
@@ -306,8 +323,10 @@
         24707
       "target_addr": !!int |-
         24715
-    "translated": !!null |-
-      null
+    "translated": |-
+      You don't have any room for it.
+
+      <RET>
   !!int "24751": !RelocatableTranslatableEntry
     "original": |-
       どれを買ってくれますか？
@@ -320,8 +339,9 @@
         24709
       "target_addr": !!int |-
         24751
-    "translated": !!null |-
-      null
+    "translated": |-
+      What would you like to buy?
+      <RET_N>
   !!int "24777": !RelocatableTranslatableEntry
     "original": |-
       <ITEM>だね。
@@ -336,8 +356,11 @@
         24711
       "target_addr": !!int |-
         24777
-    "translated": !!null |-
-      null
+    "translated": |-
+      The <ITEM>?
+      Thank you very much!
+
+      <RET>
   !!int "24814": !RelocatableTranslatableEntry
     "original": |-
       どれを 売ってくれますか？
@@ -350,8 +373,9 @@
         24806
       "target_addr": !!int |-
         24814
-    "translated": !!null |-
-      null
+    "translated": |-
+      What would you like to sell?
+      <RET_N>
   !!int "24841": !RelocatableTranslatableEntry
     "original": |2-
        Gold になるけど
@@ -365,8 +389,10 @@
         24808
       "target_addr": !!int |-
         24841
-    "translated": !!null |-
-      null
+    "translated": |-
+      gold.
+      Will that be okay?
+      <RET_N>
   !!int "24885": !RelocatableTranslatableEntry
     "original": |-
       それは残念です。
@@ -380,8 +406,10 @@
         24810
       "target_addr": !!int |-
         24885
-    "translated": !!null |-
-      null
+    "translated": |-
+      That's too bad.
+
+      <RET_N>
   !!int "24903": !RelocatableTranslatableEntry
     "original": |-
       どうも ありがとうございます。
@@ -394,7 +422,8 @@
         24812
       "target_addr": !!int |-
         24903
-    "translated": !!null |-
-      null
+    "translated": |-
+      Thank you very much.
+      <RET_N>
 "_note": |-
   Maschun - Prologue

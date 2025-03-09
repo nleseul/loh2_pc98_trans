@@ -163,8 +163,161 @@
         54729
       "target_addr": !!int |-
         24389
-    "translated": !!null |-
-      null
+    "translated": |-
+      <IF_NOT0404><JUMP5f06><UNSET0404><IF0050><JUMP5f45><SET0049><CH1>
+      Oh, hey, kid. Still haven't
+      learned not to wander around
+      carelessly?
+
+      <CH0>
+      Hey! Thanks for earlier.
+
+      <CH1>
+      Yeah, same to you. Thanks for
+      gettin' me called "dad."
+
+      You oughta just go home instead
+      of causing trouble for people.
+
+      <CH0>
+      Oh! I'm so sorry!
+      I never meant for anything
+      unpleasant to happen to you.
+
+      <CH1>
+      Hmph.
+
+      <CH0>
+      I don't understand it, though.
+      You don't look anywhere near old
+      enough to be a dad.
+
+      <CH1>
+      ...Really?
+      How old do you think I am, then?
+
+      <CH0>
+      Umm... maybe 21 or 22, I guess?
+
+      <CH1>
+      Yeah? Yeah, that's right.
+      My name's Landor, by the way.
+
+      <CH0>
+      I'm <CALL6d1f>.
+
+      <CH1>
+      <CALL6d1f>, huh?
+      What are you up to, anyway?
+      Wandering around everywhere.
+
+      <CH0>
+      I'm on my way to Riezel Castle.
+
+      <CH1>
+      The castle? You're kiddin' me.
+      What would a little brat be doin'
+      in the castle?
+
+      <CH0>
+      I've just got an errand there.
+
+      <CH1>
+      An errand? What kind of errand?
+      C'mon, tell me!<JUMP5f29><LOC5f06><CH1>
+      Hey, what kind of errand is it?
+      C'mon, tell me!<LOC5f29>
+
+      <CH0>
+      Well, I can't really say...<END>
+      <LOC5f45><CH1>
+      Ooh, so you're a Prince, are you?
+
+      <CH0>
+      W-What?! How did you...?
+
+      <CH1>
+      Carrying letters, traveling all
+      over the world by yourself? I
+      finally got it out of the guards.
+
+      I think I might do some travelin'
+      myself. So how about we travel
+      together? What do you say?
+
+      <CH0>
+      I can't!
+      Father told me that I have to
+      travel without any retinue.
+
+      <CH1>
+      Damn. I didn't know that.
+      <WAIT>
+      ...Huh?
+      <WAIT>
+      Of course!!
+
+      No retainers, right?
+      But did anyone make me your
+      retainer?<WAIT>
+      I'm a friend! Just a friend!
+
+      Right? We can be friends,
+      traveling together, right?.
+      You an' me?
+
+      Besides... Traveling alone,
+      what're you gonna do if you get
+      weirdos buggin' you again, huh?
+
+      You won't have to worry with me
+      around. I know I don't look it,
+      but I'm actually a wizard.
+
+      <CH0>
+      A wizard? With a body like that?
+      All the wizards I've ever seen
+      are more...
+
+      <CH1>
+      Tiny an' delicate, right?
+
+      You've got no idea how I hate thatstereotype.
+
+      No reason I can't work on my
+      physique while I'm studyin' spells.
+      Check out these muscles. You'd
+      take me for a swordsman, huh?
+
+      Well, no use babblin' to your
+      Highness about that all day, I
+      suppose. Let's get goin'!
+
+      <CH0>
+      You sure like to take charge...
+      But I do need one thing from you,
+      as a traveling companion.
+
+      <CH1>
+      Huh? What's that?
+
+      <CH0>
+      I'm <CALL6d1f>, a young man from the
+      town of Rudia.
+      Not a prince.
+
+      <CH1>
+      Oh. All right. My mistake.
+      C'mon, <CALL6d1f>. Let's get goin'!
+
+      <C_GREEN>Landor joins the party.<SND0103><C_NONE><ASMd70a><Xf7><SET0048>
+
+      <CH1>
+      By the way, <CALL6d1f>... Do you reallyneed all that old-fashioned gear?
+      Those things're antiques!
+
+      You really oughta start pawnin'
+      that junk off.
   !!int "25710": !RelocatableTranslatableEntry
     "original": |-
       <CALL6cf7><IF0050><JUMP6587><IF004a><JUMP6558><SET004a>この先は お城になっている。
@@ -200,8 +353,33 @@
         54738
       "target_addr": !!int |-
         25710
-    "translated": !!null |-
-      null
+    "translated": |-
+      <CALL6cf7><IF0050><JUMP6587><IF004a><JUMP6558><SET004a>The castle is beyond here.
+      Do you have business there?
+
+      <Xf7><CH0>
+      I'm Prince <CALL6d1f> from the
+      Kingdom of Farleyn.
+
+      I'd like to give this letter
+      to <CALL6cfe>.
+
+      <CALL6cf7>F-Farleyn?!
+      I apologize for my rudeness. His
+      Excellency is on the second floor.<END>
+      <LOC6558><CALL6cfe> is on the second
+      floor. Please enter.<END>
+      <LOC6587><IF_NOT004d><JUMP6593><IF004c><JUMP65dd><LOC6593><SET004c>Y-Your Highness.
+      I'm afraid I said more than I
+      should have. I apologize.<END>
+      <LOC65dd><IF_NOT004f><JUMP65e9><IF004e><JUMP6650><LOC65e9><SET004e>王子さまに お会いしたのは 初めて
+      でしたので うれしくて だれかに
+      言いたくて しかたがなかったのです。<END>
+      <LOC6650><SET004b>王子さま、本当は あいつだって
+      言いたくて 言いたくて しかたが
+      なかったんですよ。
+
+      でも それを 私が言ってしまったので頭にきているんです。
   !!int "26330": !RelocatableTranslatableEntry
     "original": |-
       <CALL6cf7><IF0050><JUMP67da><IF004a><JUMP67ab><SET004a>おい、その剣は何だ？ そんな物を
@@ -235,8 +413,30 @@
         54747
       "target_addr": !!int |-
         26330
-    "translated": !!null |-
-      null
+    "translated": |-
+      <CALL6cf7><IF0050><JUMP67da><IF004a><JUMP67ab><SET004a>Hey, where're you going with that
+      sword? You can't bring that in thecastle.
+
+      <Xf7><CH0>
+      My name's <CALL6d1f>. I'm the Prince
+      of Farleyn.
+
+      I've come to bring a letter from
+      the King to <CALL6cfe>.
+
+      <CALL6cf7>I-I apologize.
+      His Excellency is on the second
+      floor. Please, enter.<END>
+      <LOC67da><IF_NOT004d><JUMP67e6><IF004c><JUMP682a><LOC67e6><SET004d>私は よせって いったのですが
+      あいつが しゃべってしまったんです。<END>
+      <LOC682a><IF_NOT004f><JUMP6836><IF004b><JUMP688a><LOC6836><SET004f>こんなに口の軽いやつは 見たことが
+      ありませんよ。
+      門番なんかに しておけませんね。<END>
+      <LOC688a>私は 門番のかがみです。
+      そのような 軽い行動は いっさい
+      いたしません。
+
+      あいつとは 違うんですから ･ ･ ･
   !!int "26864": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -254,8 +454,14 @@
         54756
       "target_addr": !!int |-
         26864
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Man<C_NONE>
+      When all is veiled in darkness,
+      the Crimson Dragon will hatch from
+      the dragonseggs and burn away evil.
+
+      Have you ever heard that legend?
+      My father used to say that.
   !!int "27013": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -273,8 +479,15 @@
         54765
       "target_addr": !!int |-
         27013
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Man<C_NONE>
+      Listen! I saw' em!
+      The candidates for <CALL6cfe>'s
+      successor!!
+
+      Don't tell anyone I said this, but
+      those three... None of 'em make
+      me feel good about the future.
   !!int "27139": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>女<C_NONE>
@@ -292,8 +505,15 @@
         54774
       "target_addr": !!int |-
         27139
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Woman<C_NONE>
+      Bringing home slimes...
+      I'm at my wit's end with that kid.
+
+      I accidentally stepped on one of
+      those things once. It was so
+      disgusting that I can't deal with
+      them any more.
   !!int "27289": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>老人<C_NONE>
@@ -307,8 +527,11 @@
         54783
       "target_addr": !!int |-
         27289
-    "translated": !!null |-
-      null
+    "translated": |
+      <C_YELLOW>Old man<C_NONE>
+      That earthquake has to be a sign
+      that the dragonseggs will hatch
+      soon!
   !!int "27359": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>子供<C_NONE>
@@ -326,8 +549,13 @@
         54792
       "target_addr": !!int |-
         27359
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Child<C_NONE>
+      Hey! Have you ever poked a slime?
+      They're so funny!
+
+      I love 'em!
+      But mom gets mad at me.
   !!int "27487": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>武器屋<C_NONE>
@@ -344,8 +572,15 @@
         54798
       "target_addr": !!int |-
         27487
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Weapon merchant<C_NONE>
+      Welcome! If you're looking for
+      weapons, I should have a shipment
+      from Lanoura soon.
+
+      Lanouran regulations are very
+      strict, so it can be difficult to
+      transport weapons.
   !!int "27627": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>道具屋<C_NONE>
@@ -359,8 +594,9 @@
         54810
       "target_addr": !!int |-
         27627
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Tool merchant<C_NONE>
+      Welcome! What can I do for you?<RET_N>
   !!int "27683": !RelocatableTranslatableEntry
     "original": |-
       また来てくださいね。
@@ -372,8 +608,8 @@
         54837
       "target_addr": !!int |-
         27683
-    "translated": !!null |-
-      null
+    "translated": |-
+      Please come again!
   !!int "27704": !RelocatableTranslatableEntry
     "original": |-
       おや？これ以上持てないようですね。
@@ -387,8 +623,10 @@
         27944
       "target_addr": !!int |-
         27704
-    "translated": !!null |-
-      null
+    "translated": |-
+      You don't have any room for it.
+
+      <RET>
   !!int "27740": !RelocatableTranslatableEntry
     "original": |-
       どれを買ってくれますか？
@@ -401,8 +639,9 @@
         27946
       "target_addr": !!int |-
         27740
-    "translated": !!null |-
-      null
+    "translated": |-
+      What would you like to buy?
+      <RET_N>
   !!int "27766": !RelocatableTranslatableEntry
     "original": |-
       <ITEM>だね。
@@ -417,8 +656,11 @@
         27948
       "target_addr": !!int |-
         27766
-    "translated": !!null |-
-      null
+    "translated": |-
+      The <ITEM>?
+      <CALL6d0d>!
+
+      <RET>
   !!int "27789": !RelocatableTranslatableEntry
     "original": |-
       どれを 売ってくれますか？
@@ -431,8 +673,9 @@
         27781
       "target_addr": !!int |-
         27789
-    "translated": !!null |-
-      null
+    "translated": |-
+      What would you like to sell?
+      <RET_N>
   !!int "27816": !RelocatableTranslatableEntry
     "original": |2-
        Gold になるけど
@@ -446,8 +689,10 @@
         27783
       "target_addr": !!int |-
         27816
-    "translated": !!null |-
-      null
+    "translated": |-
+      gold.
+      Will that be okay?
+      <RET_N>
   !!int "27860": !RelocatableTranslatableEntry
     "original": |-
       それは残念です。
@@ -461,8 +706,10 @@
         27785
       "target_addr": !!int |-
         27860
-    "translated": !!null |-
-      null
+    "translated": |-
+      That's too bad.
+
+      <RET_N>
   !!int "27878": !RelocatableTranslatableEntry
     "original": |-
       <CALL6d0d>ございます。
@@ -475,38 +722,40 @@
         27787
       "target_addr": !!int |-
         27878
-    "translated": !!null |-
-      null
+    "translated": |-
+      <CALL6d0d> very much.
+      <RET_N>
   !!int "27895": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE><RET_N>
     "original_byte_length": !!int |-
       7
     "references": []
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE><RET_N>
   !!int "27902": !RelocatableTranslatableEntry
     "original": |-
       ジェストンさま<RET>
     "original_byte_length": !!int |-
       15
     "references": []
-    "translated": !!null |-
-      null
+    "translated": |-
+      Duke Jestonn<RET>
   !!int "27917": !RelocatableTranslatableEntry
     "original": |-
       どうも ありがとう<RET>
     "original_byte_length": !!int |-
       18
     "references": []
-    "translated": !!null |-
-      null
+    "translated": |-
+      Thank you<RET>
   !!int "27935": !RelocatableTranslatableEntry
     "original": |-
       アトラス<RET>
     "original_byte_length": !!int |-
       9
     "references": []
-    "translated": !!null |-
-      null
-"_note": ""
+    "translated": |-
+      Atlas<RET>
+"_note": |-
+  Riezel town - Prologue

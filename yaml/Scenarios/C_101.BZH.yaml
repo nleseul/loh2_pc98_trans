@@ -123,8 +123,122 @@
         54649
       "target_addr": !!int |-
         23119
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Jestonn<C_NONE>
+      <IF0068><JUMP601c><IF0050><JUMP5fc6>Welcome, Prince Atlas.
+      <PAGE>
+      <CH0>
+      Your Excellency. It is an honor tofinally meet you.
+
+      <C_YELLOW>Jestonn<C_NONE>
+      But this is not our first meeting,
+      your Highness.
+
+      Our second, I believe. But the
+      first was a long time ago. It's
+      to be expected that you don't
+      remember.
+
+      <CH0>
+      Oh, I see. I apologize.
+      Your Excellency, I've come to
+      deliver a letter from my father.
+
+      <Xf6d4d5><SET0019><SET0050><C_GREEN>Handed over the <C_NONE><ITEM><C_GREEN>.<SND0103><C_NONE>
+
+      <C_YELLOW>Jestonn<C_NONE>
+      Thank you.
+      By the way, where are your
+      Highness's attendants?
+
+      <CH0>
+      Oh, I don't have any.
+      Father instructed me to travel on
+      my own, without retainers.
+
+      <C_YELLOW>Jestonn<C_NONE>
+      What? Alone?!
+      I see. You've done well, then.
+      Will you be returning home now?
+
+      <CH0>
+      No, not yet. I'm not to return
+      until I've delivered these lettersto the other three lands.
+
+      And I also need to be able to
+      warp to a lot of different
+      towns.
+
+      <C_YELLOW>Jestonn<C_NONE>
+      What? All over the world by
+      yourself?!
+      That's a difficult journey.
+
+      But I'm certain that your
+      Highness is up to the challenge.
+
+      So, Lanoura is next...<WAIT>
+      Are you aware of the restrictions
+      on travel in and out of Lanoura?
+
+      <CH0>
+      Yes, I've heard them mentioned.<WAIT>
+      I have a request, your Excellency.
+
+      Could you have me treated as an
+      ordinary young man? Not as a
+      prince?
+
+      <C_YELLOW>Jestonn<C_NONE>
+      Of course, you'd have to prove
+      your identity during the
+      registration process.
+
+      And you don't want it to be known
+      that you're a prince.
+      <PAGE>
+      Very well. I'll send word to the
+      soldiers in Larfa. Atlas, from
+      the town of Rudia, will suffice.
+
+      That Selios... All in all, he
+      seems to have raised you well.
+
+      <LOC5fc6>I have no children of my own, so
+      the succession has been difficult.<WAIT>
+      Even with three candidates...<END>
+      <LOC601c><IF0051><JUMP62aa><SET0051><SET006a>おや アトラス王子ではないか。
+      いったい どうしたと いうのだ？
+
+      <Xf52c0000><ASM1ae6><Xf7><CH0>
+      父上が こちらに向かったと
+      ききまして ･ ･ ･
+
+      <C_YELLOW>ジェストン<C_NONE>
+      おお セリオス殿なら たしかに
+      このモンスターの 発生について
+      話をされにきたぞ。
+
+      セリオス殿が 言うには イセルハーサ全土で モンスターが 発生している
+      可能性があるそうだ。
+
+      そして その手がかりを つかむためにイセルハーサ中にある 竜の卵を 見てまわると 言っておられた。
+
+      つい先ほど ラヌーラのエリオン殿に
+      会うために 出発されたところだが
+      何か用でも あったのかね？
+
+      <CH0>
+      ええ ぼくも 父上と 行動をともに
+      しようと思いまして。
+
+      ジェストンさま それでは ぼくも
+      父を追って ラヌーラに 向かいます。
+
+      <C_YELLOW>ジェストン<C_NONE>
+      そうか それは よいことだ。
+      <LOC62aa>くれぐれも モンスターには
+      気をつけて むりを せぬようにな。
   !!int "25317": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>オーエン<C_NONE>
@@ -221,4 +335,5 @@
         25907
     "translated": !!null |-
       null
-"_note": ""
+"_note": |-
+  Riezel Castle 2F - Prologue

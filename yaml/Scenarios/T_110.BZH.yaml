@@ -190,8 +190,40 @@
         54706
       "target_addr": !!int |-
         24170
-    "translated": !!null |-
-      null
+    "translated": |-
+      <CALL61a2>Ah, welcome!
+      <IF0034><JUMP6097><SET0034>Can I interest you in a Sylis
+      tome?
+
+      They're 200 gold each.
+      But you don't seem to have the
+      money.
+
+      By the way, that gear you're
+      carrying looks quite old.
+
+      Wait!! I-Is that...
+      a full set of Holy equipment?!
+
+      I enjoy collecting antiques,
+      you see. I don't suppose I could
+      convince you to part with those?
+
+      <CH0>
+      I'm sorry. But these items are
+      important, so I can't sell them.
+
+      <CALL61a2>At least let me offer you
+      a good price...<LOC601c>
+
+      <CH0>
+      I'm very sorry. But I really can't.
+
+      <CALL61a2>I see... That's too bad.
+      Well, if you ever change your mind,
+      please come back and see me.<END>
+      <LOC6097>Have you reconsidered selling your
+      Holy equipment to me?<JUMP601c>
   !!int "24778": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>女<C_NONE>

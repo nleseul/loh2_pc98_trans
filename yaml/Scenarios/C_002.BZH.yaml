@@ -228,33 +228,32 @@
       All right, I'll be going now.<END>
       <LOC63e4><CALL6d08>, deliver the four letters,
       and see other parts of the world.<END>
-      <LOC6421><SET000e>んっ !?
-      こちらは ･ ･ ･ ？
+      <LOC6421><SET000e>Huh?! Who is...?
 
       <CH0>
-      あっ ごめんなさい 父上。
-      ひとりきりで 旅を しなくて ･ ･ ･
+      Oh, I'm sorry, Father.
+      I haven't been traveling entirely
+      on my own...
 
       <CH1>
-      これは どうも 国王さま。
-      おれは ランドーといいます。
+      Your Majesty. It's an honor.
+      My name is Landor.
 
-      <CALL6632><CALL6cea>いや 怒るなんてとんでもない。
-      信頼できる仲間を 見つけることも
-      この旅の目的の ひとつなのだ。
+      <CALL6632><CALL6cea>No, I'm far from angry.
+      Meeting friends he can rely on is
+      also part of why he's traveling.
 
-      でも ランドー殿 お願いがあります。できるかぎり <CALL6d08>の自由に
-      させるように してください。
-      それだけです。
+      I only ask one thing, Landor.
+      As much as you can, let <CALL6d08>
+      do as he wishes. That's all.
 
       <CH1>
-      そりゃそうですよ 国王さま。
-      おれは ただ <CALL6d08>王子の 後を
-      くっついてるだけですから。
+      Of course, your Majesty. All I'm
+      doin' is following him, after all.
 
-      <CALL6cea><LOC65d3>ランドー殿、かってなことを
-      言うようだが いざというときには
-      めんどうを みてやってください。
+      <CALL6cea><LOC65d3>Landor. This may seem like a
+      selfish request, but when the time
+      comes, please take care of him.
   !!int "26158": !RelocatableRawDataEntry
     "data": !!binary |
       uAsAAA==
@@ -276,8 +275,12 @@
     "original_byte_length": !!int |-
       81
     "references": []
-    "translated": !!null |-
-      null
+    "translated": |-
+      I kinda just decided to follow his
+      Highness on my own. Please don't
+      be angry at him.
+
+      <RET>
   !!int "26243": !RelocatableTranslatableEntry
     "original": |-
       <CALL6cf9><IF000e><JUMP6818><IF0048><JUMP66d9><CALL6d08>、危険な場所に
@@ -314,25 +317,27 @@
       <CALL6cf9><IF000e><JUMP6818><IF0048><JUMP66d9>Don't go anywhere too dangerous,
       <CALL6d08>. And don't stay up too
       late.<END>
-      <LOC66d9><SET000e>まあ <CALL6d08> そちらは？
+      <LOC66d9><SET000e>Oh, <CALL6d08>. Who might this be?
 
       <CH0>
-      あっ ごめんなさい 母上。
-      ひとりきりで 旅を しなくて ･ ･ ･
+      Oh, I'm sorry, Mother.
+      I haven't been traveling entirely
+      on my own...
 
       <CH1>
-      これは どうも 王妃さま。
-      おれは ランドーといいます。
+      Your Majesty. It's an honor.
+      My name is Landor.
 
-      <CALL6632><CALL6cf9>いいえ 怒るなんてとんでもない。
+      <CALL6632><CALL6cf9>No, I'm far from angry.
 
-      この旅の目的は いろいろ ありますが信頼できる仲間を 見つけることも
-      そのひとつだったのです。
+      <CALL6d08>'s journey had many goals,
+      but finding friends he can rely
+      on was one of them.
 
-      ランドーさん、<CALL6d08>のことを
-      よろしく お願いします。<END>
-      <LOC6818>ランドーさんに あまり めいわくを
-      かけないように するのですよ。
+      Please take good care of him,
+      Landor.<END>
+      <LOC6818>Please don't give Landor too
+      much trouble.
   !!int "26711": !RelocatableTranslatableEntry
     "original": |-
       <CALL6d11><IF0028><JUMP6922><IF0009><JUMP68fa><SET0009>おや <CALL6d08>。

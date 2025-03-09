@@ -340,8 +340,29 @@
         54905
       "target_addr": !!int |-
         26203
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Bartender<C_NONE>
+      <IF0411><JUMP669f>I can't serve you if you're
+      underage, so don't ask.<END>
+      <LOC669f><IF0029><JUMP67cf>Oh, is that you, Landor?
+
+      I can't serve you anything.
+      All you ever do is run up your
+      tab without paying it off.<IF_NOT044b><JUMP67ce>
+
+      <SET0029><CH1>
+      C'mon, don't be like that. I'm
+      not gonna start tabs anymore. I'lljust pay an' drink.
+
+      <C_YELLOW>Bartender<C_NONE>
+      Hmm... really?
+      All right, I guess I'll let
+      bygones be bygones, then.<LOC67ce><END>
+      <LOC67cf>It's 10 gold a glass.
+      <CHECK_MONEY6831><JUMP6820>Can I pour you one?<Xf69229><JUMP681f><TAKE_MONEY6831><CLEAR>Here you are.<Xf6a1d8><JUMP681e>
+
+      <SET0418><ASMd89b><UNSET0418><LOC681e><END>
+      <LOC681f><RET><LOC6820>You don't have the money.
   !!int "26673": !RelocatableRawDataEntry
     "data": !!binary |
       CgAAAA==
