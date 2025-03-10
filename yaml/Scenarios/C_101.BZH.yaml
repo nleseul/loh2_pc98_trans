@@ -275,8 +275,10 @@
         54667
       "target_addr": !!int |-
         25595
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      Duke Jestonn is unmarried, so he
+      has no heirs.
   !!int "25663": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>

@@ -20,8 +20,16 @@
         54644
       "target_addr": !!int |-
         23628
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Ose<C_NONE>
+      I'm the mayor here. Back in the
+      day, I made people who wanted
+      spells play games with me.
+
+      But now I have people to play
+      against, and I don't gotta teach
+      'em nothin'!
+      Wah ha ha!
   !!int "23806": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>セオラ<C_NONE>
@@ -36,8 +44,11 @@
         54653
       "target_addr": !!int |-
         23806
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Seora<C_NONE>
+      Oh my! Now there's a rare sight!
+      We don't get many visitors in
+      a village full of old people.
   !!int "23889": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>セリム<C_NONE>
@@ -52,8 +63,11 @@
         54668
       "target_addr": !!int |-
         23889
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Selim<C_NONE>
+      If I go here, he'll do that.
+      So if I go there, then maybe...
+      Hmm... Hmm...
   !!int "23973": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>オレム<C_NONE>
@@ -68,8 +82,11 @@
         54683
       "target_addr": !!int |-
         23973
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Orem<C_NONE>
+      Urgghhhh...
+      How long is he gonna think?!
+      Agghhhhhh!!
   !!int "24050": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>アベル<C_NONE>
@@ -84,8 +101,11 @@
         54698
       "target_addr": !!int |-
         24050
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Abel<C_NONE>
+      <IF0068><JUMP5e3e>That game went on for days...
+      I was so close...!<END>
+      <LOC5e3e>Ha ha! How about this?
   !!int "24155": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>タバル<C_NONE>
@@ -105,8 +125,16 @@
         54707
       "target_addr": !!int |-
         24155
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Tabal<C_NONE>
+      <IF0068><JUMP5ef4>Wah hah hah! The game board got
+      knocked over in that earthquake.
+
+      I was about to lose, so that was
+      perfect for me! Wah hah hah!<END>
+      <LOC5ef4>Mmm... Losing again...
+      Maybe there'll be another
+      earthquake...
   !!int "24375": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>リゾン<C_NONE>
@@ -123,8 +151,13 @@
         54716
       "target_addr": !!int |-
         24375
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Lizon<C_NONE>
+      <IF0068><JUMP5f96>I'm thinking about making a new
+      game for next time.
+      Making games is hard work!<END>
+      <LOC5f96>If I make a new game, people will
+      want to talk about it. So I shouldcome up with a name for it first.
   !!int "24560": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ガンク<C_NONE>
@@ -146,8 +179,18 @@
         54725
       "target_addr": !!int |-
         24560
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Gonka<C_NONE>
+      Hmph. Games? Who gives a damn?
+      <IF0068><JUMP60ac>I won't play! No matter how much
+      they beg me!
+
+      I'm not hanging around here for
+      the games! I just never know when
+      that idiot son of mine is going
+      to drop in!<END>
+      <LOC60ac>I knew there wasn't any point
+      to them.
   !!int "24792": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ハンナ<C_NONE>
@@ -171,8 +214,23 @@
         54734
       "target_addr": !!int |-
         24792
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Hanna<C_NONE>
+      <IF0068><JUMP6191>Oh, that husband of mine.
+      He never likes to admit his real
+      feelings.
+
+      He really wants to join the games,
+      but he's always been stubborn.
+      I hope he finds someone to play
+      against soon, though.<END>
+      <LOC6191>Oh, that man... He was really
+      interested in the games, you know.
+
+      But he played once, and lost. So
+      he got so mad that he swore he'd
+      never play again.
+      I hope he gives it another try.
   !!int "25147": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ロデリック<C_NONE>
@@ -224,8 +282,49 @@
         54743
       "target_addr": !!int |-
         25147
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Rodrich<C_NONE>
+      <IF0068><JUMP63f1><IF0048><JUMP62a5>I've been working on a new spell
+      called Morph. But it's not going
+      too well.<END>
+      <LOC62a5><IF0400><JUMP63c2><SET0400>My goodness! Could that be my
+      bumbling fool of a son?
+      Where'd you wander off to?
+
+      <Xf52c0001><ASM1ae6><Xf7><CH1>
+      Shut up, you old coot.
+
+      <C_YELLOW>Rodrich<C_NONE>
+      You're gonna talk like that to me?Lots of red slimes around here
+      lately, wouldn't you say? Hmm?
+
+      <CH1>
+      Y-You're right.
+      I'm sorry.
+
+      <C_YELLOW>Rodrich<C_NONE>
+      I'm glad we see eye to eye.
+      <LOC63c2>Be more careful the next time you
+      use Flam.<END>
+      <LOC63f1>There's my fool son!
+      You'll be happy to know that the
+      monsters got rid of the red slimes.
+
+      You see? Spells are quite
+      difficult. You can't use them as
+      easily as that. Do you understand
+      me?
+
+      <Xf52c0001><ASM1ae6><Xf7><CH1>
+      Yeah, all right. And I don't wanna
+      see you screwin' up that Morph
+      spell and makin' anything weird.
+
+      <C_YELLOW>Rodrich<C_NONE>
+      Don't you make fun of me.
+      I'm far more experienced than you.
+
+      I don't make your kind of mistake.
   !!int "25971": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>オレア<C_NONE>
@@ -247,8 +346,19 @@
         54752
       "target_addr": !!int |-
         25971
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Orea<C_NONE>
+      Long ago, we sages set out from
+      Rastaban to all corners of the
+      world to teach people spells.
+
+      But now, with spell tomes being
+      sold, our role is done.
+
+      All we could do was gather here
+      and play games together. As
+      more and more of us came, it
+      grew into a village.
   !!int "26268": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>アルノー<C_NONE>
@@ -268,8 +378,16 @@
         54761
       "target_addr": !!int |-
         26268
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Alnor<C_NONE>
+      I think this new spell'll really
+      make people take notice when it's
+      done.
+
+      The effectiveness of spells is
+      related to your speed. So if you
+      can raise your speed, your spells
+      should have a larger impact.
   !!int "26474": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ディーム<C_NONE>
@@ -287,8 +405,15 @@
         54770
       "target_addr": !!int |-
         26474
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Deeme<C_NONE>
+      I'm an expert on Hura, but I've
+      been researching an even more
+      effective attack spell.
+
+      If I can just finish it, they'll
+      make me famous again, just like
+      in the old days.
   !!int "26643": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>マルク<C_NONE>
@@ -304,8 +429,12 @@
         54776
       "target_addr": !!int |-
         26643
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Mark<C_NONE>
+      I'll be the information desk whereyou can learn what town sells the
+      spell you're looking for.
+
+      <RET>
   !!int "26714": !RelocatableTranslatableEntry
     "original": |-
       どの呪文のことを 知りたいのじゃ？<RET_N>
@@ -317,8 +446,9 @@
         54782
       "target_addr": !!int |-
         26714
-    "translated": !!null |-
-      null
+    "translated": |-
+      What spell do you want to know
+      about?<RET_N>
   !!int "26748": !RelocatableTranslatableEntry
     "original": |-
       <CLEAR><ITEM>か ･ ･ ･
@@ -331,8 +461,9 @@
         54801
       "target_addr": !!int |-
         26748
-    "translated": !!null |-
-      null
+    "translated": |-
+      <CLEAR><ITEM>...
+      If you want that, they sell it in<RET_N>
   !!int "26773": !RelocatableTranslatableEntry
     "original": |-
       に 行けば
@@ -347,8 +478,10 @@
         54855
       "target_addr": !!int |-
         26773
-    "translated": !!null |-
-      null
+    "translated": |-
+      .
+
+      <RET>
   !!int "26797": !RelocatableTranslatableEntry
     "original": |-
       <CLEAR>呪文の ある所を 知りたかったら
@@ -361,6 +494,8 @@
         54863
       "target_addr": !!int |-
         26797
-    "translated": !!null |-
-      null
-"_note": ""
+    "translated": |-
+      <CLEAR>Come back whenever you want to
+      know where a spell is.
+"_note": |-
+  Silica - Prologue

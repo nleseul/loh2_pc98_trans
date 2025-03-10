@@ -18,8 +18,12 @@
         54709
       "target_addr": !!int |-
         23413
-    "translated": !!null |-
-      null
+    "translated": |-
+      <CALL6c51>The Tower of Guenn has been
+      standing for a long time. For it
+      to collapse after an earthquake...
+
+      I just hope nothing bad happens.
   !!int "23543": !RelocatableTranslatableEntry
     "original": |-
       <CALL6c51><IF0032><JUMP5c3b>もうすぐ 竜の祭だから ラヌーラへ
@@ -34,8 +38,11 @@
         54718
       "target_addr": !!int |-
         23543
-    "translated": !!null |-
-      null
+    "translated": |-
+      <CALL6c51><IF0032><JUMP5c3b>It'll be Dragonsfete soon, so
+      more and more people are travelingto Lanoura.<END>
+      <LOC5c3b>You should get on the ship early.
+      It'll probably be really crowded.
   !!int "23675": !RelocatableTranslatableEntry
     "original": |-
       <CALL6c51>ちょっと待て。
@@ -75,8 +82,38 @@
         54753
       "target_addr": !!int |-
         23675
-    "translated": !!null |-
-      null
+    "translated": |-
+      <CALL6c51>Excuse me.
+      Have you registered for travel to
+      Lanoura yet?
+
+      <Xf5010200><Xf7><IF_NOT0048><JUMP5dd8><IF0032><JUMP5d94><SET0032><SET0405><CH1>
+      Yes, of course.
+
+      <CALL6c51>Put your names there, please.
+
+      Landor and Atlas?
+      We've just received word about
+      Atlas. Landor... Let me see.
+
+      Here it is. All right, you may
+      pass. Enjoy your time at
+      Dragonsfete.<END>
+      <LOC5d94><CH0>
+      Atlas and Landor.
+
+      <SET0405><CALL6c51>Hmm.. Here you are.
+      All right, you may pass.<END>
+      <LOC5dd8><CH0>
+      Yes, I've just registered at
+      Riezel Castle. My name is Atlas.
+
+      <CALL6c51>Atlas? Just a moment.<WAIT>
+      Hmm... Atlas... Atlas...
+
+      Your registration doesn't seem to
+      have arrived yet. Perhaps you
+      should go double-check in Riezel?
   !!int "24226": !RelocatableTranslatableEntry
     "original": |-
       <CALL6c51>ボアード海運の ボアードは
@@ -93,8 +130,15 @@
         54762
       "target_addr": !!int |-
         24226
-    "translated": !!null |-
-      null
+    "translated": |-
+      <CALL6c51>I've heard rumors that Buald, of
+      Buald Shipping, used to be a
+      pirate.
+
+      And it does seem like the pirates
+      have disappeared since the company
+      was established. Still, I really
+      can't believe it.
   !!int "24373": !RelocatableTranslatableEntry
     "original": |-
       <CALL6c51>お前たち 竜の祭を 見に行くのか？
@@ -111,8 +155,14 @@
         54771
       "target_addr": !!int |-
         24373
-    "translated": !!null |-
-      null
+    "translated": |-
+      <CALL6c51>Are you heading to Dragonsfete?
+      I wish I could go.
+
+      My kids have been wanting to see
+      it, but I just don't have the time.
+      Be sure to enjoy it as much as
+      you're able.
   !!int "24551": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>女<C_NONE>
@@ -135,8 +185,22 @@
         54780
       "target_addr": !!int |-
         24551
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Woman<C_NONE>
+      Taxes in Lanoura used to be very
+      high, and life was difficult for
+      people there.
+
+      Supposedly that led to young
+      people being sold as slaves.
+
+      But now that they have a new king,
+      everyone entering and leaving
+      Lanoura is registered, to prevent
+      anything like that from happening.
+
+      So we don't hear ugly rumors like
+      that today.
   !!int "24822": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -151,8 +215,11 @@
         54789
       "target_addr": !!int |-
         24822
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Man<C_NONE>
+      The ship's full of tourists going
+      to Dragonsfete. Looks like it's
+      going to be another wild year.
   !!int "24908": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -187,8 +254,33 @@
         54650
       "target_addr": !!int |-
         24908
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Man<C_NONE>
+      May I see your ticket, please?
+      <PAGE>
+      <Xf8287417><JUMP61df>Will you be boarding?
+      <Xf69229><JUMP61b9><Xf9000204><ASM6b26><Xf828af17><JUMP61df><SET0023><Xf028><SET0400>Handed over the <ITEM>.<SND0103><END>
+      <LOC61b9><CLEAR>Please be on board soon.
+      The boat will be leaving shortly.<END>
+      <LOC61df>You don't seem to have a ticket.<LOC61f8><IF0030><JUMP633e>
+
+      <IF0031><JUMP630d><SET0031><CH1>
+      We can't afford a ticket...
+      Hey, Atlas, how can a prince not
+      have any money?
+
+      <CH0>
+      Oh, I thought you knew...
+      Those guys in Rondo ran off with
+      it.
+
+      <CH1>
+      Oh. That's right.
+      Well, we're gonna have to make
+      some money somehow.<END>
+      <LOC630d><CH1>
+      We're gonna have to make some
+      money to buy a ticket somehow.<LOC633e>
   !!int "25407": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -205,8 +297,14 @@
         54798
       "target_addr": !!int |-
         25407
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Man<C_NONE>
+      <SET0033>The spell merchant here enjoys
+      collecting antiques.
+
+      If you have any rare items, you
+      should see if he's interested.
+      He'd certainly make an offer.
   !!int "25530": !RelocatableTranslatableEntry
     "original": |-
       <CALL6c58>おや いらっしゃい。
@@ -306,8 +404,108 @@
         54804
       "target_addr": !!int |-
         25530
-    "translated": !!null |-
-      null
+    "translated": |-
+      <CALL6c58>Ah, welcome!
+      <IF0030><JUMP63dd><IF0034><JUMP6519><LOC63dd>Can I interest you in a Sylis
+      tome?
+
+      <IF0030><JUMP6415><IF_NOT0033><JUMP6415><IF_NOT0019><JUMP6415><IF0031><JUMP6870><LOC6415>They're 200 gold each.
+      <Xf65317><JUMP64d5><CHECK_MONEY6b54><JUMP64f8>Buy a Sylis tome?
+      <Xf69229><JUMP6485><SET0404><Xf193>Thank you for your business!
+
+      <JUMP6415><LOC6485>I see...
+      <IF0404><JUMP64bf>They're very useful, though.<END>
+      <LOC64bf>Please come again!<END>
+      <LOC64d5>But you don't seem to have the
+      space.
+      <JUMP64bf><LOC64f8>But you don't seem to have the
+      money.
+      <JUMP64bf><LOC6519>Have you reconsidered selling your
+      Holy equipment to me?
+
+      <IF_NOT0031><JUMP67f6><IF_NOT0019><JUMP67f6><CH0>
+      Yeah, I was thinking about asking
+      you to buy something...
+
+      <CALL6c58>Really? You've finally come around,
+      huh?
+
+      Now, then, let's discuss the price.
+      In the old days, those would have
+      cost somewhere between 60,000 and
+      100,000 gold.
+
+      <CH0>
+      Oh, I don't need that much! Just
+      enough to buy a ticket for the
+      ship would be fine.
+
+      <CALL6c58>Oh, really? In that case, how
+      about 150 gold for the full set?
+
+      <CH0>
+      That's perfect! That's plenty to
+      buy a ticket.<CALL6aa9><CALL6c58>I'm always happy to acquire a
+      rare item. I hope you have a
+      pleasant journey!
+
+      <CH1>
+      Atlas... why do you gotta be so
+      nice to people?
+
+      You really shoulda held out for a
+      better price.
+
+      <CH0>
+      I didn't think it mattered, as
+      long as we could board the ship...
+
+      <CH1>
+      How naive can you get...?<WAIT>
+      Well, never mind.
+      Let's just get our ticket bought.<END>
+      <LOC67f6><CH0>
+      I'm very sorry. But I really can't.
+
+      <CALL6c58>I see... That's too bad.
+      Well, if you ever change your mind,
+      please come back and see me.<END>
+      <LOC6870><CH0>
+      I just had a favor to ask...
+
+      <CALL6c58>I can't do any better than 200
+      gold, so it's no use haggling.
+
+      <CH1>
+      It's not that!
+      C'mon, look at this guy. How oftendo you see gear like this?
+
+      <CALL6c58>Hmm... That equipment is rather
+      old, isn't it? Would you be
+      interested in selling it, perhaps?
+
+      <CH0>
+      That's perfect!
+      How much would you pay for it?
+
+      <CALL6c58>10 gold?
+
+      <CH1>
+      Don't be stupid!
+      Those used to cost between 60,000
+      and 100,000 gold.
+
+      <CALL6c58>O-Of course.
+      M-Maybe 50 gold for each piece?
+      Would that be all right?
+
+      <CH1>
+      That's all, huh?
+      Is that okay with you, Atlas?
+
+      <CH0>
+      Sure.<CALL6aa9>If you find any other interesting
+      items, I'll pay you well for them.
   !!int "27305": !RelocatableTranslatableEntry
     "original": |2-
 
@@ -325,8 +523,20 @@
     "original_byte_length": !!int |-
       171
     "references": []
-    "translated": !!null |-
-      null
+    "translated": |2-
+
+
+      <ASMd648><C_GREEN>Handed over the <C_NONE><ITEM><C_GREEN>.
+      <C_NONE><ASMd652><C_GREEN>Handed over the <C_NONE><ITEM><C_GREEN>.
+      <C_NONE><ASMd65c><C_GREEN>Handed over the <C_NONE><ITEM><C_GREEN>.<SND0103>
+      <C_NONE>
+
+      <CALL6c58>Thank you very much!
+      Here you are, then. 150 gold.
+
+      <SET0030><ASMd666><C_GREEN>Received 150 gold.<SND0103><C_NONE>
+
+      <RET>
   !!int "27476": !RelocatableRawDataEntry
     "data": !!binary |
       yAAAAA==
@@ -363,8 +573,16 @@
         54810
       "target_addr": !!int |-
         27484
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Woman<C_NONE>
+      Welcome.
+      This is the ticket counter.
+      Tickets are 100 gold each.
+
+      <CHECK_MONEY6c48><JUMP6c0b><Xf65317><JUMP6c30>Will you be buying a ticket?<Xf69229><JUMP6bf4><TAKE_MONEY6c48><Xf128><CLEAR>Here you are! Thank you very much.<END>
+      <LOC6bf4><CLEAR>Oh, I see...<END>
+      <LOC6c0b>But you don't have enough money.<IF0048><JUMP61f8><END>
+      <LOC6c30>You can't carry any more.
   !!int "27720": !RelocatableRawDataEntry
     "data": !!binary |
       ZAAAAA==
@@ -377,15 +595,15 @@
     "original_byte_length": !!int |-
       7
     "references": []
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE><RET_N>
   !!int "27736": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>呪文屋<C_NONE><RET_N>
     "original_byte_length": !!int |-
       9
     "references": []
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Spell merchant<C_NONE><RET_N>
 "_note": |-
   Larfa - Prologue (after meeting Jestonn)

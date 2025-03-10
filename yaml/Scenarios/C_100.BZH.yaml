@@ -285,8 +285,14 @@
         54759
       "target_addr": !!int |-
         25243
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Maid<C_NONE>
+      <IF0068><JUMP62ff>Doesn't it seem like there are an
+      awful lot of red slimes around
+      lately? They're so disgusting.<END>
+      <LOC62ff>Disgusting red slimes, or scary
+      monsters... I can't stand either
+      of them.
   !!int "25430": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>侍女<C_NONE>
