@@ -293,8 +293,9 @@
         54676
       "target_addr": !!int |-
         25663
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      One of the candidates on the firstfloor is going to be the next Duke,but no decision's been made yet.
   !!int "25755": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -310,8 +311,13 @@
         54685
       "target_addr": !!int |-
         25755
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      <IF0050><JUMP64f6>Excuse me. Are you Prince Atlas?
+      Duke Jestonn is through here.<END>
+      <LOC64f6>Sigh... if only the Duchy had a
+      successor as excellent as your
+      Highness...
   !!int "25907": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>

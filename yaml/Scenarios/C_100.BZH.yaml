@@ -311,7 +311,13 @@
         54768
       "target_addr": !!int |-
         25430
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Maid<C_NONE>
+      I'm making apple pie for a snack,
+      but I don't know if I can wait.
+      Maybe just a taste...<IF_NOT0068><JUMP6402>
+
+      Oh, but how can I be thinking
+      about such silly things? What willwe do if the monsters attack?<LOC6402>
 "_note": |-
   Riezel Castle 1F - Prologue
