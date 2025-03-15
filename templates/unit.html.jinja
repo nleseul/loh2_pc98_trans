@@ -11,18 +11,37 @@
         currentDocumentPath = null;
         currentKey = null;
 
+        prevKey = null;
+        nextKey = null;
+
         windowWidth = null;
         windowHeight = null;
 
-        function loadUnit()
+        function initUnit()
         {
             const currentUrl = new URL(window.location.href);
             currentDocumentPath = currentUrl.searchParams.get("document_path");
-            currentKey = currentUrl.searchParams.get("key");
+            document.getElementById("back_link").href = "/document?document_path=" + currentDocumentPath;
+
+            loadUnit(currentUrl.searchParams.get("key"));
+        }
+
+        function prevUnit()
+        {
+            loadUnit(prevKey);
+        }
+
+        function nextUnit()
+        {
+            loadUnit(nextKey);
+        }
+
+        function loadUnit(newKey)
+        {
+            currentKey = newKey;
 
             document.title = "Edit item - " + currentKey + " - LOH2 trans";
             document.getElementById("header_text").innerText = "Edit item - " + currentKey;
-            document.getElementById("back_link").href = "/document?document_path=" + currentDocumentPath;
 
             const apiUrl = "/api/get_unit_info?document_path=" + currentDocumentPath + "&key=" + currentKey;
 
@@ -35,27 +54,43 @@
                     document.getElementById("original_text").value = json['original'];
                     document.getElementById("translated_text").value = json['translation'];
 
-                    if ('prev_key' in json)
+                    prevKey = ('prev_key' in json ? json['prev_key'] : null);
+                    nextKey = ('next_key' in json ? json['next_key'] : null);
+
+                    if (prevKey != null)
                     {
-                        document.getElementById("prev_key_link").href = "/unit?document_path=" + currentDocumentPath + "&key=" + json['prev_key'];
-                        document.getElementById("prev_key_link").innerText = json['prev_key'];
+                        document.getElementById("prev_key_link").style.display = "inline"
+                        document.getElementById("prev_key_link").innerText = prevKey;
+                    }
+                    else
+                    {
+                        document.getElementById("prev_key_link").style.display = "none"
                     }
 
-                    if ('next_key' in json)
+                    if (nextKey != null)
                     {
-                        document.getElementById("next_key_link").href = "/unit?document_path=" + currentDocumentPath + "&key=" + json['next_key'];
-                        document.getElementById("next_key_link").innerText = json['next_key'];
+                        document.getElementById("next_key_link").style.display = "inline"
+                        document.getElementById("next_key_link").innerText = nextKey;
+                    }
+                    else
+                    {
+                        document.getElementById("next_key_link").style.display = "none"
                     }
 
 
                     var conditionsRoot = document.getElementById("condition_list");
                     var conditionTemplate = document.getElementById("condition_list_item_template");
 
+                    var previousActiveConditions = getActiveConditions();
+
+                    conditionsRoot.replaceChildren();
+
                     for (var condition of json['condition_list'])
                     {
                         var conditionItem = conditionTemplate.content.cloneNode(true);
                         conditionItem.firstElementChild.dataset.condition = condition;
                         conditionItem.querySelector("label").innerText = condition;
+                        conditionItem.querySelector("input").checked = previousActiveConditions.includes(condition);
 
                         conditionsRoot.appendChild(conditionItem);
                     }
@@ -63,6 +98,20 @@
                     updateText();
                 })
                 .catch(response => window.alert("API call failed: " + response.status + " " + response.statusText));
+        }
+
+        function getActiveConditions()
+        {
+            var conditions = [];
+            for (var toggle of document.getElementsByClassName('condition_toggle'))
+            {
+                if (toggle.checked)
+                {
+                    conditions.push(toggle.parentElement.dataset.condition);
+                }
+            }
+
+            return conditions;
         }
 
         function setPreviewSize(columns, rows, translated)
@@ -109,15 +158,7 @@
             var translated = showOriginal == undefined || !showOriginal.checked
             formData.append("which_text", translated ? "translation" : "original");
 
-            var conditions = [];
-            for (var toggle of document.getElementsByClassName('condition_toggle'))
-            {
-                if (toggle.checked)
-                {
-                    conditions.push(toggle.parentElement.dataset.condition);
-                }
-            }
-            formData.append("active_conditions", JSON.stringify(conditions));
+            formData.append("active_conditions", JSON.stringify(getActiveConditions()));
 
             fetch(apiUrl, { method: 'POST', body: formData })
                 .then(response => response.ok ? response.json() : Promise.reject(response))
@@ -275,14 +316,14 @@
 {% endblock %}
 
 {% block header_left %}
-    <a id="prev_key_link"></a>
+    <button id="prev_key_link" onclick="prevUnit();"></button>
 {% endblock %}
 
 {% block header_right %}
-    <a id="next_key_link"></a>
+    <button id="next_key_link" onclick="nextUnit();"></button>
 {% endblock %}
 
-{% block onload %} loadUnit(); {% endblock %}
+{% block onload %} initUnit(); {% endblock %}
 
 {% block content %}
 
