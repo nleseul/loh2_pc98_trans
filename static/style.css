@@ -39,16 +39,18 @@ textarea {
 #header {
     max-width: 60em;
     margin: auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 #header_left {
-    float: left;
     padding: 8pt;
+    min-width: 3em;
 }
 
 #header_right {
-    float: right;
     padding: 8pt;
+    min-width: 3em;
 }
 
 #header h1 {
