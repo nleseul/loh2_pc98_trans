@@ -372,14 +372,14 @@
       <LOC6587><IF_NOT004d><JUMP6593><IF004c><JUMP65dd><LOC6593><SET004c>Y-Your Highness.
       I'm afraid I said more than I
       should have. I apologize.<END>
-      <LOC65dd><IF_NOT004f><JUMP65e9><IF004e><JUMP6650><LOC65e9><SET004e>王子さまに お会いしたのは 初めて
-      でしたので うれしくて だれかに
-      言いたくて しかたがなかったのです。<END>
-      <LOC6650><SET004b>王子さま、本当は あいつだって
-      言いたくて 言いたくて しかたが
-      なかったんですよ。
+      <LOC65dd><IF_NOT004f><JUMP65e9><IF004e><JUMP6650><LOC65e9><SET004e>I've never met a prince before!
+      I was so happy that I couldn't
+      help but talk about it.<END>
+      <LOC6650><SET004b>He was actually desperate to tell
+      someone about your Highness.
 
-      でも それを 私が言ってしまったので頭にきているんです。
+      But when I let it slip, he flew
+      off the handle.
   !!int "26330": !RelocatableTranslatableEntry
     "original": |-
       <CALL6cf7><IF0050><JUMP67da><IF004a><JUMP67ab><SET004a>おい、その剣は何だ？ そんな物を
@@ -427,16 +427,16 @@
       <CALL6cf7>I-I apologize.
       His Excellency is on the second
       floor. Please, enter.<END>
-      <LOC67da><IF_NOT004d><JUMP67e6><IF004c><JUMP682a><LOC67e6><SET004d>私は よせって いったのですが
-      あいつが しゃべってしまったんです。<END>
-      <LOC682a><IF_NOT004f><JUMP6836><IF004b><JUMP688a><LOC6836><SET004f>こんなに口の軽いやつは 見たことが
-      ありませんよ。
-      門番なんかに しておけませんね。<END>
-      <LOC688a>私は 門番のかがみです。
-      そのような 軽い行動は いっさい
-      いたしません。
+      <LOC67da><IF_NOT004d><JUMP67e6><IF004c><JUMP682a><LOC67e6><SET004d>I told him to give it up.
+      It was that guy who blabbed.<END>
+      <LOC682a><IF_NOT004f><JUMP6836><IF004b><JUMP688a><LOC6836><SET004f>I've never seen a guy who flaps
+      his lips so much. He really
+      shouldn't be on guard duty.<END>
+      <LOC688a>I am the very model of a gate
+      guard. Never in my life have
+      I treated anything so lightly.
 
-      あいつとは 違うんですから ･ ･ ･
+      Unlike that guy...
   !!int "26864": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>

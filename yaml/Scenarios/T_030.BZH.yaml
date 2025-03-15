@@ -34,12 +34,14 @@
       have turned up, but I don't know
       how long it's going to take to
       clear it.<END>
-      <LOC5b76>鉱山の復旧が 手間取ってしまって
-      いまだに 復旧しとらんのじゃ。
+      <LOC5b76>Restoring the mine is taking
+      longer that we expected. It still
+      isn't done, even now.
 
-      モンスターが 出てきたので 武器を
-      作るための材料が たくさん必要に
-      なったというのに ･ ･ ･
+      With these monsters appearing,
+      there's going to be plenty of
+      demand for material to make
+      weapons...
   !!int "23564": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ピート<C_NONE>
@@ -139,9 +141,9 @@
       talk to Alon.<END>
       <LOC5ee6>Thanks to you, some people from
       Crus came to help us.<END>
-      <LOC5f2c>どうして こう次々と 悪いことが
-      続くんだろう 落盤の次は
-      モンスターが 出てくるとは ･ ･ ･
+      <LOC5f2c>Why do these awful things keep
+      happening? First the earthquake,
+      and now the monsters...
   !!int "24451": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -171,8 +173,9 @@
         54696
       "target_addr": !!int |-
         24515
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Man<C_NONE>
+      Hey! It's dangerous in the tunnel.Stay out!
   !!int "24569": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -225,8 +228,16 @@
         54724
       "target_addr": !!int |-
         24650
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Man<C_NONE>
+      Ugh, just my luck.
+      While I'm here helping to restore
+      the mine, Crus gets destroyed.
+
+      I don't mind helping out here
+      until the mine is open again, but
+      then what am I supposed to do?
+      Start a farm here?
   !!int "24852": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>武器屋<C_NONE>

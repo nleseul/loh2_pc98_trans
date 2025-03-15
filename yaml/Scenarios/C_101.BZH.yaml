@@ -207,38 +207,40 @@
       <LOC5fc6>I have no children of my own, so
       the succession has been difficult.<WAIT>
       Even with three candidates...<END>
-      <LOC601c><IF0051><JUMP62aa><SET0051><SET006a>おや アトラス王子ではないか。
-      いったい どうしたと いうのだ？
+      <LOC601c><IF0051><JUMP62aa><SET0051><SET006a>Prince Atlas?! What brings your
+      Highness here?
 
       <Xf52c0000><ASM1ae6><Xf7><CH0>
-      父上が こちらに向かったと
-      ききまして ･ ･ ･
+      I heard that Father was coming
+      this way...
 
-      <C_YELLOW>ジェストン<C_NONE>
-      おお セリオス殿なら たしかに
-      このモンスターの 発生について
-      話をされにきたぞ。
+      <C_YELLOW>Jestonn<C_NONE>
+      Ah, yes. Selios was here to
+      discuss the appearance of the
+      monsters.
 
-      セリオス殿が 言うには イセルハーサ全土で モンスターが 発生している
-      可能性があるそうだ。
+      From what he told me, it seems
+      possible that they have appeared
+      all over Isilartha.
 
-      そして その手がかりを つかむためにイセルハーサ中にある 竜の卵を 見てまわると 言っておられた。
+      So he is observing dragonseggs
+      throughout Isilartha to gather
+      information.
 
-      つい先ほど ラヌーラのエリオン殿に
-      会うために 出発されたところだが
-      何か用でも あったのかね？
+      He's already on his way to meet
+      with Aerion in Lanoura. Did you
+      need something from him?
 
       <CH0>
-      ええ ぼくも 父上と 行動をともに
-      しようと思いまして。
+      Yes. I wanted to accompany him.
 
-      ジェストンさま それでは ぼくも
-      父を追って ラヌーラに 向かいます。
+      So I'm going to continue to
+      Lanoura to catch up to him.
 
-      <C_YELLOW>ジェストン<C_NONE>
-      そうか それは よいことだ。
-      <LOC62aa>くれぐれも モンスターには
-      気をつけて むりを せぬようにな。
+      <C_YELLOW>Jestonn<C_NONE>
+      I see. I wish you well, then.
+      <LOC62aa>But please keep yourself safe
+      around those monsters.
   !!int "25317": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>オーエン<C_NONE>
@@ -260,8 +262,19 @@
         54658
       "target_addr": !!int |-
         25317
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Owen<C_NONE>
+      <IF0050><JUMP6340>Welcome, Prince Atlas.
+      I am Owen, advisor to the Duke.<END>
+      <LOC6340>Hmm... I really should speak to
+      his Excellency about the
+      unification strategy...
+
+      Oh, please don't mind me. Merely
+      talking to myself.<IF0051><JUMP63c9><IF0068><JUMP63c8> Take care on
+      your journey, your Highness.<LOC63c8><END>
+      <LOC63c9> Be cautious
+      around the monsters, your Highness.
   !!int "25595": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -341,7 +354,20 @@
         54694
       "target_addr": !!int |-
         25907
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      <IF0068><JUMP65d9><IF0050><JUMP658d>I heard from the guards outside
+      about your Highness's arrival.
+      Please, enter.<END>
+      <LOC658d>Sigh...<WAIT>
+      Just between us, I don't think any
+      of those three are fit to rule.<END>
+      <LOC65d9>Oh, your Highness!
+      It was the first time I've ever
+      seen one! That dragon!
+
+      Wow... it must feel so amazing to
+      fly through the air on one of
+      those.
 "_note": |-
   Riezel Castle 2F - Prologue
