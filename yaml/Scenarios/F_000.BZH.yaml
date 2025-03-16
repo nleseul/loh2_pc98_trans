@@ -104,8 +104,8 @@
         56502
       "target_addr": !!int |-
         25265
-    "translated": !!null |-
-      null
+    "translated": |-
+      Silica Village<RET_N>
   !!int "25280": !RelocatableTranslatableEntry
     "original": |-
       マスクーンの町<RET_N>
@@ -143,8 +143,8 @@
         56538
       "target_addr": !!int |-
         25310
-    "translated": !!null |-
-      null
+    "translated": |2-
+       Yold Harbor  <RET_N>
   !!int "25325": !RelocatableTranslatableEntry
     "original": |2-
         セリスの町  <RET_N>
@@ -156,8 +156,8 @@
         56550
       "target_addr": !!int |-
         25325
-    "translated": !!null |-
-      null
+    "translated": |2-
+          Selis     <RET_N>
   !!int "25340": !RelocatableTranslatableEntry
     "original": |2-
        ナッシュの町 <RET_N>
@@ -169,8 +169,8 @@
         56562
       "target_addr": !!int |-
         25340
-    "translated": !!null |-
-      null
+    "translated": |2-
+         Nashieu    <RET_N>
   !!int "25355": !RelocatableTranslatableEntry
     "original": |2-
          セレの村   <RET_N>
@@ -195,8 +195,8 @@
         56586
       "target_addr": !!int |-
         25370
-    "translated": !!null |-
-      null
+    "translated": |2-
+       Suil Village <RET_N>
   !!int "25385": !RelocatableTranslatableEntry
     "original": |2-
         アムダの村  <RET_N>
@@ -208,8 +208,8 @@
         56598
       "target_addr": !!int |-
         25385
-    "translated": !!null |-
-      null
+    "translated": |2-
+       Amda Village <RET_N>
   !!int "25400": !RelocatableTranslatableEntry
     "original": |2-
         セダルの町  <RET_N>

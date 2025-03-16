@@ -98,8 +98,15 @@
         54852
       "target_addr": !!int |-
         24401
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Man<C_NONE>
+      <IF_NOT0404><JUMP5fbb><IF0405><JUMP5fbb><SET0405>Welcome to Lanoura! Please
+      consider returning via Buald
+      Transport, rather than a Warp Wing.<END>
+      <LOC5fbb>このごろ ワプの翼を使う人が 多くて定期船の人気が あまりないんですよ。
+
+      でも やっぱり 船旅というのは
+      いいもんですよね。
   !!int "24625": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -479,4 +486,5 @@
         27304
     "translated": !!null |-
       null
-"_note": ""
+"_note": |-
+  Yold - Prologue

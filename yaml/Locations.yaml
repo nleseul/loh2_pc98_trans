@@ -116,8 +116,8 @@
         34928
       "target_addr": !!int |-
         35109
-    "translated": !!null |-
-      null
+    "translated": |-
+      Silica
   !!int "35116": !RelocatableTranslatableEntry
     "original": |-
       マスクーン
@@ -155,8 +155,8 @@
         34934
       "target_addr": !!int |-
         35136
-    "translated": !!null |-
-      null
+    "translated": |-
+      Yold
   !!int "35143": !RelocatableTranslatableEntry
     "original": |-
       セリス
@@ -168,8 +168,8 @@
         34936
       "target_addr": !!int |-
         35143
-    "translated": !!null |-
-      null
+    "translated": |-
+      Selis
   !!int "35150": !RelocatableTranslatableEntry
     "original": |-
       ナッシュ
@@ -181,8 +181,8 @@
         34938
       "target_addr": !!int |-
         35150
-    "translated": !!null |-
-      null
+    "translated": |-
+      Nashieu
   !!int "35159": !RelocatableTranslatableEntry
     "original": |-
       セレ
@@ -207,8 +207,8 @@
         34942
       "target_addr": !!int |-
         35164
-    "translated": !!null |-
-      null
+    "translated": |-
+      Suil
   !!int "35171": !RelocatableTranslatableEntry
     "original": |-
       アムダ
@@ -220,8 +220,8 @@
         34944
       "target_addr": !!int |-
         35171
-    "translated": !!null |-
-      null
+    "translated": |-
+      Amda
   !!int "35178": !RelocatableTranslatableEntry
     "original": |-
       セダル
