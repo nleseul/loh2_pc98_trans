@@ -16,8 +16,13 @@
         54816
       "target_addr": !!int |-
         23601
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Fisherman<C_NONE>
+      Guess I<IF0068><JUMP5c6f>'ll be teachin' my son the
+      ways o' fishing soon.<END>
+      <LOC5c6f> won't be teachin' my son
+      the ways o' fishing yet. There's
+      monsters in the ocean, right?
   !!int "23727": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>女<C_NONE>
@@ -38,8 +43,15 @@
         54825
       "target_addr": !!int |-
         23727
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Woman<C_NONE>
+      <IF0068><JUMP5d45>Our son is getting really big now.
+
+      It's all the fish he eats!
+      My husband is having to catch moreand more of them.<END>
+      <LOC5d45>With all the people evacuated from
+      Selis, there have been shortages
+      of goods here.
   !!int "23970": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>老人<C_NONE>
