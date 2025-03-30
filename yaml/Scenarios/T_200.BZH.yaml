@@ -71,8 +71,15 @@
         54834
       "target_addr": !!int |-
         23970
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Old man<C_NONE>
+      <IF0068><JUMP5dea>You folks here on pilgrimage?
+      The Sanctuary's just outside of
+      town.<END>
+      <LOC5dea>This must be from someone messin'
+      with the dragonseggs.
+
+      And the Goddess Freya got mad, andsent these monsters to punish 'em.
   !!int "24184": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>子供<C_NONE>
@@ -90,8 +97,15 @@
         54843
       "target_addr": !!int |-
         24184
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Child<C_NONE>
+      <IF0068><JUMP5eda>When I grow up, I'm gonna be a
+      famous fisherman. I'll shock Dad
+      with all the shillath I catch.<END>
+      <LOC5eda>I'd rather be a monster-slaying
+      hero than a shillath fisher.
+
+      King Aerion was awesome!
   !!int "24401": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
