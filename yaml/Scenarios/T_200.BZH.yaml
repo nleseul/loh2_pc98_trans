@@ -173,8 +173,19 @@
         54861
       "target_addr": !!int |-
         24852
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Man<C_NONE>
+      <IF0068><JUMP61b9>Is this your first time in
+      Lanoura? That registration must bea pain, huh?
+
+      But there's no way around it. We
+      really haven't had much crime
+      since it started.<END>
+      <LOC61b9>Even at a time like this, they're
+      still registering everyone who
+      enters the kingdom.
+
+      Although I hear all you have to donow is give your name.
   !!int "25130": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -195,8 +206,17 @@
         54870
       "target_addr": !!int |-
         25130
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Man<C_NONE>
+      I'm a reserve soldier.
+
+      <IF0068><JUMP62c2>They're recruiting because there
+      aren't enough soldiers to prepare
+      for Dragonsfete. It's a major
+      event for the kingdom.<END>
+      <LOC62c2>I was recruited at first due to
+      Dragonsfete, but we're actually
+      going to be needed now.
   !!int "25375": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
