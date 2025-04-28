@@ -83,7 +83,7 @@
 
                     var previousActiveConditions = getActiveConditions();
 
-                    conditionsRoot.replaceChildren();
+                    conditionsRoot.innerHTML = "";
 
                     for (var condition of json['condition_list'])
                     {
@@ -262,7 +262,7 @@
             const apiUrl = "/api/find_similar_units";
 
             var resultsRoot = document.getElementById('find_similar_results');
-            resultsRoot.replaceChildren();
+            resultsRoot.innerHTML = "";
 
             formData = new FormData();
             formData.append("document_path", currentDocumentPath);

@@ -62,9 +62,7 @@
             var folderItem = clickedButton.parentElement;
             var resultsRoot = folderItem.querySelector("ul");
 
-            resultsRoot.replaceChildren();
-
-            console.trace(folderItem.classList.contains("folder-expanded"));
+            resultsRoot.innerHTML = "";
 
             if (folderItem.classList.contains("folder-expanded"))
             {
