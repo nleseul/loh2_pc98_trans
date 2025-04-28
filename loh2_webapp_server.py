@@ -592,20 +592,20 @@ def get_unit_info():
     next_key_str = None if next_key is None else f"{next_key:04x}"
 
     conditions = set()
+    for k in key_list:
+        item = trans.get_entry(k)
+        assert(isinstance(item, TranslatableEntry))
+
+        if k == key:
+            current_item_info = item
+
     if file_name != "Opening" and file_name != "Ending":
-        for k in key_list:
-            item = trans.get_entry(k)
-            assert(isinstance(item, TranslatableEntry))
-
-            if k == key:
-                current_item_info = item
-
-            encoded, _, _ = encode_event_string(item.original)
-            for instruction in disassemble_event(encoded, k, k):
-                if isinstance(instruction, DS6CodeInstruction):
-                    condition_str = make_condition_description(instruction.code, instruction.data)
-                    if condition_str is not None:
-                        conditions.add(condition_str)
+        encoded, _, _ = encode_event_string(item.original)
+        for instruction in disassemble_event(encoded, k, k):
+            if isinstance(instruction, DS6CodeInstruction):
+                condition_str = make_condition_description(instruction.code, instruction.data)
+                if condition_str is not None:
+                    conditions.add(condition_str)
     condition_list = sorted(conditions)
 
     if file_name == "Opening":
