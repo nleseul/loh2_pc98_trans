@@ -599,13 +599,13 @@ def get_unit_info():
         if k == key:
             current_item_info = item
 
-    if file_name != "Opening" and file_name != "Ending":
-        encoded, _, _ = encode_event_string(item.original)
-        for instruction in disassemble_event(encoded, k, k):
-            if isinstance(instruction, DS6CodeInstruction):
-                condition_str = make_condition_description(instruction.code, instruction.data)
-                if condition_str is not None:
-                    conditions.add(condition_str)
+        if file_name != "Opening" and file_name != "Ending":
+            encoded, _, _ = encode_event_string(item.original)
+            for instruction in disassemble_event(encoded, k, k):
+                if isinstance(instruction, DS6CodeInstruction):
+                    condition_str = make_condition_description(instruction.code, instruction.data)
+                    if condition_str is not None:
+                        conditions.add(condition_str)
     condition_list = sorted(conditions)
 
     if file_name == "Opening":
