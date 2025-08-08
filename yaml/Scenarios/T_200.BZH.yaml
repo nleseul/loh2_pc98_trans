@@ -129,10 +129,12 @@
       <IF_NOT0404><JUMP5fbb><IF0405><JUMP5fbb><SET0405>Welcome to Lanoura! Please
       consider returning via Buald
       Transport, rather than a Warp Wing.<END>
-      <LOC5fbb>このごろ ワプの翼を使う人が 多くて定期船の人気が あまりないんですよ。
+      <LOC5fbb>Sea travel isn't too popular these
+      days, now that so many people are
+      using Warp Wings.
 
-      でも やっぱり 船旅というのは
-      いいもんですよね。
+      But there's still something
+      special about it, right?
   !!int "24625": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -152,8 +154,17 @@
         54757
       "target_addr": !!int |-
         24625
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Man<C_NONE>
+      May I see your ticket, please?
+      <PAGE>
+      <Xf8287417><JUMP60fa>Will you be boarding the ship?
+      <Xf69229><JUMP60d4><Xf9000200><ASM6b26><Xf828af17><JUMP60fa><Xf028><SET0400>Handed over the <ITEM>.<SND0103><PAGE>
+      As always, we appreciate you
+      choosing Buald Transport.<END>
+      <LOC60d4><CLEAR>Please be on board soon.
+      The ship will be leaving shortly.<END>
+      <LOC60fa>You don't seem to have a ticket.
   !!int "24852": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -287,8 +298,25 @@
         54922
       "target_addr": !!int |-
         25979
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Woman<C_NONE>
+      <IF0068><JUMP6628>Hey, don't they have red slimes
+      in Wonliech?
+
+      We've just got normal slimes on
+      this continent.
+
+      That's probably for the best,
+      though. The red ones sound really
+      gross.<END>
+      <LOC6628>It's only dragonseggs that
+      monsters are coming out of, right?
+
+      What about the Sanctuary behind
+      this town? That's got something todo with Freya too, doesn't it?
+
+      What would we do if monsters
+      started appearing there?
   !!int "26335": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>女<C_NONE>
@@ -366,8 +394,16 @@
         54928
       "target_addr": !!int |-
         26798
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Woman<C_NONE>
+      Welcome.
+      This is the ticket counter.
+      Tickets are 100 gold each.
+      <CHECK_MONEY6976><JUMP6948><Xf65317><JUMP695e>Will you be buying a ticket?<Xf69229><JUMP6931><TAKE_MONEY6976><Xf128><CLEAR>Here you are!
+      Thank you very much.<END>
+      <LOC6931><CLEAR>Oh, I see...<END>
+      <LOC6948>But you don't have enough money.<END>
+      <LOC695e>You can't carry any more.
   !!int "26998": !RelocatableRawDataEntry
     "data": !!binary |
       ZAAAAA==
@@ -386,8 +422,9 @@
         54967
       "target_addr": !!int |-
         27002
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Weapon merchant<C_NONE>
+      Welcome!<RET_N>
   !!int "27026": !RelocatableTranslatableEntry
     "original": |-
       またどうぞ。
@@ -399,8 +436,8 @@
         54979
       "target_addr": !!int |-
         27026
-    "translated": !!null |-
-      null
+    "translated": |-
+      Come again!
   !!int "27039": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>道具屋<C_NONE>
@@ -414,8 +451,9 @@
         54991
       "target_addr": !!int |-
         27039
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Tool merchant<C_NONE>
+      Welcome! What can I do for you?<RET_N>
   !!int "27095": !RelocatableTranslatableEntry
     "original": |-
       また来てくださいね。
@@ -427,8 +465,8 @@
         55018
       "target_addr": !!int |-
         27095
-    "translated": !!null |-
-      null
+    "translated": |-
+      Please come again!
   !!int "27116": !RelocatableTranslatableEntry
     "original": |-
       おや？これ以上持てないようですね。
@@ -442,8 +480,10 @@
         27445
       "target_addr": !!int |-
         27116
-    "translated": !!null |-
-      null
+    "translated": |-
+      You don't have any room for it.
+
+      <RET>
   !!int "27152": !RelocatableTranslatableEntry
     "original": |-
       どれを買ってくれますか？
@@ -456,8 +496,9 @@
         27447
       "target_addr": !!int |-
         27152
-    "translated": !!null |-
-      null
+    "translated": |-
+      What would you like to buy?
+      <RET_N>
   !!int "27178": !RelocatableTranslatableEntry
     "original": |-
       <ITEM>だね。
@@ -472,8 +513,11 @@
         27449
       "target_addr": !!int |-
         27178
-    "translated": !!null |-
-      null
+    "translated": |-
+      The <ITEM>?
+      Thank you very much!
+
+      <RET>
   !!int "27215": !RelocatableTranslatableEntry
     "original": |-
       どれを 売ってくれますか？
@@ -486,8 +530,9 @@
         27207
       "target_addr": !!int |-
         27215
-    "translated": !!null |-
-      null
+    "translated": |-
+      What would you like to sell?
+      <RET_N>
   !!int "27242": !RelocatableTranslatableEntry
     "original": |2-
        Gold になるけど
@@ -501,8 +546,10 @@
         27209
       "target_addr": !!int |-
         27242
-    "translated": !!null |-
-      null
+    "translated": |-
+      gold.
+      Will that be okay?
+      <RET_N>
   !!int "27286": !RelocatableTranslatableEntry
     "original": |-
       それは残念です。
@@ -516,8 +563,10 @@
         27211
       "target_addr": !!int |-
         27286
-    "translated": !!null |-
-      null
+    "translated": |-
+      That's too bad.
+
+      <RET_N>
   !!int "27304": !RelocatableTranslatableEntry
     "original": |-
       どうも ありがとうございます。
@@ -530,7 +579,8 @@
         27213
       "target_addr": !!int |-
         27304
-    "translated": !!null |-
-      null
+    "translated": |-
+      Thank you very much.
+      <RET_N>
 "_note": |-
   Yold - Prologue

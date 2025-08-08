@@ -54,8 +54,49 @@
         54627
       "target_addr": !!int |-
         23166
-    "translated": !!null |-
-      null
+    "translated": |-
+      <IF0072><JUMP5c90><IF_NOT0075><CALL5d3f><IF_NOT0074><JUMP5a96><IF0073><JUMP5a9a><LOC5a96><CALL5d92><END>
+      <LOC5a9a><CH0>
+      ぼくたちは ジェラルドさんに 話が
+      あるんだけど 眠っていて どうしても起きてくれないんだよ。
+
+      <CALL5d92><SET0071>
+
+      でも 私が 起こしたときだけは
+      起きてくださるのです。<WAIT>
+      ふしぎでしょ。
+
+      <CH1>
+      ふしぎじゃねえよ
+      ただの スケベおやじじゃねえか。
+
+      <C_YELLOW>フローラ<C_NONE>
+      えっ スケベ？
+      なんですか そのスケベって？
+
+      <CH1>
+      あのなぁ。
+      <CH0>
+      なんでもないんだ 気にしないで。
+
+      それより きみの お父さんに
+      話が あるんだけど なんとか
+      してくれないかな？
+
+      <C_YELLOW>フローラ<C_NONE>
+      ずいぶん お急ぎの ようですわね。
+      では 私が 起こしてさしあげましょういっしょに いらしてください。<END>
+      <LOC5c90><C_YELLOW>フローラ<C_NONE>
+      あら こんにちは。
+      お城には 入れましたか？<IF_NOT0069><JUMP5d3e>
+
+      <CH0>
+      君のおかげで 入ることができたよ。
+      ありがとう。
+
+      <C_YELLOW>フローラ<C_NONE>
+      まあ それはよかったわ。
+      お役に立てて 私も うれしいわ。<LOC5d3e>
   !!int "23871": !RelocatableTranslatableEntry
     "original": |-
       <SET0075><C_YELLOW>フローラ<C_NONE>
@@ -67,8 +108,11 @@
     "original_byte_length": !!int |-
       83
     "references": []
-    "translated": !!null |-
-      null
+    "translated": |-
+      <SET0075><C_YELLOW>Flora<C_NONE>
+      Hello. Are you guests of Father's?I am his daughter, Flora.
+
+      <RET>
   !!int "23954": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>フローラ<C_NONE>
@@ -80,8 +124,13 @@
     "original_byte_length": !!int |-
       135
     "references": []
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Flora<C_NONE>
+      Father will be asleep now after
+      his lunch, I expect.
+      <PAGE>
+      And once he falls asleep, he won'tawaken 'til he's grown hungry
+      again.<RET>
   !!int "24089": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ジェニー<C_NONE>
@@ -95,8 +144,11 @@
         54652
       "target_addr": !!int |-
         24089
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Jenny<C_NONE>
+      I'm Miss Flora's private tutor.
+      She's so intelligent that there's
+      barely anything I need to teach!
   !!int "24199": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>女中<C_NONE>
@@ -112,7 +164,12 @@
         54661
       "target_addr": !!int |-
         24199
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Maid<C_NONE>
+      Miss Flora prays to Freya every
+      morning, asking for people all
+      over the world to be happy.
+
+      She's such a kind girl.
 "_note": |-
   Nashieu (Gerald's manor 2F) - Prologue

@@ -27,8 +27,21 @@
         54633
       "target_addr": !!int |-
         23219
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Man<C_NONE>
+      Oh, so it's your turn now?
+      You're here to tear down Liston's
+      manor, right?
+
+      They say his ghost is haunting themanor, you know.
+
+      People have tried to tear it down
+      before. But every time, there's
+      been a mysterious accident or
+      something like that.
+
+      So be careful not to get
+      yourselves hurt.
   !!int "23508": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -51,8 +64,19 @@
         54642
       "target_addr": !!int |-
         23508
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Man<C_NONE>
+      The haunted house in the back of
+      town used to belong to a noble
+      named Liston.
+
+      He was the kingdom's tax collector,but he got involved in some
+      dishonest business, and the peoplecame to despise him.
+
+      He was fired eventually, but he
+      was convinced that the people
+      wanted his head too. So he lived
+      in terror until his death.
   !!int "23831": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -76,8 +100,19 @@
         54651
       "target_addr": !!int |-
         23831
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Man<C_NONE>
+      I saw it!! I saw the ghost!
+      That manor is haunted!!
+
+      It looked like a nobleman with
+      a ghastly pale face. It stared
+      straight at me. I felt a dreadful
+      chill, and I ran for my life!
+
+      I've kept my distance from the
+      manor ever since then. You people
+      should do the same.
   !!int "24108": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>老人<C_NONE>
@@ -94,8 +129,15 @@
         54660
       "target_addr": !!int |-
         24108
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Old man<C_NONE>
+      Master Gerald may be our mayor now,but he used to be just an ordinary
+      citizen.
+
+      He got rich off some kind of
+      business dealings, and before you
+      knew it, he was suddenly somebody
+      important.
   !!int "24301": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>女<C_NONE>
@@ -117,8 +159,18 @@
         54669
       "target_addr": !!int |-
         24301
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Woman<C_NONE>
+      The big manor past here belongs toour mayor, Gerald.
+
+      He and his wife have awful taste.
+      The inside is covered with enough
+      frippery to burn out your eyes.<WAIT>
+      New money, I tell you.
+
+      Who would ever believe that those
+      two could have a sweet child like
+      Flora as their only daughter?
   !!int "24587": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ジェラルド夫人<C_NONE>
@@ -133,8 +185,11 @@
         54678
       "target_addr": !!int |-
         24587
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Madame Gerald<C_NONE>
+      Hmm... That necklace yesterday...
+      And before that, the ring, and...
+      So what should I choose today?
   !!int "24695": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>道具屋<C_NONE>
@@ -155,7 +210,17 @@
         54684
       "target_addr": !!int |-
         24695
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Tool merchant<C_NONE>
+      Welcome! This is a tool shop.
+      Or, should I say, this is Madame
+      Gerald's personal supplier.
+
+      Every day, she orders some silly
+      trifle, and I have to find a way
+      to acquire it.
+
+      Her money is good, though, so who
+      am I to complain?
 "_note": |-
   Nashieu - Prologue

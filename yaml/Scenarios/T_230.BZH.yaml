@@ -18,8 +18,14 @@
         54650
       "target_addr": !!int |-
         23246
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Man<C_NONE>
+      The two of us take care o'
+      Gerald's vacation home.<IF0068><JUMP5b6e>
+
+      It's a huge villa, but he hardly
+      ever comes here. There's just no
+      makin' sense o' rich folk.<LOC5b6e>
   !!int "23407": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>女<C_NONE>
@@ -37,8 +43,14 @@
         54659
       "target_addr": !!int |-
         23407
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Woman<C_NONE>
+      <IF0068><JUMP5bd1>This villa belongs to Master
+      Gerald. It's suuuch a big place
+      that it takes all day to clean.<END>
+      <LOC5bd1>別荘の そうじは 女中さんたちが
+      やるから しばらくは やらなくて
+      いいんですって。
   !!int "23584": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ジェラルド<C_NONE>
@@ -258,4 +270,5 @@
         25820
     "translated": !!null |-
       null
-"_note": ""
+"_note": |-
+  Sele - Prologue

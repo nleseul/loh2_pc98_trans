@@ -145,8 +145,37 @@
         54726
       "target_addr": !!int |-
         25584
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>チャーリー<C_NONE>
+      <IF0407><JUMP663c><IF0404><JUMP644e>むっ どこから もぐり込んだんだ。
+      お嬢さまには １歩も近付かせないぞ。<END>
+      <LOC644e><SET0070><UNSET0404>はて ジェラルドさまに なにか
+      ご用ですかな？
+
+      <CH0>
+      ぼくたちは セリスの城に
+      入りたいんだけど 兵士が 話を
+      きいてくれないんだ。
+
+      それで ジェラルドさんに なんとか
+      してもらえたらと思って。
+
+      <C_YELLOW>チャーリー<C_NONE>
+      城に 何の用が あるのか 知らないが
+      だんなさまが 他人に 協力するはずがありません。
+
+      お前たち そんな うまいことを言ってフローラお嬢さまに 近づこうという
+      こんたんだな？
+
+      お前たちのような 男を お嬢さまに
+      近づけるなと だんなさまに きつく
+      言われております。
+      <PAGE>
+      わかったら さっさと 出ていって
+      くれますかな。<END>
+      <LOC663c>お待たせいたしました。
+      私が いっしょに 行って 兵士に
+      話してさしあげましょう。
   !!int "26250": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>チャーリー<C_NONE>
@@ -160,8 +189,11 @@
         54765
       "target_addr": !!int |-
         26250
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Charlie<C_NONE>
+      Oh, you people again.
+      Please be on your way. Don't
+      embarrass the master's household.
   !!int "26309": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ジェラルド<C_NONE>
@@ -175,8 +207,10 @@
         54780
       "target_addr": !!int |-
         26309
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Gerald<C_NONE>
+      <SET0074>Snore... snort...<WAIT>
+      Snort... snore...
   !!int "26365": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -189,8 +223,9 @@
         54789
       "target_addr": !!int |-
         26365
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Man<C_NONE>
+      I'm trimmin' the lawn now.
   !!int "26397": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -207,8 +242,14 @@
         54798
       "target_addr": !!int |-
         26397
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Man<C_NONE>
+      You're new here, right? If you
+      leave your post and slack off,
+      you'll make すだれ頭 Charlie angry.
+
+      You'd better get back to work
+      before he catches you.
   !!int "26560": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>女中<C_NONE>
@@ -230,8 +271,18 @@
         54807
       "target_addr": !!int |-
         26560
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Maid<C_NONE>
+      The master and his wife love theirmeals. Which means more work for
+      us.
+
+      After breakfast, they want lunch.
+      And after that, dinner, and then
+      supper. And then it's time for
+      breakfast all over again.
+
+      I'm running around all the time,
+      with never a moment to rest!
   !!int "26799": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>女中<C_NONE>
@@ -249,8 +300,13 @@
         54816
       "target_addr": !!int |-
         26799
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Maid<C_NONE>
+      Miss Flora loves beef curry.
+
+      <CH1>
+      Curry, huh?<WAIT>
+      I can't stand the spicy kind.
   !!int "26923": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>女中<C_NONE>
@@ -271,7 +327,16 @@
         54825
       "target_addr": !!int |-
         26923
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Maid<C_NONE>
+      Miss Flora is so kind and pure.
+      A truly lovely young woman.
+
+      But the master is so protective
+      of her that she's never allowed
+      outside the manor on her own.
+
+      So she's never been able to make
+      friends. I feel bad for her.
 "_note": |-
   Nashieu (Gerald's manor) - Prologue

@@ -16,8 +16,11 @@
         54664
       "target_addr": !!int |-
         23290
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Flart<C_NONE>
+      All these chickens ever do is
+      peck at me! Why do they hate me
+      so much?
   !!int "23396": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ジェルマン<C_NONE>
@@ -32,8 +35,11 @@
         54673
       "target_addr": !!int |-
         23396
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Jelman<C_NONE>
+      If you want chicken, you'll have
+      to go to the counter by the town
+      entrance.
   !!int "23491": !RelocatableTranslatableEntry
     "original": "<C_YELLOW>パウエル<C_NONE>\nわしは 昔 お城に仕えていたのじゃ<IF0068><JUMP5d16>が神経ばかり使っていたので\
       \ 胃が\n悪くなってしまったのじゃ。\n\nそれで 弟に 後をまかせて ここに\n帰ってきて 静養をしていたのじゃ。\nそれは 平和な日々じゃった。\n\
@@ -49,8 +55,31 @@
         54682
       "target_addr": !!int |-
         23491
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Powell<C_NONE>
+      I used to work in the castle,<IF0068><JUMP5d16> but
+      my stomach couldn't handle the
+      stress.
+
+      I had my younger brother take overmy job and came back here to live
+      out my days in peace.
+      Such quiet times...
+
+      But then, there was some kind of
+      trial, and those two who had been
+      giving me ulcers for years ended
+      up here!
+
+      Will I ever be able to relax...?<END>
+      <LOC5d16> some20 years ago.
+
+      The castle got taken over by
+      monsters back then too. They even
+      captured Flart, while he was
+      still king.
+
+      I wish I could go straight to KingAerion now, but I don't know if myhealth could take it.
+      Ughh... my stomach...
   !!int "24106": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>村長<C_NONE>
@@ -77,8 +106,25 @@
         54691
       "target_addr": !!int |-
         24106
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Mayor<C_NONE>
+      Those two brothers watching the
+      chickens once ruled this kingdom.
+
+      But they were such cruel rulers
+      that the people rejected them.
+      They were tried and stripped of
+      their titles, and now they're here.
+
+      Their younger brother Aerion
+      became king, and the kingdom is
+      being restored.
+
+      <IF0068><JUMP5f8e>Now we have stable government,
+      low taxes, and a good kingdom to
+      live in.<END>
+      <LOC5f8e>But despite all the good he's done,
+      I think even his Majesty will havedifficulty handling these monsters.
   !!int "24574": !RelocatableTranslatableEntry
     "original": |
       <C_YELLOW>女<C_NONE>
@@ -100,8 +146,17 @@
         54700
       "target_addr": !!int |-
         24574
-    "translated": !!null |-
-      null
+    "translated": |
+      <C_YELLOW>Woman<C_NONE>
+      All the chickens in the pen went
+      crazy right before the earthquake.
+
+      <IF0068><JUMP60b9>They must've known it was coming.
+      It would be so useful to be able
+      to predict the future like that!<END>
+      <LOC60b9>I don't think they can actually
+      predict the future, though. They
+      didn't warn us about the monsters!
   !!int "24834": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>老人<C_NONE>
@@ -132,7 +187,28 @@
         54706
       "target_addr": !!int |-
         24834
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Old man<C_NONE>
+      Welcome to Lanoura Fried Chicken!
+      <IF0068><JUMP61cc>May I have the name for your order,
+      please?
+
+      Oh, you haven't ordered yet?
+      I'm afraid that we're only taking
+      advance orders during Dragonsfete.
+
+      Shall I add you to our waiting
+      list?<END>
+      <LOC61cc>But I'm afraid we're sold out for
+      today and tomorrow.
+
+      Recently, a すだれ頭 man has been
+      coming every day and putting in
+      large orders.
+
+      If you aren't able place your
+      order before him, there isn't
+      likely to be anything available
+      to buy.
 "_note": |-
   Amda - Prologue

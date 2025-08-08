@@ -20,8 +20,14 @@
         54682
       "target_addr": !!int |-
         23427
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Old woman<C_NONE>
+      A dragonsegg appeared near the
+      oasis of E'me in the desert of
+      Soldythe.
+
+      So we came here to thank Freya
+      for creating it.
   !!int "23609": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>老婆<C_NONE>
@@ -38,7 +44,13 @@
         54691
       "target_addr": !!int |-
         23609
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Old woman<C_NONE>
+      We came here from Soldythe. I
+      wanted to see the Sanctuary at
+      least once.
+
+      The power of the gods is truly
+      amazing, don't you think?
 "_note": |-
   Yold (sanctuary) - Prologue

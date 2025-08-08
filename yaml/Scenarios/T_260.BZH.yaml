@@ -21,8 +21,15 @@
         54627
       "target_addr": !!int |-
         23135
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      Heading to Soldythe? You've taken
+      care of your registration, right?
+      You're out of luck otherwise.
+
+      As long as you're here, why not
+      see Dragonsfete? It's an annual
+      festival held by the kingdom.
   !!int "23339": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -37,8 +44,11 @@
         54636
       "target_addr": !!int |-
         23339
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      We only lower the bridge when
+      people are crossing. We can't
+      keep it down all the time.
   !!int "23434": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -53,8 +63,14 @@
         54645
       "target_addr": !!int |-
         23434
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Man<C_NONE>
+      I was the foreman on the
+      construction project that built
+      this town.
+
+      It's been a pleasure watching the
+      town grow.
   !!int "23548": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>女<C_NONE>
@@ -68,8 +84,9 @@
         54654
       "target_addr": !!int |-
         23548
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Woman<C_NONE>
+      This town was built by cooperationbetween Lanoura and Soldythe.
   !!int "23609": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>子供<C_NONE>
@@ -82,8 +99,11 @@
         54663
       "target_addr": !!int |-
         23609
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Child<C_NONE>
+      The river's really fast. When I
+      cross the bridge with mom, I'm
+      always scared of falling.
   !!int "23716": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>老人<C_NONE>
@@ -103,8 +123,18 @@
         54672
       "target_addr": !!int |-
         23716
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Old man<C_NONE>
+      There used to be a passage called
+      the Border Cave connecting Lanouraand Soldythe.
+
+      It was pitch-black inside, so
+      there were always bandits
+      attacking travelers.
+
+      So they blocked off the cave and
+      built a bridge across the rapids
+      here.
   !!int "23952": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>道具屋<C_NONE>
@@ -118,8 +148,9 @@
         54684
       "target_addr": !!int |-
         23952
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Tool merchant<C_NONE>
+      Welcome! What can I do for you?<RET_N>
   !!int "24008": !RelocatableTranslatableEntry
     "original": |-
       また来てくださいね。
@@ -131,8 +162,8 @@
         54711
       "target_addr": !!int |-
         24008
-    "translated": !!null |-
-      null
+    "translated": |-
+      Please come again!
   !!int "24029": !RelocatableTranslatableEntry
     "original": |-
       おや？これ以上持てないようですね。
@@ -146,8 +177,10 @@
         24248
       "target_addr": !!int |-
         24029
-    "translated": !!null |-
-      null
+    "translated": |-
+      You don't have any room for it.
+
+      <RET>
   !!int "24065": !RelocatableTranslatableEntry
     "original": |-
       どれを買ってくれますか？
@@ -160,8 +193,9 @@
         24250
       "target_addr": !!int |-
         24065
-    "translated": !!null |-
-      null
+    "translated": |-
+      What would you like to buy?
+      <RET_N>
   !!int "24091": !RelocatableTranslatableEntry
     "original": |-
       <ITEM>だね。
@@ -176,8 +210,11 @@
         24252
       "target_addr": !!int |-
         24091
-    "translated": !!null |-
-      null
+    "translated": |-
+      The <ITEM>?
+      Thank you very much!
+
+      <RET>
   !!int "24128": !RelocatableTranslatableEntry
     "original": |-
       どれを 売ってくれますか？
@@ -190,8 +227,9 @@
         24120
       "target_addr": !!int |-
         24128
-    "translated": !!null |-
-      null
+    "translated": |-
+      What would you like to sell?
+      <RET_N>
   !!int "24155": !RelocatableTranslatableEntry
     "original": |2-
        Gold になるけど
@@ -205,8 +243,10 @@
         24122
       "target_addr": !!int |-
         24155
-    "translated": !!null |-
-      null
+    "translated": |-
+      gold.
+      Will that be okay?
+      <RET_N>
   !!int "24199": !RelocatableTranslatableEntry
     "original": |-
       それは残念です。
@@ -220,8 +260,10 @@
         24124
       "target_addr": !!int |-
         24199
-    "translated": !!null |-
-      null
+    "translated": |-
+      That's too bad.
+
+      <RET_N>
   !!int "24217": !RelocatableTranslatableEntry
     "original": |-
       どうも ありがとうございます。
@@ -234,6 +276,8 @@
         24126
       "target_addr": !!int |-
         24217
-    "translated": !!null |-
-      null
-"_note": ""
+    "translated": |-
+      Thank you very much.
+      <RET_N>
+"_note": |-
+  Sedar - Prologue

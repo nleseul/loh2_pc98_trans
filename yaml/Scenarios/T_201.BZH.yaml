@@ -15,8 +15,11 @@
         54662
       "target_addr": !!int |-
         23226
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Man<C_NONE>
+      With my pilgrimage complete, all
+      that's left to do is to see
+      Dragonsfete and go home.
   !!int "23289": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -40,8 +43,21 @@
         54671
       "target_addr": !!int |-
         23289
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Man<C_NONE>
+      Care for a commemorative token?
+      On special sale for Dragonsfete!
+      Only 25 million gold!
+
+      What? You don't need one?
+      <WAIT>
+      Well, how about a commemorative
+      portrait? Yours for the low, low
+      price of 60 million gold!
+
+      Huh? You're really not interested?
+      <WAIT>
+      Well, don't come crying to me whenFreya's wrath strikes you down!
   !!int "23553": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -57,8 +73,14 @@
         54677
       "target_addr": !!int |-
         23553
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Man<C_NONE>
+      Welcome! This is a rest station.<IF0068><JUMP5c46>
+      Please rest here as long as you
+      like.<END>
+      <LOC5c46>
+      Please don't bother the refugees
+      from the castle.
   !!int "23693": !RelocatableTranslatableEntry
     "original": |-
       <IF_NOT0058><JUMP5c9f><C_YELLOW>ソニア<C_NONE>

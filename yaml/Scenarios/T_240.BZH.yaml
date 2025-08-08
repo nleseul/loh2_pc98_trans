@@ -23,8 +23,11 @@
         54851
       "target_addr": !!int |-
         23483
-    "translated": !!null |-
-      null
+    "translated": "<C_YELLOW>Tommy, information broker<C_NONE>\nHey hey! Hey! Hey!!<IF0068><JUMP5c3e>\n\
+      \nThis is unconfirmed information,\nbut apparently Buald has gotten\nmarried.\
+      \ And the lucky lady's fromMoreston.<END>\n<LOC5c3e>\nHave you heard?\n\nSelis\
+      \ Castle was attacked, and \nKing Aerion and his retinue have\nall been evacuated\
+      \ to Yold."
   !!int "23703": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>老人<C_NONE>
@@ -44,8 +47,17 @@
         54860
       "target_addr": !!int |-
         23703
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Old man<C_NONE>
+      <IF0098><JUMP5d62><IF0069><JUMP5d07>There's a new inn opening on the
+      edge of town. And for their grand
+      opening, you can stay for free.<END>
+      <LOC5d07>That new inn is open, but they
+      haven't had a single customer.
+      That's life in the sticks for ya.<END>
+      <LOC5d62>Apparently the owner of that new
+      inn has disappeared. That's life
+      in the sticks for ya.
   !!int "23989": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>漁師<C_NONE>
@@ -68,8 +80,17 @@
         54869
       "target_addr": !!int |-
         23989
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Fisherman<C_NONE>
+      You ever hear of shillath? They'rea funny sort of fish that swallowsup anything shiny they see.
+
+      So you'll find all sorts of coins
+      an' spoons and such in their
+      bellies.
+
+      Kinda makes you wonder where they
+      pick 'em all up.<WAIT>
+      Maybe there's sunken ships full o'treasure or somethin'.
   !!int "24273": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ジゴ<C_NONE>
@@ -101,8 +122,31 @@
         54884
       "target_addr": !!int |-
         24273
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Jigo<C_NONE>
+      <IF0069><JUMP5f5b>Welcome! This is an inn.
+      But we're not ready to open yet.
+
+      But be sure to come back for our
+      grand opening! As a special deal,
+      we're offering one night's stay
+      for free!<END>
+      <LOC5f5b><SET0400>いらっしゃい ここは宿屋だ。
+      今なら 無料サービス中だよ。
+
+      <CH1>
+      なあ アトラス ただなんだから
+      泊まってみようぜ なっ。
+
+      <CH0>
+      そうだね。
+      こういう所も おもしろそうだし。
+
+      <CH1>
+      よし そんじゃ 泊めてくれ。
+
+      <C_YELLOW>ジゴ<C_NONE>
+      はい どうも これからも よろしく。
   !!int "24643": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ジーナ<C_NONE>
@@ -185,8 +229,9 @@
         54912
       "target_addr": !!int |-
         25504
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Tool merchant<C_NONE>
+      Welcome! What can I do for you?<RET_N>
   !!int "25560": !RelocatableTranslatableEntry
     "original": |-
       また来てくださいね。
@@ -198,8 +243,8 @@
         54939
       "target_addr": !!int |-
         25560
-    "translated": !!null |-
-      null
+    "translated": |-
+      Please come again!
   !!int "25581": !RelocatableTranslatableEntry
     "original": |-
       おや？これ以上持てないようですね。
@@ -213,8 +258,10 @@
         25834
       "target_addr": !!int |-
         25581
-    "translated": !!null |-
-      null
+    "translated": |-
+      You don't have any room for it.
+
+      <RET>
   !!int "25617": !RelocatableTranslatableEntry
     "original": |-
       どれを買ってくれますか？
@@ -227,8 +274,9 @@
         25836
       "target_addr": !!int |-
         25617
-    "translated": !!null |-
-      null
+    "translated": |-
+      What would you like to buy?
+      <RET_N>
   !!int "25643": !RelocatableTranslatableEntry
     "original": |-
       <ITEM>だね。
@@ -243,8 +291,11 @@
         25838
       "target_addr": !!int |-
         25643
-    "translated": !!null |-
-      null
+    "translated": |-
+      The <ITEM>?
+      Thank you very much!
+
+      <RET>
   !!int "25680": !RelocatableTranslatableEntry
     "original": |-
       どれを 売ってくれますか？
@@ -257,8 +308,9 @@
         25672
       "target_addr": !!int |-
         25680
-    "translated": !!null |-
-      null
+    "translated": |-
+      What would you like to sell?
+      <RET_N>
   !!int "25707": !RelocatableTranslatableEntry
     "original": |2-
        Gold になるけど
@@ -272,8 +324,10 @@
         25674
       "target_addr": !!int |-
         25707
-    "translated": !!null |-
-      null
+    "translated": |-
+      gold.
+      Will that be okay?
+      <RET_N>
   !!int "25751": !RelocatableTranslatableEntry
     "original": |-
       それは残念です。
@@ -287,8 +341,10 @@
         25676
       "target_addr": !!int |-
         25751
-    "translated": !!null |-
-      null
+    "translated": |-
+      That's too bad.
+
+      <RET_N>
   !!int "25769": !RelocatableTranslatableEntry
     "original": |-
       どうも ありがとうございます。
@@ -301,7 +357,8 @@
         25678
       "target_addr": !!int |-
         25769
-    "translated": !!null |-
-      null
+    "translated": |-
+      Thank you very much.
+      <RET_N>
 "_note": |-
   Suil - Prologue

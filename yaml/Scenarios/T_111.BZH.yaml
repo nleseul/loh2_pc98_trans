@@ -261,7 +261,7 @@
       <Xf8287417><JUMP61df>Will you be boarding?
       <Xf69229><JUMP61b9><Xf9000204><ASM6b26><Xf828af17><JUMP61df><SET0023><Xf028><SET0400>Handed over the <ITEM>.<SND0103><END>
       <LOC61b9><CLEAR>Please be on board soon.
-      The boat will be leaving shortly.<END>
+      The ship will be leaving shortly.<END>
       <LOC61df>You don't seem to have a ticket.<LOC61f8><IF0030><JUMP633e>
 
       <IF0031><JUMP630d><SET0031><CH1>

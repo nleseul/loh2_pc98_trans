@@ -261,7 +261,7 @@
         25303
     "translated": |-
       <C_YELLOW>Man<C_NONE>
-      Please have your ticket ready.
+      May I see your ticket, please?
       <PAGE>
       <Xf8287417><JUMP6444>Will you be boarding the ship?
       <Xf69229><JUMP6343><Xf9000200><ASM6b26><Xf828af17><JUMP6444><Xf028><SET0400>Handed over the <ITEM>.<SND0103><END>
