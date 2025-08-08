@@ -54,6 +54,8 @@
                     document.getElementById("original_text").value = json['original'];
                     document.getElementById("translated_text").value = json['translation'];
 
+                    document.getElementById("copy_original").disabled = (json['translation'].length > 0);
+
                     prevKey = ('prev_key' in json ? json['prev_key'] : null);
                     nextKey = ('next_key' in json ? json['next_key'] : null);
 
@@ -237,12 +239,13 @@
         {
             const apiUrl = "/api/update_unit_text";
 
+            var newText = document.getElementById("translated_text").value;
+
+            document.getElementById("copy_original").disabled = (newText.length > 0);
+
             formData = new FormData();
             formData.append("document_path", currentDocumentPath);
             formData.append("key", currentKey);
-
-            var newText = document.getElementById('translated_text').value;
-
             formData.append("new_text", newText);
 
             fetch(apiUrl, { method: 'POST', body: formData })
@@ -251,10 +254,14 @@
 
         function copyOriginal()
         {
-            var text = document.getElementById("original_text").value;
-            document.getElementById("translated_text").value = text;
+            var translatedText = document.getElementById("translated_text");
+            if (translatedText.value.length == 0)
+            {
+                var text = document.getElementById("original_text").value;
+                translatedText.value = text;
 
-            handleTranslationChanged();
+                handleTranslationChanged();
+            }
         }
 
         function findSimilar()
@@ -361,7 +368,7 @@
     </div>
 
     <div>
-        <button onclick="copyOriginal();">Copy original</button>
+        <button id="copy_original" onclick="copyOriginal();">Copy original</button>
         <button onclick="findSimilar();">Find similar</button>
         <p id="find_similar_status"></p>
         <ul id="find_similar_results"></ul>
