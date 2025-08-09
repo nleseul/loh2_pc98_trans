@@ -57,46 +57,47 @@
     "translated": |-
       <IF0072><JUMP5c90><IF_NOT0075><CALL5d3f><IF_NOT0074><JUMP5a96><IF0073><JUMP5a9a><LOC5a96><CALL5d92><END>
       <LOC5a9a><CH0>
-      ぼくたちは ジェラルドさんに 話が
-      あるんだけど 眠っていて どうしても起きてくれないんだよ。
+      We wanted to ask your father
+      something, but he's asleep. Could
+      you wake him up for us?
 
       <CALL5d92><SET0071>
 
-      でも 私が 起こしたときだけは
-      起きてくださるのです。<WAIT>
-      ふしぎでしょ。
+      But he always wakes up for me
+      regardless.<WAIT>
+      It's very strange.
 
       <CH1>
-      ふしぎじゃねえよ
-      ただの スケベおやじじゃねえか。
+      Not that strange.
+      He's just a typical perv.
 
-      <C_YELLOW>フローラ<C_NONE>
-      えっ スケベ？
-      なんですか そのスケベって？
+      <C_YELLOW>Flora<C_NONE>
+      A "purve"?
+      What is a "purve"?
 
       <CH1>
-      あのなぁ。
+      Um...
       <CH0>
-      なんでもないんだ 気にしないで。
+      Nothing. Don't worry about it.
 
-      それより きみの お父さんに
-      話が あるんだけど なんとか
-      してくれないかな？
+      But we did want to talk to your
+      father. So could you help us?
 
-      <C_YELLOW>フローラ<C_NONE>
-      ずいぶん お急ぎの ようですわね。
-      では 私が 起こしてさしあげましょういっしょに いらしてください。<END>
-      <LOC5c90><C_YELLOW>フローラ<C_NONE>
-      あら こんにちは。
-      お城には 入れましたか？<IF_NOT0069><JUMP5d3e>
+      <C_YELLOW>Flora<C_NONE>
+      Since you seem to be in a hurry,
+      I suppose I can wake him for you.
+      Please come with me.<END>
+      <LOC5c90><C_YELLOW>Flora<C_NONE>
+      Oh, hello again.
+      Were you able to enter the castle?<IF_NOT0069><JUMP5d3e>
 
       <CH0>
-      君のおかげで 入ることができたよ。
-      ありがとう。
+      Yeah, we were.
+      Thanks for your help!
 
-      <C_YELLOW>フローラ<C_NONE>
-      まあ それはよかったわ。
-      お役に立てて 私も うれしいわ。<LOC5d3e>
+      <C_YELLOW>Flora<C_NONE>
+      Oh, I'm glad to hear that!
+      I'm happy to have been of service.<LOC5d3e>
   !!int "23871": !RelocatableTranslatableEntry
     "original": |-
       <SET0075><C_YELLOW>フローラ<C_NONE>

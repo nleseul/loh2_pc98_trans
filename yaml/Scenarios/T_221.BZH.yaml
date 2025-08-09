@@ -146,36 +146,39 @@
       "target_addr": !!int |-
         25584
     "translated": |-
-      <C_YELLOW>チャーリー<C_NONE>
-      <IF0407><JUMP663c><IF0404><JUMP644e>むっ どこから もぐり込んだんだ。
-      お嬢さまには １歩も近付かせないぞ。<END>
-      <LOC644e><SET0070><UNSET0404>はて ジェラルドさまに なにか
-      ご用ですかな？
+      <C_YELLOW>Charlie<C_NONE>
+      <IF0407><JUMP663c><IF0404><JUMP644e>Oh, my... how did you slip in?
+      I shan't allow you a single step
+      closer to Miss Flora!<END>
+      <LOC644e><SET0070><UNSET0404>Oh, dear... I suppose you have
+      some business with Master Gerald?
 
       <CH0>
-      ぼくたちは セリスの城に
-      入りたいんだけど 兵士が 話を
-      きいてくれないんだ。
+      We wanted to get into Selis Castle,
+      but the guards wouldn't listen.
 
-      それで ジェラルドさんに なんとか
-      してもらえたらと思って。
+      So we hoped Gerald could do
+      something to help us.
 
-      <C_YELLOW>チャーリー<C_NONE>
-      城に 何の用が あるのか 知らないが
-      だんなさまが 他人に 協力するはずがありません。
+      <C_YELLOW>Charlie<C_NONE>
+      I can't say what business you may
+      have in the castle, but I doubt
+      the master would help strangers.
 
-      お前たち そんな うまいことを言ってフローラお嬢さまに 近づこうという
-      こんたんだな？
+      For all I know, you are trying
+      to wheedle your way in so you can
+      get close to Miss Flora.
 
-      お前たちのような 男を お嬢さまに
-      近づけるなと だんなさまに きつく
-      言われております。
-      <PAGE>
-      わかったら さっさと 出ていって
-      くれますかな。<END>
-      <LOC663c>お待たせいたしました。
-      私が いっしょに 行って 兵士に
-      話してさしあげましょう。
+      The master has been very clear
+      that I must never allow men like
+      yourselves to approach the young
+      lady.
+
+      I am sure you understand.
+      So please be on your way.<END>
+      <LOC663c>Thank you for your patience.
+      I will come with you and explain
+      matters to the guards.
   !!int "26250": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>チャーリー<C_NONE>
