@@ -72,24 +72,26 @@
       I'm from Farleyn. My name's Pri-
       <C_YELLOW>Soldier<C_NONE>
       That's enough!! I said no!<END>
-      <LOC5e65><UNSET0406><SET0061>兵士に 話しておきましたので
-      もう 入れてくれるでしょう。
+      <LOC5e65><UNSET0406><SET0061>I have explained matters to the
+      guards. They will admit you now.
 
       <CH0>
-      どうも ありがとう。
-      ジェラルドさんに かんしゃ
-      しています と伝えてください。
+      Thanks for everything.
+      And please tell Gerald that we
+      appreciate his help too.
 
-      <C_YELLOW>チャーリー<C_NONE>
-      かしこまりました。
-      それでは これで 失礼します。<END>
-      <LOC5f2f><UNSET0407>あっ 忘れておりました。
+      <C_YELLOW>Charlie<C_NONE>
+      Of course. Now, I must be on
+      my way.<END>
+      <LOC5f2f><UNSET0407>Oh, I nearly forgot.
 
-      <ASMd7c5><Xf7>だんなさまからの 伝言です。
+      <ASMd7c5><Xf7>The master asked me to convey
+      a message to you.
 
-      <C_RED>『２度と わしのかわいいフローラに
-        近付くな !!』
-      <C_NONE>と おっしゃっておりました。
+      He requested that I tell you,<WAIT>
+      <C_RED>"Never come near my darling Flora
+      ever again!!"
+      <C_NONE>
   !!int "24506": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>

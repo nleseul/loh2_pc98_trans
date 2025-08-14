@@ -103,8 +103,105 @@
         54712
       "target_addr": !!int |-
         23856
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Flora<C_NONE>
+      <IF0406><JUMP633e><UNSET0405><SET0072>Please wake up, father.
+      We have guests.
+
+      <C_YELLOW>Gerald<C_NONE>
+      Oh, my darling Flora...
+      What is it?
+
+      W-what?! Who are you people?!
+      How did you sneak in here?
+
+      You must be here to abduct my
+      darling Flora!
+
+      <C_YELLOW>Flora<C_NONE>
+      No, father! These people are
+      our guests.
+
+      <C_YELLOW>Gerald<C_NONE>
+      Oh, Flora, my darling.
+      They've deceived you.
+
+      I most certainly do not remember
+      inviting such hoodlums here.
+
+      <CH1>
+      Hoodlums?! From a perv, that's...
+      <CH0>
+      Landor!
+
+      Mr. Gerald, we have business in
+      Selis Castle, but for some reason
+      the guards are ignoring us and
+      won't let us in.
+
+      <C_YELLOW>Gerald<C_NONE>
+      That's hardly surprising! This is
+      no time to admit hoodlums to the
+      castle.
+
+      With the preparations for the
+      festival, they wouldn't want
+      anyone suspicious in there. You
+      people are clearly suspicious.
+
+      <CH0>
+      Couldn't you do something to help
+      us get in?
+
+      <C_YELLOW>Gerald<C_NONE>
+      Don't be ridiculous!!
+      Why should I trouble myself with
+      your problems?
+
+      <C_YELLOW>Flora<C_NONE>
+      Please don't be like that, father.These people need your help.
+
+      I'm certain that they're not
+      bad people.<WAIT>
+      Please. For me?
+
+      <C_YELLOW>Gerald<C_NONE>
+      Oh, Flora, my darling...
+      I could never refuse you.
+      Go on, then. Send Charlie in.
+
+      Bring them to the foyer, and
+      send Charlie to me.
+
+      <C_YELLOW>Flora<C_NONE>
+      Of course, father.<WAIT>
+      And father?
+
+      <C_YELLOW>Gerald<C_NONE>
+      Yes?<WAIT>
+      <C_YELLOW>Flora<C_NONE>
+      Thank you.
+
+      <C_YELLOW>Gerald<C_NONE>
+      ... ... ...
+      <WAIT>
+      <C_GREEN>Gerald's face is bright red.<C_NONE>
+
+      <C_YELLOW>Gerald<C_NONE>
+      Oh, and Flora.<WAIT>
+      If they try anything, shout
+      for help immediately.<END>
+      <LOC633e><UNSET0406><ASMd813><Xf7>Father is calling for you,
+      Charlie.
+
+      <ASMd81f><Xf7>This should only take a moment.
+
+      <CH0>
+      Thanks for your help.
+
+      <C_YELLOW>Flora<C_NONE>
+      どういたしまして、あなたたちが
+      よろこんでくれて 私も うれしいわ。
   !!int "25584": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>チャーリー<C_NONE>
