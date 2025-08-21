@@ -50,7 +50,7 @@
                         resultsRoot.appendChild(resultItem);
                     }
                 })
-                .catch(response => window.alert("API call failed: " + response.status + " " + response.statusText));
+                .catch(error => window.alert("API call failed: " + error));
 
             fetch(noteApiUrl)
                 .then(response => response.ok ? response.text() : Promise.reject(response))
@@ -58,7 +58,7 @@
                     document.getElementById("note_text").value = text;
                     document.getElementById("update_note_button").disabled = false;
                 })
-                .catch(response => window.alert("API call failed: " + response.status + " " + response.statusText));
+                .catch(error => window.alert("API call failed: " + error));
         }
 
         function updateNote()
@@ -75,7 +75,7 @@
             document.getElementById("update_note_button").disabled = true;
 
             fetch(apiUrl, { method: 'POST', body: formData })
-                .catch(response => window.alert("API call failed: " + response.status + " " + response.statusText))
+                .catch(error => window.alert("API call failed: " + error))
                 .finally(() => {
                     document.getElementById("update_note_button").disabled = false;
                 });
