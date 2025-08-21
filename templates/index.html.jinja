@@ -54,7 +54,7 @@
                         }
                     }
                 })
-                .catch(response => window.alert("API call failed: " + response.status + " " + response.statusText));
+                .catch(error => window.alert("API call failed: " + error));
         }
 
         function toggleExpand(clickedButton)

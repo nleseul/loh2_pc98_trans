@@ -54,7 +54,7 @@
                     document.getElementById("original_text").value = json['original'];
                     document.getElementById("translated_text").value = json['translation'];
 
-                    document.getElementById("copy_original").disabled = (json['translation'].length > 0);
+                    document.getElementById("copy_original").disabled = (json['translation'] !== null && json['translation'].length > 0);
 
                     prevKey = ('prev_key' in json ? json['prev_key'] : null);
                     nextKey = ('next_key' in json ? json['next_key'] : null);
@@ -99,7 +99,7 @@
 
                     updateText();
                 })
-                .catch(response => window.alert("API call failed: " + response.status + " " + response.statusText));
+                .catch(error => window.alert("API call failed: " + error));
         }
 
         function getActiveConditions()
@@ -185,7 +185,7 @@
 
                     setPreviewSize(windowWidth, windowHeight, translated);
                 })
-                .catch(response => window.alert("API call failed: " + response.status + " " + response.statusText));
+                .catch(error => window.alert("API call failed: " + error));
         }
 
         function prevPage()
@@ -303,7 +303,7 @@
                     document.getElementById("find_similar_status").innerText = (json.length > 0 ? "" : "No results.");
 
                 })
-                .catch(response => window.alert("API call failed: " + response.status + " " + response.statusText));
+                .catch(error => window.alert("API call failed: " + error));
         }
 
         function useSimilarResult(clickedButton)

@@ -38,7 +38,7 @@
                         document.getElementById("result_header").innerText = "Results for: " + searchTerm;
                     }
                 })
-                .catch(response => window.alert("API call failed: " + response.status + " " + response.statusText));
+                .catch(error => window.alert("API call failed: " + error));
         }
     </script>
 {% endblock %}
