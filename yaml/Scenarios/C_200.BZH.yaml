@@ -15,8 +15,11 @@
         54635
       "target_addr": !!int |-
         23320
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      I don't know what you need in the
+      castle, but don't get in the way
+      of the Dragonsfete preparations.
   !!int "23419": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -31,8 +34,10 @@
         54644
       "target_addr": !!int |-
         23419
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      During Dragonsfete, we thank Freyafor this year's harvest and ask
+      for Her blessing on next year's.
   !!int "23524": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -47,8 +52,11 @@
         54653
       "target_addr": !!int |-
         23524
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      There's always a lot to eat for
+      Dragonsfete, but the roasted
+      chicken is the best.
   !!int "23615": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -67,8 +75,15 @@
         54662
       "target_addr": !!int |-
         23615
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      This is where all the entry and
+      exit records collected in Yold
+      and Sedar are stored.
+
+      So even if someone warps directly
+      into Lanoura, we'll be able to
+      look up their records here.
   !!int "23808": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -86,8 +101,14 @@
         54671
       "target_addr": !!int |-
         23808
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      This is the exit registration
+      office, but right now the festivalpreparations take priority.
+
+      So no one will be available to
+      handle your registration until
+      after Dragonsfete.
   !!int "23950": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -104,8 +125,14 @@
         54680
       "target_addr": !!int |-
         23950
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      This ship belongs to the Kingdom
+      of Lanoura.
+
+      It's used for various tasks like
+      transporting prisoners to Jagri
+      or carrying cargo.
   !!int "24078": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -120,8 +147,11 @@
         54689
       "target_addr": !!int |-
         24078
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      I'm making sure no one interferes
+      with the festival. It's an
+      important event for the kingdom.
   !!int "24182": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>司祭 バーバラ<C_NONE>
