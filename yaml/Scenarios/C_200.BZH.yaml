@@ -168,8 +168,15 @@
         54698
       "target_addr": !!int |-
         24182
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Barbara, priestess<C_NONE>
+      I am Barbara, the officiant of
+      Dragonsfete. On the day of the
+      festival, I enter the dragonsegg.
+
+      One does not simply walk into a
+      dragonsegg, mind you. This is a
+      duty no one save me can perform.
   !!int "24352": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>侍女<C_NONE>
@@ -184,8 +191,8 @@
         54707
       "target_addr": !!int |-
         24352
-    "translated": !!null |-
-      null
+    "translated": "<C_YELLOW>Maid<C_NONE>\nThere's so much cooking to be \ndone for\
+      \ Dragonsfete! We're all\nhelping prepare the ingredients."
   !!int "24439": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>侍女<C_NONE>
@@ -199,8 +206,10 @@
         54716
       "target_addr": !!int |-
         24439
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Maid<C_NONE>
+      Festivals are so much work!
+      Even Her Majesty is helping.
   !!int "24528": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ソニア王妃<C_NONE>
@@ -217,8 +226,9 @@
         54725
       "target_addr": !!int |-
         24528
-    "translated": !!null |-
-      null
+    "translated": "<C_YELLOW>Queen Sonia<C_NONE>\nI'm not the type to stand around\n\
+      doing nothing just because I'm \nthe queen.\n\nEveryone's busy with the festival\n\
+      preparations, so I'm doing\neverything I can to help."
   !!int "24677": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>チャールズ王子<C_NONE>
@@ -233,7 +243,7 @@
         54734
       "target_addr": !!int |-
         24677
-    "translated": !!null |-
-      null
+    "translated": "<C_YELLOW>Prince Charles<C_NONE>\nNo one will play with me. They're\
+      \ \nall busy with the festival.<WAIT>\nI'm bored..."
 "_note": |-
   Selis castle - Prologue

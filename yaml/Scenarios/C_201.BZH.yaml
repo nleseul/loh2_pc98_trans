@@ -55,8 +55,55 @@
         54655
       "target_addr": !!int |-
         23238
-    "translated": !!null |-
-      null
+    "translated": |
+      <C_YELLOW>King Aerion<C_NONE>
+      <UNSET0404><IF0069><JUMP5e27><SET0069>Oh, is there something you need?<WAIT>
+      <ASMd615><Xf7><CLEAR><CH0>
+      Your Majesty. I am Atlas, Prince
+      of Farleyn. My father sent me witha letter.
+
+      <ASMd60d><C_GREEN>Handed over the <C_NONE><ITEM><C_GREEN>.<SND0103><C_NONE>
+
+      <C_YELLOW>King Aerion<C_NONE>
+      From Farleyn?
+      Your Highness has come all the
+      way here to deliver a letter?
+
+      <CH0>
+      Yes. I'm supposed to travel all
+      over the world and deliver lettersto each of ite leaders.
+
+      I intend to continue to Soldythe
+      and Moreston next.
+
+      <C_YELLOW>King Aerion<C_NONE>
+      I see. So that's what King Selios
+      is thinking.
+      A sort of world tour?
+
+      Well, then. I assume your Highnessis aware of Dragonsfete?
+
+      As you have come all this way,
+      I hope you will take the time to
+      enjoy it.
+
+      <CH0>
+      Yes, I'd be happy to.
+      I'd been thinking about seeing
+      it myself.
+
+      But don't go to any trouble.
+      Please, allow me to tour the
+      kingdom, and I'll return on the
+      day of the festival.
+
+      <C_YELLOW>King Aerion<C_NONE>
+      Ah, I see. So you are not making
+      your station known.
+      Please enjoy your tour, then.<END>
+      <LOC5e27>The festivities begin on the eve
+      of Dragonsfete. Please make your
+      way back here then.
   !!int "24163": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ポウエル<C_NONE>
