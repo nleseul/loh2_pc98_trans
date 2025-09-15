@@ -131,22 +131,24 @@
       grand opening! As a special deal,
       we're offering one night's stay
       for free!<END>
-      <LOC5f5b><SET0400>いらっしゃい ここは宿屋だ。
-      今なら 無料サービス中だよ。
+      <LOC5f5b><SET0400>Welcome! This is an inn.
+      And we're currently offering one
+      free night!
 
       <CH1>
-      なあ アトラス ただなんだから
-      泊まってみようぜ なっ。
+      Hey, Atlas!
+      Since it's free, let's give it a
+      try!
 
       <CH0>
-      そうだね。
-      こういう所も おもしろそうだし。
+      Sure, why not?
+      It looks like an interesting place.
 
       <CH1>
-      よし そんじゃ 泊めてくれ。
+      All right, we'll stay the night.
 
-      <C_YELLOW>ジゴ<C_NONE>
-      はい どうも これからも よろしく。
+      <C_YELLOW>Jigo<C_NONE>
+      Certainly! Right this way.
   !!int "24643": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ジーナ<C_NONE>
@@ -214,8 +216,67 @@
         54782
       "target_addr": !!int |-
         24643
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Gina<C_NONE>
+      Well, Jigo? Are they asleep?
+
+      <C_YELLOW>Jigo<C_NONE>
+      Yeah, the sleepin' shrooms put
+      'em out like a light.
+
+      <C_YELLOW>Gina<C_NONE>
+      All right, check 'em for valuables.
+      And no dawdlin'!
+
+      <C_YELLOW>Jigo<C_NONE>
+      A-Aye!
+
+      ... ...
+
+      Huh? W-What's all this?
+
+      <C_YELLOW>Gina<C_NONE>
+      Let me see.
+
+      ... ...
+
+      I don't believe it!
+      Could this kid be the Prince of
+      Farleyn?
+
+      <C_YELLOW>Jigo<C_NONE>
+      P-Prince?!
+
+      <C_YELLOW>Gina<C_NONE>
+      Stop your dawdlin'!
+      Hurry up an' get 'im back to the
+      hideout!
+
+      <C_YELLOW>Jigo<C_NONE>
+      What're we gonna do with 'im?
+
+      <C_YELLOW>Gina<C_NONE>
+      You haven't figured that out,
+      you dolt?
+
+      Look, when we get 'im to the
+      hideout, we're going to hold 'im
+      for ransom! So get movin'!
+
+      <C_YELLOW>Jigo<C_NONE>
+      I shoulda known you'd have big
+      plans.
+      What about the old guy?
+
+      <C_YELLOW>Gina<C_NONE>
+      He's not worth much.
+      Just leave 'im.
+
+      All right, let's go.
+      If I catch you dawdlin'...!
+
+      <C_YELLOW>Jigo<C_NONE>
+      Aieee! I-I'm coming!
   !!int "25504": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>道具屋<C_NONE>

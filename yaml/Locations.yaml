@@ -194,8 +194,8 @@
         34940
       "target_addr": !!int |-
         35159
-    "translated": !!null |-
-      null
+    "translated": |-
+      Sele
   !!int "35164": !RelocatableTranslatableEntry
     "original": |-
       スエル
@@ -233,8 +233,8 @@
         34946
       "target_addr": !!int |-
         35178
-    "translated": !!null |-
-      null
+    "translated": |-
+      Sedar
   !!int "35185": !RelocatableTranslatableEntry
     "original": |-
       ボアード海運

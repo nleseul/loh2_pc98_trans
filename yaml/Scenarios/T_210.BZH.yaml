@@ -126,15 +126,17 @@
       They're not processing exit papers
       right now, due to Dragonsfete.<JUMP6220><LOC601a>There's no point in asking over
       and over.<END>
-      <LOC6033>いや かんちがいを していたようで
-      申し訳ない。
+      <LOC6033>I apologize for the
+      misunderstanding.
 
-      もうすぐ 竜の祭なので あやしい
-      やつは 城には 入れないことに
-      しているのだ。
+      With the festival approaching,
+      I didn't want to allow any
+      suspicious characters into the
+      castle.
 
-      それで 出国の手続きだとか言って
-      知らないふりを していたのだ。
+      So I acted like you were asking
+      about exit papers as an excuse
+      to keep you out.
   !!int "24810": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -167,12 +169,12 @@
       <IF0061><JUMP618d><IF0405><JUMP6157>Until Dragonsfete is over, no exitpapers are being processed.
       So I can't let you in the castle.<JUMP6220><LOC6157>I'm very sorry, but the offices
       really are closed right now.<END>
-      <LOC618d>男の 二人連れだったから きっと
-      城の中に入れたら あばれまわって
-      準備のじゃまを すると思ったんだよ。
+      <LOC618d>I assumed that a pair of men
+      would cause trouble in the castle
+      and interfere with the festival.
 
-      でも 出国の手続きは 本当に
-      やっていないんだよ。<END>
+      But it is true that exit papers
+      are not being processed.<END>
       <LOC6220><IF_NOT0060><ASMd7d2>
   !!int "25135": !RelocatableTranslatableEntry
     "original": |-

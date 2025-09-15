@@ -119,8 +119,14 @@
         54664
       "target_addr": !!int |-
         24163
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Poul<C_NONE>
+      My name is Poul. My older brother
+      Powell used to work in the castle.
+
+      When his stomach couldn't take it
+      anymore, I came to work in his
+      place.
   !!int "24300": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -134,8 +140,11 @@
         54673
       "target_addr": !!int |-
         24300
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      The room on the left is His
+      Majesty's private chamber, so I
+      can't let you in there.
   !!int "24367": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -150,8 +159,10 @@
         54682
       "target_addr": !!int |-
         24367
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      His Majesty is busy with importantfestival business, so please do
+      not waste his time.
   !!int "24461": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -166,7 +177,10 @@
         54691
       "target_addr": !!int |-
         24461
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      Isn't it great that His Majesty
+      takes the time to listen to
+      citizens even at this busy time?
 "_note": |-
   Selis castle 2F - Prologue

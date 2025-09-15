@@ -56,8 +56,17 @@
         54663
       "target_addr": !!int |-
         23671
-    "translated": !!null |-
-      null
+    "translated": "<SET0098><SET0062><C_YELLOW>Gina<C_NONE>\nYou are such a dolt!\n\
+      Get out here, quick!\n\n<C_YELLOW>Buald<C_NONE>\nWhat's tha rush, Gina?\n\n\
+      <C_YELLOW>Gina<C_NONE>\nTake a look at who we found!\n\n<C_YELLOW>Buald<C_NONE>\n\
+      Wha-? Ya think yer gonna make a\nprofit from this kid?\nWhy'd ya bring 'im 'ere?\n\
+      \n<C_YELLOW>Gina<C_NONE>\nShut up and look at 'im!\nThat's the Prince of Farleyn!\n\
+      \nSo we're gonna get a ransom \nfrom Farleyn! Get it?\n\n<C_YELLOW>Buald<C_NONE>\n\
+      F-Farleyn?!\nGina, we can't!?\n\nNot Farleyn! Not Selios's kid!<WAIT>\nDon't\
+      \ ya know about Selios?!\n\n<C_YELLOW>Gina<C_NONE>\nWhat's the matter with that?\n\
+      Are you saying you're scared o'\nSelios?\n\n<C_YELLOW>Buald<C_NONE>\nNot scared...\
+      \ Jus'... He was...\n<C_YELLOW>Gina<C_NONE>\nStop mumblin'!!\n\nJust say what\
+      \ you mean!\nI can't stand dawdlers and\nmumblers!\n\nC'mon, let's go!"
   !!int "24395": !RelocatableTranslatableEntry
     "original": |-
       <CH0>
@@ -86,8 +95,25 @@
         54767
       "target_addr": !!int |-
         24395
-    "translated": !!null |-
-      null
+    "translated": |-
+      <CH0>
+      Hey! What's-
+      <C_YELLOW>Buald<C_NONE>
+      Shh! Keep yer voice down!
+
+      Jus' stay quiet an' follow me.
+      I'm gettin' ya out o' here.
+
+      <CH0>
+      What?
+      You're letting me go?
+
+      <C_YELLOW>Buald<C_NONE>
+      I... used ta know Selios.
+      Kind o' strange friends, but...
+      <PAGE>
+      I'll fill ya in later.
+      Let's get goin'.
   !!int "24656": !RelocatableTranslatableEntry
     "original": |
       <C_YELLOW>ジーナ<C_NONE>
@@ -100,8 +126,9 @@
         54781
       "target_addr": !!int |-
         24656
-    "translated": !!null |-
-      null
+    "translated": |
+      <C_YELLOW>Gina<C_NONE>
+      Hold it!!
   !!int "24676": !RelocatableTranslatableEntry
     "original": |-
       <CLEAR><C_YELLOW>ジーナ<C_NONE>
@@ -123,8 +150,18 @@
         54819
       "target_addr": !!int |-
         24676
-    "translated": !!null |-
-      null
+    "translated": |-
+      <CLEAR><C_YELLOW>Gina<C_NONE>
+      I knew you were actin' funny!
+      Where are you takin' the kid?
+
+      <C_YELLOW>Buald<C_NONE>
+      J-Jus' a minute, Gina...
+      Let me explain...!
+
+      <C_YELLOW>Gina<C_NONE>
+      Sure, you can explain all you
+      want! After you put the kid back!
   !!int "24883": !RelocatableTranslatableEntry
     "original": |-
       <CH1>
@@ -144,8 +181,16 @@
         54938
       "target_addr": !!int |-
         24883
-    "translated": !!null |-
-      null
+    "translated": |-
+      <CH1>
+      Ugh!! Not again!
+
+      <C_YELLOW>Gina<C_NONE>
+      Eww!! What are these things?
+      D-Disgusting!
+
+      <C_YELLOW>Buald<C_NONE>
+      Now's yer chance! C'mon!
   !!int "25004": !RelocatableTranslatableEntry
     "original": |-
       <CLEAR><CH1>
@@ -184,6 +229,35 @@
         54861
       "target_addr": !!int |-
         25004
-    "translated": !!null |-
-      null
-"_note": ""
+    "translated": |-
+      <CLEAR><CH1>
+      Hey! You two!!
+
+      You'd better let Atlas go!
+
+      <C_YELLOW>Gina<C_NONE>
+      W-What? Who are you?
+      How'd you worm your way in here?
+
+      Honestly, this lot...
+      Always slackin' and idlin'!
+
+      Hey, you dolts! Throw these
+      two in the brig!
+
+      <CH1>
+      I'm waiting!
+      I'm warning you, if you make me
+      wait...!
+
+      <C_YELLOW>Gina<C_NONE>
+      Heh, look at dad here, tryin'
+      to act tough!
+      C'mon, dolts! Hurry it up!
+
+      <CH1>
+      Who are you callin' "dad"?!
+
+      Take this!!
+"_note": |-
+  Buald HQ - Prologue (Kidnapping scene)

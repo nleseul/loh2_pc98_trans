@@ -87,8 +87,84 @@
         54656
       "target_addr": !!int |-
         23309
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Buald<C_NONE>
+      Jigo!!
+      Yer in cahoots with Gina?
+
+      <C_YELLOW>Jigo<C_NONE>
+      S-Sorry, boss...
+      I mean, president...
+
+      <Xf9080204><Xf7><C_YELLOW>Buald<C_NONE>
+      Sorry fer tha trouble. Gina gets
+      carried away when there's money
+      on tha line.
+
+      I'll give 'er a looong talkin'-to
+      later, so I hope ya won't be too
+      mad at 'er.
+
+      <CH0>
+      No, don't worry about it.
+      But what was it you were saying
+      before?
+
+      <C_YELLOW>Buald<C_NONE>
+      Oh, 'bout yer dad?
+      Well, he used to come here once 'na while, fer this an' that.
+
+      Hard to believe you'd end up here
+      too, though. Like father, like son.
+      Well, I met 'im like that, an'
+      one thing led to another.
+
+      He kind o' helped me get Buald
+      Shipping started too. An' now I'm
+      runnin' passenger shops all o'er
+      the world.
+
+      If I hadn't o' met yer dad, I'd
+      prob'ly still be a pirate, y'know?
+
+      それより そっちの。
+      お前さん どうやって 来たんだ？
+      よく ここが わかったもんだ。
+
+      <CH1>
+      んっ おれか？
+
+      おれは 目がさめたら そこのマヌケが帰ってきたんで やさーしく きいて
+      連れてきてもらったんだ。
+
+      <C_YELLOW>ボアード<C_NONE>
+      そうか ･ ･ ･ おい ジゴ !!
+
+      <Xf9080200><Xf7><C_YELLOW>ジゴ<C_NONE>
+      へ、へい。
+
+      <C_YELLOW>ボアード<C_NONE>
+      この２人を スエルまで お送りしろ。わかってるな？
+      おれの 大事な 客人だからな !!
+
+      いいか ジゴ。
+      送っていったら すぐ戻って来いよ。
+      おめえにゃ 話がある。
+
+      <C_YELLOW>ジゴ<C_NONE>
+      へ、へい。
+
+      <Xf9080204><Xf9200200><Xf7><C_YELLOW>ボアード<C_NONE>
+      じゃ スエルまで 送らせるから
+      この船に 乗ってくれ。
+
+      <CH0>
+      ああ、ありがとう。
+
+      <C_YELLOW>ボアード<C_NONE>
+      また遊びに 来てくれよ。
+      今度は ゆっくり シーラスでも
+      くわしてやるよ。<ASMd635>
   !!int "24621": !RelocatableTranslatableEntry
     "original": |-
       <CH0>
@@ -157,4 +233,5 @@
         24621
     "translated": !!null |-
       null
-"_note": ""
+"_note": |-
+  Buald HQ outdoors - Prologue (kidnapping scene)

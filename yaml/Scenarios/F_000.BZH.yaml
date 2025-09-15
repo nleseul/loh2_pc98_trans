@@ -182,8 +182,8 @@
         56574
       "target_addr": !!int |-
         25355
-    "translated": !!null |-
-      null
+    "translated": |2-
+       Sele Village <RET_N>
   !!int "25370": !RelocatableTranslatableEntry
     "original": |2-
         スエルの村  <RET_N>
@@ -226,8 +226,8 @@
         56658
       "target_addr": !!int |-
         25400
-    "translated": !!null |-
-      null
+    "translated": |2-
+          Sedar    <RET_N>
   !!int "25415": !RelocatableTranslatableEntry
     "original": |2-
         ルドラの港  <RET_N>
