@@ -425,7 +425,7 @@
       the King to <CALL6cfe>.
 
       <CALL6cf7>I-I apologize.
-      His Excellency is on the second
+      <LOC67ab>His Excellency is on the second
       floor. Please, enter.<END>
       <LOC67da><IF_NOT004d><JUMP67e6><IF004c><JUMP682a><LOC67e6><SET004d>I told him to give it up.
       It was that guy who blabbed.<END>
