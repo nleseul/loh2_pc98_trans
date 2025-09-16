@@ -127,44 +127,42 @@
       If I hadn't o' met yer dad, I'd
       prob'ly still be a pirate, y'know?
 
-      それより そっちの。
-      お前さん どうやって 来たんだ？
-      よく ここが わかったもんだ。
+      What about you, there?
+      How'd ya get here? I'm surprised
+      ya found this place.
 
       <CH1>
-      んっ おれか？
+      What, me?
 
-      おれは 目がさめたら そこのマヌケが帰ってきたんで やさーしく きいて
-      連れてきてもらったんだ。
+      When I woke up, this idiot had
+      come back. I asked veery nicely,
+      so he agreed to take me here.
 
-      <C_YELLOW>ボアード<C_NONE>
-      そうか ･ ･ ･ おい ジゴ !!
+      <C_YELLOW>Buald<C_NONE>
+      Got ya. ...Jigo!!
 
-      <Xf9080200><Xf7><C_YELLOW>ジゴ<C_NONE>
-      へ、へい。
+      <Xf9080200><Xf7><C_YELLOW>Jigo<C_NONE>
+      A-Aye!
 
-      <C_YELLOW>ボアード<C_NONE>
-      この２人を スエルまで お送りしろ。わかってるな？
-      おれの 大事な 客人だからな !!
+      <C_YELLOW>Buald<C_NONE>
+      Yer takin' these two back to Suil.Got it? They're my honored guests.
 
-      いいか ジゴ。
-      送っていったら すぐ戻って来いよ。
-      おめえにゃ 話がある。
+      An', Jigo...
+      Come right back after ya drop 'em
+      off. We're goin' ta have a talk.
 
-      <C_YELLOW>ジゴ<C_NONE>
-      へ、へい。
+      <C_YELLOW>Jigo<C_NONE>
+      A-Aye!
 
-      <Xf9080204><Xf9200200><Xf7><C_YELLOW>ボアード<C_NONE>
-      じゃ スエルまで 送らせるから
-      この船に 乗ってくれ。
+      <Xf9080204><Xf9200200><Xf7><C_YELLOW>Buald<C_NONE>
+      Whene'er yer ready ta head back taSuil, jus' hop aboard.
 
       <CH0>
-      ああ、ありがとう。
+      Thank you!
 
-      <C_YELLOW>ボアード<C_NONE>
-      また遊びに 来てくれよ。
-      今度は ゆっくり シーラスでも
-      くわしてやるよ。<ASMd635>
+      <C_YELLOW>Buald<C_NONE>
+      An' come see me again someday!
+      I'll fry a shillath fer ya!<ASMd635>
   !!int "24621": !RelocatableTranslatableEntry
     "original": |-
       <CH0>
@@ -231,7 +229,65 @@
         54694
       "target_addr": !!int |-
         24621
-    "translated": !!null |-
-      null
+    "translated": |-
+      <CH0>
+      Hey, Landor?
+
+      <CH1>
+      Hm? What is it?
+
+      <CH0>
+      What happened with those slimes?
+
+      <CH1>
+      Oh, that. Well, I guess I can tellyou. I was workin' with my old
+      man on his Morph spell.
+
+      We got into a big argument at one
+      point. I was pretty fed up, so I
+      tried to singe his face with Flam.
+
+      But for some reason, those red
+      slimes popped up instead.
+
+      They're a real pain in the butt
+      too... Before we knew it, they'd
+      spread all over Wonliech.
+
+      I tried all sorts of things to
+      get rid of 'em, but they always
+      came right back.
+
+      I was at my wit's end and ready
+      to just pack up and leave. And
+      that's when I ran into you.
+
+      I figured tagging along with you
+      while you traveled around the
+      world was a perfect way to get
+      away from it all.
+
+      <CH0>
+      Oh, I see.
+      But nothing like that happened
+      when you helped me in Rondo.
+
+      <CH1>
+      Yeah, it's weird.
+      <PAGE>
+      It happens when I cast Flam, sure,
+      but it's definitely not every time.
+
+      <CH0>
+      How strange...
+
+      <CH1>
+      Well, I guess it's nothing worth
+      worryin' about.
+
+      Not on the eve of Dragonsfete,
+      at least. Once we get to Suil,
+      let's head straight back to Selis
+      and get to feasting!
 "_note": |-
   Buald HQ outdoors - Prologue (kidnapping scene)

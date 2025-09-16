@@ -53,8 +53,53 @@
         54659
       "target_addr": !!int |-
         23361
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Aerion<C_NONE>
+      Sonia. I'm glad you found us.
+
+      <C_YELLOW>Sonia<C_NONE>
+      Of course. But we need to...
+
+      <C_YELLOW>Aerion<C_NONE>
+      No, not yet.
+      I'm on my way to examine the
+      dragonsegg.
+
+      As soon as Poul and the rest
+      board, head straight for Yold.
+
+      <C_YELLOW>Sonia<C_NONE>
+      ...Okay.
+      But don't do anything too crazy.
+
+      <Xf9080202><Xf7><C_YELLOW>Aerion<C_NONE>
+      Barbara, you should head for
+      Yold as well. It's not safe.
+
+      <C_YELLOW>Barbara, priestess<C_NONE>
+      You seem to be looking at me as
+      some poor old lady, your Majesty.
+
+      How would I ever live down the
+      shame if I, as the officiant of
+      Dragonsfete, were to flee at a
+      time like this?
+
+      I hope you'll forgive me,
+      King Aerion.
+
+      <C_GREEN>Barbara uses a Warp Wing.<C_NONE><ASMd667><CLEAR><C_YELLOW>Aerion<C_NONE>
+      Barbara!!
+
+      What about you, your Highness?
+
+      <CH0>
+      Please let me come with you.
+
+      <C_YELLOW>Aerion<C_NONE>
+      I should have expected no less...
+      But please be mindful of the
+      danger.
   !!int "24070": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ソニア<C_NONE>
@@ -67,7 +112,8 @@
         54693
       "target_addr": !!int |-
         24070
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Sonia<C_NONE>
+      Aerion!!
 "_note": |-
   Selis castle 1F - Prologue (Monster attack)

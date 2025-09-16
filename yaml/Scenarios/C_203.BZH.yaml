@@ -28,8 +28,25 @@
         54658
       "target_addr": !!int |-
         23607
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>King Aerion<C_NONE>
+      Welcome back to Selis Castle,
+      your Highness. Tomorrow, it
+      will be Dragonsfete.
+
+      Tonight is the eve before it,
+      so I encourage the two of you
+      to enjoy yourselves.
+
+      <CH1>
+      Thank you, your Majesty.
+      We've enjoyed our tour of the
+      kingdom. Right, Atlas?
+
+      <Xf52c0000><ASM1ae6><Xf7><CH0>
+      Of course.
+      <C_YELLOW>Soldier<C_NONE>
+      Y-Your Majesty!!<SET0068><ASMd72a>
   !!int "23901": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ポウエル<C_NONE>
@@ -44,8 +61,11 @@
         54667
       "target_addr": !!int |-
         23901
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Poul<C_NONE>
+      Welcome, Prince Atlas!
+      I was just now saying that your
+      Highness should be arriving soon.
   !!int "23988": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -60,8 +80,11 @@
         54676
       "target_addr": !!int |-
         23988
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      We have been expecting your
+      Highness. The king awaits you
+      inside.
   !!int "24075": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -75,8 +98,10 @@
         54685
       "target_addr": !!int |-
         24075
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      You are Prince Atlas?
+      Thank you for coming!
   !!int "24144": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -93,8 +118,12 @@
         54694
       "target_addr": !!int |-
         24144
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      Prince Atlas... right?
+
+      Welcome to Selis Castle!
+      His Majesty is through here.
   !!int "24272": !RelocatableTranslatableEntry
     "original": |-
       <SET0405><ASMd740><C_YELLOW>兵士<C_NONE>
@@ -122,8 +151,24 @@
         54705
       "target_addr": !!int |-
         24272
-    "translated": !!null |-
-      null
+    "translated": |-
+      <SET0405><ASMd740><C_YELLOW>Soldier<C_NONE>
+      Pant, pant... S-Something's...
+      The eggs... The dragonsegg...
+
+      <C_YELLOW>Aerion<C_NONE>
+      Please, calm yourself.
+      What's happened to the dragonsegg?
+
+      <C_YELLOW>Soldier<C_NONE>
+      Pant... pant... pant...
+      It started to glow red all of a
+      sudden during the preparations.
+
+      <C_YELLOW>Aerion<C_NONE>
+      What? Why would it...?
+      <C_YELLOW>Barbara, priestess<C_NONE>
+      King Aerion!!<Xf405c23c>
   !!int "24573": !RelocatableTranslatableEntry
     "original": |-
       <SET0406><ASMd74f><C_YELLOW>司祭 バーバラ<C_NONE>
@@ -167,8 +212,40 @@
         54715
       "target_addr": !!int |-
         24573
-    "translated": !!null |-
-      null
+    "translated": |-
+      <SET0406><ASMd74f><C_YELLOW>Barbara, priestess<C_NONE>
+      This is a crisis, your Majesty!!
+      The dragonsegg has turned red!
+
+      A dragonsegg glowing red...
+      Never have I heard of such a thing.
+
+      I can't see anything from the
+      castle. I'm going there to examineit more closely.
+
+      <C_YELLOW>Aerion<C_NONE>
+      Very well, Barbara.
+      And I will accompany you.
+
+      <CH0>
+      I'd like to come too, your Majesty.
+
+      <C_YELLOW>Aerion<C_NONE>
+      Your Highness?! No, we can't risk
+      it. If anything happened...
+      Please wait here.
+
+      <CH1>
+      I've never seen a red dragonsegg.
+      Please, your Majesty. We wouldn't
+      be in the way.
+
+      <C_YELLOW>Aerion<C_NONE>
+      ...Very well.
+      But please try not to endanger
+      yourself, your Highness.
+
+      Let us make haste.
   !!int "25188": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -213,6 +290,42 @@
         54729
       "target_addr": !!int |-
         25188
-    "translated": !!null |-
-      null
-"_note": ""
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      Ah! Your Majesty!!
+
+      Quickly!! You need to escape!
+
+      <C_YELLOW>Aerion<C_NONE>
+      Escape? From what?
+
+      <C_YELLOW>Soldier<C_NONE>
+      Monsters have started swarming
+      out of the red dragonsegg.
+
+      One after another. More monsters
+      than we can count. We can't keep
+      them at bay any longer.
+
+      They've already stormed the town
+      of Selis. It's only a matter of
+      time before they breach the castle.
+
+      <C_YELLOW>Aerion<C_NONE>
+      Then the townspeople are in danger!
+      What about Sonia?
+
+      <C_YELLOW>Soldier<C_NONE>
+      Her Majesty has already led the
+      townspeople aboard the ship. They
+      are only waiting for your Majesty.
+
+      <C_YELLOW>Aerion<C_NONE>
+      I see. It appears I had no cause
+      for concern.
+
+      <C_YELLOW>Soldier<C_NONE>
+      I'll inform Poul and the others.
+      Please, hurry!
+"_note": |-
+  Selis castle 2F - Prologue (after kidnapping)

@@ -16,8 +16,11 @@
         54635
       "target_addr": !!int |-
         23320
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      Prince Atlas, right?
+      Please, enter. King Aerion
+      is eager to see your Highness.
   !!int "23408": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -35,8 +38,14 @@
         54644
       "target_addr": !!int |-
         23408
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      Welcome, Prince Atlas!
+      Please, allow me to explain
+      Dragonsfete, the pride of Lanoura.
+
+      During Dragonsfete, we thank Freyafor this year's harvest and ask
+      for Her blessing on next year's.
   !!int "23601": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -51,8 +60,11 @@
         54653
       "target_addr": !!int |-
         23601
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      There'll be all the roasted
+      chicken you can eat at
+      Dragonsfete!
   !!int "23687": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -71,8 +83,15 @@
         54662
       "target_addr": !!int |-
         23687
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      This is where all the entry and
+      exit records collected in Yold
+      and Sedar are stored.
+
+      So even if someone warps directly
+      into Lanoura, we'll be able to
+      look up their records here.
   !!int "23889": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -87,8 +106,11 @@
         54671
       "target_addr": !!int |-
         23889
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      This is the exit registration
+      office, but we're closed until
+      the end of the festival.
   !!int "23976": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -105,8 +127,14 @@
         54680
       "target_addr": !!int |-
         23976
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      This ship belongs to the Kingdom
+      of Lanoura.
+
+      It's used for various tasks like
+      transporting prisoners to Jagri
+      or carrying cargo.
   !!int "24104": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -120,8 +148,11 @@
         54689
       "target_addr": !!int |-
         24104
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      I'm making sure no one interferes
+      with the festival. It's an
+      important event for the kingdom.
   !!int "24206": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>司祭 バーバラ<C_NONE>
@@ -136,8 +167,11 @@
         54698
       "target_addr": !!int |-
         24206
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Barbara, priestess<C_NONE>
+      I am Barbara, the officiant of
+      Dragonsfete. No one save me can
+      enter the dragonsegg tomorrow.
   !!int "24311": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>侍女<C_NONE>
@@ -150,8 +184,10 @@
         54707
       "target_addr": !!int |-
         24311
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Maid<C_NONE>
+      It's the eve of Dragonsfete, so
+      we have to do a lot of cooking.
   !!int "24382": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>侍女<C_NONE>
@@ -164,8 +200,10 @@
         54716
       "target_addr": !!int |-
         24382
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Maid<C_NONE>
+      There's so much to do that even
+      Her Majesty is helping.
   !!int "24452": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ソニア王妃<C_NONE>
@@ -183,8 +221,15 @@
         54725
       "target_addr": !!int |-
         24452
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Queen Sonia<C_NONE>
+      You're Prince Atlas? It's a
+      pleasure to have your Highness
+      here.
+
+      This is Prince Charles. He's only
+      eight, but he's already causing
+      trouble with all his antics.
   !!int "24600": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>チャールズ王子<C_NONE>
@@ -199,6 +244,10 @@
         54734
       "target_addr": !!int |-
         24600
-    "translated": !!null |-
-      null
-"_note": ""
+    "translated": |-
+      <C_YELLOW>Prince Charles<C_NONE>
+      I want to go in the dragonsegg
+      with Barbara. I wonder what it's
+      like inside.
+"_note": |-
+  Selis castle 1F - Prologue (after kidnapping)

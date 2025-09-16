@@ -17,8 +17,13 @@
         54633
       "target_addr": !!int |-
         23424
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      I apologize for my earlier
+      rudeness.
+
+      I failed to recognize the Prince of
+      Farleyn. Forgive me, your Highness.
   !!int "23534": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -33,8 +38,10 @@
         54642
       "target_addr": !!int |-
         23534
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      Prince Atlas? Please, enter.
+      Tonight is the eve of Dragonsfete.
   !!int "23632": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>子供<C_NONE>
@@ -48,8 +55,10 @@
         54651
       "target_addr": !!int |-
         23632
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Child<C_NONE>
+      I already got my presents!
+      Now I'm going to eat a bunch!
   !!int "23723": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>老人<C_NONE>
@@ -67,8 +76,15 @@
         54660
       "target_addr": !!int |-
         23723
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Old man<C_NONE>
+      Ho ho! That's my daughter and her
+      hubby across from me there.
+
+      That girl went through some hard
+      times once. It must've been fate,
+      though, since she ended up with
+      such a kind man.
   !!int "23879": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -82,8 +98,11 @@
         54669
       "target_addr": !!int |-
         23879
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Man<C_NONE>
+      My sister's family comes all the
+      way from Richelle every year to
+      see Dragonsfete.
   !!int "23964": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -99,8 +118,13 @@
         54678
       "target_addr": !!int |-
         23964
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Man<C_NONE>
+      I sell tools and spell tomes in
+      the port of Richelle, in Moreston.
+
+      I hope you'll stop by whenever
+      you're in Richelle.
   !!int "24089": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>女<C_NONE>
@@ -114,8 +138,11 @@
         54687
       "target_addr": !!int |-
         24089
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Woman<C_NONE>
+      We come for Dragonsfete every year,
+      but this year seems even busier
+      than usual. I'm excited!
   !!int "24176": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>女<C_NONE>
@@ -129,8 +156,10 @@
         54696
       "target_addr": !!int |-
         24176
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Woman<C_NONE>
+      My grandfather loves festivals
+      more than anything.
   !!int "24240": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ギャリー<C_NONE>
@@ -147,8 +176,12 @@
         54705
       "target_addr": !!int |-
         24240
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Gary<C_NONE>
+      It was worth livin' all them yearsto see another Dragonsfete come!
+      There's nothin' like a festival!
+
+      Ahh, I'm ready to enjoy m'self!
   !!int "24375": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -162,8 +195,11 @@
         54753
       "target_addr": !!int |-
         24375
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Man<C_NONE>
+      'S Dragonsfete eve, y'know!
+      'S jus' once a year, y'know!
+      What a night!
   !!int "24470": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -178,8 +214,10 @@
         54762
       "target_addr": !!int |-
         24470
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Man<C_NONE>
+      He's been drinkin' for a week
+      straight! I'm no match for 'im!
   !!int "24565": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -194,8 +232,10 @@
         54771
       "target_addr": !!int |-
         24565
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Man<C_NONE>
+      It's finally Dragonsfete tomorrow!
+      What happy times! Ha ha!
   !!int "24642": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>武器屋<C_NONE>
@@ -208,8 +248,9 @@
         54783
       "target_addr": !!int |-
         24642
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Weapon merchant<C_NONE>
+      Welcome!<RET_N>
   !!int "24666": !RelocatableTranslatableEntry
     "original": |-
       またどうぞ。
@@ -221,8 +262,8 @@
         54795
       "target_addr": !!int |-
         24666
-    "translated": !!null |-
-      null
+    "translated": |-
+      Come again!
   !!int "24679": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>道具屋<C_NONE>
@@ -236,8 +277,9 @@
         54807
       "target_addr": !!int |-
         24679
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Tool merchant<C_NONE>
+      Welcome! What can I do for you?<RET_N>
   !!int "24735": !RelocatableTranslatableEntry
     "original": |-
       また来てくださいね。
@@ -249,8 +291,8 @@
         54834
       "target_addr": !!int |-
         24735
-    "translated": !!null |-
-      null
+    "translated": |-
+      Please come again!
   !!int "24756": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>バーテン<C_NONE>
@@ -278,8 +320,23 @@
         54840
       "target_addr": !!int |-
         24756
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Bartender<C_NONE>
+      Care for a drink?<Xf69229><JUMP60e6><CLEAR><IF0410><JUMP612c><IF0411><JUMP61c7><END>
+      <LOC60e6><CLEAR>I see...
+      There's no charge on Dragonsfete,
+      you know.<END>
+      <LOC612c>Wait, aren't you underage? It's
+      illegal to serve liquor to
+      underaged people in Lanoura.
+
+      Even on Dragonsfete.
+      So please be on your way.<END>
+      <LOC61c7>Here you are, then.
+      This one's on the house.
+      Dragonsfete special.<Xf666d6><JUMP6218>
+
+      <SET0418><ASMd67f><UNSET0418><LOC6218>
   !!int "25113": !RelocatableTranslatableEntry
     "original": |-
       おや？これ以上持てないようですね。
@@ -293,8 +350,10 @@
         25332
       "target_addr": !!int |-
         25113
-    "translated": !!null |-
-      null
+    "translated": |-
+      You don't have any room for it.
+
+      <RET>
   !!int "25149": !RelocatableTranslatableEntry
     "original": |-
       どれを買ってくれますか？
@@ -307,8 +366,9 @@
         25334
       "target_addr": !!int |-
         25149
-    "translated": !!null |-
-      null
+    "translated": |-
+      What would you like to buy?
+      <RET_N>
   !!int "25175": !RelocatableTranslatableEntry
     "original": |-
       <ITEM>だね。
@@ -323,8 +383,11 @@
         25336
       "target_addr": !!int |-
         25175
-    "translated": !!null |-
-      null
+    "translated": |-
+      The <ITEM>?
+      Thank you very much!
+
+      <RET>
   !!int "25212": !RelocatableTranslatableEntry
     "original": |-
       どれを 売ってくれますか？
@@ -337,8 +400,9 @@
         25204
       "target_addr": !!int |-
         25212
-    "translated": !!null |-
-      null
+    "translated": |-
+      What would you like to sell?
+      <RET_N>
   !!int "25239": !RelocatableTranslatableEntry
     "original": |2-
        Gold になるけど
@@ -352,8 +416,10 @@
         25206
       "target_addr": !!int |-
         25239
-    "translated": !!null |-
-      null
+    "translated": |-
+      gold.
+      Will that be okay?
+      <RET_N>
   !!int "25283": !RelocatableTranslatableEntry
     "original": |-
       それは残念です。
@@ -367,8 +433,10 @@
         25208
       "target_addr": !!int |-
         25283
-    "translated": !!null |-
-      null
+    "translated": |-
+      That's too bad.
+
+      <RET_N>
   !!int "25301": !RelocatableTranslatableEntry
     "original": |-
       どうも ありがとうございます。
@@ -381,6 +449,8 @@
         25210
       "target_addr": !!int |-
         25301
-    "translated": !!null |-
-      null
-"_note": ""
+    "translated": |-
+      Thank you very much.
+      <RET_N>
+"_note": |-
+  Selis - Prologue (after kidnapping)

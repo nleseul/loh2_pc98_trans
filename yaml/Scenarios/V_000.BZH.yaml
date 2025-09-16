@@ -15,8 +15,10 @@
         54620
       "target_addr": !!int |-
         23848
-    "translated": !!null |-
-      null
+    "translated": |+
+      <CLEAR>
+           The Legend of Heroes Ⅱ<N>
+
   !!int "24121": !RelocatableTranslatableEntry
     "original": |-
       <CLEAR><C_YELLOW>フラッド<C_NONE>
@@ -77,6 +79,58 @@
         54713
       "target_addr": !!int |-
         24121
-    "translated": !!null |-
-      null
-"_note": ""
+    "translated": |-
+      <CLEAR><C_YELLOW>Fladh<C_NONE>
+      All is proceeding as ordered,
+      my liege.
+
+      <C_YELLOW>The Emperor<C_NONE>
+      And what of those old fools?
+
+      <C_YELLOW>Fladh<C_NONE>
+      ...They are confined.
+
+      <C_YELLOW>The Emperor<C_NONE>
+      I see your hesitation, Fladh.
+      A lingering fondness for your
+      teacher?
+
+      Bring them all to the detention
+      facility. Let their heads cool
+      until they accede to the plan.
+
+      <C_YELLOW>Fladh<C_NONE>
+      ... ...
+
+      <C_YELLOW>The Emperor<C_NONE>
+      Your role is to master all five
+      of the secret arts. I have great
+      hopes for you.
+
+      <C_YELLOW>Fladh<C_NONE>
+      ...Yes, my liege.
+
+      <ASMd866><CLEAR><C_YELLOW>Leisia<C_NONE>
+      Does it look like the wardens
+      are picking up the pace to you?
+
+      <ASMd8c5><C_YELLOW>Boza<C_NONE>
+      Yeah... What could the Emperor
+      be planning?
+
+      <ASMd8cc><CLEAR><C_YELLOW>Rauel<C_NONE>
+      Your Majesty, you mustn't take
+      any unnecessary risks.
+
+      <C_YELLOW>King Selios<C_NONE>
+      I know, Rauel.<WAIT>
+      <ASMd8f8><CLEAR><C_YELLOW>Queen Dina<C_NONE>
+      Selios...
+
+      <C_YELLOW>King Selios<C_NONE>
+      Don't worry, Dina. I'll be back
+      soon. Take care of things here.<WAIT>
+      <ASMd910><CLEAR><C_YELLOW>King Selios<C_NONE>
+      Let's go!!
+"_note": |-
+  Prologue end

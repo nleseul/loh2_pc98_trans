@@ -36,7 +36,13 @@
         54638
       "target_addr": !!int |-
         23445
-    "translated": !!null |-
-      null
+    "translated": "<IF0400><JUMP5bfb><CH1>\nWhoa! Unbelievable!\n\n<C_YELLOW>Aerion<C_NONE>\n\
+      There are so many!!\n\n<C_YELLOW>Soldier<C_NONE>\nSeveral times more than earlier.<END>\n\
+      <LOC5bfb><C_YELLOW>Aerion<C_NONE>\nHowever much we fight, they're\nendless!\
+      \ Let us retreat to Yold\nand consider our options.\n\n<Xf9080202><Xf7>Your\
+      \ Highness, this is merely a\nguess, but I suspect that other\ndragonseggs around\
+      \ the world may\nbe in a similar state.\n\nYou should also escape back to\n\
+      Farleyn and investigate there.\nI will be coming to see King \nSelios soon as\
+      \ well.\n\n<CH0>\nAll right.\nGood luck, your Majesty."
 "_note": |-
   Selis - Prologue (monster attack)
