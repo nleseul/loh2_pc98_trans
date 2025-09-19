@@ -60,15 +60,21 @@ class TextRenderer:
         return len(self._pages) + (1 if len(self._current_page_text) > 0 else 0)
 
     def add_text(self, text:str) -> None:
-        for ch in text:
-            if self._line_char_count > self._width or self._line_char_count == self._width and ch not in self._fudge_characters:
-                self.add_newline()
-
+        for ch_index, ch in enumerate(text):
             if ch == " ":
                 self._current_page_text += "&nbsp;"
             else:
                 self._current_page_text += ch
             self._line_char_count += len(ch.encode('cp932'))
+
+            if self._line_char_count < self._width:
+                pass
+            elif self._line_char_count > self._width:
+                self.add_newline()
+            elif ch_index < len(text) - 1 and text[ch_index+1] in self._fudge_characters:
+                pass
+            else:
+                self.add_newline()
 
     def add_debug_text(self, text) -> None:
         self._current_page_text += text
@@ -156,12 +162,17 @@ def render_text_html(trans:TranslationCollection, entry_point_key:int, max_pages
 
     jump_history = set()
 
+    pending_text = ""
+
     while instruction_index < len(disassembled_events):
         instruction = disassembled_events[instruction_index]
         instruction_index += 1
         if isinstance(instruction, DS6TextInstruction):
-            renderer.add_text(instruction.text)
+            pending_text += instruction.text
         elif isinstance(instruction, DS6CodeInstruction):
+            if len(pending_text) > 0:
+                renderer.add_text(pending_text)
+                pending_text = ""
             code = instruction.code
             if code == 0x00:
                 break
@@ -304,6 +315,9 @@ def render_text_html(trans:TranslationCollection, entry_point_key:int, max_pages
 
         if max_pages is not None and renderer.page_count >= max_pages:
             break
+
+    if len(pending_text) > 0:
+        renderer.add_text(pending_text)
 
     return list(renderer.pages), list(conditions_checked)
 
