@@ -189,9 +189,8 @@
         24834
     "translated": |-
       <C_YELLOW>Old man<C_NONE>
-      Welcome to Lanoura Fried Chicken!
-      <IF0068><JUMP61cc>May I have the name for your order,
-      please?
+      Welcome! This is a chicken stand.
+      <IF0068><JUMP61cc>May I have the name for your order,please?
 
       Oh, you haven't ordered yet?
       I'm afraid that we're only taking

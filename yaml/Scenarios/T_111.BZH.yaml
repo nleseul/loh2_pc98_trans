@@ -132,12 +132,11 @@
         24226
     "translated": |-
       <CALL6c51>I've heard rumors that Buald, of
-      Buald Shipping, used to be a
+      Buald Transport, used to be a
       pirate.
 
       And it does seem like the pirates
-      have disappeared since the company
-      was established. Still, I really
+      have disappeared since the companywas established. Still, I really
       can't believe it.
   !!int "24373": !RelocatableTranslatableEntry
     "original": |-
@@ -160,8 +159,7 @@
       I wish I could go.
 
       My kids have been wanting to see
-      it, but I just don't have the time.
-      Be sure to enjoy it as much as
+      it, but I just don't have the time.Be sure to enjoy it as much as
       you're able.
   !!int "24551": !RelocatableTranslatableEntry
     "original": |-
@@ -194,8 +192,7 @@
       Supposedly that led to young
       people being sold as slaves.
 
-      But now that they have a new king,
-      everyone entering and leaving
+      But now that they have a new king,everyone entering and leaving
       Lanoura is registered, to prevent
       anything like that from happening.
 
@@ -420,18 +417,15 @@
       space.
       <JUMP64bf><LOC64f8>But you don't seem to have the
       money.
-      <JUMP64bf><LOC6519>Have you reconsidered selling your
-      Holy equipment to me?
+      <JUMP64bf><LOC6519>Have you reconsidered selling yourHoly equipment to me?
 
       <IF_NOT0031><JUMP67f6><IF_NOT0019><JUMP67f6><CH0>
       Yeah, I was thinking about asking
       you to buy something...
 
-      <CALL6c58>Really? You've finally come around,
-      huh?
+      <CALL6c58>Really? You've finally come around,huh?
 
-      Now, then, let's discuss the price.
-      In the old days, those would have
+      Now, then, let's discuss the price.In the old days, those would have
       cost somewhere between 60,000 and
       100,000 gold.
 
@@ -468,8 +462,7 @@
       I'm very sorry. But I really can't.
 
       <CALL6c58>I see... That's too bad.
-      Well, if you ever change your mind,
-      please come back and see me.<END>
+      Well, if you ever change your mind,please come back and see me.<END>
       <LOC6870><CH0>
       I just had a favor to ask...
 

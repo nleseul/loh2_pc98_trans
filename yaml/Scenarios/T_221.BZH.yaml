@@ -200,8 +200,8 @@
       Thanks for your help.
 
       <C_YELLOW>Flora<C_NONE>
-      どういたしまして、あなたたちが
-      よろこんでくれて 私も うれしいわ。
+      It was my pleasure! I am glad
+      to see you happy.
   !!int "25584": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>チャーリー<C_NONE>
@@ -251,8 +251,7 @@
       some business with Master Gerald?
 
       <CH0>
-      We wanted to get into Selis Castle,
-      but the guards wouldn't listen.
+      We wanted to get into Selis Castle,but the guards wouldn't listen.
 
       So we hoped Gerald could do
       something to help us.

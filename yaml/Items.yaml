@@ -70,8 +70,8 @@
       14
     "original": |-
       戦士のつるぎ
-    "translated": !!null |-
-      null
+    "translated": |-
+      Hero Sword
   !!int "35843": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       14
@@ -133,15 +133,15 @@
       14
     "original": |-
       革のヨロイ
-    "translated": !!null |-
-      null
+    "translated": |-
+      Leather Armor
   !!int "36023": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       14
     "original": |-
       鉄のヨロイ
-    "translated": !!null |-
-      null
+    "translated": |-
+      Iron Armor
   !!int "36043": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       14
@@ -161,8 +161,8 @@
       14
     "original": |-
       バトルスーツ
-    "translated": !!null |-
-      null
+    "translated": |-
+      Battle Suit
   !!int "36103": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       14
@@ -189,15 +189,15 @@
       14
     "original": |-
       革のたて
-    "translated": !!null |-
-      null
+    "translated": |-
+      Leather Shield
   !!int "36183": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       14
     "original": |-
       鉄のたて
-    "translated": !!null |-
-      null
+    "translated": |-
+      Iron Shield
   !!int "36203": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       14
@@ -217,8 +217,8 @@
       14
     "original": |-
       いにしえのたて
-    "translated": !!null |-
-      null
+    "translated": |-
+      Ancient Shield
   !!int "36263": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       14
@@ -315,8 +315,8 @@
       14
     "original": |-
       バクヤク
-    "translated": !!null |-
-      null
+    "translated": |-
+      Black Powder
   !!int "36543": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       14
@@ -329,8 +329,8 @@
       14
     "original": |-
       ヨシュアの鏡
-    "translated": !!null |-
-      null
+    "translated": |-
+      Lens of Joshua
   !!int "36583": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       14
@@ -343,8 +343,8 @@
       14
     "original": |-
       レスの葉
-    "translated": !!null |-
-      null
+    "translated": |-
+      Res Leaf
   !!int "36623": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       14
@@ -364,15 +364,15 @@
       14
     "original": |-
       ヨシュアの目
-    "translated": !!null |-
-      null
+    "translated": |-
+      Eye of Joshua
   !!int "36683": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       14
     "original": |-
       気付けぐすり
-    "translated": !!null |-
-      null
+    "translated": |-
+      Smelling Salt
   !!int "36703": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       14
@@ -399,8 +399,8 @@
       14
     "original": |-
       ランプ
-    "translated": !!null |-
-      null
+    "translated": |-
+      Lamp
   !!int "36783": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       14

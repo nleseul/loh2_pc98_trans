@@ -59,8 +59,8 @@
         61448
       "target_addr": !!int |-
         30164
-    "translated": |2-
-       splits in two,
+    "translated": |-
+      <ACTOR> splits in two,
       <RET>
   !!int "30182": !RelocatableTranslatableEntry
     "original": |-
@@ -79,7 +79,7 @@
       "target_addr": !!int |-
         30182
     "translated": |-
-      and becomes <ACTOR> and<RET>
+      and becomes <ACTOR> and<RET_N>
   !!int "30186": !RelocatableTranslatableEntry
     "original": |-
       <ACTOR>になった。<RET_PAGE>

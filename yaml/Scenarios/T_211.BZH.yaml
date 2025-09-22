@@ -22,8 +22,9 @@
       I apologize for my earlier
       rudeness.
 
-      I failed to recognize the Prince of
-      Farleyn. Forgive me, your Highness.
+      I failed to recognize the Prince
+      of Farleyn. Forgive me, your
+      Highness.
   !!int "23534": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -140,8 +141,7 @@
         24089
     "translated": |-
       <C_YELLOW>Woman<C_NONE>
-      We come for Dragonsfete every year,
-      but this year seems even busier
+      We come for Dragonsfete every year,but this year seems even busier
       than usual. I'm excited!
   !!int "24176": !RelocatableTranslatableEntry
     "original": |-
@@ -234,8 +234,7 @@
         24565
     "translated": |-
       <C_YELLOW>Man<C_NONE>
-      It's finally Dragonsfete tomorrow!
-      What happy times! Ha ha!
+      It's finally Dragonsfete tomorrow!What happy times! Ha ha!
   !!int "24642": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>武器屋<C_NONE>

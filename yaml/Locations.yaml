@@ -246,8 +246,8 @@
         34948
       "target_addr": !!int |-
         35185
-    "translated": !!null |-
-      null
+    "translated": |-
+      Buald HQ
   !!int "35197": !RelocatableTranslatableEntry
     "original": |-
       ルドラ
@@ -480,8 +480,8 @@
         34984
       "target_addr": !!int |-
         35338
-    "translated": !!null |-
-      null
+    "translated": |-
+      Headland Cv.
   !!int "35347": !RelocatableTranslatableEntry
     "original": |-
       試練の洞窟
@@ -493,8 +493,8 @@
         34986
       "target_addr": !!int |-
         35347
-    "translated": !!null |-
-      null
+    "translated": |-
+      Trials Cave
   !!int "35358": !RelocatableTranslatableEntry
     "original": |-
       王家の墓
@@ -506,8 +506,8 @@
         34988
       "target_addr": !!int |-
         35358
-    "translated": !!null |-
-      null
+    "translated": |-
+      Royal Tomb
   !!int "35367": !RelocatableTranslatableEntry
     "original": |-
       狼の口
