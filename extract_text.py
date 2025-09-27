@@ -8,6 +8,39 @@ from trans_util import *
 from ds6_event_util import *
 
 
+class TrackAccessesInRangeHook(X86CodeHook):
+    def __init__(self, start_addr, end_addr):
+        self._start_addr = start_addr
+        self._end_addr = end_addr
+
+        self._accesses = set()
+        self._min_access = None
+        self._max_access = None
+
+    def should_handle(self, instruction) -> bool:
+        for operand in instruction.operands:
+            if operand.type == X86_OP_MEM:
+                addr = operand.mem.disp
+                if addr >= self._start_addr and addr <= self._end_addr:
+                    for offset in range(operand.size):
+                        self._accesses.add(addr+offset)
+                        self._min_access = addr if self._min_access is None else min(addr, self._min_access)
+                        self._max_access = addr if self._max_access is None else max(addr, self._max_access)
+        return False
+
+    @property
+    def accesses(self) -> typing.Iterable[int]:
+        yield from sorted(list(self._accesses))
+
+    @property
+    def min_access(self) -> int | None:
+        return self._min_access
+
+    @property
+    def max_access(self) -> int | None:
+        return self._max_access
+
+
 @dataclass
 class EntryPointInfo:
     domain:str
@@ -99,13 +132,15 @@ def extract_scenario_events(scenario_data:typing.ByteString, custom_hooks:list[X
     code_entry_points = [ EntryPointInfo("code", int.from_bytes(scenario_data[0:2], byteorder='little')) ]
 
     addr_offset = 2
-    while addr_offset + 0xd53e < code_entry_points[0].target_addr:
+    while addr_offset + DS62_SCENARIO_CODE_START < code_entry_points[0].target_addr:
         addr = int.from_bytes(scenario_data[addr_offset:addr_offset+2], byteorder='little')
-        if addr < 0xd53e:
+        if addr < DS62_SCENARIO_CODE_START:
             break
         else:
             code_entry_points.append(EntryPointInfo("code", addr) )
         addr_offset += 2
+
+    outOfRangeAccessTracker = TrackAccessesInRangeHook(DS62_SCENARIO_DATA_START + len(scenario_data), DS62_SCENARIO_DATA_MAX)
 
     code_hooks = [
         DS62_StandardEventCodeHook(),
@@ -113,21 +148,25 @@ def extract_scenario_events(scenario_data:typing.ByteString, custom_hooks:list[X
         DS62_NpcTable1370CodeHook(),
         DS62_NpcTable13e7CodeHook(),
         DS62_BuyFromShopCodeHook(),
-        DS62_SellToShopCodeHook()
+        DS62_SellToShopCodeHook(),
+        outOfRangeAccessTracker
     ]
 
     if custom_hooks is not None:
         code_hooks += custom_hooks
 
     block_pool = BlockPool()
-    block_pool.register_domain("code", scenario_data, 0xd53e, X86CodeBlock, {'hooks': code_hooks})
-    block_pool.register_domain("data", scenario_data, 0x593e, DataBlock)
-    block_pool.register_domain("event", scenario_data, 0x593e, DS6EventBlock)
+    block_pool.register_domain("code", scenario_data, DS62_SCENARIO_CODE_START, X86CodeBlock, {'hooks': code_hooks})
+    block_pool.register_domain("data", scenario_data, DS62_SCENARIO_DATA_START, DataBlock)
+    block_pool.register_domain("event", scenario_data, DS62_SCENARIO_DATA_START, DS6EventBlock)
 
     explore(block_pool, code_entry_points)
 
+    end_addr = DS62_SCENARIO_DATA_START + len(scenario_data) - 1
+    max_addr = end_addr if outOfRangeAccessTracker.max_access is None else outOfRangeAccessTracker.max_access
+
     trans = TranslationCollection()
-    trans.end_of_file_addr = len(scenario_data)
+    trans.end_of_file_addr = max_addr - DS62_SCENARIO_DATA_START + 1
     for block in block_pool.get_blocks("event"):
         entry = make_entry_from_block(block)
         trans.add_entry(block.start_addr, entry)
@@ -159,38 +198,44 @@ def extract_scenario_events(scenario_data:typing.ByteString, custom_hooks:list[X
 def extract_combat_events(combat_data:typing.ByteString, monster_count:int = 4) -> TranslationCollection:
     entry_points = []
     for name_index in range(monster_count):
-        entry_points.append(EntryPointInfo("event", 0x7140 + name_index * 0x40 + 0x30))
+        entry_points.append(EntryPointInfo("event", DS62_COMBAT_DATA_START + name_index * 0x40 + 0x30))
 
     intro_text_addr = int.from_bytes(combat_data[0x108:0x10a], byteorder='little')
-    if intro_text_addr >= 0x7140:
-        entry_points.append(EntryPointInfo("event", intro_text_addr, 0xed40 + 0x108))
+    if intro_text_addr >= DS62_COMBAT_DATA_START:
+        entry_points.append(EntryPointInfo("event", intro_text_addr, DS62_COMBAT_CODE_START + 0x108))
 
     for entry_addr_offset in range(0x10a, 0x118, 2):
         entry_addr = int.from_bytes(combat_data[entry_addr_offset:entry_addr_offset+2], byteorder='little')
-        if entry_addr >= 0xed40:
-            entry_points.append(EntryPointInfo("code", entry_addr, 0xed40 + entry_addr_offset))
+        if entry_addr >= DS62_COMBAT_CODE_START:
+            entry_points.append(EntryPointInfo("code", entry_addr, DS62_COMBAT_CODE_START + entry_addr_offset))
 
     for entry_addr_offset in range(0x120, 0x140, 2):
         entry_addr = int.from_bytes(combat_data[entry_addr_offset:entry_addr_offset+2], byteorder='little')
-        if entry_addr >= 0xed40:
-            entry_points.append(EntryPointInfo("code", entry_addr, 0xed40 + entry_addr_offset))
+        if entry_addr >= DS62_COMBAT_CODE_START:
+            entry_points.append(EntryPointInfo("code", entry_addr, DS62_COMBAT_CODE_START + entry_addr_offset))
+
+    outOfRangeAccessTracker = TrackAccessesInRangeHook(DS62_COMBAT_DATA_START + len(combat_data), DS62_COMBAT_DATA_MAX)
 
     global_code_hooks = [
-        DS62_StandardEventCodeHook()
+        DS62_StandardEventCodeHook(),
+        outOfRangeAccessTracker
     ]
 
     block_pool = BlockPool()
-    block_pool.register_domain("code", combat_data, 0xed40, X86CodeBlock, {'hooks': global_code_hooks})
-    block_pool.register_domain("data", combat_data, 0x7140, DataBlock)
-    block_pool.register_domain("event", combat_data, 0x7140, DS6EventBlock)
+    block_pool.register_domain("code", combat_data, DS62_COMBAT_CODE_START, X86CodeBlock, {'hooks': global_code_hooks})
+    block_pool.register_domain("data", combat_data, DS62_COMBAT_DATA_START, DataBlock)
+    block_pool.register_domain("event", combat_data, DS62_COMBAT_DATA_START, DS6EventBlock)
 
     explore(block_pool, entry_points)
 
+    end_addr = DS62_COMBAT_DATA_START + len(combat_data) - 1
+    max_addr = end_addr if outOfRangeAccessTracker.max_access is None else outOfRangeAccessTracker.max_access
+
     trans = TranslationCollection()
-    trans.end_of_file_addr = len(combat_data)
+    trans.end_of_file_addr = max_addr - DS62_COMBAT_DATA_START + 1
     for block in block_pool.get_blocks("event"):
         entry = make_entry_from_block(block)
-        if block.start_addr < 0x7140 + 0x40*monster_count:
+        if block.start_addr < DS62_COMBAT_DATA_START + 0x40*monster_count:
             entry.max_byte_length = 0x10
         trans.add_entry(block.start_addr, entry)
 

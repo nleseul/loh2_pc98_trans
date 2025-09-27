@@ -502,11 +502,13 @@ def main() -> None:
             elif modified_path.startswith("local/modified/MON/"):
                 base_name = os.path.splitext(os.path.basename(file_path))[0]
                 yaml_path = os.path.join("yaml/Combats", f"{base_name}.yaml")
-                patch = make_data_file_patch(yaml_path, 0xed40, 0x7140)
+                patch = make_data_file_patch(yaml_path, DS62_COMBAT_CODE_START, DS62_COMBAT_DATA_START,
+                                             max_size=DS62_COMBAT_DATA_MAX - DS62_COMBAT_DATA_START + 1)
             elif modified_path.startswith("local/modified/SCENA/"):
                 base_name = os.path.splitext(os.path.basename(file_path))[0]
                 yaml_path = os.path.join("yaml/Scenarios", f"{base_name}.yaml")
-                patch = make_data_file_patch(yaml_path, 0xd53e, 0x593e, max_size=0x7140-0x593e)
+                patch = make_data_file_patch(yaml_path, DS62_SCENARIO_CODE_START, DS62_SCENARIO_DATA_START,
+                                             max_size=DS62_SCENARIO_DATA_MAX - DS62_SCENARIO_DATA_START + 1)
 
             if patch is not None:
                 patched_data = patch.apply(file_data)
