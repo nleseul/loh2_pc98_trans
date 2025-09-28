@@ -2,7 +2,11 @@
 "_end_of_file_addr": !!null |-
   null
 "_entries":
-  !!int "2188": !FixedTranslatableEntry
+  !!int "2188": !FixedTranslatableWindowEntry
+    "forced_line_count": !!null |-
+      null
+    "line_count": !!int |-
+      3
     "max_byte_length": !!int |-
       56
     "original": |2-
@@ -13,7 +17,15 @@
        Previous town
        Restart battle
        Load a save
-  !!int "3102": !FixedTranslatableEntry
+    "window_position": !!int |-
+      204
+    "window_width": !!int |-
+      20
+  !!int "3102": !FixedTranslatableWindowEntry
+    "forced_line_count": !!null |-
+      null
+    "line_count": !!int |-
+      2
     "max_byte_length": !!int |-
       13
     "original": |2-
@@ -22,6 +34,10 @@
     "translated": |2-
        Yes
        No
+    "window_position": !!int |-
+      163
+    "window_width": !!int |-
+      6
   !!int "6644": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       62
@@ -33,7 +49,11 @@
        Fight   Spell   Guard
        Use     Weapon  Auto
        Stats   Run
-  !!int "6956": !FixedTranslatableEntry
+  !!int "6956": !FixedTranslatableWindowEntry
+    "forced_line_count": !!null |-
+      null
+    "line_count": !!int |-
+      6
     "max_byte_length": !!int |-
       60
     "original": |2-
@@ -50,7 +70,15 @@
        Combat
        Delete
        Exit
-  !!int "7137": !FixedTranslatableEntry
+    "window_position": !!int |-
+      149
+    "window_width": !!int |-
+      10
+  !!int "7137": !FixedTranslatableWindowEntry
+    "forced_line_count": !!null |-
+      null
+    "line_count": !!int |-
+      8
     "max_byte_length": !!int |-
       79
     "original": |-
@@ -71,6 +99,10 @@
       Messages
       Save disk
       Func. keys
+    "window_position": !!int |-
+      148
+    "window_width": !!int |-
+      21
   !!int "7220": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       14
@@ -104,7 +136,11 @@
       14
     "original": "ｼｽﾃﾑ  \nﾕｰｻﾞｰ "
     "translated": "System\nUser  "
-  !!int "7312": !FixedTranslatableEntry
+  !!int "7312": !FixedTranslatableWindowEntry
+    "forced_line_count": !!null |-
+      null
+    "line_count": !!int |-
+      6
     "max_byte_length": !!int |-
       72
     "original": |-
@@ -121,6 +157,10 @@
       Heal spells
       Heal items
       All members
+    "window_position": !!int |-
+      148
+    "window_width": !!int |-
+      21
   !!int "7388": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       14
@@ -138,7 +178,11 @@
       同じに
       別々に
     "translated": "Same  \nSepr. "
-  !!int "7517": !FixedTranslatableEntry
+  !!int "7517": !FixedTranslatableWindowEntry
+    "forced_line_count": !!null |-
+      null
+    "line_count": !!int |-
+      2
     "max_byte_length": !!int |-
       19
     "original": |2-
@@ -147,7 +191,15 @@
     "translated": |2-
        Settings
        Run
-  !!int "9012": !FixedTranslatableEntry
+    "window_position": !!int |-
+      159
+    "window_width": !!int |-
+      10
+  !!int "9012": !FixedTranslatableWindowEntry
+    "forced_line_count": !!int |-
+      7
+    "line_count": !!int |-
+      6
     "max_byte_length": !!int |-
       50
     "original": |2-
@@ -166,4 +218,8 @@
        Stats
        Other
        Leader
+    "window_position": !!int |-
+      69
+    "window_width": !!int |-
+      10
 "_note": ""

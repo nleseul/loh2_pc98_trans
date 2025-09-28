@@ -96,6 +96,35 @@ def make_entry_from_block(block:DS6EventBlock) -> TranslatableEntry:
     return entry
 
 
+def extract_menu(trans:TranslationCollection, data:typing.ByteString, start_addr:int, force_item_count:int|None = None) -> None:
+
+    item_count = data[start_addr+3] if force_item_count is None else force_item_count
+    addr = start_addr + 0x4
+
+    menu_text = ""
+
+    for _ in range(item_count):
+        if len(menu_text) > 0:
+            menu_text += "\n"
+        item_bytes = b''
+        while data[addr] != 0:
+            item_bytes += data[addr:addr+1]
+            addr += 1
+        menu_text += item_bytes.decode('cp932')
+        addr += 1
+
+    entry = FixedTranslatableWindowEntry(original=menu_text,
+                                         max_byte_length=addr - (start_addr + 0x4),
+                                         window_position=int.from_bytes(data[start_addr:start_addr+1], byteorder='little'),
+                                         window_width=data[start_addr+2],
+                                         line_count=data[start_addr+3])
+    if force_item_count is not None:
+        entry.forced_line_count = force_item_count
+
+    trans.add_entry(start_addr, entry)
+
+
+
 def extract_program_events(program_data:typing.ByteString):
     code_hooks = [
         EmptyHook(0x1592, False, stop=True), # Calls into scenario entry points
@@ -394,44 +423,26 @@ def extract_locations(prog_data:typing.ByteString) -> TranslationCollection:
     return trans
 
 
-def extract_menus(prog_data:typing.ByteString) -> TranslationCollection:
+def extract_program_menus(prog_data_code:typing.ByteString) -> TranslationCollection:
     trans = TranslationCollection()
 
-    menu_addr_list = [ a + 0x7c00 for a in [ 0x88c, 0xc1e, 0x1b2c, 0x1be1, 0x1c90, 0x1d5d, 0x2334 ] ]
+    prog_data_data = prog_data_code[0x7c00:]
+
+    menu_addr_list = [ 0x88c, 0xc1e, 0x1b2c, 0x1be1, 0x1c90, 0x1d5d, 0x2334 ]
+
     toggle_list = [
-        (0x1c34 + 0x7c00, 2),
-        (0x1c42 + 0x7c00, 2),
-        (0x1c50 + 0x7c00, 4),
-        (0x1c6c + 0x7c00, 2),
-        (0x1c7a + 0x7c00, 2),
-        (0x1cdc + 0x7c00, 2),
-        (0x1cea + 0x7c00, 2),
-        (0x1cfa + 0x7c00, 2)
+        (0x1c34, 2),
+        (0x1c42, 2),
+        (0x1c50, 4),
+        (0x1c6c, 2),
+        (0x1c7a, 2),
+        (0x1cdc, 2),
+        (0x1cea, 2),
+        (0x1cfa, 2)
     ]
 
     for menu_addr in menu_addr_list:
-        item_count = prog_data[menu_addr+3]
-        addr = menu_addr + 0x4
-
-        # Main field menu adds the "Leader" item dynamically based on party size
-        if menu_addr == 0x2334 + 0x7c00:
-            item_count += 1
-
-        menu_text = ""
-
-        for _ in range(item_count):
-            if len(menu_text) > 0:
-                menu_text += "\n"
-            item_bytes = b''
-            while prog_data[addr] != 0:
-                item_bytes += prog_data[addr:addr+1]
-                addr += 1
-            menu_text += item_bytes.decode('cp932')
-            addr += 1
-
-        entry = FixedTranslatableEntry(original=menu_text,
-                                       max_byte_length=addr - (menu_addr + 0x4))
-        trans.add_entry(menu_addr - 0x7c00, entry)
+        extract_menu(trans, prog_data_data, menu_addr, 7 if menu_addr == 0x2334 else None)
 
     for toggle_addr, toggle_count in toggle_list:
         toggle_text = ""
@@ -441,36 +452,46 @@ def extract_menus(prog_data:typing.ByteString) -> TranslationCollection:
             if len(toggle_text) > 0:
                 toggle_text += "\n"
             item_bytes = b''
-            while prog_data[addr] != 0:
-                item_bytes += prog_data[addr:addr+1]
+            while prog_data_data[addr] != 0:
+                item_bytes += prog_data_data[addr:addr+1]
                 addr += 1
             toggle_text += item_bytes.decode('cp932')
             addr += 1
 
         entry = FixedTranslatableEntry(original=toggle_text,
                                        max_byte_length=addr-toggle_addr)
-        trans.add_entry(toggle_addr - 0x7c00, entry)
-
+        trans.add_entry(toggle_addr, entry)
 
     # Combat menu is just three lines with no header.
-    combat_menu_addr = 0x19f4 + 0x7c00
+    combat_menu_addr = 0x19f4
     combat_menu_text = ""
     for _ in range(3):
         if len(combat_menu_text) > 0:
             combat_menu_text += "\n"
         item_bytes = b''
-        while prog_data[combat_menu_addr] != 0:
-            item_bytes += prog_data[combat_menu_addr:combat_menu_addr+1]
+        while prog_data_data[combat_menu_addr] != 0:
+            item_bytes += prog_data_data[combat_menu_addr:combat_menu_addr+1]
             combat_menu_addr += 1
         combat_menu_text += item_bytes.decode('cp932')
         combat_menu_addr += 1
     combat_menu_entry = FixedTranslatableEntry(original=combat_menu_text,
-                                               max_byte_length=combat_menu_addr - (0x19f4 + 0x7c00))
+                                               max_byte_length=combat_menu_addr - 0x19f4)
     trans.add_entry(0x19f4, combat_menu_entry)
 
     return trans
 
 
+def extract_utility_text(utility_data:typing.ByteString) -> TranslationCollection:
+    trans = TranslationCollection()
+
+    menu_addr_list = [ 0x271a, 0x2760, 0x2797, 0x27d8, 0x2a58, 0x2b52, 0x2c0d, 0x2c38,
+                       0x2d70, 0x2de4, 0x2e3a, 0x2e84, 0x2ee3, 0x2f42, 0x2f5f, 0x2fc3,
+                       0x2fea, 0x3028, 0x3072, 0x30d0, 0x3112, 0x316e, 0x31af ]
+
+    for menu_addr in menu_addr_list:
+        extract_menu(trans, utility_data, menu_addr)
+
+    return trans
 
 
 def update_translations(trans:TranslationCollection, save_path:str) -> None:
@@ -542,12 +563,17 @@ def main() -> None:
     with open("local/decompressed/PROG.BZH.bin", 'rb') as in_file:
         prog_data = in_file.read()
 
+    with open("local/decompressed/UTY.BZH.bin", 'rb') as in_file:
+        utility_data = in_file.read()
+
     update_translations(extract_spells(prog_data), "yaml/Spells.yaml")
     update_translations(extract_items(prog_data), "yaml/Items.yaml")
     update_translations(extract_locations(prog_data), "yaml/Locations.yaml")
-    update_translations(extract_menus(prog_data), "yaml/Menus.yaml")
+    update_translations(extract_program_menus(prog_data), "yaml/Menus.yaml")
 
     update_translations(extract_program_events(prog_data), "yaml/ProgramText.yaml")
+
+    update_translations(extract_utility_text(utility_data), "yaml/Utility.yaml")
 
 
 if __name__ == '__main__':
