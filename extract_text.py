@@ -127,15 +127,26 @@ def extract_menu(trans:TranslationCollection, data:typing.ByteString, start_addr
 
 def extract_program_events(program_data:typing.ByteString):
     code_hooks = [
+        EmptyHook(0x07c0, False),            # Calls into combat entry points
+        EmptyHook(0x07e7, False),            # Calls into combat entry points
+        EmptyHook(0x0a12, False),            # Stomps SI before a call to output
+        EmptyHook(0x0af8, False),            # Calls into scenario entry points
         EmptyHook(0x1592, False, stop=True), # Calls into scenario entry points
+        EmptyHook(0x1d82, True),             # Subroutine used to call into combat entry points
         EmptyHook(0x21b7, False, stop=True), # Calls into combat entry points
+        EmptyHook(0x2d8d, False),            # Calls into combat entry points
+        EmptyHook(0x3183, True),             # Subroutine to print character names
         EmptyHook(0x4c53, False, stop=True), # Calls into scenario entry points
+        EmptyHook(0x62e0, False),            # Calls into combat entry points
         DS62_PointerTableCodeHook(0x1596, 0x159b, 5, table_domain="code"),
+        DS62_PointerTableCodeHook(0x2dc8, 0x226e, 32),
         DS62_PointerTableCodeHook(0x2e89, 0x0f24, 5),
+        DS62_PointerTableCodeHook(0x4063, 0x1872, 10, entry_domain="event"),
         DS62_PointerTableCodeHook(0x5268, 0x1a32, 8),
         DS62_PointerTableCodeHook(0x5bb4, 0x2326, 7),
         DS62_PointerTableCodeHook(0x5de3, 0x1b20, 6),
         DS62_PrefixedEvent1d74CodeHook(),
+        DS62_SpellTomeSuffix2f24CodeHook(),
 
         DS62_StandardEventCodeHook(),
     ]

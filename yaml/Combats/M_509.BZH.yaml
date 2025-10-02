@@ -56,6 +56,32 @@
         29785
     "translated": !!null |-
       null
+  !!int "29807": !RelocatableTranslatableEntry
+    "original": |-
+      正気に戻った。<RET_PAGE>
+    "original_byte_length": !!int |-
+      15
+    "references":
+    - !CodeReference
+      "source_addr": !!int |-
+        61334
+      "target_addr": !!int |-
+        29807
+    "translated": !!null |-
+      null
+  !!int "29822": !RelocatableTranslatableEntry
+    "original": |-
+      むりやり目をさました。<RET_PAGE>
+    "original_byte_length": !!int |-
+      23
+    "references":
+    - !CodeReference
+      "source_addr": !!int |-
+        61329
+      "target_addr": !!int |-
+        29822
+    "translated": !!null |-
+      null
   !!int "29845": !RelocatableTranslatableEntry
     "original": |-
       <ACTOR>は仲間を呼んだ。<RET_N>

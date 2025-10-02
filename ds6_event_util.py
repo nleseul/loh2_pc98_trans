@@ -528,7 +528,7 @@ class DS62_GiveMoneyCodeHook(X86CodeHook):
 class DS62_StandardEventCodeHook(X86CodeHook):
     def should_handle(self, instruction):
         if (X86_GRP_CALL in instruction.groups or X86_GRP_JUMP in instruction.groups) and instruction.operands[0].type == CS_OP_IMM:
-            return (instruction.operands[0].value.imm & 0xffff) in [ 0x12e2, 0x12e7, 0x3160, 0x31d1, 0x31da, 0x3234, 0x3249 ]
+            return (instruction.operands[0].value.imm & 0xffff) in [ 0x12e2, 0x12e7, 0x3160, 0x31d1, 0x31da, 0x3204, 0x3234, 0x3249 ]
 
     def generate_links(self, instruction, block_pool, current_block, registers):
         if X86_REG_SI in registers:
@@ -726,7 +726,8 @@ class DS62_OverworldDestinationTableCodeHook(X86CodeHook):
 
 
 class DS62_PointerTableCodeHook(X86CodeHook):
-    def __init__(self, addr:int, table_addr:int, table_length:int, entry_size:int=0x2, next_addr:int|None=None, table_domain:str = "event"):
+    def __init__(self, addr:int, table_addr:int, table_length:int, entry_size:int=0x2, next_addr:int|None=None,
+                 table_domain:str = "event", entry_domain:str = "code"):
         super().__init__()
 
         self._addr = addr
@@ -735,6 +736,7 @@ class DS62_PointerTableCodeHook(X86CodeHook):
         self._entry_size = entry_size
         self._next_addr = next_addr
         self._table_domain = table_domain
+        self._entry_domain = entry_domain
 
     def should_handle(self, instruction):
         return instruction.address == self._addr
@@ -748,7 +750,7 @@ class DS62_PointerTableCodeHook(X86CodeHook):
             entry_addr = int.from_bytes(block_pool.read_data_from_domain(self._table_domain, entry_pointer_addr, 2), byteorder='little')
 
             link = Link(entry_pointer_addr, entry_addr)
-            link.connect_blocks(current_block, block_pool.get_block("code", entry_addr))
+            link.connect_blocks(current_block, block_pool.get_block(self._entry_domain, entry_addr))
 
 
 # Awkward push/pop code that inserts the text "however" before whatever the current text in SI is.
@@ -765,3 +767,13 @@ class DS62_PrefixedEvent1d74CodeHook(DS62_StandardEventCodeHook):
         # Hardcode the reference to the "however" text.
         however_text_link = Link(0x1d76, 0x70c)
         however_text_link.connect_blocks(current_block, block_pool.get_block("event", 0x70c))
+
+
+class DS62_SpellTomeSuffix2f24CodeHook(X86CodeHook):
+    def should_handle(self, instruction: CsInsn) -> bool:
+        return instruction.address == 0x2f24
+
+    def generate_links(self, instruction: CsInsn, block_pool: BlockPool, current_block: Block, registers) -> None:
+        addr = registers[X86_REG_SI]['value']
+        event_link = Link(registers[X86_REG_SI]['source_addr'], addr)
+        event_link.connect_blocks(current_block, block_pool.get_block("event", addr))
