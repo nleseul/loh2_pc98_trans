@@ -232,11 +232,16 @@ def make_program_data_patch(nasm_path:str) -> ips_util.Patch:
     patch.add_record(0x7fb0, b"Flora\x06")
     patch.add_record(0x7ff0, b"Cindy\x06")
 
-    add_table_to_patch(patch, TranslationCollection.load("yaml/Spells.yaml"), 8)
+    add_table_to_patch(patch, TranslationCollection.load("yaml/Spells.yaml"), 7) # Spells were originally 8 bytes, but we shorten to 7
     add_table_to_patch(patch, TranslationCollection.load("yaml/Items.yaml"), 14)
 
     patch_locations(patch, TranslationCollection.load("yaml/Locations.yaml"))
     patch_menus(patch, TranslationCollection.load("yaml/Menus.yaml"))
+
+    # Change the number of bytes copied when filling the item name buffer
+    # for spell tomes. (7 characters for spell name; 6 characters for suffix.)
+    patch.add_record(0x2f20, b"\xa4") # movsw -> movsb
+    patch.add_record(0x2f26, b"\xa5") # movsb -> movsw
 
     # Change the "fudge characters" (punctuation allowed to extend outside the text box)
     # that will be checked in the translated text.

@@ -705,8 +705,8 @@
         12066
       "target_addr": !!int |-
         3886
-    "translated": !!null |-
-      null
+    "translated": |2-
+       Tome<RET>
   !!int "5884": !RelocatableTranslatableEntry
     "original": |-
       <CLEAR><RET>
