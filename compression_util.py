@@ -138,19 +138,16 @@ def compress_bzh(input:typing.ByteString) -> typing.ByteString:
 
         best_length = 0
         best_start_offset = None
-        for duplicate_scan_start_offset in range(1, min(len(input_processed), 8192)):
-            candidate = input_processed[-duplicate_scan_start_offset:]
-            match_count = 0
-            for i, o in zip(candidate, input):
-                if match_count > 255 + 14:
-                    break
-                elif i == o:
-                    match_count += 1
+
+        if len(input) >= 2:
+            for length in range(2, min(255 + 14, len(input))):
+                start_index = max(0, len(input_processed) - 8192 + 1)
+                index = input_processed.rfind(input[:length], start_index)
+                if index > 0:
+                    best_start_offset = len(input_processed) - index
+                    best_length = length
                 else:
                     break
-            if match_count > best_length:
-                best_length = match_count
-                best_start_offset = duplicate_scan_start_offset
 
         repeat_count = 0
         for i in input:
@@ -178,6 +175,7 @@ def compress_bzh(input:typing.ByteString) -> typing.ByteString:
             input = input[repeat_count:]
 
         elif best_length >= 2:
+            assert(best_start_offset is not None)
             if best_start_offset >= 256:
                 flag_writer.write_flag(output, 1)
                 flag_writer.write_flag(output, 1)
