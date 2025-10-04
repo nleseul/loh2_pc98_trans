@@ -356,7 +356,9 @@ def make_opening_data_patch(nasm_path:str) -> ips_util.Patch:
     return patch
 
 
-def make_data_file_patch(yaml_path:str, code_base_addr:int, event_base_addr:int, code_offset_in_buffer:int = 0, event_offset_in_buffer:int = 0, max_size:int|None = None) -> ips_util.Patch:
+def make_data_file_patch(yaml_path:str, code_base_addr:int, event_base_addr:int,
+                         code_offset_in_buffer:int = 0, event_offset_in_buffer:int = 0, max_size:int|None = None,
+                         exclude_keys:typing.Container[int]=[]) -> ips_util.Patch:
     #base_name = os.path.splitext(os.path.basename(file_path))[0]
     #output_path = os.path.join("yaml/Combats", f"{base_name}.yaml")
 
@@ -383,12 +385,17 @@ def make_data_file_patch(yaml_path:str, code_base_addr:int, event_base_addr:int,
 
 
     for key, entry in trans.relocatables():
-            space_pool.add_space(key, key + entry.original_byte_length - 1)
-            #print(f"Adding {entry.original_byte_length} bytes at {key:04x}")
+        if key in exclude_keys:
+            continue
+        space_pool.add_space(key, key + entry.original_byte_length - 1)
+        #print(f"Adding {entry.original_byte_length} bytes at {key:04x}")
 
     #space_pool.dump()
 
     for key, entry in trans.relocatables():
+        if key in exclude_keys:
+            continue
+
         if isinstance(entry, TranslatableEntry):
             data, references, locators = encode_event_string(entry.text)
         else:
