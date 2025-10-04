@@ -264,7 +264,7 @@ class X86CodeHook:
     def should_handle(self, instruction:CsInsn) -> bool:
         raise NotImplementedError("Handle this in a subclass")
 
-    def get_next_ip(self, instruction:CsInsn) -> int:
+    def get_next_ip(self, instruction:CsInsn) -> int|None:
         if instruction.id == X86_INS_JMP or instruction.id == X86_INS_LJMP or X86_GRP_RET in instruction.groups:
             return None
         else:
@@ -281,7 +281,7 @@ class EmptyHook(X86CodeHook):
         self._next_ip = next_ip
         self._stop = stop
 
-    def get_next_ip(self, instruction):
+    def get_next_ip(self, instruction) -> int|None:
         if self._stop:
             return None
         elif self._next_ip is None:

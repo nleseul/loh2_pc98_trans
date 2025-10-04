@@ -138,13 +138,13 @@ def extract_program_events(program_data:typing.ByteString):
         EmptyHook(0x3183, True),             # Subroutine to print character names
         EmptyHook(0x4c53, False, stop=True), # Calls into scenario entry points
         EmptyHook(0x62e0, False),            # Calls into combat entry points
-        DS62_PointerTableCodeHook(0x1596, 0x159b, 5, table_domain="code"),
-        DS62_PointerTableCodeHook(0x2dc8, 0x226e, 32),
-        DS62_PointerTableCodeHook(0x2e89, 0x0f24, 5),
-        DS62_PointerTableCodeHook(0x4063, 0x1872, 10, entry_domain="event"),
-        DS62_PointerTableCodeHook(0x5268, 0x1a32, 8),
-        DS62_PointerTableCodeHook(0x5bb4, 0x2326, 7),
-        DS62_PointerTableCodeHook(0x5de3, 0x1b20, 6),
+        DS62_CodePointerTableCodeHook(0x1596, 0x159b, 5, table_domain="code"),
+        DS62_CodePointerTableCodeHook(0x2dc8, 0x226e, 32),
+        DS62_CodePointerTableCodeHook(0x2e89, 0x0f24, 5),
+        DS62_CodePointerTableCodeHook(0x5268, 0x1a32, 8),
+        DS62_CodePointerTableCodeHook(0x5bb4, 0x2326, 7),
+        DS62_CodePointerTableCodeHook(0x5de3, 0x1b20, 6),
+        DS62_EventPointerTableCodeHook(0x4063, 10),
         DS62_PrefixedEvent1d74CodeHook(),
         DS62_SpellTomeSuffix2f24CodeHook(),
 
@@ -155,6 +155,7 @@ def extract_program_events(program_data:typing.ByteString):
 
     block_pool = BlockPool()
     block_pool.register_domain("code", program_data[:0x7c00], 0, X86CodeBlock, {'hooks': code_hooks})
+    block_pool.register_domain("data", program_data[0x7c00:], 0, DataBlock)
     block_pool.register_domain("event", program_data[0x7c00:], 0, DS6EventBlock)
 
     explore(block_pool, code_entry_points)

@@ -698,7 +698,7 @@ class DS62_OverworldDestinationTableCodeHook(X86CodeHook):
     def should_handle(self, instruction:CsInsn) -> bool:
         return instruction.address == self._addr
 
-    def get_next_ip(self, instruction:CsInsn) -> int:
+    def get_next_ip(self, instruction:CsInsn) -> int|None:
         return self._next_addr
 
     def generate_links(self, instruction:CsInsn, block_pool:BlockPool, current_block:Block, registers) -> None:
@@ -725,9 +725,9 @@ class DS62_OverworldDestinationTableCodeHook(X86CodeHook):
             addr += self._entry_size
 
 
-class DS62_PointerTableCodeHook(X86CodeHook):
+class DS62_CodePointerTableCodeHook(X86CodeHook):
     def __init__(self, addr:int, table_addr:int, table_length:int, entry_size:int=0x2, next_addr:int|None=None,
-                 table_domain:str = "event", entry_domain:str = "code"):
+                 table_domain:str = "event"):
         super().__init__()
 
         self._addr = addr
@@ -736,12 +736,11 @@ class DS62_PointerTableCodeHook(X86CodeHook):
         self._entry_size = entry_size
         self._next_addr = next_addr
         self._table_domain = table_domain
-        self._entry_domain = entry_domain
 
     def should_handle(self, instruction):
         return instruction.address == self._addr
 
-    def get_next_ip(self, instruction:CsInsn) -> int:
+    def get_next_ip(self, instruction:CsInsn) -> int|None:
         return None
 
     def generate_links(self, instruction, block_pool, current_block, registers):
@@ -750,7 +749,41 @@ class DS62_PointerTableCodeHook(X86CodeHook):
             entry_addr = int.from_bytes(block_pool.read_data_from_domain(self._table_domain, entry_pointer_addr, 2), byteorder='little')
 
             link = Link(entry_pointer_addr, entry_addr)
-            link.connect_blocks(current_block, block_pool.get_block(self._entry_domain, entry_addr))
+            link.connect_blocks(current_block, block_pool.get_block("code", entry_addr))
+
+
+class DS62_EventPointerTableCodeHook(X86CodeHook):
+    def __init__(self, addr:int, table_length:int, table_addr_offset:int = 2, entry_size:int=0x2, next_addr:int|None=None):
+        super().__init__()
+
+        self._addr = addr
+        self._table_addr_offset = table_addr_offset
+        self._table_length = table_length
+        self._entry_size = entry_size
+        self._next_addr = next_addr
+
+    def should_handle(self, instruction):
+        return instruction.address == self._addr
+
+    def get_next_ip(self, instruction:CsInsn) -> int|None:
+        return None
+
+    def generate_links(self, instruction, block_pool, current_block, registers):
+        table_addr = int.from_bytes(block_pool.read_data_from_domain("code", instruction.address + self._table_addr_offset, 2), byteorder='little')
+
+        table_block = block_pool.get_block("data", table_addr)
+        assert(isinstance(table_block, DataBlock))
+        table_block.set_length(self._table_length * self._entry_size)
+
+        link_to_table = Link(instruction.address + self._table_addr_offset, table_addr, instruction.address)
+        link_to_table.connect_blocks(current_block, block_pool.get_block("data", table_addr))
+
+        for table_index in range(self._table_length):
+            entry_pointer_addr = table_addr + self._entry_size * table_index
+            entry_addr = int.from_bytes(block_pool.read_data_from_domain("data", entry_pointer_addr, 2), byteorder='little')
+
+            link = Link(entry_pointer_addr, entry_addr)
+            link.connect_blocks(table_block, block_pool.get_block("event", entry_addr))
 
 
 # Awkward push/pop code that inserts the text "however" before whatever the current text in SI is.
@@ -758,7 +791,7 @@ class DS62_PrefixedEvent1d74CodeHook(DS62_StandardEventCodeHook):
     def should_handle(self, instruction):
         return instruction.address == 0x1d74
 
-    def get_next_ip(self, instruction:CsInsn) -> int:
+    def get_next_ip(self, instruction:CsInsn) -> int|None:
         return 0x1d7f
 
     def generate_links(self, instruction, block_pool, current_block, registers):
