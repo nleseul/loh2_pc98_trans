@@ -440,7 +440,7 @@ def extract_program_menus(prog_data_code:typing.ByteString) -> TranslationCollec
 
     prog_data_data = prog_data_code[0x7c00:]
 
-    menu_addr_list = [ 0x88c, 0xc1e, 0x1b2c, 0x1be1, 0x1c90, 0x1d5d, 0x2334 ]
+    menu_addr_list = [ 0x88c, 0xa12, 0xc1e, 0x1b2c, 0x1be1, 0x1c90, 0x1d5d, 0x2334 ]
 
     toggle_list = [
         (0x1c34, 2),

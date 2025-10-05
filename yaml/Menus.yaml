@@ -21,6 +21,22 @@
       204
     "window_width": !!int |-
       20
+  !!int "2578": !FixedTranslatableWindowEntry
+    "forced_line_count": !!null |-
+      null
+    "line_count": !!int |-
+      2
+    "max_byte_length": !!int |-
+      20
+    "original": |2-
+       買いたい
+       売りたい
+    "translated": !!null |-
+      null
+    "window_position": !!int |-
+      133
+    "window_width": !!int |-
+      10
   !!int "3102": !FixedTranslatableWindowEntry
     "forced_line_count": !!null |-
       null
