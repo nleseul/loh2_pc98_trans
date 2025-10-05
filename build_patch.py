@@ -356,6 +356,37 @@ def make_opening_data_patch(nasm_path:str) -> ips_util.Patch:
     return patch
 
 
+def make_utility_patch() -> ips_util.Patch|None:
+    utility_trans = TranslationCollection.load("yaml/Utility.yaml")
+    if utility_trans.empty:
+        return None
+
+    patch = ips_util.Patch()
+
+    MENU_ITEM_REFS = {
+        0x2b52: [ 0x0dfa, 0x0dfd, 0x0df0, 0x0df4, None, 0x0dd1],
+    }
+
+    for key, entry in utility_trans.translatables():
+        base_addr = key + 0x4 if isinstance(entry, FixedTranslatableWindowEntry) else key
+
+        items = entry.text.splitlines()
+        refs = MENU_ITEM_REFS[key] if key in MENU_ITEM_REFS else None
+        encoded = b''
+
+        for item_index, item in enumerate(items):
+            if refs is not None and item_index < len(refs) and refs[item_index] is not None:
+                patch.add_record(refs[item_index], (base_addr + len(encoded) + 1).to_bytes(2, byteorder='little'))
+            encoded += item.encode('cp932') + b'\0'
+
+        if len(encoded) > entry.max_byte_length:
+            raise Exception(f"Menu string at {key:04x} cannot be encoded in {entry.max_byte_length} bytes (currently {len(encoded)})")
+
+        patch.add_record(base_addr, encoded)
+
+    return patch
+
+
 def make_data_file_patch(yaml_path:str, code_base_addr:int, event_base_addr:int,
                          code_offset_in_buffer:int = 0, event_offset_in_buffer:int = 0, max_size:int|None = None,
                          exclude_keys:typing.Container[int]=[]) -> ips_util.Patch:
@@ -511,6 +542,8 @@ def main() -> None:
                 patch = make_program_data_patch(config["NasmPath"])
             elif modified_path.endswith("OPENING.BZH.bin"):
                 patch = make_opening_data_patch(config["NasmPath"])
+            elif modified_path.endswith("UTY.BZH.bin"):
+                patch = make_utility_patch()
             elif modified_path.startswith("local/modified/MON/"):
                 base_name = os.path.splitext(os.path.basename(file_path))[0]
                 yaml_path = os.path.join("yaml/Combats", f"{base_name}.yaml")

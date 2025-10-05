@@ -31,8 +31,9 @@
     "original": |2-
        買いたい
        売りたい
-    "translated": !!null |-
-      null
+    "translated": |2-
+       Buy
+       Sell
     "window_position": !!int |-
       133
     "window_width": !!int |-

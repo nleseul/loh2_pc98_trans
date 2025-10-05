@@ -90,8 +90,9 @@
       182
     "original": "\x1F     冒 険 の 続 き を す る\n\x1F    は じ め か ら 冒 険 す る\n\x1F プログラムディスクのバックアップ\n\
       \x1F    ユーザーディスク の 作 成\n\x1F      動 作 環 境 の 設 定\n\x1F        ＤＯＳ に 戻 る\x1F"
-    "translated": !!null |-
-      null
+    "translated": "\x1F      Continue an adventure\n\x1F      Begin a new adventure\n\
+      \x1F     Back up the Program Disk\n\x1F        Create a User Disk\n\x1F    \
+      \   System configuration\n\x1F          Return to DOS"
     "window_position": !!int |-
       151
     "window_width": !!int |-
