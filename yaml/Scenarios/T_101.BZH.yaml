@@ -113,8 +113,33 @@
         54838
       "target_addr": !!int |-
         24157
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Old man<C_NONE>
+      There used to be a place called
+      the Bloody Cave east of here.
+
+      There were some awful monsters
+      living there, and it got to the
+      point that people were sacrificingkids to 'em.
+
+      <IF0068><JUMP607f>But then one day, four young
+      people came and got rid of those
+      horrible monsters.
+
+      And then, not long after that,
+      King Selios of Farleyn and his
+      companions saved the world.
+
+      That's when we finally realized.
+      Those four had been the very same
+      heroes, including King Selios
+      himself.
+
+      People in town here felt uneasy
+      leaving the Bloody Cave there, so
+      they buried it in a hurry.<END>
+      <LOC607f>I hope it doesn't come to that
+      this time...
   !!int "24753": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -131,8 +156,13 @@
         54853
       "target_addr": !!int |-
         24753
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Man<C_NONE>
+      <IF0068><JUMP611d>All the weapon merchant sells is
+      antiques. He doesn't get many
+      customers, so he's struggling.<END>
+      <LOC611d>この町の武器屋はしばらく休業すると言っているけど 何か新しい物でも
+      売り始める気なんだろうか？
   !!int "24954": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -217,8 +247,10 @@
         54884
       "target_addr": !!int |-
         25730
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Weapon merchant<C_NONE>
+      Welcome! All I've got is some
+      old weapons, though.<RET_N>
   !!int "25778": !RelocatableTranslatableEntry
     "original": |-
       またどうぞ。
@@ -230,8 +262,8 @@
         54896
       "target_addr": !!int |-
         25778
-    "translated": !!null |-
-      null
+    "translated": |-
+      Come again!
   !!int "25791": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>武器屋<C_NONE>
@@ -264,8 +296,9 @@
         54908
       "target_addr": !!int |-
         25933
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Tool merchant<C_NONE>
+      Welcome! What can I do for you?<RET_N>
   !!int "25989": !RelocatableTranslatableEntry
     "original": |-
       また来てくださいね。
@@ -277,8 +310,8 @@
         54935
       "target_addr": !!int |-
         25989
-    "translated": !!null |-
-      null
+    "translated": |-
+      Please come again!
   !!int "26010": !RelocatableTranslatableEntry
     "original": |-
       おや？これ以上持てないようですね。
@@ -292,8 +325,10 @@
         26298
       "target_addr": !!int |-
         26010
-    "translated": !!null |-
-      null
+    "translated": |-
+      You don't have any room for it.
+
+      <RET>
   !!int "26046": !RelocatableTranslatableEntry
     "original": |-
       どれを買ってくれますか？
@@ -306,8 +341,9 @@
         26300
       "target_addr": !!int |-
         26046
-    "translated": !!null |-
-      null
+    "translated": |-
+      What would you like to buy?
+      <RET_N>
   !!int "26072": !RelocatableTranslatableEntry
     "original": |-
       <ITEM>だね。
@@ -322,8 +358,11 @@
         26302
       "target_addr": !!int |-
         26072
-    "translated": !!null |-
-      null
+    "translated": |-
+      The <ITEM>?
+      Thank you very much!
+
+      <RET>
   !!int "26109": !RelocatableTranslatableEntry
     "original": |-
       どれを 売ってくれますか？
@@ -336,8 +375,9 @@
         26101
       "target_addr": !!int |-
         26109
-    "translated": !!null |-
-      null
+    "translated": |-
+      What would you like to sell?
+      <RET_N>
   !!int "26136": !RelocatableTranslatableEntry
     "original": |2-
        Gold になるけど
@@ -351,8 +391,10 @@
         26103
       "target_addr": !!int |-
         26136
-    "translated": !!null |-
-      null
+    "translated": |2-
+       gold.
+      Will that be okay?
+      <RET_N>
   !!int "26180": !RelocatableTranslatableEntry
     "original": |-
       それは残念です。
@@ -366,8 +408,10 @@
         26105
       "target_addr": !!int |-
         26180
-    "translated": !!null |-
-      null
+    "translated": |-
+      That's too bad.
+
+      <RET_N>
   !!int "26198": !RelocatableTranslatableEntry
     "original": |-
       どうも ありがとうございます。
@@ -380,7 +424,8 @@
         26107
       "target_addr": !!int |-
         26198
-    "translated": !!null |-
-      null
+    "translated": |-
+      Thank you very much.
+      <RET_N>
 "_note": |-
   Rondo - Prologue (later)
