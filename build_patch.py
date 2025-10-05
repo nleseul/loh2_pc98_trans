@@ -232,11 +232,16 @@ def make_program_data_patch(nasm_path:str) -> ips_util.Patch:
     patch.add_record(0x7fb0, b"Flora\x06")
     patch.add_record(0x7ff0, b"Cindy\x06")
 
-    add_table_to_patch(patch, TranslationCollection.load("yaml/Spells.yaml"), 8)
+    add_table_to_patch(patch, TranslationCollection.load("yaml/Spells.yaml"), 7) # Spells were originally 8 bytes, but we shorten to 7
     add_table_to_patch(patch, TranslationCollection.load("yaml/Items.yaml"), 14)
 
     patch_locations(patch, TranslationCollection.load("yaml/Locations.yaml"))
     patch_menus(patch, TranslationCollection.load("yaml/Menus.yaml"))
+
+    # Change the number of bytes copied when filling the item name buffer
+    # for spell tomes. (7 characters for spell name; 6 characters for suffix.)
+    patch.add_record(0x2f20, b"\xa4") # movsw -> movsb
+    patch.add_record(0x2f26, b"\xa5") # movsb -> movsw
 
     # Change the "fudge characters" (punctuation allowed to extend outside the text box)
     # that will be checked in the translated text.
@@ -351,7 +356,40 @@ def make_opening_data_patch(nasm_path:str) -> ips_util.Patch:
     return patch
 
 
-def make_data_file_patch(yaml_path:str, code_base_addr:int, event_base_addr:int, code_offset_in_buffer:int = 0, event_offset_in_buffer:int = 0, max_size:int|None = None) -> ips_util.Patch:
+def make_utility_patch() -> ips_util.Patch|None:
+    utility_trans = TranslationCollection.load("yaml/Utility.yaml")
+    if utility_trans.empty:
+        return None
+
+    patch = ips_util.Patch()
+
+    MENU_ITEM_REFS = {
+        0x2b52: [ 0x0dfa, 0x0dfd, 0x0df0, 0x0df4, None, 0x0dd1],
+    }
+
+    for key, entry in utility_trans.translatables():
+        base_addr = key + 0x4 if isinstance(entry, FixedTranslatableWindowEntry) else key
+
+        items = entry.text.splitlines()
+        refs = MENU_ITEM_REFS[key] if key in MENU_ITEM_REFS else None
+        encoded = b''
+
+        for item_index, item in enumerate(items):
+            if refs is not None and item_index < len(refs) and refs[item_index] is not None:
+                patch.add_record(refs[item_index], (base_addr + len(encoded) + 1).to_bytes(2, byteorder='little'))
+            encoded += item.encode('cp932') + b'\0'
+
+        if len(encoded) > entry.max_byte_length:
+            raise Exception(f"Menu string at {key:04x} cannot be encoded in {entry.max_byte_length} bytes (currently {len(encoded)})")
+
+        patch.add_record(base_addr, encoded)
+
+    return patch
+
+
+def make_data_file_patch(yaml_path:str, code_base_addr:int, event_base_addr:int,
+                         code_offset_in_buffer:int = 0, event_offset_in_buffer:int = 0, max_size:int|None = None,
+                         exclude_keys:typing.Container[int]=[]) -> ips_util.Patch:
     #base_name = os.path.splitext(os.path.basename(file_path))[0]
     #output_path = os.path.join("yaml/Combats", f"{base_name}.yaml")
 
@@ -378,12 +416,17 @@ def make_data_file_patch(yaml_path:str, code_base_addr:int, event_base_addr:int,
 
 
     for key, entry in trans.relocatables():
-            space_pool.add_space(key, key + entry.original_byte_length - 1)
-            #print(f"Adding {entry.original_byte_length} bytes at {key:04x}")
+        if key in exclude_keys:
+            continue
+        space_pool.add_space(key, key + entry.original_byte_length - 1)
+        #print(f"Adding {entry.original_byte_length} bytes at {key:04x}")
 
     #space_pool.dump()
 
     for key, entry in trans.relocatables():
+        if key in exclude_keys:
+            continue
+
         if isinstance(entry, TranslatableEntry):
             data, references, locators = encode_event_string(entry.text)
         else:
@@ -499,14 +542,18 @@ def main() -> None:
                 patch = make_program_data_patch(config["NasmPath"])
             elif modified_path.endswith("OPENING.BZH.bin"):
                 patch = make_opening_data_patch(config["NasmPath"])
+            elif modified_path.endswith("UTY.BZH.bin"):
+                patch = make_utility_patch()
             elif modified_path.startswith("local/modified/MON/"):
                 base_name = os.path.splitext(os.path.basename(file_path))[0]
                 yaml_path = os.path.join("yaml/Combats", f"{base_name}.yaml")
-                patch = make_data_file_patch(yaml_path, 0xed40, 0x7140)
+                patch = make_data_file_patch(yaml_path, DS62_COMBAT_CODE_START, DS62_COMBAT_DATA_START,
+                                             max_size=DS62_COMBAT_DATA_MAX - DS62_COMBAT_DATA_START + 1)
             elif modified_path.startswith("local/modified/SCENA/"):
                 base_name = os.path.splitext(os.path.basename(file_path))[0]
                 yaml_path = os.path.join("yaml/Scenarios", f"{base_name}.yaml")
-                patch = make_data_file_patch(yaml_path, 0xd53e, 0x593e, max_size=0x7140-0x593e)
+                patch = make_data_file_patch(yaml_path, DS62_SCENARIO_CODE_START, DS62_SCENARIO_DATA_START,
+                                             max_size=DS62_SCENARIO_DATA_MAX - DS62_SCENARIO_DATA_START + 1)
 
             if patch is not None:
                 patched_data = patch.apply(file_data)

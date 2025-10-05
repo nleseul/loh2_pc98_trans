@@ -123,7 +123,7 @@
       Prince Atlas... right?
 
       Welcome to Selis Castle!
-      His Majesty is through here.
+      His Majesty is through there.
   !!int "24272": !RelocatableTranslatableEntry
     "original": |-
       <SET0405><ASMd740><C_YELLOW>兵士<C_NONE>
@@ -312,8 +312,7 @@
       time before they breach the castle.
 
       <C_YELLOW>Aerion<C_NONE>
-      Then the townspeople are in danger!
-      What about Sonia?
+      Then the townspeople are in danger!What about Sonia?
 
       <C_YELLOW>Soldier<C_NONE>
       Her Majesty has already led the

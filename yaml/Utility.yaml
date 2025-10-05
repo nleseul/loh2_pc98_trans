@@ -1,0 +1,377 @@
+!TranslationCollection
+"_end_of_file_addr": !!null |-
+  null
+"_entries":
+  !!int "10010": !FixedTranslatableWindowEntry
+    "forced_line_count": !!null |-
+      null
+    "line_count": !!int |-
+      4
+    "max_byte_length": !!int |-
+      66
+    "original": " 表  示  装  置\n サウンドボード\n\x1F キ ャ ッ シ ュ\n\x1F  設定のセーブ "
+    "translated": !!null |-
+      null
+    "window_position": !!int |-
+      25
+    "window_width": !!int |-
+      16
+  !!int "10080": !FixedTranslatableWindowEntry
+    "forced_line_count": !!null |-
+      null
+    "line_count": !!int |-
+      2
+    "max_byte_length": !!int |-
+      51
+    "original": |2-
+       設定をセーブしました。
+       【SPACE】を押して下さい。
+    "translated": !!null |-
+      null
+    "window_position": !!int |-
+      156
+    "window_width": !!int |-
+      27
+  !!int "10135": !FixedTranslatableWindowEntry
+    "forced_line_count": !!null |-
+      null
+    "line_count": !!int |-
+      2
+    "max_byte_length": !!int |-
+      61
+    "original": |2-
+       セーブ中にエラーが発生しました。
+       【SPACE】を押して下さい。
+    "translated": !!null |-
+      null
+    "window_position": !!int |-
+      156
+    "window_width": !!int |-
+      34
+  !!int "10200": !FixedTranslatableWindowEntry
+    "forced_line_count": !!null |-
+      null
+    "line_count": !!int |-
+      2
+    "max_byte_length": !!int |-
+      32
+    "original": |2-
+       アナログＲＧＢ
+       液晶８階調表示
+    "translated": !!null |-
+      null
+    "window_position": !!int |-
+      92
+    "window_width": !!int |-
+      16
+  !!int "10840": !FixedTranslatableWindowEntry
+    "forced_line_count": !!null |-
+      null
+    "line_count": !!int |-
+      3
+    "max_byte_length": !!int |-
+      86
+    "original": |2-
+       ドライブ A: でエラーが発生しました。
+       ディスクを確認してください。
+       よろしいですか？
+    "translated": !!null |-
+      null
+    "window_position": !!int |-
+      130
+    "window_width": !!int |-
+      38
+  !!int "11090": !FixedTranslatableWindowEntry
+    "forced_line_count": !!null |-
+      null
+    "line_count": !!int |-
+      6
+    "max_byte_length": !!int |-
+      182
+    "original": "\x1F     冒 険 の 続 き を す る\n\x1F    は じ め か ら 冒 険 す る\n\x1F プログラムディスクのバックアップ\n\
+      \x1F    ユーザーディスク の 作 成\n\x1F      動 作 環 境 の 設 定\n\x1F        ＤＯＳ に 戻 る\x1F"
+    "translated": "\x1F      Continue an adventure\n\x1F      Begin a new adventure\n\
+      \x1F     Back up the Program Disk\n\x1F        Create a User Disk\n\x1F    \
+      \   System configuration\n\x1F          Return to DOS"
+    "window_position": !!int |-
+      151
+    "window_width": !!int |-
+      34
+  !!int "11277": !FixedTranslatableWindowEntry
+    "forced_line_count": !!null |-
+      null
+    "line_count": !!int |-
+      3
+    "max_byte_length": !!int |-
+      38
+    "original": |2-
+          ビープ
+        PC-9801-26K
+        PC-9801-73
+    "translated": !!null |-
+      null
+    "window_position": !!int |-
+      220
+    "window_width": !!int |-
+      16
+  !!int "11320": !FixedTranslatableWindowEntry
+    "forced_line_count": !!null |-
+      null
+    "line_count": !!int |-
+      3
+    "max_byte_length": !!int |-
+      93
+    "original": |2-
+       I･Oﾊﾞﾝｸ方式 増設RAM　自動判別
+       ＮＥＣ純正 ＥＭＳ  　自動判別
+       プロテクトメモリ   　自動判別
+    "translated": !!null |-
+      null
+    "window_position": !!int |-
+      92
+    "window_width": !!int |-
+      31
+  !!int "11632": !FixedTranslatableWindowEntry
+    "forced_line_count": !!null |-
+      null
+    "line_count": !!int |-
+      3
+    "max_byte_length": !!int |-
+      112
+    "original": |-
+      ドライブ A: にマスタープログラムディスクを
+      ドライブ B: に新しいディスクをセットして
+      【SPACE】を押してください。
+    "translated": !!null |-
+      null
+    "window_position": !!int |-
+      143
+    "window_width": !!int |-
+      50
+  !!int "11748": !FixedTranslatableWindowEntry
+    "forced_line_count": !!null |-
+      null
+    "line_count": !!int |-
+      3
+    "max_byte_length": !!int |-
+      82
+    "original": |
+      ドライブ A: にマスタープログラムディスクを
+      セットして【SPACE】を押してください。
+    "translated": !!null |-
+      null
+    "window_position": !!int |-
+      143
+    "window_width": !!int |-
+      50
+  !!int "11834": !FixedTranslatableWindowEntry
+    "forced_line_count": !!null |-
+      null
+    "line_count": !!int |-
+      3
+    "max_byte_length": !!int |-
+      70
+    "original": |
+      ドライブ A: に新しいディスクを
+      セットして【SPACE】を押してください。
+    "translated": !!null |-
+      null
+    "window_position": !!int |-
+      143
+    "window_width": !!int |-
+      50
+  !!int "11908": !FixedTranslatableWindowEntry
+    "forced_line_count": !!null |-
+      null
+    "line_count": !!int |-
+      3
+    "max_byte_length": !!int |-
+      91
+    "original": |-
+      ドライブ A: で読み込みエラーが発生しました。
+      ディスクを確認してください。
+      よろしいですか？
+    "translated": !!null |-
+      null
+    "window_position": !!int |-
+      143
+    "window_width": !!int |-
+      50
+  !!int "12003": !FixedTranslatableWindowEntry
+    "forced_line_count": !!null |-
+      null
+    "line_count": !!int |-
+      3
+    "max_byte_length": !!int |-
+      91
+    "original": |-
+      ドライブ B: で書き込みエラーが発生しました。
+      ディスクを確認してください。
+      よろしいですか？
+    "translated": !!null |-
+      null
+    "window_position": !!int |-
+      143
+    "window_width": !!int |-
+      50
+  !!int "12098": !FixedTranslatableWindowEntry
+    "forced_line_count": !!null |-
+      null
+    "line_count": !!int |-
+      3
+    "max_byte_length": !!int |-
+      25
+    "original": |+
+      コピーが終了しました。
+
+    "translated": !!null |-
+      null
+    "window_position": !!int |-
+      143
+    "window_width": !!int |-
+      50
+  !!int "12127": !FixedTranslatableWindowEntry
+    "forced_line_count": !!null |-
+      null
+    "line_count": !!int |-
+      3
+    "max_byte_length": !!int |-
+      96
+    "original": |-
+      コピーが終了しました。
+      ドライブ A: にプログラムディスクをセットして
+      【SPACE】を押してください。
+    "translated": !!null |-
+      null
+    "window_position": !!int |-
+      143
+    "window_width": !!int |-
+      50
+  !!int "12227": !FixedTranslatableWindowEntry
+    "forced_line_count": !!null |-
+      null
+    "line_count": !!int |-
+      3
+    "max_byte_length": !!int |-
+      35
+    "original": |+
+      ドライブ A: から読み込み中です。
+
+    "translated": !!null |-
+      null
+    "window_position": !!int |-
+      143
+    "window_width": !!int |-
+      50
+  !!int "12266": !FixedTranslatableWindowEntry
+    "forced_line_count": !!null |-
+      null
+    "line_count": !!int |-
+      3
+    "max_byte_length": !!int |-
+      33
+    "original": |+
+      ドライブ A: に書き込み中です。
+
+    "translated": !!null |-
+      null
+    "window_position": !!int |-
+      143
+    "window_width": !!int |-
+      50
+  !!int "12328": !FixedTranslatableWindowEntry
+    "forced_line_count": !!null |-
+      null
+    "line_count": !!int |-
+      2
+    "max_byte_length": !!int |-
+      69
+    "original": |-
+      ドライブ B: に新しいディスクをセットして
+      【SPACE】を押してください。
+    "translated": !!null |-
+      null
+    "window_position": !!int |-
+      15
+    "window_width": !!int |-
+      50
+  !!int "12402": !FixedTranslatableWindowEntry
+    "forced_line_count": !!null |-
+      null
+    "line_count": !!int |-
+      2
+    "max_byte_length": !!int |-
+      90
+    "original": |-
+      ドライブ B: で書き込みエラーが発生しました。
+      ディスクを確認してください。よろしいですか？
+    "translated": !!null |-
+      null
+    "window_position": !!int |-
+      15
+    "window_width": !!int |-
+      50
+  !!int "12496": !FixedTranslatableWindowEntry
+    "forced_line_count": !!null |-
+      null
+    "line_count": !!int |-
+      2
+    "max_byte_length": !!int |-
+      61
+    "original": |-
+      ユーザーディスクを作成しました。
+      【SPACE】を押してください。
+    "translated": !!null |-
+      null
+    "window_position": !!int |-
+      15
+    "window_width": !!int |-
+      50
+  !!int "12562": !FixedTranslatableWindowEntry
+    "forced_line_count": !!null |-
+      null
+    "line_count": !!int |-
+      2
+    "max_byte_length": !!int |-
+      88
+    "original": |-
+      ユーザーディスクを作成しました。ドライブ A: に
+      プログラムディスクをセットしてください。
+    "translated": !!null |-
+      null
+    "window_position": !!int |-
+      15
+    "window_width": !!int |-
+      50
+  !!int "12654": !FixedTranslatableWindowEntry
+    "forced_line_count": !!null |-
+      null
+    "line_count": !!int |-
+      2
+    "max_byte_length": !!int |-
+      60
+    "original": |-
+      ユーザーディスクを作成しています。
+      しばらくお待ちください。
+    "translated": !!null |-
+      null
+    "window_position": !!int |-
+      15
+    "window_width": !!int |-
+      50
+  !!int "12719": !FixedTranslatableWindowEntry
+    "forced_line_count": !!null |-
+      null
+    "line_count": !!int |-
+      2
+    "max_byte_length": !!int |-
+      36
+    "original": |
+      ユーザーディスクを作成しています。
+    "translated": !!null |-
+      null
+    "window_position": !!int |-
+      15
+    "window_width": !!int |-
+      50
+"_note": ""

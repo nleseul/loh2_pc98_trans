@@ -56,15 +56,13 @@
       Have you registered for travel to
       Lanoura yet?
 
-      <LOC5b76>Anyone entering or leaving Lanoura
-      for the first time needs to
+      <LOC5b76>Anyone entering or leaving Lanourafor the first time needs to
       register in advance in their home
       country.
 
       Citizens of Farleyn and Wonliech
       are processed in Riezel Castle.
-      We'll be notified here immediately,
-      so go and register first.
+      We'll be notified here immediately,so go and register first.
   !!int "23632": !RelocatableTranslatableEntry
     "original": |-
       <CALL619b>ボアード海運の ボアードは
@@ -83,12 +81,11 @@
         23632
     "translated": |-
       <CALL619b>I've heard rumors that Buald, of
-      Buald Shipping, used to be a
+      Buald Transport, used to be a
       pirate.
 
       And it does seem like the pirates
-      have disappeared since the company
-      was established. Still, I really
+      have disappeared since the companywas established. Still, I really
       can't believe it.
   !!int "23779": !RelocatableTranslatableEntry
     "original": |-
@@ -121,8 +118,7 @@
       Supposedly that led to young
       people being sold as slaves.
 
-      But now that they have a new king,
-      everyone entering and leaving
+      But now that they have a new king,everyone entering and leaving
       Lanoura is registered, to prevent
       anything like that from happening.
 
@@ -220,10 +216,8 @@
       I'm very sorry. But I really can't.
 
       <CALL61a2>I see... That's too bad.
-      Well, if you ever change your mind,
-      please come back and see me.<END>
-      <LOC6097>Have you reconsidered selling your
-      Holy equipment to me?<JUMP601c>
+      Well, if you ever change your mind,please come back and see me.<END>
+      <LOC6097>Have you reconsidered selling yourHoly equipment to me?<JUMP601c>
   !!int "24778": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>女<C_NONE>

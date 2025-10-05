@@ -72,8 +72,8 @@
       I'm from Farleyn. My name's Pri-
       <C_YELLOW>Soldier<C_NONE>
       That's enough!! I said no!<END>
-      <LOC5e65><UNSET0406><SET0061>I have explained matters to the
-      guards. They will admit you now.
+      <LOC5e65><UNSET0406><SET0061>I have spoken to the guards, and
+      they will admit you now.
 
       <CH0>
       Thanks for everything.
@@ -85,13 +85,12 @@
       my way.<END>
       <LOC5f2f><UNSET0407>Oh, I nearly forgot.
 
-      <ASMd7c5><Xf7>The master asked me to convey
+      <ASMd7c5><Xf7>Master Gerald asked me to convey
       a message to you.
 
-      He requested that I tell you,<WAIT>
       <C_RED>"Never come near my darling Flora
-      ever again!!"
-      <C_NONE>
+      ever again!!" <C_NONE>was the master's
+      message.
   !!int "24506": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -123,8 +122,7 @@
     "translated": |-
       <C_YELLOW>Soldier<C_NONE>
       <IF0061><JUMP6033><IF0405><JUMP601a>What's your business here?
-      They're not processing exit papers
-      right now, due to Dragonsfete.<JUMP6220><LOC601a>There's no point in asking over
+      They're not processing exit papersright now, due to Dragonsfete.<JUMP6220><LOC601a>There's no point in asking over
       and over.<END>
       <LOC6033>I apologize for the
       misunderstanding.
@@ -334,8 +332,7 @@
     "translated": |-
       <C_YELLOW>Gary<C_NONE>
       I thought they was gonna cancel
-      Dragonsfete after that earthquake.
-      Shows how much I know, huh?
+      Dragonsfete after that earthquake.Shows how much I know, huh?
 
       Ahh, I'm ready to enjoy m'self!
   !!int "26050": !RelocatableTranslatableEntry

@@ -84,36 +84,36 @@
       8
     "original": |-
       ストール
-    "translated": !!null |-
-      null
+    "translated": |-
+      Stor
   !!int "39756": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       8
     "original": |-
       ブラムナ
-    "translated": !!null |-
-      null
+    "translated": |-
+      Blamna
   !!int "39768": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       8
     "original": |-
       ヒュドナ
-    "translated": !!null |-
-      null
+    "translated": |-
+      Hudara
   !!int "39780": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       8
     "original": |-
       ＭＧ１４
-    "translated": !!null |-
-      null
+    "translated": |-
+      MG14
   !!int "39792": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       8
     "original": |-
       ＭＧ１５
-    "translated": !!null |-
-      null
+    "translated": |-
+      MG15
   !!int "39804": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       8
@@ -154,15 +154,15 @@
       8
     "original": |-
       エント
-    "translated": !!null |-
-      null
+    "translated": |-
+      Ent
   !!int "39876": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       8
     "original": |-
       ＭＧ２２
-    "translated": !!null |-
-      null
+    "translated": |-
+      MG22
   !!int "39888": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       8
@@ -189,8 +189,8 @@
       8
     "original": |-
       レストナ
-    "translated": !!null |-
-      null
+    "translated": |-
+      Restona
   !!int "39936": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       8
@@ -203,8 +203,8 @@
       8
     "original": |-
       ワプ
-    "translated": !!null |-
-      null
+    "translated": |-
+      Warp
   !!int "39960": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       8
@@ -224,6 +224,6 @@
       8
     "original": |-
       ビス
-    "translated": !!null |-
-      null
+    "translated": |-
+      Bis
 "_note": ""

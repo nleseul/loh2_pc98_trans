@@ -60,15 +60,21 @@ class TextRenderer:
         return len(self._pages) + (1 if len(self._current_page_text) > 0 else 0)
 
     def add_text(self, text:str) -> None:
-        for ch in text:
-            if self._line_char_count > self._width or self._line_char_count == self._width and ch not in self._fudge_characters:
-                self.add_newline()
-
+        for ch_index, ch in enumerate(text):
             if ch == " ":
                 self._current_page_text += "&nbsp;"
             else:
                 self._current_page_text += ch
             self._line_char_count += len(ch.encode('cp932'))
+
+            if self._line_char_count < self._width:
+                pass
+            elif self._line_char_count > self._width:
+                self.add_newline()
+            elif ch_index < len(text) - 1 and text[ch_index+1] in self._fudge_characters:
+                pass
+            else:
+                self.add_newline()
 
     def add_debug_text(self, text) -> None:
         self._current_page_text += text
@@ -97,6 +103,7 @@ class TextRenderer:
         if self._has_active_style:
             self.cancel_text_style()
         self._current_page_text += f"<span class=\"{style}\">"
+        self._has_active_style = True
 
     def cancel_text_style(self) -> None:
         self._current_page_text += f"</span>"
@@ -126,9 +133,10 @@ def make_condition_description(code:int, data:bytes) -> str | None:
         return f"asmCheck({loc:04x},{arg:02x})"
 
 
-def render_text_html(trans:TranslationCollection, entry_point_key:int, max_pages:int|None = None, translated:bool = True, active_conditions:list[str] = []) -> tuple[list[str], list[str]]:
+def render_text_html(trans:TranslationCollection, entry_point_key:int, max_pages:int|None = None, translated:bool = True,
+                     active_conditions:list[str] = [], window_width:int = 34, window_height:int = 4) -> tuple[list[str], list[str]]:
     fudge_characters = [".", ",", "!"] if translated else ["。", "!"]
-    renderer = TextRenderer(34, 4, fudge_characters)
+    renderer = TextRenderer(window_width, window_height, fudge_characters)
 
     locator_to_key_and_offset = {}
     encoded_events = {}
@@ -156,12 +164,17 @@ def render_text_html(trans:TranslationCollection, entry_point_key:int, max_pages
 
     jump_history = set()
 
+    pending_text = ""
+
     while instruction_index < len(disassembled_events):
         instruction = disassembled_events[instruction_index]
         instruction_index += 1
         if isinstance(instruction, DS6TextInstruction):
-            renderer.add_text(instruction.text)
+            pending_text += instruction.text
         elif isinstance(instruction, DS6CodeInstruction):
+            if len(pending_text) > 0:
+                renderer.add_text(pending_text)
+                pending_text = ""
             code = instruction.code
             if code == 0x00:
                 break
@@ -269,6 +282,8 @@ def render_text_html(trans:TranslationCollection, entry_point_key:int, max_pages
                 renderer.change_text_style("text_green")
             elif code == 0x1e:
                 renderer.change_text_style("text_yellow")
+            elif code == 0x1f:
+                renderer.change_text_style("text_white")
             elif code == 0xf2:
                 # This appears to check if your current gold is at least the
                 # value at the given memory address. Usually paired with 0xf3,
@@ -304,6 +319,9 @@ def render_text_html(trans:TranslationCollection, entry_point_key:int, max_pages
 
         if max_pages is not None and renderer.page_count >= max_pages:
             break
+
+    if len(pending_text) > 0:
+        renderer.add_text(pending_text)
 
     return list(renderer.pages), list(conditions_checked)
 
@@ -551,6 +569,10 @@ def list_units():
         elif file_name == "Ending":
             original_pages = render_ending_text_html(entry.original)
             translated_pages = render_ending_text_html(entry.translated)
+        elif isinstance(entry, FixedTranslatableWindowEntry):
+            line_count = entry.forced_line_count if entry.forced_line_count is not None else entry.line_count
+            original_pages, _ = render_text_html(trans, key, translated=False, window_width=entry.window_width, window_height=line_count)
+            translated_pages, _ = render_text_html(trans, key, translated=True, window_width=entry.window_width, window_height=line_count)
         else:
             original_pages, _ = render_text_html(trans, key, 3, translated=False)
             translated_pages, _ = render_text_html(trans, key, 3, translated=True)
@@ -591,6 +613,8 @@ def get_unit_info():
     prev_key_str = None if prev_key is None else f"{prev_key:04x}"
     next_key_str = None if next_key is None else f"{next_key:04x}"
 
+    current_item_info = None
+
     conditions = set()
     for k in key_list:
         item = trans.get_entry(k)
@@ -608,6 +632,8 @@ def get_unit_info():
                         conditions.add(condition_str)
     condition_list = sorted(conditions)
 
+    assert(current_item_info is not None)
+
     if file_name == "Opening":
         window_width, window_height = 62, 9
     elif file_name == "Ending":
@@ -615,6 +641,9 @@ def get_unit_info():
             window_width, window_height = 26, 10
         else:
             window_width, window_height = 62, 2
+    elif isinstance(current_item_info, FixedTranslatableWindowEntry):
+        window_width = current_item_info.window_width
+        window_height = current_item_info.forced_line_count if current_item_info.forced_line_count is not None else current_item_info.line_count
     else:
         window_width, window_height = 34, 4
 
@@ -696,6 +725,10 @@ def render_unit_text():
     elif file_name == "Ending":
         pages = render_ending_text_html(entry.translated if translated else entry.original, key == 0x2b76)
         conditions_checked = []
+    elif isinstance(entry, FixedTranslatableWindowEntry):
+        line_count = entry.forced_line_count if entry.forced_line_count is not None else entry.line_count
+        pages, conditions_checked = render_text_html(trans, key, translated=translated, active_conditions=active_conditions,
+                                                     window_width=entry.window_width, window_height=line_count)
     else:
         pages, conditions_checked = render_text_html(trans, key, translated=translated, active_conditions=active_conditions)
 

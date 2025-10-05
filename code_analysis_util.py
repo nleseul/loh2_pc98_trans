@@ -5,7 +5,7 @@ from capstone import *
 from capstone.x86 import *
 
 class Link:
-    def __init__(self, source_addr:int, target_addr:int, source_instruction_addr:int=None, execution_context:dict={}):
+    def __init__(self, source_addr:int, target_addr:int, source_instruction_addr:int|None=None, execution_context:dict={}):
         self._source_addr = source_addr
         self._target_addr = target_addr
 
@@ -264,7 +264,7 @@ class X86CodeHook:
     def should_handle(self, instruction:CsInsn) -> bool:
         raise NotImplementedError("Handle this in a subclass")
 
-    def get_next_ip(self, instruction:CsInsn) -> int:
+    def get_next_ip(self, instruction:CsInsn) -> int|None:
         if instruction.id == X86_INS_JMP or instruction.id == X86_INS_LJMP or X86_GRP_RET in instruction.groups:
             return None
         else:
@@ -281,7 +281,7 @@ class EmptyHook(X86CodeHook):
         self._next_ip = next_ip
         self._stop = stop
 
-    def get_next_ip(self, instruction):
+    def get_next_ip(self, instruction) -> int|None:
         if self._stop:
             return None
         elif self._next_ip is None:
@@ -413,6 +413,8 @@ class X86CodeBlock(Block):
 
             registers = link.execution_context.copy()
 
+            stack = []
+
             done = False
             while not done:
                 try:
@@ -446,18 +448,29 @@ class X86CodeBlock(Block):
 
 
                     if X86_GRP_JUMP in instruction.groups: # X86_GRP_JUMP
+                        destination, source_addr, source_instruction_addr = None, None, None
+
                         if instruction.operands[0].type == CS_OP_IMM:
                             destination = instruction.operands[0].value.imm
+                            source_addr = instruction.address + 1
+                            source_instruction_addr = instruction.address
+                        elif instruction.operands[0].type == CS_OP_REG:
+                            reg_id = instruction.operands[0].value.reg
+                            if reg_id in registers:
+                                destination = registers[reg_id]['value']
+                                source_addr = registers[reg_id]['source_addr']
+                        else:
+                            print(f"Jump to non-immediate address from {instruction.address:04x}!!")
 
-                            link = Link(instruction.address + 1, destination, source_instruction_addr=instruction.address, execution_context=registers.copy())
+                        if destination is not None:
+                            assert(source_addr is not None)
+                            link = Link(source_addr, destination, source_instruction_addr=source_instruction_addr, execution_context=registers.copy())
 
                             if (destination < self._base_addr or destination >= self._base_addr + len(self._data)):
                                 link.connect_blocks(self, None)
-                                self.add_global_reference(instruction.address + 1, destination)
+                                self.add_global_reference(source_addr, destination)
                             else:
                                 link.connect_blocks(self, block_pool.get_block("code", destination))
-                        else:
-                            print(f"Jump to non-immediate address from {instruction.address:04x}!!")
 
                         if instruction.id == X86_INS_JMP or instruction.id == X86_INS_LJMP:
                             break
@@ -469,26 +482,40 @@ class X86CodeBlock(Block):
                                 raise Exception(f"Global loop?? {instruction.addr:04x}")
                             else:
                                 link.connect_blocks(self, block_pool.get_block("code", destination))
+                        elif instruction.operands[0].type == CS_OP_REG:
+                            print(f"Look look look {instruction.address:04x}")
                         else:
                             print(f"Loop to non-immediate address from {instruction.address:04x}!!")
                     elif X86_GRP_CALL in instruction.groups:
+                        destination, source_addr, source_instruction_addr = None, None, None
+
                         if instruction.operands[0].type == CS_OP_IMM:
                             destination = instruction.operands[0].value.imm
+                            source_addr = instruction.address + 1
+                            source_instruction_addr = instruction.address
+                        elif instruction.operands[0].type == CS_OP_REG:
+                            reg_id = instruction.operands[0].value.reg
+                            if reg_id in registers:
+                                destination = registers[reg_id]['value']
+                                source_addr = registers[reg_id]['source_addr']
+                        else:
+                            print(f"Call to non-immediate address from {instruction.address:04x}!!")
 
-                            link = Link(instruction.address + 1, destination, source_instruction_addr=instruction.address, execution_context=registers.copy())
+                        if destination is not None:
+                            assert(source_addr is not None)
+                            link = Link(source_addr, destination, source_instruction_addr=source_instruction_addr, execution_context=registers.copy())
 
                             if (destination < self._base_addr or destination >= self._base_addr + len(self._data)):
                                 link.connect_blocks(self, None)
-                                self.add_global_reference(instruction.address + 1, destination)
+                                self.add_global_reference(source_addr, destination)
                             else:
                                 target_block = block_pool.get_block("code", destination)
                                 link.connect_blocks(self, target_block)
 
-                            # Subroutine calls might do anything, so nuke everything we know about the registers at this point.
-                            for r in list(registers.keys()):
-                                del registers[r]
-                        else:
-                            print(f"Call to non-immediate address from {instruction.address:04x}!!")
+                        # Subroutine calls might do anything, so nuke everything we know about the registers at this point.
+                        for r in list(registers.keys()):
+                            del registers[r]
+
 
                     elif X86_GRP_RET in instruction.groups:
                         done = True
@@ -497,6 +524,27 @@ class X86CodeBlock(Block):
                         reg_id = instruction.operands[0].value.reg
                         value = instruction.operands[1].value.imm
                         registers[reg_id] = { 'source_addr': instruction.address + 1, 'value': value }
+
+                    elif instruction.id == X86_INS_PUSH:
+                        #print("Push")
+                        if instruction.operands[0].type == CS_OP_REG and instruction.operands[0].value.reg in registers:
+                            #print("Push register", registers[instruction.operands[0].value.reg])
+                            stack.append(registers[instruction.operands[0].value.reg].copy())
+                        elif instruction.operands[0].type == CS_OP_IMM:
+                            stack.append( { 'source_addr': instruction.address + 1, 'value': instruction.operands[0].value.imm } )
+                        else:
+                            stack.append( { } )
+
+                    elif instruction.id == X86_INS_POP:
+                        #print("Pop")
+                        if len(stack) > 0:
+                            stack_item = stack.pop()
+                            if instruction.operands[0].type == CS_OP_REG and 'value' in stack_item:
+                                #print("Pop register", registers[instruction.operands[0].value.reg])
+                                reg_info = { 'value': stack_item['value'] }
+                                if 'source_addr' in stack_item:
+                                    reg_info['source_addr'] = stack_item['source_addr']
+                                registers[instruction.operands[0].value.reg] = reg_info
 
             link_path_info['is_linked'] = True
 

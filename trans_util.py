@@ -65,6 +65,16 @@ class RelocatableTranslatableEntry(TranslatableEntry, RelocatableEntry, yaml.YAM
     yaml_loader = yaml.SafeLoader
     yaml_tag = '!RelocatableTranslatableEntry'
 
+@dataclass
+class FixedTranslatableWindowEntry(FixedTranslatableEntry):
+    yaml_tag = '!FixedTranslatableWindowEntry'
+
+    window_position:int = 0
+    window_width:int = 0
+    line_count:int = 0
+
+    forced_line_count:int|None = None
+
 
 class TranslationCollection(yaml.YAMLObject):
     yaml_loader = yaml.SafeLoader

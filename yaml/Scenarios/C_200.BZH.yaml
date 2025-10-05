@@ -1,6 +1,6 @@
 !TranslationCollection
 "_end_of_file_addr": !!int |-
-  1913
+  1915
 "_entries":
   !!int "23320": !RelocatableTranslatableEntry
     "original": |-
@@ -243,7 +243,9 @@
         54734
       "target_addr": !!int |-
         24677
-    "translated": "<C_YELLOW>Prince Charles<C_NONE>\nNo one will play with me. They're\
-      \ \nall busy with the festival.<WAIT>\nI'm bored..."
+    "translated": |-
+      <C_YELLOW>Prince Charles<C_NONE>
+      No one will play with me. They're all busy with the festival.<WAIT>
+      I'm bored...
 "_note": |-
   Selis castle - Prologue

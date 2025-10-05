@@ -20,6 +20,7 @@ if __name__ == '__main__':
         "ENDING.BZH",
         "OPENING.BZH",
         "PROG.BZH",
+        "UTY.BZH",
         "MON/M_*.BZH",
         "SCENA/*.BZH"
     ]

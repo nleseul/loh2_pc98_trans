@@ -387,6 +387,11 @@
         1465
       "target_addr": !!int |-
         1780
+    - !CodeReference
+      "source_addr": !!int |-
+        18424
+      "target_addr": !!int |-
+        1780
     "translated": !!null |-
       null
   !!int "1804": !RelocatableTranslatableEntry
@@ -502,6 +507,19 @@
         2126
     "translated": |-
       <CLEAR>Victory!<RET_N>
+  !!int "2148": !RelocatableTranslatableEntry
+    "original": |-
+      <CLEAR><ITEM>を持っていた。<RET_PAGE>
+    "original_byte_length": !!int |-
+      17
+    "references":
+    - !CodeReference
+      "source_addr": !!int |-
+        2180
+      "target_addr": !!int |-
+        2148
+    "translated": !!null |-
+      null
   !!int "2165": !RelocatableTranslatableEntry
     "original": |-
       <CH0>は戦いに敗れました。
@@ -528,6 +546,32 @@
         2542
       "target_addr": !!int |-
         2248
+    "translated": !!null |-
+      null
+  !!int "2297": !RelocatableTranslatableEntry
+    "original": |-
+      <ITEM>を手に入れ<JUMP0912>
+    "original_byte_length": !!int |-
+      14
+    "references":
+    - !CodeReference
+      "source_addr": !!int |-
+        2572
+      "target_addr": !!int |-
+        2297
+    "translated": !!null |-
+      null
+  !!int "2311": !RelocatableTranslatableEntry
+    "original": |-
+      <ITEM>をあきらめ<LOC0912>ました。
+    "original_byte_length": !!int |-
+      20
+    "references":
+    - !CodeReference
+      "source_addr": !!int |-
+        2554
+      "target_addr": !!int |-
+        2311
     "translated": !!null |-
       null
   !!int "2331": !RelocatableTranslatableEntry
@@ -649,6 +693,19 @@
         2722
     "translated": |-
       <ACTOR> was defeated.<RET_PAGE>
+  !!int "3886": !RelocatableTranslatableEntry
+    "original": |-
+      の書<RET>
+    "original_byte_length": !!int |-
+      5
+    "references":
+    - !CodeReference
+      "source_addr": !!int |-
+        12066
+      "target_addr": !!int |-
+        3886
+    "translated": |2-
+       Tome<RET>
   !!int "5884": !RelocatableTranslatableEntry
     "original": |-
       <CLEAR><RET>
@@ -772,6 +829,340 @@
         6235
     "translated": !!null |-
       null
+  !!int "6278": !RelocatableTranslatableEntry
+    "original": |-
+      プログラム<JUMP18c3>
+    "original_byte_length": !!int |-
+      13
+    "references":
+    - !DataReference
+      "source_addr": !!int |-
+        6258
+      "target_addr": !!int |-
+        6278
+    "translated": !!null |-
+      null
+  !!int "6291": !RelocatableTranslatableEntry
+    "original": |-
+      <CALL18bb>１<RET>
+    "original_byte_length": !!int |-
+      6
+    "references":
+    - !DataReference
+      "source_addr": !!int |-
+        6260
+      "target_addr": !!int |-
+        6291
+    "translated": !!null |-
+      null
+  !!int "6297": !RelocatableTranslatableEntry
+    "original": |-
+      <CALL18bb>２<RET>
+    "original_byte_length": !!int |-
+      6
+    "references":
+    - !DataReference
+      "source_addr": !!int |-
+        6262
+      "target_addr": !!int |-
+        6297
+    "translated": !!null |-
+      null
+  !!int "6303": !RelocatableTranslatableEntry
+    "original": |-
+      <CALL18bb>３<RET>
+    "original_byte_length": !!int |-
+      6
+    "references":
+    - !DataReference
+      "source_addr": !!int |-
+        6264
+      "target_addr": !!int |-
+        6303
+    "translated": !!null |-
+      null
+  !!int "6309": !RelocatableTranslatableEntry
+    "original": |-
+      ユーザー<JUMP18c3>
+    "original_byte_length": !!int |-
+      11
+    "references":
+    - !DataReference
+      "source_addr": !!int |-
+        6276
+      "target_addr": !!int |-
+        6309
+    "translated": !!null |-
+      null
+  !!int "6320": !RelocatableTranslatableEntry
+    "original": |-
+      ？？？？<JUMP18c3>
+    "original_byte_length": !!int |-
+      11
+    "references":
+    - !DataReference
+      "source_addr": !!int |-
+        6266
+      "target_addr": !!int |-
+        6320
+    - !DataReference
+      "source_addr": !!int |-
+        6268
+      "target_addr": !!int |-
+        6320
+    - !DataReference
+      "source_addr": !!int |-
+        6270
+      "target_addr": !!int |-
+        6320
+    - !DataReference
+      "source_addr": !!int |-
+        6272
+      "target_addr": !!int |-
+        6320
+    - !DataReference
+      "source_addr": !!int |-
+        6274
+      "target_addr": !!int |-
+        6320
+    "translated": !!null |-
+      null
+  !!int "6331": !RelocatableTranslatableEntry
+    "original": |-
+      シナリオ<LOC18c3>ディスク<RET>
+    "original_byte_length": !!int |-
+      17
+    "references": []
+    "translated": !!null |-
+      null
+  !!int "6360": !RelocatableTranslatableEntry
+    "original": |-
+      <ACTOR>は<RET>
+    "original_byte_length": !!int |-
+      4
+    "references":
+    - !CodeReference
+      "source_addr": !!int |-
+        18596
+      "target_addr": !!int |-
+        6360
+    "translated": !!null |-
+      null
+  !!int "6364": !RelocatableTranslatableEntry
+    "original": |-
+      <ACTOR>のＨＰを<C_YELLOW><RET>
+      <CONT><C_NONE>奪った !!<RET_PAGE>
+    "original_byte_length": !!int |-
+      22
+    "references":
+    - !CodeReference
+      "source_addr": !!int |-
+        18458
+      "target_addr": !!int |-
+        6364
+    "translated": !!null |-
+      null
+  !!int "6386": !RelocatableTranslatableEntry
+    "original": |-
+      <ACTOR>の攻撃力が <RET>
+    "original_byte_length": !!int |-
+      13
+    "references":
+    - !CodeReference
+      "source_addr": !!int |-
+        18904
+      "target_addr": !!int |-
+        6386
+    "translated": !!null |-
+      null
+  !!int "6399": !RelocatableTranslatableEntry
+    "original": |-
+      <ACTOR>の防御力が <RET>
+    "original_byte_length": !!int |-
+      13
+    "references":
+    - !CodeReference
+      "source_addr": !!int |-
+        18673
+      "target_addr": !!int |-
+        6399
+    - !CodeReference
+      "source_addr": !!int |-
+        18945
+      "target_addr": !!int |-
+        6399
+    "translated": !!null |-
+      null
+  !!int "6412": !RelocatableTranslatableEntry
+    "original": |-
+      <ACTOR>の<JUMP0636>
+    "original_byte_length": !!int |-
+      6
+    "references":
+    - !CodeReference
+      "source_addr": !!int |-
+        18709
+      "target_addr": !!int |-
+        6412
+    - !CodeReference
+      "source_addr": !!int |-
+        18985
+      "target_addr": !!int |-
+        6412
+    "translated": !!null |-
+      null
+  !!int "6430": !RelocatableTranslatableEntry
+    "original": |-
+      <ACTOR>の<JUMP05fc>
+    "original_byte_length": !!int |-
+      6
+    "references":
+    - !CodeReference
+      "source_addr": !!int |-
+        18781
+      "target_addr": !!int |-
+        6430
+    - !CodeReference
+      "source_addr": !!int |-
+        18822
+      "target_addr": !!int |-
+        6430
+    "translated": !!null |-
+      null
+  !!int "6436": !RelocatableTranslatableEntry
+    "original": |-
+      あがった。<RET_PAGE>
+    "original_byte_length": !!int |-
+      11
+    "references":
+    - !CodeReference
+      "source_addr": !!int |-
+        18910
+      "target_addr": !!int |-
+        6436
+    - !CodeReference
+      "source_addr": !!int |-
+        18951
+      "target_addr": !!int |-
+        6436
+    - !CodeReference
+      "source_addr": !!int |-
+        18991
+      "target_addr": !!int |-
+        6436
+    - !CodeReference
+      "source_addr": !!int |-
+        18828
+      "target_addr": !!int |-
+        6436
+    "translated": !!null |-
+      null
+  !!int "6456": !RelocatableTranslatableEntry
+    "original": |-
+      さがった。<RET_PAGE>
+    "original_byte_length": !!int |-
+      11
+    "references":
+    - !CodeReference
+      "source_addr": !!int |-
+        18679
+      "target_addr": !!int |-
+        6456
+    - !CodeReference
+      "source_addr": !!int |-
+        18715
+      "target_addr": !!int |-
+        6456
+    - !CodeReference
+      "source_addr": !!int |-
+        18787
+      "target_addr": !!int |-
+        6456
+    "translated": !!null |-
+      null
+  !!int "6467": !RelocatableTranslatableEntry
+    "original": |-
+      すべての呪文は封じられた。<RET_PAGE>
+    "original_byte_length": !!int |-
+      27
+    "references":
+    - !CodeReference
+      "source_addr": !!int |-
+        18857
+      "target_addr": !!int |-
+        6467
+    "translated": !!null |-
+      null
+  !!int "6494": !RelocatableTranslatableEntry
+    "original": |-
+      <ACTOR>は光に包まれた。<RET_PAGE>
+    "original_byte_length": !!int |-
+      18
+    "references":
+    - !CodeReference
+      "source_addr": !!int |-
+        19040
+      "target_addr": !!int |-
+        6494
+    "translated": !!null |-
+      null
+  !!int "6512": !RelocatableTranslatableEntry
+    "original": |-
+      <ACTOR>は毒におかされた !!<RET_PAGE>
+    "original_byte_length": !!int |-
+      21
+    "references":
+    - !CodeReference
+      "source_addr": !!int |-
+        18532
+      "target_addr": !!int |-
+        6512
+    "translated": !!null |-
+      null
+  !!int "6533": !RelocatableTranslatableEntry
+    "original": |-
+      <ACTOR>は呪文を封じられた !!<RET_PAGE>
+    "original_byte_length": !!int |-
+      23
+    "references":
+    - !CodeReference
+      "source_addr": !!int |-
+        18574
+      "target_addr": !!int |-
+        6533
+    "translated": !!null |-
+      null
+  !!int "6556": !RelocatableTranslatableEntry
+    "original": |-
+      <ACTOR>は混乱した !!<RET_PAGE>
+    "original_byte_length": !!int |-
+      15
+    "references":
+    - !CodeReference
+      "source_addr": !!int |-
+        18492
+      "target_addr": !!int |-
+        6556
+    "translated": !!null |-
+      null
+  !!int "6571": !RelocatableTranslatableEntry
+    "original": |-
+      ますます<LOC19b3>眠ってしまった !!<RET_PAGE>
+    "original_byte_length": !!int |-
+      26
+    "references":
+    - !CodeReference
+      "source_addr": !!int |-
+        18611
+      "target_addr": !!int |-
+        6571
+    - !CodeReference
+      "source_addr": !!int |-
+        18602
+      "target_addr": !!int |-
+        6579
+    "translated": !!null |-
+      null
   !!int "6597": !RelocatableTranslatableEntry
     "original": |-
       <ACTOR>は呪文を跳ね返した !!<RET_PAGE>
@@ -794,6 +1185,11 @@
     - !CodeReference
       "source_addr": !!int |-
         2418
+      "target_addr": !!int |-
+        6620
+    - !CodeReference
+      "source_addr": !!int |-
+        19105
       "target_addr": !!int |-
         6620
     "translated": !!null |-
