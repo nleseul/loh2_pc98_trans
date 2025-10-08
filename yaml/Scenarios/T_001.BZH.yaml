@@ -201,15 +201,15 @@
     "original_byte_length": !!int |-
       7
     "references": []
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Maid<C_NONE><RET_N>
   !!int "24880": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE><RET_N>
     "original_byte_length": !!int |-
       7
     "references": []
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE><RET_N>
 "_note": |-
   Eluasta - Prologue (later)
