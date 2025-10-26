@@ -77,8 +77,13 @@
         54829
       "target_addr": !!int |-
         23982
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Man<C_NONE>
+      <IF0068><JUMP5dfc>Some disgusting red slimes have
+      been spreading around here lately.
+      <END>
+      <LOC5dfc>I'm glad those red slimes're gone,but now we've got even more
+      horrible monsters prowling around.
   !!int "24157": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>老人<C_NONE>
