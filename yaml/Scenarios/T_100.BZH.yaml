@@ -161,12 +161,11 @@
         24984
     "translated": |-
       <C_YELLOW>Bob, repairman<C_NONE>
-      I just finished repairs on it,
-      but now I have to repair it again.
+      No sooner do I fix it than I have
+      to fix it all over again.
 
-      I wish the captain would stop
-      messing around and get a new
-      ship.
+      He ought to stop messing around
+      and get a new ship.
   !!int "25125": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>

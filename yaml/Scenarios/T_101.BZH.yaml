@@ -18,8 +18,14 @@
         54811
       "target_addr": !!int |-
         23481
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Captain<C_NONE>
+      You don't gotta worry about my
+      ship havin' trouble again. The
+      repairman was just bein' careless.
+      <PAGE>
+      That Bob, bein' a slacker...
+      Unbelievable!
   !!int "23608": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>船長<C_NONE>
@@ -40,8 +46,16 @@
         54713
       "target_addr": !!int |-
         23608
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Captain<C_NONE>
+      Don't worry, my ship isn't gonna
+      break down again. C'mon aboard.
+
+      <Xf8287417><JUMP5cb4>Will you board the ship?
+      <Xf69229><JUMP5ce6><Xf9000204><ASM6b26><Xf828af17><JUMP5cb4><SET0400><Xf028>Handed over the <ITEM>.<SND0103><END>
+      <LOC5cb4>No ticket, huh?
+      You can buy one over there.<END>
+      <LOC5ce6>Don't worry! I said it's not gonnabreak down!
   !!int "23823": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>修理工のボブ<C_NONE>
@@ -59,8 +73,14 @@
         54820
       "target_addr": !!int |-
         23823
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Bob repairman<C_NONE>
+      I've been maintaining the ship
+      to Neria for a while, but I guess
+      my repairs weren't that thorough.
+
+      The captain noticed eventually,
+      and now he's cut my pay.
   !!int "23982": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -191,8 +211,23 @@
         54844
       "target_addr": !!int |-
         24954
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Man<C_NONE>
+      Welcome. The ship has been
+      repaired now.
+
+      The price of each ticket to Neria
+      is 100 gold.
+
+      <Xf65317><JUMP627e><CHECK_MONEY6298><JUMP6262>Will you be buying a ticket?<Xf69229><JUMP6239><TAKE_MONEY6298><Xf128><CLEAR>Here you are.
+      Please don't run off before the
+      ship departs.<END>
+      <LOC6239><CLEAR>I see.
+      I didn't really expect you would.
+      <END>
+      <LOC6262>But you don't have the money,
+      do you?<END>
+      <LOC627e>It doesn't look like you can carryany more.
   !!int "25240": !RelocatableRawDataEntry
     "data": !!binary |
       ZAAAAA==
