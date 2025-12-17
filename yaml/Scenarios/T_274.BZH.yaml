@@ -15,8 +15,10 @@
         54642
       "target_addr": !!int |-
         23299
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Gina<C_NONE>
+      Ugh, that slime guy's disgustin'.
+      Stay away from me.
   !!int "23372": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>船員<C_NONE>
@@ -36,8 +38,17 @@
         54651
       "target_addr": !!int |-
         23372
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Sailor<C_NONE>
+      <IF0068><JUMP5bf7>Tha pres'dent's wife, Gina, comes
+      from Moreston.
+
+      Those slimes... they're just in
+      Farleyn an' Wonliech, right?
+      So she's prob'ly never seen one
+      before.<END>
+      <LOC5bf7>There's lots o' dragonseggs
+      in tha Archipelago. Maybe monsterscan't cross water, though?
   !!int "23631": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>船員<C_NONE>
@@ -57,8 +68,17 @@
         54660
       "target_addr": !!int |-
         23631
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Sailor<C_NONE>
+      <IF0068><JUMP5cb3>You're tha ones as made those
+      slimes, right? Where'd ya learn
+      that spell? Can ya teach me it?<END>
+      <LOC5cb3>What tha hell's goin' on?
+      All this funny business...
+
+      Well, it's surprisin', but we're
+      safe here. So it's got nothin' ta
+      do wit' us.
   !!int "23856": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>船員<C_NONE>
@@ -75,8 +95,14 @@
         54669
       "target_addr": !!int |-
         23856
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      Nothin' ta do...
+      I miss the old days...
+
+      Drinkin', gamblin', attackin'
+      ships...
+      Whoa! Ya didn't hear that, right?
   !!int "23969": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>船員<C_NONE>
@@ -91,8 +117,10 @@
         54678
       "target_addr": !!int |-
         23969
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Sailor<C_NONE>
+      I'm sort o' scared o' Gina.
+      Whene'er I look at 'er, I remembertha pres'dent's ma.
   !!int "24056": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>船員<C_NONE>
@@ -110,8 +138,11 @@
         54687
       "target_addr": !!int |-
         24056
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Sailor<C_NONE>
+      What? Gamblin'? Nah, we'd ne'er doanything like that 'ere.
+
+      See here? I'm thinkin' 'bout a newship. Faster 'n what we have, so'swe can carry lots o passengers.
   !!int "24227": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>船員<C_NONE>
@@ -129,8 +160,13 @@
         54696
       "target_addr": !!int |-
         24227
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Sailor<C_NONE>
+      Oi, watch yerselves!
+      This place's full o' black powder.
+
+      Huh? What do we use it fer?
+      What do ya think?
   !!int "24359": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>船員<C_NONE>
@@ -144,8 +180,11 @@
         54705
       "target_addr": !!int |-
         24359
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Sailor<C_NONE>
+      There's a bunch o' rare jewels
+      in here. It's tha pres'dent's
+      hobby.
   !!int "24430": !RelocatableTranslatableEntry
     "original": "<C_YELLOW>ジゴ<C_NONE>\nあー いてー ･ ･ ･ \n社長とジーナさんと 両方から\nボコボコに されちまったよ。"
     "original_byte_length": !!int |-
@@ -156,8 +195,8 @@
         54720
       "target_addr": !!int |-
         24430
-    "translated": !!null |-
-      null
+    "translated": "<C_YELLOW>Jigo<C_NONE>\nOw ow ow...\nThe pres'dent beat me up...\
+      \ \nAn' Gina beat me up..."
   !!int "24512": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ボアード<C_NONE>
@@ -231,15 +270,77 @@
         54729
       "target_addr": !!int |-
         24512
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Buald<C_NONE>
+      <IF_NOT0404><CALL644d><IF009a><JUMP6435><IF0089><JUMP5fe3><IF0087><JUMP619a><LOC5fe3><IF0099><JUMP6071><SET0099>Don't worry. I 'ad a long talk
+      wit' Gina.
+
+      Gave me a good belly laugh, ya
+      know. Strong woman like 'er, but
+      she can't stand those slimes.<END>
+      <LOC6071>おれは いろいろな問題があって
+      困ってるんだ。
+
+      定期船の航路が ３つしかないだろ？
+      それで いろんな所から 不便だって
+      文句がきてるんだよ。
+
+      でも 航路を少なくしとけば おれが
+      もうかるだろ？
+      だから ずっと増やさなかったんだ。
+
+      でも そろそろ 新しい船もできるし
+      来年あたりに 航路も 増やそうかって考えてるんだ。<END>
+      <LOC619a><UNSET0404><ASM6b26><SET009b>
+
+      <CH0>
+      ボアードさん お願いがあるんだけど。
+
+      <C_YELLOW>ボアード<C_NONE>
+      おう どんなことだ？
+
+      <CH0>
+      船で ソルディスまで 連れていって
+      もらいたいんだけど。
+
+      <C_YELLOW>ボアード<C_NONE>
+      何で わざわざ 船で 行くんだ？
+
+      <CH0>
+      この女の子が 出国の 手続きを
+      できないんだ。
+
+      <C_YELLOW>ボアード<C_NONE>
+      手続きなしで 行くのか？
+      何か わけありみたいだな。
+
+      <CH0>
+      この子 フローラって言って
+      ジェラルドさんの 娘さんなんだけど
+      家出してきたんだ。
+
+      <CH2>
+      家出なんかじゃありません。
+      フレイアさまを 助けに行くだけです。
+
+      <C_GREEN>そして また フローラの夢の話が
+      始まりました。<C_NONE>
+
+      <C_YELLOW>ボアード<C_NONE>
+      まあ そんな 作り話なんかしなくてもおれには わかってるぜ まったく
+      子どものくせに やるじゃねえか？
+
+      そういう ことだったら はっきり
+      言えば いいのによ。
+      さあ 行くぜ。ついてきな。<END>
+      <LOC6435>酒でも 手に入ったのか？
   !!int "25677": !RelocatableTranslatableEntry
     "original": |-
       <SET0404>おう お前らじゃねえか 元気そうだな。<RET>
     "original_byte_length": !!int |-
       40
     "references": []
-    "translated": !!null |-
-      null
+    "translated": |-
+      <SET0404>Ahoy! Yer lookin' well.<RET_N>
 "_note": |-
   Buald HQ - Prologue (after kidnapping scene)

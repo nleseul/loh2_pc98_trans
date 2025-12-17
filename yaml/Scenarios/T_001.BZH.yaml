@@ -26,8 +26,12 @@
         54782
       "target_addr": !!int |-
         23301
-    "translated": !!null |-
-      null
+    "translated": "<C_YELLOW>Weapon merchant<C_NONE>\nWelcome, Prince Atlas.\n<IF0068><JUMP5bbd>With\
+      \ the world is at peace, there\nisn't any demand for weapons.\n\nI can't do\
+      \ any business like this.I wonder if I should open a bakerynext.<END>\n<LOC5bbd>Thanks\
+      \ to those monsters, my\nweapons sold out in no time.\n\nBusiness has never\
+      \ been better. I\nsuppose I should be happy, but \nto be honest, I can't really\n\
+      celebrate."
   !!int "23653": !RelocatableTranslatableEntry
     "original": |-
       <CALL6129>王子さまが お城にいかれてから
@@ -41,8 +45,9 @@
         54698
       "target_addr": !!int |-
         23653
-    "translated": !!null |-
-      null
+    "translated": |-
+      <CALL6129>I've still been cooking since yourHighness left for the castle, but
+      it doesn't feel the same.
   !!int "23737": !RelocatableTranslatableEntry
     "original": |-
       <CALL6129>まあ、王子さま。
@@ -60,8 +65,13 @@
         54707
       "target_addr": !!int |-
         23737
-    "translated": !!null |-
-      null
+    "translated": |-
+      <CALL6129>Why, your Highness! What brings
+      you <IF0068><JUMP5d05>all the way out here?<END>
+      <LOC5d05>out here?
+
+      I can't believe you came all this
+      way, with the monsters outside.
   !!int "23883": !RelocatableTranslatableEntry
     "original": |-
       <CALL6130>町の者たちには 王子さまは しばらくお城の方で お勉強を していることになっておりますので ご安心ください。
@@ -73,8 +83,8 @@
         54716
       "target_addr": !!int |-
         23883
-    "translated": !!null |-
-      null
+    "translated": "<CALL6130>Don't worry; the people here know\nthat your Highness\
+      \ is studying\nat the castle for a while. "
   !!int "23990": !RelocatableTranslatableEntry
     "original": |-
       <CALL6130><IF0068><JUMP5dfe>王子さま、危険なことなどせずに
@@ -89,8 +99,9 @@
         54725
       "target_addr": !!int |-
         23990
-    "translated": !!null |-
-      null
+    "translated": "<CALL6130><IF0068><JUMP5dfe>Have a good journey, your Highness.And\
+      \ stay safe.<END>\n<LOC5dfe>Rest easy, your Highness.\nWe'll keep Eluasta safe\
+      \ no matter\nwhat happens. "
   !!int "24141": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -106,8 +117,13 @@
         54761
       "target_addr": !!int |-
         24141
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Man<C_NONE>
+      Oh, hello, your Highness.
+      <IF0068><JUMP5ea6>I hear you will be studying in
+      Rudia for a while?<END>
+      <LOC5ea6>It looks like all the slimes are
+      gone since the monsters appeared.
   !!int "24291": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -123,8 +139,13 @@
         54770
       "target_addr": !!int |-
         24291
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Man<C_NONE>
+      Oh, your Highness.
+      <IF0068><JUMP5f1e>Have you come from the castle
+      to see us?<END>
+      <LOC5f1e>Things are getting dangerous, eh?
+      Why would monsters...?
   !!int "24412": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>女<C_NONE>
@@ -138,8 +159,10 @@
         54734
       "target_addr": !!int |-
         24412
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Woman<C_NONE>
+      It's good to see you again,
+      your Highness.
   !!int "24458": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>子供<C_NONE>
@@ -157,8 +180,13 @@
         54743
       "target_addr": !!int |-
         24458
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Child<C_NONE>
+      <IF0068><JUMP5fd8>When're we going slime-chasing
+      again, your Highness?<END>
+      <LOC5fd8>I'm so bored! I can't leave town
+      because of the scary monsters
+      outside.
   !!int "24622": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>パーカー<C_NONE>
@@ -172,8 +200,10 @@
         54752
       "target_addr": !!int |-
         24622
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Parker<C_NONE>
+      I'll not go a-makin' holes fer
+      yer Highness again.
   !!int "24679": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>道具屋<C_NONE>
@@ -193,8 +223,15 @@
         54776
       "target_addr": !!int |-
         24679
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Tool merchant<C_NONE>
+      <IF0068><JUMP60bb>Hello, your Highness.
+      Have you come all the way here to
+      go slime-chasing?<END>
+      <LOC60bb>Why would monsters have appeared?
+
+      And how are we supposed to live
+      while worrying about monsters?
   !!int "24873": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>侍女<C_NONE><RET_N>

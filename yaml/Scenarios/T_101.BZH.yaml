@@ -186,8 +186,9 @@
       <IF0068><JUMP611d>All the weapon merchant sells is
       antiques. He doesn't get many
       customers, so he's struggling.<END>
-      <LOC611d>この町の武器屋はしばらく休業すると言っているけど 何か新しい物でも
-      売り始める気なんだろうか？
+      <LOC611d>The weapon merchant said he was
+      closing for a while. I wonder if
+      he's planning some new items.
   !!int "24954": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -266,8 +267,29 @@
         54859
       "target_addr": !!int |-
         25244
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Bartender<C_NONE>
+      <IF0411><JUMP62ec><IF0412><JUMP62b9><IF0413><JUMP641c><LOC62b9>I can't serve you if you're
+      underage, so don't ask.<END>
+      <LOC62ec><IF0029><JUMP641c>Oh, is that you, Landor?
+
+      I can't serve you anything.
+      All you ever do is run up your
+      tab without paying it off.<IF_NOT044b><JUMP641b>
+
+      <SET0029><CH1>
+      C'mon, don't be like that. I'm
+      not gonna start tabs anymore. I'lljust pay an' drink.
+
+      <C_YELLOW>Bartender<C_NONE>
+      Hmm... really?
+      All right, I guess I'll let
+      bygones be bygones, then.<LOC641b><END>
+      <LOC641c>It's 10 gold a glass.
+      <CHECK_MONEY647e><JUMP646d>Can I pour you one?<Xf69229><JUMP646c><TAKE_MONEY647e><CLEAR>Here you are.<Xf6e0d6><JUMP646b>
+
+      <SET0418><ASMd6da><UNSET0418><LOC646b><END>
+      <LOC646c><RET><LOC646d>You don't have the money.
   !!int "25726": !RelocatableRawDataEntry
     "data": !!binary |
       CgAAAA==
@@ -321,8 +343,13 @@
         54872
       "target_addr": !!int |-
         25791
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Weapon merchant<C_NONE>
+      Welcome. This is a weapon shop,
+      but no one's buying my weapons.
+
+      I think I might have to close up
+      shop for a while.
   !!int "25933": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>道具屋<C_NONE>

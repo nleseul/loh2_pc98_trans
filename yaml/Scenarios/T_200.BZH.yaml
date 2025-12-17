@@ -267,8 +267,16 @@
         54913
       "target_addr": !!int |-
         25375
-    "translated": !!null |-
-      null
+    "translated": "<C_YELLOW>Man<C_NONE>\nHey, you there.\n<IF0068><JUMP644e><IF_NOT0404><JUMP637a>You\
+      \ just got here. Why'd you\ncome to Lanoura at all...?<END>\n<LOC637a>Have you\
+      \ registered to depart?\n\nWith the Dragonsfete preparations,you won't be able\
+      \ to register to\nleave for another week.\n\nIf you haven't already registered,you'll\
+      \ be here until the end of\nDragonsfete, so you might as well\nenjoy it.<END>\n\
+      <LOC644e>If you're departing, just sign \nyour name here.\n\n<Xf5010204><Xf7><IF007b><JUMP648c><IF0090><JUMP64e5><LOC648c>A\
+      \ signature's good enough in timeslike this.\n\n<SET0401>Thank you.\nYou can\
+      \ go on through.<END>\n<LOC64e5>Huh? That face...!!<WAIT>\nAren't you Gerald's\
+      \ daughter?\n\n<CH1>\nRats! It's no use wherever we go.\nWe'd better scram.\n\
+      \n<C_YELLOW>Soldier<C_NONE>\nHey! You! Stop!!\n<ASMd750>"
   !!int "25979": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>女<C_NONE>
@@ -337,8 +345,18 @@
         54937
       "target_addr": !!int |-
         26335
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Woman<C_NONE>
+      This house belongs to some old
+      friends of my grandfather.
+
+      As soon as they found out we'd
+      run from the monsters, they told
+      us to come here.
+
+      Still, my poor grandfather...
+      he's been talking about nothing
+      but the festival.
   !!int "26561": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ギャリー<C_NONE>
@@ -355,8 +373,13 @@
         54946
       "target_addr": !!int |-
         26561
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Gary<C_NONE>
+      It's all over!
+
+      Won't be no festivals in a place
+      like this! An' I was so lookin'
+      forward to it...
   !!int "26689": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -373,8 +396,13 @@
         54955
       "target_addr": !!int |-
         26689
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Man<C_NONE>
+      Someone must've done somethin'
+      awful at the Sanctuary, right?
+
+      And they made Freya angry.
+      That's gotta be it.
   !!int "26798": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>女<C_NONE>
