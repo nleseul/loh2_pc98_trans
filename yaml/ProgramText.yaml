@@ -279,8 +279,8 @@
         27159
       "target_addr": !!int |-
         1697
-    "translated": !!null |-
-      null
+    "translated": |2-
+       uses the <ITEM><RET>
   !!int "1700": !RelocatableTranslatableEntry
     "original": |-
       <ACTOR>に<RET>
@@ -292,8 +292,9 @@
         27185
       "target_addr": !!int |-
         1700
-    "translated": !!null |-
-      null
+    "translated": |2-
+       on
+      <ACTOR><RET>
   !!int "1704": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>自分自身<C_NONE><X1f>に<C_NONE><RET>
@@ -305,8 +306,8 @@
         27176
       "target_addr": !!int |-
         1704
-    "translated": !!null |-
-      null
+    "translated": |-
+      <RET>
   !!int "1719": !RelocatableTranslatableEntry
     "original": |-
       <CALL06bf><RET>
@@ -318,8 +319,8 @@
         1132
       "target_addr": !!int |-
         1719
-    "translated": !!null |-
-      null
+    "translated": |-
+      <CALL06bf><RET>
   !!int "1723": !RelocatableTranslatableEntry
     "original": |-
       <CALL06bf><RET_PAGE>
@@ -336,14 +337,16 @@
         1162
       "target_addr": !!int |-
         1723
-    "translated": !!null |-
-      null
+    "translated": |-
+      <CALL06bf><RET_PAGE>
   !!int "1727": !RelocatableTranslatableEntry
     "original": |-
       <ITEM>を使った。<RET>
     "original_byte_length": !!int |-
       12
     "references": []
+    "translated": |-
+      .<RET>
   !!int "1739": !RelocatableTranslatableEntry
     "original": |-
       の効果がある。<RET_PAGE>
@@ -391,8 +394,8 @@
         18424
       "target_addr": !!int |-
         1780
-    "translated": !!null |-
-      null
+    "translated": |-
+      <CALL070c>n<JUMP0002><LOC06f7>N<LOC0002>othing happens.<RET_PAGE>
   !!int "1804": !RelocatableTranslatableEntry
     "original": |-
       <IF0418><JUMP0718>しかし<LOC0718><RET>
