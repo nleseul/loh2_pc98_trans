@@ -232,6 +232,8 @@ def make_program_data_patch(nasm_path:str) -> ips_util.Patch:
     patch.add_record(0x7fb0, b"Flora\x06")
     patch.add_record(0x7ff0, b"Cindy\x06")
 
+    patch.add_record(0x9a28, b"Left") # Prefix used for displaying exp in the status panel
+
     add_table_to_patch(patch, TranslationCollection.load("yaml/Spells.yaml"), 7) # Spells were originally 8 bytes, but we shorten to 7
     add_table_to_patch(patch, TranslationCollection.load("yaml/Items.yaml"), 14)
 
