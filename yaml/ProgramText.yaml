@@ -1232,8 +1232,9 @@
         24107
       "target_addr": !!int |-
         7020
-    "translated": !!null |-
-      null
+    "translated": |-
+      <SND0204>Insufficient free disk space.
+      Saving aborted.
   !!int "7082": !RelocatableTranslatableEntry
     "original": |2-
 
@@ -1259,8 +1260,8 @@
         24475
       "target_addr": !!int |-
         7100
-    "translated": !!null |-
-      null
+    "translated": |-
+      <CALL0001>load<RET_N>
   !!int "7107": !RelocatableTranslatableEntry
     "original": |-
       セーブ<RET>
@@ -1272,8 +1273,8 @@
         24493
       "target_addr": !!int |-
         7107
-    "translated": !!null |-
-      null
+    "translated": |-
+      <CALL0001>save<RET_N>
   !!int "7114": !RelocatableTranslatableEntry
     "original": |-
       してもよろしいですか？<RET>
@@ -1285,8 +1286,9 @@
         24511
       "target_addr": !!int |-
         7114
-    "translated": !!null |-
-      null
+    "translated": |-
+      this file?<RET>
+      <LOC0001>Are you sure you want to <RET>
   !!int "7432": !RelocatableTranslatableEntry
     "original": |-
       セーブデータを削除してもよろしいですか？<RET>
@@ -1298,8 +1300,9 @@
         25166
       "target_addr": !!int |-
         7432
-    "translated": !!null |-
-      null
+    "translated": |-
+      Are you sure you want to delete
+      this save data?<RET>
   !!int "7473": !RelocatableTranslatableEntry
     "original": |-
       ゲームを終了してもよろしいですか？<RET>
@@ -1311,8 +1314,9 @@
         25192
       "target_addr": !!int |-
         7473
-    "translated": !!null |-
-      null
+    "translated": |-
+      Are you sure you want to exit
+      the game?<RET>
   !!int "7540": !RelocatableTranslatableEntry
     "original": |-
       <ACTOR>は毒がまわってきた。<RET_PAGE>
