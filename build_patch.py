@@ -574,10 +574,11 @@ def main() -> None:
 
     modified_file_list = sorted(modified_file_list)
 
+    print("Compressing files...")
     for file_path in modified_file_list:
         recompressed_path = os.path.join(recompressed_output_path_base, file_path[len(modified_output_path_base)+1:-4])
 
-        print(recompressed_path)
+        #print(recompressed_path)
 
         with open(file_path, 'rb') as in_file:
             file_data = in_file.read()
