@@ -348,8 +348,8 @@
         56790
       "target_addr": !!int |-
         25535
-    "translated": !!null |-
-      null
+    "translated": |-
+      Headland Cave <RET_N>
   !!int "25550": !RelocatableTranslatableEntry
     "original": |2-
         試練の洞窟  <RET_N>
@@ -361,8 +361,8 @@
         56730
       "target_addr": !!int |-
         25550
-    "translated": !!null |-
-      null
+    "translated": |-
+      Cave of Trials<RET_N>
   !!int "25565": !RelocatableTranslatableEntry
     "original": |2-
          王家の墓   <RET_N>
@@ -374,8 +374,8 @@
         56742
       "target_addr": !!int |-
         25565
-    "translated": !!null |-
-      null
+    "translated": |2-
+        Royal Tomb  <RET_N>
   !!int "25580": !RelocatableTranslatableEntry
     "original": |2-
           狼の口    <RET_N>

@@ -153,8 +153,152 @@
         54658
       "target_addr": !!int |-
         23241
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Dina<C_NONE>
+      <IF000d><JUMP63cb><IF000f><JUMP6346><SET000f>Atlas...
+      Thank goodness you're all right.
+
+      I feared the worst when monsters
+      started appearing from the
+      dragonseggs.
+
+      <IF000e><JUMP5ce7>And who might this be?
+
+      <CH0>
+      Oh, I'm sorry, Mother.
+      I haven't been traveling entirely
+      on my own...
+
+      <CH1>
+      Your Majesty. It's an honor.
+      My name is Landor.
+
+      I kinda just decided to follow hisHighness on my own. Please don't
+      be angry at him.
+
+      <C_YELLOW>Dina<C_NONE>
+      No, I'm far from angry.
+
+      Atlas's journey had many goals,
+      but finding friends he can rely
+      on was one of them.
+
+      Thank you for taking care of him,
+      Landor.
+
+      <LOC5ce7><CH0>
+      What about Farleyn, Mother?
+      What's happening here?
+
+      <C_YELLOW>Dina<C_NONE>
+      ...Crus was attacked.
+
+      <CH0>
+      Oh... And Selis, too.
+      That's why I hurried home from
+      Lanoura.
+
+      What's Father doing?
+
+      <C_YELLOW>Dina<C_NONE>
+      His Majesty is heading to Wonliechaboard the dragon.
+
+      He thinks the situation could be
+      affecting the whole world, so he'sgoing to investigate and prepare
+      countermeasures.
+
+      <CH0>
+      Of course... the dragon...
+
+      Mother, I'm going too.
+
+      <C_YELLOW>Dina<C_NONE>
+      Atlas?!
+      What are you saying?
+
+      <CH0>
+      I want to go with Father and find
+      out what's happening to the world.
+
+      <C_YELLOW>Dina<C_NONE>
+      You can't put yourself in danger
+      like that. Not when you've only
+      just come home safe.
+
+      <CH0>
+      I know, I know.
+      But King Aerion...
+
+      When monsters appeared in Lanoura,his first thought was the safety
+      of his people.
+
+      And Father's like that too.
+      Right now, I know he's thinking
+      not only of his own subjects, but
+      of everyone in the world.
+
+      <C_YELLOW>Rauel, royal tutor<C_NONE>
+      Prince Atlas!! What magnificent
+      words! Such music to an old man's
+      ears!
+
+      Please, your Majesty. This is
+      my wish as well. Allow the Prince
+      to do as he wishes.
+
+      <C_YELLOW>Dina<C_NONE>
+      ...You too, Rauel?
+
+      Very well.
+      Although it seems a dangerous
+      lesson...
+
+      <CH0>
+      Mother... thank you.
+
+      <C_YELLOW>Landor<C_NONE>
+      Don't worry, your Majesty.
+      I'll be goin' with him.
+
+      <C_YELLOW>Dina<C_NONE>
+      It would relieve me to know that
+      he'll be traveling with such a
+      strong man as yourself.
+
+      I apologize for burdening you,
+      but please look after Atlas.
+
+      <CH0>
+      You don't need to worry!
+      I'll join up with Father soon.
+
+      <C_YELLOW>Landor<C_NONE>
+      Hey, by "dragon," did she mean...?
+
+      <CH0>
+      Yeah, the ones that live in
+      Soldythe.
+
+      <C_YELLOW>Landor<C_NONE>
+      You mean you can ride 'em?
+
+      <CH0>
+      I guess so.
+      I've always wanted to ride it,
+      but no one ever let me.
+
+      <C_YELLOW>Landor<C_NONE>
+      That's incredible!!
+      Let's hurry! Wonliech, right?<END>
+      <LOC6346>There should be some equipment
+      left in the basement, Atlas.
+      Please take it with you.
+
+      And you can store anything you're
+      carrying in the armory.<END>
+      <LOC63cb>Please join his Majesty as soon
+      as you can. And be careful not to
+      get in his way.
   !!int "25632": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>フェリシア<C_NONE>
@@ -169,8 +313,11 @@
         54673
       "target_addr": !!int |-
         25632
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Felicia<C_NONE>
+      Are you all right, Atlas?
+      Bravery isn't the same thing as
+      recklessness. Think on that.
   !!int "25727": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -185,8 +332,11 @@
         54682
       "target_addr": !!int |-
         25727
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      Your Highness will be joining the
+      king to evaluate the situation?
+      Please take care.
   !!int "25819": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -201,8 +351,11 @@
         54691
       "target_addr": !!int |-
         25819
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      Your Highness had best avoid
+      dragonseggs. The area near them
+      is full of monsters.
   !!int "25913": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -216,8 +369,11 @@
         54700
       "target_addr": !!int |-
         25913
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      We haven't seen many monsters in
+      areas far from dragonseggs.
+      It would be best to avoid them.
   !!int "26018": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -232,8 +388,13 @@
         54709
       "target_addr": !!int |-
         26018
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      I haven't seen any slimes since
+      the monsters appeared.
+
+      That'll make it harder to get a
+      workout.
   !!int "26135": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -246,8 +407,10 @@
         54718
       "target_addr": !!int |-
         26135
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      Your Highness might be riding the
+      dragon? I'm jealous.
   !!int "26207": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -262,8 +425,10 @@
         54727
       "target_addr": !!int |-
         26207
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      We haven't seen many monsters nearRudia so far. Please don't worry
+      about the castle.
   !!int "26315": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -278,8 +443,11 @@
         54736
       "target_addr": !!int |-
         26315
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      Until King Selios returns, our
+      orders are to avoid conflict
+      unless the monsters strike first.
   !!int "26412": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -294,8 +462,10 @@
         54745
       "target_addr": !!int |-
         26412
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      Please stay out of trouble until
+      you've joined with King Selios.
   !!int "26490": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>教育係 ラウエル<C_NONE>
@@ -317,6 +487,19 @@
         54754
       "target_addr": !!int |-
         26490
-    "translated": !!null |-
-      null
-"_note": ""
+    "translated": |-
+      <C_YELLOW>Rauel, royal tutor<C_NONE>
+      <Xf610d6><JUMP6823>Ah, yes. Your Highness would
+      have no further need for those
+      letters.
+
+      Let me take care of them.
+
+      <ASMd61d><C_GREEN>Handed over <C_NONE><ITEM><C_GREEN>.
+      <C_NONE><ASMd625><C_GREEN>Handed over <C_NONE><ITEM><C_GREEN>.<SND0103><C_NONE>
+
+      <LOC6823>Please, your Highness. Join King
+      Selios as soon as you can, and do
+      what you can to help him.
+"_note": |-
+  Rudia 2F - Chapter 1

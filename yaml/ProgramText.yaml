@@ -1298,8 +1298,9 @@
         25166
       "target_addr": !!int |-
         7432
-    "translated": !!null |-
-      null
+    "translated": |-
+      Are you sure you want to delete
+      this save data?<RET>
   !!int "7473": !RelocatableTranslatableEntry
     "original": |-
       ゲームを終了してもよろしいですか？<RET>

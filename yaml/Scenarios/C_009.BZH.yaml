@@ -24,8 +24,23 @@
         54681
       "target_addr": !!int |-
         23406
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Old man<C_NONE>
+      <IF_NOT001b><JUMP5bc6>Welcome, Prince Atlas.
+      Please be careful not to lose
+      that Res tome.<END>
+      <LOC5bc6>Welcome, Prince Atlas.<SET001b><Xf8977417><JUMP5c47>
+      Oh, did you already purchase a
+      Res tome?
+
+      If you had only spoken to me
+      first. I could have given you
+      one free of charge...<END>
+      <LOC5c47> Do you not
+      have a Res tome? That must be
+      inconvenient. Please, take this.
+
+      <Xf197><C_GREEN>Received the <C_NONE><ITEM><C_GREEN>.<SND0103><C_NONE>
   !!int "23715": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>侍女<C_NONE>
@@ -40,8 +55,11 @@
         54690
       "target_addr": !!int |-
         23715
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Maid<C_NONE>
+      I guess your Highness won't be
+      having many good meals on the
+      road.
   !!int "23794": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>侍女<C_NONE>
@@ -55,8 +73,11 @@
         54699
       "target_addr": !!int |-
         23794
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Maid<C_NONE>
+      Busy, busy...
+      Oh, your Highness! What can I do
+      for you?
   !!int "23856": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -71,8 +92,10 @@
         54708
       "target_addr": !!int |-
         23856
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      <IF0400><JUMP5d72>Take care, your Highness!<END>
+      <LOC5d72>Welcome home, your Highness!
   !!int "23958": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -86,8 +109,10 @@
         54717
       "target_addr": !!int |-
         23958
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      I'm happy to see that your
+      Highness is well.
   !!int "24014": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -101,8 +126,10 @@
         54726
       "target_addr": !!int |-
         24014
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      Did your Highness need something
+      from the treasure room?
   !!int "24068": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -122,6 +149,15 @@
         54735
       "target_addr": !!int |-
         24068
-    "translated": !!null |-
-      null
-"_note": ""
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      <IF0015><JUMP5e8f>I saw them, your Highness! The
+      strongest weapons in the world--
+      the Swords of Light!
+
+      King Selios retrieved them when
+      he left.<END>
+      <LOC5e8f>I wonder what happened to the
+      Swords of Light the king had?
+"_note": |-
+  Rudia 1F - Chapter 1

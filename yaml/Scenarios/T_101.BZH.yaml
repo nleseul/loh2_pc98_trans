@@ -20,10 +20,10 @@
         23481
     "translated": |-
       <C_YELLOW>Captain<C_NONE>
-      You don't gotta worry about my
-      ship havin' trouble again. The
-      repairman was just bein' careless.
-      <PAGE>
+      Don't worry; my ship won't have
+      any more trouble. The repairman
+      was just doin' shoddy work.
+
       That Bob, bein' a slacker...
       Unbelievable!
   !!int "23608": !RelocatableTranslatableEntry
@@ -74,7 +74,7 @@
       "target_addr": !!int |-
         23823
     "translated": |-
-      <C_YELLOW>Bob repairman<C_NONE>
+      <C_YELLOW>Bob, repairman<C_NONE>
       I've been maintaining the ship
       to Neria for a while, but I guess
       my repairs weren't that thorough.

@@ -18,14 +18,20 @@
         54644
       "target_addr": !!int |-
         23022
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      Your Highness!
+      <IF0400><JUMP5a51><IF0015><JUMP5a64>Given the danger, please <IF00f0><JUMP0100><CALL5a88><JUMP0101><LOC0100>try<LOC0101>
+      to stay away from dragonseggs.<END>
+      <LOC5a51>Welcome back.<END>
+      <LOC5a64>Please take care.
   !!int "23176": !RelocatableTranslatableEntry
     "original": |-
       まだ <RET>
     "original_byte_length": !!int |-
       6
     "references": []
-    "translated": !!null |-
-      null
-"_note": ""
+    "translated": |-
+      continue<RET>
+"_note": |-
+  Rudia gates - Chapter 1

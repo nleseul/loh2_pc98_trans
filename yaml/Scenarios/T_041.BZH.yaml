@@ -15,8 +15,10 @@
         54843
       "target_addr": !!int |-
         23508
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Child<C_NONE>
+      Monsters're scary, right? When're
+      they going to go away? It's boringnot being able to leave town.
   !!int "23606": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -34,8 +36,13 @@
         54852
       "target_addr": !!int |-
         23606
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Man<C_NONE>
+      I'm a trader, so I'm often in
+      Wonliech to do business.
+
+      The monsters are causing an uproarover there too, naturally. What
+      the heck is going on?
   !!int "23771": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
