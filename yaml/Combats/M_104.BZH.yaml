@@ -7,29 +7,29 @@
       16
     "original": |-
       チャンタラーＡ<RET>
-    "translated": !!null |-
-      null
+    "translated": |-
+      Chantalla A<RET>
   !!int "29104": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       チャンタラーＢ<RET>
-    "translated": !!null |-
-      null
+    "translated": |-
+      Chantalla B<RET>
   !!int "29168": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       チャンタラーＣ<RET>
-    "translated": !!null |-
-      null
+    "translated": |-
+      Chantalla C<RET>
   !!int "29232": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       チャンタラーＤ<RET>
-    "translated": !!null |-
-      null
+    "translated": |-
+      Chantalla D<RET>
   !!int "29510": !RelocatableTranslatableEntry
     "original": |-
       チャンタラーが現れた。<RET_N>
@@ -41,8 +41,8 @@
         61000
       "target_addr": !!int |-
         29510
-    "translated": !!null |-
-      null
+    "translated": |-
+      Chantallas appear.<RET_N>
   !!int "29533": !RelocatableTranslatableEntry
     "original": |-
       は 触手をのばした。<RET_PAGE>
@@ -54,8 +54,8 @@
         61093
       "target_addr": !!int |-
         29533
-    "translated": !!null |-
-      null
+    "translated": |2-
+       extends a tentacle.<RET_PAGE>
   !!int "29553": !RelocatableTranslatableEntry
     "original": |-
       の触手が<ACTOR>の体にからみついた !!<RET_PAGE>
@@ -67,8 +67,9 @@
         61138
       "target_addr": !!int |-
         29553
-    "translated": !!null |-
-      null
+    "translated": |-
+      's tentacle wraps
+      around <ACTOR>!<RET_PAGE>
   !!int "29584": !RelocatableTranslatableEntry
     "original": |-
       <ACTOR>は 皮をむいて
@@ -81,6 +82,7 @@
         61168
       "target_addr": !!int |-
         29584
-    "translated": !!null |-
-      null
+    "translated": |-
+      <ACTOR>'s flesh opens and
+      emits a foul odor!<RET_N>
 "_note": ""

@@ -69,8 +69,21 @@
         54861
       "target_addr": !!int |-
         23771
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Man<C_NONE>
+      A while ago, I went all the way
+      to Crus, thinking I'd have a look
+      at those monsters.
+
+      With my 7 Disaster Charms, I felt
+      totally safe.
+
+      I just don't understand how those
+      monsters could attack me. And then,when I was frantically fleeing,
+      I hurt myself tripping on a rock.
+
+      All those Disaster Charms I bought,and they were completely useless!
+      I got scammed by that merchant!
   !!int "24130": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>女<C_NONE>
@@ -85,8 +98,11 @@
         54870
       "target_addr": !!int |-
         24130
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Woman<C_NONE>
+      People are saying that Disaster
+      Charms were a scam. I'm glad I
+      didn't buy one.
   !!int "24204": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>老人<C_NONE>
@@ -101,8 +117,9 @@
         54879
       "target_addr": !!int |-
         24204
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Old man<C_NONE>
+      Hmph! I knew those Disaster Charmswere a scam! Didn't I tell ya?
   !!int "24299": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -119,8 +136,14 @@
         54888
       "target_addr": !!int |-
         24299
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Man<C_NONE>
+      The ship for Rondo will be
+      departing shortly. Please board atyour earliest convenience.
+
+      There are no monsters at sea,
+      we think, so there is no cause
+      for concern.
   !!int "24447": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -138,8 +161,14 @@
         54784
       "target_addr": !!int |-
         24447
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Man<C_NONE>
+      Please have your ticket ready.
+      <PAGE>
+      <Xf8287417><JUMP5feb>Will you be boarding the ship?
+      <Xf69229><JUMP602a><Xf9000200><ASM6b26><Xf828af17><JUMP5feb><Xf028><SET0400>Handed over the <ITEM>.<SND0103><END>
+      <LOC5feb>I can't let you board without one.Please purchase your ticket
+      over there.<LOC602a>
   !!int "24619": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>女<C_NONE>
@@ -161,8 +190,23 @@
         54894
       "target_addr": !!int |-
         24619
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Woman<C_NONE>
+      Welcome. If you will be boarding
+      the ship, please buy your ticket
+      here. They are 100 gold each.
+
+      <CHECK_MONEY61a8><JUMP6159><Xf65317><JUMP6178>Will you be buying a ticket?<Xf69229><JUMP610d><TAKE_MONEY61a8><Xf128><CLEAR>You won't be able to board the
+      ship without your ticket, so
+      please take care not to lose it.<END>
+      <LOC610d><CLEAR>Oh, I see...
+      But if you don't have a ticket,
+      you won't be able to board the
+      ship. You know that, right?<END>
+      <LOC6159>But I'm afraid you don't have
+      enough money for one.<END>
+      <LOC6178>But it doesn't look like you're
+      able to carry any more.
   !!int "25000": !RelocatableRawDataEntry
     "data": !!binary |
       ZAAAAA==
@@ -190,8 +234,18 @@
         54900
       "target_addr": !!int |-
         25004
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Innkeeper<C_NONE>
+      The King himself once stayed in
+      this inn, you know.
+      It'll be 100 gold a night.
+
+      <CHECK_MONEY62e6><JUMP62ae>Is that okay?<Xf69229><JUMP6270><TAKE_MONEY62e6><SET0401><ASMd6e1><CLEAR>Thank you very much.
+      Have a pleasant stay.<END>
+      <LOC6270><CLEAR>Even though the King once stayed
+      here? Very well...<END>
+      <LOC62ae>You don't have enough money.
+      Please come again.
   !!int "25318": !RelocatableRawDataEntry
     "data": !!binary |
       ZAAAAA==
@@ -213,8 +267,15 @@
         54906
       "target_addr": !!int |-
         25322
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Weapon merchant<C_NONE>
+      I haven't received any materials
+      due to the cave-in at Belga Mine.
+
+      Please come back when the cave-in
+      has been cleared, and I guarantee
+      I'll have some strong weapons for
+      you.
   !!int "25466": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>道具屋<C_NONE>
@@ -228,8 +289,9 @@
         54918
       "target_addr": !!int |-
         25466
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Tool merchant<C_NONE>
+      Welcome! What can I do for you?<RET_N>
   !!int "25522": !RelocatableTranslatableEntry
     "original": |-
       また来てくださいね。
@@ -241,8 +303,8 @@
         54945
       "target_addr": !!int |-
         25522
-    "translated": !!null |-
-      null
+    "translated": |-
+      Please come again!
   !!int "25543": !RelocatableTranslatableEntry
     "original": |-
       おや？これ以上持てないようですね。
@@ -256,8 +318,10 @@
         25762
       "target_addr": !!int |-
         25543
-    "translated": !!null |-
-      null
+    "translated": |-
+      You don't have any room for it.
+
+      <RET>
   !!int "25579": !RelocatableTranslatableEntry
     "original": |-
       どれを買ってくれますか？
@@ -270,8 +334,9 @@
         25764
       "target_addr": !!int |-
         25579
-    "translated": !!null |-
-      null
+    "translated": |-
+      What would you like to buy?
+      <RET_N>
   !!int "25605": !RelocatableTranslatableEntry
     "original": |-
       <ITEM>だね。
@@ -286,8 +351,11 @@
         25766
       "target_addr": !!int |-
         25605
-    "translated": !!null |-
-      null
+    "translated": |-
+      The <ITEM>?
+      Thank you very much!
+
+      <RET>
   !!int "25642": !RelocatableTranslatableEntry
     "original": |-
       どれを 売ってくれますか？
@@ -300,8 +368,9 @@
         25634
       "target_addr": !!int |-
         25642
-    "translated": !!null |-
-      null
+    "translated": |-
+      What would you like to sell?
+      <RET_N>
   !!int "25669": !RelocatableTranslatableEntry
     "original": |2-
        Gold になるけど
@@ -315,8 +384,10 @@
         25636
       "target_addr": !!int |-
         25669
-    "translated": !!null |-
-      null
+    "translated": |2-
+       gold.
+      Will that be okay?
+      <RET_N>
   !!int "25713": !RelocatableTranslatableEntry
     "original": |-
       それは残念です。
@@ -330,8 +401,10 @@
         25638
       "target_addr": !!int |-
         25713
-    "translated": !!null |-
-      null
+    "translated": |-
+      That's too bad.
+
+      <RET_N>
   !!int "25731": !RelocatableTranslatableEntry
     "original": |-
       どうも ありがとうございます。
@@ -344,6 +417,7 @@
         25640
       "target_addr": !!int |-
         25731
-    "translated": !!null |-
-      null
+    "translated": |-
+      Thank you very much.
+      <RET_N>
 "_note": ""
