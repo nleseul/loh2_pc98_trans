@@ -122,8 +122,39 @@
         54686
       "target_addr": !!int |-
         23693
-    "translated": !!null |-
-      null
+    "translated": |-
+      <IF_NOT0058><JUMP5c9f><C_YELLOW>Sonia<C_NONE>
+      <JUMP5e81><LOC5c9f><SET0058><Xf52c0000><ASM1ae6><Xf7><C_YELLOW>Sonia<C_NONE>
+      I'm glad to see you safe,
+      Prince Atlas.
+
+      I don't suppose Selios has said
+      anything about these monsters?
+
+      <CH0>
+      <IF005a><JUMP5dc2><SET005a>Do you mean he hasn't been here
+      yet?
+
+      <C_YELLOW>Sonia<C_NONE>
+      No, we haven't seen him.
+      What is he up to?
+
+      <CH0>
+      Oh...
+
+      <LOC5dc2>Father agrees with King Aerion
+      that the same thing must be
+      happening all over the world.
+
+      So he's riding the dragon to checkon the situation everywhere else.
+
+      <C_YELLOW>Sonia<C_NONE>
+      I see. I'm not surprised...
+      <LOC5e81>We're handing the kingdom's
+      affairs from here for now.
+
+      If you learn anything else,
+      please come and let us know.
   !!int "24300": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ポウエル<C_NONE>
@@ -141,8 +172,13 @@
         54695
       "target_addr": !!int |-
         24300
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Poul<C_NONE>
+      Selis and Nashieu have been
+      destroyed by the monsters.
+
+      And the people are in a panic.
+      If we don't do something soon...
   !!int "24444": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>チャールズ王子<C_NONE>
@@ -160,8 +196,13 @@
         54704
       "target_addr": !!int |-
         24444
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Prince Charles<C_NONE>
+      Everyone says they're too busy
+      to play.
+
+      I wish I was bigger, so I could
+      help Father with his tack-ticks.
   !!int "24598": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>侍女<C_NONE>
@@ -176,8 +217,10 @@
         54713
       "target_addr": !!int |-
         24598
-    "translated": !!null |-
-      null
+    "translated": |
+      <C_YELLOW>Maid<C_NONE>
+      I'm glad we evacuated, but I wish
+      we could've gone somewhere bigger.
   !!int "24686": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>侍女<C_NONE>
@@ -191,8 +234,11 @@
         54722
       "target_addr": !!int |-
         24686
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Maid<C_NONE>
+      It's not that small, but compared
+      to the castle... Not to mention
+      the state of the kitchen...
   !!int "24782": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -208,8 +254,12 @@
         54731
       "target_addr": !!int |-
         24782
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      Where has our High Priestess gone
+      off to?
+
+      No one but Barbara can talk to theGoddess Freya...
   !!int "24905": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -223,8 +273,11 @@
         54740
       "target_addr": !!int |-
         24905
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      Welcome, Prince Atlas.
+      Since this place was available,
+      we're borrowing it for operations.
   !!int "25002": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -239,8 +292,10 @@
         54749
       "target_addr": !!int |-
         25002
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      Welcome, Prince Atlas.
+      King Aerion is inside.
   !!int "25078": !RelocatableTranslatableEntry
     "original": |-
       <IF005b><JUMP6410><Xf52c0000><ASM1ae6><Xf7><SET005b><C_YELLOW>エリオン<C_NONE>

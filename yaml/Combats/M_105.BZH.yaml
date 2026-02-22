@@ -14,15 +14,15 @@
       16
     "original": |-
       デスバードＡ<RET>
-    "translated": !!null |-
-      null
+    "translated": |-
+      Death Bird A<RET>
   !!int "29168": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       デスバードＢ<RET>
-    "translated": !!null |-
-      null
+    "translated": |-
+      Death Bird B<RET>
   !!int "29232": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
@@ -41,8 +41,8 @@
         61000
       "target_addr": !!int |-
         29675
-    "translated": !!null |-
-      null
+    "translated": |-
+      Death birds and chantallas appear.<RET_N>
   !!int "29710": !RelocatableTranslatableEntry
     "original": |-
       は触手をのばした。<RET_PAGE>
@@ -96,8 +96,8 @@
         61254
       "target_addr": !!int |-
         29792
-    "translated": !!null |-
-      null
+    "translated": |2-
+       is resting.<RET_PAGE>
   !!int "29807": !RelocatableTranslatableEntry
     "original": |-
       は目がさめた。<RET_N>
@@ -109,6 +109,7 @@
         61272
       "target_addr": !!int |-
         29807
-    "translated": !!null |-
-      null
-"_note": ""
+    "translated": |2-
+       wakes up.<RET_N>
+"_note": |-
+  Death Bird/Chantalla

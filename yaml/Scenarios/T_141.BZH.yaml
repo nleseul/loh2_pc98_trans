@@ -16,8 +16,10 @@
         54633
       "target_addr": !!int |-
         23324
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      Duke Jestonn is on the second
+      floor. Please enter, Your Highness.
   !!int "23419": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -37,8 +39,15 @@
         54642
       "target_addr": !!int |-
         23419
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Man<C_NONE>
+      When all is veiled in darkness,
+      the Crimson Dragon will hatch fromthe dragonseggs and burn away evil.
+
+      Have you ever heard that legend?
+      It's what my father always said,
+      but this different! Those
+      monsters... I can't believe it!
   !!int "23622": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -57,8 +66,14 @@
         54651
       "target_addr": !!int |-
         23622
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Man<C_NONE>
+      Listen! I saw' em!
+      The candidates for Duke Jestonn's
+      successor!!
+
+      Don't tell anyone I said this, butnone of 'em make me feel good. Andwith monsters outside, what's
+      gonna happen to Wonliech?
   !!int "23815": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>女<C_NONE>
@@ -76,8 +91,15 @@
         54660
       "target_addr": !!int |-
         23815
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Woman<C_NONE>
+      My kid's got some new playmates.
+      Two boys who fled from Maschun.
+
+      I hear their mother escaped to
+      Larfa and they got separated from
+      her, though. I hope they get
+      reunited soon.
   !!int "23998": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>老人<C_NONE>
@@ -95,8 +117,14 @@
         54669
       "target_addr": !!int |-
         23998
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Old man<C_NONE>
+      I knew that earthquake was a sign
+      that the dragonseggs were going
+      to hatch!
+
+      I sure didn't expect 'em to hatch
+      into monsters, though.
   !!int "24140": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>フォルス<C_NONE>
@@ -113,8 +141,15 @@
         54678
       "target_addr": !!int |-
         24140
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Foless<C_NONE>
+      Ha ha ha...
+      It's great to see kids so full
+      of energy!
+
+      I brought these two with me when Iescaped from Maschun. I think
+      their mother's in Larfa, but I'm
+      sure she'll get here soon.
   !!int "24332": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>エリック<C_NONE>
@@ -128,8 +163,10 @@
         54687
       "target_addr": !!int |-
         24332
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Erich<C_NONE>
+      I used to live in this town. It
+      feels strange to be back.
   !!int "24415": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>子供<C_NONE>
@@ -147,8 +184,13 @@
         54696
       "target_addr": !!int |-
         24415
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Child<C_NONE>
+      Mom said not to leave town becauseof the scary monsters.
+
+      But there's other kids to play
+      with in town now, so it's fun
+      here too.
   !!int "24572": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>子供<C_NONE>
@@ -162,8 +204,10 @@
         54705
       "target_addr": !!int |-
         24572
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Child<C_NONE>
+      My mom's in Larfa. But I made
+      friends, so I'm not lonely.
   !!int "24674": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>子供<C_NONE>
@@ -177,8 +221,10 @@
         54714
       "target_addr": !!int |-
         24674
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Child<C_NONE>
+      We've only ever done hide-and-seekwith 2. But it's even more fun
+      with 3!
   !!int "24771": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>武器屋<C_NONE>
@@ -191,8 +237,9 @@
         54726
       "target_addr": !!int |-
         24771
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Weapon merchant<C_NONE>
+      Welcome!<RET_N>
   !!int "24800": !RelocatableTranslatableEntry
     "original": |-
       またどうぞ。
@@ -204,8 +251,8 @@
         54738
       "target_addr": !!int |-
         24800
-    "translated": !!null |-
-      null
+    "translated": |-
+      Come again!
   !!int "24813": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>道具屋<C_NONE>
@@ -219,8 +266,9 @@
         54750
       "target_addr": !!int |-
         24813
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Tool merchant<C_NONE>
+      Welcome! What can I do for you?<RET_N>
   !!int "24869": !RelocatableTranslatableEntry
     "original": |-
       また来てくださいね。
@@ -232,8 +280,8 @@
         54777
       "target_addr": !!int |-
         24869
-    "translated": !!null |-
-      null
+    "translated": |-
+      Please come again!
   !!int "24890": !RelocatableTranslatableEntry
     "original": |-
       おや？これ以上持てないようですね。
@@ -247,8 +295,10 @@
         25110
       "target_addr": !!int |-
         24890
-    "translated": !!null |-
-      null
+    "translated": |-
+      You don't have any room for it.
+
+      <RET>
   !!int "24926": !RelocatableTranslatableEntry
     "original": |-
       どれを買ってくれますか？
@@ -261,8 +311,9 @@
         25112
       "target_addr": !!int |-
         24926
-    "translated": !!null |-
-      null
+    "translated": |-
+      What would you like to buy?
+      <RET_N>
   !!int "24952": !RelocatableTranslatableEntry
     "original": |-
       <ITEM>だね。
@@ -277,8 +328,11 @@
         25114
       "target_addr": !!int |-
         24952
-    "translated": !!null |-
-      null
+    "translated": |-
+      The <ITEM>?
+      Thank you very much!
+
+      <RET>
   !!int "24989": !RelocatableTranslatableEntry
     "original": |-
       どれを 売ってくれますか？
@@ -291,8 +345,9 @@
         24981
       "target_addr": !!int |-
         24989
-    "translated": !!null |-
-      null
+    "translated": |-
+      What would you like to sell?
+      <RET_N>
   !!int "25016": !RelocatableTranslatableEntry
     "original": |2-
        Gold になるけど
@@ -306,8 +361,10 @@
         24983
       "target_addr": !!int |-
         25016
-    "translated": !!null |-
-      null
+    "translated": |-
+      gold.
+      Will that be okay?
+      <RET_N>
   !!int "25060": !RelocatableTranslatableEntry
     "original": |-
       それは残念です。
@@ -321,8 +378,10 @@
         24985
       "target_addr": !!int |-
         25060
-    "translated": !!null |-
-      null
+    "translated": |-
+      That's too bad.
+
+      <RET_N>
   !!int "25078": !RelocatableTranslatableEntry
     "original": |-
       どうも ありがとうございます。
@@ -335,6 +394,8 @@
         24987
       "target_addr": !!int |-
         25078
-    "translated": !!null |-
-      null
-"_note": ""
+    "translated": |-
+      Thank you very much.
+      <RET_N>
+"_note": |-
+  Riezel town - Chapter 1

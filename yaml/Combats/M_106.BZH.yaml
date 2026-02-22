@@ -7,29 +7,29 @@
       16
     "original": |-
       カイザーＡ<RET>
-    "translated": !!null |-
-      null
+    "translated": |-
+      Kaizer A<RET>
   !!int "29104": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       カイザーＢ<RET>
-    "translated": !!null |-
-      null
+    "translated": |-
+      Kaizer B<RET>
   !!int "29168": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       カイザーＣ<RET>
-    "translated": !!null |-
-      null
+    "translated": |-
+      Kaizer C<RET>
   !!int "29232": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       トンキィ<RET>
-    "translated": !!null |-
-      null
+    "translated": |-
+      Tonkiy<RET>
   !!int "29612": !RelocatableTranslatableEntry
     "original": |-
       カイザーとトンキィが現れた。<RET_N>
@@ -41,8 +41,8 @@
         61000
       "target_addr": !!int |-
         29612
-    "translated": !!null |-
-      null
+    "translated": |-
+      Kaizers and a tonkiy appear.<RET_N>
   !!int "29641": !RelocatableTranslatableEntry
     "original": |-
       は 長い腕が絡まって
@@ -55,8 +55,9 @@
         61133
       "target_addr": !!int |-
         29641
-    "translated": !!null |-
-      null
+    "translated": |-
+      's long arms get tangled
+      up so it can't move.<RET_PAGE>
   !!int "29678": !RelocatableTranslatableEntry
     "original": |-
       <ACTOR>は腕が絡まっている。<RET_PAGE>
@@ -68,8 +69,8 @@
         61139
       "target_addr": !!int |-
         29678
-    "translated": !!null |-
-      null
+    "translated": |-
+      <ACTOR>'s arms are tangled.<RET_PAGE>
   !!int "29700": !RelocatableTranslatableEntry
     "original": |-
       は<RET>
@@ -82,6 +83,8 @@
         61250
       "target_addr": !!int |-
         29700
-    "translated": !!null |-
-      null
-"_note": ""
+    "translated": |-
+      <RET>
+      <CONT> untangles <ACTOR>'s arms.<RET_PAGE>
+"_note": |-
+  Kaizer/Tonkiy
