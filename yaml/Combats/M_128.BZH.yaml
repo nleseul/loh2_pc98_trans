@@ -7,29 +7,29 @@
       16
     "original": |-
       ビジョーＡ<RET>
-    "translated": !!null |-
-      null
+    "translated": |-
+      Bijou A<RET>
   !!int "29104": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       ビジョーＢ<RET>
-    "translated": !!null |-
-      null
+    "translated": |-
+      Bijou B<RET>
   !!int "29168": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       ビジョーＣ<RET>
-    "translated": !!null |-
-      null
+    "translated": |-
+      Bijou C<RET>
   !!int "29232": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       ビジョーＤ<RET>
-    "translated": !!null |-
-      null
+    "translated": |-
+      Bijou D<RET>
   !!int "29746": !RelocatableTranslatableEntry
     "original": |-
       ビジョーが現れた。<RET_N>
@@ -41,8 +41,8 @@
         61000
       "target_addr": !!int |-
         29746
-    "translated": !!null |-
-      null
+    "translated": |-
+      Bijous appear.<RET_N>
   !!int "29765": !RelocatableTranslatableEntry
     "original": |-
       ビジョーは<ACTOR>をほめたたえて拍手をしている。<RET_N>
@@ -54,8 +54,8 @@
         61275
       "target_addr": !!int |-
         29765
-    "translated": !!null |-
-      null
+    "translated": |-
+      The bijous clap and praise <ACTOR>.<RET_N>
   !!int "29807": !RelocatableTranslatableEntry
     "original": |-
       <ACTOR>はてれている。<RET_N>
@@ -67,8 +67,8 @@
         61312
       "target_addr": !!int |-
         29807
-    "translated": !!null |-
-      null
+    "translated": |-
+      <ACTOR> is embarassed.<RET_N>
   !!int "29823": !RelocatableTranslatableEntry
     "original": |-
       <ACTOR>はひとりでよろこんでいる。<RET_N>
@@ -80,6 +80,7 @@
         61242
       "target_addr": !!int |-
         29823
-    "translated": !!null |-
-      null
-"_note": ""
+    "translated": |-
+      <ACTOR> celebrates on its own.<RET_N>
+"_note": |-
+  Bijous

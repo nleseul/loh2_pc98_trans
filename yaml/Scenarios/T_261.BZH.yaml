@@ -81,8 +81,20 @@
         54645
       "target_addr": !!int |-
         23884
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Man<C_NONE>
+      <IF0407><JUMP5dc4>I was the foreman on the
+      construction project that built
+      this town.
+
+      It's been a pleasure watching the
+      town grow.<END>
+      <LOC5dc4><SET0091>The soldier who operates the
+      bridge fell in the river.
+
+      Another soldier went after him to
+      help. I wonder if they're all
+      right. That current is strong...
   !!int "24145": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>女<C_NONE>
@@ -99,8 +111,13 @@
         54654
       "target_addr": !!int |-
         24145
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Woman<C_NONE>
+      I wonder if the Goddess Freya
+      really exists?
+
+      If there were a Goddess, there
+      wouldn't be monsters coming out ofdragonseggs, would there?
   !!int "24280": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>子供<C_NONE>
@@ -114,8 +131,11 @@
         54663
       "target_addr": !!int |-
         24280
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Child<C_NONE>
+      The river's really fast. When I
+      cross the bridge with mom, I'm
+      always scared of falling.
   !!int "24384": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>老人<C_NONE>
@@ -129,8 +149,11 @@
         54672
       "target_addr": !!int |-
         24384
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Old man<C_NONE>
+      What terrible times...
+      This can only be the work of that
+      demon! Is it being reborn...?
   !!int "24488": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>道具屋<C_NONE>
@@ -144,8 +167,9 @@
         54684
       "target_addr": !!int |-
         24488
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Tool merchant<C_NONE>
+      Welcome! What can I do for you?<RET_N>
   !!int "24544": !RelocatableTranslatableEntry
     "original": |-
       また来てくださいね。
@@ -157,8 +181,8 @@
         54711
       "target_addr": !!int |-
         24544
-    "translated": !!null |-
-      null
+    "translated": |-
+      Please come again!
   !!int "24565": !RelocatableTranslatableEntry
     "original": |-
       おや？これ以上持てないようですね。
@@ -172,8 +196,10 @@
         24784
       "target_addr": !!int |-
         24565
-    "translated": !!null |-
-      null
+    "translated": |-
+      You don't have any room for it.
+
+      <RET>
   !!int "24601": !RelocatableTranslatableEntry
     "original": |-
       どれを買ってくれますか？
@@ -186,8 +212,9 @@
         24786
       "target_addr": !!int |-
         24601
-    "translated": !!null |-
-      null
+    "translated": |-
+      What would you like to buy?
+      <RET_N>
   !!int "24627": !RelocatableTranslatableEntry
     "original": |-
       <ITEM>だね。
@@ -202,8 +229,11 @@
         24788
       "target_addr": !!int |-
         24627
-    "translated": !!null |-
-      null
+    "translated": |-
+      The <ITEM>?
+      Thank you very much!
+
+      <RET>
   !!int "24664": !RelocatableTranslatableEntry
     "original": |-
       どれを 売ってくれますか？
@@ -216,8 +246,9 @@
         24656
       "target_addr": !!int |-
         24664
-    "translated": !!null |-
-      null
+    "translated": |-
+      What would you like to sell?
+      <RET_N>
   !!int "24691": !RelocatableTranslatableEntry
     "original": |2-
        Gold になるけど
@@ -231,8 +262,10 @@
         24658
       "target_addr": !!int |-
         24691
-    "translated": !!null |-
-      null
+    "translated": |-
+      gold.
+      Will that be okay?
+      <RET_N>
   !!int "24735": !RelocatableTranslatableEntry
     "original": |-
       それは残念です。
@@ -246,8 +279,10 @@
         24660
       "target_addr": !!int |-
         24735
-    "translated": !!null |-
-      null
+    "translated": |-
+      That's too bad.
+
+      <RET_N>
   !!int "24753": !RelocatableTranslatableEntry
     "original": |-
       どうも ありがとうございます。
@@ -260,6 +295,8 @@
         24662
       "target_addr": !!int |-
         24753
-    "translated": !!null |-
-      null
-"_note": ""
+    "translated": |-
+      Thank you very much.
+      <RET_N>
+"_note": |-
+  Sedar - Chapter 1

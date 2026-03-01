@@ -13,6 +13,6 @@
         54713
       "target_addr": !!int |-
         24024
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_GREEN>The door is locked.<C_NONE>
 "_note": ""

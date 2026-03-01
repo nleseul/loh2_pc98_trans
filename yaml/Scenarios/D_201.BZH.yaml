@@ -13,8 +13,8 @@
         54782
       "target_addr": !!int |-
         23871
-    "translated": !!null |-
-      null
+    "translated": |-
+      Aieeee!!
   !!int "23886": !RelocatableTranslatableEntry
     "original": |-
       <CH2>
@@ -41,8 +41,22 @@
         54819
       "target_addr": !!int |-
         23886
-    "translated": !!null |-
-      null
+    "translated": |-
+      <CH2>
+      Oh! It's you!<WAIT>
+      P-please help me!!
+
+      <CH0>
+      With what?<WAIT>
+      What happened to you?
+
+      <CH2>
+      A monster is chasing me.
+
+      Please! Help me!
+
+      <CH1>
+      Okay, we'll take care of it.
   !!int "24082": !RelocatableTranslatableEntry
     "original": |-
       <CH0>
@@ -238,8 +252,49 @@
         54849
       "target_addr": !!int |-
         24082
-    "translated": !!null |-
-      null
+    "translated": "<CH0>\nAre you hurt?\n\n<CH2>\nNo, there's nothing serious.\nBut\
+      \ you have my deepest gratitude\nfor saving me.\n\n<CH0>\nDon't worry about\
+      \ it. That's why\nwe came, after all.\n\n<CH2>\nWhat?!\nYou mean you knew I\
+      \ was here?\n\n<CH0>\nA soldier happened across your\nWarp Wing.\n\nBut why\
+      \ would you be in such a\ndangerous place by yourself?\n\n<CH2>\nWell, I...<WAIT>\n\
+      No, I had best not say.\n\n<CH1>\nOh-ho! I get it.\nUp to somethin' naughty,\
+      \ are you,\nyoung lady?\n\n<CH2>\nOf course not!\nI would not do such things.\n\
+      \n<CH0>\nLandor!!\nI'm sure there's no way she'd\never do anything bad.\n\n\
+      <CH1>\nSo, just your standard runaway?\n\n<CH2>\nI suppose it's true that I\n\
+      did run away, but...\n\n<CH0>\nBut you had some reason, right?\nDo you mind\
+      \ telling us?\n\n<CH2>\nWell... I...\nNo, you would only laugh.\n\n<CH0>\nI\
+      \ wouldn't! A girl like you\nwouldn't run away from home unlessit was for something\
+      \ important.\n\n<CH2>\nI am looking for Freya.\n\n<CH1>\nWhaー?! What do you\
+      \ mean?\n\n<CH2>\nThe Goddess Freya is calling me.\n\n<CH1>\nC'mon! Do you have\
+      \ any idea what\nyou're sayin'?\n\n<CH2>\nYes. I am aware.\nIt sounds strange\
+      \ even to me.\nBut the Goddess is calling me.\n\n<CH0>\nHow can you know that?\n\
+      \n<CH2>\nThe monsters attacked Nashieu, andmy family escaped to our villa\n\
+      in Sele.\n\nAnd then, that night, Freya\nappeared and gazed directly at me.\n\
+      \nI spoke to Her, but she did not\nanswer. She stayed silent.\nBut her face\
+      \ was deeply sad, as\nthough She wished to speak.\n\n<CH1>\nSo it was just one\
+      \ of those dreams,right?\n\n<CH2>\nSo I thought, when I woke.\nBut then she\
+      \ continued to\nappear, night after night.\n\nAnd so I came to realize.\nFreya\
+      \ was asking for my help.\n\n<CH1>\nHmm... So what kind of help\nwould a Goddess\
+      \ need, exactly?\n\nAnd do you even have any idea\nwhere she is?\n\n<CH2>\n\
+      Well... no.\n\nI just found myself coming to\nthis cave.\n\nBut I do not think\
+      \ She is here.\nShe is somewhere much further...\nor much closer...\n\n<CH1>\n\
+      Huh? ...Well, obviously, you don'tknow where to look, do you?\n\n<CH2>\nNo.\
+      \ I wish I did, but...\n\n<CH1>\nSo it's not much use looking,\nis it?\n\n<CH2>\n\
+      No...<WAIT>\nBut I thought She would appear\nagain and instruct me further.\n\
+      \n<CH1>\nYou're gonna keep on wanderin'\naround even after this happened,\n\
+      aren't you?\n\nIt's not just here! Monsters're\nswarming out of dragonseggs\
+      \ too.\n\nC'mon, Flora! You should head homebefore somethin' happens to you.\n\
+      \n<CH2>\nI thank you for your advice.<WAIT>\nBut, no matter what happens, I\n\
+      must find Freya.\n\n<CH1>\nUgh... Stubborn girl.\n\n<CH0>\nWhat about this,\
+      \ Landor?\n\nIt's thanks to her that we got\ninto Selis Castle. So what if she\n\
+      comes to Soldythe with us?\n\nMy father should be at Vasnune\nCastle.\n\nYou\
+      \ can tell him about your dream,and ask him if he sees some kind\nof clue in\
+      \ it.\n\n<CH2>\nReally?!\nThank you so much.\n\n<SET0090><ASMd838><Xf7><C_GREEN>Flora\
+      \ joins the party.<SND0103><C_NONE>\n\nUm... I apologize for mentioning\nthis,\
+      \ but...\n\nI expect my father will use his\ninfluence to ensure that the \n\
+      guards at the border will stop\nme from leaving Lanoura.\n\n<CH1>\nLook, Atlas,\
+      \ this is a bad idea.\nWe really shouldn't push our luck.\n\n<CH0>\nNo, don't\
+      \ worry. I'm sure we can\nfigure out a way."
   !!int "27126": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>プルダーム<C_NONE>
@@ -254,6 +309,10 @@
         54863
       "target_addr": !!int |-
         27126
-    "translated": !!null |-
-      null
-"_note": ""
+    "translated": |-
+      <C_YELLOW>Puldarm<C_NONE>
+      How dare you enter my home
+      uninvited!<WAIT>
+      I won't just let you leave!
+"_note": |-
+  Royal Tomb - Boss room

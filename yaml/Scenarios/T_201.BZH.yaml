@@ -334,7 +334,38 @@
         54758
       "target_addr": !!int |-
         25078
-    "translated": !!null |-
-      null
+    "translated": |-
+      <IF005b><JUMP6410><Xf52c0000><ASM1ae6><Xf7><SET005b><C_YELLOW>Aerion<C_NONE>
+      I am glad to see your Highness
+      safe. Has King Selios said
+      anything?
+
+      <CH0>
+      <IF005a><JUMP62e8><SET005a>Do you mean he hasn't been here
+      yet?
+
+      <C_YELLOW>Aerion<C_NONE>
+      No, we have not seen him.
+
+      <CH0>
+      Oh...
+
+      <LOC62e8>Father agrees with your Majesty
+      that the same thing must be
+      happening all over the world.
+
+      So he's riding the dragon to checkon the situation everywhere else.
+
+      <C_YELLOW>Aerion<C_NONE>
+      I would expect no less...
+
+      I have considered meeting with
+      Selios to plan countermeasures,
+      but I think it best to wait
+      here.<END>
+      <LOC6410><C_YELLOW>Aerion<C_NONE>
+      I believe it is best to wait here
+      for King Selios rather than to go
+      looking for him.
 "_note": |-
   Yold (rest area) - Prologue

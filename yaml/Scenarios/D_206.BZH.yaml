@@ -14,6 +14,7 @@
         54679
       "target_addr": !!int |-
         23064
-    "translated": !!null |-
-      null
+    "translated": |-
+      <PARTY> opened the chest.
+      There was a <RET>
 "_note": ""

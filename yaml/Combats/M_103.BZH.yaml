@@ -7,29 +7,29 @@
       16
     "original": |-
       リンコーＡ<RET>
-    "translated": !!null |-
-      null
+    "translated": |-
+      Rinko A<RET>
   !!int "29104": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       リンコーＢ<RET>
-    "translated": !!null |-
-      null
+    "translated": |-
+      Rinko B<RET>
   !!int "29168": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       リンコーＣ<RET>
-    "translated": !!null |-
-      null
+    "translated": |-
+      Rinko C<RET>
   !!int "29232": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       リンコーＤ<RET>
-    "translated": !!null |-
-      null
+    "translated": |-
+      Rinko D<RET>
   !!int "29466": !RelocatableTranslatableEntry
     "original": |-
       リンコーが現れた。<RET_N>
@@ -41,6 +41,7 @@
         61000
       "target_addr": !!int |-
         29466
-    "translated": !!null |-
-      null
-"_note": ""
+    "translated": |-
+      Rinkos appear.<RET_N>
+"_note": |-
+  Rinko

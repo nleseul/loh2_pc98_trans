@@ -15,8 +15,11 @@
         54642
       "target_addr": !!int |-
         23351
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Man<C_NONE>
+      Welcome! This is a rest station.
+      Please don't bother the refugees
+      from the castle.
   !!int "23454": !RelocatableTranslatableEntry
     "original": |-
       <IF0059><JUMP5e6f><SET0059><Xf52c0000><ASM1ae6><Xf7><CALL6cf5>あら アトラス王子。
@@ -112,8 +115,88 @@
         54682
       "target_addr": !!int |-
         23454
-    "translated": !!null |-
-      null
+    "translated": |-
+      <IF0059><JUMP5e6f><SET0059><Xf52c0000><ASM1ae6><Xf7><CALL6cf5>Prince Atlas! You just missed
+      Selios.
+
+      He was just here talking to Aerionabout the monsters, and then the
+      two of them went off together to
+      investigate.
+
+      I'm sure they're halfway to
+      the Kingdom of Soldythe by now.
+
+      <CH0>
+      Really? King Aerion too...?
+
+      <CALL6cf5>Were you looking for Selios?
+
+      <CH0>
+      Yes. I was following him because Iwant to help him.
+
+      <CALL6cf5>Oh, I see. But there's no need foryou to put yourself in danger too.
+
+      But it's very noble of you. I
+      know Selios would be happy to hearyou say that.
+
+      You should be able to catch up
+      if you head for Soldythe now.
+
+      <CH0>
+      Soldythe...?<WAIT>
+      Okay. We'll go right away. Thank
+      you for everything, your Majesty.<END>
+      <LOC5e6f><CALL6cf5><IF0090><JUMP5ee5>There are pit traps to catch
+      thieves in the Royal Tomb.
+
+      Stay careful, and try not to
+      get yourself hurt.<END>
+      <LOC5ee5><IF0087><JUMP6133><SET0087>まあ フローラお嬢さま。
+      無事で なによりでしたわ。
+
+      <CH2>
+      私のために いろいろと ご迷惑を
+      おかけしたそうで ･ ･ ･
+
+      <CALL6cf5>いいえ そんなことはありません。
+      それにしても 本当によかったわ。
+
+      お嬢さまを お送りするのは わが国の兵士に おまかせください。
+
+      <CH2>
+      あっ いいんです 王妃さま。
+
+      <CH0>
+      えっ!? ああ そう いいんです。
+
+      <CH1>
+      おれたちが 送っていってやることに
+      なってるから 気にしないでください。
+
+      <CALL6cf5>まあ そうですか？
+      それでは おまかせします。
+
+      ところで ちょっと 気になったことがあるのですが セリオスさまたちにも
+      伝えておいた方が いいと思いまして。
+
+      <CH0>
+      どんなことですか？
+
+      <CALL6cf5>ええ 司祭 バーバラのことなのです。
+
+      <LOC6133>竜の卵に 入ることが できるのは
+      司祭 バーバラだけなのですが。
+      今は 行方不明に なっています。
+
+      バーバラは この事件について 何かを知っていて それを 解決しようと
+      しているのでは ないでしょうか？
+
+      もし バーバラの 行方が わかれば
+      何らかの 手がかりが つかめるかと
+      思うのです。
+
+      セリオスさまたちに 追いついたら
+      このことを 伝えてください。
   !!int "25210": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ポウエル<C_NONE>
@@ -131,8 +214,13 @@
         54691
       "target_addr": !!int |-
         25210
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Poul<C_NONE>
+      Selis and Nashieu have been
+      destroyed by the monsters.
+
+      And the people are in a panic.
+      If we don't do something soon...
   !!int "25354": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>チャールズ王子<C_NONE>
@@ -150,8 +238,13 @@
         54700
       "target_addr": !!int |-
         25354
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Prince Charles<C_NONE>
+      Everyone says they're too busy
+      to play.
+
+      I wish I was bigger, so I could
+      help Father with his tack-ticks.
   !!int "25508": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>侍女<C_NONE>
@@ -166,8 +259,10 @@
         54709
       "target_addr": !!int |-
         25508
-    "translated": !!null |-
-      null
+    "translated": |
+      <C_YELLOW>Maid<C_NONE>
+      I'm glad we evacuated, but I wish
+      we could've gone somewhere bigger.
   !!int "25596": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>侍女<C_NONE>
@@ -181,8 +276,11 @@
         54718
       "target_addr": !!int |-
         25596
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Maid<C_NONE>
+      It's not that small, but compared
+      to the castle... Not to mention
+      the state of the kitchen...
   !!int "25692": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -198,8 +296,12 @@
         54727
       "target_addr": !!int |-
         25692
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      Where has our High Priestess gone
+      off to?
+
+      No one but Barbara can talk to theGoddess Freya...
   !!int "25815": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -213,8 +315,11 @@
         54736
       "target_addr": !!int |-
         25815
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      Welcome, Prince Atlas.
+      Since this place was available,
+      we're borrowing it for operations.
   !!int "25912": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -229,8 +334,10 @@
         54745
       "target_addr": !!int |-
         25912
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      Welcome, Prince Atlas.
+      Queen Sonia is inside.
   !!int "25986": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -252,8 +359,18 @@
         54754
       "target_addr": !!int |-
         25986
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      <IF0090><JUMP6602>If the two of you encounter any
+      trouble, please come to us for
+      help.
+
+      We are your Highness's to command.<END>
+      <LOC6602>これはよかった フローラさまは
+      無事だったのですね。
+
+      ジェラルドさまが 心配されて 国境の兵士たちに フローラさまが 通ったら連絡するようにと 頼んだそうですが
+      これで 安心することでしょう。
   !!int "26297": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -346,14 +463,37 @@
         54798
       "target_addr": !!int |-
         26297
-    "translated": !!null |-
-      null
+    "translated": "<C_YELLOW>Soldier<C_NONE>\nYour Majesty!! We have trouble!\n\n\
+      <CALL6cf5>What is it? The Royal Tomb?\n\n<C_YELLOW>Soldier<C_NONE>\nYes, just\
+      \ as your Majesty\nsuspected.\n\nThe door is broken open, and\nmonsters are\
+      \ wandering around\nfreely inside.\n\nAlso, I spotted this at the\nentrance.\n\
+      \n<CALL6cf5>T-that's...!<WAIT>\nDoesn't that Warp Wing belong\nto Gerald's daughter?\n\
+      \nIn there? Why would she...?\n\n<C_YELLOW>Soldier<C_NONE>\nI can't do anything\
+      \ more alone.\nShall I take a larger party to\ninvestigate further?\n\n<ASMd661><Xf7><CH0>\n\
+      Your Majesty, has something\nhappened to Flora?\n\n<ASMd66f><Xf7><CALL6cf5>I\
+      \ was worried about the Royal Tomb,so I sent a soldier to check on ita while\
+      \ ago.\n\nAnd he found a Warp Wing\nregistered under Flora's name\nthat had\
+      \ been dropped there.\n\nThere are a lot of monsters in\nthe Royal Tomb. If\
+      \ anything shouldhappen to the young lady...\n\n<CH0>\nI see... And Flora has\
+      \ done a lot\nto help us.\n\nIf you don't mind, could we go andlook for her?\n\
+      \n<CALL6cf5>No, I can't allow that, your\nHighness. Our soldiers are more\n\
+      than competent to handle this.\n\n<CH1>\nReally?\nThey don't look it to me.\n\
+      \n<CH0>\nLandor!! Don't be so blunt.\n\nBut we really are worried about\nFlora.\
+      \ Please let us go look, evenif we can't do more than that.\n\n<CALL6cf5>If\
+      \ your Highness insists, I \nsuppose I'll leave it to you.\n\nShe is a lovely\
+      \ girl, isn't she?\nI can see why you would be so\nconcerned about her.\n<IF0466><JUMP6cf4>\n\
+      \n<CH1>\nDo you have any idea where this\nRoyal Tomb place is?\n\n<CH0>\nUmm...\n\
+      \n<CALL6cf5>You're not thinking very clearly,\nare you? Try to stay focused,\n\
+      your Highness.\n\nThe entrance to the Royal Tomb is\non the far side of the\
+      \ mountains\nsouth of Nashieu.\n\n<CH0>\nThe south side of the mountains\nnear\
+      \ Nashieu? Okay, I've got it.\n\nLet's go, Landor!<LOC6cf4>"
   !!int "27893": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ソニア王妃<C_NONE><RET_N>
     "original_byte_length": !!int |-
       13
     "references": []
-    "translated": !!null |-
-      null
-"_note": ""
+    "translated": |-
+      <C_YELLOW>Queen Sonia<C_NONE><RET_N>
+"_note": |-
+  Yold (rest area) - Chapter 1 (after Flora disappears)

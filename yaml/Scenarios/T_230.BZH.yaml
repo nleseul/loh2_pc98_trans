@@ -48,9 +48,9 @@
       <IF0068><JUMP5bd1>This villa belongs to Master
       Gerald. It's suuuch a big place
       that it takes all day to clean.<END>
-      <LOC5bd1>別荘の そうじは 女中さんたちが
-      やるから しばらくは やらなくて
-      いいんですって。
+      <LOC5bd1>Now that the maids are cleaning
+      the villa, I suddenly don't have
+      much to do.
   !!int "23584": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ジェラルド<C_NONE>
@@ -98,8 +98,40 @@
         54674
       "target_addr": !!int |-
         23584
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Gerald<C_NONE>
+      <IF0079><JUMP5ea3><SET0079>Y-you villains!!
+      You're the ones who kidnapped
+      my darling Flora!!
+
+      Where have you taken her?!
+
+      <CH0>
+      W-wait! We don't know anything
+      about what happened!
+
+      <C_YELLOW>Gerald<C_NONE>
+      Don't play the fool with me!!
+
+      My darling Flora is gone!!
+      Someone has kidnapped her!
+
+      <CH1>
+      C'mon, you old perv!
+      I know you're in a panic, but try
+      to think for a minute.
+
+      If we were the kidnappers, would
+      we really be hangin' around here?
+
+      <C_YELLOW>Gerald<C_NONE>
+      Hmph. I wasn't being serious.
+      Oh, my darling Flora...
+      Where could she have gone?
+
+      Listen to me, you.
+      <LOC5ea3>If you bring my darling Flora home,you can have anything you want as
+      your reward.
   !!int "24306": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ジェラルド夫人<C_NONE>
@@ -117,8 +149,13 @@
         54683
       "target_addr": !!int |-
         24306
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Madame Gerald<C_NONE>
+      Oh, Flora... where have you gone?
+
+      The shock of leaving our manor in
+      Nashieu must have been too much
+      for the poor girl...
   !!int "24458": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>チャーリー<C_NONE>
@@ -148,8 +185,24 @@
         54692
       "target_addr": !!int |-
         24458
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Charlie<C_NONE>
+      <IF0078><JUMP604f>Ahem. Just a moment.
+
+      The master has told me quite
+      sternly that I mustn't allow
+      men to approach Miss Flora.
+
+      And you people seem especially
+      troublesome. So please be on your
+      way.<END>
+      <LOC604f>Mm. You people again?
+      The master is asleep after his
+      meal.
+
+      And even if he were awake, he has
+      a great deal on his mind now,
+      so I urge you to be on your way.
   !!int "24789": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -166,8 +219,13 @@
         54724
       "target_addr": !!int |-
         24789
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Man<C_NONE>
+      <IF0078><JUMP612f>I'm glad that our work has gotten
+      easier since this place is so muchsmaller than the manor.<END>
+      <LOC612f>Miss Flora disappeared without
+      warning. The master says she was
+      abducted, but was she really?
   !!int "24967": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -181,8 +239,10 @@
         54733
       "target_addr": !!int |-
         24967
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Man<C_NONE>
+      Not much lawn to need trimmin'
+      here.
   !!int "25021": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>女中<C_NONE>
@@ -206,8 +266,19 @@
         54742
       "target_addr": !!int |-
         25021
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Maid<C_NONE>
+      <IF0078><JUMP625b>We're running out of supplies for
+      cooking.
+
+      Charlie goes to Amda every day
+      for chicken, but we can't just
+      have chicken all the time.<END>
+      <LOC625b>The day before Miss Flora vanished,I overheard her arguing with her
+      father.
+
+      I'm sure that's why she
+      disappeared.
   !!int "25306": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>女中<C_NONE>
@@ -232,8 +303,11 @@
         54751
       "target_addr": !!int |-
         25306
-    "translated": !!null |-
-      null
+    "translated": "<C_YELLOW>Maid<C_NONE>\n<IF0078><JUMP636a>I don't think Miss Flora\
+      \ is \nsleeping enough. She's been havingstrange dreams since we came here.\n\
+      \nI wonder, though. How can she be\ndreaming if she's not sleeping?<END>\n<LOC636a>I\
+      \ wonder what Miss Flora is\ndoing now?\n\nShe never thinks to doubt anyone.\n\
+      I hope she didn't get talked into\nanything by some shady character..."
   !!int "25600": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ジェニー<C_NONE>
@@ -254,8 +328,14 @@
         54760
       "target_addr": !!int |-
         25600
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Jenny<C_NONE>
+      <IF0078><JUMP6458>Miss Flora's mind has seemed to beelsewhere ever since we came here.<END>
+      <LOC6458>Before she vanished, Miss Flora
+      was talking about the Goddess
+      Freya asking for help.
+
+      What could that girl be thinking?
   !!int "25820": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>フローラ<C_NONE>
@@ -268,7 +348,8 @@
         54769
       "target_addr": !!int |-
         25820
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Flora<C_NONE>
+      You got somethin' to say to me?
 "_note": |-
   Sele - Prologue
