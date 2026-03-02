@@ -7,29 +7,29 @@
       16
     "original": |-
       プルダーム<RET>
-    "translated": !!null |-
-      null
+    "translated": |-
+      Puldarm<RET>
   !!int "29104": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       プルダームＢ<RET>
-    "translated": !!null |-
-      null
+    "translated": |-
+      Puldarm B<RET>
   !!int "29168": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       プルダームＣ<RET>
-    "translated": !!null |-
-      null
+    "translated": |-
+      Puldarm C<RET>
   !!int "29232": !FixedTranslatableEntry
     "max_byte_length": !!int |-
       16
     "original": |-
       プルダームＤ<RET>
-    "translated": !!null |-
-      null
+    "translated": |-
+      Puldarm D<RET>
   !!int "29735": !RelocatableTranslatableEntry
     "original": |-
       プルダームが現れた。<RET_N>
@@ -41,8 +41,8 @@
         61000
       "target_addr": !!int |-
         29735
-    "translated": !!null |-
-      null
+    "translated": |-
+      Puldarm appears.<RET_N>
   !!int "29756": !RelocatableTranslatableEntry
     "original": |-
       <ACTOR>は脳しんとうを起こした。<RET_PAGE>
@@ -54,8 +54,8 @@
         61359
       "target_addr": !!int |-
         29756
-    "translated": !!null |-
-      null
+    "translated": |-
+      <ACTOR> gets a concussion.<RET_PAGE>
   !!int "29782": !RelocatableTranslatableEntry
     "original": |-
       <ACTOR>は脳しんとうで動けない。<RET_PAGE>
@@ -67,8 +67,9 @@
         61131
       "target_addr": !!int |-
         29782
-    "translated": !!null |-
-      null
+    "translated": |-
+      <ACTOR> is concussed and can't
+      move.<RET_PAGE>
   !!int "29808": !RelocatableTranslatableEntry
     "original": |-
       <CALL7527>くそっ おれが動けない間に <RET>
@@ -85,8 +86,13 @@
         61188
       "target_addr": !!int |-
         29808
-    "translated": !!null |-
-      null
+    "translated": |-
+      <CALL7527>Damn you! You did <RET>
+      <CONT> damage
+      while I couldn't move...<WAIT>
+      I'll pay you back double!!
+
+      <RET>
   !!int "29894": !RelocatableTranslatableEntry
     "original": |-
       <CALL7527>バカめ おれが 動けないというのに
@@ -102,14 +108,19 @@
         61180
       "target_addr": !!int |-
         29894
-    "translated": !!null |-
-      null
+    "translated": |-
+      <CALL7527>You fools!! Not doing any damage
+      while I couldn't move...!<WAIT>
+      I'll dispose of you now!!
+
+      <RET>
   !!int "29991": !RelocatableTranslatableEntry
     "original": |-
       <CLEAR><C_YELLOW>プルダーム<C_NONE><RET_N>
     "original_byte_length": !!int |-
       14
     "references": []
-    "translated": !!null |-
-      null
-"_note": ""
+    "translated": |-
+      <CLEAR><C_YELLOW>Puldarm<C_NONE><RET_N>
+"_note": |-
+  Puldarm

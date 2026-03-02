@@ -296,46 +296,50 @@
       <LOC619a><UNSET0404><ASM6b26><SET009b>
 
       <CH0>
-      ボアードさん お願いがあるんだけど。
+      We wanted to ask your help
+      with something, Buald.
 
-      <C_YELLOW>ボアード<C_NONE>
-      おう どんなことだ？
-
-      <CH0>
-      船で ソルディスまで 連れていって
-      もらいたいんだけど。
-
-      <C_YELLOW>ボアード<C_NONE>
-      何で わざわざ 船で 行くんだ？
+      <C_YELLOW>Buald<C_NONE>
+      Oh yeah? What's that?
 
       <CH0>
-      この女の子が 出国の 手続きを
-      できないんだ。
+      We'd like you to take us to
+      Soldythe by ship.
 
-      <C_YELLOW>ボアード<C_NONE>
-      手続きなしで 行くのか？
-      何か わけありみたいだな。
+      <C_YELLOW>Buald<C_NONE>
+      By ship, 'specially? How come?
 
       <CH0>
-      この子 フローラって言って
-      ジェラルドさんの 娘さんなんだけど
-      家出してきたんだ。
+      This girl isn't registered to
+      leave the kingdom.
+
+      <C_YELLOW>Buald<C_NONE>
+      Yer leavin' wi'out bein'
+      registered? Seems like some
+      kind o' trouble.
+
+      <CH0>
+      Her name's Flora. She's Gerald's
+      daughter, and she's running away
+      from home.
 
       <CH2>
-      家出なんかじゃありません。
-      フレイアさまを 助けに行くだけです。
+      I am not running away!
+      I am simply on my way to help
+      Freya.
 
-      <C_GREEN>そして また フローラの夢の話が
-      始まりました。<C_NONE>
+      <C_GREEN>Flora began to explain her dreams
+      again.<C_NONE>
 
-      <C_YELLOW>ボアード<C_NONE>
-      まあ そんな 作り話なんかしなくてもおれには わかってるぜ まったく
-      子どものくせに やるじゃねえか？
+      <C_YELLOW>Buald<C_NONE>
+      Nah, I got ya. No need ta tell me
+      tall tales! Tha things kids do, I
+      tell ya...
 
-      そういう ことだったら はっきり
-      言えば いいのによ。
-      さあ 行くぜ。ついてきな。<END>
-      <LOC6435>酒でも 手に入ったのか？
+      Well, if that's how it is, ya
+      shoulda just said so! C'mon,
+      let's get goin'!<END>
+      <LOC6435>Have ya gotten ahold o' some rum?
   !!int "25677": !RelocatableTranslatableEntry
     "original": |-
       <SET0404>おう お前らじゃねえか 元気そうだな。<RET>

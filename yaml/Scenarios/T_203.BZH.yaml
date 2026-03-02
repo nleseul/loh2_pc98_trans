@@ -151,52 +151,55 @@
 
       Stay careful, and try not to
       get yourself hurt.<END>
-      <LOC5ee5><IF0087><JUMP6133><SET0087>まあ フローラお嬢さま。
-      無事で なによりでしたわ。
+      <LOC5ee5><IF0087><JUMP6133><SET0087>Oh, Flora! I'm glad to see you're
+      all right.
 
       <CH2>
-      私のために いろいろと ご迷惑を
-      おかけしたそうで ･ ･ ･
+      I seem to have caused your Majestya great deal of trouble...
 
-      <CALL6cf5>いいえ そんなことはありません。
-      それにしても 本当によかったわ。
+      <CALL6cf5>Don't worry about it. What mattersis that you're safe.
 
-      お嬢さまを お送りするのは わが国の兵士に おまかせください。
+      I'll have the soldiers escort you
+      home.
 
       <CH2>
-      あっ いいんです 王妃さま。
+      Oh! Please don't trouble yourself
+      with that, your Majesty.
 
       <CH0>
-      えっ!? ああ そう いいんです。
+      Huh?! Oh, no, that won't be
+      necessary.
 
       <CH1>
-      おれたちが 送っていってやることに
-      なってるから 気にしないでください。
+      Yeah, we'll bring her home for
+      you, so don't worry about it.
 
-      <CALL6cf5>まあ そうですか？
-      それでは おまかせします。
+      <CALL6cf5>Oh, really? In that case, I'll
+      leave the matter to you.
 
-      ところで ちょっと 気になったことがあるのですが セリオスさまたちにも
-      伝えておいた方が いいと思いまして。
+      Oh, incidentally, I do have a
+      concern that I think you should
+      convey to Selios.
 
       <CH0>
-      どんなことですか？
+      What is it?
 
-      <CALL6cf5>ええ 司祭 バーバラのことなのです。
+      <CALL6cf5>It's about Barbara, the high
+      priestess.
 
-      <LOC6133>竜の卵に 入ることが できるのは
-      司祭 バーバラだけなのですが。
-      今は 行方不明に なっています。
+      <LOC6133>Barbara is the only person who canenter a dragonsegg, but no one
+      knows where she is currently.
 
-      バーバラは この事件について 何かを知っていて それを 解決しようと
-      しているのでは ないでしょうか？
+      So I wonder if she knows somethingabout our situation and is trying
+      to resolve it.
 
-      もし バーバラの 行方が わかれば
-      何らかの 手がかりが つかめるかと
-      思うのです。
+      I think if we can find Barbara,
+      we might learn something that
+      will help.
 
-      セリオスさまたちに 追いついたら
-      このことを 伝えてください。
+      If you catch up to Selios and
+      Aerion, please convey that
+      suggestion to them.
   !!int "25210": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ポウエル<C_NONE>
@@ -366,11 +369,12 @@
       help.
 
       We are your Highness's to command.<END>
-      <LOC6602>これはよかった フローラさまは
-      無事だったのですね。
+      <LOC6602>I'm pleased to see that Flora is
+      safe.
 
-      ジェラルドさまが 心配されて 国境の兵士たちに フローラさまが 通ったら連絡するようにと 頼んだそうですが
-      これで 安心することでしょう。
+      Gerald was so worried that he
+      asked the guards at the border to
+      contact him if she passed through.He'll surely be relieved.
   !!int "26297": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>

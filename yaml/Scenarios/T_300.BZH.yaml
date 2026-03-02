@@ -35,8 +35,33 @@
         54802
       "target_addr": !!int |-
         23752
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Buald<C_NONE>
+      Aiee! Someone's in a hurry.
+      Almos' had a collision there!
+
+      Welcome ta Rudra Harbor, yer
+      Highness.
+
+      <CH0>
+      Thank you. What's the fare?
+
+      <C_YELLOW>Buald<C_NONE>
+      Don't worry 'bout it! But
+      since ya mention it, jus' bring
+      me some rare rum or jewels!
+
+      An mos' impor'ntly, take good
+      care o' yer young lady. I won't
+      breathe a word to 'er father!
+
+      <CH0>
+      Huh? What do you mean?
+
+      <C_YELLOW>Buald<C_NONE>
+      Ha ha! No need ta hide it! I know
+      what's goin' on!<WAIT>
+      Come see me again! Bring the rum!
   !!int "24161": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>船長<C_NONE>
@@ -51,8 +76,11 @@
         54985
       "target_addr": !!int |-
         24161
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Captain<C_NONE>
+      This ship is bound for Richelle
+      in the Republic of Moreston.
+      If you're boarding, hurry up.
   !!int "24242": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>船長<C_NONE>
@@ -91,8 +119,17 @@
         54994
       "target_addr": !!int |-
         24441
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Man<C_NONE>
+      Mind where you step there!
+
+      This house belongs to Harry, the
+      famous inventor. He's a friend of
+      mine, but he's shut up in his
+      laboratory in the castle.
+
+      I'm taking care of the place
+      while he's away.
   !!int "24647": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>女<C_NONE>
@@ -107,8 +144,11 @@
         55003
       "target_addr": !!int |-
         24647
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Woman<C_NONE>
+      The ship here is on a very strict
+      schedule. People often get left
+      behind.
   !!int "24729": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>女<C_NONE>
@@ -126,8 +166,15 @@
         55012
       "target_addr": !!int |-
         24729
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Woman<C_NONE>
+      Harry, the inventor, has been
+      making things for a long time.
+
+      These days, he's had a lab built
+      in the castle where he does his
+      research, so he's hardly ever at
+      home.
   !!int "24889": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>老人<C_NONE>
@@ -144,8 +191,13 @@
         55021
       "target_addr": !!int |-
         24889
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Old man<C_NONE>
+      People were celebrating when a
+      dragonsegg popped up near the E'meoasis, until the monsters came out!
+
+      What the heck are those
+      dragonseggs?
   !!int "25025": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -185,8 +237,9 @@
         55039
       "target_addr": !!int |-
         25233
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Weapon merchant<C_NONE>
+      Welcome!<RET_N>
   !!int "25257": !RelocatableTranslatableEntry
     "original": |-
       またどうぞ。
@@ -198,8 +251,8 @@
         55051
       "target_addr": !!int |-
         25257
-    "translated": !!null |-
-      null
+    "translated": |-
+      Come again!
   !!int "25270": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>道具屋<C_NONE>
@@ -213,8 +266,9 @@
         55063
       "target_addr": !!int |-
         25270
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Tool merchant<C_NONE>
+      Welcome! What can I do for you?<RET_N>
   !!int "25326": !RelocatableTranslatableEntry
     "original": |-
       また来てくださいね。
@@ -226,8 +280,8 @@
         55090
       "target_addr": !!int |-
         25326
-    "translated": !!null |-
-      null
+    "translated": |-
+      Please come again!
   !!int "25347": !RelocatableTranslatableEntry
     "original": |-
       おや？これ以上持てないようですね。
@@ -241,8 +295,10 @@
         25566
       "target_addr": !!int |-
         25347
-    "translated": !!null |-
-      null
+    "translated": |-
+      You don't have any room for it.
+
+      <RET>
   !!int "25383": !RelocatableTranslatableEntry
     "original": |-
       どれを買ってくれますか？
@@ -255,8 +311,9 @@
         25568
       "target_addr": !!int |-
         25383
-    "translated": !!null |-
-      null
+    "translated": |-
+      What would you like to buy?
+      <RET_N>
   !!int "25409": !RelocatableTranslatableEntry
     "original": |-
       <ITEM>だね。
@@ -271,8 +328,11 @@
         25570
       "target_addr": !!int |-
         25409
-    "translated": !!null |-
-      null
+    "translated": |-
+      The <ITEM>?
+      Thank you very much!
+
+      <RET>
   !!int "25446": !RelocatableTranslatableEntry
     "original": |-
       どれを 売ってくれますか？
@@ -285,8 +345,9 @@
         25438
       "target_addr": !!int |-
         25446
-    "translated": !!null |-
-      null
+    "translated": |-
+      What would you like to sell?
+      <RET_N>
   !!int "25473": !RelocatableTranslatableEntry
     "original": |2-
        Gold になるけど
@@ -300,8 +361,10 @@
         25440
       "target_addr": !!int |-
         25473
-    "translated": !!null |-
-      null
+    "translated": |2-
+       gold.
+      Will that be okay?
+      <RET_N>
   !!int "25517": !RelocatableTranslatableEntry
     "original": |-
       それは残念です。
@@ -315,8 +378,10 @@
         25442
       "target_addr": !!int |-
         25517
-    "translated": !!null |-
-      null
+    "translated": |-
+      That's too bad.
+
+      <RET_N>
   !!int "25535": !RelocatableTranslatableEntry
     "original": |-
       どうも ありがとうございます。
@@ -329,6 +394,8 @@
         25444
       "target_addr": !!int |-
         25535
-    "translated": !!null |-
-      null
-"_note": ""
+    "translated": |-
+      Thank you very much.
+      <RET_N>
+"_note": |-
+  Rudra - Chapter 1

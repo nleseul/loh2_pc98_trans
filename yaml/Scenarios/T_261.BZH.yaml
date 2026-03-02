@@ -39,8 +39,36 @@
         54627
       "target_addr": !!int |-
         23211
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      Headed to Soldythe? May I just
+      have the young lady's name,
+      please?
+
+      No, it's nothing serious. We're
+      just keeping an eye out for a
+      young lady who disappeared from
+      Mr. Gerald's villa.<IF009a><JUMP5c7d>
+
+      <CH2>
+      Exactly as I thought. It doesn't
+      seem like I'll be able to leave
+      the kingdom.
+
+      <CH1>
+      Ugh...<WAIT>
+      I knew this was a bad idea!!
+
+      <CH0>
+      We can't use a Warp Wing...
+      We can't cross the river...<WAIT>
+      So that leaves the ocean.
+
+      <CH1>
+      Of course, we'll just swim across!Yeah, you're a hoot, Atlas.
+
+      Oh!! That's right!
+      There is a way!!<LOC5c7d>
   !!int "23678": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -59,8 +87,16 @@
         54636
       "target_addr": !!int |-
         23678
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      <IF0091><JUMP5ce3>We only lower the bridge when
+      people are crossing. We can't
+      keep it down all the time.<END>
+      <LOC5ce3>Well, that was an experience!
+
+      I fell in the river.
+      If that guy hadn't saved me, I
+      don't know what would've happened.
   !!int "23884": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
