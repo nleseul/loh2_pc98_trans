@@ -99,8 +99,15 @@
         54886
       "target_addr": !!int |-
         24242
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Captain<C_NONE>
+      Do ya got yer ticket?
+      <PAGE>
+      <Xf8287417><JUMP5f5f>Will you be boarding the ship?
+      <Xf69229><JUMP5f1d><Xf9000206><ASM6b26><Xf828af17><JUMP5f5f><Xf028><SET0400>Handed over the <ITEM>.<SND0103><END>
+      <LOC5f1d><CLEAR>If yer not boardin', then clear
+      off. Yer in tha way.<END>
+      <LOC5f5f>They sell 'em over there.
   !!int "24441": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -217,8 +224,15 @@
         55027
       "target_addr": !!int |-
         25025
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Man<C_NONE>
+      Welcome. We sell tickets 'ere.
+      They're 100 gold each.
+
+      <CHECK_MONEY628d><JUMP625f><Xf65317><JUMP6277>Will you be buying a ticket?<Xf69229><JUMP6244><TAKE_MONEY628d><Xf128><CLEAR>Thanks.<END>
+      <LOC6244><CLEAR>Really? Ya don't need one?<END>
+      <LOC625f>Ya 'aven't got the money.<END>
+      <LOC6277>Ya can't hold any more.
   !!int "25229": !RelocatableRawDataEntry
     "data": !!binary |
       ZAAAAA==
