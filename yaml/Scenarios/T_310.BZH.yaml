@@ -27,8 +27,22 @@
         54652
       "target_addr": !!int |-
         23305
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>John<C_NONE>
+      I'm the only man in the world who
+      runs a dragon ranch.
+
+      The dragons of Soldythe only lay
+      an egg every 100 years. From what
+      gramps says, that'll be another
+      80 years from now.
+
+      It's disappointing that it won't
+      happen in my lifetime, but there'snot much I can do about that.
+
+      I've just got to keep these
+      dragons healthy for my
+      grandchildren's sake!
   !!int "23632": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ボイル<C_NONE>
@@ -55,8 +69,25 @@
         54661
       "target_addr": !!int |-
         23632
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Boyle<C_NONE>
+      I ran the dragon ranch when I
+      was young.
+
+      Dragons are usually too proud
+      to show affection to humans. But
+      King Selios of Farleyn is a rare
+      exception.
+
+      Dragon chicks think the very firstthing they see when they hatch is
+      a parent.
+
+      So that's why that dragon lets
+      King Selios ride on its back as
+      it flies around.
+
+      I haven't seen that one at
+      the ranch lately, so it's probablyhanging around in Farleyn again.
   !!int "24066": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ボイル<C_NONE>
@@ -89,8 +120,8 @@
         24123
     "translated": |-
       <C_YELLOW>Norma<C_NONE>
-      We retired here and let our son
-      John handle the ranch now.
+      We're retired here. We leave the
+      ranch to our son John ranch now.
   !!int "24197": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>商人<C_NONE>
@@ -271,4 +302,5 @@
     "translated": |-
       Thank you very much.
       <RET_N>
-"_note": ""
+"_note": |-
+  Caur - Chapter 1

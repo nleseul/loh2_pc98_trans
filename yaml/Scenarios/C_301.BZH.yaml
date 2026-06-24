@@ -108,8 +108,109 @@
         54663
       "target_addr": !!int |-
         23316
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>King Arthos<C_NONE>
+      <IF00b8><JUMP613f><SET00b8><SET00b9>Oh! Is that you, Atlas?!
+      You have grown even more since
+      I saw you last.
+
+      <Xf52c0000><ASM1ae6><Xf7><CH0>
+      It's an honor to see your Majesty
+      again. Has Father been here?
+
+      <C_YELLOW>King Arthos<C_NONE>
+      Yes, Selios and Aerion both. They
+      are investigating the source of
+      the monsters together.
+
+      Once they had inquired after the
+      situation in Soldythe, they said
+      they would proceed to Moreston.<WAIT>
+      Might you be assisting them?
+
+      <CH0>
+      No... I wanted to help, so I've
+      been following them. But I haven'tbeen able to catch up yet.
+
+      <C_YELLOW>King Arthos<C_NONE>
+      I see... Though I am sure there
+      was no need to put yourself in
+      danger as well.
+
+      Still, if this journey is what my
+      dear grandson wishes...
+
+      And in any case, knowing my
+      grandson, it would be futile to
+      try to stop you.
+
+      Take care in your travels.
+
+      <SET00ba><CH2>
+      Um...
+
+      <CH1>
+      What's up, Flora?
+
+      <CH2>
+      I have been wondering for some
+      time... who exactly you people
+      are.
+
+      <CH0>
+      Oh, I guess we didn't really
+      explain much to you.
+
+      I'm the prince of Farleyn.
+      I'd generally rather you don't
+      call me that, though.
+
+      Just that one word changes things
+      so that no one lets you see what
+      they're really thinking.
+
+      So I guess I'm in disguise, to
+      put it bluntly.
+
+      <CH1>
+      Right, what he said.
+      But I'm nothin' to do with all
+      that.
+
+      I did magical research in a
+      village called Silica in Wonliech.
+
+      <CH2>
+      Oh... I see.
+
+      I must have been very rude in
+      my ignorance...
+
+      <CH1>
+      It's no problem. I've been plenty
+      disrespectful of the royal person
+      myself... right, Atlas?
+
+      <CH0>
+      Yeah. So I hope you won't let
+      the "prince" thing bother you
+      too much.
+
+      <CH2>
+      I understand.
+      So what do you suggest I do next?
+
+      <CH0>
+      It sounds like Father is on his
+      way to Moreston, so why not head
+      there with us?
+
+      <CH2>
+      Of course. Thank you for your
+      assistance.<END>
+      <LOC613f>Please do not add to Dina's
+      worries by putting yourself in
+      undue danger, Atlas.
   !!int "24963": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>クレア王妃<C_NONE>
@@ -127,8 +228,15 @@
         54678
       "target_addr": !!int |-
         24963
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Queen Claire<C_NONE>
+      My... who is this fine young man?
+      Surely not Prince Atlas, the
+      notorious little prankster...
+
+      I do wish you could come see
+      your grandparents a little
+      more often.
   !!int "25145": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -149,8 +257,16 @@
         54687
       "target_addr": !!int |-
         25145
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      It's been 20 years since we've hadmonsters. And there was that othertrouble then too, of course.
+
+      That was when Princess Dina was
+      abducted and vanished.
+
+      They had us rookies searching all
+      over the desert, but it was
+      ultimately Prince Selios who foundher.
   !!int "25411": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -164,8 +280,11 @@
         54696
       "target_addr": !!int |-
         25411
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      Hmmm... Could the God of
+      Destruction from all those years
+      ago have been revived again?
   !!int "25479": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -183,8 +302,15 @@
         54705
       "target_addr": !!int |-
         25479
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      W-What? Dina's...?!
+      I-It is an honor to meet your
+      Highness.
+
+      I haven't been a soldier for
+      long. I've never met a prince
+      before!
   !!int "25631": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -203,8 +329,15 @@
         54714
       "target_addr": !!int |-
         25631
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      There never used to be any
+      dragonseggs in Soldythe.
+
+      But when that earthquake happened,one came out of the ground.
+
+      There were celebrations throughoutthe kingdom... but now it's come
+      to this.
   !!int "25820": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -219,8 +352,11 @@
         54723
       "target_addr": !!int |-
         25820
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      Oh, it's another beautiful day!
+      Having to work at a time like
+      this...
   !!int "25909": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>ハリー<C_NONE>
@@ -245,6 +381,20 @@
         54732
       "target_addr": !!int |-
         25909
-    "translated": !!null |-
-      null
-"_note": ""
+    "translated": |-
+      <C_YELLOW>Harry<C_NONE>
+      Oh! Watch your step there!
+
+      I'm Harry the inventor.
+      I've been building big kites and
+      flying ships up until now.
+
+      Right now, I'm thinking about
+      using dragoncloth to make powerfulweapons and armor.
+
+      If you ever need some powerful
+      equipment, remember to come back
+      here. I think I'll be able to
+      deliver what you want.
+"_note": |-
+  Vasnune castle 2F - Chapter 1

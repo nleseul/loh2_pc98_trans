@@ -259,8 +259,8 @@
         34950
       "target_addr": !!int |-
         35197
-    "translated": !!null |-
-      null
+    "translated": |-
+      Rudra
   !!int "35204": !RelocatableTranslatableEntry
     "original": |-
       カウル
@@ -272,8 +272,8 @@
         34952
       "target_addr": !!int |-
         35204
-    "translated": !!null |-
-      null
+    "translated": |-
+      Caur
   !!int "35211": !RelocatableTranslatableEntry
     "original": |-
       バズヌーン
@@ -285,8 +285,8 @@
         34954
       "target_addr": !!int |-
         35211
-    "translated": !!null |-
-      null
+    "translated": |-
+      Vasnune
   !!int "35222": !RelocatableTranslatableEntry
     "original": |-
       リシェール

@@ -16,8 +16,9 @@
         54633
       "target_addr": !!int |-
         23302
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      We're keeping watch so no monsterscan get into the town.
   !!int "23381": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -35,8 +36,15 @@
         54642
       "target_addr": !!int |-
         23381
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      There was an oasis called E'me
+      near the middle of the desert.
+
+      But a few days ago, it got
+      attacked by monsters and everyone
+      there fled. Now there's nothing
+      there but monsters.
   !!int "23562": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -55,8 +63,14 @@
         54651
       "target_addr": !!int |-
         23562
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      Wow... I don't believe it!
+      Did you know you can ride dragons?
+
+      I think it was that young dragon
+      from Caur... but King Selios was
+      riding it! I'm still in shock!
   !!int "23753": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>兵士<C_NONE>
@@ -71,8 +85,9 @@
         54660
       "target_addr": !!int |-
         23753
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Soldier<C_NONE>
+      No way! I couldn't believe my eyeswhen that ginormous dragon swoopeddown from the sky!
   !!int "23851": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -87,8 +102,11 @@
         54669
       "target_addr": !!int |-
         23851
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Man<C_NONE>
+      I'm a tool merchant, but since I
+      let my wife run the shop, all I
+      need to do is acquire products.
   !!int "23948": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>男<C_NONE>
@@ -110,8 +128,19 @@
         54678
       "target_addr": !!int |-
         23948
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Man<C_NONE>
+      An ancient tower near here called
+      the Vane Tower collapsed after
+      the earthquake a while ago.
+
+      Harry, the inventor, was really
+      disappointed when he saw that.
+      Said he had memories of that toweror some such.
+
+      Now that I think about it, didn't
+      we often see big kites flying
+      around there back in the day?
   !!int "24229": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>女<C_NONE>
@@ -126,8 +155,11 @@
         54687
       "target_addr": !!int |-
         24229
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Woman<C_NONE>
+      King Arthos built a laboratory
+      inside the castle to help Harry
+      develop his inventions.
   !!int "24321": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>女<C_NONE>
@@ -146,8 +178,15 @@
         54696
       "target_addr": !!int |-
         24321
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Woman<C_NONE>
+      Dina, the princess of Soldythe,
+      married into the Farleyn royal
+      family and lives with King Selios.
+
+      I was still young back then, but
+      everyone talks about what a
+      perfect couple they were.
   !!int "24510": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>呪文屋<C_NONE>
@@ -160,8 +199,9 @@
         54708
       "target_addr": !!int |-
         24510
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Spell merchant<C_NONE>
+      Welcome.<RET_N>
   !!int "24534": !RelocatableTranslatableEntry
     "original": |-
       またどうぞ。
@@ -173,8 +213,8 @@
         54720
       "target_addr": !!int |-
         24534
-    "translated": !!null |-
-      null
+    "translated": |-
+      Come again.
   !!int "24547": !RelocatableTranslatableEntry
     "original": |-
       <C_YELLOW>道具屋<C_NONE>
@@ -188,8 +228,10 @@
         54732
       "target_addr": !!int |-
         24547
-    "translated": !!null |-
-      null
+    "translated": |-
+      <C_YELLOW>Tool merchant<C_NONE>
+      Why, hello there.
+      How can I help you?<RET_N>
   !!int "24596": !RelocatableTranslatableEntry
     "original": |-
       また おいでください。
@@ -201,8 +243,8 @@
         54759
       "target_addr": !!int |-
         24596
-    "translated": !!null |-
-      null
+    "translated": |-
+      Come again!
   !!int "24618": !RelocatableTranslatableEntry
     "original": |-
       おや？これ以上持てないようですね。
@@ -216,8 +258,10 @@
         24906
       "target_addr": !!int |-
         24618
-    "translated": !!null |-
-      null
+    "translated": |-
+      You don't have any room for it.
+
+      <RET>
   !!int "24654": !RelocatableTranslatableEntry
     "original": |-
       どれを買ってくれますか？
@@ -230,8 +274,9 @@
         24908
       "target_addr": !!int |-
         24654
-    "translated": !!null |-
-      null
+    "translated": |-
+      What would you like to buy?
+      <RET_N>
   !!int "24680": !RelocatableTranslatableEntry
     "original": |-
       <ITEM>だね。
@@ -246,8 +291,11 @@
         24910
       "target_addr": !!int |-
         24680
-    "translated": !!null |-
-      null
+    "translated": |-
+      The <ITEM>?
+      Thank you very much!
+
+      <RET>
   !!int "24709": !RelocatableTranslatableEntry
     "original": |-
       あらまあ もう持てないわよ。
@@ -261,8 +309,10 @@
         24914
       "target_addr": !!int |-
         24709
-    "translated": !!null |-
-      null
+    "translated": |-
+      Oh, my. You can't hold any more.
+
+      <RET>
   !!int "24738": !RelocatableTranslatableEntry
     "original": |-
       どれを買ってくれるの？
@@ -275,8 +325,9 @@
         24916
       "target_addr": !!int |-
         24738
-    "translated": !!null |-
-      null
+    "translated": |-
+      What would you like to buy?
+      <RET_N>
   !!int "24762": !RelocatableTranslatableEntry
     "original": |-
       <ITEM>ね。
@@ -291,8 +342,11 @@
         24918
       "target_addr": !!int |-
         24762
-    "translated": !!null |-
-      null
+    "translated": |-
+      Oh, the <ITEM>?
+      Thank you very much!
+
+      <RET>
   !!int "24797": !RelocatableTranslatableEntry
     "original": |-
       なにを 売ってくれるの？
@@ -305,8 +359,9 @@
         24789
       "target_addr": !!int |-
         24797
-    "translated": !!null |-
-      null
+    "translated": |-
+      What would you like to sell?
+      <RET_N>
   !!int "24822": !RelocatableTranslatableEntry
     "original": |2-
        Gold になるわよ
@@ -320,8 +375,10 @@
         24791
       "target_addr": !!int |-
         24822
-    "translated": !!null |-
-      null
+    "translated": |-
+      gold.
+      Is that all right?
+      <RET_N>
   !!int "24862": !RelocatableTranslatableEntry
     "original": |-
       あら それは残念だわ。
@@ -335,8 +392,10 @@
         24793
       "target_addr": !!int |-
         24862
-    "translated": !!null |-
-      null
+    "translated": |-
+      Oh, that's too bad.
+
+      <RET_N>
   !!int "24885": !RelocatableTranslatableEntry
     "original": |-
       どうも ありがとう。
@@ -349,6 +408,8 @@
         24795
       "target_addr": !!int |-
         24885
-    "translated": !!null |-
-      null
-"_note": ""
+    "translated": |-
+      Thanks a lot!
+      <RET_N>
+"_note": |-
+  Vasnune town - Chapter 1

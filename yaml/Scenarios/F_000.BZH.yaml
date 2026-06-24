@@ -239,8 +239,8 @@
         56622
       "target_addr": !!int |-
         25415
-    "translated": !!null |-
-      null
+    "translated": |2-
+       Rudra Harbor <RET_N>
   !!int "25430": !RelocatableTranslatableEntry
     "original": |2-
         カウルの村  <RET_N>
@@ -252,8 +252,8 @@
         56634
       "target_addr": !!int |-
         25430
-    "translated": !!null |-
-      null
+    "translated": |2-
+       Caur Village <RET_N>
   !!int "25445": !RelocatableTranslatableEntry
     "original": |-
       バズヌーンの町<RET_N>
@@ -265,8 +265,8 @@
         56646
       "target_addr": !!int |-
         25445
-    "translated": !!null |-
-      null
+    "translated": |2-
+         Vasnune    <RET_N>
   !!int "25460": !RelocatableTranslatableEntry
     "original": |-
       リシェールの港<RET_N>
@@ -330,8 +330,8 @@
         56778
       "target_addr": !!int |-
         25520
-    "translated": !!null |-
-      null
+    "translated": |2-
+       Rudia Castle <RET_N>
   !!int "25535": !RelocatableTranslatableEntry
     "original": |2-
          岬の洞窟   <RET_N>
